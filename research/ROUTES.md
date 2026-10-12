@@ -26,3 +26,9 @@ Never interpret `PROGRAMME_PROVED` as a novelty or journal gate. See S002/CANDID
 - **C03 3D integral d2:** T13 exact iff **conditional on graph-admissible B**, with *universal* necessity that lower A joint δ_A be primitive; strictly stronger than T11 (nonsplit 2 and 3 lower A arrows, torsion orders 2,3,6). Dimension-four joint-kernel example proves sharpness. Not a full all-cover classification: upper nonprimitive B with delayed mixed-grade membership remains unresolved. Status **PROVISIONAL RESEARCH, NOT ORIGINAL FLAGSHIP**.
 - **C07:** Knudson–Scoville has now appeared in *Topology and its Applications* 388 (September 2026), 109867; filtration-natural Borel–Moore enhancement must clear full final-paper priority. Status RESERVE HIGH COLLISION.
 - **C08:** HHA 2025 section-complex original spectral sequence is established; integrally sharp degeneration/extension criterion could matter but lacks checked source proof and original theorem. Status RESERVE/HIGH FOUNDATIONS.
+
+## S006 decision
+- **C03 baseline retired as HHA flagship**: T16 complete zero-transgression M=0 strict total-3D iff; T17 kernel/cokernel torsion identity for any M. S006 solved explicit determinant-two B obstruction with complete spaces, not dubious cross-label synchrony. Nonzero-M general B classification OPEN. Conventional CW/MV/lattice mathematics and no demonstrated nonroutine HHA application mean this is not presently a paper target.
+- **C08 provisional new priority**: original HHA 2025 section-complex spectral-sequence theorem SOURCE-FIRST full proof audit required; look for nontrivial integral torsion/extension or filtration-natural collapse with falsifiers. Not yet a sourced externally declared open problem or originality-certified.
+- **C07 backup**: after final September 2026 Knudson–Scoville, no recycled Borel–Moore gradient isomorphism; test exact natural filtered improvement.
+- G2/G3/G4 closed. S007 is future only.

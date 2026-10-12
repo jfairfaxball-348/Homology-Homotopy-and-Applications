@@ -1,0 +1,9 @@
+# S006 closeout — mathematical records before integration
+
+One owner-invoked S006. Internal mathematical results: T16 exact iff for ALL M=0 total-3D strict degree-pure cover diamonds (joint primitive lower A AND graph-admissible B); this gives an unconditional no-go for the specified upper columns (1,0),(1,2) independent of mixed-component anticipation. T17 any-M universal kernel diagram primitive joint lower map, injective upper lambda_K, Tor(coker lambda_K)=Tor(ker delta_C) via complete-space MV and top-degree cellular homology. Nonzero-M arbitrary B full iff NOT solved. S005 T12 and Y11 3-cell construction scrutinized; no fatal gap found, no formal certificate.
+
+Originality gate: C03 retired AS PUBLICATION FLAGSHIP because its methodology is standard and no confirmed HHA-significant original application exists. This does not withdraw the proven internal restricted results. C08 HHA 2025 section-complex spectral-sequence integral extension idea is PROVISIONAL, NOT a verified new or open target; published 2026 Knudson–Scoville prevents recycling BM/Morse comparison. Stage G2, G3, G4 remain NOT_STARTED and no Lean/Palomar/paper/arXiv/HHA/outreach performed.
+
+Entry Git evidence: actual 0c7f561373d38eaff972c2766cf22e3f1bfc8a91, tree e4c19630545a5769ad91d1ef77b2aaaea4ec0d10. S005 original authored 34ab70a5904940e12ee49e56f55d62ff34c38a57 and ordinary PR #5 merged as main 0c7f561... with expected two parents. Entry main governance workflow 38267484507/job 114873192934 conclusion success and check-run success; classic statuses [], protection 403 unknown, rulesets [] visible. No competing S006 branch/open PR found.
+
+Outgoing branch commit, tree, PR, full hosted PR checks and independently observed main merge must be read from LIVE evidence after writing; not fabricated here. One complete S007 handoff future/unexecuted.

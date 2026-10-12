@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-12",
-  "last_completed_session": "S005",
-  "recommended_next_session": "S006",
+  "last_completed_session": "S006",
+  "recommended_next_session": "S007",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "C03 PROVISIONAL: exact 3D joint lower A primitive iff within graph-admissible B; full nonprimitive B classification and original HHA significance unresolved",
-  "headline_status": "S005_INTERNAL_3D_EXACT_A_LATCHING_IFF_WHEN_B_GRAPH_ADMISSIBLE__GENERAL_B_AND_NOVELTY_OPEN",
-  "active_campaign": "C03 S005-T12 3D H2 saturation, T13 exact split joint δ_A iff for graph-admissible B, T14 nonsplit 2/3 torsion, T15 sharp 4D joint kernel",
+  "selected_mathematical_problem": "C03 RETIRED AS HHA FLAGSHIP; its zero-transgression 3D iff and general kernel torsion obstruction retained as baseline. C08 section-complex integral-extension route provisional, unselected, source-proof gate required",
+  "headline_status": "S006_INTERNAL_ZERO_TRANS­GRESSION_FULL_3D_IFF_AND_KERNEL_TORSION_DEFECT__C03_NOT_HHA_FLAGSHIP__C08_PROVISIONAL",
+  "active_campaign": "S006-T16 complete M=0 graph-B plus primitive-joint-A iff; S006-T17 universal kernel/cokernel torsion balance; C08 provisional next theorem hunt",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_CONDITIONAL_3D_IFF_PROOF_AND_UNIVERSAL_A_NECESSITY__NOT_NOVEL_CERTIFIED"
+      "status": "IN_PROGRESS_C03_RETIRED_AS_FLAGSHIP_C08_SOURCE_FIRST_NO_NOVELTY_PROOF"
     },
     {
       "id": 2,
@@ -93,9 +93,18 @@
     ],
     "s004_merge_tree": "0c283dfee1915d42f6e7c9dcebc556d0765a1f16",
     "s005_entry_main": "ee82c9168c494381518fec826332cbfa2aa254bc",
-    "s005_outgoing_merge_sha": "VERIFY_REMOTELY_AFTER_MERGE"
+    "s005_outgoing_merge_sha": "0c7f561373d38eaff972c2766cf22e3f1bfc8a91",
+    "s005_authored_commit": "34ab70a5904940e12ee49e56f55d62ff34c38a57",
+    "s005_pr": 5,
+    "s005_merge_parents": [
+      "ee82c9168c494381518fec826332cbfa2aa254bc",
+      "34ab70a5904940e12ee49e56f55d62ff34c38a57"
+    ],
+    "s005_merge_tree": "e4c19630545a5769ad91d1ef77b2aaaea4ec0d10",
+    "s006_entry_main": "0c7f561373d38eaff972c2766cf22e3f1bfc8a91",
+    "s006_outgoing_merge_sha": "VERIFY_FROM_LIVE_REMOTE_AFTER_MERGE"
   },
-  "source_inspection": "S005 focused original Carlsson-Zomorodian, Torras 2023, Pennig-Torras 2024, Bauer et al, Ramras 2026, HHA Brotherston 2025, Knudson Scoville September 2026 abstracts/selected theorem; no exhaustive proof equivalence",
+  "source_inspection": "S006 revisited original Ramras 2026 HTML Theorem 1.1, Torras 2023 open article indexing, Torras/Pennig 2024 original bibliographic/published PDF metadata, Carlsson-Zomorodian 2007 original Theorem 2 inherited directly, Brotherston HHA 2025 abstract, Knudson-Scoville final September 2026 indexed intro Theorem 3.1, and Vaupel et al HHA 2025 author abstract; full primary proof-equivalence NOT inspected",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null
@@ -110,15 +119,16 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Independent adversarial reconstruction of S005-T13 full strict 3D 2-/3-cell proof and cellular H2 saturation necessity; not Lean-checked.",
-    "Full total-3D B classification under actual per-labelled meet-exactness, especially nonprimitive upper λ_B=e1,e1+2e2; mixed-grade membership anticipations invalidate naive necessity.",
-    "Compare exact theorem/proof equivalence with original literature and seek genuinely significant HHA consequence; retire C03 if only classical cofiber/cell algebra.",
-    "Examine C07 filtration-natural Borel–Moore construction after Knudson–Scoville 2026 publication and C08 section-complex spectral-sequence extension.",
-    "S006 is FUTURE UNEXECUTED; source/claim mirrors and release gates remain governed; independently verify outgoing S005 Git refs and hosted checks."
+    "Adversarial independent reconstruction and eventual formalization of S006-T16 and T17; all proofs internal only.",
+    "For arbitrary nonzero M, construct a genuine total-3D non-graph-admissible B cover or derive sharper universal obstruction; kernel torsion balance alone is not a full iff.",
+    "Originality of S006-T16/T17 not certified; C03 removed as HHA publication flagship due classical-cellular-lattice dependence and no clear deep application.",
+    "Source-first primary full-proof check of HHA 2025 section complexes before fixing falsifiable C08 extension/collapse theorem; consider other sourced HHA-significant alternatives if C08 collapses.",
+    "S007 FUTURE UNEXECUTED; separately verify outgoing S006 SHA, PR, merge parent/tree and hosted checks."
   ],
   "blockers": [
-    "Even a sharp conditional 3D CW realization iff may be textbook mapping cylinder/relative cell algebra; no novel HHA flagship or Stage-2 success.",
-    "General nonprimitive B case unresolved; all-cover obstruction via U2 mixed-grade union requires unjustified intersection equality.",
-    "No Lean/Palomar/publication authorisation, original-source comprehensive equivalence or proof certification."
+    "No defensible novel HHA flagship; C03 baseline is a narrow dimension-three realization/lattice criterion built on standard MV, cellular saturation and Hurewicz.",
+    "Full general nonzero M and non-graph-admissible B remains open; no construction or necessity claim fabricated.",
+    "C08 integral section-complex target is only a research hypothesis pending the original published full proof and a nonroutine gap.",
+    "No Lean, Palomar, paper, release or external submissions authorized."
   ]
 }

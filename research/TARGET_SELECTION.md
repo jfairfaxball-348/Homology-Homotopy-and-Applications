@@ -30,3 +30,6 @@ C03 restricted 3D square realization now internally proved (T11) and graph iff (
 
 ## S005 rescore and decision
 C03 now has a genuine **iff** in a precise graph-admissible-B subfamily and a universal A-side obstruction, including nonsplit transitions. Proposed F/S/N/P/L/E = 5/3/1/4/1/4: **40/65** unchanged because novelty evidence remains only 1/5; a textbook cofiber+Hurewicz+MV combination is not automatically publishable. Prefer a wider B obstruction/counterexample or a directly sourced high-significance theorem before Stage 2; hard novelty stop may retire C03. C07 reserve must reflect its final September 2026 publication; C08 original HHA 2025 section theory remains prior art. Score is judgment, not novelty certification.
+
+## S006 score and no-premature-flagship decision
+C03 exact M=0 full iff and all-M kernel torsion defect are internally strong but still methodologically standard. F/S/N/P/L/E estimate 5/3/1/5/1/4 = 42/65 (5×3+3×3+1×3+5×2+1+4); despite score increase, **RETIRED AS HHA FLAGSHIP** for absent demonstrably new application and proof-level novelty evidence. Score is not priority. C08 selected only as **NEXT RESEARCH SOURCE-INSPECTION CHALLENGER**, not Stage-1 theorem selection; C07 remains fallback. For C08 and C07, novelty score INDETERMINATE until exact original published proofs and new falsifiable claims are checked.

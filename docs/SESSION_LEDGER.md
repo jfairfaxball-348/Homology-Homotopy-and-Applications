@@ -8,3 +8,5 @@
 | S004 | 2026-10-12 | Integral one-critical graph lattice iff, 2D repair and actual uniform 3D cover | T8 iff primitive combined B latching; T9 arbitrary top B 2D repair; T10 H2 joint-kernel; T11 uniform total-3D B→A d2 sufficient theorem, arbitrary nonsplit upper A, Z/4. No original-HHA novelty pass. | S005 FUTURE, UNEXECUTED: general 3D criterion or novelty kill/pivot |
 
 |S005|2026-10-12|COMPLETED MATHEMATICS INTERNAL|Exact total-3D iff for graph-admissible B and primitive joint lower A; universal A necessity; 2/3/6 torsion, sharp 4D escape; nonprimitive B still unresolved; source priority adverse; future S006 unexecuted|sessions/S005/CLOSEOUT.md|
+
+|S006|2026-10-12|COMPLETED SYMBOLIC MATHEMATICS, HHA-FLAGSHIP PIVOT|T16 full M=0 3D iff; determinant-two B impossible without synchrony; T17 all-M kernel torsion defect; C03 retired as paper flagship, C08 provisional, novelty unpassed|sessions/S006/CLOSEOUT.md; S007 FUTURE UNEXECUTED|

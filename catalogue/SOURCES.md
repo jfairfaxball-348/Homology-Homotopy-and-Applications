@@ -35,3 +35,12 @@ Access statuses describe **what was seen**, not legal ability to access a comple
 
 ### S005 source audit limit
 Directly revisited original Ramras 2026 publisher HTML introduction/Theorem 1.1, Torras-Casas 2023 original full-text HTML sections, original arXiv abstracts for Bauer et al., Brotherston and Knudson–Scoville, original HHA section-complex abstract and Carlsson–Zomorodian original theorem inherited from S003. No full historical proof equivalence, authenticated bibliographic exhaustive search or HHA acceptance claim. See sessions/S005/PRIOR_ART.md.
+
+## S006 source-access reconciliation
+- SRC-0007: direct original open publisher HTML read through Ramras 2026 Theorem 1.1 (connectivity-range nerve), not a 3D integer cover realization theorem.
+- SRC-0009/0010: 2023 persistent MVSS and 2024 interleaving MVSS remain statement-inspected/selected extracts only, not comprehensively proof-compared.
+- SRC-0020: original Carlsson–Zomorodian 2007 Theorem 2 statement inherited from S003 direct inspection, proof explicitly omitted there; no 2009 proof-level audit.
+- SRC-0022: Brotherston HHA 2025 model-structures article author abstract, no full proof audit.
+- SRC-0023: original preprint abstract + publisher indexed final September 2026 introduction describing Theorem 3.1 Borel–Moore/Morse-chain isomorphism; full publisher page/proof not independently read. Access remains ABSTRACT_INSPECTED, do not mislabel search-indexed text as full article.
+- SRC-0012: section-complex HHA 2025 author abstract/Theorem 1.1 previously sourced, full original proof not read this session.
+This is a targeted comparative literature check, NOT an exhaustive novelty/priority audit or Stage 2.
