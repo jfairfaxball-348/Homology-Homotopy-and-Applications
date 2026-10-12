@@ -28,3 +28,9 @@
 - **DEC-0029:** Independent S005-T12/13 cellular audit found no fatal proof gap in the bounded class; neither formal verification nor source novelty clearance is inferred.
 - **DEC-0030:** C03 **RETIRED AS PUBLICATION FLAGSHIP** due no defensible original HHA-significant contribution despite internal exact theorem. Do not delete its research archive. C08 source-first and C07 secondary, both provisional; no fixed G2 candidate.
 - **DEC-0031:** Keep G2/G3/G4 and owner external gates closed. Full separate S007 future prompt prepared; no S007 execution.
+
+- **DEC-0032 S007:** Source-first VHT original arXiv proof inspected; Prop 3.11 already proves subdivision collapse; do not pitch old theorem. Field splitting is not automatic over Z.
+- **DEC-0033:** Accept complete S007-T18 Moore-wedge cofiber Z/4 vs Z/2⊕Z/2 witness with equal induced homology maps as internal classical algebra, explicitly reject promotion to an actual C08 section-complex theorem.
+- **DEC-0034:** Reject generic filtration-natural Morse as originality: T19 open-edge crossing-pair counterexample, 2013 filtered Morse prior art, 2026 Knudson–Scoville BM identification.
+- **DEC-0035:** Independent HHA 2026 PID block attempt killed as trivial one-arrow ×2; no novel theorem or counterexample to field publication.
+- **DEC-0036:** NO_VIABLE_TARGET_YET. Keep G2/G3/G4 closed, future S008 actual 2-height h calculation; no external action.

@@ -32,3 +32,9 @@ Never interpret `PROGRAMME_PROVED` as a novelty or journal gate. See S002/CANDID
 - **C08 provisional new priority**: original HHA 2025 section-complex spectral-sequence theorem SOURCE-FIRST full proof audit required; look for nontrivial integral torsion/extension or filtration-natural collapse with falsifiers. Not yet a sourced externally declared open problem or originality-certified.
 - **C07 backup**: after final September 2026 Knudson–Scoville, no recycled Borel–Moore gradient isomorphism; test exact natural filtered improvement.
 - G2/G3/G4 closed. S007 is future only.
+
+## S007 proof-first pivots
+- C08: **main future gate** is actual simplicial height section construction, not just two-level homotopy cofiber analogy. T18 exact Z/4 vs (Z/2)² cofiber witness using two maps of Moore wedges with equal homology maps; VHT original Prop3.11 kills naive collapse. Stage1 NO_VIABLE_TARGET_YET.
+- C07: T19 simple filtered open interval matching obstruction; Knudson–Scoville 2026 and Mischaikow–Nanda 2013 already cover major claim space, HIGH COLLISION.
+- Third HHA 2026 integral blocks: one-arrow ×2 elementary torsion obstruction, killed as flagship; a genuinely new higher-parameter lattice theorem not formulated.
+- C03 T16/T17 retained baseline, no restart.

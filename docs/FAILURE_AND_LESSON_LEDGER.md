@@ -30,3 +30,9 @@
 - **S006-F2 GENERAL LIMIT:** For arbitrary M, top H3 controls K=ker M, not B; ker delta_C may have torsion, making an upper λ_K nonprimitive consistently with necessary MV. Never assert all B graph-admissible absent M=0 or stronger hypotheses.
 - **S006-F3 PRIORITY KILL:** Internally sharp CW dimension-three integer lattice criterion is not evidence of an original HHA-quality application. Retire C03 as paper flagship; inspect original HHA 2025 section-complex paper and final 2026 open-complex discrete Morse publication before fixing new theorem.
 - **S006-F4 PROOF ACCOUNTING:** Torsion balance Tor(coker λ_K)=Tor(ker δ_C) follows from a free quotient K11/H3(F); an inclusion D_K→H3(F) need not be primitive if ker δ_C has torsion.
+
+- **S007-F1 PRIOR ART KILL:** VHT original Proposition 3.11 proves the subdivision bound on collapse, and Example 3.12 nonzero d2; never recycle either as a new theorem.
+- **S007-F2 INTEGRAL EXTENSION:** Even identical maps on homology do not determine integral cofiber H2: explicit Moore-wedge f0/f1 yields (Z/2)² vs Z/4; full chain relations recorded. This is a standard cofiber witness and DOES NOT prove a section-complex height counterexample.
+- **S007-F3 MISSING GEOMETRY:** A proposed cone-prism homotopy pushout has not been independently identified with actual S_h section spaces/filtration; no shortcut from abutment equivalence to same E2 pages.
+- **S007-F4 MORSE COLLISION:** Ordinary acyclic edge matching crossing birth times fails filtered naturality; equal-birth sufficient reductions known since Mischaikow–Nanda 2013.
+- **S007-F5 HHA 2026 PID COLLISION:** Integer ×2 torsion immediately obstructs integral interval decomposition despite fieldwise interval decomposability, too elementary for new HHA flagship.

@@ -50,3 +50,12 @@ JSON catalogue is normative for IDs, statuses, qualifiers and sources. No first 
 - **CLM-0034 PROGRAMME_PROVED:** determinant-two B upper amalgam with A=M=0 is unconditionally impossible in total 3D (complete-space top-dimensional homology saturation).
 - **CLM-0035 HEURISTIC:** C08 integral section-complex spectral-sequence extension/degeneration problem could be a research target; not proved open/new.
 Source/claim JSON retains normative IDs/status; S005-CLM-0031 remains historically accurate for what S005 had NOT proved, superseded on its explicit M=0 subcase but not for arbitrary M.
+
+## S007 claims JSON/MD mirror
+- CLM-0036 SOURCE_STATED: VHT original T1.1, P3.8 and P3.11 established (SRC-0012 proof inspected for arXiv v1 only).
+- CLM-0037 PROGRAMME_PROVED: T18 **finite CW cofiber** same H_* map / different integral H̃2, Z/4 vs (Z/2)². NOT actual section-complex example and NOT novel.
+- CLM-0038 PROGRAMME_PROVED: T19 filtered open-edge matching impossibility; 2013 filtered Morse prior art.
+- CLM-0039 PROGRAMME_PROVED: elementary Z --2--> Z not integral interval-decomposable but all field reductions are; NOT refuting 2026 field theorem.
+- CLM-0040 HEURISTIC: possible actual 2-level section-space integral extension model, **not constructed**.
+- CLM-0041 SOURCE_STATED: 2026 open-complex BM/Morse and 2013 filtration-Morse antecedents (SRC-0023/0024).
+NO HHA flagship, novelty G2 or formal certificate.

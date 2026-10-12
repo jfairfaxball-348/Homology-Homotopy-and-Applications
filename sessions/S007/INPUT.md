@@ -1,0 +1,7 @@
+# S007 owner invocation and independently observed entry
+
+The owner explicitly said "Run this session" and supplied the live GitHub authoritative/NEXT_SESSION_PROMPT.md URL on 2026-10-12. Only S007 is authorized. This is a faithful message summary, not an invented transcript/hash.
+
+Observed live main 2f274f2a8b67b882df95119b3dc66ed9857d9cbd with tree ecdc6d5e971ee689637160e7b6799abf2bc39b43. S006 authored e7c2f60e13ee14b1d1edcd1253b6d7e8609293b6, one authored commit on PR #6; ordinary merge 2f274f2a8b67b882df95119b3dc66ed9857d9cbd has actual ordered parents [0c7f561373d38eaff972c2766cf22e3f1bfc8a91, e7c2f60e13ee14b1d1edcd1253b6d7e8609293b6]. GitHub PR #6 closed/merged, 1 commit, 21 files. Prior PRs #1–#6 observed via search. No S007 branch from branch search; no new open competing PR found in listed recent PR results. Existing workflow .github/workflows/repository-integrity.yml, last merge push run 38271326548 completed success and main governance check completed success; authored S006 has hosted governance checks success. Classic commit statuses [] cannot independently show CI. Accessible rulesets []; protection endpoint 403 UNKNOWN. No claim of reviewing inaccessible protections.
+
+Read AGENTS, START_HERE, STATE, protocol, JSON and MD catalogues, routes/selection, S006 complete mathematics/adversarial/provenance, T12/T13 dependencies as recapped by S006, and ledgers. S007 has one-stage research scope; no Lean, Palomar, manuscript or outside release.
