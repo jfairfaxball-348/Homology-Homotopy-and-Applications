@@ -22,3 +22,5 @@ These are **search hypotheses**, not known open questions. Their final problem s
 
 Reject any target that is trivial by standard nerve lemma/Quillen Theorem A/discrete Morse theory without a significant new element. No formalisation is worthwhile until a proof-worthy target survives the initial novelty audit.
 
+## S003 rescreen (not a fresh 12-candidate tournament)
+C02 generic one-parameter integer matrix realisation T5 receives **novelty 0/5** for an HHA flagship despite complete internal proof; this is classic mapping-cylinder/cofiber topology, adjacent to Carlsson–Zomorodian 2007 field-realisation theorem and standard hocolim. C03 revised to precise restricted 3D one-critical square geometry, HHA fit 5, potential significance 4, novelty evidence 1, proof feasibility 2, Lean 1, exposition 3: weighted **39/65**, *provisional, not a selected paper target*. Explicit priority gate must compare the eventual strengthened theorem rather than the existence of a cofiber model.

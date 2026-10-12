@@ -23,3 +23,5 @@ Access statuses describe **what was seen**, not legal ability to access a comple
 |SRC-0017|ABSTRACT_INSPECTED|[Ivanov–Mikhailov–Pavutnitskiy, Limits via relations, HHA 28(1) 197–213 (2026)](https://doi.org/10.4310/HHA.2026.v28.n1.a10)|
 |SRC-0018|METADATA_ONLY|[Chanavat–Hadzihasanovic, Diagrammatic sets as a model of homotopy types, HHA 28(1) 99–124 (2026)](https://doi.org/10.4310/HHA.2026.v28.n1.a5)|
 |SRC-0019|STATEMENT_INSPECTED|[SHERPA publisher policy: International Press (last reviewed 2026-01-15)](https://v2.sherpa.ac.uk/id/publisher_policy/101)|
+|SRC-0020|STATEMENT_INSPECTED|[Carlsson–Zomorodian, The Theory of Multidimensional Persistence, 2007 source / DCG 2009](https://fodava.gatech.edu/sites/default/files/FODAVA-07-01.pdf); original Theorem 2 read; original 2007 proof omitted.|
+|SRC-0021|SECONDARY_ONLY|[Dugger, A Primer on Homotopy Colimits](https://people.math.rochester.edu/faculty/doug/otherpapers/hocolim2.pdf); indexed §14.1 snippet only, direct PDF blocked.|
