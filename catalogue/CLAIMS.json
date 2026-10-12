@@ -4,35 +4,112 @@
     {
       "id": "CLM-0001",
       "status": "SOURCE_STATED",
-      "claim": "HHA invites important work in homotopy theory, algebraic topology and genuine applications; values originality, significance and general interest.",
+      "claim": "HHA seeks significant original homotopy/algebraic-topology and genuine applications.",
       "sources": [
         "SRC-0001"
       ],
-      "scope": "publisher indexed official statement"
+      "scope": "Publisher indexed excerpt"
     },
     {
       "id": "CLM-0002",
       "status": "SOURCE_STATED",
-      "claim": "HHA indexed author information says submissions via EditFlow, final hha.cls class, over 30 pages rarely accepted.",
+      "claim": "Indexed HHA author info mentions EditFlow, hha.cls and rare acceptance above 30 formatted pages.",
       "sources": [
         "SRC-0002",
         "SRC-0003"
       ],
-      "scope": "reverify before release"
+      "scope": "Current full policy unverified"
     },
     {
       "id": "CLM-0003",
       "status": "INHERITED_UNVERIFIED",
-      "claim": "A specific HHA-suitable new theorem exists within this research programme.",
+      "claim": "A genuinely original HHA-quality theorem will emerge from this programme.",
       "sources": [],
-      "scope": "open programme objective, not result"
+      "scope": "Goal only"
     },
     {
       "id": "CLM-0004",
       "status": "INHERITED_UNVERIFIED",
-      "claim": "A Lean formalisation can support any eventual chosen target without major library development.",
+      "claim": "The eventual exact geometric theorem has a feasible Lean certification path.",
       "sources": [],
-      "scope": "must be assessed per candidate"
+      "scope": "No compiler/library survey yet"
+    },
+    {
+      "id": "CLM-0005",
+      "status": "SOURCE_STATED",
+      "claim": "Current literature includes functorial nerve and multinerve homotopy connectivity constructions.",
+      "sources": [
+        "SRC-0007",
+        "SRC-0008"
+      ],
+      "scope": "Ramras Theorem 1.1 and abstract, not full proof audit"
+    },
+    {
+      "id": "CLM-0006",
+      "status": "SOURCE_STATED",
+      "claim": "Persistent Mayer–Vietoris spectral sequences and their extension problem are established.",
+      "sources": [
+        "SRC-0009",
+        "SRC-0010"
+      ],
+      "scope": "Primary accessible sections and abstracts"
+    },
+    {
+      "id": "CLM-0007",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T1: mapping-cone three-cover transgression exact sequence with contractible pair intersections and kernel/cokernel identifications.",
+      "sources": [],
+      "scope": "Full internal argument S002/MATHEMATICS; classical tool, originality NOT asserted"
+    },
+    {
+      "id": "CLM-0008",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T2: each finite integer matrix occurs as three-cover integral d2 transgression.",
+      "sources": [],
+      "scope": "Finite CW mapping cone explicit internal proof; no Lean, novelty unresolved"
+    },
+    {
+      "id": "CLM-0009",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T3: any finite-chain compatible split-injective free abelian matrix diagram is realised by nested finite CW triple covers.",
+      "sources": [],
+      "scope": "Inductively compatible wedge/cylinder construction; not novel certified"
+    },
+    {
+      "id": "CLM-0010",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T4: if all intersections connected and positive intersection homology lies at fixed cardinality s, union homology is natural sum of cardinality-shifted groups.",
+      "sources": [],
+      "scope": "Elementary spectral-sequence collapse, likely established prior art; not flagship"
+    },
+    {
+      "id": "CLM-0011",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Degree 0,1,2 covers have identical local intersection homology isomorphism types but respectively Z⊕Z, zero, and Z/2 total reduced homology in degrees 2,3.",
+      "sources": [],
+      "scope": "Follows from T2 and mapping cone LES; adversarial counterexample"
+    },
+    {
+      "id": "CLM-0012",
+      "status": "HEURISTIC",
+      "claim": "A sharp nonsplit or multiparameter transgression realisability/obstruction result may remain publishably original.",
+      "sources": [
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0015"
+      ],
+      "scope": "Provisional S003 research target, not a named open problem or novelty guarantee"
+    },
+    {
+      "id": "CLM-0013",
+      "status": "SOURCE_STATED",
+      "claim": "HHA published substantive work on section complexes, geodetic magnitude homology, and n-parameter block persistence in 2025–26.",
+      "sources": [
+        "SRC-0012",
+        "SRC-0013",
+        "SRC-0015"
+      ],
+      "scope": "Original metadata/abstract and selected statement levels"
     }
   ]
 }

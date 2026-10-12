@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-12",
-  "last_completed_session": "S001",
-  "recommended_next_session": "S002",
+  "last_completed_session": "S002",
+  "recommended_next_session": "S003",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "Find a significant original HHA-fit theorem or counterexample; prove/certify, formalise in Lean, audit novelty, register with Palomar, write and submit",
-  "selected_mathematical_problem": null,
-  "headline_status": "EXPLORATORY_NOT_SELECTED",
-  "active_campaign": null,
+  "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
+  "selected_mathematical_problem": "C02 PROVISIONAL: three-cover integral transgression persistence realisability/obstruction beyond classical split-injective finite-chain mapping cones",
+  "headline_status": "PROVISIONAL_TARGET_PROOF_FIRST_NOVELTY_UNRESOLVED",
+  "active_campaign": "C02 cover transgression / S002-T1..T3",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "READY_FOR_S002"
+      "status": "IN_PROGRESS_PROVISIONAL_FLAGSHIP_NOT_NOVELTY_CLEARED"
     },
     {
       "id": 2,
@@ -60,9 +60,17 @@
   "last_verified_git": {
     "initial_empty_seed_commit": "aff7dc3a665baa38bfc34c7ccad821304e09c56a",
     "initial_seed_tree": "8a5a9dc7ef1d605310b24f257dbcce30d0e671a1",
-    "bootstrap_pr_merge_sha": "TO_BE_READ_FROM_REMOTE_AFTER_MERGE"
+    "bootstrap_authored_commit": "0fa5ee56b734e5ca5b398bf14001845a978dd40e",
+    "bootstrap_pr": 1,
+    "bootstrap_pr_merge_sha": "41afb0e21adf27210cd693ed39770c18f9715f69",
+    "bootstrap_merge_parents": [
+      "aff7dc3a665baa38bfc34c7ccad821304e09c56a",
+      "0fa5ee56b734e5ca5b398bf14001845a978dd40e"
+    ],
+    "s002_entry_main": "41afb0e21adf27210cd693ed39770c18f9715f69",
+    "s002_outgoing_merge_sha": "VERIFY_REMOTELY_AFTER_MERGE"
   },
-  "source_inspection": "Publisher-indexed aims, author guidance and class guide found; direct publisher site blocked in browser",
+  "source_inspection": "2024-2026 HHA papers verified through publication pages and DOI metadata; Ramras primary theorem web text inspected; some HHA publisher pages 403, majority mathematical papers abstract or selected-text only",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null
@@ -77,11 +85,13 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Independently inspect recent HHA volumes and identify realistic editorial-fit frontier results.",
-    "Produce at least 8-12 specific, citable candidate problems with novelty risk and proof/Lean feasibility.",
-    "Select a flagship with a precise falsifiable conjecture and immediate proof/disproof attack, rather than a generic mathematical area.",
-    "Verify exact up-to-date submission, copyright, preprint, AI/disclosure and formatting requirements before release.",
-    "Re-read main after S001 PR merge and record exact observed SHAs in next session."
+    "Full primary-source novelty equivalence audit of mapping-cone and persistent Mayer–Vietoris universality",
+    "S003 attack on nonsplit finite filtration and 2-parameter diagrams, find theorem or certified obstruction",
+    "Do not call S002-T1..T3 original until a substantial novelty criterion survives",
+    "Verify current publisher preprint, disclosure and copyright rules directly before release",
+    "Pin actual S002 outgoing PR, hosted CI and postmerge main in next invoked session"
   ],
-  "blockers": []
+  "blockers": [
+    "Novelty unresolved; no full geometric mathlib support audit; publisher's complete current author policy not directly verified"
+  ]
 }
