@@ -603,6 +603,60 @@
         "SRC-0035"
       ],
       "scope": "UNRESOLVED priority/significance; exact 1981/2026 theorem comparison and nonroutine application needed; G2 remains NOT_STARTED."
+    },
+    {
+      "id": "CLM-0070",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S012 T32: for any Ab-valued diagram on the punctured Boolean n-cube, n>=2, its derived colimits are the homology of the truncated outgoing Koszul cubical complex; L_{n-1} colim is naturally the global bottom joint outgoing kernel.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0038"
+      ],
+      "scope": "S012/MATHEMATICS projective-generator/Cech cubical calculation; internally symbolic, standard cellular Roos technique, not priority certified."
+    },
+    {
+      "id": "CLM-0071",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Under S011 T28, punctured-cube derived colimits vanish in degrees 1..n-2, L_{n-1} is a free rank-d_b group, and top latching colim injects with free cokernel.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0038"
+      ],
+      "scope": "S012/MATHEMATICS full Koszul H1..Hn-1=0, H0 free; canonical isomorphism; no computational tests."
+    },
+    {
+      "id": "CLM-0072",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S012 T33 conditional classical BK spectral sequence: for finite CW/simplicial cube diagrams whose every integral H_q satisfies T28, E2 for hocolim over punctured cube has only p=0,n-1 columns; for n>=3 only d_{n-1} can be nonzero, while n=2 collapses at E2.",
+      "sources": [
+        "SRC-0038",
+        "SRC-0025"
+      ],
+      "scope": "S012/MATHEMATICS; assumes actual full-cube homology T28, n>=2, standard BK spectral sequence. No vanishing differential, no extension splitting or originality asserted."
+    },
+    {
+      "id": "CLM-0073",
+      "status": "HEURISTIC",
+      "claim": "The unrestricted mixed-band integral rigidity iff for 3x3 grids in two and three dimensions remains unresolved; a global-bottom lifting attempt fails on genuine middle induced bands, not the conjecture.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0033"
+      ],
+      "scope": "S012/MATHEMATICS 2D/3D analytic obstruction, no full all-hypotheses counterexample or complete compatible integral idempotents."
+    },
+    {
+      "id": "CLM-0074",
+      "status": "HEURISTIC",
+      "claim": "T28/T32/T33 form a novel publishable HHA flagship.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0033",
+        "SRC-0034",
+        "SRC-0035",
+        "SRC-0038",
+        "SRC-0039"
+      ],
+      "scope": "S012 priority and impact FAIL TO CLEAR: T29 standard projective latching, T32 cellular Roos, T33 BK; T28 original significance UNKNOWN. G2 not started."
     }
   ]
 }

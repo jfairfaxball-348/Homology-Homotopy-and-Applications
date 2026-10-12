@@ -58,3 +58,10 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - **S011-F3 EDGE PURITY:** A generating edge ×2 (constant remaining axes) can split over every field, so primitive generating cokernels cannot be dropped from T28. Q plus finitely many primes also cannot certify integrality.
 - **S011-F4 GRID FAIL:** Induced band {1}×{0,1,2}² has zero global bottom and nonzero terminal death at (1,2,2), a genuine all-precondition failure of the global-bottom lift. It does NOT refute the unknown general-grid integral decomposition.
 - **S011-F5 PRIORITY:** Finite-poset projective/latching splitting closely resembles 1981 work and 2026 projective persistence proofs. Do not present internal T28/T29 as externally new; HHA2026 journal-final PDF was 403.
+
+
+## S012 failure/priority controls
+- **S012-F1 STANDARD T29:** fieldwise poset representable descent is canonical finite Reedy-projective/latching saturation and 1981 projective-poset literature predates it; do not launch a paper on T29 alone. Full 1981 proof inaccessible: exact text-equivalence UNKNOWN.
+- **S012-F2 DERIVED CLASSICAL:** punctured Boolean cube cellular derived colimit (T32) is a Roos/bar construction specialisation; BK spectral sequence (T33) already exists. Sparse E2 does NOT imply d_{n-1}=0 for n>=3; could conceal torsion/extensions.
+- **S012-F3 MIXED BAND:** on 3x3 in 2D as well as 3D, bottom-zero true middle band has nonzero local death kernel; local slice lifts do not provide natural commuting complements in an arbitrary mixed module. No false counterexample declaration.
+- **S012-F4 PROVENANCE:** full 1981 paper and HHA2026 final proof remain inaccessible. Original selected 2026 preprints inspected but not comprehensive theorem comparison. No first-novelty certification or HHA flagship.

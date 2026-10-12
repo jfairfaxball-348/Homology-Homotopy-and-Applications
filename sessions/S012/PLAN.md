@@ -1,0 +1,7 @@
+# S012 preregistered proof-first scope
+
+1. Priority kill BEFORE originality: inspect 1981 Hoppner–Lenzing original full proof if accessible; exact LLO HHA final versus arXiv v4; 2026 Upegui Keagy and Chakraborty–Ghosh original theorem proofs; search current projective poset/Reedy/PID and relative Koszul literature. Evidence-level and access limitations preserved.
+2. Hostile independent symbolic audit of arbitrary-n Boolean T28/T29: field support classification, all-face UCT and 1-edge purity, death joint kernels and integral natural splitting, projective latching induction, all primes, zero/all-full boundaries, n2/n3/n4. Explicit failure attempts.
+3. Attack two- and three-dimensional mixed-height grids, prove coherent global splitting or a full all-hypotheses counterexample. No inference from induced-band failure of global-bottom lifting to failure of decomposition.
+4. Derive a genuinely homological consequence using derived colimits and a homotopy-colimit spectral sequence; detect whether it is classical, whether a nonroutine example exists, and preserve HHA impact gate.
+5. No mathematical numerical search/CAS, hence no bounded enumeration campaign. Administrative repository static validator and CI do not certify mathematical propositions. Synchronise all catalogues, ledgers, S012 dossier, S013 future-only handoff; single atomic authored branch commit and ordinary non-force merge when checks permit.

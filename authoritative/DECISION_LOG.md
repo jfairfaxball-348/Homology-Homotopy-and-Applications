@@ -63,3 +63,12 @@
 - **DEC-0056:** Accept **INTERNAL** T29 finite-poset projective descent via canonical latching colimits and integral saturation; likely classical, 1981 projective-poset theorem and 2026 projective persistence literature demand exact priority collision audit.
 - **DEC-0057:** Accept restricted longer-grid T30 top-monomorphic upsets and T31 bottom-epimorphic downsets; genuine induced middle band kills naive global-bottom kernel lift. General mixed-grid conjecture UNRESOLVED.
 - **DEC-0058:** Keep G2/G3/G4 NOT_STARTED and Palomar/manuscript/arXiv/HHA/contact unopened. T28 PROVISIONAL_INTERNAL_ALL_N_CANDIDATE, original HHA final proof inaccessible, exact 1981/2026 priority UNKNOWN. Prepare S012 future only.
+
+
+## S012 decisions
+- **DEC-0059:** S011 authored 17ab0625 parent ee89ea89 tree82ebb326, PR12 ordinary two-parent merged main fed65428 same tree verified; no competing S012, governance job passed, zero statuses not passed, protection403 UNKNOWN.
+- **DEC-0060:** Retain S011-T28 after hostile symbolic n2/n3/n4/UCT and naturality audit as INTERNAL only; no external/Lean proof validation.
+- **DEC-0061:** Treat T29 as classically colliding projective-Reedy-poset lemma; original 1981 full proof NOT accessed, no literal theorem equivalence asserted.
+- **DEC-0062:** Record internal T32 derived-colimit Koszul resolution and T33 sparse classical BK spectral-sequence consequence; NOT novel spectral-sequence machinery and nonroutine HHA application unproved.
+- **DEC-0063:** General mixed-longer-grid dimension2/3 remains unsolved; induced middle band discredits naive lifting only.
+- **DEC-0064:** **NO_VIABLE_HHA_FLAGSHIP_YET** despite mathematical progress. G2/G3/G4 closed; no external release, S013 FUTURE only.
