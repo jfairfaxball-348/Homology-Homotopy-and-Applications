@@ -215,15 +215,15 @@
       "origin": "Original author-hosted published-layout 2013 journal 24-page PDF",
       "access": "PROOF_INSPECTED",
       "limitation": "S008 directly read original journal-style Theorem 4.3 and Proposition 4.4 pp340-341 with compatible filtered chain proof; full paper not read line-by-line.",
-      "observed": "Filtered Morse matching with b(Q)=b(w(Q)), filtered ψ/φ chain equivalences, preserving persistence; C07 novelty collision."
+      "observed": "Filtered Morse matching with b(Q)=b(w(Q)), filtered ψ/φ chain equivalences, preserving persistence; C07 novelty collision. Supplement also read the original Oxford 19-page deposit §§4–5 pp7–9,12–13 (direct alternate URL in SUPPLEMENT_PRIOR_ART); PID already explicit."
     },
     {
       "id": "SRC-0025",
       "title": "Lebovici–Lerch–Oudot, Local characterization of block-decomposability for multiparameter persistence modules, original arXiv 2402.16624v4, HHA 28(1) (2026) 175–196",
       "url": "https://arxiv.org/pdf/2402.16624",
       "origin": "Original arXiv v4 author preprint 19pp; final HHA DOI 10.4310/HHA.2026.v28.n1.a9",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "Original 2024v4 pdf opened; Theorem4/14, Definitions 3/7/9 and selected proofs pp 13–18 examined; journal final 2026 proof-equivalence NOT verified.",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Original 2024v4 pdf opened; Theorem4/14, Definitions 3/7/9 and selected proofs pp 13–18 examined; journal final 2026 proof-equivalence NOT verified. Supplement directly read relevant proof pp11–17 Lemmas17/18 and §§5–7; not every dependency audited.",
       "observed": "Field pfd n-block decomposability iff all cube restrictions, equivalently k-middle exactness. Explicitly poses broader Problem1 efficient finite X-resolution length ≤k, not solved in paper."
     },
     {
@@ -234,6 +234,33 @@
       "access": "METADATA_ONLY",
       "limitation": "Index returned correct HHA volume/title/pp61–90 but direct publisher PDF open failed HTTP 403. No journal PDF proof inspected.",
       "observed": "Confirms official publisher title/pages and a discovered URL; cannot verify differences from arXiv 2201.12617v1."
+    },
+    {
+      "id": "SRC-0027",
+      "title": "Nanda–Tombari, Stratified Morse Theory for Cell Complexes, arXiv:2601.18343v1 (26 Jan 2026)",
+      "url": "https://arxiv.org/abs/2601.18343v1",
+      "origin": "Original arXiv abstract and author bibliography",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original abstract only; no theorem/proof inspection.",
+      "observed": "Stratified finite regular CW filtered collapses and local Morse data; new C07 collision source."
+    },
+    {
+      "id": "SRC-0028",
+      "title": "Luo–Henselman-Petrusek, Interval Decomposition of Persistence Modules over a Principal Ideal Domain, arXiv:2310.07971v6 (3 Oct 2025)",
+      "url": "https://arxiv.org/abs/2310.07971v6",
+      "origin": "Original author arXiv PDF",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original 33-page PDF pp1–4 Theorems1/2 p2 read; proofs not read.",
+      "observed": "Finite totally ordered pointwise free PID modules have interval decomposition iff every structure map has free cokernel; algorithm also stated. Not multiparameter."
+    },
+    {
+      "id": "SRC-0029",
+      "title": "Luo–Henselman-Petrusek, Interval Decomposition of Infinite Persistence Modules over a PID and Field Choice in Persistent Homology, arXiv:2511.07614v3 (2 Apr 2026)",
+      "url": "https://arxiv.org/abs/2511.07614v3",
+      "origin": "Original arXiv record",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original abstract and version metadata only; full proof not read.",
+      "observed": "Possibly infinite totally ordered PID decomposition and coefficient-field invariance. Mandatory antecedent to S009 integral multi-parameter route."
     }
   ]
 }

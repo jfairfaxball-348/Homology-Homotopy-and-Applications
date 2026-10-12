@@ -56,3 +56,12 @@ This is a targeted comparative literature check, NOT an exhaustive novelty/prior
 - SRC-0012 PROOF_INSPECTED only for original arXiv:2201.12617v1 section definition2.9, Theorem1.1 and Prop3.11; 2025 journal FULL PDF URL found but 403. SRC-0026 METADATA_ONLY is the precise publisher endpoint.
 - SRC-0024 upgraded **PROOF_INSPECTED** for original author-hosted published-layout [Mischaikow–Nanda 2013 Theorem4.3/Proposition4.4](https://people.maths.ox.ac.uk/nanda/source/DMPers-Final.pdf) filtered chain maps pp340–341, not every other section.
 - SRC-0025 STATEMENT_INSPECTED: [Lebovici–Lerch–Oudot arXiv 2402.16624v4](https://arxiv.org/pdf/2402.16624), full original PDF opened, Theorem4/14 and selected §5–7 proofs; final HHA 2026 full journal proof not read. Broader Problem1 is externally printed; no solution asserted.
+
+
+## Reconciled S008 supplement sources
+
+SRC-0025 upgraded for original arXiv v4 proof pp11–17 only, not the journal final full paper. SRC-0024 also read via the Oxford original 19-page deposit; existing journal-layout proof provenance preserved.
+
+- **SRC-0027 ABSTRACT_INSPECTED:** [Nanda–Tombari, Stratified Morse Theory for Cell Complexes, arXiv:2601.18343v1 (26 Jan 2026)](https://arxiv.org/abs/2601.18343v1). Stratified finite regular CW filtered collapses and local Morse data; new C07 collision source. Limits: Original abstract only; no theorem/proof inspection.
+- **SRC-0028 STATEMENT_INSPECTED:** [Luo–Henselman-Petrusek, Interval Decomposition of Persistence Modules over a Principal Ideal Domain, arXiv:2310.07971v6 (3 Oct 2025)](https://arxiv.org/abs/2310.07971v6). Finite totally ordered pointwise free PID modules have interval decomposition iff every structure map has free cokernel; algorithm also stated. Not multiparameter. Limits: Original 33-page PDF pp1–4 Theorems1/2 p2 read; proofs not read.
+- **SRC-0029 ABSTRACT_INSPECTED:** [Luo–Henselman-Petrusek, Interval Decomposition of Infinite Persistence Modules over a PID and Field Choice in Persistent Homology, arXiv:2511.07614v3 (2 Apr 2026)](https://arxiv.org/abs/2511.07614v3). Possibly infinite totally ordered PID decomposition and coefficient-field invariance. Mandatory antecedent to S009 integral multi-parameter route. Limits: Original abstract and version metadata only; full proof not read.

@@ -41,3 +41,9 @@
 - **DEC-0040:** Original Mischaikow–Nanda 2013 Theorem4.3/Prop4.4 proof inspected, generic filtered C07 enhancement PRIOR ART; 2026 K-S BM existing.
 - **DEC-0041:** All-field identical n-cube ×2/×4 integral distinction is ordinary Smith, not HHA 2026 LLO refutation. Printed LLO Problem1 relative-X resolution k≥1 is a more serious S009 open-source target.
 - **DEC-0042:** NO_VIABLE_HHA_FLAGSHIP_YET; G2/G3/G4 closed, prepare only S009 FUTURE UNEXECUTED. No publication or outreach.
+
+
+- **DEC-0044 S008 supplement reconciliation:** Concurrent PR#8 merged before this invocation wrote remotely. Preserve its records/IDs; one new atomic supplement commit on the actual new main, no S009 work. Explicit exception to whole-session one-commit count, not an invented new session.
+- **DEC-0045:** Correct PR#8 false chain-normalization shortcut: repeated-height sections need not be horizontal degeneracies. Explicit homotopy contractions justify E1 normalization/E2 collapse; cofiber/filtration separately established.
+- **DEC-0046:** Supply fully explicit T21 facet/vertex-map witness and natural split/nonsplit H2 filtration. T23 PID diamond iff and all-fields/primitive-arrow rigidity close the one-diamond target; only 3-cube/grid remains.
+- **DEC-0047:** Add current PID/stratified sources; preserve named source Problem1 as S009 alternative. NO_VIABLE_TARGET_YET and all later gates unchanged.

@@ -318,12 +318,12 @@
     {
       "id": "CLM-0040",
       "status": "HEURISTIC",
-      "claim": "A finite two-height simplicial section complex with rigorously identical integral E-infinity pages but nonisomorphic integral abutments may be realizable using S007 cofiber maps; exact section-space and filtration calculation remains entirely OPEN.",
+      "claim": "Historical S007 hypothesis of two-height integral extension realization; subsequently proved in S008-T20/T21.",
       "sources": [
         "SRC-0012",
         "SRC-0009"
       ],
-      "scope": "S008 falsifiable construction hypothesis only. No full proof, no concrete h, not novel-certified."
+      "scope": "Historical hypothesis; superseded by CLM-0042/0043. Explicit finite witness now supplied in the S008 supplement."
     },
     {
       "id": "CLM-0041",
@@ -342,7 +342,7 @@
       "sources": [
         "SRC-0012"
       ],
-      "scope": "Complete categorical nerve/arrow-category retract/diagonal VHT proof in S008/MATHEMATICS; classical homotopy-pushout technique. No Lean, no novelty certification."
+      "scope": "Corrected S008/MATHEMATICS plus SECTION_GEOMETRY_SUPPLEMENT: repeated-height sections contracted on vertical homology; E1 normalizes, not the whole double chain complex. Total-space union and F0 image checked independently. Internal, not Lean/novelty."
     },
     {
       "id": "CLM-0043",
@@ -351,7 +351,7 @@
       "sources": [
         "SRC-0012"
       ],
-      "scope": "Exact finite-poset section calculation T20 and S007 explicit cellular cone proof. Existence by standard finite simplicial approximation; explicit vertexwise gamma1/list and subdivision bound not supplied. Not an HHA originality pass."
+      "scope": "Original existence proof preserved; SECTION_GEOMETRY_SUPPLEMENT now supplies all K facets/stellar subdivision/vertex maps/face-poset formula and natural filtration. Integral data only; mod2 differs. No novelty or Lean."
     },
     {
       "id": "CLM-0044",
@@ -389,6 +389,57 @@
         "SRC-0009"
       ],
       "scope": "NO_HHA_FLAGSHIP_YET, not claim of searched-away novelty or priority certification."
+    },
+    {
+      "id": "CLM-0048",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T22: comparable-to-constant poset endpoint map suffices for splitting in T20; Moore maps realize classical extension classes k with presentation nx=0,kx=my.",
+      "sources": [],
+      "scope": "S008/SECTION_GEOMETRY_SUPPLEMENT; local sufficient condition only, no universal iff or new Ext classification."
+    },
+    {
+      "id": "CLM-0049",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T23: finite free PID diamond is a sum of seven standard block supports iff it is integrally middle exact and upper images U,V,U+V are primitive.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "S008/INTEGRAL_BLOCKS detailed simultaneous module-basis proof; not all intervals, not a multi-cube theorem, originality unresolved."
+    },
+    {
+      "id": "CLM-0050",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T23 examples: every individual arrow primitive plus middle exactness does not imply integral blocks (joint determinant m); all-field exactness alone also fails (Bezout 2/3 square).",
+      "sources": [],
+      "scope": "S008/INTEGRAL_BLOCKS: first example fails characteristic-p middle exactness for p|m; second has nonprimitive individual arrows. Different hypotheses explicitly distinguished."
+    },
+    {
+      "id": "CLM-0051",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T23 rigidity: on one finite free integer diamond, primitive arrow images plus middle exactness over Q and every Fp imply integral block decomposition.",
+      "sources": [],
+      "scope": "UCT detects integral middle homology and torsion H0; no extension to 3-cubes proved."
+    },
+    {
+      "id": "CLM-0052",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T24: matching preserving every nested compact X_s,T_s yields natural relative Morse chain contractions; open-complement inclusion exists iff T_t intersection X_s=T_s, then is proper.",
+      "sources": [
+        "SRC-0023",
+        "SRC-0024"
+      ],
+      "scope": "S008/FILTERED_RELATIVE_MORSE; standard sufficient matching/quotient theorem and elementary properness boundary, not original flagship."
+    },
+    {
+      "id": "CLM-0053",
+      "status": "HEURISTIC",
+      "claim": "C11 next challenge: primitive-arrow/all-fields local block criteria might admit an integral 3-cube or finite-grid local-to-global theorem or genuine saturated-lattice counterexample.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0028",
+        "SRC-0029"
+      ],
+      "scope": "Future S009 only; internally proposed not externally declared open; no theorem, no priority clearance."
     }
   ]
 }

@@ -43,3 +43,6 @@
 - **S008-F4 ORIGINALITY:** Collage nerve derived homotopy pushout and classical Z/4 extension are familiar technology, despite geometric result new to THIS programme. No novelty-gate promotion.
 - **S008-F5 C07 PROOF COLLISION:** 2013 original Theorem4.3 and Prop4.4 filtered acyclic Morse chain equivalence closes generic filtered proposal.
 - **S008-F6 FIELDWISE INTEGRAL BLINDNESS:** M2 vs M4 all-field n-cube reductions agree, integral structures differ. Classical integer exponent cannot be read from fields alone; not a new multipersistence breakthrough.
+
+
+**S008 supplement:** raw repeated-height sections cannot be deleted as chain degeneracies. Primitive individual maps do not ensure primitive joint images. On a diamond primitive arrows plus all-field middle exactness DO force blocks; do not seek a counterexample there. Relative pair maps require a deleted-stratum/properness check before claiming BM inclusion naturality. Concurrent work must be preserved and reconciled before a remote write.
