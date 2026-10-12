@@ -1,0 +1,23 @@
+# One-session research protocol
+
+## Entry
+
+1. Pin LIVE remote `main`, verify the last real PR/merge and parent/tree, competing session branches and intervening changes.
+2. List all open/recent PRs, actual workflow files/runs/jobs, check-runs and commit statuses, accessible rulesets/protection. Absence of CI cannot be reported as PASS.
+3. Read all authority, stage-gates, prior closeout, sources, claims, prior target/route attempts and experiments. Confirm session ID is new.
+4. Archive the owner invocation. If its exact bytes are inaccessible, record a faithful *summary* rather than a fabricated transcript/hash. Pre-register session scope, aims, evidence classes and stop criteria.
+5. One session may pursue several serious mathematical routes or even finish a major theorem; do not impose an arbitrary single-lemma ceiling. Do not execute the next future session.
+
+## Mathematics
+
+- Prior-art and journal checks are primary-source-driven; capture DOI/arXiv version, pages, theorems, access status and priority caveats.
+- A theorem must have exact statement, full dependency graph, detailed proof, edge cases, disproof attempts and independently tested counterexamples to auxiliary assertions.
+- Counterexamples require a canonical mathematical object, reproducible verification of **both** the violated property and any universal precondition (when needed). A failed algorithm run does not prove nonexistence.
+- Quantitative, SAT or enumeration work is pre-registered with a bounded scope, justified completeness, independent checker and code/runtime/output hashes. Report only actual coverage.
+- Never promote HEURISTIC/COMPUTED_EXACT/SOURCE_STATED to PROGRAMME_PROVED or FORMALLY_CERTIFIED without appropriate proof/checks.
+- Explain why homology/homotopy **does indispensable work** in the result, and the HHA readership's substantive benefit.
+
+## Close
+
+Update `STATE.json`, both catalogues and ledgers, target selection/route results, artefacts and checks. Write `sessions/S###/CLOSEOUT.md` with exact limitations and remote evidence; write one full, copy-ready FUTURE prompt when feasible. Commit one atomic authored session commit on a separate branch, open and review a PR, merge without force, independently observe main and PR parents. No external publishing or registration without separate owner approval.
+
