@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-10-12",
+  "claims": [
+    {
+      "id": "CLM-0001",
+      "status": "SOURCE_STATED",
+      "claim": "HHA invites important work in homotopy theory, algebraic topology and genuine applications; values originality, significance and general interest.",
+      "sources": [
+        "SRC-0001"
+      ],
+      "scope": "publisher indexed official statement"
+    },
+    {
+      "id": "CLM-0002",
+      "status": "SOURCE_STATED",
+      "claim": "HHA indexed author information says submissions via EditFlow, final hha.cls class, over 30 pages rarely accepted.",
+      "sources": [
+        "SRC-0002",
+        "SRC-0003"
+      ],
+      "scope": "reverify before release"
+    },
+    {
+      "id": "CLM-0003",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "A specific HHA-suitable new theorem exists within this research programme.",
+      "sources": [],
+      "scope": "open programme objective, not result"
+    },
+    {
+      "id": "CLM-0004",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "A Lean formalisation can support any eventual chosen target without major library development.",
+      "sources": [],
+      "scope": "must be assessed per candidate"
+    }
+  ]
+}

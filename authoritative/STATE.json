@@ -1,0 +1,87 @@
+{
+  "project": "Homology-Homotopy-and-Applications",
+  "repository_id": 1415583825,
+  "as_of": "2026-10-12",
+  "last_completed_session": "S001",
+  "recommended_next_session": "S002",
+  "journal": "Homology, Homotopy and Applications (International Press)",
+  "headline": "Find a significant original HHA-fit theorem or counterexample; prove/certify, formalise in Lean, audit novelty, register with Palomar, write and submit",
+  "selected_mathematical_problem": null,
+  "headline_status": "EXPLORATORY_NOT_SELECTED",
+  "active_campaign": null,
+  "claim_of_new_theorem": false,
+  "stages": [
+    {
+      "id": 0,
+      "name": "Bootstrap and governance",
+      "status": "PASS_ADMINISTRATIVE_ONLY"
+    },
+    {
+      "id": 1,
+      "name": "Target selection and original proof/disproof",
+      "status": "READY_FOR_S002"
+    },
+    {
+      "id": 2,
+      "name": "First novelty/prior-art audit",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 3,
+      "name": "Lean formalisation and build certification",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 4,
+      "name": "Final comprehensive novelty/correctness review",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 5,
+      "name": "Palomar registration",
+      "status": "OWNER_GATED"
+    },
+    {
+      "id": 6,
+      "name": "Paper drafting and journal readiness",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 7,
+      "name": "arXiv preprint",
+      "status": "OWNER_GATED"
+    },
+    {
+      "id": 8,
+      "name": "HHA submission",
+      "status": "OWNER_GATED"
+    }
+  ],
+  "last_verified_git": {
+    "initial_empty_seed_commit": "aff7dc3a665baa38bfc34c7ccad821304e09c56a",
+    "initial_seed_tree": "8a5a9dc7ef1d605310b24f257dbcce30d0e671a1",
+    "bootstrap_pr_merge_sha": "TO_BE_READ_FROM_REMOTE_AFTER_MERGE"
+  },
+  "source_inspection": "Publisher-indexed aims, author guidance and class guide found; direct publisher site blocked in browser",
+  "lean": {
+    "status": "NOT_STARTED",
+    "toolchain": null
+  },
+  "palomar": {
+    "status": "NOT_SUBMITTED"
+  },
+  "arxiv": {
+    "status": "NOT_SUBMITTED"
+  },
+  "hha": {
+    "status": "NOT_SUBMITTED"
+  },
+  "open_obligations": [
+    "Independently inspect recent HHA volumes and identify realistic editorial-fit frontier results.",
+    "Produce at least 8-12 specific, citable candidate problems with novelty risk and proof/Lean feasibility.",
+    "Select a flagship with a precise falsifiable conjecture and immediate proof/disproof attack, rather than a generic mathematical area.",
+    "Verify exact up-to-date submission, copyright, preprint, AI/disclosure and formatting requirements before release.",
+    "Re-read main after S001 PR merge and record exact observed SHAs in next session."
+  ],
+  "blockers": []
+}

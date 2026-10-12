@@ -1,0 +1,59 @@
+{
+  "as_of": "2026-10-12",
+  "sources": [
+    {
+      "id": "SRC-0001",
+      "title": "Homology, Homotopy and Applications — Aims and Scope",
+      "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/aims.htm",
+      "origin": "official publisher page indexed in web search",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Official search-excerpt text inspected; direct page fetch returned 403. No independent full-page review.",
+      "observed": "Broad homotopy theory, algebraic topology and genuine applications; correctness/originality/significance/interest and clarity emphasised."
+    },
+    {
+      "id": "SRC-0002",
+      "title": "HHA — Information for Authors",
+      "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/authinfo.htm",
+      "origin": "official publisher page indexed in web search",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Indexed publisher text inspected, not full direct page; policies may change.",
+      "observed": "EditFlow submissions, accepted-final hha.cls, English/French/German, abstract <=200 words, AMS2020 MSC, >30 HHA-format pages rarely accepted, accepted sources+PDF."
+    },
+    {
+      "id": "SRC-0003",
+      "title": "HHA — Using the Class File",
+      "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/style/hhaguide.htm",
+      "origin": "official publisher page indexed in web search",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Publisher-indexed excerpt only.",
+      "observed": "Use latest hha.cls; example article front matter and MSC/keywords."
+    },
+    {
+      "id": "SRC-0004",
+      "title": "Davenport-Counterexample-Hunt repository governance",
+      "url": "https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt",
+      "origin": "author-owned GitHub",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "AGENTS.md and docs/SESSION_PROTOCOL.md read; not all project work independently verified.",
+      "observed": "Source/claim classification, isolated numbered session, gates, reproducible checks, branch and PR integrity."
+    },
+    {
+      "id": "SRC-0005",
+      "title": "Almost-Stacked-Proof bootstrap governance",
+      "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof",
+      "origin": "author-owned GitHub",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "AGENTS.md, README, STATE, session protocol and S001 closeout read; no mathematical theorem imported.",
+      "observed": "Recent use of root seed + atomic S001 PR, phase gate and future prompt structure."
+    },
+    {
+      "id": "SRC-0006",
+      "title": "HHA journal listing",
+      "url": "https://intlpress.com/journals/journalList?id=1804415065855684610",
+      "origin": "official publisher URL supplied by owner",
+      "access": "METADATA_ONLY",
+      "limitation": "Browser returned 403; journal identity corroborated using official older publisher pages.",
+      "observed": "Intended submission journal."
+    }
+  ]
+}
