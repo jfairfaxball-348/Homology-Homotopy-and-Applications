@@ -2,15 +2,13 @@
 
 | Gate | Date | Decision | Evidence / constraints |
 |---|---|---|---|
-| G0 Bootstrap | 2026-10-12 | **PASS — ADMINISTRATIVE ONLY** | S001 creates governance, registries, charter, journal criteria, future prompt. Empty-repo seed separately unavoidable. |
-| G1 Candidate and proof/disproof | — | NOT STARTED | Must pass exact statement and proof/certificate; S002 initially works here |
-| G2 First novelty | — | NOT STARTED | Exact theorem-dependent |
-| G3 Lean | — | NOT STARTED | Exact proof and reproducible kernel |
-| G4 Final novelty | — | NOT STARTED | Separate fresh sweep |
-| G5 Palomar | — | OWNER-GATED | No submission without instruction |
-| G6 Manuscript | — | NOT STARTED | Must be HHA-quality |
-| G7 arXiv | — | OWNER-GATED | Separate approval |
-| G8 HHA | — | OWNER-GATED | Separate approval and confirmation |
-
-Gate status is programme evidence, not journal acceptance.
-
+| G0 Bootstrap | 2026-10-12 | PASS ADMINISTRATIVE ONLY | S001 PR #1 |
+| G1A Candidate screen | 2026-10-12 | PASS SCREEN ONLY | S002 12 exact candidate conjectures/problems and source comparison, provisional C02 |
+| G1B Original research | 2026-10-12 | IN PROGRESS | S002-T1…T4 human-readable proofs use classical methods; no proven originality |
+| G2 First novelty | — | NOT STARTED | Candidate kill searches do not certify the future exact flagship |
+| G3 Lean | — | NOT STARTED | No builds |
+| G4 Final novelty | — | NOT STARTED | Must be separate fresh audit |
+| G5 Palomar | — | OWNER GATED | Not submitted |
+| G6 Manuscript | — | NOT STARTED | No finished paper |
+| G7 arXiv | — | OWNER GATED | Not submitted |
+| G8 HHA | — | OWNER GATED | Not submitted |

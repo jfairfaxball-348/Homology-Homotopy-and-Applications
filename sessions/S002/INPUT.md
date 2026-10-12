@@ -1,0 +1,5 @@
+# S002 owner invocation — 2026-10-12
+
+Owner supplied and explicitly invoked the authoritative `authoritative/NEXT_SESSION_PROMPT.md` at https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/authoritative%2FNEXT_SESSION_PROMPT.md with "Run the next session". The file at entry is S002, titled "HHA flagship problem selection and first deep proof/disproof offensive".
+
+This records the instruction faithfully by reference and summary rather than inventing a raw-chat SHA. The owner authorised one new S002: independently audit live repository; examine HHA 2024–2026 and original related literature; construct 8–12 precise candidates, kill-search the front runners, select only a defensible provisional mathematical direction; attack proofs and counterexamples; record claim/source status; prepare S003 but DO NOT RUN IT. No Lean execution, Palomar, manuscript, arXiv or journal contact/submission authorised.

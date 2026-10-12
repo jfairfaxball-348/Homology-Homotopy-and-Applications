@@ -1,6 +1,10 @@
 # Search and novelty audit log
 
-**2026-10-12 (S001):** journal aims, author instructions, class guide and two governance source repositories inspected at limited levels. Search results are NOT a literature or novelty audit for a mathematical theorem. The official current journal listing and some page retrievals returned 403. No recent HHA papers or theorem-level prior art are yet inspected.
-
-**NEXT:** record exact query text, engine/catalogue (MathSciNet, zbMATH, arXiv, Crossref, publisher, citations where accessible), timestamp, source IDs, inspected page/theorem, strongest close prior result, and unresolved equivalence. Do an *early* scoped audit at candidate stage, formal Stage-2 audit for a solved exact target, and a *fresh* final exhaustive-where-feasible Stage-4 audit before publication.
-
+- 2026-10-12 S001: publisher HHA aims/author-index, governance sources, official listing 403, not a mathematical novelty audit.
+- 2026-10-12 S002 web queries: "HHA 2024 2025 2026 volumes"; "persistent nerve lemma functorial"; "Ramras Variations on the Nerve Theorem"; "magnitude homology geodetic metric spaces", "Whitney twist"; "section complexes simplicial height functions"; "persistent Mayer–Vietoris spectral sequence extension"; "block decomposability multiparameter persistence". Engines public web indices and accessible source pages; no authenticated MathSciNet/zbMATH use. See catalogue IDs SRC-0007..0019.
+- **C01/C04/C06 kills:** SRC-0007 Ramras DCG 2026 text explicitly treats multinerve/fibre connectivity; SRC-0008 BKRR 2023 abstract clearly states functorial nerve theorem; SRC-0009 Torras Casas MVSS §5 states persistent spectral sequence `E1_{p,q}=⊕PH_q(U_J)`; a one-positive-column collapse is elementary and NOT novel.
+- **C02 / C03 watch:** SRC-0009 extension machinery, SRC-0010 spectral sequence interleavings and source SRC-0015 local n-parameter module decompositions are close, but no full original paper proof was inspected for a complete transgression *realisability* claim. Foundational mapping-cone construction is classical: no priority assertion.
+- **C08 check:** SRC-0012 Vaupel et al HHA 2025 Theorem 1.1 `diag Sh ≃ X` and associated section spectral sequence. Colliding statement rejected.
+- **C09/C10 check:** SRC-0013 Asao–Wakatsuki 2026 HHA 28(2), source abstract states geodetic homology computed and no-4-cuts iff diagonal; SRC-0014 Roff HHA 2024 extends Whitney-twist magnitude invariance via magnitude homology.
+- **HHA policy:** SRC-0001..3 official publisher indexed aims and author guidance; direct authinfo page 403. SRC-0019 SHERPA International Press policy metadata as of 2026-01-15 permits submitted/accepted arXiv deposit; do not infer unconditional permission from all author contracts. AI/disclosure policy not verified.
+- **Outcome:** scoped Stage-1 candidate novelty kills only, NOT formal Stage-2 post-result audit or final Stage-4 novelty audit.

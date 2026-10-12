@@ -3,57 +3,174 @@
   "sources": [
     {
       "id": "SRC-0001",
-      "title": "Homology, Homotopy and Applications — Aims and Scope",
+      "title": "HHA — Aims",
       "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/aims.htm",
-      "origin": "official publisher page indexed in web search",
+      "origin": "official publisher indexed excerpt",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Official search-excerpt text inspected; direct page fetch returned 403. No independent full-page review.",
-      "observed": "Broad homotopy theory, algebraic topology and genuine applications; correctness/originality/significance/interest and clarity emphasised."
+      "limitation": "Indexed official text, full page access may be 403.",
+      "observed": "Originality and homotopy/homology significance."
     },
     {
       "id": "SRC-0002",
       "title": "HHA — Information for Authors",
       "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/authinfo.htm",
-      "origin": "official publisher page indexed in web search",
+      "origin": "official publisher indexed excerpt",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Indexed publisher text inspected, not full direct page; policies may change.",
-      "observed": "EditFlow submissions, accepted-final hha.cls, English/French/German, abstract <=200 words, AMS2020 MSC, >30 HHA-format pages rarely accepted, accepted sources+PDF."
+      "limitation": "Full direct page 403; verify before release.",
+      "observed": "EditFlow, hha.cls, length guidance indexed."
     },
     {
       "id": "SRC-0003",
-      "title": "HHA — Using the Class File",
+      "title": "HHA — Using Class File",
       "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/style/hhaguide.htm",
-      "origin": "official publisher page indexed in web search",
+      "origin": "official publisher indexed excerpt",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Publisher-indexed excerpt only.",
-      "observed": "Use latest hha.cls; example article front matter and MSC/keywords."
+      "limitation": "Search-index text, direct may be blocked.",
+      "observed": "Use latest hha.cls."
     },
     {
       "id": "SRC-0004",
-      "title": "Davenport-Counterexample-Hunt repository governance",
+      "title": "Davenport research governance",
       "url": "https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt",
-      "origin": "author-owned GitHub",
+      "origin": "user GitHub",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "AGENTS.md and docs/SESSION_PROTOCOL.md read; not all project work independently verified.",
-      "observed": "Source/claim classification, isolated numbered session, gates, reproducible checks, branch and PR integrity."
+      "limitation": "Governance rather than mathematics.",
+      "observed": "Research session procedures."
     },
     {
       "id": "SRC-0005",
-      "title": "Almost-Stacked-Proof bootstrap governance",
+      "title": "Almost Stacked bootstrap governance",
       "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof",
-      "origin": "author-owned GitHub",
+      "origin": "user GitHub",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "AGENTS.md, README, STATE, session protocol and S001 closeout read; no mathematical theorem imported.",
-      "observed": "Recent use of root seed + atomic S001 PR, phase gate and future prompt structure."
+      "limitation": "Governance rather than mathematics.",
+      "observed": "GitHub research workflow."
     },
     {
       "id": "SRC-0006",
-      "title": "HHA journal listing",
+      "title": "HHA current listing provided by owner",
       "url": "https://intlpress.com/journals/journalList?id=1804415065855684610",
-      "origin": "official publisher URL supplied by owner",
+      "origin": "official publisher",
       "access": "METADATA_ONLY",
-      "limitation": "Browser returned 403; journal identity corroborated using official older publisher pages.",
-      "observed": "Intended submission journal."
+      "limitation": "403 direct",
+      "observed": "Target journal identity."
+    },
+    {
+      "id": "SRC-0007",
+      "title": "Daniel A. Ramras, Variations on the Nerve Theorem (2026), DCG 75 871–903",
+      "url": "https://link.springer.com/article/10.1007/s00454-025-00809-3",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Accessible original article introduction, Theorem 1.1, §§2,9 summaries; no proof-level full audit.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0008",
+      "title": "Bauer–Kerber–Roll–Rolle, A unified view on the functorial nerve theorem and its variations (2023)",
+      "url": "https://doi.org/10.1016/j.exmath.2023.04.005",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original abstract and bibliographic publication record; full proofs not inspected.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0009",
+      "title": "Álvaro Torras Casas, Distributing Persistent Homology via Spectral Sequences",
+      "url": "https://doi.org/10.1007/s00454-023-00549-2",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Accessible article search-excerpt includes §§4–5 Mayer–Vietoris double complex and persistence E1; URL redirection sometimes fails.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0010",
+      "title": "Torras Casas–Pennig, Interleaving Mayer–Vietoris spectral sequences (2024), AGT 24 4265–4306",
+      "url": "https://doi.org/10.2140/agt.2024.24.4265",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Article abstract and metadata at Cardiff repository.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0011",
+      "title": "Knudson–Scoville, Discrete Morse theory for open complexes (2024)",
+      "url": "https://arxiv.org/abs/2402.12116",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Preprint abstract only.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0012",
+      "title": "Vaupel–Hermansen–Trygsland, Section complexes of simplicial height functions, HHA 27(2) 61–90 (2025)",
+      "url": "https://arxiv.org/abs/2201.12617",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Preprint publicly visible excerpt contained Theorem 1.1; HHA bibliographic DOI 10.4310/HHA.2025.v27.n2.a4.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0013",
+      "title": "Asao–Wakatsuki, Minimal projective resolution and magnitude homology of geodetic metric spaces, HHA 28(2) 123–154 (2026)",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n2.a7",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original article abstract and bibliographic record, not proof.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0014",
+      "title": "Emily Roff, Magnitude, homology, and the Whitney twist, HHA 26(1) 105–130 (2024)",
+      "url": "https://doi.org/10.4310/HHA.2024.v26.n1.a7",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Research institution publication abstract, arXiv:2211.02520 also located.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0015",
+      "title": "Lebovici–Lerch–Oudot, Local characterization of block-decomposability for multiparameter persistence modules, HHA 28(1) 175–196 (2026)",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n1.a9",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full original abstract describes n-parameter extension; not proof.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0016",
+      "title": "Bashar Saleh, Algebraic groups of homotopy classes of automorphisms and operadic Koszul duality, HHA 27(2) 151–170 (2025)",
+      "url": "https://doi.org/10.4310/HHA.2025.v27.n2.a7",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Publisher PDF search-indexed opening and bibliography, no full proof audit.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0017",
+      "title": "Ivanov–Mikhailov–Pavutnitskiy, Limits via relations, HHA 28(1) 197–213 (2026)",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n1.a10",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Research portal abstract and full DOI bibliographic metadata.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0018",
+      "title": "Chanavat–Hadzihasanovic, Diagrammatic sets as a model of homotopy types, HHA 28(1) 99–124 (2026)",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n1.a5",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "METADATA_ONLY",
+      "limitation": "University research output listed DOI, year and pages, arXiv:2407.06285.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0019",
+      "title": "SHERPA publisher policy: International Press (last reviewed 2026-01-15)",
+      "url": "https://v2.sherpa.ac.uk/id/publisher_policy/101",
+      "origin": "public scholarly site / publisher or original-preprint link",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Indexed policy page says accepted/submitted versions may be placed in arXiv; journal-specific contract not inspected.",
+      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
     }
   ]
 }
