@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-12",
-  "last_completed_session": "S004",
-  "recommended_next_session": "S005",
+  "last_completed_session": "S005",
+  "recommended_next_session": "S006",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "C03 PROVISIONAL: one-critical integral three-cover d2 square dimension≤3; restricted S004-T11 established, no validated originality",
-  "headline_status": "RESTRICTED_UNIFORM_3D_ONE_CRITICAL_THEOREM_INTERNAL_ONLY__FULL_CLASSIFICATION_AND_ORIGINALITY_UNRESOLVED",
-  "active_campaign": "C03 S004-T8 graph primitive iff, T9 2D T repair, T10 2D joint-kernel, T11 total-3D three-cover sufficient class",
+  "selected_mathematical_problem": "C03 PROVISIONAL: exact 3D joint lower A primitive iff within graph-admissible B; full nonprimitive B classification and original HHA significance unresolved",
+  "headline_status": "S005_INTERNAL_3D_EXACT_A_LATCHING_IFF_WHEN_B_GRAPH_ADMISSIBLE__GENERAL_B_AND_NOVELTY_OPEN",
+  "active_campaign": "C03 S005-T12 3D H2 saturation, T13 exact split joint δ_A iff for graph-admissible B, T14 nonsplit 2/3 torsion, T15 sharp 4D joint kernel",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_RESTRICTED_3D_PROOF_NO_ORIGINAL_FLAGSHIP"
+      "status": "IN_PROGRESS_CONDITIONAL_3D_IFF_PROOF_AND_UNIVERSAL_A_NECESSITY__NOT_NOVEL_CERTIFIED"
     },
     {
       "id": 2,
@@ -84,9 +84,18 @@
     ],
     "s003_merge_tree": "5ca58c92968298d72198c6990923bb3f4fd1bb4e",
     "s004_entry_main": "bc3442c20e2b710dac083577706fa1bb9ad98cd6",
-    "s004_outgoing_merge_sha": "VERIFY_REMOTELY_AFTER_MERGE"
+    "s004_outgoing_merge_sha": "ee82c9168c494381518fec826332cbfa2aa254bc",
+    "s004_authored_commit": "22d9c51cacf5da6ec7b65904452711cff0f13c45",
+    "s004_pr": 4,
+    "s004_merge_parents": [
+      "bc3442c20e2b710dac083577706fa1bb9ad98cd6",
+      "22d9c51cacf5da6ec7b65904452711cff0f13c45"
+    ],
+    "s004_merge_tree": "0c283dfee1915d42f6e7c9dcebc556d0765a1f16",
+    "s005_entry_main": "ee82c9168c494381518fec826332cbfa2aa254bc",
+    "s005_outgoing_merge_sha": "VERIFY_REMOTELY_AFTER_MERGE"
   },
-  "source_inspection": "S004 original Torras 2023 Springer HTML and original Cardiff PDF intro; original Torras–Pennig 2024 author PDF Corollary 5.3/Theorem 6.5 and proof excerpt; Carlsson–Zomorodian field theorem prior art; no full equivalence audit",
+  "source_inspection": "S005 focused original Carlsson-Zomorodian, Torras 2023, Pennig-Torras 2024, Bauer et al, Ramras 2026, HHA Brotherston 2025, Knudson Scoville September 2026 abstracts/selected theorem; no exhaustive proof equivalence",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null
@@ -101,13 +110,15 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Determine true necessary-and-sufficient dimension-three one-critical integral 3-cover d2 square criterion outside S004-T11 sufficient class, particularly nonprimitive upper B and nonsplit lower A/B.",
-    "Inspect historical priority at proof level and journal significance of T8–T11; never infer originality from search absence.",
-    "Seek simultaneous obstruction from actual contractible double-overlap cover geometry rather than graph/triple dimension alone.",
-    "Only S005 future prompt written, no S005 execution or Stage-2/Lean/Palomar actions.",
-    "Independently obtain actual S004 PR/branch SHA, two-parent merge, postmerge main and checks from live remote."
+    "Independent adversarial reconstruction of S005-T13 full strict 3D 2-/3-cell proof and cellular H2 saturation necessity; not Lean-checked.",
+    "Full total-3D B classification under actual per-labelled meet-exactness, especially nonprimitive upper λ_B=e1,e1+2e2; mixed-grade membership anticipations invalidate naive necessity.",
+    "Compare exact theorem/proof equivalence with original literature and seek genuinely significant HHA consequence; retire C03 if only classical cofiber/cell algebra.",
+    "Examine C07 filtration-natural Borel–Moore construction after Knudson–Scoville 2026 publication and C08 section-complex spectral-sequence extension.",
+    "S006 is FUTURE UNEXECUTED; source/claim mirrors and release gates remain governed; independently verify outgoing S005 Git refs and hosted checks."
   ],
   "blockers": [
-    "No validated original HHA-worthy theorem; restricted 3D success may be a standard cofiber/CW consequence; full 3D classification unresolved; G2 and later gates closed."
+    "Even a sharp conditional 3D CW realization iff may be textbook mapping cylinder/relative cell algebra; no novel HHA flagship or Stage-2 success.",
+    "General nonprimitive B case unresolved; all-cover obstruction via U2 mixed-grade union requires unjustified intersection equality.",
+    "No Lean/Palomar/publication authorisation, original-source comprehensive equivalence or proof certification."
   ]
 }

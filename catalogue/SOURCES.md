@@ -30,3 +30,8 @@ Access statuses describe **what was seen**, not legal ability to access a comple
 - SRC-0009 STATEMENT_INSPECTED: original open Springer HTML and original published Cardiff PDF opened; intro/abstract read, full proof equivalence not checked.
 - SRC-0010 upgraded ABSTRACT_INSPECTED → STATEMENT_INSPECTED: directly opened original author-deposited 38-page accepted-version PDF https://orca.cardiff.ac.uk/id/eprint/159883/1/MaViInv_Open_Access_Cardiff.pdf ; read Corollary 5.3, Theorem 6.5 and proof excerpt; NOT the entire paper, and published numbering may differ. Full DOI unchanged.
 - SRC-0020 primary 2007 theorem statement was examined in S003; complete 2009 proof remains NOT inspected.
+|SRC-0022|ABSTRACT_INSPECTED|[Brotherston, Distributive lattice of spectral-sequence model structures, HHA 2025](https://arxiv.org/abs/2402.09893); DOI 10.4310/HHA.2025.v27.n2.a5; original abstract and publisher metadata only|
+|SRC-0023|ABSTRACT_INSPECTED|[Knudson–Scoville, Discrete Morse theory for open complexes, Topology and its Applications 388 (2026)](https://arxiv.org/abs/2402.12116); DOI 10.1016/j.topol.2026.109867; original abstract and final publisher metadata|
+
+### S005 source audit limit
+Directly revisited original Ramras 2026 publisher HTML introduction/Theorem 1.1, Torras-Casas 2023 original full-text HTML sections, original arXiv abstracts for Bauer et al., Brotherston and Knudson–Scoville, original HHA section-complex abstract and Carlsson–Zomorodian original theorem inherited from S003. No full historical proof equivalence, authenticated bibliographic exhaustive search or HHA acceptance claim. See sessions/S005/PRIOR_ART.md.

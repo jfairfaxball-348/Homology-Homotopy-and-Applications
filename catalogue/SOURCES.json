@@ -189,6 +189,24 @@
       "access": "SECONDARY_ONLY",
       "limitation": "Web-indexed excerpt available but primary PDF direct open disabled; no proof inspected.",
       "observed": "Indexed reference to canonical homotopy colimits and Reedy rectification; not used to certify a multiparameter theorem."
+    },
+    {
+      "id": "SRC-0022",
+      "title": "James A. Brotherston, A distributive lattice of model structures relating to spectral sequences, HHA 27(2) 2025 91–122",
+      "url": "https://arxiv.org/abs/2402.09893",
+      "origin": "original author abstract and HHA publisher bibliographic metadata DOI 10.4310/HHA.2025.v27.n2.a5",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original HHA full paper theorem/proof-level equivalence not inspected; no claim to exhaustiveness.",
+      "observed": "Cellular left-proper stable S-model structures for bicomplexes/filtered complexes; Quillen equivalences; published 2025."
+    },
+    {
+      "id": "SRC-0023",
+      "title": "Kevin P. Knudson and Nicholas A. Scoville, Discrete Morse theory for open complexes, Topology and its Applications 388 (September 2026) 109867",
+      "url": "https://arxiv.org/abs/2402.12116",
+      "origin": "original author abstract and publisher publication metadata DOI 10.1016/j.topol.2026.109867",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full final 2026 proof not inspected; C07 novelty cannot be claimed.",
+      "observed": "Borel–Moore homology isomorphic to gradient-vector-field homology; weak Morse inequalities; 2026 publication verified."
     }
   ]
 }

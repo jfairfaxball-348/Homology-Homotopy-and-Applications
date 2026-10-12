@@ -33,3 +33,13 @@ T1–T4 proofs: [S002 dossier](../sessions/S002/MATHEMATICS.md); novelty qualifi
 |CLM-0023|PROGRAMME_PROVED|S004-T11: graph-admissible B with split lower A maps and arbitrary compatible integral M admits literal one-critical three-cover square with contractible double overlaps, total CW dimension ≤3, prescribed integral d2 and natural H3=ker, H2=coker. **Boundary:** S004/MATHEMATICS complete human-readable CW proof; neither universal 3D classification nor originality/Lean.|
 |CLM-0024|PROGRAMME_PROVED|S004 restricted 3D example: upper A lattice columns (1,0),(1,2) is index two, M11 columns (2,0),(1,2) yields coker d2=Z/4. **Boundary:** Symbolic hand relation calculation and literal construction from S004-T11.|
 |CLM-0025|HEURISTIC|S004-T8–T11 might have HHA interest if extended substantially, but present results risk collision with classic mapping-cylinder/MV machinery and unrestricted 3D classification remains open. **Boundary:** No novelty guarantee, G2/G4 not started.|
+
+## S005 new internal claims (not original/Lean certified)
+- **CLM-0026 PROGRAMME_PROVED:** T12 three-dimensional H2 saturation lemma, cellular relative LES.
+- **CLM-0027 PROGRAMME_PROVED:** universal necessary split joint lower A latching δ_A for degree-pure 3D meet-exact U1.
+- **CLM-0028 PROGRAMME_PROVED:** T13 exact iff for **graph-admissible B** and primitive joint δ_A; arbitrary nonsplit individual bottom A arrows, upper A and integral M; full strict 3D cover.
+- **CLM-0029 PROGRAMME_PROVED:** T14 2/3 lower arrows and Z/2,Z/3,Z/6 torsion example.
+- **CLM-0030 PROGRAMME_PROVED:** T15 sharp 4D joint-kernel escape, no 3D model.
+- **CLM-0031 HEURISTIC:** nonprimitive upper B remains unclassified for general covers, mixed-grade intersection obstacle invalidates proposed universal proof.
+
+JSON catalogue is normative for IDs, statuses, qualifiers and sources. No first novelty gate or formal verification passed.
