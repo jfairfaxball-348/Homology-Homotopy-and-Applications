@@ -49,3 +49,10 @@
 - **DEC-0047:** Add current PID/stratified sources; preserve named source Problem1 as S009 alternative. NO_VIABLE_TARGET_YET and all later gates unchanged.
 
 - **DEC-0048 S009:** Validate S008 PR#8 and separately invoked supplement PR#9 from live GitHub commits; accept corrected repeated-height normalization, not the false raw chain shortcut. S009 entry b4dea03b0b1cb297cd3133fd5ee5b71909fffea5.
+
+## S010 decisions
+- DEC-0049: mandatory tenth-session T1–T25 audit retains exact hypotheses/corrected S008 proof; downgrade indexed-only source access and repair stale catalogue qualifiers.
+- DEC-0050: accept T26 full arbitrary-kernel Boolean-three-cube internal integral block iff, including finite homology/saturation criterion and generating-edge-only purity; no larger-grid/every-n claim.
+- DEC-0051: T27 provides a polynomial arithmetic explicitly-listed-family baseline, classical prior-art collision, not unrestricted source Problem1.
+- DEC-0052: retain T26 as PROVISIONAL_INTERNAL_CANDIDATE with originality UNKNOWN, G2/G3 unpassed. Global-bottom lift fails on middle bands of longer grids. Conditional unrelated pivot not triggered.
+- DEC-0053: one authored S010 commit/ordinary PR/non-force merge; S011 FUTURE only, no formalisation/manuscript/external actions.

@@ -8,7 +8,7 @@
       "sources": [
         "SRC-0001"
       ],
-      "scope": "Publisher indexed excerpt"
+      "scope": "Publisher indexed excerpt S010: indexed-only evidence, direct current publisher verification outstanding; not checked policy approval."
     },
     {
       "id": "CLM-0002",
@@ -18,7 +18,7 @@
         "SRC-0002",
         "SRC-0003"
       ],
-      "scope": "Current full policy unverified"
+      "scope": "Current full policy unverified S010: indexed-only evidence, direct current publisher verification outstanding; not checked policy approval."
     },
     {
       "id": "CLM-0003",
@@ -347,11 +347,11 @@
     {
       "id": "CLM-0043",
       "status": "PROGRAMME_PROVED",
-      "claim": "S008-T21 existence of two finite actual simplicial height maps, derived via finite simplicial approximations of T18 Moore-wedge f0/f1, with isomorphic entire integral section E1 and E2=E∞ bigraded groups/differentials but Htilde2 of total spaces respectively (Z/2)^2 and Z/4.",
+      "claim": "T21 two explicit finite simplicial height maps have identical integral homological E1 and E2=E∞, but integral Htilde2 respectively (Z/2)^2 and Z/4.",
       "sources": [
         "SRC-0012"
       ],
-      "scope": "Original existence proof preserved; SECTION_GEOMETRY_SUPPLEMENT now supplies all K facets/stellar subdivision/vertex maps/face-poset formula and natural filtration. Integral data only; mod2 differs. No novelty or Lean."
+      "scope": "S008 corrected supplement facet/stellar vertex map and actual F0 filtration; T20 normalizes only after vertical homology. Tenth audit S010 retains. No all-field equality, novelty or Lean."
     },
     {
       "id": "CLM-0044",
@@ -439,7 +439,7 @@
         "SRC-0028",
         "SRC-0029"
       ],
-      "scope": "Future S009 only; internally proposed not externally declared open; no theorem, no priority clearance."
+      "scope": "Historical integral-cube proposal; Boolean-three-cube case resolved internally by S010-T26, larger-grid/every-n open; not source-declared open or priority certified."
     },
     {
       "id": "CLM-0054",
@@ -473,13 +473,62 @@
     {
       "id": "CLM-0057",
       "status": "HEURISTIC",
-      "claim": "An arbitrary kernel-bearing finite free Z three-cube with primitive arrows and all-field n-block decompositions may still fail to split integrally; no proof or valid counterexample established in S009.",
+      "claim": "Historical S009 unresolved primitive/all-field kernel-bearing cube conjecture; S010-T26 gives a positive internal three-cube proof.",
       "sources": [
         "SRC-0025",
         "SRC-0028",
         "SRC-0029"
       ],
-      "scope": "Future S010 target not source-stated; NO_VIABLE_TARGET_YET."
+      "scope": "Historical hypothesis superseded on Boolean-three-cube by CLM0058; no general grid resolution or novelty certificate."
+    },
+    {
+      "id": "CLM-0058",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T26: any finite free integer Boolean-three-cube is an integral sum of fifteen principal-upset/downset block types iff all generating edges have torsion-free cokernels and its Q/everyFp reductions are block-decomposable; arbitrary kernels allowed.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "S010/MATHEMATICS complete joint-kernel UCT, integral lift/natural retraction, death peeling and rechecked T25 finish. Internal prose proof only, not original-certified or Lean; finite grid/every-n excluded."
+    },
+    {
+      "id": "CLM-0059",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T26 has equivalent finite integral criterion: primitive edges, every square H1=0/H0 torsion-free, full cube H1=H2=0/H0 torsion-free.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "Integral UCT plus field criterion and T26. Finite Smith/kernel-image certificate description only; no implementation or mathematical computation."
+    },
+    {
+      "id": "CLM-0060",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T27: for a distinct explicitly listed interval family containing representables on an expanded finite poset diagram, relative resolution length ≤1 is deterministically decidable in polynomial field-arithmetic cost by two radical-top relative covers.",
+      "sources": [
+        "SRC-0030",
+        "SRC-0031",
+        "SRC-0032"
+      ],
+      "scope": "S010/RELATIVE_RESOLUTION proof, loose O((N+m+d+1)^22) arithmetic bound. Classical endomorphism/projective-cover method, no full source Problem1, rational bit bound, implementation, benchmark or novelty."
+    },
+    {
+      "id": "CLM-0061",
+      "status": "PROGRAMME_PROVED",
+      "claim": "The terminal-kernel global-bottom lifting lemma fails on a longer grid even for the induced band {1}×{0,1,2}×{0,1,2}.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "S010 explicit genuine block has bottom0 and terminal death kernelZ. Disproves the immediate proof generalisation, not integral grid decomposability."
+    },
+    {
+      "id": "CLM-0062",
+      "status": "HEURISTIC",
+      "claim": "T26 may provide an HHA-suitable integral cube theorem if exact primary-proof priority, significance and useful extensions/applications survive.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0028",
+        "SRC-0029"
+      ],
+      "scope": "PROVISIONAL_INTERNAL_CANDIDATE; no originality or G2/G3 promotion."
     }
   ]
 }

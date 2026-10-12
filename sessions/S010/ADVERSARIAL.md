@@ -1,0 +1,31 @@
+# S010 critical-lemma attacks and separate symbolic reruns
+
+Internal fresh hostile rederivations by the same executing researcher; no second agent, external referee, mathematical program or formal certificate.
+
+## T26 kernel lifting and naturality
+
+1. **Tensor/intersection trap:** N_J is not transported modulo p by an abstract intersection assertion. Recompute it as H_top of the actual |J|-face. UCT supplies Tor(H_previous)=0 for |J|≥2; for one edge its free cokernel is indispensable. Kernels of individual primitive edges alone do NOT justify joint-kernel transport without face homology.
+2. **Field surrogate trap:** Surjectivity of L_v⊗Fp→K_v⊗Fp is useless without identifying these with the field joint kernels. Step1 supplies precisely those embedded identifications, and naturality of UCT/tensor identifies the restricted arrow. The integral cokernel criterion is valid because these are finite free groups and right-exact tensor sees every nonzero finite cokernel at a prime divisor.
+3. **Support list rerun:** The source Boolean 3-blocks are fifteen, not all rectangular or all interval supports. A principal mixed singleton such as {100} fails square exactness. Every legitimate induced support is anchored up or down after allowing some full axes. For ↓w, L_v is nonzero iff w≤v, K_v iff w=v. For ↑u all relevant kernel terms vanish. No top-only lattice witness is being substituted for an eight-vertex proof.
+4. **Integral Lemma17 failure addressed:** An arbitrary injection Z[↓v]→M need not split (2Z inside constant Z has torsion quotient). Our coefficient K_v is a SATURATED actual joint kernel at v, and r_v is explicitly chosen there. The entire module retraction propagates BACKWARD by q M(x→v), not an unjustified forward choice of independent bases.
+5. **Naturality at support boundary:** Section i has to vanish after any crossing edge; recheck its composite through b→b+e_j using s⊂L_v. Retraction naturality imposes no additional crossing condition because the downset's crossing map is zero and r at the target is zero. Outside→inside arrows cannot exist. ri=id follows at every vertex from a_vs=id and q|K_v=id.
+6. **All-prime preservation:** Direct decomposition of edges splits their cokernels. Quotient residual groups remain free because they are actual retraction kernels. Field complement remains a block sum by finite-dimensional Krull–Schmidt; no integral cancellation/idempotent-lifting claim was used. Removing full K_v makes it zero and later direct complements cannot create it.
+7. **Monomorphic residual:** Over Q, absence of all proper downsets forces all remaining supports to be upsets, so each top composite is injective. A finite free integral kernel vanishes if tensor Q vanishes. Composite purity is proved only once all residual edge maps are injections: successive quotients are extensions of free groups. It is false to derive pure composites from arbitrary primitive maps at the beginning.
+8. **T25 dependence:** Repeat its degree-one projection to w and pair-overlap boundary quotient; lower square sums have free quotients by Tor(H0) detection; relation elimination gives a DIRECT sum of seven pieces and free top complement. No field-dependent basis is used for the integer assembly.
+9. **Concrete kernel-bearing stress model:** At all eight vertices put Z. Every generating x/y edge is [1], all four z edges are [0]. This is ↓110⊕↑001, all arrows/composites primitive and all field faces exact. Top composites from z=0 have full kernel. At v110, J={z}, L_v=K_v=Z, a_v=[1]; q and s are identity. The explicit section/retraction split the entire lower face; the remaining upper face is ↑001. This checks the proof on a real death-bearing diagram, not a top-only lattice.
+10. **Dropped-hypothesis attacks:** Constant-third-axis determinant-m square violates H0 saturation; constant-third-axis Bezout square violates edge purity though every field complex is exact. Q alone misses integral torsion; finitely many arbitrarily chosen primes can miss a prime divisor. None satisfies T26.
+11. **Grid overclaim killed:** On a 3×3×3 grid the genuine induced band {1}×all×all has bottom group0 and a nonzero terminal kernel at (1,2,2); the bottom-lift map is 0→Z. This refutes immediate reuse of Step2, not integral rigidity itself. Local chosen bases cannot simply be declared compatible.
+
+## T27 arithmetic decision
+
+- No assumptions about poset-directed Hom graph: cycles may exist, but a repeated-index NONZERO composite would split an indecomposable into a distinct neighbour, impossible. Thus the off-diagonal radical nilpotence argument works even without a topological ordering of interval types.
+- End(Xi)=k needs CONNECTED supports, not just thin stalks. Duplicates must be removed; otherwise diagonal matrix radical/top handling is different. No arbitrary indecomposable family with unknown division algebras substituted.
+- Hom spans must include every j≠i and every basis product; using only a support containment order could miss morphisms. Linear naturality equations use all cover edges; functor commutativity then determines every comparable map.
+- cW is X-epic by top+nilpotence and pointwise onto by representables. Dimension equality alone for an arbitrary guessed decomposition is NOT a test. Right minimality gives isomorphism only when W is already relative projective.
+- Schanuel applies to X-admissible exact sequences and projectives add(X), not arbitrary pointwise surjections. Both constructed covers meet the Hom-exact condition.
+- O(S^22) is arithmetic complexity for EXPLICIT intervals and EXPANDED diagrams. Does not hide the number m, rational bit growth, or compressed-presentation expansion. No implementation/tests/benchmarks were run; no efficiency statement in the original R^n input model.
+- Prior-art hostile reading: finite-generator endomorphism rings and minimal relative covers are old. This completes a precise internal baseline, but provides no new HHA flagship by itself.
+
+## Audit result
+
+No fatal gap found in T26's finite-three-cube proof or T27's declared arithmetic model. Strongest remaining concerns are external correctness review, proof-level priority and the jump from one Boolean cube to larger grids. They remain explicit S011 obligations. No formal verification claimed.

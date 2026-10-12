@@ -2,7 +2,7 @@
 
 **Publication destination:** *Homology, Homotopy and Applications* (HHA), International Press. **Purpose:** discover and independently establish a significant original theorem or counterexample whose mathematical content genuinely belongs to homotopy theory, algebraic topology, homological algebra, or a substantial application of those methods.
 
-This is a **journal-directed exploratory programme**; the journal is **not** sponsoring or endorsing the research. The precise mathematical target is **NOT SELECTED**. S008 has completed internal symbolic mathematics; no original HHA flagship is selected. No theorem, novelty, Lean certification, Palomar registration, arXiv preprint, or HHA submission is claimed.
+This is a **journal-directed exploratory programme**; the journal is **not** sponsoring or endorsing the research. S010 has completed the mandatory tenth-session audit and a full internal proof of integral block rigidity for arbitrary-kernel Boolean three-cubes ([T26 proof](sessions/S010/MATHEMATICS.md)). This is the **provisional theorem candidate**; originality and HHA significance remain unverified. No Lean certification, Palomar registration, arXiv preprint or HHA submission. S011 is [FUTURE, UNEXECUTED](authoritative/NEXT_SESSION_PROMPT.md).
 
 ## Success means more than a formalised lemma
 

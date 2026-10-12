@@ -1,0 +1,9 @@
+# S010 owner invocation and live entry
+
+Exact visible owner instruction: “Run the next session https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/authoritative%2FNEXT_SESSION_PROMPT.md”. Received 12 October 2026. This newly authorises S010, not S011. The retrieved prompt is archived in AUTHORITATIVE_PROMPT.md.
+
+Live GitHub main and independent fresh git clone agree: 98f7bcefb8caf728b5c0401befd71913d4a83c82, tree 7ccf9ea8a156cafcf1c9053c0a67e80a5b98a3fe. S009 authored a18d60112592a4c207cb37ca73e8851936c33748, sole parent b4dea03b0b1cb297cd3133fd5ee5b71909fffea5, same tree as current main. PR10 merged ordinarily as current main with ordered parents [b4dea03b0b1cb297cd3133fd5ee5b71909fffea5,a18d60112592a4c207cb37ca73e8851936c33748]. This repairs STATE's placeholder, without inventing outgoing S010 refs.
+
+All ten PRs returned by the all-state collection are closed/merged; twelve observed branches contain no S010 competitor. Obsolete S008 branch still points at S007 main and is preserved. No S010 record at entry. Workflow repository-integrity.yml runs the static catalogue validator. Main run38284546401, job/check114929663267 and actual validation step completed success; S009 head runs38284434732/38284427878 success. Legacy status pending/0 contexts is not a check pass. Visible rulesets []; main branch metadata says protected=false, but detailed branch-protection GET403 remains UNKNOWN, not verified absence of every administrative policy.
+
+Read AGENTS, START_HERE, STATE, protocol, JSON/MD catalogues, all governance/route/selection/search ledgers; S002–S009 mathematical dossiers, S008 corrected supplement and S009 complete dossier. Work is isolated on session/S010-kernel-cube-rigidity. No mathematical computation/enumeration, external reviewer, delegated agents, Lean, manuscript, registration or outreach. Sources fetched through primary public pages; full journal-version proof equivalence is not assumed.

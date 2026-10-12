@@ -52,3 +52,6 @@ Decision NO_VIABLE_HHA_TARGET_YET despite solving S007 geometric mathematical ga
 
 ## S009 target decision
 C11 monomorphic 3cube T25: HHA-fit 4/5, reach 2/5, novelty evidence 0/5 (standard lattice/UCT suspected), proof 5/5, Lean feasibility 3/5, exposition 4/5 => 4×3+2×3+0×3+5×2+3+4=35/65. Full C11 retains ambitious significance but no current proof or explicit counterexample; NO selection. Published LLO Problem1 k1: high significance but S009's exact relative Schanuel reduction is classical and has no efficiency theorem. **NO_VIABLE_TARGET_YET**, G2 closed. S010 mandatory correction/novelty audit, kernel-bearing cube and efficient relative resolution challenge.
+
+## S010 candidate decision
+T26 full kernel-bearing Boolean-three-cube theorem is the strongest current INTERNAL result and primary provisional candidate. HHA homological fit plausible: UCT/Koszul homology controls simultaneous reduction/saturation; no certified new priority or nonroutine application. Novelty and reach remain UNKNOWN; no numerical score is a gate. S011 must seriously attempt proof/priority kill and a meaningful coherent grid/higher-cube strengthening. T27 is a useful complete expanded/listed finite-family arithmetic baseline with standard methodology, not the paper target. G2 and formalisation stay closed.
