@@ -33,3 +33,9 @@ C03 now has a genuine **iff** in a precise graph-admissible-B subfamily and a un
 
 ## S006 score and no-premature-flagship decision
 C03 exact M=0 full iff and all-M kernel torsion defect are internally strong but still methodologically standard. F/S/N/P/L/E estimate 5/3/1/5/1/4 = 42/65 (5×3+3×3+1×3+5×2+1+4); despite score increase, **RETIRED AS HHA FLAGSHIP** for absent demonstrably new application and proof-level novelty evidence. Score is not priority. C08 selected only as **NEXT RESEARCH SOURCE-INSPECTION CHALLENGER**, not Stage-1 theorem selection; C07 remains fallback. For C08 and C07, novelty score INDETERMINATE until exact original published proofs and new falsifiable claims are checked.
+
+## S007 scored competitive decision (scores are subjective, never novelty proof)
+- C08 actual integral section extension: F/S/N/P/L/E = 5/3/1/3/1/3 = **37/65**. Primary preprint full-proofs show s+1 collapse already; T18 cofiber counterexample not a simplicial section witness. PROVISIONAL future research only.
+- C07 filtration-natural BM Morse improvement: 5/2/0/3/2/3 = **32/65**. Final 2026 published BM theorem and 2013 filtration-Morse severe collision.
+- C11 integer n-parameter block obstruction: 4/2/0/3/3/2 = **29/65**. One arrow ×2 too trivial; genuine higher-dimensional condition missing.
+Decision **NO_VIABLE_TARGET_YET**; explicit S008 proof gate rather than selecting a paper or resetting G2.

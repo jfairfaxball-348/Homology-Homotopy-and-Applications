@@ -105,9 +105,9 @@
       "title": "Vaupel–Hermansen–Trygsland, Section complexes of simplicial height functions, HHA 27(2) 61–90 (2025)",
       "url": "https://arxiv.org/abs/2201.12617",
       "origin": "public scholarly site / publisher or original-preprint link",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "Preprint publicly visible excerpt contained Theorem 1.1; HHA bibliographic DOI 10.4310/HHA.2025.v27.n2.a4.",
-      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+      "access": "PROOF_INSPECTED",
+      "limitation": "S007 directly read original arXiv:2201.12617v1 31-page PDF pp.12–16 Theorem 1.1 proof, pp.20–26 Section 3.2/3.3, Prop 3.11/Example 3.12 and §4 intro; final 2025 HHA PDF not independently obtained; access grade applies to arXiv v1 only.",
+      "observed": "Published 2025 HHA foundation. Theorem 1.1, Proposition 3.8, 3.11 already cover reconstruction/E2 and s+1 collapse; §3.2 is field presentation. S007/PRIOR_ART."
     },
     {
       "id": "SRC-0013",
@@ -204,9 +204,18 @@
       "title": "Kevin P. Knudson and Nicholas A. Scoville, Discrete Morse theory for open complexes, Topology and its Applications 388 (September 2026) 109867",
       "url": "https://arxiv.org/abs/2402.12116",
       "origin": "original author abstract and publisher publication metadata DOI 10.1016/j.topol.2026.109867",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Original author arXiv 2402.12116v2 February 2026 PDF p7 §3 Theorem 3.1 proof directly inspected; September 2026 final publisher PDF not directly read; original proof version inspected only.",
+      "observed": "Original Thm 3.1 proof identifies Morse quotient M(X)/M(T) and H^BM(K)≅H(X,T). Published final metadata confirmed."
+    },
+    {
+      "id": "SRC-0024",
+      "title": "Konstantin Mischaikow and Vidit Nanda, Morse Theory for Filtrations and Efficient Computation of Persistent Homology (2013) DCG 50 330–353",
+      "url": "https://people.maths.ox.ac.uk/nanda/papers.html",
+      "origin": "Original author's bibliography and article description",
       "access": "ABSTRACT_INSPECTED",
-      "limitation": "Original preprint abstract and indexed final September 2026 publisher introduction stating Theorem 3.1 (gradient-chain/BM isomorphism); not a complete primary proof inspection, and indexed text is not a full-page read.",
-      "observed": "Final article states Borel–Moore and discrete gradient homology identification; C07 filtration-naturality novelty is not demonstrated."
+      "limitation": "Author paper description directly read; theorem/proof of 2013 publication not opened in S007",
+      "observed": "Classical filtration-respecting discrete Morse reduction preserves persistent homology; blocks novelty of generic filtered Morse claim."
     }
   ]
 }

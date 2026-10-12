@@ -284,6 +284,56 @@
         "SRC-0022"
       ],
       "scope": "Provisional alternative only: neither externally stated open problem nor theorem, no stage-2 novelty clearance."
+    },
+    {
+      "id": "CLM-0036",
+      "status": "SOURCE_STATED",
+      "claim": "Original VHT arXiv v1 T1.1/Prop3.8 prove diag section-complex homotopy equivalence and E2=Reeb complex homology, and Prop3.11 already bounds collapse by subdivision number s+1.",
+      "sources": [
+        "SRC-0012"
+      ],
+      "scope": "Full relevant 2022 original preprint proof pages inspected S007; final HHA 2025 full PDF not obtained, no novelty claim."
+    },
+    {
+      "id": "CLM-0037",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S007-T18: based maps f0 null and f1 from M(Z/2,1)∨M(Z/2,2) to itself have identical maps on all reduced homology but homotopy cofiber reduced H2 equal respectively (Z/2)^2 and Z/4.",
+      "sources": [],
+      "scope": "Explicit CW cellular mapping-cone chain generators and relations in S007/MATHEMATICS; classical extension algebra, NOT a section spectral sequence or original HHA flagship."
+    },
+    {
+      "id": "CLM-0038",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S007-T19: for open interval K=[0,1]\\{v0}, global acyclic matching (v1,e) destroys all relative chains but cannot preserve filtration F0 containing v1 and not e because H0(F0)=Z.",
+      "sources": [],
+      "scope": "Explicit filtered relative chain proof S007/C07_ROUTE; standard 2013 filtered Morse theory collision, no novel result."
+    },
+    {
+      "id": "CLM-0039",
+      "status": "PROGRAMME_PROVED",
+      "claim": "One-arrow integer module Z --times 2--> Z is not a direct sum of standard integral interval modules, though after tensoring with every field it is interval-decomposable.",
+      "sources": [],
+      "scope": "Elementary torsion cokernel/Smith normal form in S007/THIRD_CANDIDATE; NOT a counterexample to the published 2026 field module theorem."
+    },
+    {
+      "id": "CLM-0040",
+      "status": "HEURISTIC",
+      "claim": "A finite two-height simplicial section complex with rigorously identical integral E-infinity pages but nonisomorphic integral abutments may be realizable using S007 cofiber maps; exact section-space and filtration calculation remains entirely OPEN.",
+      "sources": [
+        "SRC-0012",
+        "SRC-0009"
+      ],
+      "scope": "S008 falsifiable construction hypothesis only. No full proof, no concrete h, not novel-certified."
+    },
+    {
+      "id": "CLM-0041",
+      "status": "SOURCE_STATED",
+      "claim": "Knudson–Scoville Theorem 3.1 proves Morse-gradient homology is Borel–Moore homology of finite open complex, and Mischaikow–Nanda 2013 already studies filtration-preserving Morse reductions.",
+      "sources": [
+        "SRC-0023",
+        "SRC-0024"
+      ],
+      "scope": "Knudson–Scoville original arXiv v2 p7 proof directly inspected; final 2026 PDF not accessed. Mischaikow–Nanda author abstract only."
     }
   ]
 }

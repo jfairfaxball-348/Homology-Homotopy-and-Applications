@@ -44,3 +44,10 @@ Directly revisited original Ramras 2026 publisher HTML introduction/Theorem 1.1,
 - SRC-0023: original preprint abstract + publisher indexed final September 2026 introduction describing Theorem 3.1 Borel–Moore/Morse-chain isomorphism; full publisher page/proof not independently read. Access remains ABSTRACT_INSPECTED, do not mislabel search-indexed text as full article.
 - SRC-0012: section-complex HHA 2025 author abstract/Theorem 1.1 previously sourced, full original proof not read this session.
 This is a targeted comparative literature check, NOT an exhaustive novelty/priority audit or Stage 2.
+
+## S007 2026-10-12 original-source access (arXiv-version-specific)
+- SRC-0012 upgraded PROOF_INSPECTED **for original 2022 arXiv v1 ONLY**: full relevant pp.12–16,20–26 original PDF theorem/proof and 3.11 read; FINAL 2025 HHA paper PDF NOT independently obtained. Already-established page-s+1 collapse kills naive C08 claim.
+- SRC-0023 upgraded PROOF_INSPECTED **for February 2026 arXiv v2 ONLY**: Thm3.1 proof p7, relative/gradient quotient. September 2026 publisher PDF only metadata/abstract seen.
+- SRC-0024 ABSTRACT_INSPECTED: [Mischaikow–Nanda 2013, filtered discrete Morse](https://people.maths.ox.ac.uk/nanda/papers.html), author's source, proof not read.
+- SRC-0009 original Springer §5 explicitly deals with spectral sequence extension problems; SRC-0015 Lebovici et al HHA 2026 institutional abstract for n-parameter block theorem.
+- Source table, precise URLs/pages/access differences: sessions/S007/PRIOR_ART.md. Not complete priority audit.
