@@ -1,0 +1,8 @@
+# S009 preregistered research routes and stop conditions
+One substantial original-source Stage-1 session. No Lean/Palomar/paper/arXiv/HHA/outreach.
+A: Reconfirm corrected T20 repeated-height E1 and stop: E1 normalization is after vertical homology, and cofiber/Ext is not a new flagship. No repeat numerical geometry.
+B: Published LLO arXiv:2402.16624v4 Problem1, k=1: try an actual finite-grid relative-resolution criterion via evaluation and Schanuel; hard kill if merely classical/inefficient for unrestricted grid.
+C: Original PID literature 2310.07971v6 / 2511.07614v3: compare consistency of integral bases along a chain with n-cube claw/higher lattice intersections.
+D: Primary aggressive theorem: finite free Z three-cube with primitive ALL arrows and block decompositions over Q and EVERY Fp. First attack full conjecture by top-injective (monomorphic) case; derive exact full Koszul H1 and UCT extrema, then simultaneous integral natural bases, attempting genuine incompatibility. Next test nonmonomorphic kernels and global grid.
+Verification: independent algebraic rerun of each exact sequence; non-saturation, M3 subspace, loss-of-monomorphism, and quantifier attacks. No exhaustive computation performed; therefore no computational bound/output/checker falsely claimed.
+Hard stops: no claim that a three-cube monomorphic theorem resolves arbitrary cubes or full source Problem1; no publication novelty pass if result is standard distributive-lattice splitting. Record NO_VIABLE_TARGET_YET and a deep correction-audit S010.

@@ -25,3 +25,5 @@
 
 
 **S008 supplement:** corrected T20 E1 argument and explicit T21 geometry; T23 integral diamond iff, no HHA originality gate. G1 ongoing, G2/G3/G4 NOT_STARTED; no external release.
+
+- **S009:** G1 internally establishes restricted T25 monomorphic Z-three-cube integral splitting by explicit common-lattice basis, and classical k=1 Schanuel criterion. Full primitive/all-prime C11 and efficient sourced Problem1 remain OPEN. **NO_VIABLE_TARGET_YET** for novel HHA paper; G2/G3/G4 NOT STARTED, G5/G7/G8 OWNER_GATED.

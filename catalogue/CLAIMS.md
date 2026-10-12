@@ -80,3 +80,12 @@ CLM-0042 proof corrected: E1 homology normalization, not literal repeated-height
 - **CLM-0051 PROGRAMME_PROVED:** T23 rigidity: on one finite free integer diamond, primitive arrow images plus middle exactness over Q and every Fp imply integral block decomposition. **Scope:** UCT detects integral middle homology and torsion H0; no extension to 3-cubes proved.
 - **CLM-0052 PROGRAMME_PROVED:** T24: matching preserving every nested compact X_s,T_s yields natural relative Morse chain contractions; open-complement inclusion exists iff T_t intersection X_s=T_s, then is proper. **Scope:** S008/FILTERED_RELATIVE_MORSE; standard sufficient matching/quotient theorem and elementary properness boundary, not original flagship.
 - **CLM-0053 HEURISTIC:** C11 next challenge: primitive-arrow/all-fields local block criteria might admit an integral 3-cube or finite-grid local-to-global theorem or genuine saturated-lattice counterexample. **Scope:** Future S009 only; internally proposed not externally declared open; no theorem, no priority clearance.
+
+## S009 new claims (mirror of JSON)
+
+|ID|Status|Precise scope|
+|---|---|---|
+|CLM-0054|PROGRAMME_PROVED|T25 full monomorphic three-cube integral principal-upset splitting proof; top-map injectivity ESSENTIAL, no general C11 or novelty claim.|
+|CLM-0055|PROGRAMME_PROVED|Exact 3-submodule Čech/Koszul H1/H0/H2 and UCT detection of end-cokernel torsion, symbolic S009 proof.|
+|CLM-0056|PROGRAMME_PROVED|Finite-grid relative X evaluation kernel k=1 iff relative projective; ordinary relative Schanuel, no efficient algorithm proof.|
+|CLM-0057|HEURISTIC|Kernel-bearing integral 3-cube C11 might obstruct global bases; still unresolved, internally proposed rather than published open conjecture.|

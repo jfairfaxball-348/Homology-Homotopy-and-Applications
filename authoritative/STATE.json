@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-12",
-  "last_completed_session": "S008",
-  "recommended_next_session": "S009",
+  "last_completed_session": "S009",
+  "recommended_next_session": "S010",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "NO_VIABLE_TARGET_YET; C08 explicit geometry closed/classical; C11 integral cube/grid rigidity challenger and source Problem1 relative-resolution route remain provisional",
-  "headline_status": "S008_RECONCILED_EXPLICIT_HEIGHT_WITNESS_CORRECTED_E1_NORMALIZATION__PID_DIAMOND_IFF__NO_NOVEL_FLAGSHIP",
-  "active_campaign": "S009 FUTURE: integral 3-cube/grid rigidity plus source-stated relative X-resolution Problem1, with current PID proof comparison",
+  "selected_mathematical_problem": "NO_VIABLE_TARGET_YET; T25 proves only monomorphic integral 3-cube rigidity; unrestricted primitive-arrow/all-prime C11 and efficient source Problem1 k=1 still open",
+  "headline_status": "S009_T25_MONOMORPHIC_3CUBE_INTEGRAL_BLOCK_RIGIDITY_INTERNAL__FULL_C11_UNRESOLVED__NO_HHA_FLAGSHIP",
+  "active_campaign": "S010 FUTURE: mandatory tenth-session correction audit, kernel-bearing C11 cube classification/counterexample and source Problem1 efficient k=1",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S008_T20_T21_PROVED_INTERNAL_NO_NOVEL_HHA_FLAGSHIP"
+      "status": "IN_PROGRESS_S009_T25_MONOMORPHIC_3CUBE_INTERNAL_NO_ORIGINAL_FLAGSHIP"
     },
     {
       "id": 2,
@@ -129,9 +129,19 @@
     ],
     "s008_merge_tree": "823a26541d44c2e012c21a4090661b6faa1182e9",
     "s008_supplement_entry_main": "c51274f7897aceb8b154c262022f68ec162c76a0",
-    "s008_supplement_outgoing_merge_sha": "VERIFY_FROM_LIVE_REMOTE_AFTER_MERGE"
+    "s008_supplement_outgoing_merge_sha": "b4dea03b0b1cb297cd3133fd5ee5b71909fffea5",
+    "s008_supplement_authored_commit": "d9ea576aab1093d006b68c3701ef7a4138a21ee4",
+    "s008_supplement_pr": 9,
+    "s008_supplement_merge_parents": [
+      "c51274f7897aceb8b154c262022f68ec162c76a0",
+      "d9ea576aab1093d006b68c3701ef7a4138a21ee4"
+    ],
+    "s008_supplement_merge_tree": "2d7cfb6fc261e196e8fd7bd0cd0d0603754d517d",
+    "s009_entry_main": "b4dea03b0b1cb297cd3133fd5ee5b71909fffea5",
+    "s009_entry_tree": "2d7cfb6fc261e196e8fd7bd0cd0d0603754d517d",
+    "s009_outgoing_merge_sha": "VERIFY_FROM_LIVE_REMOTE_AFTER_MERGE"
   },
-  "source_inspection": "S008 VHT arXiv v1 Def2.9 and Thm1.1/Prop3.11 source proof; official HHA 2025 PDF URL discovered but 403. Original Mischaikow-Nanda 2013 published-layout 24pp theorem4.3 prop4.4 proof read; LLO arXiv 2402.16624v4 theorem4/14 and selected proofs; final HHA 2026 publisher only metadata. Supplement: MN original deposit PID proof, LLO v4 pp11–17, new 2025 PID statements and 2026 infinite-PID/stratified-Morse abstracts; exact table SUPPLEMENT_PRIOR_ART.",
+  "source_inspection": "S009 read original LLO arXiv 2402.16624v4 pp2–3,5–8,11–17, Luo–Henselman-Petrusek 2310.07971v6 pp1–2,19–20,25, and 2511.07614v3 pp5–13 primary proof sections; publisher final equivalence and full contemporary priority not certified.",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null
@@ -146,15 +156,14 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Find substantial original HHA result beyond the corrected/explicit C08 witness and T23 PID diamond criterion.",
-    "Attack primitive-arrow/all-fields integral 3-cube/grid block rigidity, or source-stated relative X-resolution Problem1 with genuine k=1 progress.",
-    "Read full current Luo–Henselman-Petrusek PID proofs and compare all proposed extensions; exhaustive novelty not cleared.",
-    "S009 FUTURE UNEXECUTED; fresh owner invocation required."
+    "Mandatory tenth-session audit S010 with full previous theorem/provenance repair.",
+    "Remove top-injectivity from S009 T25 or produce fully primitive/all-prime exact kernel-bearing three-cube counterexample.",
+    "Attack efficient nontrivial k=1 X-resolution beyond classical relative Schanuel criterion.",
+    "Clear first true HHA-fit novelty source gate before Lean, Palomar or paper. S010 future only."
   ],
   "blockers": [
-    "No defensibly novel HHA-worthy theorem/selected paper target.",
-    "Internal corrected T20/T21 and new T22–T24 have no Lean or external proof/priority certificate.",
-    "Final VHT/KS full publication versions not inspected; no exhaustive prior-art audit.",
-    "Concurrent S008 PR#8 required one separately invoked supplement, explicitly reconciled, not duplicate S009 execution."
+    "No demonstrably novel HHA-worthy theorem or paper target; internal T25 likely classical distributive saturated-subgroup basis.",
+    "General kernel-bearing 3-cube primitive/all-field block theorem not proved/disproved.",
+    "Final published LLO and complete new citations not audited; G2 and Lean not started."
   ]
 }

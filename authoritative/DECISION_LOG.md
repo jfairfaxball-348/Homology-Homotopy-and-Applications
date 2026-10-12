@@ -47,3 +47,5 @@
 - **DEC-0045:** Correct PR#8 false chain-normalization shortcut: repeated-height sections need not be horizontal degeneracies. Explicit homotopy contractions justify E1 normalization/E2 collapse; cofiber/filtration separately established.
 - **DEC-0046:** Supply fully explicit T21 facet/vertex-map witness and natural split/nonsplit H2 filtration. T23 PID diamond iff and all-fields/primitive-arrow rigidity close the one-diamond target; only 3-cube/grid remains.
 - **DEC-0047:** Add current PID/stratified sources; preserve named source Problem1 as S009 alternative. NO_VIABLE_TARGET_YET and all later gates unchanged.
+
+- **DEC-0048 S009:** Validate S008 PR#8 and separately invoked supplement PR#9 from live GitHub commits; accept corrected repeated-height normalization, not the false raw chain shortcut. S009 entry b4dea03b0b1cb297cd3133fd5ee5b71909fffea5.
