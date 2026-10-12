@@ -529,6 +529,80 @@
         "SRC-0029"
       ],
       "scope": "PROVISIONAL_INTERNAL_CANDIDATE; no originality or G2/G3 promotion."
+    },
+    {
+      "id": "CLM-0063",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S011-T28: for any finite n>=2, integral free Boolean n-cube is a direct sum of its 2^(n+1)-1 upset/downset blocks iff generating edges have torsion-free cokernels and Q/every-prime field reductions are LLO block decomposable.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0033",
+        "SRC-0035"
+      ],
+      "scope": "S011/MATHEMATICS complete internal death-kernel UCT/peeling and finite-poset projective proof; NO independent check, novelty/G2/Lean/priority certification."
+    },
+    {
+      "id": "CLM-0064",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S011-T29 finite-poset descent: finite free Z diagram is a natural direct sum of principal-upset representables if its Q and every Fp reductions are sums of field representables.",
+      "sources": [
+        "SRC-0033",
+        "SRC-0034",
+        "SRC-0035",
+        "SRC-0036"
+      ],
+      "scope": "S011/MATHEMATICS latching colimit induction and Smith purity. Substantial classical projective-poset collision; internal proof only, NOT original-certified."
+    },
+    {
+      "id": "CLM-0065",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S011-T30: on any finite product of finite chains, top-injective integer diagram with primitive generating arrows and all-field LLO block decompositions splits integrally into principal upsets.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0033"
+      ],
+      "scope": "S011/GRID_ROUTES; every field block contains top and reduces to an upset, invoke T29. Does NOT cover mixed bands."
+    },
+    {
+      "id": "CLM-0066",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S011-T31: on any finite product of finite chains, a bottom-epimorphic free Z diagram with Q/all-Fp LLO block decompositions splits integrally into principal downsets.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0033"
+      ],
+      "scope": "S011/GRID_ROUTES; dual finite-poset T29. Bottom-to-all surjective required; no arbitrary mixed-band claim."
+    },
+    {
+      "id": "CLM-0067",
+      "status": "HEURISTIC",
+      "claim": "Integral grid rigidity for arbitrary mixed induced bands may follow from coherent slice kernel-image filtrations, but is unresolved.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0033"
+      ],
+      "scope": "S011 actual middle band {1}×{0,1,2}² refutes global-bottom lifting, not decomposition. No full grid iff/counterexample."
+    },
+    {
+      "id": "CLM-0068",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S011-T28 admits a finite integer Koszul-homology/purity criterion and death multiplicities from joint outgoing kernels plus birth multiplicities by Boolean Möbius inversion.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "S011/MATHEMATICS internal formula restricted to theorem-qualified diagrams; finite symbolic proof, not computational implementation."
+    },
+    {
+      "id": "CLM-0069",
+      "status": "HEURISTIC",
+      "claim": "All-n T28 is a genuinely original HHA-level result suitable for a paper.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0033",
+        "SRC-0034",
+        "SRC-0035"
+      ],
+      "scope": "UNRESOLVED priority/significance; exact 1981/2026 theorem comparison and nonroutine application needed; G2 remains NOT_STARTED."
     }
   ]
 }

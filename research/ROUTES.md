@@ -53,3 +53,9 @@ C11 T25 fully resolves only the TOP-MONOMORPHIC three-cube integral block case u
 
 ## S010 current disposition
 C11 Boolean-three-cube RESOLVED INTERNALLY by T26, arbitrary kernels and only primitive generating edges required; finite Koszul homology criterion. PROVISIONAL theorem candidate, priority/significance UNKNOWN. Larger grids/every-n still open, middle bands kill naive global-bottom lift. Source Problem1 RouteB: T27 explicit-family polynomial arithmetic decision, classical end-ring/minimal-cover collision; compressed/implicit input unresolved. C08/C07 archived. No conditional unrelated pivot after MainA success.
+
+## S011 higher-dimensional result and remaining routes
+- **C11 T28:** every finite Boolean n>=2 integral free cube with primitive generating edges and Q/every-Fp LLO blocks admits a coherent integral principal-upset/downset decomposition (2^(n+1)-1 types). All-face integral Koszul certificate. INTERNALLY PROVED, originality UNKNOWN, G2 not passed.
+- **T29 finite-poset projectives:** fieldwise representable direct sums descend integrally using latching colimits and pure cokernel, including arbitrary finite posets; likely classic 1981/2026 priority collision. Not standalone HHA flagship.
+- **Grid extreme T30/T31:** longer finite-grid top-monomorphic upsets and bottom-epimorphic downsets proven internally. **General mixed induced-band grid** unresolved; global-bottom lift failed on a genuine 3×3×3 induced band; follow coherent slice filtration route, not arbitrary vertexwise basis gluing.
+- **Application:** finite CW H1 circle/disk realisation elementary; no nonroutine HHA consequence or first novelty gate. T27 and C07/C08 older decisions unchanged. S012 future only.

@@ -1,0 +1,10 @@
+# S011 bounded execution plan and research preregistration
+
+1. Hostile reconstruction of S010-T26: precisely count Boolean supports, UCT degree shifts, full joint-kernel lifting, integral natural projection, split complement and Krull–Schmidt, T25 Čech lattice finish. Seek a countermodel satisfying every actual precondition, not a weakened surrogate.
+2. Route A: arbitrary Boolean n-cubes. Attempt same terminal-death peeling for all n, replacing dimension-three common-basis finish with a separately proved finite-poset projective local/global theorem via latching colimits. Prove all coefficient-change and saturation steps and audit the n=2 base case. Seek any missed block type or failed arrow.
+3. Route B: arbitrary finite grids of longer chains. Prove a strong monomorphic theorem via projective lifting and, dually, bottom-epimorphic splitting. Attack all-grid death-peeling and record a precondition-complete block obstruction to a naive global-bottom lift. Do not claim a general mixed-band theorem without compatible projections.
+4. Route C: finite homological certificate, rank barcode multiplicities and concrete multifiltered finite CW interpretation, clearly separated from source originality.
+5. Compare exact original LLO v4 Definition3/Lemma13/Theorems4/14, original 2026 projective/PID literature, older finite-poset projective theory, accessible publisher final version. Distinguish source access grades and specific collision risks. Complete proof and adversarial records and synchronise all governance/catalogues.
+6. ONE isolated branch/atomic authored commit, PR/non-force merge, independently check main/tree and real CI; prepare S012 FUTURE only.
+
+No mathematical enumeration/CAS/SAT/ILP/code experiment; all witnesses are finite symbolic and individually verified by hand. Static repository checks are administration, not a research experiment. No run-time hashes or numerical completeness claims are made.
