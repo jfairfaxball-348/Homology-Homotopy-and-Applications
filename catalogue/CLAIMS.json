@@ -206,6 +206,53 @@
         "SRC-0020"
       ],
       "scope": "No novelty guarantee, G2/G4 not started."
+    },
+    {
+      "id": "CLM-0026",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S005-T12: for L⊂K with dim K≤3, H3(K)=0 and H2(K) torsion-free, both H3(L)=0 and H2(L) torsion-free (cellular relative LES).",
+      "sources": [],
+      "scope": "S005/MATHEMATICS exact proof; elementary 3D saturation, no originality or Lean certification"
+    },
+    {
+      "id": "CLM-0027",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S005-T13 necessity: any degree-pure H2 free 3D meet-exact U1 diamond has joint lower δ_A=(a10,-a01):A00→A10⊕A01 a split injection, regardless of B/M.",
+      "sources": [],
+      "scope": "S005/MATHEMATICS Mayer–Vietoris H3=ker δ, H2=coker δ and T12"
+    },
+    {
+      "id": "CLM-0028",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S005-T13 iff: for graph-admissible B (S004-T8), 3D strictly meet-exact three-cover integral d2 realization with contractible pair overlaps and pure H2(U1),H1(T) exists iff δ_A is a split injection; individual lower A maps arbitrary nonsplit/noninjective.",
+      "sources": [],
+      "scope": "S005/MATHEMATICS explicit disjoint 3D lower A mapping cylinders, 2/3-cell top assembly, strict compatible f; conditional on graph B, not full universal characterization"
+    },
+    {
+      "id": "CLM-0029",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S005-T14 example A lower ×2 and ×3, upper ×3 and ×2, B all identity and M=(1,2,3,6), produces 3D one-critical square with cokernels 0,Z/2,Z/3,Z/6; δ_A=(2,-3) primitive.",
+      "sources": [],
+      "scope": "Symbolic integral relations S005/MATHEMATICS; no computation"
+    },
+    {
+      "id": "CLM-0030",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S005-T15 A00=Z and A10=A01=A11=B*=0 has no 3D degree-pure meet-exact cover but an explicit 4D example using two 3-balls along S2 then one D4.",
+      "sources": [],
+      "scope": "S005/MATHEMATICS; sharp example only, no general dimension-4 classification"
+    },
+    {
+      "id": "CLM-0031",
+      "status": "HEURISTIC",
+      "claim": "General nonprimitive upper B latching may obstruct total-3D one-critical covers, but universal proof is missing because mixed-grade cross-component intersections need not synchronize; C03 priority still highly uncertain.",
+      "sources": [
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0020"
+      ],
+      "scope": "Rejected overclaim in S005/ADVERSARIAL and S005/MATHEMATICS; unresolved original programme question"
     }
   ]
 }

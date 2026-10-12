@@ -16,3 +16,9 @@
 - **DEC-0019:** A failed graph test need not obstruct 2D triple intersections: T9 ordinary mapping cylinder repairs arbitrary upper maps; T10 isolates H2 joint-kernel 2D obstruction with 3-cell escape.
 - **DEC-0020:** T11 proves a strict, one-critical, total-dimension≤3 3-cover integral d2 *sufficient class* with arbitrary upper A maps and Z/4 example; no general 3D theorem or novelty certification.
 - **DEC-0021:** Stop at S004; G2/G3/G4, Palomar and publication closed. S005 future research must pursue a substantive obstruction/converse or retire C03 after priority audit.
+
+- **DEC-0022 (S005, 2026-10-12):** T12 proves degree-three saturation; necessity of split joint δ_A for pure-H2 U1 is universal, not requiring graph B. Individual lower A arrows need not be split.
+- **DEC-0023:** T13 upgrades T11 to an **iff** for graph-admissible B: joint lower A latching δ_A primitive suffices via distinct dimension-three lower mapping cylinders and top 2-/3-cell attachment. Exact strict covers, not generic homology-only commutativity.
+- **DEC-0024:** T14 demonstrates novel-to-this-programme ×2/×3 nonsplit lower transitions with d2 cokernels Z/2, Z/3, Z/6; ×2/×4 is forbidden. T15 gives sharp fourth-dimensional escape for a joint kernel.
+- **DEC-0025:** Reject the proposed unconditional λ_B primitive necessity until mixed-grade membership is controlled. Do NOT silently impose cross-grade synchrony. Continue C03 only provisionally; no novel HHA publication claim.
+- **DEC-0026:** Original sources have substantial conventional cofiber/MV and spectral-sequence material; retain C07/C08 as reserves. Stage 2, Lean, Palomar, manuscript and release all closed. S006 FUTURE, UNEXECUTED.

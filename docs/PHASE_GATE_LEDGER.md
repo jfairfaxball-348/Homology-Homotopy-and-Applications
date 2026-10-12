@@ -14,3 +14,5 @@
 | G8 HHA | — | OWNER GATED | Not submitted |
 | G1B S003 checkpoint | 2026-10-12 | IN PROGRESS — NO NOVEL FLAGSHIP | T5 strong classical CW extension; T6/T7 rigorous restricted obstructions, no HHA-level novelty established. Stage 2/3/4 unchanged. |
 | G1B S004 checkpoint | 2026-10-12 | IN PROGRESS — restricted dimension-3 theorem, NO NOVELTY PASS | T8–T11 human-readable detailed proofs; no certified original flagship; G2/G3/G4 remain NOT STARTED. |
+
+- **S005:** Stage 1 remains IN_PROGRESS after human-readable T12–T15 proof. No fully general dimension-three classification, new HHA flagship, proof-level priority equivalence or formal verification. Stage 2 novelty NOT_STARTED; Stage 3 Lean NOT_STARTED; Stage 4 final novelty NOT_STARTED; Palomar, arXiv and journal submissions OWNER_GATED. Success of repository governance CI is not a mathematics gate.

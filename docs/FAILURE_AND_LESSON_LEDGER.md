@@ -19,3 +19,9 @@
 | GAP-0015 | 2026-10-12 | dimension escape | A 2D meet-exact triple with bottom circle independently filled by two side disks makes H2(V)=Z, forbidding an H2-free 2D top triple. | T10; a 3-cell repairs, no total-3D impossibility. |
 | GAP-0016 | 2026-10-12 | positive geometry | Upper A nonsplit or zero maps do not force dimension≥4 if lower A split and B graph-admissible; T11 builds literal total-3D strict square. | Test larger class, including nonprimitive B. |
 | GAP-0017 | 2026-10-12 | originality | Precise restricted T8–T11 conclusions may follow classical CW/MV tools; HHA-worthy significance has not been demonstrated. | G2 closed; adversarial primary proof comparison or pivot S005. |
+
+- **S005-F1:** Individual primitive/split bottom A was unnecessarily strong in T11; the actual obstruction for degree-pure total 3D is primitive **combined** δ_A, proved by MV H3/kernel and torsion saturation of H2 of the latching union. Separate lower ×2 and ×3 arrows are allowed.
+- **S005-F2:** Joint injectivity δ_A alone is insufficient: δ=(2,−4) gives Z/2 torsion in H2 of U1 lower union, impossible in 3D H3-free/H2-free-top.
+- **S005-F3:** A mapping cylinder built on a 3D top A latching union adds 4D cells; replace it by 2-sphere generators and 3-cell relations x_i−λ_A(x_i) with identity coefficients.
+- **S005-F4:** Proposed unconditional B upper primitive obstruction incorrectly assumes U2,p∩P_q=P_p for p<q; mixed-grade delayed cover membership violates that inference while preserving each named per-grade meet. No general nonprimitive B verdict.
+- **S005-F5:** Technical CW iff alone may not meet HHA significance or novelty threshold. Source proof-level comparison and a serious reserve candidate required before first novelty gate.

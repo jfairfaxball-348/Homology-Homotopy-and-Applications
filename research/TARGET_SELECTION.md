@@ -27,3 +27,6 @@ C02 generic one-parameter integer matrix realisation T5 receives **novelty 0/5**
 
 ## S004 candidate rescore
 C03 restricted 3D square realization now internally proved (T11) and graph iff (T8): journal homology fit 5/5, potential significance 3/5, demonstrated novelty evidence 1/5, proof tractability 4/5, Lean feasibility 1/5, exposition 4/5. Weighted score = 5×3+3×3+1×3+4×2+1+4 = **40/65**, still strictly PROVISIONAL, not a selected HHA paper. The full theorem-classification and authoritative priority audit are unresolved; C07 and C08 remain reserves.
+
+## S005 rescore and decision
+C03 now has a genuine **iff** in a precise graph-admissible-B subfamily and a universal A-side obstruction, including nonsplit transitions. Proposed F/S/N/P/L/E = 5/3/1/4/1/4: **40/65** unchanged because novelty evidence remains only 1/5; a textbook cofiber+Hurewicz+MV combination is not automatically publishable. Prefer a wider B obstruction/counterexample or a directly sourced high-significance theorem before Stage 2; hard novelty stop may retire C03. C07 reserve must reflect its final September 2026 publication; C08 original HHA 2025 section theory remains prior art. Score is judgment, not novelty certification.
