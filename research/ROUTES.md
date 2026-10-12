@@ -50,3 +50,6 @@ Never interpret `PROGRAMME_PROVED` as a novelty or journal gate. See S002/CANDID
 
 ## S009 boundary theorem / no flagship
 C11 T25 fully resolves only the TOP-MONOMORPHIC three-cube integral block case under ALL prime reductions and primitive arrows: intersection-complete lattice, Čech H1 distributivity, UCT H0 saturation, explicit simultaneous 8-support basis. General C11 with kernels and global grid gluing NOT solved, no original HHA claim. Source Problem1 k=1 relative Schanuel evaluation supplies finite reduction but no efficient membership test: CLASSICAL, not a source open-problem solution. C08/C07 still retired as generic/cofiber/filtered-Morse flagship. S010 correction audit and serious kernel-bearing attack only.
+
+## S010 current disposition
+C11 Boolean-three-cube RESOLVED INTERNALLY by T26, arbitrary kernels and only primitive generating edges required; finite Koszul homology criterion. PROVISIONAL theorem candidate, priority/significance UNKNOWN. Larger grids/every-n still open, middle bands kill naive global-bottom lift. Source Problem1 RouteB: T27 explicit-family polynomial arithmetic decision, classical end-ring/minimal-cover collision; compressed/implicit input unresolved. C08/C07 archived. No conditional unrelated pivot after MainA success.

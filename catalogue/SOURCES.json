@@ -6,8 +6,8 @@
       "title": "HHA — Aims",
       "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/aims.htm",
       "origin": "official publisher indexed excerpt",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "Indexed official text, full page access may be 403.",
+      "access": "METADATA_ONLY",
+      "limitation": "Indexed official text, full page access may be 403. S010 correction: indexed text only, no direct statement/proof inspection; current policy/final text not verified.",
       "observed": "Originality and homotopy/homology significance."
     },
     {
@@ -15,8 +15,8 @@
       "title": "HHA — Information for Authors",
       "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/authinfo.htm",
       "origin": "official publisher indexed excerpt",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "Full direct page 403; verify before release.",
+      "access": "METADATA_ONLY",
+      "limitation": "Full direct page 403; verify before release. S010 correction: indexed text only, no direct statement/proof inspection; current policy/final text not verified.",
       "observed": "EditFlow, hha.cls, length guidance indexed."
     },
     {
@@ -24,8 +24,8 @@
       "title": "HHA — Using Class File",
       "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/style/hhaguide.htm",
       "origin": "official publisher indexed excerpt",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "Search-index text, direct may be blocked.",
+      "access": "METADATA_ONLY",
+      "limitation": "Search-index text, direct may be blocked. S010 correction: indexed text only, no direct statement/proof inspection; current policy/final text not verified.",
       "observed": "Use latest hha.cls."
     },
     {
@@ -141,8 +141,8 @@
       "title": "Bashar Saleh, Algebraic groups of homotopy classes of automorphisms and operadic Koszul duality, HHA 27(2) 151–170 (2025)",
       "url": "https://doi.org/10.4310/HHA.2025.v27.n2.a7",
       "origin": "public scholarly site / publisher or original-preprint link",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "Publisher PDF search-indexed opening and bibliography, no full proof audit.",
+      "access": "METADATA_ONLY",
+      "limitation": "Publisher PDF search-indexed opening and bibliography, no full proof audit. S010 correction: indexed text only, no direct statement/proof inspection; current policy/final text not verified.",
       "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
     },
     {
@@ -168,8 +168,8 @@
       "title": "SHERPA publisher policy: International Press (last reviewed 2026-01-15)",
       "url": "https://v2.sherpa.ac.uk/id/publisher_policy/101",
       "origin": "public scholarly site / publisher or original-preprint link",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "Indexed policy page says accepted/submitted versions may be placed in arXiv; journal-specific contract not inspected.",
+      "access": "METADATA_ONLY",
+      "limitation": "Indexed policy page says accepted/submitted versions may be placed in arXiv; journal-specific contract not inspected. S010 correction: indexed text only, no direct statement/proof inspection; current policy/final text not verified.",
       "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
     },
     {
@@ -223,7 +223,7 @@
       "url": "https://arxiv.org/pdf/2402.16624",
       "origin": "Original arXiv v4 author preprint 19pp; final HHA DOI 10.4310/HHA.2026.v28.n1.a9",
       "access": "PROOF_INSPECTED",
-      "limitation": "S009 original v4 PDF §1 pp2–3, §2–3 pp5–8, §4 p11 Lemmas17–18 and §7 pp15–17 Lemmas27/28 Prop29 inspected; final 2026 journal PDF proof-equivalence NOT checked.",
+      "limitation": "S009 original v4 PDF §1 pp2–3, §2–3 pp5–8, §4 p11 Lemmas17–18 and §7 pp15–17 Lemmas27/28 Prop29 inspected; final 2026 journal PDF proof-equivalence NOT checked. S010 original HTML selected §4 Lemma18 and §7 Lemmas27/28, Prop29 re-read; journal-deposit endpoint anti-bot blocked. See PRIMARY_PROOF_COMPARISON.",
       "observed": "Field exact n-cube n-block theorem, Problem1 k>=1 efficient resolution, vector-space death/claw splitting."
     },
     {
@@ -261,6 +261,33 @@
       "access": "PROOF_INSPECTED",
       "limitation": "S009 original 2511.07614v3 PDF pp5–13, Thm3.1, Thm4.1 proof, matching basis 4.3–4.16 and Thm5.1 inspected; complete proof dependencies not independently rederived.",
       "observed": "Possibly infinite total-order PID splitting and field-choice with original consistent-basis proof."
+    },
+    {
+      "id": "SRC-0030",
+      "title": "Asashiba–Escolar–Nakashima–Yoshiwaki, Approximation by interval-decomposables and interval resolutions of persistence modules, arXiv2207.03663v3 (7 Jun2023), JPAA227(10)107397",
+      "url": "https://arxiv.org/html/2207.03663v3",
+      "origin": "Original author preprint HTML; journal DOI10.1016/j.jpaa.2023.107397",
+      "access": "PROOF_INSPECTED",
+      "limitation": "S010 selected §3 minimal-approximation proof paragraphs3.11/3.13 and endomorphism relative setup; not whole paper or final-journal equivalence. §4/§6 statements only.",
+      "observed": "Classical end-ring relative resolutions/minimal approximations collide with T27."
+    },
+    {
+      "id": "SRC-0031",
+      "title": "Chachólski–Guidolin–Ren–Scolamiero–Tombari, Koszul Complexes and Relative Homological Algebra of Functors Over Posets, FoCM25 (2025)1121–1165; online18 Jun2024",
+      "url": "https://link.springer.com/article/10.1007/s10208-024-09660-z",
+      "origin": "Original open publisher HTML; arXiv2209.05923v3 (23 Apr2024)",
+      "access": "PROOF_INSPECTED",
+      "limitation": "S010 intro, §3.5 and selected Theorem5.14/Cor5.16 proof paragraphs, not all sections. Family thin-poset assumptions retained.",
+      "observed": "End-ring method already described; minimal relative cover correspondence/Betti machinery."
+    },
+    {
+      "id": "SRC-0032",
+      "title": "Aoki–Escolar–Tada, Summand-injectivity of interval covers and monotonicity of interval resolution global dimensions, JACT9,13 (2025),21 May2025",
+      "url": "https://link.springer.com/article/10.1007/s41468-025-00210-2",
+      "origin": "Original open publisher HTML",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "S010 abstract/introduction; full HTML available but no theorem-proof audit performed.",
+      "observed": "Current interval-cover computation and monotonicity theory; RouteB priority precedent."
     }
   ]
 }

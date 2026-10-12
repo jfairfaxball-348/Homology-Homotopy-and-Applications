@@ -1,0 +1,5 @@
+# S010 scope and stopping rules
+
+Execute one Stage-1 session. First rederive T1–T25 and reconcile corrected S008 and source-access labels. Main A: reconstruct the field death/lift/claw mechanism and try saturated joint-kernel lifting over Z, then explicit primitive/all-prime counterexample attacks. Main B: replace S009 add(X) black box by a concrete relative-projective-cover membership algorithm, with arithmetic complexity and hostile prior-art comparison. Branch C is conditional on BOTH main routes failing; do not manufacture a pivot after a complete cube theorem.
+
+No mathematical numerical computation, CAS, SAT, enumeration or historical code is planned or used. Static file/JSON/git validation and reading source text are administrative. No computational evidence is being substituted for a general proof. If an experiment becomes necessary, preregister it before launch. Stop after a full theorem/proof gap decision, source-priority boundary, synchronized records and one authored commit/ordinary PR/non-force merge. S011 is future only.
