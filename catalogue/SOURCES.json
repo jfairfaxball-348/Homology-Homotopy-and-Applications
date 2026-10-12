@@ -171,6 +171,24 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Indexed policy page says accepted/submitted versions may be placed in arXiv; journal-specific contract not inspected.",
       "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0020",
+      "title": "Gunnar Carlsson and Afra Zomorodian, The Theory of Multidimensional Persistence, SCG 2007 / Discrete & Computational Geometry 42 (2009) 71–93",
+      "url": "https://fodava.gatech.edu/sites/default/files/FODAVA-07-01.pdf",
+      "origin": "Original author/source 2007 conference PDF directly inspected",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original §3 Theorem 2 realization directly inspected in PDF page 4; its 2007 proof explicitly omitted; later 2009 full publication proof not audited.",
+      "observed": "Every finite k-valued multi persistence module realized in positive-degree homology of a finite multifiltered simplicial complex; FIELD k, not integral three-cover d2; S003/PRIOR_ART.md"
+    },
+    {
+      "id": "SRC-0021",
+      "title": "Daniel Dugger, A Primer on Homotopy Colimits, §14.1 Reedy cofibrant diagrams",
+      "url": "https://people.math.rochester.edu/faculty/doug/otherpapers/hocolim2.pdf",
+      "origin": "Original author-hosted PDF, indexed public excerpt only",
+      "access": "SECONDARY_ONLY",
+      "limitation": "Web-indexed excerpt available but primary PDF direct open disabled; no proof inspected.",
+      "observed": "Indexed reference to canonical homotopy colimits and Reedy rectification; not used to certify a multiparameter theorem."
     }
   ]
 }

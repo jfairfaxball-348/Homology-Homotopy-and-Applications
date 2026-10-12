@@ -19,3 +19,9 @@
 |CLM-0013|SOURCE_STATED|HHA published substantive work on section complexes, geodetic magnitude homology, and n-parameter block persistence in 2025–26. See Original metadata/abstract and selected statement levels.|
 
 T1–T4 proofs: [S002 dossier](../sessions/S002/MATHEMATICS.md); novelty qualifications: [S002 sources](../sessions/S002/PRIOR_ART.md).
+|CLM-0014|PROGRAMME_PROVED|S003-T5 finite-chain arbitrary integral morphism realization by nested finite CW 3-covers, dimension <=t+3; not novel certified. See S003/MATHEMATICS.|
+|CLM-0015|PROGRAMME_PROVED|S003-T6 top-dimensional CW-subcomplex homology is primitive; cellular proof S003/GEOMETRY_OBSTRUCTIONS.|
+|CLM-0016|PROGRAMME_PROVED|S003-T7 one-critical diamond graph rank/latching obstruction, explicitly NOT unrestricted 2D impossibility.|
+|CLM-0017|SOURCE_STATED|Carlsson–Zomorodian Theorem 2 already realizes any finite field multi-persistence module; primary theorem statement, proof omitted in 2007 PDF.|
+|CLM-0018|PROGRAMME_PROVED|Injective ×2 A,B transitions with M=4 yield coker Z/4 transition ×2 and a dying torsion class.|
+|CLM-0019|HEURISTIC|Unsettled dimension-3 one-critical integral bifiltration transgression classification, not a demonstrated open theorem.|

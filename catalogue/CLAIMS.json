@@ -110,6 +110,55 @@
         "SRC-0015"
       ],
       "scope": "Original metadata/abstract and selected statement levels"
+    },
+    {
+      "id": "CLM-0014",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S003-T5: all finite-chain compatible free integer A,B,M diagrams with arbitrary (even non-injective) transitions have nested finite CW 3-cover integral d2 realization; dim X_t <=t+3; homology only degrees 2,3.",
+      "sources": [],
+      "scope": "Full symbolic mapping-cylinder/HEP proof S003/MATHEMATICS; no originality, 3D restriction or Lean certification claimed."
+    },
+    {
+      "id": "CLM-0015",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S003-T6: for K subset L finite CW with dim L<=n, H_n(K;Z) embeds as direct summand of H_n(L;Z).",
+      "sources": [],
+      "scope": "Cellular chain saturation proof S003/GEOMETRY_OBSTRUCTIONS; elementary."
+    },
+    {
+      "id": "CLM-0016",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S003-T7: one-critical two-parameter connected-graph triple intersections obey diamond rank latching inequality and split integral amalgam inclusion; B00=0, B10=B01=B11=Z with identity upper maps violates it.",
+      "sources": [],
+      "scope": "Mayer-Vietoris + T6, restricted literal meet-intersection hypothesis; NOT a counterexample for unrestricted CW bifiltration."
+    },
+    {
+      "id": "CLM-0017",
+      "status": "SOURCE_STATED",
+      "claim": "Carlsson–Zomorodian original 2007 Theorem 2 realizes any finite field-valued multiparameter persistence module as positive-degree homology of a finite multifiltered simplicial complex.",
+      "sources": [
+        "SRC-0020"
+      ],
+      "scope": "Original primary theorem statement directly inspected, 2007 proof explicitly omitted; field-valued generic PH, not integral three-cover transgression."
+    },
+    {
+      "id": "CLM-0018",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Two-stage alpha=beta=multiplication by 2 and M=multiplication by 4 has coker Z/4 at both stages and transition multiplication by 2, which kills a nonzero torsion class despite injective local maps.",
+      "sources": [],
+      "scope": "Elementary natural cokernel calculation with T5 geometric existence, S003/MATHEMATICS; symbolic not search."
+    },
+    {
+      "id": "CLM-0019",
+      "status": "HEURISTIC",
+      "claim": "Sharp integral one-critical dimension<=3 bifiltration transgression obstruction or sufficiency theorem might be noteworthy; general 2-parameter universality not proved or disproved.",
+      "sources": [
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0020"
+      ],
+      "scope": "Unresolved S004 programme route; no named external open problem or novelty certification."
     }
   ]
 }

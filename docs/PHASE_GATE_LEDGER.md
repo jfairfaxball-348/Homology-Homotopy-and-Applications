@@ -12,3 +12,4 @@
 | G6 Manuscript | — | NOT STARTED | No finished paper |
 | G7 arXiv | — | OWNER GATED | Not submitted |
 | G8 HHA | — | OWNER GATED | Not submitted |
+| G1B S003 checkpoint | 2026-10-12 | IN PROGRESS — NO NOVEL FLAGSHIP | T5 strong classical CW extension; T6/T7 rigorous restricted obstructions, no HHA-level novelty established. Stage 2/3/4 unchanged. |
