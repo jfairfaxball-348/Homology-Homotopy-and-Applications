@@ -38,3 +38,9 @@ Never interpret `PROGRAMME_PROVED` as a novelty or journal gate. See S002/CANDID
 - C07: T19 simple filtered open interval matching obstruction; Knudson–Scoville 2026 and Mischaikow–Nanda 2013 already cover major claim space, HIGH COLLISION.
 - Third HHA 2026 integral blocks: one-arrow ×2 elementary torsion obstruction, killed as flagship; a genuinely new higher-parameter lattice theorem not formulated.
 - C03 T16/T17 retained baseline, no restart.
+
+## S008 major proof closure and negative publication gate
+- C08 T20/T21: ACTUAL finite two-height height functions via categorical collages, exact section simplicial sets, **identical integral E1 and E∞ but H2 Z/4 vs (Z/2)^2**; gap from S007 is mathematically closed at existential level. Missing explicit vertexwise simplicial approximation and publisher-final VHT full proof. Theoretical methods classical Grothendieck/homotopy colimit + integral Ext => originality HIGH RISK, HHA flagship UNSELECTED.
+- C07 original Mischaikow–Nanda 2013 Thm4.3/Prop4.4 full proof already gives filtered equivalence, K-S 2026 BM identification established. No new route proven.
+- C11 HHA 2026 n-cube M2/M4 have same every-field reductions, integrally differ via Smith torsion; not a new 2026 counterexample. Alternative **published Problem1 relative-X resolution k≥1** much stronger explicitly externally posed direction for S009.
+- C03 remains archived T16/T17. No G2/Lean.

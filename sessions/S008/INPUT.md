@@ -1,0 +1,9 @@
+# S008 owner invocation and live GitHub entry
+
+Owner supplied two consecutive messages "Continue" after S007 closeout. Interpreted as fresh explicit permission for precisely S008, NOT S009 or any external action. No transcript hash invented.
+
+Independently observed main b2ed19dd3c045ec0613711b7ca645c137e1c9ec6, tree a00219296c89101ec1f7fa1cdf293db218bcad85; actual S007 PR #7 head a370cb8560088ab26810a674de2a6b7644e2ebfa, sole parent 2f274f2a8b67b882df95119b3dc66ed9857d9cbd, ordinary two-parent merge b2ed19dd3c045ec0613711b7ca645c137e1c9ec6 with [2f274f2a8b67b882df95119b3dc66ed9857d9cbd,a370cb8560088ab26810a674de2a6b7644e2ebfa], merge tree a00219296c89101ec1f7fa1cdf293db218bcad85. PR7 merged, 21 files. Latest main push workflow run 38273703613 SUCCESS with governance check-run success, classic commit statuses [] (NOT independently CI success), accessible rulesets [], protection API 403 UNKNOWN. All historic PRs 1–7 in latest search, no competing S008 branch found. Workflow file repository-integrity.yml. Recheck S008 PR check runs individually after write.
+
+Read AGENTS, START_HERE, STATE, protocol, catalogues, routes, S006 T16/T17 and S007 comprehensive records/false cofiber-to-section promotion warning. The full current NEXT_SESSION_PROMPT.md is S008, to be superseded by S009 FUTURE only on S008 closeout.
+
+Original VHT 2201.12617v1 full relevant text and screenshots inspected; retrieved **published HHA 2025 PDF URL** from official indexing but full fetch returned 403, so final full PDF remains uninspected. Inspected arXiv Lebovici et al 2402.16624v4 Theorems 4,14 and selected proof portions and original Mischaikow–Nanda publisher-layout 2013 PDF Theorem 4.3/Prop4.4; Knudson–Scoville arXiv original prior proof inherited S007. No unauthorized external correspondence.

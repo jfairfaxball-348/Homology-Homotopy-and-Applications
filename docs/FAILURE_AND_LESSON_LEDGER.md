@@ -36,3 +36,10 @@
 - **S007-F3 MISSING GEOMETRY:** A proposed cone-prism homotopy pushout has not been independently identified with actual S_h section spaces/filtration; no shortcut from abutment equivalence to same E2 pages.
 - **S007-F4 MORSE COLLISION:** Ordinary acyclic edge matching crossing birth times fails filtered naturality; equal-birth sufficient reductions known since Mischaikow–Nanda 2013.
 - **S007-F5 HHA 2026 PID COLLISION:** Integer ×2 torsion immediately obstructs integral interval decomposition despite fieldwise interval decomposability, too elementary for new HHA flagship.
+
+- **S008-F1 CLOSED EXISTENTIALLY:** S007 assumed cofiber but had no actual height. Finite poset collage C_g and exact mixed-arrow NE_g, with explicit deformation retract, genuinely furnish height spectral sequence E1/E∞ integral witness; finite face-map enumeration still missing.
+- **S008-F2 GEOMETRY DETAIL:** Original simplicial section spaces are mapping spaces over Δ¹ and include all square natural transformations; naive S[0,1]=P without checking mixed arrows is false literally. E_g and its retract supply corrected strict statement.
+- **S008-F3 DEGENERATE HEIGHTS:** Two levels do NOT make all Sh_p for p≥2 empty; horizontal NONDEGENERATE sections vanish after normalization. Avoid incorrect collapse argument.
+- **S008-F4 ORIGINALITY:** Collage nerve derived homotopy pushout and classical Z/4 extension are familiar technology, despite geometric result new to THIS programme. No novelty-gate promotion.
+- **S008-F5 C07 PROOF COLLISION:** 2013 original Theorem4.3 and Prop4.4 filtered acyclic Morse chain equivalence closes generic filtered proposal.
+- **S008-F6 FIELDWISE INTEGRAL BLINDNESS:** M2 vs M4 all-field n-cube reductions agree, integral structures differ. Classical integer exponent cannot be read from fields alone; not a new multipersistence breakthrough.

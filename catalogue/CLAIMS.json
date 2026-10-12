@@ -334,6 +334,61 @@
         "SRC-0024"
       ],
       "scope": "Knudson–Scoville original arXiv v2 p7 proof directly inspected; final 2026 PDF not accessed. Mischaikow–Nanda author abstract only."
+    },
+    {
+      "id": "CLM-0042",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S008-T20 for every nonempty finite poset map g:P→Q there is an explicit finite collage poset C_g and two-height simplicial height h:NC_g→N[1] with exact section spaces S[0]=N(P^triangleright), S[1]=NQ, S[0,1]=N{(p,q):g(p)≤q}; horizontal faces coordinate projections, E2=E∞ integrally, abutment naturally equivalent to homotopy cofiber of |Ng|.",
+      "sources": [
+        "SRC-0012"
+      ],
+      "scope": "Complete categorical nerve/arrow-category retract/diagonal VHT proof in S008/MATHEMATICS; classical homotopy-pushout technique. No Lean, no novelty certification."
+    },
+    {
+      "id": "CLM-0043",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S008-T21 existence of two finite actual simplicial height maps, derived via finite simplicial approximations of T18 Moore-wedge f0/f1, with isomorphic entire integral section E1 and E2=E∞ bigraded groups/differentials but Htilde2 of total spaces respectively (Z/2)^2 and Z/4.",
+      "sources": [
+        "SRC-0012"
+      ],
+      "scope": "Exact finite-poset section calculation T20 and S007 explicit cellular cone proof. Existence by standard finite simplicial approximation; explicit vertexwise gamma1/list and subdivision bound not supplied. Not an HHA originality pass."
+    },
+    {
+      "id": "CLM-0044",
+      "status": "SOURCE_STATED",
+      "claim": "Mischaikow–Nanda 2013 Theorem 4.3 and Proposition 4.4 prove filtered chain equivalences and persistence preservation for filtered acyclic matchings including equal-birth paired cells.",
+      "sources": [
+        "SRC-0024"
+      ],
+      "scope": "Original author-hosted journal-layout full theorem/proof pp340–341 inspected S008; C07 prior art."
+    },
+    {
+      "id": "CLM-0045",
+      "status": "PROGRAMME_PROVED",
+      "claim": "For n≥3, n-cube diagrams of Z groups with coordinate-one maps ×2 versus ×4 and all other maps identity have isomorphic base change to every field and fieldwise block decompositions, but are not isomorphic over Z because their cross-edge cokernels are Z/2 and Z/4.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "S008/THIRD_CANDIDATE elementary Smith/base-change proof; classical, no refutation of 2026 FIELD theorem, no HHA novelty."
+    },
+    {
+      "id": "CLM-0046",
+      "status": "SOURCE_STATED",
+      "claim": "Lebovici–Lerch–Oudot original preprint v4 Theorem4/14 is field-only n-block decomposition iff local cube/k-middle exactness; introductory Problem1 asks efficient decision of relative X-resolution length ≤k.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "Original arXiv:2402.16624v4 sections 1,3,5–7 partially inspected; published 2026 final PDF not proof-audited."
+    },
+    {
+      "id": "CLM-0047",
+      "status": "HEURISTIC",
+      "claim": "S008-T21 may be useful as an illustrative integral extension warning but generic cofiber/nerve homotopy-colimit technology and existing spectral-sequence extension theory severely undermine HHA originality.",
+      "sources": [
+        "SRC-0012",
+        "SRC-0009"
+      ],
+      "scope": "NO_HHA_FLAGSHIP_YET, not claim of searched-away novelty or priority certification."
     }
   ]
 }

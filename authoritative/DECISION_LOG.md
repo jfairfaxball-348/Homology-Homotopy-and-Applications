@@ -34,3 +34,10 @@
 - **DEC-0034:** Reject generic filtration-natural Morse as originality: T19 open-edge crossing-pair counterexample, 2013 filtered Morse prior art, 2026 Knudson–Scoville BM identification.
 - **DEC-0035:** Independent HHA 2026 PID block attempt killed as trivial one-arrow ×2; no novel theorem or counterexample to field publication.
 - **DEC-0036:** NO_VIABLE_TARGET_YET. Keep G2/G3/G4 closed, future S008 actual 2-height h calculation; no external action.
+
+- **DEC-0037 S008:** Exactly define C_g finite collage poset and E_g mixed arrows, calculate S_h[0], S_h[1], S_h[0,1] as **simplicial sets**, not a mere abstract cofiber; T20 cofiber equivalence uses VHT Theorem1.1/EZ and explicit NE_g retract.
+- **DEC-0038:** T21 closes S007 absent height-geometry existentially: common finite simplicial approximation to f0/f1, same integral entire section E1 and E∞ pages, different H2=(Z/2)² vs Z/4; no explicit minimal k or γ1 list; no formal certificate.
+- **DEC-0039:** Classical category nerve/hocolim and integral extension ambiguity likely too routine for original HHA paper, no demonstrated novel invariant; C08 cannot pass G2 based only on T20/T21.
+- **DEC-0040:** Original Mischaikow–Nanda 2013 Theorem4.3/Prop4.4 proof inspected, generic filtered C07 enhancement PRIOR ART; 2026 K-S BM existing.
+- **DEC-0041:** All-field identical n-cube ×2/×4 integral distinction is ordinary Smith, not HHA 2026 LLO refutation. Printed LLO Problem1 relative-X resolution k≥1 is a more serious S009 open-source target.
+- **DEC-0042:** NO_VIABLE_HHA_FLAGSHIP_YET; G2/G3/G4 closed, prepare only S009 FUTURE UNEXECUTED. No publication or outreach.

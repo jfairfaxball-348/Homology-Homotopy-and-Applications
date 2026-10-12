@@ -59,3 +59,12 @@ Source/claim JSON retains normative IDs/status; S005-CLM-0031 remains historical
 - CLM-0040 HEURISTIC: possible actual 2-level section-space integral extension model, **not constructed**.
 - CLM-0041 SOURCE_STATED: 2026 open-complex BM/Morse and 2013 filtration-Morse antecedents (SRC-0023/0024).
 NO HHA flagship, novelty G2 or formal certificate.
+
+## S008 claims mirror (full scope in JSON)
+- CLM-0042 PROGRAMME_PROVED: T20 for any finite poset g:P→Q, exact nerve section spaces including E_g mixed-arrow poset; E2=E∞ and NC_g has homotopy cofiber of g. Classical nerve/hocolim proof, NOT original-certified.
+- CLM-0043 PROGRAMME_PROVED: T21 two actual finite simplicial height functions from S007 f0/f1 have equal full integral E1/E2=E∞ pages, different H2=(Z/2)² and Z/4; finite existence via simplicial approximation only, **no explicitly enumerated γ1**.
+- CLM-0044 SOURCE_STATED: Mischaikow–Nanda 2013 filtered chain equivalences, original Theorem4.3/Prop4.4 (SRC-0024).
+- CLM-0045 PROGRAMME_PROVED: all-fields-indistinguishable n-cube modules ×2 versus ×4 but different integral cokernels (elementary and not novel).
+- CLM-0046 SOURCE_STATED: LLO 2026 theorem4/14 field-only and printed Problem1 future relative-resolution length k (SRC-0025).
+- CLM-0047 HEURISTIC: strong HHA novelty collision for T20/T21, **no flagship**.
+No Stage2, Lean, Palomar or public claim.

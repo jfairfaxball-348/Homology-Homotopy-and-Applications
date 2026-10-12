@@ -12,3 +12,5 @@
 |S006|2026-10-12|COMPLETED SYMBOLIC MATHEMATICS, HHA-FLAGSHIP PIVOT|T16 full M=0 3D iff; determinant-two B impossible without synchrony; T17 all-M kernel torsion defect; C03 retired as paper flagship, C08 provisional, novelty unpassed|sessions/S006/CLOSEOUT.md; S007 FUTURE UNEXECUTED|
 
 |S007|2026-10-12|COMPLETED STAGE-1 SOURCE-FIRST MULTIROUTE SESSION|Original VHT proof/Prop3.11, Knudson–Scoville Thm3.1 read (preprint versions); T18 exact CW cofiber Z/4 vs (Z/2)^2 with same H maps, NOT section example; T19 filtered edge obstruction; integer ×2 field/integral gap. NO_VIABLE_TARGET_YET, novelty closed|sessions/S007/CLOSEOUT.md; S008 FUTURE UNEXECUTED|
+
+|S008|2026-10-12|COMPLETED EXACT TWO-HEIGHT SECTION GEOMETRY; NO HHA ORIGINALITY|T20 finite collage poset exact section nerve and cofiber equivalence; T21 actual finite h_i same integral E1=E∞ vs H2=(Z/2)²/Z4 (existential simplicial approximation); 2013 filtered Morse collision and 2026 field cube Smith counterexample not novel; HHA 2026 Problem1 sourced for next|sessions/S008/CLOSEOUT.md; S009 FUTURE UNEXECUTED|
