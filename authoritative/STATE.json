@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-12",
-  "last_completed_session": "S003",
-  "recommended_next_session": "S004",
+  "last_completed_session": "S004",
+  "recommended_next_session": "S005",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "C03 REFRAMED PROVISIONAL: dimension-bounded, one-critical integral 2-parameter three-cover d2 obstruction/classification; not an established novel problem",
-  "headline_status": "NO_NOVEL_FLAGSHIP_PROVED__CLASSICAL_ONE_PARAMETER_UNIVERSALITY__TWO_PARAMETER_RESTRICTED_OBSTRUCTION",
-  "active_campaign": "C03 restricted geometry: S003-T6/T7 necessary obstructions, S003-T5 algebraic baseline",
+  "selected_mathematical_problem": "C03 PROVISIONAL: one-critical integral three-cover d2 square dimension≤3; restricted S004-T11 established, no validated originality",
+  "headline_status": "RESTRICTED_UNIFORM_3D_ONE_CRITICAL_THEOREM_INTERNAL_ONLY__FULL_CLASSIFICATION_AND_ORIGINALITY_UNRESOLVED",
+  "active_campaign": "C03 S004-T8 graph primitive iff, T9 2D T repair, T10 2D joint-kernel, T11 total-3D three-cover sufficient class",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_NO_HHA_ORIGINAL_RESULT"
+      "status": "IN_PROGRESS_RESTRICTED_3D_PROOF_NO_ORIGINAL_FLAGSHIP"
     },
     {
       "id": 2,
@@ -76,9 +76,17 @@
     ],
     "s002_merge_tree": "23c3d910aad755627420612f31f2e8ef3981423e",
     "s003_entry_main": "16c823bf6ebd08694962c4e5ec3876b3f6c4c1f4",
-    "s003_outgoing_merge_sha": "VERIFY_REMOTELY_AFTER_MERGE"
+    "s003_outgoing_merge_sha": "bc3442c20e2b710dac083577706fa1bb9ad98cd6",
+    "s003_authored_commit": "11d6d84353f9cdba4e02ed9bc54a2f69c25089f0",
+    "s003_merge_parents": [
+      "16c823bf6ebd08694962c4e5ec3876b3f6c4c1f4",
+      "11d6d84353f9cdba4e02ed9bc54a2f69c25089f0"
+    ],
+    "s003_merge_tree": "5ca58c92968298d72198c6990923bb3f4fd1bb4e",
+    "s004_entry_main": "bc3442c20e2b710dac083577706fa1bb9ad98cd6",
+    "s004_outgoing_merge_sha": "VERIFY_REMOTELY_AFTER_MERGE"
   },
-  "source_inspection": "S003 Carlsson-Zomorodian 2007 original Theorem 2 directly inspected; BKRR 2023 Section 2.1 author proof excerpt and Ramras 2026 Theorem 2.13/Proposition 6.1 proof inspected; Torras Casas and Pennig full proof audit unavailable; no formal novelty pass",
+  "source_inspection": "S004 original Torras 2023 Springer HTML and original Cardiff PDF intro; original Torras–Pennig 2024 author PDF Corollary 5.3/Theorem 6.5 and proof excerpt; Carlsson–Zomorodian field theorem prior art; no full equivalence audit",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null
@@ -93,14 +101,13 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Find substantial HHA-fit original theorem: generic realization over fields known since Carlsson-Zomorodian 2007, one-chain integral CW construction classical.",
-    "Complete two-parameter one-critical dimension<=3 integral three-cover transgression realization criterion or nontrivial obstruction beyond graph latching.",
-    "Primary full theorem/proof novelty equivalence inspection of Torras Casas 2023 and Torras Casas–Pennig 2024 remains incomplete.",
-    "Keep Stage-2 postresult and Stage-4 final novelty audits unpassed until fixed original theorem exists.",
-    "Future complete Mathlib geometry feasibility inspection; no Lean builds authorized yet.",
-    "Independently inspect S003 outgoing PR, checks and two-parent merge in next session; no SHA predictions."
+    "Determine true necessary-and-sufficient dimension-three one-critical integral 3-cover d2 square criterion outside S004-T11 sufficient class, particularly nonprimitive upper B and nonsplit lower A/B.",
+    "Inspect historical priority at proof level and journal significance of T8–T11; never infer originality from search absence.",
+    "Seek simultaneous obstruction from actual contractible double-overlap cover geometry rather than graph/triple dimension alone.",
+    "Only S005 future prompt written, no S005 execution or Stage-2/Lean/Palomar actions.",
+    "Independently obtain actual S004 PR/branch SHA, two-parent merge, postmerge main and checks from live remote."
   ],
   "blockers": [
-    "No proven noteworthy original result or verified universal 2D theorem; geometric three-cover formalization not surveyed; publisher current policy inaccessible."
+    "No validated original HHA-worthy theorem; restricted 3D success may be a standard cofiber/CW consequence; full 3D classification unresolved; G2 and later gates closed."
   ]
 }

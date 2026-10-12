@@ -79,17 +79,17 @@
       "url": "https://doi.org/10.1007/s00454-023-00549-2",
       "origin": "public scholarly site / publisher or original-preprint link",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Accessible article search-excerpt includes §§4–5 Mayer–Vietoris double complex and persistence E1; URL redirection sometimes fails.",
-      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+      "limitation": "Original open Springer HTML and Cardiff published PDF opened, abstract and intro inspected; not complete proof-by-proof audit.",
+      "observed": "Persistent Mayer–Vietoris spectral sequences and extension problem; standard prior-art collision risk."
     },
     {
       "id": "SRC-0010",
       "title": "Torras Casas–Pennig, Interleaving Mayer–Vietoris spectral sequences (2024), AGT 24 4265–4306",
       "url": "https://doi.org/10.2140/agt.2024.24.4265",
       "origin": "public scholarly site / publisher or original-preprint link",
-      "access": "ABSTRACT_INSPECTED",
-      "limitation": "Article abstract and metadata at Cardiff repository.",
-      "observed": "S002 source statement/metadata; see sessions/S002/PRIOR_ART.md"
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original author-deposited 38-page accepted PDF opened; S004 read intro, Corollary 5.3 and Theorem 6.5 with proof excerpt p21–22. Not exhaustive PROOF_INSPECTED, accepted-vs-published numbering may vary.",
+      "observed": "Compatible acyclic carriers imply interleaving of MV spectral sequences; no exact integral 3D d2 realization equivalence demonstrated."
     },
     {
       "id": "SRC-0011",

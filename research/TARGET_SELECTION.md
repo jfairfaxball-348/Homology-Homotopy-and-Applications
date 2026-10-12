@@ -24,3 +24,6 @@ Reject any target that is trivial by standard nerve lemma/Quillen Theorem A/disc
 
 ## S003 rescreen (not a fresh 12-candidate tournament)
 C02 generic one-parameter integer matrix realisation T5 receives **novelty 0/5** for an HHA flagship despite complete internal proof; this is classic mapping-cylinder/cofiber topology, adjacent to Carlsson–Zomorodian 2007 field-realisation theorem and standard hocolim. C03 revised to precise restricted 3D one-critical square geometry, HHA fit 5, potential significance 4, novelty evidence 1, proof feasibility 2, Lean 1, exposition 3: weighted **39/65**, *provisional, not a selected paper target*. Explicit priority gate must compare the eventual strengthened theorem rather than the existence of a cofiber model.
+
+## S004 candidate rescore
+C03 restricted 3D square realization now internally proved (T11) and graph iff (T8): journal homology fit 5/5, potential significance 3/5, demonstrated novelty evidence 1/5, proof tractability 4/5, Lean feasibility 1/5, exposition 4/5. Weighted score = 5×3+3×3+1×3+4×2+1+4 = **40/65**, still strictly PROVISIONAL, not a selected HHA paper. The full theorem-classification and authoritative priority audit are unresolved; C07 and C08 remain reserves.
