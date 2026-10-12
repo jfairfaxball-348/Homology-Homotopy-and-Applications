@@ -22,3 +22,6 @@
 - **S007:** G1 ongoing, explicit **NO_VIABLE_TARGET_YET**. Classical T18 cofiber extension counterexample, T19 filter obstruction and third trivial PID example do not establish HHA-significant novelty. G2, G3, G4 NOT_STARTED, G5/G7/G8 OWNER_GATED. No Lean/Palomar/manuscript.
 
 - **S008:** G1 mathematical internal T20/T21 proved (exact two-height section spaces and equal E∞/different integral H2), but still **NO ORIGINAL HHA FLAGSHIP** due elementary cofiber/Ext and original VHT framework. No enumerated finite simplicial approximation or new source-verified application. G2/G3/G4 NOT_STARTED, G5/G7/G8 OWNER_GATED; no paper, Lean, Palomar or submission.
+
+
+**S008 supplement:** corrected T20 E1 argument and explicit T21 geometry; T23 integral diamond iff, no HHA originality gate. G1 ongoing, G2/G3/G4 NOT_STARTED; no external release.

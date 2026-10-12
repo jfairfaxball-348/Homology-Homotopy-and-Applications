@@ -68,3 +68,15 @@ NO HHA flagship, novelty G2 or formal certificate.
 - CLM-0046 SOURCE_STATED: LLO 2026 theorem4/14 field-only and printed Problem1 future relative-resolution length k (SRC-0025).
 - CLM-0047 HEURISTIC: strong HHA novelty collision for T20/T21, **no flagship**.
 No Stage2, Lean, Palomar or public claim.
+
+
+## Reconciled S008 supplement
+
+CLM-0042 proof corrected: E1 homology normalization, not literal repeated-height degeneracy at chains. CLM-0043 now has a complete finite vertex/facet witness in SECTION_GEOMETRY_SUPPLEMENT and actual F0 filtration. CLM-0040 is historical/superseded.
+
+- **CLM-0048 PROGRAMME_PROVED:** T22: comparable-to-constant poset endpoint map suffices for splitting in T20; Moore maps realize classical extension classes k with presentation nx=0,kx=my. **Scope:** S008/SECTION_GEOMETRY_SUPPLEMENT; local sufficient condition only, no universal iff or new Ext classification.
+- **CLM-0049 PROGRAMME_PROVED:** T23: finite free PID diamond is a sum of seven standard block supports iff it is integrally middle exact and upper images U,V,U+V are primitive. **Scope:** S008/INTEGRAL_BLOCKS detailed simultaneous module-basis proof; not all intervals, not a multi-cube theorem, originality unresolved.
+- **CLM-0050 PROGRAMME_PROVED:** T23 examples: every individual arrow primitive plus middle exactness does not imply integral blocks (joint determinant m); all-field exactness alone also fails (Bezout 2/3 square). **Scope:** S008/INTEGRAL_BLOCKS: first example fails characteristic-p middle exactness for p|m; second has nonprimitive individual arrows. Different hypotheses explicitly distinguished.
+- **CLM-0051 PROGRAMME_PROVED:** T23 rigidity: on one finite free integer diamond, primitive arrow images plus middle exactness over Q and every Fp imply integral block decomposition. **Scope:** UCT detects integral middle homology and torsion H0; no extension to 3-cubes proved.
+- **CLM-0052 PROGRAMME_PROVED:** T24: matching preserving every nested compact X_s,T_s yields natural relative Morse chain contractions; open-complement inclusion exists iff T_t intersection X_s=T_s, then is proper. **Scope:** S008/FILTERED_RELATIVE_MORSE; standard sufficient matching/quotient theorem and elementary properness boundary, not original flagship.
+- **CLM-0053 HEURISTIC:** C11 next challenge: primitive-arrow/all-fields local block criteria might admit an integral 3-cube or finite-grid local-to-global theorem or genuine saturated-lattice counterexample. **Scope:** Future S009 only; internally proposed not externally declared open; no theorem, no priority clearance.

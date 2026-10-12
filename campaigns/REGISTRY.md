@@ -11,3 +11,6 @@ C02 one-chain unrestricted integral free diagram realized via finite CW cone T5;
 
 - **S006 C03 ZERO-M SLICE:** CLOSED INTERNALLY with full T16 iff; arbitrary nonzero-M B still OPEN. No numerical campaign conducted and C03 retired as an HHA publication flagship.
 - **S007 C08/C07 source-first:** FUTURE UNEXECUTED primary published proof audits and ambitious mathematical proof/counterexample tournament; no formalization, Palomar, arXiv or HHA release authorized.
+
+
+**S008 supplement:** no mathematical code/enumeration/CAS/Lean. Explicit facets and vertex maps verified symbolically; extraction/rendering and static validation are administrative.

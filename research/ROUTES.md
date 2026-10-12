@@ -44,3 +44,6 @@ Never interpret `PROGRAMME_PROVED` as a novelty or journal gate. See S002/CANDID
 - C07 original Mischaikow–Nanda 2013 Thm4.3/Prop4.4 full proof already gives filtered equivalence, K-S 2026 BM identification established. No new route proven.
 - C11 HHA 2026 n-cube M2/M4 have same every-field reductions, integrally differ via Smith torsion; not a new 2026 counterexample. Alternative **published Problem1 relative-X resolution k≥1** much stronger explicitly externally posed direction for S009.
 - C03 remains archived T16/T17. No G2/Lean.
+
+
+**S008 supplement:** C08 geometry now explicit and normalization corrected; baseline classical. C11 T23 sharp PID diamond criterion and obstruction, with stronger primitive-arrow/all-fields diamond rigidity. S009 integral cube/grid provisional challenger alongside source Problem1; C07 conventional relative-Morse/BM naturality, killed as flagship.

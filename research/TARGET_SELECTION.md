@@ -46,3 +46,6 @@ Decision **NO_VIABLE_TARGET_YET**; explicit S008 proof gate rather than selectin
 - C11 integral n-cube field blindness: 4/2/0/5/3/2 = **33/65**, trivial scalar Smith torsion, not original.
 - **New independent S009 challenger**: original HHA 2026 Lebovici–Lerch–Oudot Problem1 decision relative-X resolution length k≥1, F5/S5/N? /P2/L2/E3, novelty UNKNOWN; must formulate bounded nontrivial target and inspect modern follow-ups, cannot select yet.
 Decision NO_VIABLE_HHA_TARGET_YET despite solving S007 geometric mathematical gap.
+
+
+**S008 supplement:** C08 explicit example remains classical (score36/65). T23 diamond iff internally complete but originality/importance unvalidated (44/65). Proposed integral cube/grid route42/65 is provisional, not source-declared open; retain LLO source Problem1 alternative. NO_VIABLE_TARGET_YET.

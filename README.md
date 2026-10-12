@@ -2,7 +2,7 @@
 
 **Publication destination:** *Homology, Homotopy and Applications* (HHA), International Press. **Purpose:** discover and independently establish a significant original theorem or counterexample whose mathematical content genuinely belongs to homotopy theory, algebraic topology, homological algebra, or a substantial application of those methods.
 
-This is a **journal-directed exploratory programme**; the journal is **not** sponsoring or endorsing the research. The precise mathematical target is **NOT SELECTED**. S001 is repository bootstrap only. No theorem, novelty, Lean certification, Palomar registration, arXiv preprint, or HHA submission is claimed.
+This is a **journal-directed exploratory programme**; the journal is **not** sponsoring or endorsing the research. The precise mathematical target is **NOT SELECTED**. S008 has completed internal symbolic mathematics; no original HHA flagship is selected. No theorem, novelty, Lean certification, Palomar registration, arXiv preprint, or HHA submission is claimed.
 
 ## Success means more than a formalised lemma
 
@@ -26,7 +26,7 @@ Phases are **not automatic**; each gate has separate signed-off evidence. First 
 
 ## Begin
 
-Read in order: [AGENTS.md](AGENTS.md), [START_HERE](authoritative/START_HERE.md), [STATE.json](authoritative/STATE.json), [session protocol](docs/SESSION_PROTOCOL.md), source and claim catalogues, [candidate selection criteria](research/TARGET_SELECTION.md), then the **FUTURE**, independently invoked [S002 prompt](authoritative/NEXT_SESSION_PROMPT.md).
+Read in order: [AGENTS.md](AGENTS.md), [START_HERE](authoritative/START_HERE.md), [STATE.json](authoritative/STATE.json), [session protocol](docs/SESSION_PROTOCOL.md), source and claim catalogues, [candidate selection criteria](research/TARGET_SELECTION.md), then the **FUTURE**, independently invoked [next-session prompt](authoritative/NEXT_SESSION_PROMPT.md).
 
 Governance is adapted from the [Davenport Counterexample Hunt](https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt) and [Almost Stacked Proof](https://github.com/jfairfaxball-348/Almost-Stacked-Proof) programmes, not copied without field-specific changes.
 

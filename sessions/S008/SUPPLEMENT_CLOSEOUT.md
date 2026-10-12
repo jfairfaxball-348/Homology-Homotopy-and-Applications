@@ -1,0 +1,11 @@
+# S008 separately invoked reconciliation supplement
+
+Current owner invocation began on S007 main and completed a multiroute symbolic attack. Before its first remote write, concurrent S008 PR#8 had merged; the supplement is therefore based on c51274f7897aceb8b154c262022f68ec162c76a0/tree823a26541d44c2e012c21a4090661b6faa1182e9. Existing S008 records/IDs and the source Problem1 future route are preserved, not overwritten.
+
+Correction: PR#8's repeated-height chain-normalization shortcut was false. The actual section nerves are still correct; explicit W_(r,s) contractions prove vertical homology/E1 normalization, and only E2 has two columns. Literal poset union establishes the cofiber, while actual F0 level inclusions establish the abutment subgroup. Thus T20/T21 conclusions survive with a corrected proof. Full specified facets/stellar subdivision/vertex map close the missing reproducibility obligation.
+
+New supplement results T22 geometric split sufficient condition/classical extension range; T23 exact PID diamond block iff, every-arrow-primitive joint-index obstruction, distinct all-field Bezout edge-defect witness, and stronger primitive-arrow/all-fields diamond rigidity; T24 relative filtered Morse/properness boundary. Complete symbolic and separate adversarial proofs in the supplement dossiers. Current 2025/2026 PID and stratified sources added with precise version/access limits.
+
+NO_VIABLE_TARGET_YET: no substantial originality-cleared HHA flagship, no Lean/Palomar/manuscript/release. S009 remains FUTURE and retains both integral cube/grid and source-stated relative-resolution routes. No S009 mathematics executed.
+
+Integrity exception recorded transparently: original S008 already has authored commit1a6f09a7a46f7fef6467a6a738170c33056f2542 and merge PR#8. THIS fresh invocation authors exactly ONE atomic supplement commit, on isolated branch session/S008-reconciled-proof-supplement, then checked ordinary PR/non-force two-parent merge. Hence S008 overall has more than one authored commit because simultaneous invocations were reconciled; do not fabricate a one-commit whole-session history. Actual supplement commit/tree/PR/merge/checks are obtained from remote after writing and documented in PR/final response, avoiding self-referential commit hashes.

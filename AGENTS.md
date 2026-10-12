@@ -1,7 +1,7 @@
 # Binding research and repository rules
 
 1. LIVE remote `main` is the authority; pin SHA and tree, reconcile all competing work and PRs before writes. Read `authoritative/START_HERE.md`, `authoritative/STATE.json`, session protocol and all relevant catalogues.
-2. Exactly one numbered research session per fresh explicit owner invocation. A future next-session prompt is **not** permission to execute it now. S001 is administrative bootstrap; S002 has not been executed.
+2. Exactly one numbered research session per fresh explicit owner invocation. A future next-session prompt is **not** permission to execute it now. S001 is administrative bootstrap; STATE.json gives current completion/next-session IDs.
 3. **Headline:** discover a mathematically significant, HHA-suitable original theorem or disproof, independently prove/certify it, and progress through first novelty → Lean → final novelty → Palomar → paper → arXiv → HHA submission. No theorem is selected as of S001.
 4. HHA fit is an independent gate: a nontrivial homological/homotopical ingredient and genuine application/significance are required, not merely an algebraic-topology label on unrelated combinatorics.
 5. Source provenance: unique `SRC-####`, direct URL/DOI, dates, per-document access level (`METADATA_ONLY`, `ABSTRACT_INSPECTED`, `STATEMENT_INSPECTED`, `PROOF_INSPECTED`, `SECONDARY_ONLY`). Search snippets of official pages are NOT full-page inspection; record retrieval limits and avoid mirrored copyrighted texts.
