@@ -1,0 +1,9 @@
+# S009 closeout — internally complete restricted rigidity, no HHA flagship
+
+Executed exactly S009, owner authorised, based on live main b4dea03b0b1cb297cd3133fd5ee5b71909fffea5/tree 2d7cfb6fc261e196e8fd7bd0cd0d0603754d517d. This dossier intentionally contains no invented future commit or merge SHA; subsequent PR/integration evidence is recorded in the PR and independently verified on final main.
+
+**Mathematics:** T25: full proof of monomorphic finite free Z three-cube rigidity under every-map primitive cokernel and Q/all-prime block exactness. Canonical intersection cube; full Čech H1=(W∩(U+V))/(W∩U+W∩V), H0=D/(U+V+W); UCT detects all saturation; explicit eight-summand single integral basis. This is a significant *bounded positive theorem* but NOT general C11: kernels may defeat all top-lattice identification. Source stated Problem1 k=1 attacked via canonical evaluation and relative Schanuel criterion; this is formal elementary algebra and not an efficient complexity theorem. No new independent higher section result; no computations or topological new applications.
+
+**Adversarial:** all-field/finite-support quantifiers checked; joint-index and M3 configurations expose false shortcuts but fail the stated hypotheses; repeated-height E1 repaired S008 model preserved; no false all-fields Smith example promoted. Read original current LLO/PID primary preprint proof sections; final-publisher versions and complete citation-network priority remain unchecked.
+
+**Decision:** NO_VIABLE_TARGET_YET for HHA publication, G1 active; C11 monomorphic branch resolved internally, full C11 and source Problem1 efficiently unresolved. G2 novelty, G3 Lean, G4 final audit remain NOT STARTED; no Palomar, preprint, manuscript or HHA submission. No owner-external actions. S010 FUTURE, UNEXECUTED; mandatory tenth-session correction audit, hard nonmonomorphic C11 or a nontrivial k=1 efficient source-target theorem.

@@ -440,6 +440,46 @@
         "SRC-0029"
       ],
       "scope": "Future S009 only; internally proposed not externally declared open; no theorem, no priority clearance."
+    },
+    {
+      "id": "CLM-0054",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T25: any finite free Z 3-cube with injective maps to terminal vertex, primitive cokernels for all structure maps, and block-decomposable Q and every Fp reductions is an integral direct sum of eight principal-upset block types with a single natural basis.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0028",
+        "SRC-0029"
+      ],
+      "scope": "S009/MATHEMATICS full intersection-Cech/UCT and explicit eight-summand proof. TOP-MONOMORPHIC subcase only; novelty NOT verified, no Lean."
+    },
+    {
+      "id": "CLM-0055",
+      "status": "PROGRAMME_PROVED",
+      "claim": "For an intersection-complete sublattice cube, Koszul H1 equals (W intersect (U+V))/((W intersect U)+(W intersect V)); H0 is D/(U+V+W), H2=0. UCT over Q and all Fp forces H1 zero and H0 torsionfree.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "S009/MATHEMATICS chain proof and endpoint UCT, classical Cech algebra."
+    },
+    {
+      "id": "CLM-0056",
+      "status": "PROGRAMME_PROVED",
+      "claim": "For finite P and relative exact projectives add(X) containing representables, canonical evaluation E(M)->M is an X-epimorphism and relative projective dimension at most 1 iff its kernel is in add(X).",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "S009/RELATIVE_RESOLUTION relative Schanuel argument; classical, no efficient complexity bound or unrestricted Problem1 resolution."
+    },
+    {
+      "id": "CLM-0057",
+      "status": "HEURISTIC",
+      "claim": "An arbitrary kernel-bearing finite free Z three-cube with primitive arrows and all-field n-block decompositions may still fail to split integrally; no proof or valid counterexample established in S009.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0028",
+        "SRC-0029"
+      ],
+      "scope": "Future S010 target not source-stated; NO_VIABLE_TARGET_YET."
     }
   ]
 }

@@ -223,8 +223,8 @@
       "url": "https://arxiv.org/pdf/2402.16624",
       "origin": "Original arXiv v4 author preprint 19pp; final HHA DOI 10.4310/HHA.2026.v28.n1.a9",
       "access": "PROOF_INSPECTED",
-      "limitation": "Original 2024v4 pdf opened; Theorem4/14, Definitions 3/7/9 and selected proofs pp 13–18 examined; journal final 2026 proof-equivalence NOT verified. Supplement directly read relevant proof pp11–17 Lemmas17/18 and §§5–7; not every dependency audited.",
-      "observed": "Field pfd n-block decomposability iff all cube restrictions, equivalently k-middle exactness. Explicitly poses broader Problem1 efficient finite X-resolution length ≤k, not solved in paper."
+      "limitation": "S009 original v4 PDF §1 pp2–3, §2–3 pp5–8, §4 p11 Lemmas17–18 and §7 pp15–17 Lemmas27/28 Prop29 inspected; final 2026 journal PDF proof-equivalence NOT checked.",
+      "observed": "Field exact n-cube n-block theorem, Problem1 k>=1 efficient resolution, vector-space death/claw splitting."
     },
     {
       "id": "SRC-0026",
@@ -249,18 +249,18 @@
       "title": "Luo–Henselman-Petrusek, Interval Decomposition of Persistence Modules over a Principal Ideal Domain, arXiv:2310.07971v6 (3 Oct 2025)",
       "url": "https://arxiv.org/abs/2310.07971v6",
       "origin": "Original author arXiv PDF",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "Original 33-page PDF pp1–4 Theorems1/2 p2 read; proofs not read.",
-      "observed": "Finite totally ordered pointwise free PID modules have interval decomposition iff every structure map has free cokernel; algorithm also stated. Not multiparameter."
+      "access": "PROOF_INSPECTED",
+      "limitation": "S009 original v6 PDF pp1–2, proof segments §§5–8 and Appendix Thm17 p25 read; not every appendix line audited, no multiparameter claim.",
+      "observed": "Totally ordered PID free-cokernel iff consistent interval basis and algorithm; basis compatibility precedent."
     },
     {
       "id": "SRC-0029",
       "title": "Luo–Henselman-Petrusek, Interval Decomposition of Infinite Persistence Modules over a PID and Field Choice in Persistent Homology, arXiv:2511.07614v3 (2 Apr 2026)",
       "url": "https://arxiv.org/abs/2511.07614v3",
       "origin": "Original arXiv record",
-      "access": "ABSTRACT_INSPECTED",
-      "limitation": "Original abstract and version metadata only; full proof not read.",
-      "observed": "Possibly infinite totally ordered PID decomposition and coefficient-field invariance. Mandatory antecedent to S009 integral multi-parameter route."
+      "access": "PROOF_INSPECTED",
+      "limitation": "S009 original 2511.07614v3 PDF pp5–13, Thm3.1, Thm4.1 proof, matching basis 4.3–4.16 and Thm5.1 inspected; complete proof dependencies not independently rederived.",
+      "observed": "Possibly infinite total-order PID splitting and field-choice with original consistent-basis proof."
     }
   ]
 }

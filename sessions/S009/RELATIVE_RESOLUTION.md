@@ -1,0 +1,9 @@
+# Source Problem1 k=1 — exact but non-flagship relative Schanuel route
+
+Fix a finite poset P, a field k, and a finite family X of interval kP-modules containing all principal-upset representables. Work in the X-exact category: a short exact sequence is X-admissible iff Hom(X',−) remains exact for each X'∈X; relative projectives are assumed precisely add(X).
+
+For each finite-dimensional M define E(M)=⊕_{X'∈X} X'⊗_k Hom(X',M) and the evaluation e:E(M)→M. This is a degreewise epimorphism because representable projectives generate the diagram category, and is X-admissible because for any X' a chosen basis of Hom(X',M) supplies a split-on-Hom lift to the corresponding evaluation summands. Let K(M)=ker(e).
+
+**Relative Schanuel criterion:** M has an X-resolution of length ≤1 iff K(M) lies in add(X), provided relative projectives are add(X) and add(X) is summand-closed. Proof: if an X-epimorphism P→M with P∈add(X) has projective kernel L, form the pullback E(M)×_M P. Projection to E(M) splits since E(M) is X-projective and P→M is X-epic; projection to P splits since P X-projective and E(M)→M is X-epic. Consequently K(M)⊕P ≅ L⊕E(M). Since P,L,E(M) are relative projectives, their direct summands K(M) are X-projective. Conversely 0→K(M)→E(M)→M→0 already is an X-resolution if its kernel is relative projective.
+
+It gives a *finite, exact reduction* for fixed finite P/X via linear algebra plus testing membership in add(X); however the latter test, the possible enormous interval list, input representation and bit/arithmetic complexity are not solved here. The criterion is an elementary relative-homological Schanuel lemma, almost certainly not a publishable new k=1 algorithm. It does not solve unrestricted or efficient Problem1 of LLO §1, and no complexity claim is made. To progress, S010 should propose a concrete family with an efficient, proved membership test and a meaningful complexity bound or obstruction lower bound.

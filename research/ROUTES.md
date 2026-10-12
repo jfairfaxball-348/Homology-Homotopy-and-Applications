@@ -47,3 +47,6 @@ Never interpret `PROGRAMME_PROVED` as a novelty or journal gate. See S002/CANDID
 
 
 **S008 supplement:** C08 geometry now explicit and normalization corrected; baseline classical. C11 T23 sharp PID diamond criterion and obstruction, with stronger primitive-arrow/all-fields diamond rigidity. S009 integral cube/grid provisional challenger alongside source Problem1; C07 conventional relative-Morse/BM naturality, killed as flagship.
+
+## S009 boundary theorem / no flagship
+C11 T25 fully resolves only the TOP-MONOMORPHIC three-cube integral block case under ALL prime reductions and primitive arrows: intersection-complete lattice, Čech H1 distributivity, UCT H0 saturation, explicit simultaneous 8-support basis. General C11 with kernels and global grid gluing NOT solved, no original HHA claim. Source Problem1 k=1 relative Schanuel evaluation supplies finite reduction but no efficient membership test: CLASSICAL, not a source open-problem solution. C08/C07 still retired as generic/cofiber/filtered-Morse flagship. S010 correction audit and serious kernel-bearing attack only.

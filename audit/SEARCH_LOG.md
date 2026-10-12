@@ -25,3 +25,5 @@
 
 
 **S008 supplement:** exact section integral extension/diamond/PID/stratified queries located original Nanda–Tombari2026 and Luo–Henselman-Petrusek2025/2026 sources. Finite-PID statements read, infinite-PID/stratified abstracts only; no full priority audit. Reconciliation preserves existing final VHT403 evidence and records an additional guessed URL404, not contradictory access claims.
+
+**S009 2026-10-12:** Direct original preprint PDF access: arXiv:2402.16624v4 LLO pp2–3,5–8,11,15–17; arXiv:2310.07971v6 finite PID p2 and basis proof/appendix; arXiv:2511.07614v3 pp5–13 current total-order PID. Search queries for relative interval resolutions 2023/2026, latest PID interval decomposition and n-cube rigidity. Found 2023 JPAA interval-approximation abstract, not original proof audited. Publisher-final HHA proof and exhaustive citation search unavailable/unchecked. Nothing proves T25 novel. See S009/PRIOR_ART.

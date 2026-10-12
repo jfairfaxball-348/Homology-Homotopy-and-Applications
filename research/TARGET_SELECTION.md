@@ -49,3 +49,6 @@ Decision NO_VIABLE_HHA_TARGET_YET despite solving S007 geometric mathematical ga
 
 
 **S008 supplement:** C08 explicit example remains classical (score36/65). T23 diamond iff internally complete but originality/importance unvalidated (44/65). Proposed integral cube/grid route42/65 is provisional, not source-declared open; retain LLO source Problem1 alternative. NO_VIABLE_TARGET_YET.
+
+## S009 target decision
+C11 monomorphic 3cube T25: HHA-fit 4/5, reach 2/5, novelty evidence 0/5 (standard lattice/UCT suspected), proof 5/5, Lean feasibility 3/5, exposition 4/5 => 4×3+2×3+0×3+5×2+3+4=35/65. Full C11 retains ambitious significance but no current proof or explicit counterexample; NO selection. Published LLO Problem1 k1: high significance but S009's exact relative Schanuel reduction is classical and has no efficiency theorem. **NO_VIABLE_TARGET_YET**, G2 closed. S010 mandatory correction/novelty audit, kernel-bearing cube and efficient relative resolution challenge.
