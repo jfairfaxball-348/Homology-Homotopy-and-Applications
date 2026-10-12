@@ -25,3 +25,8 @@ Access statuses describe **what was seen**, not legal ability to access a comple
 |SRC-0019|STATEMENT_INSPECTED|[SHERPA publisher policy: International Press (last reviewed 2026-01-15)](https://v2.sherpa.ac.uk/id/publisher_policy/101)|
 |SRC-0020|STATEMENT_INSPECTED|[Carlsson–Zomorodian, The Theory of Multidimensional Persistence, 2007 source / DCG 2009](https://fodava.gatech.edu/sites/default/files/FODAVA-07-01.pdf); original Theorem 2 read; original 2007 proof omitted.|
 |SRC-0021|SECONDARY_ONLY|[Dugger, A Primer on Homotopy Colimits](https://people.math.rochester.edu/faculty/doug/otherpapers/hocolim2.pdf); indexed §14.1 snippet only, direct PDF blocked.|
+
+### S004 access-level corrections, 2026-10-12
+- SRC-0009 STATEMENT_INSPECTED: original open Springer HTML and original published Cardiff PDF opened; intro/abstract read, full proof equivalence not checked.
+- SRC-0010 upgraded ABSTRACT_INSPECTED → STATEMENT_INSPECTED: directly opened original author-deposited 38-page accepted-version PDF https://orca.cardiff.ac.uk/id/eprint/159883/1/MaViInv_Open_Access_Cardiff.pdf ; read Corollary 5.3, Theorem 6.5 and proof excerpt; NOT the entire paper, and published numbering may differ. Full DOI unchanged.
+- SRC-0020 primary 2007 theorem statement was examined in S003; complete 2009 proof remains NOT inspected.

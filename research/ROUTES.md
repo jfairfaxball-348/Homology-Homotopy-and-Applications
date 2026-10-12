@@ -16,3 +16,8 @@ Never interpret `PROGRAMME_PROVED` as a novelty or journal gate. See S002/CANDID
 - **C02 / one chain:** S003-T5 fully extends split-injective T3 even to noninjective maps in finite CW, dim bounded by 3+N; algebraically strong but no demonstrated novelty; DOWNGRADE as baseline and do NOT open Stage-2.
 - **C03 / multi-parameter:** S003-T7 establishes only one-critical *graph intersection* obstruction; arbitrary multi-parameter 3-cover is UNRESOLVED. New conditional route is sharp integral **dimension<=3**, meet-exact, torsion-sensitive classification or counterexample, not generic realizability.
 - **C03 overall priority:** ON HOLD pending S004 substantive theorem and primary-proof novelty kill; if no viable route, consider C07/C08 reserve instead.
+
+## S004 exact geometry and priority decision
+- **C03 restricted realization:** T11 proves literal one-critical integral 3-cover d2 on one diamond in *uniform total dimension 3*, with arbitrary upper A maps and graph-admissible B; stronger dimension/coherence than S003-T5 but not arbitrary A,B,M. Explicit nonsplit A and Z/4.
+- **Sharp restrictions/escapes:** T8 primitive combined B graph-latching iff (individual primitivity and rank not sufficient); T9 repairs arbitrary upper B in 2D *triple spaces*, not necessarily total 3D; T10 2D H2 joint-kernel obstruction bypassed by a 3-cell.
+- **Novelty:** All presently classic CW/MV mapping-cylinder proof ingredients, no verified external open problem or HHA-level novelty. S005 attack full dimension-3 necessity/converse or retire C03 and seriously pursue C07/C08.

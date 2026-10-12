@@ -11,3 +11,8 @@
 - **DEC-0015:** Prove primitive top-degree subcomplex lemma T6 and one-critical graph-diamond obstruction T7; explicitly distinguish restricted one-critical square obstruction from an unrestricted bifiltration obstruction.
 - **DEC-0016:** Reframe C03 as conditional dimension<=3, one-critical, torsion-sensitive constrained bifiltration classification for S004, competing with other candidates if novelty fails. Stage-2 postresult novelty and all external gates remain NOT PASSED.
 - **DEC-0017:** No Lean, Palomar, paper, outreach or release during S003; S004 future, not executed.
+
+- **DEC-0018 S004:** The exact graph square obstruction is primitive amalgam latching, not a rank inequality; T8 iff and explicit determinant-2 false-sufficiency witness.
+- **DEC-0019:** A failed graph test need not obstruct 2D triple intersections: T9 ordinary mapping cylinder repairs arbitrary upper maps; T10 isolates H2 joint-kernel 2D obstruction with 3-cell escape.
+- **DEC-0020:** T11 proves a strict, one-critical, total-dimension≤3 3-cover integral d2 *sufficient class* with arbitrary upper A maps and Z/4 example; no general 3D theorem or novelty certification.
+- **DEC-0021:** Stop at S004; G2/G3/G4, Palomar and publication closed. S005 future research must pursue a substantive obstruction/converse or retire C03 after priority audit.

@@ -159,6 +159,53 @@
         "SRC-0020"
       ],
       "scope": "Unresolved S004 programme route; no named external open problem or novelty certification."
+    },
+    {
+      "id": "CLM-0020",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S004-T8: a finite free abelian commuting square has literal one-critical connected graph model iff both lower arrows and combined amalgam latching D_B→B11 are split injections; rank-only or separately primitive maps insufficient.",
+      "sources": [],
+      "scope": "Exact graph+MV lattice iff S004/LATTICE_OBSTRUCTIONS, no novelty or Lean certificate."
+    },
+    {
+      "id": "CLM-0021",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S004-T9: any square with split lower B maps admits 2D one-critical triple-space realization of arbitrary top maps via finite mapping cylinder; index-two repaired with one loop and one 2-cell.",
+      "sources": [],
+      "scope": "S004/LATTICE_OBSTRUCTIONS proof, dimension of T only not total cover."
+    },
+    {
+      "id": "CLM-0022",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S004-T10: for meet-exact dimension-2 triples, 0→coker δ2→H2(V)→ker δ1→0 and H2(V) primitive in H2(T11); a two-disk sphere gives sharp 3-cell escape.",
+      "sources": [],
+      "scope": "S004/LATTICE_OBSTRUCTIONS; only restricted 2D T statement."
+    },
+    {
+      "id": "CLM-0023",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S004-T11: graph-admissible B with split lower A maps and arbitrary compatible integral M admits literal one-critical three-cover square with contractible double overlaps, total CW dimension ≤3, prescribed integral d2 and natural H3=ker, H2=coker.",
+      "sources": [],
+      "scope": "S004/MATHEMATICS complete human-readable CW proof; neither universal 3D classification nor originality/Lean."
+    },
+    {
+      "id": "CLM-0024",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S004 restricted 3D example: upper A lattice columns (1,0),(1,2) is index two, M11 columns (2,0),(1,2) yields coker d2=Z/4.",
+      "sources": [],
+      "scope": "Symbolic hand relation calculation and literal construction from S004-T11."
+    },
+    {
+      "id": "CLM-0025",
+      "status": "HEURISTIC",
+      "claim": "S004-T8–T11 might have HHA interest if extended substantially, but present results risk collision with classic mapping-cylinder/MV machinery and unrestricted 3D classification remains open.",
+      "sources": [
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0020"
+      ],
+      "scope": "No novelty guarantee, G2/G4 not started."
     }
   ]
 }
