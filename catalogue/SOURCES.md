@@ -51,3 +51,8 @@ This is a targeted comparative literature check, NOT an exhaustive novelty/prior
 - SRC-0024 ABSTRACT_INSPECTED: [Mischaikow–Nanda 2013, filtered discrete Morse](https://people.maths.ox.ac.uk/nanda/papers.html), author's source, proof not read.
 - SRC-0009 original Springer §5 explicitly deals with spectral sequence extension problems; SRC-0015 Lebovici et al HHA 2026 institutional abstract for n-parameter block theorem.
 - Source table, precise URLs/pages/access differences: sessions/S007/PRIOR_ART.md. Not complete priority audit.
+
+## S008 source-access and version correction, 2026-10-12
+- SRC-0012 PROOF_INSPECTED only for original arXiv:2201.12617v1 section definition2.9, Theorem1.1 and Prop3.11; 2025 journal FULL PDF URL found but 403. SRC-0026 METADATA_ONLY is the precise publisher endpoint.
+- SRC-0024 upgraded **PROOF_INSPECTED** for original author-hosted published-layout [Mischaikow–Nanda 2013 Theorem4.3/Proposition4.4](https://people.maths.ox.ac.uk/nanda/source/DMPers-Final.pdf) filtered chain maps pp340–341, not every other section.
+- SRC-0025 STATEMENT_INSPECTED: [Lebovici–Lerch–Oudot arXiv 2402.16624v4](https://arxiv.org/pdf/2402.16624), full original PDF opened, Theorem4/14 and selected §5–7 proofs; final HHA 2026 full journal proof not read. Broader Problem1 is externally printed; no solution asserted.

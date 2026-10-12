@@ -1,0 +1,11 @@
+# S008 C11 all-fields-indistinguishable n-cube integral obstruction (elementary, not HHA novelty)
+
+Original Lebovici–Lerch–Oudot arXiv:2402.16624v4 (11 Dec 2024) original PDF: Definition 3, Theorem 4 (p3), Theorem 14 (p9), pp.12–18 proof via n-middle-exact Koszul complexes; published HHA 28(1) (2026), 175–196 metadata. Both theorems explicitly are over Vect_k, NOT Z.
+
+For each integer d≥2 and n≥3 define a commuting n-cube persistence module M_d:[1]^n→Ab: every vertex group Z; for comparable vertices x≤y the map is multiplication by d iff x_1=0,y_1=1, else identity (so along all other coordinates it is 1). Commutativity is immediate because a comparable path crosses coordinate1 at most once.
+
+For d=2 vs 4: over an arbitrary field k, either char k=2, and every crossing map is zero, or char k≠2, and both crossing maps are invertible; in the latter case a natural isomorphism rescales every vertex with x1=1 by (2/4)=1/2 to conjugate the 4 crossing to 2 (depending on direction choose scaling accordingly). Hence M_2⊗k≅M_4⊗k for **every** field k (even non-prime fields). In char 2 both modules decompose into two slabs with x1 fixed, and for char≠2 each isomorphic to a constant full-cube block, so each field reduction is n-block-decomposable.
+
+Over Z, an isomorphism of cubes forces ±1 automorphisms at vertices and hence preserves the absolute value d of the index of the cross-coordinate map's image. Cokernel of 2 is Z/2, of 4 Z/4, so M_2≇M_4 integrally. Neither is an integral sum of identity-on-support block modules, since such a block sum has torsion-free image cokernel for any edge. This is a **genuine** n-cube example and a complete elementary proof, but it is a routine Smith invariant/base-change observation, not a counterexample to the paper's field theorem nor an HHA-significant original PID local-to-global theorem. Candidate remains KILLED as formulated.
+
+More ambitious genuine future question: can a global integral torsion extension (not visible in local Smith forms plus all reductions modulo prime powers) obstruct gluing *locally* block-split cubes? Such a question must specify full local descent data and avoid tautologies; no result from S008.

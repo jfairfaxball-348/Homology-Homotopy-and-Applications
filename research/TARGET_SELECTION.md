@@ -39,3 +39,10 @@ C03 exact M=0 full iff and all-M kernel torsion defect are internally strong but
 - C07 filtration-natural BM Morse improvement: 5/2/0/3/2/3 = **32/65**. Final 2026 published BM theorem and 2013 filtration-Morse severe collision.
 - C11 integer n-parameter block obstruction: 4/2/0/3/3/2 = **29/65**. One arrow ×2 too trivial; genuine higher-dimensional condition missing.
 Decision **NO_VIABLE_TARGET_YET**; explicit S008 proof gate rather than selecting a paper or resetting G2.
+
+## S008 comparison, score not novelty guarantee
+- C08 actual two-height integral extension: F/S/N/P/L/E = 5/3/1/5/2/4 = **44/65**; exact internal existence proof T20/T21, significance of illustrative cofiber ambiguity only 3 and novelty evidence 1 => NO HHA FLAGSHIP. Explicit tables not yet supplied.
+- C07 open BM filtered Morse: 5/2/0/3/2/3 = **32/65**, existing 2013 proof/2026 published comparison decisive collision.
+- C11 integral n-cube field blindness: 4/2/0/5/3/2 = **33/65**, trivial scalar Smith torsion, not original.
+- **New independent S009 challenger**: original HHA 2026 Lebovici–Lerch–Oudot Problem1 decision relative-X resolution length k≥1, F5/S5/N? /P2/L2/E3, novelty UNKNOWN; must formulate bounded nontrivial target and inspect modern follow-ups, cannot select yet.
+Decision NO_VIABLE_HHA_TARGET_YET despite solving S007 geometric mathematical gap.

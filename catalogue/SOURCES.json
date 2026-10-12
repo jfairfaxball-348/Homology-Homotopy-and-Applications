@@ -106,8 +106,8 @@
       "url": "https://arxiv.org/abs/2201.12617",
       "origin": "public scholarly site / publisher or original-preprint link",
       "access": "PROOF_INSPECTED",
-      "limitation": "S007 directly read original arXiv:2201.12617v1 31-page PDF pp.12–16 Theorem 1.1 proof, pp.20–26 Section 3.2/3.3, Prop 3.11/Example 3.12 and §4 intro; final 2025 HHA PDF not independently obtained; access grade applies to arXiv v1 only.",
-      "observed": "Published 2025 HHA foundation. Theorem 1.1, Proposition 3.8, 3.11 already cover reconstruction/E2 and s+1 collapse; §3.2 is field presentation. S007/PRIOR_ART."
+      "limitation": "Original arXiv 2201.12617v1 full relevant proofs Def2.9, Thm1.1, Prop3.11 and §3 accessed. Publisher final HHA 2025 PDF URL found via index but direct GET 403; NOT proof inspected as journal version.",
+      "observed": "S008 directly uses original Def 2.9 and diagonal equivalence; finite two-height sections and integral E-infinity extension gap."
     },
     {
       "id": "SRC-0013",
@@ -211,11 +211,29 @@
     {
       "id": "SRC-0024",
       "title": "Konstantin Mischaikow and Vidit Nanda, Morse Theory for Filtrations and Efficient Computation of Persistent Homology (2013) DCG 50 330–353",
-      "url": "https://people.maths.ox.ac.uk/nanda/papers.html",
-      "origin": "Original author's bibliography and article description",
-      "access": "ABSTRACT_INSPECTED",
-      "limitation": "Author paper description directly read; theorem/proof of 2013 publication not opened in S007",
-      "observed": "Classical filtration-respecting discrete Morse reduction preserves persistent homology; blocks novelty of generic filtered Morse claim."
+      "url": "https://people.maths.ox.ac.uk/nanda/source/DMPers-Final.pdf",
+      "origin": "Original author-hosted published-layout 2013 journal 24-page PDF",
+      "access": "PROOF_INSPECTED",
+      "limitation": "S008 directly read original journal-style Theorem 4.3 and Proposition 4.4 pp340-341 with compatible filtered chain proof; full paper not read line-by-line.",
+      "observed": "Filtered Morse matching with b(Q)=b(w(Q)), filtered ψ/φ chain equivalences, preserving persistence; C07 novelty collision."
+    },
+    {
+      "id": "SRC-0025",
+      "title": "Lebovici–Lerch–Oudot, Local characterization of block-decomposability for multiparameter persistence modules, original arXiv 2402.16624v4, HHA 28(1) (2026) 175–196",
+      "url": "https://arxiv.org/pdf/2402.16624",
+      "origin": "Original arXiv v4 author preprint 19pp; final HHA DOI 10.4310/HHA.2026.v28.n1.a9",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original 2024v4 pdf opened; Theorem4/14, Definitions 3/7/9 and selected proofs pp 13–18 examined; journal final 2026 proof-equivalence NOT verified.",
+      "observed": "Field pfd n-block decomposability iff all cube restrictions, equivalently k-middle exactness. Explicitly poses broader Problem1 efficient finite X-resolution length ≤k, not solved in paper."
+    },
+    {
+      "id": "SRC-0026",
+      "title": "Published HHA 2025 Vaupel–Hermansen–Trygsland article official PDF endpoint",
+      "url": "https://intlpress.com/api/bgcloud-front/resource/pdf/volume/1960545939805626369-1960545939805626369-66e9c7714ec1cf4ccea966382fea629c.pdf",
+      "origin": "Original official HHA publisher indexed PDF result",
+      "access": "METADATA_ONLY",
+      "limitation": "Index returned correct HHA volume/title/pp61–90 but direct publisher PDF open failed HTTP 403. No journal PDF proof inspected.",
+      "observed": "Confirms official publisher title/pages and a discovered URL; cannot verify differences from arXiv 2201.12617v1."
     }
   ]
 }

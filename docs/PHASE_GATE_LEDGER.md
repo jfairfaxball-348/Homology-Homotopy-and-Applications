@@ -20,3 +20,5 @@
 - **S006:** G1 mathematics includes internal T16/T17 and resolved zero-M B obstruction; C03 RETIRED AS HHA FLAGSHIP (mathematics archived, not retracted). C08 source-first alternative NOT SELECTED/NOT PROVED ORIGINAL. G2 first novelty, G3 Lean and G4 final audit NOT_STARTED; G5/G7/G8 owner-gated.
 
 - **S007:** G1 ongoing, explicit **NO_VIABLE_TARGET_YET**. Classical T18 cofiber extension counterexample, T19 filter obstruction and third trivial PID example do not establish HHA-significant novelty. G2, G3, G4 NOT_STARTED, G5/G7/G8 OWNER_GATED. No Lean/Palomar/manuscript.
+
+- **S008:** G1 mathematical internal T20/T21 proved (exact two-height section spaces and equal E∞/different integral H2), but still **NO ORIGINAL HHA FLAGSHIP** due elementary cofiber/Ext and original VHT framework. No enumerated finite simplicial approximation or new source-verified application. G2/G3/G4 NOT_STARTED, G5/G7/G8 OWNER_GATED; no paper, Lean, Palomar or submission.
