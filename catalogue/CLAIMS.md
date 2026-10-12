@@ -43,3 +43,10 @@ T1–T4 proofs: [S002 dossier](../sessions/S002/MATHEMATICS.md); novelty qualifi
 - **CLM-0031 HEURISTIC:** nonprimitive upper B remains unclassified for general covers, mixed-grade intersection obstacle invalidates proposed universal proof.
 
 JSON catalogue is normative for IDs, statuses, qualifiers and sources. No first novelty gate or formal verification passed.
+
+## S006 theorem and target-decision mirror
+- **CLM-0032 PROGRAMME_PROVED:** T16 complete total-three-dimensional strict CW cover existence iff for every zero-transgression M=0 diagram: joint lower delta_A split injective AND B graph-admissible (both bottom split, combined upper amalgam primitive); no mixed-grade synchrony assumption. Internal not novel/formal.
+- **CLM-0033 PROGRAMME_PROVED:** T17 any M yields primitive joint lower K=ker M, injective lambda_K and torsion(coker lambda_K) equal to torsion(ker delta_C), C=coker M; torsion-free ker delta_C forces primitive lambda_K. Internal not novelty-certified.
+- **CLM-0034 PROGRAMME_PROVED:** determinant-two B upper amalgam with A=M=0 is unconditionally impossible in total 3D (complete-space top-dimensional homology saturation).
+- **CLM-0035 HEURISTIC:** C08 integral section-complex spectral-sequence extension/degeneration problem could be a research target; not proved open/new.
+Source/claim JSON retains normative IDs/status; S005-CLM-0031 remains historically accurate for what S005 had NOT proved, superseded on its explicit M=0 subcase but not for arbitrary M.

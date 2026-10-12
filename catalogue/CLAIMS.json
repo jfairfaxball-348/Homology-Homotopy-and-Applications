@@ -253,6 +253,37 @@
         "SRC-0020"
       ],
       "scope": "Rejected overclaim in S005/ADVERSARIAL and S005/MATHEMATICS; unresolved original programme question"
+    },
+    {
+      "id": "CLM-0032",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S006-T16: In the stated finite total-dimension-at-most-three pure-degree meet-exact three-cover square with identically zero integral d2, existence for arbitrary free abelian A,B is equivalent to joint lower delta_A split injection AND graph-admissible B (split bottom maps and primitive upper amalgam).",
+      "sources": [],
+      "scope": "S006/MATHEMATICS; necessity uses entire total-space H3, not cross-component synchrony; sufficiency is S005-T13; internal proof only, no novelty/Lean."
+    },
+    {
+      "id": "CLM-0033",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S006-T17: In every such total-3D cover with arbitrary M, K_p=ker M_p and C_p=coker M_p obey primitive joint lower delta_K and an injective upper amalgam lambda_K; torsion(coker lambda_K) is naturally isomorphic as an abstract torsion group to torsion(ker delta_C). If ker delta_C is torsion-free then lambda_K is primitive.",
+      "sources": [],
+      "scope": "S006/MATHEMATICS: cellular top-degree saturation, natural MV and short exact sequence; full general B realization not obtained."
+    },
+    {
+      "id": "CLM-0034",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S006 determinant-two concrete B example A=M=0, B00=0, sides Z, top Z², upper columns (1,0),(1,2), admits no degree-pure meet-exact total-3D three-cover under the stated hypotheses.",
+      "sources": [],
+      "scope": "Special case T16/T17; actual top-degree H3(X10 union X01) -> H3(X11) has nonprimitive determinant 2; no synchrony assumption."
+    },
+    {
+      "id": "CLM-0035",
+      "status": "HEURISTIC",
+      "claim": "C08 could produce an HHA-significant new integral section-complex degeneration/extension theorem beyond the existing HHA 2025 construction, provided proof-level prior art and an actual nontrivial falsifiable gap are established.",
+      "sources": [
+        "SRC-0012",
+        "SRC-0022"
+      ],
+      "scope": "Provisional alternative only: neither externally stated open problem nor theorem, no stage-2 novelty clearance."
     }
   ]
 }

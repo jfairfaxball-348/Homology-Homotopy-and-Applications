@@ -1,0 +1,15 @@
+# S006 adversarial validation — strongest attacks and boundary ledger
+
+1. FALSE route rejected in S005: using U2,p ∩ (U1,q∩U2,q) = P_p for p<q is not guaranteed by per-labelled meets. S006 never uses this identity. It works with exact X10∩X01=X00, which IS explicitly required.
+2. ATTACK on top saturation: could H3(F) die in X11 via 4-boundaries? No: total dimension≤3, cellular C4(X11)=0, so any nonzero 3-cycle in F persists. Primitive injection follows by coordinate direct-summand inclusion C3(F)⊂C3(X11), not an assumption of injectivity on H2.
+3. ATTACK on determinant-two example: perhaps preloading extra top cells into sides alters H3 inclusion? Not if complete X sides still have specified H3=B side and meet exactly at X00. Natural spectral sequence identifies upper maps, so the H3(F)→H3(X11) matrix remains the nonprimitive amalgam. Anticipatory individual cover-membership cells cannot repair a top-degree lattice index.
+4. ATTACK on using torsion-freeness of H3F to conclude D_K is primitive IN H3F: false. A free subgroup can have torsion quotient. T17 carefully allows E=ker delta_C to have torsion and records the exact relation, rather than promoting universal B graph-admissibility.
+5. ATTACK on delta_K: is it merely injective? In MV, D_K embeds in the free group H3F, so D_K itself is free, which makes delta_K primitive. This does NOT mean D_K image in H3F is primitive.
+6. ATTACK on Tor relation: since K11/H3F is free, (**)'s quotient is free, so the torsion subgroup of coker lambda_K is exactly torsion(E); no claim of canonical splitting as the whole group.
+7. ATTACK on zero-M sufficiency with arbitrary upper A: S005-T13 explicitly handles an arbitrary lambda_A by adding a wedge of top 2-spheres and 3-cells with [I;−lambda_A], avoiding 4-cells. B must still be graph-admissible: S004-T9's two-dimensional triple repair alone makes suspension/cones exceed dimension three.
+8. ATTACK on zero top-rank cases: empty cell families, basepoint, zero homomorphisms give valid graph model. Delta_A from nonzero A00 to both zero fails injection, correctly forcing dimension four as S005-T15.
+9. ATTACK on homology spectral sequence collapse: reduced H0 Cech row of a full nonempty triple intersection is augmented 2-simplex acyclic. Nonzero positive row entries are A at p=0,q=2 and B at p=2,q=1; only d2 can connect. There are no degree-3 hidden filtration extensions. This uses all pair intersections contractible.
+10. ATTACK on B upper primitive for arbitrary nonzero M: unsupported. Only K=ker M controlled as in T17; C=coker M may have torsion at grade 00. Remaining nonzero-M classification is OPEN.
+11. ATTACK on HHA significance: exact integral dimension-3 CW criterion may be a routine consequence of standard cellular/MV algebra. No equivalent theorem found in selected sources is NOT novelty. Retire C03 as publication flagship pending a genuinely new HHA-significant application, while retaining mathematical results.
+
+No numerical finite search, CAS, SAT, code-generated mathematical enumeration, Lean build, Palomar or external contact.

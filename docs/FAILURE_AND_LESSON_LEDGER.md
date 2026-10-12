@@ -25,3 +25,8 @@
 - **S005-F3:** A mapping cylinder built on a 3D top A latching union adds 4D cells; replace it by 2-sphere generators and 3-cell relations x_i−λ_A(x_i) with identity coefficients.
 - **S005-F4:** Proposed unconditional B upper primitive obstruction incorrectly assumes U2,p∩P_q=P_p for p<q; mixed-grade delayed cover membership violates that inference while preserving each named per-grade meet. No general nonprimitive B verdict.
 - **S005-F5:** Technical CW iff alone may not meet HHA significance or novelty threshold. Source proof-level comparison and a serious reserve candidate required before first novelty gate.
+
+- **S006-F1 CLOSED IN ZERO-M SLICE:** S005's rejected component-wise mixed-grade obstruction is unnecessary for zero transgression: examine full X square and primitive inclusion H3(X10∪X01)↪H3(X11). Determinant-two λ_B impossible for A=M=0.
+- **S006-F2 GENERAL LIMIT:** For arbitrary M, top H3 controls K=ker M, not B; ker delta_C may have torsion, making an upper λ_K nonprimitive consistently with necessary MV. Never assert all B graph-admissible absent M=0 or stronger hypotheses.
+- **S006-F3 PRIORITY KILL:** Internally sharp CW dimension-three integer lattice criterion is not evidence of an original HHA-quality application. Retire C03 as paper flagship; inspect original HHA 2025 section-complex paper and final 2026 open-complex discrete Morse publication before fixing new theorem.
+- **S006-F4 PROOF ACCOUNTING:** Torsion balance Tor(coker λ_K)=Tor(ker δ_C) follows from a free quotient K11/H3(F); an inclusion D_K→H3(F) need not be primitive if ker δ_C has torsion.

@@ -22,3 +22,9 @@
 - **DEC-0024:** T14 demonstrates novel-to-this-programme ×2/×3 nonsplit lower transitions with d2 cokernels Z/2, Z/3, Z/6; ×2/×4 is forbidden. T15 gives sharp fourth-dimensional escape for a joint kernel.
 - **DEC-0025:** Reject the proposed unconditional λ_B primitive necessity until mixed-grade membership is controlled. Do NOT silently impose cross-grade synchrony. Continue C03 only provisionally; no novel HHA publication claim.
 - **DEC-0026:** Original sources have substantial conventional cofiber/MV and spectral-sequence material; retain C07/C08 as reserves. Stage 2, Lean, Palomar, manuscript and release all closed. S006 FUTURE, UNEXECUTED.
+
+- **DEC-0027 S006:** Use complete X meet-exact diamond, rather than mixed-component synchrony, for primitive top-dimensional H3 restrictions; establish T16 zero-M all-B/A necessary-and-sufficient graph-B and primitive-joint-A criterion.
+- **DEC-0028:** T17 all-M necessary torsion-balance law for K=ker M,C=coker M, with Tor(coker λ_K)=Tor(ker δ_C). Nonzero-M total-3D universal B criterion remains OPEN; do not claim it.
+- **DEC-0029:** Independent S005-T12/13 cellular audit found no fatal proof gap in the bounded class; neither formal verification nor source novelty clearance is inferred.
+- **DEC-0030:** C03 **RETIRED AS PUBLICATION FLAGSHIP** due no defensible original HHA-significant contribution despite internal exact theorem. Do not delete its research archive. C08 source-first and C07 secondary, both provisional; no fixed G2 candidate.
+- **DEC-0031:** Keep G2/G3/G4 and owner external gates closed. Full separate S007 future prompt prepared; no S007 execution.

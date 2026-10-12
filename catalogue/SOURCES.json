@@ -205,8 +205,8 @@
       "url": "https://arxiv.org/abs/2402.12116",
       "origin": "original author abstract and publisher publication metadata DOI 10.1016/j.topol.2026.109867",
       "access": "ABSTRACT_INSPECTED",
-      "limitation": "Full final 2026 proof not inspected; C07 novelty cannot be claimed.",
-      "observed": "Borel–Moore homology isomorphic to gradient-vector-field homology; weak Morse inequalities; 2026 publication verified."
+      "limitation": "Original preprint abstract and indexed final September 2026 publisher introduction stating Theorem 3.1 (gradient-chain/BM isomorphism); not a complete primary proof inspection, and indexed text is not a full-page read.",
+      "observed": "Final article states Borel–Moore and discrete gradient homology identification; C07 filtration-naturality novelty is not demonstrated."
     }
   ]
 }

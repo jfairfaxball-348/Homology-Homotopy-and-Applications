@@ -16,3 +16,5 @@
 | G1B S004 checkpoint | 2026-10-12 | IN PROGRESS — restricted dimension-3 theorem, NO NOVELTY PASS | T8–T11 human-readable detailed proofs; no certified original flagship; G2/G3/G4 remain NOT STARTED. |
 
 - **S005:** Stage 1 remains IN_PROGRESS after human-readable T12–T15 proof. No fully general dimension-three classification, new HHA flagship, proof-level priority equivalence or formal verification. Stage 2 novelty NOT_STARTED; Stage 3 Lean NOT_STARTED; Stage 4 final novelty NOT_STARTED; Palomar, arXiv and journal submissions OWNER_GATED. Success of repository governance CI is not a mathematics gate.
+
+- **S006:** G1 mathematics includes internal T16/T17 and resolved zero-M B obstruction; C03 RETIRED AS HHA FLAGSHIP (mathematics archived, not retracted). C08 source-first alternative NOT SELECTED/NOT PROVED ORIGINAL. G2 first novelty, G3 Lean and G4 final audit NOT_STARTED; G5/G7/G8 owner-gated.

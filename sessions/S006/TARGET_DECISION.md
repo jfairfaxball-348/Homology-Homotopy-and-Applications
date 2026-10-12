@@ -1,0 +1,11 @@
+# S006 flagship decision and source-grounded alternative
+
+Hard outcome: determinant-two nonprimitive upper B example is IMPOSSIBLE in actual total 3D when A=M=0; the argument uses complete-space H3 and avoids mixed-grade membership. More generally T16 classifies every identically zero d2 strict total-3D diagram by primitive joint delta_A and graph-admissible B. T17 imposes a kernel/cokernel torsion defect law for arbitrary M; nonzero-M full iff is UNSOLVED.
+
+Originality assessment: the new results are honest elementary topology, not evidence of an original paper-worthy HHA insight. They solve an internally posed constrained realization problem, not a validated historic conjecture. No apparent substantial application or novel invariant has emerged. Therefore C03 should cease being the HHA FLAGSHIP while results remain preserved for possible later reuse.
+
+Provisional alternative C08, not yet a selected theorem: for finite simplicial height functions h:K→R, with the section-complex spectral sequence of Vaupel–Hermansen–Trygsland HHA 2025, can one impose **directly verifiable combinatorial conditions** on a height filtration giving complete, integral, natural determination of all higher differentials AND extensions (including torsion) from bounded section data? This is a falsifiable search programme ONLY after checking original definitions, exact published comparison maps and proof. A result tautologically saying all differentials vanish and extensions split is insufficient. To qualify it must yield a nontrivial necessary/sufficient criterion or a counterexample to a serious locally checkable criterion, with distinct actual examples that share the early section data but differ integrally. No statement of external open status, novelty, or theorem made.
+
+Backup C07: filtration-natural relative/Borel–Moore discrete Morse continuation with exact integral naturality must be checked against Knudson–Scoville's *published* September 2026 Theorem 3.1 and known filtered algebraic Morse reductions. Existing gradient complex/BM isomorphism is prior art. Other fresh sourced HHA routes may be proposed if C08 and C07 fail.
+
+Gate decision: G1 IN PROGRESS; no fixed novelty-cleared original flagship, no Lean or manuscript. S007 is a separate future owner-invoked source-first proof/disproof and candidate-decision session.
