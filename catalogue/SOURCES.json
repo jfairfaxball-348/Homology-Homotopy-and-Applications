@@ -288,6 +288,51 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "S010 abstract/introduction; full HTML available but no theorem-proof audit performed.",
       "observed": "Current interval-cover computation and monotonicity theory; RouteB priority precedent."
+    },
+    {
+      "id": "SRC-0033",
+      "title": "Upegui Keagy, Projective Constant Decompositions of Persistence Modules over Noetherian Rings, arXiv:2602.13560v1 (14 Feb 2026)",
+      "url": "https://arxiv.org/html/2602.13560v1",
+      "origin": "Original arXiv HTML",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "S011 original abstract/introduction and Theorems A–K statements only; proof sections and final status not fully audited.",
+      "observed": "Pure-cokernel/projective-constant representation criteria in chains and zigzags; strong priority collision requiring proof-level comparison."
+    },
+    {
+      "id": "SRC-0034",
+      "title": "Chakraborty–Ghosh, On Projective and Flat Persistence Modules, arXiv:2603.02674v1 (3 Mar 2026)",
+      "url": "https://arxiv.org/html/2603.02674v1",
+      "origin": "Original arXiv HTML",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "S011 title/abstract inspected, not proof or full statements; no exclusion of T29 equivalence.",
+      "observed": "Projective/flat lattice-poset persistence module criteria and related basis methods; possibly adjacent to S011 T29."
+    },
+    {
+      "id": "SRC-0035",
+      "title": "Projective diagrams over partially ordered sets are free, J. Pure Appl. Algebra 20(1) (1981), 7–12, DOI:10.1016/0022-4049(81)90045-1",
+      "url": "https://www.sciencedirect.com/science/article/pii/0022404981900451",
+      "origin": "Original journal publisher indexed abstract/metadata",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Publisher abstract/metadata inspected; full primary theorem/proof not accessed. Authors and equivalence not inferred.",
+      "observed": "Direct earlier projective-poset freeness precedent; T29 is classically flavoured, novelty cannot be claimed."
+    },
+    {
+      "id": "SRC-0036",
+      "title": "When is a cube of cofibrations a lattice? (2012 discussion of Reedy/latching maps)",
+      "url": "https://mathoverflow.net/questions/89213/when-is-a-cube-of-cofibrations-are-lattice",
+      "origin": "Expert forum secondary discussion",
+      "access": "SECONDARY_ONLY",
+      "limitation": "Discussion is contextual secondary evidence, not peer-reviewed priority proof.",
+      "observed": "Finite poset latching construction is standard, not an automatic originality hook."
+    },
+    {
+      "id": "SRC-0037",
+      "title": "Lebovici–Lerch–Oudot, Local characterization of block-decomposability for multiparameter persistence modules, final HHA 28(1) (2026), 175–196",
+      "url": "https://intlpress.com/JDetail/2026726022050791425",
+      "origin": "Final publisher indexed bibliographic record",
+      "access": "METADATA_ONLY",
+      "limitation": "Official final article page/direct PDF inaccessible HTTP403; page-by-page final-versus-arXiv v4 theorem/proof comparison UNKNOWN.",
+      "observed": "Final bibliographic version exists; original version-specific mathematical proof inspected only in SRC-0025."
     }
   ]
 }

@@ -56,3 +56,10 @@
 - DEC-0051: T27 provides a polynomial arithmetic explicitly-listed-family baseline, classical prior-art collision, not unrestricted source Problem1.
 - DEC-0052: retain T26 as PROVISIONAL_INTERNAL_CANDIDATE with originality UNKNOWN, G2/G3 unpassed. Global-bottom lift fails on middle bands of longer grids. Conditional unrelated pivot not triggered.
 - DEC-0053: one authored S010 commit/ordinary PR/non-force merge; S011 FUTURE only, no formalisation/manuscript/external actions.
+
+## S011 decisions
+- **DEC-0054:** Reconcile actual S010 PR11 SHA/ordered parents/tree and successful hosted static checks. Authorise exactly one S011, leave S012 future.
+- **DEC-0055:** Accept **INTERNAL** T28 full arbitrary finite-dimensional Boolean cube integral block iff and all-face integral homology/saturation criterion. Correct field source block list and preserve all-prime/generating-edge quantifiers. This extends S010 T26 beyond n3; NO originality or formal certification.
+- **DEC-0056:** Accept **INTERNAL** T29 finite-poset projective descent via canonical latching colimits and integral saturation; likely classical, 1981 projective-poset theorem and 2026 projective persistence literature demand exact priority collision audit.
+- **DEC-0057:** Accept restricted longer-grid T30 top-monomorphic upsets and T31 bottom-epimorphic downsets; genuine induced middle band kills naive global-bottom kernel lift. General mixed-grid conjecture UNRESOLVED.
+- **DEC-0058:** Keep G2/G3/G4 NOT_STARTED and Palomar/manuscript/arXiv/HHA/contact unopened. T28 PROVISIONAL_INTERNAL_ALL_N_CANDIDATE, original HHA final proof inaccessible, exact 1981/2026 priority UNKNOWN. Prepare S012 future only.

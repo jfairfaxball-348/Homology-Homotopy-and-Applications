@@ -51,3 +51,10 @@
 
 ## S010 corrections and failed shortcuts
 Indexed publisher snippets cannot be labelled direct statement inspection (five source grades repaired). Kernel reduction requires UCT at Htop and vanishing preceding homology, with edge purity for one-dimensional slices. An arbitrary integer death injection does not split; the full saturated terminal kernel has an explicit natural retraction. Field complements use FIELD Krull–Schmidt only. Longer-grid middle band has no bottom lift, so Boolean proof does not automatically glue. Explicit interval count/expanded dimensions enter T27 complexity; classical end-ring algorithms do not solve compressed source Problem1.
+
+## S011 corrections and proof/priority risks
+- **S011-F1 GENERALISATION:** S010 n3 common-top Venn lattice argument cannot simply be assumed for n>=4. Replace it with canonical finite-poset latching colimits and integral fieldwise purity: T29. A sum of incoming vertex modules double-counts overlaps and is NOT the latching colimit.
+- **S011-F2 SOURCE-BLOCK DEFINITION:** A mixed birth/death rectangular interval is not automatically an LLO block on a Boolean cube. Definition3 recursion yields precisely principal ↑u and ↓v, full counted once; verify every k-face not just squares for n>3.
+- **S011-F3 EDGE PURITY:** A generating edge ×2 (constant remaining axes) can split over every field, so primitive generating cokernels cannot be dropped from T28. Q plus finitely many primes also cannot certify integrality.
+- **S011-F4 GRID FAIL:** Induced band {1}×{0,1,2}² has zero global bottom and nonzero terminal death at (1,2,2), a genuine all-precondition failure of the global-bottom lift. It does NOT refute the unknown general-grid integral decomposition.
+- **S011-F5 PRIORITY:** Finite-poset projective/latching splitting closely resembles 1981 work and 2026 projective persistence proofs. Do not present internal T28/T29 as externally new; HHA2026 journal-final PDF was 403.

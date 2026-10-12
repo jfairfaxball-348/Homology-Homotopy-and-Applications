@@ -1,0 +1,25 @@
+# S011 grid and application routes — rigorous positive boundaries, honest negative boundary
+
+## T30: all finite-poset projective descent (and grid top-monomorphic corollary)
+
+T29 in MATHEMATICS holds for any finite poset with finite free integer groups; projective reductions over Q and every F_p guarantee coherent integral representable splitting, without an n-cube assumption. This is an internal proof of a classical-flavoured proposition, not a priority claim.
+
+Let G=∏_{i=1}^n {0,...,m_i} with every m_i≥1 (arbitrary finite longer chain lengths), top t. Suppose M:G→Free_fg(Z), ALL generating edges have torsion-free cokernels, every M(x→t) is injective over Z, and M_Q, M_Fp are LLO-block-decomposable for every p. Every generating edge is then injective, as its composite to top is injective. Along any saturated chain of primitive injections, the quotient of the composite is an iterated extension of free abelian groups: for A⊂B⊂C, 0→B/A→C/A→C/B→0. It is free. Hence all x→t are PURE injections and remain injective after reduction mod any p.
+
+On each coefficient field, a block of a finite product of chains with its supported vertex x but absent from t would contribute kernel to M(x→t), impossible. All surviving field blocks contain t. A source block containing t is a principal upset: check 2D axis-bands (an interval containing its maximal endpoint is a tail), birth products (upper tails), death products only if full support, and the Definition3 induced-block induction (full extra axes). Therefore each field reduction is a sum of representables. T29 yields an integral principal-upset decomposition M≅⊕_u Z[↑u]^{b_u} naturally. This is a genuine longer-grid positive theorem under top-injectivity; cannot remove top-injectivity from this argument.
+
+## T31: dual bottom-epimorphic longer-grid theorem
+
+Let M:G→Free_fg(Z) be such that every bottom→x map is surjective and every Q/F_p reduction is LLO-block-decomposable. Each reduction has surjective bottom maps. A field block supported at x but not at bottom would make bottom→x non-surjective, so every block contains the bottom. By the mirror of the preceding support classification it is a principal downset (the full block counted as ↓t). Dualise each finite free stalk and arrow into F on G^op: F(x)=Hom_Z(M(x),Z) with opposite-direction maps. Duality commutes with Q and modp because stalks are finite free. Every F_k is a sum of representables on G^op, so T29 gives F a natural integral projective decomposition. Dualising back yields a natural direct sum of Z[↓v] blocks. No edge-purity is required separately here: bottom surjectivity implies every arrow is surjective and hence has zero (free) cokernel.
+
+## Exact obstruction to naive unrestricted grids
+
+On G={0,1,2}^3 define B to be the rank-one *induced* block with support {1}×{0,1,2}×{0,1,2}, identity arrows inside support, zero otherwise. Its global bottom is 0; at v=(1,2,2) the sole outgoing j=1 coordinate arrow to (2,2,2) is zero, and K_v=Z. Therefore the S010/S011 death-lifting map 0=L_v→K_v=Z is not onto, even though B is itself a perfectly split integral LLO block, has free-cokernel arrows, and every reduction is a block. This disproves the proposed global-bottom lift **on longer grids**, not any integral-grid rigidity statement.
+
+Attempted repair: choose a slice-specific earliest support vertex (1,0,0) and lift the band coefficient along the slice, rather than from (0,0,0). It works for B itself, but a general diagram may have overlapping birth/death/induced coefficients and independent local complements that do not form natural retracts across adjacent slices. A complete iff would require explicit compatible saturated image/kernel filtrations and natural sections for every induced band. No such mixed-band coherence proof or counterexample with ALL preconditions was obtained. General longer-grid block lifting remains OPEN.
+
+## Multiplicities and topological realisation
+
+For T28, d_v are ranks of terminal joint outgoing kernels and b_u are Möbius transforms of the residual dimension vector (see MATHEMATICS). This gives a finite integral barcode recovery certificate without choosing incompatible field bases.
+
+A concrete finite CW multifiltration realises each elementary H_1 block. Put a circle α into the complex at grade bottom. For each coordinate j in J(v)={j:v_j=0}, attach a 2-cell along α at grade e_j; if any such coordinate is 1 the circle class dies, otherwise it persists, yielding the downset ↓v on H_1. Independently insert circle β at grade u, never attach a cell to β, yielding ↑u. Form the grade-x subcomplex from all cells with attaching grades ≤x. For multiple death disks with identical α boundary, higher H_2 may appear but H_1 remains the indicated free group. The resulting inclusions commute on the nose and H_1 diagram is a direct sum of the requested integral blocks. Arbitrary finite sums follow by wedges with disjoint cells. This is a transparent REALISATION/interpretation, not a newly original topological classification; no theorem that ALL multifiltrations satisfy T28's hypotheses is asserted.

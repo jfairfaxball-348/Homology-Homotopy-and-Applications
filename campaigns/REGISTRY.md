@@ -14,3 +14,5 @@ C02 one-chain unrestricted integral free diagram realized via finite CW cone T5;
 
 
 **S008 supplement:** no mathematical code/enumeration/CAS/Lean. Explicit facets and vertex maps verified symbolically; extraction/rendering and static validation are administrative.
+
+- **S011:** No mathematical numerical computation, enumeration, CAS, SAT, ILP, generated finite search, code witness or performance claim. All-n proof, n4 positive stress block and longer-grid induced-band counterexample checked symbolically; repository static validator/hosted governance checks are administrative, not mathematical certification. S012 FUTURE ONLY.
