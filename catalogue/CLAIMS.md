@@ -73,3 +73,11 @@ PROGRAMME_PROVED means internal detailed prose proof, not originality, external 
 |CLM-0067|HEURISTIC|Integral grid rigidity for arbitrary mixed induced bands may follow from coherent slice kernel-image filtrations, but is unresolved.|S011 actual middle band {1}×{0,1,2}² refutes global-bottom lifting, not decomposition. No full grid iff/counterexample.|SRC-0025,SRC-0033|
 |CLM-0068|PROGRAMME_PROVED|S011-T28 admits a finite integer Koszul-homology/purity criterion and death multiplicities from joint outgoing kernels plus birth multiplicities by Boolean Möbius inversion.|S011/MATHEMATICS internal formula restricted to theorem-qualified diagrams; finite symbolic proof, not computational implementation.|SRC-0025|
 |CLM-0069|HEURISTIC|All-n T28 is a genuinely original HHA-level result suitable for a paper.|UNRESOLVED priority/significance; exact 1981/2026 theorem comparison and nonroutine application needed; G2 remains NOT_STARTED.|SRC-0025,SRC-0033,SRC-0034,SRC-0035|
+
+
+## S012 claim updates (full source-grade details in SOURCES.json/MD)
+|CLM-0070|PROGRAMME_PROVED|T32 arbitrary-Ab punctured Boolean derived colimit = truncated cubical Koszul homology; top equals bottom joint kernel.|S012/MATHEMATICS; internally proved, classical cellular Roos method.|SRC-0025,SRC-0038|
+|CLM-0071|PROGRAMME_PROVED|For T28 diagrams higher punctured colimits concentrated at n−1; rank=d_bottom; latching into top split-injective as groups.|S012/MATHEMATICS UCT/middle Koszul, no novelty assertion.|SRC-0025,SRC-0038|
+|CLM-0072|PROGRAMME_PROVED|T33 classical BK hocolim SS for integral T28 homology diagrams has E2 only columns 0,n−1; only possible d_{n−1} for n>=3.|S012/MATHEMATICS; no collapse claim in n>=3, n2 collapse only.|SRC-0038,SRC-0025|
+|CLM-0073|HEURISTIC|General mixed 3x3 2D/3D integer grid rigidity remains OPEN, not refuted by isolated induced band.|S012/MATHEMATICS; method obstruction only.|SRC-0025,SRC-0033|
+|CLM-0074|HEURISTIC|T28/T32/T33 offer a novel HHA flagship.|S012 priority/HHA gate remains UNCERTIFIED; T29/T32/T33 standard methods.|SRC-0025,SRC-0033,SRC-0034,SRC-0035,SRC-0038,SRC-0039|

@@ -59,3 +59,7 @@ C11 Boolean-three-cube RESOLVED INTERNALLY by T26, arbitrary kernels and only pr
 - **T29 finite-poset projectives:** fieldwise representable direct sums descend integrally using latching colimits and pure cokernel, including arbitrary finite posets; likely classic 1981/2026 priority collision. Not standalone HHA flagship.
 - **Grid extreme T30/T31:** longer finite-grid top-monomorphic upsets and bottom-epimorphic downsets proven internally. **General mixed induced-band grid** unresolved; global-bottom lift failed on a genuine 3×3×3 induced band; follow coherent slice filtration route, not arbitrary vertexwise basis gluing.
 - **Application:** finite CW H1 circle/disk realisation elementary; no nonroutine HHA consequence or first novelty gate. T27 and C07/C08 older decisions unchanged. S012 future only.
+
+
+## S012 decision
+C11 T28 arbitrary-n Boolean integral iff retains INTERNAL proof standing; no priority/hard topology gate. New T32 identifies left-derived colim on punctured Boolean cube with truncated Koszul: L_{n-1}=joint bottom kernel, intermediate positive vanish under T28. T33 specialises classical BK spectral sequence to p=0,n−1 with possible d_{n−1}, not an automatic collapse. Literature collision substantial; must exhibit indispensable nonroutine topological transgression/collapse or pivot. Finite G=3x3 mixed 2D/3D global rigidity OPEN, band-only obstruction not counterexample. T29 projective/Reedy latching routine; T30/T31 only extremes. S013 FUTURE.

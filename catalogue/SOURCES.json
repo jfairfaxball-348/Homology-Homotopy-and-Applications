@@ -294,27 +294,27 @@
       "title": "Upegui Keagy, Projective Constant Decompositions of Persistence Modules over Noetherian Rings, arXiv:2602.13560v1 (14 Feb 2026)",
       "url": "https://arxiv.org/html/2602.13560v1",
       "origin": "Original arXiv HTML",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "S011 original abstract/introduction and Theorems A–K statements only; proof sections and final status not fully audited.",
-      "observed": "Pure-cokernel/projective-constant representation criteria in chains and zigzags; strong priority collision requiring proof-level comparison."
+      "access": "PROOF_INSPECTED",
+      "limitation": "S012 original v1 §1 Theorems A–K, §3 PCC Definition3.7 and §4 Theorem4.3 induction/proof selected paragraphs; not all 45 pages or every theorem proof.",
+      "observed": "A_n/zigzag PCC and totally ordered projective-cokernel splitting seriously precede T29 methods; no exact arbitrary-cube T28 statement seen."
     },
     {
       "id": "SRC-0034",
       "title": "Chakraborty–Ghosh, On Projective and Flat Persistence Modules, arXiv:2603.02674v1 (3 Mar 2026)",
       "url": "https://arxiv.org/html/2603.02674v1",
       "origin": "Original arXiv HTML",
-      "access": "ABSTRACT_INSPECTED",
-      "limitation": "S011 title/abstract inspected, not proof or full statements; no exclusion of T29 equivalence.",
-      "observed": "Projective/flat lattice-poset persistence module criteria and related basis methods; possibly adjacent to S011 T29."
+      "access": "PROOF_INSPECTED",
+      "limitation": "S012 original arXiv v1 §1 Theorem1.2, §3 Lemma3.1/Prop3.13 and §4 Prop4.7 selected proof passages and original PDF p4; not full 26-page audit.",
+      "observed": "Graded projective/free PID lattice module theorem presupposes graded projectivity; no direct published equivalence to T28 shown."
     },
     {
       "id": "SRC-0035",
-      "title": "Projective diagrams over partially ordered sets are free, J. Pure Appl. Algebra 20(1) (1981), 7–12, DOI:10.1016/0022-4049(81)90045-1",
+      "title": "Michael Höppner and Helmut Lenzing, Projective diagrams over partially ordered sets are free, JPAA 20(1) (1981), pp7–12, DOI10.1016/0022-4049(81)90045-1",
       "url": "https://www.sciencedirect.com/science/article/pii/0022404981900451",
       "origin": "Original journal publisher indexed abstract/metadata",
       "access": "ABSTRACT_INSPECTED",
-      "limitation": "Publisher abstract/metadata inspected; full primary theorem/proof not accessed. Authors and equivalence not inferred.",
-      "observed": "Direct earlier projective-poset freeness precedent; T29 is classically flavoured, novelty cannot be claimed."
+      "limitation": "Original publisher indexed abstract/metadata only; full 1981 theorem text/proof NOT retrieved S012, exact projective hypotheses UNKNOWN.",
+      "observed": "Classical projective diagrams free plus elementary latching induction is a decisive originality collision for T29 as a standalone headline, not a verified exact theorem-text equivalence."
     },
     {
       "id": "SRC-0036",
@@ -331,8 +331,26 @@
       "url": "https://intlpress.com/JDetail/2026726022050791425",
       "origin": "Final publisher indexed bibliographic record",
       "access": "METADATA_ONLY",
-      "limitation": "Official final article page/direct PDF inaccessible HTTP403; page-by-page final-versus-arXiv v4 theorem/proof comparison UNKNOWN.",
+      "limitation": "S011 recorded HTTP403 final publisher; S012 direct original final retrieval returned internal error. Full final proof NOT inspected; original arXiv v4 separate SRC-0025.",
       "observed": "Final bibliographic version exists; original version-specific mathematical proof inspected only in SRC-0025."
+    },
+    {
+      "id": "SRC-0038",
+      "title": "Daniel Dugger, A Primer on Homotopy Colimits, §18 Theorem 18.3 (homology spectral sequence)",
+      "url": "https://people.math.rochester.edu/faculty/doug/otherpapers/hocolim2.pdf",
+      "origin": "Author-hosted exposition PDF, indexed §18 theorem text",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Accessible original indexed text of Theorem18.3; complete full-PDF proof not separately audited.",
+      "observed": "Classical BK spectral sequence E2=derived colim of homology; T33 is a conditional sparse-column specialisation."
+    },
+    {
+      "id": "SRC-0039",
+      "title": "Homotopy limits and homotopy colimits of chain complexes, JPAA 2026, DOI10.1016/j.jpaa.2026.108232",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022404926000630",
+      "origin": "Original journal publisher indexed abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Author identity and full original theorem/proof not inspected; no Boolean-cube equivalence check.",
+      "observed": "Contemporary bar/cobar/Bousfield–Kan formula for chain-complex hocolimits; strong prior-art risk for T32/T33."
     }
   ]
 }

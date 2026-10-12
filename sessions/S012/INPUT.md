@@ -1,0 +1,9 @@
+# S012 owner invocation and live entry (12 October 2026)
+
+Owner invoked the current authoritative NEXT_SESSION_PROMPT.md URL and explicitly asked to run it. The exact URL is https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/authoritative%2FNEXT_SESSION_PROMPT.md ; this is a faithful invocation summary, not a purported bytewise transcript/hash.
+
+Entry main `fed65428e59eeb0a45d565d44ebce67f92208267`, tree `82ebb32673faea4d7e5c302472306c6f6457a4de`. S011 authored `17ab06255d4f0008304b2a4fdf787cddad521116` has sole parent `ee89ea8950e25fa3ec6e684a3c6ba43a92946259` and tree `82ebb32673faea4d7e5c302472306c6f6457a4de`. PR #12 merged by ordinary TWO-parent commit `fed65428e59eeb0a45d565d44ebce67f92208267`, parents exactly `ee89ea8950e25fa3ec6e684a3c6ba43a92946259`, `17ab06255d4f0008304b2a4fdf787cddad521116`, tree `82ebb32673faea4d7e5c302472306c6f6457a4de`. Independently observed remote main matching merge SHA. No intervening changes; 12 preceding PRs merged, none open at entry; no competing S012 branch or record in recursive tree/branch listing.
+
+Actual workflow `.github/workflows/repository-integrity.yml` runs governance: entry main run 38305512900 / job 114998472570 / check `governance` SUCCESS, PR #12 authored check also found SUCCESS. Commit status contexts count zero, `pending` aggregate: ABSENT_STATUS_NOT_PASS (distinct from successful Actions job). Ruleset listing [] reachable; branch-protection API 403 RESOURCE_NOT_ACCESSIBLE_BY_INTEGRATION = UNKNOWN, branch listing says protected=false but not a complete policy read. Workflow list endpoint unavailable from connector; workflow file/tree and individual run/jobs/checks observed live.
+
+Read AGENTS, START_HERE, STATE, SESSION_PROTOCOL, both catalogue JSON/MD and ledgers, S009 T25, S010 T26, S011 proof/hostile/grid/source records. S012 unused; Stage1 IN_PROGRESS, all later gates closed. Stop after exactly S012; no S013 execution and no outside release.
