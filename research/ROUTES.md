@@ -133,3 +133,10 @@ S017-T41 proves all-LLO-block relative pd on finite sentinel-zero coordinate hyp
 
 ## S024 geometric route update (2026-10-13)
 T54 FULL high-graph induced stars g32/f130, not restricted source facet widths31/27. Four complete seeded R5 strict-constraint numerics unsuccessful but NOT impossibility; graph-specific R5 remains undecided. T55 proves all 182 distinct R5 clouds with diameter/minimum separation<=7/5 impossible, so abandon all low-global-spread approaches, including S023 near-equilateral coordinates; a future positive d5 model MUST have D/s>7/5 (unless coincident vertices). T56 provides exact robust four-corner high-dimensional Hopf witness only. Seek real 5D graph certificate or a new genuinely homotopical theorem beyond classical total cofiber. Secondary A/C remain open.
+
+## S025 route disposition
+
+- **Geometry d5:** fixed corrected high graph class fingerprints g8cce602... f1ca062... independently reproduced; full induced-star max32/30 below kissing5 lower40. No faithful R5 witness or global all-distance impossibility. VC-seven neighbourhood search was NONEXHAUSTIVE and found none, not a theorem.
+- **Homotopy metric candidate:** new INTERNAL T57 dHI≥1/582400 from exact four-corner gap and derived Hopf/null cup square in R181. All pointwise graded integral cohomology-ring and componentwise π persistence agree, as proved before. This is beyond pointwise invariant discrimination but uses established cofiber/interleaving machinery, likely major originality challenge from Blumberg–Lesnick/Whitehead. **Provisional research, not selected as HHA flagship; G2 CLOSED.**
+- **Secondary A/C:** no new nonprincipal succinct bit-complexity or primitive all-prime integer grid theorem.
+- **S026:** either make T57 genuinely nonroutine with originality source inspection or kill it and pivot, while attacking exact strict d5 geometry with stronger certified invariants.

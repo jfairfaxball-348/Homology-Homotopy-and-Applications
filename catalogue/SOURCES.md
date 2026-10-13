@@ -108,3 +108,10 @@ S023 rechecked the indexed Cambridge Munson–Volić 2015 chapter metadata and o
 
 - **SRC-0060 METADATA_ONLY:** Munson–Volić author-hosted 45MB original PDF https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/munson-volic2.pdf ; indexed excerpts §§3.8–3.9 surfaced definitions and propositions but direct full PDF fetch FAILED with size limit. NOT proof inspected. Confirms total square cofiber 2015 antecedent, not new priority.
 - Revisited existing SRC-0054 (published 2000 Hopf/CP²), SRC-0055 (JACT2024 persistent cup modules), SRC-0049 (SoCG2026 function-Rips), SRC-0053 (JACT2026 monoidal Rips full HTML), SRC-0057/59 (5D/4D kissing). Exact HHA new theorem NOT certified.
+
+## S025 original homotopy-interleaving priority
+
+- **SRC-0061 STATEMENT_INSPECTED:** Blumberg–Lesnick 2017 original author-hosted https://www.math.columbia.edu/~thaddeus/blumberg/11.pdf ; snippets on definition of homotopy interleaving, homotopy coherent diagrams and π persistence, NOT full original proofs inspected.
+- **SRC-0062 STATEMENT_INSPECTED:** Lanari–Scoccola AGT2023 original open published https://msp.org/agt/2023/23-2/agt-v23-n2-p05-p.pdf ; abstract and §5 indexed, not full 2023 proof audit. Persistent Whitehead/rectification is strong priority risk.
+- **SRC-0063 ABSTRACT_INSPECTED:** Maehara JCT B 1986 https://www.sciencedirect.com/science/article/pii/009589568690081X states sph K(n,n)≥n, but no proved complete biclique subgraph in our graphs. NOT d5 no-go.
+- Rechecked SRC-0054 Hopf/CP2, SRC-0055 JACT2024 cup, SRC-0056/60 inaccessible full Munson–Volić 2015 PDF, SRC-0049 SoCG2026 and SRC-0053 JACT2026. No comprehensive originality priority pass.

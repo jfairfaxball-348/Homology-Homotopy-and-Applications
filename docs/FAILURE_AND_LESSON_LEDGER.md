@@ -146,3 +146,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - A diameter/minimum-separation packing theorem is not an impossibility proof for arbitrary unit-ball graph representations. T55 makes a strong **conditional** d5 spread restriction; graph could require D/s>7/5. Do not imply d5 solved.
 - Four 5D L-BFGS-B attempts each violated ~1500+ strict high-threshold edges/nonedges; no local-optimum success/failure is a proof. Rank5 infeasibility needs independent algebraic/global certificate.
 - Finite 2×2 Rips diagrams remain literally unchanged under certified small perturbations; full-plane equality does not. Related geometric/function-Rips stability is established literature. No originality claims.
+
+## S025 — exact quantitative gap without journal originality
+- Strict R5 graph feasibility/infeasibility remains entirely undecided for corrected 182-node g/f1 high graphs. Independently reproducing class hashes and testing graph-neighborhood VC patterns is NOT a low-dimensional coordinate solution or a no-go proof.
+- A closed neighbourhood family in Euclidean R5 cannot shatter 7 points, but a failed 350-seed search is NOT a proof none exist in our finite graphs. Greedy best patterns61/65 out of128; do not conflate 'not found' with VC≤6.
+- T57 gives a positive **homotopy-interleaving** separation by NATURAL weak-equivalence zigzags of whole 2×2 diagrams; a weaker objectwise Ho(Top) comparison loses the higher coherence needed to compare total cofibers. The arithmetic margin is certified, classical Hopf cup-square inherited. Neither is proof of a new HHA flagship.
+- Blumberg–Lesnick, Lanari–Scoccola and MSZ significantly limit novelty; no nontrivial new operation or application. Stage2 priority remains closed.

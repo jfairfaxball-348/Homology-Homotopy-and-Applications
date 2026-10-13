@@ -1,0 +1,7 @@
+# S025 INPUT — 2026-10-13
+
+Fresh owner instruction: 'Run this session https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/authoritative%2FNEXT_SESSION_PROMPT.md'. Authorised S025 ONLY: mathematics Stage1 and repository closeout, no Stage2, Lean, Palomar, manuscript, arXiv/HHA or external contact. The full actual prompt bytes were fetched from LIVE main `981cdcaa3492b28d830a42fe126af8baeb15841e`, blob SHA d4f67a580e6578ec22f5e500814e706113a87348. This note is faithful summary, not a fabricated owner message hash.
+
+LIVE entry main `981cdcaa3492b28d830a42fe126af8baeb15841e`, tree `a1ebc43632efef4205b913cfa121fe375e0bdccc`. S024 actual authored `1984d6dc103e5f409b1a6963cdc87bd704b183d6` one parent `83a8f3fc7daabba0a481be3e36fba3b997f58b6d`, authored tree same a1eb..., PR25 ordinary merge parents [83a8...,1984...] with merge `981cdcaa3492b28d830a42fe126af8baeb15841e`. S024 entry main 83a8..., not its outgoing. No open PR, no other S025 branches discovered; workflows main Action38399465056 governance SUCCESS and PR branch Action38399393411 SUCCESS, classic main check-runs governance SUCCESS, classic statuses[] ABSENT_NOT_PASS. Rulesets [] reported. Branch protection 403 UNKNOWN.
+
+S025 two principal routes: (A) strict faithful R5 high graph yes/no, with exact all-16471 constraint standard; (B) unmistakably original indispensable HHA theorem or honest classical-priority kill. Secondary succinct nonprincipal k≥1 and all-prime primitive integral grid [0,2]^2/^3. No declaration that any future S026 session was authorised.
