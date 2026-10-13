@@ -106,3 +106,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - **S018-F2 KAN AND SCHANUEL:** real arbitrary-boundary rectangle Lan_pi must be computed over entire initial rays, including top unbounded tail. Real X-relative epi cannot be justified by pointwise epi only. Reverse pd induction uses one chosen pulled-back admissible cover and relative Schanuel, NOT arbitrary resolution restriction.
 - **S018-F3 PRIORITY:** all-rectangle fixed-n,k algorithm composes established 2024 LLO Kan, 2025 FoCM rank-exact hook finite-resolution/transport and S010-T27 explicit-family algorithm. No novelty/HHA-scale homotopy application certified, so no G2.
 - **S018-F4 OPEN:** no noncontractible-top Euclidean single-height Hopf comparison, no all-hypotheses mixed integer 3x3 global idempotent theorem/counterexample; do not invent numerical tests/checker results.
+
+## S019 lessons — no phantom numerical certificate
+- True Euclidean radius/ONE-height Rips with top D≃S² avoids S017-T42 top simplex/suspension no-go. Mixed Hopf cofiber can distinguish diagrams where every separate homology/π-group persistence map agrees.
+- Low/low A0 is equatorial S² PLUS isolated positive-ball interior vertices; these isolates are essential to B∩C=A0, π0 and map comparisons. Outside-K vertices add S¹ wedge summands to cofiber only.
+- Relative barycentric subdivision of simplicial Hopf mapping cylinder creates FLAG top and FULL induced subcomplexes B_+,K; generic subdivision may not. A three-length Euclidean Gram is positive for d=N−1 but no actual N or concrete coordinate lists or independent checker have been produced.
+- Exponential upsets binomial(2m,m) is NOT a complexity lower bound; middle integral induced bands are already split. Original SoCG2026 treats HOMOTOPY TYPES, richer than π-group diagrams; keyword absence is not proof of novelty.

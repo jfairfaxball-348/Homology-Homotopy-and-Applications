@@ -1,0 +1,39 @@
+# S019 Mathematics — T46: genuine Euclidean radius/height Hopf comparison
+
+Status: internally argued EXISTENCE theorem, not a fully enumerated point-cloud certificate, not Lean/refereed, not originality-cleared. Exactly one Stage1 mathematics session. Classical Hopf, simplicial approximation and near-regular-simplex embedding are NOT new.
+
+## T46 precise candidate statement
+There exist two finite Euclidean clouds P_0,P_1 in a common fixed finite R^d, each with ONE scalar height h:P_i→{0,1}, whose entire Rips radius × height diagrams F_i(r,t)=VR_r({h≤t}) have isomorphic integral homology and *all componentwise π_j persistence diagrams* (π_0 included), yet the canonical homotopy cofiber of the punctured-square comparison at a chosen (r0,t0)<(r1,t1) has different integral cup-square: x²=0 versus x²=±y, |x|=2,|y|=4. The top VR_r1(P_i)≃S² is noncontractible and r1<diam(P_i). Explicit strict thresholds and point/height perturbation margin exist. The proof chooses some finite d=N−1 by simplicial approximation but does NOT enumerate N, finite complexes or coordinates. Full persistent HOMOTOPY TYPE equivalence is NOT claimed.
+
+## (1) Common source sphere, differing attaching homotopy
+Start with the suspension K=S⁰*S² of a finite triangulated S² (e.g. octahedral boundary), split into two closed simplicial 3-balls B_+, B_- with common S² equator A. Take maps f0:|K|=S³→S² null and f1=Hopf η:S³→S² (Hopf invariant 1). Simplicially approximate both after a common sufficiently fine subdivision of K, preserving the two sub-balls and a fixed target triangulation. Build two finite simplicial mapping cylinders T_i; both contain exactly the same subdivided K as source subcomplex, retract to S², and inclusion K→T_i represents f_i. Apply barycentric subdivision D_i=sd T_i, K'=sd K and B'_±=sd B_±. Barycentric subdivision is flag and sends any simplicial subcomplex to a FULL induced subcomplex on its face vertices: if all vertices of a chain of faces lie in the subcomplex, so does its simplex. Hence K', B'_+, B'_-, A' are the same flag complexes in both cases and D_i[V(B'_+)]=B'_+.
+
+If D_0 and D_1 have different numbers of vertices, add high-height pendant vertices (each one edge to an existing high vertex in B'_-\A') to the smaller top complex until both have N vertices. Each pendant leaf simplicially collapses and changes neither D_i≃S² nor K'→D_i. The LOW vertex set L=V(B'_+) is literally the same in both; all other vertices HIGH.
+
+## (2) EXACT Euclidean realization of the two nested threshold graphs
+Let E_hi^i be the edge set of D_i and E_lo the edge set of B'_-, with all vertices of D_i retained (others isolated at low radius). E_lo⊆E_hi. Put ε=1/(100N). Prescribe squared pairwise distances 1−ε on E_lo, 1 on E_hi\E_lo and 1+ε on nonedges of E_hi; diagonal zero. Let J=I−11ᵀ/N. The centered Euclidean Gram G=−(1/2)J D² J equals (1/2)J for the all-ones regular-simplex baseline plus an operator perturbation of norm ≤Nε/2=1/200. Thus for v⊥1, vᵀGv≥(1/2−1/200)||v||²>0. The prescribed distances therefore occur EXACTLY among N points in R^(N−1), obtainable by a square root of this positive Gram matrix; this is an exact algebraic construction, not a small-dimensional embedding claim.
+
+Choose r0=sqrt(1−ε/2), r1=sqrt(1+ε/2), height 0 on L and 1 outside, t0=1/2, t1=3/2. Strictly sqrt(1−ε)<r0<1<r1<sqrt(1+ε). The four stages are:
+A0=VR_r0(L)=A' plus all B'_+\A' vertices as isolates;
+B=VR_r1(L)=B'_+ (3-ball);
+C=VR_r0(P_i)=B'_- (3-ball) plus all vertices outside B'_- as isolates;
+D=VR_r1(P_i)=D_i≃S².
+The intersections inside D_i satisfy B∩C=A0, including isolated B'_+\A' vertices (they occur in C as isolates). Their UNION is K' together with isolated vertices outside K'. In particular no arbitrary graph metric is substituted for Euclidean distance. K' being a 3-sphere is not a clique simplex, so the high graph has a nonedge and diam(P_i)=sqrt(1+ε)>r1. This bypasses S017-T42's top-simplex suspension no-go.
+
+## (3) Entire persistence, not just a square
+All pair distances are exactly in {sqrt(1−ε),1,sqrt(1+ε)} and all heights in {0,1}. Enumerate the three radius intervals and both height intervals, plus empty/discrete/completed regimes. Before short-edge threshold complexes are discrete (same N and L). In the short-only range the LOW stage is A'≃S² plus fixed isolates and ALL stage B'_-≃point plus fixed isolates. In the medium-edge range the LOW stage B'_+≃point and ALL stage D_i≃S². At the long-edge threshold both stages are full simplices. π_0 components and their maps are canonically matched by common K' vertices and padding. For EVERY positive π_j, only low/short A' and all/medium D_i carry nonzero groups π_j(S²); any inclusion from the former to the latter factors through B'_+ (or B'_-) contractible, hence induces ZERO. Other π_j structure maps are zero or identities on equal stage. The same reasoning including components gives identical group-valued diagrams for all j; integral homology too. No assertion of equality of diagrams in ho(Spaces^(R²)).
+
+## (4) Mixed comparison captures f_i
+Because A0=B∩C in actual inclusions, the homotopy pushout of the punctured square is U=B∪C=K' ⊔ E_i, where E_i is a finite set of vertices outside K'. The comparison U→D_i restricts on K' to f_i up to the deformation retraction D_i→S². Its homotopy cofiber is (up to homotopy) Cofib(f_i) wedged with |E_i| circles: cones on separate point components of U add S¹ to a connected target. Padding makes |E_i| equal in both clouds. Cofib(f0)≃S²∨S⁴ and Cofib(η)≃CP². For generator x∈H² and y∈H⁴, respectively x²=0 and x²=±y≠0, with integral coefficients. The extra S¹ wedges cannot alter this degree-four ring difference. Thus canonical mixed cofibers are not homotopy equivalent despite all π/H-group persistence agreement.
+
+## (5) Strict margin
+Set δ=min{r0−sqrt(1−ε),1−r0,r1−1,sqrt(1+ε)−r1}>0. Move each Euclidean point by less than δ/4: distances move <δ/2 and edge classes at fixed r0/r1 remain unchanged. Alter heights by <1/4: selected cutoffs t0/t1 unchanged. This is selected-SQUARE stability, not assertion that all real-threshold persistence is identical under perturbation.
+
+## FRONT A — no new interval hardness/algorithm
+For [m]×[m], order-upsets are monotone staircase boundaries, counted by binom(2m,m), exponential in m. Explicitly listing this interval family before applying S010-T27 is not a polynomial succinct-family algorithm. The nonprincipal two-corner upset up({(1,0),(0,1)}) over B2 has nonzero self Hom and relative pd0 if included as a projective, but ordinary free pd1. That elementary noncollapse does NOT establish a novel k≥1 obstruction, polynomial/hard dichotomy or HHA flagship.
+
+## FRONT C — unresolved
+No certified nonsplitting integral [0,2]²/[0,2]³ representation satisfying every generating edge's primitive Smith cokernel, composites, Q and ALL F_p every subcube, nor a coherent global natural saturated idempotent splitting proof. One middle induced band is itself a block and NOT a counterexample.
+
+## Limits and decision
+T46 is a substantive internal existence argument with genuine unstable homotopy, a finite-dimensional Euclidean construction and noncontractible top. But the actual finite simplicial Hopf approximation, vertex count N, d, coordinate matrix, independently checked persistence/cup certificate remain UNENUMERATED; classical ingredients and current 2026 function-Rips literature pose severe priority risk. Do not represent it as a fully concrete verified point cloud or novelty-certified theorem. NO_VIABLE_HHA_FLAGSHIP_YET; G2/G3/G4 not started. No computation, code, runtime/hash, Lean, Palomar, manuscript or external publication.

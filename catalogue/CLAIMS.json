@@ -941,6 +941,47 @@
         "SRC-0045"
       ],
       "scope": "NOT ESTABLISHED: all rectangles restricted, known Kan/rank-exact/relative algebra antecedents, no indispensable homotopy; B/C OPEN, G2/G3/G4 NOT_STARTED."
+    },
+    {
+      "id": "CLM-0103",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S019-T46 internal existential Euclidean Rips radius+ONE-height pair, same all H and all componentwise π_j group persistence but distinct Hopf mixed cofiber cup square with noncontractible top and r1<diameter.",
+      "sources": [
+        "SRC-0049",
+        "SRC-0050",
+        "SRC-0045"
+      ],
+      "scope": "Classical finite simplicial approximations of constant/Hopf maps, flag mapping cylinders, exact near-simplex Gram; actual finite N/coordinates/map checker absent, originality unverified."
+    },
+    {
+      "id": "CLM-0104",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Nested N-vertex graph thresholds realized by three near-equilateral Euclidean distances squared 1−ε,1,1+ε, ε=1/(100N), in R^(N−1), strictly stable at chosen intermediate scales.",
+      "sources": [
+        "SRC-0049"
+      ],
+      "scope": "Symbolic centered-Gram eigenvalue >=1/2−1/200, no numerical explicit point list or fixed small d."
+    },
+    {
+      "id": "CLM-0105",
+      "status": "PROGRAMME_PROVED",
+      "claim": "All order-upsets of [m]×[m] count binom(2m,m), making naive full-family enumeration exponential in succinct m; two-corner upset has nonzero self Hom.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0048"
+      ],
+      "scope": "Elementary path counting; no k>=1 new algorithm/hardness or priority."
+    },
+    {
+      "id": "CLM-0106",
+      "status": "HEURISTIC",
+      "claim": "S019 yields a fully enumerated, independently verified Euclidean Hopf cloud, HHA-original flagship, new hard/polynomial interval-family dichotomy, or globally verified primitive/all-prime mixed integral 3x3 split.",
+      "sources": [
+        "SRC-0049",
+        "SRC-0050",
+        "SRC-0048"
+      ],
+      "scope": "NOT ESTABLISHED. T46 existential and unenumerated, other fronts open; G2/G3/G4 closed, NO_VIABLE_HHA_FLAGSHIP_YET."
     }
   ]
 }

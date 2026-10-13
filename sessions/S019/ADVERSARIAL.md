@@ -1,0 +1,12 @@
+# S019 hostile mathematical audit
+
+1. Unlike S017-T42, the upper Rips top is D_i≃S², not a simplex. A nonedge in full embedded S³ forces high pair distance sqrt(1+ε)>r1. The cofiber need NOT be a suspension.
+2. A raw mapping cylinder is not automatically flag; **sd** gives flagness and induced/full relative K,B_±. The shared K must be triangulated identically in both mapping cylinders.
+3. Low-low A0 is not merely equator A': it also contains isolated B_+\A' vertices; C contains these same vertices isolated. Hence B∩C=A0, U=B∪C is K' plus only vertices OUTSIDE K'. Missing these isolates would invalidate π0/pushout reasoning.
+4. The exact Euclidean Gram argument has eigenvalue at least 1/2−1/200 on 1⊥, independent of graph; R^(N−1) only, no d=2,3,4 assertion.
+5. At ALL radius/height grades, positive homotopy groups arise only at low/short equator and high/medium D; all connecting maps factor through a contractible hemisphere. π0 mergers must be matched after padding high isolated low-radius vertices. This proves isomorphism of π_j representations, NOT persistent homotopy equivalence.
+6. The cofiber is a genuine canonical punctured-square-to-top comparison; the added separate 0-cells contribute circles but cannot alter H²×H²→H⁴. Nonzero Hopf x² is not inferred from homology or individual π maps.
+7. The finite simplicial approximation/mapping-cylinder existence requires actual effective construction to meet a *concrete* cloud challenge. No N, coordinates, simplicial η matrix, independent checker, exact output hashes or finite computational certificate was produced. So DO NOT claim all S019 requirements met.
+8. S010 explicit interval-family polynomial arithmetic is not a succinct all-upsets algorithm. binom(2m,m) exponential does NOT prove NP-hardness. Integer middle bands are split and fail to disprove general primitive/all-field descent.
+9. Original SoCG2026 Oudot–Waas studies BIVARIATE PERSISTENT HOMOTOPY TYPES, a much richer invariant than diagram of π groups; do not assert collision equivalence or novelty from word-search absence. Hatcher Hopf cone and simplicial approximation are classical.
+10. No CAS, exhaustive run, numeric coordinate experiment, independent mathematical certification, Lean, Palomar, novelty or submission; hosted static CI cannot validate a mathematical proof.

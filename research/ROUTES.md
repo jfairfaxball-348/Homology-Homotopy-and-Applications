@@ -97,3 +97,8 @@ S017-T41 proves all-LLO-block relative pd on finite sentinel-zero coordinate hyp
 - **A all rectangles**: T43 real-sentinel transfer of genuine rectangle-relative pd for all n,k, T44 fixed-n,k fp arithmetic test via all-grid-rectangle Hom covers/relative Schanuel/S010-T27, T45 box free pd n vs rectangle pd0. Valid internal family-specific k>=1 result, **high classical/rank-exact prior art and no originality/HHA-fit gate**. Restrict S019 to a demonstrably NEW family/hardness/complexity result beyond hooks/rectangles, not mere relabelling.
 - **B actual Euclidean one-height lower-than-diameter top**: no verified noncontractible D Hopf/cup witness or paired identical persistence; OPEN.
 - **C integer middle bands**: no all-prime, all-composite, global-natural splitting/counterexample; OPEN. Stage1 only, S019 FUTURE.
+
+## S019 route decisions
+- **Front B primary T46:** internal existential EUCLIDEAN one-height+radius Hopf cofiber counterexample to completeness of H and all π-GROUP diagrams, r1<diameter, top D≃S²; exact symbolic Gram and selected-cutoff perturbation margin. Need explicit η simplicial triangulation/N/d/coordinates/independent checker and proof-level priority before HHA flagship.
+- **Front A:** [m]² order-upset class binomial(2m,m) exponential, nonprincipal two-corner Hom self, but NO new succinct k≥1 polynomial-vs-hard theorem beyond S010 finite-listed method.
+- **Front C:** globally compatible integral primitive all-Q/all-Fp all-subcube [0,2]²/³ splitting or full nonsplitting counterexample NOT proved. NO_VIABLE_HHA_FLAGSHIP_YET, S020 FUTURE.

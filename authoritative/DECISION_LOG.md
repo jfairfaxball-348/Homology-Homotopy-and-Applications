@@ -115,3 +115,9 @@
 - One source-stated broad family-specific LLO Problem1 route pursued on ALL rectangles: T43 exact real finite-sentinel rectangle-relative pd transfer all n,k, T44 fixed-n,k arithmetic fp decision, T45 bounded box relative pd0/free pd n, fully internal.
 - Distinct from S017's all-block free dimension collapse, but published LLO §2.2 Kan, 2025 FoCM rank-exact hooks and Kan grid transport, 2023 interval covers and S010-T27 kill any unsupported novelty assertion. No significant indispensable homotopy application; **NO_VIABLE_HHA_FLAGSHIP_YET**, do NOT open Stage2.
 - Euclidean noncontractible-top/one-height mixed Hopf and full mixed integral [0,2]^n all-prime split remain unresolved. S019 FUTURE ONLY.
+
+## S019 decisions
+- DEC-0092: S018 authored 2accc528075b039e666197d03fba9566bf29a346 sole parent 54afb9ea0e1fc384959c2d6d87d8155959183c55, tree 2bad3e49662a4513d879db5a568a48773fd49660; PR19 ordinary two-parent merge 3794090ab97c06b8b75e055754a7e6d9fb7bcfc6 same tree; postmerge run38379932304/job115237538666 STATIC success, legacy statuses[] absent, rulesets[], protection403 UNKNOWN, no competing S019.
+- DEC-0093: Internally accept T46 finite-existence true Euclidean one-height/radius Hopf cofiber comparison, D≃S² and r1<diameter, full π/H group persistence equal but canonical mixed cup square 0/±1. Actual finite simplicial Hopf map, N, coordinates, independent checker NOT enumerated; novel status UNVERIFIED.
+- DEC-0094: A binom(2m,m) staircase size gives NO hardness/new k algorithm; C full mixed integer Q/all-prime primitive global splitting/counterexample OPEN.
+- DEC-0095: Published original SoCG2026 bivariate persistent HOMOTOPY TYPE stable theory inspected; classical Hopf/flag methods require priority scrutiny. NO_VIABLE_HHA_FLAGSHIP_YET; G2/G3/G4 NOT_STARTED, S020 FUTURE only.
