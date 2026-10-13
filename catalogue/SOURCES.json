@@ -384,9 +384,9 @@
       "title": "Oudot–Waas, A Persistent Version of Latschev's Theorem, SoCG 2026, LIPIcs volume 367",
       "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2026.82",
       "origin": "Original SoCG2026 Dagstuhl proceedings volume listing inspected",
-      "access": "METADATA_ONLY",
-      "limitation": "Theorem and proof not inspected; included as contemporary homotopy/persistence scope; no equivalence or originality assessment.",
-      "observed": "Current 2026 homotopy-theoretic persistence literature touches metric Rips complexes."
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "S016 directly inspected original Dagstuhl SoCG2026 proceedings abstract and bibliography, NOT full 17-page proof; prior METADATA_ONLY upgraded only to abstract.",
+      "observed": "Original 2026 published SoCG proceedings on persistent homotopy and metric function-Rips establishes strong prior-art context for T40, not exact 3/4 point collision."
     },
     {
       "id": "SRC-0044",
@@ -414,6 +414,15 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Original abstract only; exact mathematical proof and author set not independently inspected.",
       "observed": "Relative interval Betti computation and Koszul methods precede T37 elementary approach."
+    },
+    {
+      "id": "SRC-0047",
+      "title": "Monoidal Rips: stable multiparameter filtrations of directed networks, Journal of Applied and Computational Topology (2026)",
+      "url": "https://doi.org/10.1007/s41468-026-00237-z",
+      "origin": "Original Springer JACT publisher search excerpt",
+      "access": "METADATA_ONLY",
+      "limitation": "Indexed publisher fragment on vertex weights and network metric; full article and proofs not inspected.",
+      "observed": "Scalar vertex weights and Rips-like multiparameter constructions are established; conceptual prior art for T40."
     }
   ]
 }

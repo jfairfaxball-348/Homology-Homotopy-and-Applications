@@ -87,3 +87,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - A fixed finite metric flag-to-Rips construction with **three** independent vertex functions cannot be misrepresented as a genuine Rips-radius plus one-function two-parameter filtration. B3 has order dimension 3, though this alone is no geometric impossibility theorem for unrelated 2D models.
 - An isolated integral middle band already splits integrally and is not an all-hypotheses counterexample. No finite search or machine certificate claimed.
 - Original HHA2026 final and Höppner–Lenzing 1981 JPAA primary proofs remain uninspected (DOI retrieval failure/403); different 1981 LNM scan Anubis-blocked. Source silence never priority evidence.
+
+## S016
+- Missing **prebirth sentinel** can give a false relative-block equivalence: 2×2 death simple extends by zero to bounded real rectangle [0,1)², whose mixed birth/death square has H1(Koszul)=k. Correct finite→R construction CLAMPS left tail to sentinel, so finite death blocks remain real death blocks.
+- Pointwise-exact extension alone does not preserve relative X-admissibility; explicit Lan_π of EVERY real birth/death/induced block and adjunction is required. Reverse dimension bound uses Schanuel induction, not unsupported exactness of arbitrary restricted R sequences.
+- True radius plus ONE scalar height can already have nontrivial mixed cofibres for 3 points, but elementary union cycles and suspensions are not a novel persistent-homotopy stability theorem; 4-point union is a graph, NOT automatically flag-filled.
+- Primitive individual integer arrows/all-field decomposition are insufficient evidence without global natural idempotents on mixed 3x3; no candidate verified.

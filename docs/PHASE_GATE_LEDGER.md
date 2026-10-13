@@ -40,3 +40,5 @@
 | G1B S014 checkpoint | 2026-10-13 | IN PROGRESS — T36 INTERNAL; NO HHA NOVELTY PASS | Induced 4D flag inclusion Hopf family has cofiber u²=kv but standard Hopf/mapping-cylinder mechanisms. Published original LLO Problem1 k≥1 unsolved here; mixed 3x3 unsolved. G2/G3/G4 NOT STARTED and external actions owner-gated. |
 
 | G1B S015 checkpoint | 2026-10-13 | IN PROGRESS — restricted polynomial relative k1 and metric realisation INTERNAL; NO HHA NOVELTY PASS | T37 finite fixed-n canonical X cover+relative Schanuel+LLO Koszul already follows from S010-T27/old approximation methods. T38 arbitrary metric three-threshold Rips not a genuine 2-param radius+height result. G2/G3/G4 NOT_STARTED, external stages owner gated. |
+
+| G1B S016 checkpoint | 2026-10-13 | IN PROGRESS — T39 real-param clamped-grid bridge and T40 Euclidean true-2D finite cofibres INTERNAL, originality unverified | S016 T39 genuine restricted LLO Problem1 one-critical simplicial fixed n,k reduction, but standard Kan/Schanuel prior art; T40 exact elementary metric 3/4 point examples not new stability framework. Mixed 3x3 unresolved. G2/G3/G4 NOT_STARTED; owner-gated external stages CLOSED. |

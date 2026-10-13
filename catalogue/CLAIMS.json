@@ -812,6 +812,50 @@
         "SRC-0045"
       ],
       "scope": "NOT ESTABLISHED: T37 specialises S010-T27 and standard approximation/Koszul; T38 generic metric Rips; mixed grid remains open. NO_VIABLE_HHA_FLAGSHIP_YET."
+    },
+    {
+      "id": "CLM-0091",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S016-T39: For finite-chain G augmented by a true prebirth sentinel on every axis, clamped pi:R^n→G gives equality pd_(all LLO real n-blocks)(pi*V)=pd_(all finite G n-blocks)(V) for every k>=0, via Kan block pushforward, Hom adjunction and relative dimension-shifting.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0030",
+        "SRC-0031"
+      ],
+      "scope": "Internal prose proof, exactly clamped tails and all LLO recursive blocks; fixed n,k one-critical simplicial original R^n subcase of Problem1, not arbitrary intervals/presentations; scholarly originality not established."
+    },
+    {
+      "id": "CLM-0092",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S016 omission-of-sentinel obstruction: bottom death-block simple on {0,1}² is relative projective while zero-before-first real extension k_[0,1)×[0,1) fails 2-middle exactness on a mixed birth/death real square and is H1 of a finite one-critical circle/two-disks bifiltration.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "Explicit stalk square (0,0,k,0) and nonzero middle Koszul H1; counterexample only to UNSENTINELLED equivalence, consistent with T39."
+    },
+    {
+      "id": "CLM-0093",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S016-T40: Three collinear Euclidean points with one radius r and one height h have punctured 2×2 homotopy-colimit comparison cofiber S², minimal vertex count for nonzero H2; a four-vertex Euclidean square has cofiber S²∨S²; 4epsilon<L−1 and 2delta<1 preserve both after adapting cutoffs.",
+      "sources": [
+        "SRC-0043",
+        "SRC-0045",
+        "SRC-0047"
+      ],
+      "scope": "Exact two configurations, graph latching unions, simplex counts and strict perturbation window; NOT general homotopical stability theorem, nor priority-certified original HHA paper."
+    },
+    {
+      "id": "CLM-0094",
+      "status": "HEURISTIC",
+      "claim": "T39/T40 already constitute a significant PRIORITY-CERTIFIED original HHA flagship or settle unrestricted LLO Problem1 and mixed integer 3×3 splitting.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0030",
+        "SRC-0031",
+        "SRC-0043",
+        "SRC-0045"
+      ],
+      "scope": "NOT ESTABLISHED: severe established Kan/relative approximation and persistent homotopy prior art; 3×3 remains open; no G2, Lean, Palomar, external release."
     }
   ]
 }
