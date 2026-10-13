@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-13",
-  "last_completed_session": "S017",
-  "recommended_next_session": "S018",
+  "last_completed_session": "S018",
+  "recommended_next_session": "S019",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "S017-T41: for sentinel-hyperface-zero modules all-LLO-block relative pd equals ordinary free pd, all n,k,fields; S017-T42 maximal-radius radius/one-height Rips mixed cofiber is suspension. The T39 all-block finitely-presented HHA originality route is RETIRED; mixed integral [0,2]^n OPEN.",
-  "headline_status": "S017_T41_FP_ALL_BLOCKS_CLASSICAL_FREE_PDIM_COLLAPSE__T42_MAX_RADIUS_SUSPENSION__NO_VIABLE_HHA_FLAGSHIP_YET",
-  "active_campaign": "S018 FUTURE UNEXECUTED: original nonprincipal interval-family relative-resolution k>=1 or noncontractible-top Euclidean radius+one-height Hopf, or complete integer [0,2]^n",
+  "selected_mathematical_problem": "S018-T43/T44: all-rectangle relative projective dimension on fp R^n transfers exactly to clamped sentinel finite grids for every k, with fixed-n,k polynomial arithmetic decision; T45 bounded box relative pd 0 vs ordinary free pd n. Strong Kan/2025 rank-exact priority collision; B metric Hopf/C integer mixed open.",
+  "headline_status": "S018_T43_RECTANGLE_RELATIVE_REAL_GRID_TRANSFER__T44_FP_FIXED_NK_ARITHMETIC_DECISION__NO_VIABLE_HHA_FLAGSHIP_YET",
+  "active_campaign": "S019 FUTURE UNEXECUTED: surpass published rank-exact/rectangular family with genuinely new original relative k result OR one-height Euclidean noncontractible-top Hopf OR full integral mixed 3x3",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S017_T41_PRIORITY_KILL_NO_ORIGINAL_HHA_FLAGSHIP"
+      "status": "IN_PROGRESS_S018_RECTANGLE_RELATIVE_PROOF_HIGH_PRIOR_ART_NO_ORIGINAL_HHA_FLAGSHIP"
     },
     {
       "id": 2,
@@ -234,9 +234,23 @@
     "s016_main_run": 38373277408,
     "s016_main_check": 115215251375,
     "s017_entry_main": "bc970f79dfbd4d8bbeece4931fea3c64e9ba892e",
-    "s017_entry_tree": "b4e946cbc93a43eb232b7068e9561868aec5cff6"
+    "s017_entry_tree": "b4e946cbc93a43eb232b7068e9561868aec5cff6",
+    "s017_authored_commit": "25e128b2b6bc3f392c0413892ec30253f0213546",
+    "s017_authored_parent": "bc970f79dfbd4d8bbeece4931fea3c64e9ba892e",
+    "s017_authored_tree": "d72e990577f5b4c1b9a9bc8b46bc2a071b95e33c",
+    "s017_pr": 18,
+    "s017_outgoing_merge_sha": "54afb9ea0e1fc384959c2d6d87d8155959183c55",
+    "s017_merge_parents": [
+      "bc970f79dfbd4d8bbeece4931fea3c64e9ba892e",
+      "25e128b2b6bc3f392c0413892ec30253f0213546"
+    ],
+    "s017_merge_tree": "d72e990577f5b4c1b9a9bc8b46bc2a071b95e33c",
+    "s017_main_run": 38377283545,
+    "s017_main_check": 115228737146,
+    "s018_entry_main": "54afb9ea0e1fc384959c2d6d87d8155959183c55",
+    "s018_entry_tree": "d72e990577f5b4c1b9a9bc8b46bc2a071b95e33c"
   },
-  "source_inspection": "S017 original LLO arXiv2402.16624v4 §1.1/1.2/2.2/Def3/Thm14/Prop29; original FoCM2025 Botnan–Oppermann–Oudot §3.1 Prop3.6 and §4.3 Lem4.15–Prop4.17; original Oudot–Waas SoCG2026 abstract only. 2026 final HHA LLO and 1981 JPAA proof still inaccessible.",
+  "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible.",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null
@@ -251,15 +265,15 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Genuine nonprincipal interval-family fp input, relative k>=1 theorem/hardness beyond classical free dimension and rank-exact prior art.",
-    "Find Euclidean radius plus one-height mixed invariant with noncontractible top stage beyond T42 suspension; verify exact metric and source proofs.",
-    "Complete mixed [0,2]^2/[0,2]^3 integral splitting/all-prime primitive-edge global idempotent proof or full counterexample.",
-    "Novelty, Lean, Palomar, preprint and journal gates unopened; S018 FUTURE ONLY."
+    "S019 obtain demonstrably original fixed interval-family k>=1 theorem/hardness beyond all-rectangle/all-hook Kan/finite-listed methods.",
+    "Construct one-height Euclidean r<top-diameter genuinely noncontractible-top paired mixed cofiber Hopf/cup invariant with identical full persistence and verified metric bounds.",
+    "Complete [0,2]^2/[0,2]^3 all-prime primitive-edge/composite/global natural idempotent theorem or fully verified counterexample.",
+    "Independent novelty/HHA fit and Lean/Palomar/paper gates unopened; S019 FUTURE ONLY."
   ],
   "blockers": [
-    "T41 collapses fp all-block pd to classical ordinary free pd, killing T39 as an original HHA headline.",
-    "T42 rules out mixed cofiber nonzero cup squares whenever top Rips D is simplex; existing T40 examples fall here.",
-    "Mixed integral global coherence and other nonprincipal interval family remain open.",
-    "No original publishable proof, no external review/formalisation/submission."
+    "2025 FoCM lower-hook rank-exact finite-grid/Kan and 2023 interval cover literature strongly anticipate the new all-rectangle algorithm, despite genuine nonprincipal Hom.",
+    "No original HHA-sized theorem or indispensable nontrivial unstable homotopy application; NO_VIABLE_HHA_FLAGSHIP_YET.",
+    "True noncontractible-top Euclidean mixed Hopf geometry and all-Q/all-prime global mixed integer grids remain unresolved.",
+    "Full 2026 HHA final and 1981 original JPAA proofs not inspected."
   ]
 }

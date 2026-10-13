@@ -1,0 +1,13 @@
+# S018 CLOSEOUT — real ALL-RECTANGLE relative resolution, no novelty gate
+
+**ENTRY:** live main `54afb9ea0e1fc384959c2d6d87d8155959183c55`, tree `d72e990577f5b4c1b9a9bc8b46bc2a071b95e33c`. S017 authored `25e128b2b6bc3f392c0413892ec30253f0213546` one parent `bc970f79dfbd4d8bbeece4931fea3c64e9ba892e`; PR#18 ordinary two-parent merge `54afb9ea0e1fc384959c2d6d87d8155959183c55`, tree `d72e990577f5b4c1b9a9bc8b46bc2a071b95e33c`. Main governance run38377283545/job115228737146/check115228737146 SUCCESS (STATIC only); legacy statuses[] ABSENT_NOT_PASS; rulesets[]; protection403 UNKNOWN; no competing open PR/branch for S018 at entry.
+
+**T43 INTERNAL:** every real finite free-presented R^n module, for arbitrary fields n>=2 and k>=0, has the SAME all-axis-RECTANGLE relative pd as its properly clamped prebirth-sentinel finite G representation. Proof through rectangle-preserving Lan_pi, true Hom exactness, enough covers, Krull–Schmidt reflection and relative Schanuel induction.
+
+**T44 INTERNAL:** for fixed n,k, decide exact all-rectangle pd<=k from fp free presentation in polynomial *field operations/grade comparisons* by full G rectangles (B<=s²), relative cover/kernel iteration and S010-T27 finite end-ring minimal-cover projectivity recognition. No optimized exponent, rational bit complexity, uniform n,k, or general arbitrary interval-family conclusion.
+
+**T45 INTERNAL:** bounded rectangle W_n=F_[0,1)^n has rectangle-relative pd0 and ordinary free pd=n; fp, nonzero Hom from genuine nonbirth rectangle even on sentinel-zero input. This decisively avoids S017 all-block free-pd collapse but is elementary as a projective witness.
+
+**Priority:** original LLO arXiv2402.16624v4 Problem1 was verified; Botnan–Oppermann–Oudot FoCM2025 rank-exact lower-hook Thm4.11/Prop4.17 and existing Kan/2023 interval approximation/S010-T27 are serious antecedents. The all-rectangle proof is an internally checked useful special-case method, **not** demonstrably original, no topological application and no HHA flagship. Euclidean noncontractible-top mixed Hopf and all-Q/all-prime [0,2]^n integer grid still OPEN. No computational experiment, CAS, external certification, Lean, Palomar, manuscript, arXiv or HHA action. Stage1 OPEN; G2/G3/G4 NOT_STARTED, NO_VIABLE_HHA_FLAGSHIP_YET.
+
+**INTEGRATION:** one authored atomic S018 commit on isolated branch; require hosted branch+PR static validation and checked ordinary two-parent non-force PR merge. Outbound SHA/CI must be observed after operations, not invented here. Precisely S019 FUTURE UNEXECUTED prompt prepared; no next-session mathematics executed.

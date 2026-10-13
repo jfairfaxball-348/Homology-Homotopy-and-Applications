@@ -110,3 +110,8 @@
 - **DEC-0089:** Every finite free-presented R^n input has such sentinel-clamped sample; via T39, all-block pd is classical ordinary free dimension. **RETIRE T39 fp novelty flagship**; original LLO and Botnan–Oppermann–Oudot present key relevant established methods, no claim literally identical published theorem.
 - **DEC-0090:** Accept internal classical T42: if upper-radius Rips top stage is a simplex, mixed cofiber a suspension with zero reduced cup products; S016 triple/square cannot have Hopf cup-square.
 - **DEC-0091:** Mixed integer [0,2]^n still OPEN. NO_VIABLE_HHA_FLAGSHIP_YET, G2/G3/G4 NOT_STARTED, no Lean/Palomar/paper/arXiv/HHA/outreach, precisely S018 FUTURE ONLY.
+
+## 2026-10-13 S018 decision
+- One source-stated broad family-specific LLO Problem1 route pursued on ALL rectangles: T43 exact real finite-sentinel rectangle-relative pd transfer all n,k, T44 fixed-n,k arithmetic fp decision, T45 bounded box relative pd0/free pd n, fully internal.
+- Distinct from S017's all-block free dimension collapse, but published LLO §2.2 Kan, 2025 FoCM rank-exact hooks and Kan grid transport, 2023 interval covers and S010-T27 kill any unsupported novelty assertion. No significant indispensable homotopy application; **NO_VIABLE_HHA_FLAGSHIP_YET**, do NOT open Stage2.
+- Euclidean noncontractible-top/one-height mixed Hopf and full mixed integral [0,2]^n all-prime split remain unresolved. S019 FUTURE ONLY.

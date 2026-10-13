@@ -92,3 +92,8 @@ C11 T28 arbitrary-n Boolean integral iff retains INTERNAL proof standing; no pri
 
 ## S017 — retire misleading all-block fp route; S018 attack genuinely nonprincipal relative family
 S017-T41 proves all-LLO-block relative pd on finite sentinel-zero coordinate hyperfaces is ordinary free pd for every n,k; S016-T39 transfers this to every finite free-presented R^n diagram. Strong but classical mathematical content, no HHA novelty. T39 abstract equivalence on arbitrary nonzero-sentinel diagrams not retracted. Seek a different fixed interval family with nonprincipal generators and meaningful Hom into boundary-zero modules, or sharp complexity/hardness. S017-T42 radius+one-height if r1>=top diameter gives U↪simplex and cofiber ΣU with zero reduced cups; require noncontractible top to seek Hopf. All-prime/primitive mixed integral grids still OPEN. NO_VIABLE_HHA_FLAGSHIP_YET. S018 FUTURE UNEXECUTED.
+
+## S018 route decision
+- **A all rectangles**: T43 real-sentinel transfer of genuine rectangle-relative pd for all n,k, T44 fixed-n,k fp arithmetic test via all-grid-rectangle Hom covers/relative Schanuel/S010-T27, T45 box free pd n vs rectangle pd0. Valid internal family-specific k>=1 result, **high classical/rank-exact prior art and no originality/HHA-fit gate**. Restrict S019 to a demonstrably NEW family/hardness/complexity result beyond hooks/rectangles, not mere relabelling.
+- **B actual Euclidean one-height lower-than-diameter top**: no verified noncontractible D Hopf/cup witness or paired identical persistence; OPEN.
+- **C integer middle bands**: no all-prime, all-composite, global-natural splitting/counterexample; OPEN. Stage1 only, S019 FUTURE.

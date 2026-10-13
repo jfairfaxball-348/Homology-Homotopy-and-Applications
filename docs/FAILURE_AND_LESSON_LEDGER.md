@@ -100,3 +100,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Maximal-radius one-height Rips D simplex makes canonical mixed cofiber a suspension, cup-square zero. Higher π*/stable operations not claimed absent. Need noncontractible top for Hopf cup.
 - Existing LLO §1.2 + Botnan–Oppermann–Oudot 2024/25 published -infinity Kan/rank-exact grid proofs are severe direct technique collisions; no priority guarantee.
 - The mixed [0,2]²/[0,2]³ all-prime Smith/natural-idempotent issue remains UNRESOLVED; one middle induced band is not a counterexample.
+
+## S018 mathematical and novelty corrections
+- **S018-F1 RECTANGLES != BLOCKS:** fp zero-sentinel W=[0,1)^n is itself a relative rectangle projective with Hom(W,W) nonzero; ordinary free pd=n. S017-T41 cannot be recycled to eliminate all nonbirth rectangle Hom.
+- **S018-F2 KAN AND SCHANUEL:** real arbitrary-boundary rectangle Lan_pi must be computed over entire initial rays, including top unbounded tail. Real X-relative epi cannot be justified by pointwise epi only. Reverse pd induction uses one chosen pulled-back admissible cover and relative Schanuel, NOT arbitrary resolution restriction.
+- **S018-F3 PRIORITY:** all-rectangle fixed-n,k algorithm composes established 2024 LLO Kan, 2025 FoCM rank-exact hook finite-resolution/transport and S010-T27 explicit-family algorithm. No novelty/HHA-scale homotopy application certified, so no G2.
+- **S018-F4 OPEN:** no noncontractible-top Euclidean single-height Hopf comparison, no all-hypotheses mixed integer 3x3 global idempotent theorem/counterexample; do not invent numerical tests/checker results.

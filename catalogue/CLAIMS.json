@@ -897,6 +897,50 @@
         "SRC-0043"
       ],
       "scope": "NOT ESTABLISHED: first result proves classical free pd in restricted fp all-block case and priority-kills proposed original target; second is classical suspension; integral grids open. NO_VIABLE_HHA_FLAGSHIP_YET."
+    },
+    {
+      "id": "CLM-0099",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S018-T43: for any finite n-chain grid with true lower sentinel, all-real-axis-rectangle relative projective dimension of pullback pi*V is equal to all-grid-rectangle relative pd(V) for every k and field, including fp R^n presentations.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0048",
+        "SRC-0030"
+      ],
+      "scope": "Actual rectangle Hom-exact structure, rectangle-preserving initial-ray Lan_pi, reflection by restriction/KS and relative Schanuel. Internal proof only; severe established Kan/rank-exact collision."
+    },
+    {
+      "id": "CLM-0100",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S018-T44: fixed n,k, finite free-presented real persistence modules admit polynomial FIELD-ARITHMETIC decision of all-rectangle relative pd<=k via sentinel critical-grid cover/syzygies/minimal Hom rectangle membership.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0030",
+        "SRC-0048"
+      ],
+      "scope": "Field ops/grade comparisons, expanded fixed n,k; NOT rational bit complexity, not arbitrary interval classes, not new priority/HHA fit certified."
+    },
+    {
+      "id": "CLM-0101",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S018-T45: bounded n-unit box indicator has rectangle-relative pd zero and ordinary free pd n over any field, including characteristic2, and nonzero Hom from a nonbirth rectangle on sentinel-zero fp input.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0048"
+      ],
+      "scope": "Finite tensor Koszul resolution and rectangle self-identity; n2,n3,n4 symbolic checks, elementary noncollapse, no novelty claimed."
+    },
+    {
+      "id": "CLM-0102",
+      "status": "HEURISTIC",
+      "claim": "T43–T45 provide priority-certified original HHA flagship or solve arbitrary interval-family LLO Problem1, noncontractible-top Euclidean Hopf or all-prime mixed integer grids.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0030",
+        "SRC-0048",
+        "SRC-0045"
+      ],
+      "scope": "NOT ESTABLISHED: all rectangles restricted, known Kan/rank-exact/relative algebra antecedents, no indispensable homotopy; B/C OPEN, G2/G3/G4 NOT_STARTED."
     }
   ]
 }
