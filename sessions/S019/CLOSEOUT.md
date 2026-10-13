@@ -1,0 +1,9 @@
+# S019 CLOSEOUT — internal Hopf candidate, effective certificate uncompleted
+
+**Mathematics:** T46 INTERNAL finite-existence construction of two true finite EUCLIDEAN one-height+radius Vietoris–Rips bifiltrations with noncontractible top D≃S², r1 strictly below diameter, isomorphic FULL integral homology and ALL componentwise π_j persistence diagrams, but canonical mixed comparison cofiber cup square x²=0 versus ±y (Hopf). Construction via classical common simplicial Hopf/null map approximations, relative mapping cylinders and full barycentric flag, split source S³ into hemispheres, two nested threshold graphs and exact Euclidean positive Gram, explicit selected-cutoff margin. See MATHEMATICS, GEOMETRIC_REALISATION, ADVERSARIAL.
+
+**Limit:** NO concrete enumerated source Hopf simplicial map, vertex/edge list, actual N/d, full coordinates or independent finite checker. Existence proof does not meet a request for a fully numerically specified point cloud. No computational experiment/runtime/hash/Lean/Palomar. Original Oudot–Waas SoCG2026 Prop34/Theorem1 directly inspected; classical Hopf/flag/Gram ingredients and proof-level priority unverified. This is promising *internal candidate* but **NO_VIABLE_HHA_FLAGSHIP_YET**, G2/G3/G4 NOT_STARTED, no manuscript/arXiv/HHA/outside contact.
+
+**Front A:** exponential number of staircases binom(2m,m) and nonprincipal self-Hom example only; NO new k≥1 efficient algorithm/hardness. **Front C:** [0,2]²/³ all-prime primitive/global-idempotent problem OPEN, no all-hypotheses counterexample.
+
+Exactly one S019 isolated atomic branch commit / PR / nonforce two-parent merge required; actual outgoing Git SHAs/CI observed only after operations, not fabricated inside authored dossier. Exactly S020 FUTURE, not executed.

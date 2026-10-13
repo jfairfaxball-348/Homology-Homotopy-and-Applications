@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-13",
-  "last_completed_session": "S018",
-  "recommended_next_session": "S019",
+  "last_completed_session": "S019",
+  "recommended_next_session": "S020",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "S018-T43/T44: all-rectangle relative projective dimension on fp R^n transfers exactly to clamped sentinel finite grids for every k, with fixed-n,k polynomial arithmetic decision; T45 bounded box relative pd 0 vs ordinary free pd n. Strong Kan/2025 rank-exact priority collision; B metric Hopf/C integer mixed open.",
-  "headline_status": "S018_T43_RECTANGLE_RELATIVE_REAL_GRID_TRANSFER__T44_FP_FIXED_NK_ARITHMETIC_DECISION__NO_VIABLE_HHA_FLAGSHIP_YET",
-  "active_campaign": "S019 FUTURE UNEXECUTED: surpass published rank-exact/rectangular family with genuinely new original relative k result OR one-height Euclidean noncontractible-top Hopf OR full integral mixed 3x3",
+  "selected_mathematical_problem": "S019-T46 internally proved existential true Euclidean Rips radius+one scalar height: two finite clouds with same full integral H and all componentwise π-group persistence diagrams, but mixed comparison cofiber cup-square 0 versus Hopf ±1, top D~S2 and r1<diam(top). Finite explicit N/triangulation/coordinates/checker and originality NOT certified.",
+  "headline_status": "S019_T46_EUCLIDEAN_NONCONTRACTIBLE_TOP_HOPF_INTERNAL_EXISTENCE__NO_EXPLICIT_COORDINATE_CERTIFICATE__NO_VIABLE_HHA_FLAGSHIP_YET",
+  "active_campaign": "S020 FUTURE UNEXECUTED: explicit finite simplicial Hopf map, Euclidean point-cloud coordinates, all-grade checks and serious primary novelty audit",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S018_RECTANGLE_RELATIVE_PROOF_HIGH_PRIOR_ART_NO_ORIGINAL_HHA_FLAGSHIP"
+      "status": "IN_PROGRESS_S019_T46_INTERNAL_EXISTENCE_UNENUMERATED_NO_G2"
     },
     {
       "id": 2,
@@ -248,9 +248,23 @@
     "s017_main_run": 38377283545,
     "s017_main_check": 115228737146,
     "s018_entry_main": "54afb9ea0e1fc384959c2d6d87d8155959183c55",
-    "s018_entry_tree": "d72e990577f5b4c1b9a9bc8b46bc2a071b95e33c"
+    "s018_entry_tree": "d72e990577f5b4c1b9a9bc8b46bc2a071b95e33c",
+    "s018_authored_commit": "2accc528075b039e666197d03fba9566bf29a346",
+    "s018_authored_parent": "54afb9ea0e1fc384959c2d6d87d8155959183c55",
+    "s018_authored_tree": "2bad3e49662a4513d879db5a568a48773fd49660",
+    "s018_pr": 19,
+    "s018_outgoing_merge_sha": "3794090ab97c06b8b75e055754a7e6d9fb7bcfc6",
+    "s018_merge_parents": [
+      "54afb9ea0e1fc384959c2d6d87d8155959183c55",
+      "2accc528075b039e666197d03fba9566bf29a346"
+    ],
+    "s018_merge_tree": "2bad3e49662a4513d879db5a568a48773fd49660",
+    "s018_main_run": 38379932304,
+    "s018_main_job": 115237538666,
+    "s019_entry_main": "3794090ab97c06b8b75e055754a7e6d9fb7bcfc6",
+    "s019_entry_tree": "2bad3e49662a4513d879db5a568a48773fd49660"
   },
-  "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible.",
+  "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate.",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null

@@ -432,6 +432,24 @@
       "access": "PROOF_INSPECTED",
       "limitation": "S017 read cited §3.1 Proposition 3.6 and §4.3 Lemma4.15–Proposition4.17 proofs, not entire article; distinct rank-exact class, no assertion exact T41 theorem present S018 additionally directly inspected original publisher Thm4.11 and proof, Prop4.5 and Prop4.17 proof; all-rectangle is DIFFERENT family, no theorem literal-equivalence assertion.",
       "observed": "Existing -infinity sentinel grid/Kan and rank-exact projective-resolution transport create strong novelty collision for generic relative grid proofs. S018: lower-hook rank-exact projectives and finite resolution/Kan transport are a severe precedent for the all-rectangle relative algorithm."
+    },
+    {
+      "id": "SRC-0049",
+      "title": "Oudot & Waas, A Persistent Version of Latschev's Theorem, SoCG2026 LIPIcs367 Article82, 27 May 2026 DOI10.4230/LIPIcs.SoCG.2026.82",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol367-socg2026/html/LIPIcs.SoCG.2026.82/LIPIcs.SoCG.2026.82.html",
+      "origin": "Original publisher full open HTML",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Theorem1, Def28/32 and Prop34 and surrounding proof context inspected; NOT complete line-by-line 17-page proof or worldwide priority audit.",
+      "observed": "Existing bivariate function-Rips homotopy-TYPE stability; no equivalence asserted with T46 two mixed cofibers."
+    },
+    {
+      "id": "SRC-0050",
+      "title": "Allen Hatcher, Algebraic Topology sections 2.C and 4.B, classical simplicial approximation and Hopf invariant",
+      "url": "https://pi.math.cornell.edu/~Hatcher/AT/ATch4.4.pdf",
+      "origin": "Original author textbook original-text indexed snippets",
+      "access": "METADATA_ONLY",
+      "limitation": "Only direct indexed excerpts, PDF not opened; full proof uninspected. §2.C also indexed via https://math.uchicago.edu/~farb/algtop2023/Hatcher.pdf.",
+      "observed": "Hopf cofiber CP² and simplicial approximations are classical prerequisites."
     }
   ]
 }
