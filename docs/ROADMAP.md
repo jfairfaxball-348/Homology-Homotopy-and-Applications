@@ -16,3 +16,5 @@
 S002-T1..T4 and S003-T5..T7 are internal symbolic mathematical achievements, not HHA novelty or publication readiness. Primary Carlsson–Zomorodian 2007 Theorem 2 kills generic field-valued multiparameter realization priority. Stage 2/3/4 remain unpassed.
 
 **S008 supplement:** literal finite witness supplied, E1 normalization corrected, PID diamond iff closed internally. Future S009 may attack integral cube/grid rigidity and LLO source Problem1, not replay the already-closed two-height construction.
+
+**S017 (13 October 2026):** Stage1 mathematical research continues. T41 retires all-block finitely presented R^n relative-resolution originality (equal to classical ordinary free projective dimension after genuine sentinel). T42 top-radius-completes-simplex cofiber suspension has zero cup squares. Novel HHA candidate still absent; G2/G3/G4 NOT_STARTED, external publication stages not authorised. S018 FUTURE ONLY.

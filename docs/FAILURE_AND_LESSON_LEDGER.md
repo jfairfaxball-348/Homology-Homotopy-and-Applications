@@ -93,3 +93,10 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Pointwise-exact extension alone does not preserve relative X-admissibility; explicit Lan_π of EVERY real birth/death/induced block and adjunction is required. Reverse dimension bound uses Schanuel induction, not unsupported exactness of arbitrary restricted R sequences.
 - True radius plus ONE scalar height can already have nontrivial mixed cofibres for 3 points, but elementary union cycles and suspensions are not a novel persistent-homotopy stability theorem; 4-point union is a graph, NOT automatically flag-filled.
 - Primitive individual integer arrows/all-field decomposition are insufficient evidence without global natural idempotents on mixed 3x3; no candidate verified.
+
+## S017 mathematics/priority correction
+- T41: on sentinel-hyperface-zero diagrams every nonbirth LLO block admits no nonzero natural map into module; ordinary free covers are relative-admissible. Thus relative all-block pd=ordinary free pd all n,k. Do not market S016-T39 all-block fp Problem1 reduction as original.
+- The entire coordinate-zero hyperfaces must vanish, not merely bottom. On 3×3 (1,1)-singleton pd=2, but after omitting sentinel the 2×2 restriction is death-block pd=0.
+- Maximal-radius one-height Rips D simplex makes canonical mixed cofiber a suspension, cup-square zero. Higher π*/stable operations not claimed absent. Need noncontractible top for Hopf cup.
+- Existing LLO §1.2 + Botnan–Oppermann–Oudot 2024/25 published -infinity Kan/rank-exact grid proofs are severe direct technique collisions; no priority guarantee.
+- The mixed [0,2]²/[0,2]³ all-prime Smith/natural-idempotent issue remains UNRESOLVED; one middle induced band is not a counterexample.

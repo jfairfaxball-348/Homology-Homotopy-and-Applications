@@ -856,6 +856,47 @@
         "SRC-0045"
       ],
       "scope": "NOT ESTABLISHED: severe established Kan/relative approximation and persistent homotopy prior art; 3×3 remains open; no G2, Lean, Palomar, external release."
+    },
+    {
+      "id": "CLM-0095",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S017-T41: every finite n>=2 sentinel-hyperface-zero diagram over a field has all-LLO-block relative projective dimension equal to ordinary free/representable projective dimension for all k.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0048"
+      ],
+      "scope": "Internal symbolic proof: nonbirth block Hom=0; ordinary free cover E_X-admissible; zero-face syzygy and relative Schanuel induction. No novelty certificate. Need full sentinel hyperfaces, not just bottom vertex."
+    },
+    {
+      "id": "CLM-0096",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S017-T41b: finite free-presented R^n persistence modules reduce via sentinel grade sampling and S016-T39 to finite zero-face diagrams, so their all-block relative dimension equals ordinary multigraded free pd.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0048"
+      ],
+      "scope": "Generator and relation grades used, fixed n,k grid polynomial field arithmetic, not arbitrary interval families or bit complexity. KILLS T39 fp HHA originality candidate as classical, not full Problem1."
+    },
+    {
+      "id": "CLM-0097",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S017-T42: any metric scalar-height Rips 2-parameter square whose top radius exceeds the top-cloud diameter has mixed homotopy comparison cofiber equivalent to suspension of the punctured-square union, and therefore zero reduced cup products.",
+      "sources": [
+        "SRC-0043",
+        "SRC-0045"
+      ],
+      "scope": "Elementary classical cofibration/suspension proof with U nonempty, including S016 examples. No claim higher homotopy or Steenrod operations vanish or when top D noncontractible."
+    },
+    {
+      "id": "CLM-0098",
+      "status": "HEURISTIC",
+      "claim": "T41/T42 establish novel HHA flagship, solve LLO arbitrary interval family Problem1 or settle full integer mixed 3x3 splitting.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0048",
+        "SRC-0043"
+      ],
+      "scope": "NOT ESTABLISHED: first result proves classical free pd in restricted fp all-block case and priority-kills proposed original target; second is classical suspension; integral grids open. NO_VIABLE_HHA_FLAGSHIP_YET."
     }
   ]
 }

@@ -1,0 +1,10 @@
+# S017 ADVERSARIAL — hostile tests
+
+1. T41 assumes vanishing on the **whole union of zero coordinate hyperfaces**, not solely the bottom vertex. S015's bottom-zero but other-edge-nonzero L module is not covered, so no contradiction. Nonbirth LLO blocks contain a full or lower factor allowing q≤g with q_i=0; n2/3/4 and char2 identical.
+2. Every pointwise epimorphism need not be relative-admissible. T41 uses a PARTICULAR ordinary free cover and checks Hom(B,-) surjectivity for every LLO block. Relative Schanuel requires that check. K retains zero-sentinel boundary.
+3. On 3×3 the single interior (1,1) value has free and relative pd2, not 0; restriction without sentinel becomes a death block and gives 0. Koszul signs become plus in characteristic2 but d² remains 0.
+4. S016-T39 Lan_π uses INITIAL real rays, including first unbounded below and last all-real, not stalk evaluation. Upper/lower/band types and recursively induced blocks must all survive Kan/restriction as allowed type or zero. No unsupported exactness of arbitrary restriction is required for reverse pd induction.
+5. Finite presentation proof requires **generator and relation grades**, homogeneous free generators, and a sentinel coordinate below every grade. Claims do not cover different interval projective classes, unrestricted non-fp real diagrams or uniform bit complexity. LLO Problem1 quantifies arbitrary fixed interval classes.
+6. T42 D simplex iff sufficient r1>=top-cloud diameter, assuming nonempty U and based homotopy cofiber. Suspension only kills reduced cup products; it can retain higher homotopy and stable operations. Noncontractible D regime is OPEN.
+7. Integral full 3×3 all-prime condition not disproved by one middle band or primitive local bases. No complete checker, finite exhaustive output, all-prime certificate or global idempotents exists.
+8. Originality: original LLO §1.2 principal-upset finite-presented block observation, §2.2 Kan and earlier 2024/25 publisher original rank-exact grid proof are strong collision evidence; not proof that every other class is solved. Hosted CI tests static repository integrity, NOT mathematics. G2/G3/G4 NOT_STARTED.

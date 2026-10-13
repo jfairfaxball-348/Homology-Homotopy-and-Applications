@@ -69,3 +69,6 @@ Reverified SRC-0025 ORIGINAL arXiv2402.16624v4 §1.1 Problem1/Definition3/Theore
 - **SRC-0046** Relative Koszul coresolutions and relative Betti numbers, JPAA 229(3)107905 (March 2025). https://www.sciencedirect.com/science/article/abs/pii/S0022404925000441. Access **ABSTRACT_INSPECTED**; Original abstract only; exact mathematical proof and author set not independently inspected. Observation: Relative interval Betti computation and Koszul methods precede T37 elementary approach.
 
 |SRC-0047|[Monoidal Rips: stable multiparameter filtrations of directed networks (JACT 2026)](https://doi.org/10.1007/s41468-026-00237-z)|METADATA_ONLY|Original Springer publisher indexed excerpt|Only excerpt on weighted vertices and Rips metric; full proof not inspected|Contextual multi-parameter metric prior art, not precise T40 collision.|
+
+## S017 original primary-proof collision
+|SRC-0048|[Botnan–Oppermann–Oudot, Signed Barcodes, FoCM 25 (2025), DOI10.1007/s10208-024-09672-9](https://link.springer.com/article/10.1007/s10208-024-09672-9)|PROOF_INSPECTED|Original Springer full HTML §3.1 Prop3.6 and §4.3 Lem4.15–Prop4.17|Only selected proofs read; rank-exact family distinct from LLO all-block|Already contains -infinity grid/Kan extension and relative resolution transport; novelty collision.|

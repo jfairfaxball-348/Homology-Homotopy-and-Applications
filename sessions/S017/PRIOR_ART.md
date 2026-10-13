@@ -1,0 +1,11 @@
+# S017 PRIOR ART — source-first collisions (13 October 2026)
+
+**LLO primary (SRC-0025):** Lebovici–Lerch–Oudot original arXiv:2402.16624v4 (11 December 2024), https://arxiv.org/html/2402.16624v4. Original §1.1 Problem1 quantifies prescribed interval family and k>=1, finitely presented R^n free presentations OR simplicial multifiltrations. §1.2 observes that over R^n only principal upsets among blocks are finitely presented. §2.2 details Kan extensions; Definition3 block inventory and Theorem14 Koszul block criterion; Proposition29 induced blocks. These sections directly challenge novelty of S017-T41 and earlier T39 full-block fp algorithm. The final published HHA2026 proof was NOT accessed.
+
+**New SRC-0048:** Botnan–Oppermann–Oudot, "Signed Barcodes for Multi-parameter Persistence via Rank Decompositions and Rank-Exact Resolutions", Foundations of Computational Mathematics 25 (2025), 1815–1874, first published 4 September 2024, DOI 10.1007/s10208-024-09672-9, https://link.springer.com/article/10.1007/s10208-024-09672-9. Original open publisher proof inspected §3.1 Proposition3.6 finite grids with extra -infinity floor/Kan, and §4.3 Lemma4.15–Proposition4.17 on rank-exact projective resolutions. **Different exact/projective family from all LLO blocks**, so NOT an assertion that their theorem literally states T41. It establishes overwhelming antecedence of technique and weakens any generic novelty assertion.
+
+**Geometric:** Oudot–Waas 2026 original SoCG paper DOI10.4230/LIPIcs.SoCG.2026.82 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2026.82 original abstract/metadata only, and function-Rips arXiv2603.23460 March 2026 abstract only; full proofs uninspected. T42 follows textbook contractible-cofiber/suspension, not a claim of source-specific discovery.
+
+**Uninspected:** 1981 Höppner–Lenzing JPAA full primary proof and final LLO HHA2026 proof. These access limits are UNKNOWN, not priority evidence. Current survey does NOT certify exhaustive 2023–26 originality.
+
+**Decision:** retire T39 all-block fp application as original flagship through S017-T41 reduction to classical free pd, not through invented exact prior publication claim; other interval families and integral 3×3 remain outside this kill. NO_VIABLE_HHA_FLAGSHIP_YET.

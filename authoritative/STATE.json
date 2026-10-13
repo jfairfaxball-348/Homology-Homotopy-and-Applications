@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-13",
-  "last_completed_session": "S016",
-  "recommended_next_session": "S017",
+  "last_completed_session": "S017",
+  "recommended_next_session": "S018",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "S016-T39 clamped prebirth-sentinel real R^n all-LLO-block relative pd equals finite-grid pd for explicitly one-critical simplicial inputs fixed n,k; S016-T40 Euclidean Rips radius+ONE height mixed cofibres. Originality unverified, mixed [0,2]^n remains OPEN",
-  "headline_status": "S016_T39_REAL_PARAMETER_BLOCK_DIMENSION_BRIDGE_INTERNAL__T40_TRUE_TWO_PARAMETER_EUCLIDEAN_FINITE_COFIBRES__NO_VIABLE_HHA_FLAGSHIP_YET",
-  "active_campaign": "S017 FUTURE UNEXECUTED: hostile T39 priority and reverse proof review; beyond classical metric defects; all-hypotheses 3x3 integral modules",
+  "selected_mathematical_problem": "S017-T41: for sentinel-hyperface-zero modules all-LLO-block relative pd equals ordinary free pd, all n,k,fields; S017-T42 maximal-radius radius/one-height Rips mixed cofiber is suspension. The T39 all-block finitely-presented HHA originality route is RETIRED; mixed integral [0,2]^n OPEN.",
+  "headline_status": "S017_T41_FP_ALL_BLOCKS_CLASSICAL_FREE_PDIM_COLLAPSE__T42_MAX_RADIUS_SUSPENSION__NO_VIABLE_HHA_FLAGSHIP_YET",
+  "active_campaign": "S018 FUTURE UNEXECUTED: original nonprincipal interval-family relative-resolution k>=1 or noncontractible-top Euclidean radius+one-height Hopf, or complete integer [0,2]^n",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S016_T39_T40_INTERNAL_NO_ORIGINALITY_GATE"
+      "status": "IN_PROGRESS_S017_T41_PRIORITY_KILL_NO_ORIGINAL_HHA_FLAGSHIP"
     },
     {
       "id": 2,
@@ -221,9 +221,22 @@
     "s015_merge_tree": "788e3aed0bd044105c3c10d1b6ee718e66df25fe",
     "s015_main_run": 38370747561,
     "s016_entry_main": "fb848dc79a661ab417b5998d2277362c81dacace",
-    "s016_entry_tree": "788e3aed0bd044105c3c10d1b6ee718e66df25fe"
+    "s016_entry_tree": "788e3aed0bd044105c3c10d1b6ee718e66df25fe",
+    "s016_authored_commit": "3be740fb270a9f473660422d1326c0baef078d63",
+    "s016_authored_parent": "fb848dc79a661ab417b5998d2277362c81dacace",
+    "s016_pr": 17,
+    "s016_outgoing_merge_sha": "bc970f79dfbd4d8bbeece4931fea3c64e9ba892e",
+    "s016_merge_tree": "b4e946cbc93a43eb232b7068e9561868aec5cff6",
+    "s016_merge_parents": [
+      "fb848dc79a661ab417b5998d2277362c81dacace",
+      "3be740fb270a9f473660422d1326c0baef078d63"
+    ],
+    "s016_main_run": 38373277408,
+    "s016_main_check": 115215251375,
+    "s017_entry_main": "bc970f79dfbd4d8bbeece4931fea3c64e9ba892e",
+    "s017_entry_tree": "b4e946cbc93a43eb232b7068e9561868aec5cff6"
   },
-  "source_inspection": "S016 inspected direct LLO arXiv2402.16624v4 §1.1 Problem1/Def3/Thm4 and §2.2 Kan; SoCG2026 Oudot–Waas proceedings abstract, arXiv abstract and monoidal Rips publisher excerpt only. No full novelty clearance, original LLO final HHA2026 and 1981 JPAA proof inaccessible.",
+  "source_inspection": "S017 original LLO arXiv2402.16624v4 §1.1/1.2/2.2/Def3/Thm14/Prop29; original FoCM2025 Botnan–Oppermann–Oudot §3.1 Prop3.6 and §4.3 Lem4.15–Prop4.17; original Oudot–Waas SoCG2026 abstract only. 2026 final HHA LLO and 1981 JPAA proof still inaccessible.",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null
@@ -238,16 +251,15 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Full independent/adversarial and 2023–26 proof-level originality test of S016 T39 clamped-sentinel equality and quantitative genuine original Problem1 algorithm beyond classical fixed-n,k expansions.",
-    "Advance T40 beyond elementary Euclidean 3/4-point 2-parameter mixed cofibres to significant new stable persistent homotopy / sharp obstruction or refute.",
-    "Mixed 3x3 2D/3D integral natural splitting or full Q/all Fp/primitive fully verified explicit counterexample still OPEN.",
-    "1981 Höppner–Lenzing JPAA and 2026 LLO final HHA proofs not accessed; independent priority UNKNOWN.",
-    "No G2 novelty, external mathematical review/Lean/Palomar/paper/arXiv/HHA; S017 future only."
+    "Genuine nonprincipal interval-family fp input, relative k>=1 theorem/hardness beyond classical free dimension and rank-exact prior art.",
+    "Find Euclidean radius plus one-height mixed invariant with noncontractible top stage beyond T42 suspension; verify exact metric and source proofs.",
+    "Complete mixed [0,2]^2/[0,2]^3 integral splitting/all-prime primitive-edge global idempotent proof or full counterexample.",
+    "Novelty, Lean, Palomar, preprint and journal gates unopened; S018 FUTURE ONLY."
   ],
   "blockers": [
-    "T39 potentially significant restricted original R^n Problem1 result, but familiar Kan/syzygy construction and S010-T27 plus published right-approximation prior art; no proven original HHA flagship.",
-    "T40 true two-parameter metric but elementary graph/suspension, not new comprehensive stability framework.",
-    "Mixed integral grid generality and arbitrary family/presentation original LLO problem unresolved.",
-    "G2/G3/G4 and publication gates unopened."
+    "T41 collapses fp all-block pd to classical ordinary free pd, killing T39 as an original HHA headline.",
+    "T42 rules out mixed cofiber nonzero cup squares whenever top Rips D is simplex; existing T40 examples fall here.",
+    "Mixed integral global coherence and other nonprincipal interval family remain open.",
+    "No original publishable proof, no external review/formalisation/submission."
   ]
 }
