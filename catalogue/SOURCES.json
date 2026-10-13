@@ -430,8 +430,8 @@
       "url": "https://link.springer.com/article/10.1007/s10208-024-09672-9",
       "origin": "Original open Springer publisher full HTML, DOI 10.1007/s10208-024-09672-9",
       "access": "PROOF_INSPECTED",
-      "limitation": "S017 read cited §3.1 Proposition 3.6 and §4.3 Lemma4.15–Proposition4.17 proofs, not entire article; distinct rank-exact class, no assertion exact T41 theorem present",
-      "observed": "Existing -infinity sentinel grid/Kan and rank-exact projective-resolution transport create strong novelty collision for generic relative grid proofs."
+      "limitation": "S017 read cited §3.1 Proposition 3.6 and §4.3 Lemma4.15–Proposition4.17 proofs, not entire article; distinct rank-exact class, no assertion exact T41 theorem present S018 additionally directly inspected original publisher Thm4.11 and proof, Prop4.5 and Prop4.17 proof; all-rectangle is DIFFERENT family, no theorem literal-equivalence assertion.",
+      "observed": "Existing -infinity sentinel grid/Kan and rank-exact projective-resolution transport create strong novelty collision for generic relative grid proofs. S018: lower-hook rank-exact projectives and finite resolution/Kan transport are a severe precedent for the all-rectangle relative algorithm."
     }
   ]
 }

@@ -72,3 +72,9 @@ Reverified SRC-0025 ORIGINAL arXiv2402.16624v4 §1.1 Problem1/Definition3/Theore
 
 ## S017 original primary-proof collision
 |SRC-0048|[Botnan–Oppermann–Oudot, Signed Barcodes, FoCM 25 (2025), DOI10.1007/s10208-024-09672-9](https://link.springer.com/article/10.1007/s10208-024-09672-9)|PROOF_INSPECTED|Original Springer full HTML §3.1 Prop3.6 and §4.3 Lem4.15–Prop4.17|Only selected proofs read; rank-exact family distinct from LLO all-block|Already contains -infinity grid/Kan extension and relative resolution transport; novelty collision.|
+
+
+## S018 original-source repeat inspection
+- **SRC-0025** arXiv2402.16624v4 original §1.1 Problem1 exact quantifiers, §2.2 Kan; 11 December 2024. No claim paper solved all k>=1. Final journal proof remains inaccessible.
+- **SRC-0048** DOI10.1007/s10208-024-09672-9 ORIGINAL FoCM2025 full publisher HTML, direct S018 inspection of §4.3 Thm4.11 and proof (lower hooks rank-exact finite-projective resolutions), Prop4.5 Hom/rank-exact, Prop4.17 join-closure/Kan proof, §3.1 Prop3.6 grid baseline. SEVERE method/prior-art collision; NOT literal equality with all rectangles.
+- **SRC-0030** JPAA2023 original publisher abstract relative interval approximation; no fresh full proof. **SRC-0043/0045** Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata ONLY; original full technical proof not inspected. **SRC-0035/0037** older JPAA and final HHA proof access still unavailable.

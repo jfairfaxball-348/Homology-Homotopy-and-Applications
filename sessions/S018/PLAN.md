@@ -1,0 +1,7 @@
+# S018 PLAN — preregistration before symbolic derivation
+
+1. Primary: fixed n=2 and any fixed k, finitely free-presented real persistence modules and the genuinely nonprincipal family of ALL axis-aligned rectangles, including finite bounded rectangles and principal upsets. Independently prove or disprove transfer of the actual rectangle-relative exact structure from a prebirth-sentinel critical grid, then derive a decision procedure using the actual Hom-rectangle cover (NOT ordinary free pd); exhibit an fp module on which the dimensions differ.
+2. Hostile limits: verify arbitrary real boundary-open/closed intervals, filtered left Kan colimit, all Hom tests, Schanuel induction, k=0 direct summands, sentinel-zero examples and n=2,3,4 / characteristic 2. Compare directly with original LLO 2402.16624v4 and Botnan–Oppermann–Oudot FoCM2025 Thm4.11/Prop4.17; do not assert priority from their lack of exact wording.
+3. Geometry: attempt real Euclidean radius+one-height Hopf where upper radius is BELOW top-cloud diameter; do not recast a contractible-simplex/suspension witness as success.
+4. Integer mixed grids: demand complete all-edge/composite/all-subcube all-Q/all-Fp global compatible idempotent proof or certified counterexample. Otherwise explicitly OPEN.
+5. No numerical search is pre-registered or performed. Proofs and adversarial tests are symbolic, and no SHA/code/runtime/hash may be invented. Precisely one future S019 prompt; no S019 execution or downstream gate.

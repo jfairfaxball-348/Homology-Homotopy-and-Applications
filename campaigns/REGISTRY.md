@@ -36,3 +36,6 @@ No exhaustive candidate search, no SAT, no all-prime brute force. T39 is a direc
 
 ## S017 — symbolic proof-first, no bounded computational campaign
 Internal general mathematics: T41 relative all-LLO-block vs ordinary free dimension on boundary-sentinel-zero modules every n,k, all fields; 3×3 interior singleton symbolic Koszul pd2; T42 general top-simplex mixed cofiber suspension and cup vanishing for scalar-height metric Rips square. NO numerical enumeration, no CAS/SAT/ILP, no checker/runtime/hashes/certificate, no Lean, Palomar or external submission. Mixed integral 3×3 all-prime not solved. Source-first original LLO and FoCM proof comparison. S018 FUTURE UNEXECUTED.
+
+## S018 — one Stage1 session only (2026-10-13)
+All-rectangle nonprincipal finite free-presentation relative pd equivalence T43, polynomial fixed-n,k arithmetic test T44, bounded-box free/rectangle separation T45. Source-first rank-exact prior art severe; no original HHA flagship or downstream campaigns. Fronts B/C remain unproved. Exactly one FUTURE S019, no source/outreach/publication action.
