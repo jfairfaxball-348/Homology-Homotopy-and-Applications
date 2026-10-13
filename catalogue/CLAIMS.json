@@ -1025,6 +1025,57 @@
         "SRC-0048"
       ],
       "scope": "NOT ESTABLISHED. d=181 for exact witness; G2 closed; secondary fronts open; original 2000 Hopf input and 2026 Rips literature significant."
+    },
+    {
+      "id": "CLM-0111",
+      "status": "COMPUTED_EXACT",
+      "claim": "S020 script mode0 incorrectly maps source face σ to lexicographically first letter rather than the constant target vertex a; triples {b0}_s < {a0,b0}_s < {a}_t violate transitivity; S020 null matrix digest 138695... is not the claimed constant-map poset-cylinder certificate.",
+      "sources": [
+        "SRC-0051",
+        "SRC-0054"
+      ],
+      "scope": "S021 independent 182-point directed-relation audit with explicit counterexample; retain historical output only as INVALID/RETRACTED, not evidence for T47."
+    },
+    {
+      "id": "CLM-0112",
+      "status": "COMPUTED_EXACT",
+      "claim": "Corrected constant f0 relation yields same N=182, short edges644, high edges2244, corrected full distance-class SHA256 65deabfaed606db2d756b38569de169bef073e32c388a774fe23de6d20e66741, GF2 top Betti (1,0,1,0,0,0,0); f1 retains 1524 high edges and hash ca062...; independent all-clique enumeration, source Hopf −1, 58 collapses, 12 sphere links and Gram Cholesky residual checks.",
+      "sources": [
+        "SRC-0051",
+        "SRC-0054"
+      ],
+      "scope": "Local Python3 independent standard-library graph/cochain plus networkx3.6.1,numpy2.3.5 topology/numeric check; full top Betti computation is GF2 and numerical Cholesky is corroborative, NOT Lean or integer cofiber cup software."
+    },
+    {
+      "id": "CLM-0113",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Corrected T47 and sharpened T48: all pointwise integral graded cohomology ring diagrams, their maps, all integral homology and componentwise π_j diagrams of two Euclidean height/Rips clouds agree; canonical punctured-square cofibers Cofib(f0)∨14S1 and Cofib(f1)∨14S1 have degree2 integral cup-squares 0 versus ± degree4 generator.",
+      "sources": [
+        "SRC-0054",
+        "SRC-0055",
+        "SRC-0049",
+        "SRC-0053"
+      ],
+      "scope": "Standard mapping-cylinder deformation, ball decomposition, Hopf cup identity and four-stratum factorisations, not full machine-certified cup multiplication. Originality of mixed cofiber observation NOT determined."
+    },
+    {
+      "id": "CLM-0114",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T49 quantitative near-equilateral obstruction: N Euclidean points with off-diagonal squared distances in [a−η,a+η], a>0 and (N−1)η<a, are affinely independent; hence ambient dimension at least N−1. Applies to ALL 182-point S021 near-equilateral certificates, not only their particular matrices.",
+      "sources": [],
+      "scope": "Elementary centered-Gram operator norm lemma; says NOTHING about non-near-equilateral representations of the desired graph in d=3,4,5."
+    },
+    {
+      "id": "CLM-0115",
+      "status": "HEURISTIC",
+      "claim": "A new journal-scale original mixed-cofiber theorem, explicit Euclidean d<=5 solution, succinct nonprincipal k>=1 complexity breakthrough or coherent all-prime primitive integer-grid solution has been established in S021.",
+      "sources": [
+        "SRC-0054",
+        "SRC-0055",
+        "SRC-0049",
+        "SRC-0053"
+      ],
+      "scope": "NOT ESTABLISHED. G2/G3/G4 NOT_STARTED; secondary A/C fronts and global small dimension OPEN."
     }
   ]
 }

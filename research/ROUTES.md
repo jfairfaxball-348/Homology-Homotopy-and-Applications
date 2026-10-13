@@ -109,3 +109,10 @@ S017-T41 proves all-LLO-block relative pd on finite sentinel-zero coordinate hyp
 - **A:** exponential implicit staircase listing is no hardness reduction or polynomial compact algorithm; unresolved.
 - **C:** global all-Q/all-Fp primitive mixed [0,2]^2/^3 splitting/nonsplitting not resolved.
 - **Priority:** Madahar–Sarkaria Hopf 2000; Oudot–Waas SoCG2026; JACT Monoidal Rips2026. No novelty gate, no HHA flagship. S021 FUTURE ONLY.
+
+## S021 route outcomes
+- **B repaired topological Euclidean T47/T48:** null-map mode0 bug kills historical SHA 138695..., repaired corrected constant map SHA 65deab...; Hopf SHA ca062... unchanged. Exact 182×182 distances, R181 algebraic Cholesky, 58 collapse source ball, 72 triangle integer Hopf −1, top flag clique GF2 homology and all-pointwise ring maps checked/proved. Cohomology mixed cofiber differs 0/±1, 14 extra circles. No cofiber diagonal machine certificate; no original new invariant.
+- **Small dimension T49:** if squared distances of N points lie in [a−η,a+η] with (N−1)η<a then d≥N−1; excludes EVERY matrix in the S021 near-equilateral family from d3/4/5, not any alternate graph realization.
+- **A succinct relative interval k≥1:** no genuine new efficient reduction/hardness beyond published LLO/FoCM and S010/S018; unresolved.
+- **C coherent all-prime integral mixed grid:** no complete proof/counterexample; unresolved.
+- **Priority:** original 2000 Hopf and CP² map (author-hosted source), 2023/24 cup persistence, 2026 full homotopy and function-Rips are direct precedents; exact mixed comparison potentially interesting but no gate2 novelty clearance. S022 FUTURE only.

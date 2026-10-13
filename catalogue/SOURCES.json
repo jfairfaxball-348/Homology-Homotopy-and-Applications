@@ -477,6 +477,24 @@
       "access": "PROOF_INSPECTED",
       "limitation": "Directly inspected Definition6.6 and Proposition6.7 including proof; not entire paper, not exhaustive mixed-Hopf priority check.",
       "observed": "Sublevel Rips bifiltration and monoidal Rips have naturally homotopy equivalent realizations; paper proves stability, not shown to state exact same mixed cofiber counterexample."
+    },
+    {
+      "id": "SRC-0054",
+      "title": "K. V. Madahar and K. S. Sarkaria, A Minimal Triangulation of the Hopf Map and its Application, author-hosted original 2000 PDF",
+      "url": "https://www.kssarkaria.org/docs/Hopf.pdf",
+      "origin": "Author-hosted original journal article PDF; independently opened and page screenshots consulted S021 2026-10-13",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Examined §§2-3 and §5, including proof of Hopf nature and classical CP2 attachment; not every figure/proof claim checked, and some original minimality subclaims have separate historical controversies.",
+      "observed": "The source already constructs simplicial η:S3_12→S2_4 and classical CP2 via Hopf attachment; the map/cofiber are 2000 prior art. Publication metadata is Geometriae Dedicata 82(2000), pages 105-114."
+    },
+    {
+      "id": "SRC-0055",
+      "title": "F. Mémoli, A. Stefanou, L. Zhou, Persistent cup product structures and related invariants, Journal of Applied and Computational Topology 8 (2024), 93-148",
+      "url": "https://link.springer.com/article/10.1007/s41468-023-00138-5",
+      "origin": "Original Springer open full HTML, accessed 2026-10-13",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Introduction and explicit categorical-invariant, cup-module and stability statements inspected; not complete §4 proofs or mixed-cofiber priority examination.",
+      "observed": "Cohomology cup products, persistent cup modules and stable persistent cup-length/LS-category invariants already developed; paper discusses ordinary single-parameter filtrations; S021 mixed-cofiber comparison not priority-cleared."
     }
   ]
 }

@@ -1,5 +1,7 @@
-"""S020 finite Hopf/Rips algebraic Gram certificate. Python >=3.10; standard library.
-36 tetrahedra: Madahar--Sarkaria via Draganov's explicit MathOverflow list.
+"""S020 historical replay CORRECTED IN S021: the former mode0 lex-first-letter
+source image was NOT constant and failed poset transitivity. Old null digest
+138695... is INVALID as a null-map witness. Python >=3.10; stdlib only.
+36 tetrahedra: Madahar--Sarkaria via Draganov's MathOverflow list.
 """
 import hashlib, json
 from itertools import combinations
@@ -146,7 +148,7 @@ def graph(mode):
             else:
                 source=x if a=="s" else y
                 target=y if b=="t" else x
-                fimage=(source[0][0],) if mode==0 else tuple(sorted({v[0] for v in source}))
+                fimage=('a',) if mode==0 else tuple(sorted({v[0] for v in source}))
                 edge=issub(fimage,target)
             if edge:high.add((i,j))
             if a==b=="s" and x in Bminus and y in Bminus and (issub(x,y) or issub(y,x)):
@@ -189,3 +191,7 @@ print(json.dumps({"source_fvector":[12,48,72,36],"GF2_boundary_ranks":ranks,
  "vertices":N,"dimension":N-1,"epsilon":str(eps),
  "cofiber_extra_H1_rank":14,"gram_min_eigenvalue_lower_bound":"99/200",
  "two_clouds":results},indent=2,sort_keys=True))
+
+# S021 correction: exact independent-reconstruction expected distance-class hashes.
+assert results[0]['classes_sha256']=='65deabfaed606db2d756b38569de169bef073e32c388a774fe23de6d20e66741'
+assert results[1]['classes_sha256']=='ca062fbabeffacdb4f05af32135adb85e01f5368b17bbe36fdc705b53732c351'
