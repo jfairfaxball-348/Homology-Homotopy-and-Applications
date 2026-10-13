@@ -153,3 +153,6 @@ Coherent topology B: T62 all n>=1 finite algebraic R^(N-1) three-distance two-he
 - Hopf HHA flagship: RETIRED; original LS3.14 proof is a direct categorical mechanism predecessor. Literal finite-matrix priority not adjudicated.
 - Strict frozen g/f1 R5: OPEN; no5D coordinates/UNSAT, earlier star/K6,6 replays merely reconfirm known tests.
 - Integral mixed3x3/3D grid and nonprincipal succinct bit complexity: OPEN; primary future structural targets.
+
+## S029 structural C route — internal T65 theorem
+**PROVED INTERNALLY with unchanged quantifiers:** on {0,1,2}^n (n≥1), every map/composite primitive and Q/all-F_p B_n decomposition yield one integral B_n decomposition. Sources are precisely all principal up/down supports and n interior slabs. Rank-rigid proper downsets peeled by axis-source simultaneous kernels, slabs peeled by jointly saturated high projection, residual projective over Z by S011-T29. Detailed proof sessions/S029/MATHEMATICS.md. Original HHA significance/priority OPEN, no Gate2. Extension to axes≥4 levels and succinct k≥1 FrontA open; geometric S023 strict R5 open, Hopf route retired as flagship.

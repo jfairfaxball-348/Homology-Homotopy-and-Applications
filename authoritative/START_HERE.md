@@ -13,3 +13,6 @@ S001 has administrative gate PASS only; S002 **FUTURE, UNEXECUTED**, requiring a
 
 ## Live checkpoint at S028 closeout
 STATE.json is the current session authority: S028 complete, S029 future only. Explicit integer total-cofiber coefficient2 is independently checked in a334-point R333 benchmark. The Hopf/coherent-square mechanism is retired as the current HHA flagship after direct LS Proposition3.14 source comparison; all valid earlier mathematics remains preserved. No original theorem is selected and no later stage is promoted. Consult S028/CLOSEOUT.md and the outgoing verified PR for integration evidence.
+
+## S029 checkpoint (13 October 2026)
+S029-T65 has an internal proof of global integral B_n descent on all three-level {0,1,2}^n grids under every-composite purity and Q/all-F_p decomposability; Stage1 still in progress pending hostile source/novelty/HHA-application review. S028 Hopf benchmarks retained but retired as flagship. S030 FUTURE and UNEXECUTED, no Lean/Palomar/manuscript/external submissions.

@@ -1,0 +1,9 @@
+# S029 entry / authorisation — 2026-10-13
+
+Owner explicitly authorised executing **exactly S029** from the live authoritative prompt, rigorous competition and independent checks, one atomic authored commit and ordinary two-parent PR merge, with S030 future/unexecuted. No Lean/Palomar/manuscript/arXiv/HHA/outreach.
+
+Pinned live main `ad4a88a51ba187c107cc97367e5193fdc439382f`, tree `1eb681191265ae0b955d94e1f153f37f9f96005e`. The earlier S028 authored commit `6f8402780934cddf2dbd85f624d882af3bf9f139` has exactly one parent `67b978a683fa498241b003937184b2c55e90cdc1`. PR #29 was merged ordinarily: main parents [`67b978a683fa498241b003937184b2c55e90cdc1`, `6f8402780934cddf2dbd85f624d882af3bf9f139`] and same tree. Branch/head/main static governance workflows run 38445062651 / 38445188568 / 38445314214 each completed SUCCESS; main check-run 115462030164 SUCCESS. Classic status array empty: pending API aggregate is NOT failed CI nor a separate PASS. Accessible rulesets []; branch protection read 403 UNKNOWN. No open PR and no existing S029/S030 branch at fresh pre-write check. One new branch: `session/S029-integral-three-level-grid-descent`.
+
+Actual owner message is summarised faithfully rather than asserting an exact verbatim archived message hash. Executed prompt is frozen separately. Read AGENTS, authority, state, S009–S011, S018, S028, source/catalogue/ledgers; earlier T28/T29 and benchmark T64 retained, Hopf flagship retired.
+
+Scientific scope preregistration: all supports in B_n for n=2,3; test inductive support enumeration also n=1,4; attempt full pure-composite all-field integral lifting; distinguish death, interior-band, birth components. Stress-test missing-composite and missing-prime assumptions; independently Smith-check representative conjugated 2D/3D instances, all comparable composites and commuting triples; check source match and priority. Stop at symbolic full theorem or defensible obstruction, no external stage promotion.

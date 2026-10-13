@@ -1,0 +1,11 @@
+# S029 completed scientific closeout — outgoing integration evidenced separately
+
+**Result:** T65 resolves the frozen all-arrow/all-composite primitive, Q+every-F_p, simultaneous Z[B_n] splitting on **both** length-three n=2 and n=3 grids and extends to all finite n. Full symbolic proof of support count, rank-rigid death multiplicities, saturated axis-kernel extraction, natural downset peeling, middle-slab projection, and finite-poset final projective lifting is in MATHEMATICS. Adversarial records show the necessity of *composite* purity and the *every-prime* quantifier by explicit failing-hypothesis diagrams. A finite independent mixed-diagram Smith and coherence test passed; that is supportive, not a universal computational proof.
+
+**Unresolved:** independent referee proof scrutiny and original-priority comparison with full 1981/2026 ring-valued proofs; no standalone HHA homotopy application beyond the standard persistent homology setting; general axes with ≥4 levels and arbitrary nonprincipal k≥1 succinct bit complexity unanswered; frozen S023 strict g/f1 R5 still open. T64 integer Hopf benchmark retained, retired as flagship due LS3.14. No HHA original flagship selected/G2 progress; Lean, Palomar, manuscript, arXiv/HHA and outreach not begun.
+
+**Entry:** live main ad4a88a..., tree1eb681..., S028 authored6f840... sole parent67b978..., PR29 ordinary two-parent merge to ad4a88a..., incoming branch/PR/main static workflows successful; main classic statuses zero contexts, not PASS, protection403 UNKNOWN. No competing open PR/S029 branch at entry.
+
+**Local verification:** finite script results/hash in COMPUTATION, original source-specific access limits in PRIOR_ART. The repository static validator/hosted check checks governance only. **Outgoing authored commit, PR, actual two-parent merge, and hosted push/PR/main checks must be independently recorded in the merged PR description and user closeout**; this atomic authored file deliberately does not predict future SHAs.
+
+**Future:** S030 authored **FUTURE, UNEXECUTED**. Do not self-execute S030, promote Stage2, formalise, register or submit. One S029 session only.

@@ -177,3 +177,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - A selected all-field cofiber ring comparison2/4 is not a natural isomorphism of all derived profiles and remains elementary classical arithmetic.
 
 - S028 final convention audit: the12 product strata count requires retaining vertices for negative-radius graph extension. Standard empty negative-radius Rips adds event0 (at most15 strata); all pairwise invariant equalities and the gap survive. Never suppress this convention.
+
+## S029 lessons and hostile corrections — 2026-10-13
+- Boolean T28's kernels from the bottom primitive *edges* do not lift deaths at v_j=1 on a three-level axis. Necessary repair: simultaneous kernels of bottom→axis points a_j=(v_j+1)e_j, not b→v+e_j. The latter misses exits whose other coordinates are low.
+- Do NOT choose slab projection arbitrarily: it must annihilate the incoming lower-layer image I_i. All-prime directness plus unit Smith factors saturates K'_i+I_i and permits such an integral projection.
+- Primitive generating edges do NOT imply primitive composites even on a 3-point chain; explicit BA=×2. Missing F2 purity of pairwise spans likewise defeats a naive lift despite all composites pure. No such negative control satisfies T65 hypotheses.
+- The field theorem LLO and projective-poset freeness precede parts of the proof; internal mathematical success does NOT equal HHA originality or submission clearance. Finite prime computations cannot certify every p; all-prime inference uses Smith/UCT.

@@ -1,0 +1,5 @@
+# Executed S029 authorisation synopsis
+
+On 2026-10-13 owner authorised **exactly** live S029, with primary global integral block descent for n=2,3: every primitive structure arrow including all composites, Q and all F_p block decomposition independently, and one coherent Z splitting. Rigorous proof-first competitors, independent checks, source/novelty gates and fallback succinct relative-resolution complexity requested. Preserve verified T64 Hopf benchmarks and flagship retirement. Authorised one atomic authored commit, GitHub PR and ordinary two-parent merge after verification. Require verified closeout and S030 **FUTURE, UNEXECUTED**. Prohibit starting S030, Lean, Palomar, manuscript or external submission. This is a faithful summary of the owner invocation, **not** a verbatim transcript/hypothetical SHA.
+
+Original prepared prompt immediately before execution: `authoritative/NEXT_SESSION_PROMPT.md` at entry blob `f93f20a738d46c10990e3adb086e6b190f34a927`; the archived text is recoverable at entry main `ad4a88a51ba187c107cc97367e5193fdc439382f`.

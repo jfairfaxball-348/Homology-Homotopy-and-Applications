@@ -1404,6 +1404,57 @@
       "claim": "S028 both complete 334x334 rational Gram tables and all55611 unordered distance classes independently verified, rank333 by exact positivity proof; all12 named component strata agree.",
       "sources": [],
       "scope": "Each G numerator divided by7451940800, lower bound33067/66800 on 1-perp; literal full tables supplied, no low-dimensional replacement. S028 convention clarification:12 product strata uses vertex-retaining negative-radius graph extension; empty negative-radius extension yields at most15, without changing invariant equality or positive gap."
+    },
+    {
+      "id": "CLM-0149",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T65a: on {0,1,2}^n the recursively frozen block family is precisely all principal upsets, all principal downsets and the n middle-coordinate slabs; cardinality 2*3^n+n-1.",
+      "sources": [
+        "SRC-0066"
+      ],
+      "scope": "Direct induction S029/MATHEMATICS; 6/19/56/165 independently enumerated n1..4. n finite, only three-level axes."
+    },
+    {
+      "id": "CLM-0150",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T65: all structure arrows including composites primitive, and Q/all Fp Bn field decomposability imply a single integral global Z[Bn] splitting for all finite n>=1.",
+      "sources": [
+        "SRC-0066",
+        "SRC-0067"
+      ],
+      "scope": "Complete internal S029 proof: field-invariant Möbius death ranks, all-prime joint-axis kernel saturation and natural downset splitting, slab joint-projection naturality, S011-T29 integral projective finish. NOT independent external refereed, formally certified, novelty-cleared or HHA-significant."
+    },
+    {
+      "id": "CLM-0151",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Adjacent primitive edges plus Q/all-field Bn decomposition do not ensure an integral decomposition without primitive composites: chain Z→Z²→Z via [1,0]^T and [2,1] has composite 2.",
+      "sources": [],
+      "scope": "Exact integer matrices S029/ADVERSARIAL, valid as all-field Bn field example after coordinate pullback, explicitly FAILS frozen S029 composite purity."
+    },
+    {
+      "id": "CLM-0152",
+      "status": "PROGRAMME_PROVED",
+      "claim": "All-composite primitive alone plus Q/all odd-prime Bn splitting does not ensure integral splitting: two primitive upper-square columns (1,0),(1,2) yield nonzero Koszul H1 mod2.",
+      "sources": [],
+      "scope": "S029/ADVERSARIAL, Boolean-to-three-level clamp, explicitly FAILS frozen every-prime hypothesis."
+    },
+    {
+      "id": "CLM-0153",
+      "status": "COMPUTED_EXACT",
+      "claim": "S029 recursive/closed supports coincide for n1..4; all 36/216 comparable maps in conjugated mixed 2D/3D examples have unit Smith factors and compatible modular ranks; every tested triple commutes; death-rank diagnostics pass.",
+      "sources": [],
+      "scope": "Python3 sympy finite checker S029/COMPUTATION; p=2,3,5,7 only for test; not proof of all-prime theorem or of universal classification."
+    },
+    {
+      "id": "CLM-0154",
+      "status": "SOURCE_STATED",
+      "claim": "LLO 2026 field-valued multi-parameter Theorem4 and Definition3 do not literally state an integral global lattice lifting; older projective poset and ring-valued decomposition work pose novelty risks.",
+      "sources": [
+        "SRC-0066",
+        "SRC-0067",
+        "SRC-0068"
+      ],
+      "scope": "Original LLO HTML selected statements, Hoppner Lenzing1981 publisher abstract and Keagy2026 arxiv abstract. Full older/contemporary proofs not inspected; absence of literal statement is NOT novelty confirmation."
     }
   ]
 }
