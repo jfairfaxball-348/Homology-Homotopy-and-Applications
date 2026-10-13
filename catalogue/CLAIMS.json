@@ -1151,6 +1151,54 @@
         "SRC-0053"
       ],
       "scope": "NOT ESTABLISHED. Stage1 OPEN, Gate2/3/4 CLOSED, no Lean Palomar manuscript arXiv HHA."
+    },
+    {
+      "id": "CLM-0123",
+      "status": "COMPUTED_EXACT",
+      "claim": "S024-T54 exhaustive full induced-star maxima of 182-node upper comparability graphs: recoloured null g exactly32 (29 source triangles+3 target singletons), Hopf f1 exactly30 (27 triangles+3 target singletons), rather than restricted S023 source-only31/27.",
+      "sources": [
+        "SRC-0054"
+      ],
+      "scope": "Finite complete two-interval Dilworth maximum matching at every center, independent networkx/antichain witnesses. Not an R5 impossibility result; both below kissing5 known lower40."
+    },
+    {
+      "id": "CLM-0124",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S024-T55 any N distinct Euclidean R^d points with min separation s>0 and diameter D satisfy N<=(1+sqrt(2d/(d+1))D/s)^d via Jung contact weights and volume packing; N>=182,d=5 forces D/s>7/5.",
+      "sources": [],
+      "scope": "Self-contained classical packing application. Excludes R5 182-point 3-class low global spread only, NOT all representations of fixed graphs; no HHA novelty."
+    },
+    {
+      "id": "CLM-0125",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S024-T56 original R181 corrected Hopf/recoloured-null exact four-corner radius×height comparison, including mixed integral cup squares, is literally invariant under per-point location perturbations <=epsilon/32 and per-height perturbations<=1/4, epsilon=1/18200.",
+      "sources": [
+        "SRC-0054",
+        "SRC-0049",
+        "SRC-0053"
+      ],
+      "scope": "Verified inequalities compare squared-distance class margins epsilon/2 at original r0/r1; robust only at four prescribed parameter corners. Full-plane only shift-inclusions, not pointwise equality; standard stability."
+    },
+    {
+      "id": "CLM-0126",
+      "status": "HEURISTIC",
+      "claim": "Four S024 5D SciPy L-BFGS-B random-seed trials of 182 nodes and full 16,471 pair thresholds found no feasible coordinates, with thousands of edge/nonedge violations; any inference that R5 graph realization is impossible is NOT established.",
+      "sources": [],
+      "scope": "350 iterations seeds2024/2424 g and f1, squared edges<=0.98 nonedges>=1.02, nonconvex local optimization; no exhaustive completeness or PSD infeasibility certificate."
+    },
+    {
+      "id": "CLM-0127",
+      "status": "HEURISTIC",
+      "claim": "S024 T54–T56 establish a fresh indispensable HHA-level original theorem or settle 5D graph existence/nonexistence and secondary A/C.",
+      "sources": [
+        "SRC-0054",
+        "SRC-0056",
+        "SRC-0055",
+        "SRC-0049",
+        "SRC-0053",
+        "SRC-0057"
+      ],
+      "scope": "NOT ESTABLISHED. Classical Jung/packing and cofiber/cup/functional-Rips source collisions; A/C open; Gate2, Lean, Palomar, paper/arXiv/HHA not authorised."
     }
   ]
 }

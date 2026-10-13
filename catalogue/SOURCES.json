@@ -531,6 +531,15 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Original journal abstract states k(4)=24; full 32-page mathematical proof not independently read or replicated in S023.",
       "observed": "Known exact 4D kissing number 24 provides source-backed lower bound d>=5 for NEW null and existing Hopf upper graphs with induced 31/27 stars."
+    },
+    {
+      "id": "SRC-0060",
+      "title": "Brian Munson and Ismar Volić, Cubical Homotopy Theory, author-hosted full-book PDF, chapter 3 §§3.8–3.9 (2015)",
+      "url": "https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/munson-volic2.pdf",
+      "origin": "2026-10-13 indexed excerpts from original author-hosted 45MB PDF; live download attempt returned size-limit 400; alternate author URL denied",
+      "access": "METADATA_ONLY",
+      "limitation": "Indexed excerpts including §3.8 Definition3.8.8/Proposition3.8.9 and §3.9, but FULL PDF NOT RETRIEVED and PROOF NOT INSPECTED; no claims of page-by-page reading.",
+      "observed": "Published 2015 total homotopy cofiber and square homology long exact sequence are clearly preexisting; originality requires an independently new operation/result."
     }
   ]
 }

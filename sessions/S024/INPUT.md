@@ -1,0 +1,7 @@
+# S024 INPUT — 2026-10-13
+
+Owner explicitly invoked the LIVE GitHub `authoritative/NEXT_SESSION_PROMPT.md` URL. Invocation was the URL, not a pasted prompt; exact S024 scope is frozen at entry-main blob `c0d6d8d3dc683769caeecfcc85f825829559169b`. Exactly ONE Stage1 mathematics session. S025 is FUTURE, UNEXECUTED. No G2, Lean, Palomar, manuscript, arXiv, HHA, third-party contact or submission.
+
+Primary instructions: five-dimensional exact Hopf/recoloured-null graph feasibility OR genuine geometric obstruction, complete all-16,471-pair standards for any positive witness; secondly a genuinely new homotopical/HHA-level theorem or honest novelty kill; thirdly A succinct k>=1 nonprincipal interval and C primitive global integral grid if rigorous.
+
+Entry remote main `83a8f3fc7daabba0a481be3e36fba3b997f58b6d`, tree `42e3efbf2e882b797a735966c7ca75af7a751533`; S023 actual authored commit `1e231d72b2be9fe5270a23a8f5543c08afa4535f`, sole parent `43067945a4615973e554e1085083828682a1e4d8`, tree `42e3efbf2e882b797a735966c7ca75af7a751533`; PR24 ordinary two-parent merge `83a8f3fc7daabba0a481be3e36fba3b997f58b6d` of [`43067945...`,`1e231d72...`]. Static hosted main run 38396409013 check 115292637921 SUCCESS; classic statuses [] ABSENT_NOT_PASS; rulesets []; protection403 UNKNOWN. No pre-existing S024 branch or open PR found on entry.

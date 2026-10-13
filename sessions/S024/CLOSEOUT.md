@@ -1,0 +1,15 @@
+# S024 closeout — complete graph-star audit and conditional dimension5 dispersion kill
+
+**Authority.** Exactly ONE owner-invoked Stage1 S024, 2026-10-13. Entry remote `main` `83a8f3fc7daabba0a481be3e36fba3b997f58b6d`, tree `42e3efbf2e882b797a735966c7ca75af7a751533`. S023 single authored commit `1e231d72b2be9fe5270a23a8f5543c08afa4535f` (only parent `43067945a4615973e554e1085083828682a1e4d8`, tree `42e3efbf2e882b797a735966c7ca75af7a751533`), ordinary PR24 merge `83a8f3fc7daabba0a481be3e36fba3b997f58b6d` with those two parents. Static incoming main Action38396409013/check115292637921 SUCCESS, classic statuses [] ABSENT_NOT_PASS, rulesets [], protection403 UNKNOWN. Entry no competing S024 branch/open PR.
+
+**T54 exact:** corrected *full* maximal induced stars in upper comparability graphs: g K1,32 (29 source triangles+3 target singleton neighbours), original f1 K1,30 (27 triangles+3 singleton neighbours). 364 upper/lower interval width computations per graph via Dilworth matching; fully independent NetworkX and antichain extraction locally rechecked. Correct hashes g8cce602.../f1ca062... and common short644.
+
+**T55 proved, classical not journal novel:** Any 182 distinct R5 points have global diameter/min separation >7/5 by self-contained 5D Jung contact-weight proof and packing. Thus exact near-equilateral three-class distances cannot be retained by 5D coordinates, and neither can ANY uniformly <40% stretched cloud. This is a broad conditional obstruction, NOT all faithful R5 graph realizations.
+
+**T56 proved:** radius/height four-corner Hopf mixed-cofiber x² distinction is exact-stable under original R181 point shifts≤epsilon/32 and heights≤1/4; continuous-plane literal equality is NOT claimed. Source Hopf/cofiber topological mechanism is classical.
+
+**R5 attempted, not solved:** Four local d5 L-BFGS-B seeded 350-iteration optimizations over 16,471 constraints each produced thousands of strict threshold violations. No feasible 5D pair, no rank5 PSD certificate, no impossibility proof for arbitrary faithful graph placements; d5 **OPEN**.
+
+**Originality/adversarial:** Munson–Volić original author full PDF indexed §§3.8–3.9 but 45MB download blocked; original 2000 Hopf CP²; 2024 cup, 2026 function-/monoidal-Rips precedents. None T54–T56 constitutes an indispensable new HHA theorem; **NO_VIABLE_HHA_FLAGSHIP_YET**. Front A succinct nonprincipal k≥1 bit-complexity and C primitive integral all-prime [0,2]^2/^3 all-arrows grid still unresolved. No G2, Lean, Palomar, paper, arXiv, HHA, outside contact or S025 execution.
+
+**Git boundary:** This committed closeout freezes verifiable incoming evidence and scientific claims. Outgoing exact authored SHA, PR, two-parent merge, hosted checks and postmerge main MUST be verified from live GitHub after the write; they are not guessed in this precommit document. One atomic authored S024 branch commit, ordinary PR and two-parent no-force merge requested.

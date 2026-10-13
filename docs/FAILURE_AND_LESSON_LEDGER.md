@@ -140,3 +140,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - The S021 constant f0 null model's 72-star was a MODEL-CHOICE obstruction, not all null maps. Explicit four-colour g factors through a disc while redistributing source triangles; actual cross-antichain target widths ≤31. Lesson: vary null simplicial map, not only the Gram matrix; ALWAYS test 36 tetra simpliciality and transitivity before distance optimization.
 - A small star is NOT an actual Euclidean embedding. Redesigned g/f1 still have K1,31/K1,27 so fail in d<=4 (published Musin tau4=24). In dimension5, failure or success still OPEN. No numerical nonconvergence is an impossibility proof.
 - Recoloured f0 is a constructive refinement of classical Hopf/CP2 comparisons; original square cofiber not new. HHA novelty and secondary A/C remain open.
+
+## S024 mathematical lessons
+- S023 source-only facet antichain width31/27 is NOT full induced star; mixed target singleton leaves increase maxima to32/30. Exhaustive lower/upper interval poset matching is the correct test, verified independently (not guess from one center).
+- A diameter/minimum-separation packing theorem is not an impossibility proof for arbitrary unit-ball graph representations. T55 makes a strong **conditional** d5 spread restriction; graph could require D/s>7/5. Do not imply d5 solved.
+- Four 5D L-BFGS-B attempts each violated ~1500+ strict high-threshold edges/nonedges; no local-optimum success/failure is a proof. Rank5 infeasibility needs independent algebraic/global certificate.
+- Finite 2×2 Rips diagrams remain literally unchanged under certified small perturbations; full-plane equality does not. Related geometric/function-Rips stability is established literature. No originality claims.
