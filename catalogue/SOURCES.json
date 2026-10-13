@@ -522,6 +522,15 @@
       "access": "SECONDARY_ONLY",
       "limitation": "Expository secondary source, not primary original Hopf cofiber or model-category priority research.",
       "observed": "For f:S^(2n−1)→S^n the cofiber has integral cup-square coefficient equal to Hopf invariant, the existing mechanism underlying S021 T48."
+    },
+    {
+      "id": "SRC-0059",
+      "title": "O. R. Musin, The kissing number in four dimensions, Annals of Mathematics 168 (2008), 1–32, DOI 10.4007/annals.2008.168.1",
+      "url": "https://annals.math.princeton.edu/2008/168-1/p01",
+      "origin": "Direct original Annals of Mathematics publisher abstract, inspected 2026-10-13",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original journal abstract states k(4)=24; full 32-page mathematical proof not independently read or replicated in S023.",
+      "observed": "Known exact 4D kissing number 24 provides source-backed lower bound d>=5 for NEW null and existing Hopf upper graphs with induced 31/27 stars."
     }
   ]
 }

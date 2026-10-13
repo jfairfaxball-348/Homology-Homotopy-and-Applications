@@ -123,3 +123,10 @@ S017-T41 proves all-LLO-block relative pd on finite sentinel-zero coordinate hyp
 - **A:** tried to go beyond S010 finite-listed/S018 all-rectangle by implicit nonprincipal incidence/hook generators; no correct complexity reduction or novel theorem proved.
 - **C:** considered p-local rational splitting/integral idempotent gluing on entire [0,2]^2/^3; no primitive globally compatible all-hypotheses proof or counterexample produced. OPEN.
 - S023 may redesign a low-antichain graph and pursue chain-level mixed cup and nonroutine stability, strictly FUTURE only.
+
+
+## S023 route outcomes
+- **Primary B topology:** successful concrete new nonconstant four-colour null simplicial map g. Image avoids open abc facet, hence null; retains S021 full pointwise graded ring diagrams and classical mixed cofiber cup separation against original Hopf f1. Exact new upper null graph 1572 edges, SHA8cce602..., source-antichain star max31, removes S022 previous fixed 72-star. R181 Gram exact, not low-d coordinates.
+- **Dimension:** Musin k4=24 excludes both revised graphs in d<=4 by stars31/27. d5 strict 182-point graph inequality system open; no rank5 exact coordinate/unsat proof; avoid claim dimensional compression achieved.
+- **Originality:** standard Hopf/CP2, standard 2015 total homotopy cofiber, 2024 cup modules and 2026 Rips frameworks. This finite redesign alone not HHA-grade novelty. G2 closed.
+- **A/C:** no newly proven succinct nonprincipal k>=1 arbitrary-grid complexity improvement beyond prior methods; no global all-prime primitive integral [0,2]²/³ idempotent theorem or counterexample. Open. S024 future.

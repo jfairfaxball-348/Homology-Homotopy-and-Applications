@@ -134,3 +134,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Any claim that this also precludes an alternative graph or homotopy-equivalent bifiltration is FALSE reasoning; redesigns may remove this large star.
 - Originality: total homotopy cofibers of squares appear in 2015 cubical homotopy theory, and Hopf cone cup square/CP² is classical. Searching for literal phrase 'mixed cofiber' was inadequate. Exact persistent application remains unreviewed, and no HHA novelty G2.
 - Front A attempted succinct incidence/hook extensions but no proved new complexity bound; Front C primitive integral local-to-global projector idea lacks global all-hypotheses construction. No speculative positive.
+
+
+## S023 — radius/height low-dimensional redesign limits
+- The S021 constant f0 null model's 72-star was a MODEL-CHOICE obstruction, not all null maps. Explicit four-colour g factors through a disc while redistributing source triangles; actual cross-antichain target widths ≤31. Lesson: vary null simplicial map, not only the Gram matrix; ALWAYS test 36 tetra simpliciality and transitivity before distance optimization.
+- A small star is NOT an actual Euclidean embedding. Redesigned g/f1 still have K1,31/K1,27 so fail in d<=4 (published Musin tau4=24). In dimension5, failure or success still OPEN. No numerical nonconvergence is an impossibility proof.
+- Recoloured f0 is a constructive refinement of classical Hopf/CP2 comparisons; original square cofiber not new. HHA novelty and secondary A/C remain open.

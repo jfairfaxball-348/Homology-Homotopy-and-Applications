@@ -1110,6 +1110,47 @@
         "SRC-0054"
       ],
       "scope": "NOT ESTABLISHED. The T50 graph obstruction is a programme-specific necessary condition, not a universal topology theorem or source-priority breakthrough; Stage2/G2, Lean, Palomar, manuscript, arXiv/HHA remain closed."
+    },
+    {
+      "id": "CLM-0119",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T51 S023 nonconstant vertex-index map g:K->boundary tetrahedron is simplicial and avoids full abc triangle, so factors through contractible disk and is null; the valid face-cylinder g/Hopf comparisons share all pointwise integral H, componentwise pi_j, graded cohomology-ring diagrams but mixed cofiber cup square 0 versus ±1 by classical Hopf theorem.",
+      "sources": [
+        "SRC-0054",
+        "SRC-0056"
+      ],
+      "scope": "All36 input tetra verified and standard poset retraction, exact old R181 Gram argument; integral mixed cofiber diagonal not recomputed, originality unverified, d5 realization OPEN."
+    },
+    {
+      "id": "CLM-0120",
+      "status": "COMPUTED_EXACT",
+      "claim": "T52 new g graph 182 nodes/1572 high edges, 644 short edges, canonical SHA256 8cce60227b889db047c72e1bb73aaff6b27448d58097e8ebeaed58286c7d0a23; Hopf 1524/644 and hash ca062...; maximal cross-source leaf antichain over all target faces g31 f127; upper GF2 Betti S2 for both.",
+      "sources": [
+        "SRC-0054"
+      ],
+      "scope": "Exact finite all-pair 182 graph and Dilworth maximum matching and optional all-clique GF2 networkx calculation. These widths do not bound mixed-source/target induced stars, and do not assert Euclidean R5 placement."
+    },
+    {
+      "id": "CLM-0121",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T53 revised null upper graph has induced K_(1,31), original Hopf upper graph K_(1,27), so by S022 radial lemma plus published four-dimensional kissing number 24 neither full graph can be faithfully realized as threshold graph in dimension <=4.",
+      "sources": [
+        "SRC-0059"
+      ],
+      "scope": "Musin original Annals abstract states kissing number 24; complete proof not inspected. Only THESE exact upper threshold graphs, arbitrary distances; dimension5 undecided."
+    },
+    {
+      "id": "CLM-0122",
+      "status": "HEURISTIC",
+      "claim": "S023 solved faithful Euclidean R5 null/Hopf point-cloud inequalities, established new HHA-worthy total cofiber operation, or solved secondary A succinct nonprincipal k>=1 and C integral all-prime grid.",
+      "sources": [
+        "SRC-0054",
+        "SRC-0056",
+        "SRC-0055",
+        "SRC-0049",
+        "SRC-0053"
+      ],
+      "scope": "NOT ESTABLISHED. Stage1 OPEN, Gate2/3/4 CLOSED, no Lean Palomar manuscript arXiv HHA."
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 **Publication destination:** *Homology, Homotopy and Applications* (HHA), International Press. **Purpose:** discover and independently establish a significant original theorem or counterexample whose mathematical content genuinely belongs to homotopy theory, algebraic topology, homological algebra, or a substantial application of those methods.
 
-This is a **journal-directed exploratory programme**; the journal is **not** sponsoring or endorsing the research. S010 has completed the mandatory tenth-session audit and a full internal proof of integral block rigidity for arbitrary-kernel Boolean three-cubes ([T26 proof](sessions/S010/MATHEMATICS.md)). This is the **provisional theorem candidate**; originality and HHA significance remain unverified. No Lean certification, Palomar registration, arXiv preprint or HHA submission. S011 is [FUTURE, UNEXECUTED](authoritative/NEXT_SESSION_PROMPT.md).
+This is a **journal-directed exploratory programme**; the journal is **not** sponsoring or endorsing the research. S023 has completed a rigorous Stage1 low-star redesign of the simplicial null/Hopf comparison ([proof](sessions/S023/MATHEMATICS.md)): a nonconstant null map through a disc gives a new 182-point graph with maximum 31 source-only leaves at target faces (rather than the S021 constant model's 72). Faithful embeddings of the revised high graphs in d<=4 are impossible by published kissing number 24; d=5 remains OPEN. Classic Hopf/cofiber prior art means no HHA-original flagship or novelty gate is claimed. No Lean, Palomar, arXiv or HHA submission. S024 is [FUTURE, UNEXECUTED](authoritative/NEXT_SESSION_PROMPT.md).
 
 ## Success means more than a formalised lemma
 
