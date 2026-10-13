@@ -112,3 +112,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Low/low A0 is equatorial S² PLUS isolated positive-ball interior vertices; these isolates are essential to B∩C=A0, π0 and map comparisons. Outside-K vertices add S¹ wedge summands to cofiber only.
 - Relative barycentric subdivision of simplicial Hopf mapping cylinder creates FLAG top and FULL induced subcomplexes B_+,K; generic subdivision may not. A three-length Euclidean Gram is positive for d=N−1 but no actual N or concrete coordinate lists or independent checker have been produced.
 - Exponential upsets binomial(2m,m) is NOT a complexity lower bound; middle integral induced bands are already split. Original SoCG2026 treats HOMOTOPY TYPES, richer than π-group diagrams; keyword absence is not proof of novelty.
+
+## S020 hostile boundaries
+- **S020-F1:** S019 existential Hopf approximation was not enumerated. Fix: 12-vertex 36-facet published Hopf map + finite face-poset mapping cylinder. Credit original source; do NOT count the Hopf triangulation itself as new.
+- **S020-F2:** Full Euclidean coordinates need not be decimal points: a complete 182×182 exact squared-distance prescription with a rigorous positive centered Gram is algebraically sufficient in R^181. Do NOT call this a five-dimensional point cloud; this particular Gram has rank exactly 181.
+- **S020-F3:** Do not overlook isolated vertices in the short stages: 52 LOW components, 66 ALL components; punctured-square union equals sd(K) plus 14 isolated target-face vertices, yielding 14 S¹ summands in cofiber.
+- **S020-F4:** Python checked finite cochain, face incidence/link, collapse pairs, graph/cutoff classes. It did NOT mechanically prove all π_j persistence, compute cofiber rings by an independent simplicial diagonal package, or run Lean/Palomar. These are human-level mathematical deductions from the verified poset construction.
+- **S020-F5:** Oudot–Waas SoCG2026 compares persistent HOMOTOPY TYPES, stronger than ordinary π-group diagrams; Monoidal Rips 2026 §6.3 already treats exact one-function bifiltration. No novelty-as-keyword absence.
+- **S020-F6:** Front A genuine succinct nonprincipal interval complexity, Front C global mixed all-prime integer splitting, and d=3/4/5 Rips counterpart were NOT resolved.
