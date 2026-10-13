@@ -183,3 +183,10 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Do NOT choose slab projection arbitrarily: it must annihilate the incoming lower-layer image I_i. All-prime directness plus unit Smith factors saturates K'_i+I_i and permits such an integral projection.
 - Primitive generating edges do NOT imply primitive composites even on a 3-point chain; explicit BA=×2. Missing F2 purity of pairwise spans likewise defeats a naive lift despite all composites pure. No such negative control satisfies T65 hypotheses.
 - The field theorem LLO and projective-poset freeness precede parts of the proof; internal mathematical success does NOT equal HHA originality or submission clearance. Finite prime computations cannot certify every p; all-prime inference uses Smith/UCT.
+
+## S030 (2026-10-13) hostile lessons
+- Naive treat-[1,2]-as-singleton or peel [1,1] before [1,2] fails exit naturality proof: [1,2] survives to index2. Use **descending death/end, ascending birth/start** and rank inversion.
+- Projection onto an interval image need not annihilate earlier incoming maps. Require **joint** saturation H+I across Q/F_p and choose one Z-projection zero on I.
+- Finite 3²/4²/4³/5² Smith tests cannot prove universal validity or all-prime coverage; the symbolic Smith unit argument does that conditionally on field hypothesis.
+- 1981 and 2026 ring-valued original full proofs inaccessible; no novelty implication from abstract or negative search. FoCM qualitative rank resolutions not a succinct BIT result.
+- No new R5 exact certificate and no replacement original HHA homotopy application. Stage1 still open.

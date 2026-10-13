@@ -612,6 +612,42 @@
       "origin": "Original arXiv abstract accessed S029 2026-10-13",
       "limitation": "No full theorem/proof examination; described chain/zigzag ring-valued theory only at abstract level. Cannot infer newness of T65.",
       "observed": "PID/projective-cokernel interval decomposition is prior/contemporary technique; assess direct technical scope in S030."
+    },
+    {
+      "id": "SRC-0069",
+      "title": "Lebovici–Lerch–Oudot: Local characterization of block-decomposability for multiparameter persistence modules",
+      "url": "https://arxiv.org/html/2402.16624v4",
+      "origin": "direct original or publisher record inspected S030",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original HTML §1.2 Definition 3/Theorem 4 and §1.1 Problem 1 inspected; full line-by-line proof NOT inspected in S030",
+      "observed": "Source field block theorem and class, not integral descent."
+    },
+    {
+      "id": "SRC-0070",
+      "title": "Botnan–Oppermann–Oudot: Signed Barcodes and Rank-Exact Resolutions, FoCM 25 (2025)",
+      "url": "https://link.springer.com/article/10.1007/s10208-024-09672-9",
+      "origin": "direct original or publisher record inspected S030",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Original publisher HTML Thm 4.11, Prop 4.5, Prop 4.17 inspected; relative k>=1 BIT complexity not solved by their qualitative finiteness",
+      "observed": "Classical rank-exact finite resolution and hook facts, not a succinct bit bound."
+    },
+    {
+      "id": "SRC-0071",
+      "title": "Nadiya Upegui Keagy: Projective Constant Decompositions ... Noetherian Rings (2026)",
+      "url": "https://arxiv.org/abs/2602.13560",
+      "origin": "direct original or publisher record inspected S030",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "ArXiv HTML and PDF direct failed/disabled; original abstract inspected. Cannot claim proof-level novelty clearance.",
+      "observed": "Ring-valued chain/zigzag decomposition theorem is a high-risk priority predecessor."
+    },
+    {
+      "id": "SRC-0072",
+      "title": "Höppner–Lenzing: Projective diagrams over partially ordered sets are free, 1981",
+      "url": "https://doi.org/10.1016/0022-4049(81)90045-1",
+      "origin": "direct original or publisher record inspected S030",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Publisher abstract inspected; 1981 original full text not retrieved. Different Bielefeld 1981 lecture note pdf hit access-denied; not equivalent full proof.",
+      "observed": "Classical poset projectivity and freeness; Stage1 projective step is not priority-novel."
     }
   ]
 }

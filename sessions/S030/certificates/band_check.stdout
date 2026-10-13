@@ -1,0 +1,35 @@
+{
+  "3x2": {
+    "all_smith_unit": true,
+    "comparable_pairs": 36,
+    "interval_inversions": 2,
+    "mixed_blocks": 6,
+    "supports": 19,
+    "vertices": 9
+  },
+  "4x2": {
+    "all_smith_unit": true,
+    "comparable_pairs": 100,
+    "interval_inversions": 6,
+    "mixed_blocks": 10,
+    "supports": 37,
+    "vertices": 16
+  },
+  "4x3": {
+    "all_smith_unit": true,
+    "comparable_pairs": 1000,
+    "interval_inversions": 9,
+    "mixed_blocks": 13,
+    "supports": 136,
+    "vertices": 64
+  },
+  "5x2": {
+    "all_smith_unit": true,
+    "comparable_pairs": 225,
+    "interval_inversions": 12,
+    "mixed_blocks": 16,
+    "supports": 61,
+    "vertices": 25
+  }
+}
+SHA256_OUTPUT=853ae3e6aef92df44ada32ab16ca5550569bd4706f248b66c34dffcc66716ed6

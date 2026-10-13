@@ -16,3 +16,6 @@ STATE.json is the current session authority: S028 complete, S029 future only. Ex
 
 ## S029 checkpoint (13 October 2026)
 S029-T65 has an internal proof of global integral B_n descent on all three-level {0,1,2}^n grids under every-composite purity and Q/all-F_p decomposability; Stage1 still in progress pending hostile source/novelty/HHA-application review. S028 Hopf benchmarks retained but retired as flagship. S030 FUTURE and UNEXECUTED, no Lean/Palomar/manuscript/external submissions.
+
+## S030 checkpoint (13 October 2026)
+T66 internal all-finite-product-chain integral global block descent supersedes the three-level S029 theorem. Proof, joint saturation and exact finite tests are in sessions/S030. Originality/HHA-significance unverified, no next-stage promotion; S028 Hopf remains retired as flagship. S031 FUTURE, UNEXECUTED.

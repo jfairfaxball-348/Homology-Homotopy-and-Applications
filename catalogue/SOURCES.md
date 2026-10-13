@@ -138,3 +138,9 @@ The preceding source notes record historical access. SRC-0062 journal-final PDF 
 |SRC-0066|[LLO original arXiv2402.16624v4](https://arxiv.org/html/2402.16624v4)|STATEMENT_INSPECTED|§1.1 Problem1, §1.2 Definition3/Theorem4 and §1.3 algorithm context; not full proof this session.|Field classification, no literal integral lifting theorem.|
 |SRC-0067|[Höppner–Lenzing, projective diagrams are free, JPAA1981](https://doi.org/10.1016/0022-4049(81)90045-1)|ABSTRACT_INSPECTED|Publisher abstract only, not original proof.|Strong prior art for T29; full T65 coverage UNKNOWN.|
 |SRC-0068|[Keagy, Projective Constant Decompositions, arXiv2602.13560](https://arxiv.org/abs/2602.13560)|ABSTRACT_INSPECTED|Original abstract, no full proof.|Potential close 2026 PID interval decomposition prior art; exact multigrid reach unknown.|
+
+## S030 source addendum
+- SRC-0069: original LLO arXiv HTML Def3/Thm4/Problem1 STATEMENT_INSPECTED, full proof not read S030.
+- SRC-0070: original FoCM2025 Thm4.11/Prop4.5/Prop4.17 PROOF_INSPECTED.
+- SRC-0071: 2026 Keagy original ABSTRACT_INSPECTED only, original full PDF/HTML unavailable; originality unresolved.
+- SRC-0072: 1981 Höppner–Lenzing publisher ABSTRACT_INSPECTED only; full proof not accessed.

@@ -1,0 +1,9 @@
+# S030 entry, scope and approval — 2026-10-13
+
+Owner instructed "Run next session" using live authoritative NEXT_SESSION_PROMPT.md; that prompt is S030 (frozen SHA `60a609541932f716a8556a8e439dda5e2fa159a2`). This invocation authorises exactly one session, isolated branch, atomic authored commit, PR and ordinary two-parent merge after verification. It **does not** authorise S031 execution, Lean, Palomar, manuscript, arXiv/HHA or contacting parties.
+
+Entry remote main `27293ebd8c6a199e36662bccd28ee1b5daa3bee3` tree `703871fd741566ef53f289b44cbca367473cee79`; S029 authored `dd966143e0eba4833e79cd6c2f8f13d4d7c4b62c`, PR #30, merge parents [`ad4a88a51ba187c107cc97367e5193fdc439382f`, `dd966143e0eba4833e79cd6c2f8f13d4d7c4b62c`], merged normally. Last known hosted main workflow run `38450975963` completed SUCCESS 2026-10-13 18:57Z, **governance only**. At entry open pull requests [] and S030 branch not present; previously merged historical branches preserved.
+
+Pre-registered: aggressively inspect every S029-T65 extraction lemma and S011-T29; seek a 4-level 2D/3D all-hypotheses obstruction, or a full natural integral peeling procedure including [1,2] bands and joint zero-on-incoming projections. Competing route: read FoCM2025 Thm4.11, Prop4.5, Prop4.17 for succinct k>=1 and assess true bit encoding; reserve R5 only for decisive new exact geometric certificate. Pre-register representative finite mixed diagrams on 3^2,4^2,4^3,5^2, all comparable pairs, rank formula and exact Smith; computation is a finite test, not classification. Stop with accurate novelty and external-source limits.
+
+All owner-message exact bytes beyond current prompt are unavailable for a verifiable archive hash; the summary above is faithful, not a fabricated verbatim transcript.
