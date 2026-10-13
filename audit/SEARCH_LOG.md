@@ -125,3 +125,10 @@ Both search engines queried Hopf/multiparameter/cofiber/coherent/cup variants, i
 
 ## S029 fresh official-source comparison — 2026-10-13
 Direct original arxiv HTML https://arxiv.org/html/2402.16624v4 inspected LLO §1.1 Problem1, §1.2 Definition3/Theorem4 and §1.3 algorithms; HHA 2026 published DOI10.4310/HHA.2026.v28.n1.a9 official metadata. LLO explicitly field-valued, not a direct Z-basis theorem. Original Höppner–Lenzing JPAA1981 DOI10.1016/0022-4049(81)90045-1 publisher ABSTRACT_INSPECTED, not full proof. 2026 Keagy arxiv2602.13560 original ABSTRACT_INSPECTED ring-valued/projective constants on chains/zigzags, not full paper. Original FoCM2025 DOI10.1007/s10208-024-09672-9 HTML Thm1.1/Cor5.1 checked, inherited S017/S018 §3.1/4.3 proof reading. Search phrases integral block decomposition/purity/fieldwise persistence and ring-valued projective constants; nonexhaustive. No novelty certified for T65, no false claim its all-conditions theorem previously absent. Existing LS3.14 Hopf retirement intact.
+
+## S030 13 October 2026 direct literature audit
+- LLO arXiv2402.16624v4 original HTML §1.1 Problem1 and §1.2 Def3/Thm4 read https://arxiv.org/html/2402.16624v4 — field-valued n-dimensional blocks; does not explicitly settle global Z basis.
+- Botnan–Oppermann–Oudot original publisher Springer DOI10.1007/s10208-024-09672-9 full HTML Theorem4.11/Prop4.5/Prop4.17 original proof read — qualitative rank-exact finite resolutions, not succinct BIT complexity.
+- Keagy arXiv2602.13560 2026 original abstract read; direct /html and /pdf fetch disabled; full proof NOT INSPECTED. Closest ring-valued source.
+- Höppner–Lenzing JPAA1981 DOI10.1016/0022-4049(81)90045-1 publisher abstract inspected, 1981 Bielefeld hosted different PDF direct fetch access denied; full primary proof NOT INSPECTED. Source claim restricted to abstract.
+- Luo–Henselman-Petrusek arXiv2511.07614 abstract indexed: PID single-chain decomposition known; not general product priority clearance. NO exhaustive novelty guarantee.

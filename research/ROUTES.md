@@ -156,3 +156,6 @@ Coherent topology B: T62 all n>=1 finite algebraic R^(N-1) three-distance two-he
 
 ## S029 structural C route — internal T65 theorem
 **PROVED INTERNALLY with unchanged quantifiers:** on {0,1,2}^n (n≥1), every map/composite primitive and Q/all-F_p B_n decomposition yield one integral B_n decomposition. Sources are precisely all principal up/down supports and n interior slabs. Rank-rigid proper downsets peeled by axis-source simultaneous kernels, slabs peeled by jointly saturated high projection, residual projective over Z by S011-T29. Detailed proof sessions/S029/MATHEMATICS.md. Original HHA significance/priority OPEN, no Gate2. Extension to axes≥4 levels and succinct k≥1 FrontA open; geometric S023 strict R5 open, Hopf route retired as flagship.
+
+## S030 Front C structural proof and Front A competition
+T66 **INTERNAL** now extends T65 to arbitrary finite chain lengths and unequal products under all-composite purity and all-field B(P) decomposition. Closed supports = 2∏m_i−1+Σ(m_i−2)(m_i−1)/2. Ordered interval peel, shared integer q killing incoming I; details S030/MATHEMATICS.md. Not yet originality/HHA application passed. Front A original LLO Problem1 succinct nonprincipal k>=1 BIT complexity remains OPEN after full original FoCM Thm4.11/Prop4.5/4.17 review. Frozen R5 OPEN; Hopf T64 remains retired flagship.

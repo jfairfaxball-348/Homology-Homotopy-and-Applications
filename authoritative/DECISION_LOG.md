@@ -187,3 +187,6 @@
 - **DEC-0137:** **T65** internally proves global all-prime all-composite primitive integral B_n decomposition on {0,1,2}^n for every n≥1, with exact family cardinality 2·3^n−1+n. Natural death/slab peeling and earlier S011-T29 final latching basis. Novelty and independent external mathematical scrutiny not established.
 - **DEC-0138:** Edge-only primitive not enough: Z→Z²→Z via (1,0)^T and (2,1) composite×2; Q/all-prime field-decomposable yet no integral intervals. Missing bad prime also fails via determinant2 square even with every composite pure. Neither violates T65 full hypotheses.
 - **DEC-0139:** Original LLO Definition3/Theorem4 is field-valued; 1981 projective-diagram freeness and 2026 ring-valued decomposition are serious prior-art checks. T64 preserved, Hopf remains retired. No HHA flagship/Stage2/Lean/Palomar/manuscript/arXiv/HHA. S030 FUTURE only.
+
+## S030 — 13 October 2026
+Decision: internally prove T66 global all-length finite product-grid integral B(P) descent with *every comparable composite* primitive and Q/all-prime decomposability; do not claim original publication novelty. Full Keagy2026/Höppner–Lenzing1981 proof-level comparison blocked. Keep Stage1 IN_PROGRESS, all later gates shut. Competing LLO Problem1 succinct k>=1 and strict frozen R5 open. Hopf remains retired as original flagship. Prepare only S031 future.

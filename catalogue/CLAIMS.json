@@ -1455,6 +1455,44 @@
         "SRC-0068"
       ],
       "scope": "Original LLO HTML selected statements, Hoppner Lenzing1981 publisher abstract and Keagy2026 arxiv abstract. Full older/contemporary proofs not inspected; absence of literal statement is NOT novelty confirmation."
+    },
+    {
+      "id": "CLM-0155",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S030-T66: on arbitrary finite products of finite chains (each length >=2), all-composite pure-cokernel maps and independent Q/every-Fp decomposition into recursive principal upsets/downsets/interior coordinate bands imply a single coherent integral decomposition.",
+      "sources": [
+        "SRC-0069",
+        "SRC-0071",
+        "SRC-0072"
+      ],
+      "scope": "Internal symbolic proof (not externally certified; prior art not cleared), sessions/S030/MATHEMATICS.md"
+    },
+    {
+      "id": "CLM-0156",
+      "status": "COMPUTED_EXACT",
+      "claim": "S030 independently checked closed support counts, rank double inversion, unit Smith factors for selected unimodularly conjugated mixed witnesses on 3^2,4^2,4^3,5^2; not an all-input or all-prime search.",
+      "sources": [],
+      "scope": "Local Python 3/sympy, source ae2d054fc3dbf4cce1a458404d6eebffa585935b6de501e7527ac6b218d30f1d, stdout digest 853ae3e6aef92df44ada32ab16ca5550569bd4706f248b66c34dffcc66716ed6; test coverage finite."
+    },
+    {
+      "id": "CLM-0157",
+      "status": "SOURCE_STATED",
+      "claim": "FoCM2025 Theorem 4.11 and Proposition 4.17 give qualitative finite rank-exact resolutions in appropriate finite/finitely presented contexts, not succinct all-input polynomial bit complexity.",
+      "sources": [
+        "SRC-0070"
+      ],
+      "scope": "Full official publisher HTML specific theorem/proposition proof inspected S030; no new BIT complexity theorem claimed."
+    },
+    {
+      "id": "CLM-0158",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "The exact S030-T66 ring-valued arbitrary-product proof is first in the literature and HHA-level significant.",
+      "sources": [
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0069"
+      ],
+      "scope": "DO NOT PROMOTE; source-level full ring-valued comparison and meaningful homotopy application remain open."
     }
   ]
 }

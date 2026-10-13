@@ -1,0 +1,9 @@
+# S030 competing routes and honest closures
+
+**Structural C: INTERNAL PROOF S030-T66.** All finite products of finite chains (including 4^2,4^3 and unequal lengths), full all-composite purity and Q/every prime B(P) decompositions admit globally compatible integral splitting. Full naturality, Smith and Möbius proof in MATHEMATICS. Adversarial checks finite only; priority and HHA application OPEN, NOT an originality flag.
+
+**Competing A: original LLO Problem1 k>=1 succinct nonprincipal relative resolutions.** Reviewed original field LLO Problem1 and original FoCM2025 Thm4.11/Prop4.5/4.17. Existence of rank-exact finite resolutions is known, so merely constructing finite expanded-grid resolution is not a new BIT upper bound. A valid succinct problem must define: binary n, degrees/coordinates, coefficients, generators/relations size L in bits, oracle presentation for nonprincipal interval blocks, their membership/intersection query cost, and the requested relative projective-dimension decision. Expanded-product matrix count can be exponential in L. No nontrivial all-input bit upper/lower theorem or genuine application established. **OPEN**.
+
+**Geometric reserve B:** Frozen original S023 two graphs g/f1 with 16,471 pair inequalities per graph remain without exact strict R5 coordinates or universal nonexistence proof. No unsupported heuristic converted to no-go. S028 signed integral coefficient 0/2, 334-point benchmarks remain valid; Lanari–Scoccola3.14 retires Hopf route as proposed original flagship.
+
+**Research decision:** continue structural correctness and source priority as S031, with strong parallel pivot to succinct complexity if T66 proves classical. No HHA publishable flagship selected.

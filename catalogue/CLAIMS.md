@@ -203,3 +203,9 @@ CLM-0139/0140 remain valid internal family statements. Their12 product strata us
 |CLM-0152|PROGRAMME_PROVED|Primitive-all-composites determinant2 square fails exactly F2 block assumption, necessity of every-prime gate.|
 |CLM-0153|COMPUTED_EXACT|Finite recursive support census and mixed-grid conjugated all-comparable Smith/commuting tests, not all-prime proof.|
 |CLM-0154|SOURCE_STATED|LLO original field-only, Höppner–Lenzing1981 projective and Keagy2026 ring prior-art risk, full proofs uninspected.|
+
+## S030 claims
+- **CLM-0155 PROGRAMME_PROVED internal:** T66 full arbitrary finite-length product-chain integral block descent under all-composite pure-cokernel and Q/all-Fp field block hypotheses; independent priority/HHA gate OPEN. Proof: sessions/S030/MATHEMATICS.md.
+- **CLM-0156 COMPUTED_EXACT finite:** mixed sheared witnesses 3²,4²,4³,5², all comparable Smith, band rank inversions PASS; never universal.
+- **CLM-0157 SOURCE_STATED:** original FoCM2025 qualitative rank-exact resolutions do not themselves supply succinct BIT complexity.
+- **CLM-0158 INHERITED_UNVERIFIED:** T66 is first original HHA-level ring-valued result — NOT ESTABLISHED.
