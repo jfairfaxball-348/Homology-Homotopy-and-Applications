@@ -83,3 +83,9 @@ C11 T28 arbitrary-n Boolean integral iff retains INTERNAL proof standing; no pri
 - **B, integer mixed 3x3:** genuine overlaps of middle induced bands; no compatible global saturated idempotents proved, no all-prime+primitive fully checked counterexample. OPEN.
 - **C, flag/metric:** T38 upgrades S014 T36 to one fixed finite arbitrary metric Rips at one scale with **three** vertex thresholds and margin; generic flag realisation, not real two-parameter Rips-scale+height, fixed bounded-dimensional Euclidean or k-effective point cloud. B3 cannot order-embed two chains. Novel HHA theorem NOT achieved.
 - **Gate:** NO_VIABLE_HHA_FLAGSHIP_YET; S016 only FUTURE.
+
+## S016 routes
+- **A T39 — restricted real parameter bridge:** all-k block-relative pd equality for the exact clamped prebirth-sentinel grid over R^n, hence original real-parameter one-critical simplicial input fixed n,k via finite T37. Naive grid without sentinel is FALSE; explicit real bounded rectangle mixed-square obstruction. Candidate proof internally complete, scholarly originality not certified; compare LLO §2.2 Kan and 2023–25 right-approximation papers before any G2.
+- **B T40 — true 2-parameter metric witness:** Euclidean radius and ONE height, 3 collinear points cofiber S²; 4 square points cofiber S²∨S²; explicit stable discrete window. Elementary, does not yet fulfil HHA-significant novelty.
+- **C mixed integer 3x3:** no coherent saturated natural idempotents and no full all-hypotheses counterexample. OPEN.
+- **Gate:** NO_VIABLE_HHA_FLAGSHIP_YET; S017 FUTURE UNEXECUTED.

@@ -96,3 +96,10 @@
 - **DEC-0079:** Accept internal T38 fixed metric 1/2 Rips graded by THREE vertex-threshold functions with explicit margin; no genuine 2-param metric radius+one height theorem or k-bound. B3 order dimension obstruction only to reindexing.
 - **DEC-0080:** No full mixed 3x3 integer split/no-split result. Do not mislabel induced middle band as counterexample. Original 2026 HHA final and 1981 JPAA proof still inaccessible.
 - **DEC-0081:** **NO_VIABLE_HHA_FLAGSHIP_YET**. G2/G3/G4 remain NOT_STARTED; no Lean, Palomar, paper, arXiv, HHA, correspondence or publication. Exactly S015 and S016 FUTURE, UNEXECUTED.
+
+## S016 decisions (13 October 2026)
+- **DEC-0082:** Verified S015 actual PR16 ordinary 2-parent merge fb848dc79a661ab417b5998d2277362c81dacace, tree788e3aed; main hosted workflow/run38370747561 job115206837510 and one governance check SUCCESS; legacy status contexts [] ABSENT_NOT_PASS, accessible rulesets [], protection403 UNKNOWN; no concurrent S016 on entry.
+- **DEC-0083:** Accept T39 INTERNAL: fully specified prebirth-sentinel clamped finite-grid extension preserves **all LLO block** relative epimorphisms by Lan_π, and relative pd in R^n equals finite G at all k via Schanuel dimension shift. Restricted one-critical simplicial R^n fixed n,k question upgraded; no broad arbitrary-family or succinct presentation claim.
+- **DEC-0084:** Accept unaugmented critical-grid failure: k_[0,1)² restricts to a finite 2×2 death block yet violates real square middle exactness; loop/two-filtered disks realise it as genuine H1 of a one-critical geometric bifiltration. Sentinel indispensable.
+- **DEC-0085:** Accept T40 INTERNAL: true Euclidean Rips radius plus ONE vertex height on 3 collinear / four square points, cofibres S² / S²∨S²; strict perturbation window. Distinguish classical graph/suspension mechanism and current Oudot–Waas geometry from originality claims.
+- **DEC-0086:** Full proof-level 2023–26 priority and 3×3 integer all-hypotheses coherent splitting remain OPEN. **NO_VIABLE_HHA_FLAGSHIP_YET**, G2/G3/G4 NOT_STARTED, no Lean/Palomar/publication/contact. S017 FUTURE only.

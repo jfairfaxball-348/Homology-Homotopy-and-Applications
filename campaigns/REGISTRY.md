@@ -30,3 +30,6 @@ Proof-first symbolic homotopy campaign. k arbitrary integer parameter, no bounde
 
 ## S015 — symbolic mathematics, NO bounded computation
 T37 uses abstract deterministic finite field matrix algorithms as a proved complexity statement, not an implemented run. Square L 2-middle rank computation and 1/2 metric triangle/edge margin are human-readable symbolic verifications, not CAS/finite enumeration. No claimed runtime, environment, checker/hash or exhaustive candidate search. No mixed-grid numeric matrix winner. S016 FUTURE ONLY.
+
+## S016 bounded witness verification and symbolic algebra
+No exhaustive candidate search, no SAT, no all-prime brute force. T39 is a direct categorical exactness/syzygy proof with a one-critical filtered two-disk counterexample; no machine build. T40 symbolic distances and simplicial f-vectors of **exactly** three collinear points and a four-corner unit square; optional independent Python combinations/dist checker (stdlib, interactive run during session) returned expected A/B/C/D f-vectors and graph β1=1,2; no runtime/output hash recorded, so do NOT elevate to COMPUTED_EXACT or call it a deposited reproducible certificate. G2 absent; S017 FUTURE only.
