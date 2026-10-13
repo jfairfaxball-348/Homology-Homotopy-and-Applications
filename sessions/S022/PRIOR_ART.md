@@ -1,0 +1,15 @@
+# S022 PRIOR_ART — original sources and priority kill, not a G2 novelty pass
+
+**Madahar–Sarkaria (2000), SRC-0054:** original author-hosted https://www.kssarkaria.org/docs/Hopf.pdf, previous S021 original §§2–3 and §5 inspection and S022 opened page screenshots. The 12→4 simplicial Hopf map and construction of CP² from attaching along η are already published; NEVER claim Hopf map or its cup-square as new.
+
+**Munson–Volić, Cubical Homotopy Theory (Cambridge, 2015), NEW SRC-0056:** original https://www.cambridge.org/core/books/abs/cubical-homotopy-theory/2cubes-homotopy-pullbacks-and-pushouts/44669239DEC2B93324AC6DBEFD7C7EBF. Publisher confirms Chapter 3 on homotopy pullbacks/pushouts; indexed original author PDF at https://people.math.rochester.edu/faculty/doug/otherpapers/munson-volic2.pdf contains Definition 3.8.8 of total homotopy cofiber of a square and Proposition 3.8.9 LES. Attempt to directly open PDF returned fetch-disabled error, so access **METADATA_ONLY** (index excerpt not proof inspection). Classical total cofiber is exactly the *type of construction* S021 uses. Absence of the words 'punctured persistence' cannot restore priority.
+
+**Hopf cone cup-square, SRC-0058:** https://ncatlab.org/nlab/show/Hopf%2Binvariant explains classical mapping cofiber C_f and x²=H(f)y; secondary mathematical reference, primary historical sources not exhausted. S021's difference 0 vs ±1 is standard Hopf invariant after reducing its diagram to a cofiber.
+
+**Original Cohn–Rajagopal, SRC-0057:** https://link.springer.com/article/10.1007/s00454-026-00841-x, direct Springer full text §2, 2026 original, tau5 40–44. Thus T50 51 bound is not new sphere packing. The exact polynomial supplies a self-contained elementary certificate solely for needed <72 inequality.
+
+**Original Mémoli–Stefanou–Zhou 2023/24, SRC-0055:** https://link.springer.com/article/10.1007/s41468-023-00138-5, original abstract/introduction/definitions and stability. Persistent cup modules predate present programme. Exact S021 mixed-squared bifiltration novelty not established.
+
+**Original Oudot–Waas SoCG2026 SRC-0049:** https://doi.org/10.4230/LIPIcs.SoCG.2026.82, original SoCG HTML persistent homotopy type and function-Rips; earlier original Thm1/§2.3 inspection retained. **Original Blaser et al. 2026 SRC-0053:** https://link.springer.com/article/10.1007/s41468-026-00237-z, original §6.3 Def6.6/Prop6.7 incl proof previously inspected; function-Rips natural equivalence known.
+
+**Adversarial verdict:** The *ingredient-level* novelty of a homotopy-colimit-to-terminal cofiber ring, its Hopf distinction and Rips sublevel construction fails: each ingredient is prior art. It is not proved that *the exact combined pointwise ring-diagram incompleteness theorem for Euclidean Rips* occurs verbatim in a prior paper. But without a nonroutine new stability/obstruction/construction theorem it has insufficient demonstrated original HHA significance; NO FIRST NOVELTY GATE. Comprehensive MathSciNet/zbMATH and full Munson original proof unavailable; don't equate limited search with novelty clearance.

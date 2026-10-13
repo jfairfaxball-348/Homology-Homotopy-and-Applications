@@ -128,3 +128,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - **S021-F4:** Each pointwise cohomology *ring* in both filtrations is too simple to detect the mixed Hopf cup: positive ring products are zero and cross-positive maps factor through balls. This yields genuinely sharpened T48, but classical CP² and current cup persistence remain serious novelty killers.
 - **S021-F5:** No independent cofiber AW diagonal program; f1 input cochain was independently *validated*, not discovered. Do not report a full machine proof of the cup-square or all π_j.
 - **S021-F6:** Source-first comparison added ORIGINAL 2000 PDF and 2023/24 cup work, priority still unpassed. A/C and d3/4/5 remain OPEN.
+
+## S022 — faithful low-d Euclidean compression ruled out, but not all low-d models
+- Graph-preserving nonlinear realization of S021 exact corrected f0 high relation in d<=5 FAILS universally: common target {a} with all 72 incomparable source triangles forms induced K_(1,72); a dimension-5 spherical packing argument gives <=51. This is a PROOF, not a failed numerical optimizer. T49 near-equilateral rank argument had NOT ruled out arbitrary distances.
+- Any claim that this also precludes an alternative graph or homotopy-equivalent bifiltration is FALSE reasoning; redesigns may remove this large star.
+- Originality: total homotopy cofibers of squares appear in 2015 cubical homotopy theory, and Hopf cone cup square/CP² is classical. Searching for literal phrase 'mixed cofiber' was inadequate. Exact persistent application remains unreviewed, and no HHA novelty G2.
+- Front A attempted succinct incidence/hook extensions but no proved new complexity bound; Front C primitive integral local-to-global projector idea lacks global all-hypotheses construction. No speculative positive.

@@ -1076,6 +1076,40 @@
         "SRC-0053"
       ],
       "scope": "NOT ESTABLISHED. G2/G3/G4 NOT_STARTED; secondary A/C fronts and global small dimension OPEN."
+    },
+    {
+      "id": "CLM-0116",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T50: corrected S021 f0 upper-radius threshold graph contains induced K_(1,72). Any Euclidean realization preserving ALL of its upper-radius edges and nonedges has ambient dimension >=6. An explicit positive Gegenbauer expansion yields N<=1890/37 and hence N<=51 for separated neighbors of one center in R^d,d<=5.",
+      "sources": [
+        "SRC-0057"
+      ],
+      "scope": "Exact 182-node graph only; S021 source face count 72, null singleton map and comparability; proof uses self-contained degree-six spherical-code polynomial, valid for arbitrary distances. Does not exclude different graph/topologically equivalent diagram in low d, not a fresh kissing-number bound."
+    },
+    {
+      "id": "CLM-0117",
+      "status": "SOURCE_STATED",
+      "claim": "Total homotopy cofiber of a square and the Hopf mapping-cone cup-square identity long predate this programme; scalar-height Rips bifiltrations and persistent cup enrichments predate it too.",
+      "sources": [
+        "SRC-0056",
+        "SRC-0058",
+        "SRC-0054",
+        "SRC-0055",
+        "SRC-0049",
+        "SRC-0053"
+      ],
+      "scope": "2015 original cubical-homotopy book chapter metadata and indexed original-manuscript excerpt only, 2000 primary author PDF, 2023/24 original publisher and 2026 sources; does not prove complete priority search of exact S021 example."
+    },
+    {
+      "id": "CLM-0118",
+      "status": "HEURISTIC",
+      "claim": "The graph-specific S022 T50 dimension lower bound alone supplies an original nonroutine HHA publishable counterexample, or all d<=5 Euclidean scalar-height Rips Hopf comparisons are impossible; A/C fronts solved.",
+      "sources": [
+        "SRC-0056",
+        "SRC-0057",
+        "SRC-0054"
+      ],
+      "scope": "NOT ESTABLISHED. The T50 graph obstruction is a programme-specific necessary condition, not a universal topology theorem or source-priority breakthrough; Stage2/G2, Lean, Palomar, manuscript, arXiv/HHA remain closed."
     }
   ]
 }

@@ -495,6 +495,33 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Introduction and explicit categorical-invariant, cup-module and stability statements inspected; not complete §4 proofs or mixed-cofiber priority examination.",
       "observed": "Cohomology cup products, persistent cup modules and stable persistent cup-length/LS-category invariants already developed; paper discusses ordinary single-parameter filtrations; S021 mixed-cofiber comparison not priority-cleared."
+    },
+    {
+      "id": "SRC-0056",
+      "title": "B. A. Munson and I. Volić, Cubical Homotopy Theory (Cambridge, 2015), Chapter 3 §§3.8–3.9",
+      "url": "https://www.cambridge.org/core/books/abs/cubical-homotopy-theory/2cubes-homotopy-pullbacks-and-pushouts/44669239DEC2B93324AC6DBEFD7C7EBF",
+      "origin": "Original Cambridge 2015 chapter metadata; author manuscript indexed excerpt at https://people.math.rochester.edu/faculty/doug/otherpapers/munson-volic2.pdf",
+      "access": "METADATA_ONLY",
+      "limitation": "Cambridge chapter metadata and original author-hosted PDF searchable excerpt identify definition 3.8.8 total homotopy cofiber; original PDF direct retrieval returned disabled error, so NOT full proof inspection.",
+      "observed": "Total homotopy cofiber and homotopy cocartesian squares predate S022. Novelty cannot rest on simply taking hocolim of punctured square and a terminal cofiber."
+    },
+    {
+      "id": "SRC-0057",
+      "title": "H. Cohn and I. Rajagopal, Variations on Five-Dimensional Sphere Packings, Discrete & Computational Geometry 76 (2026), 1660–1678",
+      "url": "https://link.springer.com/article/10.1007/s00454-026-00841-x",
+      "origin": "Original Springer open full HTML §2 viewed 2026-10-13",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "§2 original statement of 5D kissing number 40<=tau5<=44 and constructions inspected; historical 44 upper-bound proof not independently replicated.",
+      "observed": "Existing 44 upper bound independently implies T50's K_(1,72) obstruction. S022 supplies a weaker self-contained exact Gegenbauer bound 51, not a new sharp sphere-packing result."
+    },
+    {
+      "id": "SRC-0058",
+      "title": "Hopf invariant (classical mapping cofiber cup-square identity), nLab encyclopedia",
+      "url": "https://ncatlab.org/nlab/show/Hopf%2Binvariant",
+      "origin": "Open online mathematical reference section In ordinary cohomology read 2026-10-13",
+      "access": "SECONDARY_ONLY",
+      "limitation": "Expository secondary source, not primary original Hopf cofiber or model-category priority research.",
+      "observed": "For f:S^(2n−1)→S^n the cofiber has integral cup-square coefficient equal to Hopf invariant, the existing mechanism underlying S021 T48."
     }
   ]
 }
