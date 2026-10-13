@@ -76,3 +76,10 @@ C11 T28 arbitrary-n Boolean integral iff retains INTERNAL proof standing; no pri
 - **FRONT C 4D FLAG HOPF COMPARISON:** T36 internal full proof kη and u²=kv with induced flag inclusions, all homotopy group persistence constant, dimension4 sharp for subcomplex model. Ordinary mapping-cylinder/Hopf methods are classical; **not publication target without genuinely new metric Rips/Čech or quantitative constrained invariant**.
 - **GATE:** NO_VIABLE_HHA_FLAGSHIP_YET; S015 future only.
 
+
+
+## S015 routes
+- **A, block-relative k1:** T37 internal complete fixed-n expanded finite-grid polynomial test using genuine LLO block E_X and Koszul criterion. Restricted one-critical simplicial multifiltrations reduce to finite critical grid. S010-T27 and 2023–25 literature collide; broad freely-presented R^n Problem1 NOT solved; useful reference algorithm, NOT flagship.
+- **B, integer mixed 3x3:** genuine overlaps of middle induced bands; no compatible global saturated idempotents proved, no all-prime+primitive fully checked counterexample. OPEN.
+- **C, flag/metric:** T38 upgrades S014 T36 to one fixed finite arbitrary metric Rips at one scale with **three** vertex thresholds and margin; generic flag realisation, not real two-parameter Rips-scale+height, fixed bounded-dimensional Euclidean or k-effective point cloud. B3 cannot order-embed two chains. Novel HHA theorem NOT achieved.
+- **Gate:** NO_VIABLE_HHA_FLAGSHIP_YET; S016 only FUTURE.

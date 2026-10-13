@@ -49,3 +49,12 @@ T34 full-cube BK collapse is essentially textbook spectral-sequence naturality; 
 - 2026 HHA final Lebovici–Lerch–Oudot DOI10.4310/HHA.2026.v28.n1.a9 final proof still not retrievable. 2026 SoCG contents lists Oudot–Waas persistent Latschev original DOI10.4230/LIPIcs.SoCG.2026.82; listing only, no direct proof comparison.
 - T36 prior-art collision: Hopf map/class π3(S2), cofiber cup product, mapping-cylinder inclusion, flag order complexes standard. No MathSciNet/zbMATH or exhaustive newness guarantee. No source-stated Problem1 result or mixed-grid theorem claimed.
 
+
+
+## S015 2026-10-13 original/version searches
+- Original LLO https://arxiv.org/html/2402.16624v4 **STATEMENT** inspected §1.1 Problem1, Def3, Def9 and Thm14: true relative block exact projectives and all-face Koszul test; original v4 dated 2024-12-11, not journal-final proof.
+- Open original SoCG2025 Dey–Jendrysiak–Kerber DOI10.4230/LIPIcs.SoCG.2025.41 abstract/introduction: interval k0 O(N^3), not k1 relative block result. Own prior S010-T27 already proves finite listed-family k1 polynomial with end-ring method; exact novelty collision.
+- Aoki–Escolar–Tada JACT 2025 DOI10.1007/s41468-025-00210-2 publisher abstract inspected; JPAA2025 Relative Koszul coresolutions DOI10.1016/j.jpaa.2025.107905 abstract inspected; previous 2023 Asashiba et al and 2025 FoCM relative Koszul proofs already partly recorded.
+- Oudot–Waas arXiv2603.23460 original abstract located (March2026), direct HTML disabled; no full theorem proof. Flag→arbitrary metric VR construction classical, not externally priority cleared.
+- Journal-final LLO DOI10.4310/HHA.2026.v28.n1.a9 unavailable directly, 1981 original JPAA DOI10.1016/0022-4049(81)90045-1 original full 403, DIFFERENT LNM scan Anubis denied. These are access limits, not priority evidence.
+- No exhaustive current 2026 literature certification or claim broad Problem1 remains open in all models.

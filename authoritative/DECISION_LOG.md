@@ -89,3 +89,10 @@
 - **DEC-0075:** Preserve mixed 3x3 n2/n3 all-hypotheses status OPEN, no accepted counterexample or grid iff. 1981 JPAA and final HHA2026 proofs still uninspected.
 - **DEC-0076:** **NO_VIABLE_HHA_FLAGSHIP_YET**. G2/G3/G4 not started, no Lean/Palomar/manuscript/arXiv/HHA/outreach; exactly S014 and S015 future-only.
 
+
+## S015 decisions (13 October 2026)
+- **DEC-0077:** Verify S014 actual authored 194dbacd sole parent 8b8f6847, tree 5a86add3; PR15 ordinary two-parent merge 685abf01 parents (8b8f6847,194dbacd), tree5a86add3. Main governance push run38368244389 job115198497408 SUCCESS; status contexts [] ABSENT, rulesets [], protection403 UNKNOWN; S015 unused.
+- **DEC-0078:** Accept internal T37 polynomial fixed-dimensional **finite-grid** block-relative k1 by full X-Hom cover, relative Schanuel, LLO all-face Koszul; extend to critical-grid one-critical simplicial multifiltrations. Prior programme S010-T27 and relative-resolution source collisions preclude novelty pass.
+- **DEC-0079:** Accept internal T38 fixed metric 1/2 Rips graded by THREE vertex-threshold functions with explicit margin; no genuine 2-param metric radius+one height theorem or k-bound. B3 order dimension obstruction only to reindexing.
+- **DEC-0080:** No full mixed 3x3 integer split/no-split result. Do not mislabel induced middle band as counterexample. Original 2026 HHA final and 1981 JPAA proof still inaccessible.
+- **DEC-0081:** **NO_VIABLE_HHA_FLAGSHIP_YET**. G2/G3/G4 remain NOT_STARTED; no Lean, Palomar, paper, arXiv, HHA, correspondence or publication. Exactly S015 and S016 FUTURE, UNEXECUTED.

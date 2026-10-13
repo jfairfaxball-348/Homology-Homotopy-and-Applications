@@ -26,3 +26,7 @@ Proof-first symbolic campaign only (not a finite enumerative computational campa
 ## S014 / 2026-10-13
 Proof-first symbolic homotopy campaign. k arbitrary integer parameter, no bounded numerical enumeration, CAS/SAT matrix search, experiments, runtime/output hashes, algorithm claims or formal Lean builds. Explicit CW incidence ∂2=(1,1,1), ∂3 three difference columns, hocolim cofibrancy; Hopf kη mapping cylinder; barycentric flag-induction; cofiber cup-square and dimension4 sharpness. Direct original Problem1 source and 2025 SoCG k0 comparison. Mixed integral grid remains unresolved. Hosted workflow is STATIC ADMIN only. S015 FUTURE UNEXECUTED.
 
+
+
+## S015 — symbolic mathematics, NO bounded computation
+T37 uses abstract deterministic finite field matrix algorithms as a proved complexity statement, not an implemented run. Square L 2-middle rank computation and 1/2 metric triangle/edge margin are human-readable symbolic verifications, not CAS/finite enumeration. No claimed runtime, environment, checker/hash or exhaustive candidate search. No mixed-grid numeric matrix winner. S016 FUTURE ONLY.

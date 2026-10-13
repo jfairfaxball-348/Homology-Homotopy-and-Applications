@@ -1,0 +1,9 @@
+# S015 plan and scope, preregistered before mathematical conclusion
+
+A: Retrieve original LLO 2402.16624v4 §1.1 Problem1, Def3, Def9, Thm14. Work only with its actual field-valued **block projectives** on G=product of finite chains, NOT ordinary representable projectives. Construct natural Hom_X-epic cover, test first syzygy via LLO Koszul homology. Prove polynomial bound for fixed ambient dimension, then convert one-critical genuine simplicial multifiltrations to an explicit diagram. Attack normal-cover Schanuel step, interval enumeration, zero/single-axis/field/complexity boundary cases. Compare S010-T27 and 2023–25 interval/relative-resolution algorithms. If elementary or prior art, record useful algorithm but NO novelty gate.
+
+B: On 3×3 in dimensions 2 and 3 challenge the full all-prime primitive-edge conjecture. Reject any alleged counterexample missing a single composite or possessing only a bottom-peeling failure. If no exact globally compatible integer idempotents or fully verified matrix witness, report OPEN.
+
+C: Investigate whether S014 T36 induced flag inclusions permit a single fixed metric Rips model with coherent vertex grades and a controlled scale margin. Verify triangle inequalities, all eight inclusions, grade uniqueness, compatibility and limits. Distinguish 3 independent vertex filters + one fixed Rips scale from the demanded true 2-parameter (scale, one function) Euclidean/Čech setting; no universal metric novelty claim.
+
+Independent hostile route: toy square diamond representation, bottom death-simple ordinary/relative pd discrepancy, order-dimension obstruction B3↛product of two chains. Stop with complete S015 dossiers, cautious source grades, governance records and exactly S016 FUTURE, UNEXECUTED.
