@@ -1,0 +1,7 @@
+# S023 scope and preregistered finite tests
+
+1. Independently reconcile S022 authored sole-parent commit `dd1270bfb16ebc092ac83e8bf043de990aeb472c`, PR #23, real two-parent merge `43067945a4615973e554e1085083828682a1e4d8` (tree `1c30232ab78b7d1ff3a42710ea921d55c15e27f9`) and main static Action; absence of classic statuses is NOT PASS and protection403 is UNKNOWN. No competing S023 branches/PRs at entry.
+2. Attack S022 induced K(1,72) through a different **simplicial** null map retaining the exact source K and target Q; first check simpliciality for all 36 source tetra, then nullhomotopy using a geometric factorisation rather than a numerical cofiber claim. Pursue genuine Euclidean dimension<=5 only when inequalities are proved; never equate star reduction with embedding.
+3. Finitely enumerate all 168 source faces, 14 target faces, 16,471 unordered vertex pairs per mode; exact 3-class SHA and 644 short edges, f1 reference SHA, target-antichain widths by bipartite matching. Independent optional all-flag-clique GF2 ranks and original Hopf integral cochain. All checks are bounded, complete and code-backed; no sampling substitutes for global geometry.
+4. Audit classical Hopf/Cone, Munson–Volić total cofiber, MSZ persistent cup, Oudot–Waas and Blaser 2026. Check original Musin 4D kissing theorem. Front A/C direct reasoning but forbid unproved global assertions.
+5. Close one mathematical dossier and future S024 prompt; one authored commit on isolated branch, checked PR and nonforce two-parent merge, stop.
