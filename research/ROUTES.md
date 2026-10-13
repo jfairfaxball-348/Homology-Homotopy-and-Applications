@@ -144,3 +144,6 @@ T54 FULL high-graph induced stars g32/f130, not restricted source facet widths31
 
 ## S026 routes
 Front B: T59 repaired exact R181 Hopf/null two-parameter dHI>=1/145603 with T60 independent relative total-cofiber F2 AW, ring/pi pointwise equality inherited; T58 categorical profile stability likely standard. NO K6,6 in either high graph exact T61, but full strict R5 all-pair realisation/infeasibility OPEN. Secondary Front A succinct nonprincipal all-k BIT complexity and Front C all-arrow all-composite simultaneously all-prime integral primitive grid OPEN; no HHA flagship. S027 FUTURE UNEXECUTED.
+
+## S027 route disposition
+Coherent topology B: T62 all n>=1 finite algebraic R^(N-1) three-distance two-height Rips pair on a common triangulated sphere K_n, same entire pointwise graded integral cohomology-ring and all componentwise homotopy-group persistence diagrams; mixed derived-cofiber x² differs by n and quantitative T63 dHI>=1/(1600N). Geometric/event aspect is proved, N variable. Source-independent integer AW and explicit f2 remain missing. No HHA-specific novel application or first novelty gate, despite stronger-than-one-example unbounded coefficient statement. Original BL/LS/MSZ/Hopf/Munson–Volić collide; Stage1 still open. Frozen S023 g/f1 graph strict R5 all-16471 inequalities still OPEN. Front A/C open. S028 FUTURE ONLY.

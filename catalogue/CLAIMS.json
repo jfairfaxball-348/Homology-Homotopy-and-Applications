@@ -1309,6 +1309,47 @@
         "SRC-0056"
       ],
       "scope": "NOT ESTABLISHED; strong standard Hopf/cofiber/stability priority, R5 and A/C open, G2 closed."
+    },
+    {
+      "id": "CLM-0139",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T62 for every n>=1 same-N paired 2D height×radius Euclidean Rips filtrations (N may depend n) with three distance values, two heights and isomorphic full pointwise integral ring and componentwise pi diagrams, yet mixed integral cofiber cup x²=0 versus x²=n y.",
+      "sources": [
+        "SRC-0054",
+        "SRC-0061",
+        "SRC-0060"
+      ],
+      "scope": "Internal proof via simplicial approximation, mapping-cylinder posets, Gram embedding, classical Hopf-cofiber theorem; not independent signed AW and not original-priority cleared."
+    },
+    {
+      "id": "CLM-0140",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T63 each S027 paired family with N points has homotopy-interleaving dHI>=1/(1600N), and mixed-cofiber integer square discrepancies unbounded although full pointwise diagrams agree.",
+      "sources": [
+        "SRC-0061",
+        "SRC-0055",
+        "SRC-0062"
+      ],
+      "scope": "Symbolic radius+height margins and both natural interleaving identities; no uniform N, no d5, no exact distance or novel generic operation claim."
+    },
+    {
+      "id": "CLM-0141",
+      "status": "COMPUTED_EXACT",
+      "claim": "S027 exact Fraction sample event-margin/Gershgorin checks pass at N=5,14,182,500,2500.",
+      "sources": [],
+      "scope": "Sample-only 5 Ns, script SHA b7ab73... output SHA617675..., all-N conclusion from algebraic proof, no integer AW/finite f2 computation."
+    },
+    {
+      "id": "CLM-0142",
+      "status": "HEURISTIC",
+      "claim": "S027 T62/T63 establishes a priority-cleared HHA flagship, a strict R5 certificate or independent integral full-cofiber Alexander–Whitney calculation.",
+      "sources": [
+        "SRC-0061",
+        "SRC-0062",
+        "SRC-0055",
+        "SRC-0060"
+      ],
+      "scope": "NOT ESTABLISHED; BL2017 and classical cofiber/Hopf/2024 stability strong priority collisions; exact frozen 182-graph d5 and integral chain certificate OPEN."
     }
   ]
 }

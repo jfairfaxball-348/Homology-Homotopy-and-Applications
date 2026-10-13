@@ -168,3 +168,9 @@
 - **DEC-0124:** T59 improved exact dHI>=1/145603. T60 independent full F2 relative cofiber AW cup g0 versus f1 nonzero using explicit 1440-cycle. Not integral AW, not all pi machine formalised.
 - **DEC-0125:** T61 both full high comparability graphs have no induced K6,6; cannot infer R5 feasibility/UNSAT. Retain d<=4 exclusion and exact R181 existence.
 - **DEC-0126:** T58 stable cofiber-profile functor is classical-priority vulnerable. No HHA-original flagship, Gate2/Lean/Palomar/paper/arXiv/HHA CLOSED, A/C open; one future S027 UNEXECUTED.
+
+## S027 decisions — 2026-10-13
+- **DEC-0127:** Entry main 937df23df3bfcf165d8ff3adde5209b771154cf2 tree 666afae87cf070f37e1f30e90fd2ea380f31358e; S026 authored4d0b917... sole parent e432cd11..., PR27 ordinary two-parent merge [e432...,4d0b917...] to 937df23df3bfcf165d8ff3adde5209b771154cf2. Hosted main governance Action38424535360/check115390332843 SUCCESS, static only; classic statuses not PASS, rulesets[], protection403 UNKNOWN; zero competing S027.
+- **DEC-0128:** T62 internal all-n Hopf-cofiber coefficient family with pair-specific common triangulated sphere K_n and three-distance Euclidean Gram in R^(N-1), 2 height events and at most 12 product strata; all individual integral ring and pi persistence diagrams equal, but total-cofiber x²=0 versus n. N grows with n, not a fixed-sized/d5 claim.
+- **DEC-0129:** T63 analytic dHI>=1/(1600N) by two interleaving identities and full square naturality; five exact rational sample checks PASS with script/output SHA. Classical Hopf-cofiber used, independent integral AW NOT produced.
+- **DEC-0130:** Full proof-level novelty/HHA significance unestablished vs original BL2017/LS2023/MSZ2024/Munson–Volić2015/Hopf2000/Oudot–Waas/Blaser2026. Frozen g/f1 strict R5, Front A/C OPEN. Gate2/Lean/Palomar/paper/arXiv/HHA not authorised. S028 FUTURE UNEXECUTED.
