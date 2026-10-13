@@ -81,3 +81,10 @@ PROGRAMME_PROVED means internal detailed prose proof, not originality, external 
 |CLM-0072|PROGRAMME_PROVED|T33 classical BK hocolim SS for integral T28 homology diagrams has E2 only columns 0,n−1; only possible d_{n−1} for n>=3.|S012/MATHEMATICS; no collapse claim in n>=3, n2 collapse only.|SRC-0038,SRC-0025|
 |CLM-0073|HEURISTIC|General mixed 3x3 2D/3D integer grid rigidity remains OPEN, not refuted by isolated induced band.|S012/MATHEMATICS; method obstruction only.|SRC-0025,SRC-0033|
 |CLM-0074|HEURISTIC|T28/T32/T33 offer a novel HHA flagship.|S012 priority/HHA gate remains UNCERTIFIED; T29/T32/T33 standard methods.|SRC-0025,SRC-0033,SRC-0034,SRC-0035,SRC-0038,SRC-0039|
+
+## S013 claim updates (internal, no formal or journal originality clearance)
+|CLM-0075|PROGRAMME_PROVED|T34: strict full-cube T28 homology forces punctured-cube BK E2-collapse for n>=2.|Naturality of map to full cube; injective E2 column-zero edge. No new BK machinery.|SRC-0025,SRC-0038|
+|CLM-0076|PROGRAMME_PROVED|Integral natural SES of punctured hocolim homology with free colimit and shifted bottom joint kernel, noncanonically split.|No claim comparison map to top injects, even if SS collapses.|SRC-0025,SRC-0038|
+|CLM-0077|PROGRAMME_PROVED|T35: n3 finite CW full-cube family has same integral H_q persistence but degree-k hocolim comparison to top, all integers k.|Explicit S1/D2/D3 cell construction and degree maps; standard methods, no novelty pass.|SRC-0025,SRC-0038|
+|CLM-0078|HEURISTIC|T34/T35 are original HHA flagship.|Not established: standard naturality/degree constructions and sources precede; G2 CLOSED.|SRC-0025,SRC-0035,SRC-0038,SRC-0040|
+|CLM-0079|HEURISTIC|Unrestricted 3x3 mixed grid rigorously settled.|Still OPEN; no valid counterexample or iff.|SRC-0025|

@@ -63,3 +63,9 @@ C11 Boolean-three-cube RESOLVED INTERNALLY by T26, arbitrary kernels and only pr
 
 ## S012 decision
 C11 T28 arbitrary-n Boolean integral iff retains INTERNAL proof standing; no priority/hard topology gate. New T32 identifies left-derived colim on punctured Boolean cube with truncated Koszul: L_{n-1}=joint bottom kernel, intermediate positive vanish under T28. T33 specialises classical BK spectral sequence to p=0,n−1 with possible d_{n−1}, not an automatic collapse. Literature collision substantial; must exhibit indispensable nonroutine topological transgression/collapse or pivot. Finite G=3x3 mixed 2D/3D global rigidity OPEN, band-only obstruction not counterexample. T29 projective/Reedy latching routine; T30/T31 only extremes. S013 FUTURE.
+
+## S013 route decisions
+- **B/CELLULAR TOPOLOGY (closed under exact T28):** BK sparse E2 T33 and T28 λ_top monic imply d_(n−1)=0 by naturality to terminal full cube (T34), all n>=2. A nonzero example satisfying EXACT STRICT full-cube T28 is impossible. See S013/MATHEMATICS.
+- **B/COMPARISON MAP (retained but not publishable yet):** canonical quotient map τ from shifted bottom kernel to H_*(top)/im λ detects arbitrary integers in an explicit n3 strict CW family (T35), even with all homology diagrams identical. Distinguishes abstract SS collapse from topological comparison. Standard-degree realization; HHA novelty unresolved.
+- **A/MIXED GRID (OPEN):** 3x3 true induced middle-band overlap, primitive generating edges, all subcubes/composites, Q+all Fp block splitting do NOT yet imply an integral simultaneous block decomposition by a valid proof; no verified all-hypotheses counterexample. Route still lacks indispensable topological significance.
+- **C/PIVOT:** after 13 rapid sessions, demand external source-stated independent HHA problem and truly nonroutine theorem/obstruction rather than aggregating standard BK/Reedy/degree facts. S014 strictly future.

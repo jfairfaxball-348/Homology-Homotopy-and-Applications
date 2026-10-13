@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-13",
   "claims": [
     {
       "id": "CLM-0001",
@@ -657,6 +657,57 @@
         "SRC-0039"
       ],
       "scope": "S012 priority and impact FAIL TO CLEAR: T29 standard projective latching, T32 cellular Roos, T33 BK; T28 original significance UNKNOWN. G2 not started."
+    },
+    {
+      "id": "CLM-0075",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S013-T34: if each integral homology diagram of a strict full n-Boolean CW cube satisfies T28, the punctured-cube Bousfield–Kan homology spectral sequence collapses at E2 for all n>=2.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0038"
+      ],
+      "scope": "Pure naturality with the full terminal-object cube: the sole potential d_{n-1} has target in E2_(0,*), which maps injectively via integral T28 top latching to H_*(X_t). Internal proof only, not standalone originality."
+    },
+    {
+      "id": "CLM-0076",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S013-T34 corollary: H_m(hocolim of punctured n-cube) fits a natural short exact sequence 0 -> colim_P H_m(X) -> H_m(hocolim_P X) -> intersect_i ker(H_{m-n+1}(X_empty)->H_{m-n+1}(X_{e_i})) -> 0, with noncanonical integral splitting.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0038"
+      ],
+      "scope": "Natural filtration SES from collapse; both end terms finite free under T28; splitting is NONCANONICAL, does not assert the full comparison map to X_top is injective."
+    },
+    {
+      "id": "CLM-0077",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S013-T35: for n=3 there are strict finite CW full-cube diagrams X^(k), every k in Z, with identical integral homology persistence block diagrams H0=P_bottom, H1=I_bottom, H3=P_top, but homotopy-colimit comparison to the terminal S3 has degree k.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0038"
+      ],
+      "scope": "S013/MATHEMATICS constructs bottom circle, three D2, three D3 attached to pairwise disk spheres, punctured colimit a homology and homotopy 3-sphere; top maps are restrictions of arbitrary degree-k map. Induces canonical comparison invariant tau=k; neither new homotopy theory nor novelty certified."
+    },
+    {
+      "id": "CLM-0078",
+      "status": "HEURISTIC",
+      "claim": "T34/T35 give a significant original HHA publishable flagship.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0035",
+        "SRC-0038",
+        "SRC-0040"
+      ],
+      "scope": "NO_VIABLE_HHA_FLAGSHIP_YET; collapse by elementary spectral-sequence naturality and CW degrees standard; serious prior-art and HHA impact gate unresolved."
+    },
+    {
+      "id": "CLM-0079",
+      "status": "HEURISTIC",
+      "claim": "Arbitrary genuine mixed 3x3 grid integral block rigidity or explicit failure satisfying primitive edges, all-field blocks and all composites is settled.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "FALSE AS A STATUS CLAIM: S013 attempted only structural Ext/coherence arguments without valid all-hypotheses conclusion; general mixed case remains OPEN."
     }
   ]
 }

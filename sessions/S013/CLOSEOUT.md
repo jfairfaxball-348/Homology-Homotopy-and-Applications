@@ -1,0 +1,13 @@
+# S013 closeout — internal topology theorem + exact degree family; G2 CLOSED
+
+**Entry:** main 4904069a8ab529796e6c672d57cfa06d01d55ab0 tree c2ad7e0650380c1a172db1f82c51a60cfb8aae51, S012 atomic branch commit 16c658fe parent fed65428, PR13 ordinary two-parent merge 4904069a8ab529796e6c672d57cfa06d01d55ab0, verified same tree. One authorised S013; no competing live S013 record/branch or open PR on entry. Hosted main run38307441453/governance job115004792332 SUCCESS, statuses [] ABSENT, rulesets [], protection 403 UNKNOWN.
+
+**Results:**
+- T34 INTERNAL: every strict full Boolean n>=2 CW cube with all integer homology diagrams satisfying exact T28 has punctured-cube BK homology SS collapsing at E2. The apparently possible S012 d_(n−1) must vanish by naturality to the terminal full cube and injective integral top-latching map. This yields a natural split-as-groups SES with bottom joint-kernel shifted n−1 and free homology; no natural choice of splitting.
+- T35 INTERNAL: explicit literal-subcomplex n3 CW cube S1 -> three D2 -> three D3 and top S3, with all maps to top restrictions of degree-k maps. Every k has identical all-degree integral homology T28 blocks (P_bottom, I_bottom, P_top), but comparison hocolim_P X->X_top has degree k. This is measured by canonical filtered quotient comparison τ. All cellular incidence matrices/saturation checked symbolically; no software or Lean.
+- Punctured-only genuine nonzero d2 example by one disk-to-S2 quotient map is proved; it cannot extend to a strict full top with λ injective, so NOT a counterexample to T34.
+- Mixed 3x3 grids dimension2/3 still unresolved, no all-hypotheses integer counterexample nor simultaneous grid integral idempotents.
+
+**Priority:** T34 classical BK/naturality consequence, T35 elementary CW degree mechanism; no HHA original/impact pass. Original 1981 JPAA six-page full article 403; related Bielefeld conference scan Anubis blocked; IP-Paris HHA2026 institutional abstract available, journal final full proof not accessed. No exhaustive audit.
+
+**Validation:** internal written symbolic independent-attack checklist, no solver/CAS/Lean or mathematical certificate; hosted GitHub static CI administrative only. All governing JSON/MD catalogues/ledgers synced in SAME single isolated authored atomic commit. This authored tree contains NO fabricated outgoing SHA/PR/merge; record actual refs in GitHub external verification after merging. No Lean, Palomar, paper, arXiv, HHA or outside contact. Stage1 remains open, G2/G3/G4 not started and G5/G7/G8 owner-gated. S014 is FUTURE and requires a separate explicit invocation.

@@ -1,0 +1,9 @@
+# S013 owner invocation and verified remote entry — 13 October 2026
+
+Owner explicitly instructed 'Run this session' with URL https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/authoritative%2FNEXT_SESSION_PROMPT.md. Faithful summary, not fabricated bytewise transcript or hash. Only S013 authorised.
+
+Pinned LIVE main 4904069a8ab529796e6c672d57cfa06d01d55ab0, tree c2ad7e0650380c1a172db1f82c51a60cfb8aae51. Independently verified S012 ONE authored commit 16c658fe21f7d553bd688e23f1b6ccbbcd4b4e85 parent fed65428e59eeb0a45d565d44ebce67f92208267, tree c2ad7e0650380c1a172db1f82c51a60cfb8aae51; PR #13 closed/merged; TWO ordered merge parents fed65428e59eeb0a45d565d44ebce67f92208267 and 16c658fe21f7d553bd688e23f1b6ccbbcd4b4e85; GitHub's ordinary non-force merge SHA 4904069a8ab529796e6c672d57cfa06d01d55ab0, same tree. No intervening main changes on entry, no open PRs and no S013 branch or S013 directory among live branch/tree listings.
+
+Governance workflow file .github/workflows/repository-integrity.yml. Main merge Actions run 38307441453 COMPLETED SUCCESS, governance job115004792332 SUCCESS (including static governance/catalogue validation). One check-run 'governance' success. Combined legacy statuses [] zero/pending = ABSENT, not success. Accessible rulesets list [], protection endpoint 403 RESOURCE_NOT_ACCESSIBLE_BY_INTEGRATION = UNKNOWN, despite branch protected=false display. Workflow list API unsupported in accessible fetch; actual workflow file and run/jobs inspected. No new actions or release inferred.
+
+Read AGENTS, START_HERE, STATE.json, session protocol/ledgers, claim/source JSON and MD, S011 T28/T29 and S012 complete mathematics/adversarial/priority/closeout; Stage1 open, later gates closed. Stop strictly after S013; prepare S014 future-only. All external access grades remain qualified.
