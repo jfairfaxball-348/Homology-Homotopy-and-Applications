@@ -1,0 +1,4 @@
+# S028 input and pinned entry
+Owner invocation summary: run the linked live NEXT_SESSION_PROMPT.md; this authorises exactly S028. Exact owner-message bytes are not hashed.
+Live main 67b978a683fa498241b003937184b2c55e90cdc1, tree bc30c6b14253d08b3a68185ecfaaf488b941b8b2. S027 authored 944fe61af5e42b449c1b8656e8ba2e3124cae97b has sole parent 937df23df3bfcf165d8ff3adde5209b771154cf2. PR28 closed/merged at 2026-10-13T16:26:25Z with ordinary two parents [937df23...,944fe61...], same tree. No open PR or S028 branch on entry; branch list observed via git ls-remote.
+Hosted main run38430513953/check115411151104 success; S027 PR run38430375525 success; push38430320108 success. Job details retrieved separately. Static governance only. Classic status has zero contexts (not CI pass). Rulesets empty; unauthenticated protection401 UNKNOWN (earlier403 not presumed current). No intervening main authors after S027.

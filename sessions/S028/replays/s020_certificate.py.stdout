@@ -1,0 +1,40 @@
+{
+  "Bminus_collapse_pairs": 58,
+  "GF2_boundary_ranks": [
+    11,
+    37,
+    35
+  ],
+  "all_vertex_links_are_S2": true,
+  "ball_face_counts": [
+    101,
+    117,
+    50
+  ],
+  "cofiber_extra_H1_rank": 14,
+  "dimension": 181,
+  "epsilon": "1/18200",
+  "gram_min_eigenvalue_lower_bound": "99/200",
+  "hopf_invariant": -1,
+  "source_fvector": [
+    12,
+    48,
+    72,
+    36
+  ],
+  "two_clouds": [
+    {
+      "classes_sha256": "65deabfaed606db2d756b38569de169bef073e32c388a774fe23de6d20e66741",
+      "high_edges": 2244,
+      "kind": 0,
+      "short_edges": 644
+    },
+    {
+      "classes_sha256": "ca062fbabeffacdb4f05af32135adb85e01f5368b17bbe36fdc705b53732c351",
+      "high_edges": 1524,
+      "kind": 1,
+      "short_edges": 644
+    }
+  ],
+  "vertices": 182
+}

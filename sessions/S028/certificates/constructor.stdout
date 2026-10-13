@@ -1,0 +1,3 @@
+{"N": 334, "class_sha256": "1d494a13b404409f60bb1f34b1015ed9812d50ce2c645cd5153c3de9019899d3", "cylinder_fvector": [334, 4276, 21224, 51120, 64080, 40320, 10080], "high_edges": 4276, "integral_pairing": 0, "map": "f0", "short_edges": 1516, "source_fvector": [20, 90, 140, 70], "w_support": 321, "z4_support": 1680}
+{"N": 334, "class_sha256": "b8ec5c4facec63455fafb2187a8ee3fc4e1432cb870fc84ace956f9180340c3c", "cylinder_fvector": [334, 2888, 7558, 7798, 2796], "high_edges": 2888, "integral_pairing": 2, "map": "f2", "short_edges": 1516, "source_fvector": [20, 90, 140, 70], "w_support": 438, "z4_support": 2760}
+S028_INTEGER_CONSTRUCTION_PASS

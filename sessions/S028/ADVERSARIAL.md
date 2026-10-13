@@ -1,0 +1,15 @@
+# S028 hostile checks
+
+1. Integer coefficient2 is invisible to mod2 alone. Both cocycle and cycle use signed integer arithmetic; every relative boundary coefficient is checked. No inherited Hopf-cofiber formula supplies the final product.
+2. Generator trap: nonzero pairing2 alone would not prove coefficient2 if x or z were divisible. Target fundamental pairing−1 proves x primitive; boundary of z is ±the primitive source fundamental chain and the integral LES connecting map is an isomorphism. Integral UCT and H3=0 identify degree4 cohomology with Hom(H4,Z).
+3. Integral Smith scope is exact: source K2 ranks19/71/69 and target ranks3/3, all nonzero invariant factors1 by unimodular unit elimination. Huge relative boundary SNF was NOT performed. Relative torsion-freeness is proved by the integral LES, not a mod2 inference.
+4. Homology3-sphere is not automatically S³. The connected sum of the actual original S³ models proves the source; the Bminus collapse, links and signed chain are additional independent certificates. No higher homotopy group is enumerated by software.
+5. All simplices, including f0 dimensions5/6, are retained. Cocycle identities are checked in every degree3 and cup identities in degree5. U includes the 14 target vertices, so relative H1 has rank14. Dropping those isolates would change the object.
+6. Every H0 idempotent arrow is controlled by identical named partitions of the entire 12-stratum plane, not only Betti counts. Maps between positive-degree plateaux factor through contractible stages.
+7. Independence means a separate read-only program imports no constructor. It reconstructs cliques using neighbourhood intersections, verifies supplied cochains and cycles from boundaries, and rederives the full matrices arithmetically. It does share the declared public mathematical input/certificate. There is no formal proof assistant certificate.
+8. Rank333 is an exact property of the supplied Gram tables, not a universal R5 obstruction for the original g/f1 graph. The new constant f0 graph's giant star must not be substituted for frozen g.
+9. Lanari–Scoccola Proposition3.14 already proves the coherent-square/positive-gap mechanism. Our full Ho(Top) diagram equality makes the relationship particularly direct. It is not a counterexample to their persistent Whitehead TheoremB, which needs a coherent comparison morphism.
+10. An all-field ring comparison for coefficient2 vs4 does not prove natural equality of every derived-cofiber profile. It is only a selected-cofiber ring statement and supplies no new HHA significance.
+11. No second session, stage promotion, Lean, Palomar, manuscript, arXiv/HHA or external contact is executed. Static hosted governance is not a topology or novelty check.
+
+12. Negative-radius convention made explicit:12 product strata under vertex-retaining graph extension; the conventional empty negative radius adds event0 and gives15. This does not affect the certificate or gap. No12-stratum claim under the latter convention.

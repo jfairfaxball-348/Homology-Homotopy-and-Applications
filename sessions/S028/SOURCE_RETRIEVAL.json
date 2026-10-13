@@ -1,0 +1,22 @@
+[
+  {
+    "source": "ls",
+    "bytes": 266249,
+    "sha256": "d15e13cde04fc543abdd729cf1af7d91dc5c1aae06a1a5cca4f6e0b33ba09abb"
+  },
+  {
+    "source": "bl",
+    "bytes": 356454,
+    "sha256": "51ed2a4ab9927a27911c805103474ef7b856c1def7eaa075e49f67df0c07abc4"
+  },
+  {
+    "source": "book",
+    "bytes": 45053013,
+    "sha256": "8233bc6a630235e17eaf12bf91d755f8e5cb284ecdbab0e6eaa58f33ea7322f0"
+  },
+  {
+    "source": "musin",
+    "bytes": 125685,
+    "sha256": "40ce5dc73d3c1a77c14dc28aca7d64317876a023e50c81884d067d1fedaf6873"
+  }
+]

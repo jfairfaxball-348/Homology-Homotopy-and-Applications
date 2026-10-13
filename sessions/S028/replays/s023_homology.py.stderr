@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/dcf94e62c37d/hha/scripts/s023_homology.py", line 4, in <module>
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'

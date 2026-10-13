@@ -10,3 +10,6 @@ No mathematical conjecture has yet been fixed. HHA is the *target journal*, not 
 
 S001 has administrative gate PASS only; S002 **FUTURE, UNEXECUTED**, requiring an independent owner instruction. No proof, numerical campaign, Lean build, Palomar, public submission, third-party contact or journal upload has happened.
 
+
+## Live checkpoint at S028 closeout
+STATE.json is the current session authority: S028 complete, S029 future only. Explicit integer total-cofiber coefficient2 is independently checked in a334-point R333 benchmark. The Hopf/coherent-square mechanism is retired as the current HHA flagship after direct LS Proposition3.14 source comparison; all valid earlier mathematics remains preserved. No original theorem is selected and no later stage is promoted. Consult S028/CLOSEOUT.md and the outgoing verified PR for integration evidence.

@@ -1,0 +1,24 @@
+[
+  {
+    "mutation": "signed_cocycle",
+    "exit_code": 1,
+    "result": "REJECTED",
+    "stderr_last_lines": [
+      "  File \"/workspace/scratch/dcf94e62c37d/s028_corruption_4m9e5fxq/scripts/check.py\", line 165, in <module>",
+      "    assert W.get(t,0)==alpha-sum(v*primitive(e) for e,v in boundary(t))",
+      "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "AssertionError"
+    ]
+  },
+  {
+    "mutation": "gram_entry",
+    "exit_code": 1,
+    "result": "REJECTED",
+    "stderr_last_lines": [
+      "  File \"/workspace/scratch/dcf94e62c37d/s028_corruption_4m9e5fxq/scripts/check.py\", line 196, in <module>",
+      "    assert path.exists() and json.loads(path.read_text())==G",
+      "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "AssertionError"
+    ]
+  }
+]

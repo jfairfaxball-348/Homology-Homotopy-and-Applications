@@ -1319,7 +1319,7 @@
         "SRC-0061",
         "SRC-0060"
       ],
-      "scope": "Internal proof via simplicial approximation, mapping-cylinder posets, Gram embedding, classical Hopf-cofiber theorem; not independent signed AW and not original-priority cleared."
+      "scope": "Internal proof via simplicial approximation, mapping-cylinder posets, Gram embedding, classical Hopf-cofiber theorem; not independent signed AW and not original-priority cleared. S028 convention clarification:12 product strata uses vertex-retaining negative-radius graph extension; empty negative-radius extension yields at most15, without changing invariant equality or positive gap."
     },
     {
       "id": "CLM-0140",
@@ -1330,7 +1330,7 @@
         "SRC-0055",
         "SRC-0062"
       ],
-      "scope": "Symbolic radius+height margins and both natural interleaving identities; no uniform N, no d5, no exact distance or novel generic operation claim."
+      "scope": "Symbolic radius+height margins and both natural interleaving identities; no uniform N, no d5, no exact distance or novel generic operation claim. S028 convention clarification:12 product strata uses vertex-retaining negative-radius graph extension; empty negative-radius extension yields at most15, without changing invariant equality or positive gap."
     },
     {
       "id": "CLM-0141",
@@ -1349,7 +1349,61 @@
         "SRC-0055",
         "SRC-0060"
       ],
-      "scope": "NOT ESTABLISHED; BL2017 and classical cofiber/Hopf/2024 stability strong priority collisions; exact frozen 182-graph d5 and integral chain certificate OPEN."
+      "scope": "NOT ESTABLISHED; BL2017 and classical cofiber/Hopf/2024 stability strong priority collisions; exact frozen 182-graph d5 and integral chain certificate OPEN. S028 supplies a separate explicit n=2 integral relative AW certificate; this updates that one historical open obligation only, not arbitrary n, originality or R5."
+    },
+    {
+      "id": "CLM-0143",
+      "status": "SOURCE_STATED",
+      "claim": "Lanari–Scoccola Proposition3.14 already exhibits 2-parameter diagrams identical in Ho(Top) persistence but separated by a positive homotopy-interleaving gap, via a coherent-square plateau argument.",
+      "sources": [
+        "SRC-0065"
+      ],
+      "scope": "Direct selected original arXivv3 §3.3 proof inspection. Not a literal exact finite Euclidean matrix priority match."
+    },
+    {
+      "id": "CLM-0144",
+      "status": "COMPUTED_EXACT",
+      "claim": "S028 complete signed integer relative Alexander–Whitney certificates give primitive total-cofiber cup-square coefficients0 and2 for constant f0 and explicit f2 on common 70-tetra K2.",
+      "sources": [
+        "SRC-0054"
+      ],
+      "scope": "Independent no-constructor-import checker, all cylinder simplices and coboundaries, target generator pairing−1 and relative4-cycle primitive boundary; source/target integral unit Smith plus relative LES/UCT. No huge relative dense Smith decomposition or Lean."
+    },
+    {
+      "id": "CLM-0145",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T64 paired explicit 334-point R333 radius×height Rips bifiltrations have equal full pointwise integral ring/componentwise pi diagrams, total-cofiber x²=0 vs2y, dHI>=1/534400.",
+      "sources": [
+        "SRC-0060",
+        "SRC-0061",
+        "SRC-0065"
+      ],
+      "scope": "Exact signed finite certificates plus full-plane order/contractibility/coherence proof; three distances/two heights. Preserved benchmark, retired as HHA flagship; no R5/newness claim."
+    },
+    {
+      "id": "CLM-0146",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S028 full bifiltration diagrams are naturally isomorphic in Ho(Top)^(R2), although inequivalent as coherent diagrams.",
+      "sources": [
+        "SRC-0065"
+      ],
+      "scope": "Same component maps; only S2 plateaux, every cross-plateau map null through a contractible corner. This is not an equivalence in Ho(Top^(R2)) and not a counterexample to LS TheoremB."
+    },
+    {
+      "id": "CLM-0147",
+      "status": "PROGRAMME_PROVED",
+      "claim": "For selected Hopf cofiber rings coefficients2 and4 (or distinct powers of2) give isomorphic rings over every individual field but nonisomorphic graded integral rings.",
+      "sources": [
+        "SRC-0054"
+      ],
+      "scope": "Elementary cone-ring arithmetic: field ring detects coefficient zero vs nonzero; integer generator automorphisms detect absolute coefficient. Not full derived-profile naturality, not a generated finite f4 certificate, not new HHA significance."
+    },
+    {
+      "id": "CLM-0148",
+      "status": "COMPUTED_EXACT",
+      "claim": "S028 both complete 334x334 rational Gram tables and all55611 unordered distance classes independently verified, rank333 by exact positivity proof; all12 named component strata agree.",
+      "sources": [],
+      "scope": "Each G numerator divided by7451940800, lower bound33067/66800 on 1-perp; literal full tables supplied, no low-dimensional replacement. S028 convention clarification:12 product strata uses vertex-retaining negative-radius graph extension; empty negative-radius extension yields at most15, without changing invariant equality or positive gap."
     }
   ]
 }

@@ -1,0 +1,3 @@
+{"graph": "null_g", "has_induced_K66": false, "potential_pair_edges": 21, "screened_pairs": 324, "tested_candidate_6sets": 0}
+{"graph": "hopf_f1", "has_induced_K66": false, "potential_pair_edges": 36, "screened_pairs": 288, "tested_candidate_6sets": 28}
+S026_EXACT_NO_INDUCED_K66_PASS (NOT R5 UNSAT)

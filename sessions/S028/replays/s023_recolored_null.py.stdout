@@ -1,0 +1,58 @@
+[
+  {
+    "map": "null_recoloured",
+    "sha256": "8cce60227b889db047c72e1bb73aaff6b27448d58097e8ebeaed58286c7d0a23",
+    "short_edges": 644,
+    "target_source_antichain_widths": {
+      "a": 3,
+      "ab": 12,
+      "abc": 27,
+      "abd": 31,
+      "ac": 12,
+      "acd": 31,
+      "ad": 12,
+      "b": 3,
+      "bc": 12,
+      "bcd": 31,
+      "bd": 12,
+      "c": 3,
+      "cd": 12,
+      "d": 3
+    },
+    "triangle_facets": {
+      "abc": 27,
+      "abd": 31,
+      "acd": 31,
+      "bcd": 31
+    },
+    "upper_edges": 1572
+  },
+  {
+    "map": "original_hopf",
+    "sha256": "ca062fbabeffacdb4f05af32135adb85e01f5368b17bbe36fdc705b53732c351",
+    "short_edges": 644,
+    "target_source_antichain_widths": {
+      "a": 3,
+      "ab": 12,
+      "abc": 27,
+      "abd": 27,
+      "ac": 12,
+      "acd": 27,
+      "ad": 12,
+      "b": 3,
+      "bc": 12,
+      "bcd": 27,
+      "bd": 12,
+      "c": 3,
+      "cd": 12,
+      "d": 3
+    },
+    "triangle_facets": {
+      "abc": 27,
+      "abd": 27,
+      "acd": 27,
+      "bcd": 27
+    },
+    "upper_edges": 1524
+  }
+]

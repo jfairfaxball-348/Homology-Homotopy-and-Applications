@@ -1,0 +1,20 @@
+{
+  "main": "67b978a683fa498241b003937184b2c55e90cdc1",
+  "tree": "bc30c6b14253d08b3a68185ecfaaf488b941b8b2",
+  "authored_s027": "944fe61af5e42b449c1b8656e8ba2e3124cae97b",
+  "sole_parent": "937df23df3bfcf165d8ff3adde5209b771154cf2",
+  "pr28": 28,
+  "merge_parents": [
+    "937df23df3bfcf165d8ff3adde5209b771154cf2",
+    "944fe61af5e42b449c1b8656e8ba2e3124cae97b"
+  ],
+  "main_run": 38430513953,
+  "main_job_check": 115411151104,
+  "pr_run": 38430375525,
+  "pr_job_check": 115410667627,
+  "rulesets": [],
+  "protection": "401 UNKNOWN",
+  "competing_s028": [],
+  "open_prs": [],
+  "classic_status": "zero contexts, not PASS"
+}

@@ -1,0 +1,11 @@
+{
+  "n": 182,
+  "num_pairs": 16471,
+  "epsilon": "1/18200",
+  "delta_lower_bound": "1/582400",
+  "max_square_radius_shift_bound": "1164801/84797440000",
+  "minimum_squared_threshold_gap": "1/36400",
+  "height_two_delta": "1/291200",
+  "claims": "ARITHMETIC_PASS_ONLY",
+  "topology": "depends on previously proved S020-S023 classical Hopf and total-cofiber theory"
+}
