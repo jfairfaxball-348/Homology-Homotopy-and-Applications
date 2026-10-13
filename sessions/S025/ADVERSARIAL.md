@@ -1,0 +1,11 @@
+# S025 adversarial audit — falsifiers and forbidden inferences
+
+1. **Not a 5D realization.** S025 original R181 gram proof stands. With 32/30 induced-star leaves, d4 impossible; d5 unresolved. We did not produce coordinates or an all-pair rational graph checker, or proof of d5 infeasibility.
+2. **VC search is a failed heuristic, not exhaustive nonexistence.** A shattered septuple would prove non-R5 for that graph by the standard Euclidean-ball VC≤6 bound, but none was found. Best 7-column patterns 61/65 of 128 do not imply VC dimension≤6; most tuple choices never tested.
+3. **T57 depends crucially on naturality and derived cofiber.** Arbitrary per-corner space equivalences do not preserve the homotopy-coherent square. Strict interleaving maps and NATURAL weak-equivalence zigzags yield an objectwise weak-equivalence zigzag of square diagrams. Derived total cofiber is invariant; ordinary non-derived pushout need not be.
+4. **Do not confuse full-plane invariants and full-plane object equality.** S021/T48 full pointwise graded cohomology-ring diagrams are naturally isomorphic, not literally identical spaces. Four selected neighborhoods remain literally fixed under tiny PARAMETER shifts. Full all-scale bifiltrations are not equal and do have different interleaving type.
+5. **No issue with δ boundary:** all inequalities are STRICT at δ=eps/32; any purported δ≤eta interleaving yields contradiction. Taking infimum excludes values below eta even if distance never attained.
+6. **No π_j computations:** all group values come from order deformation/retractions and published Hopf-map topology, not a machine proof for all j. Integral cup is a named classical theorem plus prior finite Hopf cochain, not new local chain diagonal.
+7. **No novelty from T57 alone:** Blumberg–Lesnick, Lanari–Scoccola, MSZ 2024 and classical total cofiber all predate; lack of literal one-line search matching T57 proves nothing. An explicit example may be mathematically sound and still too elementary/model-specific for HHA.
+8. **No secondary solves:** nonprincipal succinct k≥1 and globally coherent all-prime primitive grid remain genuinely unaddressed.
+9. **Repository checks are separate:** S024 incoming static governance PASS was verified; S025 postwrite hosted CI must be independently observed and cannot certify research; no Lean/Palomar/paper/submission.

@@ -154,3 +154,10 @@
 - **DEC-0115:** T54 full induced-star maxima (not source-only!) exactly32 g and30 f1 by all 182 centers each. Complete exact output corroborated independent networkx. Both below dimension5 kissing LOWER 40; faithful R5 remains OPEN.
 - **DEC-0116:** T55 proved classical Jung/packing global ratio D/s>7/5 for182 distinct R5 points, excluding low-spread three-class model but not all graph representations. T56 proved literal four-corner perturbation stability, not full-plane literal equality.
 - **DEC-0117:** Four local nonconvex optimizers did NOT solve graph R5; no UNSAT, certificate or novel HHA theorem. 2015 full Munson–Volić PDF 45MB direct access failed, indexed excerpt is NOT full proof. Secondary A/C still OPEN, no G2/Lean/Palomar/arXiv/HHA/contact. Prepare S025 FUTURE ONLY.
+
+## S025 decisions (2026-10-13)
+
+- **DEC-0118:** Pin LIVE entry `981cdcaa3492b28d830a42fe126af8baeb15841e` tree a1ebc43632efef4205b913cfa121fe375e0bdccc; predecessor S024 authored1984d6dc... sole parent83a8f3fc..., PR25 two-parent merge; incoming main Action38399465056 governance SUCCESS. Classic statuses [] ABSENT_NOT_PASS, check-runs governance SUCCESS, rulesets [], protection403 UNKNOWN; no open PR or competing S025 branch.
+- **DEC-0119:** Independent local exact 36-facet input→182-node pair matrix reproduces g8cce602... f1ca062... (1572/1524 high, 644 short). No S025 raw R5 coordinates; S024 full stars32/30 remain the rigorous last full graph bound.
+- **DEC-0120:** T57 internally proves dHI(R181 exact g,f1)≥1/582400 via fixed 2×2 parameter margin, natural weak-equivalence zigzag under hypothetical δ interleaving, and incompatible derived cofiber cup square. Original source topology inherited; exact arithmetic local checker PASS. Zero dHI for pointwise π/H*-ring invariants comes from S021/S023, not newly independently computed all π_j.
+- **DEC-0121:** 7-column VC screen fails heuristically, NOT dimension5 impossibility. Maehara original sphericity and Lanari/Scoccola published persistent Whitehead recorded as hostile priority. No HHA novelty pass, no G2/Lean/Palomar/manuscript/arXiv/HHA/contact. A/C open, S026 FUTURE only.

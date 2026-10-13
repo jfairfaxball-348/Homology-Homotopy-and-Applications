@@ -540,6 +540,33 @@
       "access": "METADATA_ONLY",
       "limitation": "Indexed excerpts including §3.8 Definition3.8.8/Proposition3.8.9 and §3.9, but FULL PDF NOT RETRIEVED and PROOF NOT INSPECTED; no claims of page-by-page reading.",
       "observed": "Published 2015 total homotopy cofiber and square homology long exact sequence are clearly preexisting; originality requires an independently new operation/result."
+    },
+    {
+      "id": "SRC-0061",
+      "title": "P. Blumberg and M. Lesnick, Universality of the Homotopy Interleaving Distance (2017)",
+      "url": "https://www.math.columbia.edu/~thaddeus/blumberg/11.pdf",
+      "origin": "Original author-hosted paper fetched/indexed sections §3 and §8 on 2026-10-13",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Indexed PDF text on interleavings, homotopy coherent diagrams and persistent homotopy groups; full theorem proof not separately audited. Their original is for 1-parameter; S025 uses explicitly defined R2 translation analogue.",
+      "observed": "Homotopy interleaving and pointwise group functor versus coherent diagrams predate S025; T57 has no intrinsic novelty simply by using these."
+    },
+    {
+      "id": "SRC-0062",
+      "title": "E. Lanari and L. Scoccola, Rectification of interleavings and a persistent Whitehead theorem, Algebraic and Geometric Topology 23 (2023), 803-832, DOI 10.2140/agt.2023.23.803",
+      "url": "https://msp.org/agt/2023/23-2/agt-v23-n2-p05-p.pdf",
+      "origin": "Original published open PDF accessed through search-index passages 2026-10-13",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Theorem abstract and cited section 5 and example of R2 degree-Rips read; entire paper proofs not audited. Persistent Whitehead theorem concerns existence of comparison maps and conditions; abstract diagram isomorphisms do not automatically yield coherent equivalence.",
+      "observed": "Strong preexisting homotopy interleaving/Whitehead prior art; explicitly challenge T57's practical novelty."
+    },
+    {
+      "id": "SRC-0063",
+      "title": "H. Maehara, Sphericity exceeds cubicity for almost all complete bipartite graphs, Journal of Combinatorial Theory B 40 (1986), 231-235, DOI 10.1016/0095-8956(86)90081-X",
+      "url": "https://www.sciencedirect.com/science/article/pii/009589568690081X",
+      "origin": "Original publisher abstract inspected 2026-10-13",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Abstract only, published sph K(n,n)>=n; no direct proof inspection and no complete K_6,6 induced census performed. Not applied to claim d5 impossibility.",
+      "observed": "A possible graph-specific low-dimensional source beyond local stars; no verified obstruction in the two exact 182-node graphs."
     }
   ]
 }

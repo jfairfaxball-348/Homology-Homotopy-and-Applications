@@ -1199,6 +1199,54 @@
         "SRC-0057"
       ],
       "scope": "NOT ESTABLISHED. Classical Jung/packing and cofiber/cup/functional-Rips source collisions; A/C open; Gate2, Lean, Palomar, paper/arXiv/HHA not authorised."
+    },
+    {
+      "id": "CLM-0128",
+      "status": "COMPUTED_EXACT",
+      "claim": "S025 independently rebuilt the exact corrected 182-node upper comparability graphs, 16,471 pairs each, and confirmed g high1572 f1 high1524 short644 with exact SHA256 digests 8cce6022... and ca062fba....",
+      "sources": [
+        "SRC-0054"
+      ],
+      "scope": "Actually executed local Python /mnt/data/hha_s025/vc_search.py SHA256 f3a92cc...; fixture transcribed from original S020 36 tetra; script is not identical to S023/s024 archived versions; verifies graph fingerprints only."
+    },
+    {
+      "id": "CLM-0129",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S025 T57: for the existing exact Euclidean R181 radius-height g/f1 filtrations, in the two-parameter homotopy-interleaving pseudometric defined using natural strict interleavings after objectwise weak equivalences, distance is >= 1/582400. Their full pointwise integral graded ring diagrams and componentwise homotopy-group diagrams still coincide (inherited S021-S023).",
+      "sources": [
+        "SRC-0054",
+        "SRC-0061",
+        "SRC-0062"
+      ],
+      "scope": "Proof takes the previously proved four-corner total homotopy cofiber cup x^2=0 vs x^2=+-y, plus a precise uniform 2delta no-event margin; homotopy colimits preserve objectwise weak equivalences. This is an INTERNAL consequence, not an original new operation or novelty pass. Full mathematical proof sessions/S025/MATHEMATICS.md."
+    },
+    {
+      "id": "CLM-0130",
+      "status": "COMPUTED_EXACT",
+      "claim": "S025 exact fraction-only gap arithmetic with epsilon=1/18200 eta=epsilon/32=1/582400: maximum bound for any up-to-2eta positive radius shift on the four sample radii, 8eta+4eta^2, is strictly below squared-threshold class gap epsilon/2; height shift 2eta<1/2.",
+      "sources": [],
+      "scope": "Local stdlib command python /mnt/data/hha_s025/gap_certificate.py PASS; SHA256 662627fa8943b3f763360042795366551b5c8f8a51f0862b392763f65dca5be8; computes arithmetic only, not cup products nor model category proof."
+    },
+    {
+      "id": "CLM-0131",
+      "status": "HEURISTIC",
+      "claim": "S025 350 random-start bounded hill-climbing searches for a 7-point neighbourhood shattering witness in each of the two exact 182-node graphs did not find one (best 61/128 g and 65/128 f1 patterns).",
+      "sources": [
+        "SRC-0063"
+      ],
+      "scope": "Nonexhaustive seven-point VC search, not a proof VC dimension<=6 and not a universal R5 feasibility/infeasibility claim. Maxima contingent on sampling and heuristic parameters."
+    },
+    {
+      "id": "CLM-0132",
+      "status": "HEURISTIC",
+      "claim": "T57 has established a genuinely original HHA-level theorem, or S025 solved exact strict R5 dimension for the fixed graphs or secondary A/C.",
+      "sources": [
+        "SRC-0061",
+        "SRC-0062",
+        "SRC-0055",
+        "SRC-0056"
+      ],
+      "scope": "NOT ESTABLISHED. T57 derived from existing Hopf and homotopy-cofiber machinery and standard interleaving formalism; source-level originality still HIGH RISK, Gate2 not opened. R5/A/C unresolved."
     }
   ]
 }

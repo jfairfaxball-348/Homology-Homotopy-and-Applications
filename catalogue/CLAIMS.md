@@ -160,3 +160,11 @@ PROGRAMME_PROVED means internal detailed prose proof, not originality, external 
 - **CLM-0125 PROGRAMME_PROVED:** Exact four-corner radius/height cup witness stable for R181 positions ≤ε/32 and heights≤1/4; continuous-plane equality under perturbation NOT asserted.
 - **CLM-0126 HEURISTIC:** Four 350-iteration R5 trials fail thousands of pair inequalities, NOT an UNSAT certificate.
 - **CLM-0127 HEURISTIC:** No HHA-original flagship; old original sources and Stage gates continue to block priority and publication. See sessions/S024.
+
+## S025 T57 positive homotopy interleaving gap, geometry unclosed
+
+- **CLM-0128 COMPUTED_EXACT:** Independent 36-tetra/182-vertex all-16,471 g/f1 graph fingerprints and high1572/1524, common short644; no direct original scripts execution.
+- **CLM-0129 PROGRAMME_PROVED:** T57 exact original R181 two-parameter radius×height null/Hopf with pointwise π and graded cohomology-ring diagram equivalence but homotopy-interleaving dHI≥1/582400. Proof depends on pre-existing Hopf/cofiber T47/48, natural objectwise weak equivalences and homotopy-colimit invariance, NOT a novel operation.
+- **CLM-0130 COMPUTED_EXACT:** Exact rational margin eta=eps/32, squared-radius shift bound <eps/2 and t shift below event gaps checked locally.
+- **CLM-0131 HEURISTIC:** Local nonexhaustive 7-column VC screen found no obstruction. It is not an unsatisfiability certificate.
+- **CLM-0132 HEURISTIC:** Claim to have HHA-original theorem, settled strict R5 or solved A/C is NOT established. Gate2 unopened. See sessions/S025.

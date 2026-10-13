@@ -98,3 +98,7 @@ T50 provides the first **graph-specific, all-distance** impossibility for compre
 
 ## S023 Stage1 viability and candidate decision
 T51 substantially redesigns the previous 182-node null side: using all four colours but mapping K into a contractible disc, its upper graph replaces 72 independent neighbors by max31 source-neighbor antichain at target facets. The original Hopf f1 still has27; both graphs necessarily require d>=5 by Musin's published k4=24 but have a reproducible exact d=181 realisation. No known d=5 exact realization for either, and no broad no-go theorem for other graph models. Standard Hopf invariants and total square cofibers are not HHA-original; no indispensable advanced new theorem emerged. **NO_VIABLE_HHA_FLAGSHIP_YET**, Stage1 stays open, Gate2 CLOSED. Front A and C remain open; S024 future only.
+
+## S025 provisional target screen
+
+T57: an explicit quantitative **distance-separation** example for TWO finite Euclidean R181 radius×height Rips bifiltrations, retaining isomorphic full pointwise homotopy-group/graded integral ring diagrams while dHI≥1/582400. Genuine homotopy-coherent square cup product is indispensable to the proof, but present evidence is classical 2000 Hopf + 2015 cofiber + 2017 homotopy interleaving, with 2023 Whitehead and 2024 cup stability. It has a valid internally proved quantitative statement, not an independently established HHA-original *significant* theorem. G1B IN_PROGRESS, G2 NOT_STARTED. Exact R5 geometric compression open; no staged publication or formalisation.

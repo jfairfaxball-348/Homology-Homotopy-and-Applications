@@ -56,3 +56,7 @@ Mathematical argument covers ALL Euclidean point placements and ALL distances sa
 
 ## S023 — bounded exact null-map/redesigned graph campaign
 Pre-registered 36 tetra source/12 vertices, 168 source faces/14 target, 16,471 pairs per f0/f1, full 182x182 class matrices, all 14 target-face antichain widths by max matching, all source facet maps, fixed 644 short edges. Locally executed stdlib and networkx3.6.1/GF2; details hashes and input in sessions/S023/COMPUTATION.md. New g class SHA8cce602..., upper edges1572; f1 SHAca062... upper edges1524; target source widths g<=31 vs f1<=27, full clique Betti S². Computation establishes finite graph facts, NOT 5D geometry or novelty. Exploratory canonical 4-colour map enumeration 52385 4-colour simplicial maps, 3930 with facet star<=51 and 3408 null among these (Hopf cochain test); not a universal bound. No external or formal campaign.
+
+## S025 — Hopf/null homotopy-interleaving quantitative gap
+
+T57 internally proved dHI≥1/582400 for the already exact 182-point R181 radius-height Rips pair with identical pointwise H*/π persistence; no authorship priority or HHA flagship selection. Independent complete g/f1 16471-pair graph hash reproduction and rational margin checker PASS. R5 strict graph yes/no remains OPEN, heuristic 7-column VC screen NEGATIVE_ONLY_HEURISTIC. A/C OPEN. S026 FUTURE only; G2/Lean/Palomar/manuscript/arXiv/HHA not authorised.
