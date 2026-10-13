@@ -161,3 +161,10 @@
 - **DEC-0119:** Independent local exact 36-facet input→182-node pair matrix reproduces g8cce602... f1ca062... (1572/1524 high, 644 short). No S025 raw R5 coordinates; S024 full stars32/30 remain the rigorous last full graph bound.
 - **DEC-0120:** T57 internally proves dHI(R181 exact g,f1)≥1/582400 via fixed 2×2 parameter margin, natural weak-equivalence zigzag under hypothetical δ interleaving, and incompatible derived cofiber cup square. Original source topology inherited; exact arithmetic local checker PASS. Zero dHI for pointwise π/H*-ring invariants comes from S021/S023, not newly independently computed all π_j.
 - **DEC-0121:** 7-column VC screen fails heuristically, NOT dimension5 impossibility. Maehara original sphericity and Lanari/Scoccola published persistent Whitehead recorded as hostile priority. No HHA novelty pass, no G2/Lean/Palomar/manuscript/arXiv/HHA/contact. A/C open, S026 FUTURE only.
+
+## S026 decisions (2026-10-13)
+- **DEC-0122:** Pin LIVE entry main e432cd11d223a0d33bc1767caae30905857d4b3b tree2bee05d1685e03de7d80459647cc489473cf34da; S025 authored fd06137... only parent981cdc..., PR26 nonforce two-parent merge. Incoming Action38402659398 governance SUCCESS, one check-run SUCCESS, statuses[] ABSENT_NOT_PASS, rulesets[], protection403 UNKNOWN. No incoming competing S026 PR/branch.
+- **DEC-0123:** S025 standalone two-out-of-three step INVALID, corrected with BOTH interleaving identities + naturality. Total derived coherent square remains invariant under diagram weak-equivalence zigzags.
+- **DEC-0124:** T59 improved exact dHI>=1/145603. T60 independent full F2 relative cofiber AW cup g0 versus f1 nonzero using explicit 1440-cycle. Not integral AW, not all pi machine formalised.
+- **DEC-0125:** T61 both full high comparability graphs have no induced K6,6; cannot infer R5 feasibility/UNSAT. Retain d<=4 exclusion and exact R181 existence.
+- **DEC-0126:** T58 stable cofiber-profile functor is classical-priority vulnerable. No HHA-original flagship, Gate2/Lean/Palomar/paper/arXiv/HHA CLOSED, A/C open; one future S027 UNEXECUTED.

@@ -494,7 +494,7 @@
       "origin": "Original Springer open full HTML, accessed 2026-10-13",
       "access": "STATEMENT_INSPECTED",
       "limitation": "Introduction and explicit categorical-invariant, cup-module and stability statements inspected; not complete §4 proofs or mixed-cofiber priority examination.",
-      "observed": "Cohomology cup products, persistent cup modules and stable persistent cup-length/LS-category invariants already developed; paper discusses ordinary single-parameter filtrations; S021 mixed-cofiber comparison not priority-cleared."
+      "observed": "Cohomology cup products, persistent cup modules and stable persistent cup-length/LS-category invariants already developed; paper discusses ordinary single-parameter filtrations; S021 mixed-cofiber comparison not priority-cleared. S026 inspected original Theorem2 published homotopical stability, strong prior-art collision for T58."
     },
     {
       "id": "SRC-0056",
@@ -538,17 +538,17 @@
       "url": "https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/munson-volic2.pdf",
       "origin": "2026-10-13 indexed excerpts from original author-hosted 45MB PDF; live download attempt returned size-limit 400; alternate author URL denied",
       "access": "METADATA_ONLY",
-      "limitation": "Indexed excerpts including §3.8 Definition3.8.8/Proposition3.8.9 and §3.9, but FULL PDF NOT RETRIEVED and PROOF NOT INSPECTED; no claims of page-by-page reading.",
+      "limitation": "Indexed excerpts including §3.8 Definition3.8.8/Proposition3.8.9 and §3.9, but FULL PDF NOT RETRIEVED and PROOF NOT INSPECTED; no claims of page-by-page reading. S026 full author PDF not retrieved: source excerpts ONLY.",
       "observed": "Published 2015 total homotopy cofiber and square homology long exact sequence are clearly preexisting; originality requires an independently new operation/result."
     },
     {
       "id": "SRC-0061",
       "title": "P. Blumberg and M. Lesnick, Universality of the Homotopy Interleaving Distance (2017)",
       "url": "https://www.math.columbia.edu/~thaddeus/blumberg/11.pdf",
-      "origin": "Original author-hosted paper fetched/indexed sections §3 and §8 on 2026-10-13",
+      "origin": "Original author-hosted paper fetched/indexed sections §3 and §8 on 2026-10-13; S026 read original Example 8.5 and definition excerpts",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Indexed PDF text on interleavings, homotopy coherent diagrams and persistent homotopy groups; full theorem proof not separately audited. Their original is for 1-parameter; S025 uses explicitly defined R2 translation analogue.",
-      "observed": "Homotopy interleaving and pointwise group functor versus coherent diagrams predate S025; T57 has no intrinsic novelty simply by using these."
+      "limitation": "Indexed PDF text on interleavings, homotopy coherent diagrams and persistent homotopy groups; full theorem proof not separately audited. Their original is for 1-parameter; S025 uses explicitly defined R2 translation analogue. No exhaustive entire-paper proof audit.",
+      "observed": "Homotopy interleaving and pointwise group functor versus coherent diagrams predate S025; T57 has no intrinsic novelty simply by using these. Existing persistent-Whitehead counterexample does not literally duplicate R181 example."
     },
     {
       "id": "SRC-0062",
@@ -556,7 +556,7 @@
       "url": "https://msp.org/agt/2023/23-2/agt-v23-n2-p05-p.pdf",
       "origin": "Original published open PDF accessed through search-index passages 2026-10-13",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Theorem abstract and cited section 5 and example of R2 degree-Rips read; entire paper proofs not audited. Persistent Whitehead theorem concerns existence of comparison maps and conditions; abstract diagram isomorphisms do not automatically yield coherent equivalence.",
+      "limitation": "Theorem abstract and cited section 5 and example of R2 degree-Rips read; entire paper proofs not audited. Persistent Whitehead theorem concerns existence of comparison maps and conditions; abstract diagram isomorphisms do not automatically yield coherent equivalence. S026 direct full published PDF fetch failed; no complete proof audit.",
       "observed": "Strong preexisting homotopy interleaving/Whitehead prior art; explicitly challenge T57's practical novelty."
     },
     {
@@ -566,7 +566,7 @@
       "origin": "Original publisher abstract inspected 2026-10-13",
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Abstract only, published sph K(n,n)>=n; no direct proof inspection and no complete K_6,6 induced census performed. Not applied to claim d5 impossibility.",
-      "observed": "A possible graph-specific low-dimensional source beyond local stars; no verified obstruction in the two exact 182-node graphs."
+      "observed": "A possible graph-specific low-dimensional source beyond local stars; no verified obstruction in the two exact 182-node graphs. S026 exact no induced K6,6 in both active graphs; this potential obstruction absent."
     }
   ]
 }

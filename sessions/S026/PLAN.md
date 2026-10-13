@@ -1,0 +1,7 @@
+# S026 preregistered goals and evidence classes
+1. Independently pin main e432cd11d223a0d33bc1767caae30905857d4b3b, tree 2bee05d1685e03de7d80459647cc489473cf34da; predecessor authored fd06137cd82e7a30d18e91d0b68ed9be506a312a has sole parent 981cdcaa3492b28d830a42fe126af8baeb15841e and S025 PR26 merge e432... has two parents in that order.
+2. Audit S025 implication "weak equivalence composite makes first arrow weak equivalence"; hostile test with BOTH interleaving identities and plateau naturality, or retract theorem if false.
+3. Independently build order chains and relative cohomology of D/U for both 182-node graphs; compute degree-two mod2 cocycle, relative Alexander–Whitney square, explicit four-cycle/coboundary reduction, full graph class fingerprints, finite scope and hashes. Mod2 does NOT purport to be an integral AW computation.
+4. Improve 2D dHI lower bound using exact rational threshold-event inequalities. Distinguish lower bound from exact distance; seek general stable cofiber-profile lemma and record priority collision.
+5. Attempt exact induced K6,6 screen with all comparability-pair combinations; a negative exact census does NOT prove R5 satisfiable. Do not reclassify numerical nonconvergence as UNSAT.
+6. Original full-paper access where available; state limitations. No G2 absent independently significant, sourced priority-cleared theorem. No A/C theorem without full quantifiers.

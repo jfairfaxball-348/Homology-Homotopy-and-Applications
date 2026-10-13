@@ -1,0 +1,4 @@
+# S026 owner invocation (faithful summary)
+2026-10-13, one explicit owner request: "Run session" followed by the LIVE GitHub authoritative/NEXT_SESSION_PROMPT.md URL. Upon opening, the authoritative prompt was S026, prepared by S025 as FUTURE/UNEXECUTED. The owner authorised exactly ONE S026 mathematics session, NOT S027 or subsequent stages. Exact owner message bytes appear in the live conversation, but no fabricated downloaded prompt hash is asserted.
+
+Scope: hostile T57 coherent-square/dHI and original-source audit; independent chain-level total-cofiber cup certificate; precise quantitative upgrade; strict R5 graph-specific proof/feasibility attempts; secondary A/C source boundary. One isolated branch and atomic session commit, PR, nonforce ordinary merge, future S027 prompt. No Lean, Palomar, paper, arXiv, HHA or outreach.

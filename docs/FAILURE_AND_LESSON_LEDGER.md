@@ -152,3 +152,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - A closed neighbourhood family in Euclidean R5 cannot shatter 7 points, but a failed 350-seed search is NOT a proof none exist in our finite graphs. Greedy best patterns61/65 out of128; do not conflate 'not found' with VC≤6.
 - T57 gives a positive **homotopy-interleaving** separation by NATURAL weak-equivalence zigzags of whole 2×2 diagrams; a weaker objectwise Ho(Top) comparison loses the higher coherence needed to compare total cofibers. The arithmetic margin is certified, classical Hopf cup-square inherited. Neither is proof of a new HHA flagship.
 - Blumberg–Lesnick, Lanari–Scoccola and MSZ significantly limit novelty; no nontrivial new operation or application. Stage2 priority remains closed.
+
+
+## S026 — hostile topology/geometric lessons
+- S025 bare assertion "b∘a weak equivalence implies a weak equivalence by two-out-of-three" is FALSE. S026 repairs by BOTH interleaving identities and naturality of plateau structure maps (split monic+epic in HoTop). Never reuse false one-composite inference.
+- Actual RELATIVE F2 Alexander–Whitney total-cofiber diagonal on D/U computed g0/f1 nonzero; explicit Hopf 1440 relative 4-simplex cycle, cup pairing1, d3 rank1439. Not an independent INTEGRAL AW calculation, nor all pi_j machine proof.
+- Improved exact dHI lower bound >=1/145603 is not equality or a Gromov–Hausdorff comparison. No-radius-event checks exact; no distance upper bound matching it.
+- Both graphs have NO induced K6,6 by exact exhaustive test, but this kills only that particular sphericity obstruction; all strict R5 distance constraints remain OPEN.
+- Original BL2017 persistent-Whitehead counterexample, Lanari–Scoccola AGT2023, MSZ2024, classical 2015 cubical total cofiber and 2000 Hopf impose major originality risk. Two full primary PDFs still not proof-inspected, source provenance explicit; no flagship/G2. Hosted static checks not math.

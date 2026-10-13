@@ -140,3 +140,7 @@ T54 FULL high-graph induced stars g32/f130, not restricted source facet widths31
 - **Homotopy metric candidate:** new INTERNAL T57 dHI≥1/582400 from exact four-corner gap and derived Hopf/null cup square in R181. All pointwise graded integral cohomology-ring and componentwise π persistence agree, as proved before. This is beyond pointwise invariant discrimination but uses established cofiber/interleaving machinery, likely major originality challenge from Blumberg–Lesnick/Whitehead. **Provisional research, not selected as HHA flagship; G2 CLOSED.**
 - **Secondary A/C:** no new nonprincipal succinct bit-complexity or primitive all-prime integer grid theorem.
 - **S026:** either make T57 genuinely nonroutine with originality source inspection or kill it and pivot, while attacking exact strict d5 geometry with stronger certified invariants.
+
+
+## S026 routes
+Front B: T59 repaired exact R181 Hopf/null two-parameter dHI>=1/145603 with T60 independent relative total-cofiber F2 AW, ring/pi pointwise equality inherited; T58 categorical profile stability likely standard. NO K6,6 in either high graph exact T61, but full strict R5 all-pair realisation/infeasibility OPEN. Secondary Front A succinct nonprincipal all-k BIT complexity and Front C all-arrow all-composite simultaneously all-prime integral primitive grid OPEN; no HHA flagship. S027 FUTURE UNEXECUTED.
