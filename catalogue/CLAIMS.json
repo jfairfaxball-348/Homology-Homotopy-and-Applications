@@ -1247,6 +1247,68 @@
         "SRC-0056"
       ],
       "scope": "NOT ESTABLISHED. T57 derived from existing Hopf and homotopy-cofiber machinery and standard interleaving formalism; source-level originality still HIGH RISK, Gate2 not opened. R5/A/C unresolved."
+    },
+    {
+      "id": "CLM-0133",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S026 repair of S025 invalid bare two-out-of-three: BOTH strict interleaving identities and plateau naturality force objectwise weak equivalence of the coherent four-corner squares.",
+      "sources": [
+        "SRC-0061",
+        "SRC-0062"
+      ],
+      "scope": "Full proof sessions/S026/MATHEMATICS.md; natural diagram zigzags required; no independent novelty."
+    },
+    {
+      "id": "CLM-0134",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T58 derived total-cofiber profile on fixed rectangles is 1-Lipschitz for honest two-parameter homotopy interleaving.",
+      "sources": [
+        "SRC-0056",
+        "SRC-0061",
+        "SRC-0055"
+      ],
+      "scope": "Functorial hocolim/cofiber; classical-priority collision, NOT original flagship."
+    },
+    {
+      "id": "CLM-0135",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T59 exact fixed R181 182-node Hopf/null radius-height Rips bifiltrations have homotopy-interleaving distance >=1/145603, equal full pointwise integral rings and componentwise pi-group persistence diagrams inherited from S021/S023.",
+      "sources": [
+        "SRC-0054",
+        "SRC-0061",
+        "SRC-0062"
+      ],
+      "scope": "S026 corrected coherent proof, independent F2 total-cofiber cup and exact rational margin; NOT exact distance/originality/Lean."
+    },
+    {
+      "id": "CLM-0136",
+      "status": "COMPUTED_EXACT",
+      "claim": "T60 fully enumerated relative F2 AW diagonal in derived total cofibers: null g cup square 0; Hopf f1 square nonzero, detected on explicit 1440-simplex relative 4-cycle, d3 rank1439.",
+      "sources": [
+        "SRC-0054"
+      ],
+      "scope": "Actual local Python all chains and 16471 pair fingerprints, scripts/s026_cofiber_aw.py; not an integer AW computation."
+    },
+    {
+      "id": "CLM-0137",
+      "status": "COMPUTED_EXACT",
+      "claim": "T61 neither frozen 182-node high graph has an induced K6,6 (exact exhaustive necessary-pair antichain matching/six-clique audit).",
+      "sources": [
+        "SRC-0063"
+      ],
+      "scope": "g candidate21 no six-clique; f1 candidate36, 28 six-cliques none viable; not an R5 realization or UNSAT proof."
+    },
+    {
+      "id": "CLM-0138",
+      "status": "HEURISTIC",
+      "claim": "T58–T61 give first-originality/HHA flagship clearance or settle 5D strict all-pair graph geometry.",
+      "sources": [
+        "SRC-0061",
+        "SRC-0062",
+        "SRC-0055",
+        "SRC-0056"
+      ],
+      "scope": "NOT ESTABLISHED; strong standard Hopf/cofiber/stability priority, R5 and A/C open, G2 closed."
     }
   ]
 }

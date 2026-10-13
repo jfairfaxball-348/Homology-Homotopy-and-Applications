@@ -168,3 +168,11 @@ PROGRAMME_PROVED means internal detailed prose proof, not originality, external 
 - **CLM-0130 COMPUTED_EXACT:** Exact rational margin eta=eps/32, squared-radius shift bound <eps/2 and t shift below event gaps checked locally.
 - **CLM-0131 HEURISTIC:** Local nonexhaustive 7-column VC screen found no obstruction. It is not an unsatisfiability certificate.
 - **CLM-0132 HEURISTIC:** Claim to have HHA-original theorem, settled strict R5 or solved A/C is NOT established. Gate2 unopened. See sessions/S025.
+
+## S026 claims — 13 October 2026
+| CLM-0133 | PROGRAMME_PROVED | Repair S025 false one-composite WE inference using BOTH interleaving identities and naturality. |
+| CLM-0134 | PROGRAMME_PROVED | T58 functorial derived rectangle cofiber profile 1-Lipschitz, standard priority risk. |
+| CLM-0135 | PROGRAMME_PROVED | T59 R181 Hopf/null dHI>=1/145603, inherited full pointwise integral rings/pi equality. |
+| CLM-0136 | COMPUTED_EXACT | T60 relative TOTAL-cofiber F2 AW cup: g square zero/f1 nonzero on explicit 1440-cycle, not integral AW. |
+| CLM-0137 | COMPUTED_EXACT | T61 no induced K6,6 in either high graph; R5 undecided. |
+| CLM-0138 | HEURISTIC | New original HHA flagship/R5 completion: NOT ESTABLISHED; G2 closed. |
