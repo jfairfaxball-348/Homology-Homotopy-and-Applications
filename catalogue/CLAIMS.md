@@ -195,3 +195,11 @@ CLM-0139/0140 remain valid internal family statements. Their12 product strata us
 | CLM-0146 | PROGRAMME_PROVED | S028 full bifiltration diagrams are naturally isomorphic in Ho(Top)^(R2), although inequivalent as coherent diagrams. | Same component maps; only S2 plateaux, every cross-plateau map null through a contractible corner. This is not an equivalence in Ho(Top^(R2)) and not a counterexample to LS TheoremB. | SRC-0065 |
 | CLM-0147 | PROGRAMME_PROVED | For selected Hopf cofiber rings coefficients2 and4 (or distinct powers of2) give isomorphic rings over every individual field but nonisomorphic graded integral rings. | Elementary cone-ring arithmetic: field ring detects coefficient zero vs nonzero; integer generator automorphisms detect absolute coefficient. Not full derived-profile naturality, not a generated finite f4 certificate, not new HHA significance. | SRC-0054 |
 | CLM-0148 | COMPUTED_EXACT | S028 both complete 334x334 rational Gram tables and all55611 unordered distance classes independently verified, rank333 by exact positivity proof; all12 named component strata agree. | Each G numerator divided by7451940800, lower bound33067/66800 on 1-perp; literal full tables supplied, no low-dimensional replacement. S028 convention clarification:12 product strata uses vertex-retaining negative-radius graph extension; empty negative-radius extension yields at most15, without changing invariant equality or positive gap. |  |
+
+## S029 exact claims
+|CLM-0149|PROGRAMME_PROVED|T65a exact three-level n-block support classification, 2·3^n+n−1, n=2 19/n=3 56; induction, no originality claim.|
+|CLM-0150|PROGRAMME_PROVED|T65 one coherent integer Bn splitting all finite n from every-arrow/composite primitive + Q/allFp blocks; source/prior art gate not cleared.|
+|CLM-0151|PROGRAMME_PROVED|Adjacent primitive but composite×2 all-field interval counterexample if all-composite premise removed.|
+|CLM-0152|PROGRAMME_PROVED|Primitive-all-composites determinant2 square fails exactly F2 block assumption, necessity of every-prime gate.|
+|CLM-0153|COMPUTED_EXACT|Finite recursive support census and mixed-grid conjugated all-comparable Smith/commuting tests, not all-prime proof.|
+|CLM-0154|SOURCE_STATED|LLO original field-only, Höppner–Lenzing1981 projective and Keagy2026 ring prior-art risk, full proofs uninspected.|

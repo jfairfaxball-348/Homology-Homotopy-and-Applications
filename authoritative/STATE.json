@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-13",
-  "last_completed_session": "S028",
-  "recommended_next_session": "S029",
+  "last_completed_session": "S029",
+  "recommended_next_session": "S030",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "No original HHA flagship selected. S028 T64 benchmark: explicit common70-facet K2, paired334-point R333 radius-height Rips with full pointwise ring/pi (indeed HoTop) diagrams equal, independently checked signed integral total-cofiber x²=0 vs2y, dHI>=1/534400. Hopf/coherent-square mechanism retired as flagship after direct LS Proposition3.14 source match. Frozen S023 R5 and Fronts A/C OPEN.",
-  "headline_status": "S028_INTEGER_COFIBER_2_CERTIFIED_INTERNAL__HOPF_FLAGSHIP_RETIRED_LS3_14__R5_A_C_OPEN__G2_CLOSED",
-  "active_campaign": "S029 FUTURE UNEXECUTED: source-first structural integral mixed-grid descent and nonprincipal succinct complexity; frozen R5 only with exact structural certificate. Do not repackage classical Hopf benchmarks as flagship.",
+  "selected_mathematical_problem": "S029 T65 internally proves for every n>=1 the exact frozen 3-level all-primitive-composite, Q/all-Fp global integral Bn decomposition via natural death/slab peeling and integral projective latching. Originality/HHA-fit external novelty NOT CLEARED. S028 T64 certified Hopf benchmark retained but Hopf/coherent-square flagship retired by LS3.14. Frozen R5 and succinct k>=1 open.",
+  "headline_status": "S029_ALL_N_THREE_LEVEL_INTEGRAL_BLOCK_DESCENT_PROVED_INTERNAL__PRIORITY_HHA_UNCLEARED__HOPF_RETIRED__R5_SUCCINCT_OPEN",
+  "active_campaign": "S030 FUTURE UNEXECUTED: hostile T65 audit and source proof-level comparison, four-level grids and succinct nonprincipal k>=1 complexity. No Lean/Palomar/manuscript/publication.",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S028_EXPLICIT_INTEGER_BENCHMARK_HOPF_FLAGSHIP_RETIRED"
+      "status": "IN_PROGRESS_S029_T65_INTEGRAL_GRID_PROOF_INTERNAL_PRIORITY_UNCLEARED"
     },
     {
       "id": 2,
@@ -382,7 +382,20 @@
     "s027_pr_run": 38430375525,
     "s027_pr_check": 115410667627,
     "s028_entry_main": "67b978a683fa498241b003937184b2c55e90cdc1",
-    "s028_entry_tree": "bc30c6b14253d08b3a68185ecfaaf488b941b8b2"
+    "s028_entry_tree": "bc30c6b14253d08b3a68185ecfaaf488b941b8b2",
+    "s029_entry_main": "ad4a88a51ba187c107cc97367e5193fdc439382f",
+    "s029_entry_tree": "1eb681191265ae0b955d94e1f153f37f9f96005e",
+    "s028_authored_commit": "6f8402780934cddf2dbd85f624d882af3bf9f139",
+    "s028_authored_parent": "67b978a683fa498241b003937184b2c55e90cdc1",
+    "s028_pr": 29,
+    "s028_outgoing_merge_sha": "ad4a88a51ba187c107cc97367e5193fdc439382f",
+    "s028_merge_parents": [
+      "67b978a683fa498241b003937184b2c55e90cdc1",
+      "6f8402780934cddf2dbd85f624d882af3bf9f139"
+    ],
+    "s028_merge_tree": "1eb681191265ae0b955d94e1f153f37f9f96005e",
+    "s028_main_run": 38445314214,
+    "s028_main_check": 115462030164
   },
   "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate. S020 inspected original Springer full HTML Monoidal Rips Prop6.7, SoCG DOI abstract/HTML page, MathOverflow exact 36-tetrahedra list and original 2000 simplicial Hopf map bibliographic metadata; priority remains unverified. S021 DIRECT original Madahar-Sarkaria author-hosted PDF §§2,3,5 inspected; Oudot-Waas SoCG2026 HTML Thm1, Blaser et al. 2026 §6.3 Prop6.7, Memoli-Stefanou-Zhou JACT2024 HTML introduction/Def and stability statements; mixed cofiber priority still OPEN. S022 directly read Cohn–Rajagopal 2026 §2 five-dimensional kissing number 40–44 bounds (independent T50 uses its own positive polynomial); Cambridge original Munson–Volić 2015 cubical homotopy pushouts chapter metadata and indexed original PDF §3.8.8 total cofiber excerpt (PDF not directly retrievable); original Sarkaria paper source §§2,3,5 and original JACT/SoCG remain priority adversaries. No complete mixed-persistence priority proof audit. S024 revisited Cambridge 2015 §§3.8/3.9 ORIGINAL indexed author PDF snippets but 45MB direct PDF fetch was too large and alternate URL disabled; no full proof read. Revisited original JACT2026 Monoidal Rips full HTML and SoCG2026 original abstract; no new HHA priority pass. S026 original BL2017 Example8.5 inspected, Lanari-Scoccola AGT2023 full publisher PDF unavailable, MSZ2024 original theorem2 inspected, original Munson-Volic2015 complete PDF not retrieved. No source-cleared novelty. S027 original BL2017 §3 pp11, §7 pp21-23, §8 pp25-26 visually inspected; MSZ2024 original HTML Theorem1/2 and proof passages; LS2023 official abstract/metadata only, Munson-Volic full original PDF inaccessible; Oudot-Waas2026 abstract, Blaser2026 original HTML only. Full novelty proof audit missing. S028: full original LS arXivv3 downloaded and selected §3.3 Proposition3.14/Lemma3.15 and §5 theorem/proof inspected, journal-final PDF still inaccessible. Full original Munson–Volic45MB PDF retrieved, selected chapter3§3.8/3.9 proofs and visual pages168/171 read, correct cofiber Definition3.8.1. MSZ2024 original Theorem2/Lemma3.5 proofs read; Musin–Shamazov2025 original §§2–3 algorithm inspected. Exact certificate priority not claimed; categorical flagship retired.",
   "lean": {
@@ -413,7 +426,9 @@
     "S028 original scientific stdlib scripts actually replayed locally; optional s023_homology.py dependency missing on first replay, recorded failed execution. Hosted workflow remains static only.",
     "S028 LS3.14 directly retires coherent-square/Hopf mechanism as flagship; obtain a genuinely new structural theorem/application on Front A/C or frozen R5 before any first novelty gate.",
     "S029 future only: all arrows/composites primitive and simultaneous Q/allFp mixed-grid decomposition must imply one global integral natural splitting or meet a complete counterexample; do not weaken hypotheses.",
-    "S028 makes negative-radius convention explicit: graph-clique extension retains vertices,12 product strata; standard empty r<0 extension adds event0, at most15 strata. Ring/pi equality and gap unchanged."
+    "S028 makes negative-radius convention explicit: graph-clique extension retains vertices,12 product strata; standard empty r<0 extension adds event0, at most15 strata. Ring/pi equality and gap unchanged.",
+    "S029 T65: independent proof referee + original full 1981 Höppner–Lenzing and 2026 Keagy priority scope; no HHA novelty/significance or homotopy application passed.",
+    "S030 FUTURE ONLY: push all-composite/all-prime integral block descent to axes >=4 levels or achieve succinct nonprincipal k>=1 resolution complexity; strict frozen R5 remains open."
   ],
   "blockers": [
     "No all-distance R5 strict geometric solution/no-go for original Hopf f1 and recoloured null g; 32/30 stars do not exclude R5.",
@@ -423,6 +438,6 @@
     "T57 is an internally proved classical-functor consequence; no original HHA-level theorem confirmed after Blumberg-Lesnick 2017, Lanari-Scoccola 2023, MSZ 2024 source challenge. Gate2 remains NOT_STARTED.",
     "S026 T58 stability looks routine relative to 2015/2017/2024 published precedents; no nonroutine original HHA theorem selected, Gate2 CLOSED.",
     "S028 explicit integer coefficient2 fixes a certification gap, but supplies no significant original HHA theorem. Source-exact LS Proposition3.14 categorical mechanism is already published; flagship retired.",
-    "Strict original g/f1 R5 geometry, nonprincipal all-input succinct complexity and primitive integral mixed-grid global descent remain unresolved."
+    "S029 resolves frozen 3-level integral descent internally (T65), but external novelty/HHA significance are unknown; strict R5 and succinct k>=1 complexity remain open."
   ]
 }
