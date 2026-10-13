@@ -160,3 +160,10 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Improved exact dHI lower bound >=1/145603 is not equality or a Gromov–Hausdorff comparison. No-radius-event checks exact; no distance upper bound matching it.
 - Both graphs have NO induced K6,6 by exact exhaustive test, but this kills only that particular sphericity obstruction; all strict R5 distance constraints remain OPEN.
 - Original BL2017 persistent-Whitehead counterexample, Lanari–Scoccola AGT2023, MSZ2024, classical 2015 cubical total cofiber and 2000 Hopf impose major originality risk. Two full primary PDFs still not proof-inspected, source provenance explicit; no flagship/G2. Hosted static checks not math.
+
+## S027 — scalable Hopf families versus originality and constructive obligations
+- Quantifier trap: unbounded coefficient n comes with N(n) and Euclidean ambient dimension N(n)-1 allowed to grow; 12 **parameter strata** is NOT bounded cloud complexity or strict d5 embedding.
+- Pointwise pi3 persistence maps do NOT include the coherent source union U->terminal D attaching map f_n. All actual nonidentity positive-degree transition maps between S² plateaux factor through a contractible Bplus or Bminus stage. H0 rings require exact labelled-component tracking, not Betti count.
+- The integer x²=n mapping-cone theorem is CLASSICAL. No independent integral relative AW cochain, signed 4-cycle and integral pairing for explicit f2 done; F2 S026 witness does not solve this.
+- S027 dHI>=1/(1600N) follows symbolic no-event margin, not sampled Fraction checks alone. Prior BL coherent warning/Whitehead examples and MSZ stable categorical theorem create major newness risk.
+- Strict frozen S023 182-graph d5 feasibility remains OPEN despite S026 no-K6,6. Dimension N(n)-1 family does not compress graphs. No genuine real-data/HHA-worthy use case shown.

@@ -176,3 +176,9 @@ PROGRAMME_PROVED means internal detailed prose proof, not originality, external 
 | CLM-0136 | COMPUTED_EXACT | T60 relative TOTAL-cofiber F2 AW cup: g square zero/f1 nonzero on explicit 1440-cycle, not integral AW. |
 | CLM-0137 | COMPUTED_EXACT | T61 no induced K6,6 in either high graph; R5 undecided. |
 | CLM-0138 | HEURISTIC | New original HHA flagship/R5 completion: NOT ESTABLISHED; G2 closed. |
+
+## S027 claims — 13 October 2026
+| CLM-0139 | PROGRAMME_PROVED | T62 parameter n>=1, SAME-N per pair, N(n) grows, three Euclidean distances/two heights, identical whole pointwise integral rings and pi diagrams, mixed cup coefficient 0/n. Classical Hopf-cofiber dependency, NOT independent integral AW. |
+| CLM-0140 | PROGRAMME_PROVED | T63 dHI>=1/(1600N) from exact symbolic plateau and coherent interleaving; not exact dHI, no fixed dimension. |
+| CLM-0141 | COMPUTED_EXACT | Five sample N rational margin checks; source/output hashes in sessions/S027/COMPUTATION.md, not exhaustive. |
+| CLM-0142 | HEURISTIC | Originality/HHA/strict R5/integer chain-level proof NOT ESTABLISHED; Gate2 unopened. |

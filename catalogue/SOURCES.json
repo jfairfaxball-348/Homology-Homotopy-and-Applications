@@ -494,7 +494,7 @@
       "origin": "Original Springer open full HTML, accessed 2026-10-13",
       "access": "STATEMENT_INSPECTED",
       "limitation": "Introduction and explicit categorical-invariant, cup-module and stability statements inspected; not complete §4 proofs or mixed-cofiber priority examination.",
-      "observed": "Cohomology cup products, persistent cup modules and stable persistent cup-length/LS-category invariants already developed; paper discusses ordinary single-parameter filtrations; S021 mixed-cofiber comparison not priority-cleared. S026 inspected original Theorem2 published homotopical stability, strong prior-art collision for T58."
+      "observed": "Cohomology cup products, persistent cup modules and stable persistent cup-length/LS-category invariants already developed; paper discusses ordinary single-parameter filtrations; S021 mixed-cofiber comparison not priority-cleared. S026 inspected original Theorem2 published homotopical stability, strong prior-art collision for T58. S027 original publisher HTML Theorem1 general categorical and Theorem2 homotopical persistence stability plus §3 proof read; high priority collision."
     },
     {
       "id": "SRC-0056",
@@ -547,8 +547,8 @@
       "url": "https://www.math.columbia.edu/~thaddeus/blumberg/11.pdf",
       "origin": "Original author-hosted paper fetched/indexed sections §3 and §8 on 2026-10-13; S026 read original Example 8.5 and definition excerpts",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Indexed PDF text on interleavings, homotopy coherent diagrams and persistent homotopy groups; full theorem proof not separately audited. Their original is for 1-parameter; S025 uses explicitly defined R2 translation analogue. No exhaustive entire-paper proof audit.",
-      "observed": "Homotopy interleaving and pointwise group functor versus coherent diagrams predate S025; T57 has no intrinsic novelty simply by using these. Existing persistent-Whitehead counterexample does not literally duplicate R181 example."
+      "limitation": "Indexed PDF text on interleavings, homotopy coherent diagrams and persistent homotopy groups; full theorem proof not separately audited. Their original is for 1-parameter; S025 uses explicitly defined R2 translation analogue. No exhaustive entire-paper proof audit. Selected pages directly visually inspected S027, not complete original article.",
+      "observed": "Homotopy interleaving and pointwise group functor versus coherent diagrams predate S025; T57 has no intrinsic novelty simply by using these. Existing persistent-Whitehead counterexample does not literally duplicate R181 example. S027 directly visually checked original §3 def3.5 (PDF p11), §7 remark7.2/coherence (pp21,23), §8 Example8.5 (pp25–26), NOT full proofs; these block generic group-data incompleteness novelty."
     },
     {
       "id": "SRC-0062",
