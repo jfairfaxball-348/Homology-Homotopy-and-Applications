@@ -121,3 +121,9 @@
 - DEC-0093: Internally accept T46 finite-existence true Euclidean one-height/radius Hopf cofiber comparison, D≃S² and r1<diameter, full π/H group persistence equal but canonical mixed cup square 0/±1. Actual finite simplicial Hopf map, N, coordinates, independent checker NOT enumerated; novel status UNVERIFIED.
 - DEC-0094: A binom(2m,m) staircase size gives NO hardness/new k algorithm; C full mixed integer Q/all-prime primitive global splitting/counterexample OPEN.
 - DEC-0095: Published original SoCG2026 bivariate persistent HOMOTOPY TYPE stable theory inspected; classical Hopf/flag methods require priority scrutiny. NO_VIABLE_HHA_FLAGSHIP_YET; G2/G3/G4 NOT_STARTED, S020 FUTURE only.
+
+## S020 decisions
+- DEC-0096: LIVE S019 PR20 two-parent nonforce merge 3aade05cd2d0d6a921754edce86423ceba13ba4c, parents 3794090ab97c06b8b75e055754a7e6d9fb7bcfc6 / a927ab6d65d460314547ad6666139d2c023f6798, tree 33f7362d63832fc3910f2b9269928f36ef6208d8; postmerge run38383548337/job115249628920 SUCCESS static; statuses[] absent, rulesets[], protection403 UNKNOWN, no competing S020 branch at entry.
+- DEC-0097: Replace S019 unspecified simplicial approximation with explicit 36-facet source and 182-vertex face-poset mapping-cylinder witness T47. Exact integral cochain gives Hopf −1, standard library finite graph/face checks. Squared distances and full-rank centered Gram are algorithmically complete, not hand-listed floating-point coordinates.
+- DEC-0098: The two exact matrix Gram ranks are 181; do NOT claim a witness in d=3,4,5. Mathematical argument covers all π_j but checker does NOT compute infinitely many π_j.
+- DEC-0099: Original 2000 simplicial Hopf input, original SoCG2026 and JACT2026 multiparameter stability make originality unresolved. Front A/C remain open; NO_VIABLE_HHA_FLAGSHIP_YET; no G2, Lean, Palomar, paper/arXiv/HHA/outreach; S021 FUTURE ONLY.

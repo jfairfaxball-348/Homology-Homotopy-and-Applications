@@ -450,6 +450,33 @@
       "access": "METADATA_ONLY",
       "limitation": "Only direct indexed excerpts, PDF not opened; full proof uninspected. §2.C also indexed via https://math.uchicago.edu/~farb/algtop2023/Hatcher.pdf.",
       "observed": "Hopf cofiber CP² and simplicial approximations are classical prerequisites."
+    },
+    {
+      "id": "SRC-0051",
+      "title": "Ondrej Draganov, explicit 36 tetrahedra and vertex map for Madahar–Sarkaria Hopf triangulation (MathOverflow 21 Sep 2022)",
+      "url": "https://mathoverflow.net/questions/3059/simplicial-model-of-hopf-map/3096",
+      "origin": "Original publicly visible MathOverflow answer transcribing 36 facets",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Community transcription of pre-existing 2000 construction; all finite checks repeated locally; does not prove mathematical originality.",
+      "observed": "12 source vertices, 36 tetrahedra; vertex map ai->a etc into boundary tetrahedron."
+    },
+    {
+      "id": "SRC-0052",
+      "title": "K. V. Madahar and K. S. Sarkaria, A Minimal Triangulation of the Hopf Map and its Application, Geometriae Dedicata 82 (2000), DOI 10.1023/A:1005102800486",
+      "url": "https://doi.org/10.1023/A:1005102800486",
+      "origin": "Original journal bibliographic identity cross-checked from source excerpts",
+      "access": "METADATA_ONLY",
+      "limitation": "Original article proof not directly inspected in S020; prior art is fundamental; some later papers question ancillary minimality argument.",
+      "observed": "Classical 12-vertex simplicial Hopf map into boundary of tetrahedron; no new map claimed."
+    },
+    {
+      "id": "SRC-0053",
+      "title": "Blaser, Brun, Gardaa et al., Monoidal Rips: stable multiparameter filtrations of directed networks, JACT 10 (2026), DOI 10.1007/s41468-026-00237-z",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00237-z",
+      "origin": "Original Springer open full HTML §6.3",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Directly inspected Definition6.6 and Proposition6.7 including proof; not entire paper, not exhaustive mixed-Hopf priority check.",
+      "observed": "Sublevel Rips bifiltration and monoidal Rips have naturally homotopy equivalent realizations; paper proves stability, not shown to state exact same mixed cofiber counterexample."
     }
   ]
 }

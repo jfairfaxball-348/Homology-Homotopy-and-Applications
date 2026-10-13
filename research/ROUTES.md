@@ -102,3 +102,10 @@ S017-T41 proves all-LLO-block relative pd on finite sentinel-zero coordinate hyp
 - **Front B primary T46:** internal existential EUCLIDEAN one-height+radius Hopf cofiber counterexample to completeness of H and all π-GROUP diagrams, r1<diameter, top D≃S²; exact symbolic Gram and selected-cutoff perturbation margin. Need explicit η simplicial triangulation/N/d/coordinates/independent checker and proof-level priority before HHA flagship.
 - **Front A:** [m]² order-upset class binomial(2m,m) exponential, nonprincipal two-corner Hom self, but NO new succinct k≥1 polynomial-vs-hard theorem beyond S010 finite-listed method.
 - **Front C:** globally compatible integral primitive all-Q/all-Fp all-subcube [0,2]²/³ splitting or full nonsplitting counterexample NOT proved. NO_VIABLE_HHA_FLAGSHIP_YET, S020 FUTURE.
+
+## S020 route outcomes
+- **B — explicit 182-point T47:** 36 simplicial source facets, poset face-cylinder target flags, 182×182 full rational squared-distance class prescription, exact Gram rank181, 2244/1524 high edges, 644 shared short; cohomology Hopf −1, cofiber x² different. No decimal coordinates needed. π_j maps all j proved by null factorisations, not software enumerated; no original-paper claim.
+- **Small dimension:** Gram itself rank181, hence fixed exact distance patterns cannot embed in d≤180. This is **NOT** a universal obstruction to different witnesses in d=3,4,5.
+- **A:** exponential implicit staircase listing is no hardness reduction or polynomial compact algorithm; unresolved.
+- **C:** global all-Q/all-Fp primitive mixed [0,2]^2/^3 splitting/nonsplitting not resolved.
+- **Priority:** Madahar–Sarkaria Hopf 2000; Oudot–Waas SoCG2026; JACT Monoidal Rips2026. No novelty gate, no HHA flagship. S021 FUTURE ONLY.

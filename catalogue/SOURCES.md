@@ -82,3 +82,8 @@ Reverified SRC-0025 ORIGINAL arXiv2402.16624v4 §1.1 Problem1/Definition3/Theore
 ## S019 sources
 |SRC-0049|[Oudot–Waas SoCG2026 DOI10.4230/LIPIcs.SoCG.2026.82](https://drops.dagstuhl.de/storage/00lipics/lipics-vol367-socg2026/html/LIPIcs.SoCG.2026.82/LIPIcs.SoCG.2026.82.html)|STATEMENT_INSPECTED|Original full HTML, published 27 May 2026|Theorem1, Def28/32, Prop34 and context read; not whole 17-page proof|Bivariate persistent HOMOTOPY TYPE stability known; mixed Hopf priority unresolved.|
 |SRC-0050|[Hatcher Algebraic Topology §2.C/4.B](https://pi.math.cornell.edu/~Hatcher/AT/ATch4.4.pdf)|METADATA_ONLY|Original source indexed excerpts|PDF proof NOT directly opened|Classical simplicial approximation, Hopf invariant and CP² cofiber inputs, not new claims.|
+
+## S020 directly inspected originals
+|SRC-0051|[Draganov's 36-tetrahedron Hopf-map list, MathOverflow](https://mathoverflow.net/questions/3059/simplicial-model-of-hopf-map/3096)|STATEMENT_INSPECTED|21 Sep 2022 community transcription|Exact 12-vertex/36-tetrahedral input with labels a_i→a etc; reused with credit, independently checked finite faces/cochain.|
+|SRC-0052|[Madahar–Sarkaria original 2000 simplicial Hopf triangulation](https://doi.org/10.1023/A:1005102800486)|METADATA_ONLY|Original original-paper metadata; proof NOT opened|This Hopf triangulation is pre-existing, not S020's novelty.|
+|SRC-0053|[Blaser–Brun–Gardaa et al., Monoidal Rips 2026](https://link.springer.com/article/10.1007/s41468-026-00237-z)|PROOF_INSPECTED|Publisher original HTML §6.3 Def6.6/Prop6.7 + proof|Same scalar-function sublevel Rips setting and natural equivalence; no exact Hopf cofiber priority claim inferred.|

@@ -982,6 +982,49 @@
         "SRC-0048"
       ],
       "scope": "NOT ESTABLISHED. T46 existential and unenumerated, other fronts open; G2/G3/G4 closed, NO_VIABLE_HHA_FLAGSHIP_YET."
+    },
+    {
+      "id": "CLM-0107",
+      "status": "COMPUTED_EXACT",
+      "claim": "S020 36-tetrahedral Hopf source has f=(12,48,72,36), boundary ranks mod2 (11,37,35), all 12 vertex links 2-spheres, 58 Bminus collapse pairs; explicit integral cochain yields |Hopf|=1.",
+      "sources": [
+        "SRC-0051",
+        "SRC-0052"
+      ],
+      "scope": "Exact finite Python standard-library checks on listed data; cochain integer pairing -1 with orientation; not Lean or new Hopf map."
+    },
+    {
+      "id": "CLM-0108",
+      "status": "COMPUTED_EXACT",
+      "claim": "S020 explicit equal N=182, source face vertices168 plus target face vertices14, two poset-cylinder high graphs of 2244 and 1524 edges and common 644 low edges; exact class matrix SHA256 13869518... and ca062fba... .",
+      "sources": [
+        "SRC-0051"
+      ],
+      "scope": "Algorithmically complete squared-distance matrix in classes 1−1/18200,1,1+1/18200; graph, connectivity and matrix-class checks; independent semantic proof still needed."
+    },
+    {
+      "id": "CLM-0109",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T47 for the explicit 182-vertex examples: the centered rational Gram is positive of rank181; top is S2, r1 strictly below diameter; entire individual integral homology and π_j diagram maps agree, while mixed cofiber H2 cup square differs by 0 and a generator; 14 extra H1 loops.",
+      "sources": [
+        "SRC-0051",
+        "SRC-0052",
+        "SRC-0049",
+        "SRC-0053"
+      ],
+      "scope": "Internal exact poset-cylinder mapping homotopy and cofiber proof plus finite cochain/checker; all-j π argument mathematical, not mechanically computed; no originality/HHA flagship."
+    },
+    {
+      "id": "CLM-0110",
+      "status": "HEURISTIC",
+      "claim": "T47 is priority-cleared as a new HHA-scale theorem, has a five-dimensional Euclidean witness, or resolves Front A nonprincipal k>=1 or Front C global primitive/all-prime mixed grid.",
+      "sources": [
+        "SRC-0049",
+        "SRC-0052",
+        "SRC-0053",
+        "SRC-0048"
+      ],
+      "scope": "NOT ESTABLISHED. d=181 for exact witness; G2 closed; secondary fronts open; original 2000 Hopf input and 2026 Rips literature significant."
     }
   ]
 }
