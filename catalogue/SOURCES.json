@@ -369,6 +369,24 @@
       "access": "METADATA_ONLY",
       "limitation": "THIS IS NOT the 1981 JPAA six-page Projective diagrams over partially ordered sets are free paper. Direct institutional PDF blocked with Anubis. Indexed bibliography mentions that JPAA paper but neither full proof inspected.",
       "observed": "Related paper confirms contemporaneous poset-diagram literature; no exact theorem/proof equivalence asserted."
+    },
+    {
+      "id": "SRC-0042",
+      "title": "Tamal K. Dey, Jan Jendrysiak and Michael Kerber, Decomposing Multiparameter Persistence Modules, SoCG 2025, 41:1–41:19",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.41/LIPIcs.SoCG.2025.41.html",
+      "origin": "Original Dagstuhl LIPIcs openly accessible full article HTML, original abstract and introduction directly inspected S014",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Algorithmic theorem abstract/introduction inspected but not exhaustive proof; their interval-decomposition O(N^3) recognition is not LLO general relative-X resolution length k>=1.",
+      "observed": "Improved all-fp finite field module decomposition and O(N^3) interval-decomposable module detection; source Problem1 remains distinct."
+    },
+    {
+      "id": "SRC-0043",
+      "title": "Oudot–Waas, A Persistent Version of Latschev's Theorem, SoCG 2026, LIPIcs volume 367",
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2026.82",
+      "origin": "Original SoCG2026 Dagstuhl proceedings volume listing inspected",
+      "access": "METADATA_ONLY",
+      "limitation": "Theorem and proof not inspected; included as contemporary homotopy/persistence scope; no equivalence or originality assessment.",
+      "observed": "Current 2026 homotopy-theoretic persistence literature touches metric Rips complexes."
     }
   ]
 }

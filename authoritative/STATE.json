@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-13",
-  "last_completed_session": "S013",
-  "recommended_next_session": "S014",
+  "last_completed_session": "S014",
+  "recommended_next_session": "S015",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "T28 provisional internal all-n Boolean criterion; S013 T34 BK collapse under strict full-cube T28 extension and T35 CW degree-k comparison invariant. Mixed longer-grid integral classification open; priority and HHA significance NOT CERTIFIED",
-  "headline_status": "S013_T34_COLLAPSE_T35_INTEGER_COMPARISON_INTERNAL__CLASSICAL_METHOD_PRIORITY_RISK__NO_VIABLE_HHA_FLAGSHIP_YET",
-  "active_campaign": "S014 FUTURE UNEXECUTED: externally sourced strong HHA topology problem or exact genuinely mixed grid iff/counterexample",
+  "selected_mathematical_problem": "LLO original source-stated Problem1 relative-X k>=1 (OPEN IN PROGRAMME), S014 internal T36 flag inclusion 4D Hopf comparison; mixed 3x3 integral classification OPEN. NO certified original HHA flagship",
+  "headline_status": "S014_T36_FLAG_HOPF_COMPARISON_INTERNAL__NO_VIABLE_HHA_FLAGSHIP_YET",
+  "active_campaign": "S015 FUTURE UNEXECUTED: source-stated LLO Problem1 k=1 OR genuinely nontrivial metric Rips filtration / mixed integral grid result",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S013_T34_T35_INTERNAL_NO_ORIGINALITY_GATE"
+      "status": "IN_PROGRESS_S014_T36_INTERNAL_NO_ORIGINALITY_GATE"
     },
     {
       "id": 2,
@@ -185,9 +185,21 @@
     "s012_merge_tree": "c2ad7e0650380c1a172db1f82c51a60cfb8aae51",
     "s013_entry_main": "4904069a8ab529796e6c672d57cfa06d01d55ab0",
     "s013_entry_tree": "c2ad7e0650380c1a172db1f82c51a60cfb8aae51",
-    "s013_outgoing_merge_sha": "VERIFY_FROM_LIVE_REMOTE_AFTER_MERGE"
+    "s013_outgoing_merge_sha": "8b8f6847559a80c71199e8ab9ec3be363c31e775",
+    "s013_authored_commit": "7ad19fe90c124768e991a647f7718b7563f74249",
+    "s013_authored_parent": "4904069a8ab529796e6c672d57cfa06d01d55ab0",
+    "s013_authored_tree": "992740f3bf1b36adaed19e0bf5054ae55eb36bf8",
+    "s013_pr": 14,
+    "s013_merge_parents": [
+      "4904069a8ab529796e6c672d57cfa06d01d55ab0",
+      "7ad19fe90c124768e991a647f7718b7563f74249"
+    ],
+    "s013_merge_tree": "992740f3bf1b36adaed19e0bf5054ae55eb36bf8",
+    "s013_main_run": 38365124948,
+    "s014_entry_main": "8b8f6847559a80c71199e8ab9ec3be363c31e775",
+    "s014_entry_tree": "992740f3bf1b36adaed19e0bf5054ae55eb36bf8"
   },
-  "source_inspection": "S013: original published LLO journal metadata directly inspected at IP-Paris institutional record, original arXiv2402.16624v4 HTML read; 1981 Höppner-Lenzing JPAA publisher abstract indexed, full proof 403, related 1981 Bielefeld scan Anubis blocked. Dugger BK §18 remains prior primary statement. T34/T35 standard homotopy-colimit/naturality/CW techniques; no claimed exhaustive priority audit.",
+  "source_inspection": "S014: original arXiv2402.16624v4 Problem1 + Definition3/Theorem4 directly STATEMENT_INSPECTED; 2025 SoCG Dey-Jendrysiak-Kerber original HTML abstract/introduction, 1981 JPAA original publisher abstract, related LNM scan Anubis denied, HHA final published proof inaccessible. No exhaustive 2026 priority audit.",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null
@@ -202,15 +214,16 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Exact full published proof-level 1981 Höppner–Lenzing 1981 JPAA and final 2026 HHA LLO comparison; currently unavailable; novelty of T28 uncertain.",
-    "Mixed integer 3x3 grids (n=2/3) with all fields/composites and primitive arrows: coherent natural integral idempotents or explicit all-hypotheses counterexample still OPEN.",
-    "T34 spectral collapse and T35 degree-family are internal results but constructed from classical naturality/CW methods. Locate a genuinely original HHA-scale strengthening or pivot to independent source-stated problem.",
-    "Verify independent mathematical correctness; do not progress G2/G3/Palomar/paper without scope and owner approvals. S014 future only."
+    "Original HHA/LLO source-stated Problem1 for relative X resolutions k>=1: no efficient recognition theorem or hardness proved, source's current open status requires comprehensive new literature check.",
+    "Original 1981 Höppner–Lenzing JPAA six-page proof and final HHA2026 LLO proof not accessed; T28 full proof-level novelty unknown.",
+    "All-hypotheses mixed 3x3 integer grid block classification for n2/n3 unresolved, no simultaneously compatible saturated integral idempotents nor valid counterexample.",
+    "S014-T36 mapping-cylinder Hopf/flag dim4 theorem internally proved but classical method collision; metric/Rips/Čech constrained geometric novelty not established.",
+    "No independent referee/Lean/Palomar/paper/arXiv/HHA; later gates closed. S015 future only."
   ],
   "blockers": [
-    "T29 finite-poset projectivity and T32/T33 Roos/BK are standard. T34 naturality collapse and T35 degree family may be elementary consequences; priority not passed.",
-    "No complete all-hypotheses mixed-band grid theorem/counterexample. A middle induced band refutes only global-bottom peeling.",
-    "Full 1981 and published HHA 2026 proofs inaccessible; no comprehensive MathSciNet/zbMATH priority audit.",
-    "No independent referee, Lean, Palomar, manuscript or HHA novelty/significance certificate."
+    "No original HHA-sized theorem certified; T36 uses standard Hopf cofiber/mapping-cylinder/flag triangulation mechanisms.",
+    "Published final HHA2026 and 1981 JPAA primary proofs inaccessible; comprehensive priority not passed.",
+    "General mixed 3x3 and original relative-resolution length k>=1 Problem1 unresolved.",
+    "No Lean, Palomar, independent reviewer or HHA acceptance/novelty assessment."
   ]
 }
