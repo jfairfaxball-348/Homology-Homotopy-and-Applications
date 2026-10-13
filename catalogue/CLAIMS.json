@@ -762,6 +762,56 @@
         "SRC-0042"
       ],
       "scope": "NOT ESTABLISHED. Classical Hopf/mapping cylinders, triangulation and 4-cell bound; neither original relative resolution k>=1 nor mixed 3x3 resolved. NO_VIABLE_HHA_FLAGSHIP_YET."
+    },
+    {
+      "id": "CLM-0086",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S015-T37: for fixed n and explicit field-valued diagrams on finite product-of-chain grid G, block-relative projective dimension <=1 is decidable by the canonical all-block Hom cover, syzygy, relative Schanuel and all-cube LLO Koszul ranks in polynomial field arithmetic (generous O_n(s^9(d+1)^4)).",
+      "sources": [
+        "SRC-0025",
+        "SRC-0030",
+        "SRC-0031"
+      ],
+      "scope": "Full proof S015/MATHEMATICS, fixed n, finite expanded grid, actual LLO block exact structure, NOT general Problem1, old S010-T27 priority collision; no code/machine/referee."
+    },
+    {
+      "id": "CLM-0087",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S015 finite one-critical n-parameter simplicial multifiltration can be compressed and its degree-j persistent homology produced in polynomial arithmetic time for fixed n, yielding a polynomial finite-critical-grid block-relative k=1 test.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0042"
+      ],
+      "scope": "For N simplices each with ONE coordinatewise birth grade and fixed n, s<=(N+1)^n; no unproved real-parameter relative equivalence or sparse general presentation claim."
+    },
+    {
+      "id": "CLM-0088",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S015-T38 strengthens T36 to one-critical vertex-graded fixed finite-metric Rips complexes at one radius 3/2 under THREE coordinatewise vertex thresholds using distances 1 for graph edges and 2 for nonedges, with strict distance perturbation margin 1/2.",
+      "sources": [
+        "SRC-0045"
+      ],
+      "scope": "Classical finite flag-to-Rips realisation, relies on unique initial cell grades and simultaneous subdivision. Not a two-parameter radius+height or Euclidean theorem; no |k|-complexity bound or novelty certificate."
+    },
+    {
+      "id": "CLM-0089",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Boolean B3 cannot order-embed into a product of two chains; its singleton/complement standard example forces three distinct inequality-witness coordinates.",
+      "sources": [],
+      "scope": "Elementary internal order-dimension argument; only excludes faithful 2-coordinate reindexing, not new two-parameter homotopy constructions."
+    },
+    {
+      "id": "CLM-0090",
+      "status": "HEURISTIC",
+      "claim": "S015-T37/T38 constitutes an original HHA publishable flagship or fully resolves LLO Problem1 or the 3x3 mixed integral grid question.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0030",
+        "SRC-0031",
+        "SRC-0044",
+        "SRC-0045"
+      ],
+      "scope": "NOT ESTABLISHED: T37 specialises S010-T27 and standard approximation/Koszul; T38 generic metric Rips; mixed grid remains open. NO_VIABLE_HHA_FLAGSHIP_YET."
     }
   ]
 }

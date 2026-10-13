@@ -80,3 +80,10 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - **S014-F4 MIXED GRID:** A true induced middle band is not a counterexample to integral LLO block decomposition, and all-prime separate bases do not provide a coherent integral splitting. No complete proof/counterexample.
 - **S014-F5 ACCESS:** Original 1981 JPAA full proof inaccessible; DISTINCT Bielefeld LNM scan is Anubis-blocked; final 2026 HHA LLO proof unavailable. Recent original 2025 SoCG can kill easy algorithm novelty but not solve original k≥1 problem.
 
+
+
+## S015 hard priority/geometry corrections
+- A polynomial relative k1 decision on a fixed expanded finite grid is NOT the unrestricted LLO Problem1 (free presentations/R^n arbitrary intervals). S010 T27 had already provided polynomial k1 with a **listed finite** interval family; T37 only specialises to polynomially enumerable LLO blocks and Koszul k0. Strong arithmetic evidence, weak originality.
+- A fixed finite metric flag-to-Rips construction with **three** independent vertex functions cannot be misrepresented as a genuine Rips-radius plus one-function two-parameter filtration. B3 has order dimension 3, though this alone is no geometric impossibility theorem for unrelated 2D models.
+- An isolated integral middle band already splits integrally and is not an all-hypotheses counterexample. No finite search or machine certificate claimed.
+- Original HHA2026 final and Höppner–Lenzing 1981 JPAA primary proofs remain uninspected (DOI retrieval failure/403); different 1981 LNM scan Anubis-blocked. Source silence never priority evidence.

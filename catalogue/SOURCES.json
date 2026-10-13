@@ -387,6 +387,33 @@
       "access": "METADATA_ONLY",
       "limitation": "Theorem and proof not inspected; included as contemporary homotopy/persistence scope; no equivalence or originality assessment.",
       "observed": "Current 2026 homotopy-theoretic persistence literature touches metric Rips complexes."
+    },
+    {
+      "id": "SRC-0044",
+      "title": "Aoki, Escolar and Tada, Summand-injectivity of interval covers and monotonicity of interval resolution global dimensions, JACT 9 article13 (2025)",
+      "url": "https://doi.org/10.1007/s41468-025-00210-2",
+      "origin": "Original open Springer publisher article; abstract inspected S015",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full theorem/proof comparison not undertaken; does not establish exact T37 collision.",
+      "observed": "Relative interval covers/global-dimension computational context and priority risk."
+    },
+    {
+      "id": "SRC-0045",
+      "title": "Oudot and Waas, Function-Rips complexes in persistent homotopy theory: Local stability and Latschev theorems, arXiv2603.23460 (24 March 2026)",
+      "url": "https://arxiv.org/abs/2603.23460",
+      "origin": "Original arXiv abstract surfaced in search; HTML full proof direct retrieval failed",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Abstract only, proof not inspected; no exact theorem-equivalence claim.",
+      "observed": "Contemporary persistent homotopy and metric function-Rips stability, strong geometrical context."
+    },
+    {
+      "id": "SRC-0046",
+      "title": "Relative Koszul coresolutions and relative Betti numbers, JPAA 229(3)107905 (March 2025)",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022404925000441",
+      "origin": "Original Elsevier publisher abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original abstract only; exact mathematical proof and author set not independently inspected.",
+      "observed": "Relative interval Betti computation and Koszul methods precede T37 elementary approach."
     }
   ]
 }
