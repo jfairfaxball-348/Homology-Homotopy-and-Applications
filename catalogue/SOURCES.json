@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-13",
   "sources": [
     {
       "id": "SRC-0001",
@@ -351,6 +351,24 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Author identity and full original theorem/proof not inspected; no Boolean-cube equivalence check.",
       "observed": "Contemporary bar/cobar/Bousfield–Kan formula for chain-complex hocolimits; strong prior-art risk for T32/T33."
+    },
+    {
+      "id": "SRC-0040",
+      "title": "Institut Polytechnique de Paris institutional publication record: Lebovici–Lerch–Oudot, Local characterization of block-decomposability for multiparameter persistence modules, HHA 28(1), 175–196 (2026), DOI 10.4310/HHA.2026.v28.n1.a9",
+      "url": "https://researchportal.ip-paris.fr/en/publications/local-characterization-of-block-decomposability-for-multiparamete/",
+      "origin": "Institutional scholarly publication metadata and abstract (direct page inspected 2026-10-13)",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "NOT the journal final PDF or final proof; bibliographic abstract only, cannot establish identity of proof to arXiv2402.16624v4.",
+      "observed": "Final paper explicitly over finite products of arbitrary totally ordered sets over fields; does not in inspected abstract assert integral T28 or topological T34/T35."
+    },
+    {
+      "id": "SRC-0041",
+      "title": "Höppner–Lenzing, Diagrams over ordered sets: A simple model of Abelian group theory, LNM 874 (1981), 417–430, related conference paper",
+      "url": "https://pub.uni-bielefeld.de/download/2983025/2983026/H%C3%B6ppner-Lenzing_1981_Diagrams%20over%20Ordered%20Sets.pdf",
+      "origin": "Institutional Bielefeld scan surfaced in indexed search, direct PDF retrieval blocked by Anubis",
+      "access": "METADATA_ONLY",
+      "limitation": "THIS IS NOT the 1981 JPAA six-page Projective diagrams over partially ordered sets are free paper. Direct institutional PDF blocked with Anubis. Indexed bibliography mentions that JPAA paper but neither full proof inspected.",
+      "observed": "Related paper confirms contemporaneous poset-diagram literature; no exact theorem/proof equivalence asserted."
     }
   ]
 }

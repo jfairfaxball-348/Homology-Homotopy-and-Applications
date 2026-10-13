@@ -1,0 +1,9 @@
+# S013 scope and validation plan — one Stage1 research session
+
+Entry objective: kill routine originality first using primary source versions; attempt genuine 3x3 (2D/3D) integral mixed-band splitting with exact generating-edge purity + Q/every Fp blocks on all relevant subcubes/composites, or valid counterexample. Independently attack the S012 n>=3 BK differential by constructing a strict finite CW example or proving a topologically meaningful obstruction. If these are routine/blocked, seek a nonroutine alternate HHA issue.
+
+Mathematical method: symbolic spectral-sequence comparison P=B_n\{top} to complete B_n with terminal object; verify naturality, latching injection, filtration and extension rather than assume collapse from sparsity. Independently build an explicit strict CW three-cube with nonconstant terminal comparison using latching ball attachments; compute integer cellular differentials and every homology diagram degree. All integers k, zero/rank extremes, n2/3/4, and absence of false 'comparison map injective' implications. Separate a genuine nonzero d2 on punctured-only diagrams from impossibility under FULL strict T28.
+
+Priority boundaries: original 1981 full JPAA inaccessible; final HHA2026 PDF inaccessible; exact accessed institutional abstract and original v4 kept distinct. No originality claim on standard BK/naturality/degree technology. No numerical enumeration or CAS pre-registered, thus none executed or certified. Code-free symbolic math and hosted administrative check are distinct.
+
+Close: record exact result/limitations in MATHEMATICS, ADVERSARIAL, PRIOR_ART, CLOSEOUT; synchronize authority/state/catalogues/ledgers and one full S014 FUTURE prompt; one atomic authored branch commit, real static CI, ordinary non-force two-parent PR merge, independent verification.

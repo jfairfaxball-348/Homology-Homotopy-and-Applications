@@ -1,0 +1,56 @@
+# S013 — topological naturality collapse and integral comparison-degree family
+
+All results INTERNAL HUMAN-READABLE proofs. T34/T35 below are new-to-programme (NOT claimed original in global mathematical literature), and use standard BK spectral sequences and finite CW attaching techniques. No numerical search, Lean or external referee.
+
+## T34 — strict complete-cube T28 forces homotopy-colimit BK collapse in ALL dimensions
+
+**Statement.** Fix n>=2, B_n=2^[n] directed by inclusion, t=[n], P=B_n\{t}. Let X:B_n->Top be a STRICT diagram of connected finite CW complexes (or cofibrantly suitable simplicial spaces), with arbitrary compatible structure maps. Assume for every q>=0 the integral homology diagram M_q=H_q(X(-);Z) has finitely generated free stalks and satisfies all EXACT hypotheses of S011-T28: primitive generating-edge cokernels and over Q and every Fp the LLO field block condition on all faces, including all composites. In particular T28 gives the integral principal-upset/downset block splitting and T32 gives L_j colim_P M_q=0 for 1<=j<=n-2, L_(n-1) colim_P M_q=K_q:=intersection_{i=1}^n ker[M_q(empty)->M_q({i})]. Also the canonical latching arrow λ_q:colim_P M_q->M_q(t) is injective with free cokernel.
+
+Then the classical homological Bousfield–Kan spectral sequence
+E^2_(p,q)=L_p colim_P M_q => H_(p+q)(hocolim_P X;Z)
+collapses at E2 for EVERY n>=2 (including n>=3). Every H_m(hocolim_P X;Z) is finite free. For every m there is a NATURAL short exact sequence of abelian groups
+0 -> colim_P H_m(X;Z) -> H_m(hocolim_P X;Z) -> K_(m-n+1) -> 0,
+where K_j=0 for j<0; it splits as groups because the quotient K_j is free, but there is NO assertion of a functorial/natural chosen splitting or of injectivity of the comparison H_m(hocolim_P X)->H_m(X_t).
+
+**Proof.** Naturality of the simplicial replacement gives a map of first-quadrant BK homology spectral sequences induced by inclusion of indexing categories P->B_n with compatible X. The target BK spectral sequence over the FULL cube B_n has only column p=0 at E2: t is a terminal object, colim_B_n M_q = M_q(t) and L_p colim_B_n=0 for p>0. The E2 map in column 0 of the source to the target is precisely λ_q, which T28 makes injective. By T32 the source has columns p=0 and p=n-1 only. For n>=3, the ONLY possible differential with both endpoints nonzero is d_(n-1):E^(n-1)_(n-1,q)->E^(n-1)_(0,q+n-2). Before this page, all source differentials vanish, hence the original E2 column-zero injection persists unchanged to page n-1. Naturality with the target (whose positive columns all vanish) gives λ_(q+n-2) d_(n-1)=0. Injectivity of λ yields d_(n-1)=0. There are no later differentials by degree reasons. For n=2, source has p=0,1, so r>=2 differentials cannot exist and E2 already collapses. n4 has only possible d3 killed by the same argument. Zero stalks and vanishing K are included.
+
+The finite filtration on H_m has graded pieces E∞_(0,m)=colim_P M_m (embedded via edge homomorphism) and E∞_(n-1,m-n+1)=K_(m-n+1), with no others. The BK edge construction identifies F0 H_m with the image of the canonical map colim_P H_m(X)->H_m(hocolim X); the E∞ identification makes this injective. All E2_(0,m) groups are free since they inject into free M_m(t); all K are saturated kernels of maps between free groups, hence free. Therefore the SES is naturally defined and abstractly splits, but a chosen section need not be natural. This proves the result.
+
+**Sharp logical distinction.** T33 S012 was correct to say 'two E2 columns alone need not force collapse'. The extra decisive ingredient is the ACTUAL STRICT full-cube topological extension together with λ-injectivity in EVERY relevant homology degree. The assertion 'nonzero d2 under all T28 hypotheses' in S013 requested Front B is impossible; only dropping the full-cube/top-latching assumption may permit it. The target's spectral sequence is always concentrated at p0; λ need not be injective without T28. Nothing in this proof asserts the map H_m(hocolim P)->H_m(X_t) has zero value on higher-filtration summands.
+
+## T35 — genuine strict finite CW three-cube where topology varies despite *identical full homology persistence*
+
+**Construction at n=3, canonical CW geometry.** Let X_empty=S^1 with one 0-cell and one oriented 1-cell a. For each singleton i=1,2,3 attach a distinct disk D_i^2 along its ENTIRE oriented boundary to the SAME S^1, setting X_{i}=S^1 union D_i^2 = D^2. For each unordered pair ij attach a distinct 3-ball D_{ij}^3 along its ENTIRE boundary to the 2-sphere X_i union_(S1) X_j = D_i^2 union_(S1) D_j^2 = S^2, setting X_{ij} = (X_i union X_j) union_(S2) D_{ij}^3, a 3-ball. All six proper arrows are literal cellular subcomplex inclusions, with their compositions automatically commuting. Their latching objects are X_empty at singletons and S^2 at pairs, so this is a Reedy-cofibrant direct-poset diagram P of cofibrations.
+
+Let L=colim_P X, the union of these three 3-balls along the respective disks. Its cellular chain groups in positive degrees are C1=Z<a>, C2=Z<b1,b2,b3>, C3=Z<c12,c13,c23>. By orienting disks/balls coherently,
+∂2(b_i)=a,  ∂3(c_ij)=b_i-b_j.
+Thus im ∂3=ker∂2={(x1,x2,x3):x1+x2+x3=0} ≅Z^2; ker∂3=Z generated (up to signs) by c12-c13+c23. Consequently H3(L)=Z, H2(L)=H1(L)=0 and H0(L)=Z. The singletons kill π1(S1), and higher cells do not create π1; L is simply connected. A simply connected 3D CW complex with reduced homology only Z in degree3 is homotopy equivalent to S3 by Hurewicz and Whitehead (or equivalently the cellular attachment argument). In particular L≃S3. Since the P-diagram is cofibrant with cofibration latching maps, hocolim_P X -> L is a homotopy equivalence.
+
+For EACH integer k choose a map f_k:L->S3 of degree k (compose any homotopy equivalence L≃S3 with a standard degree-k sphere self-map). Complete the strict full cube by X_t=S3 and, for EVERY proper S, define X(S)->X_t as f_k restricted to the specified subcomplex X(S)⊂L. Commutativity is literal, not up to separate homotopies. All object spaces are finite CW. A cellular representative of f_k may be chosen, so this is a finite CW map diagram.
+
+For every k, the entire homology persistence diagrams (INCLUDING top) are IDENTICAL:
+* H0: constant free Z all arrows identity, exactly the full principal-upset P_empty;
+* H1: Z only at empty, arrows zero out of empty, exactly the principal-downset I_empty;
+* H3: Z only at top, exactly principal-upset P_t;
+* Hq=0 for q≠0,1,3.
+Therefore every generating edge has torsionfree cokernel, ALL rational/Fp reductions and ALL face/composite LLO tests split in the required blocks, including ranks zero and both extreme blocks. NO homology module detects k, even if all fields and all primes are allowed. T28 applies in every degree, so T34 forces E2-collapse; indeed P's only positive higher colimit is L2 colim H1=Z, contributing H3(hocolim_P X)=Z.
+
+Yet the canonical map hocolim_P X -> X_t=S3 is homotopic to f_k∘(hocolim_P X≃L), hence induces multiplication by k on H3 after fixed generators. So k=0,±1,2,... give genuinely different terminal comparison maps (distinguished at least by |k| without chosen orientations).
+
+**Canonical filtered comparison invariant τ.** For a general T34 full cube in total degree m, let A_m=colim_P H_m(X), C_m=H_m(X_t) and K_(m-n+1)=H_m(hocolim_P X)/A_m via the natural spectral filtration. The canonical comparison homomorphism c_m:H_m(hocolim_P X)->C_m restricts on A_m to λ_m. Therefore its composite into C_m/im λ_m annihilates A_m and descends to a WELL-DEFINED NATURAL homomorphism
+τ_m:K_(m-n+1) -> C_m / im(λ_m).
+This quotient is free under T28. No arbitrary splitting choices are used. In the n3 construction m=3: A_3=0, K_1=Z, C_3=Z, and τ_3 is multiplication by k. T35 thus exhibits an actual topology-sensitive comparison datum beyond the entire objectwise persistent homology functor and beyond the BK E2-page/abstract abutment.
+
+**Limit of claimed strength.** The ability to choose degree-k maps S3->S3 and compute their action is classical; τ is a standard filtered comparison quotient of a known spectral sequence. This is an explicit nontrivial application/new-to-programme distinction, NOT a literature-priority-certified new invariant or proven HHA-paper-level discovery.
+
+## Differential sharpness when the strict T28 full top is absent
+
+For perspective, on the same n3 punctured P define Y_empty=S1, Y_i=D2 with bottom inclusion, and Y_12=S2, Y_13=Y_23=point. Let map Y_1=D2 -> Y_12=S2 be the quotient D2/S1≅S2 of degree +1; Y_2->Y_12 constant; every other singleton-to-pair map constant. The composites from Y_empty to any pair are all constant so this is a STRICT punctured-cube diagram. Its homology on P has H1=I_empty and H2 a single P_12 restricted to P (H0 constant), so the E2 page has E2_(2,1)=Z and E2_(0,2)=Z. Cellular double-complex calculation: lift the alternating horizontal boundary of the bottom 1-cycle to the three singleton 2-disk fillers; horizontal boundary of that lift hits the Y_12 fundamental 2-cycle with coefficient ±1 (the quotient map only on the i=1 arm), hence d2=±1. This is a nonzero T33-*SHAPED* differential, but there is NO compatible strict full top that both extends these actual maps and makes the top homology λ_2 injective: T34 naturality would contradict ±1. An algebraic extension of the HOMOLOGY DIAGRAM to blocks is insufficient to supply that strictly compatible topological extension.
+
+## Front A — 3x3 mixed grid (n2/n3) remains unresolved
+
+We retained all quantifiers: arbitrary mixed induced interior bands in G={0,1,2}^2 and G={0,1,2}^3, finitely generated free Z stalks, primitive generating-edge cokernels, Q and every Fp LLO field block decomposability, ALL subcubes and composites. The middle band {1}×{0,1,2}^(n−1), zero at global bottom but nonzero death kernel locally, is already a genuine integral block. It defeats global-bottom peeling, not any of the hypotheses or integrality conclusion. A natural slice filtration would have to be saturated, transport kernels/images simultaneously across overlapping bands, and yield global commuting idempotents. We found neither a legitimate all-hypotheses integer counterexample nor a proof of compatible simultaneous idempotents. A naive 'all field Ext classes vanish => integer splitting' assumes a fixed integral block filtration and compatible extension objects; such a filtration is exactly the missing premise. Neither componentwise bases nor independent p-bases solve the gluing. NO grid theorem/NO grid disproof promoted.
+
+## Boundary audit
+
+n2: BK p<=1 collapse automatically, T35 analogue S1 with two D2 has S2 top degree family, still comparison map not determined by homology. n3: T34 kills otherwise possible d2; explicit T35 uses three singleton disks and three pair 3-balls, ∂3 incidence computed. n4: T34 kills otherwise possible d3; higher n same naturality. Zero stalks, K=0, full support H0, positive/negative k and all prime reductions behave as stated. Degree-k maps for any integer exist as finite CW maps after cellular approximation. T34 requires T28 for EVERY degree that could receive the differential, not just one selected q. The only field-to-integral input is previously internally justified T28 latching injection; unverified outside that source dependency remains explicit.

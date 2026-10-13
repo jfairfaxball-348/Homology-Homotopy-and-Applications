@@ -72,3 +72,11 @@
 - **DEC-0062:** Record internal T32 derived-colimit Koszul resolution and T33 sparse classical BK spectral-sequence consequence; NOT novel spectral-sequence machinery and nonroutine HHA application unproved.
 - **DEC-0063:** General mixed-longer-grid dimension2/3 remains unsolved; induced middle band discredits naive lifting only.
 - **DEC-0064:** **NO_VIABLE_HHA_FLAGSHIP_YET** despite mathematical progress. G2/G3/G4 closed; no external release, S013 FUTURE only.
+
+## S013 decisions (13 October 2026)
+- **DEC-0065:** Independently confirmed actual S012 branch commit 16c658fe (sole parent fed65428, tree c2ad7e), PR13, ordinary two-parent merge 4904069a (parents fed65428,16c658fe, tree c2ad7e), outgoing main equals merge, main governance run38307441453 job115004792332 SUCCESS. Legacy status contexts [] ABSENT; rulesets [] accessible, protection403 UNKNOWN; no S013 competing branches/records/PR.
+- **DEC-0066:** Accept internally T34: full-cube top-latching injectivity plus BK naturality KILLS d_(n−1) in all dimensions. Amend S012 tentative nonzero-differential route exactly under these hypotheses; do not assert novelty.
+- **DEC-0067:** Accept internally T35: finite CW n3 punctured cube built via S1,D2,D3 latching-cell attachments, terminal sphere comparison degree k for all integers; same all-degree integral homology persistence. This measures a genuine topological map invariant beyond homology modules, not a novel classification yet.
+- **DEC-0068:** Keep mixed 3x3 Z block-if-field conjecture completely OPEN. Isolated induced bands obstruct global-bottom proof route only; no claimed full counterexample, natural idempotents, or mixed iff.
+- **DEC-0069:** Source access grades remain honest: 1981 JPAA full 403; related Bielefeld LNM scan Anubis blocked; HHA2026 bibliographic abstract accessible but FINAL PROOF NOT INSPECTED. T28 originality unknown.
+- **DEC-0070:** **NO_VIABLE_HHA_FLAGSHIP_YET**. Later novelty, Lean, Palomar, manuscript, arXiv, journal and outreach gates closed. Exactly one S013 and one future-only S014 prompt.
