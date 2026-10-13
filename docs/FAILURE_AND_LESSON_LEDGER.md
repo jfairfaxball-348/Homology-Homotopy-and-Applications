@@ -72,3 +72,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - **S013-F3 STRICT EXTENSION MATTERS:** a punctured-only diagram can have a nonzero d2 with the same shape of homology blocks but fail to extend to a strict top carrying split-injective top homology. A formal algebraic extension of the homology diagrams is not a compatible topological extension of the actual maps.
 - **S013-F4 MIXED GRID STILL OPEN:** raw Ext^1/field comparison without canonical integral filtration does not construct simultaneous natural idempotents. No all-hypotheses integer counterexample; retain full quantifiers.
 - **S013-F5 PRIORITY STILL KILLS HEADLINE:** T34 is straightforward naturality once T32/T33 and latching known; T35 uses CW ball gluing and sphere degree. Neither is certified novel or of adequate HHA significance. Final journal LLO paper and 1981 six-page proof remain inaccessible.
+
+## S014 boundaries and negative gates
+- **S014-F1 HOPF PRIOR ART:** A strong topological *example* is not automatic HHA-original mathematics. T36 depends on classical π3(S2)=Z, Hopf cofiber cup products, mapping cylinders and barycentric subdivision; no priority clearance or nontrivial new geometric restriction.
+- **S014-F2 FLAG != RIPS:** Every finite complex becomes flag after barycentric subdivision, but does NOT automatically become a filtration of Rips complexes for a single metric/scale or meet a quantitative critical-simplex bound. The finite flag claim is proved, the metric version NOT.
+- **S014-F3 ALGEBRAIC SOURCE TARGET:** Original LLO Problem1 asks relative-X resolution length k. Substituting ordinary principal-upset pd silently changes the problem; for bottom simple n vs relative block pd0.
+- **S014-F4 MIXED GRID:** A true induced middle band is not a counterexample to integral LLO block decomposition, and all-prime separate bases do not provide a coherent integral splitting. No complete proof/counterexample.
+- **S014-F5 ACCESS:** Original 1981 JPAA full proof inaccessible; DISTINCT Bielefeld LNM scan is Anubis-blocked; final 2026 HHA LLO proof unavailable. Recent original 2025 SoCG can kill easy algorithm novelty but not solve original k≥1 problem.
+

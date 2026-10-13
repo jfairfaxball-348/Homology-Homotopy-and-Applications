@@ -88,3 +88,11 @@ PROGRAMME_PROVED means internal detailed prose proof, not originality, external 
 |CLM-0077|PROGRAMME_PROVED|T35: n3 finite CW full-cube family has same integral H_q persistence but degree-k hocolim comparison to top, all integers k.|Explicit S1/D2/D3 cell construction and degree maps; standard methods, no novelty pass.|SRC-0025,SRC-0038|
 |CLM-0078|HEURISTIC|T34/T35 are original HHA flagship.|Not established: standard naturality/degree constructions and sources precede; G2 CLOSED.|SRC-0025,SRC-0035,SRC-0038,SRC-0040|
 |CLM-0079|HEURISTIC|Unrestricted 3x3 mixed grid rigorously settled.|Still OPEN; no valid counterexample or iff.|SRC-0025|
+
+## S014 claim updates — internal and scoped
+|CLM-0080|SOURCE_STATED|Original LLO §1.1 Problem1: efficiently decide existence of relative-X resolution length≤k from presentation/multifiltration; source focuses k=0.|Current overall open status not exhaustively checked; exact original question, not our solution.|SRC-0025|
+|CLM-0081|SOURCE_STATED|SoCG2025 gives O(N³) interval-decomposition recognition for interval-decomposable modules.|Not a general k≥1 relative-resolution theorem.|SRC-0042|
+|CLM-0082|PROGRAMME_PROVED|T36 induced FLAG inclusions in dimension4, constant all homology and πj persistence, comparison kη:S3→S2.|Internal topological full construction; classical Hopf/mapping cylinder, no originality claim.|SRC-0025,SRC-0038|
+|CLM-0083|PROGRAMME_PROVED|T36 comparison cofiber u²=k v in H*(Ck;Z); dimension≥4 necessary with included L and H3(top)=0.|Classical Hopf cup invariant and chain-inclusion lower bound, not referee/Lean certified.|—|
+|CLM-0084|PROGRAMME_PROVED|Ordinary pd(I_bottom) on Bn is n, but block-relative projective dimension is 0.|Explicit standard cubical Koszul resolution; not Problem1 solution.|SRC-0025|
+|CLM-0085|HEURISTIC|T36 resolves new flagship / Problem1.|FALSE as a success claim: no source Problem1 k≥1 solution, no novelty and mixed grid open.|SRC-0025,SRC-0042|

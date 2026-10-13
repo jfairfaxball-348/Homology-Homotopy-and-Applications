@@ -69,3 +69,10 @@ C11 T28 arbitrary-n Boolean integral iff retains INTERNAL proof standing; no pri
 - **B/COMPARISON MAP (retained but not publishable yet):** canonical quotient map τ from shifted bottom kernel to H_*(top)/im λ detects arbitrary integers in an explicit n3 strict CW family (T35), even with all homology diagrams identical. Distinguishes abstract SS collapse from topological comparison. Standard-degree realization; HHA novelty unresolved.
 - **A/MIXED GRID (OPEN):** 3x3 true induced middle-band overlap, primitive generating edges, all subcubes/composites, Q+all Fp block splitting do NOT yet imply an integral simultaneous block decomposition by a valid proof; no verified all-hypotheses counterexample. Route still lacks indispensable topological significance.
 - **C/PIVOT:** after 13 rapid sessions, demand external source-stated independent HHA problem and truly nonroutine theorem/obstruction rather than aggregating standard BK/Reedy/degree facts. S014 strictly future.
+
+## S014 route decisions
+- **FRONT A ORIGINAL LLO Problem1 k>=1:** properly sourced exact question arXiv2402.16624v4 §1.1; S014 has not proved an algorithm, hardness bound or k1 iff. 2025 SoCG O(N³) interval k0 recognition is separate. Standard pd example on Boolean Bn demonstrates relative-X subtlety. **RETAIN for S015, exact block-relative projective k1 first.**
+- **FRONT B MIXED GRID:** no all-prime/cube/primitive counterexample nor coherent integral splitting; bottom-zero band only blocks naive peeling. **OPEN.**
+- **FRONT C 4D FLAG HOPF COMPARISON:** T36 internal full proof kη and u²=kv with induced flag inclusions, all homotopy group persistence constant, dimension4 sharp for subcomplex model. Ordinary mapping-cylinder/Hopf methods are classical; **not publication target without genuinely new metric Rips/Čech or quantitative constrained invariant**.
+- **GATE:** NO_VIABLE_HHA_FLAGSHIP_YET; S015 future only.
+

@@ -708,6 +708,60 @@
         "SRC-0025"
       ],
       "scope": "FALSE AS A STATUS CLAIM: S013 attempted only structural Ext/coherence arguments without valid all-hypotheses conclusion; general mixed case remains OPEN."
+    },
+    {
+      "id": "CLM-0080",
+      "status": "SOURCE_STATED",
+      "claim": "LLO arXiv2402.16624v4 §1.1 Problem1 asks efficient decision of existence of relative X-resolution length at most k for a finitely presented multiparameter persistence module, given by free presentation or simplicial multifiltration; original paper treats k=0.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "Direct original HTML §1.1 Problem1 inspected S014. No asserted currently unsolved status for entire k>=1 question without exhaustive 2026 audit."
+    },
+    {
+      "id": "CLM-0081",
+      "status": "SOURCE_STATED",
+      "claim": "Dey–Jendrysiak–Kerber SoCG2025 algorithm has O(N^3) complexity for recognizing/decomposing interval-decomposable modules.",
+      "sources": [
+        "SRC-0042"
+      ],
+      "scope": "Original SoCG abstract/introduction; k=0 detection, not LLO's general relative X-resolution k>=1."
+    },
+    {
+      "id": "CLM-0082",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S014-T36: for each k in Z, strict full B3 finite flag diagrams by induced subcomplex inclusions, dim at most 4, have identical integral H_*(X(-)) and all pi_j(X(-)) diagrams but punctured hocolim-to-top comparison k times the Hopf generator in pi3(S2).",
+      "sources": [
+        "SRC-0025",
+        "SRC-0038"
+      ],
+      "scope": "Internal full S014 cellular CW construction and mapping-cylinder/flag triangulation proof; standard unstable Hopf topology, not externally verified, not original HHA flagship."
+    },
+    {
+      "id": "CLM-0083",
+      "status": "PROGRAMME_PROVED",
+      "claim": "The T36 homotopy comparison cofiber has H2=H4=Z, u cup u = k v, and top dimension >=4 is necessary for an inclusion of L (H3(L)=Z) into H3-acyclic top.",
+      "sources": [],
+      "scope": "Internal cofiber Hopf invariant and cellular chain dimension argument in S014/MATHEMATICS; no formalisation or novelty proof."
+    },
+    {
+      "id": "CLM-0084",
+      "status": "PROGRAMME_PROVED",
+      "claim": "For standard principal-upset projectives on Boolean B_n the bottom simple has projective dimension n; for LLO block-relative projectives the same bottom death block has relative dimension 0.",
+      "sources": [
+        "SRC-0025"
+      ],
+      "scope": "Classical explicit augmented cubical projective resolution; demonstrates ordinary pd does not answer k>=1 source Problem1."
+    },
+    {
+      "id": "CLM-0085",
+      "status": "HEURISTIC",
+      "claim": "T36 resolves a genuinely new journal-scale homotopy persistence problem or LLO Problem1.",
+      "sources": [
+        "SRC-0025",
+        "SRC-0042"
+      ],
+      "scope": "NOT ESTABLISHED. Classical Hopf/mapping cylinders, triangulation and 4-cell bound; neither original relative resolution k>=1 nor mixed 3x3 resolved. NO_VIABLE_HHA_FLAGSHIP_YET."
     }
   ]
 }

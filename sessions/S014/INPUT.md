@@ -1,0 +1,9 @@
+# S014 owner invocation and independently pinned GitHub state — 13 October 2026
+
+Owner explicitly requested “run nextz session” using https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/authoritative/NEXT_SESSION_PROMPT.md. This is a faithful summary, not a fabricated byte-exact invocation transcript or hash. Exactly S014 is authorised, never S015.
+
+**Entry:** live remote main `8b8f6847559a80c71199e8ab9ec3be363c31e775`, tree `992740f3bf1b36adaed19e0bf5054ae55eb36bf8`. S013 one authored commit `7ad19fe90c124768e991a647f7718b7563f74249`, sole parent `4904069a8ab529796e6c672d57cfa06d01d55ab0`, authored tree `992740f3bf1b36adaed19e0bf5054ae55eb36bf8`; PR #14 merged by ORDINARY two-parent non-force merge `8b8f6847559a80c71199e8ab9ec3be363c31e775`, parent order (4904069a…, 7ad19fe9…), merge tree `992740f3bf1b36adaed19e0bf5054ae55eb36bf8`. No intervening main changes, no open PR, no live S014 directory/branch from branch/tree listings.
+
+**Governance:** exactly one workflow file `.github/workflows/repository-integrity.yml`; completed main run `38365124948` SUCCESS and one `governance` check-run SUCCESS. Legacy statuses [] = ABSENT_NOT_PASS. Accessible rulesets []; branch protection GET=403 resource inaccessible => UNKNOWN, not 'unprotected'. Workflow-list endpoint unsupported; file, actual runs/checks were examined. Complete S013 internal proof/adversarial/source dossier and AGENTS/START_HERE/STATE/protocol/catalogues and S011-T28/S012-T32/T33 mathematical premises read.
+
+**Stage:** Stage1 OPEN, no selected original HHA flagship, novelty G2, Lean G3 and later gates closed/owner-gated. Research scope S014: source-stated LLO Problem1 (relative resolution length k), mixed 3x3 grid adversarial revisit, and sharp *inclusion/flag/Hopf* strengthening of S013 T35. No formalisation, publishing or outreach. No finite enumeration/CAS computations were pre-registered or claimed.

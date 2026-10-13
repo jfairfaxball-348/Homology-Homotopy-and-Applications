@@ -80,3 +80,12 @@
 - **DEC-0068:** Keep mixed 3x3 Z block-if-field conjecture completely OPEN. Isolated induced bands obstruct global-bottom proof route only; no claimed full counterexample, natural idempotents, or mixed iff.
 - **DEC-0069:** Source access grades remain honest: 1981 JPAA full 403; related Bielefeld LNM scan Anubis blocked; HHA2026 bibliographic abstract accessible but FINAL PROOF NOT INSPECTED. T28 originality unknown.
 - **DEC-0070:** **NO_VIABLE_HHA_FLAGSHIP_YET**. Later novelty, Lean, Palomar, manuscript, arXiv, journal and outreach gates closed. Exactly one S013 and one future-only S014 prompt.
+
+## S014 decisions (13 October 2026)
+- **DEC-0071:** Verified actual S013 authored 7ad19fe90 sole parent 4904069a and tree 992740f3; PR14 ordinary two-parent merge 8b8f6847 with ordered parents 4904069a,7ad19fe9; final live main same tree. Main run38365124948 governance SUCCESS, statuses [] ABSENT, rulesets [], protection403 UNKNOWN; S014 unused.
+- **DEC-0072:** Source-stated PRIMARY LLO arXiv2402.16624v4 §1.1 Problem1 k≥1 selected as legitimate independent QUESTION, not solved. The authors' k0 theorem and 2025 SoCG O(N³) algorithm are distinct. No unearned current open-status certificate.
+- **DEC-0073:** Accept T36 INTERNAL: literal induced flag inclusions, top 4D mapping cylinder of kη, all objectwise homology and π* diagrams constant; cofiber cup square k and 4D sharp via C4 absence. No independent external mathematical verification.
+- **DEC-0074:** Strong HHA-level originality NOT established: Hopf cup product, mapping cylinder, barycentric flag constructions classical. Next geometrical step needs fixed metric Rips/Čech or new genuinely nontrivial restriction.
+- **DEC-0075:** Preserve mixed 3x3 n2/n3 all-hypotheses status OPEN, no accepted counterexample or grid iff. 1981 JPAA and final HHA2026 proofs still uninspected.
+- **DEC-0076:** **NO_VIABLE_HHA_FLAGSHIP_YET**. G2/G3/G4 not started, no Lean/Palomar/manuscript/arXiv/HHA/outreach; exactly S014 and S015 future-only.
+
