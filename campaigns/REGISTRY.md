@@ -33,3 +33,6 @@ T37 uses abstract deterministic finite field matrix algorithms as a proved compl
 
 ## S016 bounded witness verification and symbolic algebra
 No exhaustive candidate search, no SAT, no all-prime brute force. T39 is a direct categorical exactness/syzygy proof with a one-critical filtered two-disk counterexample; no machine build. T40 symbolic distances and simplicial f-vectors of **exactly** three collinear points and a four-corner unit square; optional independent Python combinations/dist checker (stdlib, interactive run during session) returned expected A/B/C/D f-vectors and graph β1=1,2; no runtime/output hash recorded, so do NOT elevate to COMPUTED_EXACT or call it a deposited reproducible certificate. G2 absent; S017 FUTURE only.
+
+## S017 — symbolic proof-first, no bounded computational campaign
+Internal general mathematics: T41 relative all-LLO-block vs ordinary free dimension on boundary-sentinel-zero modules every n,k, all fields; 3×3 interior singleton symbolic Koszul pd2; T42 general top-simplex mixed cofiber suspension and cup vanishing for scalar-height metric Rips square. NO numerical enumeration, no CAS/SAT/ILP, no checker/runtime/hashes/certificate, no Lean, Palomar or external submission. Mixed integral 3×3 all-prime not solved. Source-first original LLO and FoCM proof comparison. S018 FUTURE UNEXECUTED.

@@ -423,6 +423,15 @@
       "access": "METADATA_ONLY",
       "limitation": "Indexed publisher fragment on vertex weights and network metric; full article and proofs not inspected.",
       "observed": "Scalar vertex weights and Rips-like multiparameter constructions are established; conceptual prior art for T40."
+    },
+    {
+      "id": "SRC-0048",
+      "title": "Botnan, Oppermann and Oudot, Signed Barcodes for Multi-parameter Persistence via Rank Decompositions and Rank-Exact Resolutions, Foundations of Computational Mathematics 25 (2025) 1815–1874; online 4 September 2024",
+      "url": "https://link.springer.com/article/10.1007/s10208-024-09672-9",
+      "origin": "Original open Springer publisher full HTML, DOI 10.1007/s10208-024-09672-9",
+      "access": "PROOF_INSPECTED",
+      "limitation": "S017 read cited §3.1 Proposition 3.6 and §4.3 Lemma4.15–Proposition4.17 proofs, not entire article; distinct rank-exact class, no assertion exact T41 theorem present",
+      "observed": "Existing -infinity sentinel grid/Kan and rank-exact projective-resolution transport create strong novelty collision for generic relative grid proofs."
     }
   ]
 }

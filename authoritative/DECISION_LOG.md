@@ -103,3 +103,10 @@
 - **DEC-0084:** Accept unaugmented critical-grid failure: k_[0,1)² restricts to a finite 2×2 death block yet violates real square middle exactness; loop/two-filtered disks realise it as genuine H1 of a one-critical geometric bifiltration. Sentinel indispensable.
 - **DEC-0085:** Accept T40 INTERNAL: true Euclidean Rips radius plus ONE vertex height on 3 collinear / four square points, cofibres S² / S²∨S²; strict perturbation window. Distinguish classical graph/suspension mechanism and current Oudot–Waas geometry from originality claims.
 - **DEC-0086:** Full proof-level 2023–26 priority and 3×3 integer all-hypotheses coherent splitting remain OPEN. **NO_VIABLE_HHA_FLAGSHIP_YET**, G2/G3/G4 NOT_STARTED, no Lean/Palomar/publication/contact. S017 FUTURE only.
+
+## S017 decisions (13 October 2026)
+- **DEC-0087:** Verified S016 authored 3be740fb270a9f473660422d1326c0baef078d63 sole-parent fb848dc79a661ab417b5998d2277362c81dacace, PR17 normal two-parent merge bc970f79dfbd4d8bbeece4931fea3c64e9ba892e tree b4e946cbc93a43eb232b7068e9561868aec5cff6. Postmerge governance run38373277408/check115215251375 SUCCESS; classic status contexts [] ABSENT_NOT_PASS, rulesets [], protection403 UNKNOWN; S017 unused and no open PR on entry.
+- **DEC-0088:** Accept internally T41 all-LLO-block relative pd=ordinary free pd for every sentinel-hyperface-zero grid diagram, all n,k,fields, using Hom(nonbirth,V)=0, relative admissible free cover and Schanuel.
+- **DEC-0089:** Every finite free-presented R^n input has such sentinel-clamped sample; via T39, all-block pd is classical ordinary free dimension. **RETIRE T39 fp novelty flagship**; original LLO and Botnan–Oppermann–Oudot present key relevant established methods, no claim literally identical published theorem.
+- **DEC-0090:** Accept internal classical T42: if upper-radius Rips top stage is a simplex, mixed cofiber a suspension with zero reduced cup products; S016 triple/square cannot have Hopf cup-square.
+- **DEC-0091:** Mixed integer [0,2]^n still OPEN. NO_VIABLE_HHA_FLAGSHIP_YET, G2/G3/G4 NOT_STARTED, no Lean/Palomar/paper/arXiv/HHA/outreach, precisely S018 FUTURE ONLY.
