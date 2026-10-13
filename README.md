@@ -30,3 +30,6 @@ Read in order: [AGENTS.md](AGENTS.md), [START_HERE](authoritative/START_HERE.md)
 
 Governance is adapted from the [Davenport Counterexample Hunt](https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt) and [Almost Stacked Proof](https://github.com/jfairfaxball-348/Almost-Stacked-Proof) programmes, not copied without field-specific changes.
 
+
+## S028 current checkpoint
+A fully explicit 334-point Euclidean pair now has independently checked signed integral total-cofiber cup-square coefficients0 and2, complete simplicial/Gram certificates and lower homotopy-interleaving gap1/534400. Its classical coherent-square mechanism is retired as the current HHA flagship following direct Lanari–Scoccola Proposition3.14 proof inspection. No original HHA target is selected. Strict frozen R5 and structural algebraic fronts remain open; S029 is future and unexecuted.

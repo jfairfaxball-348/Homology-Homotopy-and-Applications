@@ -1,0 +1,4 @@
+Gegenbauer dimension 5 coefficients: ['37/840', '11/168', '131/1980', '87/1540', '146/4095', '4/231', '16/3003']
+f(1): 9/4 f0: 37/840 bound: 1890/37 floor: 51
+Induced star: source 72 triangles, high target singleton {a} adjacent to each, pairwise nonedges (from corrected S021 source graph).
+Consequence: 72 > 51 so no exact graph Euclidean R^d, d<=5.

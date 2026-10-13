@@ -147,3 +147,9 @@ Front B: T59 repaired exact R181 Hopf/null two-parameter dHI>=1/145603 with T60 
 
 ## S027 route disposition
 Coherent topology B: T62 all n>=1 finite algebraic R^(N-1) three-distance two-height Rips pair on a common triangulated sphere K_n, same entire pointwise graded integral cohomology-ring and all componentwise homotopy-group persistence diagrams; mixed derived-cofiber x² differs by n and quantitative T63 dHI>=1/(1600N). Geometric/event aspect is proved, N variable. Source-independent integer AW and explicit f2 remain missing. No HHA-specific novel application or first novelty gate, despite stronger-than-one-example unbounded coefficient statement. Original BL/LS/MSZ/Hopf/Munson–Volić collide; Stage1 still open. Frozen S023 g/f1 graph strict R5 all-16471 inequalities still OPEN. Front A/C open. S028 FUTURE ONLY.
+
+## S028 route outcome
+- Hopf benchmark: explicit n2/commonK, signed relative integral AW0/2, complete334-point Gram matrices and dHI>=1/534400 DONE.
+- Hopf HHA flagship: RETIRED; original LS3.14 proof is a direct categorical mechanism predecessor. Literal finite-matrix priority not adjudicated.
+- Strict frozen g/f1 R5: OPEN; no5D coordinates/UNSAT, earlier star/K6,6 replays merely reconfirm known tests.
+- Integral mixed3x3/3D grid and nonprincipal succinct bit complexity: OPEN; primary future structural targets.

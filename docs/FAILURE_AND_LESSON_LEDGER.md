@@ -167,3 +167,13 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - The integer x²=n mapping-cone theorem is CLASSICAL. No independent integral relative AW cochain, signed 4-cycle and integral pairing for explicit f2 done; F2 S026 witness does not solve this.
 - S027 dHI>=1/(1600N) follows symbolic no-event margin, not sampled Fraction checks alone. Prior BL coherent warning/Whitehead examples and MSZ stable categorical theorem create major newness risk.
 - Strict frozen S023 182-graph d5 feasibility remains OPEN despite S026 no-K6,6. Dimension N(n)-1 family does not compress graphs. No genuine real-data/HHA-worthy use case shown.
+
+## S028 — certification is distinct from significance
+- Direct proof-level LS Proposition3.14 source access resolves the prior vague novelty risk: the coherent-square plateau separation mechanism is already established. Repeating its construction at larger Hopf coefficients is not an original HHA flagship.
+- Corrected original book citation: Definition3.8.1 is total cofiber;3.8.8 is square homology. Prior full-download failures are historical; S028 retrieved and inspected selected chapter proofs.
+- Integer AW2 is essential: mod2 erases coefficient2. Primitive cochain/cycle generators and integral UCT must be checked before treating a numeric pairing as a structure coefficient.
+- Separate checker imports no constructor and checks every simplex and pair. Source/target Smith diagnostics are actual unit reductions; relative torsion-freeness comes from the integral LES, not an unperformed huge Smith computation.
+- New constant-null graph and rank333 matrices do not settle old frozen g/f1 R5. The original optional NetworkX-dependent replay failed without its dependency; disclose it rather than turn missing execution into PASS.
+- A selected all-field cofiber ring comparison2/4 is not a natural isomorphism of all derived profiles and remains elementary classical arithmetic.
+
+- S028 final convention audit: the12 product strata count requires retaining vertices for negative-radius graph extension. Standard empty negative-radius Rips adds event0 (at most15 strata); all pairwise invariant equalities and the gap survive. Never suppress this convention.

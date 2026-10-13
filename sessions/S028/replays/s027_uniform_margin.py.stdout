@@ -1,0 +1,6 @@
+{"N": 5, "delta": "1/8000", "epsilon": "1/500", "gram": true, "height": true, "lower": true, "upper": true}
+{"N": 14, "delta": "1/22400", "epsilon": "1/1400", "gram": true, "height": true, "lower": true, "upper": true}
+{"N": 182, "delta": "1/291200", "epsilon": "1/18200", "gram": true, "height": true, "lower": true, "upper": true}
+{"N": 500, "delta": "1/800000", "epsilon": "1/50000", "gram": true, "height": true, "lower": true, "upper": true}
+{"N": 2500, "delta": "1/4000000", "epsilon": "1/250000", "gram": true, "height": true, "lower": true, "upper": true}
+S027_EXACT_RATIONAL_SAMPLE_MARGINS_PASS (symbolic proof separate)

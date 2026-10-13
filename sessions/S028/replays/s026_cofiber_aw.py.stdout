@@ -1,0 +1,3 @@
+{"AW_pairing": null, "R3": 4554, "R4": 2916, "all_R4_cycle": false, "cup_cochain_support": 0, "cup_nonzero": false, "d3_rank": 2375, "edges": 1572, "fvector": [182, 1572, 4434, 5418, 2916, 540], "graph_sha256": "8cce60227b889db047c72e1bb73aaff6b27448d58097e8ebeaed58286c7d0a23", "map": "g", "short": 644, "source_primitive_support": 0, "vertices": 182}
+{"AW_pairing": 1, "R3": 3168, "R4": 1440, "all_R4_cycle": true, "cup_cochain_support": 1, "cup_nonzero": true, "d3_rank": 1439, "edges": 1524, "fvector": [182, 1524, 3936, 4032, 1440], "graph_sha256": "ca062fbabeffacdb4f05af32135adb85e01f5368b17bbe36fdc705b53732c351", "map": "f1", "short": 644, "source_primitive_support": 206, "vertices": 182}
+S026_EXACT_F2_TOTAL_COFIBER_AW_PASS
