@@ -140,3 +140,8 @@ PROGRAMME_PROVED means internal detailed prose proof, not originality, external 
 |CLM-0113|PROGRAMME_PROVED|Repaired T47/T48: identical pointwise full integer graded ring/H/π-group persistence diagrams, but cofiber cups 0 vs ±1 with 14S¹.|Requires corrected order-preserving f0, classical Hopf cofiber theorem; not novelty-cleared.|SRC-0054,SRC-0055,SRC-0049,SRC-0053|
 |CLM-0114|PROGRAMME_PROVED|T49: any N-point near-equilateral off-diagonal squared distances in [a−η,a+η], (N−1)η<a, force affine dimension N−1.|Entire distance box, NOT arbitrary graph-specific low-d obstruction.|none|
 |CLM-0115|HEURISTIC|Novel HHA flagship or d≤5/A/C breakthrough in S021.|NOT ESTABLISHED: G2/G3/G4 remain closed.|SRC-0054,SRC-0055,SRC-0049,SRC-0053|
+
+## S022 graph-specific impossibility and originality check
+|CLM-0116|PROGRAMME_PROVED|T50: S021 corrected f0 high graph has an induced K_(1,72), which cannot be a Euclidean threshold graph in dimensions d<=5, regardless of edge lengths.|72 source triangular faces pairwise incomparable, common adjacent target {a}; exact 5D spherical code certificate yields max 51 such leaves. ONLY same graph, not other diagrams.|SRC-0057|
+|CLM-0117|SOURCE_STATED|Standard total homotopy cofiber of a square, classical Hopf cone cup, enriched cup persistence and scalar-height Rips are prior literature.|Proof-level priority of exact mixed Rips comparison remains open; indexed cubical manuscript ≠ whole PDF inspection.|SRC-0056,SRC-0058,SRC-0054,SRC-0055,SRC-0049,SRC-0053|
+|CLM-0118|HEURISTIC|T50 is a new HHA flagship or a universal no-go for all d<=5 pairs, or Front A/C are solved.|NOT ESTABLISHED; no G2/Lean/external action, NO_VIABLE_HHA_FLAGSHIP_YET.|SRC-0056,SRC-0057,SRC-0054|

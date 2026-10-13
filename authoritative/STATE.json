@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-13",
-  "last_completed_session": "S021",
-  "recommended_next_session": "S022",
+  "last_completed_session": "S022",
+  "recommended_next_session": "S023",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "S021 repaired T47: explicit 182-point Euclidean scalar-height/Rips Hopf comparison corrected f0 constant-map relation (S020 null certificate invalid). Correct null SHA256 65deabfaed606db2d756b38569de169bef073e32c388a774fe23de6d20e66741; Hopf SHA unchanged. T48 pointwise graded integral cohomology-RING diagrams equal yet canonical mixed cofiber cup square 0 vs ±1; T49 near-equilateral dimension lower bound. INTERNAL, originality not cleared.",
-  "headline_status": "S021_T47_CORRECTED_CERTIFICATE_T48_RING_DIAGRAM_SHARPENING__INTERNAL__NO_VIABLE_HHA_FLAGSHIP_YET",
-  "active_campaign": "S022 FUTURE UNEXECUTED: prove substantive dimension reduction or obstruction and exact prior-art challenge; A/C only if genuine breakthrough",
+  "selected_mathematical_problem": "S022 T50: S021 corrected 182-node null-poset upper-threshold graph contains induced K_(1,72) (all 72 source triangles adjacent to target singleton a). Exact 5D Gegenbauer polynomial gives at most 51 separated leaves in a Euclidean unit ball. Therefore NO faithful realization of THIS graph in d<=5 at ANY distances. Global d<=5 Hopf comparison remains OPEN. Mixed cofiber is standard cubical construction and Hopf/CP2 classical; NO original HHA flagship.",
+  "headline_status": "S022_T50_GRAPH_SPECIFIC_DIMENSION_AT_LEAST_6__INTERNAL__NO_VIABLE_HHA_FLAGSHIP_YET",
+  "active_campaign": "S023 FUTURE UNEXECUTED: redesign a smaller low-star Hopf comparison, independently check full mixed cup chain and kill or rescue HHA novelty; A/C only if rigorous new proof",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S021_CORRECTED_HOPF_CERTIFICATE_NO_G2"
+      "status": "IN_PROGRESS_S022_GRAPH_SPECIFIC_DIMENSION_NO_G2"
     },
     {
       "id": 2,
@@ -289,9 +289,23 @@
     "s020_merge_tree": "4160aa3a83fa375d40c1c534df7620c9ca890f72",
     "s020_main_run": 38386273621,
     "s021_entry_main": "5bf06074d1720cda393c70851c546b527a6d5ee8",
-    "s021_entry_tree": "4160aa3a83fa375d40c1c534df7620c9ca890f72"
+    "s021_entry_tree": "4160aa3a83fa375d40c1c534df7620c9ca890f72",
+    "s021_authored_commit": "0f526dd58f730cfa36cda383b7e1a0b15395ca11",
+    "s021_authored_parent": "5bf06074d1720cda393c70851c546b527a6d5ee8",
+    "s021_authored_tree": "c1d7d45ac909d03225d5c3473ff531f2e58af220",
+    "s021_pr": 22,
+    "s021_outgoing_merge_sha": "5471e225ae8bc0a9aa605f885b44061b94427574",
+    "s021_merge_parents": [
+      "5bf06074d1720cda393c70851c546b527a6d5ee8",
+      "0f526dd58f730cfa36cda383b7e1a0b15395ca11"
+    ],
+    "s021_merge_tree": "c1d7d45ac909d03225d5c3473ff531f2e58af220",
+    "s021_main_run": 38388582942,
+    "s021_main_job": 115266385196,
+    "s022_entry_main": "5471e225ae8bc0a9aa605f885b44061b94427574",
+    "s022_entry_tree": "c1d7d45ac909d03225d5c3473ff531f2e58af220"
   },
-  "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate. S020 inspected original Springer full HTML Monoidal Rips Prop6.7, SoCG DOI abstract/HTML page, MathOverflow exact 36-tetrahedra list and original 2000 simplicial Hopf map bibliographic metadata; priority remains unverified. S021 DIRECT original Madahar-Sarkaria author-hosted PDF §§2,3,5 inspected; Oudot-Waas SoCG2026 HTML Thm1, Blaser et al. 2026 §6.3 Prop6.7, Memoli-Stefanou-Zhou JACT2024 HTML introduction/Def and stability statements; mixed cofiber priority still OPEN.",
+  "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate. S020 inspected original Springer full HTML Monoidal Rips Prop6.7, SoCG DOI abstract/HTML page, MathOverflow exact 36-tetrahedra list and original 2000 simplicial Hopf map bibliographic metadata; priority remains unverified. S021 DIRECT original Madahar-Sarkaria author-hosted PDF §§2,3,5 inspected; Oudot-Waas SoCG2026 HTML Thm1, Blaser et al. 2026 §6.3 Prop6.7, Memoli-Stefanou-Zhou JACT2024 HTML introduction/Def and stability statements; mixed cofiber priority still OPEN. S022 directly read Cohn–Rajagopal 2026 §2 five-dimensional kissing number 40–44 bounds (independent T50 uses its own positive polynomial); Cambridge original Munson–Volić 2015 cubical homotopy pushouts chapter metadata and indexed original PDF §3.8.8 total cofiber excerpt (PDF not directly retrievable); original Sarkaria paper source §§2,3,5 and original JACT/SoCG remain priority adversaries. No complete mixed-persistence priority proof audit.",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null
@@ -306,17 +320,15 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Verify any mathematical use of S020 null-cloud SHA 138695... is RETRACTED: the face-dependent image is not an order-preserving map. Use S021 corrected 65deab... and the updated replay script.",
-    "Independent chain-level simplicial cup product of FULL mixed cofiber, without relying on the classical Hopf-invariant theorem; mathematical derivation currently uses integral cochain plus classical theorem.",
-    "Find d<=5 actual Euclidean one-height witness or a nontrivial graph/dimension obstruction not limited to near-equilateral distances.",
-    "Direct exact theorem/proof priority comparison for mixed punctured-square cup invariant; scholarly novelty and HHA significance NOT verified.",
-    "Front A succinct nonprincipal k>=1 original complexity theorem and Front C all-Q/all-Fp primitive integral mixed-grid coherence remain OPEN.",
-    "Stage2 first novelty, Stage3 Lean, Stage4 final novelty, Palomar, arXiv, HHA are not authorised; S022 FUTURE ONLY."
+    "Apply T50 ONLY to exact S021 corrected f0 high threshold graph; d<=5 different Euclidean pair of filtration diagrams remains unknown. No false global exclusion.",
+    "Independent chain-level integral cup product of entire corrected mixed cofiber (S021 classical Hopf identity currently used); no computational certification of all π_j.",
+    "Develop genuinely new topology beyond known Hopf/CP2 cofibers and standard total homotopy cofiber of a square, or RETIRE the HHA flagship candidate.",
+    "Front A genuinely new succinct nonprincipal interval k>=1 hardness/algorithm and Front C all-Q/all-Fp global primitive integral grid splitting/counterexample remain unsolved.",
+    "S020 old null SHA138695... is withdrawn; corrected S021 SHA65deab... required everywhere; formal Lean/Palomar/manuscript/external work not authorised."
   ],
   "blockers": [
-    "S020 null graph erroneously used first-letter image, violating source-to-target transitivity; S021 corrects and marks historical hash invalid. Verify downstream consumers.",
-    "181-dimensional near-equilateral Gram witness, with rigorously quantified class obstruction d>=181; not a general no-go for different geometries.",
-    "2000 Hopf/CP2 cofiber and 2023-26 Rips/cup-persistence literature offer substantial precedent; exact mixed cofiber priority unresolved.",
-    "Neither new nonprincipal complexity nor all-prime integral mixed-grid breakthrough. NO_VIABLE_HHA_FLAGSHIP_YET."
+    "Exact S021 182-point null threshold graph contains a 72-leaf induced star; T50 proves it impossible in Euclidean d<=5 for ANY graph-preserving distances. This does not rule out redesigned topological diagrams.",
+    "Classical original Madahar–Sarkaria 2000 Hopf/CP2, Munson–Volić 2015 total cofiber of squares, and 2023–26 enriched cup/Rips persistence put novelty in serious doubt.",
+    "Front A succinct k>=1 and Front C integral all-prime global coherence unresolved. NO_VIABLE_HHA_FLAGSHIP_YET."
   ]
 }

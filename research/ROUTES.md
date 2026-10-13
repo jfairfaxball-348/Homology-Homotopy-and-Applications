@@ -116,3 +116,10 @@ S017-T41 proves all-LLO-block relative pd on finite sentinel-zero coordinate hyp
 - **A succinct relative interval k≥1:** no genuine new efficient reduction/hardness beyond published LLO/FoCM and S010/S018; unresolved.
 - **C coherent all-prime integral mixed grid:** no complete proof/counterexample; unresolved.
 - **Priority:** original 2000 Hopf and CP² map (author-hosted source), 2023/24 cup persistence, 2026 full homotopy and function-Rips are direct precedents; exact mixed comparison potentially interesting but no gate2 novelty clearance. S022 FUTURE only.
+
+## S022 route decisions
+- **B exact corrected 182-vertex graph T50 (positive obstruction):** f0 mapping cylinder vertex t:{a} joins to every one of the 72 source triangles; source triangles are an antichain. Every faithful high-radius graph representation includes induced K_(1,72). Polynomial Gegenbauer 5D gives max 51, so any Euclidean embedding preserving the full graph needs d>=6 for *arbitrary* distances, not just T49's near-equilateral box. Hopf comparison in d<=5 via DIFFERENT graph remains possible. Projection, Gram rank reduction, reweighting exact graph all fail.
+- **B new original HHA value:** Standard 2015 total cofiber and 2000 Hopf/CP² undercut novelty; T50 is elementary conditional packing not substantial homotopy theory. HHA candidate UNSELECTED.
+- **A:** tried to go beyond S010 finite-listed/S018 all-rectangle by implicit nonprincipal incidence/hook generators; no correct complexity reduction or novel theorem proved.
+- **C:** considered p-local rational splitting/integral idempotent gluing on entire [0,2]^2/^3; no primitive globally compatible all-hypotheses proof or counterexample produced. OPEN.
+- S023 may redesign a low-antichain graph and pursue chain-level mixed cup and nonroutine stability, strictly FUTURE only.
