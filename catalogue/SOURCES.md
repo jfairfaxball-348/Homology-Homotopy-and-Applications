@@ -102,4 +102,9 @@ S021 original Oudot–Waas SoCG2026 Theorem1 and §2.3 compared directly to whol
 ## S023 new original mathematical source
 |SRC-0059|O. R. Musin, *The kissing number in four dimensions*, Annals of Mathematics 168 (2008), 1–32, DOI 10.4007/annals.2008.168.1|https://annals.math.princeton.edu/2008/168-1/p01|ABSTRACT_INSPECTED, original Annals direct 2026-10-13: k(4)=24.|Full proof not directly inspected here; used ONLY as known published input to T53. Not an HHA novelty claim.|
 
-S023 rechecked the indexed Cambridge Munson–Volić 2015 chapter metadata and original Springer JACT 2026 Blaser article and retains S021/S022 access levels. No new primary proof-level clearance of total-cofiber priority. 
+S023 rechecked the indexed Cambridge Munson–Volić 2015 chapter metadata and original Springer JACT 2026 Blaser article and retains S021/S022 access levels. No new primary proof-level clearance of total-cofiber priority.
+
+## S024 original source access
+
+- **SRC-0060 METADATA_ONLY:** Munson–Volić author-hosted 45MB original PDF https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/munson-volic2.pdf ; indexed excerpts §§3.8–3.9 surfaced definitions and propositions but direct full PDF fetch FAILED with size limit. NOT proof inspected. Confirms total square cofiber 2015 antecedent, not new priority.
+- Revisited existing SRC-0054 (published 2000 Hopf/CP²), SRC-0055 (JACT2024 persistent cup modules), SRC-0049 (SoCG2026 function-Rips), SRC-0053 (JACT2026 monoidal Rips full HTML), SRC-0057/59 (5D/4D kissing). Exact HHA new theorem NOT certified.

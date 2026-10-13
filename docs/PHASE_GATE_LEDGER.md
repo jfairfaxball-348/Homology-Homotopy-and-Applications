@@ -57,4 +57,6 @@
 
 
 ## S023 2026-10-13 gate check
-Stage0 PASS administrative. Stage1 IN_PROGRESS: T51 nonconstant null-disc face map and T52 graph widths established, T53 source-backed d≤4 no-go for two specific high graphs; NO dimension5 faithful Euclidean pair and NO nonroutine original HHA flagship. Stage2 first novelty NOT_STARTED (Munson–Volić, original 2000 Hopf, MSZ2024, Oudot–Waas/Blaser2026 heavy). Stage3 Lean NOT_STARTED, Stage4 final audit NOT_STARTED, Palomar/arXiv/HHA owner-gated. No gate silently promoted. 
+Stage0 PASS administrative. Stage1 IN_PROGRESS: T51 nonconstant null-disc face map and T52 graph widths established, T53 source-backed d≤4 no-go for two specific high graphs; NO dimension5 faithful Euclidean pair and NO nonroutine original HHA flagship. Stage2 first novelty NOT_STARTED (Munson–Volić, original 2000 Hopf, MSZ2024, Oudot–Waas/Blaser2026 heavy). Stage3 Lean NOT_STARTED, Stage4 final audit NOT_STARTED, Palomar/arXiv/HHA owner-gated. No gate silently promoted.
+
+**S024 (13 October 2026) Stage1:** T54 corrects full induced graph stars32/30 vs earlier restricted31/27, and confirms d<=4 impossible but d5 still OPEN. T55 classical Jung packing excludes low global spread D/s<=7/5 for ANY 182 distinct points in R5; NOT arbitrary graph positions. T56 finite-square robust under tiny point/height perturbations; standard source-derived cup/total-cofiber, no original HHA theorem. Four numerical failures are HEURISTIC. G2/G3/G4 and all external stages remain CLOSED/NOT STARTED. S025 FUTURE ONLY.

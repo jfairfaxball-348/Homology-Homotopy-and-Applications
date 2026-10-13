@@ -152,3 +152,11 @@ PROGRAMME_PROVED means internal detailed prose proof, not originality, external 
 |CLM-0120|COMPUTED_EXACT|T52: new null high graph has 1572 edges and SHA8cce602..., f1 has 1524 and SHAca062..., common 644 short; max source antichain at target face 31 vs27; full upper flag GF2 Betti S2 both.|Finite 182-vertex all-pair/comparability/matching and networkx GF2 clique enumeration, local actual outputs; 5D feasibility not computed.|SRC-0054|
 |CLM-0121|PROGRAMME_PROVED|T53: these two revised upper graphs each contain induced 31- or 27-leaf star, respectively; Musin's tau4=24 and the S022 exact radial lemma exclude any faithful Euclidean embedding in dimension d<=4.|Conditional on exact chosen graphs; 5D may exist or fail, and no new kissing bound.|SRC-0059|
 |CLM-0122|HEURISTIC|Recoloured pair has been embedded in R5, gives original HHA-level theorem, or globally settles nonprincipal succinct k>=1 / primitive all-prime mixed-grid problem.|NOT ESTABLISHED: only proved R181 existence, 4D lower; G2/Lean/Palomar/paper/arXiv/HHA closed.|SRC-0054,SRC-0056,SRC-0055,SRC-0049,SRC-0053|
+
+## S024 T54–T56 (13 October 2026)
+
+- **CLM-0123 COMPUTED_EXACT:** Full upper graph induced-star maxima corrected to g32/f130 across ALL 182 centers. Verified pair-class SHA g8cce602..., f1ca062..., short644. Local witness g29 source triangles + three target singletons, f127 triangles +3. Independent NetworkX match all centers. Stars insufficient to disprove R5.
+- **CLM-0124 PROGRAMME_PROVED:** General classical Jung/packing N ≤ (1+sqrt(2d/(d+1))D/s)^d, thus any182 distinct R5 points D/s>7/5. Conditional global-spread kill ONLY, not faithful R5 graph impossibility.
+- **CLM-0125 PROGRAMME_PROVED:** Exact four-corner radius/height cup witness stable for R181 positions ≤ε/32 and heights≤1/4; continuous-plane equality under perturbation NOT asserted.
+- **CLM-0126 HEURISTIC:** Four 350-iteration R5 trials fail thousands of pair inequalities, NOT an UNSAT certificate.
+- **CLM-0127 HEURISTIC:** No HHA-original flagship; old original sources and Stage gates continue to block priority and publication. See sessions/S024.

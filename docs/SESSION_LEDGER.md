@@ -49,3 +49,5 @@
 
 
 |S023|2026-10-13|Explicit low-star genuine null map and exact 182-graph verification, 4D kissing lower and novel-source audit|T51 null g image lies in target sphere minus open abc, so no 72-star; g/f1 retain same all pointwise H/π/cohomology rings and distinct canonical classical mixed cofiber cup. T52 upper edges1572/1524 and max cross-source star widths31/27, full GF2 flag homology; T53 d>=5 needed for BOTH graphs using Musin k4=24. d=5 OPEN, no HHA novel flagship or A/C solution, G2 closed.|sessions/S023/CLOSEOUT.md; S024 FUTURE ONLY|
+
+| S024 | 2026-10-13 | Full poset mixed-star census, classical 5D spread obstruction, finite-square stability and all-pair exploratory search | T54 exact full induced stars g32/f130 (restricted S023 were31/27); independent 182-center matching and 16,471-pair fingerprints; T55 classical Jung+packing any 182 distinct R5 points D/s>7/5; T56 exact four-corner point-perturbation robustness. 4 failed optimization seeds NOT no-go, d5 OPEN. Original HHA flagship missing, A/C open, G2 closed. | sessions/S024/CLOSEOUT.md; S025 FUTURE ONLY |

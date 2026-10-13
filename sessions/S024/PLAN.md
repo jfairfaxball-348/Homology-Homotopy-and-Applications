@@ -1,0 +1,10 @@
+# S024 research scope, finite universe and stopping criteria
+
+1. Independently reconstruct EXACT same 36 source tetra, 168 source faces, 14 target faces, both maps and full pairwise classifications; assert full SHA256s, counts, nontransitivity correction remains retracted.
+2. Exhaustively compute maximum induced star for BOTH 182-vertex high comparability graphs. Because every neighbour of a center lies either strictly below or strictly above it, and all lower are comparable to all upper, compute widths of BOTH induced strict intervals using Dilworth maximum bipartite matching on all centers. Extract independently checkable size-32/30 antichain witnesses, and replay with a second NetworkX matching implementation (not only maximum triangle source stars).
+3. Attack R5 realizability by two techniques: (a) prove a non-perturbative but **conditional**, dimension5 diameter/minimum-separation obstruction for N=182 with complete proof; (b) exploratory L-BFGS 5-dimensional optimization across 16,471 unordered pairs per graph, four deterministic map/seed trials with declared squared-distance targets edge<=0.98/nonedge>=1.02. Failure is NOT UNSAT. Independent full sign check against threshold 1 and report violations.
+4. Prove strict threshold/height perturbation protection for the actual (R181) rational squared-distance model and distinguish indexed 2x2 exact stability from full-plane interleaving.
+5. Revisit original 2000 Hopf, 2015 total cofiber, 2024 cup persistence, 2026 function-Rips and monoidal Rips. Exact first novelty Gate2 remains CLOSED.
+6. Fronts A/C only if gap-free all-input theorem or counterexample. Close if unproved. STOP after S024 and write future S025 without execution.
+
+Finite exact topology: all 16,471 unordered pairs each graph and all 182 centers, two strict interval widths at each center, no arbitrary finite search masquerading as general theorem. Floating experiments exploratory, not certified finite enumeration or actual R5 feasible witness.
