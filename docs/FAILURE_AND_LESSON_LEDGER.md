@@ -304,3 +304,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - "Fourfold bracket contains theta5" alone does NOT exclude zero: apply complete printed indeterminacy h5n filtration≥6 against h5² filtration2, still published-dependent.
 - S041 T97 possible half-step threshold claim not independently adequate for arbitrary replacements. Avoid using it to upgrade 5/4 to 3/2.
 - No novelty claim: DKS1989, BJT2019, LS2020v1 and subsequent original sources still need full exact-result independent comparison.
+
+## S047 lessons (14 October 2026)
+- The S046 five-sample obstruction is **provably sample-clock sharp at ε=5/4** (T110), but sample sharpness never licenses dHI exactness.
+- T111 converts attained endpoint strictification to finite 11-node **existence of a coherent whole-WE diagram K**; checking mere homotopy triviality of five composites in the original homotopy category is weaker. No tertiary filler, K construction, GRID impossibility or ε>5/4 exclusion established.
+- A negative endpoint-attainment statement would still not prove dHI>5/4 (infimum need not be attained). All primary source access and classical indeterminacy limits persist; no external novelty certification.
+- Preserve all-real shoelace and both strict identities, not a single point-set F held fixed or independent local nullhomotopies.

@@ -346,3 +346,9 @@ See S038 full dossier and JSON scope.
 - CLM-0237 PROGRAMME_PROVED (INTERNAL, source-dependent): T109 for any epsilon<5/4 five samples (0,1,2+c,3+c,4+2c), c=2epsilon−2<1/2, expose all three literal 2epsilon composites and give zero in stable fourfold Toda, contradicting SOURCE-STATED IWX2023 indeterminacy/Adams class.
 - CLM-0238 PROGRAMME_PROVED (INTERNAL, published input): dIHC=1 < 5/4 <= dHI <= 3/2 for the unchanged Wang–Xu sphere chain. No exact dHI=3/2, formal proof, independent Adams calculation or externally approved novelty.
 - CLM-0239 INHERITED_UNVERIFIED: dHI exactly 3/2, verified full literature priority, HHA-original publication suitability and universal HI/IHC inequality remain unproved.
+
+## S047 claims (14 October 2026)
+- **CLM-0240 PROGRAMME_PROVED (conditional):** T110 for m+1 consecutive stages with a well-defined zero-excluded m-fold Toda and T108, strict HI ε<1+1/(2 floor(m/2)) impossible by one all-zero-composites sampling; the sample clock threshold is optimal **for that method**, not necessarily exact dHI.
+- **CLM-0241 PROGRAMME_PROVED (INTERNAL):** T111 unchanged five-sphere strict **attained** ε=5/4 HI against point iff finite [10] whole-diagram K~A with K10=point, one propagated vertex family, FIVE literal constants k→k+5 (k0..4). Sufficiency constructs all-real H via floor(2t) and both shifted identities.
+- **CLM-0242 INHERITED_UNVERIFIED:** Existence/nonexistence of GRID, strict ε∈(5/4,3/2), whether dHI=5/4 attained/as infimum or 3/2, fully independent published-bracket transport and HHA originality remain OPEN.
+- **CLM-0243 SOURCE_STATED:** Original LS Prop4.5 asserts poset projective-cofibrant filtered/mono condition; Wang–Xu/IWX original tables provide their fourfold bracket and h5n indeterminacy. Selected original passage access only; no new Adams proof.

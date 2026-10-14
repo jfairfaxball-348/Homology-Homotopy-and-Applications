@@ -232,3 +232,9 @@ SRC-0096 STATEMENT_INSPECTED selected 2023 IWX Tables4 p214 h5 f1/n f5 and Table
 - SRC-0096 IWX2023 original printed pp214/228 Tables4/10 previously directly viewed: h5 filtration1, n filtration5, fourfold h5² filtration2 with indeterminacy h5n; S046 zero-exclusion **source-dependent**, full classical/Adams comparison not independently re-proved.
 - SRC-0095 BJT2019 original §7.A selected prior proof inspection; SRC-0091 DKS1989 original selected printed transcript statement; SRC-0086 HKM2002/SRC-0092 Baues–Blanc2011 abstracts only. No novelty claim from absence of a full proof.
 - SRC-0084 2026 K[u] dg equality is NOT ordinary Top^R. Original 1981 T66 source full JPAA proof remains uninspected.
+
+## S047 source access and novelty scope
+- SRC-0083 original LS arxiv2010.05378v3 HTML Proposition4.5 poset projectively-cofibrant ⇒ filtered/monomorphic structure maps rechecked at selected proof; original Remark3.13 and 2020v1 anticipation retained, no wholesale source priority audit.
+- SRC-0094 original Wang–Xu2017 Cor1.10 selected original proof examined; SRC-0096 original IWX2023 printed Tables4 (p214) /10 (p228) selected inspected, h5 f1, n f5, fourfold h5² f2 and h5n indeterminacy. Classical invariant transport and Adams/Moss computation NOT independently rederived.
+- SRC-0095 BJT2019 selected §7.A, SRC-0091 DKS1989 selected §§2–5, SRC-0086 HKM2002 and SRC-0092 Baues–Blanc2011 still limited. SRC-0084 2026 dg K[u]/BS1 result is not equality for all Top^R. No decisive 2023–2026 novelty clearance or original1981 JPAA full-proof inspection.
+- T110/T111 are internal symbolic mathematical deductions, not attributed to a novel publication or external referee.

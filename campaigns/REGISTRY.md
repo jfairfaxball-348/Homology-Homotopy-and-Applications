@@ -106,3 +106,6 @@ All 66 P0..10 intervals crossed with all six critical A0,3,7 rectangles, 396 bru
 
 ## S044 active candidate
 S044 T102 source-dependent bracket zero-exclusion from published IWX2023 Table4 h5 f1 and n f5 / Table10 h5² f2 and h5 n indeterminacy f>=6; Adams and full classical transport not independently rederived. T103 four strict all-replacements integer-ladder equations (two naturality and both shifted identities). NO proof contractible nonpoint U forces zero Toda bracket and NO strict HI1 witness. Hence dIHC=1 INTERNAL, dHI∈{1,3/2} OPEN, no HHA gap or novelty gate. Stage1 continues, S045 FUTURE UNEXECUTED, Lean/Palomar/manuscript/submission untouched. Frozen T66/1981, R5 16471, Hopf and T84.
+
+## S047 campaign boundary (2026-10-14)
+No new exhaustive search, numerical dataset, script, independent computation or cryptographic output hash was claimed or run. T110 rational/real timestamp inequalities and T111 floor(2t) half-grid equivalence were checked symbolically and proved in sessions/S047/MATHEMATICS.md; not a machine certificate and not an exhaustive search of K diagrams. Frozen R5 original 16,471 cases remain OPEN, T66/1981 and T84 unchanged. S048 future only.

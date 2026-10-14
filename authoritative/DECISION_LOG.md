@@ -285,3 +285,9 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - DEC-S046-B: Accept T109 **INTERNAL SOURCE-DEPENDENT** inequality dHI>=5/4 for unchanged Wang–Xu sphere chain using real timestamps and published full fourfold Toda zero-exclusion. Inherited dIHC1/dHI<=1.5 yield strict gap. Exact dHI=1.5 NOT established; do NOT rely on S041 asserted half-step quantization.
 - DEC-S046-C: Fourfold bracket original Wang–Xu and BJT/DKS classical rectification priority; LS2020v1 anticipated distance separation; new quantitative topology is not first-novelty cleared. G2 NOT_STARTED, Stage1; no original HHA flagship declared or paper/Lean/Palomar/arXiv/HHA/contact.
 - DEC-S046-D: S047 FUTURE UNEXECUTED requires owner; preserve T66 original1981 source restriction, R5 16471, retired Hopf and T84.
+
+## S047 decisions (2026-10-14)
+- DEC-S047-A: Preserve S046 T108/T109 as internally source-dependent and externally unrefereed; original LS Prop4.5 mono argument rechecked for posets; do not overstate independent Adams/classical bracket transport or universality.
+- DEC-S047-B: Accept INTERNAL conditional T110 m-fold bracket sharp *sampling-method* real clock bound; its sharp endpoint is a limitation of the chosen obstruction, NOT the exact dHI.
+- DEC-S047-C: Accept INTERNAL T111 iff between existence of an attained strict 5/4 HI and full 11-vertex GRID (K~A as a single diagram, one propagated vertex family, five constant k→k+5 arrows); explicit both directions and all real times. No GRID witness or no-go, no exact dHI proof.
+- DEC-S047-D: Continue Stage1/G2 NOT_STARTED, no novel HHA flagship; S048 FUTURE UNEXECUTED with GRID as first target. No Lean/Palomar/paper/arXiv/HHA/contact; T66/1981/R5/Hopf/T84 frozen.
