@@ -237,3 +237,10 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - **DEC-S039-B:** Accept INTERNAL T88 full four nonterminal stages versus point classification d_IHC=d_HI in half-unit steps; no general space equality nor strict HI>IHC example; LS Toda is a control.
 - **DEC-S039-C:** First possible point-target multiwindow gap moves to ≥5 nonterminal stages/derived-[2], not proved there. Source originality/HHA novelty against DKS1989/track2002/LS2023 not cleared; Stage1 only.
 - **DEC-S039-D:** Original LLO2024 all-rectangle k1 binary algorithm T84 is derivative S018/S037, no new claim. Frozen T66 original1981, strict R5 open, Hopf flagship retired. All formalisation/publication gates closed; S040 FUTURE ONLY.
+
+
+## S040 decisions (2026-10-14)
+- **DEC-S040-A** Preserve T87/T88 as INTERNAL after hostile relative-null/pullback/whole-real span review; not upgraded to external proof or HHA originality.
+- **DEC-S040-B** Accept INTERNAL T91 honest derived-[2] model, T92 rigorous four-case conditional five-stage strictification; no general result without the null primitive arrow. Require four essential arrows for epsilon1 counterexample.
+- **DEC-S040-C** Retain T93 epsilon1.5 overlapping triple issue, and T94 essential-arrow nilpotent wedge control dHI=dIHC=1. Neither a strict gap nor generic equality was proved; Stage1 only.
+- **DEC-S040-D** Direct inspection of original 1989 DKS relative §§4 statements/selected proof paragraph strengthens preexisting coherence priority risk, 2002 quaternary Toda likewise. Gate2 closed; T84 in-house derivative, T66 original1981, R5 open and retired Hopf frozen. S041 future only. No downstream actions.

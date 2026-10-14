@@ -196,3 +196,7 @@ C T66 original1981 coherent integral Q/allFp prime still unrefereed; S023 16,471
 - Four-stage/point derived-[1] overlap: T87/T88 INTERNAL equality **HI=IHC** for the whole restricted family. Do not seek strict separation in this class; derived Toda difference is HC<IHC only.
 - S040 challenger: five-stage/point derived-[2] triple overlapping composites and full objectwise-equivalent strictification; or 4-stage nonpoint G with both identities. No result claimed.
 - Algebraic T84 derivative (S018/S037); intrinsic homotopical application absent, source-priority barrier persists.
+
+
+## S040 routes
+Topological primary: T91 derived [2] theta2 zero model; T92 INTERNAL: all four primitive arrows essential necessary for epsilon1 separation, all four essential not sufficient (T94 wedge nilpotent control exact HI=IHC1). Need strictification lift obstruction with all replacements at epsilon1 or derived [1] overlapping triples at epsilon1.5. Neither closed. Four-stage T87/T88 internal but priority blocked by original DKS1989 §§4 proof/statement. Algebraic T84 derivative S018/S037/S038 not rerun. T66/1981, strict R5 and retired Hopf frozen. No HHA flagship.

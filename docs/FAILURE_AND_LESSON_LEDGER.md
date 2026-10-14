@@ -256,3 +256,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Mapping-cylinder factorization of g alone does not preserve strict g f=constant; the quotient B/A and mapping cylinder of B/A→C preserve it and let relative HEP kill h g.
 - Two overlapping derived-arrow windows against the point target do NOT yield HI>IHC in a four-stage chain under T87; move to derived [2] at five stages or a genuine non-point target. External proof priority and full 1989 DKS source unverified.
 - F2 all-real rectangle k1 BIT is earlier T84 combining S018 T43/T44 with S037, hence not fresh S039 novelty.
+
+
+## S040 hostile lessons
+- Pointwise [gf]=[hg]=[kh]=0 is NOT a morphism-zero certificate in Ho(Top^[2]); compute in a projectively cofibrant strict equalizer and retain both overlap coherences.
+- Even FOUR essential primitive arrows give no gap: n=i1 p2 on S³∨S³ has nonzero pi3 matrix N but N²=literal constant, yielding dHI=dIHC=1 on five stages.
+- If any ONE of f,g,h,k is null and theta2 is coherently zero, T92's four-case HEP/T87 constructions strictify the triple; proposed counterexample must evade all four cases.
+- A candidate at epsilon1.5 needs derived-arrow coherence of two overlapping three-step composites; no proof this automatically rectifies. A failed fixed model is not a replacement-invariant obstruction.
+- Original DKS1989 §§4.4–4.8 explicitly supplies relative realization and H^{n+1} obstruction theory. Even a genuine obstruction computation must be compared to these published results before novelty credit.

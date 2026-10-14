@@ -2002,6 +2002,60 @@
         "SRC-0091"
       ],
       "scope": "NOT ESTABLISHED; five-stage/nonpoint remains open; DKS1989/track2002 and original LS antecedents unrefereed as complete priority check."
+    },
+    {
+      "id": "CLM-0211",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T91 explicit projectively cofibrant derived [2] mapping-space strict equalizer and point-component test for theta2=(gf,hg,kh).",
+      "sources": [
+        "SRC-0091"
+      ],
+      "scope": "INTERNAL model-category argument, no formal or outside referee; does not alone yield primitive-arrow strictification."
+    },
+    {
+      "id": "CLM-0212",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T92 theta2 point-null and at least one of f,g,h,k null implies after whole-chain weak-equivalence replacements gf,hg,kh all literally constant; strict real epsilon1 interleaving.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0091"
+      ],
+      "scope": "Four case proof S040/MATHEMATICS; relies on S039 T87 and HEP. Consequence all four primitive maps essential necessary for epsilon1 gap. No general gap or originality."
+    },
+    {
+      "id": "CLM-0213",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T93 five nonterminal stages versus point step thresholds 0,.5,1,1.5,2,2.5; null khgf suffices strict epsilon2 by single cofiber HEP, unconditional epsilon2.5.",
+      "sources": [
+        "SRC-0083"
+      ],
+      "scope": "Internal all-real stage arithmetic and single-window standard HEP; epsilon1.5 arrow coupling remains open."
+    },
+    {
+      "id": "CLM-0214",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T94 W=S3 wedge S3 and n=i1 p2 induces nonzero nilpotent N on pi3, n squared literally point; five equal W stages with all four arrows n have dIHC=dHI=1.",
+      "sources": [],
+      "scope": "Exact point-set projection/inclusion and lower bound; no computation, not an original HHA flagship."
+    },
+    {
+      "id": "CLM-0215",
+      "status": "SOURCE_STATED",
+      "claim": "DKS1989 original §§4.2,4.4,4.8 includes relative realizations, homotopy-coherent lifting comparison and relative cohomological obstructions.",
+      "sources": [
+        "SRC-0091"
+      ],
+      "scope": "Original-paper scanned text on third-party transcript selected sections, direct journal 403, not fully proof audited."
+    },
+    {
+      "id": "CLM-0216",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "A five-stage essential-arrow theta2-zero non-strictifiable witness or a universal theta2-zero five-stage strictification has been found.",
+      "sources": [
+        "SRC-0091",
+        "SRC-0086"
+      ],
+      "scope": "NOT ESTABLISHED; epsilon1 and epsilon1.5 possible gap targets. No new original HHA theorem/priority clearance."
     }
   ]
 }
