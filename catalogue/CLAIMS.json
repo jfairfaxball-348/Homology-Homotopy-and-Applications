@@ -1531,6 +1531,44 @@
         "SRC-0073"
       ],
       "scope": "DO NOT PROMOTE; 1981 and 2026 full original proofs not read, homotopy application absent, Gate2 closed."
+    },
+    {
+      "id": "CLM-0163",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T69: exact deterministic polynomial-bit recognition of combined all-composite cokernel purity and every-prime/Q LLO field block criterion, for explicitly expanded finite integer grid diagrams with N vertices; all order cubes at most N²; Koszul matrix dimensions at most Nr; bit growth polynomial even when composites generated from adjacent matrices.",
+      "sources": [
+        "SRC-0073",
+        "SRC-0076"
+      ],
+      "scope": "Direct LLO Thm14+UCT/Smith and classical polynomial-bit arithmetic; not original HHA, not succinct fixed k>=1, output integral block bases not shown polynomial-bit; coherent-Z interpretation conditional on unrefereed T66."
+    },
+    {
+      "id": "CLM-0164",
+      "status": "COMPUTED_EXACT",
+      "claim": "Executed independent 5x4x3 sheared integer B(P) extraction with SymPy Smith transformation U,V recovers all 8 planted integral blocks with every one of 900 comparable-arrow naturality checks; 6 zero stalks and 42 sheared stalks.",
+      "sources": [],
+      "scope": "Executed Python3.13.5 SymPy1.14; script git blob 6092fec2ce485fae0aef5f545df4d5a6c5356c49, SHA256 3a24d4d45b1ab13c167f70bf9c9f8ec0139e37e40a7877c20c083a9928eeda18; stdout git blob c8eba8de7ca6c6381060549e0c81001a04de39ee; constructed-split finite evidence only."
+    },
+    {
+      "id": "CLM-0165",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T70: exact independent Boolean-square controls show missing H0 torsion spoils all-prime field Koszul exactness despite pure composites; pulled-back scalar2 chain passes all field cube tests but violates required composite cokernel purity.",
+      "sources": [
+        "SRC-0073"
+      ],
+      "scope": "Explicit integer d1/d2 matrices, direct Smith/UCT; neither is counterexample to full T66 hypotheses."
+    },
+    {
+      "id": "CLM-0166",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "T66/T69 are new important HHA homotopy-theoretic flagship theorems with sufficient originality, significance and independent proof certification.",
+      "sources": [
+        "SRC-0072",
+        "SRC-0075",
+        "SRC-0073",
+        "SRC-0065"
+      ],
+      "scope": "NOT ESTABLISHED; no original HHA-specific homotopy invariant, actual 1981 original proof absent, original Keagy already covers chain/zigzag cases, external peer proof not held, Stage2/Lean/Palomar/paper/arXiv/HHA CLOSED."
     }
   ]
 }

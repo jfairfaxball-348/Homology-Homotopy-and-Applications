@@ -196,3 +196,10 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Internal sheared tests now actually extract Z sections/retractions and recover full natural basis on every comparable pair; positive finite evidence is not universal proof or originality.
 - An algorithm enumerating 2^n stalks on an O(n) succinct Boolean-grid presentation is not a succinct polynomial decision algorithm, and does not itself yield hardness.
 - Full original 1981/2026 proofs not accessible: do not claim priority or select a flagship; ordinary homology-filtration interpretation is not an original homotopy theorem.
+
+## S032 lessons — 14 October 2026
+- Number of all order cubes in an **expanded** product chain grid with N vertices is ∏m_j(m_j+1)/2≤N². This closes an unproved explicit-input polynomial-bit **recognition** obligation once bit-growth bounds and classical deterministic Smith algorithms are invoked. It is not an efficient algorithm for succinct representations of N=2^n, nor a polynomial-bit certificate of small integral conjugating bases.
+- Source priority can improve with direct original arXiv HTML even when an earlier PDF download was disabled: Keagy2026 actual full proof sections now inspected, chain/zigzag only; authentic 1981 JPAA pp7–12 still not accessed. Do not overclaim uniqueness.
+- Corrected Smith test generator: a single entry change in an already sheared matrix is not generally unimodular; apply elementary **row additions**. Boundary naturality must compare against the 0/identity thin module arrow, not identity across outside-to-inside support. Both issues fixed *in the test harness* before PASS, not mathematical counterexamples.
+- Construction from known split blocks is positive extraction evidence, not a nonsplit universal adversary. Preserving all-composite purity, joint H+I saturation, H0 torsion and all-prime field criterion is mandatory for real T66 counterexample.
+- No genuine new homotopy invariant/obstruction or nonprincipal succinct k≥1 reduction found. Stop promoting inherited Hopf/cofiber or pure persistence certificates as original HHA flagship.

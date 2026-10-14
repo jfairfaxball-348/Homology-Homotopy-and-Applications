@@ -22,3 +22,6 @@ T66 internal all-finite-product-chain integral global block descent supersedes t
 
 ## S031 checkpoint (14 October 2026)
 T66 re-audited and new sheared integer full splitting extraction PASS on 4²/4³/3x5; T67 finite exact all-prime field block test via integral Koszul middle H=0 and H0 torsionfree / unit Smith and rank. Proof is LLO+UCT corollary, originality NOT established. Original 1981/2026 full proofs and novel homotopical application missing; Stage1 only. S032 FUTURE UNEXECUTED.
+
+## S032 checkpoint (14 October 2026)
+Proof of deterministic polynomial-bit **recognition on explicitly expanded integer product grids** T69: C_all≤N² integer cubes; field block all-prime Koszul tests via unit Smith + rational middle ranks; all-composite primitive-cokernel test. Combining with internally proved T66 conditionally yields integer B(P) splitting, not original/HHA-certified and not a succinct k≥1 result. Independent sheared 5x4x3 (N60, 900 comparable) exact Smith transformation/retraction extraction passes eight constructed blocks including 6 zero stalks. Keagy2026 original full arXiv HTML proof recovered (chains, zigzags), Höppner–Lenzing1981 JPAA pp7–12 full proof still blocked. No new homotopy flagship or gate promotion; S033 FUTURE UNEXECUTED.

@@ -1,0 +1,183 @@
+{
+  "counts": [
+    {
+      "N_squared": 16,
+      "all_cubes": 9,
+      "dimension_counts": [
+        4,
+        4,
+        1
+      ],
+      "koszul_cubes": 1,
+      "shape": [
+        2,
+        2
+      ],
+      "vertices": 4
+    },
+    {
+      "N_squared": 225,
+      "all_cubes": 90,
+      "dimension_counts": [
+        15,
+        45,
+        30
+      ],
+      "koszul_cubes": 30,
+      "shape": [
+        3,
+        5
+      ],
+      "vertices": 15
+    },
+    {
+      "N_squared": 256,
+      "all_cubes": 100,
+      "dimension_counts": [
+        16,
+        48,
+        36
+      ],
+      "koszul_cubes": 36,
+      "shape": [
+        4,
+        4
+      ],
+      "vertices": 16
+    },
+    {
+      "N_squared": 4096,
+      "all_cubes": 1000,
+      "dimension_counts": [
+        64,
+        288,
+        432,
+        216
+      ],
+      "koszul_cubes": 648,
+      "shape": [
+        4,
+        4,
+        4
+      ],
+      "vertices": 64
+    },
+    {
+      "N_squared": 3600,
+      "all_cubes": 900,
+      "dimension_counts": [
+        60,
+        270,
+        390,
+        180
+      ],
+      "koszul_cubes": 570,
+      "shape": [
+        5,
+        4,
+        3
+      ],
+      "vertices": 60
+    },
+    {
+      "N_squared": 4096,
+      "all_cubes": 729,
+      "dimension_counts": [
+        64,
+        192,
+        240,
+        160,
+        60,
+        12,
+        1
+      ],
+      "koszul_cubes": 473,
+      "shape": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "vertices": 64
+    }
+  ],
+  "environment": {
+    "python": "3.13.5",
+    "sympy": "1.14.0"
+  },
+  "smith_examples": {
+    "constant_boolean_square": {
+      "all_nonzero_smith_units": true,
+      "d1": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "d2": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "rational_middle_homology_rank": 0,
+      "smith_d1": [
+        1
+      ],
+      "smith_d2": [
+        1
+      ]
+    },
+    "impure_composite_scalar_2": {
+      "all_nonzero_smith_units": true,
+      "d1": [
+        [
+          1,
+          -2
+        ]
+      ],
+      "d2": [
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "rational_middle_homology_rank": 0,
+      "smith_d1": [
+        1
+      ],
+      "smith_d2": [
+        1
+      ]
+    },
+    "torsion_H0_2": {
+      "all_nonzero_smith_units": false,
+      "d1": [
+        [
+          1,
+          -1
+        ],
+        [
+          0,
+          -2
+        ]
+      ],
+      "d2": [
+        [],
+        []
+      ],
+      "rational_middle_homology_rank": 0,
+      "smith_d1": [
+        1,
+        2
+      ],
+      "smith_d2": []
+    }
+  }
+}
