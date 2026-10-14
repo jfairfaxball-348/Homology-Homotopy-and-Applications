@@ -1,0 +1,5 @@
+# S036 INPUT and live-entry evidence
+
+Owner invocation: "Run next session" with exact public authoritative/NEXT_SESSION_PROMPT.md URL; no longer request. Executed exactly one S036, not S037. Repo jfairfaxball-348/Homology-Homotopy-and-Applications id1415583825. Main 5971f680be471d8e395fb84035816c75a439078c tree fbefc7278f1cf370ca8c912581ae9db3bb250a97 at entry. S035 authored3452f975c67d21d13645c5ee50f6fb22009c17d6 parent ec8d037..., PR36 merged 5971..., parents ec8d.../3452..., no alternate S036 branch/open PR. S035 2026-10-14. Classic statuses zero, rulesets none visible, protection403 inaccessible. Static governance main Action38561454698 success job115843267362, not mathematical verification.
+
+Governing AGENTS.md, STATE, START_HERE, protocol, claims/sources, S035 mathematics, prior-art and adversarial dossiers, T66 and S028 retirements read. Aim independent falsification/confirmation of S035 exact derived-arrow/Toda interleavings, sharp endpoint, serious different IHC/HI question, priority and required LLO reserve. Stop: one research commit, PR and ordinary merge; no external actions.

@@ -1,0 +1,49 @@
+# S036 MATHEMATICS — independent Toda-arrow referee and the exact 3/2 endpoint
+
+**Evidence:** complete INTERNAL proof with externally SOURCE-STATED classical Toda input, not Lean-certified, independent outside-refereed, or priority-clear. The paper-ready originality gate remains closed. All claims refer to ordinary **one-real-parameter covariant diagrams of unpointed spaces**, with pointed models used as a proof device.
+
+## Definitions and concrete objects
+
+Write C=Top (or homotopy-equivalent simplicial sets), W=objectwise weak homotopy equivalences and ρ_epsilon X(t)=X(t+epsilon). Define d_HC by interleavings of Ho(Top)^R, d_IHC by interleavings of Ho(Top^R), and d_HI by strict interleavings after zigzags of objectwise weak equivalences. In every category an epsilon-interleaving consists of phi:F→G^epsilon and psi:G→F^epsilon with **both** psi^epsilon∘phi=eta_F^{2epsilon} and phi^epsilon∘psi=eta_G^{2epsilon}. Distances are infima for all real epsilon≥0.
+
+Take pointed sphere maps
+S⁴=X0 --f=degree 2--> X1=S⁴ --g=eta_3--> X2=S³ --h=degree 2--> X3=S³.
+Here eta_3 is the suspended Hopf map. The adjacent composites gf and hg are null since pi_4(S³)=Z/2. The total composite hgf is null. The classical Toda bracket <h,g,f> in pi_5(S³) does not contain zero: this is explicitly the Lanari–Scoccola Proposition 3.12 example (SRC-0083), ultimately classical Toda; we do not pretend to recompute pi_5(S³) by computer.
+
+Let F(t)=∅ for t<0, Xi for i≤t<i+1 (i=0,1,2,3), and * for t≥4; its structure maps are composites. Let G(t)=∅ for t<0 and * for t≥0. Both diagrams consist of empty, simply-connected finite CW, and terminal point stages. Chosen basepoints propagate under f,g,h.
+
+## T77: independent derived-arrow obstruction (T75 survives hostile review)
+
+For an arrow A=(A0 --f--> A1) and B=(B0 --h--> B1), the derived natural-transformations space has weak equivalence
+RMap_[1](A,B) ≃ Map(A0,B0) ×^h_{Map(A0,B1)} Map(A1,B1),
+with maps h_* and f^*. **Explicit independent model:** replace f:A0→A1 by the mapping cylinder factorization A0↪Mf→~A1. The arrow A0↪Mf is projectively cofibrant (sphere source cofibrant and latching inclusion a cofibration), and the map to original arrow is objectwise weak equivalence. The enriched strict square of mapping spaces out of the replacement is the homotopy pullback, since restricting maps Mf→B1 to A0 is a fibration for fibrant B1. This argument is independent of pointwise equality in Ho(Top).
+
+For A=(X0 --f--> X1) and B=(X2 --h--> X3), the canonical strict natural square theta=(gf,hg), with its constant comparison path at hgf, is a point in that homotopy pullback. Choose nullhomotopies H0:gf~* and H1:hg~*. Moving theta to the constant arrow-map would require a coherent filling, whose obstruction is the loop hH0−H1 f in pi_1 Map_*(S⁴,S³) = pi_5(S³). Changing the H0,H1 choices adds the standard Toda indeterminacy h_*pi_5(S³)+(Σf)^*pi_5(S³). The degree-two operations kill pi_5(S³)=Z/2, so the bracket class is nonzero for **all** choices, and theta≠0 in Ho(Top_*^[1]).
+
+Unpointing is not silently assumed: the evaluation fibration Map_*(S⁴,S³)→Map(S⁴,S³)→S³ and pi_1(S³)=pi_2(S³)=0 show that forgetting basepoints preserves pi_0 and pi_1 on the relevant components. Hence theta remains nonzero in Ho(Top^[1]). Independently, maps *_[1]→B are indexed up to homotopy by holim_[1] B≃B0=S³, a connected space (initial vertex 0). Thus **any** factorization A→*_[1]→B is the zero arrow morphism. These are assertions about the derived *arrow*, not about separate null components.
+
+## T78: exact quantitative three-distance theorem
+
+**Theorem (internal, classical-bracket dependent).** For the specified F,G,
+ d_HC(F,G)=1,    d_IHC(F,G)=d_HI(F,G)=3/2.
+Moreover the upper endpoint epsilon=3/2 is **attained by a strict interleaving of an objectwise-weakly-equivalent replacement** of F with G; d_HI>d_IHC is NOT shown.
+
+**HC lower:** if epsilon<1, the map F(0)→F(2epsilon) is either identity on S⁴ when 2epsilon<1 or degree two on S⁴ when 1≤2epsilon<2; neither null in Ho(Top). Any epsilon-interleaving would factor it through G(epsilon)=*, impossible. **HC upper:** at epsilon=1, all nonterminal double-stage composites are gf or hg, both null in Ho(Top); all remaining maps land in * (and those from ∅ are unique). Point maps and basepoint sections give natural transformations in Ho(Top)^R and satisfy *both* interleaving identities. Thus d_HC=1.
+
+**IHC lower:** if 1≤epsilon<3/2, restrict the mandatory identity eta_F^{2epsilon}=psi^epsilon∘phi along {0<1}. The restricted source arrow is (X0→X1); the restricted target arrow is (X2→X3), and their connecting natural square is theta=(gf,hg), since F(2epsilon)=X2 and F(1+2epsilon)=X3 throughout the HALF-OPEN window. On the other side the restriction of G^epsilon is the constant point-arrow, so the identity would force the nonzero theta to factor through *_[1], a contradiction by T77. This restriction is legitimate as a functor on homotopy categories, since objectwise weak equivalences remain objectwise weak equivalences; it need not preserve a chosen projectively cofibrant diagram. For epsilon<1, HC already forbids an interleaving. Thus d_IHC≥3/2, including the infimum and every epsilon below it. Notice epsilon=3/2 changes the restriction target to (X3→*) and escapes the obstruction.
+
+**Sharp strict upper by two-step mapping-cylinder/cofibration rectification:** the triple composite hgf:S⁴→S³ is based nullhomotopic. Factor f as cofibration i0:X0→M(f) followed by deformation-retraction weak equivalence r0:M(f)→X1. Compose g with r0, factor g r0 as a cofibration i1:M(f)→M(g r0) followed by weak equivalence r1 to X2. Set X0'=X0, X1'=M(f), X2'=M(g r0), X3'=X3 and h'=h r1. Then i=i1 i0:X0'↪X2' is a cofibration, and i/h' represent the original strict length-three diagram via an objectwise homotopy equivalence. The composite h'i agrees with hgf under these replacements up to homotopy, hence admits a nullhomotopy to a *single chosen point* q∈X3'. By the homotopy extension property for i, deform h' through maps X2'→X3' to h'' such that **h'' i is literally the constant map q**, not merely null in Ho(Top). Diagrams differing by this endpoint homotopy of the last arrow are objectwise weakly equivalent: use at stage X3' the path-space object (X3')^I, the homotopy H:X2'→(X3')^I as terminal arrow, and endpoint evaluations, which are weak equivalences. Extend those zigzags to the real-stage diagram (∅ below zero, * above four). Thus F'≃F as persistent unpointed spaces with its only nonterminal time-three structure map F'(t)→F'(t+3), for t∈[0,1), exactly constant q.
+
+For epsilon=3/2 choose phi:F'→G^{3/2} as the unique maps from any nonempty stage to *, and psi:G→(F')^{3/2} as a coherent family of selected basepoints, transported under all structure maps (the point chosen on X3' is q). The composite psi^{3/2}phi on F' has at t<0 empty domain, at 0≤t<1 the literal constant q equal to the adjusted triple composite, and at t≥1 a target *; hence psi^{3/2}phi=eta_{F'}^3 **as strict natural transformations for every real t**. The other composite phi^{3/2}psi=eta_G^3 holds identically because all nonempty G stages are *, and earlier ones ∅. Naturalities hold strictly including every stage endpoint. This proves d_HI≤3/2, and the standard order d_IHC≤d_HI closes equality with the lower bound.
+
+**General delimited corollary (not an originality assertion):** for any finite based length-three CW chain X0→X1→X2→X3 with total threefold composite nullhomotopic, its empty-before/point-after four-stage real extension is 3/2-homotopy interleaved with the corresponding point diagram, even if its adjacent twofold composites are nonnull. This upper bound uses HEP, not the Toda bracket; the lower bound and HC=1 require this special sphere example.
+
+## Independent hostile competing approaches and boundaries
+
+(1) Derived arrow model uses a mapping cylinder to avoid falsely treating the ordinary strict pullback of maps as a homotopy pullback; a map out of the cofibrant arrow carries coherent nullhomotopy data. (2) Underlying Ho(Top) null gf,hg does NOT force theta null. (3) Unbased π1/π0 survives only because target S³ is 2-connected; for π2 target≠0 the shortcut is invalid. (4) Null through point-arrow is proved in the derived arrow category by holim, not vertexwise. (5) epsilon=1.5 is treated separately from epsilon<1.5; exact half-open endpoints checked. (6) HEP applies to the **composite** of two cofibrations; applying it to arbitrary f or g would be erroneous. (7) The path object comparison of two last-arrow maps is a weak-equivalence **zigzag of diagrams**, not an assumed isomorphism of strict maps. (8) No claim that a random two-arrow square's vanishing Toda bracket always characterizes every coherence problem; the precise free-arrow computation is used. (9) No d_HI≠d_IHC example is derived; this one shows equality at 3/2. (10) All finite source sphere stages remain finite CW in F itself; cofibrant replacements may use mapping cylinders but are still finite CW when f,g cellular.
+
+## HHA novelty and gates
+
+T77 rigorously recovers S035's internal nonnull-arrow claim; T78 improves its upper bound from ≤2 to the **exact attained endpoint 3/2**, using elementary mapping-cylinder HEP. Nonetheless the **authors of the 2020 v1** explicitly anticipated adapting their Toda example to establish d_IHC>d_HC (SRC-0087, author-uploaded preprint statement). Their AGT2023 final Remark3.13 explicitly says both strictness questions were open *then*. The Hopf/Toda bracket itself is old, and 2002 track-Toda theory predates this proof architecture. This is not presently a priority-cleared original HHA paper, Gate2 has NOT started, and no later stage is authorised.
+
+HHA fit: 5/5, internal proof confidence 4/5 (classical input, no outside referee), novelty 1/5 pending bibliographic referee, standalone publishable significance 2/5, other strictness comparison d_HI vs d_IHC open.

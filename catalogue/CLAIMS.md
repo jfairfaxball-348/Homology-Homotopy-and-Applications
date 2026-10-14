@@ -248,3 +248,13 @@ CLM-0139/0140 remain valid internal family statements. Their12 product strata us
 - **CLM-0184** [SOURCE_STATED]: The 2026 Kuribayashi et al equality of d_HC,d_IHC,d_HI is in persistence dg-module categories over a field, not a general untransformed persistent-spaces equality. Sources: SRC-0084. Scope: Original publisher full HTML statement directly read, category separation essential.
 - **CLM-0185** [SOURCE_STATED]: Original LS preprint v1 already anticipated that adapting the Toda example to interleavings in Ho(diagrams) should establish d_IHC!=d_HC. Sources: SRC-0087. Scope: Indexed manuscript excerpt, not an independent full v1 proof; prior-idea precedence must be credited.
 - **CLM-0186** [INHERITED_UNVERIFIED]: S035 theorem candidate is previously unknown and HHA-priority-clear or d_HI!=d_IHC is resolved. Sources: SRC-0081, SRC-0083, SRC-0084, SRC-0085, SRC-0086, SRC-0087. Scope: Explicitly NOT established; scoped source search only; Gate2 and remaining comparison open.
+
+## S036 claims
+| ID | Status | Exact scope |
+|---|---|---|
+| CLM-0187 | PROGRAMME_PROVED | T77: classical Toda nonzero derived-arrow map, explicit projective-cofibrant mapping-cylinder mapping-space square; internal, SOURCE classical input, not external-refereed. |
+| CLM-0188 | PROGRAMME_PROVED | T78: d_HC=1 and d_IHC=d_HI=3/2 on four-stage LS spheres versus point, strict replacement attains endpoint; internal proof, priority open. |
+| CLM-0189 | PROGRAMME_PROVED | Delimited HEP null triple composite⇒strict 3/2 after weak-equivalent replacement for finite based CW chains, no independent originality. |
+| CLM-0190 | SOURCE_STATED | Original authors' 2020 arxivv1 manuscript anticipated adapting Proposition3.10 to d_IHC>d_HC; final 2023 leaves question open then. |
+| CLM-0191 | INHERITED_UNVERIFIED | HHA-originality cleared or generic d_HI>d_IHC established: **FALSE/NOT CLAIMED**. |
+| CLM-0192 | SOURCE_STATED | LLO Problem1 true k≥1 binary succinct nonprincipal rectangle BIT target remains unsolved in programme. |

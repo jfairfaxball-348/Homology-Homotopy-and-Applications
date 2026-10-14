@@ -210,3 +210,10 @@ One topology-first source attack: marked 3-type κ naturality/κ0 vs Sq² is alr
 
 ## S035 (2026-10-14) decision
 SELECT conditional intermediate-distance strictness T75/T76 for independent S036 referee: internal derived-arrow Toda obstruction shows proposed d_HC=1 and d_IHC>=3/2 on finite-CW sphere-stage spaces, not just established d_HI>d_HC. Credited original LS sphere/Toda and v1 explicit adaptation anticipation; novelty and correctness not externally cleared, Stage1 only, Gate2 NOT_STARTED. Published 2026 dg-module equality not spaces theorem. LLO k>=1 succinct and d_HI vs d_IHC remain unsolved; T66 original/strict R5 frozen; retired Hopf preserved. S036 FUTURE.
+
+## S036 decision — 14 October 2026
+- **DEC-0151:** Independent T77 explicit mapping-cylinder-cofibrant arrow homotopy pullback supports T75 nonzero Toda theta under unpointed π0/π1. Nonvanishing classical bracket is original LS source-stated, not recomputed by a machine.
+- **DEC-0152:** New T78 sharpens T76 to d_HC=1, **d_IHC=d_HI=3/2 exactly and attained** after replacing first two arrows by cofibrations and using HEP to make triple map strictly constant. Both real-index interleaving identities checked, not just points.
+- **DEC-0153:** This example gives NO d_HI!=d_IHC: those distances are equal; generic second LS problem remains open. S037 future challenge is genuinely different mechanism.
+- **DEC-0154:** Original LS 2020 v1 author-uploaded manuscript explicitly anticipated intermediate distance adaptation; 2023 final left it open at publication. 2002 track and 2026 algebraic category caveats constrain novelty. Stage1 remains, Gate2 NOT_STARTED; no original HHA paper selected.
+- **DEC-0155:** LLO source Problem1 k≥1 binary succinct, T66 all-composite/all-prime Z caveat, original1981 uninspected, strict R5 all16471, retired S028 Hopf all preserved. No Lean/Palomar/paper/arXiv/HHA/outside contact. Prepare S037 FUTURE only.

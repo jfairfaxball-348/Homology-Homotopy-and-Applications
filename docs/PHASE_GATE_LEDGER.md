@@ -90,3 +90,6 @@ Stage1 IN_PROGRESS: T73 H³ Postnikov split-shear fixed-edge noncommutativity; T
 
 ## S035 gate — 2026-10-14
 Stage1 **IN PROGRESS with strong internally proved T75/T76 candidate** of one LS2023 Remark3.13 strictness: d_HC=1, d_IHC>=3/2 for simply-connected finite CW stages. Core uses standard arrow homotopy pullback and source-established nonzero Toda bracket, detailed in S035/MATHEMATICS. Original LS v1 had explicitly suggested such an adaptation; 2026 field dg results do not kill Top^R. **Independent external referee and full 2023–26 priority REQUIRED**. G2 first novelty NOT_STARTED (NOT implicitly passed), G3/G4 NOT_STARTED, no Lean/Palomar/paper/arXiv/HHA/contact. Other strictness d_HI vs d_IHC unproved; S036 FUTURE ONLY.
+
+## S036 gate — 2026-10-14
+Stage1 **IN_PROGRESS**; independent internal T77 derived-arrow proof and T78 sharp exact 1,3/2,3/2 with strict homotopy-equivalent replacement by HEP. The original authors' 2020 preprint predicted the main intermediate strictness route, and complete modern novelty/outside mathematical review missing. **NO priority-certified original HHA flagship**; G2 first novelty NOT_STARTED, G3/G4 NOT_STARTED, Palomar/manuscript/arXiv/HHA owner-gated/not performed. Generic d_HI≠d_IHC remains open. S037 FUTURE ONLY.

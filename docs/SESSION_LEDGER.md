@@ -74,3 +74,5 @@
 
 
 | S035 | 2026-10-14 | Source-stated LS Remark3.13: Toda derived-arrow mapping proof and real-index distance bounds; 2026 source audit, mandatory LLO BIT reserve | T75 internal nonnull Ho(Top^[1]) square; T76 d_HC=1, d_IHC>=3/2, upper <=2. Original LS v1 explicitly predicted method, so priority NOT cleared. Five Fraction stage checks pass after repaired harness, do not compute Toda. No source-level general equality for spaces, no G2 promotion, no d_HI/d_IHC answer. | sessions/S035/CLOSEOUT.md; S036 FUTURE UNEXECUTED |
+
+| S036 | 2026-10-14 | Independent S035 derived Toda arrow referee, sharp endpoint by two mapping cylinders + HEP; original 2020 LS v1 source, mandatory LLO reserve | T77 internal independent derived-arrow proof, T78 internally exact **d_HC=1, d_IHC=d_HI=3/2** (strict endpoint attained). Original author v1 predicted adaptation; no priority Gate2, generic HI/IHC inequality open, n2 succinct k1 and strict R5 open. | sessions/S036/CLOSEOUT.md; S037 FUTURE UNEXECUTED |
