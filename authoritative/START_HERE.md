@@ -31,3 +31,7 @@ Source-first true homotopy pivot: Moore Ext-square T71/T72 has full internal pro
 
 ## S034 checkpoint (14 October 2026)
 Split Postnikov shear components H³=F₂ and loop H²=F₂; specified edge κ/π do not force Ho-square equality. Exact 4096 [2]² binary assignments and 256 strict face-compatible shears, a *restricted classical* calculation not a new higher coherence invariant. DKS1989/Baues–Blanc2011 priority kill. Reorient S035 future ONLY to source-stated Lanari–Scoccola2023 Remark3.13 about whether d_HI≠d_IHC or d_IHC≠d_HC for persistent spaces; newer literature status not comprehensively checked. No original HHA flagship, G2 closed. S028 Hopf retired; original1981 integral source, succinct k1, strict R5 open.
+
+
+## S035 checkpoint (14 October 2026)
+S035 T75/T76 INTERNAL proof candidate: derived-arrow nonnull Toda square gives d_HC=1, d_IHC>=3/2 for simply connected S4/S3 finite-CW stages, citing original LS nonzero bracket. Strong potential answer to published Remark3.13, **not priority/external-proof cleared**; authors' own v1 anticipated adaptation. Current 2026 dg module equality is not Top^R. G2 remains NOT_STARTED; d_HI vs d_IHC, LLO succinct, T66/1981 and strict R5 open. S036 FUTURE ONLY.

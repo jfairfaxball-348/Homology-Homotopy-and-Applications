@@ -86,3 +86,7 @@ Stage1 IN_PROGRESS, no original HHA theorem selected. T71/T72 Moore-space Ext/co
 
 ## S034 gate — 2026-10-14
 Stage1 IN_PROGRESS: T73 H³ Postnikov split-shear fixed-edge noncommutativity; T74 closed 3×3 shear assignments iff strict path potentials. Both standard Postnikov/function-space/DKS territory, not independently original HHA-level theorem. Original Lanari–Scoccola2023 Remark3.13 source-stated homotopy-interleaving question selected as **future target only**, still-open status vs later literature unconfirmed. First novelty G2 NOT_STARTED, Lean G3 and final G4 NOT_STARTED, Palomar/paper/arXiv/HHA owner gated and untouched. S035 future/unexecuted. S023 R5 and T66 succinct/priority still open; S028 Hopf retired flagship preserved.
+
+
+## S035 gate — 2026-10-14
+Stage1 **IN PROGRESS with strong internally proved T75/T76 candidate** of one LS2023 Remark3.13 strictness: d_HC=1, d_IHC>=3/2 for simply-connected finite CW stages. Core uses standard arrow homotopy pullback and source-established nonzero Toda bracket, detailed in S035/MATHEMATICS. Original LS v1 had explicitly suggested such an adaptation; 2026 field dg results do not kill Top^R. **Independent external referee and full 2023–26 priority REQUIRED**. G2 first novelty NOT_STARTED (NOT implicitly passed), G3/G4 NOT_STARTED, no Lean/Palomar/paper/arXiv/HHA/contact. Other strictness d_HI vs d_IHC unproved; S036 FUTURE ONLY.

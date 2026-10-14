@@ -1,0 +1,13 @@
+# S035 CLOSEOUT — 14 October 2026
+
+**ONE authorised session executed**, live entry main `ec8d0371639c7dcc847061cff71a744987d57368`, tree `fb3e125a2c095369d39ae18d9650b5e9d8bf3f35`. S034 PR35 had one authored commit `598bcad045acb616bfddf1681ba0532736afaa6c` and ordinary merge main parents `cc744683d4ed49b9d54e9dd0625d6a01b6020873` and S034 commit. Main static governance run 38558190016/job 115832453500 success, one named check-run; classic statuses empty, branch protection unknown. No competing S035 branch/PR at entry.
+
+**Main mathematical outcome:** T75 internally derives nonnullity in Ho(Top^[1]) of the natural square theta=(eta3∘2,2∘eta3) from the classical nonzero Toda bracket <2,eta3,2>, by homotopy pullback mapping-space detection. T76 uses this with full real-axis, both interleaving identities and unpointed-space checks to give **d_HC(F,G)=1, 3/2<=d_IHC(F,G)<=d_HI(F,G)<=2** for simply connected four-sphere-stage finite-CW filtrations vs the point filtration. This is an INTERNAL ANSWER CANDIDATE to LS2023 Remark3.13 (`d_IHC!=d_HC`); rigorous mathematical proof written, NOT independent external refereeing, Lean or published priority.
+
+**Priority warnings:** Original LS sphere/Toda example, and authors' v1 explicit expectation of adapting it to IHC/HC, are antecedents; final published 2023 Remark3.13 leaves strictness open. The 12 Sept 2026 Kuribayashi et al equality is for dg modules, not untransformed spaces; Apr 2026 Sullivan CDGA inequality is distinct. 2002 track Toda bracket precedes our arrow framework. Scoped 2023–Oct2026 search did not identify an exact published solution but that does NOT certify novelty. First novelty G2 still NOT_STARTED. The other `d_HI!=d_IHC` question remains unresolved.
+
+**Mandatory competitor:** original LLO 2402.16624v4 Problem1 with nonprincipal rectangles k>=1 / binary F2[x,y] remains open. No BIT polynomial algorithm or hardness reduction. Expanded-grid T69 not promoted. T66 1981 original source, strict R5 and retired Hopf benchmark preserved. No brute force beyond exact stage audit.
+
+**Finite check:** script + stdout in tree, corrected after an initial stage-variable error, 5 rational shifts exact, not mathematical certification. SHA256 source a42cdd7c0daae88d43af226692f60a9d830f38f4b9160a1188fc85b2a7a146be and output df70679badce0322a9ba5f28e68f9c9c77dbbca6679e135735060371c4817e8d (local corrected files).
+
+**Gates:** Stage1 IN_PROGRESS; novelty, Lean, final novelty NOT STARTED; Palomar, manuscript, arXiv, HHA and outside contact NONE. S036 prompt FUTURE, UNEXECUTED ONLY. GitHub authored commit/PR and exact hosted checks/merge evidence must be added to any after-the-fact closeout observation; this authored file does not invent a future SHA or CI result.

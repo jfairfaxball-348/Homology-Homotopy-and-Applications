@@ -1,0 +1,6 @@
+eps=1 source=(0,1) Yshift=('point', 'point') X2shift=(2, 3)
+eps=5/4 source=(0,1) Yshift=('point', 'point') X2shift=(2, 3)
+eps=1499/1000 source=(0,1) Yshift=('point', 'point') X2shift=(2, 3)
+eps=3/2 source=(0,1) Yshift=('point', 'point') X2shift=(3, 'point')
+eps=2 source=(0,1) Yshift=('point', 'point') X2shift=('point', 'point')
+PASS exact floor/stage test; homotopy/Toda assertion SOURCE-DEPENDENT, NOT COMPUTED

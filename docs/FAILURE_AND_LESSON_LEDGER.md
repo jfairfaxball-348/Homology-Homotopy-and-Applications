@@ -218,3 +218,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - **S034-F3 CLASSICAL STRICTIFICATION:** all 256 closed [2]² shear assignments admit explicit strict potential realization in restricted class; DKS generic mapping-space obstruction and Baues–Blanc comparison preexist, so Postnikov-coherence as original HHA flagship RETIRED.
 - **S034-F4 PRIORITY:** LS Remark3.13 explicitly poses space-level interleaving distance strictness; 2025 dg module equality does NOT solve all spaces. Contemporary solutions must still be audited, no novelty assumption.
 - **S034-F5 PRESERVED OBLIGATIONS:** T66 original1981 unavailable, universal all-composite/Q-all-Fp counterproof outstanding, binary succinct k1 still no P/hardness, S023 16471 all-pairs strict R5 open; Hopf benchmark remains retired as proposed flagship.
+
+
+## S035 — new obstacles and lessons
+1. An ordinary pointwise null square is NOT zero as an arrow morphism in Ho(Top^[1]); nonvanishing Toda bracket is coherence-level obstruction. Derived pullback must be checked under both pointed/unpointed categories. T75/T76 internally proved; independent referee still required.
+2. 2026 published dg-module interleaving equalities do NOT assert equality of original Top^R distances. Related relative Sullivan CDGA results likewise distinct. No category substitution allowed.
+3. LS2020 preprint v1 already speculated the d_IHC>d_HC adaptation; published 2023 calls both strictness questions open. Internal proof is not automatic priority novelty.
+4. Initial finite stage script accidentally checked F instead of G in the intermediate object and failed; corrected source checked 5 rational scales. Test is only floor-stage sanity, not homotopy certification.
+5. Expanded integer-grid SNF says nothing about genuinely binary succinct LLO nonprincipal k>=1, retained open.

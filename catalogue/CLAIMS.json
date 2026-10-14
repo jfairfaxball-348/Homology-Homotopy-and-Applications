@@ -1701,6 +1701,68 @@
         "SRC-0081"
       ],
       "scope": "NOT ESTABLISHED, actually rejected as classical. First novelty Gate2 closed."
+    },
+    {
+      "id": "CLM-0181",
+      "status": "SOURCE_STATED",
+      "claim": "Original LS2023 Prop3.12 uses nonzero Toda bracket of S4 --2--> S4 --eta3--> S3 --2--> S3; final paper has d_HI<=2d_HC and Remark3.13 asks intermediate strictness.",
+      "sources": [
+        "SRC-0081",
+        "SRC-0083"
+      ],
+      "scope": "Source statements/proof selected original v3 pp14–15; bracket nonzero source input, not newly computed."
+    },
+    {
+      "id": "CLM-0182",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T75: canonical arrow square theta=(eta3∘2,2∘eta3) is nonzero in Ho(Top^[1]) despite pointwise null components, via derived arrow mapping homotopy pullback and nonzero Toda bracket.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0086"
+      ],
+      "scope": "Internal mathematical proof for unpointed simply connected S4/S3 arrow pair, not formalised or externally refereed; original source supplies bracket."
+    },
+    {
+      "id": "CLM-0183",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T76: real 1-parameter simply connected finite-CW stage filtrations F,G satisfy d_HC(F,G)=1 and d_IHC(F,G)>=3/2, with d_IHC<=d_HI<=2.",
+      "sources": [
+        "SRC-0081",
+        "SRC-0083"
+      ],
+      "scope": "Internal proof relies on T75, both interleaving equations and all eps<3/2; other strictness d_HI!=d_IHC not established."
+    },
+    {
+      "id": "CLM-0184",
+      "status": "SOURCE_STATED",
+      "claim": "The 2026 Kuribayashi et al equality of d_HC,d_IHC,d_HI is in persistence dg-module categories over a field, not a general untransformed persistent-spaces equality.",
+      "sources": [
+        "SRC-0084"
+      ],
+      "scope": "Original publisher full HTML statement directly read, category separation essential."
+    },
+    {
+      "id": "CLM-0185",
+      "status": "SOURCE_STATED",
+      "claim": "Original LS preprint v1 already anticipated that adapting the Toda example to interleavings in Ho(diagrams) should establish d_IHC!=d_HC.",
+      "sources": [
+        "SRC-0087"
+      ],
+      "scope": "Indexed manuscript excerpt, not an independent full v1 proof; prior-idea precedence must be credited."
+    },
+    {
+      "id": "CLM-0186",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S035 theorem candidate is previously unknown and HHA-priority-clear or d_HI!=d_IHC is resolved.",
+      "sources": [
+        "SRC-0081",
+        "SRC-0083",
+        "SRC-0084",
+        "SRC-0085",
+        "SRC-0086",
+        "SRC-0087"
+      ],
+      "scope": "Explicitly NOT established; scoped source search only; Gate2 and remaining comparison open."
     }
   ]
 }
