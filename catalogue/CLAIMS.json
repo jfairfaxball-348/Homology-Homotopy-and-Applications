@@ -2056,6 +2056,47 @@
         "SRC-0086"
       ],
       "scope": "NOT ESTABLISHED; epsilon1 and epsilon1.5 possible gap targets. No new original HHA theorem/priority clearance."
+    },
+    {
+      "id": "CLM-0217",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S041 T95: relative compression reinsertion; a T87-compatible four-chain B->D rectification of p=hg lifts through the original intermediate C (up to whole-diagram weak equivalence) by cofibration B↪M_g and HEP, preserving strict triple composites.",
+      "sources": [
+        "SRC-0091",
+        "SRC-0083"
+      ],
+      "scope": "INTERNAL conditional on exact explicit relative T87 replacement (not arbitrary zigzag), not externally refereed, ordinary HEP, no novelty clearance."
+    },
+    {
+      "id": "CLM-0218",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S041 T96: for five finite simply connected CW stages versus point-step, an IHC epsilon=3/2 interleaving always yields a strict epsilon=3/2 HI interleaving after full-diagram weak equivalences, under S039 T87.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0091"
+      ],
+      "scope": "INTERNAL relative-lifting proof dependent on unrefereed T87, both identities all real times. No universal equality or HHA originality."
+    },
+    {
+      "id": "CLM-0219",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S041 T97: in the five-stage point-step family, only possible positive gap is IHC=1 and HI=3/2. All other half-step thresholds strictify (using S039 T87, S040 T92/T93, S041 T96).",
+      "sources": [
+        "SRC-0083",
+        "SRC-0091"
+      ],
+      "scope": "INTERNAL conditional T87/T96; exact reduction only, no positive-gap witness or solution to epsilon1 all-essential derived-[2] bridge."
+    },
+    {
+      "id": "CLM-0220",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S041 has solved coherent theta2-zero epsilon1 strictification or constructed a replacement-invariant finite CW HI>IHC witness, or certified HHA novelty.",
+      "sources": [
+        "SRC-0091",
+        "SRC-0086",
+        "SRC-0092"
+      ],
+      "scope": "NOT ESTABLISHED; remaining all-essential case, original 1989/2002 proof-priority, external referee, indispensable application all missing."
     }
   ]
 }

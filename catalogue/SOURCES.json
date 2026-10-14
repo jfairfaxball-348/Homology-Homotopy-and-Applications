@@ -817,8 +817,8 @@
       "url": "https://doi.org/10.1016/0022-4049(89)90023-6",
       "origin": "Original 1989 printed article transcription hosted on third-party ResearchGate, selected original sections; publisher endpoint 403.",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Original text Def4.2/Thm4.4/Cor4.5/Prop4.8 and §5 assertions selected, selected proof paragraph pp17–18 examined. Not entire original §§2–5 proof chain. Journal direct endpoint 403. Not an original-claim match proof.",
-      "observed": "Original DKS develops RELATIVE realization of homotopy-commutative diagrams and cohomological obstruction groups H^{n+1}, strong direct precedence against T87/T92 novelty."
+      "limitation": "Original text Def4.2/Thm4.4/Cor4.5/Prop4.8 and §5 assertions selected, selected proof paragraph pp17–18 examined. Not entire original §§2–5 proof chain. Journal direct endpoint 403. Not an original-claim match proof. S041 also read selected original §§2.1–2.5 proof opening and §5 topological case opening via original text transcript, still NOT full proof inspected.",
+      "observed": "Original DKS develops RELATIVE realization of homotopy-commutative diagrams and cohomological obstruction groups H^{n+1}, strong direct precedence against T87/T92 novelty. Relative theorem is a severe novelty risk for T95–T97; no proof-level exact match established."
     },
     {
       "id": "SRC-0092",

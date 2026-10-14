@@ -94,3 +94,6 @@ All 66 P0..10 intervals crossed with all six critical A0,3,7 rectangles, 396 bru
 
 
 - **S040 2026-10-14:** No exhaustive computation performed or claimed. Algebraic control W=S³∨S³ n=i1p2, integer matrix N=[[0,1],[0,0]] and N²=0 follows directly from literal pinch/projection composition, not a computer run. T91–T93 are proof arguments, unformalised. No R5 experiment; 16,471 strict pairs remain OPEN.
+
+
+- **S041 2026-10-14**: mathematical relative HEP proof and paper stage-cut verification only; **no new finite computational campaign/exhaustive tests, no CPU output/hash claimed**. T95–T97 internal, conditional on S039 T87. Strict R5 16,471 pairs untouched OPEN; other archival checks retained.

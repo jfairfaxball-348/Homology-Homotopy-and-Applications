@@ -244,3 +244,10 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - **DEC-S040-B** Accept INTERNAL T91 honest derived-[2] model, T92 rigorous four-case conditional five-stage strictification; no general result without the null primitive arrow. Require four essential arrows for epsilon1 counterexample.
 - **DEC-S040-C** Retain T93 epsilon1.5 overlapping triple issue, and T94 essential-arrow nilpotent wedge control dHI=dIHC=1. Neither a strict gap nor generic equality was proved; Stage1 only.
 - **DEC-S040-D** Direct inspection of original 1989 DKS relative §§4 statements/selected proof paragraph strengthens preexisting coherence priority risk, 2002 quaternary Toda likewise. Gate2 closed; T84 in-house derivative, T66 original1981, R5 open and retired Hopf frozen. S041 future only. No downstream actions.
+
+
+## S041 decisions (2026-10-14)
+- **DEC-S041-A** Accept INTERNAL T95 explicit relative cofibration insertion of intermediate C into a compressed S039-T87 replacement, no arbitrary replacement lifting.
+- **DEC-S041-B** Accept INTERNAL T96 five-stage epsilon3/2 IHC=>HI with both real-time identities and full-diagram spans, conditional on T87; T97 leaves only numerical epsilon1 vs1.5 gap.
+- **DEC-S041-C** No proof of full theta2=0 epsilon1 rectification and no finite CW replacement-invariant counterexample. All four essential necessary but not sufficient; G2 novelty gate CLOSED.
+- **DEC-S041-D** Original DKS1989 relative theory + track2002 and Baues–Blanc2011 priority kills automatic originality; T84 remains in-house derivative, T66 original 1981 unchecked, strict R5 OPEN, Hopf retired. S042 future only, no formalisation or submissions.

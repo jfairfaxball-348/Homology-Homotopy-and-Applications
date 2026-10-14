@@ -84,3 +84,6 @@
 | S039 | 2026-10-14 | One-parameter homotopy two-window hostile proof: T87 derived-arrow/quotient-cylinder rectification; T88 exact *restricted* dIHC=dHI five-valued formula for four nonterminal finite simply connected CW stages vs point; T89 leaves 5-stage [2] coherence open. Exact 288 rational time pairs diagnostic. No universal gap, DKS/track Toda priority unverified, S018/LLO algebra novelty veto, Stage1/G2 closed. | sessions/S039/CLOSEOUT.md; S040 FUTURE UNEXECUTED |
 
 | S040 | 2026-10-14 | Five-stage derived-[2] triple-overlap mapping-space model, S039 hostile review, four-case T92 no-gap if any primitive arrow null, T94 exact nilpotent wedge essential-arrow counter-control; original 1989 DKS §§4 direct original-text review. No full gap/equality/novel HHA flagship, Stage1 only. | sessions/S040/CLOSEOUT.md; S041 FUTURE UNEXECUTED |
+
+
+| S041 | 2026-10-14 | Aggressive five-stage theta2 rectification attempt; new T95 relative reinsertion B↪C after compressed T87 strictification, T96 five-stage epsilon3/2 IHC=>HI (internal conditional on T87), T97 only remaining possible numerical gap (1,3/2). Source-first DKS §§2–5 challenge; no all-essential epsilon1 result/witness or HHA flagship; Stage1/G2 closed. | sessions/S041/CLOSEOUT.md; S042 FUTURE UNEXECUTED |

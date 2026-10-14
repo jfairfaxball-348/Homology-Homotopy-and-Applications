@@ -264,3 +264,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - If any ONE of f,g,h,k is null and theta2 is coherently zero, T92's four-case HEP/T87 constructions strictify the triple; proposed counterexample must evade all four cases.
 - A candidate at epsilon1.5 needs derived-arrow coherence of two overlapping three-step composites; no proof this automatically rectifies. A failed fixed model is not a replacement-invariant obstruction.
 - Original DKS1989 §§4.4–4.8 explicitly supplies relative realization and H^{n+1} obstruction theory. Even a genuine obstruction computation must be compared to these published results before novelty credit.
+
+
+## S041 failures and lessons
+- A T87 strictification of compressed A->B->D->E is NOT yet a five-stage theorem; preserving C requires cofibration B↪C and HEP to lift the homotopy-compatible modified B->D map, proven as restricted T95.
+- An arbitrary equivalence zigzag cannot yield a chosen strict homotopy inverse D->D'. Rely explicitly on T87's quotient-cylinder retraction and edge homotopy; if this relative property fails, T96 must be downgraded.
+- Trying to make h:C->D a cofibration while hg literal constant breaks injectivity when g is essential. This naive epsilon1 HEP step is INVALID.
+- Quaternary Toda without coherent null and full indeterminacy is not a gap witness; no nonzero DKS relative cocycle was calculated. Epsilon1 remains genuinely OPEN, no invented obstruction.
+- S041 T95/T96 T97 rely on unrefereed T87 and classical DKS1989. No original HHA priority or gate increase.

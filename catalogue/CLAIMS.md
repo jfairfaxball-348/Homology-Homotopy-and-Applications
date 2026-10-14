@@ -301,3 +301,12 @@ See S038 full dossier and JSON scope.
 |CLM-0214|PROGRAMME_PROVED|T94 W=S³∨S³ n=i1p2 nonnull but n²=literal constant; five-stage essential-arrow control dHI=dIHC=1; no converse to T92.|
 |CLM-0215|SOURCE_STATED|DKS1989 original selected §§4 relative realizations, theorem and obstruction H^{n+1}, third-party original transcription; proof chain not fully audited.|
 |CLM-0216|INHERITED_UNVERIFIED|Five-stage all-essential theta2-null general strictification or replacement-invariant dHI>dIHC counterexample remains UNKNOWN, no HHA originality/G2 approval.|
+
+
+## S041 claims
+|ID|Status|Scope|
+|---|---|---|
+|CLM-0217|PROGRAMME_PROVED|T95 internal relative interpolation of a compressed T87 strictification through C up to whole-diagram weak equivalence; requires explicit compatible T87 model.|
+|CLM-0218|PROGRAMME_PROVED|T96 internal epsilon3/2 five-stage point-target IHC=>HI after replacement, all real times/two identities; dependent on T87.|
+|CLM-0219|PROGRAMME_PROVED|T97 internal possible five-stage positive gap reduced to (1,3/2) only; not proved it exists.|
+|CLM-0220|INHERITED_UNVERIFIED|General all-essential theta2-zero epsilon1 strictification/gap, certified novelty or HHA impact NOT ESTABLISHED.|

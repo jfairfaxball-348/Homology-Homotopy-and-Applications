@@ -105,3 +105,7 @@ Stage1 IN_PROGRESS: S018 already proved real all-rectangle transfer at T43 for a
 
 ## S040 gate — 2026-10-14
 Stage1 IN_PROGRESS. T91–T94 internally establish only conditional five-stage simplifications and a point-target no-gap control; general dHI vs dIHC unresolved. Original DKS1989 relative Thm4.4/Prop4.8 direct original-text inspection threatens novelty; no compelling indispensable NEW HHA homotopy application. G2 novelty NOT STARTED, G3 Lean and G4 final audit NOT STARTED, G5/7/8 owner-gated. No manuscript. S041 FUTURE ONLY.
+
+
+## S041 gate — 2026-10-14
+Stage1 IN_PROGRESS. INTERNAL T95/T96/T97 close epsilon3/2 for five-stage point-step under S039 T87, but all-essential coherent theta2=0 epsilon1 remains unproved and no replacement-invariant gap witness. This is a DKS-relative/HEP descendant, NOT a novel HHA-impact theorem without external proof/prior-art referee. **First novelty G2 NOT_STARTED**, Lean G3/final novelty G4 not started, Palomar/manuscript/arXiv/HHA/contacts not undertaken. T66 full1981 JPAA source open, strict R5 16,471 OPEN, Hopf flagship retired. S042 FUTURE ONLY.
