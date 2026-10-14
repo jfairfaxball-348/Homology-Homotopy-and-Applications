@@ -1825,6 +1825,94 @@
         "SRC-0069"
       ],
       "scope": "Original arxiv full HTML Problem1 directly read; no P/hardness or large-grid expansion claim."
+    },
+    {
+      "id": "CLM-0193",
+      "status": "SOURCE_STATED",
+      "claim": "Original Botnan–Lebovici–Oudot2020 algebraic weak-exactness image-intersection/kernel-sum on all squares iff finite 2-grid rectangle decomposable.",
+      "sources": [
+        "SRC-0089"
+      ],
+      "scope": "Original publisher selected statement, mathematical proof not reread in full."
+    },
+    {
+      "id": "CLM-0194",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T79: for sparse critical grid A⊂N² with floor π and left Kan E=i_!=π*, ALL-rectangle relative projective dimensions satisfy pd_XP(E N)=pd_XA(N); pi_! of arbitrary ambient rectangle is a grid rectangle or zero.",
+      "sources": [
+        "SRC-0090",
+        "SRC-0089"
+      ],
+      "scope": "Internal categorical adjunction/cofinal colimit/tensor product proof on discrete N², not all arbitrary R² endpoints."
+    },
+    {
+      "id": "CLM-0195",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T80: fixed 2D finite grid, deterministic polynomial-bit recognition of relative rectangle-projective dimension <=1 via universal rectangle evaluation cover, relative Schanuel, and SoCG2020 all-square weak exactness.",
+      "sources": [
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "scope": "All finite nonprincipal rectangles included; polynomial in explicitly given grid vertices/dimensions."
+    },
+    {
+      "id": "CLM-0196",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T81: for binary encoded homogeneous monomial F2[x,y] presentations in discrete N², critical grades O(g+r) per coordinate imply deterministic polynomial BIT k1 all-rectangle relative-resolution recognition, by T79+T80.",
+      "sources": [
+        "SRC-0066",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "scope": "Discrete N² all rectangles, NOT source Problem1 universal R² all open/closed intervals/simplicial multifiltrations; real bridge still unproved."
+    },
+    {
+      "id": "CLM-0197",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T82: finite based n+1 stage CW filtration with null full n-fold composite is n/2-homotopy-interleaved to point-filtration after mapping-cylinder HEP strictification, single terminal window only.",
+      "sources": [
+        "SRC-0083"
+      ],
+      "scope": "Elementary upper bound no HI>IHC lower bound, classical-style method, no originality claim."
+    },
+    {
+      "id": "CLM-0198",
+      "status": "COMPUTED_EXACT",
+      "claim": "Exact finite 136 contiguous interval one-dimensional left Kan quotient checks on 16-point chain and sparse 5 critical grades: all projected supports intervals and dimensions 0/1.",
+      "sources": [],
+      "scope": "Python3 script SHA256 df31dfeb8137c2cec23c8ceed2004b24814b5a98cea12807672c3194ffed6685; stdout SHA256 7aa8a782163e843fad9f46e55f097722e11cdb81bc6a4c24854c3cb32c0049fe; finite test only."
+    },
+    {
+      "id": "CLM-0199",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S037 T81 settles full LLO2024 Problem1 on arbitrary real-cut rectangles or gives priority-certified original HHA theorem.",
+      "sources": [
+        "SRC-0066",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "scope": "NOT ESTABLISHED; only N² discrete category proved, R² full cut transport and literature originality unverified; Gate2 NOT_STARTED."
+    },
+    {
+      "id": "CLM-0200",
+      "status": "SOURCE_STATED",
+      "claim": "Lanari–Scoccola original v1 2020 explicitly anticipates dIHC>dHC adaptation; original v3/2023 poses both strictness comparisons, 2026 dg equality applies to different category.",
+      "sources": [
+        "SRC-0088",
+        "SRC-0083",
+        "SRC-0084"
+      ],
+      "scope": "Source original author transcript, v3 visual p15, 2026 publisher statement; full final journal proof and v1 separate PDF not inspected."
+    },
+    {
+      "id": "CLM-0201",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Genuine one-real-parameter simply-connected finite CW dHI>dIHC example or universal equality has been proved by S037.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0086"
+      ],
+      "scope": "NOT ESTABLISHED; T82 only kills single-window trivial approach, no both-identities survivor."
     }
   ]
 }

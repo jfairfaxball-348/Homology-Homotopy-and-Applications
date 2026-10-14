@@ -179,3 +179,8 @@ The preceding source notes record historical access. SRC-0062 journal-final PDF 
 - **SRC-0083 PROOF_INSPECTED** renewed original https://arxiv.org/pdf/2010.05378 v3 pp14/15 (Prop3.10,3.12, Remark3.13) VISUALLY inspected in S036; publisher SRC-0081 PDF direct still inaccessible, do not mislabel that final publication PROOF_INSPECTED.
 - **SRC-0066 original full HTML** https://arxiv.org/html/2402.16624v4 §1.1 Problem1/Def3 renewed direct read; no k≥1 succinct BIT theorem thereby.
 - SRC-0084 2026 dg module and SRC-0085 2026 relative Sullivan CDGA source scope inherited, different category to raw Top^R; SRC-0086 original 2002 abstract only; 1981 JPAA proof inaccessible.
+
+## S037 newly directly inspected originals
+- SRC-0089 **STATEMENT_INSPECTED** original Botnan–Lebovici–Oudot2020 SoCG publisher PDF (Def11, Thm12) https://drops.dagstuhl.de/storage/00lipics/lipics-vol164-socg2020/LIPIcs.SoCG.2020.22/LIPIcs.SoCG.2020.22.pdf ; weak exactness/all squares and finite-grid rectangle decomposition, full proof not audited.
+- SRC-0090 **STATEMENT_INSPECTED** original Chachólski et al. FoCM2025 publisher https://link.springer.com/article/10.1007/s10208-024-09660-z §§13–14; prior relative rectangles/grid and End-projective algebra, not complete novelty audit.
+- SRC-0083 v3 original page15 visual refreshed; SRC-0088 original author-uploaded 2020v1 adaptation anticipation; journal PDF and v1 direct PDF reader still blocked; SRC-0084 dg≠Top; SRC-0066 original LLO Problem1 direct full HTML. All access limits in sessions/S037/PRIOR_ART.md.

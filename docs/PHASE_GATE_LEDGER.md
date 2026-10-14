@@ -93,3 +93,6 @@ Stage1 **IN PROGRESS with strong internally proved T75/T76 candidate** of one LS
 
 ## S036 gate — 2026-10-14
 Stage1 **IN_PROGRESS**; independent internal T77 derived-arrow proof and T78 sharp exact 1,3/2,3/2 with strict homotopy-equivalent replacement by HEP. The original authors' 2020 preprint predicted the main intermediate strictness route, and complete modern novelty/outside mathematical review missing. **NO priority-certified original HHA flagship**; G2 first novelty NOT_STARTED, G3/G4 NOT_STARTED, Palomar/manuscript/arXiv/HHA owner-gated/not performed. Generic d_HI≠d_IHC remains open. S037 FUTURE ONLY.
+
+## S037 gate — 2026-10-14
+Stage1 IN_PROGRESS: discrete N² critical-grid T79/T80/T81 internal binary-bit all rectangle relative k1 decision theorem; arbitrary-cut R² transfer, original primary-proof prior-art priority, external correctness and genuinely indispensable HHA homotopy application not cleared. LS Toda S036 exact triple internally supported, but authors' 2020v1 anticipated IHC adaptation and no HI/IHC distinctness. **G2 NOT_STARTED**, Lean G3/final novelty G4 NOT_STARTED, Palomar/G7/G8 owner-gated; paper/manuscript not begun. T66 all-prime, original 1981, R5 and Hopf caveats unchanged. S038 strictly future.

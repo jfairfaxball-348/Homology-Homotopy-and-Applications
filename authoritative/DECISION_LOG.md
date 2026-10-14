@@ -217,3 +217,10 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - **DEC-0153:** This example gives NO d_HI!=d_IHC: those distances are equal; generic second LS problem remains open. S037 future challenge is genuinely different mechanism.
 - **DEC-0154:** Original LS 2020 v1 author-uploaded manuscript explicitly anticipated intermediate distance adaptation; 2023 final left it open at publication. 2002 track and 2026 algebraic category caveats constrain novelty. Stage1 remains, Gate2 NOT_STARTED; no original HHA paper selected.
 - **DEC-0155:** LLO source Problem1 k≥1 binary succinct, T66 all-composite/all-prime Z caveat, original1981 uninspected, strict R5 all16471, retired S028 Hopf all preserved. No Lean/Palomar/paper/arXiv/HHA/outside contact. Prepare S037 FUTURE only.
+
+## S037 (2026-10-14) decisions
+- **DEC-0156** Entry live b4e05c52cd5d3d608e6c19dcd18c845020f2a006, S036 normal two-parent PR37 merge exact tree 179196702550203b4ae8b8d1a5a87da4c32f6151; main governance check success seven steps, one check-run, no classic statuses=ABSENT_NOT_PASS, [] rulesets, protection403 UNKNOWN; no competing S037.
+- **DEC-0157** Independent S036 T77/T78 audit supports sourced exact (1,1.5,1.5), original LS2020v1 anticipation prohibits priority claim.
+- **DEC-0158** T82 any n-stage *single terminal window* null n-fold composite can be made strict by composite cofibration/HEP at n/2; higher Toda class alone does not produce HI>IHC. Remains open for coupled windows.
+- **DEC-0159** T79–T81 internal N² ALL RECTANGLES including nonprincipal relative pd transport, universal evaluation + weak exactness, binary-succinct homogeneous monomial F2[x,y] k1 **POLYNOMIAL BIT on N²**. NOT asserted for every real R² open/closed cut; source originality/HHA research significance unresolved.
+- **DEC-0160** SoCG2020 and FoCM2025 antecedents explicitly attributed, no Gate2, Stage1 only; preserve T66 original 1981 caveat, strict R5 16471, retired S028 Hopf. S038 FUTURE; no Lean, Palomar or outside contact.

@@ -181,3 +181,8 @@ T75 (arrow derived mapping nonzero via nonvanishing Toda) + T76 (d_HC=1, d_IHC>=
 * **Different d_HI vs d_IHC** — Attempt with the same four-stage example FAILED AS COUNTEREXAMPLE: here equality is proved. Generic strict inequality still OPEN, needs a different coherent higher diagram or positive equality theorem under delimited hypotheses.
 * **LLO k>=1 succinct n2 rectangle resolution** — Exact original source Problem1 checked; no P/hardness result for binary homogeneous monomial input. Explicit N expanded grids do not qualify.
 * **T66 / integral grid and geometry** — all-composite Q+all-Fp Z coherent claim preserved, 1981 proof still absent, S023 R5 16,471 pair case open, S028 Hopf retired as flagship.
+
+## S037 precise route outcome
+A LS2023 HI vs IHC: T77/T78 sphere Toda triple internally credible but equality at endpoint, no new gap. n-stage null total composition single-window path T82 strictifies, so DO NOT recycle same trick for separation; need two equations plus multiple coupled windows / genuine new higher obstruction.
+B LLO2024 Problem1: proved on DISCRETE N² fixed k1 all rectangle relative exact structure, including nonprincipal, via sparse critical-grid Kan T79, canonical rectangle projective evaluation+weak exactness T80, and binary-degree homogeneous monomial presentation T81. Costs polynomial in presentation B, not max exponent. **Real-index all arbitrary cuts and global literature priority unresolved**. 2020 Botnan and 2025 FoCM direct sources now pinned. No full broad claim or Gate2.
+C T66 all composites/Q and every prime coherent integral descent, 1981 JPAA missing; strict R5 16,471 OPEN, S028 Hopf benchmark verified but flagship retired.

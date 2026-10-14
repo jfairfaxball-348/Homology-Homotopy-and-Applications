@@ -1,0 +1,6 @@
+# S037 preregistered research plan
+A. Reconstruct all S036 topological coherence, unbased passage, full real endpoint, diagram replacement; try to falsify the model.
+B. Independent HI>IHC mechanism: four/five+ stage higher operations, simultaneous naturality/identities, identify why merely null total composite cannot work; no false generic equality.
+C. LLO original Problem1 fixed n=2, k=1 and genuinely binary monomial homogeneous presentation; first finite-grid universal relative-projective cover and polynomial rectangle test, then critical-degree coarsening. Separate N² proof from R² all-cut bridge.
+D. Source/novelty: original LS v1/v3/journal; 2002 track, 2026 dg/CDGA, LLO v4, 2020 rectangle theorem, 2025 relative Koszul. Do not equate primary search with exhaustive modern novelty.
+E. Optional finite small check: enumerate finite 1D interval left Kan under sparse floor, independently compute quotient-colimits. This checks only finite supports, never the categorical theorem. Gate2 ONLY if proof + strong originality + HHA fit; otherwise keep all gates closed and S038 future.
