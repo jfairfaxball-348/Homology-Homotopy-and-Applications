@@ -208,3 +208,7 @@ T95 insertion after four-stage T87 compression p=hg yields T96 INTERNALLY: at ep
 
 ## S042 new precise front
 Chain S160,S160,S130,S100,S100 arrows (2,theta4,theta4,2) yields INTERNAL source-dependent exact HI1.5 and bracket invariant prohibits WE strict all 2-composites zero. **One binary missing coherence:** theta2 derived-[2] null? If yes prove full-real IHC1 => actual 1-to-1.5 gap; if not equality 1.5-to-1.5. S043 concentrate on original Wang–Xu 2017 fourfold and Blanc–Johnson–Turner2019 4map rectification machinery; no other broad routes until decision. T66/1981/R5/Hopf/T84 frozen. G2 closed.
+
+
+## S043 route result — coherent theta2 solved internally, strict HI gap not proved
+Same exact five spheres and maps (2,theta4,theta4,2). Two restriction fibration homotopy-pullbacks + pi61=0 yield a single strict natural homotopy theta2→0 in derived [2] with both squares. Derived integer→real Kan extension and both equations establish dIHC=1 INTERNALLY. S042 T98 asserted dHI1.5 incorrectly without treating arbitrarily contractible G' on the other side of HI. S044 must prove the fourfold all-replacements version of LS2023 Prop3.10 OR give a strict HI1 contractible-G' witness, and prove bracket zero-exclusion with IWX2023 h5 n indeterminacy. Current dHI∈{1,1.5}, not a verified gap; no HHA flagship or Gate2. All frozen T66/1981, R5 and Hopf/T84 preserved.

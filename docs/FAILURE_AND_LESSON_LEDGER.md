@@ -279,3 +279,6 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Vanishing three pair composites and TWO triple bracket groups does NOT prove theta2=point in Ho(Top^[2]); do not infer dIHC=1 or a genuine dHI>dIHC gap.
 - Killing the single middle composite hg literally via cofibration HEP kills both triple compositions and yields exact upper dHI<=1.5 in this example.
 - Blanc–Johnson–Turner2019 already treats higher rectification of four-map chains; 4fold bracket itself Wang–Xu2017 is not programme-new. No novelty stage advancement.
+
+
+- **S043 corrective audit:** S042-T98 assumed strict HI epsilon1 forced literal zero adjacent composites in a WE-replacement of F but omitted arbitrary contractible WE-replacements G' of the point filtration; this is a missing theorem, not a verified dHI lower. Original Wang–Xu 'contains theta5' is NOT automatically zero-exclusion; IWX2023 Table10 lists h5 n indeterminacy. Avoid conflating derived theta2=0 with the pointed 4fold strict rectification problem. False Eq(P,Q) homotopy equalizer criterion rejected; use iterated pullbacks along two actual restriction fibrations.

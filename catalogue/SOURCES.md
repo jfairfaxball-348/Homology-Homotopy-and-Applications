@@ -206,3 +206,10 @@ Original DKS1989 printed-paper transcript SRC-0091 §§2.1–2.5 theorem/proof o
 
 ## S042 sources
 SRC-0094 **PROOF_INSPECTED for Cor1.10 only** Wang–Xu arXiv1601.02184v4 original PDF pp3–4: strictly defined nonzero 4fold <2,theta4,theta4,2> with theta5. Full Adams proof uninspected. SRC-0095 **STATEMENT_INSPECTED** Blanc–Johnson–Turner arXiv1809.07495v1 (2018), published 2019 Contemp Math 729 pp21–74, selected Introduction/§7.A original four-map chain rectification; entire theorem proof not rederived. Strong precedence barrier.
+
+
+## S043 directly inspected original sources
+- **SRC-0096 STATEMENT_INSPECTED (selected tables):** Isaksen–Wang–Xu, *Stable homotopy groups of spheres: from dimension 0 to 90*, Publ. Math. IHÉS137(2023)107–243, DOI10.1007/s10240-023-00139-1; original https://www.numdam.org/item/10.1007/s10240-023-00139-1.pdf printed pp114 (stable 61-stem blank), 212 Table1 theta5/h5², 228 Table10 row (62,32) <2,theta4,theta4,2> contains theta5, indeterminacy h5 n. NOT a full Adams proof check or asserted zero-exclusion.
+- **SRC-0095:** Original arxiv1809.07495v1 PDF §7.A/Remark7.5 directly read selected construction/proof (upgrade from S042 only selected statement reading to **PROOF_INSPECTED, selected**; full 50-page proof not audited). Specifically defines 4fold as final tertiary rectification obstruction, not direct HI/IHC distance without all-replacements argument.
+- **SRC-0083:** Original arxiv2010.05378v3 HTML §3.2 Proposition3.10 proof and Prop3.12/Remark3.13 re-read directly, complete local argument with contractible point-side G' considered. Previous source classification selected PROOF_INSPECTED retained.
+- SRC-0091 DKS original 1989 selected printed transcript only; SRC-0086 HKM2002 ABSTRACT_ONLY; SRC-0092 Baues–Blanc2011 ABSTRACT_ONLY; SRC-0084 2026 dg-only equality. Original 1981 JPAA full proof uninspected. No original source priority clearance, no invented DKS cohomology class.

@@ -852,9 +852,18 @@
       "title": "Blanc–Johnson–Turner, A constructive approach to higher homotopy operations, Contemporary Mathematics 729 (2019)21–74, arXiv:1809.07495v1",
       "url": "https://arxiv.org/abs/1809.07495",
       "origin": "Original 2018 author manuscript Intro and selected Section 7.A, published 2019 DOI 10.1090/conm/729/14690",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "Selected original text excerpts, full 4map proof chain not independently inspected.",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected original text excerpts, full 4map proof chain not independently inspected. S043 additionally read original arxiv v1 PDF §7.A/Remark7.5 selected construction and proof, NOT full fifty-page proof.",
       "observed": "Classical explicit higher operations as obstruction to rectifying length-four homotopy chains and fourfold Toda."
+    },
+    {
+      "id": "SRC-0096",
+      "title": "Isaksen–Wang–Xu, Stable homotopy groups of spheres: from dimension 0 to 90, Publ. Math. IHÉS 137 (2023) 107–243, DOI 10.1007/s10240-023-00139-1",
+      "url": "https://www.numdam.org/item/10.1007/s10240-023-00139-1.pdf",
+      "origin": "Original open-access publisher/deposit full PDF, directly viewed printed pp114,212,228 and metadata; S043",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected original tables only, not full Adams proof; indeterminacy h5 n listed, no independent full zero-exclusion or all-WE HI theorem checked.",
+      "observed": "Stable pi61^S=0 across primes; Table1 theta5=h5^2 in stem62; Table10 row (62,32) <2,theta4,theta4,2> contains h5^2 with indeterminacy h5 n."
     }
   ]
 }

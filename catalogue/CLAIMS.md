@@ -318,3 +318,11 @@ See S038 full dossier and JSON scope.
 |CLM-0221|SOURCE_STATED|Original Wang–Xu strictly defined nonzero 4fold <2,theta4,theta4,2> contains theta5, theta4 squared zero.|
 |CLM-0222|PROGRAMME_PROVED|INTERNAL SOURCE-DEPENDENT exact dHI=3/2 for S160,S160,S130,S100,S100 chain (2,theta4,theta4,2), standard bracket naturality all models + middle hg HEP; no IHC result.|
 |CLM-0223|INHERITED_UNVERIFIED|Theta2 coherently point-null in derived [2], full-real IHC1 and HI>IHC candidate: UNKNOWN; dIHC 1 or 1.5.|
+
+
+## S043 claims (scoped evidence, S042 correction)
+- **CLM-0222 RECLASSIFIED INHERITED_UNVERIFIED:** S042 purported exact dHI3/2 relies on an UNPROVED reduction from arbitrary weak-equivalent contractible G' to literal singleton G. Its HEP upper remains internally supported. Not a certified strict gap.
+- **CLM-0224 SOURCE_STATED:** pi61^S=0 from Wang–Xu2017 / IWX2023 direct stable stem table; IWX2023 Table10 lists <2,theta4,theta4,2> contains theta5, with indeterminacy h5 n. Does NOT certify zero-exclusion.
+- **CLM-0225 PROGRAMME_PROVED:** S043-T100 explicit QX and iterated strict mapping-space pullback, two simultaneous strict-square null path lifts using vanishing of both pi1 mapping targets, coherent in Ho(Top^[2]); INTERNAL, no machine check.
+- **CLM-0226 PROGRAMME_PROVED:** S043-T101 whole-real eta_F² point by derived Kan adjunction and exact dIHC(F,G)=1, both interleaving identities, all reals; INTERNAL, HHA novelty unverified.
+- **CLM-0227 INHERITED_UNVERIFIED:** dHI(F,G)=3/2 or a strict dHI>dIHC example; arbitrary G' contractible replacement, fourfold bracket zero-exclusion and full proof-level priority remain OPEN.

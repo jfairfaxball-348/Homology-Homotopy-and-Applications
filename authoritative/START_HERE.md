@@ -59,3 +59,7 @@ S041 T95 relative insertion reinstates intermediate C after compressing p=hg; T9
 
 ## S042 checkpoint (14 October 2026)
 Internal source-dependent dHI=3/2 on five simply connected finite spheres S160,S160,S130,S100,S100 with arrows (2,theta4,theta4,2), using Wang–Xu2017 original strictly defined nonzero 4fold Toda and middle hg HEP. Derived theta2 null / whole-real dIHC1 NOT proved, so no distance gap; dIHC in {1,3/2}. Blanc–Johnson–Turner2019 4fold rectification strong prior art; no original HHA flagship, Stage1, S043 FUTURE only.
+
+
+## S043 checkpoint (14 October 2026)
+S043-T100 INTERNAL coherent derived-[2] theta2 point-nullity for the unchanged Wang–Xu spheres, proved by two successive restriction-fibration relative lifting arguments using pi61^S=0, rather than mere separate vertex nulls. S043-T101 INTERNAL exact whole-real dIHC=1 with both interleaving identities. CRITICAL S042-T98 correction: its dHI=3/2 lower did not exclude contractible nonpoint replacements G'≃G in the actual HI definition, and zero-exclusion of the 4fold bracket needs explicit indeterminacy analysis (2023 IWX Table10 records h5 n). Thus dHI remains 1 or1.5, NO verified strict HI>IHC witness; S044 FUTURE ONLY must resolve all-replacements gap. Original BJT2019 fourfold and DKS1989 priority severe; Stage1/G2 closed; T66/1981, R5, Hopf/T84 frozen.
