@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-14",
-  "last_completed_session": "S034",
-  "recommended_next_session": "S035",
+  "last_completed_session": "S035",
+  "recommended_next_session": "S036",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "No proven original HHA flagship. S034 T73/T74 classical split Postnikov shear/π1 diagnosis; DKS kills novel generic higher obstruction. S035 investigate LS2023 Remark3.13 explicit 1D persistence-space question dHI/dIHC/dHC, current open status needing review; LLO k1 succinct reserve, integral T66 1981 proof uninspected; S023 R5 open; S028 Hopf retired.",
-  "headline_status": "S034_SPLIT_3TYPE_SHEAR_CLASSICAL_DKS_KILL__LS2023_REMARK3_13_SOURCE_STATED_FUTURE_ONLY",
-  "active_campaign": "S035 FUTURE UNEXECUTED: original AGT2023 Remark3.13 homotopy-interleaving distance comparisons on spaces, source-first 2023–26 priority and serious proof/disproof. Reserve LLO n2 k1 binary BIT; T66/R5 frozen.",
+  "selected_mathematical_problem": "S035 T75/T76 internally proposes/derives d_HC=1, d_IHC>=3/2 for simply-connected finite CW stage spaces via nonzero Toda bracket and derived-arrow map. HHA flagship selection still PENDING independent referee/prior-art Gate2; d_HI vs d_IHC open. LLO k1 succinct, T66/1981 original and R5 remain open; Hopf flagship retired.",
+  "headline_status": "S035_INTERNAL_TODA_D_IHC_GT_D_HC_CANDIDATE__UNREFEREED_PRIORITY_PENDING__S036_FUTURE",
+  "active_campaign": "S036 FUTURE UNEXECUTED: independently referee T75/T76 d_IHC>d_HC Toda/derived-arrow candidate and full 2023–26 novelty; then attack d_HI vs d_IHC. Original LLO k>=1 binary succinct reserve.",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S034_DKS_COHERENCE_PRIORITY_KILL__LS_REMARK3_13_FUTURE"
+      "status": "IN_PROGRESS_S035_INTERMEDIATE_DISTANCE_CANDIDATE_REFEREE_REQUIRED"
     },
     {
       "id": 2,
@@ -442,9 +442,21 @@
     "s033_pr_run": 38553600568,
     "s033_governance_job": 115817184968,
     "s034_entry_main": "cc744683d4ed49b9d54e9dd0625d6a01b6020873",
-    "s034_entry_tree": "7033b823281215bec31a3dafc43b292ef2e005a4"
+    "s034_entry_tree": "7033b823281215bec31a3dafc43b292ef2e005a4",
+    "s034_outgoing_merge_sha": "ec8d0371639c7dcc847061cff71a744987d57368",
+    "s034_authored_commit": "598bcad045acb616bfddf1681ba0532736afaa6c",
+    "s034_merge_parents": [
+      "cc744683d4ed49b9d54e9dd0625d6a01b6020873",
+      "598bcad045acb616bfddf1681ba0532736afaa6c"
+    ],
+    "s034_merge_tree": "fb3e125a2c095369d39ae18d9650b5e9d8bf3f35",
+    "s034_pr": 35,
+    "s034_main_run": 38558190016,
+    "s034_main_job": 115832453500,
+    "s035_entry_main": "ec8d0371639c7dcc847061cff71a744987d57368",
+    "s035_entry_tree": "fb3e125a2c095369d39ae18d9650b5e9d8bf3f35"
   },
-  "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate. S020 inspected original Springer full HTML Monoidal Rips Prop6.7, SoCG DOI abstract/HTML page, MathOverflow exact 36-tetrahedra list and original 2000 simplicial Hopf map bibliographic metadata; priority remains unverified. S021 DIRECT original Madahar-Sarkaria author-hosted PDF §§2,3,5 inspected; Oudot-Waas SoCG2026 HTML Thm1, Blaser et al. 2026 §6.3 Prop6.7, Memoli-Stefanou-Zhou JACT2024 HTML introduction/Def and stability statements; mixed cofiber priority still OPEN. S022 directly read Cohn–Rajagopal 2026 §2 five-dimensional kissing number 40–44 bounds (independent T50 uses its own positive polynomial); Cambridge original Munson–Volić 2015 cubical homotopy pushouts chapter metadata and indexed original PDF §3.8.8 total cofiber excerpt (PDF not directly retrievable); original Sarkaria paper source §§2,3,5 and original JACT/SoCG remain priority adversaries. No complete mixed-persistence priority proof audit. S024 revisited Cambridge 2015 §§3.8/3.9 ORIGINAL indexed author PDF snippets but 45MB direct PDF fetch was too large and alternate URL disabled; no full proof read. Revisited original JACT2026 Monoidal Rips full HTML and SoCG2026 original abstract; no new HHA priority pass. S026 original BL2017 Example8.5 inspected, Lanari-Scoccola AGT2023 full publisher PDF unavailable, MSZ2024 original theorem2 inspected, original Munson-Volic2015 complete PDF not retrieved. No source-cleared novelty. S027 original BL2017 §3 pp11, §7 pp21-23, §8 pp25-26 visually inspected; MSZ2024 original HTML Theorem1/2 and proof passages; LS2023 official abstract/metadata only, Munson-Volic full original PDF inaccessible; Oudot-Waas2026 abstract, Blaser2026 original HTML only. Full novelty proof audit missing. S028: full original LS arXivv3 downloaded and selected §3.3 Proposition3.14/Lemma3.15 and §5 theorem/proof inspected, journal-final PDF still inaccessible. Full original Munson–Volic45MB PDF retrieved, selected chapter3§3.8/3.9 proofs and visual pages168/171 read, correct cofiber Definition3.8.1. MSZ2024 original Theorem2/Lemma3.5 proofs read; Musin–Shamazov2025 original §§2–3 algorithm inspected. Exact certificate priority not claimed; categorical flagship retired. S030 direct original LLO arXiv HTML Definition3/Theorem4 and original FoCM2025 Thm4.11/Prop4.5/4.17 HTML proof directly inspected. Keagy2026 original arXiv ABSTRACT only, full PDF/HTML blocked; Höppner–Lenzing1981 publisher ABSTRACT only, pdf access denied; no proof-level priority clearance. S032: original Keagy2026 full proof text arxiv2602.13560v1 read for A_n/total order/zigzags; original Höppner–Lenzing1981 JPAA pp7–12 full proof remains inaccessible; no originality clearance. S033: Møller–Scherer original MPI Bonn PDF theorem2.2 proof and example2.4 visually inspected p3; original LLO v4 statement and Keagy v1 proof HTML accessible; Munson–Volić original 2015 and LS original 2023 selected proof inspections inherited from S028, not independently re-downloaded. 1981 Höppner–Lenzing JPAA full proof still uninspected; similarly titled 1981 Springer proceedings is distinct. No priority guarantee.",
+  "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate. S020 inspected original Springer full HTML Monoidal Rips Prop6.7, SoCG DOI abstract/HTML page, MathOverflow exact 36-tetrahedra list and original 2000 simplicial Hopf map bibliographic metadata; priority remains unverified. S021 DIRECT original Madahar-Sarkaria author-hosted PDF §§2,3,5 inspected; Oudot-Waas SoCG2026 HTML Thm1, Blaser et al. 2026 §6.3 Prop6.7, Memoli-Stefanou-Zhou JACT2024 HTML introduction/Def and stability statements; mixed cofiber priority still OPEN. S022 directly read Cohn–Rajagopal 2026 §2 five-dimensional kissing number 40–44 bounds (independent T50 uses its own positive polynomial); Cambridge original Munson–Volić 2015 cubical homotopy pushouts chapter metadata and indexed original PDF §3.8.8 total cofiber excerpt (PDF not directly retrievable); original Sarkaria paper source §§2,3,5 and original JACT/SoCG remain priority adversaries. No complete mixed-persistence priority proof audit. S024 revisited Cambridge 2015 §§3.8/3.9 ORIGINAL indexed author PDF snippets but 45MB direct PDF fetch was too large and alternate URL disabled; no full proof read. Revisited original JACT2026 Monoidal Rips full HTML and SoCG2026 original abstract; no new HHA priority pass. S026 original BL2017 Example8.5 inspected, Lanari-Scoccola AGT2023 full publisher PDF unavailable, MSZ2024 original theorem2 inspected, original Munson-Volic2015 complete PDF not retrieved. No source-cleared novelty. S027 original BL2017 §3 pp11, §7 pp21-23, §8 pp25-26 visually inspected; MSZ2024 original HTML Theorem1/2 and proof passages; LS2023 official abstract/metadata only, Munson-Volic full original PDF inaccessible; Oudot-Waas2026 abstract, Blaser2026 original HTML only. Full novelty proof audit missing. S028: full original LS arXivv3 downloaded and selected §3.3 Proposition3.14/Lemma3.15 and §5 theorem/proof inspected, journal-final PDF still inaccessible. Full original Munson–Volic45MB PDF retrieved, selected chapter3§3.8/3.9 proofs and visual pages168/171 read, correct cofiber Definition3.8.1. MSZ2024 original Theorem2/Lemma3.5 proofs read; Musin–Shamazov2025 original §§2–3 algorithm inspected. Exact certificate priority not claimed; categorical flagship retired. S030 direct original LLO arXiv HTML Definition3/Theorem4 and original FoCM2025 Thm4.11/Prop4.5/4.17 HTML proof directly inspected. Keagy2026 original arXiv ABSTRACT only, full PDF/HTML blocked; Höppner–Lenzing1981 publisher ABSTRACT only, pdf access denied; no proof-level priority clearance. S032: original Keagy2026 full proof text arxiv2602.13560v1 read for A_n/total order/zigzags; original Höppner–Lenzing1981 JPAA pp7–12 full proof remains inaccessible; no originality clearance. S033: Møller–Scherer original MPI Bonn PDF theorem2.2 proof and example2.4 visually inspected p3; original LLO v4 statement and Keagy v1 proof HTML accessible; Munson–Volić original 2015 and LS original 2023 selected proof inspections inherited from S028, not independently re-downloaded. 1981 Höppner–Lenzing JPAA full proof still uninspected; similarly titled 1981 Springer proceedings is distinct. No priority guarantee. S035: LS original arXivv3 PDF proof selected §§2.2.2,3.2 visually inspected, original publisher final Remark3.13 indexed; 2026 Springer original full article HTML §1/2/3 statements inspected; 2026 relative Sullivan arxiv HTML source selected sections; 2002 Toda track abstract only; LS v1 anticipation from indexed mirror. No exhaustive citation/priority audit.",
   "lean": {
     "status": "NOT_STARTED",
     "toolchain": null
@@ -479,7 +491,9 @@
     "S032: demonstrate original HHA intrinsic homotopy invariant/obstruction with proof and primary novelty; expanded-input T69 is classical corollary and no succinct k>=1 fixed nonprincipal BIT conclusion. Original Höppner–Lenzing1981 JPAA full proof access pending. S030 T66 external proof refutation/referee pending.",
     "S033 T71 Ext cofiber square is ordinary UCT/cofiber and F2 H3 maps distinguish; NOT an HHA flagship. S034 must test genuinely higher coherent Postnikov naturality (not just pointwise/edgewise) against Dwyer–Kan and classical sources.",
     "S033 binary-input n2 k1 nonprincipal all-rectangles relative projective dimension remains unproved in either P or hardness, and category/grade-transport encoding must be explicitly fixed.",
-    "S034: no new higher Postnikov obstruction beyond DKS preexisting theory; split shear T73/T74 classical and narrow. S035 FUTURE only: investigate LS2023 Remark3.13 exact homotopy interleaving inequality question for spaces and audit newer2023–26 priority. This is not yet a solved or independently still-open 2026 claim."
+    "S034: no new higher Postnikov obstruction beyond DKS preexisting theory; split shear T73/T74 classical and narrow. S035 FUTURE only: investigate LS2023 Remark3.13 exact homotopy interleaving inequality question for spaces and audit newer2023–26 priority. This is not yet a solved or independently still-open 2026 claim.",
+    "S035 T75/T76 source-stated d_IHC>d_HC resolution candidate: INDEPENDENT arrow derived mapping-space + nonzero Toda bracket referee, unpointed-map scrutiny and complete 2023–2026 theorem-level priority audit before Gate2.",
+    "S035 does NOT resolve d_HI != d_IHC; LS original v1 explicitly anticipated the d_IHC>d_HC adaptation; exact d_IHC endpoint/upper not proved beyond <=2."
   ],
   "blockers": [
     "No all-distance R5 strict geometric solution/no-go for original Hopf f1 and recoloured null g; 32/30 stars do not exclude R5.",
@@ -492,6 +506,7 @@
     "S029 resolves frozen 3-level integral descent internally (T65), but external novelty/HHA significance are unknown; strict R5 and succinct k>=1 complexity remain open.",
     "S030 T66 internal proof is not externally verified as correct or original. Keagy full manuscript/Höppner–Lenzing original proof inaccessible; HHA homotopy application not established.",
     "S033 genuine original HHA homotopy flagship still absent after classical Postnikov and Moore Ext total cofiber sources; source-stated open C not located; do not promote Stage2.",
-    "S034: original HHA flagship remains absent, G2 closed. DKS1989/Baues–Blanc2011 classical obstruction theory preempts generic mapping-space π1 novelty; LS2023 Remark3.13 source-stated problem requires fresh contemporary priority and proof."
+    "S034: original HHA flagship remains absent, G2 closed. DKS1989/Baues–Blanc2011 classical obstruction theory preempts generic mapping-space π1 novelty; LS2023 Remark3.13 source-stated problem requires fresh contemporary priority and proof.",
+    "S035 apparent answer to LS Remark3.13 has ONLY internal mathematical proof, no external proof certification / exhaustive novelty priority / HHA manuscript decision; Stage2 remains not started."
   ]
 }

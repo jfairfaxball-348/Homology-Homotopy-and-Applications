@@ -738,6 +738,51 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Original article full proof not read; equality described for dg-module persistence, cannot assume spaces equality.",
       "observed": "Later comparison result in algebraic persistence category, not demonstrated resolution of LS2023 Remark3.13 for spaces."
+    },
+    {
+      "id": "SRC-0083",
+      "title": "Lanari–Scoccola arXiv2010.05378v3 (2022) proof of interleaving rectification and nonzero Toda lower bound",
+      "url": "https://arxiv.org/pdf/2010.05378",
+      "origin": "Original arXiv v3 PDF full extracted text and visual page inspection",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected §§2.2.2,3.2 Prop3.10/12 and 3.3 only; this is v3 not full separate journal publisher proof inspection.",
+      "observed": "Categories Ho(M^R) vs Ho(M)^R; source nonzero <2,eta3,2>, Prop3.10, Remark3.13 two open inequalities, general upper d_HI<=2d_HC."
+    },
+    {
+      "id": "SRC-0084",
+      "title": "Kuribayashi et al., Equalities of interleaving distances and cohomology interleavings of spaces over BS1, JACT 10 (2026) 26",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "Original 2026 publisher open full HTML introduction, §2.3, statement 3.3",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Not an exhaustive reread of all proofs; equalities concern persistence dg modules, not ordinary Top^R.",
+      "observed": "12 Sept 2026 version of record; dg-module over field distances equal; singular-cochain induced invariant for spaces over BS1 distinguished."
+    },
+    {
+      "id": "SRC-0085",
+      "title": "Kuribayashi et al., Distance between maps via interleavings of relative Sullivan algebras, arXiv2604.06800 (2026)",
+      "url": "https://arxiv.org/abs/2604.06800",
+      "origin": "Original arXiv HTML introduction, §5/§6 statement excerpts",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Does not transfer CDGA interleaving comparisons to raw Top persistence distances.",
+      "observed": "d_IHC for relative Sullivan CDGA persistence and separations from cohomology interleaving, not d_IHC vs d_HC on all spaces."
+    },
+    {
+      "id": "SRC-0086",
+      "title": "The Toda bracket in the homotopy category of a track bicategory, JPAA 175 (2002)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022404902001317",
+      "origin": "Original publisher abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full original proof not read.",
+      "observed": "Existing Toda obstruction machinery for bicategory of maps, commuting homotopy squares and 2-tracks."
+    },
+    {
+      "id": "SRC-0087",
+      "title": "Lanari–Scoccola 2020 original preprint v1, anticipation of d_IHC != d_HC adaptation",
+      "url": "https://arxiv.org/pdf/2010.05378v1",
+      "origin": "Original manuscript v1 text indexed in archival mirror; not direct full PDF inspection",
+      "access": "SECONDARY_ONLY",
+      "limitation": "Indexed mirror excerpt, not independent visual reading of full v1 PDF.",
+      "observed": "v1 Remark3.13 says authors believed adaptation of Prop3.10 to homotopy category would give d_IHC!=d_HC. This is strong prior-idea credit."
     }
   ]
 }

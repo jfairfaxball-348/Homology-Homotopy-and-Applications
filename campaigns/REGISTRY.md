@@ -78,3 +78,8 @@ T69 proof counts ∏m_j(m_j+1)/2≤N² cubes; tests integer unit Smith and ratio
 
 ## S033 — preregistered 15-case Moore cofiber arithmetic
 Bounded exact matrix Smith versus independent gcd for (n,a): n=2,3,4,6, 0<=a<n, 15 cases. Executed Python3/SymPy; script SHA256 cd12725b328e307495661fd8d806d48ed6cf3305535c5d76f3b039d1eb890ff3, stdout SHA256 371245a60bddbf7e39382e7820e0d721394bf4e950bb61b09eca8a935f42b8e6, command and results sessions/S033/COMPUTATION.md. Only checks cellular integer d4 vector gcd, NOT universal homotopy, all-prime field equivalence, new math or Lean. No strict R5 or bigger campaign. S034 FUTURE ONLY.
+
+
+## S035 campaign entry
+- LS2023 Remark3.13 spaces: T75/T76 internal derived-arrow Toda square yields d_HC=1 and d_IHC>=3/2 (upper d_HI<=2) for simply connected sphere-stage R-filtrations. Original method anticipated in LS preprint v1; no proof-level priority gate, external mathematical audit or automatic flagship selection. S036 FUTURE independent referee.
+- Other d_HI vs d_IHC **OPEN**. Original LLO k>=1 binary succinct reserve OPEN. T66/1981 and R5 OPEN; S028 Hopf retired flagship preserved.

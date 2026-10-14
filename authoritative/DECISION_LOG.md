@@ -206,3 +206,7 @@ One topology-first source attack: marked 3-type κ naturality/κ0 vs Sq² is alr
 - **DEC-0148:** T74 [2]² shears iff four face parity conditions; 4096 exact edge patterns, 256 closed and same 256 potential patterns; general all-κ/coefficients not covered.
 - **DEC-0149:** Original DKS1989 and Baues–Blanc2011 preempt higher mapping-space obstruction generality; retire S034 Postnikov coherence **as HHA flagship**. No novelty promotion.
 - **DEC-0150:** Original Lanari–Scoccola2023 Remark3.13 is explicit HHA-suitable homotopy open question d_HI vs d_IHC vs d_HC; select S035 *investigation only*, not new theorem or globally confirmed still open. 2025 dg module result restricted. LLO source-stated Problem1 reserve. S028 Hopf retired; T66/1981, n2 succinct k1, strict R5 still open. G2/Lean/Palomar/manuscript/arXiv/HHA closed. S035 FUTURE ONLY.
+
+
+## S035 (2026-10-14) decision
+SELECT conditional intermediate-distance strictness T75/T76 for independent S036 referee: internal derived-arrow Toda obstruction shows proposed d_HC=1 and d_IHC>=3/2 on finite-CW sphere-stage spaces, not just established d_HI>d_HC. Credited original LS sphere/Toda and v1 explicit adaptation anticipation; novelty and correctness not externally cleared, Stage1 only, Gate2 NOT_STARTED. Published 2026 dg-module equality not spaces theorem. LLO k>=1 succinct and d_HI vs d_IHC remain unsolved; T66 original/strict R5 frozen; retired Hopf preserved. S036 FUTURE.

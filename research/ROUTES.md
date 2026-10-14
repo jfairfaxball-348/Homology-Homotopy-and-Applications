@@ -171,3 +171,7 @@ Classical k-invariant naturality and exact old κ=Sq2 Møller–Scherer example 
 
 ## S034 source-first homotopy route correction
 Nonzero H³ shear of split marked 3-types blocks squares of *prescribed maps* despite edge k-compatibility; π1=H² of shear mapping space gives optional 2-cell loops. T74 all 256 face-compatible [2]² binary shears strictify. Both DKS/Baues–Blanc classical, route RETIRED as original HHA flagship; do not recycle S028 Hopf. **New future S035 SOURCE-STATED:** Lanari–Scoccola2023 Remark3.13 asks whether d_HI≠d_IHC or d_IHC≠d_HC for spaces. Direct source-first 2023–2026 audit mandatory; 2025 dg-module equalities cannot transfer. LLO 2024 Problem1 k≥1 still competing source-stated homological target; binary succinct fixed n2 k1 NOT solved. T66 1981 original, R5 exact OPEN. No Gate2.
+
+
+## S035 — sourced 1-parameter persistent space separation
+T75 (arrow derived mapping nonzero via nonvanishing Toda) + T76 (d_HC=1, d_IHC>=3/2, d_HI<=2) internally prove a promising one-sided resolution of LS2023 Remark3.13 for simply connected sphere stages. The proof is not independent-refereed and novelty is fragile because the original 2020 LS preprint already anticipated adapting their Toda method. 2026 dg-module equality does not transfer to Top^R. Recommend S036 intense independent refutation/prior-art audit before HHA flagship selection; other d_HI vs d_IHC question still unresolved. Mandatory LLO binary succinct k>=1 reserve still open; T66 original 1981 missing, frozen strict R5 and retired S028 Hopf unchanged.

@@ -39,3 +39,7 @@ S033 internally proved a classical Moore-space Ext¹/total-cofiber two-parameter
 
 ## S034 checkpoint (14 October 2026)
 Nontrivial split Postnikov F2 shear H³ classes obstruct **prescribed edge** Ho-square compatibility, with π1 shear mapping space H²=F2; 4096 exact [2]² assignments yield 256 coherent shears, each strictly realizable in this slice. Classical Dwyer–Kan–Smith and Baues–Blanc prevent novelty: Postnikov-coherence flagship retired. Original Lanari–Scoccola2023 Remark3.13 names a genuine open homotopy-interleaving distance comparison for future **S035 investigation**, not solved or guaranteed still open. Stage1/no original flagship, Gate2 closed; succinct k1, T66 1981 priority, frozen R5 remain open.
+
+
+## Latest research checkpoint — S035 (14 October 2026)
+Internal T75/T76 proof candidate for a source-stated 2023 homotopy-interleaving strictness question: for simply connected finite-CW sphere filtrations, `d_HC=1` but `d_IHC>=3/2`, using the nonzero classical Toda bracket detected in the derived homotopy category of arrow diagrams. This is NOT independent peer review, priority novelty certification or publication. Authors had anticipated the adaptation in their original preprint v1; G2 remains closed. S036 is FUTURE/UNEXECUTED, for hostile independent checks and the still-open d_HI vs d_IHC comparison. No Lean, Palomar or manuscript work undertaken.
