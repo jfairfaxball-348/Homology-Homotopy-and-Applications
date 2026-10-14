@@ -65,3 +65,7 @@ S044 T102 source-dependent bracket zero-exclusion from published IWX2023 Table4 
 
 ## S045 checkpoint (14 October 2026)
 S045 T104 whole-shoelace projective simplicial/CW replacement preserves both strict identities under ALL objectwise WEs, T105 coherent finite ladder basepoints, T106 LS-published threefold local Toda vanishing, T107 nonpoint full-real strict control; NO fourfold tertiary filler or target HI1 countermodel. dIHC=1 INTERNAL; dHI in {1,3/2} OPEN. Stage1/G2 closed, S046 future only. No novel HHA flagship; T66/1981 integral priority, strict R5 16,471 OPEN, retired Hopf and T84 preserved; no Lean/Palomar/manuscript/arXiv/HHA.
+
+
+## S046 checkpoint (14 October 2026)
+**INTERNAL, source-dependent quantitative HI>IHC result:** T108 applies a projectively cofibrant replacement to the WHOLE strict shoelace and simultaneously quotients contractible G' cross-arrow images inside F' (cofibrations), so arbitrary nonpoint G' can become literal point while the entire F diagram changes by objectwise WE and both identities/all real cuts remain strict. T109 samples the unchanged Wang–Xu five-sphere chain at 0,1,2+c,3+c,4+2c (c=2epsilon−2<1/2) and obtains all three literal 2epsilon-zero composites for any epsilon<5/4, contradicting published full fourfold Toda zero-exclusion. With S043/S042, **dIHC=1 < 5/4 <= dHI <= 3/2 INTERNALLY**, NOT exact dHI=3/2 and NOT independently audited Adams/priority. G2 CLOSED, Stage1 only, no HHA-ready original theorem. S047 FUTURE UNEXECUTED. No Lean/Palomar/paper/arXiv/HHA; frozen T66/1981, R5 16,471, retired Hopf, T84.

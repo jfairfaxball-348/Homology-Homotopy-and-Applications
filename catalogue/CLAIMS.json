@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14 S045",
+  "as_of": "2026-10-14 S046",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2245,6 +2245,49 @@
         "SRC-0096"
       ],
       "scope": "UNPROVED: compatibility of both LS-style secondary cone fillings in one tertiary relative 3cell while retaining I-G and all original replacements. dHI remains 1 or1.5."
+    },
+    {
+      "id": "CLM-0236",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S046 T108: strict whole-real epsilon interleaving with weakly contractible G' can be turned into another strict all-real epsilon interleaving with literal point G by whole-shoelace projective cofibrant Q and simultaneous F-row quotient along monomorphic weakly contractible G cross-images, preserving F homotopy diagram by objectwise WE.",
+      "sources": [
+        "SRC-0083"
+      ],
+      "scope": "INTERNAL standard poset/projective/left-proper sSet argument, ALL four strict relations; not unilateral collapse with old F point-set maps; not externally refereed or original."
+    },
+    {
+      "id": "CLM-0237",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S046 T109: for original five Wang–Xu spheres any strict HI epsilon<5/4 would by T108 yield one weak-equivalent five-chain sampled at (0,1,2+c,3+c,4+2c), c=2epsilon−2<1/2, with all three consecutive twofold composites literally constant, contradicting published zero-excluded fourfold Toda bracket.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "INTERNAL source-dependent standard fourfold transport, original Table4/10 filtration; exact endpoint 5/4 NOT excluded, no independent Adams/full classical convention certification."
+    },
+    {
+      "id": "CLM-0238",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S046 for unchanged Wang–Xu chain internally dIHC(F,G)=1 < 5/4 <= dHI(F,G) <= 3/2 with arbitrary all-real strict weak-equivalent replacements.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094",
+        "SRC-0096"
+      ],
+      "scope": "INTERNAL composite of S043 T101, S046 T108/T109, S042 T99 and published bracket inputs; not externally certified original HHA flagship or exact HI."
+    },
+    {
+      "id": "CLM-0239",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Exact dHI=3/2, independent first novelty gate, new HHA-quality theorem and full primary literature comparison after S046 are NOT established.",
+      "sources": [
+        "SRC-0091",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "No full tertiary matched filler at epsilon>=5/4; S041 half-step threshold claim not independently used; Stage1/G2 still closed."
     }
   ]
 }

@@ -339,3 +339,10 @@ See S038 full dossier and JSON scope.
 - **CLM-0233 PROGRAMME_PROVED / source-dependent:** T106 local threefold Toda zero by directly applying LS2023 Prop3.10 to each pair of contractible U stages; NO common fourfold tertiary filler.
 - **CLM-0234 PROGRAMME_PROVED:** T107 full-real nonpoint interval G' control, nonconstant a0,b0 and both strict identities, for alternating id/zero F, NOT original Wang–Xu sphere chain.
 - **CLM-0235 INHERITED_UNVERIFIED:** both options dHI=1 or1.5 for the unchanged five-sphere example remain open; neither all-replacements fourfold obstruction nor strict HI1 witness.
+
+
+## S046 claims (14 October 2026)
+- CLM-0236 PROGRAMME_PROVED (INTERNAL standard tools): T108 full-shoelace projective simplicial cofibrant replacement and natural quotient of contractible mono G-to-F cross-arrow image produce **another** strict epsilon diagram with G literally point, entire changed F objectwise WE, all real times and BOTH identities; no unilateral collapse.
+- CLM-0237 PROGRAMME_PROVED (INTERNAL, source-dependent): T109 for any epsilon<5/4 five samples (0,1,2+c,3+c,4+2c), c=2epsilon−2<1/2, expose all three literal 2epsilon composites and give zero in stable fourfold Toda, contradicting SOURCE-STATED IWX2023 indeterminacy/Adams class.
+- CLM-0238 PROGRAMME_PROVED (INTERNAL, published input): dIHC=1 < 5/4 <= dHI <= 3/2 for the unchanged Wang–Xu sphere chain. No exact dHI=3/2, formal proof, independent Adams calculation or externally approved novelty.
+- CLM-0239 INHERITED_UNVERIFIED: dHI exactly 3/2, verified full literature priority, HHA-original publication suitability and universal HI/IHC inequality remain unproved.

@@ -1,0 +1,11 @@
+# S046 source-first priority and proof-access audit
+
+- SRC-0083 Lanari–Scoccola, arXiv:2010.05378v3 / AGT2023, original full HTML https://arxiv.org/html/2010.05378v3 : selected Proposition4.5 **directly reread** for projective-cofibrant poset diagrams being filtered (monomorphisms); selected Proposition3.10/12 and Remark3.13 inherited PROOF_INSPECTED/statement readings. It supplies key standard machinery, but NOT an independently discovered novel quotient theorem. The original 2020v1 authors anticipated an IHC-vs-HC example, so do not claim all distance separations first.
+- SRC-0094 Wang–Xu2017 Cor1.10 original PDF https://archive.ymsc.tsinghua.edu.cn/pacm_download/293/8755-61sphere_final.pdf : original prior S045 short corollary proof PROOF_INSPECTED, stable Adams/Moss derivation not independently redone in S046.
+- SRC-0096 Isaksen–Wang–Xu2023 original numdam https://www.numdam.org/item/10.1007/s10240-023-00139-1.pdf : selected original Table4 printed p214 (h5 f1, n f5) and Table10 printed p228 (62,32 bracket h5² and indeterminacy h5n), previously directly viewed. STATEMENT_INSPECTED, no full Adams proof/classical transport audit. Zero-exclusion *source-dependent*, separate from "contains theta5".
+- SRC-0095 Blanc–Johnson–Turner2019 original arxiv1809.07495, selected §7.A/Remark7.5 previously PROOF_INSPECTED; entire fourfold source proof not fully reread. Higher-operation strictification is established prior art.
+- SRC-0091 Dwyer–Kan–Smith1989 original selected transcript §§2,4,5 STATEMENT_INSPECTED, not a complete primary full-proof audit. SRC-0086 Hardie–Kamps–Marcum2002 original ABSTRACT_INSPECTED; SRC-0092 Baues–Blanc2011 ABSTRACT_INSPECTED. No invented relative obstruction class.
+- SRC-0084 2026 equality for special dg K[u]/BS1 structures, NOT all ordinary Top^R. No claim that it resolves this target.
+- T66 Höppner–Lenzing1981 actual original JPAA20 pp7–12 full proof remains uninspected. Frozen project not promoted.
+
+No original paper has been conclusively shown to cover OR not cover T108/T109's exact all-replacements distance witness. First novelty gate remains CLOSED. No claims of exhaustive 2023–2026 search or journal acceptance. The paper-worthy question is whether the quantitative bound is fully correct and independently new relative to LS/BJT/DKS.
