@@ -290,3 +290,14 @@ See S038 full dossier and JSON scope.
 |CLM-0208|PROGRAMME_PROVED|T88 exact four-stage-point-target dIHC=dHI∈{0,1/2,1,3/2,2} restricted theorem, both identities all reals; no general equality.|
 |CLM-0209|COMPUTED_EXACT|288 Fraction stage samples SHA256 3ca9b0810e5b1cff7a10dda4a8a5f00be84a6ee62c88ae0073756877da21b23d; timing only.|
 |CLM-0210|INHERITED_UNVERIFIED|Original HHA priority or general HI/IHC gap is NOT established.|
+
+
+## S040 claims
+|ID|Status|Scope|
+|---|---|---|
+|CLM-0211|PROGRAMME_PROVED|T91 projectively cofibrant derived-[2] mapping-space equalizer and theta2 point-component criterion, internal model-category reasoning.|
+|CLM-0212|PROGRAMME_PROVED|T92 if theta2=point and ANY primitive arrow f,g,h,k null then a full-chain weak equivalent strict model has all three two-composites constant; no epsilon1 gap in that class.|
+|CLM-0213|PROGRAMME_PROVED|T93 five-stage half-step stage boundary tests; epsilon2 null khgf single-window HEP and epsilon2.5 unconditional strict point-step interleavings.|
+|CLM-0214|PROGRAMME_PROVED|T94 W=S³∨S³ n=i1p2 nonnull but n²=literal constant; five-stage essential-arrow control dHI=dIHC=1; no converse to T92.|
+|CLM-0215|SOURCE_STATED|DKS1989 original selected §§4 relative realizations, theorem and obstruction H^{n+1}, third-party original transcription; proof chain not fully audited.|
+|CLM-0216|INHERITED_UNVERIFIED|Five-stage all-essential theta2-null general strictification or replacement-invariant dHI>dIHC counterexample remains UNKNOWN, no HHA originality/G2 approval.|

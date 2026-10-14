@@ -145,3 +145,7 @@ T79–T81 binary-succinct discrete N² all nonprincipal rectangle relative pd<=1
 
 ## S039 target status
 No HHA-ready original flagship. T87/T88 significant internal restricted equality theorem for four-stage point-target real simply-connected CW diagrams, but DKS1989 and track Toda2002 priority comparison and a compelling HHA application are missing. Generic dHI>dIHC remains OPEN. S040 focuses five-stage derived-[2] coupled coherence. T84 not recounted as new.
+
+
+## S040 selection / explicit novelty veto
+**Five-stage Top point-target:** T92 has internal proof (if theta2=0 and any primitive arrow null then epsilon1 strict HI), but conditional and likely classical HEP/rectification; novelty 1/5, HHA impact 2/5. Counterexample NO. T94 exact nilpotent wedge shows all four essential not enough, no new homotopy invariant. Original 1989 DKS relative theorem/obstruction direct original printed text selected and 2002 quaternary track Toda are strong prior-art threats. **No original significant HHA candidate selected**, Stage1 persists, next S041 future. T84 original in-house duplicate synthesis not fresh. T66 1981 and R5 still open; Hopf flagship retired.

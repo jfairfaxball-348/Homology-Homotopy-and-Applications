@@ -47,3 +47,7 @@ S038 finds **S018 T43/T44 already contained the all-real-cut rectangle relative 
 
 ## S039 checkpoint (14 October 2026)
 Internal T87 quotient-cylinder strictifies the two overlapping derived-arrow point-factor windows when θ vanishes in Ho(Top^[1]); T88 exact restricted four-stage F versus point G equality d_IHC=d_HI∈{0,1/2,1,3/2,2}. This is not a generic gap/equality: five-stage three-window [2] coherence or nonpoint target remains open, and primary 1989 DKS/2002 track Toda originality unresolved. S038 T84 derivative algebra not recounted as new. Stage1 in progress/G2 closed, no Lean/Palomar/paper/submissions. Frozen T66/1981, strict R5 and retired Hopf. S040 FUTURE ONLY.
+
+
+## S040 checkpoint (14 October 2026)
+S040 T91 projectively cofibrant derived-[2] map and T92 conditional five-stage coupled strictification (all four primitive maps must be essential in any epsilon1 gap) internally proved; T94 exact wedge S³∨S³ example refutes converse. No full five-stage equality/gap. S039 T87 relative lifting remains internal, no external certification. 1989 DKS original §§4 relative statements now directly examined in original transcription (publisher 403), heightening priority warning. Stage1 and all later gates unchanged. S041 FUTURE UNEXECUTED.

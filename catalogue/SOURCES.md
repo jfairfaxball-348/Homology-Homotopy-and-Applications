@@ -191,3 +191,10 @@ Original LLO arxiv2402.16624v4 §1.1 Problem1 and §1.3 (existing Koszul k>0 pro
 ## S039 source addition
 - **SRC-0091 SECONDARY_ONLY** Dwyer–Kan–Smith 1989 JPAA 57:5–24, DOI10.1016/0022-4049(89)90023-6 https://doi.org/10.1016/0022-4049(89)90023-6. Secondary indexed abstract and published DOI metadata only, original full 1989 proof not inspected; severe rectification priority risk.
 - SRC-0083 LS2023 selected original pages inherited, not a new full journal proof inspection; original 2020v1 anticipation retained; SRC-0086 2002 original abstract; SRC-0084 2026 original dg module paper directly inspected; SRC-0066 original LLO full HTML §1.1 rechecked; SRC-0089 original SoCG2020 PDF front visually inspected. No unearned source access upgrade.
+
+
+## S040 original-source improvements
+- SRC-0091 **STATEMENT_INSPECTED** in original printed 1989 article transcription hosted on ResearchGate (not publisher; publisher 403): DKS §4 Def4.2, Thm4.4, Cor4.5, Prop4.8 and selected proof paragraph, §5 model assertions. Full §2–5 proof dependence NOT completely reread; source direct statement level upgraded from S039 secondary-only.
+- SRC-0092 **ABSTRACT_INSPECTED** original Baues–Blanc 2011 JPAA publisher abstract DOI10.1016/j.jpaa.2010.09.003, compares obstruction theories including DKS.
+- SRC-0093 **SECONDARY_ONLY** original 2021 homotopy-coherent Dold–Kan publisher-indexed excerpt DOI10.1016/j.aim.2021.108175, higher compatible nullhomotopies already developed; proof not read.
+- SRC-0086 quaternary track Toda 2002 original publisher abstract reconfirmed, not full paper. SRC-0083/88 LS originality barriers maintained. No full comprehensive novelty gate.
