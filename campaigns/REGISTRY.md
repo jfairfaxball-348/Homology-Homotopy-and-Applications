@@ -69,3 +69,6 @@ Preregistered exact recursive/closed B_n support set comparison n=1..4, exact ra
 
 ## S030 finite arithmetic diagnostic and proof ledger
 Local Python3 + SymPy exact Smith mixed sheared B(P) examples on (3,2),(4,2),(4,3),(5,2). Predeclared support-count, all comparable pairs and rank inversion: 19/37/136/61 supports, 36/100/1000/225 pair Smith passes, all interior inversions pass. SHA256 executed script ae2d054fc3dbf4cce1a458404d6eebffa585935b6de501e7527ac6b218d30f1d; JSON SHA256 853ae3e6aef92df44ada32ab16ca5550569bd4706f248b66c34dffcc66716ed6. Certificates S030/COMPUTATION.md. Does not enumerate arbitrary diagrams or primes; T66 rests on written all-prime Smith argument. Novelty/HHA, R5, succinct k>=1 OPEN. S031 future only.
+
+## S031 (2026-10-14) — T66 integrity and exact field certificate
+Front C: T66 remains internally supported not independently external-certified; extracted full Z lattice on synthetic sheared 4x4,4x4x4,3x5. T67 exact finite all-field block recognition from integral Koszul middle zero+H0 purity (LLO/UCT, not priority-new). Front A original fixed k>=1 succinct nonprincipal relative complexity remains OPEN; output expansion obstruction only. Front B Hopf benchmark retired as flagship. Frozen strict R5 all-16,471-pair OPEN. HHA original/significance G2 CLOSED; S032 FUTURE only.

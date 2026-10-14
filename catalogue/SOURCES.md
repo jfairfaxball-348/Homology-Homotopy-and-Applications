@@ -144,3 +144,8 @@ The preceding source notes record historical access. SRC-0062 journal-final PDF 
 - SRC-0070: original FoCM2025 Thm4.11/Prop4.5/Prop4.17 PROOF_INSPECTED.
 - SRC-0071: 2026 Keagy original ABSTRACT_INSPECTED only, original full PDF/HTML unavailable; originality unresolved.
 - SRC-0072: 1981 Höppner–Lenzing publisher ABSTRACT_INSPECTED only; full proof not accessed.
+
+### S031 source additions
+- SRC-0073 [STATEMENT_INSPECTED] original LLO arXiv2402.16624v4 Definitions7/9 Theorem14; field Koszul exactness theorem, T67 inherited classical consequence.
+- SRC-0074 [ABSTRACT_INSPECTED] original Luo–Henselman-Petrusek arXiv2310.07971 PID 1D decomposition.
+- SRC-0071 Keagy arXiv2602.13560 original HTML/PDF DisabledError; SRC-0072 Höppner–Lenzing1981 original 7–12 full proof not retrieved. Do NOT upgrade these to PROOF_INSPECTED.

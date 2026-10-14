@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-13",
+  "as_of": "2026-10-14",
   "sources": [
     {
       "id": "SRC-0001",
@@ -648,6 +648,24 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Publisher abstract inspected; 1981 original full text not retrieved. Different Bielefeld 1981 lecture note pdf hit access-denied; not equivalent full proof.",
       "observed": "Classical poset projectivity and freeness; Stage1 projective step is not priority-novel."
+    },
+    {
+      "id": "SRC-0073",
+      "title": "Lebovici–Lerch–Oudot: Local characterization of block-decomposability, v4 Definition 7/9 and Theorem 14",
+      "url": "https://arxiv.org/html/2402.16624v4",
+      "origin": "Direct original arXiv full HTML viewed 2026-10-14",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Exact field theorem statement and degree conditions inspected; complete proof not rechecked end-to-end, not original ring-valued result.",
+      "observed": "All k-cube field Koszul middle exactness iff B(P) block decomposability. Starting point for T67 UCT."
+    },
+    {
+      "id": "SRC-0074",
+      "title": "Luo–Henselman-Petrusek: Interval Decomposition of Persistence Modules over a Principal Ideal Domain",
+      "url": "https://arxiv.org/abs/2310.07971",
+      "origin": "Original arXiv abstract inspected 2026-10-14",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full original proof not inspected; 1-parameter setting.",
+      "observed": "Prior PID splitting iff all structure-map cokernels free, earlier than T66's 1D boundary."
     }
   ]
 }
