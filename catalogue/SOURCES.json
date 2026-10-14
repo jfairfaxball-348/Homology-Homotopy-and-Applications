@@ -684,6 +684,24 @@
       "access": "METADATA_ONLY",
       "limitation": "Original article full proof not directly inspected S032; invoking standard polynomial BIT arithmetic as known result, not priority novelty.",
       "observed": "Polynomial bit-time integer Smith/rational-rank reduction removes infinite prime sampling at expanded-input scale."
+    },
+    {
+      "id": "SRC-0077",
+      "title": "Jesper M. Møller and Jérôme Scherer, Can One Classify Finite Postnikov Systems? (MPI Bonn preprint 2009)",
+      "url": "https://archive.mpim-bonn.mpg.de/2364/1/preprint_2009_33.pdf",
+      "origin": "Original author paper in MPI Bonn institutional archive",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Only original pp1–3, selected Theorem2.2 proof and Example2.4 actually inspected, visual page3; not entire 13-page article or global diagram classification.",
+      "observed": "Classical two-stage Postnikov k-invariant classification and exact F2 Sq2 example kill basic S033-A priority."
+    },
+    {
+      "id": "SRC-0078",
+      "title": "Höppner–Lenzing, Diagrams over ordered sets: a simple model of Abelian group theory, LNM874 (1981), 417–430",
+      "url": "https://pub.uni-bielefeld.de/download/2983025/2983026/H%C3%B6ppner-Lenzing_1981_Diagrams%20over%20Ordered%20Sets.pdf",
+      "origin": "Bielefeld indexed copy of original distinct conference-proceedings work",
+      "access": "METADATA_ONLY",
+      "limitation": "Indexed excerpt only in S033; **not** the original separate JPAA20 pp7–12 paper; cannot count as its full-proof inspection.",
+      "observed": "Distinguishes similarly titled 1981 proceedings from genuine JPAA priority blocker."
     }
   ]
 }

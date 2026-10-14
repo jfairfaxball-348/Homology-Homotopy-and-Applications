@@ -1569,6 +1569,73 @@
         "SRC-0065"
       ],
       "scope": "NOT ESTABLISHED; no original HHA-specific homotopy invariant, actual 1981 original proof absent, original Keagy already covers chain/zigzag cases, external peer proof not held, Stage2/Lean/Palomar/paper/arXiv/HHA CLOSED."
+    },
+    {
+      "id": "CLM-0167",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S033 T71 Moore M(Z/2,2)→K(Z,3) strict 2x2 squares for f0,f1: all integral homology-group and all π_i persistence diagrams identical, but not equivalent diagrams; derived total cofiber H3 is respectively Z⊕Z/2 and Z. General n,a gives Z⊕Z/gcd(a,n).",
+      "sources": [
+        "SRC-0060",
+        "SRC-0065"
+      ],
+      "scope": "S033/MATHEMATICS full cellular cochain/UCT/Hopf-free proof, 2D square maps; mapping-cylinder bifiltration infinite type; mod2 homology maps distinguish. Classical, not new HHA result."
+    },
+    {
+      "id": "CLM-0168",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S033 T72 label of M_n→K(Z,3) is Ext^1(H2(M_n),Z)=Z/n, natural under base precomposition and coefficient multiplication; cofiber H3 torsion invariant gcd(a,n).",
+      "sources": [
+        "SRC-0077"
+      ],
+      "scope": "Ordinary cohomology representability, UCT and Smith arithmetic; classical, no novelty claim."
+    },
+    {
+      "id": "CLM-0169",
+      "status": "COMPUTED_EXACT",
+      "claim": "S033 15 finite SymPy Smith-form (a,n) matrices n=2,3,4,6 match independent integer gcd and n2 expected torsion 2/1.",
+      "sources": [],
+      "scope": "Executed Python3 SymPy; sessions/S033/COMPUTATION.md; local script SHA256 cd12725b328e307495661fd8d806d48ed6cf3305535c5d76f3b039d1eb890ff3; stdout 371245a60bddbf7e39382e7820e0d721394bf4e950bb61b09eca8a935f42b8e6; only integer differential."
+    },
+    {
+      "id": "CLM-0170",
+      "status": "SOURCE_STATED",
+      "claim": "Møller–Scherer2009 Thm2.2 and Example2.4 already classify two-stage Postnikov fibrations via k classes and explicitly produce 0 versus Sq2 on K(Z/2,2); elementary S033 A cannot claim priority.",
+      "sources": [
+        "SRC-0077"
+      ],
+      "scope": "Original 2009 p3 theorem/proof/example visually directly inspected, not global coherent diagram classification."
+    },
+    {
+      "id": "CLM-0171",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S033 T71 or elementary Postnikov naturality supplies a new, HHA-significant coherent homotopy flagship.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0060",
+        "SRC-0077"
+      ],
+      "scope": "NOT ESTABLISHED, rather rejected as likely classical UCT/Postnikov and cubic cofiber; Gate2 not begun."
+    },
+    {
+      "id": "CLM-0172",
+      "status": "HEURISTIC",
+      "claim": "Edgewise Postnikov k compatibility for noninvertible multifiltrations may admit a nontrivial higher coherence obstruction beyond classical mappings, but no example or new theorem proved.",
+      "sources": [
+        "SRC-0077",
+        "SRC-0060",
+        "SRC-0065"
+      ],
+      "scope": "Future S034 challenge only. Explicitly NOT a source-stated open problem."
+    },
+    {
+      "id": "CLM-0173",
+      "status": "HEURISTIC",
+      "claim": "Fixed n2 k1 nonprincipal all-rectangle relative resolution for binary succinct monomial presentation may have a new complexity dichotomy; no polynomial BIT algorithm or valid hardness reduction provided.",
+      "sources": [
+        "SRC-0073",
+        "SRC-0070"
+      ],
+      "scope": "Precise category/grade-transport completion required; expanded-grid N2 is not succinct."
     }
   ]
 }

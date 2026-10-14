@@ -75,3 +75,6 @@ Front C: T66 remains internally supported not independently external-certified; 
 
 ## S032 — exact expanded-grid arithmetic and novelty-kill campaign
 T69 proof counts ∏m_j(m_j+1)/2≤N² cubes; tests integer unit Smith and rational rank for every differential; composite-purity all comparable maps; bit-growth bounded polynomial in explicit N,r,B (no promise for succinct). T70 two independent 2D negative premise controls. Independent 5x4x3 generated split 8-block sheared lattice extraction via SymPy Smith transformations PASS all900 comparable naturality, 6 zero stalks, 42 shears; reproducible file scripts/s032_independent_extract.py and stdout hash in sessions/S032/COMPUTATION.md. No arbitrary nonsplit model search, no certified HHA novelty, no fixed k≥1 BIT or R5 result, Hopf flagship retired. S033 FUTURE ONLY.
+
+## S033 — preregistered 15-case Moore cofiber arithmetic
+Bounded exact matrix Smith versus independent gcd for (n,a): n=2,3,4,6, 0<=a<n, 15 cases. Executed Python3/SymPy; script SHA256 cd12725b328e307495661fd8d806d48ed6cf3305535c5d76f3b039d1eb890ff3, stdout SHA256 371245a60bddbf7e39382e7820e0d721394bf4e950bb61b09eca8a935f42b8e6, command and results sessions/S033/COMPUTATION.md. Only checks cellular integer d4 vector gcd, NOT universal homotopy, all-prime field equivalence, new math or Lean. No strict R5 or bigger campaign. S034 FUTURE ONLY.

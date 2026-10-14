@@ -221,3 +221,12 @@ CLM-0139/0140 remain valid internal family statements. Their12 product strata us
 - **CLM-0164 COMPUTED_EXACT:** independent SymPy Smith U/V transform extraction on synthetic sheared 5x4x3 eight-constituent B(P) diagram, N60/all900 comparable, 6 zero stalks/42 sheared stalks, recovered all8 with retractions and naturality. Source/script/stdout Git blob verifiable; finite constructed split only.
 - **CLM-0165 PROGRAMME_PROVED:** T70 H0 torsion square and pulled-back scalar2 square demonstrate independent necessity of H0 purity and all-composite purity. Sources SRC-0073.
 - **CLM-0166 INHERITED_UNVERIFIED:** T66/T69 constitute an original important HHA homotopy flagship — **not established**: Keagy original 2026 proofs read and limited to chains/zigzags, 1981 JPAA genuine original proof missing, no new homotopy invariant; Gate2 NOT_STARTED. Sources SRC-0072,SRC-0075,SRC-0073,SRC-0065.
+
+## S033 exact claims
+|CLM-0167|PROGRAMME_PROVED|T71 exact strict Moore/K(Z,3) square: same all pointwise integral H/π group diagrams; derived H3 cofiber Z⊕Z/2 vs Z; general gcd(a,n). Not original or all-fields invisible.|
+|CLM-0168|PROGRAMME_PROVED|T72 UCT Ext1 label naturality under source and coefficient maps, standard mathematics.|
+|CLM-0169|COMPUTED_EXACT|15 n/a integer Smith/gcd checks actually run; NO topology certificate.|
+|CLM-0170|SOURCE_STATED|Møller–Scherer2009 already gives zero/Sq2 κ and two-stage classification.|
+|CLM-0171|INHERITED_UNVERIFIED|S033 flagship new HHA theorem — REJECTED, not established.|
+|CLM-0172|HEURISTIC|Higher coherent Postnikov obstruction beyond edgewise κ and classical source, S034 future.|
+|CLM-0173|HEURISTIC|Binary succinct fixed n2 k1 nonprincipal relative BIT/hardness remains OPEN.|

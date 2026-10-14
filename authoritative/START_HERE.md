@@ -25,3 +25,6 @@ T66 re-audited and new sheared integer full splitting extraction PASS on 4²/4³
 
 ## S032 checkpoint (14 October 2026)
 Proof of deterministic polynomial-bit **recognition on explicitly expanded integer product grids** T69: C_all≤N² integer cubes; field block all-prime Koszul tests via unit Smith + rational middle ranks; all-composite primitive-cokernel test. Combining with internally proved T66 conditionally yields integer B(P) splitting, not original/HHA-certified and not a succinct k≥1 result. Independent sheared 5x4x3 (N60, 900 comparable) exact Smith transformation/retraction extraction passes eight constructed blocks including 6 zero stalks. Keagy2026 original full arXiv HTML proof recovered (chains, zigzags), Höppner–Lenzing1981 JPAA pp7–12 full proof still blocked. No new homotopy flagship or gate promotion; S033 FUTURE UNEXECUTED.
+
+## S033 checkpoint (14 October 2026)
+Source-first true homotopy pivot: Moore Ext-square T71/T72 has full internal proof and fifteen exact SNF arithmetic checks, distinguishing derived cofiber H3 Z⊕Z/2 versus Z with identical integral H/π-group persistence, but not field-invisible, not novel HHA. Marked Postnikov Sq2 test directly preempted by original 2009 Møller–Scherer Example2.4. G2 still closed, original 1981 JPAA pages uninspected, S034 FUTURE UNEXECUTED.

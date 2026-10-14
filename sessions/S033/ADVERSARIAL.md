@@ -1,0 +1,12 @@
+# S033 independent adversarial review
+
+1. **Avoid two incompatible meanings of diagram**: D_a is a strict square of maps; rectification to maps that are inclusions is by derived mapping cylinders/hocolims, not an explicit finite Rips witness. Do not claim strict literal inclusion before rectifying.
+2. **Group-valued π claim**: the target K(Z,3) eliminates all π_i except 3; source π₃(M₂) is finite, so each π₃ map to Z is zero, but this argument would FAIL with target S³ (nonzero higher homotopy groups). A finite S³ target is NOT a substitute.
+3. **Group-valued H claim**: only *integral* H groups are identical as functors; mod-2 H₃(M₂;F₂)→H₃(K;F₂) distinguishes the nonzero f. The broader all-coefficient claim is deliberately disproved.
+4. **Cofiber arithmetic**: cellular d₄=(a,n) and free H₃=Z²/<(a,n)>; Smith torsion gcd(a,n), n=2 a0 versus a1. Cohomology class [f] determined modulo n because the 3-cell cochain coboundary is n. Homotopy mapping-cone higher cells cannot kill H₃.
+5. **Square equivalence**: image in ordinary homotopy category is already inequivalent (composite 00→11 nonzero versus zero), so this example does not require new coherent machinery and is substantially *weaker* than S028.
+6. **Postnikov**: necessity b_*κ_X=a^*κ_Y is classical; for one arrow the equality allows a homotopy-fiber map. For ALL diagram arrows a coherent collection of homotopies is an additional obligation. Pairwise equality alone has NOT been shown sufficient. Classical 2009 original Example 2.4 explicitly reproduces the κ0/Sq² comparison.
+7. **Originality**: 2015 cubical homotopy cofiber and 2023 LS Proposition3.14 undercut B; exact 2009 original two-stage Postnikov classification undercuts A. S033 does not open novelty gate on a failed literature search.
+8. **Succinct**: an O(N²) expanded-cube bound is not polynomial in binary exponents and no hardness theorem arises from naive expansion. None found.
+9. **1981 priority**: legitimate ScienceDirect original 1981 article landing/abstract retrieved; full genuine six-page original proof **uninspected**. Different 1981 lecture-note proceedings cannot substitute. Keep access flag ABSTRACT_INSPECTED.
+10. **Evidence**: local SymPy Smith checks cover exactly 15 (n,a) finite arithmetic cases; full topology is proven symbolically. No Lean, no external review, no strict R⁵ decision.

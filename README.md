@@ -33,3 +33,6 @@ Governance is adapted from the [Davenport Counterexample Hunt](https://github.co
 
 ## S028 current checkpoint
 A fully explicit 334-point Euclidean pair now has independently checked signed integral total-cofiber cup-square coefficients0 and2, complete simplicial/Gram certificates and lower homotopy-interleaving gap1/534400. Its classical coherent-square mechanism is retired as the current HHA flagship following direct Lanari–Scoccola Proposition3.14 proof inspection. No original HHA target is selected. Strict frozen R5 and structural algebraic fronts remain open; S029 is future and unexecuted.
+
+## S033 current checkpoint
+S033 internally proved a classical Moore-space Ext¹/total-cofiber two-parameter diagnostic: identical pointwise integral H/π group diagrams, but H3 total cofiber Z⊕Z/2 vs Z (finite 15-case Smith arithmetic confirmed). Mod2 persistence distinguishes, and conventional Postnikov and cubical literature defeats originality as HHA flagship. S028 Hopf remains retired, T66 integral splitting only internal, strict R5 and succinct k1 unresolved. No selected HHA-novel theorem. S034 is FUTURE UNEXECUTED; no Lean/Palomar/paper/preprint/submission.
