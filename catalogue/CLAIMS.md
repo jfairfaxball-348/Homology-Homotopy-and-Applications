@@ -361,3 +361,10 @@ See S038 full dossier and JSON scope.
 - **CLM-0247 PROGRAMME_PROVED (classical local HEP):** one cofibration-relative null composite can be killed after homotopy; cannot iterate without retaining overlap cofibration and coherent tracks.
 - **CLM-0248 COMPUTED_EXACT:** four rational floor-sample diagnostics/constraint counts 5,7,11,2 passed; not a topological GRID search or formal proof.
 - **CLM-0249 INHERITED_UNVERIFIED:** unrestricted GRID yes/no, all eps in (5/4,3/2), exact dHI, independent bracket transport, novelty and HHA suitability still OPEN. S046 source-dependent bound only.
+
+## S049 claims (2026-10-14)
+- **CLM-0250 PROGRAMME_PROVED:** T116 exact finite-grid resampling: witness GRID(r,s) implies every weakly larger rational GRID(r',s'), one precomposed whole-diagram WE zigzag and propagated vertices; hypothetical endpoint implies 4/3 with seven equations.
+- **CLM-0251 PROGRAMME_PROVED conditional:** T117 epsilon_m=5/4+1/(8m), grids (10m+1,4m), unbounded positive instances iff dHI=5/4 as infimum under original T108/T112 and lower bound; no instance existence certified.
+- **CLM-0252 PROGRAMME_PROVED:** T118 uniform five stage-pair types throughout open (5/4,3/2); no stage-combinatorial 4/3 phase, no full homotopy phase claim.
+- **CLM-0253 COMPUTED_EXACT:** finite seven-row, m1..8 and four-delta mesh assertions only; SHA256s and limits in S049/COMPUTATION.
+- **CLM-0254 INHERITED_UNVERIFIED:** all unrestricted GRID existence, exact dHI, tertiary matching class, proof-level current novelty/Gate2 remain OPEN.
