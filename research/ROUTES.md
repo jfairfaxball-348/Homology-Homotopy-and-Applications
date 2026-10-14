@@ -175,3 +175,9 @@ Nonzero H³ shear of split marked 3-types blocks squares of *prescribed maps* de
 
 ## S035 — sourced 1-parameter persistent space separation
 T75 (arrow derived mapping nonzero via nonvanishing Toda) + T76 (d_HC=1, d_IHC>=3/2, d_HI<=2) internally prove a promising one-sided resolution of LS2023 Remark3.13 for simply connected sphere stages. The proof is not independent-refereed and novelty is fragile because the original 2020 LS preprint already anticipated adapting their Toda method. 2026 dg-module equality does not transfer to Top^R. Recommend S036 intense independent refutation/prior-art audit before HHA flagship selection; other d_HI vs d_IHC question still unresolved. Mandatory LLO binary succinct k>=1 reserve still open; T66 original 1981 missing, frozen strict R5 and retired S028 Hopf unchanged.
+
+# S036 route decision
+* **T77 / T78** — Referee S035 arrow model succeeds internally; new endpoint-cofibration strictification closes d_IHC=d_HI=3/2 for the specific Toda four-stage example. Method is likely derivative of classical 2020 LS construction and 2002 track literature; NOT selected original HHA flagship, no Gate2 promotion.
+* **Different d_HI vs d_IHC** — Attempt with the same four-stage example FAILED AS COUNTEREXAMPLE: here equality is proved. Generic strict inequality still OPEN, needs a different coherent higher diagram or positive equality theorem under delimited hypotheses.
+* **LLO k>=1 succinct n2 rectangle resolution** — Exact original source Problem1 checked; no P/hardness result for binary homogeneous monomial input. Explicit N expanded grids do not qualify.
+* **T66 / integral grid and geometry** — all-composite Q+all-Fp Z coherent claim preserved, 1981 proof still absent, S023 R5 16,471 pair case open, S028 Hopf retired as flagship.

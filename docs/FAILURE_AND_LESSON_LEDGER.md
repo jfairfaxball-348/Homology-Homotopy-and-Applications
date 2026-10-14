@@ -226,3 +226,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 3. LS2020 preprint v1 already speculated the d_IHC>d_HC adaptation; published 2023 calls both strictness questions open. Internal proof is not automatic priority novelty.
 4. Initial finite stage script accidentally checked F instead of G in the intermediate object and failed; corrected source checked 5 rational scales. Test is only floor-stage sanity, not homotopy certification.
 5. Expanded integer-grid SNF says nothing about genuinely binary succinct LLO nonprincipal k>=1, retained open.
+
+## S036 — hostile tests and lessons
+1. Previous T76 numerical ≤2 upper bound was not sharp. Full composite cofibration from two mapping cylinders and HEP yields strict null triple composite and exact d_IHC=d_HI=3/2; don't confuse it with an HI/IHC *separation*.
+2. S035 derived arrow θ survived a second projectively cofibrant mapping-cylinder model and explicit Toda indeterminacy; degree-two actions on pi5(S3) vanish. External independent referee remains outstanding.
+3. Pointwise null maps alone never imply zero derived arrow: nullhomotopy coherence and π1 Map(S4,S3) matter; the source's 2-connected target is necessary for the easy unpointed reduction.
+4. Any replacement of last arrow by a homotopic map must be connected by an actual **objectwise weak equivalence zigzag of full diagrams** (path-object terminal stage), not by a declaration of equal homotopy classes.
+5. Original 2020 LS v1 already stated the proposed IHC adaptation, so even an internally proven exact endpoint is not automatically publishably original. No novelty gate.
+6. 2026 dg-module/CDGA equalities are in different categories; LLO input length must be binary BIT not expanded N; no unrelated computing campaign.

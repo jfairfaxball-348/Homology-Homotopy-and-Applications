@@ -1763,6 +1763,68 @@
         "SRC-0087"
       ],
       "scope": "Explicitly NOT established; scoped source search only; Gate2 and remaining comparison open."
+    },
+    {
+      "id": "CLM-0187",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S036 T77: nonzero derived-arrow theta=(eta3∘2, 2∘eta3) under unpointing; classical nonvanishing Toda coset detected with mapping-cylinder cofibrant model, indeterminacy and point-arrow factor.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0086"
+      ],
+      "scope": "Internal detailed independent model-category proof conditional on source-stated classical Toda input; no Lean/external referee."
+    },
+    {
+      "id": "CLM-0188",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S036 T78: for exact four-stage classical sphere Toda F and point G, d_HC=1 and d_IHC=d_HI=3/2; upper endpoint attained by weak-equivalent strict three-map composite via successive mapping cylinders and HEP.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0081"
+      ],
+      "scope": "Internal exact proof for this 1-real-parameter unpointed finite-CW-stage example, does not prove generic d_HI != d_IHC, priority unclear."
+    },
+    {
+      "id": "CLM-0189",
+      "status": "PROGRAMME_PROVED",
+      "claim": "For a based finite CW length-three chain with null total threefold composite, the four-stage real persistence extension is 3/2-homotopy interleaved with the point-filtration by strictification after weak-equivalence replacement.",
+      "sources": [
+        "SRC-0083"
+      ],
+      "scope": "Internal elementary cofibration/HEP consequence, no novel HHA claim and no general lower bound."
+    },
+    {
+      "id": "CLM-0190",
+      "status": "SOURCE_STATED",
+      "claim": "Original Lanari–Scoccola 2020 v1 Remark3.13 expressly predicted a homotopy-category interleaving adaptation showing d_IHC != d_HC; their 2023 final left both intermediate comparisons open.",
+      "sources": [
+        "SRC-0088",
+        "SRC-0081",
+        "SRC-0083"
+      ],
+      "scope": "Original author-uploaded 2020 transcript statement inspected, 2022v3 original PDF pages 14/15 visually inspected; publisher full PDF direct inaccessible."
+    },
+    {
+      "id": "CLM-0191",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S036 establishes a wholly novel HHA-priority-clear original theorem or resolves d_HI != d_IHC for arbitrary persistent spaces.",
+      "sources": [
+        "SRC-0081",
+        "SRC-0083",
+        "SRC-0086",
+        "SRC-0088"
+      ],
+      "scope": "Explicitly NOT established; original-authors' anticipated method and generic strictness remain a barrier, first Gate2 not started."
+    },
+    {
+      "id": "CLM-0192",
+      "status": "SOURCE_STATED",
+      "claim": "LLO original arxiv2402.16624v4 Problem1 asks efficient relative X-resolution decision for fixed k, focus k0; binary succinct n2 k1 all-nonprincipal rectangle bit-complexity target is not settled by S032 expanded-grid polynomial N checks.",
+      "sources": [
+        "SRC-0066",
+        "SRC-0069"
+      ],
+      "scope": "Original arxiv full HTML Problem1 directly read; no P/hardness or large-grid expansion claim."
     }
   ]
 }

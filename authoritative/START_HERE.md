@@ -35,3 +35,6 @@ Split Postnikov shear components H³=F₂ and loop H²=F₂; specified edge κ/�
 
 ## S035 checkpoint (14 October 2026)
 S035 T75/T76 INTERNAL proof candidate: derived-arrow nonnull Toda square gives d_HC=1, d_IHC>=3/2 for simply connected S4/S3 finite-CW stages, citing original LS nonzero bracket. Strong potential answer to published Remark3.13, **not priority/external-proof cleared**; authors' own v1 anticipated adaptation. Current 2026 dg module equality is not Top^R. G2 remains NOT_STARTED; d_HI vs d_IHC, LLO succinct, T66/1981 and strict R5 open. S036 FUTURE ONLY.
+
+## S036 checkpoint (14 October 2026)
+T77 independent mapping-cylinder derived arrow confirms internal S035 Toda obstruction; T78 closes numeric bounds exactly **d_HC=1, d_IHC=d_HI=3/2**, endpoint strict homotopy replacement via composite cofibration/HEP. The original 2020 LS v1 already anticipated intermediate separation, so originality NOT established; generic HI vs IHC question open and S037 FUTURE only. Stage1 remains and all downstream novelty, formalisation and publication gates closed. Retain T66/1981, succinct k1 Problem1, S023 R5, S028 retired Hopf benchmark.

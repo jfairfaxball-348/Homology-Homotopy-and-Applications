@@ -783,6 +783,15 @@
       "access": "SECONDARY_ONLY",
       "limitation": "Indexed mirror excerpt, not independent visual reading of full v1 PDF.",
       "observed": "v1 Remark3.13 says authors believed adaptation of Prop3.10 to homotopy category would give d_IHC!=d_HC. This is strong prior-idea credit."
+    },
+    {
+      "id": "SRC-0088",
+      "title": "Lanari–Scoccola original arXiv2010.05378v1 as author-uploaded full-text manuscript (2020)",
+      "url": "https://www.researchgate.net/publication/344621970_Rectification_of_interleavings_and_a_persistent_Whitehead_theorem",
+      "origin": "Original author-uploaded manuscript transcript, by Luis Scoccola, November 2020",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Direct original arxivv1 PDF not visually opened, source is author-uploaded manuscript with original arxivv1 header; excerpt not full proof refereeing.",
+      "observed": "Original Remark3.13 expressly predicts adapting Proposition3.10 in homotopy category to yield d_IHC != d_HC; precedes S035/S036 approach."
     }
   ]
 }
