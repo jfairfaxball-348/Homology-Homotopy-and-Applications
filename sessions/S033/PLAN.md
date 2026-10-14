@@ -1,0 +1,5 @@
+# S033 owner invocation and precommitted strategy
+
+Owner invocation received 2026-10-14: “run this session [live authoritative/NEXT_SESSION_PROMPT.md URL]”. Exact URL in chat, no altered transcript/hash claimed. Live main pinned to bbee6119b17d3f9561b384c58ce59ed71c36dc83 with tree ff769b9dc20ce0550652f467dbdbd5889db514cb, S032 correctly integrated PR33, S033 unused, no open PR. One isolated branch session/S033-postnikov-ext-pivot, exactly one authored atomic research commit, ordinary GitHub merge if checks permit. Stage1 no Lean/Palomar/manuscript/external action.
+
+Priority: A coherent Postnikov-natural k-invariant with explicit model; B a homotopy derived cofiber escaping the S028 already-retired Hopf mechanism; C sourced open homotopy question. At least two falsifiable options challenged with primary-source novelty kill before claims. Run independent finite integer SNF check only for exact Moore-space cofiber boundary; no exhaustive topology computation. Fall back to accurately scoped succinct relative resolution problem and preserve R5. Stop after S034 future draft.

@@ -120,3 +120,9 @@ T67 exact finite integral Koszul/UCT field-block certificate and stronger actual
 
 ## S032 scored novelty hard stop — no paper target
 Explicit-grid polynomial-bit recognition T69 is a useful, rigorously bounded *algorithmic corollary* of LLO block characterization, UCT, Smith and standard polynomial-bit SNF, **not** an original HHA result; do not score it as standalone homotopy significance. Independent 5x4x3 constructed sheared extraction is certification of synthetic examples, not a universal new theorem. Authentic 2026 Keagy full source retrieved (chain/zigzag scope), original 1981 JPAA still unavailable, and no genuinely homotopy-theoretic theorem. **NO VIABLE ORIGINAL HHA FLAGSHIP SELECTED, G2 CLOSED.** S033 must pivot to intrinsic homotopy with proof and primary novelty, or true succinct k≥1 complexity, rather than translate homology again.
+
+## S033 source-led candidate decision
+- A ordinary Postnikov κ naturality and F2 zero/Sq2, HHA fit high but novelty 0/5 because original Møller–Scherer2009 Example2.4; not selected.
+- B exact Moore-space Ext¹ bifiltration derived cofiber, homotopy/derived ingredient genuine but significance for HHA low, originality 0/5 due to UCT and Munson–Volić cofibers, and weaker than S028 field/ring benchmark; not selected.
+- No fixed source-stated fresh topology open problem C located; no invented claim.
+- S034 source-first challenger: **higher coherent Postnikov obstructions for noninvertible bifiltration diagrams**, source novelty UNKNOWN and mathematical outcome OPEN. G2 NOT_STARTED; no journal paper candidate.

@@ -1,0 +1,9 @@
+# S033 independent finite computation certificate
+
+Prerequisite proof scope: M_n=S²∪_n e³ and f_a:M_n→K(Z,3) via 3-cell pinch. Cellular cofiber C₄=Z→C₃=Z² differential (a,n)^T, so H₃=Z²/<(a,n)>. All-prime/topology/naturality conclusions **are mathematical proofs**, not inferred from these tests.
+
+**Prerecorded bounded check:** n in {2,3,4,6}, all a=0..n−1 (2+3+4+6=15 cases); compare actual SymPy Smith normal form of 2×1 integer matrix with independent Python integer gcd(a,n); additionally assert n2 a0 torsion2 and a1 torsion1. No random search; completeness only for the 15 displayed pairs; entire symbolic parametric theorem not computationally exhaustively proved.
+
+**Actually executed**: Python3 with SymPy installed in the session container. Command `python /mnt/data/s033_ext_square_check.py`. Script SHA256 `cd12725b328e307495661fd8d806d48ed6cf3305535c5d76f3b039d1eb890ff3`, JSON stdout SHA256 `371245a60bddbf7e39382e7820e0d721394bf4e950bb61b09eca8a935f42b8e6`. For the identical repository script rerun `python scripts/s033_ext_square_check.py` (hash against archived bytes). Output: `{"all_smith_gcd_checks": "PASS", "n2_classes": [{"F2_h3_edge_nonzero": false, "class": 0, "h3_cone_rank": 1, "h3_cone_torsion": 2, "n": 2}, {"F2_h3_edge_nonzero": true, "class": 1, "h3_cone_rank": 1, "h3_cone_torsion": 1, "n": 2}], "scope": "integer cone differential only; topology is separately proved", "tests": 15}`. The stdout is a one-line JSON followed by newline.
+
+**Caution**: finite integer SNF checks do not independently certify the homotopy type, existence of K(Z,3), completeness of all π groups, novelty or Lean. Hosted integrity workflow tests metadata/statics only, not this mathematical script unless separately run.

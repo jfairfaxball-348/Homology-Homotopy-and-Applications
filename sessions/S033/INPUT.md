@@ -1,0 +1,6 @@
+# S033 invocation and entry evidence
+
+- Owner fresh invocation: run the authoritative next-session prompt at https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/authoritative/NEXT_SESSION_PROMPT.md on 14 October 2026.
+- Exact incoming main: `bbee6119b17d3f9561b384c58ce59ed71c36dc83`, Git tree `ff769b9dc20ce0550652f467dbdbd5889db514cb`. S032 authored `70f4a17e0077ce92124bc5448ff2fbdbb0616314`, parent `fdc1a81c4c0eda875f2f05d14d47cd42019f9603`, PR #33, merge `bbee6119b17d3f9561b384c58ce59ed71c36dc83` with two parents `fdc1a81c4c0eda875f2f05d14d47cd42019f9603` and authored S032 commit. S032 PR workflow 38544348795, main workflow 38544434645 SUCCESS **static governance only**.
+- Open PR list empty. No competing named S033 branch found at read time. REST /rulesets returned [] (accessible list only); main protection GET 403 **UNKNOWN**, not unprotected assertion. Main combined classic statuses zero/pending, not a CI failure. One main check-run governance SUCCESS. At S033 entry S033 branch absent.
+- Protocol files AGENTS, START_HERE, STATE, docs/SESSION_PROTOCOL, target-selection, claims/sources and previous mathematics/PR read. Final authored commit, PR/head, check-runs and merge values must be independently verified *after* publication to branch, not predicted here.
