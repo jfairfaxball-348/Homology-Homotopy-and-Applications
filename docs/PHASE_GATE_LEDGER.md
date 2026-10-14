@@ -96,3 +96,6 @@ Stage1 **IN_PROGRESS**; independent internal T77 derived-arrow proof and T78 sha
 
 ## S037 gate — 2026-10-14
 Stage1 IN_PROGRESS: discrete N² critical-grid T79/T80/T81 internal binary-bit all rectangle relative k1 decision theorem; arbitrary-cut R² transfer, original primary-proof prior-art priority, external correctness and genuinely indispensable HHA homotopy application not cleared. LS Toda S036 exact triple internally supported, but authors' 2020v1 anticipated IHC adaptation and no HI/IHC distinctness. **G2 NOT_STARTED**, Lean G3/final novelty G4 NOT_STARTED, Palomar/G7/G8 owner-gated; paper/manuscript not begun. T66 all-prime, original 1981, R5 and Hopf caveats unchanged. S038 strictly future.
+
+## S038 gate — 2026-10-14
+Stage1 IN_PROGRESS: S018 already proved real all-rectangle transfer at T43 for any n,k; S038 T83 hostilely reconfirms endpoints, T84 applies S037 binary bit algorithm at fixed n2,k1 to all real rectangles. Strong earlier 2020/2024/2025 antecedents; no independent proof-level novelty or indispensable new HHA homotopy application. New genuine dHI>dIHC 1D finite CW OPEN. **First novelty G2 NOT_STARTED; Lean G3 and final G4 NOT_STARTED; Palomar, manuscript, arXiv/HHA owner-gated and untouched.** Original1981 T66, S023 R5 and retired S028 Hopf retained. S039 FUTURE ONLY.

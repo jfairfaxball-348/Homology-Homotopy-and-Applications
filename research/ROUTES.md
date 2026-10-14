@@ -186,3 +186,8 @@ T75 (arrow derived mapping nonzero via nonvanishing Toda) + T76 (d_HC=1, d_IHC>=
 A LS2023 HI vs IHC: T77/T78 sphere Toda triple internally credible but equality at endpoint, no new gap. n-stage null total composition single-window path T82 strictifies, so DO NOT recycle same trick for separation; need two equations plus multiple coupled windows / genuine new higher obstruction.
 B LLO2024 Problem1: proved on DISCRETE N² fixed k1 all rectangle relative exact structure, including nonprincipal, via sparse critical-grid Kan T79, canonical rectangle projective evaluation+weak exactness T80, and binary-degree homogeneous monomial presentation T81. Costs polynomial in presentation B, not max exponent. **Real-index all arbitrary cuts and global literature priority unresolved**. 2020 Botnan and 2025 FoCM direct sources now pinned. No full broad claim or Gate2.
 C T66 all composites/Q and every prime coherent integral descent, 1981 JPAA missing; strict R5 16,471 OPEN, S028 Hopf benchmark verified but flagship retired.
+
+## S038 routes
+A ALL-REAL BIT k1: T83 real open/closed/below-min Kan bridge already S018-T43; T84 with S037 finite weak-exactness gives fixed n2 k1 F2 homogeneous binary-bit polynomial all-real rectangles. No implementation, no novelty gate. Stop relabelling previously settled S018 proof as fresh.
+B HI>IHC 1D simply-connected finite CW: no overlapping-window coupled homotopy survivor satisfying both equations/robust replacements. S037 T82 one-window collapse and S036 Toda equality preserved. Genuinely new HHA flagship ABSENT.
+C T66 original1981 coherent integral Q/allFp prime still unrefereed; S023 16,471 R5 open, S028 Hopf retired benchmark.

@@ -593,7 +593,7 @@
       "access": "STATEMENT_INSPECTED",
       "origin": "Original arXiv full HTML §1.1 Problem1, §1.2 Definition3/Theorem4 and §1.3 algorithm discussion read S029 2026-10-13; publisher metadata DOI10.4310/HHA.2026.v28.n1.a9",
       "limitation": "S029 selected statement and surrounding context only, not entire original full proof; S009-S011 previously inspected original local Koszul theorem. Source is field-valued, not an integral lift statement.",
-      "observed": "Inductive birth/death/induced supports exactly as frozen; all-field block characterization separate from an integral simultaneous splitting."
+      "observed": "Inductive birth/death/induced supports exactly as frozen; all-field block characterization separate from an integral simultaneous splitting. S038 original arxivv4 §1.1 Problem1 and §1.3 existing Koszul prospects reviewed."
     },
     {
       "id": "SRC-0067",
@@ -800,7 +800,7 @@
       "origin": "Original publisher PDF textual Definition11/Theorem12 inspected 2026-10-14",
       "access": "STATEMENT_INSPECTED",
       "limitation": "Selected algebraic weak exactness and rectangular decomposition theorem, not the full 16-page proof.",
-      "observed": "For finite 2-grids rectangle-decomposability equivalent to all-squares kernel-sum/image-intersection weak exactness; polynomial matrix testing."
+      "observed": "For finite 2-grids rectangle-decomposability equivalent to all-squares kernel-sum/image-intersection weak exactness; polynomial matrix testing. S038 original PDF page9 VISUALLY inspected Definition11, Theorem12; finite-grid only."
     },
     {
       "id": "SRC-0090",
@@ -809,7 +809,7 @@
       "origin": "Original full publisher HTML selected §§13–14 and discussion of End(sum projectives) inspected 2026-10-14",
       "access": "STATEMENT_INSPECTED",
       "limitation": "Not full published proof audit, does not independently establish no prior binary-succinct rectangle algorithm.",
-      "observed": "Finite-grid rectangle relative projective resolution machinery exists; prior general endomorphism algebra method and grid parameterisation significantly limit new priority claims."
+      "observed": "Finite-grid rectangle relative projective resolution machinery exists; prior general endomorphism algebra method and grid parameterisation significantly limit new priority claims. S038 original publisher HTML §1,§14 rectangle example reviewed; strong classical antecedent."
     }
   ]
 }

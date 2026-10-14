@@ -272,3 +272,13 @@ CLM-0139/0140 remain valid internal family statements. Their12 product strata us
 |CLM-0200|SOURCE_STATED|LS v1 anticipation, v3/journal prior and 2026 dg-category warning.|
 |CLM-0201|INHERITED_UNVERIFIED|Real-1D HI>IHC gap NOT established.|
 Full claims and sources in JSON and S037 dossiers.
+
+## S038 claims
+|ID|Status|Scope|
+|---|---|---|
+|CLM-0202|PROGRAMME_PROVED|T83 REAL all-cut pd transport hostile recheck; **already S018-T43** (not first proof).|
+|CLM-0203|PROGRAMME_PROVED|T84 fixed n2,k1 F2 homogeneous binary-degree all-real rectangles polynomial BIT; composition of S018 and S037, unrefereed.|
+|CLM-0204|COMPUTED_EXACT|396 brute F2 adjunction checks, 4356 2D product supports, finite-only; initial enumerator bug fixed.|
+|CLM-0205|INHERITED_UNVERIFIED|New HI>IHC simply-connected CW gap is NOT PROVED.|
+|CLM-0206|INHERITED_UNVERIFIED|Original HHA priority/fit is NOT established; Stage2 CLOSED.|
+See S038 full dossier and JSON scope.
