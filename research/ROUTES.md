@@ -212,3 +212,8 @@ Chain S160,S160,S130,S100,S100 arrows (2,theta4,theta4,2) yields INTERNAL source
 
 ## S043 route result — coherent theta2 solved internally, strict HI gap not proved
 Same exact five spheres and maps (2,theta4,theta4,2). Two restriction fibration homotopy-pullbacks + pi61=0 yield a single strict natural homotopy theta2→0 in derived [2] with both squares. Derived integer→real Kan extension and both equations establish dIHC=1 INTERNALLY. S042 T98 asserted dHI1.5 incorrectly without treating arbitrarily contractible G' on the other side of HI. S044 must prove the fourfold all-replacements version of LS2023 Prop3.10 OR give a strict HI1 contractible-G' witness, and prove bracket zero-exclusion with IWX2023 h5 n indeterminacy. Current dHI∈{1,1.5}, not a verified gap; no HHA flagship or Gate2. All frozen T66/1981, R5 and Hopf/T84 preserved.
+
+## S044 route decision
+- Route B internally closes table-based 0-exclusion of full Toda bracket through Adams filtration; original calculation SOURCE_STATED and classical conventions to referee.
+- Route A records all-contractible-G' four strict relations but fails to supply one tertiary coherent relative filler or countermodel, so dHI1 vs1.5 undecided.
+- Next S045 future seeks full fourfold LS Prop3.10 extension or genuine nonpoint G' HI1, with both identities. Frozen T66/1981, R5 16471, retired Hopf and T84.

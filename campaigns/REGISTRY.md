@@ -103,3 +103,6 @@ All 66 P0..10 intervals crossed with all six critical A0,3,7 rectangles, 396 bru
 
 
 - S043 2026-10-14: No computational enumeration or new program/certificate. T100/T101 constructive homotopy-lifting proofs rely on sourced pi61^S=0; not an Adams/Lean machine computation. Main negative finding is logical S042-T98 all-replacements lacuna, not counterexample to the alleged strict bound. R5 all16471 strict cases untouched OPEN.
+
+## S044 active candidate
+S044 T102 source-dependent bracket zero-exclusion from published IWX2023 Table4 h5 f1 and n f5 / Table10 h5² f2 and h5 n indeterminacy f>=6; Adams and full classical transport not independently rederived. T103 four strict all-replacements integer-ladder equations (two naturality and both shifted identities). NO proof contractible nonpoint U forces zero Toda bracket and NO strict HI1 witness. Hence dIHC=1 INTERNAL, dHI∈{1,3/2} OPEN, no HHA gap or novelty gate. Stage1 continues, S045 FUTURE UNEXECUTED, Lean/Palomar/manuscript/submission untouched. Frozen T66/1981, R5 16471, Hopf and T84.

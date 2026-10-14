@@ -116,3 +116,6 @@ Stage1 IN_PROGRESS. Internal exact HI=3/2 source-dependent on Wang–Xu original
 
 
 - **S043:** Stage1 IN_PROGRESS; exact coherent theta2=0/dIHC1 INTERNAL with source stable pi61. First novelty gate Stage2 NOT_STARTED due to unresolved dHI and strong 2017/2019 classical priority. Stages 3–8 unchanged/closed; no owner-approved external action.
+
+## S044 gate (2026-10-14)
+S044 T102 source-dependent bracket zero-exclusion from published IWX2023 Table4 h5 f1 and n f5 / Table10 h5² f2 and h5 n indeterminacy f>=6; Adams and full classical transport not independently rederived. T103 four strict all-replacements integer-ladder equations (two naturality and both shifted identities). NO proof contractible nonpoint U forces zero Toda bracket and NO strict HI1 witness. Hence dIHC=1 INTERNAL, dHI∈{1,3/2} OPEN, no HHA gap or novelty gate. Stage1 continues, S045 FUTURE UNEXECUTED, Lean/Palomar/manuscript/submission untouched. Frozen T66/1981, R5 16471, Hopf and T84. Gate2 NOT_STARTED, Stage3 Lean NOT_STARTED, Stage4 final review NOT_STARTED; later external gates remain OWNER_GATED. Static CI != mathematical certification.

@@ -282,3 +282,8 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 
 
 - **S043 corrective audit:** S042-T98 assumed strict HI epsilon1 forced literal zero adjacent composites in a WE-replacement of F but omitted arbitrary contractible WE-replacements G' of the point filtration; this is a missing theorem, not a verified dHI lower. Original Wang–Xu 'contains theta5' is NOT automatically zero-exclusion; IWX2023 Table10 lists h5 n indeterminacy. Avoid conflating derived theta2=0 with the pointed 4fold strict rectification problem. False Eq(P,Q) homotopy equalizer criterion rejected; use iterated pullbacks along two actual restriction fibrations.
+
+## S044 lesson
+- T102 passed filtered-group logic based on original table; neither independent Adams proof nor all-replacements HI lower.
+- Failed: replacing weakly contractible nonpoint U_i by point changes strict relations; contracting each U_i individually does not exhibit the common tertiary filler; cone factorisation of eta² in Ho loses opposite STRICT interleaving identity.
+- The exact missing lemma: the FULL (N-a,N-b,I-F,I-G) strict ladder forces zero fourfold Toda with all unpointed WE zigzags, or explicit G' witness refutes it. No theorem promotion.

@@ -265,3 +265,9 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - DEC-S043-B: Accept INTERNAL T101 exact dIHC=1 for full real comparison via Lan_{N0→R} derived adjunction, propagated point section and BOTH identities.
 - DEC-S043-C: Downgrade prior CLM-0222 S042 exact dHI=3/2 from PROGRAMME_PROVED to INHERITED_UNVERIFIED: arbitrary G'≃point in HI was not eliminated; published bracket contains theta5 with 2023 h5 n indeterminacy, zero-exclusion not independently certified. No strict gap yet. Preserve independently supported HEP upper 1.5.
 - DEC-S043-D: Strong classical BJT2019 and DKS/HKM/Baues priority; no HHA-specific original result or Stage2, no Lean/Palomar/paper/submissions/contact. Freeze T66/1981, R5 16471, Hopf retired, T84 derivative. S044 future only.
+
+## S044 decisions
+- DEC-S044-A: accept S044 T102 published-filtration-dependent zero-exclusion, not a new Adams calculation.
+- DEC-S044-B: strict HI1 requires ALL of N-a,N-b,I-F,I-G and arbitrary objectwise weakly contractible replacements. Reject unilateral G'→point.
+- DEC-S044-C: no full tertiary cone extension or strict G' witness; dHI=1 or1.5 OPEN, no gap, Stage1/G2 closed.
+- DEC-S044-D: S045 FUTURE only, no formal/publication; original DKS/HKM/1981 access limits and frozen branches retained.

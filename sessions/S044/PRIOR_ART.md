@@ -1,0 +1,9 @@
+# S044 PRIOR ART — original-source distinctions
+
+**SRC-0094 Wang–Xu2017**, Annals of Math 186 (2017), Cor1.10 in arXiv1601.02184v4 original paper; short corollary proof previously inspected, not full Adams machinery. Theta5 in fourfold <2,theta4,theta4,2> and pi61=0 are PUBLISHED inputs.
+**SRC-0096 Isaksen–Wang–Xu2023**, Publ.Math. IHÉS137, DOI 10.1007/s10240-023-00139-1, original open PDF. Published printed p214 Table4 h5 f1,n f5; p228 Table10 row (62,32) h5² with indeterminacy h5n; p212 Table1 theta5 represented h5². These are statement/table inspections, NOT a full stable-stem Adams proof. Source-dependent filtration argument new to this session, not new stable homotopy data.
+**SRC-0083 Lanari–Scoccola2023**, AGT Prop3.10/Prop3.12/Lemma3.11/Remark3.13 and original arXiv2010.05378v3 §3.2 local proof previously inspected. All-replacements contractible-target threefold Toda reasoning exists; no directly cited fourfold generalization.
+**SRC-0095 Blanc–Johnson–Turner2019**, original arXiv1809.07495v1 §7.A/Remark7.5 selected proof read S043: higher fourfold zero-composite rectification obstruction; NOT automatically arbitrary-G' strict interleaving. Serious priority constraint.
+**SRC-0091 Dwyer–Kan–Smith1989** original printed transcript selected §§2,4,5 and opening proof only; full §§2–5 uninspected, direct journal endpoint 403. **SRC-0086 Hardie–Kamps–Marcum2002** original publisher ABSTRACT ONLY, no 2-track full proof. **SRC-0092 Baues–Blanc2011** original abstract only.
+**SRC-0084** subsequent 2026 DG modules equality not ordinary persistent Top. Recent Top-specific priority NOT comprehensively cleared. Original Höppner–Lenzing1981 JPAA full proof still uninspected for frozen T66.
+No claim that the 2017/2023/2019 results are ours; no original HHA theorem, no external peer review.
