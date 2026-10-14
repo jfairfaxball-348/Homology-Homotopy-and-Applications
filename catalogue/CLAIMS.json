@@ -1913,6 +1913,56 @@
         "SRC-0086"
       ],
       "scope": "NOT ESTABLISHED; T82 only kills single-window trivial approach, no both-identities survivor."
+    },
+    {
+      "id": "CLM-0202",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S038-T83 hostilely rechecks arbitrary real R2 open/closed/nonaligned/below-min all-rectangle relative pd equality for critical-grid extension, including both Kan adjunction directions.",
+      "sources": [
+        "SRC-0066",
+        "SRC-0089"
+      ],
+      "scope": "ALREADY proved in project S018-T43 for all n,k. Internal reproving not original. No external referee."
+    },
+    {
+      "id": "CLM-0203",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S038-T84 fixed n=2,k=1 homogeneous binary-mononomial F2[x,y] finite presentation has polynomial BIT decision for relative pd<=1 with ALL real rectangles, via S018-T43 plus S037-T80/81 finite weak exactness.",
+      "sources": [
+        "SRC-0066",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "scope": "Only fixed F2 and n2 k1 binary presentation, all real rectangle cuts; not general interval families, arbitrary format or variable k,n. Algorithm existence proof, not implemented or priority certified."
+    },
+    {
+      "id": "CLM-0204",
+      "status": "COMPUTED_EXACT",
+      "claim": "Finite P0..10 A0,3,7: 396 brute F2 Hom adjunction comparisons and 4356 2D rectangle-product supports passed.",
+      "sources": [],
+      "scope": "Source SHA256 25eb1ceb5c0cb741a8015fee2207c4d8a0db9de99942363381d6f8951405149e, output 53a9f24b6544ac5ce6736fd4cc80eddec236eed588b0f07520f880a0412b9d51; finite only, first buggy enumerator corrected."
+    },
+    {
+      "id": "CLM-0205",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S038 produced a new one-real-parameter simply connected CW dHI>dIHC example satisfying both identities, or universal equality.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0084",
+        "SRC-0086"
+      ],
+      "scope": "NOT ESTABLISHED, overlapping-window candidate lacks replacement-invariant obstruction; LS S036 instance has equality HI=IHC."
+    },
+    {
+      "id": "CLM-0206",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S038 T84 has original 2023–2026 primary literature priority clearance and an independently indispensable HHA homotopy application.",
+      "sources": [
+        "SRC-0066",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "scope": "NOT ESTABLISHED. S018 earlier bridge and original 2020/2024/2025 work are strong novelty risks; Stage2 NOT_STARTED."
     }
   ]
 }

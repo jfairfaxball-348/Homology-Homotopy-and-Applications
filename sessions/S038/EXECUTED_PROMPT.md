@@ -1,0 +1,2 @@
+# S038 owner-invoked authoritative prompt
+Read at entry main 992c726af5f7bd5c66c62a05bef29bfe5a1aef65. Owner supplied original authoritative/NEXT_SESSION_PROMPT.md link and instructed running next session; exact full S038 prompt is the previously committed file in entry tree. Run S038 ONLY. Scope real R2 rectangle BIT endpoint audit; HHA one-parameter HI/IHC coupled homotopy attempt; source priority 2023–2026; one atomic commit+PR ordinary merge and S039 future. No Lean/Palomar/manuscript/external actions.

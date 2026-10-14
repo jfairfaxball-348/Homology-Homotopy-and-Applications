@@ -242,3 +242,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 4. FALSE auxiliary lemma: Hom(Q,E M)=0 whenever Q's upper cut lies strictly inside a critical gap. Maps from Q may survive earlier while M vanishes late; correct method is pi_!Q (shorter aligned rectangle) and Hom adjunction.
 5. Discrete N² left Kan/right floor proof is NOT a complete argument for original arbitrary real R² rectangle open/closed/below-min conventions; these are explicit S038 hostile obligations. Full general LLO Problem1 not pronounced solved.
 6. 2020 Botnan and 2025 FoCM prior work gives substantial method precedence; no current HHA-original homotopy theorem, no novelty Gate2. 1981 T66 / frozen R5 / retired Hopf preserved.
+
+## S038 hostile lessons
+1. Major archival self-duplication: S018-T43/T44 ALREADY had real all-rectangle endpoint-safe transfer and fixed n,k polynomial arithmetic, contrary to S037's supposed real gap. Audit own claim history before treating a gap as open/new.
+2. Incorrect substitute: restricting off-grid Q at critical grades changes Hom tests. Q=[1,5] has restriction support grid3 but Kan support grid0 in finite [0,3,7] example.
+3. Real rays have no maximal point; membership exactly at an upper cut is distinct from cofinality below it. A finite P diagnostic cannot replace that proof. A prebirth sentinel handles all x<first grade and open/closed/unbounded cases.
+4. First enumerator attempt WRONG: naturality formula omitted the source arrow factor u(p), forcing artificial zeros. Corrected exhaustive 396 F2 Hom and 4356 rectangle products pass; only corrected run used.
+5. T84 binary-bit F2 specialization avoids exponent expansion but may be a direct recombination of 2020/2024/2025 established methods. It is not original HHA work without further claim differentiation, genuine homotopy application and external referee.
+6. HI/IHC overlapping windows: two π0 equations with individual homotopies do not yet yield a replacement-robust higher coherence obstruction. No gap survivor and no general equality proof.

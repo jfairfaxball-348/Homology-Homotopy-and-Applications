@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-14",
-  "last_completed_session": "S037",
-  "recommended_next_session": "S038",
+  "last_completed_session": "S038",
+  "recommended_next_session": "S039",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "S037 T79–T81 internal discrete N² BIT polynomial k1 ALL rectangle (nonprincipal) relative-resolution decision, via critical compression and canonical syzygy/weak exactness. All REAL rectangle endpoint bridge and priority/HHA novelty unrefereed; generic spaces d_HI>d_IHC OPEN. S036 LS Toda HC1,IHC=HI1.5 survives hostile checks; original 2020v1 anticipated. T66/1981/R5 and retired Hopf retained.",
-  "headline_status": "S037_DISCRETE_BINARY_N2_RECTANGLE_K1_INTERNAL_P__REAL_ALL_CUTS_PRIORITY_OPEN__HI_IHC_OPEN__S038_FUTURE",
-  "active_campaign": "S038 FUTURE UNEXECUTED: hostile real-all-rectangles BIT transport; genuine 1D HI/IHC coupled higher coherence.",
+  "selected_mathematical_problem": "S038 T83 real all-cut R2 rectangle Kan/pd bridge is ALREADY S018-T43! Historical S037 omission corrected. S038 T84 combines S018 T43+S037 T80/T81: internally proof-level fixed n2,k1 homogeneous binary monomial F2[x,y] polynomial BIT for all REAL rectangles, full open/closed/sentinel; novelty and HHA specific original application unverified. One-real-parameter simply-connected dHI>dIHC still OPEN; S036 LS HC1,IHC=HI1.5 old authors anticipated. T66/1981/R5 and S028 retired Hopf preserved.",
+  "headline_status": "S038_REAL_RECT_K1_F2_BINARY_BIT_INTERNAL__S018_REAL_BRIDGE_REDUNDANCY_FOUND__HI_IHC_OPEN__G2_CLOSED",
+  "active_campaign": "S039 FUTURE UNEXECUTED: genuinely new 1D homotopy coherence or novel significant homological theorem, priority kill.",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S037_N2_BIT_K1_INTERNAL_REAL_AND_PRIORITY_OPEN"
+      "status": "IN_PROGRESS_S038_BINARY_REAL_K1_INTERNAL_PRIORITY_AND_HHA_NOVELTY_OPEN"
     },
     {
       "id": 2,
@@ -472,7 +472,21 @@
     "s037_entry_tree": "179196702550203b4ae8b8d1a5a87da4c32f6151",
     "s036_authored_commit": "e9a8d438b72846ead998822a5052d4f84549d967",
     "s036_pr": 37,
-    "s036_merge_sha": "b4e05c52cd5d3d608e6c19dcd18c845020f2a006"
+    "s036_merge_sha": "b4e05c52cd5d3d608e6c19dcd18c845020f2a006",
+    "s038_entry_main": "992c726af5f7bd5c66c62a05bef29bfe5a1aef65",
+    "s038_entry_tree": "3b2a7bb1988ee6530e33b00d62bfda402af46444",
+    "s037_authored_commit": "19e6584396b26043b1b29774db6c1a50f17093bd",
+    "s037_authored_parent": "b4e05c52cd5d3d608e6c19dcd18c845020f2a006",
+    "s037_merge_sha": "992c726af5f7bd5c66c62a05bef29bfe5a1aef65",
+    "s037_merge_parents": [
+      "b4e05c52cd5d3d608e6c19dcd18c845020f2a006",
+      "19e6584396b26043b1b29774db6c1a50f17093bd"
+    ],
+    "s037_merge_tree": "3b2a7bb1988ee6530e33b00d62bfda402af46444",
+    "s037_pr": 38,
+    "s037_main_run": 38575447888,
+    "s037_main_job": 115891211730,
+    "s037_main_check": 115891211730
   },
   "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate. S020 inspected original Springer full HTML Monoidal Rips Prop6.7, SoCG DOI abstract/HTML page, MathOverflow exact 36-tetrahedra list and original 2000 simplicial Hopf map bibliographic metadata; priority remains unverified. S021 DIRECT original Madahar-Sarkaria author-hosted PDF §§2,3,5 inspected; Oudot-Waas SoCG2026 HTML Thm1, Blaser et al. 2026 §6.3 Prop6.7, Memoli-Stefanou-Zhou JACT2024 HTML introduction/Def and stability statements; mixed cofiber priority still OPEN. S022 directly read Cohn–Rajagopal 2026 §2 five-dimensional kissing number 40–44 bounds (independent T50 uses its own positive polynomial); Cambridge original Munson–Volić 2015 cubical homotopy pushouts chapter metadata and indexed original PDF §3.8.8 total cofiber excerpt (PDF not directly retrievable); original Sarkaria paper source §§2,3,5 and original JACT/SoCG remain priority adversaries. No complete mixed-persistence priority proof audit. S024 revisited Cambridge 2015 §§3.8/3.9 ORIGINAL indexed author PDF snippets but 45MB direct PDF fetch was too large and alternate URL disabled; no full proof read. Revisited original JACT2026 Monoidal Rips full HTML and SoCG2026 original abstract; no new HHA priority pass. S026 original BL2017 Example8.5 inspected, Lanari-Scoccola AGT2023 full publisher PDF unavailable, MSZ2024 original theorem2 inspected, original Munson-Volic2015 complete PDF not retrieved. No source-cleared novelty. S027 original BL2017 §3 pp11, §7 pp21-23, §8 pp25-26 visually inspected; MSZ2024 original HTML Theorem1/2 and proof passages; LS2023 official abstract/metadata only, Munson-Volic full original PDF inaccessible; Oudot-Waas2026 abstract, Blaser2026 original HTML only. Full novelty proof audit missing. S028: full original LS arXivv3 downloaded and selected §3.3 Proposition3.14/Lemma3.15 and §5 theorem/proof inspected, journal-final PDF still inaccessible. Full original Munson–Volic45MB PDF retrieved, selected chapter3§3.8/3.9 proofs and visual pages168/171 read, correct cofiber Definition3.8.1. MSZ2024 original Theorem2/Lemma3.5 proofs read; Musin–Shamazov2025 original §§2–3 algorithm inspected. Exact certificate priority not claimed; categorical flagship retired. S030 direct original LLO arXiv HTML Definition3/Theorem4 and original FoCM2025 Thm4.11/Prop4.5/4.17 HTML proof directly inspected. Keagy2026 original arXiv ABSTRACT only, full PDF/HTML blocked; Höppner–Lenzing1981 publisher ABSTRACT only, pdf access denied; no proof-level priority clearance. S032: original Keagy2026 full proof text arxiv2602.13560v1 read for A_n/total order/zigzags; original Höppner–Lenzing1981 JPAA pp7–12 full proof remains inaccessible; no originality clearance. S033: Møller–Scherer original MPI Bonn PDF theorem2.2 proof and example2.4 visually inspected p3; original LLO v4 statement and Keagy v1 proof HTML accessible; Munson–Volić original 2015 and LS original 2023 selected proof inspections inherited from S028, not independently re-downloaded. 1981 Höppner–Lenzing JPAA full proof still uninspected; similarly titled 1981 Springer proceedings is distinct. No priority guarantee. S035: LS original arXivv3 PDF proof selected §§2.2.2,3.2 visually inspected, original publisher final Remark3.13 indexed; 2026 Springer original full article HTML §1/2/3 statements inspected; 2026 relative Sullivan arxiv HTML source selected sections; 2002 Toda track abstract only; LS v1 anticipation from indexed mirror. No exhaustive citation/priority audit.",
   "lean": {
@@ -513,7 +527,9 @@
     "S035 T75/T76 source-stated d_IHC>d_HC resolution candidate: INDEPENDENT arrow derived mapping-space + nonzero Toda bracket referee, unpointed-map scrutiny and complete 2023–2026 theorem-level priority audit before Gate2.",
     "S035 does NOT resolve d_HI != d_IHC; LS original v1 explicitly anticipated the d_IHC>d_HC adaptation; exact d_IHC endpoint/upper not proved beyond <=2.",
     "S036 T77/T78 internal exact d_HC=1 d_IHC=d_HI=3/2 from LS Toda stages and mapping-cylinder HEP. Independently outside-referee the derived-arrow, unpointed bracket and strict zigzag; original LS 2020v1 explicitly anticipated IHC>HC, priority NOT cleared.",
-    "S037 FUTURE ONLY: genuine d_HI vs d_IHC strictness for 1-real-parameter simply connected persistent spaces remains OPEN. Specific S036 sphere/Toda example has equality, NOT a gap."
+    "S037 FUTURE ONLY: genuine d_HI vs d_IHC strictness for 1-real-parameter simply connected persistent spaces remains OPEN. Specific S036 sphere/Toda example has equality, NOT a gap.",
+    "S038: fixed n2 k1 REAL rectangle binary BIT polynomial algorithm T84 still needs independent end-to-end implementation, detailed original-priority kill vs 2020/2024/2025 and HHA-fit; S018 T43 ALREADY had real transfer; no novelty credit for bridge.",
+    "S038: one-real-parameter simply connected finite CW dHI>dIHC remains UNPROVED; no replacement-invariant coupled overlapping-window obstruction or dual identity survivor."
   ],
   "blockers": [
     "No all-distance R5 strict geometric solution/no-go for original Hopf f1 and recoloured null g; 32/30 stars do not exclude R5.",
@@ -528,6 +544,7 @@
     "S033 genuine original HHA homotopy flagship still absent after classical Postnikov and Moore Ext total cofiber sources; source-stated open C not located; do not promote Stage2.",
     "S034: original HHA flagship remains absent, G2 closed. DKS1989/Baues–Blanc2011 classical obstruction theory preempts generic mapping-space π1 novelty; LS2023 Remark3.13 source-stated problem requires fresh contemporary priority and proof.",
     "S035 apparent answer to LS Remark3.13 has ONLY internal mathematical proof, no external proof certification / exhaustive novelty priority / HHA manuscript decision; Stage2 remains not started.",
-    "S036 strict 3/2 result internally proven but original LS authors' v1 predicted method, full 2023-2026 prior art/correctness outside referee missing; no original HHA flagship or Stage2 clearance."
+    "S036 strict 3/2 result internally proven but original LS authors' v1 predicted method, full 2023-2026 prior art/correctness outside referee missing; no original HHA flagship or Stage2 clearance.",
+    "S038: accidental S037 historical duplication corrected; real rectangle theorem present since S018. T84 binary-bit addition may be routine 2020/2024/2025 synthesis and lacks indispensable NEW HHA homotopy content; first novelty Gate2 CLOSED."
   ]
 }
