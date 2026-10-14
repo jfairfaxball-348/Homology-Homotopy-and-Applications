@@ -1,0 +1,17 @@
+# S039 ADVERSARIAL — hostile theorem referee
+1. **Identity versus pointwise:** ε-IHC factorization occurs in Ho(Top^R); restriction to [1] gives the entire derived-arrow θ. Replacing that with independent null gf and hg is FALSE (LS Toda).
+2. **Projectively cofibrant model:** f is replaced by a mapping cylinder. Derived Map([1]) is a homotopy pullback. The 2-homotopy comparing hH_A and H_B f is essential; without it h g' may fail to be relatively null on A.
+3. **Simultaneous rectification:** after making g constant on A, B/A has a basepoint, and nullity relative A produces a *based* nullhomotopy of B/A→D. The mapping-cylinder of B/A→C makes j a cofibration without erasing original f (contrast the naive mapping-cylinder of g which can destroy gf=constant).
+4. **Weak-equivalence zigzag:** a homotopy of an internal edge is not automatically a strict equality of chain diagrams; use the explicit free-path-space span from that edge onwards. Finite-CW hypothesis holds for original and endpoint models, NOT every path-object intermediary.
+5. **Naturality both ways:** ψ point section is propagated through ALL stages; the first composite equals each 2ε structure map literally. The second composite on G is automatically identity on its nonempty point stalk and is unique on empty-domain stalks.
+6. **All real offsets:** exact lower tests use integer stages t=i for ranges ε in [0,.5), [.5,1), [1,1.5), [1.5,2); at [1,1.5), the two-stage target remains (C→D) throughout. No finite timing sample proves this; arithmetic does.
+7. **Disconnected spaces:** theorem assumes path-connected simply connected stages; removing this requires component-path bookkeeping. Do NOT generalise silently.
+8. **Lower bound from HC alone insufficient:** for LS example gf,hg null in HoTop but θ nontrivial in Ho(Top^[1]); formula rightly gives 1.5 despite d_HC=1.
+9. **Generality:** theorem is F vs the point-step G and four nonterminal stages, NOT arbitrary target, five stages, or all one-parameter persistent spaces. At five stages the [2] derived-window coupling remains unchecked.
+10. **Priority:** Dwyer–Kan–Smith JPAA1989 DOI10.1016/0022-4049(89)90023-6 obstruction theory, 2002 track Toda, original LS2020v1/AGT2023 Toda, and 2026 JACT dg-only equality are serious neighbours. No exhaustive proof-level originality claim.
+11. **Algebraic priority kill:** original LLO2024 Problem1 versus S018 T43/T44 and 2020/2025 interval literature: T84 is derivative and cannot be counted anew; bit-size proof and original HHA application lack referee.
+12. **Frozen obligations:** no spurious T66/1981 certification, strict R5 remains open, retired Hopf result remains archival.
+
+**Independent attack on T87:** A tempting counterexample is (2,η_3,2). It satisfies gf=hg=0 pointwise, but fails P2 because the Toda bracket is nonzero. Therefore it is excluded by the *necessary* coherent hypothesis rather than refuting the theorem. A second attack tries factor g through a naive Mf; it does not preserve strict gf=constant, hence the proof uses M(B/A→C) instead. A third attack treats homotopy of a middle arrow as strict full-diagram equivalence without accounting for outgoing maps; the path-space span repairs it.
+
+**Residual caution:** This is an INTERNAL topology proof, not a homotopy-coherent-model formalisation or outside referee; detailed point-set HEP and path-object coherence should be independently rechecked before novelty Gate2.

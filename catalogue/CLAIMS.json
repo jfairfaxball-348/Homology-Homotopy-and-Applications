@@ -1963,6 +1963,45 @@
         "SRC-0090"
       ],
       "scope": "NOT ESTABLISHED. S018 earlier bridge and original 2020/2024/2025 work are strong novelty risks; Stage2 NOT_STARTED."
+    },
+    {
+      "id": "CLM-0207",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S039 T87 derived-arrow null/point factor on a four-stage finite simply connected CW chain admits simultaneous strict two-window vanishing gf=hg=constant after objectwise weak-equivalent diagram replacement by quotient-cylinder and relative HEP.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0086"
+      ],
+      "scope": "INTERNAL full proof; dependent on derived arrow model/relative HEP; DKS1989 originality not cleared; no formal or outside referee."
+    },
+    {
+      "id": "CLM-0208",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S039 T88 restricted four nonterminal-stage real diagram versus point-step G has exact dIHC=dHI equal 0,1/2,1,3/2,2 determined by P0 contractibility,P1 null primitive,P2 zero derived arrow θ,P3 null triple.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0084",
+        "SRC-0091"
+      ],
+      "scope": "Simply connected path-connected finite CW and point-step G ONLY; both identities all real; no universal equality, novelty or HHA publication clearance."
+    },
+    {
+      "id": "CLM-0209",
+      "status": "COMPUTED_EXACT",
+      "claim": "S039 exact Fraction 288 stage/time samples at 9 quarter ε and 32 eighth-times; output hash SHA256 3ca9b0810e5b1cff7a10dda4a8a5f00be84a6ee62c88ae0073756877da21b23d.",
+      "sources": [],
+      "scope": "Pure finite stage arithmetic diagnostic, NOT derived homotopy proof."
+    },
+    {
+      "id": "CLM-0210",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S039 has solved universal one-real-parameter dHI>dIHC or proved that T87/T88 is externally priority-certified HHA-original.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0086",
+        "SRC-0091"
+      ],
+      "scope": "NOT ESTABLISHED; five-stage/nonpoint remains open; DKS1989/track2002 and original LS antecedents unrefereed as complete priority check."
     }
   ]
 }

@@ -810,6 +810,15 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Not full published proof audit, does not independently establish no prior binary-succinct rectangle algorithm.",
       "observed": "Finite-grid rectangle relative projective resolution machinery exists; prior general endomorphism algebra method and grid parameterisation significantly limit new priority claims. S038 original publisher HTML §1,§14 rectangle example reviewed; strong classical antecedent."
+    },
+    {
+      "id": "SRC-0091",
+      "title": "Dwyer, Kan and Smith, Homotopy commutative diagrams and their realizations, JPAA 57 (1989) 5–24",
+      "url": "https://doi.org/10.1016/0022-4049(89)90023-6",
+      "origin": "Published DOI metadata and secondary indexed abstract in 2026-10-14 search",
+      "access": "SECONDARY_ONLY",
+      "limitation": "Original full publisher 1989 article/proof not read; no theorem-by-theorem equivalence with T87.",
+      "observed": "Original 1989 work supplies general obstruction theory for rectifying diagrams in HoTop, severe prior-art neighbour to coupled homotopy rectification."
     }
   ]
 }

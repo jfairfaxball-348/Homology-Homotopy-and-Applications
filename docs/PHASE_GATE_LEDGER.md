@@ -99,3 +99,5 @@ Stage1 IN_PROGRESS: discrete N² critical-grid T79/T80/T81 internal binary-bit a
 
 ## S038 gate — 2026-10-14
 Stage1 IN_PROGRESS: S018 already proved real all-rectangle transfer at T43 for any n,k; S038 T83 hostilely reconfirms endpoints, T84 applies S037 binary bit algorithm at fixed n2,k1 to all real rectangles. Strong earlier 2020/2024/2025 antecedents; no independent proof-level novelty or indispensable new HHA homotopy application. New genuine dHI>dIHC 1D finite CW OPEN. **First novelty G2 NOT_STARTED; Lean G3 and final G4 NOT_STARTED; Palomar, manuscript, arXiv/HHA owner-gated and untouched.** Original1981 T66, S023 R5 and retired S028 Hopf retained. S039 FUTURE ONLY.
+
+- **S039 (2026-10-14):** Stage1 INTERNAL T87 two-window derived-arrow homotopy rectification, T88 restricted four-stage point-target exact dIHC=dHI classification, T89 ≥5-stage point-target frontier. Original DKS1989/track2002 and LS2023 proof-priority/universal HHA application not cleared; no dHI>dIHC counterexample. T84 source derivative. G2 novelty/G3 Lean/G4 final novelty NOT_STARTED; no Palomar/manuscript/arXiv/HHA/contact. S040 FUTURE ONLY.

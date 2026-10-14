@@ -250,3 +250,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 4. First enumerator attempt WRONG: naturality formula omitted the source arrow factor u(p), forcing artificial zeros. Corrected exhaustive 396 F2 Hom and 4356 rectangle products pass; only corrected run used.
 5. T84 binary-bit F2 specialization avoids exponent expansion but may be a direct recombination of 2020/2024/2025 established methods. It is not original HHA work without further claim differentiation, genuine homotopy application and external referee.
 6. HI/IHC overlapping windows: two π0 equations with individual homotopies do not yet yield a replacement-robust higher coherence obstruction. No gap survivor and no general equality proof.
+
+## S039 failures and lessons
+- Reusing the 2023 LS (2,η,2) vertexwise null composites for HI>IHC fails: θ is NONZERO in Ho(Top^[1]), so the supposed IHC upper does not exist. It tests the necessity of T87's coherent hypothesis.
+- Mapping-cylinder factorization of g alone does not preserve strict g f=constant; the quotient B/A and mapping cylinder of B/A→C preserve it and let relative HEP kill h g.
+- Two overlapping derived-arrow windows against the point target do NOT yield HI>IHC in a four-stage chain under T87; move to derived [2] at five stages or a genuine non-point target. External proof priority and full 1989 DKS source unverified.
+- F2 all-real rectangle k1 BIT is earlier T84 combining S018 T43/T44 with S037, hence not fresh S039 novelty.

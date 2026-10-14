@@ -142,3 +142,6 @@ T79–T81 binary-succinct discrete N² all nonprincipal rectangle relative pd<=1
 
 ## S038 corrected scoring
 **Algebraic T84:** proof credibility INTERNAL 4/5 (explicit all-real cut/S018 antecedent); bit complexity 3.5/5 (F2 elimination, no implementation); **novelty 1/5** because S018 had real transport and original 2020/2024/2025 tools do much of remaining work; **HHA fit 1.5/5** (no indispensable NEW unstable-homotopy application). Not selected flagship, G2 closed. The stronger S018 T43 itself was known within programme at S018, so no credit to S038 for its recovery. **Topological genuine one-real dHI>dIHC:** significance high, proof candidate NONE. S036 LS exact HC1/IHC=HI1.5 and original authors v1 anticipated. S039 next conditional target only.
+
+## S039 target status
+No HHA-ready original flagship. T87/T88 significant internal restricted equality theorem for four-stage point-target real simply-connected CW diagrams, but DKS1989 and track Toda2002 priority comparison and a compelling HHA application are missing. Generic dHI>dIHC remains OPEN. S040 focuses five-stage derived-[2] coupled coherence. T84 not recounted as new.

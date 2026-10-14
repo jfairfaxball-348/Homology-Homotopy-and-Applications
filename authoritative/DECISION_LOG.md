@@ -231,3 +231,9 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - **DEC-0163** T84 S018-T43 + S037-T80/T81 implies homogeneous binary F2[x,y] k1 fixed n2 ALL REAL rectangles relative pd polynomial BIT; nonprincipal, endpoint/sentinel included; algorithm existence only, not fully implemented or originality-refereed.
 - **DEC-0164** 396 GF2 naturality Hom comparisons and 4356 2D rectangle tensor projections PASS after correcting first enumerator bug; finite tests not R proof. No coupled one-parameter CW HI>IHC survivor; S036 LS endpoint equality maintained.
 - **DEC-0165** Original LLO2024/SoCG2020/FoCM2025 plus in-house S018 make novelty HHA serious; G2 closed. T66 original1981 uninspected, R5 frozen 16471 open, Hopf benchmark retained retired; S039 FUTURE; no Lean/Palomar/paper/external action.
+
+## S039 decisions (2026-10-14)
+- **DEC-S039-A:** Accept INTERNAL T87 nontrivial two-overlap strictification only when canonical θ vanishes in the *derived arrow category*, not merely pointwise; retain relative-HEP/path-model hostile questions for outside referee.
+- **DEC-S039-B:** Accept INTERNAL T88 full four nonterminal stages versus point classification d_IHC=d_HI in half-unit steps; no general space equality nor strict HI>IHC example; LS Toda is a control.
+- **DEC-S039-C:** First possible point-target multiwindow gap moves to ≥5 nonterminal stages/derived-[2], not proved there. Source originality/HHA novelty against DKS1989/track2002/LS2023 not cleared; Stage1 only.
+- **DEC-S039-D:** Original LLO2024 all-rectangle k1 binary algorithm T84 is derivative S018/S037, no new claim. Frozen T66 original1981, strict R5 open, Hopf flagship retired. All formalisation/publication gates closed; S040 FUTURE ONLY.

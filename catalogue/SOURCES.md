@@ -187,3 +187,7 @@ The preceding source notes record historical access. SRC-0062 journal-final PDF 
 
 ## S038 primary source reinspection
 Original LLO arxiv2402.16624v4 §1.1 Problem1 and §1.3 (existing Koszul k>0 prospects) directly inspected; SoCG2020 Botnan–Lebovici–Oudot PDF p9 Definition11/Theorem12 VISUALLY inspected; original Chachólski et al. FoCM2025 §1/§14 original full publisher HTML selected; original Lanari–Scoccola v3 PDF p15 VISUALLY inspected. 2026 dg-module source is different category. **Crucially S018 T43/T44 is PRIOR IN-HOUSE work** proving real transport and fixed n,k arithmetic. Original 1981 Höppner–Lenzing full JPAA proof uninspected; original LS2020v1 author text anticipated Toda IHC/HC. All access classifications retained; no exhaustive literature priority proof.
+
+## S039 source addition
+- **SRC-0091 SECONDARY_ONLY** Dwyer–Kan–Smith 1989 JPAA 57:5–24, DOI10.1016/0022-4049(89)90023-6 https://doi.org/10.1016/0022-4049(89)90023-6. Secondary indexed abstract and published DOI metadata only, original full 1989 proof not inspected; severe rectification priority risk.
+- SRC-0083 LS2023 selected original pages inherited, not a new full journal proof inspection; original 2020v1 anticipation retained; SRC-0086 2002 original abstract; SRC-0084 2026 original dg module paper directly inspected; SRC-0066 original LLO full HTML §1.1 rechecked; SRC-0089 original SoCG2020 PDF front visually inspected. No unearned source access upgrade.

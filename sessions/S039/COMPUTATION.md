@@ -1,0 +1,5 @@
+# S039 COMPUTATION — finite interval-boundary diagnostic, NOT topology proof
+Predefined finite scope: e=j/4 for j=0,...,8; source stage t=i+k/8 (i=0,1,2,3 and k=0,...,7). Nonterminal target iff stage(t+2e)<4. Exactly 9·4·8=288 source/shift pairs evaluated with Fraction, deterministic Python3, no floating-point rounding. Set-based distinct (source,target) pairs and edge-length lists.
+Analytic independent check for ε in [m/2,(m+1)/2) at integer t=i: surviving target is stage i+m when i+m≤3, so necessity is m-fold composite (with m=0 identities); at ε=m/2 strictifying all m-composites suffices for higher ones. This analytic argument, not the finite diagnostic, covers all real ε and endpoints.
+Exact output SHA256: 3ca9b0810e5b1cff7a10dda4a8a5f00be84a6ee62c88ae0073756877da21b23d. Reproduce: python3 scripts/s039_stage_sweep.py. Python runtime 3.x stdlib fractions/hashlib only. Counts and output at script execution in research chat; NOT remote CI proof.
+Failure limit: tests do not compute homotopy groups, Toda, mapping spaces, equality in Ho(Top^R), or objectwise-equivalent strictifications. The stage-sweep is a timing diagnostic only.

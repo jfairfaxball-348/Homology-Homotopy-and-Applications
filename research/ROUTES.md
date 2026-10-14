@@ -191,3 +191,8 @@ C T66 all composites/Q and every prime coherent integral descent, 1981 JPAA miss
 A ALL-REAL BIT k1: T83 real open/closed/below-min Kan bridge already S018-T43; T84 with S037 finite weak-exactness gives fixed n2 k1 F2 homogeneous binary-bit polynomial all-real rectangles. No implementation, no novelty gate. Stop relabelling previously settled S018 proof as fresh.
 B HI>IHC 1D simply-connected finite CW: no overlapping-window coupled homotopy survivor satisfying both equations/robust replacements. S037 T82 one-window collapse and S036 Toda equality preserved. Genuinely new HHA flagship ABSENT.
 C T66 original1981 coherent integral Q/allFp prime still unrefereed; S023 16,471 R5 open, S028 Hopf retired benchmark.
+
+## S039 route update
+- Four-stage/point derived-[1] overlap: T87/T88 INTERNAL equality **HI=IHC** for the whole restricted family. Do not seek strict separation in this class; derived Toda difference is HC<IHC only.
+- S040 challenger: five-stage/point derived-[2] triple overlapping composites and full objectwise-equivalent strictification; or 4-stage nonpoint G with both identities. No result claimed.
+- Algebraic T84 derivative (S018/S037); intrinsic homotopical application absent, source-priority barrier persists.
