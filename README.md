@@ -36,3 +36,6 @@ A fully explicit 334-point Euclidean pair now has independently checked signed i
 
 ## S033 current checkpoint
 S033 internally proved a classical Moore-space Ext¹/total-cofiber two-parameter diagnostic: identical pointwise integral H/π group diagrams, but H3 total cofiber Z⊕Z/2 vs Z (finite 15-case Smith arithmetic confirmed). Mod2 persistence distinguishes, and conventional Postnikov and cubical literature defeats originality as HHA flagship. S028 Hopf remains retired, T66 integral splitting only internal, strict R5 and succinct k1 unresolved. No selected HHA-novel theorem. S034 is FUTURE UNEXECUTED; no Lean/Palomar/paper/preprint/submission.
+
+## S034 checkpoint (14 October 2026)
+Nontrivial split Postnikov F2 shear H³ classes obstruct **prescribed edge** Ho-square compatibility, with π1 shear mapping space H²=F2; 4096 exact [2]² assignments yield 256 coherent shears, each strictly realizable in this slice. Classical Dwyer–Kan–Smith and Baues–Blanc prevent novelty: Postnikov-coherence flagship retired. Original Lanari–Scoccola2023 Remark3.13 names a genuine open homotopy-interleaving distance comparison for future **S035 investigation**, not solved or guaranteed still open. Stage1/no original flagship, Gate2 closed; succinct k1, T66 1981 priority, frozen R5 remain open.

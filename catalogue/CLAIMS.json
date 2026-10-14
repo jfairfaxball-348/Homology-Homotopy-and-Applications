@@ -1636,6 +1636,71 @@
         "SRC-0070"
       ],
       "scope": "Precise category/grade-transport completion required; expanded-grid N2 is not succinct."
+    },
+    {
+      "id": "CLM-0174",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S034 T73: prescribed split 3-type shear maps with identical k=0 and π₂/π₃ identity can fail Ho-square due to H³=F₂; π₁ of SHEAR mapping subspace is H²=F₂, a filler ambiguity, not new higher nonexistence.",
+      "sources": [
+        "SRC-0077",
+        "SRC-0079"
+      ],
+      "scope": "Mathematics proof S034, classical homotopy cohomology and DKS; not claim novel."
+    },
+    {
+      "id": "CLM-0175",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S034 T74 [2]² constant split 3-type shear edge classes admit strict diagram iff four face parity constraints, via normalized potentials; extension in this slice to finite product grids.",
+      "sources": [
+        "SRC-0079"
+      ],
+      "scope": "Complete proof in S034/MATHEMATICS; does not cover general k!=0, variable coefficients or prescribed higher 2-cells."
+    },
+    {
+      "id": "CLM-0176",
+      "status": "COMPUTED_EXACT",
+      "claim": "4096 binary [2]² generating-edge assignments exhaustively checked; exactly 256 face-compatible equal to exactly 256 distinct normalized potential patterns.",
+      "sources": [],
+      "scope": "Executed independent JS finite checker and generator; exact finite combinatorics, topology unverified computationally."
+    },
+    {
+      "id": "CLM-0177",
+      "status": "SOURCE_STATED",
+      "claim": "Dwyer–Kan–Smith1989 develops rectification obstruction based on mapping-space homotopy groups and category cohomology; Baues–Blanc2011 compares such obstruction cohomologies.",
+      "sources": [
+        "SRC-0079",
+        "SRC-0080"
+      ],
+      "scope": "Original publisher abstracts and indexed original text excerpts, full proofs not reread."
+    },
+    {
+      "id": "CLM-0178",
+      "status": "SOURCE_STATED",
+      "claim": "Lanari–Scoccola AGT2023 Remark3.13 explicitly leaves open whether dHI differs from dIHC or dIHC differs from dHC for persistent spaces.",
+      "sources": [
+        "SRC-0081"
+      ],
+      "scope": "Source stated open in 2023 original publisher indexed statement, status in 2026 not verified. Not a programme proof."
+    },
+    {
+      "id": "CLM-0179",
+      "status": "SOURCE_STATED",
+      "claim": "Kuribayashi–Naito–Wakatsuki–Yamaguchi arXiv2501.09257 reports equality of three distances for persistence DG MODULES; not a statement for arbitrary spaces.",
+      "sources": [
+        "SRC-0082"
+      ],
+      "scope": "Original abstract inspected; no general topological transfer inferred."
+    },
+    {
+      "id": "CLM-0180",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S034 supplies a new original HHA flagship theorem.",
+      "sources": [
+        "SRC-0079",
+        "SRC-0080",
+        "SRC-0081"
+      ],
+      "scope": "NOT ESTABLISHED, actually rejected as classical. First novelty Gate2 closed."
     }
   ]
 }

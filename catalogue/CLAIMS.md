@@ -230,3 +230,12 @@ CLM-0139/0140 remain valid internal family statements. Their12 product strata us
 |CLM-0171|INHERITED_UNVERIFIED|S033 flagship new HHA theorem — REJECTED, not established.|
 |CLM-0172|HEURISTIC|Higher coherent Postnikov obstruction beyond edgewise κ and classical source, S034 future.|
 |CLM-0173|HEURISTIC|Binary succinct fixed n2 k1 nonprincipal relative BIT/hardness remains OPEN.|
+
+## S034 exact claims
+|CLM-0174|PROGRAMME_PROVED|T73 identity-coefficient split 3-type nontrivial H³ shear can prevent *prescribed* edge maps forming Ho-square despite zero κ; π1 of *shear mapping space*, not full map space, is H²=F₂, filler torsor. Classical.|
+|CLM-0175|PROGRAMME_PROVED|T74 on [2]² constant split E, four parity conditions iff exact strict shear realization via vertex potentials; all 256 valid classes, independent of finite enumeration. Classical.|
+|CLM-0176|COMPUTED_EXACT|Exhaustively enumerated 4096 F₂ edge assignments, 256 closed, 256 distinct vertex-potential patterns, identical sets; combinatorial only.|
+|CLM-0177|SOURCE_STATED|Dwyer–Kan–Smith1989 developed higher rectification obstructions from mapping space π_n; Baues–Blanc2011 compares standard obstruction cohomologies, novelty kill.|
+|CLM-0178|SOURCE_STATED|Lanari–Scoccola AGT2023 Remark3.13 explicitly asks which of d_HI/d_IHC/d_HC are distinct for persistent SPACES. Not certified unresolved in October2026.|
+|CLM-0179|SOURCE_STATED|2025 Kuribayashi et al compare equality in persistence dg-module category, not all spaces; non-transfer constraint.|
+|CLM-0180|INHERITED_UNVERIFIED|A new HHA flagship theorem was discovered in S034 — FALSE/NOT ESTABLISHED; G2 closed and S035 source-stated open problem is future research only.|

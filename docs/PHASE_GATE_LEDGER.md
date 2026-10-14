@@ -83,3 +83,6 @@ Stage1 **IN_PROGRESS**, no selected original HHA theorem. Exact expanded-input T
 
 ## S033 gate — 2026-10-14
 Stage1 IN_PROGRESS, no original HHA theorem selected. T71/T72 Moore-space Ext/cofiber internally proved with exact finite integer arithmetic, but classical UCT/Munson–Volić/LS prior art and mod2 visibility prevent flagship selection. Møller–Scherer2009 original pp2–3 explicitly kills ordinary κ example. G2 first novelty NOT_STARTED, Lean G3 and final G4 NOT_STARTED; Palomar, paper, arXiv/HHA external owner-gated. S034 FUTURE only.
+
+## S034 gate — 2026-10-14
+Stage1 IN_PROGRESS: T73 H³ Postnikov split-shear fixed-edge noncommutativity; T74 closed 3×3 shear assignments iff strict path potentials. Both standard Postnikov/function-space/DKS territory, not independently original HHA-level theorem. Original Lanari–Scoccola2023 Remark3.13 source-stated homotopy-interleaving question selected as **future target only**, still-open status vs later literature unconfirmed. First novelty G2 NOT_STARTED, Lean G3 and final G4 NOT_STARTED, Palomar/paper/arXiv/HHA owner gated and untouched. S035 future/unexecuted. S023 R5 and T66 succinct/priority still open; S028 Hopf retired flagship preserved.

@@ -199,3 +199,10 @@ Complete single S032 research session. T69 deterministic polynomial-bit **explic
 
 ## 2026-10-14 — S033 decision
 One topology-first source attack: marked 3-type κ naturality/κ0 vs Sq² is already Møller–Scherer2009 Example2.4. Internally proved T71/T72 Moore Ext-square separates total cofiber integral H3 although all pointwise integral H/π group diagrams agree; weak since F2 persistence sees the difference and UCT/cubical theory already explains it. Explicit 15-case Smith/gcd sanity checks PASS. **REJECT both as original HHA flagship, G2 remains NOT_STARTED**. No new coherent higher Postnikov theorem. Succinct nonprincipal n2,k1 BIT, T66 external validation/1981 genuine original proof and frozen strict R5 remain OPEN; S028 Hopf benchmark retired. Prepare only S034 future.
+
+## 2026-10-14 — S034 decisions
+- **DEC-0146:** Live main cc744683... tree7033b823... and S033 authored658aa601... sole parent bbee6119..., PR34 normal two-parent merge and hosted static check success independently pinned; classic statuses empty, protection UNKNOWN, no competing S034 branch/open PR.
+- **DEC-0147:** T73 split 3-type F₂ shear H³=F₂ nonzero fixed-edge square obstruction, π₁ shear space H²=F₂ only filler *choice*. Do not call π₁ a demonstrated new higher nonexistence obstruction; κ compatibility does not classify specified edge maps.
+- **DEC-0148:** T74 [2]² shears iff four face parity conditions; 4096 exact edge patterns, 256 closed and same 256 potential patterns; general all-κ/coefficients not covered.
+- **DEC-0149:** Original DKS1989 and Baues–Blanc2011 preempt higher mapping-space obstruction generality; retire S034 Postnikov coherence **as HHA flagship**. No novelty promotion.
+- **DEC-0150:** Original Lanari–Scoccola2023 Remark3.13 is explicit HHA-suitable homotopy open question d_HI vs d_IHC vs d_HC; select S035 *investigation only*, not new theorem or globally confirmed still open. 2025 dg module result restricted. LLO source-stated Problem1 reserve. S028 Hopf retired; T66/1981, n2 succinct k1, strict R5 still open. G2/Lean/Palomar/manuscript/arXiv/HHA closed. S035 FUTURE ONLY.

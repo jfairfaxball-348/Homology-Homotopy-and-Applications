@@ -1,0 +1,28 @@
+{
+  "session": "S034",
+  "preregistered_before_execution": true,
+  "finite_scope": {
+    "grid": "[2] x [2]",
+    "vertices": 9,
+    "oriented_nearest_edges": 12,
+    "faces": 4,
+    "assignments": 4096,
+    "potentials_with_origin_zero": 256
+  },
+  "checks": {
+    "closed_assignments": 256,
+    "generated_assignments": 256,
+    "sets_identical": true,
+    "implementation": "JavaScript exhaustive enumerator actually executed; independent potential generator; Python reproducer archived separately",
+    "type": "COMPUTED_EXACT",
+    "limitations": "This is only mod2 cochain arithmetic, not arbitrary Postnikov coherence."
+  },
+  "priority": {
+    "DKS1989": "already establishes general mapping-space/categorical obstructions",
+    "LS2023": "Remark3.13 source-stated open in published article, priority as of 2026 requires further audit"
+  },
+  "gates": {
+    "first_novelty": "NOT_STARTED",
+    "lean": "NOT_STARTED"
+  }
+}
