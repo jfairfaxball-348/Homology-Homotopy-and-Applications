@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-14 S045",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2201,6 +2201,50 @@
         "SRC-0096"
       ],
       "scope": "NOT ESTABLISHED: no universal tertiary relative lift and no strict countermodel. dHI remains 1 or1.5."
+    },
+    {
+      "id": "CLM-0231",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S045 T104: any all-real strict interleaving shoelace diagram with objectwise weakly contractible G' stages admits a whole-category projective sSet/Sing-realization CW replacement preserving both strict identities and all real cuts, with genuinely contractible CW G' nodes.",
+      "sources": [
+        "SRC-0083"
+      ],
+      "scope": "INTERNAL proof using standard projective diagram model structure/Whitehead. NOT unilateral G-to-point and NOT a natural coherent contraction nor HHA novelty."
+    },
+    {
+      "id": "CLM-0232",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S045 T105 coherent strict basepoints on relevant all-replacements finite ladder: x_(i+1)=f_i x_i, z_(i+1)=a_i x_i ensure u_(i+1)z_(i+1)=z_(i+2) and b_(i+1)z_(i+1)=x_(i+2).",
+      "sources": [],
+      "scope": "Exact elementary consequence of N-a and I-F, local relevant nodes only, no relative 3cell or arbitrary zigzag pointing assertion."
+    },
+    {
+      "id": "CLM-0233",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S045 T106 each consecutive three-arrow subchain of strict HI1 ladder with contractible G' has vanishing local threefold Toda bracket by LS2023 Prop3.10 cone proof.",
+      "sources": [
+        "SRC-0083"
+      ],
+      "scope": "SOURCE-DEPENDENT derivation of published THREEfold result only, not a matched fourfold tertiary obstruction."
+    },
+    {
+      "id": "CLM-0234",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S045 T107 explicit full-real strict epsilon1 interleaving with G'(t)=interval at every t>=0, constant G' structure maps across integer cuts, nonconstant initial a0 and b0, for F sphere ladder with f0=id f1=0 f2=id f3=0 and point tail.",
+      "sources": [],
+      "scope": "Exact symbolic control with both naturalities/identities and all real t. F has literally zero two-step maps, NOT Wang-Xu theta4 chain."
+    },
+    {
+      "id": "CLM-0235",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S045 whole-shoelace CW replacement/strict staircases imply the full fourfold Toda bracket vanishes for hypothetical strict Wang-Xu HI1 or construct such HI1.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "UNPROVED: compatibility of both LS-style secondary cone fillings in one tertiary relative 3cell while retaining I-G and all original replacements. dHI remains 1 or1.5."
     }
   ]
 }

@@ -95,3 +95,5 @@
 - **S043 (2026-10-14):** internally completed derived-[2] theta2-null proof on Wang–Xu five spheres, real IHC=1; S042 strict HI lower downgraded for arbitrary contractible G' replacement, dHI in {1,1.5} OPEN; SRC0096 IWX2023 indeterminacy; Stage1, S044 FUTURE UNEXECUTED. No Lean/Palomar/manuscript or submission.
 
 | S044 | 2026-10-14 | h5² f2 versus h5n f>=6 source-dependent fourfold Toda zero exclusion; contractible-G' strict all-replacements HI1 condition T103 explicitly recorded but no universal tertiary argument or strict model. dHI1/1.5 still open; G2 closed. | sessions/S044/CLOSEOUT.md; S045 FUTURE UNEXECUTED |
+
+| S045 | 2026-10-14 | T104 whole shoelace CW strict replacement through projective sSet; T105 canonical coherent pointed ladder; T106 published LS threefold local vanishing only; T107 full real nonpoint strict control distinct from theta4 chain. Fourfold tertiary and target dHI1/1.5 OPEN, no HHA flagship or G2. | sessions/S045/CLOSEOUT.md; S046 FUTURE UNEXECUTED |

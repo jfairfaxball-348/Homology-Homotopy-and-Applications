@@ -216,3 +216,11 @@ SRC-0094 **PROOF_INSPECTED for Cor1.10 only** Wang–Xu arXiv1601.02184v4 origin
 
 ## S044 source mirrors
 SRC-0096 STATEMENT_INSPECTED selected 2023 IWX Tables4 p214 h5 f1/n f5 and Table10 p228 h5² with h5 n indeterminacy, plus prior Table1 p212 theta5=h5². Original proof not independently rederived and exact classical comparison remains referee task. Reuse SRC-0094 Wang–Xu2017, SRC-0083 LS2023 Prop3.10, SRC-0095 BJT2019 §7.A, SRC-0091 DKS selected transcription, SRC-0086/SRC-0092 abstract only; no new made-up source IDs.
+
+
+## S045 targeted original-source recheck
+- SRC-0094 original Wang–Xu2017 printed p4 Cor1.10 SHORT original proof inspected again: strictly defined 4fold Toda containing theta5, not a proof of all-replacements HI.
+- SRC-0096 original IWX2023 PDF screenshots printed p214 Table4 h5 filtration1/n filtration5 and p228 Table10 (62,32) <2,theta4,theta4,2> contains h5² indeterminacy h5 n. S044 internal f2/f>=6 conditional zero-exclusion arithmetic survives, classical transport not independently rederived.
+- SRC-0083 original LS2020v1/AGT2023 Prop3.10 full displayed local cone proof inspected (two contractible nodes A→B); T106 is derived only for *threefold* local brackets, not an unwritten fourfold theorem.
+- SRC-0095 BJT2019 selected original §7.A, SRC-0091 DKS1989 selected original transcription, SRC-0086 HKM2002 abstract and SRC-0092 Baues–Blanc2011 abstract unchanged access; no full proofs invented.
+- SRC-0084 original 2026 publisher HTML Theorem4.7/Remark4.8 reread: equality for special dg K[u] models / BS1, NOT ordinary Top^R. Full current priority and 1981 JPAA T66 still uninspected.
