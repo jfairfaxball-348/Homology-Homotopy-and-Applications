@@ -190,3 +190,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Finite 3²/4²/4³/5² Smith tests cannot prove universal validity or all-prime coverage; the symbolic Smith unit argument does that conditionally on field hypothesis.
 - 1981 and 2026 ring-valued original full proofs inaccessible; no novelty implication from abstract or negative search. FoCM qualitative rank resolutions not a succinct BIT result.
 - No new R5 exact certificate and no replacement original HHA homotopy application. Stage1 still open.
+
+## S031 lessons (14 October 2026)
+- Every-prime middle exactness is not just zero rational and zero integral middle homology; H0 of EACH cube may have torsion, whose Tor term creates mod-p H1. Explicit primitive-arrow square has Smith d1=(1,2): H1(Z)=0 but H1(F2) !=0. Unit Smith of each d_j plus rational middle rank equations gives finite exact replacement for infinitely many field tests.
+- Internal sheared tests now actually extract Z sections/retractions and recover full natural basis on every comparable pair; positive finite evidence is not universal proof or originality.
+- An algorithm enumerating 2^n stalks on an O(n) succinct Boolean-grid presentation is not a succinct polynomial decision algorithm, and does not itself yield hardness.
+- Full original 1981/2026 proofs not accessible: do not claim priority or select a flagship; ordinary homology-filtration interpretation is not an original homotopy theorem.

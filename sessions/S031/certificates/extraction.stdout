@@ -1,0 +1,4 @@
+{"axes": [4, 4], "vertices": 16, "composites": 100, "blocks": 11, "splits": 8, "split_ranks": 8, "births": 3, "recovered": true}
+{"axes": [4, 4, 4], "vertices": 64, "composites": 1000, "blocks": 14, "splits": 11, "split_ranks": 11, "births": 3, "recovered": true}
+{"axes": [3, 5], "vertices": 15, "composites": 90, "blocks": 9, "splits": 6, "split_ranks": 6, "births": 3, "recovered": true}
+ALL PASS

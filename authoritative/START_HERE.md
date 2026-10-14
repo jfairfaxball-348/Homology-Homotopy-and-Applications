@@ -19,3 +19,6 @@ S029-T65 has an internal proof of global integral B_n descent on all three-level
 
 ## S030 checkpoint (13 October 2026)
 T66 internal all-finite-product-chain integral global block descent supersedes the three-level S029 theorem. Proof, joint saturation and exact finite tests are in sessions/S030. Originality/HHA-significance unverified, no next-stage promotion; S028 Hopf remains retired as flagship. S031 FUTURE, UNEXECUTED.
+
+## S031 checkpoint (14 October 2026)
+T66 re-audited and new sheared integer full splitting extraction PASS on 4²/4³/3x5; T67 finite exact all-prime field block test via integral Koszul middle H=0 and H0 torsionfree / unit Smith and rank. Proof is LLO+UCT corollary, originality NOT established. Original 1981/2026 full proofs and novel homotopical application missing; Stage1 only. S032 FUTURE UNEXECUTED.

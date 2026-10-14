@@ -209,3 +209,9 @@ CLM-0139/0140 remain valid internal family statements. Their12 product strata us
 - **CLM-0156 COMPUTED_EXACT finite:** mixed sheared witnesses 3²,4²,4³,5², all comparable Smith, band rank inversions PASS; never universal.
 - **CLM-0157 SOURCE_STATED:** original FoCM2025 qualitative rank-exact resolutions do not themselves supply succinct BIT complexity.
 - **CLM-0158 INHERITED_UNVERIFIED:** T66 is first original HHA-level ring-valued result — NOT ESTABLISHED.
+
+### S031 (14 October 2026)
+- CLM-0159 PROGRAMME_PROVED (not originality-cleared): T67 exact integral middle Koszul+H0 torsion-free ⇔ Q/all-prime fieldwise LLO block decomposition, equivalently finite SNF unit/rank checks.
+- CLM-0160 COMPUTED_EXACT: sheared 4x4,4x4x4,3x5 full integer extraction (11,14,9 blocks), source and stdout in S031.
+- CLM-0161 PROGRAMME_PROVED: primitive Boolean square d1 Smith(1,2) has H0=Z/2 and anomalous F2 H1, sharp missing-H0 obstruction.
+- CLM-0162 INHERITED_UNVERIFIED: T66 originality/HHA application still unverified, Gate2 closed.

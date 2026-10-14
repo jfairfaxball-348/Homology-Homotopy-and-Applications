@@ -114,3 +114,6 @@ T65 is a substantive all-n *three-level* integral block-descent statement requir
 
 ## S030 target review (13 October 2026)
 T66 all finite-chain integral B(P) splitting is the strongest internal theorem; HHA selection **NOT YET**: need proof-level Keagy/Höppner-Lenzing originality confrontation and substantial genuine homotopy application. Earlier T65 subsumed; T64 Hopf retired as proposed flagship under LS Prop3.14. Alternative selected-for-investigation only: succinct nonprincipal LLO Problem1 k>=1 complexity, currently unsolved.
+
+## S031 target assessment — 14 October 2026
+T67 exact finite integral Koszul/UCT field-block certificate and stronger actual integer extraction close a substantive **internal verification** gap. However T67 is deduced from LLO Theorem14 and universal coefficients, likely standard; T66 still needs inaccessible 1981/Keagy full proof priority and demonstrably new homotopy consequence. Scores: correctness/internal 4/5; novelty assurance 1/5; substantive HHA homotopy significance 1/5; computation replicability 4/5. No flagship, no G2 promotion. S032 rethinks the mathematical target.

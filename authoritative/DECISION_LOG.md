@@ -190,3 +190,6 @@
 
 ## S030 — 13 October 2026
 Decision: internally prove T66 global all-length finite product-grid integral B(P) descent with *every comparable composite* primitive and Q/all-prime decomposability; do not claim original publication novelty. Full Keagy2026/Höppner–Lenzing1981 proof-level comparison blocked. Keep Stage1 IN_PROGRESS, all later gates shut. Competing LLO Problem1 succinct k>=1 and strict frozen R5 open. Hopf remains retired as original flagship. Prepare only S031 future.
+
+## 2026-10-14 — S031 decision
+T66 survives further internal hostile proof attack and constructive finite sheared tests, with no universal countermodel. T67 exact finite integer Koszul/UCT/Smith certificate proved, including indispensable H0 torsion control (not claimed priority-new). Gate2 and HHA flagship selection remain CLOSED: 1981 and Keagy2026 original full proof texts inaccessible, no indispensable homotopy-theoretic application, k>=1 succinct BIT open, frozen strict R5 open. Preserve S028 Hopf benchmark, retired as flagship. S032 only FUTURE, no downstream actions.

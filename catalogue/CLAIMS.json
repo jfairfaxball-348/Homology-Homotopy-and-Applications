@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-13",
+  "as_of": "2026-10-14",
   "claims": [
     {
       "id": "CLM-0001",
@@ -1493,6 +1493,44 @@
         "SRC-0069"
       ],
       "scope": "DO NOT PROMOTE; source-level full ring-valued comparison and meaningful homotopy application remain open."
+    },
+    {
+      "id": "CLM-0159",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T67: For a finite product-chain diagram in finite free Z-modules, block-decomposable over Q and all F_p iff on every k-cube every integral middle Koszul H_i (1<=i<k) vanishes and H0 is torsion-free; equivalently positive differential Smith invariants units plus rational middle rank equations.",
+      "sources": [
+        "SRC-0069",
+        "SRC-0073"
+      ],
+      "scope": "Direct field LLO Theorem14 plus standard finitely generated free-complex UCT/Smith. Originality not claimed; exact FINITE expanded input tester only."
+    },
+    {
+      "id": "CLM-0160",
+      "status": "COMPUTED_EXACT",
+      "claim": "Finite original sheared 4x4,4x4x4,3x5 B(P) examples were actually extracted over Z with explicit lattice sections/retractions and every-comparable-arrow naturality, recovering 11/14/9 chosen blocks.",
+      "sources": [],
+      "scope": "scripts/s031_integer_extract.py; sessions/S031/certificates/extraction.stdout; Python3 SymPy1.14 local seeds 31031/31032/31033, SHA256 script c2cf09879493cefe1fcb92abde94717541fe14f99ae414784b71f985edbf2a54, stdout c9a80127be0b36139fca72c9be92340af5925fd084c1633240d3a9ad1718a01b; not a universal proof."
+    },
+    {
+      "id": "CLM-0161",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Primitive-map Boolean square with d1 Smith (1,2) has integral H1=0 and H0=Z/2, Q and odd-prime field middle homology zero but F2 middle homology nonzero. Therefore H0 torsion check is essential for all-field block certification.",
+      "sources": [
+        "SRC-0073"
+      ],
+      "scope": "Explicit matrices and elementary exact Smith/UCT calculation; countercontrol violates all-field decomposition and is NOT a counterexample to T66."
+    },
+    {
+      "id": "CLM-0162",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S030 T66/T67 constitute a novel and significant HHA flagship theorem with an indispensable homotopy-theoretic application.",
+      "sources": [
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0069",
+        "SRC-0073"
+      ],
+      "scope": "DO NOT PROMOTE; 1981 and 2026 full original proofs not read, homotopy application absent, Gate2 closed."
     }
   ]
 }

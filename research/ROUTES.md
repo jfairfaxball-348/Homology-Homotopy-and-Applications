@@ -159,3 +159,6 @@ Coherent topology B: T62 all n>=1 finite algebraic R^(N-1) three-distance two-he
 
 ## S030 Front C structural proof and Front A competition
 T66 **INTERNAL** now extends T65 to arbitrary finite chain lengths and unequal products under all-composite purity and all-field B(P) decomposition. Closed supports = 2∏m_i−1+Σ(m_i−2)(m_i−1)/2. Ordered interval peel, shared integer q killing incoming I; details S030/MATHEMATICS.md. Not yet originality/HHA application passed. Front A original LLO Problem1 succinct nonprincipal k>=1 BIT complexity remains OPEN after full original FoCM Thm4.11/Prop4.5/4.17 review. Frozen R5 OPEN; Hopf T64 remains retired flagship.
+
+## S031 exact-certificate route and status
+T67 equates all-field LLO block decomposability on finite integral free product grids to zero Z-Koszul middle homology PLUS torsion-free H0 on each cube; equivalently differential Smith units and rational rank equations. Conditional on T66, add composite purity for one global Z-block basis. Integer sheared extraction 4²/4³/3x5 passed with full retractions/naturality, no T66 refutation. New homotopy application, source priority and original HHA flagship absent. Fixed k>=1 nonprincipal succinct complexity open; cube materialization expands exponentially but is not a lower bound for the decision problem. S023 R5 open, S028 Hopf retired as flagship. S032 FUTURE only.
