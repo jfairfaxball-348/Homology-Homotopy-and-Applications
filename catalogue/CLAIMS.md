@@ -352,3 +352,12 @@ See S038 full dossier and JSON scope.
 - **CLM-0241 PROGRAMME_PROVED (INTERNAL):** T111 unchanged five-sphere strict **attained** ε=5/4 HI against point iff finite [10] whole-diagram K~A with K10=point, one propagated vertex family, FIVE literal constants k→k+5 (k0..4). Sufficiency constructs all-real H via floor(2t) and both shifted identities.
 - **CLM-0242 INHERITED_UNVERIFIED:** Existence/nonexistence of GRID, strict ε∈(5/4,3/2), whether dHI=5/4 attained/as infimum or 3/2, fully independent published-bracket transport and HHA originality remain OPEN.
 - **CLM-0243 SOURCE_STATED:** Original LS Prop4.5 asserts poset projective-cofibrant filtered/mono condition; Wang–Xu/IWX original tables provide their fourfold bracket and h5n indeterminacy. Selected original passage access only; no new Adams proof.
+
+
+## S048 claims (14 October 2026)
+- **CLM-0244 PROGRAMME_PROVED (INTERNAL, conditional T108):** T112 exact rational epsilon strict-HI iff one whole-WE [5s] GRID(r,s), 2epsilon=r/s, all propagated literal constants; full-real floor and both identities.
+- **CLM-0245 PROGRAMME_PROVED (INTERNAL):** T113 dHI inf over rational feasible GRID(r,s) by monotonicity/density. No finite decision or endpoint attainment.
+- **CLM-0246 PROGRAMME_PROVED (INTERNAL source-dependent):** T114 excludes endpoint GRID subclass with all of 4->5,6->7,8->9 injective, hence excludes an *underlying projectively cofibrant* sSet chain with these exact equations. Does NOT exclude arbitrary K.
+- **CLM-0247 PROGRAMME_PROVED (classical local HEP):** one cofibration-relative null composite can be killed after homotopy; cannot iterate without retaining overlap cofibration and coherent tracks.
+- **CLM-0248 COMPUTED_EXACT:** four rational floor-sample diagnostics/constraint counts 5,7,11,2 passed; not a topological GRID search or formal proof.
+- **CLM-0249 INHERITED_UNVERIFIED:** unrestricted GRID yes/no, all eps in (5/4,3/2), exact dHI, independent bracket transport, novelty and HHA suitability still OPEN. S046 source-dependent bound only.

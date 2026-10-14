@@ -1,0 +1,15 @@
+# S048 adversarial audit and failed competing routes
+
+**First-order issue:** In an arbitrary solution to GRID(5,2), the maps K4->K5, K6->K7, K8->K9 need not be monomorphisms. Even if every K_j is individually CW/cofibrant, a structure WE can collapse points. The T114 contradiction is CONDITIONAL on three actual injections and nonzero bracket/transport, not a GRID impossibility theorem.
+
+**Relative model mistake explicitly avoided:** projective cofibrant replacement of a strict [10] diagram K as a diagram of ordinary chains has no reason to preserve literal constant composites: QK->K commutes, so QK composite lands in a fiber of QK_j->K_j but need not be constant. Cofibrancy as an ordinary [10] diagram is not a permissible w.l.o.g. assumption in the category of diagrams satisfying *equations*. To replace within that stricter category needs a relative model argument not supplied.
+
+**HEP construction attack:** T115 kills a single composite if a source-inclusion cofibration and chosen homotopy are already available. Repeating this while retaining injective/cofibration overlap inputs for j=0,2,4 would force a simultaneous mono GRID forbidden by T114 under the inherited bracket input. Therefore a naive cone/cylinder construction with all overlapping cofibrations is invalid. No proof that every noncofibrant arrangement fails was found; no witness was produced.
+
+**Homotopy coherence and pointings:** Three homotopy-zero pair composites do not supply the common relative 3-cell. Distinct local null tracks do not assemble into one full [10] zigzag; all five literal constants must use a single propagated x family. Unpointed target transport to a classical pointed sphere bracket still needs an independently checked argument, as S046 noted.
+
+**Real epsilon:** T112 samples rational 2epsilon=r/s, not an irrational real epsilon directly. T113 uses monotonicity and rational density at the INFIMUM and does not assert epsilon5/4 is attained, or that a small finite collection of rationals can determine the infimum. Four exact Fraction sample passes are only floor-index diagnostics. At epsilon4/3 the [15] GRID has seven constraints, not an actual strict interleaving.
+
+**Source veto:** 2017 Wang–Xu Cor1.10 states a bracket contains theta5. Zero-exclusion additionally relies on IWX2023 Table10 h5 n filtration and full classical interpretation; a new Adams proof was NOT executed. BJT2019, DKS1989 and LS2020/2023 already develop the relative/higher obstruction framework. The September 2026 Kuribayashi et al. equality applies to dg/BS1 scope, not arbitrary Top^R. Absence of located exact 11-grid published discussion is not a novelty certificate.
+
+**Verdict:** T112/T113 are internally complete rational reduction/infimum logic conditional on T108; T114 is a restricted source-dependent no-cofibrant-witness theorem; T115 is a standard local HEP lemma. Exact GRID and dHI remain OPEN, no HHA-certified flagship.

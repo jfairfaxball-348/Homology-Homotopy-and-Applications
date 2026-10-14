@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14 S047",
+  "as_of": "2026-10-14 S048",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2331,6 +2331,68 @@
         "SRC-0096"
       ],
       "scope": "Selected original proof/table access, no independent classical Adams/Moss rederivation, no guarantee T111 novel."
+    },
+    {
+      "id": "CLM-0244",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S048 T112: conditional on S046 T108, for rational 2epsilon=r/s in lowest terms, attained strict all-WE epsilon HI for unchanged F versus G point is equivalent to one [5s] diagram K~A^s with K5s=* and all propagated literal length-r constants j->j+r for 0<=j<5s-r; floor(st) extension proves all real cuts and both identities.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094"
+      ],
+      "scope": "INTERNAL exact equivalence; no GRID existence decision. T108 and full diagram-level model considerations are inherited, unrefereed."
+    },
+    {
+      "id": "CLM-0245",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S048 T113: by monotonicity/density, dHI of unchanged F,G equals infimum of rational epsilon whose finite GRID(r,s) is feasible, under T112/T108; equality dHI=5/4 requires feasible rational grids arbitrarily close above, whether or not endpoint GRID(5,2) is feasible.",
+      "sources": [
+        "SRC-0083"
+      ],
+      "scope": "INTERNAL quantified infimum characterization; NOT a finite algorithm, not attained endpoint proof, not an exact dHI value."
+    },
+    {
+      "id": "CLM-0246",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S048 T114: assuming source-dependent zero-excluded <2,theta4,theta4,2> plus whole-WE pointed/stable transport, no [10] GRID(5,2) witness can have all three maps 4->5,6->7,8->9 injective, so no projectively cofibrant underlying sSet ordered-chain K with exact five constants.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "INTERNAL CONDITIONAL restricted no-go ONLY; no arbitrary GRID impossibility, and ordinary projective replacement fails to preserve literal constants."
+    },
+    {
+      "id": "CLM-0247",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S048 T115 local HEP lemma: cofibration i:A->Y and prescribed nullhomotopy of vi permit homotopic v' with v'i literally constant; if v was a WE so is v'. No iterative full GRID strictification follows without compatibility/cofibration preservation.",
+      "sources": [
+        "SRC-0091",
+        "SRC-0095"
+      ],
+      "scope": "INTERNAL elementary standard HEP consequence, not original and not an actual K witness."
+    },
+    {
+      "id": "CLM-0248",
+      "status": "COMPUTED_EXACT",
+      "claim": "S048 finite Fraction sampled clock diagnostic passes four rational epsilons 5/4,4/3,7/5,3/2 and count constraints 5,7,11,2; no objectwise topology or GRID existence tested.",
+      "sources": [],
+      "scope": "Python 3 standard-library Fraction, only predeclared 120s mesh samples each. SHA256 script 787bd076fe8196c7eabc54bfd6ddd3a6069b743021e2135bc7169e254bd3f369, output c5c43a7db74ce26541e06b062a7fca1e0c11560f00a5b1e0d1455cf4c38414a4; symbolic equality independently proved."
+    },
+    {
+      "id": "CLM-0249",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S048 does NOT settle original unrestricted nonmonic GRID(5,2), GRID(8,3), all epsilon in (5/4,3/2), exact dHI/attainment, independent full Adams and Top bracket transport, or originality/HHA publication.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0084",
+        "SRC-0091",
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "Inherited INTERNAL dIHC=1 and source-dependent 5/4<=dHI<=3/2 only. Stage1; G2 NOT_STARTED."
     }
   ]
 }
