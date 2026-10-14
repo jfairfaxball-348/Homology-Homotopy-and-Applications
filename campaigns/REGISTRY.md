@@ -109,3 +109,6 @@ S044 T102 source-dependent bracket zero-exclusion from published IWX2023 Table4 
 
 ## S047 campaign boundary (2026-10-14)
 No new exhaustive search, numerical dataset, script, independent computation or cryptographic output hash was claimed or run. T110 rational/real timestamp inequalities and T111 floor(2t) half-grid equivalence were checked symbolically and proved in sessions/S047/MATHEMATICS.md; not a machine certificate and not an exhaustive search of K diagrams. Frozen R5 original 16,471 cases remain OPEN, T66/1981 and T84 unchanged. S048 future only.
+
+## S049 checkpoint
+Active sole mathematical front: unrestricted nonmonic half-grid GRID(5,2) and rational GRID(8,3) for unchanged Wang–Xu five-sphere filtration; T116 monotonic witness transfer, T117 cofinal (10m+1,4m) infimum grid family, T118 five source/target types INTERNAL. No topological GRID model/no-go, exact dHI, relative tertiary invariant or novelty first gate. S050 FUTURE UNEXECUTED; T66 original full all-prime/integral, R5 16471, Hopf retired/T84 frozen.

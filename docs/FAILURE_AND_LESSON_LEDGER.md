@@ -318,3 +318,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - **Infimum ≠ endpoint:** T112 rational exact existence and T113 rational density reduce the search logically, not algorithmically. GRID(5,2) failure alone leaves possibility dHI=5/4 unattained. epsilon4/3 gives GRID(8,3) seven equations but no witness or obstruction yet.
 - **Arithmetic checks ≠ topology:** Fraction grids at eps5/4,4/3,7/5,3/2 test only floor shifts and constraint counts, not any K or universal epsilon interval.
 - **Primary-source honesty:** a direct publisher abstract isn't complete Adams proof; IWX h5n/full pointed/stable comparison and DKS/BJT relative originality must still be examined. Springer 2026 dg equality is not ordinary Top^R.
+
+## S049 adversarial lessons
+- Rational-grid monotonicity T116 is genuinely constructive only conditional on an existing K. It cannot produce a witness from pointwise nullhomotopies and cannot reverse GRID(8,3) to endpoint.
+- Even/odd halfstage WE maps may collapse nonconstant images; whiskered sphere WE demonstrates that a constant postcomposition cannot cancel a nonmonic WE. S048 T114 still only excludes all-three-injective K, not unrestricted GRID.
+- Literal constraints j1 and j3 involve triple-stage overlaps; locally killing three pair composites by mapping cylinders/HEP is not a compatible five-constraint solution. No relative 3cell/cocycle computed.
+- All five stage-types persist over (5/4,3/2), so a claimed 4/3 homotopy phase must use more than original stage ordering.
+- Infinite cofinal family GRID(10m+1,4m) is a mathematical criterion for infimum under existing assumptions. Testing eight m values is only an arithmetic diagnostic, not eight topological witnesses or compactness.
+- Literature original LS Remark3.13 and BJT §7.A already frame the broad obstruction/priority issue; 2026 dg case not Top^R. Selected source inspection does not certify all classical bracket transport.

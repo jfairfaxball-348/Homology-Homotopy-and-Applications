@@ -2393,6 +2393,52 @@
         "SRC-0096"
       ],
       "scope": "Inherited INTERNAL dIHC=1 and source-dependent 5/4<=dHI<=3/2 only. Stage1; G2 NOT_STARTED."
+    },
+    {
+      "id": "CLM-0250",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S049 T116: every finite whole-zigzag GRID(r,s) witness induces an explicit GRID(r',s') witness for every r'/s'>=r/s by monotone sigma(j)=min(5s,floor(sj/s')), preserving all literal constants and one propagated vertex family. In particular a hypothetical GRID(5,2) implies GRID(8,3) by seven exact arrow factorizations.",
+      "sources": [],
+      "scope": "INTERNAL exact finite diagram argument. No GRID witness for the original spheres constructed."
+    },
+    {
+      "id": "CLM-0251",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S049 T117: for m>=1 coprime r_m=10m+1,s_m=4m and epsilon_m=5/4+1/(8m), under T108/T112 plus source-dependent lower dHI>=5/4, dHI=5/4 iff GRID(r_m,s_m) holds for unbounded m, equivalently every m. Failure of any single above-endpoint grid would imply strict distance>5/4; no such failure proved.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094",
+        "SRC-0096"
+      ],
+      "scope": "INTERNAL conditional on inherited original rational-grid equivalence and source-dependent lower bound. No attainment or effective infinite decision."
+    },
+    {
+      "id": "CLM-0252",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S049 T118: for all 5/4<epsilon<3/2, exactly five original nonterminal source/target filtration stage-pair types (0,2),(0,3),(1,3),(1,4),(2,4) occur for length-2epsilon arrows. GRID(8,3) has seven constraints and source-target sequence (0,2),(0,3),(0,3),(1,3),(1,4),(1,4),(2,4). A 4/3 threshold cannot be inferred from stage types alone.",
+      "sources": [],
+      "scope": "INTERNAL floor arithmetic, not invariance of full homotopical obstruction or existence."
+    },
+    {
+      "id": "CLM-0253",
+      "status": "COMPUTED_EXACT",
+      "claim": "S049 bounded Python standard-library finite checks: seven endpoint-to-4/3 resampling index rows, cofinal grids m1..8 with all nonterminal stage-type counts and four sample rational delta meshes PASS assertions; NOT exhaustive topology nor arbitrary-real completeness.",
+      "sources": [],
+      "scope": "Code SHA256 39e0fca0f3c5b00c9f24401c33715f9925d37046130bf254511d59855b52f344; stdout b7350b99b8612e6641773a887ac8c2da0eee6631601ef5d047ebfd61ca27b99f; symbolic independent argument in S049 MATHEMATICS."
+    },
+    {
+      "id": "CLM-0254",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S049 failed to construct or rule out unrestricted nonmonic GRID(5,2), GRID(8,3), coherent all-five relative three-cell, possible unattained endpoint or exact dHI; original Adams/full classical unpointed/pointed transport and HHA novelty remain uncertified.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0084",
+        "SRC-0091",
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "Stage1 IN_PROGRESS/G2 NOT_STARTED. Internal source-dependent 1=dIHC<5/4<=dHI<=3/2 maintained."
     }
   ]
 }
