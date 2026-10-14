@@ -66,3 +66,7 @@ S043-T100 INTERNAL coherent derived-[2] theta2 point-nullity for the unchanged W
 
 ## S044 checkpoint (14 October 2026)
 S044 T102 source-dependent bracket zero-exclusion from published IWX2023 Table4 h5 f1 and n f5 / Table10 h5² f2 and h5 n indeterminacy f>=6; Adams and full classical transport not independently rederived. T103 four strict all-replacements integer-ladder equations (two naturality and both shifted identities). NO proof contractible nonpoint U forces zero Toda bracket and NO strict HI1 witness. Hence dIHC=1 INTERNAL, dHI∈{1,3/2} OPEN, no HHA gap or novelty gate. Stage1 continues, S045 FUTURE UNEXECUTED, Lean/Palomar/manuscript/submission untouched. Frozen T66/1981, R5 16471, Hopf and T84.
+
+
+## S045 checkpoint (14 October 2026)
+S045 T104 whole-shoelace projective simplicial/CW replacement preserves both strict identities under ALL objectwise WEs, T105 coherent finite ladder basepoints, T106 LS-published threefold local Toda vanishing, T107 nonpoint full-real strict control; NO fourfold tertiary filler or target HI1 countermodel. dIHC=1 INTERNAL; dHI in {1,3/2} OPEN. Stage1/G2 closed, S046 future only. T104 does NOT justify unilateral G→point or a naturally coherent tertiary contraction; T105 strict pointed staircases do NOT supply matched secondary fillers. S046 FUTURE UNEXECUTED; downstream owner-gated activities unchanged.

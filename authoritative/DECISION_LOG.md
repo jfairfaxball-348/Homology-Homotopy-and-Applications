@@ -271,3 +271,10 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - DEC-S044-B: strict HI1 requires ALL of N-a,N-b,I-F,I-G and arbitrary objectwise weakly contractible replacements. Reject unilateral G'→point.
 - DEC-S044-C: no full tertiary cone extension or strict G' witness; dHI=1 or1.5 OPEN, no gap, Stage1/G2 closed.
 - DEC-S044-D: S045 FUTURE only, no formal/publication; original DKS/HKM/1981 access limits and frozen branches retained.
+
+
+## S045 decisions (2026-10-14)
+- DEC-S045-A: Accept T104 standard **WHOLE strict shoelace** simplicial projective CW replacement, preserving both interleaving identities and all real-time morphisms; U nodes become contractible CW. This is not a point-side collapse and does not imply natural relative contractions.
+- DEC-S045-B: Accept elementary T105 staircase basepoint lemma. T106 derives only local threefold Toda zero from published LS2023 Prop3.10, not any fourfold coherent tertiary nullity.
+- DEC-S045-C: Accept T107 exact full-real nonpoint strict control with nonconstant crossing maps for a different *zero-two-composite* F; explicitly reject promoting it to witness for (2,theta4,theta4,2).
+- DEC-S045-D: S045 unresolved dHI=1 or1.5, no HHA-original result; G2 closed. Freeze T66/1981, R5 16471, Hopf/T84; S046 FUTURE only; no downstream activity.

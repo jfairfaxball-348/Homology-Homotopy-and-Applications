@@ -287,3 +287,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - T102 passed filtered-group logic based on original table; neither independent Adams proof nor all-replacements HI lower.
 - Failed: replacing weakly contractible nonpoint U_i by point changes strict relations; contracting each U_i individually does not exhibit the common tertiary filler; cone factorisation of eta² in Ho loses opposite STRICT interleaving identity.
 - The exact missing lemma: the FULL (N-a,N-b,I-F,I-G) strict ladder forces zero fourfold Toda with all unpointed WE zigzags, or explicit G' witness refutes it. No theorem promotion.
+
+
+## S045 lesson
+- Solved narrow technical blocker: replacing the **ENTIRE** strict interleaving shoelace diagram with CW models via Sing/projective cofibrant replacement/realisation works, preserving all four equations and real times. But CW-contractible U objects do NOT yield one strictly natural contraction relative to mixed F maps.
+- Exact coherent basepoints on relevant 4arrow X/U staircase exist (T105), so local unpointed loops cannot be invoked as an unexamined obstruction; this says nothing about the tertiary nullhomotopy class.
+- LS2023 threefold local obstruction applied twice does NOT prove the overlapping secondary choices have one tertiary gluing; BJT 4map zero-composite criterion is not the strict all-WE shoelace bridge.
+- Explicit nonpoint interval control with nonconstant a0,b0 satisfies BOTH strict identities at ALL real cuts (T107); its zero length-two F maps are not the target theta4 chain. Do not claim target HI1 from such a control.
+- T102 published filtration arithmetic visually reconfirmed, not an independent proof of Adams stable stems/classical bracket conventions. No novelty/HI separation promotion.

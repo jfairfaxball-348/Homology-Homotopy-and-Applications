@@ -331,3 +331,11 @@ See S038 full dossier and JSON scope.
 - CLM-0228 PROGRAMME_PROVED **INTERNAL SOURCE-DEPENDENT**: published h5² f2 nonzero class cannot be cancelled by h5 n f>=6 in full table-listed fourfold bracket; source/classical conventions to referee, not HI obstruction.
 - CLM-0229 PROGRAMME_PROVED **NECESSARY** strict HI1 integer ladder N-a,N-b,I-F,I-G, all replacements and BOTH identities.
 - CLM-0230 INHERITED_UNVERIFIED: arbitrary contractible-G' ladder forces Toda zero or explicit strict HI1 witness; NONE proved, gap unresolved.
+
+
+## S045 claims
+- **CLM-0231 PROGRAMME_PROVED (standard consequence):** any all-real strict shoelace with weakly contractible G' admits *whole-category* objectwise WE to a CW-valued strict shoelace with contractible G' stages, preserving both identities. NO natural mixed relative contraction asserted.
+- **CLM-0232 PROGRAMME_PROVED:** T105 strictly coherent staircase basepoints x_(i+1)=f_i(x_i), z_(i+1)=a_i(x_i), with u_(i+1)z_(i+1)=z_(i+2), b_(i+1)z_(i+1)=x_(i+2) on the relevant finite ladder.
+- **CLM-0233 PROGRAMME_PROVED / source-dependent:** T106 local threefold Toda zero by directly applying LS2023 Prop3.10 to each pair of contractible U stages; NO common fourfold tertiary filler.
+- **CLM-0234 PROGRAMME_PROVED:** T107 full-real nonpoint interval G' control, nonconstant a0,b0 and both strict identities, for alternating id/zero F, NOT original Wang–Xu sphere chain.
+- **CLM-0235 INHERITED_UNVERIFIED:** both options dHI=1 or1.5 for the unchanged five-sphere example remain open; neither all-replacements fourfold obstruction nor strict HI1 witness.

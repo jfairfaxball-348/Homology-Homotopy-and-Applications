@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-14 S045",
   "sources": [
     {
       "id": "SRC-0001",
@@ -745,7 +745,7 @@
       "url": "https://arxiv.org/pdf/2010.05378",
       "origin": "Original arXiv v3 PDF full extracted text and visual page inspection",
       "access": "PROOF_INSPECTED",
-      "limitation": "Selected §§2.2.2,3.2 Prop3.10/12 and 3.3 only; this is v3 not full separate journal publisher proof inspection.",
+      "limitation": "Selected §§2.2.2,3.2 Prop3.10/12 and 3.3 only; this is v3 not full separate journal publisher proof inspection. S045: Original accessible v1 Prop3.10 specific two-contractible-node diagonal proof reinspected; does not contain a proved fourfold all-replacements analogue.",
       "observed": "Categories Ho(M^R) vs Ho(M)^R; source nonzero <2,eta3,2>, Prop3.10, Remark3.13 two open inequalities, general upper d_HI<=2d_HC."
     },
     {
@@ -754,7 +754,7 @@
       "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
       "origin": "Original 2026 publisher open full HTML introduction, §2.3, statement 3.3",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Not an exhaustive reread of all proofs; equalities concern persistence dg modules, not ordinary Top^R.",
+      "limitation": "Not an exhaustive reread of all proofs; equalities concern persistence dg modules, not ordinary Top^R. S045: 2026 original publisher Theorem4.7 and Remark4.8 rechecked: equality in specified dg K[u] / BS1 scope, not ordinary Top^R.",
       "observed": "12 Sept 2026 version of record; dg-module over field distances equal; singular-cochain induced invariant for spaces over BS1 distinguished."
     },
     {
@@ -844,7 +844,7 @@
       "url": "https://archive.ymsc.tsinghua.edu.cn/pacm_download/293/8755-61sphere_final.pdf",
       "origin": "Original 2017 paper PDF, pp3–4 and corollary proof",
       "access": "PROOF_INSPECTED",
-      "limitation": "Only local Cor1.10 and short proof inspected; underlying Adams/Moss computations not reverified.",
+      "limitation": "Only local Cor1.10 and short proof inspected; underlying Adams/Moss computations not reverified. S045: Original 2017 PDF printed p4 Cor1.10 proof directly visually verified again; only corollary proof, not full Adams/Moss machinery.",
       "observed": "theta4 squared zero, pi61 zero, nonzero theta5 in strictly defined 4-fold bracket <2,theta4,theta4,2>."
     },
     {
@@ -862,7 +862,7 @@
       "url": "https://www.numdam.org/item/10.1007/s10240-023-00139-1.pdf",
       "origin": "Original open-access publisher/deposit full PDF, directly viewed printed pp114,212,228 and metadata; S043",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Selected original tables only, not full Adams proof; indeterminacy h5 n listed, no independent full zero-exclusion or all-WE HI theorem checked. S044 did not independently reproduce Adams proof or full classical transport/indeterminacy conventions.",
+      "limitation": "Selected original tables only, not full Adams proof; indeterminacy h5 n listed, no independent full zero-exclusion or all-WE HI theorem checked. S044 did not independently reproduce Adams proof or full classical transport/indeterminacy conventions. S045: Original 2023 PDF screenshots p214 Table4/p228 Table10 directly verified S045; full classical bracket conventions/Adams computations still not independently redone.",
       "observed": "Stable pi61^S=0 across primes; Table1 theta5=h5^2 in stem62; Table10 row (62,32) <2,theta4,theta4,2> contains h5^2 with indeterminacy h5 n. S044 Table4 printed p214 gives h5 filtration1, n filtration5; Table10 p228 lists h5² and full h5n indeterminacy; internally deduced zero-exclusion by f2 versus f>=6."
     }
   ]
