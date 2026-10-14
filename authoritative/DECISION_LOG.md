@@ -251,3 +251,10 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - **DEC-S041-B** Accept INTERNAL T96 five-stage epsilon3/2 IHC=>HI with both real-time identities and full-diagram spans, conditional on T87; T97 leaves only numerical epsilon1 vs1.5 gap.
 - **DEC-S041-C** No proof of full theta2=0 epsilon1 rectification and no finite CW replacement-invariant counterexample. All four essential necessary but not sufficient; G2 novelty gate CLOSED.
 - **DEC-S041-D** Original DKS1989 relative theory + track2002 and Baues–Blanc2011 priority kills automatic originality; T84 remains in-house derivative, T66 original 1981 unchecked, strict R5 OPEN, Hopf retired. S042 future only, no formalisation or submissions.
+
+
+## S042 decisions
+- DEC-S042-A: T98 source-dependent all-WE 4fold bracket obstruction for sphere chain, T99 HEP upper bound; exact dHI=3/2 INTERNAL, not original Wang–Xu stable computation.
+- DEC-S042-B: dIHC in {1,3/2}, not dIHC=1. Vanishing separate triple Toda groups does NOT imply coherently null theta2. No HI>IHC witness.
+- DEC-S042-C: Blanc–Johnson–Turner2019 original 4map operation/rectification is new **prior art discovered**, in addition to DKS1989, HKM2002, Baues–Blanc2011, LS2023; G2 closed.
+- DEC-S042-D: S043 FUTURE unexecuted; T66/1981, strict R5 16471, retired Hopf, derivative T84 preserved. No Lean/Palomar/paper/arXiv/HHA/contacts.

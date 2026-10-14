@@ -51,3 +51,6 @@ Internal T75/T76 proof candidate for a source-stated 2023 homotopy-interleaving 
 
 
 **S041 update (14 October 2026):** INTERNAL T95 relative HEP insertion preserves C when compressing hg and invoking S039 T87; T96 now strictifies every five-stage point-target IHC epsilon=3/2 case (conditional on still-internal T87). T97 confines any five-stage HI>IHC difference to exact (1,3/2), with four essential primitive maps and coherent theta2 null. No such epsilon1 gap witness and no universal strictification, original DKS1989/track2002 priority severe. Stage1/G2 closed, S042 FUTURE ONLY, no Lean/Palomar/manuscript/arXiv/HHA.
+
+
+**S042 (14 October 2026):** New INTERNAL source-dependent exact dHI=3/2 for the five finite simply connected sphere chain S160--2--S160--theta4--S130--theta4--S100--2--S100 against point, via original Wang–Xu2017 nonzero STRICTLY DEFINED fourfold Toda and elementary HEP. **dIHC remains 1 OR 1.5**, since derived-[2] theta2 coherent zero is UNPROVED. Blanc–Johnson–Turner2019 prior classical fourfold obstruction theory newly checked. No HI>IHC witness or HHA originality; Stage1/G2 closed, S043 FUTURE.

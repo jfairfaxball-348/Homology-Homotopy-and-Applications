@@ -97,3 +97,6 @@ All 66 P0..10 intervals crossed with all six critical A0,3,7 rectangles, 396 bru
 
 
 - **S041 2026-10-14**: mathematical relative HEP proof and paper stage-cut verification only; **no new finite computational campaign/exhaustive tests, no CPU output/hash claimed**. T95–T97 internal, conditional on S039 T87. Strict R5 16,471 pairs untouched OPEN; other archival checks retained.
+
+
+- S042 2026-10-14: No new numerical enumeration or executable certificate. The inequality 162<=198 is a written Freudenthal range check only; Wang–Xu's Adams/Moss computation sourced, NOT rerun. T98/T99 internal deduction, no Lean/Palomar or R5 run. S043 FUTURE.

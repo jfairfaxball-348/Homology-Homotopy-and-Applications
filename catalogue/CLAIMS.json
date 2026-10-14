@@ -2097,6 +2097,37 @@
         "SRC-0092"
       ],
       "scope": "NOT ESTABLISHED; remaining all-essential case, original 1989/2002 proof-priority, external referee, indispensable application all missing."
+    },
+    {
+      "id": "CLM-0221",
+      "status": "SOURCE_STATED",
+      "claim": "Wang–Xu Corollary1.10 original strictly defined nonzero 4fold Toda <2,theta4,theta4,2> contains theta5 and theta4 squared zero.",
+      "sources": [
+        "SRC-0094"
+      ],
+      "scope": "Original paper computation, NOT independently redone."
+    },
+    {
+      "id": "CLM-0222",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S042 INTERNAL source-dependent exact five-stage point-target dHI=3/2 for sphere chain S160,S160,S130,S100,S100, arrows (2,theta4,theta4,2), all-model strict zero forbidden by stable nonzero fourfold bracket, HEP upper.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0083"
+      ],
+      "scope": "Uses standard 4fold bracket naturality and published strictly defined meaning; needs outside referee, no IHC1 proof."
+    },
+    {
+      "id": "CLM-0223",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "For S042 five-sphere chain theta2 point-null in Ho(Top^[2]) or full-real IHC1 / dHI>dIHC.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0091"
+      ],
+      "scope": "NOT established; dIHC only 1 or3/2. Two separate triple Toda vanishing conditions inadequate."
     }
   ]
 }

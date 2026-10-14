@@ -204,3 +204,7 @@ Topological primary: T91 derived [2] theta2 zero model; T92 INTERNAL: all four p
 
 ## S041 tightened route
 T95 insertion after four-stage T87 compression p=hg yields T96 INTERNALLY: at epsilon1.5 all five-stage point-target IHC witnesses strictify; T97 possible positive gap ONLY IHC1/HI1.5, requiring coherent theta2=0 and four essential primitive arrows. Main goal for S042: genuinely settle epsilon1 simultaneous gf,hg,kh zero after all replacements or finite CW no-go with invariant. No new novel HHA original result currently. 1989 DKS relative theorem/2002 2-track priority strong; T84 derivative, T66/1981, R5, Hopf frozen.
+
+
+## S042 new precise front
+Chain S160,S160,S130,S100,S100 arrows (2,theta4,theta4,2) yields INTERNAL source-dependent exact HI1.5 and bracket invariant prohibits WE strict all 2-composites zero. **One binary missing coherence:** theta2 derived-[2] null? If yes prove full-real IHC1 => actual 1-to-1.5 gap; if not equality 1.5-to-1.5. S043 concentrate on original Wang–Xu 2017 fourfold and Blanc–Johnson–Turner2019 4map rectification machinery; no other broad routes until decision. T66/1981/R5/Hopf/T84 frozen. G2 closed.

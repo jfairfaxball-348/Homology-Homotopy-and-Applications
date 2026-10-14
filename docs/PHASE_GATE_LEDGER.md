@@ -109,3 +109,7 @@ Stage1 IN_PROGRESS. T91–T94 internally establish only conditional five-stage s
 
 ## S041 gate — 2026-10-14
 Stage1 IN_PROGRESS. INTERNAL T95/T96/T97 close epsilon3/2 for five-stage point-step under S039 T87, but all-essential coherent theta2=0 epsilon1 remains unproved and no replacement-invariant gap witness. This is a DKS-relative/HEP descendant, NOT a novel HHA-impact theorem without external proof/prior-art referee. **First novelty G2 NOT_STARTED**, Lean G3/final novelty G4 not started, Palomar/manuscript/arXiv/HHA/contacts not undertaken. T66 full1981 JPAA source open, strict R5 16,471 OPEN, Hopf flagship retired. S042 FUTURE ONLY.
+
+
+## S042 gate — 2026-10-14
+Stage1 IN_PROGRESS. Internal exact HI=3/2 source-dependent on Wang–Xu original 4fold Toda sphere chain, dIHC still 1 or 3/2 and theta2 coherence OPEN. Classical Blanc–Johnson–Turner2019 4map rectification priority blocks novelty. G2 first originality audit NOT_STARTED/CLOSED; Lean and downstream untouched. T66/1981, R5 16,471 and Hopf retirement preserved. S043 FUTURE.

@@ -153,3 +153,7 @@ No HHA-ready original flagship. T87/T88 significant internal restricted equality
 
 ## S041 target scoreboard
 Topological five-stage point step: T95/T96 internal epsilon1.5 no-gap theorem (dependent on T87), proof credibility internal 3/5, novelty 1/5 (relative HEP and DKS1989), HHA application 2/5 (no indispensable new application). T97 numerical frontier only epsilon1 to epsilon1.5, no constructed surviving witness. ALL FOUR essential necessary but not sufficient. Original HHA flagship NONE, Stage1/G2 closed. Algebraic T84 S018 derivative, T66 original1981 pending, R5 16,471 OPEN, S028 Hopf retired. S042 future.
+
+
+## S042 target audit
+Originality of Toda computation 0/5 (Wang–Xu2017); classical four-map obstruction via Blanc–Johnson–Turner2019. INTERNAL HI1.5 exact sphere chain substantial specificity but IHC1 UNSOLVED; mathematical significance conditional on actual derived-[2] computation. No original HHA flagship. S043 FUTURE, no G2 promotion. Frozen T66/1981, strict R5 16471, retired Hopf.

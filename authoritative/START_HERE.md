@@ -55,3 +55,7 @@ S040 T91 projectively cofibrant derived-[2] map and T92 conditional five-stage c
 
 ## S041 checkpoint (14 October 2026)
 S041 T95 relative insertion reinstates intermediate C after compressing p=hg; T96 INTERNAL conditional on T87 closes five-stage point-target epsilon3/2 IHC-to-HI strictification and T97 reduces the ONLY numerical gap possibility to (dIHC,dHI)=(1,3/2) with four essential primitive arrows and derived-[2] coherent theta2 null. Epsilon1 all-essential universal rectification/counterexample OPEN; priority DKS1989/track2002 blocks Stage2. S042 FUTURE UNEXECUTED; no Lean/Palomar/manuscript/arXiv/HHA/contact.
+
+
+## S042 checkpoint (14 October 2026)
+Internal source-dependent dHI=3/2 on five simply connected finite spheres S160,S160,S130,S100,S100 with arrows (2,theta4,theta4,2), using Wang–Xu2017 original strictly defined nonzero 4fold Toda and middle hg HEP. Derived theta2 null / whole-real dIHC1 NOT proved, so no distance gap; dIHC in {1,3/2}. Blanc–Johnson–Turner2019 4fold rectification strong prior art; no original HHA flagship, Stage1, S043 FUTURE only.

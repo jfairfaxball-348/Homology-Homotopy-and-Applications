@@ -1,0 +1,34 @@
+# S042 — fourfold Toda lower bound and exact five-stage HI calculation
+
+**Evidence:** T98 is an INTERNAL inference from a pre-existing SOURCE-STATED theorem, not a fresh Toda calculation; T99 is an elementary HEP construction. The S042 HI/IHC separation remains UNPROVED.
+
+## Setting and critical distinction
+Let F be empty before t=0, then the five successive CW stages A,B,C,D,E on [0,1),[1,2),[2,3),[3,4),[4,5), and point afterwards. G is empty before 0, point thereafter. Homotopy interleavings HI require strict transformations after objectwise weak equivalence of entire R-diagrams; IHC means interleavings in Ho(Top^R), not Ho(Top)^R. Every real time, both natural-transformation identities, and compatible unpointed basepoints matter.
+
+At epsilon1, an HI interleaving forces all of gf:A->C, hg:B->D and kh:C->E to be literally constant in ONE full-diagram weak-equivalent model, since the 2-shift F(t)->F(t+2) must literally factor through G. Conversely such a model permits a strict epsilon1 interleaving via propagated points. At epsilon1.5 only hgf:A->D and khg:B->E survive as nonterminal 3-shift arrows.
+
+## T98 — a concrete source-grounded all-replacement obstruction
+**Original published input** (SRC-0094): Wang and Xu, arXiv:1601.02184v4 (2017) Corollary 1.10 and its proof, show the Kervaire class theta4 in stable stem 30 has theta4^2=0, the relevant triple bracket lies in pi61^S=0, and the **strictly defined fourfold Toda bracket** <2,theta4,theta4,2> contains the nonzero Kervaire class theta5 in pi62^S. The original Adams/Moss computation is NOT repeated here. The fourfold bracket is a classical object, not a new discovery.
+
+Take N=100. Realize stable theta4 in ordinary sphere maps in the stable range, obtaining the explicit ordered chain:
+   A=S^160 --f=degree2--> B=S^160 --g=theta4--> C=S^130 --h=theta4--> D=S^100 --k=degree2--> E=S^100.
+Because N+62=162 <= 2N-2=198, stabilization is within the Freudenthal stable range for all operations used. These are finite simply connected CW stages. All primitive maps are essential: degree 2 is essential and theta4 is nonzero in the stable range. The three consecutive composites gf, hg, kh are nullhomotopic since 2 theta4=0, theta4^2=0, and theta4 2=0. They need not be literal point maps.
+
+**Strictification obstruction:** If any weak-equivalent replacement of the ENTIRE chain had all three consecutive twofold composites literally point, choose their constant nullhomotopies and constant compatible secondary tracks. Such a strictly square-zero diagram supplies zero as a value of its fourfold Toda operation. Objectwise weak-equivalence zigzags of simply connected CW-type diagrams transport the bracket subset; passing to suspension spectra sends zero to zero. Under the original paper's strictly-defined, nonzero bracket computation, zero is NOT among <2,theta4,theta4,2>. Contradiction. Hence, subject to standard bracket functoriality and verification of the original 'strictly defined' indeterminacy convention, NO weak-equivalent full five-chain can simultaneously kill gf, hg, kh literally. This is stronger than a failed representative and is an internally argued ALL-REPLACEMENTS obstruction, not an independently computed 4-fold bracket.
+
+For epsilon<1, surviving primitive maps (if 1/2<=epsilon<1) or identities (epsilon<1/2) preclude point-step interleaving. For 1<=epsilon<1.5, the same three length-two maps survive, and the universal obstruction excludes HI. Thus dHI>=1.5.
+
+## T99 — strict upper bound independent of derived [2] coherence
+Since the middle composite hg is nullhomotopic, replace g:B->C by inclusion j:B->M_g into the mapping cylinder, with deformation retraction r:M_g->C. The composite (h r)j=hg is null. By the homotopy extension property of j, deform h r to h' with h'j a literal point map. The edge homotopy produces a weak-equivalence span of whole five-stage diagrams by replacing downstream vertices with suitable free path spaces and endpoint evaluations, as in S039; no appeal to the unrefereed derived-arrow strictification T87 is needed. Now both h'j f and k h'j are literally constant. A point of A propagated through all primitive arrows determines a strictly natural psi:G->F'^(3/2), while phi:F'->G^(3/2) is unique. The identity psi^(3/2) phi=eta_F'^3 holds for t in [0,1) and [1,2) by the killed triple composites and for t>=2 via the terminal point; phi^(3/2) psi=eta_G^3 holds automatically, with empty t<0 and half-open integer boundaries treated exactly. Therefore dHI<=1.5.
+
+**Conclusion (internal, source-dependent):** dHI(F,G)=3/2. This is not a new stable-homotopy calculation or a new HHA flagship.
+
+## The exact unresolved bridge
+All four arrows are essential, so dIHC>=1 by restriction to integer times. Since dIHC<=dHI=1.5 and possible thresholds are discrete, dIHC is either 1 or 1.5. The S040 derived-[2] morphism at epsilon1 is
+  theta2=(gf,hg,kh):(A->f B->g C) -> (C->h D->k E).
+To prove IHC1 one must show the ENTIRE real 2-shift eta_F^2 is null in Ho(Top^R), beginning with a coherent path in derived Map_[2]. For projectively cofibrant Q(A->B->C), the strict equalizer path consists of (u_t,v_t,w_t) with **both** v_t f=h u_t and w_t g=k v_t simultaneously, with their higher compatibility, from theta2 to a point natural map. Vanishing the three vertex composites and even the two separate triple bracket groups in pi61 does NOT supply the necessary mutually compatible tracks. In fact the published nonzero fourfold bracket is a serious candidate for the obstruction to this compatibility. Neither the actual derived component nor the all-real factorization was computed. **NO claim dIHC=1 or dHI>dIHC.** If theta2 is nonnull, this example has equality at 1.5, not a gap.
+
+## Positive-route hostile check
+S039 T87's source arrow cofibration plus a derived-[1] path can give a *relative* nullhomotopy, and S041 T95 inserts a C stage only when the compressed replacement supplies a strict compatible inverse and homotopy. Neither allows one to make h a cofibration while hg=point and g essential; such an injective cofibration would contradict h collapsing the image of g. A hypothetical induction killing gf, then hg, then kh has an UNFILLED lifting obligation: the final nullhomotopy must descend compatibly through both previous quotient cylinders. The complete [2] path may or may not solve that; the proof is absent.
+
+The fourfold homotopy-operation obstruction was studied long before S042, explicitly including four-map chain complexes, by Blanc–Johnson–Turner (arXiv:1809.07495, published 2019). DKS1989 relative realization and Hardie–Kamps–Marcum2002 quaternary 2-track theory are additional priority constraints. No significant original HHA theorem or formalisation readiness. Retain T66 Q/all-prime coherent integral Z and 1981 JPAA original unchecked; strict R5 16,471 OPEN; retired Hopf; T84 derivative.

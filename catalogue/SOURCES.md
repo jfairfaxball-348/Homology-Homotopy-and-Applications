@@ -202,3 +202,7 @@ Original LLO arxiv2402.16624v4 §1.1 Problem1 and §1.3 (existing Koszul k>0 pro
 
 ## S041 source review and access classification
 Original DKS1989 printed-paper transcript SRC-0091 §§2.1–2.5 theorem/proof opening, §§4.2–4.9 relative theorem/cocycle and selected proof, §5 topology opening directly viewed in ResearchGate transcription; still **STATEMENT_INSPECTED**, not entire independent full-proof audit; original publisher abstract accessible. SRC-0086 Hardie–Kamps–Marcum2002 original publisher ABSTRACT only, explicit quaternary bracket/2-tracks; SRC-0092 Baues–Blanc2011 original abstract plus arXiv:1008.1712 abstract only; SRC-0083 AGT2023 indexed original PDF Prop3.12/Remark3.13 selected snippets, inherited original v1 author-upload prior; SRC-0084 original Springer 2026 dg-only category statement. **No new source ID needed**: reuse existing exact IDs and limits. T95/T96 classical relative HEP very low novelty; G2 blocked.
+
+
+## S042 sources
+SRC-0094 **PROOF_INSPECTED for Cor1.10 only** Wang–Xu arXiv1601.02184v4 original PDF pp3–4: strictly defined nonzero 4fold <2,theta4,theta4,2> with theta5. Full Adams proof uninspected. SRC-0095 **STATEMENT_INSPECTED** Blanc–Johnson–Turner arXiv1809.07495v1 (2018), published 2019 Contemp Math 729 pp21–74, selected Introduction/§7.A original four-map chain rectification; entire theorem proof not rederived. Strong precedence barrier.
