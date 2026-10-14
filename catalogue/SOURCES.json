@@ -666,6 +666,24 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Full original proof not inspected; 1-parameter setting.",
       "observed": "Prior PID splitting iff all structure-map cokernels free, earlier than T66's 1D boundary."
+    },
+    {
+      "id": "SRC-0075",
+      "title": "Keagy: Projective Constant Decompositions of Persistence Modules over Noetherian Rings, 2026 arXiv v1",
+      "url": "https://arxiv.org/html/2602.13560v1",
+      "origin": "Original full arXiv HTML accessed S032 2026-10-14; selected proof sections inspected",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Primary original §§4–7 selected proofs and Theorems A/B/C inspected; original product-grid generalisation not explicitly stated; NOT exhaustive proof-level all-dependencies review.",
+      "observed": "A_n, total orders, zigzag projective-constant decomposition already established over rings, strong 1D priority predecessor, not automatic T66 multigrid proof."
+    },
+    {
+      "id": "SRC-0076",
+      "title": "Kannan–Bachem: Polynomial Algorithms for Computing the Smith and Hermite Normal Forms of an Integer Matrix (1979)",
+      "url": "https://doi.org/10.1137/0208040",
+      "origin": "Bibliographic metadata for classic deterministic polynomial-bit normal form algorithms",
+      "access": "METADATA_ONLY",
+      "limitation": "Original article full proof not directly inspected S032; invoking standard polynomial BIT arithmetic as known result, not priority novelty.",
+      "observed": "Polynomial bit-time integer Smith/rational-rank reduction removes infinite prime sampling at expanded-input scale."
     }
   ]
 }

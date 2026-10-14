@@ -215,3 +215,9 @@ CLM-0139/0140 remain valid internal family statements. Their12 product strata us
 - CLM-0160 COMPUTED_EXACT: sheared 4x4,4x4x4,3x5 full integer extraction (11,14,9 blocks), source and stdout in S031.
 - CLM-0161 PROGRAMME_PROVED: primitive Boolean square d1 Smith(1,2) has H0=Z/2 and anomalous F2 H1, sharp missing-H0 obstruction.
 - CLM-0162 INHERITED_UNVERIFIED: T66 originality/HHA application still unverified, Gate2 closed.
+
+### S032 claims — 14 October 2026
+- **CLM-0163 PROGRAMME_PROVED:** T69 deterministic polynomial-*bit* decision of all-composite pure cokernel and Q/all-prime B(P) field block on an explicitly expanded finite product grid N vertices; C_all=∏m_j(m_j+1)/2≤N², matrix dimensions≤Nr, adjacent-path coefficient bits O(N(B+log(r+1))), polynomial-bit Smith/rank. **Not** succinct input or a guaranteed polynomial-size output basis; integral coherent splitting conditional on internally proved T66. Sources SRC-0073,SRC-0076.
+- **CLM-0164 COMPUTED_EXACT:** independent SymPy Smith U/V transform extraction on synthetic sheared 5x4x3 eight-constituent B(P) diagram, N60/all900 comparable, 6 zero stalks/42 sheared stalks, recovered all8 with retractions and naturality. Source/script/stdout Git blob verifiable; finite constructed split only.
+- **CLM-0165 PROGRAMME_PROVED:** T70 H0 torsion square and pulled-back scalar2 square demonstrate independent necessity of H0 purity and all-composite purity. Sources SRC-0073.
+- **CLM-0166 INHERITED_UNVERIFIED:** T66/T69 constitute an original important HHA homotopy flagship — **not established**: Keagy original 2026 proofs read and limited to chains/zigzags, 1981 JPAA genuine original proof missing, no new homotopy invariant; Gate2 NOT_STARTED. Sources SRC-0072,SRC-0075,SRC-0073,SRC-0065.

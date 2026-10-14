@@ -149,3 +149,8 @@ The preceding source notes record historical access. SRC-0062 journal-final PDF 
 - SRC-0073 [STATEMENT_INSPECTED] original LLO arXiv2402.16624v4 Definitions7/9 Theorem14; field Koszul exactness theorem, T67 inherited classical consequence.
 - SRC-0074 [ABSTRACT_INSPECTED] original Luo–Henselman-Petrusek arXiv2310.07971 PID 1D decomposition.
 - SRC-0071 Keagy arXiv2602.13560 original HTML/PDF DisabledError; SRC-0072 Höppner–Lenzing1981 original 7–12 full proof not retrieved. Do NOT upgrade these to PROOF_INSPECTED.
+
+### S032 source upgrades (14 October 2026)
+- **SRC-0075 PROOF_INSPECTED:** Nadiya Upegui Keagy, *Projective Constant Decompositions of Persistence Modules over Noetherian Rings*, arXiv:2602.13560v1 (14 February 2026), https://arxiv.org/html/2602.13560v1 . Original **full HTML and selected proof** Theorem A/§4 A_n quivers, B/§5 total orders, C/§§6–7 zigzags accessed S032. No literal multiparameter arbitrary product-grid result claimed. S030/S031 historical ABSTRACT_ONLY access remains historically true.
+- **SRC-0076 METADATA_ONLY:** R. Kannan and A. Bachem, *Polynomial Algorithms for Computing the Smith and Hermite Normal Forms of an Integer Matrix*, SIAM J. Comput. 8(4) (1979), DOI https://doi.org/10.1137/0208040 . Standard deterministic polynomial-bit SNF antecedent; original proof **not read this session**.
+- **SRC-0072 retains ABSTRACT_INSPECTED:** genuine Höppner–Lenzing original JPAA20 (1981), pp7–12 direct DOI full proof not retrieved; access not upgraded.

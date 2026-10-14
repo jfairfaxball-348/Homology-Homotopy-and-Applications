@@ -1,0 +1,13 @@
+# S032 executed computations and limitations
+
+Executed in isolated Python 3.13.5 / SymPy 1.14.0 environment. The following are actual local checks, **not external certification**.
+
+1. Independent count/Smith script produced JSON `HHA_S032_Independent_Cube_Smith_Check.json`, SHA256 `e8172cbd23c751343a76085fb5f7ce6896cf93ac2ee227e532c572deb370f9a4`. Product-grid exact order-cube counts: 2x2 N4 / C9; 3x5 N15 / C90; 4x4 N16 / C100; 4x4x4 N64 / C1000; 5x4x3 N60 / C900; six-dimensional Boolean grid N64 / C729. Two failure controls recover Smith (1,2) for torsion-H0 and unit Smith for scalar-two-pulled-square. These are finite sanity checks for a symbolic count and small exact matrices, not a complexity benchmark.
+
+2. Independent exact integral Smith-decomposition extractor, `scripts/s032_independent_extract.py`, Python3.13.5 and SymPy1.14.0, RNG fixed seed 32032, generated eight nonzero thin blocks (two proper downsets, two principal upsets, four interior bands) on 5x4x3 vertices, with 6 zero stalks and 42 sheared stalks. For every one of 900 comparable pairs a composite map is constructed by conjugating 0/identity block arrows with integral unimodular row shears. It builds integer Smith matrices U,A,V satisfying UAV=D and det(U),det(V)=±1; computes kernels, saturated H images, joint H+I projections, complement lattices, peels downsets/bands/births and checks inclusion/retraction naturality on *all* comparable pairs. Recovered exactly 8 blocks, full residual zero. Executed script SHA256 `3a24d4d45b1ab13c167f70bf9c9f8ec0139e37e40a7877c20c083a9928eeda18`; stdout SHA256 `ee080843ebcec4259eaf90d2394871a40035eb013395e51ce3129030d993a79e`. Code must be compared by SHA after archiving; if a later readable reproduction differs, do not identify it as byte-identical executed source.
+
+3. An initial invalid generator used Q[i,j]+=k (not unimodular after earlier shears), assertion failed. Corrected to elementary integer **row** additions. A second harness bug incorrectly demanded identity naturality across support boundary; corrected to the thin functor's zero maps there. Then the complete test PASSED. Earlier failures belong to the test harness, not mathematical counterexamples.
+
+Limitations: constructed-split only, no nonsplit adversarial universal precondition model, no all-prime testing by p samples, no memory/time complexity benchmark, no k≥1 relative resolution certificate, no R5 output. Polynomial bit result proven separately by counting and standard algorithms.
+
+Command: `python scripts/s032_independent_extract.py`. Expected JSON stdout (one line) in `sessions/S032/certificates/extraction.stdout`.
