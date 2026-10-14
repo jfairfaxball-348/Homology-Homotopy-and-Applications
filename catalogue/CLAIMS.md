@@ -258,3 +258,17 @@ CLM-0139/0140 remain valid internal family statements. Their12 product strata us
 | CLM-0190 | SOURCE_STATED | Original authors' 2020 arxivv1 manuscript anticipated adapting Proposition3.10 to d_IHC>d_HC; final 2023 leaves question open then. |
 | CLM-0191 | INHERITED_UNVERIFIED | HHA-originality cleared or generic d_HI>d_IHC established: **FALSE/NOT CLAIMED**. |
 | CLM-0192 | SOURCE_STATED | LLO Problem1 true k≥1 binary succinct nonprincipal rectangle BIT target remains unsolved in programme. |
+
+## S037 claims (precise discrete versus real scope)
+| ID | Status | Scope |
+|---|---|---|
+|CLM-0193|SOURCE_STATED|Botnan2020 finite all-squares weak exactness iff rectangular.|
+|CLM-0194|PROGRAMME_PROVED|T79 discrete N² sparse critical grid ALL rectangle relative pd equality via Kan adjunction; not real arbitrary cuts.|
+|CLM-0195|PROGRAMME_PROVED|T80 finite-grid ALL rectangle k1 deterministic polynomial BIT kernel/evaluation/weak exactness.|
+|CLM-0196|PROGRAMME_PROVED|T81 binary homogeneous monomial F2[x,y] N² all rectangles, critical grid poly in input B; original R² Problem1 not wholly settled.|
+|CLM-0197|PROGRAMME_PROVED|T82 n-stage single-window null-composite ⇒ n/2 HI upper via HEP, no HI/IHC separation.|
+|CLM-0198|COMPUTED_EXACT|136 finite Kan quotient checks on 16-point chain, 5 critical grades; NOT general proof.|
+|CLM-0199|INHERITED_UNVERIFIED|Full real R² all-cut k1 algorithm or originality NOT ESTABLISHED.|
+|CLM-0200|SOURCE_STATED|LS v1 anticipation, v3/journal prior and 2026 dg-category warning.|
+|CLM-0201|INHERITED_UNVERIFIED|Real-1D HI>IHC gap NOT established.|
+Full claims and sources in JSON and S037 dossiers.

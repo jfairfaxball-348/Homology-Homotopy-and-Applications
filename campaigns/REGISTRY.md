@@ -83,3 +83,6 @@ Bounded exact matrix Smith versus independent gcd for (n,a): n=2,3,4,6, 0<=a<n, 
 ## S035 campaign entry
 - LS2023 Remark3.13 spaces: T75/T76 internal derived-arrow Toda square yields d_HC=1 and d_IHC>=3/2 (upper d_HI<=2) for simply connected sphere-stage R-filtrations. Original method anticipated in LS preprint v1; no proof-level priority gate, external mathematical audit or automatic flagship selection. S036 FUTURE independent referee.
 - Other d_HI vs d_IHC **OPEN**. Original LLO k>=1 binary succinct reserve OPEN. T66/1981 and R5 OPEN; S028 Hopf retired flagship preserved.
+
+## S037 bounded exact interval Kan falsification
+Preregistered P={0..15}, A={0,3,7,11,15}, ALL 136 intervals; independent GF2 quotient relations for pi_! interval object at each critical cut. Every dimension 0/1, support one interval PASS; actual script scripts/s037_kan_test.py, source SHA256 df31dfeb8137c2cec23c8ceed2004b24814b5a98cea12807672c3194ffed6685, stdout SHA256 7aa8a782163e843fad9f46e55f097722e11cdb81bc6a4c24854c3cb32c0049fe. This does NOT compute general relative pd, prove R² cut transport, test Toda or certify originality. S037/COMPUTATION.md. T66/R5 frozen.

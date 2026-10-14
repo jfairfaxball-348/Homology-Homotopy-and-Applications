@@ -792,6 +792,24 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Direct original arxivv1 PDF not visually opened, source is author-uploaded manuscript with original arxivv1 header; excerpt not full proof refereeing.",
       "observed": "Original Remark3.13 expressly predicts adapting Proposition3.10 in homotopy category to yield d_IHC != d_HC; precedes S035/S036 approach."
+    },
+    {
+      "id": "SRC-0089",
+      "title": "Botnan–Lebovici–Oudot, On Rectangle-Decomposable 2-Parameter Persistence Modules, SoCG2020",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol164-socg2020/LIPIcs.SoCG.2020.22/LIPIcs.SoCG.2020.22.pdf",
+      "origin": "Original publisher PDF textual Definition11/Theorem12 inspected 2026-10-14",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected algebraic weak exactness and rectangular decomposition theorem, not the full 16-page proof.",
+      "observed": "For finite 2-grids rectangle-decomposability equivalent to all-squares kernel-sum/image-intersection weak exactness; polynomial matrix testing."
+    },
+    {
+      "id": "SRC-0090",
+      "title": "Chachólski–Guidolin–Ren et al., Koszul Complexes and Relative Homological Algebra of Functors Over Posets, FoCM25 (2025)",
+      "url": "https://link.springer.com/article/10.1007/s10208-024-09660-z",
+      "origin": "Original full publisher HTML selected §§13–14 and discussion of End(sum projectives) inspected 2026-10-14",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Not full published proof audit, does not independently establish no prior binary-succinct rectangle algorithm.",
+      "observed": "Finite-grid rectangle relative projective resolution machinery exists; prior general endomorphism algebra method and grid parameterisation significantly limit new priority claims."
     }
   ]
 }

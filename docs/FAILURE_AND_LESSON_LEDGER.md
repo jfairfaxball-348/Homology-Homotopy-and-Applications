@@ -234,3 +234,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 4. Any replacement of last arrow by a homotopic map must be connected by an actual **objectwise weak equivalence zigzag of full diagrams** (path-object terminal stage), not by a declaration of equal homotopy classes.
 5. Original 2020 LS v1 already stated the proposed IHC adaptation, so even an internally proven exact endpoint is not automatically publishably original. No novelty gate.
 6. 2026 dg-module/CDGA equalities are in different categories; LLO input length must be binary BIT not expanded N; no unrelated computing campaign.
+
+## S037 hostile lessons
+1. Repeating four-stage Toda with higher brackets and only ONE nonterminal shifted composite cannot yield HI>IHC: full null n-fold composite strictifies at n/2 via HEP after n-1 cofibration replacements (T82).
+2. For relative k1, checking only principal upsets confuses **standard** pd and all-rectangle relative pd. Enumerate ALL finite-grid rectangle summands in canonical cover, use all-square weak exactness for its kernel.
+3. Binary grading coordinates are not an exponentially large grid: generator/relation grade changes give polynomially many critical coordinates. Need both-direction transport of *relative exactness*, not just stalk isomorphism.
+4. FALSE auxiliary lemma: Hom(Q,E M)=0 whenever Q's upper cut lies strictly inside a critical gap. Maps from Q may survive earlier while M vanishes late; correct method is pi_!Q (shorter aligned rectangle) and Hom adjunction.
+5. Discrete N² left Kan/right floor proof is NOT a complete argument for original arbitrary real R² rectangle open/closed/below-min conventions; these are explicit S038 hostile obligations. Full general LLO Problem1 not pronounced solved.
+6. 2020 Botnan and 2025 FoCM prior work gives substantial method precedence; no current HHA-original homotopy theorem, no novelty Gate2. 1981 T66 / frozen R5 / retired Hopf preserved.
