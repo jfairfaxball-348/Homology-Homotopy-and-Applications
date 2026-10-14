@@ -278,3 +278,10 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - DEC-S045-B: Accept elementary T105 staircase basepoint lemma. T106 derives only local threefold Toda zero from published LS2023 Prop3.10, not any fourfold coherent tertiary nullity.
 - DEC-S045-C: Accept T107 exact full-real nonpoint strict control with nonconstant crossing maps for a different *zero-two-composite* F; explicitly reject promoting it to witness for (2,theta4,theta4,2).
 - DEC-S045-D: S045 unresolved dHI=1 or1.5, no HHA-original result; G2 closed. Freeze T66/1981, R5 16471, Hopf/T84; S046 FUTURE only; no downstream activity.
+
+
+## S046 decisions (2026-10-14)
+- DEC-S046-A: Accept T108 as an **INTERNAL standard-model-category** all-replacements contractible-lane *simultaneous* collapse lemma: whole shoelace Q, mono embedded V_t, natural quotient of F; both strict identities at every real cut. Not unilateral G'→point and not a natural contraction of G' with F fixed.
+- DEC-S046-B: Accept T109 **INTERNAL SOURCE-DEPENDENT** inequality dHI>=5/4 for unchanged Wang–Xu sphere chain using real timestamps and published full fourfold Toda zero-exclusion. Inherited dIHC1/dHI<=1.5 yield strict gap. Exact dHI=1.5 NOT established; do NOT rely on S041 asserted half-step quantization.
+- DEC-S046-C: Fourfold bracket original Wang–Xu and BJT/DKS classical rectification priority; LS2020v1 anticipated distance separation; new quantitative topology is not first-novelty cleared. G2 NOT_STARTED, Stage1; no original HHA flagship declared or paper/Lean/Palomar/arXiv/HHA/contact.
+- DEC-S046-D: S047 FUTURE UNEXECUTED requires owner; preserve T66 original1981 source restriction, R5 16471, retired Hopf and T84.

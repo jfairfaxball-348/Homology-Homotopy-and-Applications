@@ -295,3 +295,12 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - LS2023 threefold local obstruction applied twice does NOT prove the overlapping secondary choices have one tertiary gluing; BJT 4map zero-composite criterion is not the strict all-WE shoelace bridge.
 - Explicit nonpoint interval control with nonconstant a0,b0 satisfies BOTH strict identities at ALL real cuts (T107); its zero length-two F maps are not the target theta4 chain. Do not claim target HI1 from such a control.
 - T102 published filtration arithmetic visually reconfirmed, not an independent proof of Adams stable stems/classical bracket conventions. No novelty/HI separation promotion.
+
+
+## S046 adversarial lessons
+- The earlier all-replacements gap in S042 was NOT solved by unilateral G'→point: construct an entire projectively cofibrant shoelace, quotient the *F row along contractible cofibrant cross-arrow images* and only then turn G into points; left properness supplies objectwise WE.
+- Local 3fold vanishing and a common basepoint are insufficient for a 4fold tertiary filler; the T108 route bypasses matched filler only over a sampling window; it does NOT supply an arbitrary all-real 3cell.
+- Exact real timestamps are essential: t=(0,1,2+c,3+c,4+2c) has all three jumps 2epsilon if c=2epsilon−2. Last target remains S100 only while epsilon<5/4. At endpoint 5/4 fourth stage terminates: no proof of exact 3/2.
+- "Fourfold bracket contains theta5" alone does NOT exclude zero: apply complete printed indeterminacy h5n filtration≥6 against h5² filtration2, still published-dependent.
+- S041 T97 possible half-step threshold claim not independently adequate for arbitrary replacements. Avoid using it to upgrade 5/4 to 3/2.
+- No novelty claim: DKS1989, BJT2019, LS2020v1 and subsequent original sources still need full exact-result independent comparison.

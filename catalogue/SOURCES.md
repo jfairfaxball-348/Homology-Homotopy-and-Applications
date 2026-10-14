@@ -224,3 +224,11 @@ SRC-0096 STATEMENT_INSPECTED selected 2023 IWX Tables4 p214 h5 f1/n f5 and Table
 - SRC-0083 original LS2020v1/AGT2023 Prop3.10 full displayed local cone proof inspected (two contractible nodes A→B); T106 is derived only for *threefold* local brackets, not an unwritten fourfold theorem.
 - SRC-0095 BJT2019 selected original §7.A, SRC-0091 DKS1989 selected original transcription, SRC-0086 HKM2002 abstract and SRC-0092 Baues–Blanc2011 abstract unchanged access; no full proofs invented.
 - SRC-0084 original 2026 publisher HTML Theorem4.7/Remark4.8 reread: equality for special dg K[u] models / BS1, NOT ordinary Top^R. Full current priority and 1981 JPAA T66 still uninspected.
+
+
+## S046 source-first scope refresh
+- SRC-0083 original Lanari–Scoccola arxiv2010.05378v3 HTML https://arxiv.org/html/2010.05378v3 selected Proposition4.5 **directly inspected for projective-cofibrant poset diagrams being filtered/monomorphic**, and selected Prop3.10/Remark3.13 scope retained. Not a new author-origin theorem; do not infer complete authorship/priority.
+- SRC-0094 Wang–Xu2017 Cor1.10 existing selected PROOF_INSPECTED only, original Adams/Moss not audited anew.
+- SRC-0096 IWX2023 original printed pp214/228 Tables4/10 previously directly viewed: h5 filtration1, n filtration5, fourfold h5² filtration2 with indeterminacy h5n; S046 zero-exclusion **source-dependent**, full classical/Adams comparison not independently re-proved.
+- SRC-0095 BJT2019 original §7.A selected prior proof inspection; SRC-0091 DKS1989 original selected printed transcript statement; SRC-0086 HKM2002/SRC-0092 Baues–Blanc2011 abstracts only. No novelty claim from absence of a full proof.
+- SRC-0084 2026 K[u] dg equality is NOT ordinary Top^R. Original 1981 T66 source full JPAA proof remains uninspected.

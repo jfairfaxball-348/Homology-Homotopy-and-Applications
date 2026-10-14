@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14 S045",
+  "as_of": "2026-10-14 S046",
   "sources": [
     {
       "id": "SRC-0001",
@@ -745,8 +745,8 @@
       "url": "https://arxiv.org/pdf/2010.05378",
       "origin": "Original arXiv v3 PDF full extracted text and visual page inspection",
       "access": "PROOF_INSPECTED",
-      "limitation": "Selected §§2.2.2,3.2 Prop3.10/12 and 3.3 only; this is v3 not full separate journal publisher proof inspection. S045: Original accessible v1 Prop3.10 specific two-contractible-node diagonal proof reinspected; does not contain a proved fourfold all-replacements analogue.",
-      "observed": "Categories Ho(M^R) vs Ho(M)^R; source nonzero <2,eta3,2>, Prop3.10, Remark3.13 two open inequalities, general upper d_HI<=2d_HC."
+      "limitation": "Selected §§2.2.2,3.2 Prop3.10/12 and 3.3 only; this is v3 not full separate journal publisher proof inspection. S045: Original accessible v1 Prop3.10 specific two-contractible-node diagonal proof reinspected; does not contain a proved fourfold all-replacements analogue. S046: independently revisited selected original arxiv HTML Proposition4.5 (projective poset cofibrancy/filtered monomorphisms) only; not all paper.",
+      "observed": "Categories Ho(M^R) vs Ho(M)^R; source nonzero <2,eta3,2>, Prop3.10, Remark3.13 two open inequalities, general upper d_HI<=2d_HC. S046 uses projective-cofibrant poset monomorphisms and retains source LS Remark3.13 priority."
     },
     {
       "id": "SRC-0084",
@@ -862,7 +862,7 @@
       "url": "https://www.numdam.org/item/10.1007/s10240-023-00139-1.pdf",
       "origin": "Original open-access publisher/deposit full PDF, directly viewed printed pp114,212,228 and metadata; S043",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Selected original tables only, not full Adams proof; indeterminacy h5 n listed, no independent full zero-exclusion or all-WE HI theorem checked. S044 did not independently reproduce Adams proof or full classical transport/indeterminacy conventions. S045: Original 2023 PDF screenshots p214 Table4/p228 Table10 directly verified S045; full classical bracket conventions/Adams computations still not independently redone.",
+      "limitation": "Selected original tables only, not full Adams proof; indeterminacy h5 n listed, no independent full zero-exclusion or all-WE HI theorem checked. S044 did not independently reproduce Adams proof or full classical transport/indeterminacy conventions. S045: Original 2023 PDF screenshots p214 Table4/p228 Table10 directly verified S045; full classical bracket conventions/Adams computations still not independently redone. S046 bracket zero-exclusion reuse based on table-filtration arithmetic, not a rederived Adams proof or verified all-classical transport.",
       "observed": "Stable pi61^S=0 across primes; Table1 theta5=h5^2 in stem62; Table10 row (62,32) <2,theta4,theta4,2> contains h5^2 with indeterminacy h5 n. S044 Table4 printed p214 gives h5 filtration1, n filtration5; Table10 p228 lists h5² and full h5n indeterminacy; internally deduced zero-exclusion by f2 versus f>=6."
     }
   ]
