@@ -211,3 +211,10 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Total cofiber H3=Z²/<(a,n)> shows a real derived distinction but is elementary UCT + classical cubical theory, NOT a sufficient HHA novelty claim.
 - Do not silently replace K(Z,3) with S3: K(Z,3) has no higher π, crucial to proving every π_i map zero.
 - Genuine original 1981 JPAA20 7–12 remains uninspected despite similarly named proceedings in public search; strict R5 and succinct n2,k1 BIT unchanged.
+
+## S034 failures and controls
+- **S034-F1 COEFFICIENTS VS MAPS:** equality of edge κ with identity a,b does not imply prescribed *edge map classes* form Ho-square: nonzero H³(K(F₂,2);F₂) shear. Does not prohibit *some* all-identity coherent completion from the coefficient data.
+- **S034-F2 HIGHER OBSTRUCTION OVERCLAIM:** nonzero π₁ shear mapping space is a torsor of 2-cell fillers, not a nonzero obstruction to existence; full self-map space not identified with shear subspace.
+- **S034-F3 CLASSICAL STRICTIFICATION:** all 256 closed [2]² shear assignments admit explicit strict potential realization in restricted class; DKS generic mapping-space obstruction and Baues–Blanc comparison preexist, so Postnikov-coherence as original HHA flagship RETIRED.
+- **S034-F4 PRIORITY:** LS Remark3.13 explicitly poses space-level interleaving distance strictness; 2025 dg module equality does NOT solve all spaces. Contemporary solutions must still be audited, no novelty assumption.
+- **S034-F5 PRESERVED OBLIGATIONS:** T66 original1981 unavailable, universal all-composite/Q-all-Fp counterproof outstanding, binary succinct k1 still no P/hardness, S023 16471 all-pairs strict R5 open; Hopf benchmark remains retired as proposed flagship.

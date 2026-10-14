@@ -1,0 +1,13 @@
+# S034 closeout — scientific decision, 14 October 2026
+
+One owner-invoked S034 executed from LIVE main `cc744683d4ed49b9d54e9dd0625d6a01b6020873` tree `7033b823281215bec31a3dafc43b292ef2e005a4`; S033 actual authored/PR34/two-parent merge, hosted static workflows, missing classic statuses, ruleset visibility and inaccessible protection reconciled. No competing S034 work on entry.
+
+**T73:** split F2 simply-connected 3-type E=K(F2,2)×K(F2,3); shears s_c have identical coefficient action and zero κ, but nontrivial H³(K(F2,2);F2)=F2 classes can obstruct *a square of prescribed edge homotopy classes* already at Ho(Spaces) level. π1 of **shear mapping space** = H²(K(F2,2);F2)=F2 measures filler ambiguity, not a novel higher obstruction to existence. Single arrow, Ho-square, chosen coherent 2-cell, strict rectification separated precisely. No purported all-edge κ sufficiency.
+
+**T74:** all four face parity equations are necessary and sufficient for [2]² binary shear labels to be realized as a strict diagram with constant split E. Independently enumerated 4096 edge assignments and all 256 potential patterns, exact equality 256; symbolic path-potential proof extends within this *restricted* shear class. Does NOT apply to nonzero k or nonconstant coefficient diagrams.
+
+**Priority:** Dwyer–Kan–Smith1989 and Baues–Blanc2011 already supply mapping-space higher obstruction/rectification frameworks; Møller–Scherer Thm2.2/Ex2.4 kills elementary Postnikov κ as new, Lanari–Scoccola2023 Prop3.14 classical coherent-square warning. No demonstrably NEW nonzero higher-coherence obstruction surviving source adversary. Retire this approach as flagship. T73/T74 are pedagogical refinements, not journal-priority breakthroughs.
+
+**Sourced successor:** Lanari–Scoccola AGT2023 **Remark3.13** explicitly asks which inequalities d_HI≥d_IHC≥d_HC are strict for persistence SPACES. That source-stated homotopy problem becomes **S035 investigation, NOT solved or globally verified open today**. 2025 Kuribayashi et al equality result restricted to dg-module persistence, not all spaces; 2026 references require further proof/priority audit. Competing genuine LLO original Problem1 k≥1 remains a strong homological reserve. No binary succinct n2 k1 algorithm/hardness; T66 all-comparable/all-prime integral proof still internal and 1981 original uninspected. Frozen 16471-pair R5 undecided; retired S028 Hopf tests preserved.
+
+**Gates:** Stage1 IN_PROGRESS, no selected original HHA flagship, G2/G3/G4 NOT_STARTED. Lean, Palomar, manuscript, arXiv, HHA/external communication NOT STARTED. S035 prompt FUTURE/UNEXECUTED only. GitHub integration and hosted-workflow outcomes must be independently checked *after* commit; none predicted in this file.

@@ -702,6 +702,42 @@
       "access": "METADATA_ONLY",
       "limitation": "Indexed excerpt only in S033; **not** the original separate JPAA20 pp7–12 paper; cannot count as its full-proof inspection.",
       "observed": "Distinguishes similarly titled 1981 proceedings from genuine JPAA priority blocker."
+    },
+    {
+      "id": "SRC-0079",
+      "title": "Dwyer, Kan and Smith, Homotopy commutative diagrams and their realizations (1989)",
+      "url": "https://doi.org/10.1016/0022-4049(89)90023-6",
+      "origin": "Original JPAA publisher abstract; indexed original journal manuscript excerpts elsewhere",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original full publisher proof not read; original manuscript §1.2 and §3.5 text in indexed copy only.",
+      "observed": "General diagram rectification obstruction cohomology of indexing category with coefficients mapping-space π_n; S034 generic higher π1 originality kill."
+    },
+    {
+      "id": "SRC-0080",
+      "title": "Baues and Blanc, Comparing cohomology obstructions (2011)",
+      "url": "https://doi.org/10.1016/j.jpaa.2010.09.003",
+      "origin": "Original publisher abstract; index of original preprint",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full proof not read; scoped indexed §5 statement excerpts.",
+      "observed": "Compares Baues–Wirsching, DKS (S,O), André–Quillen approaches under stated assumptions."
+    },
+    {
+      "id": "SRC-0081",
+      "title": "Lanari and Scoccola, Rectification of interleavings and a persistent Whitehead theorem, AGT23 (2023)",
+      "url": "https://msp.org/agt/2023/23-2/agt-v23-n2-p05-p.pdf",
+      "origin": "Original journal-publisher PDF indexed full statement excerpts",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original publisher PDF search-index Remark3.13/Prop3.14 statement visible; direct web PDF reader inaccessible this session; earlier S028 arxivv3 proof access separate.",
+      "observed": "Remark3.13 explicitly asks which homotopy interleaving inequalities dHI >= dIHC >= dHC strict for persistent spaces; Prop3.14 already limits multiparameter rectification."
+    },
+    {
+      "id": "SRC-0082",
+      "title": "Kuribayashi, Naito, Wakatsuki and Yamaguchi, Algebraic interleavings of spaces over the classifying space of the circle, arXiv2501.09257 (2025)",
+      "url": "https://arxiv.org/abs/2501.09257",
+      "origin": "Original arXiv abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original article full proof not read; equality described for dg-module persistence, cannot assume spaces equality.",
+      "observed": "Later comparison result in algebraic persistence category, not demonstrated resolution of LS2023 Remark3.13 for spaces."
     }
   ]
 }

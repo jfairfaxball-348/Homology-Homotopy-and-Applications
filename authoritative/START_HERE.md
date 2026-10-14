@@ -28,3 +28,6 @@ Proof of deterministic polynomial-bit **recognition on explicitly expanded integ
 
 ## S033 checkpoint (14 October 2026)
 Source-first true homotopy pivot: Moore Ext-square T71/T72 has full internal proof and fifteen exact SNF arithmetic checks, distinguishing derived cofiber H3 Z⊕Z/2 versus Z with identical integral H/π-group persistence, but not field-invisible, not novel HHA. Marked Postnikov Sq2 test directly preempted by original 2009 Møller–Scherer Example2.4. G2 still closed, original 1981 JPAA pages uninspected, S034 FUTURE UNEXECUTED.
+
+## S034 checkpoint (14 October 2026)
+Split Postnikov shear components H³=F₂ and loop H²=F₂; specified edge κ/π do not force Ho-square equality. Exact 4096 [2]² binary assignments and 256 strict face-compatible shears, a *restricted classical* calculation not a new higher coherence invariant. DKS1989/Baues–Blanc2011 priority kill. Reorient S035 future ONLY to source-stated Lanari–Scoccola2023 Remark3.13 about whether d_HI≠d_IHC or d_IHC≠d_HC for persistent spaces; newer literature status not comprehensively checked. No original HHA flagship, G2 closed. S028 Hopf retired; original1981 integral source, succinct k1, strict R5 open.
