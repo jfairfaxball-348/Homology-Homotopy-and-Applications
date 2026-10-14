@@ -2171,6 +2171,36 @@
         "SRC-0083"
       ],
       "scope": "NOT ESTABLISHED. True HI may use arbitrary objectwise-contractible nonpoint G'; bracket zero-exclusion/total indeterminacy needs proof and fourfold LS Prop3.10 analogue absent."
+    },
+    {
+      "id": "CLM-0228",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S044 T102 published h5² theta5 detection f2 vs full listed indeterminacy h5n f>=6 excludes zero in <2,theta4,theta4,2> under source-stated bracket/classical conventions.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0096"
+      ],
+      "scope": "INTERNAL filtered-group deduction from original tables, not independently proven spectral sequence or full classical comparison; NOT a strict HI lower bound."
+    },
+    {
+      "id": "CLM-0229",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S044 T103 strict epsilon1 all-replacements HI integer restriction imposes two naturality equations and BOTH shifted identities (N-a,N-b,I-F,I-G).",
+      "sources": [
+        "SRC-0083"
+      ],
+      "scope": "Necessary algebraic relations only, does not imply full real strict HI sufficiency or an obstruction."
+    },
+    {
+      "id": "CLM-0230",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Any strict all-replacements epsilon1 HI ladder through objectwise weakly contractible G' forces zero of fourfold bracket, or a strict nonpoint HI1 witness exists.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "NOT ESTABLISHED: no universal tertiary relative lift and no strict countermodel. dHI remains 1 or1.5."
     }
   ]
 }

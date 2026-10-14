@@ -862,8 +862,8 @@
       "url": "https://www.numdam.org/item/10.1007/s10240-023-00139-1.pdf",
       "origin": "Original open-access publisher/deposit full PDF, directly viewed printed pp114,212,228 and metadata; S043",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Selected original tables only, not full Adams proof; indeterminacy h5 n listed, no independent full zero-exclusion or all-WE HI theorem checked.",
-      "observed": "Stable pi61^S=0 across primes; Table1 theta5=h5^2 in stem62; Table10 row (62,32) <2,theta4,theta4,2> contains h5^2 with indeterminacy h5 n."
+      "limitation": "Selected original tables only, not full Adams proof; indeterminacy h5 n listed, no independent full zero-exclusion or all-WE HI theorem checked. S044 did not independently reproduce Adams proof or full classical transport/indeterminacy conventions.",
+      "observed": "Stable pi61^S=0 across primes; Table1 theta5=h5^2 in stem62; Table10 row (62,32) <2,theta4,theta4,2> contains h5^2 with indeterminacy h5 n. S044 Table4 printed p214 gives h5 filtration1, n filtration5; Table10 p228 lists h5² and full h5n indeterminacy; internally deduced zero-exclusion by f2 versus f>=6."
     }
   ]
 }

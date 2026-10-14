@@ -157,3 +157,6 @@ Topological five-stage point step: T95/T96 internal epsilon1.5 no-gap theorem (d
 
 ## S042 target audit
 Originality of Toda computation 0/5 (Wang–Xu2017); classical four-map obstruction via Blanc–Johnson–Turner2019. INTERNAL HI1.5 exact sphere chain substantial specificity but IHC1 UNSOLVED; mathematical significance conditional on actual derived-[2] computation. No original HHA flagship. S043 FUTURE, no G2 promotion. Frozen T66/1981, strict R5 16471, retired Hopf.
+
+## S044 target score
+S044 T102 source-dependent bracket zero-exclusion from published IWX2023 Table4 h5 f1 and n f5 / Table10 h5² f2 and h5 n indeterminacy f>=6; Adams and full classical transport not independently rederived. T103 four strict all-replacements integer-ladder equations (two naturality and both shifted identities). NO proof contractible nonpoint U forces zero Toda bracket and NO strict HI1 witness. Hence dIHC=1 INTERNAL, dHI∈{1,3/2} OPEN, no HHA gap or novelty gate. Stage1 continues, S045 FUTURE UNEXECUTED, Lean/Palomar/manuscript/submission untouched. Frozen T66/1981, R5 16471, Hopf and T84. T102 novelty 0/5 (Wang-Xu/IWX prior); homotopy fit potentially 5/5 if full strict gap proven, mathematical completeness of gap 0/5. BJT2019/LS2023/DKS1989 priority threat, no HHA flagship.

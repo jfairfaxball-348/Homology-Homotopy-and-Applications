@@ -326,3 +326,8 @@ See S038 full dossier and JSON scope.
 - **CLM-0225 PROGRAMME_PROVED:** S043-T100 explicit QX and iterated strict mapping-space pullback, two simultaneous strict-square null path lifts using vanishing of both pi1 mapping targets, coherent in Ho(Top^[2]); INTERNAL, no machine check.
 - **CLM-0226 PROGRAMME_PROVED:** S043-T101 whole-real eta_F² point by derived Kan adjunction and exact dIHC(F,G)=1, both interleaving identities, all reals; INTERNAL, HHA novelty unverified.
 - **CLM-0227 INHERITED_UNVERIFIED:** dHI(F,G)=3/2 or a strict dHI>dIHC example; arbitrary G' contractible replacement, fourfold bracket zero-exclusion and full proof-level priority remain OPEN.
+
+## S044 claims
+- CLM-0228 PROGRAMME_PROVED **INTERNAL SOURCE-DEPENDENT**: published h5² f2 nonzero class cannot be cancelled by h5 n f>=6 in full table-listed fourfold bracket; source/classical conventions to referee, not HI obstruction.
+- CLM-0229 PROGRAMME_PROVED **NECESSARY** strict HI1 integer ladder N-a,N-b,I-F,I-G, all replacements and BOTH identities.
+- CLM-0230 INHERITED_UNVERIFIED: arbitrary contractible-G' ladder forces Toda zero or explicit strict HI1 witness; NONE proved, gap unresolved.
