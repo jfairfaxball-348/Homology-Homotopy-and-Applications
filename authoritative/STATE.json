@@ -1,14 +1,14 @@
 {
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
-  "as_of": "2026-10-14 S047",
-  "last_completed_session": "S047",
-  "recommended_next_session": "S048",
+  "as_of": "2026-10-14 S048",
+  "last_completed_session": "S048",
+  "recommended_next_session": "S049",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "S047 INTERNAL T110 general sharp higher-Toda one-chain clock method and T111 exact attained epsilon=5/4 strict HI iff a whole-WE 11-vertex finite half-grid GRID exists. GRID existence, exact dHI in [5/4,3/2], bracket independent transport and HHA priority remain OPEN; Stage1/G2 closed.",
-  "headline_status": "S047_INTERNAL_HALFGRID_ATTAINED_ENDPOINT_IFF__EXACT_HI_OPEN__G2_NOT_STARTED",
-  "active_campaign": "S048 FUTURE UNEXECUTED: decide finite [10] half-grid GRID K~A with five literal length-five constants; address all epsilon in (5/4,3/2) and independent primary Top/Adams audit.",
+  "selected_mathematical_problem": "S048 INTERNAL T112 all-rational exact finite GRID(r,s) equivalence under T108; T113 dHI as infimum of rational GRID feasible values; T114 source-dependent no all-three-mono halfstage GRID endpoint witness; T115 local HEP. Arbitrary nonmono GRID(5,2), eps in (5/4,3/2), exact dHI and HHA originality remain OPEN.",
+  "headline_status": "S048_INTERNAL_RATIONAL_GRIDS_AND_RESTRICTED_MONO_NO_GO__EXACT_HI_OPEN__G2_NOT_STARTED",
+  "active_campaign": "S049 FUTURE UNEXECUTED: decide arbitrary nonmono 11-grid and near-endpoint rational sequence/4-3 grid; audit tertiary relative obstruction and whole-real Adams transport.",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S047_INTERNAL_HALFGRID_ENDPOINT_IFF__EXACT_HI_AND_NOVELTY_OPEN"
+      "status": "IN_PROGRESS_S048_RATIONAL_GRID_EQUIVALENCE__UNRESTRICTED_GRID_AND_EXACT_HI_OPEN"
     },
     {
       "id": 2,
@@ -620,7 +620,19 @@
     "s047_entry_classic_statuses": "EMPTY_AGGREGATE_PENDING_NOT_PASS",
     "s047_entry_open_prs": [],
     "s047_entry_rulesets": [],
-    "s047_entry_protection": "BRANCH_FALSE_ENDPOINT_403"
+    "s047_entry_protection": "BRANCH_FALSE_ENDPOINT_403",
+    "s047_outgoing_merge_sha": "5e51acfd6ff2dd8ec97912339fe3f70c6c4d9837",
+    "s047_authored_commit": "8ef429354149002b198213d468e67846bdbc1d5e",
+    "s047_pr": 48,
+    "s047_merge_parents": [
+      "2e8d85c1af94ffe672a7dda1aefdcb300453cc3f",
+      "8ef429354149002b198213d468e67846bdbc1d5e"
+    ],
+    "s047_merge_tree": "0cb3e9e2c3085f302a6863ec32939576dead2985",
+    "s047_main_run": 38626599406,
+    "s047_main_check": 116067208811,
+    "s048_entry_main": "5e51acfd6ff2dd8ec97912339fe3f70c6c4d9837",
+    "s048_entry_tree": "0cb3e9e2c3085f302a6863ec32939576dead2985"
   },
   "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate. S020 inspected original Springer full HTML Monoidal Rips Prop6.7, SoCG DOI abstract/HTML page, MathOverflow exact 36-tetrahedra list and original 2000 simplicial Hopf map bibliographic metadata; priority remains unverified. S021 DIRECT original Madahar-Sarkaria author-hosted PDF §§2,3,5 inspected; Oudot-Waas SoCG2026 HTML Thm1, Blaser et al. 2026 §6.3 Prop6.7, Memoli-Stefanou-Zhou JACT2024 HTML introduction/Def and stability statements; mixed cofiber priority still OPEN. S022 directly read Cohn–Rajagopal 2026 §2 five-dimensional kissing number 40–44 bounds (independent T50 uses its own positive polynomial); Cambridge original Munson–Volić 2015 cubical homotopy pushouts chapter metadata and indexed original PDF §3.8.8 total cofiber excerpt (PDF not directly retrievable); original Sarkaria paper source §§2,3,5 and original JACT/SoCG remain priority adversaries. No complete mixed-persistence priority proof audit. S024 revisited Cambridge 2015 §§3.8/3.9 ORIGINAL indexed author PDF snippets but 45MB direct PDF fetch was too large and alternate URL disabled; no full proof read. Revisited original JACT2026 Monoidal Rips full HTML and SoCG2026 original abstract; no new HHA priority pass. S026 original BL2017 Example8.5 inspected, Lanari-Scoccola AGT2023 full publisher PDF unavailable, MSZ2024 original theorem2 inspected, original Munson-Volic2015 complete PDF not retrieved. No source-cleared novelty. S027 original BL2017 §3 pp11, §7 pp21-23, §8 pp25-26 visually inspected; MSZ2024 original HTML Theorem1/2 and proof passages; LS2023 official abstract/metadata only, Munson-Volic full original PDF inaccessible; Oudot-Waas2026 abstract, Blaser2026 original HTML only. Full novelty proof audit missing. S028: full original LS arXivv3 downloaded and selected §3.3 Proposition3.14/Lemma3.15 and §5 theorem/proof inspected, journal-final PDF still inaccessible. Full original Munson–Volic45MB PDF retrieved, selected chapter3§3.8/3.9 proofs and visual pages168/171 read, correct cofiber Definition3.8.1. MSZ2024 original Theorem2/Lemma3.5 proofs read; Musin–Shamazov2025 original §§2–3 algorithm inspected. Exact certificate priority not claimed; categorical flagship retired. S030 direct original LLO arXiv HTML Definition3/Theorem4 and original FoCM2025 Thm4.11/Prop4.5/4.17 HTML proof directly inspected. Keagy2026 original arXiv ABSTRACT only, full PDF/HTML blocked; Höppner–Lenzing1981 publisher ABSTRACT only, pdf access denied; no proof-level priority clearance. S032: original Keagy2026 full proof text arxiv2602.13560v1 read for A_n/total order/zigzags; original Höppner–Lenzing1981 JPAA pp7–12 full proof remains inaccessible; no originality clearance. S033: Møller–Scherer original MPI Bonn PDF theorem2.2 proof and example2.4 visually inspected p3; original LLO v4 statement and Keagy v1 proof HTML accessible; Munson–Volić original 2015 and LS original 2023 selected proof inspections inherited from S028, not independently re-downloaded. 1981 Höppner–Lenzing JPAA full proof still uninspected; similarly titled 1981 Springer proceedings is distinct. No priority guarantee. S035: LS original arXivv3 PDF proof selected §§2.2.2,3.2 visually inspected, original publisher final Remark3.13 indexed; 2026 Springer original full article HTML §1/2/3 statements inspected; 2026 relative Sullivan arxiv HTML source selected sections; 2002 Toda track abstract only; LS v1 anticipation from indexed mirror. No exhaustive citation/priority audit. S040: DKS1989 original printed-paper text selected §§4.1–4.9, §5 open via ResearchGate original transcription; publisher direct 403; not complete proof chain. 2002 Toda and 2011 Baues–Blanc original publisher abstracts. No novelty gate. S042 original Wang–Xu arxiv1601.02184v4 Cor1.10 short proof directly read; Blanc–Johnson–Turner2019 Intro/§7.A selected original excerpts, NOT full proof; HKM2002 abstract only. S043 direct original IWX2023 137pp PDF selected tables pp114,212,228 (pi61=0; theta5; h5 n indeterminacy); BJT2018 arxiv PDF selected §7.A/Remark7.5; LS original 2022v3 HTML §3.2 Prop3.10 proof/Prop3.12/Remark3.13. DKS1989 full and HKM2002 proof not accessed. No priority pass. S044 SOURCE-STATED original IWX2023 Tables4/10 h5 f1/n f5 and h5² f2/h5n f>=6 bracket indeterminacy. Derived filtered-group exclusion internally, Adams proof/classical transport not independently redone. DKS1989/HKM2002/1981 originals not fully inspected.",
   "lean": {
@@ -696,6 +708,7 @@
     "S044: mathematical gap requires fourfold extension of LS Prop3.10 against ALL replacements, not just BJT strict zero-composite obstruction; no HHA flagship or Gate2.",
     "S045: Standard projective diagram CW and published local triple Toda do not prove full fourfold all-replacements obstruction or HHA novelty; G2 remains closed.",
     "S046 exact dHI unknown; proof and novelty not external-audited despite internal HI>IHC quantitative separation; Stage2 Gate2 NOT_STARTED.",
-    "S047 T110 sampling sharpness and T111 finite iff are only INTERNAL reductions; no GRID yes/no, exact dHI, independent current priority or HHA original flagship. G2 NOT_STARTED."
+    "S047 T110 sampling sharpness and T111 finite iff are only INTERNAL reductions; no GRID yes/no, exact dHI, independent current priority or HHA original flagship. G2 NOT_STARTED.",
+    "S048: T114 kills ONLY a simultaneously monomorphic/projectively cofibrant endpoint GRID witness, not arbitrary noncofibrant K; T112 rational finite GRID and T113 countable infimum do not solve any rational GRID yes/no, dHI endpoint attainment or exact distance."
   ]
 }

@@ -238,3 +238,12 @@ SRC-0096 STATEMENT_INSPECTED selected 2023 IWX Tables4 p214 h5 f1/n f5 and Table
 - SRC-0094 original Wang–Xu2017 Cor1.10 selected original proof examined; SRC-0096 original IWX2023 printed Tables4 (p214) /10 (p228) selected inspected, h5 f1, n f5, fourfold h5² f2 and h5n indeterminacy. Classical invariant transport and Adams/Moss computation NOT independently rederived.
 - SRC-0095 BJT2019 selected §7.A, SRC-0091 DKS1989 selected §§2–5, SRC-0086 HKM2002 and SRC-0092 Baues–Blanc2011 still limited. SRC-0084 2026 dg K[u]/BS1 result is not equality for all Top^R. No decisive 2023–2026 novelty clearance or original1981 JPAA full-proof inspection.
 - T110/T111 are internal symbolic mathematical deductions, not attributed to a novel publication or external referee.
+
+
+## S048 source access / novelty audit
+- **SRC-0094** Wang–Xu2017 DOI10.4007/annals.2017.186.2.3 original Annals **abstract/metadata** newly read, says nonzero theta5 is contained in a strictly defined fourfold Toda. Historical earlier selected Cor1.10 PROOF_INSPECTED remains catalogued but was **not** an independently fresh Adams/Moss calculation in S048.
+- **SRC-0096** Isaksen–Wang–Xu2023 DOI10.1007/s10240-023-00139-1 official primary publication metadata current; S044–S047 original Table4/10 selected STATEMENT_INSPECTED retained, S048 did not recompute h5n source-level transport or all stable stems.
+- **SRC-0083** Lanari–Scoccola arxiv2010.05378 original current abstract retrieved; original earlier selected Prop3.10/4.5 proof access inherited, not complete paper newly read.
+- **SRC-0095** Blanc–Johnson–Turner original arxiv1809.07495/2019 DOI10.1090/conm/729/14690 abstract confirms higher rectification of pointed/unpointed operations; previously selected §7.A PROOF_INSPECTED only, not whole paper S048.
+- **SRC-0084** Kuribayashi et al. original Springer HTML 12 September 2026 inspected: Theorem3.3 equality in dg-module over field scope, not ordinary Top^R universal equality. **SRC-0091** DKS relative 1989 selected earlier original transcription; **SRC-0086** HKM2002 and **SRC-0092** Baues–Blanc2011 abstract levels unchanged. No exhaustive Top-specific 2023–2026 novelty certificate.
+- Original 1981 Höppner–Lenzing printed proof for frozen T66 still uninspected. No new unique SRC IDs invented; exact access grades in JSON retained.

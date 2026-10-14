@@ -291,3 +291,11 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - DEC-S047-B: Accept INTERNAL conditional T110 m-fold bracket sharp *sampling-method* real clock bound; its sharp endpoint is a limitation of the chosen obstruction, NOT the exact dHI.
 - DEC-S047-C: Accept INTERNAL T111 iff between existence of an attained strict 5/4 HI and full 11-vertex GRID (K~A as a single diagram, one propagated vertex family, five constant k→k+5 arrows); explicit both directions and all real times. No GRID witness or no-go, no exact dHI proof.
 - DEC-S047-D: Continue Stage1/G2 NOT_STARTED, no novel HHA flagship; S048 FUTURE UNEXECUTED with GRID as first target. No Lean/Palomar/paper/arXiv/HHA/contact; T66/1981/R5/Hopf/T84 frozen.
+
+
+## S048 decisions (2026-10-14)
+- DEC-S048-A: Independently pin LIVE S047 PR48 merge 5e51acfd6ff2dd8ec97912339fe3f70c6c4d9837 parents [2e8d85c1af94ffe672a7dda1aefdcb300453cc3f,8ef429354149002b198213d468e67846bdbc1d5e], tree 0cb3e9e2c3085f302a6863ec32939576dead2985; main hosted governance run38626599406 check116067208811 SUCCESS STATIC, open PR[], rulesets[], branch protection403 UNKNOWN.
+- DEC-S048-B: Accept INTERNAL T112 strict attained rational epsilon iff one [5s] GRID(r,s), 2epsilon=r/s, full-real floor extension and both identities; necessity explicitly depends on T108. Accept T113 exact INFIMUM over rational feasible grids by monotonicity/density. Do NOT claim a finite algorithm or epsilon5/4 attainment.
+- DEC-S048-C: Accept conditional T114 no solution to GRID(5,2) in subclass with all three maps K4->5,K6->7,K8->9 injective; hence no projectively cofibrant *underlying chain* GRID with exact literal constants. DO NOT call this unrestricted endpoint no-go; ordinary cofibrant replacements need not preserve exact equations.
+- DEC-S048-D: Accept standard local HEP T115, reject naive iteration as a simultaneous tertiary filler. epsilon4/3 [15] has seven unresolved length8 constants; all eps(5/4,3/2), exact dHI, unrestricted GRID, full original Adams transport, novelty/HHA flagship remain OPEN.
+- DEC-S048-E: Stage1 IN_PROGRESS; first novelty Gate2 NOT_STARTED, Lean/final review NOT_STARTED and Palomar/manuscript/arXiv/HHA/contact not authorised. Preserve T66 original1981 assumptions, strict R5 16471, retired Hopf/T84; S049 FUTURE UNEXECUTED.

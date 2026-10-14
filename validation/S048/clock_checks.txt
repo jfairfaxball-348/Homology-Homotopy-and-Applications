@@ -1,0 +1,4 @@
+epsilon=5/4; delta=5/2; L=10; r=5; nontrivial constant constraints=5; sampled shift PASS
+epsilon=4/3; delta=8/3; L=15; r=8; nontrivial constant constraints=7; sampled shift PASS
+epsilon=7/5; delta=14/5; L=25; r=14; nontrivial constant constraints=11; sampled shift PASS
+epsilon=3/2; delta=3; L=5; r=3; nontrivial constant constraints=2; sampled shift PASS

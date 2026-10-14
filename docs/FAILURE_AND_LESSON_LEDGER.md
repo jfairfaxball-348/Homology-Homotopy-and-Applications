@@ -310,3 +310,11 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - T111 converts attained endpoint strictification to finite 11-node **existence of a coherent whole-WE diagram K**; checking mere homotopy triviality of five composites in the original homotopy category is weaker. No tertiary filler, K construction, GRID impossibility or ε>5/4 exclusion established.
 - A negative endpoint-attainment statement would still not prove dHI>5/4 (infimum need not be attained). All primary source access and classical indeterminacy limits persist; no external novelty certification.
 - Preserve all-real shoelace and both strict identities, not a single point-set F held fixed or independent local nullhomotopies.
+
+
+## S048 hostile lessons
+- **Conflating pointwise cofibrancy with cofibrant diagram invalid:** a successful GRID K need not have injective arrows. Conditional T114 rules out only the subclass with all K4->5,K6->7,K8->9 injective. An ordinary projective cofibrant replacement does NOT preserve equations K_(j->j+5)=literal constant, so no universal GRID no-go follows.
+- **Local cylinder/HEP trap:** T115 constructs one adjusted WE annihilating one null composite, but simultaneous later cofibration overlap may fail. Forcing all three injections would contradict the nonzero original Toda input. No common 3cell produced.
+- **Infimum ≠ endpoint:** T112 rational exact existence and T113 rational density reduce the search logically, not algorithmically. GRID(5,2) failure alone leaves possibility dHI=5/4 unattained. epsilon4/3 gives GRID(8,3) seven equations but no witness or obstruction yet.
+- **Arithmetic checks ≠ topology:** Fraction grids at eps5/4,4/3,7/5,3/2 test only floor shifts and constraint counts, not any K or universal epsilon interval.
+- **Primary-source honesty:** a direct publisher abstract isn't complete Adams proof; IWX h5n/full pointed/stable comparison and DKS/BJT relative originality must still be examined. Springer 2026 dg equality is not ordinary Top^R.
