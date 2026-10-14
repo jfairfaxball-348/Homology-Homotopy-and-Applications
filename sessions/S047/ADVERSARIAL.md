@@ -1,0 +1,11 @@
+# S047 hostile audit — no false exact threshold
+
+1. **S046 all-replacements hypothesis retained.** Projectively cofibrant Q over the WHOLE real shoelace poset (small in a chosen universe) is filtered/has monomorphic arrows by original LS Prop4.5; crossed image V_s of contractible G' is contractible mono in QF_s only for s>=epsilon. Natural quotient QF_s/V_s for s>=epsilon, untouched QF_s earlier, is objectwise WE by sSet left properness. Cross-cut maps induce a natural whole-F diagram; both I-F, I-G and both N-a, N-b survive. No unilateral G' collapse asserted. Standard projective model/realization details still need independent referee.
+2. **False leap excluded:** the clock-packing obstruction at 5/4 fails because s4 reaches or exceeds the terminal point. A sharp *sampling method* does NOT prove dHI=5/4 or 3/2.
+3. **GRID requires all actual five-point maps literally constant to the SAME propagated vertices**, and ONE full [10] weak-equivalence zigzag. Objectwise nullhomotopies or separate arbitrary K_i replacements do not suffice. Every half-grid boundary is represented by floor(2t), and negative-time sources are empty.
+4. **Infimum versus attainment:** A proof that GRID fails does not decide whether dHI=5/4 via strict epsilon>5/4; don't promote it. A successful GRID model would establish dHI=5/4 together with S046 lower (internal).
+5. **Higher Toda hypothesis:** For m>4, no source-stated nonzero m-fold Toda has been identified, so T110 is CONDITIONAL on such a bracket being well-defined, zero-excluded and diagram-WE invariant. Even for m=4 classical unpointed-to-pointed and full Adams indeterminacy need an independent audit.
+6. **Competing constructive route:** no natural coherent relative tertiary filler, no explicit GRID K, and no strict epsilon∈[5/4,3/2) model with both identities has been exhibited. Failure to find such a model is not nonexistence.
+7. **Priority and gates:** LS2020/2023 original remark, classical DKS1989, BJT2019, HKM2002/Baues–Blanc2011, Wang–Xu2017 and IWX2023 dominate precursors; lack of complete 2023–2026 Top-specific source proof review precludes originality/HHA claim. Static CI validates repositories, not math.
+
+Verdict: T110/T111 INTERNAL proof reductions; exact HI and priority remain OPEN.

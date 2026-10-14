@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14 S046",
+  "as_of": "2026-10-14 S047",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2288,6 +2288,49 @@
         "SRC-0096"
       ],
       "scope": "No full tertiary matched filler at epsilon>=5/4; S041 half-step threshold claim not independently used; Stage1/G2 still closed."
+    },
+    {
+      "id": "CLM-0240",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S047 T110 conditional higher-Toda m+1-stage one-chain clock packing: if full m-fold bracket excludes zero with correct weak-equivalence transport and T108 holds, strict epsilon<1+1/(2 floor(m/2)) HI is impossible; the all-two-step sample method is sharp at equality.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094",
+        "SRC-0095"
+      ],
+      "scope": "INTERNAL conditional theorem; no general new higher-bracket source computation, not an exact HI assertion or a universal nonzero higher Toda."
+    },
+    {
+      "id": "CLM-0241",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S047 T111: for unchanged Wang-Xu five-sphere F against G=point, strict attained epsilon=5/4 HI with arbitrary full-real WE replacements exists iff a single finite [10] diagram K~A, K10=point, propagated vertices x_k and FIVE strict constant maps K(k->k+5)=x_(k+5) for k0..4 exists.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094"
+      ],
+      "scope": "INTERNAL exact equivalence conditional on S046 T108; sufficiency full-real H_t=K_floor(2t) and both identities; does not decide GRID existence or epsilon>5/4/attainment of infimum."
+    },
+    {
+      "id": "CLM-0242",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S047 finite GRID is solvable/unsolvable; exact dHI equals 5/4 or 3/2; independently original HHA theorem, completed primary bracket transport or full current novelty audit.",
+      "sources": [
+        "SRC-0091",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "NONE OF THESE established. dIHC=1<5/4<=dHI<=3/2 only internally/source-dependent. First novelty Gate2 NOT_STARTED."
+    },
+    {
+      "id": "CLM-0243",
+      "status": "SOURCE_STATED",
+      "claim": "Original Lanari-Scoccola Prop4.5 poset projective-cofibrant diagrams filtered/mono; Wang-Xu Cor1.10 and IWX2023 printed Tables4/10 identify bracket and full h5n listed indeterminacy.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094",
+        "SRC-0096"
+      ],
+      "scope": "Selected original proof/table access, no independent classical Adams/Moss rederivation, no guarantee T111 novel."
     }
   ]
 }

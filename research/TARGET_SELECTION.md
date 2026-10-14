@@ -168,3 +168,6 @@ S045 T104 whole-shoelace projective simplicial/CW replacement preserves both str
 
 ## S046 flagship scoreboard
 **Quantitative strict HI>IHC sphere-chain witness, conditional INTERNAL proof**: homotopy relevance 5/5; current mathematical proof completeness 3/5 (standard category machinery, source Adams transport, exact dHI open); novelty confidence 1/5 (LS2020 anticipated related separation, DKS1989/BJT2019 pre-existing coherence, no exhaustive exact-result survey); immediate HHA readiness 1/5 (first novelty G2 unopened). T108/T109 establish internally dIHC1 < 5/4 <= dHI <= 3/2 without falsely asserting dHI=3/2. No selected novelty-cleared HHA original theorem. S047 FUTURE ONLY; frozen T66/1981, R5, retired Hopf, T84 retained.
+
+## S047 target decision
+Keep the original finite five-sphere 1-real-parameter HI/IHC comparison as an **INTERNAL** mathematical candidate, NOT first-novelty approved HHA result. New T110 conditional clock limit and T111 exact attained ε=5/4 finite GRID equivalence sharpen the proof target without solving existence, exact HI or 2023–2026 priority. HHA-impact assessment and peer-level theorem proof require separate gates. S048 FUTURE.
