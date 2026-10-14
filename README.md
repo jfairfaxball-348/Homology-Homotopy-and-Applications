@@ -43,3 +43,5 @@ Nontrivial split Postnikov F2 shear H³ classes obstruct **prescribed edge** Ho-
 
 ## Latest research checkpoint — S035 (14 October 2026)
 Internal T75/T76 proof candidate for a source-stated 2023 homotopy-interleaving strictness question: for simply connected finite-CW sphere filtrations, `d_HC=1` but `d_IHC>=3/2`, using the nonzero classical Toda bracket detected in the derived homotopy category of arrow diagrams. This is NOT independent peer review, priority novelty certification or publication. Authors had anticipated the adaptation in their original preprint v1; G2 remains closed. S036 is FUTURE/UNEXECUTED, for hostile independent checks and the still-open d_HI vs d_IHC comparison. No Lean, Palomar or manuscript work undertaken.
+
+**S039 update (2026-10-14):** Internal complete restricted 1D homotopy distance theorem T87/T88: for four nonterminal simply connected finite CW stages compared against point-after-zero, d_IHC=d_HI exactly in half-step categories. No universal equality or dHI>dIHC witness; DKS1989/2002 priority and HHA impact not cleared. S040 FUTURE ONLY; Stage1.

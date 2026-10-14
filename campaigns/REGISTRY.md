@@ -89,3 +89,5 @@ Preregistered P={0..15}, A={0,3,7,11,15}, ALL 136 intervals; independent GF2 quo
 
 ## S038 396/4356 finite audit + self-priority correction
 All 66 P0..10 intervals crossed with all six critical A0,3,7 rectangles, 396 brute F2 Hom-adjunction comparisons, PLUS 66²=4356 2D product-rectangle support checks PASS; source SHA 25eb1ceb5c0cb741a8015fee2207c4d8a0db9de99942363381d6f8951405149e, stdout SHA 53a9f24b6544ac5ce6736fd4cc80eddec236eed588b0f07520f880a0412b9d51. First enumerator bug independently detected and fixed. Finite sampled poset ONLY, dense R proof is analytic. S018 T43/T44 previously covered real transport. S038 T84 bit specialization internal, no original HHA topology. S039 FUTURE.
+
+- **S039 2026-10-14:** four-stage point-target two-window coherence INTERNAL theorem T87/T88 and negative search-boundary T89; no new original HHA flagship. S040 pending derived-[2] five-stage attempt. S038 all-real F2 relative-resolution T84 derivative, no reopened novelty. Gates and frozen obligations unchanged.

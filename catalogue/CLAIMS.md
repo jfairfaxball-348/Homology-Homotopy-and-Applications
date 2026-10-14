@@ -282,3 +282,11 @@ Full claims and sources in JSON and S037 dossiers.
 |CLM-0205|INHERITED_UNVERIFIED|New HI>IHC simply-connected CW gap is NOT PROVED.|
 |CLM-0206|INHERITED_UNVERIFIED|Original HHA priority/fit is NOT established; Stage2 CLOSED.|
 See S038 full dossier and JSON scope.
+
+## S039 claims
+|ID|Status|Scope|
+|---|---|---|
+|CLM-0207|PROGRAMME_PROVED|T87 derived-arrow relative quotient-cylinder strictification of two overlapping windows; INTERNAL, source-priority unverified.|
+|CLM-0208|PROGRAMME_PROVED|T88 exact four-stage-point-target dIHC=dHI∈{0,1/2,1,3/2,2} restricted theorem, both identities all reals; no general equality.|
+|CLM-0209|COMPUTED_EXACT|288 Fraction stage samples SHA256 3ca9b0810e5b1cff7a10dda4a8a5f00be84a6ee62c88ae0073756877da21b23d; timing only.|
+|CLM-0210|INHERITED_UNVERIFIED|Original HHA priority or general HI/IHC gap is NOT established.|
