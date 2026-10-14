@@ -1,0 +1,6 @@
+# S041 plan, preregistration and stop conditions
+PRIMARY: settle or disprove all-essential theta2=0 five-chain => strict triple zero, allowing arbitrary full-diagram weak replacements. Explore strict relative lifting and DKS obstruction cocycles with honest dimensions and all 2-tracks. Attack T87/T92 and 3/2 two-triple case in parallel. Exact metric requires both identities, every real t, all weak-equivalent replacements and open positive gap interval.
+Sources: original DKS1989 §§2–5 and selected proof, track Toda2002, Baues–Blanc2011, LS2020v1/AGT2023 Prop3.12 Remark3.13, 2026 dg field category. Never assume source absent just because publisher denies access.
+If full epsilon1 gap cannot be solved, prove a rigorous structural frontier theorem if possible and retain epsilon1 OPEN. No numerical campaign is planned; matrix arithmetic and logical interval tests are deductive, not a claimed execution of exhaustive computation.
+Stage2 only after novel important primary-proof-priority-tested theorem and indispensable homotopy application; otherwise Stage1. Freeze T66 original 1981, strict R5 16,471, Hopf retired.
+Close with archived tests, full future S042 prompt, atomic one-commit PR / guarded two-parent ordinary merge; no S042 execution.

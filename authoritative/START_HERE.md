@@ -51,3 +51,7 @@ Internal T87 quotient-cylinder strictifies the two overlapping derived-arrow poi
 
 ## S040 checkpoint (14 October 2026)
 S040 T91 projectively cofibrant derived-[2] map and T92 conditional five-stage coupled strictification (all four primitive maps must be essential in any epsilon1 gap) internally proved; T94 exact wedge S³∨S³ example refutes converse. No full five-stage equality/gap. S039 T87 relative lifting remains internal, no external certification. 1989 DKS original §§4 relative statements now directly examined in original transcription (publisher 403), heightening priority warning. Stage1 and all later gates unchanged. S041 FUTURE UNEXECUTED.
+
+
+## S041 checkpoint (14 October 2026)
+S041 T95 relative insertion reinstates intermediate C after compressing p=hg; T96 INTERNAL conditional on T87 closes five-stage point-target epsilon3/2 IHC-to-HI strictification and T97 reduces the ONLY numerical gap possibility to (dIHC,dHI)=(1,3/2) with four essential primitive arrows and derived-[2] coherent theta2 null. Epsilon1 all-essential universal rectification/counterexample OPEN; priority DKS1989/track2002 blocks Stage2. S042 FUTURE UNEXECUTED; no Lean/Palomar/manuscript/arXiv/HHA/contact.

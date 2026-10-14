@@ -198,3 +198,7 @@ Original LLO arxiv2402.16624v4 §1.1 Problem1 and §1.3 (existing Koszul k>0 pro
 - SRC-0092 **ABSTRACT_INSPECTED** original Baues–Blanc 2011 JPAA publisher abstract DOI10.1016/j.jpaa.2010.09.003, compares obstruction theories including DKS.
 - SRC-0093 **SECONDARY_ONLY** original 2021 homotopy-coherent Dold–Kan publisher-indexed excerpt DOI10.1016/j.aim.2021.108175, higher compatible nullhomotopies already developed; proof not read.
 - SRC-0086 quaternary track Toda 2002 original publisher abstract reconfirmed, not full paper. SRC-0083/88 LS originality barriers maintained. No full comprehensive novelty gate.
+
+
+## S041 source review and access classification
+Original DKS1989 printed-paper transcript SRC-0091 §§2.1–2.5 theorem/proof opening, §§4.2–4.9 relative theorem/cocycle and selected proof, §5 topology opening directly viewed in ResearchGate transcription; still **STATEMENT_INSPECTED**, not entire independent full-proof audit; original publisher abstract accessible. SRC-0086 Hardie–Kamps–Marcum2002 original publisher ABSTRACT only, explicit quaternary bracket/2-tracks; SRC-0092 Baues–Blanc2011 original abstract plus arXiv:1008.1712 abstract only; SRC-0083 AGT2023 indexed original PDF Prop3.12/Remark3.13 selected snippets, inherited original v1 author-upload prior; SRC-0084 original Springer 2026 dg-only category statement. **No new source ID needed**: reuse existing exact IDs and limits. T95/T96 classical relative HEP very low novelty; G2 blocked.

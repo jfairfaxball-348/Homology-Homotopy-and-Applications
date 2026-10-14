@@ -200,3 +200,7 @@ C T66 original1981 coherent integral Q/allFp prime still unrefereed; S023 16,471
 
 ## S040 routes
 Topological primary: T91 derived [2] theta2 zero model; T92 INTERNAL: all four primitive arrows essential necessary for epsilon1 separation, all four essential not sufficient (T94 wedge nilpotent control exact HI=IHC1). Need strictification lift obstruction with all replacements at epsilon1 or derived [1] overlapping triples at epsilon1.5. Neither closed. Four-stage T87/T88 internal but priority blocked by original DKS1989 §§4 proof/statement. Algebraic T84 derivative S018/S037/S038 not rerun. T66/1981, strict R5 and retired Hopf frozen. No HHA flagship.
+
+
+## S041 tightened route
+T95 insertion after four-stage T87 compression p=hg yields T96 INTERNALLY: at epsilon1.5 all five-stage point-target IHC witnesses strictify; T97 possible positive gap ONLY IHC1/HI1.5, requiring coherent theta2=0 and four essential primitive arrows. Main goal for S042: genuinely settle epsilon1 simultaneous gf,hg,kh zero after all replacements or finite CW no-go with invariant. No new novel HHA original result currently. 1989 DKS relative theorem/2002 2-track priority strong; T84 derivative, T66/1981, R5, Hopf frozen.

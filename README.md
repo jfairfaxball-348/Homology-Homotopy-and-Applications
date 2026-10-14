@@ -48,3 +48,6 @@ Internal T75/T76 proof candidate for a source-stated 2023 homotopy-interleaving 
 
 
 **S040 update (14 October 2026):** Derived-[2] five-stage map theta2 model made explicit. Internal T92: if theta2 point-null and any one primitive arrow is nullhomotopic, simultaneous strictification of all three length-two composites follows; all four arrows essential is necessary, not sufficient (T94 wedge nilpotent control gives equal HI=IHC=1). General five-stage HI vs IHC remains OPEN; original DKS1989 relative §§4 access upgraded to selected original text, not priority clearance. Stage1 only; S041 FUTURE.
+
+
+**S041 update (14 October 2026):** INTERNAL T95 relative HEP insertion preserves C when compressing hg and invoking S039 T87; T96 now strictifies every five-stage point-target IHC epsilon=3/2 case (conditional on still-internal T87). T97 confines any five-stage HI>IHC difference to exact (1,3/2), with four essential primitive maps and coherent theta2 null. No such epsilon1 gap witness and no universal strictification, original DKS1989/track2002 priority severe. Stage1/G2 closed, S042 FUTURE ONLY, no Lean/Palomar/manuscript/arXiv/HHA.
