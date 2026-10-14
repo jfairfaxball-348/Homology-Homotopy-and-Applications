@@ -310,3 +310,11 @@ See S038 full dossier and JSON scope.
 |CLM-0218|PROGRAMME_PROVED|T96 internal epsilon3/2 five-stage point-target IHC=>HI after replacement, all real times/two identities; dependent on T87.|
 |CLM-0219|PROGRAMME_PROVED|T97 internal possible five-stage positive gap reduced to (1,3/2) only; not proved it exists.|
 |CLM-0220|INHERITED_UNVERIFIED|General all-essential theta2-zero epsilon1 strictification/gap, certified novelty or HHA impact NOT ESTABLISHED.|
+
+
+## S042 claims
+|ID|Status|Scope|
+|---|---|---|
+|CLM-0221|SOURCE_STATED|Original Wang–Xu strictly defined nonzero 4fold <2,theta4,theta4,2> contains theta5, theta4 squared zero.|
+|CLM-0222|PROGRAMME_PROVED|INTERNAL SOURCE-DEPENDENT exact dHI=3/2 for S160,S160,S130,S100,S100 chain (2,theta4,theta4,2), standard bracket naturality all models + middle hg HEP; no IHC result.|
+|CLM-0223|INHERITED_UNVERIFIED|Theta2 coherently point-null in derived [2], full-real IHC1 and HI>IHC candidate: UNKNOWN; dIHC 1 or 1.5.|

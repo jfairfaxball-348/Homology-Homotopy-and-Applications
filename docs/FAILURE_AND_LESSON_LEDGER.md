@@ -272,3 +272,10 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Trying to make h:C->D a cofibration while hg literal constant breaks injectivity when g is essential. This naive epsilon1 HEP step is INVALID.
 - Quaternary Toda without coherent null and full indeterminacy is not a gap witness; no nonzero DKS relative cocycle was calculated. Epsilon1 remains genuinely OPEN, no invented obstruction.
 - S041 T95/T96 T97 rely on unrefereed T87 and classical DKS1989. No original HHA priority or gate increase.
+
+
+## S042 hostile lessons
+- A published strictly defined nonzero 4fold Toda bracket is a potential replacement-invariant strict-square-zero obstruction, not a failed point-set representative; stable naturality and bracket convention need independent referee.
+- Vanishing three pair composites and TWO triple bracket groups does NOT prove theta2=point in Ho(Top^[2]); do not infer dIHC=1 or a genuine dHI>dIHC gap.
+- Killing the single middle composite hg literally via cofibration HEP kills both triple compositions and yields exact upper dHI<=1.5 in this example.
+- Blanc–Johnson–Turner2019 already treats higher rectification of four-map chains; 4fold bracket itself Wang–Xu2017 is not programme-new. No novelty stage advancement.

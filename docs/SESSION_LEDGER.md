@@ -87,3 +87,6 @@
 
 
 | S041 | 2026-10-14 | Aggressive five-stage theta2 rectification attempt; new T95 relative reinsertion B↪C after compressed T87 strictification, T96 five-stage epsilon3/2 IHC=>HI (internal conditional on T87), T97 only remaining possible numerical gap (1,3/2). Source-first DKS §§2–5 challenge; no all-essential epsilon1 result/witness or HHA flagship; Stage1/G2 closed. | sessions/S041/CLOSEOUT.md; S042 FUTURE UNEXECUTED |
+
+
+| S042 | 2026-10-14 | SOURCE-DEPENDENT internal fourfold Toda obstruction on all-WE models of finite simply connected chain S160,S160,S130,S100,S100 (2,theta4,theta4,2): exact dHI=3/2 via Wang–Xu bracket and middle hg HEP. dIHC only {1,3/2}: theta2 coherent zero not computed, no actual HI/IHC gap. New Blanc–Johnson–Turner2019 higher-chain prior art. Stage1/G2 closed. | sessions/S042/CLOSEOUT.md; S043 FUTURE UNEXECUTED |

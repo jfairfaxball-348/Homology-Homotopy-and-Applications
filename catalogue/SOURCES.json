@@ -837,6 +837,24 @@
       "access": "SECONDARY_ONLY",
       "limitation": "The full original proof could not be read in current search.",
       "observed": "Coherent chain complexes require higher compatible nullhomotopies; strong conceptual precedent, not a direct assertion about five-stage Top^R."
+    },
+    {
+      "id": "SRC-0094",
+      "title": "Wang–Xu, The triviality of the 61-stem in the stable homotopy groups of spheres, arXiv:1601.02184v4, Corollary 1.10",
+      "url": "https://archive.ymsc.tsinghua.edu.cn/pacm_download/293/8755-61sphere_final.pdf",
+      "origin": "Original 2017 paper PDF, pp3–4 and corollary proof",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Only local Cor1.10 and short proof inspected; underlying Adams/Moss computations not reverified.",
+      "observed": "theta4 squared zero, pi61 zero, nonzero theta5 in strictly defined 4-fold bracket <2,theta4,theta4,2>."
+    },
+    {
+      "id": "SRC-0095",
+      "title": "Blanc–Johnson–Turner, A constructive approach to higher homotopy operations, Contemporary Mathematics 729 (2019)21–74, arXiv:1809.07495v1",
+      "url": "https://arxiv.org/abs/1809.07495",
+      "origin": "Original 2018 author manuscript Intro and selected Section 7.A, published 2019 DOI 10.1090/conm/729/14690",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected original text excerpts, full 4map proof chain not independently inspected.",
+      "observed": "Classical explicit higher operations as obstruction to rectifying length-four homotopy chains and fourfold Toda."
     }
   ]
 }
