@@ -113,3 +113,6 @@ Stage1 IN_PROGRESS. INTERNAL T95/T96/T97 close epsilon3/2 for five-stage point-s
 
 ## S042 gate — 2026-10-14
 Stage1 IN_PROGRESS. Internal exact HI=3/2 source-dependent on Wang–Xu original 4fold Toda sphere chain, dIHC still 1 or 3/2 and theta2 coherence OPEN. Classical Blanc–Johnson–Turner2019 4map rectification priority blocks novelty. G2 first originality audit NOT_STARTED/CLOSED; Lean and downstream untouched. T66/1981, R5 16,471 and Hopf retirement preserved. S043 FUTURE.
+
+
+- **S043:** Stage1 IN_PROGRESS; exact coherent theta2=0/dIHC1 INTERNAL with source stable pi61. First novelty gate Stage2 NOT_STARTED due to unresolved dHI and strong 2017/2019 classical priority. Stages 3–8 unchanged/closed; no owner-approved external action.

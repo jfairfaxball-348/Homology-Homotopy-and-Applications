@@ -258,3 +258,10 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - DEC-S042-B: dIHC in {1,3/2}, not dIHC=1. Vanishing separate triple Toda groups does NOT imply coherently null theta2. No HI>IHC witness.
 - DEC-S042-C: Blanc–Johnson–Turner2019 original 4map operation/rectification is new **prior art discovered**, in addition to DKS1989, HKM2002, Baues–Blanc2011, LS2023; G2 closed.
 - DEC-S042-D: S043 FUTURE unexecuted; T66/1981, strict R5 16471, retired Hopf, derivative T84 preserved. No Lean/Palomar/paper/arXiv/HHA/contacts.
+
+
+## S043 decisions (2026-10-14)
+- DEC-S043-A: Accept INTERNAL T100 coherent theta2 null on exact spheres using TWO iterated fibration pullbacks and pi61^S=0; do not infer from vertex maps alone, do not use the false Eq(P,Q) homotopy equalizer shortcut.
+- DEC-S043-B: Accept INTERNAL T101 exact dIHC=1 for full real comparison via Lan_{N0→R} derived adjunction, propagated point section and BOTH identities.
+- DEC-S043-C: Downgrade prior CLM-0222 S042 exact dHI=3/2 from PROGRAMME_PROVED to INHERITED_UNVERIFIED: arbitrary G'≃point in HI was not eliminated; published bracket contains theta5 with 2023 h5 n indeterminacy, zero-exclusion not independently certified. No strict gap yet. Preserve independently supported HEP upper 1.5.
+- DEC-S043-D: Strong classical BJT2019 and DKS/HKM/Baues priority; no HHA-specific original result or Stage2, no Lean/Palomar/paper/submissions/contact. Freeze T66/1981, R5 16471, Hopf retired, T84 derivative. S044 future only.

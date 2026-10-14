@@ -2109,14 +2109,14 @@
     },
     {
       "id": "CLM-0222",
-      "status": "PROGRAMME_PROVED",
+      "status": "INHERITED_UNVERIFIED",
       "claim": "S042 INTERNAL source-dependent exact five-stage point-target dHI=3/2 for sphere chain S160,S160,S130,S100,S100, arrows (2,theta4,theta4,2), all-model strict zero forbidden by stable nonzero fourfold bracket, HEP upper.",
       "sources": [
         "SRC-0094",
         "SRC-0095",
         "SRC-0083"
       ],
-      "scope": "Uses standard 4fold bracket naturality and published strictly defined meaning; needs outside referee, no IHC1 proof."
+      "scope": "Uses standard 4fold bracket naturality and published strictly defined meaning; needs outside referee, no IHC1 proof.; S043 hostile correction: S042 all-WE lower overlooks nonpoint contractible replacements of G, hence alleged exact dHI=1.5 NOT PROVED. HEP upper retained."
     },
     {
       "id": "CLM-0223",
@@ -2128,6 +2128,49 @@
         "SRC-0091"
       ],
       "scope": "NOT established; dIHC only 1 or3/2. Two separate triple Toda vanishing conditions inadequate."
+    },
+    {
+      "id": "CLM-0224",
+      "status": "SOURCE_STATED",
+      "claim": "Wang-Xu pi61^S=0; Isaksen-Wang-Xu2023 Table10 lists nonzero theta5=h5^2 in fourfold <2,theta4,theta4,2> with h5 n indeterminacy.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0096"
+      ],
+      "scope": "Original source theorem/stem chart and selected Table10 directly inspected; exact bracket zero-exclusion NOT independently proved."
+    },
+    {
+      "id": "CLM-0225",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S043 T100: explicit projectively cofibrant iterated mapping-cylinder QX and two relative path lifts with simultaneous strict squares prove theta2=point in Ho(Top^[2]) for exact five-sphere chain.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0096",
+        "SRC-0091"
+      ],
+      "scope": "INTERNAL proof. Uses pi1 Map(A,D)=pi1 Map(B,E)=pi61^S=0; does not imply strict zero composites or eliminate 4fold Toda."
+    },
+    {
+      "id": "CLM-0226",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S043 T101: full R-index eta_F^2 point via derived Lan_(N0->R) adjunction, two interleaving identities and primitive-map lower bound yield dIHC(F,G)=1.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0096"
+      ],
+      "scope": "INTERNAL full real proof. No derived Top^R to pointwise Ho shortcut, no HI lower claimed."
+    },
+    {
+      "id": "CLM-0227",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S043 Wang-Xu five-stage example has dHI=3/2 or dHI>dIHC; or classical 4fold Toda automatically obstructs strict HI1 with arbitrary point-side WE contractible G'.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096",
+        "SRC-0083"
+      ],
+      "scope": "NOT ESTABLISHED. True HI may use arbitrary objectwise-contractible nonpoint G'; bracket zero-exclusion/total indeterminacy needs proof and fourfold LS Prop3.10 analogue absent."
     }
   ]
 }

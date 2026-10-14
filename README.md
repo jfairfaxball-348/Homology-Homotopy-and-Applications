@@ -54,3 +54,7 @@ Internal T75/T76 proof candidate for a source-stated 2023 homotopy-interleaving 
 
 
 **S042 (14 October 2026):** New INTERNAL source-dependent exact dHI=3/2 for the five finite simply connected sphere chain S160--2--S160--theta4--S130--theta4--S100--2--S100 against point, via original Wang–Xu2017 nonzero STRICTLY DEFINED fourfold Toda and elementary HEP. **dIHC remains 1 OR 1.5**, since derived-[2] theta2 coherent zero is UNPROVED. Blanc–Johnson–Turner2019 prior classical fourfold obstruction theory newly checked. No HI>IHC witness or HHA originality; Stage1/G2 closed, S043 FUTURE.
+
+
+## S043 checkpoint — 14 October 2026
+**Internal progress, no HHA flagship:** the unchanged five-sphere Wang–Xu chain now has a two-stage simultaneous-coherence proof that the derived-[2] map theta2 is point-null; whole-real Kan-adjunction and both interleaving identities give **dIHC=1**. Hostile S042 audit found its quoted **dHI=3/2** lower proof overlooked HI replacement of the point-side filtration by contractible nonpoint stages; the 4fold bracket's full indeterminacy also requires zero-exclusion verification (Isaksen–Wang–Xu2023 Table10). Therefore **dHI=1 or1.5 remains unresolved** and NO separation/novel HHA theorem is claimed. S044 FUTURE UNEXECUTED, priority gate and Lean/Palomar/publication blocked.

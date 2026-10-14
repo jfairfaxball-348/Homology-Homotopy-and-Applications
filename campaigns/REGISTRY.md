@@ -100,3 +100,6 @@ All 66 P0..10 intervals crossed with all six critical A0,3,7 rectangles, 396 bru
 
 
 - S042 2026-10-14: No new numerical enumeration or executable certificate. The inequality 162<=198 is a written Freudenthal range check only; Wang–Xu's Adams/Moss computation sourced, NOT rerun. T98/T99 internal deduction, no Lean/Palomar or R5 run. S043 FUTURE.
+
+
+- S043 2026-10-14: No computational enumeration or new program/certificate. T100/T101 constructive homotopy-lifting proofs rely on sourced pi61^S=0; not an Adams/Lean machine computation. Main negative finding is logical S042-T98 all-replacements lacuna, not counterexample to the alleged strict bound. R5 all16471 strict cases untouched OPEN.

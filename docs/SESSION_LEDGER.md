@@ -90,3 +90,6 @@
 
 
 | S042 | 2026-10-14 | SOURCE-DEPENDENT internal fourfold Toda obstruction on all-WE models of finite simply connected chain S160,S160,S130,S100,S100 (2,theta4,theta4,2): exact dHI=3/2 via Wang–Xu bracket and middle hg HEP. dIHC only {1,3/2}: theta2 coherent zero not computed, no actual HI/IHC gap. New Blanc–Johnson–Turner2019 higher-chain prior art. Stage1/G2 closed. | sessions/S042/CLOSEOUT.md; S043 FUTURE UNEXECUTED |
+
+
+- **S043 (2026-10-14):** internally completed derived-[2] theta2-null proof on Wang–Xu five spheres, real IHC=1; S042 strict HI lower downgraded for arbitrary contractible G' replacement, dHI in {1,1.5} OPEN; SRC0096 IWX2023 indeterminacy; Stage1, S044 FUTURE UNEXECUTED. No Lean/Palomar/manuscript or submission.
