@@ -377,3 +377,9 @@ Theorem6.3 of IWX2023 is about **C-MOTIVIC stable** fourfold brackets, even thou
 
 ## S058 lesson — don't mistake an abstract bit for a computed Toda invariant
 Dual functional λ equivalent to prior rank is a potentially cheaper *route*, not a proof it has required numerical values. Even Browder κ(θ5)=1 cannot establish κ(P)=0 or κ(<ei,θ4,2>)=0 without actual geometric / classical Adams secondary proof. E2 h5 killed and rho31 high-tower label not valid basis. New projective argument rules out IHC ε<1, but coherent derived upper and all-replacement strict gap are distinct. Next S059 must calculate actual bits/compatible zero system, not another abstract repackaging. G1B/G2 OPEN.
+
+## S059 — universal Browder detection versus uncalculated secondary Toda values
+- S058 legitimately lacked κ(P) because merely knowing h5² **survives** does not automatically identify κ on all classes. Original Browder pp183–184 and Snaith2009 printed p33/37 provide the **individual-class detection** statement. With product filtration F4, this now PROVES κ(P)=0.
+- Do **not** take the next invalid step κ(P)=0 ⇒ κ(<e_i,θ4,2>)=0: secondary nulltracks are genuinely new mathematical data and Moss no-crossing has not been checked.
+- Even nonzero k(e_i) would disqualify this particular κ criterion, not automatically exhibit a 0 fourfold or refute every dual functional. No uncomputed triple-basis element may be silently assigned κ0.
+- Rechecking old S043 two path-lifts (relative endpoints) supports internal IHC1 but does not solve the higher all-replacements HI proof or priority/HHA gate; static CI is not maths validation.

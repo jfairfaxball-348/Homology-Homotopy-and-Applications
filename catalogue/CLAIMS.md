@@ -438,3 +438,9 @@ See S038 full dossier and JSON scope.
 - CLM-0300 SOURCE_STATED: Browder1969 Kervaire h5 squared existence (SRC-0106); not triple values.
 - CLM-0301 SOURCE_STATED: Sep2026 dg and Apr2026 relative Sullivan not exact ordinary Top^R theorem.
 - CLM-0302 INHERITED_UNVERIFIED: zero-in/out fourfold, arbitrary replacements, coherent derived ε1, current novelty G1B/G2 OPEN.
+
+## S059 claims — Kervaire class-level detection
+- **CLM-0303 PROGRAMME_PROVED:** Browder/Snaith class-level theorem plus Adams multiplicativity shows κ(P)=0 for P=π31·π31⊂F4π62; no actual ring-product table necessary. SRC-0106/0108/0101, theorem relative to external inputs.
+- **CLM-0304 PROGRAMME_PROVED CONDITIONAL:** κ on triples now well defined mod P, additive k:H/2H→F2, BUT actual basis and ALL three κ bits unknown. SRC-0108/0101/0099.
+- **CLM-0305 PROGRAMME_PROVED internal standard-input:** independent T100 two rel-endpoint correction path-lifts and whole-real Kan support derived ε1, with T148 lower dIHC=1 internally; not formal.
+- **CLM-0306 INHERITED_UNVERIFIED:** no full classical 4fold zero exclusion nor Top^R strict HI gap/novelty, G1B/G2 OPEN. S060 future.
