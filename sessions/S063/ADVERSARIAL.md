@@ -1,0 +1,12 @@
+# S063 ADVERSARIAL — independent mathematical and source counterchecks
+
+1. **Arity:** LS2023 Proposition3.10 proves a **three-arrow** Toda versus HI/HC gap, but Remark3.13 explicitly leaves HI/IHC open. It CANNOT be relabelled as our independent four-arrow HI/IHC result.
+2. **Xu quantifiers:** Lemma5.1's proved four zero-indeterminacy *θ4* operations are NOT <2,θ4,θ4,2>. Only its general three-family upper containment can be transplanted with typed degrees (0,30,30,0); exact compatible systems could vary inside A/C, which were not evaluated.
+3. **Wang–Xu:** θ5 belongs to target bracket, not singleton and not zero-out; other Lemma12.6 strictly defined bracket has nonzero indeterminacy. 2-primary B=0 does not kill outer families.
+4. **Kervaire function:** κ(θ5)=1 and κ(H·H)=0 do NOT imply κ(<j,q,2>) or κ(<v,q,2>) vanish. u=ηq bit zero is inherited and cannot be counted twice.
+5. **J-basis:** order64 J31 conditional known image-J theorem proves neither compatible triple tracks nor filtration/crossing; no classical v representative from C-motivic E2 n, and h5 has nonzero d2. Hence TWO genuine UNKNOWN bits.
+6. **Zero evidence:** no full compatible literal stable zero and no all-classical exclusion. Failure to find is not nonexistence; k nonzero, if found, would only disprove a sufficient method.
+7. **Unpointed/all real:** one projective cofibrant replacement of the whole shoelace deals with arbitrary original nonmonic reps in principle, but target classical 4fold zero preservation under this reconstruction is not provided by LS triple argument or generic DKS/HKM/BJT bibliographic association. Both naturality and both identities, negative times, contractible nonpoint G', and endpoint t4=5 demand full proof.
+8. **Derived:** S043 successive rel-endpoint comparison-loop corrections depend on π61=0, not three separate objectwise nullhomotopies; no independent formal compilation.
+9. **Novelty:** source's 2023 open question is positive relevance, not a 2026 novelty certificate; dg-equivalence article, equivariant/2-category papers need rigorous scope distinction and remaining current citations. G2 OPEN.
+10. **Stop rule:** Eleven consecutive five-sphere sessions without the missing classical calculation/transport are sufficient to demand an explicit owner route decision. Do not assume either mathematical impossibility or publication, do not silently retarget and do not execute S064.

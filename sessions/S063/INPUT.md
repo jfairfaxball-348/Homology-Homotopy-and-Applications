@@ -1,0 +1,9 @@
+# S063 INPUT — owner-authorised execution, 15 October 2026
+
+Owner invocation in this chat: **"Run next session"** (exact text). This is explicit execution permission for S063, NOT S064. Full S063 future handoff read from the LIVE authoritative/NEXT_SESSION_PROMPT.md at entry.
+
+**Pinned LIVE entry:** main 7a696a355ae77acf95fae8273ee09a37f73302a2, tree ac7fe2eb3c5df7eca39510d67d49ac8ba7a6df86. Previous S062 authored commit adfb1da4b0fa61a95b68010247d04d18ebc1cea3; real PR #64, ordinary merge 7a696a355ae77acf95fae8273ee09a37f73302a2 with ordered parents bd9113829a4d0e286fd7f9851c7640fc1b81b3f1 and adfb1da4b0fa61a95b68010247d04d18ebc1cea3; authored and merge tree ac7fe2eb3c5df7eca39510d67d49ac8ba7a6df86. Verified hosted S062 PR integrity run 38749104336/job 116470465943 SUCCESS and postmerge main run 38749199075/job 116470798248 SUCCESS, each with the seven setup/checkout/setup-python/static/cleanup/complete steps successful. STATIC governance, NOT mathematical verification. Open PRs NONE, main branch unprotected indicator, rulesets [], branch-protection endpoint 403 UNKNOWN. Many historical merged-session branch refs exist; no competing OPEN PR or newer main commit found at entry.
+
+Fixed research data: ordinary unpointed Top^R; whole-diagram objectwise WEs of BOTH F and G. F: empty before 0, then S160 --2--> S160 --theta4--> S130 --theta4--> S100 --2--> S100 on [0,1),…,[4,5), point after 5; G empty before 0, point thereafter. Target is STRICT dHI>dIHC, not exact dHI. Conditional internal dIHC=1 and lower dHI>=5/4 are NOT certified. Serious bounded classical / fourfold / WE / originality test; if proof blocked request explicit owner route decision.
+
+No Lean, Palomar, manuscript, arXiv, journal submission, press, or third-party contacts authorised. Close one branch/one authored atomic commit/PR/hosted STATIC check/ordinary two-parent merge. All outgoing evidence requires post-author verification.

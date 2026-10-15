@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S062 source/classical compatibility audit",
+  "as_of": "2026-10-15 S063 original LS/Xu/Wang source and 2026 scope audit",
   "sources": [
     {
       "id": "SRC-0001",
@@ -1008,6 +1008,15 @@
       "access": "METADATA_ONLY",
       "limitation": "NO original proof pages or J31 nullhomotopy, no Adams-Moss or actual k(j) calculation.",
       "observed": "Publisher identifies original image-of-J foundational paper, not a directly verified 31-stem Toda evaluation."
+    },
+    {
+      "id": "SRC-0113",
+      "title": "Patrick K. McFaddin and Tom Needham, Interleaving distances, monoidal actions and 2-categories, Algebraic & Geometric Topology 26 (2026), 227–281, DOI 10.2140/agt.2026.26.227",
+      "url": "https://msp.org/agt/2026/26-1/agt-v26-n1-p.pdf",
+      "origin": "Original publisher indexed PDF abstract, 2026-10-15; publication date 16 January 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Indexed original publisher summary, full paper proofs and every exact theorem not checked; no verified unrestricted plain Top^R HI/IHC resolution from this source.",
+      "observed": "Three interleaving distance constructions using monoidal actions and 2-categories; adjacent to homotopy interleaving comparisons."
     }
   ]
 }

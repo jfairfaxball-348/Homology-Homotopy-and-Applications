@@ -240,3 +240,10 @@ Actual images examined of original Browder1969 Annals printed p157, p183–184 T
 - IWX2023 original https://arxiv.org/pdf/2001.04511 §2.4/Table4/Table10 selected; motivic weight32 row not universal classical, h5 d2 and n only E2.
 - Adams1966 original publisher metadata https://www.sciencedirect.com/science/article/pii/0040938366900048 METADATA_ONLY; original cyclic image-of-J and nulltrack proof unavailable. DKS1989 original publisher indexed abstract https://www.sciencedirect.com/science/article/pii/0022404989900236; no exact original unpointed real persistence 4fold invariance established. LS source https://arxiv.org/pdf/2010.05378 selected definition/replacement quantifiers.
 - Sep2026 Springer JACT category DG Ch_K persistent; Apr2026 CDGA and Sep2026 equivariant original abstracts categorically distinct. No exhaustive 2025–16Oct2026 publication/cited-by/MR/zbMath or fully verified BJT/HKM original proof chain. Thus G2 NOT PASSED.
+
+
+## S063 primary source and scoped contemporary search — 15 October 2026
+- Inspected original LS arXiv2010.05378v3 printed p15 Proposition3.12/Remark3.13 and §3/§4. **Verified historical open question:** dHI vs dIHC left OPEN by its authors in 2023; only HI vs HC separation established there. Not a guarantee it remains open in 2026.
+- Inspected original Xu arXiv1410.6199v1 printed pp8–9 Lemma5.1: generic A/B/C fourfold indeterminacy upper families typed against degree30 q and π31/π61, but actual worked zero-indeterminacy proof concerns θ4 not target θ5. No classical new bit.
+- Inspected Wang–Xu original 2017 Cor1.10 proof and different Lemma12.6: target θ5 member, no full zero-out. Original Adams J(X) IV publisher metadata only; no classical compatible j/v or complete E∞ nulltracks.
+- Checked 12Sep2026 JACT DG result, Jan2026 McFaddin–Needham AGT26 indexed abstract, Sept2026 equivariant arXiv and IWX2023 motivic charts. Exact unrestricted ordinary Top^R result not identified in inspected parts, but full citation graph, MR/zbMath, DKS/HKM/BJT full transport source, journal review NOT accomplished. Search unsuccessful ≠ priority clearance. Owner decision gate.

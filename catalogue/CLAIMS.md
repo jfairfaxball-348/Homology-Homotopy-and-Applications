@@ -463,3 +463,11 @@ See S038 full dossier and JSON scope.
 - **CLM-0317 INHERITED_UNVERIFIED** k(u)=PROVED0 inherited; k(J31),k(v)=UNKNOWN, classical whole target 0-in/out UNKNOWN; Adams original metadata SRC-0112 only.
 - **CLM-0318 PROGRAMME_PROVED** exact ε∈[1,5/4) five-clock arithmetic, at ε=5/4 the last clock is 5 and method cannot exclude endpoint; no new HI theorem.
 - **CLM-0319 INHERITED_UNVERIFIED** source-complete arbitrary whole-WE unpointed Top^R Toda transport, strict dHI>dIHC, contemporary originality/HHA remain OPEN. G1B/G2 NOT PASSED.
+
+## S063 — original open-question boundary and honest bounded stop (15 October 2026)
+- **CLM-0320 SOURCE_STATED:** original LS2023 Prop3.12 gives dHI!=dHC, Remark3.13 expressly leaves dHI!=dIHC as OPEN at publication; no later 2026 priority guarantee. SRC-0065/0083.
+- **CLM-0321 PROGRAMME_PROVED:** Xu2016 Lemma5.1 general fourfold indeterminacy A/B/C specialized at degrees (0,30,30,0). The lemma's actual zero-indeterminacy fourfold examples are for θ4, NOT target θ5. SRC-0099.
+- **CLM-0322 INHERITED_UNVERIFIED:** no new actual k bit, k(u)=0 inherited, k(j),k(v) UNKNOWN, classical <2,q,q,2> 0-in/out UNKNOWN; no compatible filler/exclusion. SRC-0094/0099/0101/0111/0112.
+- **CLM-0323 INHERITED_UNVERIFIED:** LS triple nonrectification is not exact higher fourfold all-unpointed two-whole-WE real transport; strict HI>IHC still NOT PROVED. SRC-0065/0083/0094.
+- **CLM-0324 SOURCE_STATED:** 2026 JACT DG equalities and 2026 AGT monoidal/2-categorical generalization NOT verified ordinary Top^R HI/IHC solution; selected source-grade caveats. SRC-0104/0113.
+- **CLM-0325 INHERITED_UNVERIFIED:** eleven-session proof route LOW readiness HIGH risk; G1B/G2 NOT PASSED; explicit owner continue/retire/pause decision requested; S064 future A-conditional only.
