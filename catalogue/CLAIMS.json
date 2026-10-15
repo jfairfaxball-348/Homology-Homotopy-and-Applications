@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S064 original Moss theorem and 4fold zero transport audit",
+  "as_of": "2026-10-15 S065 alternate singleton classical fourfold strict HI>IHC",
   "claims": [
     {
       "id": "CLM-0001",
@@ -3241,6 +3241,47 @@
         "SRC-0115"
       ],
       "scope": "Hard-stop governance and proof status; no finding of impossibility or lack of priority."
+    },
+    {
+      "id": "CLM-0332",
+      "status": "SOURCE_STATED",
+      "claim": "Xu2016 §5 Lemma5.1 classical 2-primary entire ordered <2,sigma^2,sigma^2,2>={theta4} with zero indeterminacy, theta4 nonzero generator pi30_(2), and pi29_(2)=0.",
+      "sources": [
+        "SRC-0099"
+      ],
+      "scope": "Original published source; NOT an integral pi29 claim, nor new homotopy group computation."
+    },
+    {
+      "id": "CLM-0333",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S065 T167–T168 internal 2-local CW sphere ordinary unpointed Top^R five-stage diagram with arrows 2,sigma²,sigma²,2 and born-point target has dIHC=1 in Ho(Top^R) via two successive simultaneous rel-endpoint mapping-cylinder path lifts using pi69(L40)=pi29^S_(2)=0.",
+      "sources": [
+        "SRC-0099",
+        "SRC-0065"
+      ],
+      "scope": "Source-dependent internal proof; not formally/external certified. Not integral finite spheres."
+    },
+    {
+      "id": "CLM-0334",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S065 T169 internal dHI>=5/4 for alternate 2-local CW sphere five-stage pair under any arbitrary both-WHOLE objectwise ordinary WE zigzag representatives in unpointed Top^R, from entire epsilon-shoelace projective-monically cofibrant quotient and real clocks yielding literal zero fourfold against Xu classical singleton nonzero; hence strict dHI>dIHC.",
+      "sources": [
+        "SRC-0099",
+        "SRC-0065"
+      ],
+      "scope": "Internal mathematical candidate, pending independent original-source operation transport and current originality gate; no exact dHI or endpoint claim."
+    },
+    {
+      "id": "CLM-0335",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S065 alternate theorem exact up-to-Oct2026 priority/HHA gate not certified; no separate owner approval to replace original five-sphere theta4/ theta4 paper target, which remains unproved. No Lean/Palomar/paper.",
+      "sources": [
+        "SRC-0099",
+        "SRC-0065",
+        "SRC-0104",
+        "SRC-0116"
+      ],
+      "scope": "Current research stage, not publication or novelty clearance."
     }
   ]
 }

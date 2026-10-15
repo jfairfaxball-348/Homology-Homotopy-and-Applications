@@ -1,0 +1,11 @@
+# S065 PRIOR ART — original inspected input, exact scope, 15 October 2026
+
+**SRC-0099 Xu2016, Geometry & Topology 20, original arXiv:1410.6199v1** https://arxiv.org/pdf/1410.6199. **PROOF_INSPECTED:** original PDF page indices7 and8 visually checked §5 original printed p8–9, theta4 exact ordered <2,σ²,σ²,2> with ZERO indeterminacy proved in Lemma5.1, π29_(2)=0 and π30_(2)=Z/2 nonzero θ4. Publication final revision not linewise verified. Xu's result is published known input, the **Top^R application** is prospective new claim, no invented algebraic topology originality.
+
+**SRC-0065 Lanari–Scoccola2023**, https://arxiv.org/pdf/2010.05378, original selected §3 Prop3.10/3.12/Remark3.13 and §4 Lemma4.3/Prop4.5 PROOF_INSPECTED in S064 previous research; earlier authors' open HI/IHC problem historically pertinent but cannot establish current 2026 novelty. This session source-index page had retrieval timeouts, so do not claim new full read.
+
+**SRC-0104 Kuribayashi–Naito–Wakatsuki–Yamaguchi 2026**, DOI 10.1007/s41468-026-00252-0, https://link.springer.com/article/10.1007/s41468-026-00252-0. **STATEMENT_INSPECTED** open original Sep12 2026 intro and abstract: dIHC=dHI in category of persistence differential graded modules over field; via cochains applications to spaces over BS1, NOT a general plain Top^R metric equality or exact gap preemption.
+
+**Blumberg–Lesnick universality**, https://arxiv.org/abs/1705.01690, author/source ABSTRACT_INSPECTED, defines HI and homotopy-invariance, not audited full proof. Existing related DKS1989, HKM2002, BJT2019 classical higher rectification, and 2025 Belmont–Kong Moss convergence as catalogued remain serious priority and transport sources; their exact arbitrary-WE Top^R 4fold argument was not newly inspected end-to-end. Sep2026 equivariant arXiv:2609.23440 abstract and Apr2026 Sullivan rational papers apply to distinct settings.
+
+**Originality/HHA-fit assessment:** an unrestricted ordinary unpointed Top^R example with dIHC=1<5/4≤dHI based indispensably on the complete nonzero fourfold value set would answer a specifically relevant 2023 metric-separation question and be homotopy-theoretically nontrivial. But a thorough current theorem-level 2026 citation/MR/zbMath/prior art audit and external proof check remain OPEN, not rendered PASS by negative searches. Owner must approve switching the paper flagship.

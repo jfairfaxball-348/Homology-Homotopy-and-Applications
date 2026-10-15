@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S064 original Moss convergence indeterminacy and bounded strict-gap stop",
+  "as_of": "2026-10-15 S065 alternate 2-local classical Xu original source inspection",
   "sources": [
     {
       "id": "SRC-0001",
@@ -890,7 +890,7 @@
       "origin": "ORIGINAL publisher full 14-page PDF; §5 printed p1620 visual and text p1620-1621 directly examined in S054",
       "access": "PROOF_INSPECTED",
       "limitation": "Selected original §5 Lemma5.1 proof inspected; its general fourfold-indeterminacy upper bound is asserted as well-known in that proof, not a full foundational higher Toda conventions proof. Xu computes zero indeterminacy only for four DIFFERENT theta4/sigma words, not target theta5 word. Do not claim theta5 bracket is singleton.",
-      "observed": "General 4fold indeterminacy contained in three types of triple brackets, specializing degrees (0,30,30,0) to pi31/pi61/pi31 triple families in pi62; no result about all target classical defining systems' values."
+      "observed": "General 4fold indeterminacy contained in three types of triple brackets, specializing degrees (0,30,30,0) to pi31/pi61/pi31 triple families in pi62; no result about all target classical defining systems' values. S065 direct original PDF §5 pp7–8 Lemma5.1: complete classical 2-local <2,sigma²,sigma²,2>={theta4} zero-indeterminacy and pi29_(2)=0; final published version not rechecked linewise."
     },
     {
       "id": "SRC-0100",
@@ -1035,6 +1035,15 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Theorem1.1/4.11 and assumptions selected, entire technical proof not audited; no classical target crossing-differential computation completed.",
       "observed": "Permanent cycle/Massey bracket correspondence assumes weak convergence, products zero on E_r and precise crossing differential hypotheses and guarantees an element of a Toda bracket, NOT all possible choices."
+    },
+    {
+      "id": "SRC-0116",
+      "title": "Andrew J. Blumberg and Michael Lesnick, Universality of the Homotopy Interleaving Distance",
+      "url": "https://arxiv.org/abs/1705.01690",
+      "origin": "Original arXiv abstract and original author PDF snippet, 2026-10-15",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full proof not inspected, no comprehensive exact HI/IHC classical 2-local witness comparison.",
+      "observed": "Introduces and develops universal homotopy interleaving distance for filtered spaces."
     }
   ]
 }
