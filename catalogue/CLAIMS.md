@@ -400,3 +400,13 @@ See S038 full dossier and JSON scope.
 - **CLM-0275 (SOURCE_STATED)** IWX Theorem6.3 Table10 zero-exclusion **C-MOTIVIC**, indeterminacy not necessarily full/classical.
 - **CLM-0276 (SOURCE_STATED)** LS2020v1 and 2023v3 explicitly open Top^R HI vs IHC comparison historically.
 - **CLM-0277 (INHERITED_UNVERIFIED)** full classical comparison and novelty/HHA remain open; NO paper freeze / Gate2 PASS / formalisation.
+
+
+## S054 classical indeterminacy and adverse cross-category control
+- **CLM-0278 (SOURCE_STATED)** original Xu2016 general fourfold indeterminacy contained in three classical triple types, selected §5 proof.
+- **CLM-0279 (PROGRAMME_PROVED)** degree specialization to <pi31,theta4,2>, <2,pi61,2>, <2,theta4,pi31> in output pi62; UPPER constraint, not full evaluation.
+- **CLM-0280 (PROGRAMME_PROVED)** even with pi61=0 the middle triple <2,0,2> has usual indeterminacy 2*pi62; cannot discard without further calculation.
+- **CLM-0281 (SOURCE_STATED)** 2025/26 BI-Xu selected Lemma3.3/Remark3.4 synthetic bracket whose DIFFERENT classical analog contains zero.
+- **CLM-0282 (INHERITED_UNVERIFIED)** full CLASSICAL theta5 bracket zero-in/out and exact Top^R publication novelty still UNRESOLVED. G1B/G2 NOT PASSED.
+- **CLM-0283 (INHERITED_UNVERIFIED)** original arbitrary-whole-WE real quotient and derived IHC arguments internally reaudited but dependent on imported pi61/coherence results; no Lean/maths CI.
+

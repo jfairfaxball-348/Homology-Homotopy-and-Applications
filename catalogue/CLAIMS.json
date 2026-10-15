@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S053",
+  "as_of": "2026-10-15 S054",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2662,6 +2662,67 @@
         "SRC-0084"
       ],
       "scope": "The sole fatal evidence-import gap is classic vs motivic bracket plus full higher-operation naturality conventions and priority/fit; exact HI not required."
+    },
+    {
+      "id": "CLM-0278",
+      "status": "SOURCE_STATED",
+      "claim": "Xu2016 §5 Lemma5.1 proof bounds GENERAL classical stable fourfold Toda indeterminacy by a union of three triple Toda bracket types indexed by intermediate stable stems.",
+      "sources": [
+        "SRC-0099"
+      ],
+      "scope": "Original publisher selected proof p1620 directly inspected; does not assert singleton target theta5 bracket."
+    },
+    {
+      "id": "CLM-0279",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Substitution (n1,n2,n3,n4)=(0,30,30,0) into Xu2016 classical formula bounds the target fourfold bracket ambiguity by <pi31,theta4,2>, <2,pi61,2>, <2,theta4,pi31>, in total stem62.",
+      "sources": [
+        "SRC-0099",
+        "SRC-0094"
+      ],
+      "scope": "Elementary derived degree substitution and conditional theorem application; an upper indeterminacy control, NOT equality or absence of zero and not new original homotopy theorem."
+    },
+    {
+      "id": "CLM-0280",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Under standard stable triple Toda conventions <2,0,2> (middle null class in pi61) contains zero and has indeterminacy 2*pi62, so pi61=0 does not alone establish the middle family is zero.",
+      "sources": [
+        "SRC-0099"
+      ],
+      "scope": "Elementary calculation from primary triple-bracket indeterminacy via pre/postcomposition with 2; no calculation or assumption that 2*pi62 is nonzero. This is a negative logical control only."
+    },
+    {
+      "id": "CLM-0281",
+      "status": "SOURCE_STATED",
+      "claim": "Burklund–Isaksen–Xu Lemma3.3/Remark3.4 has a synthetic Toda detection with a corresponding CLASSICAL analog <eta,4 kappa-bar2,2> containing zero.",
+      "sources": [
+        "SRC-0100"
+      ],
+      "scope": "Applies to a DIFFERENT triple word, not evidence target fourfold bracket contains zero. Prevents naive general synthetic->classical zero-exclusion."
+    },
+    {
+      "id": "CLM-0282",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S054 did not prove or disprove full classical zero inclusion in <2,theta4,theta4,2>, strict dHI>dIHC for actual ordinary Top^R diagrams, nor complete 2026 exact novelty/HHA fitness; G1B/G2 remain IN_PROGRESS NOT PASSED.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0098",
+        "SRC-0099",
+        "SRC-0100",
+        "SRC-0083",
+        "SRC-0097"
+      ],
+      "scope": "Unresolved pi31 triple families, pi62 group, complete coherence and invariance; exact dHI and GRID intentionally not publication prerequisites."
+    },
+    {
+      "id": "CLM-0283",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S054 hostile read confirms consistency of S053 full-shoelace quotient clock proof and coherent derived IHC=1 under published projective sSet and classical stable pi61 input, without independent machine verification or full classical Toda zero-exclusion.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094"
+      ],
+      "scope": "Detailed conventional proof reconstruction in sessions/S054/MATHEMATICS.md; not new certified Top^R separation theorem."
     }
   ]
 }
