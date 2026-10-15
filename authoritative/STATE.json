@@ -1,14 +1,14 @@
 {
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
-  "as_of": "2026-10-15 S060 complete: authentic nonzero k(eta theta4)=0; two complementary bits OPEN",
-  "last_completed_session": "S060",
-  "recommended_next_session": "S061",
+  "as_of": "2026-10-15 S061 complete: true 31-stem J class, two complementary κ bits unknown",
+  "last_completed_session": "S061",
+  "recommended_next_session": "S062",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S060 proves k(eta theta4)=0 on an actual nonzero pi31/2pi31 class using original BJM1984 and Xu2016; two k bits and the full ordinary Top strict HI>IHC OPEN.",
-  "selected_mathematical_problem": "Compute remaining two classical k basis values or compatible fourfold zero; fully verify Top^R and up-to-date HHA novelty.",
-  "headline_status": "S060_COMPLETE__ONE_CLASSICAL_K_ZERO__TWO_UNKNOWN__G1B_G2_OPEN",
-  "active_campaign": "S061 FUTURE UNEXECUTED: calculate remaining two classical Kervaire triple bits, complete fourfold and ordinary Top^R proof/priority.",
+  "headline": "S061 identifies actual j=J_31 order64 independent of u=eta theta4 in π31/2. k(j),k(v), classical 4fold and strict unpointed Top^R gap UNKNOWN.",
+  "selected_mathematical_problem": "Compute two actual classical k values on j and v or decide full compatible classical fourfold; certify unpointed all-WE strict gap and contemporary novelty/HHA.",
+  "headline_status": "S061_COMPLETE__SECOND_TRUE_MOD2_CLASS_IDENTIFIED__TWO_K_BITS_UNKNOWN__G1B_G2_OPEN",
+  "active_campaign": "S062 FUTURE UNEXECUTED: classical J-triple/third-generator actual nulltracks or compatible zero/zero exclusion.",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__S060_ONE_GENUINE_K_ZERO_TWO_OPEN"
+      "status": "IN_PROGRESS__S061_J_IDENTIFIED__TWO_K_BITS_UNKNOWN"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "IN_PROGRESS__G2_NOT_PASSED__S060_PRIMARY_SOURCE_CHECK"
+      "status": "IN_PROGRESS__G2_NOT_PASSED"
     },
     {
       "id": 3,
@@ -735,7 +735,23 @@
     "s059_main_job": 116414235515,
     "s060_entry_main": "b9d6bca0127c8dae80fad88a9d670e9622bcb4bd",
     "s060_entry_tree": "b00202fed384064f87a4e16630b16ad29c034ca6",
-    "s060_protection": "403_UNKNOWN"
+    "s060_protection": "403_UNKNOWN",
+    "s060_authored_commit": "08107ca1bcf9b6454eaae2b15f83fa70447b3c70",
+    "s060_merge_sha": "ad9f72db120ed9e8497bc62b33a8ecc03b32a2e6",
+    "s060_merge_tree": "f419f7b8033fa7b7481787fbafa5eac1621146f5",
+    "s060_merge_parents": [
+      "b9d6bca0127c8dae80fad88a9d670e9622bcb4bd",
+      "08107ca1bcf9b6454eaae2b15f83fa70447b3c70"
+    ],
+    "s060_pr": 62,
+    "s060_pr_run": 38740032460,
+    "s060_pr_job": 116439004334,
+    "s060_main_run": 38740123736,
+    "s060_main_job": 116439323602,
+    "s061_entry_main": "ad9f72db120ed9e8497bc62b33a8ecc03b32a2e6",
+    "s061_entry_tree": "f419f7b8033fa7b7481787fbafa5eac1621146f5",
+    "s061_rulesets": "none accessible",
+    "s061_protection": "403 UNKNOWN"
   },
   "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate. S020 inspected original Springer full HTML Monoidal Rips Prop6.7, SoCG DOI abstract/HTML page, MathOverflow exact 36-tetrahedra list and original 2000 simplicial Hopf map bibliographic metadata; priority remains unverified. S021 DIRECT original Madahar-Sarkaria author-hosted PDF §§2,3,5 inspected; Oudot-Waas SoCG2026 HTML Thm1, Blaser et al. 2026 §6.3 Prop6.7, Memoli-Stefanou-Zhou JACT2024 HTML introduction/Def and stability statements; mixed cofiber priority still OPEN. S022 directly read Cohn–Rajagopal 2026 §2 five-dimensional kissing number 40–44 bounds (independent T50 uses its own positive polynomial); Cambridge original Munson–Volić 2015 cubical homotopy pushouts chapter metadata and indexed original PDF §3.8.8 total cofiber excerpt (PDF not directly retrievable); original Sarkaria paper source §§2,3,5 and original JACT/SoCG remain priority adversaries. No complete mixed-persistence priority proof audit. S024 revisited Cambridge 2015 §§3.8/3.9 ORIGINAL indexed author PDF snippets but 45MB direct PDF fetch was too large and alternate URL disabled; no full proof read. Revisited original JACT2026 Monoidal Rips full HTML and SoCG2026 original abstract; no new HHA priority pass. S026 original BL2017 Example8.5 inspected, Lanari-Scoccola AGT2023 full publisher PDF unavailable, MSZ2024 original theorem2 inspected, original Munson-Volic2015 complete PDF not retrieved. No source-cleared novelty. S027 original BL2017 §3 pp11, §7 pp21-23, §8 pp25-26 visually inspected; MSZ2024 original HTML Theorem1/2 and proof passages; LS2023 official abstract/metadata only, Munson-Volic full original PDF inaccessible; Oudot-Waas2026 abstract, Blaser2026 original HTML only. Full novelty proof audit missing. S028: full original LS arXivv3 downloaded and selected §3.3 Proposition3.14/Lemma3.15 and §5 theorem/proof inspected, journal-final PDF still inaccessible. Full original Munson–Volic45MB PDF retrieved, selected chapter3§3.8/3.9 proofs and visual pages168/171 read, correct cofiber Definition3.8.1. MSZ2024 original Theorem2/Lemma3.5 proofs read; Musin–Shamazov2025 original §§2–3 algorithm inspected. Exact certificate priority not claimed; categorical flagship retired. S030 direct original LLO arXiv HTML Definition3/Theorem4 and original FoCM2025 Thm4.11/Prop4.5/4.17 HTML proof directly inspected. Keagy2026 original arXiv ABSTRACT only, full PDF/HTML blocked; Höppner–Lenzing1981 publisher ABSTRACT only, pdf access denied; no proof-level priority clearance. S032: original Keagy2026 full proof text arxiv2602.13560v1 read for A_n/total order/zigzags; original Höppner–Lenzing1981 JPAA pp7–12 full proof remains inaccessible; no originality clearance. S033: Møller–Scherer original MPI Bonn PDF theorem2.2 proof and example2.4 visually inspected p3; original LLO v4 statement and Keagy v1 proof HTML accessible; Munson–Volić original 2015 and LS original 2023 selected proof inspections inherited from S028, not independently re-downloaded. 1981 Höppner–Lenzing JPAA full proof still uninspected; similarly titled 1981 Springer proceedings is distinct. No priority guarantee. S035: LS original arXivv3 PDF proof selected §§2.2.2,3.2 visually inspected, original publisher final Remark3.13 indexed; 2026 Springer original full article HTML §1/2/3 statements inspected; 2026 relative Sullivan arxiv HTML source selected sections; 2002 Toda track abstract only; LS v1 anticipation from indexed mirror. No exhaustive citation/priority audit. S040: DKS1989 original printed-paper text selected §§4.1–4.9, §5 open via ResearchGate original transcription; publisher direct 403; not complete proof chain. 2002 Toda and 2011 Baues–Blanc original publisher abstracts. No novelty gate. S042 original Wang–Xu arxiv1601.02184v4 Cor1.10 short proof directly read; Blanc–Johnson–Turner2019 Intro/§7.A selected original excerpts, NOT full proof; HKM2002 abstract only. S043 direct original IWX2023 137pp PDF selected tables pp114,212,228 (pi61=0; theta5; h5 n indeterminacy); BJT2018 arxiv PDF selected §7.A/Remark7.5; LS original 2022v3 HTML §3.2 Prop3.10 proof/Prop3.12/Remark3.13. DKS1989 full and HKM2002 proof not accessed. No priority pass. S044 SOURCE-STATED original IWX2023 Tables4/10 h5 f1/n f5 and h5² f2/h5n f>=6 bracket indeterminacy. Derived filtered-group exclusion internally, Adams proof/classical transport not independently redone. DKS1989/HKM2002/1981 originals not fully inspected.",
   "lean": {
@@ -934,5 +950,19 @@
     "top_strict_gap": "UNPROVED",
     "novelty": "NOT_PASSED",
     "new_computation": false
+  },
+  "s061_checkpoint": {
+    "date": "2026-10-15",
+    "result": "T153: named actual J31 order64 class independent mod2 of u from S060, theorem source SECONDARY_ONLY; T154 E2 h5 killed d2, n not proven stable; T155 no complete ordered classical fourfold deciding zero.",
+    "k": {
+      "eta_theta4": "PROVEN_ZERO",
+      "image_J": "UNKNOWN",
+      "third_v": "UNKNOWN"
+    },
+    "strict_ordinary_unpointed_Top_gap": "UNPROVED",
+    "gate1B": "OPEN",
+    "gate2": "NOT_PASSED",
+    "next": "S062 FUTURE UNEXECUTED",
+    "math_computation": "EXACT_BERNOULLI_ONLY"
   }
 }

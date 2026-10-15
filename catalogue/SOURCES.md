@@ -311,3 +311,8 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - **SRC-0099 original reread:** Xu2016 Geometry & Topology20 Theorem1.2 printed p1612 proves theta4²=0 and Thm1.6 p1613 constructs theta5; original https://msp.org/gt/2016/20-3/gt-v20-n3-p08-p.pdf.
 - **SRC-0110 ABSTRACT_INSPECTED:** Halder–Sau–Sen Sep2026 equivariant HI https://arxiv.org/abs/2609.23440; not unrestricted ordinary Top^R.
 - **SRC-0101 and SRC-0108** IWX classical pi61=0 and Snaith/Browder Kervaire filtration detection inherited from original previous-source inspection. No whole 31-stem E∞ hidden-extension charts, complete DKS/HKM/BJT theorem proofs, MR/zbMath or exhaustive contemporary citations reviewed; novelty gate OPEN.
+
+## S061 source audit
+- **SRC-0111 SECONDARY_ONLY:** https://ncatlab.org/nlab/show/J-homomorphism, standard Adams image-J theorem with Bernoulli denominator, original theorem proof not directly accessed, no k or bracket computation.
+- **SRC-0101 original table selected:** IWX2023 Table4 original PDF p107 h5 d2, n E2; Table10 p123 C-motivic target bracket does not prove classical all-defining-system exclusion.
+- **SRC-0109 selected original BJM1984 p535/537:** eta theta4 nondivisible, other fourfold word distinct. **SRC-0104** original Springer JACT2026 theorem DG-specific, not unrestricted Top.

@@ -388,3 +388,10 @@ Dual functional λ equivalent to prior rank is a potentially cheaper *route*, no
 - BJM1984 p537 gives one genuine nonzero pi31 mod-2 class u=eta theta4, not just an Adams E2 symbol. Through Xu's theta4²=0 and pi61=0, classical <theta4,theta4,2>={0}, and only its eta-left-multiple supplies a definite k(u)=0. TWO other bits cannot be inferred from filtration.
 - BJM <theta4,2,theta4,2> is NOT defined; target <2,theta4,theta4,2> has known theta5 member. Reordering is invalid; the first triple zero is not a compatible fourfold zero. No user-facing full strict HI claim or novelty promotion.
 - No actual 31-stem full generator chart, chosen complementary nulltracks, explicit PT/Arf calculation, full DKS/HKM/BJT all replacements comparison, or broad 2026 citations. Hosted static governance is not mathematical certification.
+
+
+## S061 — genuine basis class ≠ evaluated secondary operation
+- The classical image-of-J formula (original proof not inspected) identifies actual order64 j; u=eta theta4 is order2 and nondivisible, so two mod2 directions, **not** two k values. Only k(u)=0 is established from S060.
+- IWX Adams E2 h5 has nonzero d2; blank E2 n d2 not proof of E∞ or a third actual v. Do not substitute an E2 label for classical nulltrack.
+- Wang–Xu θ5 member and IWX C-motivic h5n table do not prove all-classical zero exclusion; BJM excludes another ordering. No full compatible zero filler found.
+- Unpointed whole-WE shoelace quotient and higher Toda transport still conditional, 2026 exact priority/HHA gate open. Tiny Bernoulli computation and hosted static CI are not mathematical theorem checks.

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S060",
+  "as_of": "2026-10-15 S061",
   "sources": [
     {
       "id": "SRC-0001",
@@ -990,6 +990,15 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Equivariant G-space setting, full proof/citations not inspected; not priority evidence for unrestricted ordinary Top^R.",
       "observed": "September 2026 equivariant homotopy interleaving, persistent Whitehead and equivariant nerve results."
+    },
+    {
+      "id": "SRC-0111",
+      "title": "Adams/Quillen image-of-J denominator theorem (secondary nLab account)",
+      "url": "https://ncatlab.org/nlab/show/J-homomorphism",
+      "origin": "Secondary nLab reference; original Adams/Quillen proof pages not inspected S061",
+      "access": "SECONDARY_ONLY",
+      "limitation": "Original proof not inspected; does not compute Toda or Kervaire values.",
+      "observed": "For stem31, two-primary image J order64 from B16/32=-3617/16320."
     }
   ]
 }

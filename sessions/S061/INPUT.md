@@ -1,0 +1,5 @@
+# S061 INPUT — executed owner invocation, 15 October 2026
+Owner instruction in this conversation: "Run next session"; this explicitly authorises **S061 only**. The complete instruction is the existing live `authoritative/NEXT_SESSION_PROMPT.md` on pinned entry main `ad9f72db120ed9e8497bc62b33a8ecc03b32a2e6`; no invented verbatim owner transcript.
+Research target: **ordinary unpointed Top^R** arbitrary whole-diagram WE strict dHI>dIHC for fixed five-sphere data (2, theta4, theta4, 2), not exact distance. S060 two k values and full classical 4fold remain open. No Lean, Palomar, paper or external contact authorised.
+Evidence: original 1984 BJM pp535/537; original arXiv IWX2023 Table4 p101/PDF107 and Table10 p117/PDF123 visually inspected; classical image of J theorem through secondary account only; new Bernoulli arithmetic exact; original 2026 JACT dg theorem open article inspected; inherited Xu2016/Wang–Xu2017/LS/DKS/HKM/BJT source scopes. 
+Stop rule: do not certify a 4fold zero/exclusion or Top^R gap without full compatible-defining-system proof. Preserve the next session unexecuted.

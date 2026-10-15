@@ -355,3 +355,7 @@ Accepted internal T149 **κ(P)=0** under original Browder/Snaith universal class
 
 ## D-S060 (2026-10-15): genuine 1-of-3 k basis bits solved
 Actual classical u=eta theta4 lies nontrivially in pi31/2pi31 (BJM1984 original p537), and Xu2016 theta4²=0 plus pi61=0 and Toda composition supply zero triple <u,theta4,2>. S059 κ(P)=0 makes the full Kervaire value **k(u)=0**. Two complementary generator bits still UNKNOWN. BJM's <theta4,2,theta4,2> non-definability is a DIFFERENT word, cannot be permuted into our <2,theta4,theta4,2>. No certified strict ordinary dHI>dIHC; G1B/G2 open, exact distance not needed, no Lean/Palomar/paper/external. S061 FUTURE ONLY; T66/1981, R5 16471, Hopf/T84 frozen.
+
+
+## S061 outcome (15 October 2026; no new owner decision)
+Retain owner's fixed strict HI>IHC Top^R publication target; T153 image-J direction does not evaluate remaining k bits or certify gap/novelty. S062 future only; no authority for Lean/Palomar/manuscript/arXiv/HHA or external contacts. Exact dHI unnecessary after genuine strict proof and novelty gate.

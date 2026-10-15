@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S060",
+  "as_of": "2026-10-15 S061",
   "claims": [
     {
       "id": "CLM-0001",
@@ -3030,6 +3030,48 @@
         "SRC-0107"
       ],
       "scope": "Only original abstract/selected statements accessible; incomplete citation chain."
+    },
+    {
+      "id": "CLM-0312",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S061-T153 conditional on classical image-of-J theorem: order64 stable j in 31-stem from B16/32 denominator; independent modulo 2H of actual order2 u=eta theta4 nondivisible by 2; a third v exists abstractly.",
+      "sources": [
+        "SRC-0111",
+        "SRC-0109",
+        "SRC-0101"
+      ],
+      "scope": "Secondary-only original source for image J, no k(j)/k(v) computation."
+    },
+    {
+      "id": "CLM-0313",
+      "status": "SOURCE_STATED",
+      "claim": "IWX Table4 original h5 has nonzero d2 in stem31, E2 n has blank d2 but this does not establish E∞ permanence or classical remaining generator.",
+      "sources": [
+        "SRC-0101"
+      ],
+      "scope": "No complete original hidden2-extension audit."
+    },
+    {
+      "id": "CLM-0314",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S061 still k(j),k(v) UNKNOWN, full classical ordered <2,theta4,theta4,2> zero inclusion/exclusion OPEN, unpointed all-WE strict HI>IHC and 2026 exact HHA novelty OPEN.",
+      "sources": [
+        "SRC-0111",
+        "SRC-0099",
+        "SRC-0101",
+        "SRC-0109",
+        "SRC-0104"
+      ],
+      "scope": "G1B/G2 not passed; no formalisation or external submissions."
+    },
+    {
+      "id": "CLM-0315",
+      "status": "SOURCE_STATED",
+      "claim": "Sep 2026 JACT Kuribayashi et al equality pertains to persistent DG category; not unrestricted ordinary unpointed Top^R.",
+      "sources": [
+        "SRC-0104"
+      ],
+      "scope": "Publisher original selected introduction and statement only; not novelty clearance."
     }
   ]
 }
