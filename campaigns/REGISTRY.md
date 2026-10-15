@@ -116,3 +116,6 @@ Active sole mathematical front: unrestricted nonmonic half-grid GRID(5,2) and ra
 
 ## S050 active campaign checkpoint
 No original-sphere GRID witness/no-go, no GRID8/3, no above-endpoint negative rational GRID, no positive unbounded cofinal family, no actual relative 3cell. T119 requires a true image-collapsing WE tail for every rational 2s<r<3s (conditional original bracket transport); T120 eliminates three-primary-only shortcut via finite interval counterexamples; T121 zero-category recognition sets a formal target for S051 but not a computed operation. All 512/16384 toy words independently cross-checked only within restricted contractible interval monoid. Stage1, no novelty gate. Frozen T66+1981, R5 16471, retired Hopf/T84. S051 future/unexecuted.
+
+## S052 bounded campaign
+Exactly ten preregistered (r,s): (5,2),(8,3),(7,3),(9,4),(10,4),(11,4),(12,5),(13,5),(21,8),(31,12). Explicit coordinate-word composition vs independently set-intersection checker, ALL marked windows, all three image-collision slots, intact 4th nonzero coordinate. All PASS; code/stdout hashes in sessions/S052/COMPUTATION.md. Pure interval algebra not sphere enumeration. Retain R5 exact 16,471 OPEN.

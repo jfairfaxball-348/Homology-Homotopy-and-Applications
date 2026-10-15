@@ -234,3 +234,6 @@ Three proof-first routes: (A) noncofibrant K via cones/HEP and compatibility of 
 - **Relative obstruction route OPEN:** T125 top-degree π2Map endpoint π62^S only, T126 ordinary idempotent zero false surrogate; an actual pointed-enriched projective resolution, tertiary S², indeterminacy and WE-invariant obstruction still absent. Direct cone/path attempts did not produce original sphere K.
 - **Distance FRONTIER:** no GRID(5,2), GRID(8,3) answer, no cofinal infinite family or negative rational >5/4, dHI exact unknown. Original LS/BJT/DKS strong prior art and published Wang-Xu/IWX source constraints, no Gate2.
 - Preserve frozen T66, R5 strict 16471, retired Hopf/T84 and original1981 caveat.
+
+## S052 revised primary route
+Discard collision-existence enumerations as discriminators (T127–T129). Promote only a genuine relative pointed-enriched Z_(10,5) homotopy-coherent construction invariant under WHOLE [10] zigzags, or an explicit unrestricted original sphere GRID. All 5 endpoint and 7 4/3 literal equations essential, and fixed source-dependent dHI bounds remain. BJT2019/DKS1989 priority strong; no Stage2 promotion. S053 future only.

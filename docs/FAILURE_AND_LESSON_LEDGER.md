@@ -339,3 +339,6 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - Each length-r equation is individually independent on contractible interval WEs: all j0..4 endpoint and j0..6 4/3 equations must be retained. Contractible toys never certify noncontractible original sphere diagrams.
 - Candidate π2Map endpoint π62^S is not an attached relative S² obstruction with indeterminacy. Ordinary category idempotent is not pointed enriched zero map (nonconstant projection counterexample).
 - Source-bracket/T108 and exact HI still independently unverified; all later gates closed and S052 only future.
+
+## S052 — collision-only strategy refuted as decision test
+Every whole-objectwise-WE class, INCLUDING the fixed original sphere diagram, admits three simultaneous on-image tail collisions by adding I³. It even admits a representation with all three collisions while every long strict zero relation fails, by keeping I4 unmodified. Therefore T119/T123 collision necessity is valid conditionally but homotopy-class nondiscriminating. No-go needs all zero relations and coherent higher operations; arbitrary point collisions or monic-only no-go are invalid shortcuts. GRID strictification remains unresolved.
