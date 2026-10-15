@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S061",
+  "as_of": "2026-10-15 S062 source/classical compatibility audit",
   "sources": [
     {
       "id": "SRC-0001",
@@ -999,6 +999,15 @@
       "access": "SECONDARY_ONLY",
       "limitation": "Original proof not inspected; does not compute Toda or Kervaire values.",
       "observed": "For stem31, two-primary image J order64 from B16/32=-3617/16320."
+    },
+    {
+      "id": "SRC-0112",
+      "title": "J. F. Adams, On the groups J(X)—IV, Topology 5 (1966)",
+      "url": "https://www.sciencedirect.com/science/article/pii/0040938366900048",
+      "origin": "Original publisher metadata located S062; original proof unavailable",
+      "access": "METADATA_ONLY",
+      "limitation": "NO original proof pages or J31 nullhomotopy, no Adams-Moss or actual k(j) calculation.",
+      "observed": "Publisher identifies original image-of-J foundational paper, not a directly verified 31-stem Toda evaluation."
     }
   ]
 }

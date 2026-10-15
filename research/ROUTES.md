@@ -258,3 +258,6 @@ First REAL classical 31-stem direction u=eta theta4≠0 in H/2H (BJM1984 p537) h
 
 ## S061 route: second real π31 mod2 class, no Kervaire triple solved
 Selected strict ordinary unpointed Top^R dHI>dIHC unchanged. Order64 2-primary image-of-J j independent from k=0 u=eta theta4 gives actual second mod2 basis direction, NOT k(j). Third generator v unidentified. Complete classical <2,q,q,2> zero/exclusion and whole-WE transport/novelty remain OPEN. S062 must solve actual secondary operations or direct compatible fourfold. No exact distance or GRID obligation.
+
+## S062 classical Toda strict HI route viability checkpoint
+Fixed first-publication goal remains unrestricted ordinary unpointed Top^R strict dHI>dIHC (five spheres, arrows 2,theta4,theta4,2), not an exact metric computation. Ten S053–S062 concentrated sessions left k(J31), third k(v), full compatible fourfold zero membership/exclusion and source-exact all-replacement invariance open. There is no certified original theorem or HHA gate. Mark **HIGH TECHNICAL RISK/LOW NEAR-TERM PROOF READINESS**. S063 FUTURE only should attempt an actual missing classical nulltrack or universal zero-exclusion, or explicitly request owner decision before any change of flagship; do not silently pivot.

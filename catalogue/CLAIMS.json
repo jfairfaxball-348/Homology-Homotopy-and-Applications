@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S061",
+  "as_of": "2026-10-15 S062 mathematical/provenance audit",
   "claims": [
     {
       "id": "CLM-0001",
@@ -3072,6 +3072,48 @@
         "SRC-0104"
       ],
       "scope": "Publisher original selected introduction and statement only; not novelty clearance."
+    },
+    {
+      "id": "CLM-0316",
+      "status": "SOURCE_STATED",
+      "claim": "Wang–Xu2017 classical Cor1.10 asserts theta5 BELONGS to ordered <2,theta4,theta4,2>, while original Lemma12.6 separately shows 'strictly defined' need not mean zero indeterminacy.",
+      "sources": [
+        "SRC-0094"
+      ],
+      "scope": "Selected original source pages; does not determine zero membership in target."
+    },
+    {
+      "id": "CLM-0317",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S062 computes NO second classical k bit: k(eta theta4)=PROVED0 inherited; k(image-of-J j) and k(v) UNKNOWN; original Adams source metadata only and full compatible classical 4fold zero/exclusion UNKNOWN.",
+      "sources": [
+        "SRC-0112",
+        "SRC-0111",
+        "SRC-0109",
+        "SRC-0101",
+        "SRC-0099"
+      ],
+      "scope": "Neither a new Adams/Moss proof nor a compatible zero or universal zero exclusion."
+    },
+    {
+      "id": "CLM-0318",
+      "status": "PROGRAMME_PROVED",
+      "claim": "For epsilon in [1,5/4), c=2epsilon-2 and t=(0,1,2+c,3+c,4+2c) satisfy t_(i+2)-t_i=2epsilon for i=0,1,2, with t4<5; at epsilon=5/4, t4=5 so this sample cannot exclude the endpoint.",
+      "sources": [],
+      "scope": "Elementary exact clock calculation only, re-audits previous S053 clocks, not a homotopy interleaving theorem."
+    },
+    {
+      "id": "CLM-0319",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Universal ordered classical Toda zero-exclusion, exact all-real arbitrary both-input unpointed whole-WE transport, strict dHI>dIHC and Oct2026 exact novelty/HHA application remain not certified.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0099",
+        "SRC-0101",
+        "SRC-0112",
+        "SRC-0104"
+      ],
+      "scope": "G1B/G2 open; S062 is a source-logic audit and LOW-readiness verdict, not a publication-ready finding."
     }
   ]
 }

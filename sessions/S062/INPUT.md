@@ -1,0 +1,9 @@
+# S062 INPUT — executed 15 October 2026
+
+Owner's exact in-conversation instruction: "Run next session". This executes S062 only, under the full S062 handoff in authoritative/NEXT_SESSION_PROMPT.md at pinned main bd9113829a4d0e286fd7f9851c7640fc1b81b3f1, tree 39090c365fa9e85c8677b3437a91546e416dd582. No S063 execution is authorised.
+
+At entry S061 authored 0c76f40db6859f2f90c8fe2bc1f88213e462b817, ordinary two-parent PR #63 merge bd9113829a4d0e286fd7f9851c7640fc1b81b3f1, parents ad9f72db120ed9e8497bc62b33a8ecc03b32a2e6 and 0c76f40db6859f2f90c8fe2bc1f88213e462b817; the authored and merge trees match. Prior PR workflow 38744984248/job116456163147 and postmerge main workflow 38745096985/job116456561953 each showed seven successful governance steps. These are STATIC repository-integrity checks, NOT homotopy verification. Open PRs [] and no S062 competing branch at entry; rulesets [] and branch protection access 403 UNKNOWN.
+
+Scope: arbitrary whole-diagram weak equivalences of BOTH input persistence diagrams in ordinary unpointed Top^R; strict distance d_HI>d_IHC for the fixed five-sphere chain. The internal conditional interval d_IHC=1, 5/4<=d_HI<=3/2 is NOT a certified theorem. Original image-of-J proof, classical 31-stem actual third generator, nullhomotopy data, full compatible 4fold zero status, higher Toda transport, and first exact-result HHA novelty are all live obligations.
+
+No permission for Lean, Palomar, manuscript, arXiv/HHA, public priority declaration or third-party correspondence. One branch, one authored atomic research commit, hosted STATIC check and ordinary verified merge required.

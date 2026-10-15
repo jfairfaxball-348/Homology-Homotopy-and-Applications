@@ -316,3 +316,9 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - **SRC-0111 SECONDARY_ONLY:** https://ncatlab.org/nlab/show/J-homomorphism, standard Adams image-J theorem with Bernoulli denominator, original theorem proof not directly accessed, no k or bracket computation.
 - **SRC-0101 original table selected:** IWX2023 Table4 original PDF p107 h5 d2, n E2; Table10 p123 C-motivic target bracket does not prove classical all-defining-system exclusion.
 - **SRC-0109 selected original BJM1984 p535/537:** eta theta4 nondivisible, other fourfold word distinct. **SRC-0104** original Springer JACT2026 theorem DG-specific, not unrestricted Top.
+
+## S062 selected classical original-source correction (15 October 2026)
+- **SRC-0094 original Wang–Xu2017** https://arxiv.org/pdf/1601.02184 selected Cor1.10 and Lemma12.6 proof inspected: θ5 membership in strictly defined target is not all zero-exclusion; another strictly defined operation has nonzero indeterminacy.
+- **SRC-0099 original Xu2016** https://arxiv.org/pdf/1410.6199 selected §5 Lemma5.1 original statement/proof inspected: variations controlled by OUTER triple families, not their computed value sets.
+- **SRC-0101 original IWX2023** https://arxiv.org/pdf/2001.04511 selected §2.4, Tables 4 and 10 inspected: C-motivic row, not an exhaustive classical 4fold; h5 d2 killed, n E2 not automatic E∞.
+- **SRC-0112 NEW METADATA_ONLY** Adams, *On the groups J(X)—IV*, Topology (1966) https://www.sciencedirect.com/science/article/pii/0040938366900048 ; original publisher record but no original proof or J triple nulltracks read. Earlier SRC-0111 is SECONDARY_ONLY. DKS 1989 publisher abstract only, no exact unpointed Top^R higher Toda transport proof verified. No full 2025–16Oct2026 citation chain/MR/zbMath clearance, G2 OPEN.

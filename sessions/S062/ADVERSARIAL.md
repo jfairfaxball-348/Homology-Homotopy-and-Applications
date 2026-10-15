@@ -1,0 +1,12 @@
+# S062 ADVERSARIAL — errors explicitly excluded
+
+1. Classical Wang–Xu membership θ5∈<2,q,q,2> is existential; "strictly defined" does not mean singleton and their Lemma12.6 gives a different strictly-defined bracket with NONZERO indeterminacy. Neither 0∈ nor 0∉ is now proved.
+2. The C-motivic Table10 h5²/h5 n is in a *bigraded motivic setting*. Neither its filtered indeterminacy nor n at E2 can be asserted to be the full classical 2-local E∞ bracket after Betti realisation. h5 is killed by a documented d2.
+3. BJM's unformable <q,2,q,2> has wrong order to decide <2,q,q,2>; ηq left composition proves only its single classical triple κ-zero, not full fourfold coherence.
+4. J31 cyclic order64 derived from classical image-of-J is valid conditional on an original theorem whose pages were not inspected. Its mere existence/independence from u does NOT compute κ(<j,q,2>), exhibit any compatible nulltrack, or identify the third actual v.
+5. A nonzero missing k bit defeats a proposed κ-only universal indeterminacy vanishing argument; it does NOT imply the bracket contains0. Even k identically0 must be combined with original complete compatible Xu scope and classical Toda invariance.
+6. Monic replacement of a whole shoelace must work with arbitrary nonmonic original F' and nonpoint contractible G' for BOTH-input weak equivalents. Quotients must respect negative times, half-open boundaries, 2 naturality equations, both identities. Static governance CI proves none of this.
+7. Clocks t4=4+2c reaches 5 exactly at ε=5/4: DO NOT assert an endpoint exclusion. ε<1 needs a separate argument; original diagram vs Ho(Top)^R pointwise is an invalid substitution.
+8. DKS/HKM/BJT bibliographic topic correspondence is not an exact original theorem transporting complete classical higher Toda zero-exclusion. No independently verified source-complete transport proof was found.
+9. Original Springer 2026 DG-specific equality and Apr CDGA/Sep equivariant work are not exact unrestricted Top^R priority kills. No exhaustive 2016–Oct2026 current database/citation review; G2 remains OPEN.
+10. No new universal homotopy theorem, formal Lean proof, Adams computation, Palomar verification, arXiv/HHA paper or third-party contact. S063 is a FUTURE prompt, not execution.

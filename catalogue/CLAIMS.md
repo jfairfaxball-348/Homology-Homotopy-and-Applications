@@ -457,3 +457,9 @@ See S038 full dossier and JSON scope.
 - **CLM-0313 SOURCE_STATED:** IWX h5 killed by d2; n E2 not classical surviving basis by assumption.
 - **CLM-0314 INHERITED_UNVERIFIED:** k(j),k(v), classical fourfold zero membership, ordinary whole-WE strict gap, novelty/HHA OPEN.
 - **CLM-0315 SOURCE_STATED:** Sep2026 DG theorem different category. No Lean/Palomar/manuscript/publishing.
+
+## S062 — classical compatibility audit, 15 October 2026
+- **CLM-0316 SOURCE_STATED** Original Wang–Xu classical θ5 IN bracket does not assert 0 exclusion; their different strict-defined bracket has nonzero indeterminacy, SRC-0094.
+- **CLM-0317 INHERITED_UNVERIFIED** k(u)=PROVED0 inherited; k(J31),k(v)=UNKNOWN, classical whole target 0-in/out UNKNOWN; Adams original metadata SRC-0112 only.
+- **CLM-0318 PROGRAMME_PROVED** exact ε∈[1,5/4) five-clock arithmetic, at ε=5/4 the last clock is 5 and method cannot exclude endpoint; no new HI theorem.
+- **CLM-0319 INHERITED_UNVERIFIED** source-complete arbitrary whole-WE unpointed Top^R Toda transport, strict dHI>dIHC, contemporary originality/HHA remain OPEN. G1B/G2 NOT PASSED.
