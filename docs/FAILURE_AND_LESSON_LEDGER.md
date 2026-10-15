@@ -368,3 +368,9 @@ Theorem6.3 of IWX2023 is about **C-MOTIVIC stable** fourfold brackets, even thou
 - Reversal under stable Spanier–Whitehead duality only identifies OUTER TRIPLE families; it is not duality for arbitrary unpointed Top^R persistence replacements.
 - Fixing a q·2 null track and considering triple residues modulo all pi31*pi31 products makes the secondary operation additive; target has exponent2, so test at three mod-2 basis generators. This does **NOT** identify any actual generator, prove filtered null-track existence, establish that the bracket is {0}, or prove the complete classical fourfold excludes zero.
 - Hidden Adams extensions and original Moss crossing analysis still required; no filtration-from-inputs shortcut. Search did not pass novelty gate. No exact HI/GRID detour.
+
+## S057 — false classical shortcut and source-class rigor
+- PRIMARY counterexample to terminology shortcut: Wang–Xu's Lemma12.6 calls an unrelated 4fold strictly defined yet explicitly computes nonzero 2*pi15 indeterminacy. Their Cor1.10 theta5 membership does not imply 0-exclusion for target bracket.
+- Actual rho31 homotopy class and named E2 n are different evidence types. E2 h5 suffers d2, not a permanent homotopy generator. Neither source page supplies three independent stable pi31 additive generators/secondary tracks.
+- Exact quotient rank test can be weaker than high-filtration-for-all-generators but without P and 3 columns it decides NOTHING. z∈image(a) is not a witness theta5∈a specific triple coset, since x*pi31 can be smaller than P.
+- No inference from nonzero theta4*theta5 or C-motivic detection to classical full compatible-system exclusion. No new mathematical experiment, novelty pass, or strict Top^R proof.

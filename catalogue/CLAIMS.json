@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S056",
+  "as_of": "2026-10-15 S057",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2834,6 +2834,49 @@
         "SRC-0104"
       ],
       "scope": "G1B/G2 IN_PROGRESS NOT PASSED; classical triple A/C unknown; no Lean, paper, Palomar, arXiv/HHA."
+    },
+    {
+      "id": "CLM-0294",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Conditioned on the internally proved S056 2-local additive outer-triple quotient a:H/2H→E/P, z=theta5+P cannot occur in either outer Xu family whenever rank_F2[a(e1),a(e2),a(j),z] exceeds rank_F2[a(e1),a(e2),a(j)]. This is strictly weaker than all three high-filtration representative conditions and only sufficient for excluding theta5 from outer families.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0099",
+        "SRC-0103"
+      ],
+      "scope": "S057-T145 conditional internal finite linear-algebra theorem; actual basis e1,e2,j, product P, all columns and ranks NOT computed; no full compatible 4fold result."
+    },
+    {
+      "id": "CLM-0295",
+      "status": "SOURCE_STATED",
+      "claim": "Wang–Xu2017 original Cor1.10 gives theta5 membership in strictly defined classical <2,theta4,theta4,2>, but original Lemma12.6 proves a different strictly defined 4fold Toda bracket has nonzero indeterminacy 2*pi15; therefore their term strictly defined does not imply zero indeterminacy or target bracket zero-exclusion.",
+      "sources": [
+        "SRC-0094"
+      ],
+      "scope": "DIRECT original Annals pp503–504 and pp568–569 inspected S057; different bracket in Lemma12.6, not counterexample for target."
+    },
+    {
+      "id": "CLM-0296",
+      "status": "SOURCE_STATED",
+      "claim": "Isaksen2014 original p95 Table1 labels actual stem31 homotopy class rho31 detected by h0^10 h5; p99 Table8 labels h5 E2 filtration1 killed by d2=h0 h4^2 and n E2 filtration5. This does not certify rho31 as Z/64 generator or n as Z/2 generator/complete 2023 additive basis.",
+      "sources": [
+        "SRC-0105",
+        "SRC-0101"
+      ],
+      "scope": "Selected source table statements, no stable 31-stem hidden-extension/basis relations, no outer Toda value."
+    },
+    {
+      "id": "CLM-0297",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "No actual S057 classical outer triple representative or product subgroup computation, no full classical fourfold coherent zero-exclusion, no independent proof of arbitrary unpointed Top^R distance comparison or complete Oct2026 novelty/HHA PASS; strict metric inequality not certified.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0101",
+        "SRC-0099",
+        "SRC-0105",
+        "SRC-0104"
+      ],
+      "scope": "G1B/G2 IN_PROGRESS NOT PASSED, no G3 Lean or any release."
     }
   ]
 }

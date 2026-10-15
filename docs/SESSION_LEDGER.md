@@ -134,3 +134,6 @@ Original IWX2023 PMIHÉS Table1 pp113–114 DIRECT checked: pi31_(2)=(Z/2)^2⊕Z
 
 ## S056 — 15 October 2026
 Classical stable Spanier–Whitehead duality reduces Xu outer indeterminacy families A and C to the same 2-local union, and stable fixed-nulltrack quotient additivity a:pi31→pi62/(pi31*pi31) factors through pi31/2pi31=(F2)^3. Three ACTUAL classical additive generators, not all 256 values, would therefore suffice for S055 Adams filtration3 criterion. The actual generator representatives, classical triple evaluations, fourfold zero-exclusion and full Top^R theorem remain OPEN. Exact HI not required. First novelty G2 NOT PASSED, no Lean, Palomar, paper or external submissions. See sessions/S056; S057 FUTURE ONLY.
+
+## S057 — 15 October 2026
+Direct original Wang–Xu Annals Cor1.10/Lemma12.6 shows "strictly defined" 4fold need not have zero indeterminacy (separate example 2*pi15); original Isaksen *Stable Stems* tables identify rho31 actual class and E2 h5 (killed d2), n (E2) but NOT actual complete Z64⊕Z2² basis. New internal T145 sufficient binary rank(M|theta5+P)>rank M relative to S056 quotient, strictly weaker than three F3 reps; NO matrix entries, actual triple values, full 4fold zero-exclusion or strict Top^R proof. G1B/G2 OPEN, exact dHI not needed; no Lean/Palomar/paper/outreach. S058 FUTURE UNEXECUTED.
