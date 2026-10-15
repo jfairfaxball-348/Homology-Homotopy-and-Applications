@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S055",
+  "as_of": "2026-10-15 S056",
   "sources": [
     {
       "id": "SRC-0001",
@@ -918,6 +918,24 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Modern general crossing hypothesis and filtered-lift theorem, NOT a computed answer for target classical triple brackets; full proof not inspected.",
       "observed": "Moss-type connection from filtered Massey products to existence of suitable Toda representative needs explicit conditions; does not bound every arbitrary Toda value."
+    },
+    {
+      "id": "SRC-0103",
+      "title": "Spanier and Whitehead, Duality in homotopy theory, Mathematika 2 (1955), 56–80",
+      "url": "https://doi.org/10.1112/S002557930000070X",
+      "origin": "Original Cambridge publisher abstract and bibliographic metadata inspected S056",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full 1955 proof not inspected; S056 dual triple bracket reversal argued internally from stable finite spectrum duality, not quotation of exact theorem.",
+      "observed": "Spanier–Whitehead stable category duality is established classical prior art; not a new S056 invention."
+    },
+    {
+      "id": "SRC-0104",
+      "title": "Kuribayashi, Naito, Wakatsuki, Yamaguchi, The equalities of interleaving distances and cohomology interleavings of spaces over BS1, JACT (2026)",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "Original open publisher introduction and abstract directly inspected S056; published 12 September 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Equality proved for specific persistent differential graded modules over a field, not arbitrary ordinary Top^R; original entire proof not inspected; source does not establish novelty of our proposed Top strict-gap theorem.",
+      "observed": "Introduction directly distinguishes Top^R persistence metrics, prior HC!=HI example, and dg module equality scope."
     }
   ]
 }

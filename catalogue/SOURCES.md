@@ -287,3 +287,8 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 ## S055 original exact-stem and Moss inspection
 - **SRC-0101** IWX2023 publisher-hosted original https://www.numdam.org/item/10.1007/s10240-023-00139-1.pdf Table1 printed pp112–114 visually checked (2-primary pi31=Z/64⊕(Z/2)^2; pi61=0; pi62=(Z/2)^4), §2.4 Moss Thm2.16 and Remarks2.17–20 selected statements. No independent full stable chart computation; the latter theorem is expressed C-motivically, not sufficient to bound all classical brackets.
 - **SRC-0102** Belmont–Kong 2025 original https://link.springer.com/article/10.1007/s42543-025-00099-x selected theorem/introduction inspected; crossing and filtration hypotheses required; full proof not read. Older SRC-0099 Xu, SRC-0094 Wang–Xu, SRC-0098 C-motivic, SRC-0100 synthetic/classical discrepancy preserved. G2 no priority clearance.
+
+
+## S056 sources
+- SRC-0103: Spanier–Whitehead (1955), *Duality in homotopy theory*, Mathematika 2, pp56–80, https://doi.org/10.1112/S002557930000070X ; original publisher ABSTRACT_INSPECTED only; stable self-duality of spheres classical, full Toda sign proof is this programme's derivation.
+- SRC-0104: Kuribayashi–Naito–Wakatsuki–Yamaguchi (12 Sept 2026), https://link.springer.com/article/10.1007/s41468-026-00252-0 , original open publisher STATEMENT_INSPECTED intro/abstract; equality in *dg-module* category, NOT all ordinary Top^R.

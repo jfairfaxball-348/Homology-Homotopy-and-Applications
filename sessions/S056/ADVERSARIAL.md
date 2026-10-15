@@ -1,0 +1,11 @@
+# S056 ADVERSARIAL — distinct routes and unclosed tests
+
+**Route A (contravariant geometry).** Use stable duality of finite *spectra*, NOT duality of unstable spheres or unpointed persistence diagrams. Dualize actual 3-fold cones/tracks and reverse order. The signs x→±x and value→±value cannot obstruct equality of the UNION of outer families: indexing group closed under negation, target T62 exponent2, q order2. This is a bijection, not an evaluation and cannot be extended automatically to all fourfold Top^R replacement diagrams.
+
+**Route B (fixed-track homomorphism).** Hold null track U for q2 fixed; sum chosen tracks V_x for xq null. Quotient by global product P absorbs changes of U; changes of V_x are multiplied by2 and vanish by exponent2. This gives a:P31/2P31→T62/P linear over F2, three input generators rather than 256. Independent consistency: x=2y has quotient zero, but its bracket need NOT be singleton; the product subgroup P may be nonzero and hidden Adams extensions remain uncomputed. We did not choose actual sphere-map basis classes or verify Adams cycles.
+
+**Zero/low-filtration counter-attack.** Try to choose a low-filtration triple representative carrying theta5. No original published classical A/C computation retrieved proving or excluding it; no explicit coherent zero fourfold defining system found. It would be UNSOUND to assert high Adams filtration merely by input multiplication. Complex Betti realization is one-way on selected Toda values: IWX2023 C-motivic Table10 nonzero cannot prohibit a classical zero. Burklund–Isaksen–Xu2025/26 Remark3.4 supplies a distinct classical-zero warning, not target refutation.
+
+**Whole-diagram attack.** A proof of ordinary dHI>=5/4 must absorb arbitrary WHOLE-diagram unpointed WEs for *both* sides; replacing G' by point without shoelace projective replacement is invalid. Show the two shifted identities and both naturalities after quotient, and all cuts t<0, e=0, e=5/4 separately. We reused only earlier conditional T130/T131/T132; the duality and quotient lemma are purely stable and do not fill the DKS/HKM/BJT theorem-level comparison gap.
+
+**Outcome.** Formal three-generator reduction, not evaluated generators, not full classical bracket, not HHA-certified novelty. G1B and G2 remain open. No Lean, Palomar, paper or external contact.

@@ -418,3 +418,10 @@ See S038 full dossier and JSON scope.
 - **CLM-0287 PROGRAMME_PROVED CONDITIONAL:** one Adams filtration≥3 representative per outer triple would exclude theta5 filtration2 after product indeterminacy F4, subject to classical convention containment; antecedent NOT proven.
 - **CLM-0288 SOURCE_STATED:** IWX Moss crossing hypotheses and one-value-only warning; Belmont–Kong2025 reinforces care.
 - **CLM-0289 INHERITED_UNVERIFIED:** 0 in/out full classical, strict Top^R metric and 2026 originality remain unresolved, no downstream stage.
+
+
+## S056 new claim records
+- CLM-0290 PROGRAMME_PROVED: stable SW reversal gives 2-local outer Xu Toda-family union A=C; not evaluated; SRC-0101/0099/0103.
+- CLM-0291 PROGRAMME_PROVED: outer triple coset a:pi31→pi62/(pi31*pi31) is additive by fixed θ4·2 null track, factors through pi31/2pi31 ≅ (F2)^3; SOURCE_STATED groups, internal stable proof.
+- CLM-0292 PROGRAMME_PROVED CONDITIONAL: three ACTUAL mod-two generator F3 classical representative computations would suffice for all 2-local A and C; no such reps computed. SRC-0101/0102/0103.
+- CLM-0293 INHERITED_UNVERIFIED: all-compatible fourfold/classical zero-exclusion, whole Top^R and contemporary originality still unresolved, G1B/G2 NOT PASSED.
