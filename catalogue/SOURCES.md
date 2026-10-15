@@ -305,3 +305,9 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 ## S059 primary detection source
 - **SRC-0108 STATEMENT_INSPECTED:** Victor P. Snaith (2009), published author survey https://morfismos.cinvestav.mx/sites/default/files/Upload/vol13-n2-1.pdf , printed p33 and p37 actual PDF page images. Explicit individual-class iff h_j² filtration2 and Theorem9.2 implication, citing Browder; no classical triple secondary values.
 - **SRC-0106 inspected extension:** ORIGINAL Browder1969 Annals scanned printed p157 and pp183–184 Thms7.7/7.8 https://webhomes.maths.ed.ac.uk/~v1ranick/papers/browkerv.pdf . Introduction alone is an existence theorem; distinguish original secondary operation from Snaith's class-level statement. Selected proof pages, not whole proof. IWX2023 Table1 and 2026 DG-only publisher source inherited at stated access levels.
+
+## S060 original scholarly evidence
+- **SRC-0109 PROOF_INSPECTED selected:** Barratt–Jones–Mahowald (1984), original https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/barjoma.pdf, DOI 10.1112/jlms/s2-30.3.533. Actual printed pp535/537: eta theta4 not in 2pi31; 4fold ordering caveat. Selected pages not full other generators.
+- **SRC-0099 original reread:** Xu2016 Geometry & Topology20 Theorem1.2 printed p1612 proves theta4²=0 and Thm1.6 p1613 constructs theta5; original https://msp.org/gt/2016/20-3/gt-v20-n3-p08-p.pdf.
+- **SRC-0110 ABSTRACT_INSPECTED:** Halder–Sau–Sen Sep2026 equivariant HI https://arxiv.org/abs/2609.23440; not unrestricted ordinary Top^R.
+- **SRC-0101 and SRC-0108** IWX classical pi61=0 and Snaith/Browder Kervaire filtration detection inherited from original previous-source inspection. No whole 31-stem E∞ hidden-extension charts, complete DKS/HKM/BJT theorem proofs, MR/zbMath or exhaustive contemporary citations reviewed; novelty gate OPEN.

@@ -383,3 +383,8 @@ Dual functional λ equivalent to prior rank is a potentially cheaper *route*, no
 - Do **not** take the next invalid step κ(P)=0 ⇒ κ(<e_i,θ4,2>)=0: secondary nulltracks are genuinely new mathematical data and Moss no-crossing has not been checked.
 - Even nonzero k(e_i) would disqualify this particular κ criterion, not automatically exhibit a 0 fourfold or refute every dual functional. No uncomputed triple-basis element may be silently assigned κ0.
 - Rechecking old S043 two path-lifts (relative endpoints) supports internal IHC1 but does not solve the higher all-replacements HI proof or priority/HHA gate; static CI is not maths validation.
+
+## S060 — classical source ordering and true secondary scope
+- BJM1984 p537 gives one genuine nonzero pi31 mod-2 class u=eta theta4, not just an Adams E2 symbol. Through Xu's theta4²=0 and pi61=0, classical <theta4,theta4,2>={0}, and only its eta-left-multiple supplies a definite k(u)=0. TWO other bits cannot be inferred from filtration.
+- BJM <theta4,2,theta4,2> is NOT defined; target <2,theta4,theta4,2> has known theta5 member. Reordering is invalid; the first triple zero is not a compatible fourfold zero. No user-facing full strict HI claim or novelty promotion.
+- No actual 31-stem full generator chart, chosen complementary nulltracks, explicit PT/Arf calculation, full DKS/HKM/BJT all replacements comparison, or broad 2026 citations. Hosted static governance is not mathematical certification.

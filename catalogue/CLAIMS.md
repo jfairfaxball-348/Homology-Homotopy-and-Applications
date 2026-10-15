@@ -444,3 +444,10 @@ See S038 full dossier and JSON scope.
 - **CLM-0304 PROGRAMME_PROVED CONDITIONAL:** κ on triples now well defined mod P, additive k:H/2H→F2, BUT actual basis and ALL three κ bits unknown. SRC-0108/0101/0099.
 - **CLM-0305 PROGRAMME_PROVED internal standard-input:** independent T100 two rel-endpoint correction path-lifts and whole-real Kan support derived ε1, with T148 lower dIHC=1 internally; not formal.
 - **CLM-0306 INHERITED_UNVERIFIED:** no full classical 4fold zero exclusion nor Top^R strict HI gap/novelty, G1B/G2 OPEN. S060 future.
+
+## S060 (15 October 2026)
+- **CLM-0307 SOURCE_STATED:** BJM1984 p537 u=eta theta4≠0 mod 2H.
+- **CLM-0308 PROGRAMME_PROVED:** Xu2016 theta4²=0 and pi61=0 imply <theta4,theta4,2>={0}; eta-left-composition gives 0∈<u,theta4,2>; κ(P)=0 shows k(u)=0 for every triple representative. One actual nonzero basis direction solved.
+- **CLM-0309 SOURCE_STATED:** BJM non-definable <theta4,2,theta4,2> is DIFFERENT from our <2,theta4,theta4,2>.
+- **CLM-0310 INHERITED_UNVERIFIED:** TWO complementary bits and full fourfold/Top/novelty still unknown; G1B/G2 OPEN.
+- **CLM-0311 SOURCE_STATED:** contemporary equivariant 2026 and DG/CDGA sources adjacent, no exact Top result or priority clearance.

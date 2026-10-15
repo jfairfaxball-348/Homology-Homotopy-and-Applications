@@ -139,3 +139,6 @@ No bounded numerical experiment, executable checker, Adams Ext computation, grou
 
 ## S058 no-numerical-computation campaign
 T147 symbolic F2 dual algebra and T148 projective representable derived degree lower only. NO actual Adams Ext/E∞ computation, group product P, κ(Toda) bits, geometric defining system, experiment/checker/hash. S059 targets values/compatible zero and full Top; static CI only governance, not math. Exact HI/GRID not required. Preserve T66 Q/all Fp primitive/composites and coherent integral/1981 caveat, R5 16471 OPEN, Hopf/T84.
+
+## S060 analytic-only campaign
+No numeric search/chart-computation, program/test/certificate, Lean, Palomar or theorem machine verification. Classical source-based proof T151 solves 1 actual Kervaire k direction, leaving TWO; original Top all-replacements and complete stable fourfold unproved. No governance CI result can certify mathematics. Original T66/1981, R5 exact 16471 OPEN, retired Hopf/T84 preserved. S061 unexecuted.

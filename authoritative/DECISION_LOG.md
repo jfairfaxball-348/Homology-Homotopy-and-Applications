@@ -352,3 +352,6 @@ Maintain owner's strict ordinary Top^R dHI>dIHC first paper target, exact HI/GRI
 
 ## D-S059 — 15 October 2026
 Accepted internal T149 **κ(P)=0** under original Browder/Snaith universal class-detection theorem (not just existence) and published Adams multiplicativity. This solves only one S058 Kervaire precondition. T150 reduces certificate to three actual uncomputed classical triple κ values; do not treat zeros as measured or elevate gate. Earlier S043 derived ε1 mapping-cylinder correction reaudited internally; whole ordinary HI and fourfold all-compatible zero exclusion remain open. No theorem freeze, G1B/G2 NOT PASSED, no exact HI/GRID detour, no Lean/Palomar/paper/outreach; S060 FUTURE ONLY. T66/1981, R5, retired Hopf/T84 unchanged.
+
+## D-S060 (2026-10-15): genuine 1-of-3 k basis bits solved
+Actual classical u=eta theta4 lies nontrivially in pi31/2pi31 (BJM1984 original p537), and Xu2016 theta4²=0 plus pi61=0 and Toda composition supply zero triple <u,theta4,2>. S059 κ(P)=0 makes the full Kervaire value **k(u)=0**. Two complementary generator bits still UNKNOWN. BJM's <theta4,2,theta4,2> non-definability is a DIFFERENT word, cannot be permuted into our <2,theta4,theta4,2>. No certified strict ordinary dHI>dIHC; G1B/G2 open, exact distance not needed, no Lean/Palomar/paper/external. S061 FUTURE ONLY; T66/1981, R5 16471, Hopf/T84 frozen.

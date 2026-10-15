@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S059",
+  "as_of": "2026-10-15 S060",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2975,6 +2975,61 @@
         "SRC-0108"
       ],
       "scope": "S059 does NOT prove strict dHI>dIHC, does NOT trigger Lean, Palomar, manuscript or publication."
+    },
+    {
+      "id": "CLM-0307",
+      "status": "SOURCE_STATED",
+      "claim": "BJM1984 original p537 shows u=eta theta4 is nonzero and not divisible by 2 in actual classical pi31, hence u+2H nonzero.",
+      "sources": [
+        "SRC-0109",
+        "SRC-0101"
+      ],
+      "scope": "Genuine mod2 basis direction but not a complete pi31 additive basis."
+    },
+    {
+      "id": "CLM-0308",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S060-T151: since theta4²=2theta4=0 and pi61_(2)=0, classical <theta4,theta4,2>={0}; Toda left composition gives 0 in <eta theta4,theta4,2>; indeterminacy eta theta4·pi31+2pi62⊆P with S059 κ(P)=0, hence k(eta theta4)=0 on a bona fide nonzero H/2H direction.",
+      "sources": [
+        "SRC-0099",
+        "SRC-0101",
+        "SRC-0108",
+        "SRC-0109"
+      ],
+      "scope": "Mathematical deduction relative to published classical inputs and standard Toda composition; not a complete fourfold or strict Top theorem."
+    },
+    {
+      "id": "CLM-0309",
+      "status": "SOURCE_STATED",
+      "claim": "BJM1984 rules out forming <theta4,2,theta4,2>, NOT target <2,theta4,theta4,2> whose full zero-in/out remains unknown.",
+      "sources": [
+        "SRC-0109",
+        "SRC-0094"
+      ],
+      "scope": "Primary proof page ordering distinction."
+    },
+    {
+      "id": "CLM-0310",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Two further independent k values, full classical target fourfold 0-in/out, arbitrary whole-WE Top^R theorem, 2026 exact originality/HHA importance unproved; no freeze, Lean or submissions.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0099",
+        "SRC-0109",
+        "SRC-0104"
+      ],
+      "scope": "G1B/G2 not passed."
+    },
+    {
+      "id": "CLM-0311",
+      "status": "SOURCE_STATED",
+      "claim": "September 2026 equivariant HI and DG equality/relative Sullivan are adjacent categories and do not establish unrestricted Top^R separation or give originality clearance.",
+      "sources": [
+        "SRC-0110",
+        "SRC-0104",
+        "SRC-0107"
+      ],
+      "scope": "Only original abstract/selected statements accessible; incomplete citation chain."
     }
   ]
 }
