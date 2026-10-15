@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S054",
+  "as_of": "2026-10-15 S055",
   "sources": [
     {
       "id": "SRC-0001",
@@ -900,6 +900,24 @@
       "access": "PROOF_INSPECTED",
       "limitation": "Synthetic triple bracket example with CLASSICAL analog containing zero is NOT the target classical theta5 fourfold bracket. Selected original proof/remark inspected; does not establish a general impossibility of motivic transfer or bracket zero inclusion for our target.",
       "observed": "Remark3.4 explicitly says classical analog <eta,4 overline{kappa}_2,2> contains zero despite nearby synthetic detection by Mh1."
+    },
+    {
+      "id": "SRC-0101",
+      "title": "Isaksen, Wang, Xu, Stable homotopy groups of spheres: from dimension 0 to 90, PMIHÉS 137 (2023), Table 1 and §2.4",
+      "url": "https://www.numdam.org/item/10.1007/s10240-023-00139-1.pdf",
+      "origin": "ORIGINAL publisher-hosted open PDF; printed pp112-114 Table1 with PDF page6/7 visual inspection; §§2.4 Theorem2.16/Remarks2.17-20 original text inspected S055",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Group structures SOURCE_STATED not independent Adams recomputation; Moss section is C-motivic in this source, applies classically only with appropriate theorem/hypotheses; no target classical outer triple evaluations.",
+      "observed": "2-primary pi31=(Z/2)^2 plus Z/64, pi61=0, pi62=(Z/2)^4; odd pi62 Z/3. Moss guarantees one value subject to crossing hypotheses; bracket indeterminacy not automatically controlled."
+    },
+    {
+      "id": "SRC-0102",
+      "title": "Belmont and Kong, A Toda Bracket Convergence Theorem for Multiplicative Spectral Sequences, Peking Mathematical Journal, online June 2025",
+      "url": "https://link.springer.com/article/10.1007/s42543-025-00099-x",
+      "origin": "ORIGINAL open publisher article 2025 selected Introduction/Theorem1.2 inspected in S055",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Modern general crossing hypothesis and filtered-lift theorem, NOT a computed answer for target classical triple brackets; full proof not inspected.",
+      "observed": "Moss-type connection from filtered Massey products to existence of suitable Toda representative needs explicit conditions; does not bound every arbitrary Toda value."
     }
   ]
 }

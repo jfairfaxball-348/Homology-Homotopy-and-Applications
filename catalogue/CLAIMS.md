@@ -410,3 +410,11 @@ See S038 full dossier and JSON scope.
 - **CLM-0282 (INHERITED_UNVERIFIED)** full CLASSICAL theta5 bracket zero-in/out and exact Top^R publication novelty still UNRESOLVED. G1B/G2 NOT PASSED.
 - **CLM-0283 (INHERITED_UNVERIFIED)** original arbitrary-whole-WE real quotient and derived IHC arguments internally reaudited but dependent on imported pi61/coherence results; no Lean/maths CI.
 
+
+## S055 — pi62 exponent and 2-local Toda simplification
+- **CLM-0284 SOURCE_STATED:** original 2023 Table1: pi31_(2)=(Z/2)^2⊕Z/64, pi61=0, pi62_(2)=(Z/2)^4, odd pi62 Z/3.
+- **CLM-0285 PROGRAMME_PROVED:** at prime2 <2,0,2>=2pi62={0}, so Xu's B family disappears ONLY 2-locally.
+- **CLM-0286 PROGRAMME_PROVED:** outer triple standard primary indeterminacies x*pi31 and pi31*x; all x give defined brackets, but unknown actual values.
+- **CLM-0287 PROGRAMME_PROVED CONDITIONAL:** one Adams filtration≥3 representative per outer triple would exclude theta5 filtration2 after product indeterminacy F4, subject to classical convention containment; antecedent NOT proven.
+- **CLM-0288 SOURCE_STATED:** IWX Moss crossing hypotheses and one-value-only warning; Belmont–Kong2025 reinforces care.
+- **CLM-0289 INHERITED_UNVERIFIED:** 0 in/out full classical, strict Top^R metric and 2026 originality remain unresolved, no downstream stage.

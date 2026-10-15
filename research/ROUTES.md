@@ -247,3 +247,7 @@ T130 independently reconstructs T108 whole-real arbitrary both-lane G collapse, 
 
 ## S054 narrowed classical route (2026-10-15)
 Publication priority d_HI>d_IHC, not exact value. After S053 motivates class comparison, S054 obtains ORIGINAL Xu2016 general fourfold indeterminacy family upper bound A=<pi31,theta4,2>, B=<2,pi61,2>, C=<2,theta4,pi31>. Even pi61=0, B includes <2,0,2>=2*pi62; full pi62 group unknown here. A/C still uncomputed. Original Burklund–Isaksen–Xu2025/26 synthetic-to-classical zero example demands caution. No unconditional separation or novelty pass. S055 compute classical full ambiguity or explicit zero system; NOT GRID/dHI endpoint default.
+
+
+## S055 — actual middle-family kill / next proof route
+At the prime2, original IWX2023 shows pi62=(Z/2)^4 hence B=<2,pi61,2>={0}; pi31=(Z/2)^2⊕Z/64. Outer triple indeterminacies are x*pi31. Conditional constructive sufficient goal: one Adams-filtration≥3 representative in EVERY outer triple, after independently checking Massey pages and crossings (Moss not an automatic all-values theorem). This would avoid theta5 filtration2, subject to complete Xu conventions; currently UNPROVED. Next S056 is classical A/C calculation or geometric zero defining system, full Top^R proof and novelty, NOT exact dHI/GRID optimisation.

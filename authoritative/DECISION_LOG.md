@@ -335,3 +335,7 @@ Execution of S053 confirms owner publication-target decision (strict dHI>dIHC su
 
 ## D-S054 (2026-10-15) — classical indeterminacy obligation sharpened, no theorem freeze
 The ORIGINAL classical Xu2016 §5 general indeterminacy upper bound gives triple families <pi31,theta4,2>, <2,pi61,2>, <2,theta4,pi31> for our fourfold theta5 word. The previously tempting shortcut "pi61=0 makes middle family vanish" is INVALID: <2,0,2> has 2*pi62 indeterminacy. S054 does not resolve group law or other two families, and newer Burklund–Isaksen–Xu2025/26 demonstrates analogous synthetic nonzero/CLASSICAL zero phenomenon for a different bracket. Thus full CLASSICAL zero-exclusion remains UNDECIDED, strict Top^R inequality unproved and novelty G2 not passed. Do not compute exact dHI by default; S055 focus only on exact full classical ambiguity/realization and unchanged owner target. All external stages gated; T66/R5/Hopf/T84 frozen history preserved.
+
+
+## D-S055 (2026-10-15) — remove 2-primary B barrier, retain strict-gap freeze gate
+Verified original IWX2023 Table1 means pi62_(2)=(Z/2)^4 and 2pi62_(2)=0. The S054 trap <2,0,2>=2pi62 remains conceptually correct, but its target 2-primary VALUE IS ZERO; Xu B-family eliminated locally. Need full classical outer A/C pi31 bracket representatives and all-compatible-system convention proof; Moss crossing conditions unproven. No G1B/G2 PASS, no strict Top^R theorem, no exact-distance/GRID detour. S056 future only; external gates unchanged.

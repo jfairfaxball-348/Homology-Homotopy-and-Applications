@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S054",
+  "as_of": "2026-10-15 S055",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2723,6 +2723,71 @@
         "SRC-0094"
       ],
       "scope": "Detailed conventional proof reconstruction in sessions/S054/MATHEMATICS.md; not new certified Top^R separation theorem."
+    },
+    {
+      "id": "CLM-0284",
+      "status": "SOURCE_STATED",
+      "claim": "IWX2023 original Table1 shows pi31_(2)=(Z/2)^2⊕Z/64, pi61^S=0, pi62_(2)=(Z/2)^4 and odd pi62 Z/3.",
+      "sources": [
+        "SRC-0101"
+      ],
+      "scope": "Original printed pp112-114 selected inspected; no independent recreation of full Adams group computation."
+    },
+    {
+      "id": "CLM-0285",
+      "status": "PROGRAMME_PROVED",
+      "claim": "At the prime 2, standard stable Toda <2,0,2>=2pi62={0}; consequently Xu fourfold middle B-family vanishes 2-locally despite pi61=0 not sufficing by itself.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0099"
+      ],
+      "scope": "Elementary primary Toda indeterminacy arithmetic with published 2-primary group law; integrally odd pi62 Z/3 prevents B=0."
+    },
+    {
+      "id": "CLM-0286",
+      "status": "PROGRAMME_PROVED",
+      "claim": "For 2-local x in pi31, each outer triple <x,theta4,2> and <2,theta4,x> is defined (pi61=0, 2theta4=0), with respective standard indeterminacies x*pi31 and pi31*x because 2pi62=0.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0099",
+        "SRC-0094"
+      ],
+      "scope": "Conditional on standard stable classical bracket conventions; groups of triple values, not evaluated individual values."
+    },
+    {
+      "id": "CLM-0287",
+      "status": "PROGRAMME_PROVED",
+      "claim": "If every outer 2-local pi31 triple admits at least one classical Toda value of Adams filtration >=3, then its entire triple family avoids theta5 of filtration2, provided all pi31*pi31 products have Adams filtration>=4; Xu full 4fold containment would then exclude zero.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0099",
+        "SRC-0094"
+      ],
+      "scope": "LOGICAL CONDITIONAL only; theta5 filtration2 and pi31 no surviving Hopf-filtration1; NO proof of representatives, no full fourfold zero-exclusion."
+    },
+    {
+      "id": "CLM-0288",
+      "status": "SOURCE_STATED",
+      "claim": "IWX2023 original Moss theorem and Remarks 2.18-2.20 provide only one detected Toda value under crossing hypotheses and warn other values may have different Adams filtrations.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0102"
+      ],
+      "scope": "Original selected theorem/remarks, NOT blanket filtration bound or proof all classical pi31 representatives."
+    },
+    {
+      "id": "CLM-0289",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S055 leaves all outer A/C full classical brackets and zero exclusion unresolved; complete ordinary Top^R gap, all-compatible-systems invariance, and exact current HHA novelty gate not certified.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0099",
+        "SRC-0094",
+        "SRC-0098",
+        "SRC-0083",
+        "SRC-0084"
+      ],
+      "scope": "No newly frozen theorem, G1B/G2 open, no Lean/Palomar/manuscript/external release."
     }
   ]
 }

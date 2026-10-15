@@ -283,3 +283,7 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - **SRC-0099 (PROOF_INSPECTED selected original):** Xu 2016 Geometry & Topology original publisher §5 Lemma5.1, https://msp.org/gt/2016/20-3/gt-v20-n3-p08-p.pdf pp1620–1621. General 4fold indeterminacy **contained** in three triple types. Xu's zero result belongs to OTHER theta4 words; target theta5 full zero unresolved.
 - **SRC-0100 (PROOF_INSPECTED selected original):** Burklund–Isaksen–Xu online2025 / vol2026 https://link.springer.com/article/10.1007/s42543-025-00098-y Lemma3.3 / Remark3.4: synthetic Toda class detected by Mh1 has different CLASSICAL analog containing zero. Methodological counter-control; target bracket still unknown. Exact source-grade limits in S054/PRIOR_ART.md.
 
+
+## S055 original exact-stem and Moss inspection
+- **SRC-0101** IWX2023 publisher-hosted original https://www.numdam.org/item/10.1007/s10240-023-00139-1.pdf Table1 printed pp112–114 visually checked (2-primary pi31=Z/64⊕(Z/2)^2; pi61=0; pi62=(Z/2)^4), §2.4 Moss Thm2.16 and Remarks2.17–20 selected statements. No independent full stable chart computation; the latter theorem is expressed C-motivically, not sufficient to bound all classical brackets.
+- **SRC-0102** Belmont–Kong 2025 original https://link.springer.com/article/10.1007/s42543-025-00099-x selected theorem/introduction inspected; crossing and filtration hypotheses required; full proof not read. Older SRC-0099 Xu, SRC-0094 Wang–Xu, SRC-0098 C-motivic, SRC-0100 synthetic/classical discrepancy preserved. G2 no priority clearance.
