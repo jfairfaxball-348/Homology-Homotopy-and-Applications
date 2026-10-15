@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S058",
+  "as_of": "2026-10-15 S059",
   "sources": [
     {
       "id": "SRC-0001",
@@ -963,6 +963,15 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Relative Sullivan/CDGA persistent-map setting not same as ordinary unpointed Top^R; no proof audit.",
       "observed": "Additional contemporary related persistence IHC work for originality comparison."
+    },
+    {
+      "id": "SRC-0108",
+      "title": "Victor P. Snaith, The Arf-Kervaire invariant of framed manifolds, Morfismos 13(2) (2009), author survey",
+      "url": "https://morfismos.cinvestav.mx/sites/default/files/Upload/vol13-n2-1.pdf",
+      "origin": "Original author's published survey, printed pp33 and37 inspected in actual PDF images S059",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Snaith restates Browder's universal individual-class detection theorem; original detailed Browder geometry and all dependencies not reconstructed; not a classical Toda triple calculation.",
+      "observed": "Printed p33 states Kervaire invariant one iff represented by h_j squared in classical Adams filtration2; Theorem9.2 p37 states individual nonzero-Kervaire element is represented by h_j squared. Thus filtration>=3 classes have zero Kervaire invariant."
     }
   ]
 }

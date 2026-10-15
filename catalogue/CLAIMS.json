@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S058",
+  "as_of": "2026-10-15 S059",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2930,6 +2930,51 @@
         "SRC-0104"
       ],
       "scope": "G1B/G2 NOT PASSED; no Lean/Palomar/manuscript/arXiv/HHA."
+    },
+    {
+      "id": "CLM-0303",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S059-T149: Kervaire invariant κ annihilates the 2-primary product subgroup P=π31·π31⊆π62, by published *individual-class* Browder/Snaith h5² filtration2 detection and Adams multiplicativity P⊆F4.",
+      "sources": [
+        "SRC-0106",
+        "SRC-0108",
+        "SRC-0101"
+      ],
+      "scope": "Complete internal deduction relative to named external class-level theorem; not a newly derived Browder proof, formal certificate, or any evaluation of triple brackets."
+    },
+    {
+      "id": "CLM-0304",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S059-T150: given inherited stable triple quotient additivity, κ descends to E/P and k(x)=κ(<x,θ4,2>) defines an additive F2-linear character H/2H≅F2³→F2 determined by three actual, presently UNKNOWN classical triple values.",
+      "sources": [
+        "SRC-0108",
+        "SRC-0101",
+        "SRC-0099"
+      ],
+      "scope": "Exact algebraic conclusion relative to S056's internal chosen-nulltrack additivity and stable Toda conventions; all three bits and actual basis not calculated."
+    },
+    {
+      "id": "CLM-0305",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S059 independent derivation rechecks S043 internal full-real ε1 IHC upper via two successive rel-endpoint path lifts in projective mapping-space fibrations and derived left Kan; together with S058 T148 lower supports internal dIHC=1.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0094"
+      ],
+      "scope": "Dependent on standard projective model-category and classical π61 vanishing; not independently certified by Lean, original full source-model theorem or referee."
+    },
+    {
+      "id": "CLM-0306",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "All three Kervaire triple bits remain unmeasured, full compatible classical <2,θ4,θ4,2> zero exclusion or zero example unknown, ordinary all-weak-equivalence Top^R strict HI obstruction and current HHA originality not certified. G1B/G2 open.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0094",
+        "SRC-0099",
+        "SRC-0104",
+        "SRC-0108"
+      ],
+      "scope": "S059 does NOT prove strict dHI>dIHC, does NOT trigger Lean, Palomar, manuscript or publication."
     }
   ]
 }

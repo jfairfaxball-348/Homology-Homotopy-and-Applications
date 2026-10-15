@@ -301,3 +301,7 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - SRC-0106 Browder1969 original *Annals* scanned pp157–186 https://webhomes.maths.ed.ac.uk/~v1ranick/papers/browkerv.pdf , original p157 visual STATEMENT_INSPECTED: Kervaire framed classes detected by h_j²; NO classical outer Toda values.
 - SRC-0107 original Apr2026 relative Sullivan CDGA map IHC https://arxiv.org/abs/2604.06800 ABSTRACT_INSPECTED, not universal Top^R HI/IHC.
 - Previously SRC-0094/0099/0101/0104/0105 selected primary work scope respected; no full contemporary cited-by/MR/zbMath/hidden classical chart evaluation. G2 NOT PASSED.
+
+## S059 primary detection source
+- **SRC-0108 STATEMENT_INSPECTED:** Victor P. Snaith (2009), published author survey https://morfismos.cinvestav.mx/sites/default/files/Upload/vol13-n2-1.pdf , printed p33 and p37 actual PDF page images. Explicit individual-class iff h_j² filtration2 and Theorem9.2 implication, citing Browder; no classical triple secondary values.
+- **SRC-0106 inspected extension:** ORIGINAL Browder1969 Annals scanned printed p157 and pp183–184 Thms7.7/7.8 https://webhomes.maths.ed.ac.uk/~v1ranick/papers/browkerv.pdf . Introduction alone is an existence theorem; distinguish original secondary operation from Snaith's class-level statement. Selected proof pages, not whole proof. IWX2023 Table1 and 2026 DG-only publisher source inherited at stated access levels.

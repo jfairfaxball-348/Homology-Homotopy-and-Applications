@@ -140,3 +140,6 @@ Direct original Wang–Xu Annals Cor1.10/Lemma12.6 shows "strictly defined" 4fol
 
 ## S058 — 15 October 2026
 T147 internally proves dual-character equivalent to S057 sufficient rank, not actual classical bracket computation; Browder κ plausible but three values/P uncomputed. T148 independently dIHC≥1 by free birth0 evaluation and identity/degree2 for ε<1; coherent ε1 upper unproved. Classic zero-compatible systems, any all-unpointed dHI≥5/4 proof and first exact HHA originality gate unresolved. G1B/G2 OPEN, strict gap NOT certified, no exact HI/GRID necessity, Lean/Palomar/manuscript/external untouched; S059 FUTURE only. S058 dossier.
+
+## S059 — 15 October 2026
+Original Browder class-detection source and Snaith2009 printed pp33,37 directly inspected. S059-T149 **proves κ(P)=0** for product subgroup π31·π31⊂F4π62, because individual κ1 classes have permanent Adams h5² filtration2. S059-T150 consequently forms a genuine well-defined linear Kervaire functional on E/P; THREE classical outer triple bits remain UNKNOWN. Independently rechecked S043 derived ε1 path-lift/internal dIHC=1. Full classical 0-exclusion, HI all-replacements proof and exact Oct2026 novelty/HHA gate OPEN; no strict theorem, no Lean/external. See S059 dossier; S060 FUTURE only.
