@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14 S048",
+  "as_of": "2026-10-15 S051",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2490,6 +2490,63 @@
         "SRC-0096"
       ],
       "scope": "Source-dependent dIHC=1<5/4<=dHI<=3/2 only; Stage1 remains open/G2 not started. No submissions or formalisation."
+    },
+    {
+      "id": "CLM-0260",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S051 T122: any objectwise WE natural transformation of strict finite chain diagrams with path-connected codomain at 0 and arbitrary propagated endpoint pointings admits an explicit natural mapping-path pointed objectwise-WE span B<-P->C; hence any such whole-diagram zigzag admits coherent pointed transport.",
+      "sources": [],
+      "scope": "INTERNAL standard mapping-path construction, explicit deformation and all naturality squares; NOT a new standalone original theorem, nor literal point-preserving original f. Applies to original sphere-grid zigzags whose stage0≃S160."
+    },
+    {
+      "id": "CLM-0261",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S051 T123: T122 supplies previously missing arbitrary unpointed whole-grid WE to canonical pointed-sphere comparison, allowing S050 on-image-collision argument with reduced dependency on pointings, still conditional on full published stable Toda zero-exclusion and higher-operation naturality.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "NO unrestricted original GRID impossibility; Adams/Moss and selected source conventions not independently reproduced. Published-source dependency remains."
+    },
+    {
+      "id": "CLM-0262",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S051 T124: for any 1≤r<L every prescribed length-r strict zero relation in [L] is logically individually independent of all other length-r zeros in contractible pointed interval chains with id/zero WE maps; applies individually to five (5,2) and seven (8,3) equations.",
+      "sources": [],
+      "scope": "Pure elementary combinatorial/topological toy proof. Contractible test diagrams NOT objectwise-WE to original noncontractible spheres."
+    },
+    {
+      "id": "CLM-0263",
+      "status": "COMPUTED_EXACT",
+      "claim": "S051 bounded finite id/zero interval sanity check: 5 endpoint witnesses and 7 four-thirds witnesses, checking 25 and 49 window relations respectively with direct composition and independent zero-intersection tests.",
+      "sources": [],
+      "scope": "Python3 stdlib script SHA256 245a0d0e0561ce1e614dbb89aa98912f98a005a09c0d8c5eaf259e7b85785774; stdout b90784ed9b2be896a849043d230296e2e80341c685d572532f50c8adb1551018. NOT sphere topology or all words."
+    },
+    {
+      "id": "CLM-0264",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S051 T125/T126: π2Map_*(S160,S100)_0≅π162(S100)≅π62^S is only a candidate tertiary endpoint target degree; forgetting zero-pointed enrichment in DKS allows ordinary nonconstant idempotent zero-arrow representations, hence is not the desired strict zero functor problem.",
+      "sources": [
+        "SRC-0091",
+        "SRC-0092",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "Degree arithmetic and explicit wedge-idempotent counterexample. NO S² attaching cell, obstruction class, indeterminacy or vanishing iff theorem; relative resolution remains open."
+    },
+    {
+      "id": "CLM-0265",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S051 does NOT settle original-sphere unrestricted GRID(5,2), GRID(8,3), negative rational above endpoint, positive cofinal family, exact dHI, full DKS relative class, complete stable bracket source/transport, T108 model argument or originality/HHA.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0091",
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "Stage1; G2 NOT_STARTED; source-dependent internal 1=dIHC<5/4≤dHI≤3/2. No Lean/Palomar/paper/arXiv/HHA."
     }
   ]
 }

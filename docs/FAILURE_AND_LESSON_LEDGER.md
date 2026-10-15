@@ -333,3 +333,9 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - **Omitting j1/j3:** flatly false. Explicit pointed I-chains with all e_i weak equivalences have j0,j2,j4 literal constants but j1 or j3 nonconstant. Seven 4/3 requirements similarly cannot be replaced by only j0,j3,j6; toy witnesses are NOT weakly equivalent to the original spheres.
 - **Naming a DKS 3cell without one:** T121 zero-category provides complete formal objects and WE-invariant *existence*, not a derived mapping space, relative S²-boundary, π2 target and indeterminacy. No computed nonzero cocycle.
 - **Source/CI overclaim:** original published Table10/4 is not an independent Adams/Moss/stable→unstable transport proof; 2026 field dg case is not Top; 512/16384 toy maps and GitHub static catalogue CI are not math verification.
+
+## S051 failure controls — 2026-10-15
+- Natural mapping-path weak equivalence spans solve arbitrary *pointing transport*, not zero-composite strictification; never report this as a GRID model.
+- Each length-r equation is individually independent on contractible interval WEs: all j0..4 endpoint and j0..6 4/3 equations must be retained. Contractible toys never certify noncontractible original sphere diagrams.
+- Candidate π2Map endpoint π62^S is not an attached relative S² obstruction with indeterminacy. Ordinary category idempotent is not pointed enriched zero map (nonconstant projection counterexample).
+- Source-bracket/T108 and exact HI still independently unverified; all later gates closed and S052 only future.

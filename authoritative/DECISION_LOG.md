@@ -312,3 +312,10 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - **DEC-S050-02:** T120 explicit pointed interval all-WE countermodels independently demonstrate missing j1/j3 cannot be dropped; 4/3 has four extra equations beyond 0,3,6. The toy is NOT sphere K~A.
 - **DEC-S050-03:** T121 truncated zero category recognises full WE-zigzag GRID faithfully; its homotopy essential-image criterion is not a computed higher obstruction group/3cell. Relative DKS/BJT obstruction + full unpointed transport remain OPEN.
 - **DEC-S050-04:** Neither GRID5/2 nor GRID8/3 is decided; no rational negative bound above 5/4, no cofinal infinite positive family, dHI exact OPEN. Keep source-dependent dIHC1<5/4<=dHI<=3/2, Gate2/Lean/Palomar/manuscript/arXiv/HHA closed, T66/1981, R5 and Hopf/T84 frozen. S051 future only.
+
+## S051 decisions (2026-10-15)
+- DEC-S051-A: S050 PR51 and main tree/parents verified live; hosted PR and merge push jobs/steps STATIC governance SUCCESS, not mathematics; branch protection endpoint403 remains unknown, zero open PRs before write.
+- DEC-S051-B: Accept elementary full natural mapping-path pointed WE span T122 and consequent narrowed T119/T123 source dependence; path-connected index0 necessary and present. No novel flagship, no universal GRID no-go.
+- DEC-S051-C: Accept exact general independent-window toy theorem T124 plus bounded two-checker 5+7 tests; **all** j0..4 and j0..6 retained in actual sphere obligations.
+- DEC-S051-D: Record π62 stable candidate endpoint degree T125 and zero-idempotent ordinary-versus-enriched diagnostic T126 as *non-solutions* of actual relative 3cell. Do not claim DKS invariant, quotient/indeterminacy or prior-art novelty.
+- DEC-S051-E: Core original nonmonic GRID and exact distance OPEN, Stage1/G2 unchanged, no formalisation or external release. Freeze T66 original1981/Q/all Fp/one Z split, R5 16471, Hopf retirement and T84. S052 FUTURE/UNEXECUTED.

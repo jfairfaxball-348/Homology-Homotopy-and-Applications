@@ -227,3 +227,10 @@ Primary target for S048 FUTURE ONLY: resolve GRID, the single [10]-diagram K~A w
 
 ## S049 route decision
 Three proof-first routes: (A) noncofibrant K via cones/HEP and compatibility of five length-five arrows j0..4 — no global model; (B) relative DKS/BJT tertiary construction — no actual invariant class or WE-zigzag independence, and original all-three-mono T114 cannot universalise; (C) arithmetic rational GRID — **success** INTERNAL T116 explicit resampling, T117 exact cofinal family under inherited equivalence and lower bound, T118 stable source-target stage types. Next S050 must return to unrestricted GRID rather than mistaking arithmetic criteria for existence. Frozen T66, R5 16471 OPEN, retired Hopf/T84, first novelty gate NOT_STARTED.
+
+## S051 relative GRID route correction
+- **Positive INTERNAL structural:** T122 explicit whole finite chain natural mapping-path span transports any propagated pointings across any unpointed WE zigzag with connected stage0; T123 repairs the one previously unproved *pointing* input to conditional T119.
+- **General negative diagnostic:** T124 each individual strict length-r relation independent even when every internal arrow is a WE of contractible intervals; discard all three-only (endpoint) and three-only (4/3) reductions in general models. No sphere transfer.
+- **Relative obstruction route OPEN:** T125 top-degree π2Map endpoint π62^S only, T126 ordinary idempotent zero false surrogate; an actual pointed-enriched projective resolution, tertiary S², indeterminacy and WE-invariant obstruction still absent. Direct cone/path attempts did not produce original sphere K.
+- **Distance FRONTIER:** no GRID(5,2), GRID(8,3) answer, no cofinal infinite family or negative rational >5/4, dHI exact unknown. Original LS/BJT/DKS strong prior art and published Wang-Xu/IWX source constraints, no Gate2.
+- Preserve frozen T66, R5 strict 16471, retired Hopf/T84 and original1981 caveat.
