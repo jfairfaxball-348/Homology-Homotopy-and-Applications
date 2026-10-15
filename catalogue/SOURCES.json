@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S067 primary LS Lemma3.8 and BJT fourfold source checked",
+  "as_of": "2026-10-15",
   "sources": [
     {
       "id": "SRC-0001",
@@ -1068,9 +1068,9 @@
       "title": "Baues Blanc Gondhali 2016, Higher Toda brackets and Massey products",
       "url": "https://arxiv.org/abs/1503.02265",
       "origin": "Original author arXiv abstract and Springer published preview",
-      "access": "ABSTRACT_INSPECTED",
-      "limitation": "Not full exact long Toda transport proof",
-      "observed": "Unified higher order Toda brackets and Massey products in model categories."
+      "access": "PROOF_INSPECTED",
+      "limitation": "Original arXiv:1503.02265v1 selected §§4.21,4.28–4.32 direct; exact equality to Xu conventional 4fold ZERO remains unverified",
+      "observed": "Theorem4.21 DK invariance of its higher Toda sets; Example4.28/Def4.31/Remark4.32 define and make Ho-chain bracket well-defined; variants acknowledged."
     },
     {
       "id": "SRC-0120",
@@ -1098,6 +1098,24 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Full theorem priority not checked",
       "observed": "Related category-theoretic interleaving constructions, not verified exact Top^R gap."
+    },
+    {
+      "id": "SRC-0123",
+      "title": "Halder Sau Sen 2026 Equivariant Homotopy Interleaving and Persistent Whitehead Theorem",
+      "url": "https://arxiv.org/abs/2609.23440",
+      "origin": "Original arXiv abstract submitted 20 Sep 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full original PDF retrieval failed; abstract only, no exact ordinary Top^R HI>IHC collision assessment",
+      "observed": "Finite-group equivariant HI universality, equivariant Whitehead/nerve and applications, not abstract-stated 4fold ordinary 2-local gap."
+    },
+    {
+      "id": "SRC-0124",
+      "title": "Kuribayashi Naito Sekizuka Wakatsuki Yamaguchi 2026 A distance between maps via interleavings of relative Sullivan algebras",
+      "url": "https://arxiv.org/abs/2604.06800",
+      "origin": "Original arXiv abstract April 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full source not inspected; rational Sullivan/CDGA models distinct from ordinary 2-local Top^R",
+      "observed": "Models interleaving distance of maps using persistent relative Sullivan algebra and homotopy categories."
     }
   ]
 }

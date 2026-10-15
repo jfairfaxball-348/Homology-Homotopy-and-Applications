@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S067 bounded homotopy-category ZERO transport; G2 remains open",
+  "as_of": "2026-10-15",
   "claims": [
     {
       "id": "CLM-0001",
@@ -3375,6 +3375,59 @@
         "SRC-0122"
       ],
       "scope": "No negative search novelty certificate; no owner switch, Lean or publishing."
+    },
+    {
+      "id": "CLM-0345",
+      "status": "SOURCE_STATED",
+      "claim": "BBG2016 original arXiv §§4 Theorem4.21, Example4.28, Definition4.31 and Remark4.32 establish homotopy invariance and Ho-chain construction of BBG higher Toda brackets under DK equivalences.",
+      "sources": [
+        "SRC-0119"
+      ],
+      "scope": "BBG's higher convention only; cannot assert literal identification with Xu2016 conventional stable 4fold bracket."
+    },
+    {
+      "id": "CLM-0346",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S068 exact five-stage clock check: for 1≤e<5/4, t=(0,1,2+c,3+c,4+2c), c=2e−2, stays within stages and its 3 adjacent double samples shift exactly by 2e; e=5/4 boundary excluded.",
+      "sources": [
+        "SRC-0065"
+      ],
+      "scope": "Elementary arithmetic within inherited S066 full shoelace conditional model; NOT full metric theorem/novelty."
+    },
+    {
+      "id": "CLM-0347",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S068 referee-level Xu classical conventional ZERO versus BBG/BJT higher ZERO definition exact dictionary not independently inspected; all-replacement model categorical and derived Kan source crosscheck remain, so S067 alternate metric gap remains INTERNAL source-dependent proof argument rather than independently certified theorem.",
+      "sources": [
+        "SRC-0117",
+        "SRC-0118",
+        "SRC-0119",
+        "SRC-0065"
+      ],
+      "scope": "No mathematical countermodel identified; original owner integral flagship still unproved. Exact dHI endpoint not required."
+    },
+    {
+      "id": "CLM-0348",
+      "status": "SOURCE_STATED",
+      "claim": "Sep2026 Kuribayashi et al equality dHI=dIHC=dHC has hypotheses of field-valued persistent dg-modules (and their BS1 cochain applications); 2026 Halder–Sau–Sen equivariant HI abstract doesn't claim the same ordinary Top^R 2-local gap.",
+      "sources": [
+        "SRC-0104",
+        "SRC-0123"
+      ],
+      "scope": "Contemporary scoped comparison, not exhaustive novelty proof."
+    },
+    {
+      "id": "CLM-0349",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "As of S068 2026 originality, citation descendants and HHA significance G2 remain NOT PASSED; explicit owner consent required before switching original integral (2,θ4,θ4,2) flagship to alternate 2-local proof candidate.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0119",
+        "SRC-0104",
+        "SRC-0122",
+        "SRC-0123"
+      ],
+      "scope": "No Lean, Palomar, manuscript or external submission authorised."
     }
   ]
 }

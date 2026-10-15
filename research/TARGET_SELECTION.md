@@ -187,3 +187,6 @@ Selected target remains original five-stage strict d_HI>d_IHC, exact dHI neither
 
 ## S060 first-target assessment
 Keep strict ordinary dHI>dIHC of fixed five-sphere chain as prospective HHA target, NOT frozen/paper-ready. Genuine intermediate k(eta theta4)=0 removes 1 of 3 mod2 basis unknowns; 2 remain, complete classic 4fold zero exclusion and 2026 priority/HHA review fail to close. BJM1984 prior art substantial; Sep2026 equivariant HI adjacent only. Exact distance not necessary; G1B/G2 not passed.
+
+## S068 2026-10-15 target decision
+**NO AUTOMATIC PIVOT.** Original owner-designated integral five-sphere (2,θ4,θ4,2) remains G1B UNPROVED (complete 4fold zero exclusion/k(j)/k(v) unknown). Alternate 2-local (2,σ²,σ²,2) has an internal proof of strict ordinary unpointed Top^R gap under source-dependent definition match, but exact standard-conventional Xu-vs-general higher ZERO proof and genuinely original HHA G2 remain NOT PASSED. Successful alternate verification would trigger owner choice, not implicit transfer. S069 future only, no exact HI endpoint prerequisite, no Lean or manuscript.
