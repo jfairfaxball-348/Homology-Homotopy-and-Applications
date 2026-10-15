@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S052",
+  "as_of": "2026-10-15 S053",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2588,6 +2588,80 @@
         "SRC-0096"
       ],
       "scope": "Only inherited source-dependent 1=dIHC<5/4≤dHI≤3/2; no Lean, Palomar, paper, journal or external submission."
+    },
+    {
+      "id": "CLM-0271",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S053-T130: under standard projective sSet poset model/cofibrancy and left properness, any all-real strict epsilon interleaving between arbitrary F'~F and G'~point/empty admits one whole-shoelace WE replacement with literal point G and simultaneously adjusted F having all length-2epsilon arrows strictly constant.",
+      "sources": [
+        "SRC-0083"
+      ],
+      "scope": "Full generating-cell monomorphism proof, natural V_t quotient, all-real shifted identities. Standard model facts sourced; not a standalone new HHA theorem."
+    },
+    {
+      "id": "CLM-0272",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S053-T131: for 0<=epsilon<5/4, monotonicity and five clock samples force a strictly square-zero pointed four-arrow model of the original sphere chain, IF a strict HI interleaving exists; consequently the no-interleaving conclusion follows CONDITIONALLY from zero being excluded from the complete CLASSICAL stable fourfold Toda bracket and matching naturality.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094",
+        "SRC-0098"
+      ],
+      "scope": "The implication is proved, but its essential classical zero-exclusion premise is UNPROVED here. Endpoint epsilon=5/4 not excluded."
+    },
+    {
+      "id": "CLM-0273",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S053-T132: assuming published pi61^S=0 and theta4 relations, two successive mapping-space obstruction loops vanish for derived [2] natural zero; derived Lan_N0^R and both homotopy-category interleaving identities yield d_IHC(F,G)=1.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0083"
+      ],
+      "scope": "Independent coherence reconstruction of S043; relies on original published stem, standard based/unbased and mapping-cylinder/derived Kan model theory; not Lean-formalised."
+    },
+    {
+      "id": "CLM-0274",
+      "status": "SOURCE_STATED",
+      "claim": "Wang–Xu2017 original Corollary1.10 proves classical theta5 belongs to strictly defined bracket <2,theta4,theta4,2>; the corollary does NOT assert zero exclusion.",
+      "sources": [
+        "SRC-0094"
+      ],
+      "scope": "Original Annals p504 local proof directly inspected; nonzero element membership alone is insufficient to show bracket omits zero."
+    },
+    {
+      "id": "CLM-0275",
+      "status": "SOURCE_STATED",
+      "claim": "IWX2023 original preprint Theorem6.3 and Table10 concern C-MOTIVIC fourfold Toda values; Table10 (62,32) has nonzero h5² and h5 n listed indeterminacy, but authors warn tabulated indeterminacies are not always complete.",
+      "sources": [
+        "SRC-0098",
+        "SRC-0096"
+      ],
+      "scope": "C-motivic noncontainment of zero is genuinely stated; classical full zero-exclusion remains a distinct unproved comparison, never conflate them."
+    },
+    {
+      "id": "CLM-0276",
+      "status": "SOURCE_STATED",
+      "claim": "Lanari–Scoccola 2020v1 and published 2023 Remark3.13 explicitly leave the ordinary Top^R question d_HI != d_IHC open; authors v1 believe another inequality can be handled by adaptation.",
+      "sources": [
+        "SRC-0097",
+        "SRC-0083"
+      ],
+      "scope": "Historical open question only, not assurance no solution since or proof of HHA novelty."
+    },
+    {
+      "id": "CLM-0277",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S053 has NOT established that zero is excluded from the FULL CLASSICAL <2,theta4,theta4,2> under all defining systems, nor a new priority-clear HHA-level strict separation; derived IHC remains source-dependent, and first novelty G2 is IN_PROGRESS but NOT PASSED.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096",
+        "SRC-0097",
+        "SRC-0098",
+        "SRC-0084"
+      ],
+      "scope": "The sole fatal evidence-import gap is classic vs motivic bracket plus full higher-operation naturality conventions and priority/fit; exact HI not required."
     }
   ]
 }

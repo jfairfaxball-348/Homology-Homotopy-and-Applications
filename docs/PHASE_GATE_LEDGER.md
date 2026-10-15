@@ -153,3 +153,9 @@ Stage1 continues; originality/HHA Gate2 NOT_STARTED. Contractible product T127/T
 - **G1B:** IN_PROGRESS, **G2:** NOT_STARTED, **G3 Lean/G4 final audit:** NOT_STARTED; G5 Palomar owner-gated, G6 paper not started, G7 arXiv/G8 HHA owner-gated. A changed route does NOT move any gate.
 - **Formalisation/release trigger:** independent complete strict inequality plus successful first original exact-result novelty/HHA gate. Then freeze theorem (no exact d_HI/GRID endpoint/cofinal improvement prerequisite) and move to separately authorised G3 Lean; follow subsequent approval gates. Source and hostile audits remain genuine requirements.
 - Full superseding target is authoritative/PUBLICATION_TARGET.md; S053 future only. No historical S047–S052 facts rescinded.
+
+## S053 gate audit (15 October 2026)
+- G1B **IN_PROGRESS**: reverified conditional all-real two-lane proof and derived coherence; classical full zero-exclusion still not established by the precise inspected papers. `0∈/∉<2,theta4,theta4,2>_classical` unadjudicated. No theorem frozen.
+- G2 **IN_PROGRESS, NOT PASSED**: original LS2020v1 and 2023 explicitly leave HI vs IHC open; BJT/DKS/HKM priority and 2023–2026+ exact Top theorem not exhaustively checked. C-motivic IWX table cannot substitute for full classical source. HHA fit still conditional.
+- G3 Lean/G4 final audit NOT STARTED; G5 Palomar G7 arXiv G8 HHA OWNER GATED; G6 manuscript NOT STARTED. Hosted CI static only.
+- T66 original1981, R5 16,471, retired Hopf/T84 preserved. S054 future ONLY; exact dHI/GRID not publication requirements.

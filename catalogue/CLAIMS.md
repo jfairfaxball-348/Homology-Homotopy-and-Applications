@@ -391,3 +391,12 @@ See S038 full dossier and JSON scope.
 - **CLM-0268 PROGRAMME_PROVED:** S052 T129: augment actual original sphere [5s] A^s by four contractible interval factors: three realize all tail collisions, the fourth is identity on all edges so ALL 5s−r strict zero equations fail. Whole-diagram natural projection is an objectwise WE. Scope: Concrete actual-sphere weak-equivalence class counterexample to collision sufficiency only; NOT a GRID counterexample or false source citation.
 - **CLM-0269 COMPUTED_EXACT:** S052 bounded ten (r,s) pairs independently checked explicit 0/1 compositions and interval covers plus unmodified fourth-coordinate controls. Scope: Source sha256 06c9a8b5d6f2be32ab8392222cdc969af13b5e189970369b329224b55787005c; stdout sha256 edfc9b2935d75026fb2b7d1c47e02c05b28c9e6eb78c64e9df5b66df63ac33f9. Finite sanity checks NOT topology proof.
 - **CLM-0270 INHERITED_UNVERIFIED:** S052 leaves original unrestricted nonmonic GRID(5,2)/GRID(8,3), enriched relative S²/iff obstruction, all-real T108 proof transport, exact HI, above-endpoint/cofinal questions and originality/HHA Gate2 OPEN. Scope: Only inherited source-dependent 1=dIHC<5/4≤dHI≤3/2; no Lean, Palomar, paper, journal or external submission.
+
+## S053 exact claim updates
+- **CLM-0271 (PROGRAMME_PROVED)** T130 complete-real shoelace simultaneous point-lane reduction with F quotient and all allowed original weak equivalences, conditional on standard projective sSet/left properness.
+- **CLM-0272 (PROGRAMME_PROVED CONDITIONAL IMPLICATION)** T131 correct clocks for every epsilon<5/4 and exact strict-zero model, but CLASSICAL full bracket zero-exclusion unproved.
+- **CLM-0273 (PROGRAMME_PROVED with sourced stable input)** T132 derived IHC=1 via two fibration loop fillers and real Kan.
+- **CLM-0274 (SOURCE_STATED)** Wang–Xu classical theta5 IN 4fold, not zero OUT.
+- **CLM-0275 (SOURCE_STATED)** IWX Theorem6.3 Table10 zero-exclusion **C-MOTIVIC**, indeterminacy not necessarily full/classical.
+- **CLM-0276 (SOURCE_STATED)** LS2020v1 and 2023v3 explicitly open Top^R HI vs IHC comparison historically.
+- **CLM-0277 (INHERITED_UNVERIFIED)** full classical comparison and novelty/HHA remain open; NO paper freeze / Gate2 PASS / formalisation.
