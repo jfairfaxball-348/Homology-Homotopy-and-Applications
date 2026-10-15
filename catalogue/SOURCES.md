@@ -336,3 +336,12 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - **SRC-0114 NEW PROOF_INSPECTED (selected)** Wang–Xu original _Some extensions in Adams spectral sequence and 51-stem_ https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/wang-xu-51.pdf, pp3–5 Remark2.3 original concrete E3 Massey indeterminacy includes 0, Moss only one surviving cycle; topic 51 stem not target.
 - **SRC-0115 NEW STATEMENT_INSPECTED** Belmont–Kong original 2025 _A Toda Bracket Convergence Theorem for Multiplicative Spectral Sequences_ https://link.springer.com/article/10.1007/s42543-025-00099-x, full-text selected Theorem1.1/4.11 and assumptions, not full proof; crossing+permanent cycle must be verified, theorem existential not universal for bracket members.
 - **SRC-0065** original Lanari–Scoccola §4 filtered/monic projective diagrams; **SRC-0099 Xu2016** original theta4-only zero examples; original J1966 SRC-0112 METADATA_ONLY still; DKS/HKM/BJT direct complete higher transport and 2026 full novelty indexing not cleared. G1B/G2 OPEN.
+
+
+## S066 final publisher and current comparison sources (15 October 2026)
+- **SRC-0117** Xu 2016 FINAL publisher [PDF](https://msp.org/gt/2016/20-3/gt-v20-n3-p08-s.pdf), PROOF_INSPECTED printed pp1620–1621 §5 Lemma5.1. Entire classical 2-primary ordered <2,σ²,σ²,2>={θ4}≠0; π29_(2)=0, NOT integral.
+- **SRC-0118** BJT2019 [original arXiv](https://arxiv.org/pdf/1809.07495), STATEMENT_INSPECTED selected introduction/§§6–7; unpointed/model category higher rectification framework, precise full-value-set WHOLE zigzag source dictionary outstanding.
+- **SRC-0119** BBG2016 [original arXiv](https://arxiv.org/abs/1503.02265), ABSTRACT_INSPECTED general long Toda conventions.
+- **SRC-0120** HKM2002 original publisher abstract, ABSTRACT_INSPECTED; full 2-track theorem not audited.
+- **SRC-0121** DKS1989 DOI metadata only; exact proof not accessed.
+- **SRC-0122** McFaddin–Needham2026 AGT original publisher abstract, ABSTRACT_INSPECTED, not exact Top^R result.

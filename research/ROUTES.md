@@ -261,3 +261,7 @@ Selected strict ordinary unpointed Top^R dHI>dIHC unchanged. Order64 2-primary i
 
 ## S062 classical Toda strict HI route viability checkpoint
 Fixed first-publication goal remains unrestricted ordinary unpointed Top^R strict dHI>dIHC (five spheres, arrows 2,theta4,theta4,2), not an exact metric computation. Ten S053–S062 concentrated sessions left k(J31), third k(v), full compatible fourfold zero membership/exclusion and source-exact all-replacement invariance open. There is no certified original theorem or HHA gate. Mark **HIGH TECHNICAL RISK/LOW NEAR-TERM PROOF READINESS**. S063 FUTURE only should attempt an actual missing classical nulltrack or universal zero-exclusion, or explicitly request owner decision before any change of flagship; do not silently pivot.
+
+
+## S066 — alternate 2-local classical fourfold route, proof gate still open
+Xu2016 FINAL original §5 Lemma5.1 proves complete **2-primary** ordered <2,σ²,σ²,2>={θ4} nonzero; distinct from original unresolved <2,θ4,θ4,2>. L68→L68→L54→L40→L40 with arrows 2,σ²,σ²,2 has internally dIHC=1; full all-both-WE ordinary unpointed shoelace quotient suggests dHI≥5/4. HHA-ready conclusion awaits source-exact coherent WHOLE unpointed five-chain zigzag-to-pointed/stable entire fourfold value-set transport and genuine present-day originality. S067 FUTURE attacks exactly that or a countermodel; no default exact distance and no owner flagship change.

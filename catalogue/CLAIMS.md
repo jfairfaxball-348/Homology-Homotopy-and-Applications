@@ -479,3 +479,11 @@ See S038 full dossier and JSON scope.
 - **CLM-0329 PROGRAMME_PROVED (INTERNAL, S053 reconstruction):** whole-shoelace projective monic Q, weak-contractible cross-image quotient and five-time propagated based strict-zero sample imply any ε<5/4 strict both-whole-WE interleaving produces classical stable 4fold ZERO member, conditional on standard 4fold invariance and high suspension identification. NO classical target zero OUT result.
 - **CLM-0330 INHERITED_UNVERIFIED:** k(u)=0 inherited; k(j),k(v), target complete 0-in/out UNKNOWN; no new classical bit or theorem freeze.
 - **CLM-0331 INHERITED_UNVERIFIED:** G1B/G2 remain OPEN; S065 FUTURE EVIDENCE-GATED, no automatically repeated classical algebra/clock session or external acts.
+
+
+## S066 exact five claims and gate separation
+- **CLM-0336 SOURCE_STATED:** FINAL published Xu ordered full classical 2-primary singleton θ4, π29_(2)=0, no integral inference.
+- **CLM-0337 PROGRAMME_PROVED:** S066 T172 internal derived [2] coherent simultaneous two-loop correction and dIHC=1 relative Xu source inputs.
+- **CLM-0338 PROGRAMME_PROVED:** S066 T173 full BOTH-whole-WE shoelace mono quotient and e<5/4 strict twofold-zero five-chain necessary condition, not yet full stable 4fold exclusion.
+- **CLM-0339 INHERITED_UNVERIFIED:** exact unpointed whole-zigzag → based full classical fourfold → stable Xu value-set comparison still requires referee-complete theorem/proof; alternate strict gap remains internal.
+- **CLM-0340 INHERITED_UNVERIFIED:** exact current 2026 originality/HHA G2 not passed, 2026 DG equality different category; no owner approval to switch original flagship.

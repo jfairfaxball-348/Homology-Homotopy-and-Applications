@@ -1,0 +1,7 @@
+# S066 PLAN — kill or repair before claiming a paper
+
+1. **Final classical source test.** Inspect Xu FINAL publisher original §5 pp1620–1621, EXACT ordered classical fourfold 〈2,σ²,σ²,2〉, complete indeterminacy, nonzero θ4 and π29_(2)=0; reject false integral statements. Check Freudenthal dimensions 40/54/68 through degree70 and existence of local CW representatives.
+2. **IHC from first principles.** Re-derive projectively cofibrant [2] mapping-cylinder homotopy pullbacks, fix first naturality by lifting a π1 null discrepancy then the second without changing the corrected shared middle path; ensure both identities in Ho(Top^R), all-real and lower e<1.
+3. **HI against all replacements.** Consider any ordinary unpointed both-whole-WE strict ε-interleaving, full shoelace projective cofibrant mono, natural image V, left-proper quotient, cutoff and negative time, then sample stage clocks. Independently prove **complete classical 4fold full-value-set** transport across coherent natural weak-equivalence zigzags and pointed/stable identifications; find explicit countermodel if false.
+4. **Novelty.** Read Lanari–Scoccola Remark3.13; check BL, DKS, HKM, BJT, BBG and 2025–2026 persistence/rectification sources. Distinguish Sept2026 *DG module* equality. Do not treat unsuccessful search as G2.
+5. **Stop decision.** If full bridge or priority unproven, preserve G1B/G2 as OPEN and give exact next proof task. Do not switch selected original θ4/θ4 pair absent separate OWNER consent; no Lean/Palomar/paper/external.

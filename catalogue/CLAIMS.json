@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S065 alternate singleton classical fourfold strict HI>IHC",
+  "as_of": "2026-10-15 S066 mathematical/source separation gates",
   "claims": [
     {
       "id": "CLM-0001",
@@ -3282,6 +3282,58 @@
         "SRC-0116"
       ],
       "scope": "Current research stage, not publication or novelty clearance."
+    },
+    {
+      "id": "CLM-0336",
+      "status": "SOURCE_STATED",
+      "claim": "Final Xu published 2016 §5 Lemma5.1 proves classical 2-primary full ordered <2,sigma²,sigma²,2>={theta4} nonzero zero indeterminacy and pi29_(2)=0.",
+      "sources": [
+        "SRC-0117"
+      ],
+      "scope": "Final original pp1620–1621 PROOF_INSPECTED, not integral, not a new group computation."
+    },
+    {
+      "id": "CLM-0337",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S066 T172 internally proves dIHC=1 for alternate ordinary unpointed Top^R 2-local L68→L68→L54→L40→L40 via two successive rel-endpoint coherent [2] nullpath lifts.",
+      "sources": [
+        "SRC-0117",
+        "SRC-0065"
+      ],
+      "scope": "Source-dependent internal proof, not machine-checked, no external referee signoff."
+    },
+    {
+      "id": "CLM-0338",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S066 T173 internally proves arbitrary BOTH WHOLE ordinary weak-equivalence strict e<5/4 interleavings entail an objectwise-WE 5-chain with three literally zero adjacent double composites, via full projective shoelace and quotient.",
+      "sources": [
+        "SRC-0065"
+      ],
+      "scope": "Does not alone establish Xu classical fourfold contradiction absent exact complete value-set transport."
+    },
+    {
+      "id": "CLM-0339",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S066 T174 unpointed WHOLE [4] zigzag → pointed complete classical 4fold value-set → Xu stable 2-primary comparison not fully source-matched, leaving alternate dHI>=5/4 strict inequality an internal candidate.",
+      "sources": [
+        "SRC-0117",
+        "SRC-0118",
+        "SRC-0119",
+        "SRC-0120",
+        "SRC-0121"
+      ],
+      "scope": "Do not promote earlier CLM-0334 to publication-certified; no counterexample found is not a proof."
+    },
+    {
+      "id": "CLM-0340",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Contemporary Oct2026 exact HHA priority and originality G2 not completed; 2026 DG-module equality is different model category; official integral target switch not owner approved.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0104",
+        "SRC-0122"
+      ],
+      "scope": "Negative literature search is not a G2 pass, no Lean or publishing authorisation."
     }
   ]
 }
