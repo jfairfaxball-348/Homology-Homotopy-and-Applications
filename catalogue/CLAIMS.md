@@ -368,3 +368,11 @@ See S038 full dossier and JSON scope.
 - **CLM-0252 PROGRAMME_PROVED:** T118 uniform five stage-pair types throughout open (5/4,3/2); no stage-combinatorial 4/3 phase, no full homotopy phase claim.
 - **CLM-0253 COMPUTED_EXACT:** finite seven-row, m1..8 and four-delta mesh assertions only; SHA256s and limits in S049/COMPUTATION.
 - **CLM-0254 INHERITED_UNVERIFIED:** all unrestricted GRID existence, exact dHI, tertiary matching class, proof-level current novelty/Gate2 remain OPEN.
+
+
+## S050 claims (2026-10-15)
+- **CLM-0255 PROGRAMME_PROVED CONDITIONAL:** T119 required collapse of two distinct points in image of at least one original pair-composite by within-stage WE for every reduced 2s<r<3s. Zero-excluded bracket and full WE pointing remain source-dependent. No K/no-go.
+- **CLM-0256 PROGRAMME_PROVED toy:** T120 independent strict j1 and j3 equations refuted as consequences of j0/j2/j4, even for connected contractible intervals with all e_i WE; 4/3 has independent omitted j1,j2,j4,j5. NOT original spheres.
+- **CLM-0257 PROGRAMME_PROVED recognition:** Truncated zero-relation pointed enriched Z_(L,r) recasts exact GRID existence as localized essential-image membership; NOT an actual higher relative S² class, target or indeterminacy.
+- **CLM-0258 COMPUTED_EXACT:** 512 and 16384 restricted id/zero words, dual independent checker, s<=16 arithmetic. Hashes and scope in S050/COMPUTATION, not Top enumeration.
+- **CLM-0259 INHERITED_UNVERIFIED:** GRID5/2, GRID8/3, cofinal criterion, exact dHI and full Adams/pointing remain OPEN. No novelty gate or paper.

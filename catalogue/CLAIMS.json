@@ -2439,6 +2439,57 @@
         "SRC-0096"
       ],
       "scope": "Stage1 IN_PROGRESS/G2 NOT_STARTED. Internal source-dependent 1=dIHC<5/4<=dHI<=3/2 maintained."
+    },
+    {
+      "id": "CLM-0255",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S050 T119: for every coprime 2s<r<3s, any strict GRID(r,s) original-sphere witness must collapse two distinct points in the actual image of one of three K_is->K_(i+2)s composites by within-stage WE K_(i+2)s->K_(is+r), assuming source-based zero excluded fourfold Toda and arbitrary unpointed-to-pointed zigzag transport.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "The image cancellation proof is elementary; incompatibility of all three injective restrictions is CONDITIONAL on inherited source/classical transport. Applies GRID5/2, GRID8/3 and cofinal m; does NOT exclude arbitrary nonmonic K."
+    },
+    {
+      "id": "CLM-0256",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S050 T120: pointed interval diagrams with all internal edges identity or constant zero (each a WE) satisfy primary j0,j2,j4 length-five constants while independently violating j1 and j3; analogue GRID8/3 primary 0,3,6 does not imply j1,j2,j4,j5.",
+      "sources": [],
+      "scope": "Explicit zero index pairs [0,6] and [2,8] endpoint; 4/3 finite witnesses only among contractible intervals; NOT whole-diagram weak equivalence to original spheres."
+    },
+    {
+      "id": "CLM-0257",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S050 T121: finite pointed-set enriched truncated path category Z_(L,r) with length>=r paths sent to zero represents strictly pointed GRID(r,s) relations; after forgetting pointings the GRID existence condition is essential-image membership invariant under arbitrary whole-[L] weak-equivalence zigzags.",
+      "sources": [
+        "SRC-0091",
+        "SRC-0092",
+        "SRC-0095"
+      ],
+      "scope": "Pure categorical recognition reformulation; NOT computed relative DKS 3cell, fibrant mapping-space model, boundary, target or indeterminacy. Source-based pointed/stable transport remains unverified."
+    },
+    {
+      "id": "CLM-0258",
+      "status": "COMPUTED_EXACT",
+      "claim": "S050 two independently checked exhaustive restricted id/constant-zero interval diagram word families: 512 endpoint assignments, 16384 4/3 assignments, corresponding primary-satisfying counts 472 and 16208 and separate missing strict relation violations; exact rational tail-index tests for reduced s<=16.",
+      "sources": [],
+      "scope": "LOCAL standard-library Python script SHA256 82bc604701193523648d13b221153a3b35b31a6d941268e9e0cbdf154c2f0632, stdout ca8d9ae883580c37f060f00f3a5f7153b6c61b76e1861f8843e5eee91dcf622b; mirrored in validation/S050. Toy class only; no sphere topology/Adams/WE zigzag exhaustiveness."
+    },
+    {
+      "id": "CLM-0259",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S050 does not settle unrestricted nonmonic original sphere GRID(5,2), GRID(8,3), first failed above-endpoint rational grid, cofinal positive family, relative 3cell boundary/indeterminacy or exact HI threshold. No originality gate.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0084",
+        "SRC-0091",
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "Source-dependent dIHC=1<5/4<=dHI<=3/2 only; Stage1 remains open/G2 not started. No submissions or formalisation."
     }
   ]
 }

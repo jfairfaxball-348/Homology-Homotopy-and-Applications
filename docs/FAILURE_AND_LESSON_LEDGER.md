@@ -326,3 +326,10 @@ Indexed publisher snippets cannot be labelled direct statement inspection (five 
 - All five stage-types persist over (5/4,3/2), so a claimed 4/3 homotopy phase must use more than original stage ordering.
 - Infinite cofinal family GRID(10m+1,4m) is a mathematical criterion for infimum under existing assumptions. Testing eight m values is only an arithmetic diagnostic, not eight topological witnesses or compactness.
 - Literature original LS Remark3.13 and BJT §7.A already frame the broad obstruction/priority issue; 2026 dg case not Top^R. Selected source inspection does not certify all classical bracket transport.
+
+
+## S050 failures and lessons
+- **All-three-tail mono shortcut:** proved only conditional necessary nonmonic collapse *on a particular image* (T119), not that arbitrary nonmonic GRID is impossible. Projective cofibrant replacement loses strict constants in original chain category.
+- **Omitting j1/j3:** flatly false. Explicit pointed I-chains with all e_i weak equivalences have j0,j2,j4 literal constants but j1 or j3 nonconstant. Seven 4/3 requirements similarly cannot be replaced by only j0,j3,j6; toy witnesses are NOT weakly equivalent to the original spheres.
+- **Naming a DKS 3cell without one:** T121 zero-category provides complete formal objects and WE-invariant *existence*, not a derived mapping space, relative S²-boundary, π2 target and indeterminacy. No computed nonzero cocycle.
+- **Source/CI overclaim:** original published Table10/4 is not an independent Adams/Moss/stable→unstable transport proof; 2026 field dg case is not Top; 512/16384 toy maps and GitHub static catalogue CI are not math verification.
