@@ -1,0 +1,9 @@
+# S065 CLOSEOUT — 15 October 2026, authored PREMERGE record
+
+Exactly S065 authorised by user generic "run next session", S066 FUTURE NOT EXECUTED. Entry main 46bd2c4a567d5ba1d6aae9744a13e0c03e75b287, tree 708a0d2d8613112b746e85ef2a47234fdd260a47; no conflicting open PR. Prior S064 PR#66/merge and intervening prospective owner PR#67 reconciled; branch protection 403 UNKNOWN and static seven-step previous hosted jobs verified (details S065 INPUT).
+
+**PROGRESS:** Source-checked Xu2016 2-local classical singleton <2,σ²,σ²,2>={θ4}≠0 with π29_(2)=0 completely bypasses original five-sphere θ5 zero-out blocker for a DIFFERENT explicit 2-local sphere chain L68--2--L68--σ²--L54--σ²--L40--2--L40. New internal source-dependent proof S065-T167–169 gives **dIHC=1<5/4≤dHI in ordinary UNPOINTED Top^R, allowing arbitrary WHOLE ordinary objectwise WE replacements of BOTH inputs**, including weakly contractible nonpoint G'. Original selected θ4/θ4 candidate remains unproved and owner has NOT approved switch. The 2-local objects are ordinary CW spaces, not ordinary finite spheres. Exact dHI/GRID not needed.
+
+**NOT DONE:** independent fully source-exact whole WE/Toda 4fold transport, current exhaustive 2026 originality/HHA merit gate G2, mathematical formalisation, Palomar, manuscript, arXiv, journal submission, external review/outreach. Claim is INTERNAL proof candidate, no external/formal certificate; original G1B OPEN, G2 NOT PASSED. Read MATHEMATICS/ADVERSARIAL/PRIOR_ART for source and attack details.
+
+**GITHUB:** One isolated branch session/S065-theta3-explicit-gap-proof, one atomic authored commit; verify actual outgoing SHA, PR, hosted seven-step STATIC governance, ordinary two-parent merged SHA/tree/parents and postmerge STATIC after committing, not prefilled as invented. S066 exact separate future prompt prepared. Strict roadmap PROOF→separately authorised LEAN→PUBLICATION.
