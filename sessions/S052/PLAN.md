@@ -1,0 +1,8 @@
+# S052 PLAN — bounded preregistration and hostile gates
+
+1. Attempt original-sphere strict witnesses via nonmonic WE tails without assuming monomorphisms. Preserve five j=0..4 endpoint and seven j=0..6 rational equations and literal terminal point. Stop positive claims unless whole-diagram WE AND all literal constants constructed.
+2. Derive a general contractible-factor collision saturation theorem; separately test whether all strict zero relations survive under that stabilization; construct a fourth-coordinate adversarial original-sphere control to disprove collision sufficiency if possible. Require full symbolic proof, not a sample.
+3. Try enriched relative Z_(L,r) higher operation with j1,j3, coherence/attaching S² and quotient over whole-WE choices. If any piece is absent, explicitly report no class/iff theorem.
+4. Test (r,s) finite cases EXACTLY (5,2),(8,3),(7,3),(9,4),(10,4),(11,4),(12,5),(13,5),(21,8),(31,12), each 0≤j≤5s−r−1, by two independent tests: (a) explicit 0/1 coordinate composition for each interval factor and (b) interval-intersection cover. Test each three collision slots and a fourth intact identity negative-control coordinate. This is NOT a search for original sphere maps, not an exhaustive range or source certification. Python3 stdlib only; save source/stdout and SHA256.
+5. Recheck official original abstracts/pages of Wang-Xu2017, DKS1989, inherited LS/BJT/IWX published-source limits, 2023–26 Top novelty without overclaim. Preserve source grades and frozen unrelated fronts.
+6. Finish ONE authored atomic commit, PR, hosted static governance, ordinary two-parent merge, live SHA/tree/parents verify; S053 future only. No journal/Lean/Palomar/submissions.

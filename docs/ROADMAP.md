@@ -32,3 +32,6 @@ S002-T1..T4 and S003-T5..T7 are internal symbolic mathematical achievements, not
 
 ## S046 checkpoint, next proof frontier
 Source-dependent internal positive strict dHI>dIHC gap now has quantitative bound 5/4<=dHI<=3/2 by T108 whole-shoelace simultaneous F quotient and T109 real 5-sample fourfold obstruction. S047 FUTURE UNEXECUTED must hostile-audit the model-category reduction, source indeterminacy, exact threshold and priority before Gate2; no Lean/Palomar/paper/external releases.
+
+## S052 checkpoint
+Stage1 research only: restrict effort to unrestricted GRID strictification or a genuine enriched relative obstruction; all naive image-collision existence diagnostics are powerless. Prepare S053 future only. Gate2, formalisation, Palomar, release/paper/submissions remain closed.

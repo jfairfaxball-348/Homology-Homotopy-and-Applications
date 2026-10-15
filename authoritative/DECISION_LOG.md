@@ -319,3 +319,6 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - DEC-S051-C: Accept exact general independent-window toy theorem T124 plus bounded two-checker 5+7 tests; **all** j0..4 and j0..6 retained in actual sphere obligations.
 - DEC-S051-D: Record π62 stable candidate endpoint degree T125 and zero-idempotent ordinary-versus-enriched diagnostic T126 as *non-solutions* of actual relative 3cell. Do not claim DKS invariant, quotient/indeterminacy or prior-art novelty.
 - DEC-S051-E: Core original nonmonic GRID and exact distance OPEN, Stage1/G2 unchanged, no formalisation or external release. Freeze T66 original1981/Q/all Fp/one Z split, R5 16471, Hopf retirement and T84. S052 FUTURE/UNEXECUTED.
+
+## S052 decision — 15 October 2026
+S052 T127–T129 show any diagram whole-WE to original A^s can have all three T123 on-image collisions and still fail EVERY strict j→j+r constraint; collision-only selection is discarded as a decisive feasibility/obstruction route. Full enriched relative whole-diagram coherence remains the controlling open direction. Stage1/G2 not promoted. Owner action executes S052 only; S053 queued FUTURE UNEXECUTED.

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S051",
+  "as_of": "2026-10-15 S052",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2547,6 +2547,47 @@
         "SRC-0096"
       ],
       "scope": "Stage1; G2 NOT_STARTED; source-dependent internal 1=dIHC<5/4≤dHI≤3/2. No Lean/Palomar/paper/arXiv/HHA."
+    },
+    {
+      "id": "CLM-0266",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S052 T127: for each 2s<r<3s and any based [5s] diagram B with terminal point, an explicit whole-objectwise-WE product I^3 diagram gives three simultaneous on-image pair/tail weak-equivalence collisions, even for original sampled spheres.",
+      "sources": [],
+      "scope": "Elementary natural product construction; zero edge sets Z0,Z1,Z2. NO original GRID existence or obstruction."
+    },
+    {
+      "id": "CLM-0267",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S052 T128: each of all 5s−r long edge windows meets each I-coordinate zero set; strict j→j+r constant maps hold in saturated C iff they already held in B. Thus any positive GRID witness admits simultaneous collision saturation, but none is constructed.",
+      "sources": [],
+      "scope": "Exact interval-cover proof for all 2s<r<3s including five endpoint and seven 4/3 relations; no original sphere existence."
+    },
+    {
+      "id": "CLM-0268",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S052 T129: augment actual original sphere [5s] A^s by four contractible interval factors: three realize all tail collisions, the fourth is identity on all edges so ALL 5s−r strict zero equations fail. Whole-diagram natural projection is an objectwise WE.",
+      "sources": [],
+      "scope": "Concrete actual-sphere weak-equivalence class counterexample to collision sufficiency only; NOT a GRID counterexample or false source citation."
+    },
+    {
+      "id": "CLM-0269",
+      "status": "COMPUTED_EXACT",
+      "claim": "S052 bounded ten (r,s) pairs independently checked explicit 0/1 compositions and interval covers plus unmodified fourth-coordinate controls.",
+      "sources": [],
+      "scope": "Source sha256 06c9a8b5d6f2be32ab8392222cdc969af13b5e189970369b329224b55787005c; stdout sha256 edfc9b2935d75026fb2b7d1c47e02c05b28c9e6eb78c64e9df5b66df63ac33f9. Finite sanity checks NOT topology proof."
+    },
+    {
+      "id": "CLM-0270",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S052 leaves original unrestricted nonmonic GRID(5,2)/GRID(8,3), enriched relative S²/iff obstruction, all-real T108 proof transport, exact HI, above-endpoint/cofinal questions and originality/HHA Gate2 OPEN.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0091",
+        "SRC-0094",
+        "SRC-0095",
+        "SRC-0096"
+      ],
+      "scope": "Only inherited source-dependent 1=dIHC<5/4≤dHI≤3/2; no Lean, Palomar, paper, journal or external submission."
     }
   ]
 }
