@@ -148,3 +148,5 @@ Original Browder class-detection source and Snaith2009 printed pp33,37 directly 
 
 
 | S061 | 2026-10-15 | Genuine 31-stem J basis-direction and classical Toda/HHA audit | **T153:** image-J actual stable order64 j independent mod2 of u=eta theta4 (secondary image-J theorem and B16/32 arithmetic). **T154:** IWX h5 killed d2, n E2 not automatically stable. **T155:** k(j),k(v), full ordered classical bracket and all-WE Top^R strict HI gap UNKNOWN. G1B/G2 not passed; no Lean/submission. | sessions/S061/CLOSEOUT.md; S062 FUTURE ONLY |
+
+| S062 | 2026-10-15 | Original classical bracket/whole-WE/priority hostile audit | **T156:** Wang–Xu classical strictly-defined/membership not 0 exclusion; **T157:** inherited k(u)=0, k(J31),k(v) UNKNOWN, no complete ordered compatible zero or exclusion; **T158:** clocks and derived/whole-WE arguments internally audited, exact classical transport/source proof missing. G1B/G2 OPEN; route HIGH RISK/LOW READINESS. No formalisation/publication. | sessions/S062/CLOSEOUT.md; S063 FUTURE ONLY |

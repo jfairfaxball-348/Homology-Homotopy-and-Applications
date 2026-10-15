@@ -95,3 +95,6 @@ Read `sessions/S053/MATHEMATICS.md`, `sessions/S053/PRIOR_ART.md`, `sessions/S05
 
 ## S061 checkpoint (15 October 2026)
 S060 normal PR #62 merge and PR/postmerge hosted STATIC governance observed at entry. S061-T153 actual 2-primary image-of-J j order64 independent of u=eta theta4 modulo2, standard Adams source only SECONDARY_ONLY. Neither remaining k(j),k(v) computed; classical ordered fourfold 0 status unknown. No complete strict unpointed arbitrary whole-WE HI>IHC or exact originality/HHA gate. S062 FUTURE ONLY, no formalisation/publishing. Retain T66/1981, strict R5 16471 OPEN, retired Hopf/T84.
+
+## S062 checkpoint — 15 October 2026
+S062 original Wang–Xu/ Xu / IWX classical defining-system review confirms “strictly defined” does NOT imply singleton or 0-exclusion. No classical J31/third-generator triple κ bit beyond inherited k(eta theta4)=0, no full ordered 4fold compatible zero or universal exclusion, no independently sourced all-unpointed both-WE Top^R preservation theorem, and no 2016–16Oct2026 comprehensive novelty/HHA clearance. The strict HI>IHC flagship is UNPROVED; Stage1/G2 OPEN, low current proof readiness. Bounded S063 FUTURE ONLY; no Lean/Palomar/paper/submissions, exact dHI not required. Frozen T66/1981, R5 16471 OPEN, retired Hopf/T84 retained.

@@ -1,0 +1,19 @@
+# S062 PRIOR ART — original/source-precise checks, 15 October 2026
+
+**SRC-0094 Wang–Xu 2017, Annals of Mathematics 186, original paper** https://annals.math.princeton.edu/wp-content/uploads/annals-v186-n2-p03-p.pdf and author version https://arxiv.org/pdf/1601.02184. Original Corollary 1.10 and proof inspected at selected pages: θ5∈<2,θ4,θ4,2>, with “strictly defined” lower bracket condition; it does NOT certify all-compatible 0 exclusion. Original Lemma 12.6 selected pages gives a distinct strictly-defined nonzero-indeterminacy 4fold. **PROOF_INSPECTED selected, not entire paper or all downstream citations.**
+
+**SRC-0099 Xu 2016, Geometry & Topology 20**, original https://msp.org/gt/2016/20-3/gt-v20-n3-p08-p.pdf, author version https://arxiv.org/pdf/1410.6199. Selected §5 Lemma 5.1 original proof/statement reviewed for outer/middle Toda indeterminacy scope; also Theorem 1.2 q²=0 and θ5 construction. **PROOF_INSPECTED selected**, no new full all-compatible target 0 calculation.
+
+**SRC-0101 Isaksen–Wang–Xu 2023, PMIHÉS 137**, original https://arxiv.org/pdf/2001.04511 and publisher https://pmihes.centre-mersenne.org/item/10.1007/s10240-023-00139-1.pdf. Selected §2.4 higher Toda/Moss cautions, Table 4 h5 differential and n E2, Table 10 (stem62 weight32) are original **STATEMENT_INSPECTED selected**; Table10's h5 n indeterminacy is C-motivic and cannot be silently promoted to complete classical indeterminacy after realisation.
+
+**SRC-0109 Barratt–Jones–Mahowald 1984**, original author-archived https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/barjoma.pdf, selected printed pp535/537 inspected in S061/S060. u=ηθ4 nondivisible by2; other unformable FOURFOLD order <θ4,2,θ4,2> distinct. Inherited **PROOF_INSPECTED selected**; no independent j/v triple calculation in S062.
+
+**SRC-0111 and NEW SRC-0112 Adams image-of-J.** Adams, *On the groups J(X)—IV*, Topology 5 (1966), https://www.sciencedirect.com/science/article/pii/0040938366900048 : original publisher **METADATA_ONLY** this session; inaccessible original argument, no nullhomotopy computation. Previous nLab https://ncatlab.org/nlab/show/J-homomorphism **SECONDARY_ONLY**; supports the order64 standard-result direction, not κ(j). Quillen original proof not inspected.
+
+**SRC-009? Lanari–Scoccola, homotopy interleavings**, original https://arxiv.org/pdf/2010.05378, selected first pages inspect definition quantifying over both WE inputs and distinctions HI/IHC/HC; no complete recent cited-by chain. **STATEMENT_INSPECTED selected; refer to existing exact catalogue ID rather than assigning an unverified new source number.**
+
+**DKS1989** original publisher https://www.sciencedirect.com/science/article/pii/0022404989900236 indexed abstract only; **ABSTRACT_INSPECTED** for this review, not exact relative higher-Toda invariance under unpointed Top^R both-input WE. **HKM2002** track-category and **BJT2019** higher Toda theory inherited sources, exact proof not inspected here.
+
+**SRC-0104** Kuribayashi–Naito–Wakatsuki–Yamaguchi, Springer JACT article published 12 September 2026 https://link.springer.com/article/10.1007/s41468-026-00252-0 . Original introduction/theorem **STATEMENT_INSPECTED** in S061, equality dHC=dIHC=dHI in DG Ch_K persistence, not universal Top^R. **SRC-0107** Apr2026 relative Sullivan CDGA and **SRC-0110** Sep2026 equivariant arxiv original abstracts remain ABSTRACT_INSPECTED, not exhaustive original Top^R priority survey.
+
+No MR/zbMath, 2025–16 October 2026 complete cited-by chain, entire Adams–Quillen proof, classical E∞/hidden extensions, Moss crossing, exact DKS–HKM–BJT needed theorem, or journal editorial novelty approval. G2 NOT PASSED.

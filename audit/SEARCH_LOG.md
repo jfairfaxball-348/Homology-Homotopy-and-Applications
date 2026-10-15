@@ -233,3 +233,10 @@ Actual images examined of original Browder1969 Annals printed p157, p183–184 T
 
 
 - **S061 15Oct2026:** Original BJM1984 selected printed535/537, IWX2023 Table4 printed101/PDF107 h5 d2 and E2 n, Table10 printed117/PDF123 C-motivic 4fold; Adams/Quillen J theorem only SECONDARY nLab https://ncatlab.org/nlab/show/J-homomorphism (primary original proof NOT accessed). Exact B16/32=-3617/16320 => 2-primary64. JACT Sep12 2026 original publisher equalities DG module scope, distinct Top^R; Sep2026 equivariant and Apr2026 CDGA separately inherited. No k(j),k(v), full classical fourfold compatible system, original DKS/HKM/BJT source-complete transport, nor MR/zbMath/exhaustive cited-by priority clearance.
+
+## S062 selected original-source and recent comparison audit, 15 October 2026
+- Wang–Xu2017 Annals original https://arxiv.org/pdf/1601.02184 Cor1.10 θ5 membership, Lemma12.6 different strictly-defined fourfold with NONZERO indeterminacy; selected original proof inspected, not a 0 exclusion.
+- Xu2016 original https://arxiv.org/pdf/1410.6199 §5 Lemma5.1 selected pages indeterminacy controls, not complete target zero set.
+- IWX2023 original https://arxiv.org/pdf/2001.04511 §2.4/Table4/Table10 selected; motivic weight32 row not universal classical, h5 d2 and n only E2.
+- Adams1966 original publisher metadata https://www.sciencedirect.com/science/article/pii/0040938366900048 METADATA_ONLY; original cyclic image-of-J and nulltrack proof unavailable. DKS1989 original publisher indexed abstract https://www.sciencedirect.com/science/article/pii/0022404989900236; no exact original unpointed real persistence 4fold invariance established. LS source https://arxiv.org/pdf/2010.05378 selected definition/replacement quantifiers.
+- Sep2026 Springer JACT category DG Ch_K persistent; Apr2026 CDGA and Sep2026 equivariant original abstracts categorically distinct. No exhaustive 2025–16Oct2026 publication/cited-by/MR/zbMath or fully verified BJT/HKM original proof chain. Thus G2 NOT PASSED.
