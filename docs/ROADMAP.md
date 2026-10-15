@@ -41,3 +41,7 @@ Stage1 research only: restrict effort to unrestricted GRID strictification or a 
 
 ## S053 — proof-source correction (15 October 2026)
 Stage1 is STILL OPEN; selected strict HI>IHC publication theorem is **not frozen**. T130 all-replacements full-real quotient, T131 clock/no-interleaving *conditional* and T132 derived e=1 pass internal reconstruction. IWX2023 explicit **C-motivic** Table10 cannot by itself rule out zero in a FULL **classical** bracket; Wang–Xu only asserts theta5 classical membership. S054 needs exact classical zero-exclusion/realization/indeterminacy, then full exact current prior art and HHA significance. Gate2 is now actively being AUDITED but **NOT PASSED**. When both proof and Gate2 really pass, freeze and separately invoke Lean. No return to exact HI by default.
+
+
+## S066 source-tested alternate milestone (15 October 2026)
+The owner-selected original five-sphere θ4/θ4 strict unpointed HI>IHC target is unchanged and unproved. An ALTERNATE 2-local CW five-sphere proof route was strengthened with **final publisher Xu2016 §5 complete θ4 fourfold singleton** and independently reconstructed IHC and all-both-WE shoelace point-set arithmetic, but whole-unpointed-WE-to-Xu entire classical higher Toda value-set/stabilisation remains source-proof OPEN and the 2026 HHA originality gate is not passed. Do not silently replace flagship. The next future S067 targets this single exact higher operation bridge (proof OR genuine countermodel) plus priority, **not exact dHI**; PROOF then separately approved Lean then publication.

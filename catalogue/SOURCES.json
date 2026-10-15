@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S065 alternate 2-local classical Xu original source inspection",
+  "as_of": "2026-10-15 S066 final Xu publisher original and higher operation/2026 literature",
   "sources": [
     {
       "id": "SRC-0001",
@@ -1044,6 +1044,60 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Full proof not inspected, no comprehensive exact HI/IHC classical 2-local witness comparison.",
       "observed": "Introduces and develops universal homotopy interleaving distance for filtered spaces."
+    },
+    {
+      "id": "SRC-0117",
+      "title": "Zhouli Xu, The strong Kervaire invariant problem in dimension 62, Geometry & Topology 20(2016)1611-1624",
+      "url": "https://msp.org/gt/2016/20-3/gt-v20-n3-p08-s.pdf",
+      "origin": "Original final publisher PDF §5 pp1620–1621",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Only 2-primary stems; NOT integral pi29=0, nor new persistence theorem",
+      "observed": "Lemma5.1 all 4 fourfolds zero indeterminacy, exact second ordered <2,sigma²,sigma²,2>={theta4}; pi29_(2)=0, pi30_(2)=Z/2."
+    },
+    {
+      "id": "SRC-0118",
+      "title": "Blanc Johnson Turner 2019, A constructive approach to higher homotopy operations",
+      "url": "https://arxiv.org/pdf/1809.07495",
+      "origin": "Original arXiv and published AMS Contemporary Mathematics729 DOI10.1090/conm/729/14690",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original introduction and §§6–7 placement, not complete linewise specific transport theorem",
+      "observed": "Higher homotopy operations as pointed and unpointed diagram rectification obstructions."
+    },
+    {
+      "id": "SRC-0119",
+      "title": "Baues Blanc Gondhali 2016, Higher Toda brackets and Massey products",
+      "url": "https://arxiv.org/abs/1503.02265",
+      "origin": "Original author arXiv abstract and Springer published preview",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Not full exact long Toda transport proof",
+      "observed": "Unified higher order Toda brackets and Massey products in model categories."
+    },
+    {
+      "id": "SRC-0120",
+      "title": "Hardie Kamps Marcum 2002, The Toda bracket in the homotopy category of a track bicategory",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022404902001317",
+      "origin": "Original publisher JPAA175 pp109-133 DOI10.1016/S0022-4049(02)00131-7",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full source theorem not inspected",
+      "observed": "Quaternary Toda via track bicategory pasting and triple bracket."
+    },
+    {
+      "id": "SRC-0121",
+      "title": "Dwyer Kan Smith 1989, Homotopy commutative diagrams and their realizations",
+      "url": "https://doi.org/10.1016/0022-4049(89)90023-6",
+      "origin": "Original DOI JPAA57(1) pp5-24",
+      "access": "METADATA_ONLY",
+      "limitation": "Full proof not directly inspected S066",
+      "observed": "Foundational coherent diagram rectification background, no claim exact 4fold transport."
+    },
+    {
+      "id": "SRC-0122",
+      "title": "Patrick McFaddin and Tom Needham 2026, Interleaving distances, monoidal actions and 2-categories",
+      "url": "https://msp.org/agt/2026/26-1/agt-v26-n1-p.pdf",
+      "origin": "Original publisher AGT26:1 January2026 pp227-281 DOI10.2140/agt.2026.26.227",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full theorem priority not checked",
+      "observed": "Related category-theoretic interleaving constructions, not verified exact Top^R gap."
     }
   ]
 }

@@ -1,0 +1,11 @@
+# S066 ADVERSARIAL — attempted countermodels, precise gaps
+
+1. **Published 2016 vs 2014 arXiv**: final MSP publisher §5 pages1620–21 proves exact complete ordered singleton, not just nonzero element; risk eliminated. **2-primary only:** π29_(2)=0, no integral assertion; avoid finite integral spheres.
+2. **Dimensions/zero compositions**: target N40, π69(L40)=π29_(2)=0, π70(L40)=π30_(2)=Z/2; 70≤78 Freudenthal. σ² degree14, order2 and square zero; 4fold defined. No hidden odd-prime because L spaces 2-local.
+3. **Diagram vs pointwise**: three null components are not a derived null diagram; two **successive** rel-endpoint corrections in restriction fibrations produce a shared-middle strict path. Interpreting pi1 Map unpointedly uses π1,π2 of L40 zero.
+4. **Weakly contractible G' is not literally point**: arbitrary both-whole-WE shoelace D projectively replaced as a WHOLE; b-image V contractible mono, left-proper quotient yields natural WE to H_F and new point G with both identities. Unilateral collapse on F' is invalid.
+5. **Negative time and endpoint**: cutoff u=ε included; ε<1 thickens to1; c<1/2 means t4<5. e=5/4 is not excluded, nor exact dHI computed.
+6. **Potential killer / still OPEN**: a whole *unpointed* [4]-zigzag of WEs must be promoted coherently to pointed zigzag carrying **entire** 4fold value-set and then to Xu stable set. Forward propagated points are easy; backward arrows/basepoint paths and precise 4fold definition/conventions not shown in a complete source-matched theorem. Generic BJT framework and simple connectivity are not substitutes. No explicit counterexample was constructed and there is no impossibility proof.
+7. **Priority**: LS2023 explicitly open then, 2026 DG equality different category, 2019 BJT is relevant prior art but may undercut standalone novelty. Exact current citation network not exhaustively searched. Do not award G2 based on absence of hits.
+
+**Disposition:** source stronger, coherent derived and shoelace point-set routes internally reverified, last higher-operation source/transport plus novelty remain nontrivial. Alternate strict HI>IHC remains *internal candidate* and original selected θ4/θ4 flagship unproved. Target S067 exactly at the bridge, not automatic Lean, paper or generic search repetition.

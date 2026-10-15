@@ -1,14 +1,14 @@
 {
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
-  "as_of": "2026-10-15 S065 executed, S066 FUTURE UNEXECUTED",
-  "last_completed_session": "S065",
-  "recommended_next_session": "S066",
+  "as_of": "2026-10-15 S066 executed; S067 FUTURE UNEXECUTED",
+  "last_completed_session": "S066",
+  "recommended_next_session": "S067",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S065 internally proves alternate 2-local ordinary unpointed Top^R strict HI>IHC candidate from Xu2016 full singleton fourfold; owner-selected original still unproved; originality/HHA not passed",
+  "headline": "S066 final published Xu2016 singleton 2-primary source confirmed; coherent dIHC and whole-WE HI quotient internally reconstructed; unpointed full 4fold transport/priority G2 OPEN",
   "selected_mathematical_problem": "Priority original five-sphere strict unpointed Top^R HI>IHC; new S065 may prove alternate closely related explicit sphere witness or genuinely novel whole-shoelace / homotopy-theoretic theorem plus unconditional application, recommending any change in official paper target to owner.",
-  "headline_status": "S065_ALTERNATE_2LOCAL_HI_IHC_INTERNAL_PROOF__G2_NOT_PASSED__S066_FUTURE",
-  "active_campaign": "S066 future hostile mathematical source verification and current HHA-priority gate, no Lean/Palomar/paper",
+  "headline_status": "S066_PUBLISHER_XU_CONFIRMED_ALTERNATE_INTERNAL__G1B_G2_OPEN",
+  "active_campaign": "S067 future exact whole unpointed 4fold coherent zigzag transport proof or countermodel and HHA priority decision",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__ALTERNATE_INTERNAL_GAP_PROOF_CANDIDATE__ORIGINAL_FLAGSHIP_OPEN"
+      "status": "IN_PROGRESS__ALTERNATE_INTERNAL__FULL_4FOLD_TRANSPORT_OPEN__ORIGINAL_FLAGSHIP_UNPROVED"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "IN_PROGRESS__ALTERNATE_ORIGINALITY_NOT_PASSED"
+      "status": "IN_PROGRESS__HHA_2026_ORIGINALITY_NOT_PASSED"
     },
     {
       "id": 3,
@@ -1068,5 +1068,37 @@
     "owner_switch": "NOT_APPROVED",
     "next": "S066 FUTURE",
     "git_outgoing": "VERIFY_POST_COMMIT"
+  },
+  "s066_checkpoint": {
+    "date": "2026-10-15",
+    "entry_main": "1e1fe255e929a9e0080f48495f3cd68d14944cbe",
+    "entry_tree": "420082e27d3377773c8e8b40030e933725bd70be",
+    "previous_authored": "03e078397b022864caa29a00cec280dea3138cf8",
+    "previous_pr": 68,
+    "previous_merge": "1e1fe255e929a9e0080f48495f3cd68d14944cbe",
+    "previous_parents": [
+      "46bd2c4a567d5ba1d6aae9744a13e0c03e75b287",
+      "03e078397b022864caa29a00cec280dea3138cf8"
+    ],
+    "hosted_pr_static": {
+      "run": 38768562144,
+      "job": 116538085127,
+      "seven_steps": "PASS"
+    },
+    "hosted_main_static": {
+      "run": 38768643888,
+      "job": 116538365122,
+      "seven_steps": "PASS"
+    },
+    "source": "SRC-0117 final original published Xu2016 §5 pp1620–1621 PROOF_INSPECTED full bracket",
+    "mathematics": "T171 full published 2-primary singleton theta4/vanishing pi29; T172 derived [2] two sequential lifting nulltracks dIHC=1; T173 full all-both-WE shoelace quotients and clocks; T174 coherent unpointed full 4fold zigzag transport/stabilisation exact source dictionary OPEN; T175 current originality/HHA G2 OPEN",
+    "original_flagship": "UNCHANGED_UNPROVED",
+    "alternate": "INTERNAL_METRIC_GAP_CANDIDATE",
+    "gate1B": "OPEN_EXACT_4FOLD_TRANSPORT",
+    "gate2": "NOT_PASSED",
+    "owner_switch": "NOT_APPROVED",
+    "external_actions": "NONE",
+    "next": "S067 FUTURE UNEXECUTED",
+    "outgoing": "VERIFY_ACTUAL_GIT_AFTER_COMMIT"
   }
 }
