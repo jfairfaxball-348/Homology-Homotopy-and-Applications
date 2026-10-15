@@ -376,3 +376,11 @@ See S038 full dossier and JSON scope.
 - **CLM-0257 PROGRAMME_PROVED recognition:** Truncated zero-relation pointed enriched Z_(L,r) recasts exact GRID existence as localized essential-image membership; NOT an actual higher relative S² class, target or indeterminacy.
 - **CLM-0258 COMPUTED_EXACT:** 512 and 16384 restricted id/zero words, dual independent checker, s<=16 arithmetic. Hashes and scope in S050/COMPUTATION, not Top enumeration.
 - **CLM-0259 INHERITED_UNVERIFIED:** GRID5/2, GRID8/3, cofinal criterion, exact dHI and full Adams/pointing remain OPEN. No novelty gate or paper.
+
+## S051 claims (2026-10-15)
+- **CLM-0260 PROGRAMME_PROVED:** T122 completely explicit pointed whole-diagram mapping-path WE spans for arbitrary propagated basepoint selections and connected stage0, a standard construction, not priority novel.
+- **CLM-0261 PROGRAMME_PROVED conditional:** T123 removes *pointing* gap from T119 on-image-collision proof, but published full Toda zero-exclusion and naturality remain source-dependent; NO general GRID no-go.
+- **CLM-0262 PROGRAMME_PROVED toy:** T124 each marked length-r literal zero independent of all other such relations in contractible interval WE diagrams, for all L,r. NOT original spheres.
+- **CLM-0263 COMPUTED_EXACT:** bounded 5+7 independent toy witnesses, 25+49 window evaluations with two checkers; exact hashes in S051 COMPUTATION.
+- **CLM-0264 PROGRAMME_PROVED diagnostic:** π2Map_*(S160,S100)=π62^S candidate degree only; ordinary idempotent z need not be zero constant, so DKS must be enriched relative. NO obstruction class.
+- **CLM-0265 INHERITED_UNVERIFIED:** all real original-sphere GRID feasibility, relative S² class, cofinal/above endpoint, exact dHI, proof-level novelty and HHA readiness OPEN.
