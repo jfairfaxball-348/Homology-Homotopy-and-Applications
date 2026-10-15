@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S062 mathematical/provenance audit",
+  "as_of": "2026-10-15 S063 bounded proof and original-source scoped decision",
   "claims": [
     {
       "id": "CLM-0001",
@@ -3114,6 +3114,71 @@
         "SRC-0104"
       ],
       "scope": "G1B/G2 open; S062 is a source-logic audit and LOW-readiness verdict, not a publication-ready finding."
+    },
+    {
+      "id": "CLM-0320",
+      "status": "SOURCE_STATED",
+      "claim": "Original Lanari–Scoccola AGT2023 Proposition3.12 proves HI!=HC via three-arrow Toda, while Remark3.13 explicitly leaves ordinary HI!=IHC (and IHC!=HC) as OPEN questions at publication date.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0083"
+      ],
+      "scope": "Original printed p15 selected proof/statement, dates 2022v3/2023; not proof question remains open as of Oct2026."
+    },
+    {
+      "id": "CLM-0321",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Substitution of degrees (0,30,30,0) into Xu2016 Lemma5.1 generic fourfold-indeterminacy upper containment gives A=<2,q,pi31>, B=<2,pi61,2>, C=<pi31,q,2>; source's WORKED zero-indeterminacy conclusion applies to different theta4 brackets, NOT ordered theta5 target.",
+      "sources": [
+        "SRC-0099"
+      ],
+      "scope": "Elementary degree substitution in original generic formula; triple families remain unevaluated, no claim of exhaustive compatible fourfold set."
+    },
+    {
+      "id": "CLM-0322",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S063 computed zero additional classical k values: k(eta q)=PROVED0 inherited, k(image-J j)=UNKNOWN, k(v)=UNKNOWN; zero in/out of complete ordered classical <2,q,q,2> remains UNKNOWN.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0099",
+        "SRC-0101",
+        "SRC-0111",
+        "SRC-0112"
+      ],
+      "scope": "Original Wang–Xu membership only, source-uncleared J proof and missing classical compatible tracks; no strict HI>IHC."
+    },
+    {
+      "id": "CLM-0323",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "No complete independently sourced higher FOURFOLD zero-transport under arbitrary two-input unpointed whole-diagram Top^R weak equivalences; LS Prop3.10 only handles triple Toda. Full strict HI>IHC is not established.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0083",
+        "SRC-0094"
+      ],
+      "scope": "All real parameters and shifted naturality still require a standalone gap-free proof; S053 remains internal."
+    },
+    {
+      "id": "CLM-0324",
+      "status": "SOURCE_STATED",
+      "claim": "2026 JACT equality is in persistent DG modules and downstream BS1-space cohomology, while 2026 AGT monoidal 2-category interleaving theory is adjacent: neither inspected material settles unrestricted ordinary Top^R HI/IHC separation.",
+      "sources": [
+        "SRC-0104",
+        "SRC-0113"
+      ],
+      "scope": "Selected original JACT introduction and AGT publisher abstract only; scope distinction, not current priority clearance."
+    },
+    {
+      "id": "CLM-0325",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S063 G1B and G2 remain OPEN after eleven targeted sessions; owner must decide continue exact risky flagship, explicitly retire/pivot, or pause. No new strict publication-ready theorem.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0099",
+        "SRC-0094",
+        "SRC-0104"
+      ],
+      "scope": "Programme route decision / gating, not a claim of mathematical impossibility or non-originality."
     }
   ]
 }

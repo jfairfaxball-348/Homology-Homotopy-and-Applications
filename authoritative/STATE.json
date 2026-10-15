@@ -1,14 +1,14 @@
 {
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
-  "as_of": "2026-10-15 S062 complete: source-correct classical fourfold audit, no additional k value or strict separation",
-  "last_completed_session": "S062",
-  "recommended_next_session": "S063",
+  "as_of": "2026-10-15 S063 completed: published HI/IHC open-question scope checked; no new classical Toda bit, proof route owner decision requested",
+  "last_completed_session": "S063",
+  "recommended_next_session": "S064",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S062 original-classical source and exact 4fold definability audit: k(u)=0; k(J31),k(v), classical 0 status, full unpointed Top^R strict HI>IHC and originality remain OPEN.",
-  "selected_mathematical_problem": "Establish strict ordinary unpointed dHI>dIHC by ALL classical <2,q,q,2> zero-exclusion and arbitrary both-whole-WE higher Toda transport; bounded decisive classical calculation or explicit owner route decision.",
-  "headline_status": "S062_COMPLETE__CLASSICAL_UNIVERSAL_ZERO_STATUS_UNKNOWN__G1B_G2_OPEN",
-  "active_campaign": "S063 FUTURE UNEXECUTED: bounded classical Toda decisive computation, exact whole-WE transport and first-HHA originality audit; owner decision if blocked.",
+  "headline": "S063 bounded proof audit: LS2023 explicitly left HI!=IHC open; Xu Lemma5.1 zero cases are theta4, not target theta5; all-classical fourfold, k(j),k(v), all-WE transport, strict HI>IHC unresolved.",
+  "selected_mathematical_problem": "Owner route decision required: (A) continue exact five-sphere classical Toda strict ordinary unpointed Top^R HI>IHC proof with hard classical calculation and full WE-transport; (B) retire/pivot explicitly; (C) pause.",
+  "headline_status": "S063_COMPLETE__NO_NEW_CLASSICAL_BIT__STRICT_GAP_UNPROVED__OWNER_ROUTE_DECISION_REQUESTED",
+  "active_campaign": "S064 FUTURE UNEXECUTED, DECISION-GATED: only A-continuation of exact five-sphere classical fourfold proof, otherwise halt/pivot on owner's instruction.",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__S062_CLASSICAL_SOURCE_AUDIT__STRICT_PROOF_UNRESOLVED"
+      "status": "IN_PROGRESS__S063_NO_DECISIVE_TODA_CALCULATION__OWNER_ROUTE_DECISION_REQUIRED"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "IN_PROGRESS__S062_G2_NOT_PASSED"
+      "status": "IN_PROGRESS__S063_SOURCE_SCOPE_ONLY__G2_NOT_PASSED"
     },
     {
       "id": 3,
@@ -986,5 +986,27 @@
     "route_risk": "HIGH",
     "authorised_external_actions": "NONE",
     "next": "S063 FUTURE UNEXECUTED; bounded make-or-break and possible owner decision"
+  },
+  "s063_checkpoint": {
+    "date": "2026-10-15",
+    "entry_main": "7a696a355ae77acf95fae8273ee09a37f73302a2",
+    "entry_tree": "ac7fe2eb3c5df7eca39510d67d49ac8ba7a6df86",
+    "previous_s062_authored": "adfb1da4b0fa61a95b68010247d04d18ebc1cea3",
+    "previous_s062_pr": 64,
+    "previous_s062_merge": "7a696a355ae77acf95fae8273ee09a37f73302a2",
+    "previous_s062_merge_parents": [
+      "bd9113829a4d0e286fd7f9851c7640fc1b81b3f1",
+      "adfb1da4b0fa61a95b68010247d04d18ebc1cea3"
+    ],
+    "previous_s062_pr_workflow": 38749104336,
+    "previous_s062_main_workflow": 38749199075,
+    "mathematics": "Original LS2023 2023-open HI vs IHC; Xu Lemma5.1 theta4 worked cases not theta5; k(u)=0 inherited, k(j),k(v) UNKNOWN; target fourfold zero IN/OUT UNKNOWN; exact whole-WE transport missing.",
+    "strict_gap": "UNPROVED",
+    "gate1B": "OPEN",
+    "gate2": "NOT_PASSED",
+    "route": "OWNER_DECISION_REQUESTED_A_CONTINUE_B_RETIRE_PIVOT_C_PAUSE",
+    "no_new_k_bit": true,
+    "external_actions": "NONE",
+    "next": "S064 FUTURE DECISION-GATED UNEXECUTED"
   }
 }
