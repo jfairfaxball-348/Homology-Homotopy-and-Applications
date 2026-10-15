@@ -177,3 +177,6 @@ Only a technically useful **internal reduction**, not a completed HHA original f
 
 ## S052 TARGET status
 No promoted HHA headline. Three simultaneous nonmonic WE-tail image collisions are model-manufacturable in the actual original-sphere diagram homotopy class (T127) and insufficient (T129). Only complete strict GRID or coherent enriched relative zero obstruction remains valid flagship path; all current exact distance and novelty targets open.
+
+## Current chosen paper target — binding owner decision 2026-10-15 AFTER S052
+**SELECTED CONDITIONALLY (not novelty-certified):** a counterexample to d_HI=d_IHC in ordinary persistent topological spaces from five spheres and point. Numerically proposed d_IHC=1, d_HI>=5/4, so strict gap if proof certified. This precise strict comparison, not exact d_HI, is the paper theorem to freeze. Positive publication decision still requires complete all-replacements proof and primary-source novel contribution beyond the Lanari–Scoccola 2020v1 anticipation, DKS/BJT higher operations, 2017/2023 published sphere calculations and later Top-specific research. Score currently **mathematical proof status INTERNAL_SOURCE_DEPENDENT; first novelty G2 NOT_STARTED; HHA suitability prospective, not approved**. Existing S052 target entry is historical and superseded as current research objective. See authoritative/PUBLICATION_TARGET.md.

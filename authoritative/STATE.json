@@ -1,14 +1,14 @@
 {
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
-  "as_of": "2026-10-15 S052",
+  "as_of": "2026-10-15 owner publication-target decision after S052",
   "last_completed_session": "S052",
   "recommended_next_session": "S053",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "Find a significant original HHA-fit theorem/counterexample; independently prove, novel-check, Lean, Palomar, preprint and HHA",
-  "selected_mathematical_problem": "S052 T127–T129 all-three-tail on-image collision saturation via contractible I³ factors and actual original-sphere whole-WE I⁴ countermodel to collision sufficiency. Original unrestricted GRID(5,2), GRID(8,3), relative enriched tertiary obstruction, cofinal grids and exact HI remain OPEN.",
-  "headline_status": "S052_INTERNAL_COLLISION_ONLY_METHOD_KILLED__ACTUAL_SPHERE_GRID_AND_EXACT_HI_OPEN__G2_NOT_STARTED",
-  "active_campaign": "S053 FUTURE UNEXECUTED: original sphere GRID yes/no and genuine enriched relative higher homotopy obstruction beyond point-set collisions.",
+  "headline": "Prove, independently verify and novel-check a publishable strict d_HI>d_IHC separation for existing five-sphere F,G; then freeze → Lean → final novelty → owner-approved Palomar → manuscript → separately owner-approved arXiv/HHA. No exact d_HI prerequisite.",
+  "selected_mathematical_problem": "Designated candidate: F = S160 --2--> S160 --theta4--> S130 --theta4--> S100 --2--> S100 (five half-open stages), G=point from 0. Prove d_HI(F,G)>d_IHC(F,G). INTERNAL source-dependent d_IHC=1<5/4<=d_HI<=3/2; all-replacements proof/naturality/primary-source priority not yet certified. Exact d_HI and GRID endpoints are no longer primary milestones.",
+  "headline_status": "PUBLICATION_TARGET_STRICT_HI_GT_IHC_SELECTED_CONDITIONALLY__PROOF_AND_NOVELTY_NOT_CLEARED__S053_FUTURE",
+  "active_campaign": "S053 FUTURE UNEXECUTED: independently certify or refute strict separation over ALL replacement diagrams and complete first precise novelty/HHA gate. No exact d_HI / GRID requirement.",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS_S051_POINTED_TRANSPORT_NOT_ORIGINAL_GRID_DECISION"
+      "status": "IN_PROGRESS__STRICT_HI_IHC_SEPARATION_PRIORITY__PROOF_AND_NOVELTY_PENDING"
     },
     {
       "id": 2,
@@ -724,7 +724,8 @@
     "S047: Decide attained epsilon=5/4 GRID finite 11-node whole-WE strict model/no-go and all strict eps in (5/4,3/2), including possible unattained infimum. External referee and classical source/Adams transport still missing.",
     "S051: whole-[L] propagated unpointed→pointed WE zigzag comparison now explicitly established using mapping paths when index0 connected; full higher Toda invariant naturality, published zero exclusion, and relative GRID higher cell still require independent certification.",
     "S051: every length-r GRID relation is individually independent on pointed contractible interval diagrams (T124), including 5 endpoint and 7 grid8/3; this DOES NOT settle original spheres.",
-    "S052: actual original sphere GRID(5,2)/GRID(8,3), higher relative pointed enriched zero resolution and strict relation compatibility; collision checks alone are non-invariant and insufficient."
+    "S052: actual original sphere GRID(5,2)/GRID(8,3), higher relative pointed enriched zero resolution and strict relation compatibility; collision checks alone are non-invariant and insufficient.",
+    "NEW OWNER PRIORITY AFTER S052: validate d_IHC<=1 and d_HI>=5/4 for actual F,G, full all-real arbitrary WHOLE replacements and Toda nonzero zero-exclusion; complete first exact-result HHA novelty gate; freeze and formalise strict gap if both pass. Exact d_HI is NOT required."
   ],
   "blockers": [
     "No all-distance R5 strict geometric solution/no-go for original Hopf f1 and recoloured null g; 32/30 stars do not exclude R5.",
@@ -752,7 +753,30 @@
     "S047 T110 sampling sharpness and T111 finite iff are only INTERNAL reductions; no GRID yes/no, exact dHI, independent current priority or HHA original flagship. G2 NOT_STARTED.",
     "S048: T114 kills ONLY a simultaneously monomorphic/projectively cofibrant endpoint GRID witness, not arbitrary noncofibrant K; T112 rational finite GRID and T113 countable infimum do not solve any rational GRID yes/no, dHI endpoint attainment or exact distance.",
     "S051: a canonical relative enriched Z_(10,5) projectively cofibrant simplicial resolution with actual tertiary S² boundary and full indeterminacy was NOT computed; group π62^S is only degree check, not a class.",
-    "S051: all original-sphere nonmonic GRID feasibility/no-go above endpoint, precise dHI, full Adams/Moss and first novelty Gate2 remain unresolved; standard mapping-path pointing is not HHA originality."
+    "S051: all original-sphere nonmonic GRID feasibility/no-go above endpoint, precise dHI, full Adams/Moss and first novelty Gate2 remain unresolved; standard mapping-path pointing is not HHA originality.",
+    "Current strict separation is INTERNAL/source-dependent, not yet independently proof-certified and priority-clear. Exact-distance and GRID open problems are not blockers to a publication-ready strict separation theorem."
   ],
-  "s052_checkpoint": "T127/T128 exact contractible-cube collision saturation and all strict zero biconditional for any 2s<r<3s; T129 original-sphere whole-WE I4 countermodel proving all three collisions insufficient. No sphere GRID witness/no-go, higher obstruction or exact dHI. Hosted static governance is not mathematics."
+  "s052_checkpoint": "T127/T128 exact contractible-cube collision saturation and all strict zero biconditional for any 2s<r<3s; T129 original-sphere whole-WE I4 countermodel proving all three collisions insufficient. No sphere GRID witness/no-go, higher obstruction or exact dHI. Hosted static governance is not mathematics.",
+  "owner_publication_decision": {
+    "date": "2026-10-15",
+    "type": "GOVERNANCE_ONLY__NOT_A_NUMBERED_SESSION",
+    "canonical_document": "authoritative/PUBLICATION_TARGET.md",
+    "proposed_theorem": "d_HI(F,G)>d_IHC(F,G) for frozen five-stage spheres F and point persistence G",
+    "inherited_internal_source_dependent_bounds": "d_IHC(F,G)=1 and 5/4<=d_HI(F,G)<=3/2",
+    "proof_status": "INTERNAL_SOURCE_DEPENDENT__NOT_INDEPENDENTLY_CERTIFIED",
+    "novelty_status": "FIRST_GATE_G2_NOT_STARTED",
+    "sufficient_gap_criterion": "d_IHC<=1 and d_HI>=5/4 with all definitions and quantifiers independently proved",
+    "not_required_for_publication": [
+      "exact d_HI",
+      "attainment at 5/4",
+      "GRID(5,2) feasibility",
+      "GRID(8,3) feasibility",
+      "cofinal rational GRID families",
+      "sharper lower bound",
+      "complete enriched tertiary class unless logically needed for gap"
+    ],
+    "freeze_when": "full independent strict separation proof AND substantive exact-result original novelty/HHA gate pass",
+    "then": "Lean formalisation of frozen gap theorem; final independent novelty; owner-approved Palomar; manuscript; separate owner-approved arXiv/HHA",
+    "executed_s053": false
+  }
 }

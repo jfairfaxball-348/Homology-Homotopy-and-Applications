@@ -1,0 +1,38 @@
+# Binding current publication target — owner decision 15 October 2026
+
+**Authority and status.** This is a prospective change to research priority, **NOT** the execution or completion of S053, a newly certified mathematical proof, a passed novelty gate, or authorisation for external submissions. S052 remains the last completed numbered research session; S053 remains FUTURE, UNEXECUTED. This decision **supersedes older GRID/exact-distance research objectives wherever they conflict** with the current primary paper pathway. The archival session calculations and historical statements remain intact.
+
+## Paper target (sufficient statement; exact distance not required)
+
+Construct and independently verify an explicit pair of persistent topological-space diagrams F,G such that
+
+    d_HI(F,G) > d_IHC(F,G).
+
+The designated existing five-stage sphere candidate has F(t)=empty for t<0, stage X_i on [i,i+1) for i=0,...,4 and point for t>=5:
+
+    S^160 --degree 2--> S^160 --theta_4--> S^130 --theta_4--> S^100 --degree 2--> S^100.
+
+G(t)=empty for t<0, point for t>=0. The retained candidate bounds are **INTERNAL AND SOURCE-DEPENDENT**, not independently certified:
+
+    d_IHC(F,G)=1,    5/4 <= d_HI(F,G) <= 3/2.
+
+For a strict gap it is enough to prove d_IHC(F,G)≤1 and d_HI(F,G)≥5/4 (and certify the definitions and hypotheses). Equality d_IHC=1 and the upper d_HI≤3/2 are useful accurate context, but neither an exact d_HI value nor attainment at 5/4 is needed for the theorem. If the exact project statement claims equality d_IHC=1, that equality MUST also be proved.
+
+## Mandatory proof and originality checks BEFORE declaring the theorem proven
+
+1. **Definitions and all-replacements audit:** verify the actual d_HI and d_IHC definitions from original Lanari–Scoccola, including arbitrary WHOLE-diagram objectwise weak-equivalence replacements of BOTH inputs, strict naturality identities, topology/model hypotheses, all real t (especially negative t), half-open stage cuts and endpoint cases. No substitution of a fixed point-target model for arbitrary contractible nonpoint models. Prove the T108 whole-shoelace quotient rigorously or repair/refute it; verify correct reduction of EVERY alleged strict interleaving with parameter ε<5/4. Any restricted GRID or projectively cofibrant argument must be shown genuinely sufficient for this global claim before use.
+2. **Derived-side witness:** reconstruct an actual IHC interleaving at ε=1 (including both composites and coherences in the correct homotopy category) and check the promised lower equality separately if stated. Explicitly distinguish an internal argument from independently verified published ingredients.
+3. **Lower-bound obstruction:** give a complete, invariant contradiction for ALL ε<5/4 and ALL permissible strict replacements (including nonmonic WEs), with correct clocks/interval endpoints. Prove the logical implications using the full source–target five-sphere chain; do not infer necessity from a convenient GRID model alone.
+4. **Fourfold Toda and source transport:** inspect Wang–Xu2017 original Cor1.10, Isaksen–Wang–Xu2023 original Tables4/10 and the actual h5 n indeterminacy, stable-to-unstable comparisons, pointing along whole WEs (T122), naturality of higher operations, and the precise relationship to LS2023 / BJT2019 / DKS1989. State exactly which original proofs or external theorems are imported and which constructions are independently proved. Zero-exclusion MUST survive all allowed comparisons.
+5. **Adversarial reconstruction:** hostile independent proof from definitions, test possible countermodels and missing hypotheses, verify all five original stage maps, every parameter range, and noncofibrant/nonmonic cases. No CI, script, toy diagram, isolated π^S degree or algebraic notation substitutes for proof. If a gap persists, report it and keep Stage1 open.
+6. **First novelty and fit gate:** genuinely investigate whether the exact Top^R gap theorem (as opposed to the classical Toda element or standard coherence machinery) is already proved, or was explicitly anticipated in Lanari–Scoccola 2020v1, or follows from DKS1989, HKM2002, BJT2019, related 2023–2026 research or later work. Distinguish the September 2026 dg-module case from ordinary Top^R. Check original papers directly where accessible, state precise pages/theorems and access grades; an unproductive search is NOT a novelty certificate. Show why the specific separation answers a meaningful question and supplies a substantive homotopy-theoretic contribution for HHA.
+
+## Explicit scope exclusion and stop rule
+
+**Do NOT require** solving unrestricted original-sphere GRID(5,2) or GRID(8,3), constructing an exact endpoint witness, finding the precise d_HI value, tightening 5/4, proving endpoint attainment, establishing any cofinal rational GRID family, or obtaining the complete relative enriched DKS tertiary class, **unless one of these is logically indispensable to validating the strict separation or its claimed novelty**. They may remain OPEN and become a distinct future project. Prior S047–S052 grid/obstruction work is valid archival support; it is not the current primary publication milestone. Do not consume sessions polishing exact bounds once a gap-free, priority-clear strict separation theorem is obtained.
+
+**If** the strict separation passes an independent proof reconstruction **and** the first primary-source novelty/HHA gate, declare the mathematical paper theorem FROZEN and Stage1/G2 passed with exact evidence. The next separately invoked stage should be Lean 4 formalisation (identical theorem/hypotheses, pinned mathlib/Lean, no sorry/admit/extra axioms), then independent final novelty and proof audit, then owner-authorised Palomar, a standalone manuscript, and separately owner-authorised arXiv/HHA. Formalisation, Palomar and manuscript work MUST NOT be combined into the same proof-first session absent separate authority. Exact d_HI research is **not** a prerequisite and must not delay these stages.
+
+**If** the proof fails or an equivalent theorem already exists, document the refutation/priority kill, preserve all limits and await/recommend an informed owner decision about an alternative paper target; do NOT default to computing exact d_HI as the next compulsory research objective. All current Stage2–Stage8 gates remain unpassed.
+
+Frozen unrelated work remains: T66 every primitive/composite Q and all F_p plus one coherent Z splitting / original 1981 priority uncertainty; R5 16,471 strict cases OPEN; S028 Hopf proposed HHA flagship retired and T84 derivative. Preserve source and claim catalogues, session/PR audit requirements and the no-unauthorised-third-party-contact boundary.

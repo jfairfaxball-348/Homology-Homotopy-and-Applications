@@ -119,3 +119,6 @@ No original-sphere GRID witness/no-go, no GRID8/3, no above-endpoint negative ra
 
 ## S052 bounded campaign
 Exactly ten preregistered (r,s): (5,2),(8,3),(7,3),(9,4),(10,4),(11,4),(12,5),(13,5),(21,8),(31,12). Explicit coordinate-word composition vs independently set-intersection checker, ALL marked windows, all three image-collision slots, intact 4th nonzero coordinate. All PASS; code/stdout hashes in sessions/S052/COMPUTATION.md. Pure interval algebra not sphere enumeration. Retain R5 exact 16,471 OPEN.
+
+## New proof-first campaign directive after S052 (governance, not an executed experiment)
+The focus changes to independent non-computational proof reconstruction of strict d_HI>d_IHC and complete primary-source novelty. No GRID endpoint/cofinal/precise d_HI computation is required. Future finite certificates must be separately pre-registered and checked, and cannot themselves prove full Top^R all-replacements comparison. R5 16,471 remains an unrelated frozen OPEN benchmark. No new numerical experiment, checksum or computation is claimed by this governance update.
