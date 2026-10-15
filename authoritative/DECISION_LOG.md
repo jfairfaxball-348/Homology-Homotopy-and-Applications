@@ -305,3 +305,10 @@ SELECT conditional intermediate-distance strictness T75/T76 for independent S036
 - DEC-S049-B: Accept INTERNAL exact constructive T116 finite-grid monotonicity, T117 cofinal ε_m sequence conditional on original T108/T112 and lower bound, T118 unchanged five stage types in (5/4,3/2). None gives an actual topology GRID witness or exact dHI.
 - DEC-S049-C: Reject weak-equivalence cancellation absent injectivity: whiskered sphere counter-control. No nonmono endpoint witness, no full DKS relative 3cell. All five length5 constants including j1,j3 remain required; GRID(8,3) unresolved. Re-audit primary LS/IWX/BJT selected pages only, classical Adams and pointed transport not fully independently proved.
 - DEC-S049-D: Stage1 IN_PROGRESS/G2 NOT_STARTED and NO HHA-certified original flagship; no downstream Lean, Palomar, manuscripts, arXiv/HHA or external contact. Preserve T66 full primitives/composites + Q/all Fp ONE coherent integral Z splitting and 1981 gap, R5 16471 OPEN, retired Hopf/T84. S050 FUTURE UNEXECUTED.
+
+
+## S050 decisions (2026-10-15)
+- **DEC-S050-01:** Accept conditional T119 all-rational (2s<r<3s) *on-image collision* of one within-stage WE tail as necessary for any GRID witness. Do not misreport as general nonexistence or an independent Adams/pointed proof.
+- **DEC-S050-02:** T120 explicit pointed interval all-WE countermodels independently demonstrate missing j1/j3 cannot be dropped; 4/3 has four extra equations beyond 0,3,6. The toy is NOT sphere K~A.
+- **DEC-S050-03:** T121 truncated zero category recognises full WE-zigzag GRID faithfully; its homotopy essential-image criterion is not a computed higher obstruction group/3cell. Relative DKS/BJT obstruction + full unpointed transport remain OPEN.
+- **DEC-S050-04:** Neither GRID5/2 nor GRID8/3 is decided; no rational negative bound above 5/4, no cofinal infinite positive family, dHI exact OPEN. Keep source-dependent dIHC1<5/4<=dHI<=3/2, Gate2/Lean/Palomar/manuscript/arXiv/HHA closed, T66/1981, R5 and Hopf/T84 frozen. S051 future only.

@@ -253,3 +253,10 @@ SRC-0096 STATEMENT_INSPECTED selected 2023 IWX Tables4 p214 h5 f1/n f5 and Table
 - SRC-0096 original IWX2023 Numdam PDF printed pp214/228 screens: Table4 h5 filtration1 and n filtration5; Table10 (62,32) h5² with listed h5n indeterminacy. Section2.4 Moss introduction selected; no fully independent Adams/pointed transport.
 - SRC-0095 BJT2019 original 50p PDF §7.A opening p31 directly reread: explicit FOUR-arrow right-justified long Toda obstruction; broader pointed/unpointed theory is old. Original full theorem proof not reconstructed.
 - SRC-0094 original Wang–Xu Annals publisher metadata/abstract; SRC-0091 DKS1989 original journal abstract and opening indexed excerpt; SRC-0084 Springer September2026 full HTML scope dg over field/BS1 NOT all Top^R. SRC-0086 HKM2002 and SRC-0092 Baues–Blanc2011 still abstract-level, original1981 T66 full JPAA proof uninspected. No blanket 2023–2026 priority clearance nor synthetic access upgrades.
+
+
+## S050 source access (2026-10-15)
+- SRC-0083 direct **original arXiv v3** PDF printed pp14–17 Props3.10,3.12,4.5/Remark3.13; original v1 fetch denied this run. Previous archive proof statuses not promoted. Full T108 whole-real quotient not re-certified.
+- SRC-0095 BJT original §7.A p31–33 directly viewed, including right justified fourfold operation and mapping-fiber diagrams, full 50-page proof not read.
+- SRC-0096 Numdam original IWX printed p214 Table4 and p228 Table10 screens viewed: h5 f1, n f5, <2,theta4,theta4,2> h5² and h5n indeterminacy; underlying Adams/Moss/classical pointing unproven independently.
+- SRC-0094 Wang–Xu Annals original publisher abstract retrieved, selected original corollary proof earlier archive only. SRC-0091 DKS1989 publisher original ABSTRACT only; no direct complete §§2–5. SRC-0092 Baues–Blanc 2011 publisher abstract only, SRC-0086 HKM2002 inherited abstract-level only. SRC-0084 2026 Springer original HTML confirms field dg-module/BS1 limitation, not all Top. No full 2023–2026 Top priority certificate or original 1981 integral proof inspection.
