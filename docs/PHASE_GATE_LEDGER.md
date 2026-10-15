@@ -182,3 +182,8 @@ Stage1 continues; originality/HHA Gate2 NOT_STARTED. Contractible product T127/T
 - G1B **IN_PROGRESS, NOT PASSED**: original Wang–Xu strictly-defined wording verified NOT to imply zero ambiguity (Lemma12.6 different bracket). Three actual pi31 classical outer triple values, P and rank test not evaluated. No coherent zero system or full classical 0-exclusion, no complete arbitrary real unpointed replacements and derived model proof.
 - G2 **IN_PROGRESS, NOT PASSED**: directed originals confirm topical distinction vs dg modules but not exact up-to-Oct2026 Top^R originality/HHA paper significance. A linear reduction alone is not the journal-level metric result.
 - G3/G4/G6 NOT STARTED; G5/G7/G8 OWNER GATED. Hosted integrity checks STATIC only; exact dHI/GRID nonprerequisite.
+
+## S058 gates — 15 October 2026
+- G1B IN_PROGRESS NOT PASSED: T147 abstract dual character and T148 derived LOWER dIHC≥1 only; actual three κ/triple evaluations, classical whole zero exclusion, ε1 IHC upper and all-unpointed replacements HI missing.
+- G2 IN_PROGRESS NOT PASSED: Browder original source and Sep2026 dg/Apr2026 Sullivan original scopes checked, NOT exhaustive Oct2026 HHA exact priority.
+- G3/G4/G6 NOT STARTED, G5/G7/G8 OWNER GATED. Static hosted CI ≠ mathematics, exact dHI/GRID optional. T66/1981, R5 16471 OPEN, Hopf/T84 frozen; S059 FUTURE.

@@ -431,3 +431,10 @@ See S038 full dossier and JSON scope.
 - **CLM-0295 SOURCE_STATED:** original Wang–Xu Lemma12.6 strictly-defined 4fold with indeterminacy 2*pi15 directly prevents interpreting Cor1.10 strict-defined as target full classical zero-exclusion. SRC-0094.
 - **CLM-0296 SOURCE_STATED:** original Isaksen2014 Table1 actual rho31 h0^10h5 detection; Table8 E2 h5 killed d2 and n filtration5. Neither supplies a verified 3-generator pi31 stable basis or Toda evaluations. SRC-0105/SRC-0101.
 - **CLM-0297 INHERITED_UNVERIFIED:** all classical triples/rank, fourfold coherence, full arbitrary unpointed Top^R and 2026 novelty remain open. G1B/G2 NOT PASSED.
+
+## S058 claims
+- CLM-0298 PROGRAMME_PROVED CONDITIONAL: exact dual F2 character iff S057 unknown rank; no actual κ/P/triple values.
+- CLM-0299 PROGRAMME_PROVED: dIHC≥1 using standard projective representable birth0 and non-null F first identity/degree2; upper≤1 still UNPROVED.
+- CLM-0300 SOURCE_STATED: Browder1969 Kervaire h5 squared existence (SRC-0106); not triple values.
+- CLM-0301 SOURCE_STATED: Sep2026 dg and Apr2026 relative Sullivan not exact ordinary Top^R theorem.
+- CLM-0302 INHERITED_UNVERIFIED: zero-in/out fourfold, arbitrary replacements, coherent derived ε1, current novelty G1B/G2 OPEN.

@@ -374,3 +374,6 @@ Theorem6.3 of IWX2023 is about **C-MOTIVIC stable** fourfold brackets, even thou
 - Actual rho31 homotopy class and named E2 n are different evidence types. E2 h5 suffers d2, not a permanent homotopy generator. Neither source page supplies three independent stable pi31 additive generators/secondary tracks.
 - Exact quotient rank test can be weaker than high-filtration-for-all-generators but without P and 3 columns it decides NOTHING. z∈image(a) is not a witness theta5∈a specific triple coset, since x*pi31 can be smaller than P.
 - No inference from nonzero theta4*theta5 or C-motivic detection to classical full compatible-system exclusion. No new mathematical experiment, novelty pass, or strict Top^R proof.
+
+## S058 lesson — don't mistake an abstract bit for a computed Toda invariant
+Dual functional λ equivalent to prior rank is a potentially cheaper *route*, not a proof it has required numerical values. Even Browder κ(θ5)=1 cannot establish κ(P)=0 or κ(<ei,θ4,2>)=0 without actual geometric / classical Adams secondary proof. E2 h5 killed and rho31 high-tower label not valid basis. New projective argument rules out IHC ε<1, but coherent derived upper and all-replacement strict gap are distinct. Next S059 must calculate actual bits/compatible zero system, not another abstract repackaging. G1B/G2 OPEN.

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S057",
+  "as_of": "2026-10-15 S058",
   "sources": [
     {
       "id": "SRC-0001",
@@ -945,6 +945,24 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Selected original tables only, not complete permanent cycles/hidden 2-extension proof or updated IWX2023 classical additive basis; earlier source.",
       "observed": "p95 names homotopy rho31 detected by h0^10 h5; p99 records Adams E2 h5 with d2=h0 h4^2 and E2 class n at (31,filtration5). E2 classes alone not independent stable generator basis."
+    },
+    {
+      "id": "SRC-0106",
+      "title": "William Browder, The Kervaire Invariant of Framed Manifolds and its Generalization, Annals 90 (1969), 157-186",
+      "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/browkerv.pdf",
+      "origin": "Original scanned journal paper, original p157 directly visualised S058",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected original introduction, not full proof or computation of the target Toda brackets, nor Kervaire character on products.",
+      "observed": "In dimension62, Kervaire-one framed manifolds linked to h5 squared permanent Adams class, not to target triple values."
+    },
+    {
+      "id": "SRC-0107",
+      "title": "Kuribayashi, Naito, Sekizuka, Wakatsuki, Yamaguchi, A distance between maps via interleavings of relative Sullivan algebras (2026), arXiv:2604.06800",
+      "url": "https://arxiv.org/abs/2604.06800",
+      "origin": "Original arXiv abstract read S058",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Relative Sullivan/CDGA persistent-map setting not same as ordinary unpointed Top^R; no proof audit.",
+      "observed": "Additional contemporary related persistence IHC work for originality comparison."
     }
   ]
 }
