@@ -142,3 +142,6 @@ T147 symbolic F2 dual algebra and T148 projective representable derived degree l
 
 ## S060 analytic-only campaign
 No numeric search/chart-computation, program/test/certificate, Lean, Palomar or theorem machine verification. Classical source-based proof T151 solves 1 actual Kervaire k direction, leaving TWO; original Top all-replacements and complete stable fourfold unproved. No governance CI result can certify mathematics. Original T66/1981, R5 exact 16471 OPEN, retired Hopf/T84 preserved. S061 unexecuted.
+
+## S067 15 Oct 2026 active HHA campaign
+Mathematical milestone (internal): alternate 2-local ordinary unpointed Top^R HI>IHC proof argument via Xu2016 full ordered fourfold and LS Lemma3.8 category pointing + zero transfer. Stage1 owner's original integral θ4/θ4 target remains UNPROVED, no official replacement without approval. G2 priority/HHA NOT_PASSED. Next future S068 direct hostile proof & originality; no Lean, Palomar, manuscript, arXiv/HHA. Historical integral grid/T66/R5/Hopf results unchanged.

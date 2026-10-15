@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S066 final Xu publisher original and higher operation/2026 literature",
+  "as_of": "2026-10-15 S067 primary LS Lemma3.8 and BJT fourfold source checked",
   "sources": [
     {
       "id": "SRC-0001",
@@ -584,7 +584,7 @@
       "access": "PROOF_INSPECTED",
       "origin": "Full original 25-page arXiv PDF retrieved S028; selected §3.3 and §5 theorem/proof inspected directly",
       "limitation": "This is the arXiv final-to-appear document, not a recovered journal-final publisher PDF. Selected proofs only, not all lemmas of entire paper.",
-      "observed": "§3.3 Proposition3.14/Lemma3.15 proof builds R2 persistence from coherent squares with identical Ho(Top) diagrams and a positive plateau dHI gap. TheoremB needs a coherent comparison map in Ho(S^(R^m)); abstract pointwise invariants are insufficient. Direct mechanism precedent, not exact printed finite Euclidean matrices."
+      "observed": "§3.3 Proposition3.14/Lemma3.15 proof builds R2 persistence from coherent squares with identical Ho(Top) diagrams and a positive plateau dHI gap. TheoremB needs a coherent comparison map in Ho(S^(R^m)); abstract pointwise invariants are insufficient. Direct mechanism precedent, not exact printed finite Euclidean matrices. S067 direct original Lemma3.8, Cor3.9, Prop3.10, Remark3.13 §§3/4 sampled; U equivalence and open 2023 HI!=IHC question."
     },
     {
       "id": "SRC-0066",
@@ -1059,9 +1059,9 @@
       "title": "Blanc Johnson Turner 2019, A constructive approach to higher homotopy operations",
       "url": "https://arxiv.org/pdf/1809.07495",
       "origin": "Original arXiv and published AMS Contemporary Mathematics729 DOI10.1090/conm/729/14690",
-      "access": "STATEMENT_INSPECTED",
-      "limitation": "Original introduction and §§6–7 placement, not complete linewise specific transport theorem",
-      "observed": "Higher homotopy operations as pointed and unpointed diagram rectification obstructions."
+      "access": "PROOF_INSPECTED",
+      "limitation": "Original selected passages, not entire paper or exact standard Walker/Xu convention crosswalk.",
+      "observed": "S067 original arXiv v1 §§1.4–1.7,4.9,6.12,7.A,7.5,7.6 (selected proof/definitions), classical full fourfold ZERO via pointed Ho chain rectification; NOT literal Xu convention equality independently checked."
     },
     {
       "id": "SRC-0119",

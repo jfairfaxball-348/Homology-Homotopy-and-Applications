@@ -345,3 +345,9 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - **SRC-0120** HKM2002 original publisher abstract, ABSTRACT_INSPECTED; full 2-track theorem not audited.
 - **SRC-0121** DKS1989 DOI metadata only; exact proof not accessed.
 - **SRC-0122** McFaddin–Needham2026 AGT original publisher abstract, ABSTRACT_INSPECTED, not exact Top^R result.
+
+## S067 primary direct checks (15 October 2026)
+- **SRC-0065 PROOF_INSPECTED original selected:** https://arxiv.org/pdf/2010.05378 v3 printed pp13–15, exact §3 **Lemma3.8** U:Ho(S_sc,*)≃Ho(S_sc); Cor3.9 triple Toda zero/nonzero invariant under unpointed simply connected Ho-diagram iso; Prop3.10 application; Remark3.13 historically leaves HI!=IHC open at 2023. Scope of S067 [4] is an elementary categorical extension, not a theorem claimed present there.
+- **SRC-0118 PROOF_INSPECTED original selected:** https://arxiv.org/pdf/1809.07495 v1 §1.4–1.7 (Toda full-set), §4.9 coherent compatibility, §6.12 higher obstruction, §7.A pp31–35 explicit fourfold operation on chain in ho(E_*), Remark7.5 and Lemma7.6. Its definition gives ZERO if a compatible extension exists; no identified exact full Xu bracket convention equivalence theorem, reviewer crosscheck remains S068.
+- **SRC-0117 PROOF_INSPECTED already final Xu** https://msp.org/gt/2016/20-3/gt-v20-n3-p08-s.pdf §5 pp1620–21 SECOND full ordered 2-primary <2,σ²,σ²,2>={θ4} nonzero and zero indeterminacy; π29_(2)=0. Does NOT prove integral θ4/θ4 or new Top^R gap.
+- **SRC-0104 Sep2026 publisher original scoped to dg modules, NOT Top^R; SRC-0119/0120/0121 original abstracts/metadata only; SRC-0122 publisher abstract 2-category interleavings.** Current exact 2026 priority/citation database audit incomplete, G2 NOT PASSED.
