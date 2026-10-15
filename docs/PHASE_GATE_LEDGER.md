@@ -147,3 +147,9 @@ Stage1 IN_PROGRESS. Structural T122 and toy T124 are standard/elementary and NOT
 
 ## S052 gate check (2026-10-15)
 Stage1 continues; originality/HHA Gate2 NOT_STARTED. Contractible product T127/T128 and countermodel T129 are correct INTERNAL elementary lemmas, not an HHA-suitable original homotopy theorem. Unrestricted GRID5/2 and GRID8/3 unresolved, relative S² class absent, source audit incomplete. No Lean/Palomar/manuscript/press/arXiv/HHA; T66/1981, R5 16471, Hopf retirement/T84 retained.
+
+## Owner publication-target decision AFTER S052 (2026-10-15; governance, not G1B/G2 pass)
+- **Current candidate target:** rigorous d_HI(F,G)>d_IHC(F,G) for frozen five-sphere F and point G. The internal bounds d_IHC=1<5/4<=d_HI<=3/2 are SOURCE-DEPENDENT and require independently gap-free proof for arbitrary replacements, real cuts, full fourfold Toda zero-exclusion and higher-operation naturality.
+- **G1B:** IN_PROGRESS, **G2:** NOT_STARTED, **G3 Lean/G4 final audit:** NOT_STARTED; G5 Palomar owner-gated, G6 paper not started, G7 arXiv/G8 HHA owner-gated. A changed route does NOT move any gate.
+- **Formalisation/release trigger:** independent complete strict inequality plus successful first original exact-result novelty/HHA gate. Then freeze theorem (no exact d_HI/GRID endpoint/cofinal improvement prerequisite) and move to separately authorised G3 Lean; follow subsequent approval gates. Source and hostile audits remain genuine requirements.
+- Full superseding target is authoritative/PUBLICATION_TARGET.md; S053 future only. No historical S047–S052 facts rescinded.

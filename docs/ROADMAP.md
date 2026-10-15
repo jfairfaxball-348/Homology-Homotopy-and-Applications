@@ -4,7 +4,7 @@
 |---|---|---|
 |0 Bootstrap|Governance, sources and protocol|PASS administrative S001|
 |1A Candidate tournament|8–12 exact anchored candidates, comparison|PASS RESEARCH SCREEN S002: 12 candidates, only provisional C02|
-|1B Original flagship proof/disproof|Novel noteworthy exact theorem/counterexample, gap-free|IN PROGRESS S003: T5 general arbitrary finite-chain morphism CW theorem; T6/T7 restricted geometric obstructions; novelty NOT established|
+|1B Original flagship proof/disproof|Novel noteworthy theorem/counterexample, gap-free|IN PROGRESS after S052: prospective strict HI>IHC gap for five-sphere F,G; inherited proof SOURCE-DEPENDENT; first novelty NOT PASSED|
 |2 First novelty audit|Fresh complete direct close-neighbour theorem/proof audit of FIXED original result|NOT STARTED (S002 preliminary kills are not this gate)|
 |3 Lean|Pinned compiler/mathlib, exact geometric theorem proof|NOT STARTED|
 |4 Final novelty audit|Distinct comprehensive later audit|NOT STARTED|
@@ -35,3 +35,6 @@ Source-dependent internal positive strict dHI>dIHC gap now has quantitative boun
 
 ## S052 checkpoint
 Stage1 research only: restrict effort to unrestricted GRID strictification or a genuine enriched relative obstruction; all naive image-collision existence diagnostics are powerless. Prepare S053 future only. Gate2, formalisation, Palomar, release/paper/submissions remain closed.
+
+## Current binding roadmap override — owner choice 15 October 2026 (after S052)
+**PRIMARY** prove/certify (or refute) strict d_HI(F,G)>d_IHC(F,G) for frozen five-sphere F and G; exactly d_IHC<=1 and d_HI>=5/4 suffices for a strict gap after checking full all-replacements theory. Perform independent first novelty/HHA relevance review: Lanari–Scoccola, Wang–Xu/IWX, DKS/BJT/HKM, current 2023–2026 Top scope. The previous GRID5/2/GRID8/3, endpoint, precise d_HI and cofinal-family routes are NOT requirements for a paper, only possible tools if needed for proof. As soon as the gap is fully proved and G2 is independently passed, FREEZE the strict separation and proceed via separate invocations to G3 Lean, G4 final novelty, G5 owner-approved Palomar, G6 manuscript, G7/G8 owner-approved release/submission. No exact-distance research detour. If proof or priority fails, report accurately. This roadmap supersedes conflicting earlier FUTURE instructions without altering historical results. S053 remains FUTURE UNEXECUTED.

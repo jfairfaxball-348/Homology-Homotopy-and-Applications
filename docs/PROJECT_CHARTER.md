@@ -10,3 +10,5 @@ The project follows research → original proof/disproof → FIRST novelty gate 
 
 Success path includes reproducibility artefacts and source provenance. Distinguish proof in prose, machine-checked proof, exhaustive experiment, conditional argument, and referee acceptance.
 
+## Current targeted-paper exit criterion (owner direction 2026-10-15)
+The designated paper candidate is the strict separation d_HI(F,G)>d_IHC(F,G) for the existing five-stage sphere/persistent-point pair; INTERNAL source-dependent d_IHC=1<5/4<=d_HI<=3/2 remains to be independently reconstructed and priority-checked. A valid strict inequality itself answers the proposed distance-comparison question, and **is the complete theorem target**. Exact d_HI is not a paper entry/exit requirement and must not hold up Lean, Palomar or drafting if strict separation proof plus first novelty/HHA gate are approved. Research-quality, independent proof and novelty/significance gates remain strict. For precise non-prerequisites, see authoritative/PUBLICATION_TARGET.md.

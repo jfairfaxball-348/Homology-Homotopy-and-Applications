@@ -191,3 +191,6 @@ Direct official abstract/metadata: Annals Wang–Xu2017 Cor1.10 (strictly define
 
 ## S052 15 October 2026
 Revisited ORIGINAL Annals Wang–Xu2017 abstract https://annals.math.princeton.edu/2017/186-2/p03 and ORIGINAL ScienceDirect DKS1989 abstract https://www.sciencedirect.com/science/article/pii/0022404989900236. Queried 2025/2026 persistent spaces homotopy interleaving fourfold Toda rectification; no exhaustive exact Top proof-level novelty certification. IWX Tables4/10, BJT §7.A, LS original v3 Props3.10/3.12/4.5 and Remark3.13 inherited selected proof access only. DKS full original relative §§2–5 uninspected; printed 1981 original source still not independently verified.
+
+## Research priority/novelty-audit requirement recorded 2026-10-15 (not new source access)
+For first G2, conduct a FRESH exact-result, original-paper inspection of d_HI>d_IHC in ordinary Top^R, including Lanari–Scoccola 2020v1 anticipation / 2022v3–2023 Remark3.13, Wang–Xu2017 bracket, Isaksen–Wang–Xu2023 h5n Table10, DKS1989 relative, HKM2002, BJT2019 §7.A, Baues–Blanc2011, 2023–2026+ Top results. Differentiate algebraic dg-module scope and formally prove full model-level transport. This records an audit PLAN only; no new source accessed and no novelty certified.
