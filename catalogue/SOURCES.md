@@ -292,3 +292,7 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 ## S056 sources
 - SRC-0103: Spanier–Whitehead (1955), *Duality in homotopy theory*, Mathematika 2, pp56–80, https://doi.org/10.1112/S002557930000070X ; original publisher ABSTRACT_INSPECTED only; stable self-duality of spheres classical, full Toda sign proof is this programme's derivation.
 - SRC-0104: Kuribayashi–Naito–Wakatsuki–Yamaguchi (12 Sept 2026), https://link.springer.com/article/10.1007/s41468-026-00252-0 , original open publisher STATEMENT_INSPECTED intro/abstract; equality in *dg-module* category, NOT all ordinary Top^R.
+
+## S057 original classical proof / 31-stem tables
+- **SRC-0094 (UPDATED ORIGINAL proof selection):** Wang–Xu, Annals 186 (2017), original publisher PDF https://annals.math.princeton.edu/wp-content/uploads/annals-v186-n2-p03-p.pdf; printed Cor1.10 pp503–504, Lemma12.6 pp568–569 inspected. Latter gives DIFFERENT strictly-defined 4fold bracket with NONZERO indeterminacy 2*pi15. 'Strictly defined' is not uniqueness. It does NOT decide OUR fourfold 0-exclusion.
+- **SRC-0105 (NEW ORIGINAL):** Isaksen, *Stable Stems*, arXiv:1407.8418v2, https://arxiv.org/pdf/1407.8418 , STATEMENT_INSPECTED printed p95 Table1 (rho31 actual homotopy class detected by h0^10h5) and p99 Table8 (h5 Adams d2=h0*h4², n at filtration5 E2). No complete updated basis or triple Toda calculation.

@@ -425,3 +425,9 @@ See S038 full dossier and JSON scope.
 - CLM-0291 PROGRAMME_PROVED: outer triple coset a:pi31→pi62/(pi31*pi31) is additive by fixed θ4·2 null track, factors through pi31/2pi31 ≅ (F2)^3; SOURCE_STATED groups, internal stable proof.
 - CLM-0292 PROGRAMME_PROVED CONDITIONAL: three ACTUAL mod-two generator F3 classical representative computations would suffice for all 2-local A and C; no such reps computed. SRC-0101/0102/0103.
 - CLM-0293 INHERITED_UNVERIFIED: all-compatible fourfold/classical zero-exclusion, whole Top^R and contemporary originality still unresolved, G1B/G2 NOT PASSED.
+
+## S057 claims — classical interpretation and conditional rank gate
+- **CLM-0294 PROGRAMME_PROVED CONDITIONAL:** with inherited S056 additive quotient a:H/2H→E/P and z=theta5+P, rank[M|z]>rank M suffices to exclude theta5 from BOTH outer families A=C. It is weaker than demanding three F3 representatives. No P, basis or matrix columns computed; NOT strict Top^R theorem.
+- **CLM-0295 SOURCE_STATED:** original Wang–Xu Lemma12.6 strictly-defined 4fold with indeterminacy 2*pi15 directly prevents interpreting Cor1.10 strict-defined as target full classical zero-exclusion. SRC-0094.
+- **CLM-0296 SOURCE_STATED:** original Isaksen2014 Table1 actual rho31 h0^10h5 detection; Table8 E2 h5 killed d2 and n filtration5. Neither supplies a verified 3-generator pi31 stable basis or Toda evaluations. SRC-0105/SRC-0101.
+- **CLM-0297 INHERITED_UNVERIFIED:** all classical triples/rank, fourfold coherence, full arbitrary unpointed Top^R and 2026 novelty remain open. G1B/G2 NOT PASSED.
