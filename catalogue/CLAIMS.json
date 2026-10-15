@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S057",
+  "as_of": "2026-10-15 S058",
   "claims": [
     {
       "id": "CLM-0001",
@@ -2877,6 +2877,59 @@
         "SRC-0104"
       ],
       "scope": "G1B/G2 IN_PROGRESS NOT PASSED, no G3 Lean or any release."
+    },
+    {
+      "id": "CLM-0298",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S058-T147: conditional on S056 outer Toda quotient a:H/2H→E/P and z=theta5+P, the sufficient rank gap is equivalent to a linear character lambda:E→F2 with lambda(P)=0, lambda(theta5)=1 and lambda of three genuine generator triple representatives zero. Existence is not established.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0099"
+      ],
+      "scope": "Pure finite-dimensional duality; no actual P, classical triple, or Kervaire character values computed."
+    },
+    {
+      "id": "CLM-0299",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S058-T148: in projective Ho(Top^R) with G the free point diagram born at 0, no epsilon<1 IHC interleaving with F exists: the t0 component of ηF^{2epsilon} is identity or degree2 on S160 and cannot factor homotopically through a point, so dIHC>=1.",
+      "sources": [
+        "SRC-0083",
+        "SRC-0104"
+      ],
+      "scope": "Standard model-category representable/derived evaluation and nonnegative projectively cofibrant replacement; does not prove dIHC<=1 or any dHI strict inequality."
+    },
+    {
+      "id": "CLM-0300",
+      "status": "SOURCE_STATED",
+      "claim": "Original Browder1969 introduction links dimension 62 Kervaire-one framed manifold classes with Adams permanent h5 squared; does not calculate Kervaire invariant on all outer triple Toda values.",
+      "sources": [
+        "SRC-0106"
+      ],
+      "scope": "Original statement p157 directly inspected only; proposed character not evaluated."
+    },
+    {
+      "id": "CLM-0301",
+      "status": "SOURCE_STATED",
+      "claim": "September2026 dg-module interleaving equality and April2026 relative Sullivan algebra IHC concerns categories not establishing an ordinary general Top^R HI>IHC theorem, but the contemporary priority audit is selective.",
+      "sources": [
+        "SRC-0104",
+        "SRC-0107"
+      ],
+      "scope": "Original current publisher introduction and original arXiv abstract; not exhaustive originality."
+    },
+    {
+      "id": "CLM-0302",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S058 has no certified full classical pi31 basis/P/outer Toda residues or fourfold zero in-or-out result, no all-unpointed replacement strict proof, no coherent derived epsilon1 upper, and no Oct2026 HHA priority pass; strict gap OPEN.",
+      "sources": [
+        "SRC-0101",
+        "SRC-0105",
+        "SRC-0106",
+        "SRC-0094",
+        "SRC-0099",
+        "SRC-0104"
+      ],
+      "scope": "G1B/G2 NOT PASSED; no Lean/Palomar/manuscript/arXiv/HHA."
     }
   ]
 }

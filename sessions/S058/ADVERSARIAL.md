@@ -1,0 +1,9 @@
+# S058 ADVERSARIAL — kill attempts and validity boundaries
+
+1. **Duality false finish:** T147 character exists iff the unknown S057 rank passes. Calling it Kervaire κ does not calculate κ(P) or THREE actual classical triple values. Browder existence h5 squared theorem gives no free secondary-operation vanishing. Actual rank can fail without θ being a triple because xH can be smaller than P.
+2. **Bad generators:** rho31 detected by h0^10 h5 does not automatically generate the cyclic 64-summand; h5 at E2 is killed by d2; n only E2, not a proven independent permanent order2 summand. No legitimate numeric 3-bit evaluation with these labels.
+3. **C-motivic/classical conflict:** C-motivic Table10 h5n or θ4θ5 product not all-value classical 0-exclusion. Betti does not automatically lift ALL π0 components of classical compatible defining systems. Wang–Xu "strictly defined" is not singleton.
+4. **Projective-versus-objectwise:** T148 uses derived adjunction and QF support, not an incorrect identification Ho(Top^R) with Ho(Top)^R. The same proof cannot promote dIHC<=1 from pointwise nullity, nor say anything about ε≥1 strict HI after arbitrary G' nonpoint and F' nonmonic.
+5. **Clock endpoint and boundaries:** for ε=5/4 sample t4=5 is terminal point, so strict lower claims only ε<5/4. Negative t and both naturality/composite identities crucial. Based stable SW duality is not general unpointed WE transport.
+6. **Novelty trap:** LS already Toda-based HC<HI; proposed stricter HI>IHC distinct. Sep2026 dg-only equality does not kill general Top^R but search non-hit does NOT give priority clearance. NO independent complete actual fourfold proof or credible publication-level conclusion.
+Verdict: strict Top^R flagship UNPROVED and not refuted, stage OPEN. No experiments, no Adams numeric calculation, no new counterexample.

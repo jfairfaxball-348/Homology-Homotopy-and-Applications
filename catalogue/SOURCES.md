@@ -296,3 +296,8 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 ## S057 original classical proof / 31-stem tables
 - **SRC-0094 (UPDATED ORIGINAL proof selection):** Wang–Xu, Annals 186 (2017), original publisher PDF https://annals.math.princeton.edu/wp-content/uploads/annals-v186-n2-p03-p.pdf; printed Cor1.10 pp503–504, Lemma12.6 pp568–569 inspected. Latter gives DIFFERENT strictly-defined 4fold bracket with NONZERO indeterminacy 2*pi15. 'Strictly defined' is not uniqueness. It does NOT decide OUR fourfold 0-exclusion.
 - **SRC-0105 (NEW ORIGINAL):** Isaksen, *Stable Stems*, arXiv:1407.8418v2, https://arxiv.org/pdf/1407.8418 , STATEMENT_INSPECTED printed p95 Table1 (rho31 actual homotopy class detected by h0^10h5) and p99 Table8 (h5 Adams d2=h0*h4², n at filtration5 E2). No complete updated basis or triple Toda calculation.
+
+## S058 original source additions
+- SRC-0106 Browder1969 original *Annals* scanned pp157–186 https://webhomes.maths.ed.ac.uk/~v1ranick/papers/browkerv.pdf , original p157 visual STATEMENT_INSPECTED: Kervaire framed classes detected by h_j²; NO classical outer Toda values.
+- SRC-0107 original Apr2026 relative Sullivan CDGA map IHC https://arxiv.org/abs/2604.06800 ABSTRACT_INSPECTED, not universal Top^R HI/IHC.
+- Previously SRC-0094/0099/0101/0104/0105 selected primary work scope respected; no full contemporary cited-by/MR/zbMath/hidden classical chart evaluation. G2 NOT PASSED.

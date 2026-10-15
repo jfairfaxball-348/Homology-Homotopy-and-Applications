@@ -137,3 +137,6 @@ Classical stable Spanier–Whitehead duality reduces Xu outer indeterminacy fami
 
 ## S057 — 15 October 2026
 Direct original Wang–Xu Annals Cor1.10/Lemma12.6 shows "strictly defined" 4fold need not have zero indeterminacy (separate example 2*pi15); original Isaksen *Stable Stems* tables identify rho31 actual class and E2 h5 (killed d2), n (E2) but NOT actual complete Z64⊕Z2² basis. New internal T145 sufficient binary rank(M|theta5+P)>rank M relative to S056 quotient, strictly weaker than three F3 reps; NO matrix entries, actual triple values, full 4fold zero-exclusion or strict Top^R proof. G1B/G2 OPEN, exact dHI not needed; no Lean/Palomar/paper/outreach. S058 FUTURE UNEXECUTED.
+
+## S058 — 15 October 2026
+T147 internally proves dual-character equivalent to S057 sufficient rank, not actual classical bracket computation; Browder κ plausible but three values/P uncomputed. T148 independently dIHC≥1 by free birth0 evaluation and identity/degree2 for ε<1; coherent ε1 upper unproved. Classic zero-compatible systems, any all-unpointed dHI≥5/4 proof and first exact HHA originality gate unresolved. G1B/G2 OPEN, strict gap NOT certified, no exact HI/GRID necessity, Lean/Palomar/manuscript/external untouched; S059 FUTURE only. S058 dossier.

@@ -136,3 +136,6 @@ Mathematical NO-COMPUTATION session: B_(2)=0 inherited; outer A=C via stable dua
 
 ## S057 analytical classical-source / rank campaign — NO COMPUTATION
 No bounded numerical experiment, executable checker, Adams Ext computation, group-product table or hash was produced. The 2-primary rank criterion is a proof of a CONDITIONAL symbolic implication; actual products P, basis classes, secondary operation values and rank are UNKNOWN. S058 must preregister any finite chart computation with genuine coverage and independently checked certificate. Host CI only tests static catalogue/governance consistency. Original T66/1981, R5 16,471 OPEN and Hopf/T84 remain frozen.
+
+## S058 no-numerical-computation campaign
+T147 symbolic F2 dual algebra and T148 projective representable derived degree lower only. NO actual Adams Ext/E∞ computation, group product P, κ(Toda) bits, geometric defining system, experiment/checker/hash. S059 targets values/compatible zero and full Top; static CI only governance, not math. Exact HI/GRID not required. Preserve T66 Q/all Fp primitive/composites and coherent integral/1981 caveat, R5 16471 OPEN, Hopf/T84.
