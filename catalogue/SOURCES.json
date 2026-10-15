@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S052",
+  "as_of": "2026-10-15 S053",
   "sources": [
     {
       "id": "SRC-0001",
@@ -745,7 +745,7 @@
       "url": "https://arxiv.org/pdf/2010.05378",
       "origin": "Original arXiv v3 PDF full extracted text and visual page inspection",
       "access": "PROOF_INSPECTED",
-      "limitation": "Selected §§2.2.2,3.2 Prop3.10/12 and 3.3 only; this is v3 not full separate journal publisher proof inspection. S045: Original accessible v1 Prop3.10 specific two-contractible-node diagonal proof reinspected; does not contain a proved fourfold all-replacements analogue. S046: independently revisited selected original arxiv HTML Proposition4.5 (projective poset cofibrancy/filtered monomorphisms) only; not all paper. S047: selected Prop4.5 poset mono source proof rechecked; not full priority survey. S048: abstract/metadata fresh, selected original Prop4.5/3.10 proof access inherited from earlier sessions only.",
+      "limitation": "Selected §§2.2.2,3.2 Prop3.10/12 and 3.3 only; this is v3 not full separate journal publisher proof inspection. S045: Original accessible v1 Prop3.10 specific two-contractible-node diagonal proof reinspected; does not contain a proved fourfold all-replacements analogue. S046: independently revisited selected original arxiv HTML Proposition4.5 (projective poset cofibrancy/filtered monomorphisms) only; not all paper. S047: selected Prop4.5 poset mono source proof rechecked; not full priority survey. S048: abstract/metadata fresh, selected original Prop4.5/3.10 proof access inherited from earlier sessions only. S053: independently directly inspected v3 HTML original §2.2 definitions, selected Prop3.10 proof, Remark3.13 and original Lemma4.3/Prop4.5 arbitrary-poset proof; not entire publisher article. Original v1 author-upload separate SRC-0097.",
       "observed": "Categories Ho(M^R) vs Ho(M)^R; source nonzero <2,eta3,2>, Prop3.10, Remark3.13 two open inequalities, general upper d_HI<=2d_HC. S046 uses projective-cofibrant poset monomorphisms and retains source LS Remark3.13 priority. S047 applies only this original poset structure and does not attribute novelty."
     },
     {
@@ -844,7 +844,7 @@
       "url": "https://archive.ymsc.tsinghua.edu.cn/pacm_download/293/8755-61sphere_final.pdf",
       "origin": "Original 2017 paper PDF, pp3–4 and corollary proof",
       "access": "PROOF_INSPECTED",
-      "limitation": "Only local Cor1.10 and short proof inspected; underlying Adams/Moss computations not reverified. S045: Original 2017 PDF printed p4 Cor1.10 proof directly visually verified again; only corollary proof, not full Adams/Moss machinery. S047 reread original selected Cor1.10; Adams/Moss computation not independently redone. S048: new current direct Annals landing abstract confirms corollary scope; full original paper/Adams computations NOT independently reread this session.",
+      "limitation": "Only local Cor1.10 and short proof inspected; underlying Adams/Moss computations not reverified. S045: Original 2017 PDF printed p4 Cor1.10 proof directly visually verified again; only corollary proof, not full Adams/Moss machinery. S047 reread original selected Cor1.10; Adams/Moss computation not independently redone. S048: new current direct Annals landing abstract confirms corollary scope; full original paper/Adams computations NOT independently reread this session. S053: independently visually reread ORIGINAL Annals PDF printed p504 Cor1.10 and proof: explicitly asserts theta5 belongs to CLASSICAL bracket, NOT that zero is excluded.",
       "observed": "theta4 squared zero, pi61 zero, nonzero theta5 in strictly defined 4-fold bracket <2,theta4,theta4,2>."
     },
     {
@@ -862,8 +862,26 @@
       "url": "https://www.numdam.org/item/10.1007/s10240-023-00139-1.pdf",
       "origin": "Original open-access publisher/deposit full PDF, directly viewed printed pp114,212,228 and metadata; S043",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Selected original tables only, not full Adams proof; indeterminacy h5 n listed, no independent full zero-exclusion or all-WE HI theorem checked. S044 did not independently reproduce Adams proof or full classical transport/indeterminacy conventions. S045: Original 2023 PDF screenshots p214 Table4/p228 Table10 directly verified S045; full classical bracket conventions/Adams computations still not independently redone. S046 bracket zero-exclusion reuse based on table-filtration arithmetic, not a rederived Adams proof or verified all-classical transport. S047 selected printed p214/p228 tables reread; h5n/classical stable-to-pointed transport remains source-dependent, not independent Adams proof. S048: current official publication metadata rechecked; table and zero-exclusion computations retained from S044-S047; no independent complete Moss/Adams or unpointed transport.",
+      "limitation": "Selected original tables only, not full Adams proof; indeterminacy h5 n listed, no independent full zero-exclusion or all-WE HI theorem checked. S044 did not independently reproduce Adams proof or full classical transport/indeterminacy conventions. S045: Original 2023 PDF screenshots p214 Table4/p228 Table10 directly verified S045; full classical bracket conventions/Adams computations still not independently redone. S046 bracket zero-exclusion reuse based on table-filtration arithmetic, not a rederived Adams proof or verified all-classical transport. S047 selected printed p214/p228 tables reread; h5n/classical stable-to-pointed transport remains source-dependent, not independent Adams proof. S048: current official publication metadata rechecked; table and zero-exclusion computations retained from S044-S047; no independent complete Moss/Adams or unpointed transport. S053 IMPORTANT CORRECTION: original corresponding preprint Theorem6.3 explicitly states Table10 lists C-MOTIVIC stable brackets; text says some listed indeterminacies PARTIAL. A FULL CLASSICAL bracket zero-exclusion/Betti comparison remains unproved. Historical S044 claims of complete classical exclusion were insufficiently justified by these tables alone; see SRC-0098.",
       "observed": "Stable pi61^S=0 across primes; Table1 theta5=h5^2 in stem62; Table10 row (62,32) <2,theta4,theta4,2> contains h5^2 with indeterminacy h5 n. S044 Table4 printed p214 gives h5 filtration1, n filtration5; Table10 p228 lists h5² and full h5n indeterminacy; internally deduced zero-exclusion by f2 versus f>=6."
+    },
+    {
+      "id": "SRC-0097",
+      "title": "Lanari–Scoccola, Rectification of interleavings and a persistent Whitehead theorem, original arXiv 2010.05378v1 (2020) author-upload",
+      "url": "https://www.researchgate.net/publication/344621970_Rectification_of_interleavings_and_a_persistent_Whitehead_theorem",
+      "origin": "Original v1 author-uploaded manuscript rendered as third-party hosted full text, original header arXiv:2010.05378v1",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Read original 2020v1 Remark3.13 and comparison text via author manuscript on ResearchGate; direct arxiv v1 endpoint refused in this session. Third-party rendering not complete original provenance certification; no full theorem-by-theorem novelty comparison.",
+      "observed": "v1 authors suggest adaptation to d_IHC != d_HC, but state d_HI != d_IHC question open."
+    },
+    {
+      "id": "SRC-0098",
+      "title": "Isaksen–Wang–Xu, Stable homotopy groups of spheres: from dimension 0 to 90, original preprint arXiv:2001.04511 (later 2023 publication), Section 6/Table 10",
+      "url": "https://arxiv.org/pdf/2001.04511",
+      "origin": "Original author arXiv manuscript PDF; directly inspected pp63,123 PDF (printed preprint 57/117) and original Table10 screenshot",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Theorem6.3 concerns COMPLEX MOTIVIC homotopy; authors explicitly note some indeterminacies tabled only partially. Selected original theorem and table directly read; not full Adams proof, not full classical Betti realization, no statement that classical 4fold bracket zero is excluded.",
+      "observed": "Section6 Theorem6.3: Table10 some C-motivic brackets not containing zero; Table10 (62,32) <2,theta4,theta4,2> detected h5², listed indeterminacy h5 n; does NOT establish the full CLASSICAL bracket zero-exclusion by itself."
     }
   ]
 }

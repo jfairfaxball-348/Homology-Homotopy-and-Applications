@@ -269,3 +269,11 @@ SRC-0096 STATEMENT_INSPECTED selected 2023 IWX Tables4 p214 h5 f1/n f5 and Table
 
 ## S052 source access (2026-10-15)
 - SRC-0094 original Wang–Xu2017 Annals publisher ABSTRACT directly re-read; selected Cor1.10 proof earlier sessions only. SRC-0091 DKS1989 original ScienceDirect ABSTRACT directly re-read; authenticated original relative §§2–5 NOT inspected, only inherited third-party transcription. SRC-0083/0095/0096 selected original statements/proof excerpts inherited, not newly examined. SRC-0092/0086 original abstract level only. SRC-0084 dg-only scope and 1981 T66 unavailable frozen. No access upgrades and no comprehensive 2023–2026 Top novelty certificate. See sessions/S052/PRIOR_ART.md.
+
+## S053 15 October 2026 — exact evidence / category correction
+- **SRC-0097** original 2020v1 LS author-upload Remark3.13, STATEMENT_INSPECTED; HI vs IHC left open in v1, no later novelty guarantee.
+- **SRC-0098** original IWX arXiv:2001.04511 §6 Theorem6.3 and Table10 (62,32) STATEMENT_INSPECTED. Theorem **C-MOTIVIC**; nonzero bracket is not automatically FULL CLASSICAL zero-exclusion, listed indeterminacies may be partial.
+- **SRC-0094** original Wang–Xu Annals printed p504 local proof fresh PROOF_INSPECTED: classical theta5 **membership only**, not whole zero exclusion.
+- **SRC-0083** original LS v3 arbitrary-poset Prop4.5 proof and interleaving definitions fresh selected PROOF_INSPECTED.
+- **SRC-0084** 2026 Springer dg-module equality is not universal ordinary Top^R. Original BJT/DKS/HKM proofs remain inherited selected/partial, with severe priority risk.
+Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Betti comparison or full Adams/Moss proof was checked.

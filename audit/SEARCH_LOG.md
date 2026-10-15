@@ -194,3 +194,11 @@ Revisited ORIGINAL Annals Wang–Xu2017 abstract https://annals.math.princeton.e
 
 ## Research priority/novelty-audit requirement recorded 2026-10-15 (not new source access)
 For first G2, conduct a FRESH exact-result, original-paper inspection of d_HI>d_IHC in ordinary Top^R, including Lanari–Scoccola 2020v1 anticipation / 2022v3–2023 Remark3.13, Wang–Xu2017 bracket, Isaksen–Wang–Xu2023 h5n Table10, DKS1989 relative, HKM2002, BJT2019 §7.A, Baues–Blanc2011, 2023–2026+ Top results. Differentiate algebraic dg-module scope and formally prove full model-level transport. This records an audit PLAN only; no new source accessed and no novelty certified.
+
+## S053 15 October 2026 — source-grade exact comparison
+- Direct original LS2022v3 full HTML https://arxiv.org/html/2010.05378v3 selected §§2.2/3.2, Lemma4.3/Prop4.5, Remark3.13; explicitly Top HI vs IHC open in published 2023.
+- 2020v1 original author-upload text https://www.researchgate.net/publication/344621970_Rectification_of_interleavings_and_a_persistent_Whitehead_theorem at Remark3.13: authors propose dIHC!=dHC but state dHI vs dIHC open. Direct v1 arxiv endpoint failed, therefore original v1 author-manuscript selected statement only.
+- ORIGINAL Annals 2017 Wang–Xu https://annals.math.princeton.edu/wp-content/uploads/annals-v186-n2-p03-p.pdf printed p504 Cor1.10 and original local proof fresh visually examined: theta5 IN bracket; no classical zero exclusion shown.
+- ORIGINAL Isaksen–Wang–Xu arxiv author manuscript https://arxiv.org/pdf/2001.04511 Theorem6.3 and Table10 PDF pages63/123, selected §2.4. IMPORTANT C-MOTIVIC Theorem6.3, table bracket nonzero in that category and possible partial indeterminacy. Classical transfer was not found/proved, and historical source scope overclaim downgraded.
+- 2026 Springer original https://link.springer.com/article/10.1007/s41468-026-00252-0 states equality for selected dg modules not global Top^R.
+- Queried 2025–2026 Top^R separation, Toda coherence, dHI vs dIHC, ordinary topological spaces exact gaps; no exact match established. This is NOT an exhaustive cited-by/MathSciNet/zbMATH or full original DKS1989/BJT2019/HKM2002 proof audit, nor publication clearance.
