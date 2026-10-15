@@ -487,3 +487,9 @@ See S038 full dossier and JSON scope.
 - **CLM-0338 PROGRAMME_PROVED:** S066 T173 full BOTH-whole-WE shoelace mono quotient and e<5/4 strict twofold-zero five-chain necessary condition, not yet full stable 4fold exclusion.
 - **CLM-0339 INHERITED_UNVERIFIED:** exact unpointed whole-zigzag → based full classical fourfold → stable Xu value-set comparison still requires referee-complete theorem/proof; alternate strict gap remains internal.
 - **CLM-0340 INHERITED_UNVERIFIED:** exact current 2026 originality/HHA G2 not passed, 2026 DG equality different category; no owner approval to switch original flagship.
+
+## S067 claims — internal alternative zero-transport proof, gate separation
+- **CLM-0341 PROGRAMME_PROVED:** LS original Lemma3.8 U equivalence extends objectwise to [4] Ho-diagrams, including inverted WHOLE natural WEs; no full higher point-set lift required.
+- **CLM-0342 PROGRAMME_PROVED:** A strict based five-term chain with literal zero doubles has a conventional compatible ZERO 4fold; standard full 4fold ZERO membership invariant under Ho-chain isomorphisms; one-way Σ∞ ZERO transfer to Xu stable 2-primary.
+- **CLM-0343 PROGRAMME_PROVED:** S066 derived/whole-shoelace/clock + S067 zero transport + final Xu ⇒ alternate 2-local ordinary unpointed Top^R dIHC=1<5/4≤dHI, INTERNAL argument only, no Lean/referee/HHA-originality certificate.
+- **CLM-0344 INHERITED_UNVERIFIED:** G2 current originality/HHA remains NOT PASSED; owner original θ4/θ4 integral word and k(j)/k(v) unresolved, no target switch.

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S066 mathematical/source separation gates",
+  "as_of": "2026-10-15 S067 bounded homotopy-category ZERO transport; G2 remains open",
   "claims": [
     {
       "id": "CLM-0001",
@@ -3334,6 +3334,47 @@
         "SRC-0122"
       ],
       "scope": "Negative literature search is not a G2 pass, no Lean or publishing authorisation."
+    },
+    {
+      "id": "CLM-0341",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T176: U:Ho(Top_sc,*)→Ho(Top_sc) equivalence from original LS Lemma3.8 yields U^[4] equivalence, so arbitrary WHOLE natural unpointed WE zigzags restrict to isomorphic pointed homotopy-category 5-chains.",
+      "sources": [
+        "SRC-0065"
+      ],
+      "scope": "Applies nonempty simply connected spaces and NATURAL zigzags, not arbitrary pointwise WEs; internal deduction using published LS lemma."
+    },
+    {
+      "id": "CLM-0342",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T177: ZERO in a conventional fourfold Toda bracket of a pointed Ho-[4] chain is invariant under chain isomorphism; literal zero doubles give compatible constant defining system; suspension spectra carry one ZERO unstable system to ZERO stable system.",
+      "sources": [
+        "SRC-0118",
+        "SRC-0117"
+      ],
+      "scope": "Only zero membership; not full point-set coherent-system equivalence or all-value-set surjectivity. Conventional exact Xu comparison independently revisit S068."
+    },
+    {
+      "id": "CLM-0343",
+      "status": "PROGRAMME_PROVED",
+      "claim": "T178 alternate 2-local ordinary unpointed Top^R L68→L68→L54→L40→L40, 2,σ²,σ²,2, internally yields dIHC(F,G)=1<5/4≤dHI(F,G), for arbitrary WHOLE weak-equivalence replacements of both inputs.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0117",
+        "SRC-0118"
+      ],
+      "scope": "Complete internal argument incorporating S066 T172/T173; NOT formal, referee, originality/HHA G2 or owner-approved flagship switch."
+    },
+    {
+      "id": "CLM-0344",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Contemporary full priority/novelty and HHA fit G2 for alternate Top^R strict gap has not passed; original owner integral θ4/θ4 classical zero-exclusion remains open.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0104",
+        "SRC-0122"
+      ],
+      "scope": "No negative search novelty certificate; no owner switch, Lean or publishing."
     }
   ]
 }

@@ -1,0 +1,7 @@
+# S067 PLAN — minimum sufficient unpointed fourfold contradiction
+
+1. Verify S066 merge parents/tree/hosted seven STATIC steps and read binding state, previous six files, source/claims/gate/decision ledgers. Freeze original owner flagship.
+2. Test the shortest theorem: U:Ho(S_sc,*)→Ho(S_sc) is an EQUIVALENCE (LS Lemma3.8), hence so is the induced functor on finite [4] diagrams. Restrict all WHOLE unpointed zigzags to exact five sample times; stage spaces stay simply connected. Establish pointed homotopy-category chain isomorphism WITHOUT needing rectification of every secondary track.
+3. For fourfold obstruction, prove only ZERO-membership functoriality under isomorphism of pointed Ho chains, using *all* conventional choices, and exact zero-preservation by Σ∞ under pointed homotopy pushouts. Inspect original BJT §7 and Xu §5. Check false shortcut using an arbitrary chosen Massey/Toda member.
+4. Recombine S066 T172/T173 derived dIHC=1, arbitrary both-whole-WE shoelace quotient and 0,1,2+c,3+c,4+2c sample for e<5/4; attack unpointed, backwards zigzags, negative real, boundaries and 2-local restrictions.
+5. Inspect LS original Remark3.13 and 2026 DG result for scoped originality; leave G2 NOT PASSED unless genuinely complete contemporary priority chain. Seek owner approval before any switch of flagship; write S068 FUTURE. One commit, real PR, hosted STATIC and ordinary merge verification.
