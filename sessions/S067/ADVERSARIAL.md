@@ -1,0 +1,9 @@
+# S067 ADVERSARIAL
+1. Opposite WE arrow: NEVER choose strict natural homotopy inverse; replace the arrow in its actual direction by U <- M -> V. This repairs S066's original backwards pointing issue.
+2. Coherent all-stage compatibility: propagate ONE initial path along all four arrows; maps and basepoints commute strictly over full [4]. Simply connectivity needed only for unique path-choice up to rel-endpoint homotopy; initial path connectivity enough for existence.
+3. Mapping path WE: pr is pullback of trivial path endpoint fibration; ev1 homotopic to a pr by entire natural homotopy, so objectwise WE, strict pointing.
+4. BBG Theorem4.21 requires an ENRICHED DK equivalence of fibrant 0th complexes, not arbitrary vertex-level object WEs. Must explicitly apply model-category homotopy chain complex Example4.28, not simply assert equality of full classical brackets.
+5. Classical 4fold issue: BJT section7 long bracket, BBG Def4.31 and Xu's classical 2-primary bracket may require comparison of all nullhomotopy choices. Palindrome/sign alone insufficient; this is the precise remaining STOP.
+6. Locality: pi29=0 only 2-PRIMARY. L_n are 2-local CW spheres, not finite integral spheres. Stable degrees 70<=78, 68<=106 checked.
+7. Strict-zero hypothetical countermodel must be WHOLE unpointed WE, not an objectwise Ho(Top) diagram; no explicit countermodel found and none ruled out absent full value-set convention bridge.
+8. HHA: 2026 DG equality narrow; 2023 question historical; absence of hit != priority proof. Owner switch / Lean / manuscript / Palomar / outreach all unauthorized. CI STATIC.

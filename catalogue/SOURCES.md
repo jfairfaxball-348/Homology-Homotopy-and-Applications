@@ -345,3 +345,7 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - **SRC-0120** HKM2002 original publisher abstract, ABSTRACT_INSPECTED; full 2-track theorem not audited.
 - **SRC-0121** DKS1989 DOI metadata only; exact proof not accessed.
 - **SRC-0122** McFaddin–Needham2026 AGT original publisher abstract, ABSTRACT_INSPECTED, not exact Top^R result.
+
+## S067 original source updates
+|SRC-0119|[BBG arxiv original](https://arxiv.org/pdf/1503.02265)|PROOF_INSPECTED selected original v1 Thm4.21 pp17-19|Primary preprint|Journal final numbering unverified, requires enriched DK conditions|Complete higher Toda value-set DK invariance, Example4.28 homotopy chains.|
+|SRC-0118|[BJT arxiv original](https://arxiv.org/pdf/1809.07495)|STATEMENT_INSPECTED §7.A fourfold|Primary preprint|Exact Xu convention not established|Long coherent pointed Toda.|

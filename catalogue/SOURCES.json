@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S066 final Xu publisher original and higher operation/2026 literature",
+  "as_of": "2026-10-15 S067 original BBG 4fold source proof inspection",
   "sources": [
     {
       "id": "SRC-0001",
@@ -1060,17 +1060,17 @@
       "url": "https://arxiv.org/pdf/1809.07495",
       "origin": "Original arXiv and published AMS Contemporary Mathematics729 DOI10.1090/conm/729/14690",
       "access": "STATEMENT_INSPECTED",
-      "limitation": "Original introduction and §§6–7 placement, not complete linewise specific transport theorem",
-      "observed": "Higher homotopy operations as pointed and unpointed diagram rectification obstructions."
+      "limitation": "Original arxiv 1809.07495 §7.A eq(7.1) and fourfold steps(c)-(d), §7.5 selected statements, NOT full Xu classical convention equivalence.",
+      "observed": "Long pointed fourfold Toda as choice-dependent complete higher coherence obstruction."
     },
     {
       "id": "SRC-0119",
       "title": "Baues Blanc Gondhali 2016, Higher Toda brackets and Massey products",
       "url": "https://arxiv.org/abs/1503.02265",
       "origin": "Original author arXiv abstract and Springer published preview",
-      "access": "ABSTRACT_INSPECTED",
-      "limitation": "Not full exact long Toda transport proof",
-      "observed": "Unified higher order Toda brackets and Massey products in model categories."
+      "access": "PROOF_INSPECTED",
+      "limitation": "ORIGINAL ARXIV 1503.02265v1 Theorem4.21 proof pp17-19 and Def4.27/Example4.28/Def4.31 selected inspected; final journal proof/number NOT inspected; enriched DK preservation rather than literal arbitrary unpointed diagram arrow.",
+      "observed": "Complete higher Toda value-set bijection under enriched DK equivalences; homotopy chain complexes are described via model category."
     },
     {
       "id": "SRC-0120",

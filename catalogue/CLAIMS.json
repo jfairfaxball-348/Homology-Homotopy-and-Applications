@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S066 mathematical/source separation gates",
+  "as_of": "2026-10-15 S067 T176-T179",
   "claims": [
     {
       "id": "CLM-0001",
@@ -3334,6 +3334,47 @@
         "SRC-0122"
       ],
       "scope": "Negative literature search is not a G2 pass, no Lean or publishing authorisation."
+    },
+    {
+      "id": "CLM-0341",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S067 T176 gives explicitly natural whole [4] mapping-path pointed WE spans U<-M->V for any objectwise unpointed WE of nonempty path connected five-chain diagrams, including backwards zigzags and coherently propagated points. Simply connected initial stages control path-choice ambiguity.",
+      "sources": [
+        "SRC-0118",
+        "SRC-0119"
+      ],
+      "scope": "Internally proved standard point-set lemma; not original/formally certified."
+    },
+    {
+      "id": "CLM-0342",
+      "status": "SOURCE_STATED",
+      "claim": "BBG original arxiv 1503.02265v1 Thm4.21 full proof selected inspected: complete higher Toda value sets invariant under enriched DK equivalences of fibrant 0th-order chain complexes; Example4.28 and Def4.31 establish homotopy-chain-complex setting.",
+      "sources": [
+        "SRC-0119"
+      ],
+      "scope": "Exact enriched model hypotheses; not a literal unpointed diagram WE theorem."
+    },
+    {
+      "id": "CLM-0343",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S067 source and mapping-path construction strengthens alternate Top^R HI>IHC candidate, but the precise BJT/BBG/Walker long bracket to Xu classical ordered full fourfold zero-membership convention dictionary is still unproved for all choices.",
+      "sources": [
+        "SRC-0117",
+        "SRC-0118",
+        "SRC-0119"
+      ],
+      "scope": "G1B not complete; no official owner target switch; exact HI endpoint not needed."
+    },
+    {
+      "id": "CLM-0344",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Contemporary exact Top^R HI/IHC metric novelty/HHA fit G2 not certified; 2026 DG-module equality is narrower and 2023 open remark is historical.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0104",
+        "SRC-0119"
+      ],
+      "scope": "G2 open, no Lean/manuscript/Palomar/publishing."
     }
   ]
 }

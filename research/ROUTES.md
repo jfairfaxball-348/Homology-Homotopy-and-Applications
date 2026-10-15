@@ -265,3 +265,6 @@ Fixed first-publication goal remains unrestricted ordinary unpointed Top^R stric
 
 ## S066 — alternate 2-local classical fourfold route, proof gate still open
 Xu2016 FINAL original §5 Lemma5.1 proves complete **2-primary** ordered <2,σ²,σ²,2>={θ4} nonzero; distinct from original unresolved <2,θ4,θ4,2>. L68→L68→L54→L40→L40 with arrows 2,σ²,σ²,2 has internally dIHC=1; full all-both-WE ordinary unpointed shoelace quotient suggests dHI≥5/4. HHA-ready conclusion awaits source-exact coherent WHOLE unpointed five-chain zigzag-to-pointed/stable entire fourfold value-set transport and genuine present-day originality. S067 FUTURE attacks exactly that or a countermodel; no default exact distance and no owner flagship change.
+
+## S067 route (2026-10-15)
+T176 **internally proved standard lemma:** every natural unpointed objectwise WE between connected full 5-object diagrams admits diagram-wide pointed mapping-path span, including backwards arrows in arbitrary zigzags and propagated stage0 path. Original BBG preprint Thm4.21 full-value DK preservation and BJT section7 long 4fold scoped inspection improve candidate. Xu classical complete fourfold crosswalk and exact 2026 HHA originality still open; alternate unpointed metric gap internal conditional, original integral flagship retained. S068 future, no exact dHI/GRID.
