@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S053",
+  "as_of": "2026-10-15 S054",
   "sources": [
     {
       "id": "SRC-0001",
@@ -882,6 +882,24 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Theorem6.3 concerns COMPLEX MOTIVIC homotopy; authors explicitly note some indeterminacies tabled only partially. Selected original theorem and table directly read; not full Adams proof, not full classical Betti realization, no statement that classical 4fold bracket zero is excluded.",
       "observed": "Section6 Theorem6.3: Table10 some C-motivic brackets not containing zero; Table10 (62,32) <2,theta4,theta4,2> detected h5², listed indeterminacy h5 n; does NOT establish the full CLASSICAL bracket zero-exclusion by itself."
+    },
+    {
+      "id": "SRC-0099",
+      "title": "Zhouli Xu, The strong Kervaire invariant problem in dimension 62, Geometry & Topology 20 (2016), 1611–1624, original publisher PDF, Lemma 5.1",
+      "url": "https://msp.org/gt/2016/20-3/gt-v20-n3-p08-p.pdf",
+      "origin": "ORIGINAL publisher full 14-page PDF; §5 printed p1620 visual and text p1620-1621 directly examined in S054",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected original §5 Lemma5.1 proof inspected; its general fourfold-indeterminacy upper bound is asserted as well-known in that proof, not a full foundational higher Toda conventions proof. Xu computes zero indeterminacy only for four DIFFERENT theta4/sigma words, not target theta5 word. Do not claim theta5 bracket is singleton.",
+      "observed": "General 4fold indeterminacy contained in three types of triple brackets, specializing degrees (0,30,30,0) to pi31/pi61/pi31 triple families in pi62; no result about all target classical defining systems' values."
+    },
+    {
+      "id": "SRC-0100",
+      "title": "Burklund–Isaksen–Xu, Classical Stable Homotopy Groups of Spheres via F2-Synthetic Methods, Peking Math J 9 (2026), 433–455, online 11 Apr 2025, Lemma 3.3/Remark 3.4",
+      "url": "https://link.springer.com/article/10.1007/s42543-025-00098-y",
+      "origin": "ORIGINAL open publisher HTML, selected intro, Lemma3.3 proof and Remark3.4 directly read S054",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Synthetic triple bracket example with CLASSICAL analog containing zero is NOT the target classical theta5 fourfold bracket. Selected original proof/remark inspected; does not establish a general impossibility of motivic transfer or bracket zero inclusion for our target.",
+      "observed": "Remark3.4 explicitly says classical analog <eta,4 overline{kappa}_2,2> contains zero despite nearby synthetic detection by Mh1."
     }
   ]
 }

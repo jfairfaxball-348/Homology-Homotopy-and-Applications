@@ -202,3 +202,10 @@ For first G2, conduct a FRESH exact-result, original-paper inspection of d_HI>d_
 - ORIGINAL Isaksen–Wang–Xu arxiv author manuscript https://arxiv.org/pdf/2001.04511 Theorem6.3 and Table10 PDF pages63/123, selected §2.4. IMPORTANT C-MOTIVIC Theorem6.3, table bracket nonzero in that category and possible partial indeterminacy. Classical transfer was not found/proved, and historical source scope overclaim downgraded.
 - 2026 Springer original https://link.springer.com/article/10.1007/s41468-026-00252-0 states equality for selected dg modules not global Top^R.
 - Queried 2025–2026 Top^R separation, Toda coherence, dHI vs dIHC, ordinary topological spaces exact gaps; no exact match established. This is NOT an exhaustive cited-by/MathSciNet/zbMATH or full original DKS1989/BJT2019/HKM2002 proof audit, nor publication clearance.
+
+
+## S054 — 2026-10-15 original-source audit
+- Direct original Xu2016 *Geometry & Topology* publisher PDF https://msp.org/gt/2016/20-3/gt-v20-n3-p08-p.pdf printed p1620–1621 §5 Lemma5.1; visually inspected printed p1620, general fourfold indeterminacy and worked DIFFERENT theta4 brackets. Application to theta5 word is a deduction, not published evaluation.
+- Direct original Burklund–Isaksen–Xu online2025/vol2026 https://link.springer.com/article/10.1007/s42543-025-00098-y selected Lemma3.3/Remark3.4 and introductions: synthetic bracket nonzero, corresponding CLASSICAL analog contains zero. Distinct from theta5.
+- Original Wang–Xu Annals https://annals.math.princeton.edu/2017/186-2/p03 abstract checked; original prior-session selected Cor1.10 remains original statement theta5 membership only. IWX2023 publisher manuscript original Theorem6.3 C-motivic/noncomplete indeterminacy inherited selected.
+- Queries: pi31/pi62 classical group and theta5 bracket full values, Xu general indeterminacy, 2025/26 synthetic/classical zero analog, Top^R dHI versus dIHC. No independent full group law or all-classical bracket result retrieved; no exhaustive indexed priority network. Do not imply no prior art exists.

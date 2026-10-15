@@ -243,3 +243,7 @@ Owner directs first proof of ordinary Top^R d_HI(F,G)>d_IHC(F,G) for frozen five
 
 ## S053 proof-first route after original source-category discovery
 T130 independently reconstructs T108 whole-real arbitrary both-lane G collapse, using original LS Prop4.5 and full strict equations. T131 reconstructs every e<5/4 conditional bracket contradiction, not endpoint. T132 recovers real diagram-homotopy e1 coherent path proof. **Decisive outstanding input:** Wang–Xu2017 Cor1.10 CLASSICAL bracket membership of nonzero θ5 ≠ zero excluded; IWX2023 Table10's nonzero **C-MOTIVIC** bracket under Theorem6.3 cannot be promoted to full classical nonvanishing without classical indeterminacy/Betti naturality. S054 ONLY targets that proof, whole zigzag conventions, exact Top-priority/HHA gate. No GRID/exact distance publication prerequisite, no Lean until theorem and first novelty pass.
+
+
+## S054 narrowed classical route (2026-10-15)
+Publication priority d_HI>d_IHC, not exact value. After S053 motivates class comparison, S054 obtains ORIGINAL Xu2016 general fourfold indeterminacy family upper bound A=<pi31,theta4,2>, B=<2,pi61,2>, C=<2,theta4,pi31>. Even pi61=0, B includes <2,0,2>=2*pi62; full pi62 group unknown here. A/C still uncomputed. Original Burklund–Isaksen–Xu2025/26 synthetic-to-classical zero example demands caution. No unconditional separation or novelty pass. S055 compute classical full ambiguity or explicit zero system; NOT GRID/dHI endpoint default.

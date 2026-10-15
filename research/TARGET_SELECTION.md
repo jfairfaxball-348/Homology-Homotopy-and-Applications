@@ -180,3 +180,7 @@ No promoted HHA headline. Three simultaneous nonmonic WE-tail image collisions a
 
 ## Current chosen paper target — binding owner decision 2026-10-15 AFTER S052
 **SELECTED CONDITIONALLY (not novelty-certified):** a counterexample to d_HI=d_IHC in ordinary persistent topological spaces from five spheres and point. Numerically proposed d_IHC=1, d_HI>=5/4, so strict gap if proof certified. This precise strict comparison, not exact d_HI, is the paper theorem to freeze. Positive publication decision still requires complete all-replacements proof and primary-source novel contribution beyond the Lanari–Scoccola 2020v1 anticipation, DKS/BJT higher operations, 2017/2023 published sphere calculations and later Top-specific research. Score currently **mathematical proof status INTERNAL_SOURCE_DEPENDENT; first novelty G2 NOT_STARTED; HHA suitability prospective, not approved**. Existing S052 target entry is historical and superseded as current research objective. See authoritative/PUBLICATION_TARGET.md.
+
+
+## S054 checkpoint (2026-10-15)
+Selected target remains original five-stage strict d_HI>d_IHC, exact dHI neither needed nor attempted. Indeterminacy now reduced by original classical Xu2016 §5 formula to two pi31 triple families and middle <2,pi61,2> with hidden 2*pi62 even if pi61=0. Full classical bracket zero-exclusion, naturality and G2 originality **OPEN**. No frozen theorem/Lean.

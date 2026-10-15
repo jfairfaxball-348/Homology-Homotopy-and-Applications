@@ -348,3 +348,11 @@ The programme followed exact GRID/endpoint/cofinal feasibility for several sessi
 
 ## S053 — prevent C-motivic-to-classical category slippage
 Theorem6.3 of IWX2023 is about **C-MOTIVIC stable** fourfold brackets, even though 2023 paper's title refers to spheres and the relevant word is the classical familiar <2,θ4,θ4,2>. Table10 specifically says its listed brackets avoid zero **in its motivic category** and admits only partial indeterminacy data where enough for its purpose. Wang–Xu2017 CLASSICAL θ5 membership alone is not CLASSICAL zero-exclusion. Adams filtration f2 vs f6 in motivic computations is NOT by itself a proof concerning all classical defining systems. Correct response: require full classical indeterminacy formula or rigorous Betti realization control before HHA proof gate; don't mistake a source-access category error for either a refutation or a theorem. Independently rechecked projective poset mono and quotient logic, and all five sample endpoint cuts, which remain positive conditional mathematics. Exact HI remains optional.
+
+
+## S054 — classical-category and middle-family nullity trap
+- False shortcut: Wang–Xu classical theta5 IN + IWX C-motivic nonzero ⇒ FULL classical bracket avoids 0. Incorrect without complete classical null-track transport (S053 carry-forward).
+- False shortcut: Xu2016 says theta4 fourfold words have zero indeterminacy ⇒ our theta5 fourfold also. Incorrect: Xu's proved ZERO applied DIFFERENT words with sigma.
+- False shortcut: pi61=0 ⇒ <2,pi61,2>=0. Incorrect: <2,0,2>=2*pi62 by standard triple indeterminacy. Check pi62 2-primary exponent before any elimination.
+- Source-backed analogous warning: Burklund–Isaksen–Xu Remark3.4 synthetic class detection with classical analogue CONTAINING zero. Not a theta5 counterexample.
+- Keep conditional all-replacements and derived IHC proofs accurately source-dependent. Never promote novelty/theorem gates based on historical LS open statement or static hosted CI.

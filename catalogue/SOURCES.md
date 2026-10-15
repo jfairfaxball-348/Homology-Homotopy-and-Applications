@@ -277,3 +277,9 @@ SRC-0096 STATEMENT_INSPECTED selected 2023 IWX Tables4 p214 h5 f1/n f5 and Table
 - **SRC-0083** original LS v3 arbitrary-poset Prop4.5 proof and interleaving definitions fresh selected PROOF_INSPECTED.
 - **SRC-0084** 2026 Springer dg-module equality is not universal ordinary Top^R. Original BJT/DKS/HKM proofs remain inherited selected/partial, with severe priority risk.
 Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Betti comparison or full Adams/Moss proof was checked.
+
+
+## S054 original primary sources (2026-10-15)
+- **SRC-0099 (PROOF_INSPECTED selected original):** Xu 2016 Geometry & Topology original publisher §5 Lemma5.1, https://msp.org/gt/2016/20-3/gt-v20-n3-p08-p.pdf pp1620–1621. General 4fold indeterminacy **contained** in three triple types. Xu's zero result belongs to OTHER theta4 words; target theta5 full zero unresolved.
+- **SRC-0100 (PROOF_INSPECTED selected original):** Burklund–Isaksen–Xu online2025 / vol2026 https://link.springer.com/article/10.1007/s42543-025-00098-y Lemma3.3 / Remark3.4: synthetic Toda class detected by Mh1 has different CLASSICAL analog containing zero. Methodological counter-control; target bracket still unknown. Exact source-grade limits in S054/PRIOR_ART.md.
+
