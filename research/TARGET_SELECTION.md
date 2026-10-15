@@ -184,3 +184,6 @@ No promoted HHA headline. Three simultaneous nonmonic WE-tail image collisions a
 
 ## S054 checkpoint (2026-10-15)
 Selected target remains original five-stage strict d_HI>d_IHC, exact dHI neither needed nor attempted. Indeterminacy now reduced by original classical Xu2016 §5 formula to two pi31 triple families and middle <2,pi61,2> with hidden 2*pi62 even if pi61=0. Full classical bracket zero-exclusion, naturality and G2 originality **OPEN**. No frozen theorem/Lean.
+
+## S060 first-target assessment
+Keep strict ordinary dHI>dIHC of fixed five-sphere chain as prospective HHA target, NOT frozen/paper-ready. Genuine intermediate k(eta theta4)=0 removes 1 of 3 mod2 basis unknowns; 2 remain, complete classic 4fold zero exclusion and 2026 priority/HHA review fail to close. BJM1984 prior art substantial; Sep2026 equivariant HI adjacent only. Exact distance not necessary; G1B/G2 not passed.

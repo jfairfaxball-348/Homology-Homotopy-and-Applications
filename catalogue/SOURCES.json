@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S059",
+  "as_of": "2026-10-15 S060",
   "sources": [
     {
       "id": "SRC-0001",
@@ -972,6 +972,24 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Snaith restates Browder's universal individual-class detection theorem; original detailed Browder geometry and all dependencies not reconstructed; not a classical Toda triple calculation.",
       "observed": "Printed p33 states Kervaire invariant one iff represented by h_j squared in classical Adams filtration2; Theorem9.2 p37 states individual nonzero-Kervaire element is represented by h_j squared. Thus filtration>=3 classes have zero Kervaire invariant."
+    },
+    {
+      "id": "SRC-0109",
+      "title": "Barratt–Jones–Mahowald, Relations Amongst Toda Brackets and the Kervaire Invariant in Dimension 62, JLMS (2) 30 (1984), 533–550",
+      "url": "https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/barjoma.pdf",
+      "origin": "Original printed paper, visual direct pp535 and 537; DOI 10.1112/jlms/s2-30.3.533",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected Lemma1.2 and §2 only; does not compute other two actual pi31 generators or our complete classical fourfold.",
+      "observed": "Printed p537 explicitly eta theta4 nonzero and not in 2pi31; blocked bracket word <theta4,2,theta4,2> DIFFERENT from target <2,theta4,theta4,2>."
+    },
+    {
+      "id": "SRC-0110",
+      "title": "Halder–Sau–Sen, Equivariant Homotopy Interleaving and Persistent Whitehead Theorem, arXiv:2609.23440 (2026)",
+      "url": "https://arxiv.org/abs/2609.23440",
+      "origin": "Original author abstract indexed 2026-10-15",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Equivariant G-space setting, full proof/citations not inspected; not priority evidence for unrestricted ordinary Top^R.",
+      "observed": "September 2026 equivariant homotopy interleaving, persistent Whitehead and equivariant nerve results."
     }
   ]
 }

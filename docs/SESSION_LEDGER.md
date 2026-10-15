@@ -143,3 +143,5 @@ T147 internally proves dual-character equivalent to S057 sufficient rank, not ac
 
 ## S059 — 15 October 2026
 Original Browder class-detection source and Snaith2009 printed pp33,37 directly inspected. S059-T149 **proves κ(P)=0** for product subgroup π31·π31⊂F4π62, because individual κ1 classes have permanent Adams h5² filtration2. S059-T150 consequently forms a genuine well-defined linear Kervaire functional on E/P; THREE classical outer triple bits remain UNKNOWN. Independently rechecked S043 derived ε1 path-lift/internal dIHC=1. Full classical 0-exclusion, HI all-replacements proof and exact Oct2026 novelty/HHA gate OPEN; no strict theorem, no Lean/external. See S059 dossier; S060 FUTURE only.
+
+| S060 | 2026-10-15 | Classical Barratt–Jones–Mahowald/Xu source calculation, 2-local Kervaire triple, strict Top^R and priority recheck | **T151:** genuine k(eta theta4)=0 on a nonzero pi31/2pi31 class (classical BJM p537, Xu theta4², pi61=0, S059 κ(P)=0). **T152:** different BJM fourfold word caution. Two complementary bits and whole classical 4fold/Top gap/novelty unresolved, no computational or formal verification. | sessions/S060/CLOSEOUT.md; S061 FUTURE ONLY |

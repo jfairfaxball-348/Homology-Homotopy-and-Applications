@@ -251,3 +251,6 @@ Publication priority d_HI>d_IHC, not exact value. After S053 motivates class com
 
 ## S055 — actual middle-family kill / next proof route
 At the prime2, original IWX2023 shows pi62=(Z/2)^4 hence B=<2,pi61,2>={0}; pi31=(Z/2)^2⊕Z/64. Outer triple indeterminacies are x*pi31. Conditional constructive sufficient goal: one Adams-filtration≥3 representative in EVERY outer triple, after independently checking Massey pages and crossings (Moss not an automatic all-values theorem). This would avoid theta5 filtration2, subject to complete Xu conventions; currently UNPROVED. Next S056 is classical A/C calculation or geometric zero defining system, full Top^R proof and novelty, NOT exact dHI/GRID optimisation.
+
+## S060 route
+First REAL classical 31-stem direction u=eta theta4≠0 in H/2H (BJM1984 p537) has exact Kervaire bit **k(u)=0** by q²=0, pi61=0, Toda eta-left-composition, S059 κ(P)=0. Pick a COMPLETE genuine complementary classical basis (u,v,w) before attempting remaining values k(v),k(w); no E2 h5 or rho31 top-tower assumption. Alternative: actual ALL-compatible classical fourfold <2,q,q,2> zero defining system or 0-exclusion. Retain all-real unpointed both-replacement topology and original publication priority audit. Not the BJM word <q,2,q,2>, no exact distance/GRID detour. S061 future only.
