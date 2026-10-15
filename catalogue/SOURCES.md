@@ -351,3 +351,12 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - **SRC-0118 PROOF_INSPECTED original selected:** https://arxiv.org/pdf/1809.07495 v1 §1.4–1.7 (Toda full-set), §4.9 coherent compatibility, §6.12 higher obstruction, §7.A pp31–35 explicit fourfold operation on chain in ho(E_*), Remark7.5 and Lemma7.6. Its definition gives ZERO if a compatible extension exists; no identified exact full Xu bracket convention equivalence theorem, reviewer crosscheck remains S068.
 - **SRC-0117 PROOF_INSPECTED already final Xu** https://msp.org/gt/2016/20-3/gt-v20-n3-p08-s.pdf §5 pp1620–21 SECOND full ordered 2-primary <2,σ²,σ²,2>={θ4} nonzero and zero indeterminacy; π29_(2)=0. Does NOT prove integral θ4/θ4 or new Top^R gap.
 - **SRC-0104 Sep2026 publisher original scoped to dg modules, NOT Top^R; SRC-0119/0120/0121 original abstracts/metadata only; SRC-0122 publisher abstract 2-category interleavings.** Current exact 2026 priority/citation database audit incomplete, G2 NOT PASSED.
+
+## S068 added original-source direct checks (15 October 2026)
+- **SRC-0119 upgraded PROOF_INSPECTED selected original** https://arxiv.org/pdf/1503.02265 §§4 Theorem4.21, Example4.28, Definition4.31 and Remark4.32: BBG long Toda construction preserves its own higher values under DK equivalence, but exact correspondence to Xu2016 standard conventional fourfold bracket remains unchecked.
+- **SRC-0117 original final publisher rechecked PROOF_INSPECTED** https://msp.org/gt/2016/20-3/gt-v20-n3-p08-s.pdf p1620–21 exact second palindromic 2-primary <2,σ²,σ²,2>={θ4}.
+- **SRC-0065 LS original Lemma3.8, §4 Prop4.5 rechecked** https://arxiv.org/pdf/2010.05378; §3 Remark3.13 2023 open only historically.
+- **SRC-0104** 12Sep2026 full accessible Springer introduction/Theorem3.3 field-dg statement https://link.springer.com/article/10.1007/s41468-026-00252-0, different category.
+- **SRC-0123 NEW ABSTRACT_INSPECTED** https://arxiv.org/abs/2609.23440 (20Sep2026) equivariant HI; original PDF failed, unverified possible collision.
+- **SRC-0124 NEW ABSTRACT_INSPECTED** https://arxiv.org/abs/2604.06800 rational Sullivan relative maps, different category.
+- **SRC-0122** 2026 AGT monoidal-action/2-category work remains not checked as exact gap. No all-citation/MathSciNet/zbMath priority pass.

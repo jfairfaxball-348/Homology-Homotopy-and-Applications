@@ -1,9 +1,9 @@
 {
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
-  "as_of": "2026-10-15 S066 executed; S067 FUTURE UNEXECUTED",
-  "last_completed_session": "S067",
-  "recommended_next_session": "S068",
+  "as_of": "2026-10-15",
+  "last_completed_session": "S068",
+  "recommended_next_session": "S069",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "S066 final published Xu2016 singleton 2-primary source confirmed; coherent dIHC and whole-WE HI quotient internally reconstructed; unpointed full 4fold transport/priority G2 OPEN",
   "selected_mathematical_problem": "Priority original five-sphere strict unpointed Top^R HI>IHC; new S065 may prove alternate closely related explicit sphere witness or genuinely novel whole-shoelace / homotopy-theoretic theorem plus unconditional application, recommending any change in official paper target to owner.",
@@ -1132,5 +1132,39 @@
     "external_actions": "NONE",
     "next": "S068 FUTURE UNEXECUTED",
     "outgoing": "VERIFY_POST_COMMIT_GITHUB"
+  },
+  "s068_checkpoint": {
+    "date": "2026-10-15",
+    "entry_main": "8c576a18f06b84398eeef63a74f8422b7eae6d41",
+    "entry_tree": "729863f39203c46d3e0b39240f01395b4824d35b",
+    "s067_authored": "9f0ab18a54ed873997e066d1a50c0f142e3b88b1",
+    "s067_pr": 70,
+    "s067_merge": "8c576a18f06b84398eeef63a74f8422b7eae6d41",
+    "s067_merge_parents": [
+      "b6d11a88e9c6c8a9be07d8f0fe7ab50036caab10",
+      "9f0ab18a54ed873997e066d1a50c0f142e3b88b1"
+    ],
+    "hosted_s067_pr_static": {
+      "run": 38781705275,
+      "job": 116583285583,
+      "steps": 7,
+      "conclusion": "success"
+    },
+    "hosted_s067_main_static": {
+      "run": 38781777776,
+      "job": 116583548029,
+      "steps": 7,
+      "conclusion": "success"
+    },
+    "mathematics": "Internal alternate dIHC1; conditional classical dHI≥5/4 and unresolved Xu conventional bracket versus BBG/BJT precise ZERO dictionary; no discovered countermodel.",
+    "prior_art": "Xu2016, LS2023, BBG2016 original inspected; 2026 dg/Sullivan/equivariant scoped; full citations/MathSciNet/zbMath unverified.",
+    "original_flagship": "UNPROVED_UNCHANGED",
+    "owner_switch": "NOT_APPROVED",
+    "gate1B": "ORIGINAL_OPEN_ALTERNATE_INTERNAL_ONLY",
+    "gate2": "NOT_PASSED",
+    "formalisation": "NOT_AUTHORISED",
+    "external_actions": "NONE",
+    "next": "S069 FUTURE UNEXECUTED",
+    "outgoing": "VERIFY_LIVE_GITHUB_POSTMERGE"
   }
 }

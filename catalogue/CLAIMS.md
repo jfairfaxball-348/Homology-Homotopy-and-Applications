@@ -493,3 +493,10 @@ See S038 full dossier and JSON scope.
 - **CLM-0342 PROGRAMME_PROVED:** A strict based five-term chain with literal zero doubles has a conventional compatible ZERO 4fold; standard full 4fold ZERO membership invariant under Ho-chain isomorphisms; one-way Σ∞ ZERO transfer to Xu stable 2-primary.
 - **CLM-0343 PROGRAMME_PROVED:** S066 derived/whole-shoelace/clock + S067 zero transport + final Xu ⇒ alternate 2-local ordinary unpointed Top^R dIHC=1<5/4≤dHI, INTERNAL argument only, no Lean/referee/HHA-originality certificate.
 - **CLM-0344 INHERITED_UNVERIFIED:** G2 current originality/HHA remains NOT PASSED; owner original θ4/θ4 integral word and k(j)/k(v) unresolved, no target switch.
+
+## S068 referee-grade statuses (15 October 2026)
+- **CLM-0345 SOURCE_STATED:** original BBG higher Toda Theorem4.21 and Definition4.31 inspected; its own invariance, NOT proved literal conventional Xu correspondence.
+- **CLM-0346 PROGRAMME_PROVED:** exact c=2e−2 sampled five-clock arithmetic with strict e<5/4; no boundary overclaim.
+- **CLM-0347 INHERITED_UNVERIFIED:** precise Xu classical conventional ZERO vs BBG/BJT ZERO dictionary and all-WE model appendix not separately certified; alternate metric gap internal source-dependent.
+- **CLM-0348 SOURCE_STATED:** 2026 dg-field equality and equivariant HI abstract have distinct scopes.
+- **CLM-0349 INHERITED_UNVERIFIED:** HHA G2 novelty/prior art not passed, original integral owner target unsolved/no switch, no Lean.
