@@ -471,3 +471,11 @@ See S038 full dossier and JSON scope.
 - **CLM-0323 INHERITED_UNVERIFIED:** LS triple nonrectification is not exact higher fourfold all-unpointed two-whole-WE real transport; strict HI>IHC still NOT PROVED. SRC-0065/0083/0094.
 - **CLM-0324 SOURCE_STATED:** 2026 JACT DG equalities and 2026 AGT monoidal/2-categorical generalization NOT verified ordinary Top^R HI/IHC solution; selected source-grade caveats. SRC-0104/0113.
 - **CLM-0325 INHERITED_UNVERIFIED:** eleven-session proof route LOW readiness HIGH risk; G1B/G2 NOT PASSED; explicit owner continue/retire/pause decision requested; S064 future A-conditional only.
+
+## S064 — genuine Moss-crossing audit and hard-gated classical continuation (15 Oct 2026)
+- **CLM-0326 SOURCE_STATED:** Wang–Xu E3 θ5 member of ordered classical <2,q,q,2>, NOT full zero exclusion. SRC-0094.
+- **CLM-0327 SOURCE_STATED:** IWX Table10 h5n is C-motivic bidegree indeterminacy and E2 n/h5 d2 caveat; no automatic classical all-system list. SRC-0101.
+- **CLM-0328 SOURCE_STATED:** Belmont–Kong 2025 original Moss statement requires precise crossings and yields SOME bracket member; Wang–Xu original 51-stem Remark2.3 documents error when E3 Massey product also contains 0. SRC-0114/0115.
+- **CLM-0329 PROGRAMME_PROVED (INTERNAL, S053 reconstruction):** whole-shoelace projective monic Q, weak-contractible cross-image quotient and five-time propagated based strict-zero sample imply any ε<5/4 strict both-whole-WE interleaving produces classical stable 4fold ZERO member, conditional on standard 4fold invariance and high suspension identification. NO classical target zero OUT result.
+- **CLM-0330 INHERITED_UNVERIFIED:** k(u)=0 inherited; k(j),k(v), target complete 0-in/out UNKNOWN; no new classical bit or theorem freeze.
+- **CLM-0331 INHERITED_UNVERIFIED:** G1B/G2 remain OPEN; S065 FUTURE EVIDENCE-GATED, no automatically repeated classical algebra/clock session or external acts.

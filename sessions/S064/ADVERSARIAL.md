@@ -1,0 +1,13 @@
+# S064 ADVERSARIAL — hostile checks and blocked escape routes
+
+1. A nonzero Wang–Xu θ5 bracket member does NOT exclude literal zero from another *compatible* classical fourfold defining system. 'Strictly defined' ≠ singleton (their Lemma12.6).
+2. IWX C-motivic E2 generator n at stem31 filtration5 and Table10 h5n are not automatically classical E∞, let alone complete classical fourfold indeterminacy after inversion. h5 is killed by d2, not a stable representative.
+3. Xu2016 theta4 **examples** with zero indeterminacy are categorically not our theta5 bracket; generic A/B/C inclusion is not an exhaustive identity of compatible value sets. For degree (0,30,30,0), A/C remain non-computed despite π61=0.
+4. Belmont–Kong Theorem1.1 demands permanent cycles, product-zero and crossing differentials in correct degrees and only promises *one* convergent permanent class; Wang–Xu's 51-stem Remark2.3 is an ORIGINAL countercontrol to promoting E_r Massey notation to all actual Toda values.
+5. Claim 'π31 has filtration at least5' is false as a general shortcut because u=ηθ4 (nonzero mod2) exists with expected low Adams filtration; names/order of j, n do not construct compatible nulltracks. No k(j)/k(v) bit was computed.
+6. Projective Q of the **whole** unpointed shoelace, not separately of F and G: check every projective arrow mono, each contractible V_u↪QF_u cofibration, left properness of quotient, V naturality, all real times and cutoff e; otherwise quotient-by-nonmonic-image fails.
+7. Propagating a basepoint from Y0 across the FOUR adjacent sampled arrows makes every arrow based and all 2-steps *strict* zero after quotient; but this is a necessary classical zero-*membership* statement, not a theorem that zero is impossible. Pointing original zigzags needs connected/simply connected stage spaces; no pointwise Ho(Top)^R replacement.
+8. For 1≤e<5/4, c=2e−2 in [0,1/2) and t4=4+2c<5; at endpoint e=5/4 the last sampled stage is point, no exclusion. e<1 only via strict monotonicity and derived comparison.
+9. S043 derived dIHC=1 needs two successive path fibration corrections with π61=0; no Lean/Palomar build performed.
+10. Priority: LS2023 posing an open question does not guarantee 2026 originality; 2025 synthetic θ5κbar nonzero bracket has wrong word and 2026 dg equality is a different category. The flagship lacks source-complete current HHA fit/novelty.
+11. Escalation: no actual classical compatible 0-filler nor full zero-out; do not consume S065 repeating the same algebra without new evidence. Owner selected CONTINUE in this session, but no authority for indefinite source churn or automatic target change.

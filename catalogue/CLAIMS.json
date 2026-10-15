@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S063 bounded proof and original-source scoped decision",
+  "as_of": "2026-10-15 S064 original Moss theorem and 4fold zero transport audit",
   "claims": [
     {
       "id": "CLM-0001",
@@ -3179,6 +3179,68 @@
         "SRC-0104"
       ],
       "scope": "Programme route decision / gating, not a claim of mathematical impossibility or non-originality."
+    },
+    {
+      "id": "CLM-0326",
+      "status": "SOURCE_STATED",
+      "claim": "Original Wang–Xu2017 Cor1.10 proves θ5 membership in ordered <2,θ4,θ4,2> using E3 fourfold Massey h5² and Moss, not literal classical all-system zero exclusion.",
+      "sources": [
+        "SRC-0094"
+      ],
+      "scope": "Original printed p4 selected proof."
+    },
+    {
+      "id": "CLM-0327",
+      "status": "SOURCE_STATED",
+      "claim": "IWX2023 h5n target indeterminacy is listed in C-motivic bidegree (62,32) Table10; h5 has nonzero d2 and n is E2. This does not determine the full classical ordered 4fold bracket.",
+      "sources": [
+        "SRC-0101"
+      ],
+      "scope": "Original Tables4/10 PDF pp107/123 visually inspected; no full classical Betti/Moss convergence/crossings."
+    },
+    {
+      "id": "CLM-0328",
+      "status": "SOURCE_STATED",
+      "claim": "Belmont–Kong2025 Theorem1.1 guarantees some permanent Massey cycle converges to a Toda member only with exact weak convergence, product-null and crossing hypotheses. Wang–Xu 51-stem Remark2.3 gives a concrete failed earlier extension inference from unhandled motivic Massey indeterminacy with zero.",
+      "sources": [
+        "SRC-0114",
+        "SRC-0115"
+      ],
+      "scope": "Original Theorem statement and Wang–Xu original selected proof/remark; no target κ(j)/κ(v) computation."
+    },
+    {
+      "id": "CLM-0329",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Independent S064 T165 reconstruction of S053: one projectively cofibrant whole unpointed shoelace Q and quotient by monic weakly contractible point-lane images gives whole-diagram objectwise WEs and strict length-2ε zero maps at nonnegative times; 1<=ε<5/4 sampled four-arrow chain has three literal zero two-arrow composites and hence zero is a member of its ordinary 4fold Toda bracket. Depends on standard sSet left properness and based/stable homotopy-invariance.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0094"
+      ],
+      "scope": "Internal re-audit of S053 T130/T131, NOT new original theorem; implication to target classical zero uses standard 4fold value-set invariance and stable suspension; cannot prove dHI lower without zero-exclusion."
+    },
+    {
+      "id": "CLM-0330",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S064 genuinely added no classical κ-basis value: k(ηθ4)=PROVED0 inherited, k(j),k(v)=UNKNOWN and complete classical 0 in/out of <2,θ4,θ4,2>=UNKNOWN.",
+      "sources": [
+        "SRC-0094",
+        "SRC-0099",
+        "SRC-0101",
+        "SRC-0114",
+        "SRC-0115"
+      ],
+      "scope": "No E∞-Moss target crossing certificate nor cofiber nulltracks. No strict gap."
+    },
+    {
+      "id": "CLM-0331",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S064 strict dHI>dIHC G1B not passed, up-to-2026 current novelty/HHA application G2 not passed; S065 future evidence-gated and blocked without new classical input or explicit owner proof strategy.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0104",
+        "SRC-0115"
+      ],
+      "scope": "Hard-stop governance and proof status; no finding of impossibility or lack of priority."
     }
   ]
 }

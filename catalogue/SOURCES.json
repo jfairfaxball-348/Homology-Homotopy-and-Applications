@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15 S063 original LS/Xu/Wang source and 2026 scope audit",
+  "as_of": "2026-10-15 S064 original Moss convergence indeterminacy and bounded strict-gap stop",
   "sources": [
     {
       "id": "SRC-0001",
@@ -1017,6 +1017,24 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Indexed original publisher summary, full paper proofs and every exact theorem not checked; no verified unrestricted plain Top^R HI/IHC resolution from this source.",
       "observed": "Three interleaving distance constructions using monoidal actions and 2-categories; adjacent to homotopy interleaving comparisons."
+    },
+    {
+      "id": "SRC-0114",
+      "title": "Guozhen Wang and Zhouli Xu, Some extensions in the Adams spectral sequence and the 51-stem, author-archived original paper",
+      "url": "https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/wang-xu-51.pdf",
+      "origin": "Original author-archived paper PDF, 15 pages, selected pp3–5 visually/text inspected Oct2026",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected original pp3–5 only; 51-stem/Moss-indeterminacy example is NOT a classical θ5 target triple computation.",
+      "observed": "Remark2.3 explains an incorrect earlier inference from an E3 motivic Massey product because its indeterminacy includes both the target and zero; Moss yields only one convergent permanent cycle."
+    },
+    {
+      "id": "SRC-0115",
+      "title": "Eva Belmont and Hana Jia Kong, A Toda Bracket Convergence Theorem for Multiplicative Spectral Sequences, Peking Mathematical Journal (2025)",
+      "url": "https://link.springer.com/article/10.1007/s42543-025-00099-x",
+      "origin": "Original Springer open access full-text theorem and intro accessed 15 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Theorem1.1/4.11 and assumptions selected, entire technical proof not audited; no classical target crossing-differential computation completed.",
+      "observed": "Permanent cycle/Massey bracket correspondence assumes weak convergence, products zero on E_r and precise crossing differential hypotheses and guarantees an element of a Toda bracket, NOT all possible choices."
     }
   ]
 }
