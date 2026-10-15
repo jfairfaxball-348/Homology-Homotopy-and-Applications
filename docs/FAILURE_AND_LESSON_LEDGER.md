@@ -362,3 +362,9 @@ Theorem6.3 of IWX2023 is about **C-MOTIVIC stable** fourfold brackets, even thou
 - Correct arithmetic: pi62_(2) has order16 AND exponent2 (four Z/2's); this resolves S054's 2*pi62 uncertainty and annihilates B at prime2. Odd pi62 Z/3 means not integrally. An integral zero defining system localizes; for exclusion, 2-local control suffices.
 - New near-miss: pi31 Adams filtration≥2 and theta5 filtration2 do NOT alone force outer triple Toda representatives to lie filtration≥3. Moss has crossing conditions and guarantees one suitable value, not every value; specific representatives must be produced or excluded with classical chart. Triple primary indeterminacy product x*pi31 filtration≥4 is useful only AFTER such a representative exists.
 - Never freeze ordinary Top^R strict gap or claim HHA novelty from the group-law calculation, selective search, or static CI.
+
+
+## S056 — quotient reductions are not Toda calculations
+- Reversal under stable Spanier–Whitehead duality only identifies OUTER TRIPLE families; it is not duality for arbitrary unpointed Top^R persistence replacements.
+- Fixing a q·2 null track and considering triple residues modulo all pi31*pi31 products makes the secondary operation additive; target has exponent2, so test at three mod-2 basis generators. This does **NOT** identify any actual generator, prove filtered null-track existence, establish that the bracket is {0}, or prove the complete classical fourfold excludes zero.
+- Hidden Adams extensions and original Moss crossing analysis still required; no filtration-from-inputs shortcut. Search did not pass novelty gate. No exact HI/GRID detour.
