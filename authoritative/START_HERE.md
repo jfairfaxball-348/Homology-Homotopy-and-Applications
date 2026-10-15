@@ -91,3 +91,7 @@ Read [PUBLICATION_TARGET.md](PUBLICATION_TARGET.md) and the revised [S053 prompt
 
 ## S053 checkpoint (15 October 2026)
 Read `sessions/S053/MATHEMATICS.md`, `sessions/S053/PRIOR_ART.md`, `sessions/S053/ADVERSARIAL.md`. T130 full-real all-replacements shoelace reduction independently reconstructed; T131 correct strict e<5/4 conditional clocks; T132 derived coherent IHC=1 with published stem. **New source-category issue:** Wang–Xu2017 classical Cor1.10 says theta5 in bracket, while IWX2023 §6 nonzero Table10 concerns **C-motivic** bracket with not necessarily full indeterminacy. Classical full zero-exclusion is NOT independently certified by those citations. Stage1 OPEN; G2 now actively audited but NOT PASSED; all downstream gates closed. No exact dHI prerequisite. S054 FUTURE/UNEXECUTED.
+
+
+## S061 checkpoint (15 October 2026)
+S060 normal PR #62 merge and PR/postmerge hosted STATIC governance observed at entry. S061-T153 actual 2-primary image-of-J j order64 independent of u=eta theta4 modulo2, standard Adams source only SECONDARY_ONLY. Neither remaining k(j),k(v) computed; classical ordered fourfold 0 status unknown. No complete strict unpointed arbitrary whole-WE HI>IHC or exact originality/HHA gate. S062 FUTURE ONLY, no formalisation/publishing. Retain T66/1981, strict R5 16471 OPEN, retired Hopf/T84.

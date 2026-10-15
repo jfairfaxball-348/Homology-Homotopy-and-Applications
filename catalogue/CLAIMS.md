@@ -451,3 +451,9 @@ See S038 full dossier and JSON scope.
 - **CLM-0309 SOURCE_STATED:** BJM non-definable <theta4,2,theta4,2> is DIFFERENT from our <2,theta4,theta4,2>.
 - **CLM-0310 INHERITED_UNVERIFIED:** TWO complementary bits and full fourfold/Top/novelty still unknown; G1B/G2 OPEN.
 - **CLM-0311 SOURCE_STATED:** contemporary equivariant 2026 and DG/CDGA sources adjacent, no exact Top result or priority clearance.
+
+## S061 (2026-10-15)
+- **CLM-0312 PROGRAMME_PROVED relative secondary-only theorem:** true order64 image J class j independent mod2 of u=eta theta4; not κ evaluation.
+- **CLM-0313 SOURCE_STATED:** IWX h5 killed by d2; n E2 not classical surviving basis by assumption.
+- **CLM-0314 INHERITED_UNVERIFIED:** k(j),k(v), classical fourfold zero membership, ordinary whole-WE strict gap, novelty/HHA OPEN.
+- **CLM-0315 SOURCE_STATED:** Sep2026 DG theorem different category. No Lean/Palomar/manuscript/publishing.

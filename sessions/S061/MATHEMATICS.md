@@ -1,0 +1,31 @@
+# S061 MATHEMATICS — identify genuine 31-stem image-of-J direction; complementary k values STILL UNKNOWN
+
+## Fixed statement and evidence level
+As S060, F is empty before 0, then five unit half-open stages S^160 --2--> S^160 --q=theta4--> S^130 --q--> S^100 --2--> S^100, point at t>=5; G empty before 0 and point thereafter. Need **strict** d_HI(F,G)>d_IHC(F,G) in ordinary UNPOINTED Top^R allowing **arbitrary whole-diagram objectwise weak-equivalence replacements of BOTH inputs**. Exact d_HI and GRID unnecessary. Prior internal d_IHC=1 and conditional d_HI>=5/4 persist but G1B/G2 not passed.
+
+Write H=pi_31^S(2)=Z/64 ⊕(Z/2)^2, E=pi_62^S(2)=(Z/2)^4, pi_61^S(2)=0, q^2=0, 2q=0; sourced to IWX2023/Xu2016. In S060, u=eta q is a **nonzero element mod 2H** of order2 by BJM1984 p537; using classical Toda left-composition and S059 kappa(H·H)=0 proves k(u)=0. No other k bit proved.
+
+## S061-T153: a SECOND ACTUAL independent mod-two CLASS of H, not a second k evaluation
+The classical Adams image-of-J theorem (with completed Adams conjecture) gives the **2-primary cyclic image** of J in stem 4m−1 of order equal to the 2-part of the denominator of B_(2m)/(4m). Here 31=4·8−1 and B16=−3617/510, so B16/32=−3617/16320 with 16320=2^6·3·5·17. Therefore the 2-primary image has order 64. Choose an actual j=J_31 generator of this image; j has exact order64. Its image modulo 2H has nonzero coordinate in the Z/64 quotient: any element of order64 of H=Z64⊕Z2² projects to an odd element in the Z64 summand.
+
+Since u has order2, its Z64 coordinate belongs to {0,32}, both divisible by2. By BJM u∉2H, the image of u in H/2H has a nonzero Z2² coordinate, while the image of j has nonzero Z64 coordinate. Thus **u+2H and j+2H are linearly independent** over F2. A third complementary mod2 class v+2H exists by dim_F2(H/2H)=3. This determines a **named, geometric actual stable homotopy generator for the cyclic 64 component** rather than assuming E2 h5 or n gives it. The original Adams–Quillen image-J theorem itself was *not* re-proved or inspected from an original page this session: this is a PROGRAMME_PROVED conditional deduction from the established classical theorem; original-source grade for this new import is SECONDARY_ONLY, not source-proof cleared.
+
+Independence DOES NOT compute k(j). It merely changes the unknown vector labels to (j,v) after k(u)=0. No actual stable representative for v nor nullhomotopy tracks of j q or v q were constructed.
+
+## S061-T154: no invalid Adams E2 to classical generator upgrade
+IWX2023 original arXiv PDF Table4 printed p101/PDF p107: class h5 at (31,1,16) has d2=h0 h4^2, so **h5 is not a stable representative**; generator symbol n at (31,5,17) has blank d2 entry but this only states d2(n)=0 in its *C-motivic Adams E2* table. It does NOT prove n survives all higher differentials and hidden 2-extensions, nor that it is the missing Z2 basis element after passage to classical stems. The group decomposition plus image J and u proves existence of v abstractly; no chart-grade v was identified. This is source clarification, not an evaluated homotopy operation.
+
+For every x∈H the classical threefold bracket <x,q,2> is defined because pi61(2)=0 and q·2=0. Its primary indeterminacy xH+2E⊂P=H·H; S059 shows kappa(P)=0. Consequently k(x)=kappa(b_x) is independent of triple representative and linear H/2H→F2 (S056/S059). Actual outputs:
+   k(u)=0 [S060 T151]; k(j)=UNKNOWN; k(v)=UNKNOWN.
+Neither a filtration lower-bound guess nor one motivic Moss-detected value supplies ANY classical compatible nulltrack for j/v. A direct triple computation is still mandatory.
+
+## S061-T155: ordered fourfold zero exclusion/constructive zero NOT obtained
+BJM1984 printed p537 precludes a different ordering <q,2,q,2>, not our <2,q,q,2>. IWX2023 Table10 printed p117/PDF123 gives the **C-motivic** row (62,32) <2,q,q,2> detected h5^2, displayed indeterminacy h5 n; this is not a complete classical indeterminacy list after Betti realization. Wang–Xu2017 Cor1.10 gives **membership** theta5, not assertion 0 is excluded. Xu2016 Lemma5.1 compatible differences involve outer triples over H; since k(j), k(v) remain unmeasured, even κ's sufficient test cannot close. Independently no full choice of nulltracks/tertiary compatible filler placing zero in the target classical bracket was exhibited. A triple zero for eta q does not supply a fourfold zero. No deduction about zero membership/nonmembership is justified. This is a mathematically exact OPEN status, not a "probably nonzero" proof.
+
+## Independent Top^R hostile cross-check
+At epsilon in [1,5/4), write c=2epsilon−2∈[0,1/2); select t=(0,1,2+c,3+c,4+2c). Then differences t2−t0=t3−t1=t4−t2=2epsilon and all t_i sit strictly before 5, including t4=4+2c<5. At epsilon=5/4, t4=5 and the relevant stage is point; no >5/4 inference. For epsilon<1 use monotonicity plus the existing e=1 derived lower bound, not the c-sample. For t<0 one must respect empty-to-empty/empty-to-nonempty morphisms.
+
+S053's projective cofibrant **shoelace whole-diagram** monomorphism/weakly-contractible-cross-image quotient is the inherited conditional mechanism to address arbitrary nonmonic F', contractible nonpoint G', both naturality constraints and both interleaving identities; this session did NOT supply an independently reconstructed point-set functorial proof for all real crossings nor an original DKS/HKM/BJT theorem identifying fourfold Toda transport under the exact compatible systems. Therefore the full unpointed all-WE implication still needs independent source-complete refereeing. The S043 two SUCCESSIVE rel-endpoint lifts in derived [2], pi161(S100)=pi61^S=0, and real left Kan provide internally d_IHC=1, not independent machine formalization/refereeing.
+
+## Honest decision
+There is one *additional* actual classical basis direction j, NOT an additional k bit. G1B OPEN: k(j),k(v), classical full-compatible fourfold 0-exclusion or 0-construction and source-exact Top^R transport remain outstanding. G2 OPEN: exact result-level priority and indispensable HHA novelty not certified. NO freeze, Lean, Palomar, manuscript, arXiv, journal, contact. Frozen T66/1981 full primitive+composite Q/all Fp/coherent Z caveat, 16,471 R5 OPEN, retired Hopf and T84 retained.

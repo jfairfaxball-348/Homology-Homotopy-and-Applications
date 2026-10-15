@@ -194,3 +194,6 @@ Stage1 continues; originality/HHA Gate2 NOT_STARTED. Contractible product T127/T
 - G3/G4/G6 NOT STARTED; G5/G7/G8 OWNER GATED; no exact HI/GRID prerequisite. T66/1981 R5 16471 and retired Hopf/T84 frozen; S060 future.
 
 - **S060 (2026-10-15):** G1B IN_PROGRESS with first genuine nonzero classical Kervaire/Toda generator direction PROVED zero relative published inputs; two complementary bits UNKNOWN; full classical 4fold zero exclusion and all arbitrary-unpointed Top^R strict HI>IHC NOT proved. G2 contemporary originality/HHA NOT PASSED, G3/G4 NOT STARTED, external gates OWNER_GATED. S061 future only; exact dHI not required.
+
+
+- **S061 15Oct2026:** G1B IN_PROGRESS, NOT PASSED: actual image-J j direction certified conditional on standard theorem, but k(j),k(v) NOT evaluated, full classical all-defining-system ordered fourfold and ordinary unpointed arbitrary both-whole-WE strict dHI>dIHC UNPROVED. G2 novelty/HHA NOT PASSED (image-J original only secondary, current full literature incomplete). G3/G4 NOT STARTED, Palomar/arXiv/HHA owner gated. S062 FUTURE, exact dHI/GRID not prerequisite.
