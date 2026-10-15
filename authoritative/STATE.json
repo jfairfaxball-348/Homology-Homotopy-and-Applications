@@ -1,14 +1,14 @@
 {
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
-  "as_of": "2026-10-15 S063 completed: published HI/IHC open-question scope checked; no new classical Toda bit, proof route owner decision requested",
-  "last_completed_session": "S063",
-  "recommended_next_session": "S064",
+  "as_of": "2026-10-15 S064 complete: A-continuation genuine Moss/original-classical hard gate failed; conditional whole-shoelace transport rechecked; S065 EVIDENCE-GATED",
+  "last_completed_session": "S064",
+  "recommended_next_session": "S065",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S063 bounded proof audit: LS2023 explicitly left HI!=IHC open; Xu Lemma5.1 zero cases are theta4, not target theta5; all-classical fourfold, k(j),k(v), all-WE transport, strict HI>IHC unresolved.",
-  "selected_mathematical_problem": "Owner route decision required: (A) continue exact five-sphere classical Toda strict ordinary unpointed Top^R HI>IHC proof with hard classical calculation and full WE-transport; (B) retire/pivot explicitly; (C) pause.",
-  "headline_status": "S063_COMPLETE__NO_NEW_CLASSICAL_BIT__STRICT_GAP_UNPROVED__OWNER_ROUTE_DECISION_REQUESTED",
-  "active_campaign": "S064 FUTURE UNEXECUTED, DECISION-GATED: only A-continuation of exact five-sphere classical fourfold proof, otherwise halt/pivot on owner's instruction.",
+  "headline": "S064 original Adams/Moss caveat: no missing κ bits or all-classical fourfold zero determination, whole-WE pointwise quotient necessary zero reduced conditionally; G1B/G2 open.",
+  "selected_mathematical_problem": "Current fixed strict ordinary unpointed Top^R HI>IHC five-sphere flagship CONTINUES under owner choice A, but further consecutive proof sessions blocked until decisive classical zero-in/out or k(j)/k(v) evidence, with full whole-WE invariant and G2 audit.",
+  "headline_status": "S064_COMPLETE__CLASSICAL_BIT_0_ADDITIONAL__HARD_STOP__S065_EVIDENCE_GATED",
+  "active_campaign": "S065 FUTURE UNEXECUTED / BLOCKED pending genuine additional classical 31/62-stem compatible defining-system evidence or new explicit owner strategy; no indefinite churn.",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__S063_NO_DECISIVE_TODA_CALCULATION__OWNER_ROUTE_DECISION_REQUIRED"
+      "status": "IN_PROGRESS__S064_CLASSICAL_4FOLD_UNKNOWN__S065_EVIDENCE_GATE"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "IN_PROGRESS__S063_SOURCE_SCOPE_ONLY__G2_NOT_PASSED"
+      "status": "IN_PROGRESS__S064_G2_NOT_PASSED"
     },
     {
       "id": 3,
@@ -1008,5 +1008,32 @@
     "no_new_k_bit": true,
     "external_actions": "NONE",
     "next": "S064 FUTURE DECISION-GATED UNEXECUTED"
+  },
+  "s064_checkpoint": {
+    "date": "2026-10-15",
+    "owner_choice": "A_CONTINUE",
+    "entry_main": "7edd541726ff2b2017961a331b643893edcbd343",
+    "entry_tree": "61602888aa7fd31994e4b73b6ace6516998c0170",
+    "previous_s063_authored": "b990c182bfbf3515f24085e31c0ca164eef44056",
+    "previous_s063_pr": 65,
+    "previous_s063_merge": "7edd541726ff2b2017961a331b643893edcbd343",
+    "previous_s063_merge_parents": [
+      "7a696a355ae77acf95fae8273ee09a37f73302a2",
+      "b990c182bfbf3515f24085e31c0ca164eef44056"
+    ],
+    "previous_s063_pr_workflow": 38752119279,
+    "previous_s063_main_workflow": 38752212314,
+    "mathematics": "S064 T164 primary Moss source checks and 2017 concrete indeterminacy countercontrol; no new κ values; S053 whole-shoelace necessary classical-zero transport independently reconstructed internally T165; target classical zero unknown.",
+    "k_bits": {
+      "eta_theta4": "PROVED_ZERO_INHERITED",
+      "image_J": "UNKNOWN",
+      "third_v": "UNKNOWN"
+    },
+    "classical_zero": "UNKNOWN",
+    "unpointed_strict_gap": "UNPROVED",
+    "gate1B": "OPEN",
+    "gate2": "NOT_PASSED",
+    "stop_rule": "S065 FUTURE BLOCKED WITHOUT GENUINE NEW CLASSICAL INPUT OR OWNER STRATEGY",
+    "external_actions": "NONE"
   }
 }

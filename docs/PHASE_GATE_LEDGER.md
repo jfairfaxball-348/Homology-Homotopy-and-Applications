@@ -202,3 +202,6 @@ Stage1 continues; originality/HHA Gate2 NOT_STARTED. Contractible product T127/T
 
 
 - **S063 15Oct2026:** G1B IN_PROGRESS, NOT PASSED: zero actual new classical k computations (u=0 inherited, j and v UNKNOWN); full classical <2,q,q,2> target 0 status and exact arbitrary both-whole-WE unpointed Top^R transport remain OPEN. Source discovery LS2023 Remark3.13 directly poses HI!=IHC as OPEN at its time, not a current theorem. Xu2016 Lemma5.1 *worked* zero-indeterminacy concerns θ4 and cannot certify our θ5. G2 NOT PASSED: 2026 scoped DG and 2-categorical work distinguished but exact current citations and indispensable application unverified. Owner route decision REQUESTED; S064 FUTURE DECISION-GATED. Lean/PALOMAR/manuscript/external untouched; exact dHI/GRID not prerequisite.
+
+
+- **S064 15Oct2026 owner choice A:** G1B IN PROGRESS NOT PASSED: original Wang–Xu member and IWX motivic h5n not classical zero exclusion; no k(j),k(v) or complete defining-system 0. Whole unpointed all-WE point-set quotient reaudited INTERNAL T165, but universal classical zero OUT remains missing. G2 NOT PASSED (no complete 2026 cited-by/indispensable application review). G3/G4/G6 NOT STARTED; G5/G7/G8 OWNER GATED. S065 FUTURE EVIDENCE-GATED/BLOCKED, not an automatic unbounded classical session. No exact dHI or GRID prerequisite, no Lean/Palomar/manuscript/outreach.
