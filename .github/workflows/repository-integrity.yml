@@ -12,4 +12,5 @@ jobs:
           python-version: "3.12"
       - name: Static governance/catalogue validation
         run: python3 scripts/validate_repository.py
-
+      - name: Mandatory next-session handoff validation
+        run: python3 scripts/session_handoff.py --check
