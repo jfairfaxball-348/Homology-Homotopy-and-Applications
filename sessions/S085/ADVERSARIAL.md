@@ -1,0 +1,6 @@
+# S085 ADVERSARIAL
+1. Actual failed overclaim: S084 "Kochman constant zero system" for arbitrary X_i was ill-typed under Kochman's original Def2.2.1 E_i=S intermediate condition. The generalized cone constant-face observation still holds, but cannot be used as a typed Xu classical zero without transport. Explicitly amend CLM-0417.
+2. Failure to obtain backward-leg compatible based edge prisms P_i, two secondary fillers and terminal G04 three-face equality is NOT an exhibited first noncommuting face nor an A counterexample.
+3. Whole-real strict HI counterinterleaving e<5/4 on arbitrary F',G' with both shift identities NOT constructed. S073 DGA selected-primary toy cannot disprove a full complete operation. e=5/4 clock boundary invalid.
+4. B guard: cyclic m_N itself documented in Magma and is NOT an original mathematical discovery. S078 all-N arbitrary defining systems and whole-real both-lane quotients not independently checked by the finite S085 checker. A field theorem does NOT imply equality over nonsemisimple B_N; only semisimple Morita transport is plausible. Demand S086 hostile proof, new substantive application, 2026 source-level novelty test.
+Result: A STILL OPEN (not refuted). B prospective with explicit owner authority, no claim that B is HHA-worthy yet.

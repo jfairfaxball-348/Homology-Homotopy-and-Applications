@@ -4098,12 +4098,12 @@
     },
     {
       "id": "CLM-0417",
-      "status": "PROGRAMME_PROVED",
-      "claim": "For a strict based FIVE-chain whose three adjacent double composites are literally constant based maps, the suspended diagram has a complete ZERO Kochman five-filler defining system with all primaries and both secondaries constant and terminal 3-face sphere map zero.",
+      "status": "HEURISTIC",
+      "claim": "CORRECTED S085: for arbitrary strict pointed 5-space chains with literally zero double composites, the five constant fillings satisfy formal generalized cone boundary incidence; this is NOT by itself a Kochman Def2.2.1 classical defining system because his intermediate spectra E_i=S. No Xu zero transport established.",
       "sources": [
         "SRC-0168"
       ],
-      "scope": "Narrow same-pointed-chain lemma; not arbitrary equivalent sphere diagrams, not Xu transport."
+      "scope": "S084 over-strong source type claim corrected S085; only generalized formal cone incidence."
     },
     {
       "id": "CLM-0418",
@@ -4133,6 +4133,54 @@
         "SRC-0169"
       ],
       "scope": "Does not supply exact equivalence of Xu and Kochman."
+    },
+    {
+      "id": "CLM-0421",
+      "status": "SOURCE_STATED",
+      "claim": "Kochman Def2.2.1 requires intermediate sphere spectra E_i=S, so arbitrary Sigma∞X_i analog does not directly yield typed Kochman classical defining system.",
+      "sources": [
+        "SRC-0170"
+      ],
+      "scope": "Corrects S084 CLM-0417, without refuting the Top^R claim."
+    },
+    {
+      "id": "CLM-0422",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Source-exact Xu fourfold zero transport through backward pointed diagram WEs with both secondary and final G04 three-face remains OPEN; no whole-real counterinterleaving.",
+      "sources": [
+        "SRC-0170",
+        "SRC-0171",
+        "SRC-0163"
+      ],
+      "scope": "A still open, not disproved."
+    },
+    {
+      "id": "CLM-0423",
+      "status": "COMPUTED_EXACT",
+      "claim": "Independent bitset checker selected f_m identities for N=4,5,6,8,12 at degrees 2..70 (2070 identities) terminal W_N unit; JSON SHA256 5074e4dc6918de33f6667f6208319a2dea375bcd4949fc9b394547358c0c8418.",
+      "sources": [
+        "SRC-0172"
+      ],
+      "scope": "Bounded canonical diagnostic only; not proof of all systems or all real metrics."
+    },
+    {
+      "id": "CLM-0424",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Owner conditional B fallback activated in S085; S078 right Ch(F2[t]/t^N)^R whole-real gap plus semisimple boundary is INTERNAL, pending independent proof and HHA G2.",
+      "sources": [
+        "SRC-0172",
+        "SRC-0166"
+      ],
+      "scope": "Different first-paper prospective category than archived OPEN Top^R."
+    },
+    {
+      "id": "CLM-0425",
+      "status": "SOURCE_STATED",
+      "claim": "Cyclic group cohomology nontrivial higher A∞ mN is documented in Magma handbook, hence not a new operation for B.",
+      "sources": [
+        "SRC-0172"
+      ],
+      "scope": "Potential novelty must be metric categorical result and substantive application."
     }
   ]
 }

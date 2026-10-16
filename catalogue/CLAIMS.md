@@ -596,3 +596,6 @@ See S038 full dossier and JSON scope.
 - **CLM-0418 PROGRAMME_PROVED, NARROW:** A whole-real diagram-WE zigzag remains a STRICT five-chain diagram-WE zigzag after restricting ordered times.
 - **CLM-0419 INHERITED_UNVERIFIED:** Backward leg pointed prism transfer, both secondary cones and terminal G04 boundary into Xu's exact convention remain OPEN; G1/G2 remain open.
 - **CLM-0420 SOURCE_STATED:** Basu–Blanc–Sen rectification theorem and explicit warning of incompatible nonstandard long Toda conventions.
+
+### S085 claims (16 Oct 2026)
+CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman actual arbitrary Xi. CLM-0421 SOURCE_STATED type condition. CLM-0422 INHERITED_UNVERIFIED Xu source transport still OPEN. CLM-0423 COMPUTED_EXACT finite 2070 selected f_m identity checks only. CLM-0424 INHERITED_UNVERIFIED owner conditional B Ch(B_N) internal theorem. CLM-0425 SOURCE_STATED old cyclic m_N.

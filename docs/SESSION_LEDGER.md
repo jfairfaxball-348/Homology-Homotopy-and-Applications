@@ -231,3 +231,6 @@ Exact owner-selected S067 first-paper route investigated. Xu GT2016 §5 pp1620�
 
 ### S084 — 2026-10-16 — STILL OPEN (research executed)
 Original Kochman Ch2 Def2.2.1 scanned pp13–16 inspected; full t=4 G_ij incidences written and strictly pointed literal-zero chain gives complete zero Kochman defining system. Whole-real WE zigzags restrict to STRICT five-chain WEs. No source-equivalent backward-pointed prism map satisfying G04 final three-face gluing to Xu; no entire-real counterdiagram. G1 original Top^R OPEN, G2 NOT PASSED. S085 FUTURE, OWNER_CHOICE_PENDING A continue (recommended) / B owner-approved change / C pause. One session commit and PR governance only.
+
+### S085 16 October 2026 — A STILL OPEN, owner B fallback activated
+Source-exact Kochman type error in S084 arbitrary Xi claim corrected, no proof of Xu-compatible backward G04 transfer or full-real e<5/4 counterdiagram. Owner 'A , If that fails b' gives conditional B research authority. S086 Ch(F2[t]/t^N)^R all-N internal S078 theorem proof/referee and HHA G2; 2070 independent finite canonical checks passed. No Lean/publication.

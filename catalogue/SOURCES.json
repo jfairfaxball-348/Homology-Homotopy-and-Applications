@@ -1522,6 +1522,33 @@
       "access": "PROOF_INSPECTED",
       "limitation": "No demonstrated direct equality with Xu/Kochman complete classical fourfold convention; paper explicitly cautions convention variation.",
       "observed": "Zero higher obstruction tied to diagram rectification in pointed model category; relation to stable filtered objects; no single standard higher bracket."
+    },
+    {
+      "id": "SRC-0170",
+      "title": "Kochman LNM1423 Chapter2 original Def2.2.1 printed p14 sphere intermediate spectra",
+      "url": "https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf",
+      "origin": "S085 direct scan p14-15",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Original source type check, not a direct arbitrary-spectrum classical transport proof.",
+      "observed": "E_i=S at intermediate vertices; only terminal E_t=E general."
+    },
+    {
+      "id": "SRC-0171",
+      "title": "Basu, Blanc, Sen, Note on Toda brackets JHRS 15 (2020) DOI 10.1007/s40062-020-00264-2",
+      "url": "https://arxiv.org/pdf/1810.06005",
+      "origin": "S085 original Thm1.23 and §2 pp7-9 inspected",
+      "access": "PROOF_INSPECTED",
+      "limitation": "BBS bracket not shown source-identical to Xu's specific classical 4-fold.",
+      "observed": "Higher zero relates to strictification; long brackets lack universal convention."
+    },
+    {
+      "id": "SRC-0172",
+      "title": "University of Sydney Magma Handbook A-infinity group cohomology cyclic C4 higher m4",
+      "url": "https://magma.maths.usyd.edu.au/magma/handbook/text/1065",
+      "origin": "S085 original handbook current statement",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "mN old does not preempt independently verified nonsemisimple full-real metric gap by itself.",
+      "observed": "Cyclic higher mN operation documented; C4 example m4(x,x,x,x)=y."
     }
   ]
 }

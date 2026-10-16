@@ -471,3 +471,6 @@ Exact owner-selected S067 first-paper route investigated. Xu GT2016 §5 pp1620�
 
 ### S084 — 2026-10-16 — no theorem switch without owner
 Actual session ended STILL OPEN. Narrow classical Kochman five-face local zero lemma and full-diagram restriction proved; original ordinary unpointed Top^R metric separation G1 OPEN; HHA G2 NOT PASSED. Owner first-paper target unchanged. Recommendation at closeout: explicit A (recommended, continue one decisive S085 comparison), B (owner-approved alternative first-paper category), or C (pause). The queued S085 prompt is marked OWNER_CHOICE_PENDING and FUTURE, UNEXECUTED; an owner choice can amend the same prompt governance-only. Do not use a decision-only numbered research session.
+
+### S085 explicit owner conditional choice (16 Oct 2026)
+Owner 'A , If that fails b'. S085 attempted A, found original-source type error, no gap-free unpointed Top^R proof; A remains OPEN NOT DISPROVED. Thus NEW owner-approved prospective first-paper target B right Ch(F2[t]/t^N)^R N>=4 for S086 independent proof and HHA novelty. Do not state Top^R solved or B novelty established. S086 FUTURE UNEXECUTED; proof -> separately authorised Lean -> publication. No decision-only session.
