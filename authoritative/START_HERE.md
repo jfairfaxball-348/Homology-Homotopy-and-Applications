@@ -112,3 +112,7 @@ Original LS Lemma3.8 directly supplies U:Ho(S_sc,*)≃Ho(S_sc), whose [4] functo
 
 ## S071 checkpoint — 16 Oct 2026
 S071 identifies Kochman Def2.2.1 sphere-stem/terminal-spectrum *domain* issue in S070 universal arbitrary-spectra T184; generic bracket transport not established. T187 finite-clock real shoelace zero normal form proved internally; no general Xu comparison or 2026 priority PASS. Owner original unpointed integral flagship unchanged. G1B/G2 open, no Lean/publication. S072 FUTURE only.
+
+## S072 checkpoint — 16 October 2026
+S072 2026-10-16: T188 free-linear diagram Ho-lifting (published LS antecedent), T189 explicit Z-valued nonfaithfulness on a single arrow, T190 general BBG complete fourfold zero invariance under Ho(Sp)^[4] isomorphisms using DK equivalence, T191 unconditional **conditional-on-BBG-nonzero** all-whole-WE real HI≥5/4. Original specific Xu/Kochman⇒BBG exact zero-exclusion not established; no concrete numeric spectral strict gap or original integral unpointed Top^R proof. G2 HHA novelty FAIL_TO_CLEAR, no owner switch/Lean/publication. S073 FUTURE ONLY.
+Read sessions/S072/MATHEMATICS.md and the S073 FUTURE prompt before the next fresh invocation.

@@ -403,3 +403,7 @@ Exactly S070 executed by a NEW owner 'Run next session'. Under explicit owner pe
 
 ## S071 — 16 October 2026 — referee-grade NO-READY, no target switch
 Owner's new “run next session” executes exactly S071. Correct S070 overgeneral Kochman bracket domain; finite-clock T187 proved internally; G2 originality and specific Xu convention not certified. Neither original Top^R flagship nor spectral option is designated proof-and-novelty-ready. No owner switch, no Lean, Palomar, manuscript or external action. S072 only FUTURE.
+
+## S072 decision — 16 October 2026
+S072 2026-10-16: T188 free-linear diagram Ho-lifting (published LS antecedent), T189 explicit Z-valued nonfaithfulness on a single arrow, T190 general BBG complete fourfold zero invariance under Ho(Sp)^[4] isomorphisms using DK equivalence, T191 unconditional **conditional-on-BBG-nonzero** all-whole-WE real HI≥5/4. Original specific Xu/Kochman⇒BBG exact zero-exclusion not established; no concrete numeric spectral strict gap or original integral unpointed Top^R proof. G2 HHA novelty FAIL_TO_CLEAR, no owner switch/Lean/publication. S073 FUTURE ONLY.
+**Owner gate: NO SWITCH**; six-file dossier sessions/S072. Source and historical novelty do not support a proof-to-Lean transition.

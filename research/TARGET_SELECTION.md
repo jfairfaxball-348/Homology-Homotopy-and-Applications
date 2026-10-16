@@ -198,3 +198,6 @@ Original owner-selected INTEGRAL (2,θ4,θ4,2) strict HI>IHC remains UNPROVED fi
 
 ## S071 selection review (16 October 2026)
 Retain owner-selected original integral unpointed Top^R HI>IHC theorem as official first-paper target, still unproved. Proposed restricted spectrum candidate has an unclosed arbitrary-spectrum Kochman fourfold type/transport gap and insufficient current-originality evidence; no implicit switch. T187 finite-clock normal-form alone insufficient for HHA significance. S072 FUTURE.
+
+## S072 target gate — 16 October 2026
+**NO OFFICIAL TARGET SWITCH.** Owner first paper remains integral unpointed five-sphere Top^R and unproved. Spectral BBG general distance-obstruction T191 is a valid conditional result under a *BBG* nonzero antecedent, but source-convention for Xu theta4 and genuinely new HHA content not proved. Lean/paper/submission disallowed. S073 FUTURE.

@@ -3542,6 +3542,98 @@
         "SRC-0118"
       ],
       "scope": "16 Oct 2026 bounded audit, no owner paper-target change, formalisation or external action."
+    },
+    {
+      "id": "CLM-0361",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S072-T188 finite free linear [n] canonical h:Ho(Sp^[n])→Ho(Sp)^[n] full/conservative/essentially surjective: any pointwise homotopy-chain isomorphism lifts to a whole-diagram objectwise-WE zigzag using cofibration/path correction.",
+      "sources": [
+        "SRC-0130",
+        "SRC-0126"
+      ],
+      "scope": "Internal fully reasoned finite Reedy/projective cofibrant induction; do not extend automatically to commuting diamonds or claim faithfulness."
+    },
+    {
+      "id": "CLM-0362",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S072-T189 nonfaithfulness on [1]: maps from S→CS to 0→ΣS form π0 derived arrow mapping ≅π1 Map(S,ΣS)≅Z while all component classes are zero; extends to [4].",
+      "sources": [
+        "SRC-0130",
+        "SRC-0129"
+      ],
+      "scope": "Explicit stable spectral homotopy pullback/cone model; disproves blanket Ho(Sp^[4])=Ho(Sp)^[4] equivalence, not its conservative/full properties."
+    },
+    {
+      "id": "CLM-0363",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S072-T190 complete BBG fourfold bracket for arbitrary spectrum homotopy chains has zero-membership invariant under isomorphism in Ho(Sp)^[4]; literal strict adjacent double zero implies bracket contains 0.",
+      "sources": [
+        "SRC-0129",
+        "SRC-0130"
+      ],
+      "scope": "Internal proof via finite whole-diagram weak-equivalence lift and BBG2016 Thm4.21 DK-equivalence; only BBG convention, not literal Kochman/Xu identification."
+    },
+    {
+      "id": "CLM-0364",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S072-T191 if 0 is absent from complete BBG fourfold of the five-spectrum chain then dHI(F,0)≥5/4 for all whole-diagram arbitrary weak-equivalent replacements of BOTH real persistent diagrams.",
+      "sources": [
+        "SRC-0129",
+        "SRC-0130",
+        "SRC-0126"
+      ],
+      "scope": "Conditional obstruction theorem with explicit premise; combines T187 with T190. No named theta4 BBG nonzero or original Top^R strict gap has been established."
+    },
+    {
+      "id": "CLM-0365",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "A natural bijection of all defining systems identifying BBG's complete 4fold for (2,σ²,σ²,2) with Kochman 2.2.1 and Xu2016 §5 remains unproved; the named numerical 2-local spectral HI>IHC claim is conditional.",
+      "sources": [
+        "SRC-0129",
+        "SRC-0125",
+        "SRC-0117"
+      ],
+      "scope": "Matches three primary, two secondary and three boundary faces only; no full source-exact 0-out crosswalk."
+    },
+    {
+      "id": "CLM-0366",
+      "status": "SOURCE_STATED",
+      "claim": "BBG2016 Theorem4.21 gives a bijection of higher Toda brackets along Dwyer–Kan equivalences and Def4.31/Remark4.32 defines brackets on general homotopy chain complexes.",
+      "sources": [
+        "SRC-0129"
+      ],
+      "scope": "Primary original printed pp17-20 inspected, not a new theorem of S072."
+    },
+    {
+      "id": "CLM-0367",
+      "status": "SOURCE_STATED",
+      "claim": "Lanari–Scoccola2023 Lemma3.4 identifies the diagram homotopy-category functor as full/conservative and Prop3.7/3.10 relates triple-Toda zero to strict doubles and persistence interleavings.",
+      "sources": [
+        "SRC-0130"
+      ],
+      "scope": "Classical prior art; substantial novelty obstacle for generic S072 methods."
+    },
+    {
+      "id": "CLM-0368",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S072 October2026 first HHA novelty gate still FAIL_TO_CLEAR; published general BBG/LS/BJT machinery preempts generic mechanism, original DKS/HKM full sources and later HHA citation chain not exhaustively compared.",
+      "sources": [
+        "SRC-0129",
+        "SRC-0130",
+        "SRC-0131",
+        "SRC-0128"
+      ],
+      "scope": "No affirmative novelty or manuscript readiness; no owner switch or Lean work."
+    },
+    {
+      "id": "CLM-0369",
+      "status": "SOURCE_STATED",
+      "claim": "HHA 1999 Hardie–Kamps–Kieboom already develops higher Toda operation through homotopy 2-groupoids/tracks, and Hardie–Kamps–Marcum 2002 treats the quaternary bracket using track bicategories.",
+      "sources": [
+        "SRC-0133",
+        "SRC-0134"
+      ],
+      "scope": "Historical source-stated overlap; neither source has been shown to preempt the exact spectral real HI≥5/4 numerical theorem; G2 remains FAIL_TO_CLEAR."
     }
   ]
 }
