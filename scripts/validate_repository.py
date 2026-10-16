@@ -48,4 +48,5 @@ if last and last!="S001":
 if errors:
     for e in errors: print("FAIL:",e)
     sys.exit(1)
+# The handoff helper runs separately as a second REQUIRED hosted CI step.
 print("PASS: static integrity of authority/claim/source mirrors; NOT a proof, novelty audit or Lean build")
