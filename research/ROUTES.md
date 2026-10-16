@@ -271,3 +271,7 @@ T176 LS Lemma3.8 Ho simply connected unpointed/pointed category equivalence → 
 
 ## S068 — conventional 4fold referee gate over numerical endpoint
 The alternate 2-local Xu singleton (2,σ²,σ²,2) gives an internally persuasive metric separation dIHC1<dHI≥5/4 by S066 shoelace quotient/two-loop and S067 LS pointed Ho-chain ZERO; S068 directly inspected BBG higher bracket invariance but cannot yet cite an exact Xu-conventional ZERO dictionary. That is a substantive bounded comparison theorem, not a request for arbitrary point-set bijection of every defining system. Priority near LS2023 triple example is stringent; strict HI>IHC would be novel only after citation/current literature gate, not after a negative search. Original integral θ4/θ4 remains official and unproved, owner has not switched. S069 FUTURE, no formal/publication.
+
+
+## S069 — route A: stable-first full conventional 4fold source (16 Oct 2026)
+Kochman 2.2.1 five defining extensions (G02,G13,G24;G03,G14) all constant for ONE strict double-zero pointed five-chain; last ∪3 faces zero; pass into 2-local spectra before attempting ZERO transport. Xu final θ4 word cites Kochman. Advantage: avoids unsupported equality BBG/BJT higher operations. Risk: exact Xu convention crosswalk and arbitrary-all-real projective quotient plus current originality remain independent referee obligations. No switch from original owner integral flagship. S070 future only.

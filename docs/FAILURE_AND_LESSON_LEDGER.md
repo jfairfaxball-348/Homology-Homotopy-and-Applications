@@ -420,3 +420,7 @@ The overstrong S066 T174 goal demanded explicit transport of every point-set hig
 
 ## S068 — higher Toda family resemblance does not automatically certify exact Xu bracket
 Original BBG2016 arXiv §§4.21/4.28–4.32 proves DK invariance for its own higher Toda operation; BJT2019 coherently rectifies higher operations. Xu2016 §5 names a **conventional** full fourfold singleton θ4. These results plausibly combine but must not be called theorem-level equality of ZERO sets without an explicit conventional cone/filler dictionary, source theorem or self-contained proof. Palindromic symbols and order-two sign eliminate shallow order ambiguity only. Preserve all-WE shoelace and two-loop derived checks and **2026 priority/HHA not cleared**. S069 must prove the bridge or exhibit a countermodel, not investigate the irrelevant exact dHI endpoint.
+
+
+## S069 — variant overreach and stable-first repair (16 October 2026)
+Failed inference avoided: asserting abstract BBG/BJT higher operations are literally Xu's 4fold Toda bracket. Positive repair: Kochman original Def2.2.1 supplies explicit stable *conventional* 3-primary/2-secondary coherent constants and 3 final faces, so apply Σ∞ early and avoid an unstable fourfold dictionary. Residual: source linkage is via Xu's references to Kochman, not a literal Xu definition-equivalence; general TOP^R WHOLE WE projective/referee and present-day novelty still unverified. No invented countermodel or priority claim. The original integral θ4/θ4 route remains official unsolved.

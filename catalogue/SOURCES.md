@@ -360,3 +360,7 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - **SRC-0123 NEW ABSTRACT_INSPECTED** https://arxiv.org/abs/2609.23440 (20Sep2026) equivariant HI; original PDF failed, unverified possible collision.
 - **SRC-0124 NEW ABSTRACT_INSPECTED** https://arxiv.org/abs/2604.06800 rational Sullivan relative maps, different category.
 - **SRC-0122** 2026 AGT monoidal-action/2-category work remains not checked as exact gap. No all-citation/MathSciNet/zbMath priority pass.
+
+
+## S069 new primary source (16 October 2026)
+- **SRC-0125** S. O. Kochman, original Chapter 2 *Toda brackets*, printed pp13–16, PDF https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf; PROOF_INSPECTED selected Def 2.2.1, Def 2.2.2, Thm 2.2.3, including five-map defining system and final union. Original hosted author text; warns about non-equivalent fourfold variants. Xu2016 §5 cites Kochman [10],[11]; does NOT spell a literal definition-equivalence theorem.

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "claims": [
     {
       "id": "CLM-0001",
@@ -3428,6 +3428,39 @@
         "SRC-0123"
       ],
       "scope": "No Lean, Palomar, manuscript or external submission authorised."
+    },
+    {
+      "id": "CLM-0350",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S069-T180 strict pointed five-chain with literally zero adjacent doubles has 0 in Kochman composition 4fold Toda bracket after suspension, using three constant primary and two constant secondary fillers; ZERO transports along pointed Ho^[4] isomorphism in spectra.",
+      "sources": [
+        "SRC-0125",
+        "SRC-0117",
+        "SRC-0065"
+      ],
+      "scope": "Internal stable-first proof with original Kochman Def2.2.1, but the precise Xu-vs-Kochman variant identification and entire HI theorem are NOT externally certified."
+    },
+    {
+      "id": "CLM-0351",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S069 alternate ordinary unpointed Top^R dHI≥5/4 remains a source-dependent INTERNAL conclusion; precise Xu conventional definition, full uncountable model/referee verification and 2026 originality/HHA G2 not passed. Original integral five-sphere flagship still unproved.",
+      "sources": [
+        "SRC-0117",
+        "SRC-0125",
+        "SRC-0065",
+        "SRC-0104"
+      ],
+      "scope": "No owner target switch, no Lean, Palomar, manuscript or publication."
+    },
+    {
+      "id": "CLM-0352",
+      "status": "SOURCE_STATED",
+      "claim": "Kochman original Ch2 pp14–16 defines composition fourfold Toda brackets by full Gij defining systems and equates smash construction; Xu FINAL2016 §5 displays the nonzero 2-primary bracket <2,σ²,σ²,2>={θ4} and cites Kochman among standard references.",
+      "sources": [
+        "SRC-0125",
+        "SRC-0117"
+      ],
+      "scope": "Selected primary original proofs and source statements inspected; exact Xu author-choice of convention not explicitly codified."
     }
   ]
 }

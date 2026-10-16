@@ -1,0 +1,6 @@
+# S069 PLAN — proof-first source-exact attack
+
+1. Inspect original printed Kochman Chapter 2 Def 2.2.1/2.2.2/Theorem 2.2.3 with domain/boundary and Xu FINAL2016 §5, and determine if the strict-zero → conventional bracket ZERO implication can be made without a contested BBG/BJT identification; explicitly track classical-definition residual.
+2. Test the two imported hard bridges: S066 derived [2] nullpath using unpointed mapping spaces and π29^(S)_(2)=0, derived integer→real Kan; S066 ALL-WHOLE-WE arbitrary-real shoelace Q and quotient including e=1, negative t, 5/4 endpoint.
+3. Audit nearby original dated sources and current literature for novelty/HHA significance; keep 2026 field-dg equality and rational/equivariant analogues correctly scoped. Absence of hits is not priority clearance.
+4. Record exact verified, internal, and outstanding pieces; protect owner's original integral flagship and proof→separate Lean→publication sequence. One isolated authored commit, actual PR/hosted STATIC checks, ordinary two-parent merge and verified postmerge hosted STATIC checks; S070 future only.

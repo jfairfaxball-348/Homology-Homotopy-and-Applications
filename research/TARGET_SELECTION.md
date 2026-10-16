@@ -190,3 +190,7 @@ Keep strict ordinary dHI>dIHC of fixed five-sphere chain as prospective HHA targ
 
 ## S068 2026-10-15 target decision
 **NO AUTOMATIC PIVOT.** Original owner-designated integral five-sphere (2,θ4,θ4,2) remains G1B UNPROVED (complete 4fold zero exclusion/k(j)/k(v) unknown). Alternate 2-local (2,σ²,σ²,2) has an internal proof of strict ordinary unpointed Top^R gap under source-dependent definition match, but exact standard-conventional Xu-vs-general higher ZERO proof and genuinely original HHA G2 remain NOT PASSED. Successful alternate verification would trigger owner choice, not implicit transfer. S069 future only, no exact HI endpoint prerequisite, no Lean or manuscript.
+
+
+## S069 target status (16 October 2026)
+Original owner-selected INTEGRAL (2,θ4,θ4,2) strict HI>IHC remains UNPROVED first-paper target, no switch. Alternate 2-local (2,σ²,σ²,2) has internally constructed stable-first Kochman 4fold ZERO comparison and earlier IHC1 / conditional HI≥5/4. Not independently gap-free and G2 NOT PASSED; no paper target freeze or Lean authorisation. Source/direct conventional dictionary and genuinely original HHA application drive future S070.

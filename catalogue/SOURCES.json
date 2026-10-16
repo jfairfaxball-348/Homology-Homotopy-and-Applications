@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "sources": [
     {
       "id": "SRC-0001",
@@ -1116,6 +1116,15 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Full source not inspected; rational Sullivan/CDGA models distinct from ordinary 2-local Top^R",
       "observed": "Models interleaving distance of maps using persistent relative Sullivan algebra and homotopy categories."
+    },
+    {
+      "id": "SRC-0125",
+      "title": "S. O. Kochman, Chapter 2 Toda brackets, original scanned author chapter",
+      "url": "https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf",
+      "origin": "Original authored chapter hosted in Douglas Ravenel's academic repository, Kochman monograph lineage",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected printed pp13–16 Def2.2.1,Def2.2.2,Thm2.2.3 directly read; Xu cites Kochman works [10],[11] but does not explicitly state identical definition; other fourfold variants possible",
+      "observed": "Exact 4fold 3 first-cone, 2 second-cone defining systems and 3 last-boundary output; strict consecutive zero admits 0 in Kochman's bracket."
     }
   ]
 }
