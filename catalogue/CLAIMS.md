@@ -512,3 +512,11 @@ See S038 full dossier and JSON scope.
 - **CLM-0354 PROGRAMME_PROVED (internal):** derived floor left-Kan/two-loop criterion; 2-local concrete dIHC=1, T185/T186; SRC-0117/0126.
 - **CLM-0355 INHERITED_UNVERIFIED:** explicit 2-primary HI gap still source-dependent on Xu↔Kochman precise conventional 4fold; not an independent Adams computation or proof certificate. SRC-0117/0125.
 - **CLM-0356 INHERITED_UNVERIFIED:** spectral originality/HHA G2 open, original integral Top^R flagship open and no owner switch. SRC-0065/0118/0104.
+
+
+## S071 correction and new claims — 16 October 2026
+- **CLM-0353 DOWNGRADED to INHERITED_UNVERIFIED:** S070 arbitrary-spectrum Kochman 4fold ZERO implication lacks bracket-definition domain and transport theorem. The whole shoelace reduction itself survives as T187.
+- **CLM-0357 PROGRAMME_PROVED internal:** S071 T187 m+1 stage all-real strict-zero finite-clock normal form after arbitrary whole WEs, threshold 1+1/(2 floor(m/2)), cofiber via one projective shoelace Q.
+- **CLM-0358 SOURCE_STATED:** Kochman 2.2.1 uses sphere-stem inputs and a terminal spectrum E, with five 4fold fillers and three output faces; general arbitrary-spectrum bracket is not thereby defined.
+- **CLM-0359 INHERITED_UNVERIFIED:** complete stable higher-bracket comparison and Ho(Sp)^[4] ZERO-invariance for arbitrary projectively-cofibrant sampled spectra remain missing, regardless of Xu's strong citation lineage.
+- **CLM-0360 INHERITED_UNVERIFIED:** as of 16 Oct 2026 2026 priority and HHA significance for the stable metric gap not certified; original integral unpointed Top^R flagship unproved/unreplaced, no Lean or submission.

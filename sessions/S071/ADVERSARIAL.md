@@ -1,0 +1,15 @@
+# S071 ADVERSARIAL — tests, countermodels and stop conditions
+
+**A1 — TYPE/DOMAIN hostile test (decisive correction, not a metric counterexample):** Let a genuine five-arrow symmetric-spectrum chain use an arbitrary non-sphere intermediate spectrum, e.g. H(Z/2) as A_2. Such a chain satisfies the syntactic quantifier “any spectra” of S070-T184 but Kochman's actual Def2.2.1 sphere-stem input format is not a bracket definition on it. Similarly a whole-diagram projective replacement of a sphere-stage persistence diagram has generic cofibrant cell spectra at sampled times. Therefore the inference “literal zero doubles on C imply 0 in **Kochman's bracket of C**, then automatically in the sphere bracket of A” is not *well typed/source-proved* as written. No example was produced in which the claimed distance inequality is actually false. Repair demands a fully defined model-categorical higher Toda operation + comparison.
+
+**A2 — arbitrary nonzero contractible zero lane:** A strict interleaving need not use G(t)=0 even when G is weakly zero; objectwise contractible/acyclic spectra may be nonzero and maps noncofibrations. Setting G'=0 pointwise would be invalid. The whole-shoelace projective Q and natural pushout repair proves T187 without that shortcut.
+
+**A3 — finite clock hostile boundaries:** m=4, e=1 gives c=0 and t=(0,1,2,3,4), legal. For e=1.249... all t_j<j+1 and all sampled doubles have exact difference 2e. At e=1.25, t_4=5, NOT a fourth-stage sample, so endpoint not ruled out. For ε<1, thickening to e=1 changes the parameter legally but not the WEs or strictness. For t<0 crossing from Q_G still exists and is killed, no omitted negative real case.
+
+**A4 — coherence hostile test:** Three vertexwise vanishing double composites do not automatically mean a null natural transformation in Ho(Sp^[2]). S070's use of two π1 restriction obstructions (2-locally π29=0) is essential and is source-dependent. Integral π29 must not be silently substituted. A fully functorial mapping-space writeup is still required.
+
+**A5 — fourfold variation adversary:** Kochman warns some definitions differ; Xu's reference to Kochman [10,11] is strong evidence but not a quoted identity of construction. A different bracket containing zero would defeat the claimed theta4 application until crosswalk supplied; there is no discovered actual counterbracket.
+
+**A6 — originality adversary:** DKS general rectification, BBG and BJT higher Toda operations may imply a useful version of the normal form, and later persistence papers could preempt the metric application. Abstract-only or selected-section inspection cannot certify absence of such results. HHA G2 remains NOT PASSED. The 2026 field-dg equality is category-restricted and is not an explicit counterexample to spectra gap.
+
+Hard stop: no G1B/G2 upgrade, no first-paper spectral target switch or Lean until exact F/G in the dependency DAG and independently meaningful novelty both pass. Proof issue is *missing hypothesis/type/corollary*, not a fabricated mathematical counterexample.

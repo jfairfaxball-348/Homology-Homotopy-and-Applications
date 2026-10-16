@@ -220,3 +220,7 @@ Stage1 still IN_PROGRESS. S069 exact Kochman conventional defining-system intern
 
 ## S070 gates — 16 October 2026
 G1B **original integral ordinary Top^R** OPEN. Alternate **ordinary Top^R 2-local** still INTERNAL / convention and all-real external referee open. **New abstract spectra theorem** S070-T184/T185 internally PROVED with exact ambient category/all-whole quantifiers; named 2-local θ4 application SOURCE-DEPENDENT on Xu/Kochman convention, not independently certified. G2 latest spectral originality/HHA NOT PASSED. G3 Lean/G4/G6 NOT STARTED, Palomar/arXiv/HHA owner gated. Outcome **B COMPLETE_PROOF_G2_OPEN** for abstract spectra theorem only; S071 FUTURE.
+
+
+## S071 gates — 16 October 2026
+G1B original ordinary unpointed integral Top^R gap still OPEN; S070 generalized spectral T184 moved to CORRECTION_REQUIRED because source bracket applies to sphere-stem inputs and arbitrary spectrum chain invariance unproved. S071 T187 internal proved normal form, not sufficient gap. Named 2-local θ4 gap SOURCE_DEPENDENT and not referee complete. G2 HHA 2026 originality FAIL_TO_CLEAR (incomplete citing/primary record, no precise preemptor claimed). G3 Lean NOT_STARTED, G4 NOT_STARTED, G5+ OWNER_GATED. No switching or external action.

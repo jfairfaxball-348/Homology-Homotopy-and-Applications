@@ -1134,6 +1134,24 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Original PDF selected theorem statement located, full model-theory proof not audited in S070",
       "observed": "Stable symmetric-spectra model structure is proper, hence left proper, enabling cross-cofiber weak equivalence."
+    },
+    {
+      "id": "SRC-0127",
+      "title": "Barratt, Mahowald and Tangora 1970, Some differentials in the Adams spectral sequence II",
+      "url": "https://doi.org/10.1016/0040-9383(70)90055-8",
+      "origin": "Original bibliographic DOI, Xu 2016 reference [3]",
+      "access": "METADATA_ONLY",
+      "limitation": "Original full paper not inspected in S071; no direct convention crosswalk validated",
+      "observed": "Historical Adams spectral sequence calculation reference named by Xu."
+    },
+    {
+      "id": "SRC-0128",
+      "title": "Dwyer, Kan and Smith 1989, Homotopy commutative diagrams and their realizations",
+      "url": "https://doi.org/10.1016/0022-4049(89)90023-6",
+      "origin": "Original journal abstract/DOI",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Exact internal theorem/corollary compared to spectral interleaving metrics not verified",
+      "observed": "Classical higher obstruction/rectification theory; possible source of general known consequences."
     }
   ]
 }

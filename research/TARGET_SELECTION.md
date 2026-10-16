@@ -194,3 +194,7 @@ Keep strict ordinary dHI>dIHC of fixed five-sphere chain as prospective HHA targ
 
 ## S069 target status (16 October 2026)
 Original owner-selected INTEGRAL (2,θ4,θ4,2) strict HI>IHC remains UNPROVED first-paper target, no switch. Alternate 2-local (2,σ²,σ²,2) has internally constructed stable-first Kochman 4fold ZERO comparison and earlier IHC1 / conditional HI≥5/4. Not independently gap-free and G2 NOT PASSED; no paper target freeze or Lean authorisation. Source/direct conventional dictionary and genuinely original HHA application drive future S070.
+
+
+## S071 selection review (16 October 2026)
+Retain owner-selected original integral unpointed Top^R HI>IHC theorem as official first-paper target, still unproved. Proposed restricted spectrum candidate has an unclosed arbitrary-spectrum Kochman fourfold type/transport gap and insufficient current-originality evidence; no implicit switch. T187 finite-clock normal-form alone insufficient for HHA significance. S072 FUTURE.

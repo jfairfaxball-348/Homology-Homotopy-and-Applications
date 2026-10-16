@@ -399,3 +399,7 @@ After S069, owner asked to rewrite **next** session to be considerably more ambi
 
 ## DEC-S070-A — bounded stable-spectra proof chosen under owner's weakening permission (16 October 2026)
 Exactly S070 executed by a NEW owner 'Run next session'. Under explicit owner permission to **research weaker ideas**, the abstract full spectral five-stage fourfold nonzero → HI≥5/4 theorem plus derived two-shift criterion now have detailed internally complete proofs; concrete 2-local dIHC=1, named strict HI gap remains source-dependent on exact Kochman/Xu convention. **Verdict B COMPLETE_PROOF_G2_OPEN**; no originality/HHA gate promotion. This **does not alter official integral ordinary unpointed Top^R first-paper target** without owner approval and gives NO Lean, paper, Palomar, arXiv or journal authority. S071 FUTURE ONLY: independent spectral source/G2 kill and owner switch decision.
+
+
+## S071 — 16 October 2026 — referee-grade NO-READY, no target switch
+Owner's new “run next session” executes exactly S071. Correct S070 overgeneral Kochman bracket domain; finite-clock T187 proved internally; G2 originality and specific Xu convention not certified. Neither original Top^R flagship nor spectral option is designated proof-and-novelty-ready. No owner switch, no Lean, Palomar, manuscript or external action. S072 only FUTURE.

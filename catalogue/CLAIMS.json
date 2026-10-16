@@ -3464,13 +3464,13 @@
     },
     {
       "id": "CLM-0353",
-      "status": "PROGRAMME_PROVED",
+      "status": "INHERITED_UNVERIFIED",
       "claim": "S070-T184 abstract stable symmetric-spectra all-real 5-stage obstruction: 0 outside complete Kochman fourfold of a chain implies dHI(F,zero)>=5/4 for arbitrary both-whole stable-WE replacements, using projective shoelace cofibrant pushout quotient.",
       "sources": [
         "SRC-0125",
         "SRC-0126"
       ],
-      "scope": "Spectra only; detailed internal full proof S070/MATHEMATICS; no independent referee/formal/novelty certification; not Top^R."
+      "scope": "S071 exact source-domain correction: Kochman Def2.2.1 sphere stems plus terminal spectrum does not define a bracket for arbitrary symmetric-spectra chains; general higher-bracket/Ho(Sp)^[4] transport unproved. Underlying shoelace strict-zero normal form survives as T187. NOT externally/formally certified."
     },
     {
       "id": "CLM-0354",
@@ -3502,6 +3502,46 @@
         "SRC-0104"
       ],
       "scope": "Current S070 source/priority and owner target-switch gate; no Lean or publication."
+    },
+    {
+      "id": "CLM-0357",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S071-T187 m+1-stage all-real finite-clock strict-zero normal form: any HI to 0 with ε<1+1/(2floor(m/2)) yields whole-equivalent sampled literal zero doubles after a whole shoelace projective-cofibrant pushout; m>=2.",
+      "sources": [
+        "SRC-0126",
+        "SRC-0065"
+      ],
+      "scope": "Internal full source-independent model-category argument subject to cofibrantly generated left proper model/projective diagram hypotheses; no fourfold/numerical gap or G2 novelty implication."
+    },
+    {
+      "id": "CLM-0358",
+      "status": "SOURCE_STATED",
+      "claim": "Kochman Ch2 Def2.2.1 treats stable sphere-stem input classes and terminal spectrum E; his five 4fold extensions and three output faces do not explicitly define a bracket for arbitrary five-chain spectra.",
+      "sources": [
+        "SRC-0125"
+      ],
+      "scope": "Exact scope check of primary definition; source-level domain problem with S070 T184 as worded."
+    },
+    {
+      "id": "CLM-0359",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "A general stable fourfold bracket on arbitrary spectra, zero transport under Ho(Sp)^[4] chain isomorphisms, and a literal Xu2016/Kochman conventional identification remain missing; named 2-local HI gap stays conditional.",
+      "sources": [
+        "SRC-0117",
+        "SRC-0125"
+      ],
+      "scope": "Explicit S072 proof obligation; not a counterexample to the desired metric gap."
+    },
+    {
+      "id": "CLM-0360",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "G2 HHA 2026 novelty/significance not cleared for spectrum metric gap and no source-exact priority preemptor proved; original integral ordinary unpointed Top^R flagship remains owner-selected and unproved.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0128",
+        "SRC-0118"
+      ],
+      "scope": "16 Oct 2026 bounded audit, no owner paper-target change, formalisation or external action."
     }
   ]
 }

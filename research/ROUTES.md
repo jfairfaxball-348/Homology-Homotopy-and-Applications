@@ -275,3 +275,7 @@ The alternate 2-local Xu singleton (2,σ²,σ²,2) gives an internally persuasiv
 
 ## S069 — route A: stable-first full conventional 4fold source (16 Oct 2026)
 Kochman 2.2.1 five defining extensions (G02,G13,G24;G03,G14) all constant for ONE strict double-zero pointed five-chain; last ∪3 faces zero; pass into 2-local spectra before attempting ZERO transport. Xu final θ4 word cites Kochman. Advantage: avoids unsupported equality BBG/BJT higher operations. Risk: exact Xu convention crosswalk and arbitrary-all-real projective quotient plus current originality remain independent referee obligations. No switch from original owner integral flagship. S070 future only.
+
+
+## S071 — exact Kochman source-domain correction and stable route condition
+Stable-spectral category avoids unpointed basepoint subtleties but not HIGHER BRACKET DOMAIN/NATURALITY. T187 finite-clock zero normal form is fully internally proved under cofibrantly generated left proper projective diagram assumptions; it does not alone imply θ4 nonzero obstruction. Required next route: prove general stable 4fold defining-system ZERO transport under Ho(Sp)^[4] chain equivalences and comparison with Kochman sphere 2,σ²,σ²,2; or explicitly refute the transport theorem. HHA novelty and owner first-paper switch both blocked. No exact distance endpoint research.

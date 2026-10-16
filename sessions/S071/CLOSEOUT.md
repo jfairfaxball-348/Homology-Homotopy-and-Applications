@@ -1,0 +1,11 @@
+# S071 CLOSEOUT — 16 October 2026
+
+**Decision: NOT READY (G1 source-type/transport and G2 novelty).** This is a research correction, not a refutation of the desired strict inequality.
+
+The S070 abstract all-spectra use of a `Kochman complete fourfold bracket` is broader than Kochman Def2.2.1's sphere-stem/terminal-spectrum inputs. Its key step from strict-zero arbitrary spectrum replacements back to the published θ4 bracket is missing an independently established general-fourfold/convention/transport theorem. Downgrade CLM-0353 accordingly; no fake mathematical counterexample was found. S071 nevertheless gives a full source-independent T187 all-real shoelace/cofiber **finite-clock strict-zero normal-form theorem** with `m≥2` and threshold `1+1/(2 floor(m/2))`, including both whole-WE lanes and endpoints. This lemma is not claimed original or HHA-sufficient. The 2-local derived dIHC=1 remains an internal sourced calculation; Xu θ4 nonzero appears on printed p1620 but exact convention equivalence is not verified. Primary originality audit cannot clear October 2026 priority. The existing original **integral unpointed Top^R** five-sphere flagship remains the owner's selected paper route, unproved; no automatic spectral switch.
+
+**Gate ledger:** G1B original target OPEN; spectra broader theorem CORRECTION_REQUIRED; finite-clock T187 INTERNAL PROGRAMME_PROVED only; specific θ4 spectral gap SOURCE_DEPENDENT; G2 FAIL_TO_CLEAR; G3 Lean NOT STARTED; G4 independent final audit NOT STARTED; G5 Palomar OWNER_GATED; manuscript, preprint and HHA submission not authorised. No actual formalisation or paper was prepared.
+
+**Operations:** entry main `790ed289f87a482aee4e9ed92b0d24e2dfad2683`, tree `5bcf8abadad372aec47da00162494d424d5e2ed9`, PR#75 ordinary two parents, hosted previous seven-step STATIC successes; no open competing PR. All six S071 documents and six+ governance mirrors updated with S072 FUTURE, UNEXECUTED. **PR, authored SHA, hosted session check and outgoing merge must be observed live and confirmed after committing; no precommit values fabricated here.**
+
+**Owner choice:** there is no proof/G2 basis yet to recommend a YES target change to spectra or to start Lean. Default decision remains **NO SWITCH; CONTINUE PROOF-FIRST**. An explicit later owner decision would be needed for a different target even if source and novelty pass.
