@@ -3709,6 +3709,68 @@
       "claim": "S074 alternate finite dg-module theorem has not passed exact originality/HHA gate; named sphere-spectrum candidate remains unresolved and is discontinued as automatic research route.",
       "sources": [],
       "scope": "No official target switch or publication; original integral ordinary unpointed Top^R strict gap unproved."
+    },
+    {
+      "id": "CLM-0378",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S075 independently reconstructed S074-T194 strict all-real gap dIHC(F,0)=1<5/4<=dHI(F,0)<=5/2 in RIGHT dg modules over explicitly defined 30-dimensional F2 directed category algebra; includes final quiver edge, negative-real Kan, arbitrary acyclic shoelace opposite lane and exact degree-minus3 transfer contradiction.",
+      "sources": [
+        "SRC-0130",
+        "SRC-0136"
+      ],
+      "scope": "INTERNAL mathematical referee reconstruction only, not external human referee, Lean certification, ordinary Top^R or Ch_F2 theorem; owner target unchanged."
+    },
+    {
+      "id": "CLM-0379",
+      "status": "COMPUTED_EXACT",
+      "claim": "S075 independently re-enumerated all 30 paths, checked d² and endpoint 3×3 degree-minus2 matrix with kernel vectors 000,111 and no degree-minus3; code-free manual differential also agrees.",
+      "sources": [],
+      "scope": "Independent Python3 exact arithmetic rerun in session; NOT verification of model-category metric argument."
+    },
+    {
+      "id": "CLM-0380",
+      "status": "SOURCE_STATED",
+      "claim": "Lanari–Scoccola 2023 Remark3.13 explicitly notes the open Top-valued comparison dHI versus dIHC; their Prop3.12 established only dHI≠dHC for Top-valued persistent diagrams.",
+      "sources": [
+        "SRC-0130",
+        "SRC-0137"
+      ],
+      "scope": "Original v3 statement directly inspected; indexed v1 author-upload excerpt corroborates remark, not full v1 primary direct; dgMod-R alternative does NOT solve Top^R question."
+    },
+    {
+      "id": "CLM-0381",
+      "status": "SOURCE_STATED",
+      "claim": "Kuribayashi–Naito–Wakatsuki–Yamaguchi published 12Sep2026 Thm3.3 proves dHC=dIHC=dHI=dCohI for persistence objects in Ch_k of field-valued chain complexes, not general right dgMod-R with R-action.",
+      "sources": [
+        "SRC-0132",
+        "SRC-0138"
+      ],
+      "scope": "Original publisher full HTML selected theorem and §3.1 inspected; term dg module there means cochain complex over field."
+    },
+    {
+      "id": "CLM-0382",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S075 priority/HHA significance gate FAIL_TO_CLEAR for purpose-built 30-path dg R-module example: none of the selected inspected original publications supplied an exact preemptor, but classic higher Toda machinery and incomplete HHA 2026/cited-by closure forbid validated novelty or publishability.",
+      "sources": [
+        "SRC-0130",
+        "SRC-0129",
+        "SRC-0135",
+        "SRC-0131",
+        "SRC-0133",
+        "SRC-0134",
+        "SRC-0138",
+        "SRC-0139"
+      ],
+      "scope": "G2 NOT PASSED; HHA READY NO; no owner switch, Lean or publication; absence of located source is NOT absence of prior art."
+    },
+    {
+      "id": "CLM-0383",
+      "status": "SOURCE_STATED",
+      "claim": "Kuribayashi et al. Apr2026 relative Sullivan algebra work reports that IHC of persistent CDGA can differ from cohomology interleaving distance, not an exact dHI>dIHC gap.",
+      "sources": [
+        "SRC-0139"
+      ],
+      "scope": "Original abstract inspected, not full theorem/proof; not evidence of preemption or novelty clearance."
     }
   ]
 }

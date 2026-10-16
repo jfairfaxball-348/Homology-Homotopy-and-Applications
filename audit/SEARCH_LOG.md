@@ -295,3 +295,7 @@ Direct page-image inspection: Kochman Ch2 p13 introductory convention warning, p
 
 ## S074 — 16Oct2026
 Both search systems used, including recent-source pass: exact queries with homotopy interleaving + dgMod / dg category / strict inequality / module algebra / fourfold Toda, HHA 2026. Original BBG Thm4.21/Prop4.35, BBS Def1.1/Thm1.23, Keller §3.2, 2026 field-dg §3.1 Theorem3.3, Kochman defs and Xu §5 retrieved. LS original v3 retrieved; publisher PDF had no extracted text. Broad query noise and incomplete cited-by/HHA issue coverage prevent G2 PASS. No exact preemptor established and no novelty guarantee. S074 theorem uses direct transfer and finite algebra, NOT the sphere sources.
+
+## S075 checkpoint — 16 October 2026
+S075 (16 Oct 2026): independent internal referee reconstructed the specific finite 30-path RIGHT dgMod-R dIHC=1<5/4<=dHI<=5/2 gap including unrestricted whole-real two-lane replacements. Finite check re-run PASS but STATIC/finite checks do not certify metric proof. 2023 LS Remark3.13 leaves Top-valued HI>IHC open; our category is different. Sept2026 Ch_k equality does not apply to R-linear modules. G1 alternate internal PASS; G1 original integral unpointed Top^R OPEN; G2 HHA originality/significance FAIL_TO_CLEAR; publishability NO; no owner switch, Lean, Palomar, paper, arXiv or submission. S076 FUTURE ONLY.
+Full S075 proof, adversarial and novelty dossier in sessions/S075/. No invented outgoing integration SHAs; verify GitHub after publication.

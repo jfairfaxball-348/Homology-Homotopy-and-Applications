@@ -1,0 +1,8 @@
+# S075 — preregistered referee and priority plan
+
+1. Reconstruct the finite right-module algebra and all grading/differentials from the generators, without inheriting S074 proof correctness. Independently enumerate the complete 30-path algebra and verify d², endpoint kernel and forced h/k. The computation can only certify finite arithmetic.
+2. Derive the free-quiver projective mapping-cone resolution including the P4→0 edge, negative-time left Kan, both derived interleaving equations and the sharp lower dIHC at t=0.
+3. Check the full two-lane shoelace on the actual real poset for epsilon<5/4, cofibrant replacement of the ENTIRE diagram, all crossing cofibrations, the natural quotient by the potentially NONZERO acyclic opposite lane, and clock samples. Attempt countermodels by altering the lane, edge fillers, and endpoint equality.
+4. Redo the direct homotopy transfer of any pointwise derived equivalent cofibrant strict-double-zero chain, including every split term. Check if it inevitably contradicts the unique nonzero endpoint cycle.
+5. Inspect primary modern equality and historical Toda/rectification precedents, earlier LS version where accessible, and journal 2026/cited-by evidence. Distinguish “no exact preemptor located” from “novelty verified”; separately judge the HHA bar for a purpose-built coefficient algebra.
+6. Explicit G1/G2 and publishability YES/NO. Maintain frozen Top target and separately authorised proof→Lean→publication gates. Write S076 as future only. One authored atomic commit, real PR, actual hosted STATIC validation, ordinary two-parent merge and independent live postmerge check; no fabricated outgoing evidence in committed prose.

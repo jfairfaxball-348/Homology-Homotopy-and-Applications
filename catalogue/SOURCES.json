@@ -1224,6 +1224,33 @@
       "origin": "original arXiv v5 PDF",
       "limitation": "Selected §3.2 Prop3.1/Thm3.2 and enriched Yoneda passage; not whole survey proof audit",
       "observed": "Projective dg module model category, cofibrant representables, all objects fibrant, derived morphisms computed by homotopy."
+    },
+    {
+      "id": "SRC-0137",
+      "title": "Lanari and Scoccola Remark 3.13 original v3 and v1 indexed author copy",
+      "url": "https://arxiv.org/pdf/2010.05378",
+      "origin": "original arXiv v3 and indexed author-upload v1 excerpt",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "v3 directly inspected; v1 direct arXiv PDF retrieval disabled; author-upload index of v1 inspected, not full primary v1 PDF; published-version passage not independently PDF-verified",
+      "observed": "Remark3.13 says dHI!=dHC but dHI!=dIHC was open, in paper's Top focus. Does not prove dgMod-R theorem or full priority."
+    },
+    {
+      "id": "SRC-0138",
+      "title": "Kuribayashi Naito Wakatsuki Yamaguchi 2026 original published field complex equality",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "original full open-access Springer journal HTML published 12 Sep 2026",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected §3.1 Theorem3.3 and surrounding proof/context directly inspected; no full article external referee; R-module action not in theorem",
+      "observed": "Thm3.3 Ch_k-valued persistent complexes have dHC=dIHC=dHI=dCohI; does NOT cover arbitrary coefficient dg algebra modules."
+    },
+    {
+      "id": "SRC-0139",
+      "title": "Kuribayashi Naito Sekizuka Wakatsuki Yamaguchi 2026 A distance between maps via interleavings of relative Sullivan algebras",
+      "url": "https://arxiv.org/abs/2604.06800",
+      "origin": "original arXiv abstract April 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full original theorem/proof and cited-by chain not audited",
+      "observed": "Persistent CDGAs may have IHC different from cohomology distance; not explicit HI>IHC."
     }
   ]
 }

@@ -1,0 +1,7 @@
+# S075 — authorised input and pinned live entry (16 October 2026)
+
+Owner invoked “Run next session” in this project. This executes exactly the queued S075 under authoritative/NEXT_SESSION_PROMPT.md as fetched from LIVE main; this file summarises the invocation rather than inventing a byte-for-byte transcript or hash. S076 is FUTURE ONLY.
+
+Entry main: 3a67e82f13d34c613dd154d4c19ebcb76c6a7a20; git tree ac8287fe2faa754b12a88dce9c7c9926c96c6b6d. S074 PR #79 merged, with authored commit 15bc8cc04f33891633f55674ed87a8c980b8b12d; merge parents e86e40240dbbc0b1e4cc73c127d3ef45a58fa699 and 15bc8cc04f33891633f55674ed87a8c980b8b12d; merge tree equals authored tree ac8287fe2faa754b12a88dce9c7c9926c96c6b6d. Hosted PR workflow 38891082255, job 116940468098, and postmerge main workflow 38891188273, job 116940815019: all seven steps success, STATIC governance only. No open PRs at entry. Historic session branches exist, including closed-unmerged S067 PR71, but no new conflicting live PR. Accessible rulesets []; main protection read returns integration 403, so UNKNOWN.
+
+Frozen official target: integral ordinary unpointed Top^R five-sphere strict dHI>dIHC remains UNPROVED. Spectral theta4 route DISCONTINUED UNRESOLVED. Alternative dgMod-R result S074-T194 is not an owner-authorised switch. Exact request: reconstruct this theorem independently in all-real, all-whole-replacement scope and assess exact prior art/HHA significance. No Lean, Palomar, manuscript, arXiv, editor or other third-party action.
