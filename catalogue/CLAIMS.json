@@ -3839,6 +3839,70 @@
         "SRC-0146"
       ],
       "scope": "No located exact preemptor is not novelty proof; broader 2026/cited-by/source access and independent mathematical referee still pending."
+    },
+    {
+      "id": "CLM-0391",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S077 independent internal algebraic reconstruction confirms complete cyclic C4 fourfold zero-exclusion for ALL representatives, primary and secondary fillers by terminal n2 augmentation 1.",
+      "sources": [],
+      "scope": "Not Lean or human peer review; precise right Ch(F2[C4]) projective resolution P; standalone symbolic proof S077/MATHEMATICS"
+    },
+    {
+      "id": "CLM-0392",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S077 independent internal full-real two-lane projective shoelace / quiver-cone check sustains dIHC(F,0)=1<5/4<=dHI(F,0)<=5/2 in Ch(F2[C4]).",
+      "sources": [],
+      "scope": "All whole weak equivalence zigzags, acyclic nonzero second lane, clocks; internal prose only, not formal certified"
+    },
+    {
+      "id": "CLM-0393",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S077 checks for each finite odd H, C4×H example is the same projective trivial H-block and adds no independent representation-theoretic class.",
+      "sources": [],
+      "scope": "Maschke factor and End decomposition; not a general group classification"
+    },
+    {
+      "id": "CLM-0394",
+      "status": "SOURCE_STATED",
+      "claim": "Original AGT2023 Proposition3.12, Remark3.13 establish Top HC vs HI gap but explicitly leave HI vs IHC question open.",
+      "sources": [
+        "SRC-0147"
+      ],
+      "scope": "Not the same category; only original Thm/remark text inspected"
+    },
+    {
+      "id": "CLM-0395",
+      "status": "SOURCE_STATED",
+      "claim": "Magma C4 selected m4 and BBG dg higher Toda/Massey equivalence are known prior art.",
+      "sources": [
+        "SRC-0148",
+        "SRC-0149"
+      ],
+      "scope": "Source statement exact, no metric separation inferred from either"
+    },
+    {
+      "id": "CLM-0396",
+      "status": "SOURCE_STATED",
+      "claim": "September 2026 theorem3.3 proves dHI=dIHC for persistence chain complexes over a FIELD, not the nonsemisimple ordinary B.",
+      "sources": [
+        "SRC-0150"
+      ],
+      "scope": "Original publisher theorem read, full proof not audited"
+    },
+    {
+      "id": "CLM-0397",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S077 finds no exact S076 Ch(B) metric preemption in bounded source screen, but G2/HHA significance and full contemporary priority remain NOT PASSED; pivot to structural coefficient-ring theorem.",
+      "sources": [
+        "SRC-0147",
+        "SRC-0148",
+        "SRC-0149",
+        "SRC-0150",
+        "SRC-0151",
+        "SRC-0152",
+        "SRC-0153"
+      ],
+      "scope": "Absence of discovery is not evidence of global novelty; several source full proofs and 2026 citations unchecked"
     }
   ]
 }

@@ -1,0 +1,8 @@
+# S077 preregistered hostile proof / priority plan
+
+1. Independently reconstruct the unbounded homological right B-projective resolution, all x/h/z chain identities, the complete all-representatives/fillers t-adic n=2 obstruction, its Ext target and all homotopy-equivalence conjugations. First attempt a zero-valued complete defining system.
+2. Rebuild the finite linear quiver free-diagram cone including X4->0 and its two-shift nullhomotopy; distinguish objectwise from WHOLE derived zero and check negative-time real left Kan. Explicitly evaluate eta_(2e)(0) for all e<1.
+3. Attack the unrestricted real shoelace: both lanes arbitrary, projectively cofibrant diagram, every cross arrow cofibration, acyclic second lane not literally zero, natural pushout quotient, shifted strict zeros at ALL real u, five non-integer clock inequalities, strict transferred defining system from homotopy inverses. Look for a countermodel violating any step.
+4. Test odd-order H factor using projectivity of the trivial kH-module and endomorphism identification. Restrict family if necessary.
+5. Directly inspect available ORIGINAL AGT2023, original arXiv BBG, Magma documentation, September 2026 publisher Ch_k theorem; screen HHA and older Toda/derived-distance papers. Record WHAT was truly accessible. Search silence is NOT novelty certification.
+6. Publish internal S077 proof/referee dossier with verdicts G1 / G2 / publishability and one STOP or PIVOT decision if G2 cannot pass. Update catalogues and authority. Prepare fully executable S078 FUTURE prompt; do not execute it.
