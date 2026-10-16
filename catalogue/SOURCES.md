@@ -367,3 +367,9 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 
 ## S070 stable model and current originals
 - **SRC-0126 NEW STATEMENT_INSPECTED:** Hovey–Shipley–Smith *Symmetric spectra* arXiv math/9801077, original theorem 5.4.2 states stable proper model structure; original theorem text inspected, not full proof. Stable left properness justifies S070 spectral pushout. Kochman SRC-0125 original Def2.2.1, Xu SRC-0117 original GT final page 1620, LS SRC-0065 Remark3.13 and Kuribayashi SRC-0104 2026 dg-field claims directly rechecked. No upgrade to exact Xu–Kochman identity citation or G2 priority clearance.
+
+
+## S071 precise G2 sources (16 October 2026)
+- **SRC-0127 METADATA_ONLY:** Barratt–Mahowald–Tangora 1970, *Some differentials in the Adams spectral sequence II*, DOI https://doi.org/10.1016/0040-9383(70)90055-8; Xu's ref [3], original body not inspected. Do not claim it establishes Xu↔Kochman equivalence.
+- **SRC-0128 ABSTRACT_INSPECTED:** Dwyer–Kan–Smith 1989, *Homotopy commutative diagrams and their realizations*, DOI https://doi.org/10.1016/0022-4049(89)90023-6; general rectification, specific spectral metric implication not read.
+- **SRC-0125 S071 domain correction:** Kochman 2.2.1's displayed input classes in stable sphere stems plus terminal E-class do not explicitly define a complete bracket for an arbitrary 5-chain of symmetric spectra. The model-categorical extension and its weak-equivalence transport remain to prove. Xu §5 exact conventional equality still unquoted.

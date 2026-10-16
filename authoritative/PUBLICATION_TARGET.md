@@ -49,3 +49,7 @@ This authorises **research and selection of a candidate statement**, not retroac
 
 ## S070 research outcome only — 16 Oct 2026
 A NEW abstract full real-indexed ordinary symmetric-spectra 5-stage Kochman fourfold obstruction theorem was internally proved, with an explicit 2-local derived-distance witness and source-dependent classical θ4 strict-gap application. It is **not the owner-selected original integral unpointed Top^R paper theorem** and does not count as its proof. G2 spectral originality/HHA fit and exact Xu/Kochman source-convention bridge remain OPEN; no automatic theorem/target switch or Lean, manuscript or submission. See sessions/S070 dossier and S071 FUTURE prompt.
+
+
+## S071 owner target gate — 16 October 2026
+The owner-selected integral unpointed Top^R five-sphere HI>IHC theorem remains the official priority and is unproved. S071's stable-spectrum universal fourfold theorem lacks an explicit Kochman-to-arbitrary-spectrum bracket and Ho(Sp)^[4] transport theorem; source and October-2026 novelty insufficient for switching first-paper targets. T187 is a correct standalone internal strict-zero sampling lemma, not yet shown original or journal-significant. **NO automatic spectral target switch, Lean or external publication**. S072 must address the gap proof-first.

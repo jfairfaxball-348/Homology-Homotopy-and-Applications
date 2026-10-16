@@ -108,3 +108,7 @@ Final Xu Geometry & Topology 20(2016) publisher original §5 Lemma5.1 independen
 
 ## S067 checkpoint — 15 October 2026
 Original LS Lemma3.8 directly supplies U:Ho(S_sc,*)≃Ho(S_sc), whose [4] functor category version gives pointed Ho-chain isomorphisms for *any* sampled natural unpointed WHOLE WE zigzag, including backwards arrows. BJT2019 §7 and the standard homotopy-invariant FULL 4fold ZERO existence condition, plus one-way Σ∞ ZERO preservation, make all-point-set-higher-coherence transport unnecessary. Combining S066 T172/T173 with final Xu2016 yields INTERNAL alternate 2-local Top^R dIHC=1<5/4≤dHI mathematical argument. **Important:** original integral θ4/θ4 five-sphere FLAGSHIP UNPROVED and unchanged; alternate proof not yet independently referee-checked, full 2026 novelty/HHA G2 NOT PASSED, no owner target switch, Lean/Palomar/paper/external. S068 FUTURE/UNEXECUTED only.
+
+
+## S071 checkpoint — 16 Oct 2026
+S071 identifies Kochman Def2.2.1 sphere-stem/terminal-spectrum *domain* issue in S070 universal arbitrary-spectra T184; generic bracket transport not established. T187 finite-clock real shoelace zero normal form proved internally; no general Xu comparison or 2026 priority PASS. Owner original unpointed integral flagship unchanged. G1B/G2 open, no Lean/publication. S072 FUTURE only.
