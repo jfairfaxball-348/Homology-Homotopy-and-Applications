@@ -388,3 +388,8 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - **SRC-0117:** Xu original GT2016 §5 printed pp1620–21 inspected page images; its named fourfold theta4 and zero indeterminacy are SOURCE_STATED, not a BBG exact result.
 - **SRC-0129:** BBG2016 original Fig2.19, Def4.31 and Prop4.35 p21 inspected; Prop4.35 identifies higher DGA Toda brackets with Massey. S073's finite test exploits this published theorem, not a novel general result.
 - **SRC-0128:** DKS1989 original publisher abstract inspected; third-party indexed full-text excerpts not treated as original-proof inspection. No original full-text proof audit.
+
+## S074 direct original-source additions
+- **SRC-0135 [STATEMENT_INSPECTED]** Basu, Blanc and Sen, Note on Toda brackets (2020); https://arxiv.org/pdf/1810.06005. Classical strictification obstruction methodology; no exact finite dg-module numerical interleaving comparison claimed. Limits: Def1.1 and Thm1.23 selected statement/setup inspected; not full proof audit.
+- **SRC-0136 [STATEMENT_INSPECTED]** Keller, On differential graded categories (2006); https://arxiv.org/pdf/math/0601185. Projective dg module model category, cofibrant representables, all objects fibrant, derived morphisms computed by homotopy. Limits: Selected §3.2 Prop3.1/Thm3.2 and enriched Yoneda passage; not whole survey proof audit.
+- SRC-0132: original 2026 full HTML §3.1 Theorem3.3 inspected again; equality is for Ch_k, not arbitrary dgMod-R. Access remains STATEMENT_INSPECTED. Other access grades retained.

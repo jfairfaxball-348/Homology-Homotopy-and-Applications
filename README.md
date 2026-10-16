@@ -1,3 +1,9 @@
+# Latest checkpoint — S074, 16 October 2026
+
+S074 T194–T197: explicit 30-dimensional F2 directed dg algebra R and five representable RIGHT dg-module stages give unconditional INTERNAL dIHC(F,0)=1<5/4<=dHI(F,0)<=5/2. The proof gives an actual derived two-shift nullhomotopy via a free-quiver cone resolution and excludes ALL whole replacements of BOTH real lanes via cofibrant shoelace quotient and direct homotopy-transfer obstruction c. No sphere bracket convention is imported. Spectral theta4 candidate discontinued UNRESOLVED/NOT READY; original integral ordinary unpointed Top^R flagship remains UNPROVED and unchanged. Alternate G1 INTERNAL COMPLETE pending fresh referee; G2 originality/HHA NOT PASSED, no owner switch, Lean, Palomar, manuscript or external submission. S075 FUTURE ONLY.
+
+[Full proof](sessions/S074/MATHEMATICS.md) · [Adversarial checks](sessions/S074/ADVERSARIAL.md) · [Next session (future)](authoritative/NEXT_SESSION_PROMPT.md). All older numbered checkpoints below are historical.
+
 # Homology, Homotopy and Applications — Research Programme
 
 **Publication destination:** *Homology, Homotopy and Applications* (HHA), International Press. **Purpose:** discover and independently establish a significant original theorem or counterexample whose mathematical content genuinely belongs to homotopy theory, algebraic topology, homological algebra, or a substantial application of those methods.

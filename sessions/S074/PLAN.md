@@ -1,0 +1,9 @@
+# S074 plan and finite-check preregistration — 16 October 2026
+
+Execute S074 only. First attempt the specified simplicial symmetric-spectrum sphere comparison. If the all-representatives comparison / independent Adams computation / literal sphere counterexample cannot be completed, mark that candidate UNRESOLVED/NOT READY and discontinue it as an active automatic research route; do not infer falsehood or change the owner's official target.
+
+Independent fallback: construct the finite directed dg category on 0,...,4 with generators g_ij for 1<=j-i<=3, degree 1-(j-i), d(g_ij)=sum g_kj g_ik over internal k, over F2. Work in RIGHT dg modules over its 30-dimensional category algebra, not vector-space complexes or ordinary Top. Attempt the full derived two-shift nullhomotopy and prove a fourfold obstruction by an explicit homotopy-transfer formula, including all arbitrary WHOLE replacements on both real lanes. Audit originality separately and do no Lean/paper work.
+
+Preregistered finite diagnostic (before code execution): enumerate ALL directed paths on these five vertices using edges of spans 1,2,3, including five empty paths. This is complete because vertices strictly increase, so every path has <=4 edges. Check differential squared on all 30 basis paths, derive endpoint matrices in degrees -2,-1,0, check the endpoint cycle c and absence of degree -3, and check uniqueness of primary/secondary fillers. Independent checker: closed-form composition-count basis table and endpoint 3x3 matrix/hand-rank calculation in MATHEMATICS.md. Python stdlib only, exact F2 bit arithmetic; record code/output hashes and environment. This diagnostic certifies finite linear algebra only, not model-category theorems, novelty, or Lean.
+
+One atomic authored commit and one ordinary PR; successful hosted seven-step STATIC job before ordinary merge; verify live main independently. Six-file dossier and governance/catalogue mirrors; S075 future only.

@@ -3666,6 +3666,49 @@
         "SRC-0133"
       ],
       "scope": "Precise still-open mathematical and publication gate; cannot infer strict spectral HI>IHC from Xu alone; original integral ordinary unpointed Top^R target unchanged."
+    },
+    {
+      "id": "CLM-0373",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S074-T194: for the explicit 30-dimensional directed dg F2 category algebra R, the stated five-stage representable RIGHT dg R-module real diagram has dIHC=1 and 5/4<=dHI<=5/2, after arbitrary whole-WE replacements of both inputs.",
+      "sources": [
+        "SRC-0136",
+        "SRC-0130",
+        "SRC-0132"
+      ],
+      "scope": "Alternate category only; internal complete proof, not original Top^R, not novel/HHA certified; no owner switch."
+    },
+    {
+      "id": "CLM-0374",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S074-T195/T196: forced primary hi and secondary ki have nonzero terminal c; direct transfer T_ij=v_j b s ... b u_i from ANY cofibrant strict-double-zero chain would require dT04=c with degree-minus3 Hom zero, impossible.",
+      "sources": [],
+      "scope": "Explicit full finite-coherence obstruction, no sphere convention comparison or BBG equality assumed."
+    },
+    {
+      "id": "CLM-0375",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S074-T197: the free-quiver cone resolution including final edge P4→0 gives a derived nullhomotopy of eta2 using hi and ki; left Kan factorisation proves the real IHC interleaving.",
+      "sources": [
+        "SRC-0136",
+        "SRC-0130",
+        "SRC-0132"
+      ],
+      "scope": "Actual Ho(dgMod-R^R) nullity; handles negative real times; lower equality by nonzero id/a0."
+    },
+    {
+      "id": "CLM-0376",
+      "status": "COMPUTED_EXACT",
+      "claim": "S074 finite diagnostic enumerates all 30 paths, verifies d squared on each, endpoint kernel {0,c}, no degree-minus3 and primary/secondary uniqueness.",
+      "sources": [],
+      "scope": "Preregistered PLAN.md; check_dg.py, CHECK_OUTPUT.json; independent closed-form matrix in MATHEMATICS.md. Not metric theorem verification."
+    },
+    {
+      "id": "CLM-0377",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S074 alternate finite dg-module theorem has not passed exact originality/HHA gate; named sphere-spectrum candidate remains unresolved and is discontinued as automatic research route.",
+      "sources": [],
+      "scope": "No official target switch or publication; original integral ordinary unpointed Top^R strict gap unproved."
     }
   ]
 }
