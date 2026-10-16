@@ -1,0 +1,8 @@
+# S082 PLAN — serious explicit all-choice test and proof-or-kill
+
+1. Fix stable spectra mapping objects and all five spheres; write the three primary zero tracks and two secondary fillings, and the terminal 2-sphere obstruction with all dimensions. Audit the actual homotopy groups of the three track spaces.
+2. Compute the action of varying each secondary filler rather than falsely declaring every filler variation fatal. Use pi62 exponent two and terminal endpoint maps 2. Analyze what remains from the outer primary choices, and try to evaluate image-J j and independent v rather than guessing Adams filtration. Preserve precise conventions caveat.
+3. Attack the entire Top^R implication: verify real clock and the arbitrary BOTH-lane unpointed shoelace quotient logically, and identify whether the complete classical/unstable operation comparison exists. Attempt a genuine zero defining system or strict counterinterleaving; reject toys as sphere witnesses.
+4. Independently check whole-derived eta_2 upper route; explicitly retain imported standard model-category and stable-stem sources where unproved.
+5. Verify original bibliographic statements and 2026 closest literature, preserving retrieval-grade distinctions and separate G1/G2 decisions.
+6. GO only on a complete original-scope strict proof plus actual first novelty/HHA relevance clearance; NO-GO only on a fully checked genuine zero or Top strict interleaving. Otherwise OPEN and halt repetitive audits: queue S083 OWNER_DECISION_ONLY.

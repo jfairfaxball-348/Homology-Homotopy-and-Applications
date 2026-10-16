@@ -1440,6 +1440,24 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Field chain complexes result, not a Top^R strict HI>IHC test; no full 2026 novelty census",
       "observed": "dHI=dIHC in Ch_k (field) has different scope"
+    },
+    {
+      "id": "SRC-0161",
+      "title": "Wang and Xu, Annals of Mathematics 186 (2017), Corollary 1.10 and proof, printed page 504",
+      "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v186-n2-p03-p.pdf",
+      "origin": "S082 direct visual PDF p3 (zero-index) proof inspection via publisher original",
+      "access": "PROOF_INSPECTED",
+      "limitation": "ONLY printed p504 Cor1.10 proof inspected, NOT the complete 80-page work or all-choice zero-indeterminacy",
+      "observed": "Strictly defined fourfold bracket and theta5 membership by Adams E3/Moss; no full 0-exclusion assertion."
+    },
+    {
+      "id": "SRC-0162",
+      "title": "An unstable approach to the May-Lawrence matrix Toda bracket and the 2nd James-Hopf invariant, Topology and its Applications 355 (2024) 109026",
+      "url": "https://doi.org/10.1016/j.topol.2024.109026",
+      "origin": "S082 publisher abstract and introduction scope indexed",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "No full proof inspection and no specific fourfold target computation",
+      "observed": "Contemporary unstable matrix Toda bracket conventions remain technically nontrivial."
     }
   ]
 }
