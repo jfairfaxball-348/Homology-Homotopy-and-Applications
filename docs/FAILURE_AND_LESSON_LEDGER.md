@@ -491,3 +491,6 @@ Exact owner-selected S067 first-paper route investigated. Xu GT2016 §5 pp1620�
 
 ### S084 convention-transfer bottleneck
 Do not conflate a genuinely complete constant zero Kochman defining system on a SAME strict pointed chain with its transport across every objectwise-WE zigzag leg and into Xu's exact ordered bracket. Xu cites Kochman, but citation is not a proof of all-choice equality; Basu–Blanc–Sen warns higher conventions differ. New lesson: use whole REAL diagram restriction to an honest strict Top^[4] WE zigzag rather than mere Ho(Top)^[4] isomorphism; still need based backward prism/G04 compatibility. Failure to construct map is not mathematical refutation.
+
+### S085 source type lesson
+Kochman original Def2.2.1 E_i=S intermediate. Calling generalized arbitrary Σ∞Xi cone fillers a literal Kochman source-admissible system is wrong. Need coherent sphere equivalence transport with basepoints, both secondaries, G04 three-face gluing and exact Xu convention. No genuine counterexample found. Activate owner conditional algebraic B, distinct category; finite diagnostic not general proof.

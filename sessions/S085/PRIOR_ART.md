@@ -1,0 +1,12 @@
+# S085 PRIOR_ART — 16 October 2026, exact access grades
+| Original work | Grade | Assessment |
+|---|---|---|
+| Kochman, *Stable Homotopy Groups of Spheres* LNM1423 (1990), Ch2 p14 Def2.2.1 and p16 Thm2.2.3, https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf | PROOF_INSPECTED selected original pages | Intermediate E_i=S condition makes arbitrary-X_i Kochman application ill-typed; composition/smash equivalent within author only. |
+| Xu, *The strong Kervaire invariant problem in dimension 62*, G&T20 (2016) 1611–1624, doi:10.2140/gt.2016.20.1611, §5 p1620 and §3 Remark3.4 p1617, https://msp.org/gt/2016/20-3/gt-v20-n3-p08-s.pdf | PROOF_INSPECTED selected | Nonzero classical second fourfold bracket, no general Xu-vs-BBS comparison. Other Kochman triple calculation criticized. |
+| Basu–Blanc–Sen, *Note on Toda brackets*, JHRS15 (2020) 495–510, doi:10.1007/s40062-020-00264-2, https://arxiv.org/pdf/1810.06005, Thm1.23 §2 | PROOF_INSPECTED selected | Rectification for OWN higher bracket; warns no standard long bracket even stably. |
+| Lanari–Scoccola AGT23 (2023), doi:10.2140/agt.2023.23.803, Remark3.13 | STATEMENT_INSPECTED inherited | Top dHI/dIHC remains an interesting potential question if A G1 proved; no S085 proof. |
+| Sydney Magma Handbook, cyclic higher A∞ m_n, https://magma.maths.usyd.edu.au/magma/handbook/text/1065 | STATEMENT_INSPECTED original | Cyclic m_N known; B must show NEW whole-real metric/category consequence, not rediscover m_N. |
+| Kuribayashi–Naito–Wakatsuki–Yamaguchi JACT Sep2026, doi:10.1007/s41468-026-00252-0, Theorems3.3,4.7 | STATEMENT_INSPECTED original publisher | Field Ch(K)^R equality; graded K[u] setting ≠ degree-zero local B_N. |
+| Baues–Blanc–Gondhali JHRS2016, BJT arXiv:1809.07495, DKS/HKM, Blumberg–Lesnick 2023 | ABSTRACT/STATEMENT_INSPECTED selected inherited; DKS/HKM SECONDARY_ONLY | Higher Toda/persistence technology established. Full cited-by, HHA 2026, MathSciNet/zbMath census NOT done. |
+
+Bounded phrase searches through 16 Oct 2026 yielded no independently verified exact same nonsemisimple all-real coefficient gap theorem; nonfindings NEVER confer originality. HHA G2 B NOT PASSED; exact mathematical contribution, broad relevance and useful independent strengthening need S086.

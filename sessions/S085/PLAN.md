@@ -1,0 +1,5 @@
+# S085 PLAN
+1. Inspect original Kochman Def2.2.1 and Xu §5, type-check S084 generalized cone all-five fillers against *actual classical* intermediate sphere-spectrum restriction; BBS Theorem1.23 relation and nonunique conventions.
+2. Try coherent forward/backward five-diagram WE transfer (pointing, unit/counit, four edge prisms, three primary/two secondary and final three-face G04) and source-exact Xu zero; seek counterdiagram.
+3. Revisit all-real IHC and HI quotient/clock including both whole weak-equivalence lanes, negative time and e=5/4.
+4. If cannot close A, honour owner's conditional B choice, inspect inherited S078 T202–T204 and latest primary novelty; run independent bounded f_m diagnostic, identify B G1/G2 obligations. Write full S086 FUTURE prompt and synchronise ledgers; no S086 execution.

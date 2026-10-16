@@ -435,3 +435,6 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 ### S084 direct primary access (16 October 2026)
 - **SRC-0168 PROOF_INSPECTED:** Kochman LNM1423 Ch2 [public original scan](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf), printed pp13–16 Def2.2.1/2.2.2 and Thm2.2.3. Five fillers G02,G13,G24,G03,G14 and final three-face boundary. This upgrades access, not a proof Xu conventions agree.
 - **SRC-0169 PROOF_INSPECTED selected:** Basu–Blanc–Sen [arXiv:1810.06005v2](https://arxiv.org/pdf/1810.06005), Thm1.23 pp7–8, §2 pp8–11. Rectification/zero obstruction; authors explicitly warn no universal long Toda convention. Xu's [publisher PDF](https://msp.org/gt/2016/20-3/gt-v20-n3-p08-s.pdf) §5 cites Kochman [10] but does not prove universal convention equality.
+
+### S085 sources (16 Oct 2026)
+SRC-0170 PROOF_INSPECTED Kochman original Def2.2.1 p14 (https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf) intermediates E_i=S. SRC-0171 PROOF_INSPECTED selected BBS arXiv:1810.06005 Thm1.23/§2 no standard long Toda convention. SRC-0172 STATEMENT_INSPECTED Sydney Magma A∞ handbook cyclic higher m_N old.

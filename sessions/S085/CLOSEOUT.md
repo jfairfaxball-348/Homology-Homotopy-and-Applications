@@ -1,0 +1,9 @@
+# S085 CLOSEOUT — 16 October 2026
+**A STILL OPEN, NOT REFUTED; owner conditional B triggered.** S085 independently source-typechecked Kochman Def2.2.1 p14: intermediate E_i=S, so S084 description of a literal Kochman five-filler system on arbitrary suspension spectra was too strong. Only the generic formal constant-cone incidence was justified. The full source-exact sphere representative and backward pointed three-face Xu transport is still missing. No genuine e<5/4 whole-real strict counterdiagram and no admissible zero Xu defining system; failure to prove is not refutation. dIHC=1, bound dHI>=5/4 remain source-dependent internally/conditionally reconstructed, not a published theorem; A G1/G2 OPEN.
+Owner answer "A , If that fails b" authorises **B** as the next prospective first-paper category, not as a Top^R proof. S086 FUTURE will independently audit S078 T202–T204 in right Ch(F2[t]/t^N)^R and HHA novelty. 2070 separately coded finite selected f_m checks N4,5,6,8,12 passed to degree70, not general proof. Cyclic m_N is classical prior art, G2 NOT PASSED. No Lean, Palomar, manuscript, priority, arXiv/HHA submission or third-party contact. This authored document does NOT fabricate outgoing PR/merge/hosted-run identifiers; verify live after merge.
+## NEXT_SESSION_HANDOFF
+- Next session: S086
+- Status: FUTURE, UNEXECUTED
+- Canonical prompt: authoritative/NEXT_SESSION_PROMPT.md
+- Decisive target: owner-approved B; independent full-category all-real right Ch(F2[t]/t^N)^R strict HI>IHC proof/refutation, semisimple boundary, true independent HHA originality audit.
+- Authority: Fresh separate owner instruction required to execute S086. This handoff does not run S086, Lean or publication.

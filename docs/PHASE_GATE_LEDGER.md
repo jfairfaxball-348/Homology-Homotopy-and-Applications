@@ -283,3 +283,6 @@ Exact owner-selected S067 first-paper route investigated. Xu GT2016 §5 pp1620�
 
 ### S084 gate — 2026-10-16
 G1: **OPEN** (Kochman five-face local lemma is not final Xu one-way bridge). G2 independent HHA originality/significance: **NOT PASSED**. Formalization: NOT STARTED / NOT AUTHORISED. Source upgrade: original Kochman Ch2 pp13–16 PROOF_INSPECTED. Publication: NOT AUTHORISED. No new strict ordinary Top^R theorem frozen.
+
+### S085 gates
+A ordinary Top^R G1 OPEN not disproved, G2 NOT PASSED. B all-real right Ch(B_N) inherited S078 G1 INTERNAL not independently certified, G2 NOT PASSED. Cyclic m_N classical. Formalisation NOT STARTED and unauthorised; Palomar, manuscript, submission gated.
