@@ -8,7 +8,7 @@
   "headline": "S075 independent referee reconstructs alternate finite dgMod-R strict HI>IHC gap; HHA originality/significance not passed",
   "selected_mathematical_problem": "Priority original five-sphere strict unpointed Top^R HI>IHC; new S065 may prove alternate closely related explicit sphere witness or genuinely novel whole-shoelace / homotopy-theoretic theorem plus unconditional application, recommending any change in official paper target to owner.",
   "headline_status": "ALTERNATE_DGMOD_R_INTERNAL_REFEREE_RECONSTRUCTED__G2_FAIL_TO_CLEAR__ORIGINAL_TOPR_UNPROVED",
-  "active_campaign": "S076 FUTURE only: owner-directed conceptual natural application or STOP/PIVOT; no repetitive engineered example",
+  "active_campaign": "S076 FUTURE: owner-install C4 natural group-algebra Ch(F2[C4]) strict-gap PROVE/KILL plus general quantitative obstruction and HHA novelty gate; NO S076 execution",
   "claim_of_new_theorem": false,
   "stages": [
     {
@@ -1314,5 +1314,23 @@
     "original_top": "UNPROVED",
     "owner_switch": "NOT_APPROVED",
     "next": "S076_FUTURE_UNEXECUTED"
+  },
+  "prospective_s076_owner_override": {
+    "date": "2026-10-16",
+    "authority": "OWNER_GOVERNANCE_ONLY_NOT_S076_EXECUTION",
+    "status": "FUTURE_UNEXECUTED",
+    "natural_category": "Ch(B), B=F2[C4]=F2[t]/(t^4), ordinary degree-zero group algebra",
+    "conjectural_numerical_target": "dIHC(F,0)=1<5/4<=dHI(F,0) with all-real and arbitrary whole replacement both lanes",
+    "general_theorem_target": "Checkable quantitative 4fold-coherence strict-distance separation criterion with actual new mathematical utility",
+    "known_starting_fact": "Magma group cohomology A-infinity m4(x,x,x,x)=y, not a proof of complete Toda zero-exclusion or distance gap",
+    "field_boundary": "Sep2026 Thm3.3 Ch_k equality must be checked; Ch(B)≠Ch_k with action forgotten",
+    "stop_rule": "Prove or disprove C4; if blocked attempt one grounded natural fallback; otherwise STOP/PIVOT not endless source/endpoint treadmill",
+    "gates": "G1 and G2 not advanced by installation; official Top^R UNPROVED",
+    "owner_paper_switch": "NOT_AUTHORISED",
+    "Lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED",
+    "last_completed_session": "S075",
+    "next_queued_session": "S076",
+    "s076_executed": false
   }
 }
