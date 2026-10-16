@@ -1,0 +1,7 @@
+Executed locally with Python3 on 16 October 2026; original exact bounded checker in sessions/S076/check_c4.py, no Lean/Palomar:
+EXPLICIT_40_DEGREES: PASS
+ADJACENT_JETS: PASS 16
+PRIMARY_ALL_CHOICES: PASS 8192
+SECONDARY_ALL_CHOICES: PASS 524288
+TERMINAL_INVARIANT: PASS; finite jets only, NOT metric proof
+This is exact arithmetic in a finite quotient plus degree 2 coefficient tests; not exhaustive infinite diagram or publication certification.

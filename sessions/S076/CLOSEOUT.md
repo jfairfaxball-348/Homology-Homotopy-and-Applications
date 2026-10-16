@@ -1,0 +1,15 @@
+# S076 CLOSEOUT — 16 October 2026
+
+Completed S076 only; next S077 is FUTURE/UNEXECUTED. **NEW INTERNAL G1 RESULT, NOT LEAN/REFEREED OR JOURNAL-READY.** T198 exact complete fourfold B=F2[C4] zero-exclusion by explicit coefficient jets; T199 general all-real quantitative complete-coherence criterion with arbitrary WHOLE quasi-isomorphism zigzags of BOTH lanes; T200 explicit real five-stage Ch(B) theorem
+
+    d_IHC(F,0)=1 < 5/4 <= d_HI(F,0) <= 5/2;
+
+T201 extends transparently to Ch(F2[C4×H]) with H finite odd-order through the separable trivial block, not a claimed novel classification. This substantially improves naturalness relative to S074/S075 purpose-built 30-path dg R. Source Magma m4=y motivation is not used as zero-exclusion proof. A local t-adic n=2 functional detects ALL possible defining-system choices and defeats the anticipated selected-product pitfall.
+
+The actual Python3 ring-jet diagnostic of sessions/S076/check_c4.py (one finite bounded calculation) passed: 40 resolution degrees of x/h/z identities and terminal=1; 16 adjacent jets; 8,192 primary jets; 524,288 secondary jets; terminal constant-one invariant. These finite computations are not a formal proof of the projective homotopy model structure, whole-diagram HI theorem or 2026 novelty. All relevant infinite-choice statements are argued symbolically in MATHEMATICS.md. Adversarial checks and natural-family limit in ADVERSARIAL.md.
+
+**G1:** natural Ch(F2[C4]) INTERNAL PROOF COMPLETE, subject to independent human checking. Original ordinary integral unpointed Top^R five-sphere still OPEN and frozen; engineered dg R alternate still internally proved. **G2:** NOT PASSED — ordinary group algebra and new metric statement plausibly improve HHA significance, but full 2026 paper/cited-by priority and external referee remain incomplete. **HHA publishability: NO at this checkpoint.** Proposed first-paper target switch only by OWNER yes/no after separate G2 gate. No owner consent to switch, no Lean/Palomar/paper/arXiv/HHA/third-party activity. No exact dHI, endpoint or GRID pursuit.
+
+Entry Git evidence: main 3c03433f500058c61223c4b57807cd18366962ed tree 2695e7d4d961cff47b5a6110adce9cb35f73fa44; PR81 ordinary merge parents d4458c2713ee3953346f3796f63935adfe891d7e and a816a6b304222bc492e8b59f8b6434cea8b76b18; PR/main seven-step hosted STATIC SUCCESS runs 38900368327 / 38900432119, jobs 116970830594 / 116971044767. Rulesets []; protection 403 UNKNOWN; no open PR at entry. Outgoing authored/tree/PR/check/merge values MUST be verified live after publication; no fabricated outgoing results are written in this authored commit.
+
+S077 handoff: an adversarial independent re-derivation specifically attempting to KILL n=2 jet argument, whole real-cofibrant projective shoelace and odd-factor family, and an exhaustive source-level novelty/HHA significance gate that either yields an owner-facing first-paper switch YES/NO proposal OR commits to STOP/PIVOT. It is NOT authorised by the creation of this prompt alone.

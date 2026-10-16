@@ -1,0 +1,8 @@
+# S076 research plan (preregistered before finite-ring diagnostic)
+
+1. Independently write right B=F2[t]/t^4 periodic projective resolution; check exactness via annihilator ideals and degree/shift conventions. Find explicit closed degree-minus-one representative x, primary h and secondary k and check all equations.
+2. Adversarially test COMPLETE fourfold defining-system zero membership for arbitrary strict adjacent representatives and all primary/secondary fillers; use low-resolution-degree coefficient invariants, not a single selected m4 value. Independently enumerate the finite local jets; state bounded coverage.
+3. Transport the five-stage strict sequence through a whole-diagram projective cone to prove dIHC=1; then for ALL entire real zigzags and both lanes derive a projectively cofibrant shoelace quotient, strict 2e-zero maps, five clocks, and contradiction through transferred full defining system.
+4. Extract a general falsifiable quantitative criterion with explicit projective/cofibration/left-proper hypotheses and a computable cochain-functional certificate. Test field k alone as a disproof case and report any natural group-algebra family honestly.
+5. Compare original primary literature on rectification, higher Massey/Toda, 2026 field equality, HHA scope and adjacent papers. Distinguish new numerical example from classical fourfold group cohomology; judge G1/G2 separately. Refuse a journal-ready YES if exhaustive priority/independent referee remain open.
+6. Archive six-file dossier, exact code/output, catalogues/authority mirrors, and S077 FUTURE handoff. One atomic branch commit, actual hosted STATIC checks, ordinary merge, independent main verification.
