@@ -110,3 +110,6 @@ The newly selected stalks are \`S^68_(2) --2--> S^68_(2) --sigma^2--> S^54_(2) -
 
 ### S085 prospective first-paper owner-approved fallback B (16 Oct 2026)
 Owner condition A then B if unproved has triggered. B first prospective research target: degree-zero RIGHT Ch(F2[t]/t^N)^R strict dHI>dIHC over arbitrary whole real both-lane quasi-isomorphism replacements, N>=4; semisimple F2 equality boundary. S078 internal only, needs independent S086 proof and novelty/HHA significance check. NOT ordinary Top^R; original 2-local sphere word archived OPEN, not false. NO Lean/Palomar/manuscript/arXiv/HHA submission authority.
+
+### S086 current B prospective target (16 Oct 2026)
+The owner-authorised B right Ch(F2[t]/t^N)^R is the CURRENT prospective first-paper route. Internal all-choice N-fold dg bracket argument and exact T205 quotient-collapse example advanced, but full all-real arbitrary two-lane metric theorem still lacks independent final proof-level signoff and HHA G2 NOT PASSED. 2-local ordinary Top^R sphere original remains archived OPEN NOT REFUTED. S087 future only, no Lean/Palomar/manuscript/submission authorisation.

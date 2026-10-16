@@ -599,3 +599,11 @@ See S038 full dossier and JSON scope.
 
 ### S085 claims (16 Oct 2026)
 CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman actual arbitrary Xi. CLM-0421 SOURCE_STATED type condition. CLM-0422 INHERITED_UNVERIFIED Xu source transport still OPEN. CLM-0423 COMPUTED_EXACT finite 2070 selected f_m identity checks only. CLM-0424 INHERITED_UNVERIFIED owner conditional B Ch(B_N) internal theorem. CLM-0425 SOURCE_STATED old cyclic m_N.
+
+### S086 claims (2026-10-16)
+- **CLM-0426** (PROGRAMME_PROVED): T205: for every N>=4 and 1<=m<=N-2, explicit real free step diagram F_N tensor B_m is strictly 1-interleaved with zero, and adjacent x is not nullhomotopic; dIHC=dHI=1. Scope: Internal direct proof, not external review or universal quotient equality.
+- **CLM-0427** (PROGRAMME_PROVED): Any complete dg Hom N-fold defining system over B_N with fixed nonzero adjacent Ext1 classes has terminal W_2=1 mod t, while all boundaries lie in (t); zero excluded. Scope: Internal all-choice valuation induction, no blanket identification with sphere Toda conventions.
+- **CLM-0428** (INHERITED_UNVERIFIED): T202 full all-real Ch(B_N) strict dHI>dIHC needs independent final signoff for arbitrary projective shoelace arrow cofibrations, terminal quiver derived Kan transport and full transfer. Scope: Whole arbitrary real diagram both lanes, not field or topological spheres.
+- **CLM-0429** (SOURCE_STATED): KNYW September 2026 JACT Thm3.3 proves dHC=dIHC=dHI=dCohI for all real unbounded Ch(K) over fields; no B_N extension asserted. Scope: Original publisher §3.1 theorem and proof inspected.
+- **CLM-0430** (COMPUTED_EXACT): S086 independent finite canonical f_m tester passed 2457 identities at N4,5,6,8,12,16 and degrees2..64, terminal W_2=1 and x² mod t^m=0 for m<=N-2; JSON SHA256 81b0378237d51fb24554c77efbc8d91249205e4c202d3169e709699b39cf418d. Scope: Finite chosen systems only; never proves all choices, category theory or novelty.
+- **CLM-0431** (INHERITED_UNVERIFIED): HHA G2 novelty/significance of all-real nonsemisimple B_N metric distinction remains unestablished against DKS/BBG/LS/KNYW and contemporary HHA work. Scope: No journal acceptance or exhaustive recent citing bibliography.

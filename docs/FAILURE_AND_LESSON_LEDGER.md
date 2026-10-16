@@ -494,3 +494,6 @@ Do not conflate a genuinely complete constant zero Kochman defining system on a 
 
 ### S085 source type lesson
 Kochman original Def2.2.1 E_i=S intermediate. Calling generalized arbitrary Σ∞Xi cone fillers a literal Kochman source-admissible system is wrong. Need coherent sphere equivalence transport with basepoints, both secondaries, G04 three-face gluing and exact Xu convention. No genuine counterexample found. Activate owner conditional algebraic B, distinct category; finite diagnostic not general proof.
+
+### S086 — coefficient gap and novelty stop warnings
+No valid N=4,5,8 all-choice dg zero system produced. Finite 2457 checks cannot certify transfinite projective shoelace or arbitrary whole real replacements. Tensoring explicit degreewise free F_N stages with B_m, m<=N-2, kills x² strictly and collapses HI to IHC=1, showing coefficient-change may fail to reflect proposed HI gap; no general assertion that non-flat tensor preserves all quasi-isomorphisms. Classical m_N preempts naive priority. Require original DKS/BBG comparison, substantive application before G2.

@@ -286,3 +286,6 @@ G1: **OPEN** (Kochman five-face local lemma is not final Xu one-way bridge). G2 
 
 ### S085 gates
 A ordinary Top^R G1 OPEN not disproved, G2 NOT PASSED. B all-real right Ch(B_N) inherited S078 G1 INTERNAL not independently certified, G2 NOT PASSED. Cyclic m_N classical. Formalisation NOT STARTED and unauthorised; Palomar, manuscript, submission gated.
+
+### S086 gates — 2026-10-16
+New elementary coefficient-reduction T205 on explicit ALL-real diagrams proved internally; all-choice dg obstruction independently re-derived. Universal whole-real two-lane projective shoelace/Kan/transfer original referee signoff still OPEN. G1 no full independent signoff; G2 2026 original-source HHA novelty/significance NOT PASSED. Lean and publication NOT AUTHORISED.
