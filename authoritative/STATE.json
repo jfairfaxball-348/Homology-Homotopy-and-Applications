@@ -6,9 +6,9 @@
   "recommended_next_session": "S088",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "S087 all-real projective/total-Hom/transfer route internally written, second independent G1 proof still open; T206 ghost/barcode distances 1/2 vs 1; HHA G2 not passed",
-  "selected_mathematical_problem": "Owner-approved prospective B right unbounded Ch(F2[t]/t^N)^R all-real arbitrary both-lane WE, N>=4; original Top^R sphere OPEN archived, not disproved.",
-  "headline_status": "S087_COMPLETE__T206_INTERNAL_PROVED__B_G1_SECOND_INDEPENDENT_REFEREE_OPEN__G2_NOT_PASSED__S088_OWNER_CHOICE_PENDING",
-  "active_campaign": "S088 FUTURE, UNEXECUTED, OWNER_CHOICE_PENDING A B or C; no automatic mathematical execution",
+  "selected_mathematical_problem": "Owner Option A selected after S087: prospective first paper remains right unbounded Ch(F2[t]/t^N)^R for N>=4 with arbitrary whole real both-lane WE; seek second independent G1 and substantial geometric T206 use. Original Top^R archived OPEN.",
+  "headline_status": "S087_COMPLETE__T206_INTERNAL_PROVED__B_G1_SECOND_INDEPENDENT_REFEREE_OPEN__G2_NOT_PASSED__S088_OPTION_A_INSTALLED_FUTURE",
+  "active_campaign": "S088 FUTURE, UNEXECUTED — OWNER OPTION A CHOSEN; second genuinely independent full-real B_N proof/refutation AND geometric ghost application/HHA novelty. Fresh Run next session executes S088 only.",
   "claim_of_new_theorem": "S087 T206 for all N>=4 and 2<=m<=N-2: dCohI=1/2 < dIHC=dHI=1 on explicit reduced all-real F_(N;m), nonzero ghost; originality/G2 unpassed. One complete internal all-real B_N T202 proof route but second independent G1 signoff open.",
   "stages": [
     {
