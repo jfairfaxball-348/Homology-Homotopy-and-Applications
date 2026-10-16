@@ -1,0 +1,9 @@
+# S069 CLOSEOUT — 16 October 2026 (PREMERGE DOSSIER)
+
+**Session:** Exactly one authorised S069, with S070 explicitly FUTURE UNEXECUTED. Baseline main `29972c0e9aabdd32d2231f6dcdc3b7c0b9c09274`, tree `0cd5fd25a4bdbd6ed60050dd7c6d427f15db8476`. Last S068 one-commit PR #72 actual two-parent merge verified; both seven-step hosted STATIC PR and main jobs successful; main branch protection API inaccessible (403), no open PR or matching S069 branch at entry.
+
+**Proof result:** Direct primary-source Kochman conventional fourfold composition defining system found and checked, including three first-cone nulltracks, two second-cone fillers, explicit final ∪3 boundary; stable-first zero transport avoids assuming BBG/BJT higher variant = Xu. Kochman is explicitly among Xu's cited sources. Derived dIHC=1, whole shoelace quotient, and clocks independently stress-tested on paper; conditional contradiction dHI≥5/4 survives these attacks, no countermodel. **Remain conservative:** final exact Xu-vs-Kochman convention equality not an explicit cited theorem, independent all-uncountable-Top^R model referee verification and exhaustive Oct2026 novelty/HHA priority unavailable. The alternate is an INTERNAL sourced proof candidate, not independently accepted full theorem. G2 **NOT PASSED**, original integral five spheres UNPROVED, no target switch.
+
+**Roadmap:** PROOF → separately owner-approved Lean → publication. No exact dHI work, Lean, Palomar, paper, arXiv/HHA, publicity or contact. Next S070 is prepared but not run.
+
+**Precommit audit note:** This document is authored before GitHub PR/runs/merge by necessity of ONE atomic authored commit. Do NOT read it as a claim that S069 has already merged or static CI passed. The human-readable final report must independently state actual outgoing commit/PR, PR-hosted check, real merge SHA/tree/parents and postmerge hosted check, or any failure. Hosted integrity is static governance only.

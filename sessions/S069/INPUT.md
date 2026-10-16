@@ -1,0 +1,9 @@
+# S069 INPUT — authorised session, 16 October 2026
+
+**Owner invocation:** “Run next session”. This authorises S069 alone. No S070 action and no Lean, Palomar, manuscript, submission, or third-party contact.
+
+**Live baseline independently checked:** main `29972c0e9aabdd32d2231f6dcdc3b7c0b9c09274`, tree `0cd5fd25a4bdbd6ed60050dd7c6d427f15db8476`. S068 one authored commit `f461bf9838898e4f4e1daebe7d0834fdec1ad483` via merged PR #72, ordinary merge parents `8c576a18f06b84398eeef63a74f8422b7eae6d41`, `f461bf9838898e4f4e1daebe7d0834fdec1ad483`, merge tree `0cd5fd25a4bdbd6ed60050dd7c6d427f15db8476`. Hosted PR run 38813591494/job 116692614275 and postmerge push run 38813664040/job 116692858333 each seven successful STATIC governance steps; neither checks mathematics. No open PR or existing S069 branch seen. Rulesets [] exposed; branch protection endpoint integration 403, so do not assert protection absent.
+
+**Target:** owner-selected original INTEGRAL S160→S160→S130→S100→S100 (2,θ4,θ4,2) first-paper flagship remains UNSOLVED. Research-only ALTERNATE: ordinary UNPOINTED Top^R, 2-local CW L68→L68→L54→L40→L40 with (2,σ²,σ²,2); F empty before0/point after5, G empty before0/point from0. S066–68 internal dIHC=1, conditional dHI≥5/4, unresolved external proof/2026 G2.
+
+**Pre-registered research:** try exact classical fourfold ZERO construction rather than generic BBG/BJT identification; independent whole-poset quotient/derived shifted-natural null and boundaries; primary/current originality and HHA comparison; no computational search. Stop at accurate proof-stage status. Prepare S070 FUTURE only.
