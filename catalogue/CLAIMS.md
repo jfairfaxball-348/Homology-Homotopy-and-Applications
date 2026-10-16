@@ -589,3 +589,10 @@ See S038 full dossier and JSON scope.
 |CLM-0413|INHERITED_UNVERIFIED|Precise S083 remaining G1 obligation (C): an all-primary/both-secondary complete zero topological fourfold defining system must be proved to map under Ho(Top_*)^[4] isos and 2-local suspension into Xu's ordered classical stable bracket; this source-exact preservation was NOT proved or disproved.|S073 selected primary-cube adjunction insufficient; no genuine incompatible face or sphere zero countermodel known.|SRC-0163,SRC-0165,SRC-0167|
 |CLM-0414|SOURCE_STATED|Lanari–Scoccola 2023 Remark3.13 still asks about dHI versus dIHC, while Sep2026 Kuribayashi et al. equality is in field-valued cochain complexes rather than ordinary unpointed Top^R.|Selected original sources read, not comprehensive through-2026 citation/priority certification.|SRC-0164,SRC-0166|
 |CLM-0415|INHERITED_UNVERIFIED|At S083 close G1 Top^R strict inequality STILL OPEN, G2 HHA originality/significance NOT PASSED, no certified fourfold bracket comparison/novel HHA application, Lean not authorised. S084 future only.|Process/gate record, not negative theorem or priority certification.|SRC-0163,SRC-0164,SRC-0165,SRC-0166,SRC-0167|
+
+### S084 actual claims (16 Oct 2026)
+- **CLM-0416 SOURCE_STATED:** Original Kochman complete five G_ij filling system; terminal G04 has three boundary face terms; composition/smash variants equal within Kochman.
+- **CLM-0417 PROGRAMME_PROVED, NARROW:** On the SAME strict pointed chain with literal zero doubles, all five constant fillers form a valid Kochman zero system; this alone is not Xu transport or strict Top^R separation.
+- **CLM-0418 PROGRAMME_PROVED, NARROW:** A whole-real diagram-WE zigzag remains a STRICT five-chain diagram-WE zigzag after restricting ordered times.
+- **CLM-0419 INHERITED_UNVERIFIED:** Backward leg pointed prism transfer, both secondary cones and terminal G04 boundary into Xu's exact convention remain OPEN; G1/G2 remain open.
+- **CLM-0420 SOURCE_STATED:** Basu–Blanc–Sen rectification theorem and explicit warning of incompatible nonstandard long Toda conventions.

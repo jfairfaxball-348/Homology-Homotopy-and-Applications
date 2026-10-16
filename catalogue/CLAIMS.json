@@ -4086,6 +4086,53 @@
         "SRC-0167"
       ],
       "scope": "Process/gate record, not negative theorem or priority certification."
+    },
+    {
+      "id": "CLM-0416",
+      "status": "SOURCE_STATED",
+      "claim": "Kochman original LNM1423 Ch2 printed pp14–16 Def2.2.1/Thm2.2.3 explicitly has t=4 defining systems G02,G13,G24,G03,G14 and a 3-face terminal G04 assembled over h4:S2 boundary quotient; composition and smash variants agree within his convention.",
+      "sources": [
+        "SRC-0168"
+      ],
+      "scope": "Source exact for Kochman, not proven Xu equality."
+    },
+    {
+      "id": "CLM-0417",
+      "status": "PROGRAMME_PROVED",
+      "claim": "For a strict based FIVE-chain whose three adjacent double composites are literally constant based maps, the suspended diagram has a complete ZERO Kochman five-filler defining system with all primaries and both secondaries constant and terminal 3-face sphere map zero.",
+      "sources": [
+        "SRC-0168"
+      ],
+      "scope": "Narrow same-pointed-chain lemma; not arbitrary equivalent sphere diagrams, not Xu transport."
+    },
+    {
+      "id": "CLM-0418",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Restricting every natural transformation in a whole-real zigzag of objectwise weak-equivalence diagrams along ordered five clock times gives an objectwise-WE zigzag of STRICT Top^[4] diagrams, a stronger input than a mere Ho(Top)^[4] isomorphism.",
+      "sources": [
+        "SRC-0164"
+      ],
+      "scope": "Elementary restriction of diagram natural transformations; basepoint/coherent backward-lift and classical source transport not implied."
+    },
+    {
+      "id": "CLM-0419",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "The full source-precise G04 terminal three-face zero transport for arbitrary forward/backward WE legs through based suspension and comparison to Xu's specific bracket is not yet proved; G1 ordinary Top^R dHI>dIHC remains STILL OPEN.",
+      "sources": [
+        "SRC-0163",
+        "SRC-0168",
+        "SRC-0169"
+      ],
+      "scope": "Not a disproof; inherited dIHC=1 and strict bound remain conditional/or internally argued."
+    },
+    {
+      "id": "CLM-0420",
+      "status": "SOURCE_STATED",
+      "claim": "Basu–Blanc–Sen Theorem1.23 explicitly associates higher zero bracket values to pointed diagram strictification, while its §2 warns that long Toda brackets have no universally standard agreed definition, even stably.",
+      "sources": [
+        "SRC-0169"
+      ],
+      "scope": "Does not supply exact equivalence of Xu and Kochman."
     }
   ]
 }
