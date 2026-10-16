@@ -237,3 +237,6 @@ Source-exact Kochman type error in S084 arbitrary Xi claim corrected, no proof o
 
 ### S086 — 16 October 2026 — B_N independent referee and scalar-reduction application
 All-choice N-fold dg unit induction checked, 2457 chosen finite equations pass, and new exact T205 reduction F_N⊗B_m (1<=m<=N-2) distances both 1 with strict interleaving. Original all-real two-lane model-category transfer remains subject to full independent referee; G2 originality/HHA OPEN. No Lean/Palomar/manuscript/submission. S087 FUTURE.
+
+### S087 — 16 October 2026 — B_N whole-real proof route and T206
+Quiver two-column total-Hom n1/n2/terminal, Kan all u, projective e-shoelace cell/retract cofibration lemma, both-lane quotient, s_i clocks and all-choice transfer independently expanded. One complete proof route internal; second independent required for G1, no counterexample found. T206 over all B_m, 2<=m<=N-2: nonzero ghost on derived P_m has all H_q(x)=0; exact homology barcode distance 1/2 vs IHC=HI=1. Material application but no outside geometric instance or full DKS/BBG primary-proof novelty clearance; G2 OPEN/HHA NOT READY. S088 owner A/B/C choice FUTURE only; no downstream work.

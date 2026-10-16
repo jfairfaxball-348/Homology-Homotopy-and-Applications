@@ -4231,6 +4231,61 @@
         "SRC-0177"
       ],
       "scope": "No journal acceptance or exhaustive recent citing bibliography."
+    },
+    {
+      "id": "CLM-0432",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S087 internal projective-cell lemma: for any set-sized poset I and cofibrant Q in projective Ch(B)^I, every comparable structure arrow Q(p)->Q(q) is a cofibration of Ch(B); applies to real e-shoelace both lanes, including transfinite cells and retracts.",
+      "sources": [
+        "SRC-0184"
+      ],
+      "scope": "Cell/retract proof in S087/MATHEMATICS; mathematical internal proof, not hosted check or published theorem."
+    },
+    {
+      "id": "CLM-0433",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S087 internal integer free-successor total Hom calculation gives a whole-diagram nullhomotopy of eta_2, and explicit derived left Kan step comparison extends it to the ENTIRE real index including all negative u and half-open cuts.",
+      "sources": [],
+      "scope": "Internal complete 2-row Hom calculation and underived-Kan homotopicality; not pointwise-only Ho(Ch(B))^R argument."
+    },
+    {
+      "id": "CLM-0434",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S087 internally closes the single complete all-real proof route for dIHC(F_N,0)=1<1+1/(2floor(N/2))<=dHI(F_N,0) with arbitrary acyclic second lane and whole WE zigzags, provided independently repeated total-Hom/cofibrant-transfer calculations are accepted.",
+      "sources": [
+        "SRC-0181",
+        "SRC-0182"
+      ],
+      "scope": "A complete internal proof route is written but the pre-registered TWO INDEPENDENT complete G1 referee arguments are NOT satisfied; no external validation, formal proof or G1 gate advancement."
+    },
+    {
+      "id": "CLM-0435",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S087 T206: for every N>=4, 2<=m<=N-2, the explicit derived scalar extension F_(N;m) over B_m has d_CohI(F_(N;m),0)=1/2 and d_IHC(F_(N;m),0)=d_HI(F_(N;m),0)=1; adjacent x is a nonzero derived ghost, vanishing on homology in EVERY degree.",
+      "sources": [
+        "SRC-0184"
+      ],
+      "scope": "Unbounded right Ch(B_m), full real step persistence, CohI defined as sup homology-module interleaving; m=1 excluded. Internal algebraic proof, no originality guarantee."
+    },
+    {
+      "id": "CLM-0436",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S087 G1 requires a second genuinely independent all-real proof/refutation to meet owner-specified two-proof criterion; no true zero N-fold defining system or full-real strict counterinterleaving was exhibited.",
+      "sources": [],
+      "scope": "Do not call all-real witness formally/external certified; inherited alternative Top^R also OPEN."
+    },
+    {
+      "id": "CLM-0437",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S087 G2 material HHA novelty/priority still NOT PASSED: ghost application T206 is an exact new in-programme comparator, but neither DKS/BBG original full overlap nor a natural topological application or complete 2026 citing sweep was resolved.",
+      "sources": [
+        "SRC-0181",
+        "SRC-0182",
+        "SRC-0183",
+        "SRC-0184",
+        "SRC-0185"
+      ],
+      "scope": "No external review, editor assessment, citation exhaustiveness or publication readiness."
     }
   ]
 }

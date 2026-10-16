@@ -1621,6 +1621,60 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "CDGA, not degree-zero B_N chain category.",
       "observed": "Contemporary adjacent non-formality and persistence research."
+    },
+    {
+      "id": "SRC-0181",
+      "title": "Dwyer Kan Smith, Homotopy commutative diagrams and their realizations, JPAA 57 (1989) 5–24, DOI 10.1016/0022-4049(89)90023-6",
+      "url": "https://www.sciencedirect.com/science/article/pii/0022404989900236",
+      "origin": "S087 targeted original-source audit 2026-10-16",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original publisher abstract and accessible article transcription §§1,3–4; did not independently verify all original relative-obstruction proofs.",
+      "observed": "Classical realization/relative obstruction theory, not a located theorem on specific B_N all-real distances."
+    },
+    {
+      "id": "SRC-0182",
+      "title": "Baues Blanc Gondhali, Higher Toda brackets and Massey products, JHRS 11 (2016) 643–677 DOI 10.1007/s40062-016-0157-8",
+      "url": "https://link.springer.com/article/10.1007/s40062-016-0157-8",
+      "origin": "S087 targeted original-source audit 2026-10-16",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original full publisher HTML intro, Theorem A/5.14, Prop 5.20 announced and §6 text inspected; relevant full proof not referee-checked.",
+      "observed": "Higher bracket DK-invariance, chain-complex examples and Massey correspondences already prior art; §6 hereditary hypothesis does not cover B_N."
+    },
+    {
+      "id": "SRC-0183",
+      "title": "Lanari Scoccola, Rectification of interleavings and a persistent Whitehead theorem, AGT 23 (2023) 803–832 DOI 10.2140/agt.2023.23.803",
+      "url": "https://arxiv.org/abs/2010.05378",
+      "origin": "S087 targeted original-source audit 2026-10-16",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original author/preprint abstract and original NSF paper text index; this session did not independently recheck full Thm A or Remark 3.13 proof.",
+      "observed": "Defines dHI, dIHC comparison and Toda distance methods; archived 2023 question not Oct 2026 novelty guarantee."
+    },
+    {
+      "id": "SRC-0184",
+      "title": "Kuribayashi Naito Wakatsuki Yamaguchi, The equalities of interleaving distances and cohomology interleavings of spaces over BS1, JACT10 article26 (2026), DOI 10.1007/s41468-026-00252-0",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "S087 targeted original-source audit 2026-10-16",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Original 12 Sep 2026 publisher HTML §3 Theorem 3.3 statement plus its proof, Lemma 2.13 and Prop 3.5 descriptions; not full article.",
+      "observed": "Field coefficient all-real equality dHC=dIHC=dHI=dCohI; exact contrast with B_m ghost category."
+    },
+    {
+      "id": "SRC-0185",
+      "title": "Kuribayashi Naito Sekizuka Wakatsuki Yamaguchi, A distance between maps via interleavings of relative Sullivan algebras, arXiv:2604.06800 (2026)",
+      "url": "https://arxiv.org/abs/2604.06800",
+      "origin": "S087 targeted original-source audit 2026-10-16",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original arXiv abstract; full current v2 proof not inspected.",
+      "observed": "Recent 2026 CDGA examples with dIHC versus cohomology distinction; not same B_N linear model."
+    },
+    {
+      "id": "SRC-0186",
+      "title": "Blumberg Lesnick, Universality of the homotopy interleaving distance, Trans AMS 2023, arXiv:1705.01690",
+      "url": "https://arxiv.org/abs/1705.01690",
+      "origin": "S087 targeted original-source audit 2026-10-16",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original arXiv abstract only in S087.",
+      "observed": "General HI metric foundations and interleaving weak-replacement definition."
     }
   ]
 }
