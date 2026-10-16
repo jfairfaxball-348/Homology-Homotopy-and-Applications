@@ -55,3 +55,7 @@ Alternate ordinary unpointed 2-local Top^R five-stage dIHC=1<5/4≤dHI retains d
 
 ## S069 checkpoint — 16 October 2026
 Proof-first only. Explicit Kochman stable conventional fourfold zero construction narrows alternate 2-local dHI>IHC proof ambiguity. Independent whole ordinary Top^R and precise Xu interpretation plus 2026 G2 still before owner target decision. S070 future proof/priority audit, not exact dHI. No Lean/Palomar/manuscript/external submission until proof, owner authorisation and gates.
+
+
+## Prospective owner S070 override — 16 October 2026 (NOT A COMPLETED SESSION)
+S070 must aim at **one complete proof and defensible novel HHA result by session end**, not a repeated citation audit. Finish ordinary unpointed Top^R 2-local gap first; when blocked, in the SAME session pursue a well-defined narrower pointed/2-local/finite-critical/stable-spectra separation or a sharp new higher-rectification theorem with an independently proved homotopical application. Exact hypotheses/changed categories must be explicit; classical source lemmas are not an original paper. Deliver A COMPLETE_PROOF_AND_G2_DEFENSIBLE / B COMPLETE_PROOF_G2_OPEN / C WEAKER_VALID_RESULT_NOT_HHA_CLEAR / D FALSIFIED_OR_CRITICAL_GAP, detailed peer-review counterattack, practical Lean blueprint and one-page *readiness outline* (not manuscript). Only owner-selected freeze and separately authorised Lean follow genuine A; no preapproval of target switch or paper/submissions. S069 last completed; S070 future only. Binding full brief: authoritative/NEXT_SESSION_PROMPT.md.

@@ -1202,5 +1202,26 @@
     "external_actions": "NONE",
     "next": "S070 FUTURE UNEXECUTED",
     "outgoing": "VERIFY_LIVE_GITHUB_POSTMERGE"
+  },
+  "prospective_s070_owner_override": {
+    "date": "2026-10-16",
+    "type": "OWNER_GOVERNANCE_ONLY_NO_SESSION_EXECUTION",
+    "authority": "Authorises next S070 to pursue original unrestricted 2-local Top^R separation then an actually proved weaker setting/theorem within same session, aiming for proof-complete HHA-fit readiness with evidence rather than extra audits",
+    "last_completed_session_unchanged": "S069",
+    "next_queued_session": "S070 FUTURE UNEXECUTED",
+    "proof_target": "One gap-free exact theorem or genuine falsification and decisive owner A/B/C/D readiness verdict",
+    "accepted_research_weakening": [
+      "pointed simply connected 2-local diagrams with declared whole WE quantifiers",
+      "constructible finite-critical / explicitly projectively cofibrant / finite-poset setting",
+      "well-defined spectrum-valued strict vs derived distance",
+      "original higher Toda obstruction/rectification theorem with nontrivial proven application"
+    ],
+    "stage_order": "rigorous mathematical proof and first HHA novelty gate; owner's target choice; separate owner-authorised Lean; publication afterward",
+    "original_integral_flagship": "STILL_UNPROVED_NOT_SWITCHED",
+    "gate2": "STILL_NOT_PASSED",
+    "lean": "NOT_AUTHORISED_BLUEPRINT_ONLY",
+    "manuscript": "NOT_AUTHORISED_ONE_PAGE_READINESS_OUTLINE_ONLY",
+    "external_actions": "NONE",
+    "s070_executed": false
   }
 }
