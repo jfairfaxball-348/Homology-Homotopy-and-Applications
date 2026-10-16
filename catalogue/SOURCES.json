@@ -1152,6 +1152,60 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Exact internal theorem/corollary compared to spectral interleaving metrics not verified",
       "observed": "Classical higher obstruction/rectification theory; possible source of general known consequences."
+    },
+    {
+      "id": "SRC-0129",
+      "title": "Baues, Blanc and Gondhali 2016, Higher Toda brackets and Massey products",
+      "url": "https://arxiv.org/pdf/1503.02265",
+      "origin": "original full arXiv PDF",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected Example2.17/Fig2.19 pp9-10, Thm4.21 proof pp17-19 and Def4.27-4.32 p20 directly inspected; not source-exact convention with Kochman/Xu",
+      "observed": "General coherent higher fourfold Toda complete bracket and DK-equivalence invariance; identical 3 primary and 2 secondary formal faces."
+    },
+    {
+      "id": "SRC-0130",
+      "title": "Lanari and Scoccola, Rectification of interleavings and a persistent Whitehead theorem, AGT 2023",
+      "url": "https://arxiv.org/pdf/2010.05378",
+      "origin": "original arXiv full paper version v3",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected Lemma3.4/induction pp10-11 and Prop3.7/3.10 pp12-14 inspected; v3 prepublication journal changes not independently checked",
+      "observed": "h:Ho(M^Z) to Ho(M)^Z full/conservative, pointwise chain iso lifts to whole WE; classical triple Toda rectification equivalent to zero."
+    },
+    {
+      "id": "SRC-0131",
+      "title": "Blanc, Johnson and Turner, A constructive approach to higher homotopy operations (2019)",
+      "url": "https://arxiv.org/pdf/1809.07495",
+      "origin": "original arXiv complete PDF",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected §7 fourfold diagrams/proof passages examined, not whole 50pp independently",
+      "observed": "Explicit higher coherent 4fold rectification/lift and obstruction; likely general-prior-art collision."
+    },
+    {
+      "id": "SRC-0132",
+      "title": "Kuribayashi and collaborators 2026, field-dg interleaving equality in a restricted homotopical setting",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "original Springer 2026 article",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Category-specific field-dg/BS1 article statements; no claim about all spectra",
+      "observed": "Restricted equality dHI=dIHC does not settle stable sphere spectra."
+    },
+    {
+      "id": "SRC-0133",
+      "title": "Hardie, Kamps and Kieboom 1999, Higher homotopy groupoids and Toda brackets, Homology Homotopy Appl 1(4), 117–134",
+      "url": "https://intlpress.com/api/bgcloud-front/resource/pdf/volume/1805807712116031489-1805807712116031489-b2e467815bb54b512bc8294061007f77.pdf",
+      "origin": "original HHA journal PDF from publisher",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Original full 18-page pdf accessible; directly inspected intro, track and quaternary bracket setup pp117–119; remaining argument not independently proof audited",
+      "observed": "1999 HHA directly published higher Toda track/groupoid methodology; significant novelty collision for category-theoretic higher obstruction."
+    },
+    {
+      "id": "SRC-0134",
+      "title": "Hardie, Kamps and Marcum 2002, The Toda bracket in the homotopy category of a track bicategory, JPAA 175, 109–133",
+      "url": "https://doi.org/10.1016/S0022-4049(02)00131-7",
+      "origin": "original ScienceDirect publisher page",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Publisher abstract/metadata inspected; full original 2002 proof not accessible",
+      "observed": "Quaternary Toda via bicategorical triple operation with reduced indeterminacy; strong prior art, no direct specific BBG/Xu comparison."
     }
   ]
 }

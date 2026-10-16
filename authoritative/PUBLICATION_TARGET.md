@@ -53,3 +53,7 @@ A NEW abstract full real-indexed ordinary symmetric-spectra 5-stage Kochman four
 
 ## S071 owner target gate — 16 October 2026
 The owner-selected integral unpointed Top^R five-sphere HI>IHC theorem remains the official priority and is unproved. S071's stable-spectrum universal fourfold theorem lacks an explicit Kochman-to-arbitrary-spectrum bracket and Ho(Sp)^[4] transport theorem; source and October-2026 novelty insufficient for switching first-paper targets. T187 is a correct standalone internal strict-zero sampling lemma, not yet shown original or journal-significant. **NO automatic spectral target switch, Lean or external publication**. S072 must address the gap proof-first.
+
+## S072 owner target gate — 16 October 2026
+S072 2026-10-16: T188 free-linear diagram Ho-lifting (published LS antecedent), T189 explicit Z-valued nonfaithfulness on a single arrow, T190 general BBG complete fourfold zero invariance under Ho(Sp)^[4] isomorphisms using DK equivalence, T191 unconditional **conditional-on-BBG-nonzero** all-whole-WE real HI≥5/4. Original specific Xu/Kochman⇒BBG exact zero-exclusion not established; no concrete numeric spectral strict gap or original integral unpointed Top^R proof. G2 HHA novelty FAIL_TO_CLEAR, no owner switch/Lean/publication. S073 FUTURE ONLY.
+The official integral unpointed Top^R five-sphere target is unchanged, separate from any BBG spectral conditional theorem.
