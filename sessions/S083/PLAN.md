@@ -1,0 +1,8 @@
+# S083 PLAN — decisive proof and originality gate
+
+1. Read direct ORIGINAL published Xu (GT20 2016 p1620–21), validate 2-primary word order, nonzero singleton, pi29 and actual unstable sphere-model maps. Contrast all-choice classical conventions precisely with BJT 2019 and BBG 2016.
+2. Reconstruct exact Ho(Top^R) derived 1-interleaving using two corrected coherently natural nullpaths on integer quiver, mapping-space loop obstruction and real derived Kan; verify both compositions, times and epsilon<1 obstruction.
+3. Reconstruct unrestricted both-input whole-real shoelace projective replacement; prove all arrows mono for transfinite cells; quotient the WE-contractible G-image naturally to literal point, audit all crossings and both strict identities, and sample the five stages for 1≤epsilon<5/4.
+4. Decide if a one-way, *complete defining-system* geometric implication zero_top ⇒ zero_in_Xu_classical can be proved without falsely identifying all Kochman/BBG/BJT brackets. Explicitly exhibit all primary and both secondary compatibility/face conditions, orientation and stabilization; attempt a compatible zero Xu defining system and a real strict counterinterleaving.
+5. Current-original independent novelty audit through 16-Oct-2026 against LS 2023, Xu, BBG/BJT, Kochman, HKM, DKS, BL and Sep2026 dg equality, with exact overlap and honest access grades; test whether proving this inequality would be an HHA-level advance.
+6. Freeze mathematical theorem only if complete source-exact original-scope proof and independently viable significance/G2. Otherwise record first missing line, concrete adversarial failures, non-overclaiming verdict, and install S084 future actionable proof-or-kill prompt. No Lean, Palomar, manuscript, submission.

@@ -1,0 +1,18 @@
+# S083 CLOSEOUT — 16 October 2026
+
+**Research verdict: STILL OPEN.** The owner-selected first-paper candidate is exactly the 2-local *stalk* sphere word (2,sigma²,sigma²,2) in ordinary UNPOINTED Top^R with arbitrary WHOLE objectwise-WE zigzags of BOTH inputs. S083 independently inspected Xu original pp1620–21: its exact classical second displayed ordered fourfold bracket is nonzero singleton {theta4}, pi29^S_(2)=0. The projective integer derived 1-interleaving and real shoelace/left-proper quotient plus sampled t=(0,1,2+c,3+c,4+2c) were reconstructed internally; they do not by themselves imply the named strict lower bound. A complete specific classical one-way zero-transport (C) across pointed homotopy-category chain isomorphisms, suspension, all primary/two secondary fillers and Xu/Kochman terminal convention has NOT been proved from original source-equivalent diagrams. No valid zero defining system or whole-real strict counterinterleaving found; no disproof either.
+
+**Exact first open line:** demonstrate, in the exact sequential reduced-cone classical definition Xu uses, that a literal-zero-double-composite sampled chain's complete zero system survives arbitrary Ho(Top_*)^[4] conjugations and 2-local suspension spectra as an admissible **Xu** zero-valued conventional fourfold system with correct two secondary fibres and boundary orientation. Merely comparing chosen cubical faces with BBG/BJT, or asserting bracket-invariance, is insufficient. This may be provable via a *one-way* geometrical map without full bijection; S084 targets a single explicit source-exact diagram/counterdiagram rather than repeating generic audit.
+
+**Gate report:** G1 ordinary Top^R original scope **OPEN**, G2 independent current HHA novelty/significance **NOT PASSED**, Lean NOT_STARTED, Palomar/registration/manuscript/arXiv/HHA submission **NOT AUTHORISED**. Original integral (2,theta4,theta4,2) archived OPEN, k(j),k(v) unknown; no switch to spectra/dg. Static hosted eight-step CI, when successful, is governance only; never mathematics or originality certification. This pre-merge authored document does not fabricate outgoing PR/head/merge/hosted-run identities; verify those LIVE after integration.
+
+**HHA context:** Original Lanari–Scoccola 2023 Remark3.13 expressly flags unresolved dHI versus dIHC; Sep2026 field-chain equalities do not answer unpointed Top^R. A certified counterexample with this exact scope would be a plausible substantive application of fourth-order obstruction, but absence of exact search hits neither proves novelty nor journal suitability. No new HHA-quality strengthening demonstrated.
+
+**Owner decision / recommendation:** Retain the explicitly selected 2-local Top^R candidate for **one decisive convention-specific proof-or-kill** (S084) rather than switch categories on speculation. If S084 cannot produce the precise full-system map or explicit incompatible face, report hard blocker and ask owner whether to continue this route, pursue an owner-approved alternative, or pause. No decision-only numbered session is consumed merely to ask; governance-only amendment handles a later owner choice.
+
+## NEXT_SESSION_HANDOFF
+- Next session: S084
+- Status: FUTURE, UNEXECUTED
+- Canonical prompt: authoritative/NEXT_SESSION_PROMPT.md
+- Decisive target: Construct a source-exact ONE-WAY Xu-classical complete-zero-preservation map with all five cone/cube objects, two secondary fillers and terminal oriented boundary, or a genuine counterdiagram; then independently decide the original-scope inequality/G2.
+- Authority: A fresh, separate owner instruction is required to execute S084. Preparing this prompt does not run S084; no Lean, Palomar, manuscript or external publication is authorised.

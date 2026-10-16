@@ -1,0 +1,7 @@
+# S083 INPUT — 16 October 2026
+
+Owner message: “Run next session” (faithful summary, no fabricated byte hash). The 16-Oct governance-only Option-B choice authorises S083 mathematical research on the S067 2-local CW-sphere ordinary unpointed Top^R word, NOT the old integral theta4/theta4 word and NOT S084.
+
+Live entry main: a16523c7ce220c2af47a6e14439d935b4b744bdf; tree: f0f12e80fb49b610b759cd90bf6924c42946c7bd. S082 authored e915835709bda3878ce1a207d93f8a586e879f41, PR #90, ordinary merge 76a1d5bb8dfa1bd612c19dc6a956f99529395383, merge tree 68b7a65bbe52a894461cfaec4f5ad6f40ca581a1. Directly checked hosted S082 PR 38926610871 (job 117059650023) and main 38926666613 (job 117059840768): each SUCCESS and all eight actual steps including two static governance/handoff steps; this is NOT mathematical certification. Intervening owner governance PR #91, authored e308ffc3175ad526bc96245c58920ba7ca78bc58, ordinary merge a16523c7ce220c2af47a6e14439d935b4b744bdf from parents 76a1d5bb8dfa1bd612c19dc6a956f99529395383 / e308ffc3175ad526bc96245c58920ba7ca78bc58, and matching tree f0f12e80fb49b610b759cd90bf6924c42946c7bd.
+
+Entry open PRs []; legacy branches visible, no competing active PR; visible rulesets []; branch protection endpoint access unresolved (UNKNOWN, not 'none'). No fresh Lean, Palomar, paper, arXiv/HHA submission, third-party contact. Scientific outcome is judged separately from GitHub workflow.

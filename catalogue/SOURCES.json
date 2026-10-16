@@ -1458,6 +1458,51 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "No full proof inspection and no specific fourfold target computation",
       "observed": "Contemporary unstable matrix Toda bracket conventions remain technically nontrivial."
+    },
+    {
+      "id": "SRC-0163",
+      "title": "Zhouli Xu, The strong Kervaire invariant problem in dimension 62, final GT20(2016) 1611–1624 §5 Lemma5.1",
+      "url": "https://msp.org/gt/2016/20-3/gt-v20-n3-p08-s.pdf",
+      "origin": "S083 direct publisher-original PDF printed pp1620–21",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Only §5 Lemma5.1 and immediately adjacent pages visually checked, not all historical cited computations or cross-convention comparison.",
+      "observed": "Second ordered classical fourfold <2,sigma²,sigma²,2>={theta4} with zero indeterminacy; pi30_(2)=Z/2, pi29_(2)=0."
+    },
+    {
+      "id": "SRC-0164",
+      "title": "Edoardo Lanari and Luis Scoccola, Rectification of interleavings and a persistent Whitehead theorem, arXiv:2010.05378, AGT23(2023)",
+      "url": "https://arxiv.org/pdf/2010.05378",
+      "origin": "S083 direct original PDF selected p13–15 and §4 statements",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected Lemma3.8/Prop3.10 proof only; not complete independent read of all 25 pages or post-2023 citing corpus.",
+      "observed": "Ho(Top_sc,*)≃Ho(Top_sc) Lemma3.8, triple Toda dHC vs dHI, Remark3.13 says dHI vs dIHC unknown in 2023."
+    },
+    {
+      "id": "SRC-0165",
+      "title": "David Blanc, Mark W. Johnson, James M. Turner, A constructive approach to higher homotopy operations, arXiv:1809.07495",
+      "url": "https://arxiv.org/pdf/1809.07495",
+      "origin": "S083 original §7.A–7.6 p34",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "§7.5 original statement and diagrams inspected; no complete proof-level equivalence to Xu classical convention.",
+      "observed": "Two separated higher operations; terminal fourfold Toda is authors' rectification obstruction, not an established Xu complete-bracket identification."
+    },
+    {
+      "id": "SRC-0166",
+      "title": "Kuribayashi, Naito, Wakatsuki, Yamaguchi, The equalities of interleaving distances and cohomology interleavings of spaces over BS1, JACT Sep2026",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "S083 original publisher full HTML theorem3.3",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Theorem scope checked; no exhaustive cited-by search or complete proof-level audit; category differs from Top^R.",
+      "observed": "Equalities dHC=dIHC=dHI for cochain complexes over a field, not ordinary Top^R."
+    },
+    {
+      "id": "SRC-0167",
+      "title": "Stanley Kochman, Stable Homotopy Groups of Spheres, LNM1423 chapter Toda brackets (1990)",
+      "url": "https://doi.org/10.1007/BFb0083795",
+      "origin": "S083 original bibliographic DOI metadata, no original full Def2.2.1 acquired",
+      "access": "METADATA_ONLY",
+      "limitation": "Actual Def2.2.1 all representative cones and their exact agreement with Xu still UNINSPECTED.",
+      "observed": "Classical Toda higher-convention priority and S084 highest-access target."
     }
   ]
 }
