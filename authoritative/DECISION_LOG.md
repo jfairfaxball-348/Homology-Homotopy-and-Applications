@@ -474,3 +474,6 @@ Actual session ended STILL OPEN. Narrow classical Kochman five-face local zero l
 
 ### S085 explicit owner conditional choice (16 Oct 2026)
 Owner 'A , If that fails b'. S085 attempted A, found original-source type error, no gap-free unpointed Top^R proof; A remains OPEN NOT DISPROVED. Thus NEW owner-approved prospective first-paper target B right Ch(F2[t]/t^N)^R N>=4 for S086 independent proof and HHA novelty. Do not state Top^R solved or B novelty established. S086 FUTURE UNEXECUTED; proof -> separately authorised Lean -> publication. No decision-only session.
+
+### S086 decision — 2026-10-16
+Execute owner-authorised B original ordinary right Ch(B_N)^R only, preserve 2-local sphere Top^R candidate OPEN. Distinguish dg all-choice internal proof and unconditional T205 explicit B_m scalar-reduction equality from unsettled full external same-category whole-real G1 signoff and HHA first G2. Continue S087 only under a fresh owner invocation; demand substantive coefficient application or source-level novelty resolution; never initiate Lean or submission without separate consent.

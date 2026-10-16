@@ -234,3 +234,6 @@ Original Kochman Ch2 Def2.2.1 scanned pp13–16 inspected; full t=4 G_ij inciden
 
 ### S085 16 October 2026 — A STILL OPEN, owner B fallback activated
 Source-exact Kochman type error in S084 arbitrary Xi claim corrected, no proof of Xu-compatible backward G04 transfer or full-real e<5/4 counterdiagram. Owner 'A , If that fails b' gives conditional B research authority. S086 Ch(F2[t]/t^N)^R all-N internal S078 theorem proof/referee and HHA G2; 2070 independent finite canonical checks passed. No Lean/publication.
+
+### S086 — 16 October 2026 — B_N independent referee and scalar-reduction application
+All-choice N-fold dg unit induction checked, 2457 chosen finite equations pass, and new exact T205 reduction F_N⊗B_m (1<=m<=N-2) distances both 1 with strict interleaving. Original all-real two-lane model-category transfer remains subject to full independent referee; G2 originality/HHA OPEN. No Lean/Palomar/manuscript/submission. S087 FUTURE.

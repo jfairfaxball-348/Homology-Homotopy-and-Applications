@@ -438,3 +438,13 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 
 ### S085 sources (16 Oct 2026)
 SRC-0170 PROOF_INSPECTED Kochman original Def2.2.1 p14 (https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf) intermediates E_i=S. SRC-0171 PROOF_INSPECTED selected BBS arXiv:1810.06005 Thm1.23/§2 no standard long Toda convention. SRC-0172 STATEMENT_INSPECTED Sydney Magma A∞ handbook cyclic higher m_N old.
+
+### S086 sources (2026-10-16)
+- **SRC-0173** (PROOF_INSPECTED): KNYW, equality of interleaving distances, JACT10 article26 (12 Sep 2026) DOI 10.1007/s41468-026-00252-0 §3.1 Theorem3.3. https://link.springer.com/article/10.1007/s41468-026-00252-0. Limit: Theorem 3.3 proof and statement, not entire manuscript.
+- **SRC-0174** (ABSTRACT_INSPECTED): Dwyer–Kan–Smith, Homotopy commutative diagrams and their realizations JPAA57 1989 pp5–24 DOI 10.1016/0022-4049(89)90023-6. https://www.sciencedirect.com/science/article/pii/0022404989900236. Limit: Theorem/proof overlap not independently inspected.
+- **SRC-0175** (ABSTRACT_INSPECTED): Baues–Blanc–Gondhali Higher Toda brackets and Massey products JHRS11 2016 DOI 10.1007/s40062-016-0157-8. https://link.springer.com/article/10.1007/s40062-016-0157-8. Limit: Relevant Proposition 4.35 full proof not inspected now.
+- **SRC-0176** (METADATA_ONLY): HHA2026 Lebovici Lerch Oudot local characterization block decomposability vol28(1) pp175–196. https://doi.org/10.4310/HHA.2026.v28.n1.a9. Limit: University record; no original article theorem inspected.
+- **SRC-0177** (METADATA_ONLY): HHA2026 Asao Wakatsuki minimal projective resolution magnitude homology vol28(2) pp123–154. https://doi.org/10.4310/HHA.2026.v28.n2.a7. Limit: University metadata; original article not examined.
+- **SRC-0178** (ABSTRACT_INSPECTED): Lanari Scoccola AGT23 2023 rectification, DOI 10.2140/agt.2023.23.803. https://arxiv.org/abs/2010.05378. Limit: Relevant Remark3.13 proof not re-read in S086.
+- **SRC-0179** (ABSTRACT_INSPECTED): Blumberg Lesnick Universality HI TransAMS2023 DOI 10.1090/tran/8738. https://arxiv.org/abs/1705.01690. Limit: General homotopy-interleaving source only.
+- **SRC-0180** (ABSTRACT_INSPECTED): Kuribayashi et al distance between maps via relative Sullivan algebras arXiv:2604.06800. https://arxiv.org/abs/2604.06800. Limit: CDGA, not degree-zero B_N chain category.

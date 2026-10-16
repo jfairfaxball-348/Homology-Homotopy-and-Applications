@@ -1,0 +1,6 @@
+# S086 PLAN — predetermined scrutiny and stop rules
+1. Referee the unbounded 2-periodic free resolution and every low-degree boundary, reconstruct all-choice N-fold higher obstruction, and attempt zero defining systems at N=4,5,8. Never infer all choices from one finite checker.
+2. Stress-test the integer quiver projective resolution, zero natural 2-shift in Ho(Ch(B_N)^R), all-real shoelace projective cofibrant quotient including arbitrary acyclic second lane, real clock and exact bounds. A local formula is not a fully external mathematical referee.
+3. Independently derive a coefficient-change application, specifically reduction to B_m, 1<=m<=N-2; check rigorous dIHC/dHI statements and finite selected maps.
+4. Check September 2026 original field theorem, cyclic higher A-infinity prior art, classical Toda/rectification, recent 2026 CDGA and HHA volume 28 examples at exact stated access levels.
+5. Deliver mathematical claims with limitations, a falsification file, source-grade audit, synchronized gates and S087 FUTURE handoff in one authored atomic commit and ordinary PR; no Lean, Palomar, paper or outside contact. Failure to find a counterexample means OPEN, not NO-GO.
