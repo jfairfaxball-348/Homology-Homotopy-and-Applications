@@ -1,0 +1,9 @@
+# S077 — entry and authority (16 October 2026)
+
+Fresh owner instruction "run next session" authorises S077 ONLY, according to the live main authoritative handoff; it is not authority for S078, Lean, Palomar, manuscript, contact, arXiv, or journal submission.
+
+LIVE entry: main a3416ce97e574bfa16ade0ae985db8e703990733, tree 50ed1813b7d6bfa06426afe66f466563ef164663; prior S076 authored 7becf53c01935be7dcf4d5b6e29b7dce9e079df4, parent 3c03433f500058c61223c4b57807cd18366962ed; PR #82 genuine ordinary merge a3416ce97e574bfa16ade0ae985db8e703990733 has exactly those two ordered parents and matching tree. PR #82 hosted pull_request 38903291347 / job 116980557253 and main push 38903419397 / job 116980977538 each have seven completed successful STATIC steps. These check GOVERNANCE, not mathematics. Rulesets []; main protection GET 403 UNKNOWN. Open PRs [] and no competing S077 branch on fresh entry check. Recheck main before mutation; halt if changed. S077 isolated branch required, one authored atomic commit, PR hosted STATIC success, ordinary two-parent merge, then independently checked main hosted STATIC success. Outgoing data must be verified after writing, not forecast.
+
+Fixed previous result to referee: the ORIGINAL official integral ordinary unpointed Top^R five-sphere gap remains OPEN. Alternate engineered dg R gap remains internal only and has failed G2. S076 claims internal Ch(B), B=F2[C4]=F2[t]/t^4, with an explicit real five-stage strict functor F of shifts P[i] of the periodic projective resolution and 0:
+d_IHC(F,0)=1 < 5/4 <= d_HI(F,0) <= 5/2.
+Proof-first, then owner-approved Lean, then publication; exact d_HI is not a gate. Test n=2 all-choice jet, FULL real shift and shoelace, original sources, not the selected Magma m4 alone. No owner first-paper switch in S077.

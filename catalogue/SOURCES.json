@@ -1314,6 +1314,69 @@
       "access": "METADATA_ONLY",
       "limitation": "Metadata not a substantive full contemporary HHA journal survey",
       "observed": "Illustrative HHA persistence topic in 2026, not exhaustive priority."
+    },
+    {
+      "id": "SRC-0147",
+      "title": "Lanari and Scoccola, Rectification of interleavings and a persistent Whitehead theorem, AGT 23 (2023) 803–832",
+      "url": "https://arxiv.org/pdf/2010.05378",
+      "origin": "S077 direct original-source audit / specified access grade",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original arXiv:2010.05378v3, directly inspected definitions, Thm A, Prop3.12 and Remark3.13; not full proof read",
+      "observed": "Top HC vs HI known; Top HI vs IHC raised as open; cannot claim solved in Ch(B)."
+    },
+    {
+      "id": "SRC-0148",
+      "title": "University of Sydney Magma handbook, A-infinity group cohomology C4 example",
+      "url": "https://magma.maths.usyd.edu.au/magma/handbook/text/1065",
+      "origin": "S077 direct original-source audit / specified access grade",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original handbook example directly inspected; machine calculation not independently rerun",
+      "observed": "Selected m4(x,x,x,x)=y known for cyclic C4, not entire bracket metric implication."
+    },
+    {
+      "id": "SRC-0149",
+      "title": "Baues Blanc Gondhali, Higher Toda brackets and Massey products, JHRS 11 (2016) 643–677",
+      "url": "https://arxiv.org/pdf/1503.02265",
+      "origin": "S077 direct original-source audit / specified access grade",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original 29-page arXiv PDF inspected introduction and Proposition4.35, not full proof",
+      "observed": "Classical equivalence of dg higher Toda and Massey brackets; old homotopy invariance framework."
+    },
+    {
+      "id": "SRC-0150",
+      "title": "Kuribayashi Naito Wakatsuki Yamaguchi, Equalities of interleaving distances, JACT 10:26 (2026)",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "S077 direct original-source audit / specified access grade",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original publisher HTML directly checked theorem3.3 and proposition3.5, plus Sec4 introduction; not complete paper proof line audit",
+      "observed": "dHI=dIHC for Ch_K FIELD, does not cover Ch(F2[C4]) action."
+    },
+    {
+      "id": "SRC-0151",
+      "title": "Berkouk, Algebraic Homotopy Interleaving Distance, GSI2021",
+      "url": "https://infoscience.epfl.ch/entities/publication/70d41af8-42b2-4364-a054-8fb64fe121b3",
+      "origin": "S077 direct original-source audit / specified access grade",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Institutional abstract only, not original proof read",
+      "observed": "Derived persistence module metrics already developed."
+    },
+    {
+      "id": "SRC-0152",
+      "title": "Hardie Kamps Kieboom, Higher homotopy groupoids and Toda brackets, HHA 1 (1999) 117–134",
+      "url": "https://researchportal.vub.be/en/publications/higher-homotopy-groupoids-and-toda-brackets/",
+      "origin": "S077 direct original-source audit / specified access grade",
+      "access": "METADATA_ONLY",
+      "limitation": "Institutional original article bibliographic record and excerpt; no new original proof inspection",
+      "observed": "HHA historical Toda/coherence readership precedent, not claimed metric preemption."
+    },
+    {
+      "id": "SRC-0153",
+      "title": "Kuribayashi et al., Distance between maps via interleavings of relative Sullivan algebras (2026)",
+      "url": "https://arxiv.org/abs/2604.06800",
+      "origin": "S077 direct original-source audit / specified access grade",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original preprint abstract, not full manuscript",
+      "observed": "Live adjacent 2026 research in CDGA IHC; scope differs from Ch(B)."
     }
   ]
 }
