@@ -551,3 +551,12 @@ See S038 full dossier and JSON scope.
 - **CLM-0381 [SOURCE_STATED]** Kuribayashi–Naito–Wakatsuki–Yamaguchi published 12Sep2026 Thm3.3 proves dHC=dIHC=dHI=dCohI for persistence objects in Ch_k of field-valued chain complexes, not general right dgMod-R with R-action. Scope: Original publisher full HTML selected theorem and §3.1 inspected; term dg module there means cochain complex over field. Sources: SRC-0132,SRC-0138.
 - **CLM-0382 [INHERITED_UNVERIFIED]** S075 priority/HHA significance gate FAIL_TO_CLEAR for purpose-built 30-path dg R-module example: none of the selected inspected original publications supplied an exact preemptor, but classic higher Toda machinery and incomplete HHA 2026/cited-by closure forbid validated novelty or publishability. Scope: G2 NOT PASSED; HHA READY NO; no owner switch, Lean or publication; absence of located source is NOT absence of prior art. Sources: SRC-0130,SRC-0129,SRC-0135,SRC-0131,SRC-0133,SRC-0134,SRC-0138,SRC-0139.
 - **CLM-0383 [SOURCE_STATED]** Kuribayashi et al. Apr2026 relative Sullivan algebra work reports that IHC of persistent CDGA can differ from cohomology interleaving distance, not an exact dHI>dIHC gap. Scope: Original abstract inspected, not full theorem/proof; not evidence of preemption or novelty clearance. Sources: SRC-0139.
+
+## S076 16 October 2026 claim additions — see normative JSON
+- **CLM-0384 [PROGRAMME_PROVED]** T198: complete ALL-choice C4 group-algebra 4-fold operation excludes 0 by n=2 t-adic terminal residue; independent from Magma's selected m4.
+- **CLM-0385 [PROGRAMME_PROVED]** T199: quantitative five-stage all-real / both-lanes Ch(A) shoelace 4-fold strict HI lower bound criterion with explicit cochain-functional certificate.
+- **CLM-0386 [PROGRAMME_PROVED]** T200: natural Ch(F2[C4]) numeric internal theorem dIHC=1<5/4<=dHI<=5/2, NOT Top^R/field-only/Lean.
+- **CLM-0387 [PROGRAMME_PROVED]** T201: odd-order product H separable-block natural group algebra extension; limited significance.
+- **CLM-0388 [COMPUTED_EXACT]** Python ring-jet bounded checker 40,16,8192,524288 PASS; NOT infinite metric proof.
+- **CLM-0389 [SOURCE_STATED]** Sept2026 Ch_k equality excludes field-only gaps; does not cover B-module action.
+- **CLM-0390 [INHERITED_UNVERIFIED]** G2 HHA novelty/significance NOT PASSED, HHA readiness NO, original Top^R unswitched, no Lean/publication.

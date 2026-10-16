@@ -1251,6 +1251,69 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Full original theorem/proof and cited-by chain not audited",
       "observed": "Persistent CDGAs may have IHC different from cohomology distance; not explicit HI>IHC."
+    },
+    {
+      "id": "SRC-0140",
+      "title": "Magma Handbook original A-infinity group cohomology C4 example",
+      "url": "https://docs.magma-maths.org/Algebras/BasicAlgebras/a-infinity.html",
+      "origin": "Original Magma documentation mirror; original old handbook 502",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "A selected A-infinity m4(x,x,x,x)=y does not assert complete bracket or HI metric; actual underlying software not independently run",
+      "observed": "Lines 27-59 original docs show cyclic C4 higher product m4=y; S076 independently proves all-choice bracket."
+    },
+    {
+      "id": "SRC-0141",
+      "title": "Lanari Scoccola Rectification of interleavings AGT 2023 DOI 10.2140/agt.2023.23.803",
+      "url": "https://arxiv.org/pdf/2010.05378",
+      "origin": "Original arXiv and publisher indexed metadata",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected Theorem A, Prop3.12, Remark3.13 inherited; no new exhaustive proof audit; different Top^R scope",
+      "observed": "General HI rectification and Top HI vs HC known; Ch(B) HI>IHC not sourced there."
+    },
+    {
+      "id": "SRC-0142",
+      "title": "Baues Blanc Gondhali Higher Toda brackets and Massey products arXiv1503.02265",
+      "url": "https://arxiv.org/pdf/1503.02265",
+      "origin": "Original arXiv v1 full PDF opened",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Introduction and legacy S075 Def4.31 Prop4.35 checked; no full independent rereferee",
+      "observed": "Higher Toda/Massey machinery classical, S076 claims specific quantitative application not invention."
+    },
+    {
+      "id": "SRC-0143",
+      "title": "Kuribayashi Naito Wakatsuki Yamaguchi 2026 field-complex equality",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "Original 12 Sep 2026 journal full open-access HTML",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Thm3.3 and selected proof; §4 degree-2 k[u] distinct; not Ch(F2[C4])",
+      "observed": "Ch_k persistence homotopy distances coincide; nonsemisimple B-action is essential."
+    },
+    {
+      "id": "SRC-0144",
+      "title": "HHA original publisher aims and peer-review standard",
+      "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/aims.htm",
+      "origin": "Publisher indexed original aims",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Indexed page text; not complete contemporary editorial assessment",
+      "observed": "HHA expects originality, significance and broad homotopy/model category applications."
+    },
+    {
+      "id": "SRC-0145",
+      "title": "HHA 2019 The Persistent Homotopy Type Distance",
+      "url": "https://intlpress.com/site/pub/files/_fulltext/journals/hha/2019/0021/0002/HHA-2019-0021-0002-a013.pdf",
+      "origin": "Original HHA publisher PDF search-index excerpt",
+      "access": "METADATA_ONLY",
+      "limitation": "Full proof not read in current session",
+      "observed": "Related persistence homotopy background, not shown to preempt C4 example."
+    },
+    {
+      "id": "SRC-0146",
+      "title": "Lebovici Lerch Oudot HHA28(1) 2026 block decomposability",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n1.a9",
+      "origin": "Institutional bibliographic publication record",
+      "access": "METADATA_ONLY",
+      "limitation": "Metadata not a substantive full contemporary HHA journal survey",
+      "observed": "Illustrative HHA persistence topic in 2026, not exhaustive priority."
     }
   ]
 }

@@ -3771,6 +3771,74 @@
         "SRC-0139"
       ],
       "scope": "Original abstract inspected, not full theorem/proof; not evidence of preemption or novelty clearance."
+    },
+    {
+      "id": "CLM-0384",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S076-T198 complete fourfold Ext_B operation for B=F2[C4] excludes zero for ALL adjacent x representatives and ALL defining-system homotopies, detected by augmentation n=2 terminal residue 1; explicit x,h,z give nonempty set.",
+      "sources": [
+        "SRC-0140",
+        "SRC-0142"
+      ],
+      "scope": "INTERNAL symbolic two-periodic projective resolution proof only; group-cohomology m4 from source separately labelled; no Lean/external referee."
+    },
+    {
+      "id": "CLM-0385",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S076-T199 universal real-indexed five-stage quantitative criterion: under whole-derived eta2=0, nonzero short shifts and complete all-choice fourfold obstruction, dIHC=1 and 5/4<=dHI<=5/2 in Ch(A), for arbitrary whole replacements of both lanes.",
+      "sources": [
+        "SRC-0141",
+        "SRC-0142"
+      ],
+      "scope": "INTERNAL all-real proof using projectively cofibrant full shoelace, acyclic opposite-lane quotient, transfer formula; not new invention of Toda bracket or formally certified."
+    },
+    {
+      "id": "CLM-0386",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S076-T200 natural ordinary group algebra Ch(F2[C4]) admits explicit strict five-stage real persistence F with dIHC(F,0)=1<5/4<=dHI(F,0)<=5/2.",
+      "sources": [
+        "SRC-0140",
+        "SRC-0143"
+      ],
+      "scope": "INTERNAL detailed proof, category is B-linear modules not Ch_F2 nor original Top^R; exact dHI and endpoint not asserted."
+    },
+    {
+      "id": "CLM-0387",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S076-T201 same natural separation for k[C4×H] with H a finite odd-order group, using projective trivial kH-block.",
+      "sources": [],
+      "scope": "INTERNAL transparent separable-factor family, not significant independent generalisation or preemption check."
+    },
+    {
+      "id": "CLM-0388",
+      "status": "COMPUTED_EXACT",
+      "claim": "S076 finite ring jet checker PASS 40 resolution indices, 16 valid adjacent jets, 8192 primary and 524288 secondary local choices, terminal residue 1.",
+      "sources": [],
+      "scope": "Reproducible Python sessions/S076/check_c4.py and CHECK_OUTPUT.txt; no infinite model-category or originality verification."
+    },
+    {
+      "id": "CLM-0389",
+      "status": "SOURCE_STATED",
+      "claim": "September 2026 original publisher Theorem3.3 establishes equality HI=IHC over field Ch_k, not over ordinary nonsemisimple group algebra B=F2[C4].",
+      "sources": [
+        "SRC-0143"
+      ],
+      "scope": "Primary publisher selected proof/statement checked; no counterexample in category field-only."
+    },
+    {
+      "id": "CLM-0390",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S076 natural Ch(F2[C4]) application plausibly improves HHA significance but G2 priority/significance remains NOT PASSED after bounded primary-source audit; original Top^R flagship unswitched and publishability NO.",
+      "sources": [
+        "SRC-0140",
+        "SRC-0141",
+        "SRC-0142",
+        "SRC-0143",
+        "SRC-0144",
+        "SRC-0145",
+        "SRC-0146"
+      ],
+      "scope": "No located exact preemptor is not novelty proof; broader 2026/cited-by/source access and independent mathematical referee still pending."
     }
   ]
 }

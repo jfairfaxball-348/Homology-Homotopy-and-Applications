@@ -398,3 +398,12 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 - **SRC-0137 [STATEMENT_INSPECTED]** Lanari and Scoccola Remark 3.13 original v3 and v1 indexed author copy — https://arxiv.org/pdf/2010.05378. Remark3.13 says dHI!=dHC but dHI!=dIHC was open, in paper's Top focus. Does not prove dgMod-R theorem or full priority. Limitation: v3 directly inspected; v1 direct arXiv PDF retrieval disabled; author-upload index of v1 inspected, not full primary v1 PDF; published-version passage not independently PDF-verified
 - **SRC-0138 [PROOF_INSPECTED]** Kuribayashi Naito Wakatsuki Yamaguchi 2026 original published field complex equality — https://link.springer.com/article/10.1007/s41468-026-00252-0. Thm3.3 Ch_k-valued persistent complexes have dHC=dIHC=dHI=dCohI; does NOT cover arbitrary coefficient dg algebra modules. Limitation: Selected §3.1 Theorem3.3 and surrounding proof/context directly inspected; no full article external referee; R-module action not in theorem
 - **SRC-0139 [ABSTRACT_INSPECTED]** Kuribayashi Naito Sekizuka Wakatsuki Yamaguchi 2026 A distance between maps via interleavings of relative Sullivan algebras — https://arxiv.org/abs/2604.06800. Persistent CDGAs may have IHC different from cohomology distance; not explicit HI>IHC. Limitation: Full original theorem/proof and cited-by chain not audited
+
+## S076 16 October 2026 additions — see normative JSON
+- **SRC-0140 [STATEMENT_INSPECTED]** Original Magma handbook mirror https://docs.magma-maths.org/Algebras/BasicAlgebras/a-infinity.html; C4 HighProduct x,x,x,x=y, not automatically complete all-choice bracket.
+- **SRC-0141 [STATEMENT_INSPECTED]** Lanari–Scoccola AGT2023 DOI10.2140/agt.2023.23.803, original arXiv; classical rectification and Top remarks, distinct category.
+- **SRC-0142 [STATEMENT_INSPECTED]** BBG arXiv1503.02265 original, classic higher Toda/Massey; original introduction current pass, Prop4.35 S075.
+- **SRC-0143 [PROOF_INSPECTED]** 12Sep2026 publisher Ch_k Thm3.3 equality and selected proof; Ch(B) not covered.
+- **SRC-0144 [STATEMENT_INSPECTED]** HHA official original publisher indexed aims standard.
+- **SRC-0145 [METADATA_ONLY]** HHA2019 persistent homotopy type distance original indexed publisher PDF.
+- **SRC-0146 [METADATA_ONLY]** HHA28(1) 2026 persistence block-decomposition topical paper; metadata only, NOT contemporary completeness.
