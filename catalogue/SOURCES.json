@@ -1377,6 +1377,24 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Original preprint abstract, not full manuscript",
       "observed": "Live adjacent 2026 research in CDGA IHC; scope differs from Ch(B)."
+    },
+    {
+      "id": "SRC-0154",
+      "title": "Kuribayashi Naito Sekizuka Wakatsuki Yamaguchi, A distance between maps via interleavings of relative Sullivan algebras, arXiv:2604.06800v2",
+      "url": "https://arxiv.org/abs/2604.06800",
+      "origin": "S078 original arXiv abstract and Aug2026 revision history inspected",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Detailed 42-page proof NOT inspected; CDGA not right Ch(B_N)",
+      "observed": "IHC of persistence CDGA differs from cohomology distance in general; an adjacent live 2026 field."
+    },
+    {
+      "id": "SRC-0155",
+      "title": "Massey products in homology of loop space of p-completed classifying space, Cambridge Proceedings Edinburgh Mathematical Society, original Theorem 4.5–4.6",
+      "url": "https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/massey-products-in-the-homology-of-the-loop-space-of-a-pcompleted-classifying-space-finite-groups-with-cyclic-sylow-psubgroups/58D3E968B1006AE590076D9CD251B0E9",
+      "origin": "S078 original Cambridge publisher full HTML with theorem4.5/4.6 inspected",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Special-case cyclic Sylow setting; full proof and direct metric application not audited",
+      "observed": "Nonformal higher m_{p^n} known; reinforces conservative novelty status."
     }
   ]
 }
