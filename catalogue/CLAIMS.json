@@ -4004,6 +4004,26 @@
         "SRC-0160"
       ],
       "scope": "No theorem freeze, Lean, Palomar or submission; S082 FUTURE unexecuted."
+    },
+    {
+      "id": "CLM-0408",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S082-T205 (specific stable 2-primary word): for fixed three primary nulltracks of (2,theta4,theta4,2), changing either of its two secondary fillers does not alter the pi62 terminal value, because each difference lies in pi62^S_(2) and is whiskered by multiplication by 2, while 2*pi62=0.",
+      "sources": [
+        "SRC-0161"
+      ],
+      "scope": "Internal cubical stable 2-primary fixed-primary ambiguity lemma ONLY; no assertion about changed primaries, integral unpointed Top^R gap, complete Xu/Kochman/BBG equality or originality."
+    },
+    {
+      "id": "CLM-0409",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S082 complete classical zero-in/out of <2,theta4,theta4,2> remains OPEN: outer primary differences pi31^S_(2)=Z64+Z2^2 and k(j),k(v) not computed; exact unpointed-derived classical comparison not proved.",
+      "sources": [
+        "SRC-0161",
+        "SRC-0157",
+        "SRC-0159"
+      ],
+      "scope": "No G1 theorem proof or genuine zero-system refutation, G2 NOT PASSED, S083 OWNER_DECISION_ONLY."
     }
   ]
 }
