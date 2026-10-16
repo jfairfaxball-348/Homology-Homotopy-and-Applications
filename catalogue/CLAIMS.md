@@ -567,3 +567,9 @@ See S038 full dossier and JSON scope.
 |CLM-0395|SOURCE_STATED|Magma C4 selected m4 and BBG dg higher Toda/Massey equivalence are known prior art.|Source statement exact, no metric separation inferred from either|SRC-0148,SRC-0149|
 |CLM-0396|SOURCE_STATED|September 2026 theorem3.3 proves dHI=dIHC for persistence chain complexes over a FIELD, not the nonsemisimple ordinary B.|Original publisher theorem read, full proof not audited|SRC-0150|
 |CLM-0397|INHERITED_UNVERIFIED|S077 finds no exact S076 Ch(B) metric preemption in bounded source screen, but G2/HHA significance and full contemporary priority remain NOT PASSED; pivot to structural coefficient-ring theorem.|Absence of discovery is not evidence of global novelty; several source full proofs and 2026 citations unchecked|SRC-0147,SRC-0148,SRC-0149,SRC-0150,SRC-0151,SRC-0152,SRC-0153|
+|CLM-0398|PROGRAMME_PROVED|S078 T202 internal all-N truncated local quantitative dIHC=1<1+1/(2floor(N/2))<=dHI<=(N+1)/2.|Entire all-choice N-fold, real derived eta2, both-lanes quotient; no Lean/external referee||
+|CLM-0399|PROGRAMME_PROVED|S078 T203 finite-dimensional semisimple F2 coefficients universal dHI=dIHC via Morita and published 2026 field theorem.|Sufficient boundary only, not nonsemisimple iff|SRC-0150|
+|CLM-0400|PROGRAMME_PROVED|S078 T204 B4 and B8 non-Morita by centers; B5 beyond group algebra.|Indecomposable commutative local; no universal classification||
+|CLM-0401|COMPUTED_EXACT|Explicit f_m parity recurrence/terminal checked for N=4,5,6,7,8,12,16,31.|Finite explicit-check only; not whole metric or all-choice proof||
+|CLM-0402|SOURCE_STATED|Original Magma known cyclic m_n; Cambridge higher arity.|Known operation not novel metric result|SRC-0148,SRC-0155|
+|CLM-0403|INHERITED_UNVERIFIED|S078 G2 HHA NOT PASSED, Top official OPEN, STOP cyclic local and S079 OWNER_DECISION_ONLY.|No search silence novelty claim|SRC-0147,SRC-0148,SRC-0149,SRC-0150,SRC-0154,SRC-0155|

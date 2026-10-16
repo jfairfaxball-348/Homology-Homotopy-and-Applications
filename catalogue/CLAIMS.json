@@ -3903,6 +3903,60 @@
         "SRC-0153"
       ],
       "scope": "Absence of discovery is not evidence of global novelty; several source full proofs and 2026 citations unchecked"
+    },
+    {
+      "id": "CLM-0398",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S078 T202 internally derives for all integer N>=4 an explicit right Ch(F2[t]/t^N) real persistence F_N with dIHC=1<1+1/(2floor(N/2))<=dHI<=(N+1)/2 using complete all-choice N-fold obstruction, derived shift and full both-lanes real shoelace.",
+      "sources": [],
+      "scope": "sessions/S078/MATHEMATICS.md; internal prose proof only; no Lean/independent external referee or exact dHI"
+    },
+    {
+      "id": "CLM-0399",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S078 T203 all finite-dimensional semisimple F2-coefficient persistence chain diagrams satisfy dHI=dIHC by exact Morita product of finite fields and the published 2026 field-complex theorem.",
+      "sources": [
+        "SRC-0150"
+      ],
+      "scope": "S078 internally derived from published theorem3.3; no converse for every nonsemisimple algebra"
+    },
+    {
+      "id": "CLM-0400",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S078 T204 B4 and B8 are independent non-Morita-equivalent indecomposable local algebras by distinct centers; B5 is not a finite 2-group algebra.",
+      "sources": [],
+      "scope": "Elementary center/dimension argument; no stronger separable-equivalence or universal classification claim"
+    },
+    {
+      "id": "CLM-0401",
+      "status": "COMPUTED_EXACT",
+      "claim": "Independent bit-ring check of explicit S078 f_m recurrence and terminal n2 residue for N=4,5,6,7,8,12,16,31 PASS.",
+      "sources": [],
+      "scope": "Only finite parity and explicit terminal identities; no certificate of infinite choices, model categorical proof or source priority"
+    },
+    {
+      "id": "CLM-0402",
+      "status": "SOURCE_STATED",
+      "claim": "Original Magma handbook explicitly says cyclic C_n group cohomology has known higher m_n; original Cambridge paper Theorem4.6 includes p^n-ary higher A-infinity operations.",
+      "sources": [
+        "SRC-0148",
+        "SRC-0155"
+      ],
+      "scope": "Statement-level original HTML, not metric HI>IHC consequence"
+    },
+    {
+      "id": "CLM-0403",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S078 structural B_N theorem has NOT cleared independent HHA G2 originality/significance or full 2026 priority; official Top^R target unproved/unchanged; STOP automatic branch and request owner decision.",
+      "sources": [
+        "SRC-0147",
+        "SRC-0148",
+        "SRC-0149",
+        "SRC-0150",
+        "SRC-0154",
+        "SRC-0155"
+      ],
+      "scope": "Absence of exact preemption in bounded source screen is NOT novelty proof"
     }
   ]
 }

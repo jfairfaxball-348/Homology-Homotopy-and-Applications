@@ -1,20 +1,36 @@
-# S078 — prove or kill a genuinely structural coefficient-ring separation theorem (FUTURE, UNEXECUTED)
+# S079 — owner decision on structural coefficient-ring theorem versus Top^R (FUTURE, UNEXECUTED)
 
-**AUTHORITY / STOP:** Prepared in S077 only. S077 has concluded; S078 is NOT executed by this commit/PR/merge. Only a new, separate owner "run next session" (or explicit S078 invocation) can execute exactly S078. First inspect live main, S077 actual authored SHA/tree, PR real seven-step hosted STATIC run, real ordinary two-parent merge, main push seven-step check, branch/protection/rulesets and open competing work. Halt if conflicting. ONE fresh isolated S078 branch, exactly ONE authored atomic commit, real PR, successful hosted governance checks (not mathematical certification), ordinary two-parent merge, independently verify parents/tree/hosted main. Full six-file dossier and all mirrored authority/catalogues; S079 FUTURE prompt only, NO S079 execution. No invented checks.
+## Authority and entry
 
-## State fixed at entry
-Official owner-selected first-paper target is STILL the original integral ordinary unpointed five-sphere Top^R strict dHI>dIHC, OPEN/UNPROVED, no automatic switch. S074/075 alternate engineered dg R remains G1 internal/G2 not passed. S076/077 natural B=F2[C4]=F2[t]/t^4 real five-stage example is now independently INTERNALLY proof-confirmed, not Lean/external-refereed:
-dIHC(F,0)=1<5/4<=dHI(F,0)<=5/2.
-Its complete fourfold all-choice t-adic n2 jet, full-derived eta2, whole both-lanes shoelace and odd-factor block were audited. **G2 originality/significance NOT PASSED, HHA READY NO, owner has NOT switched paper target.** Classical cyclic-four m4 and generic Toda rectification are known. Frozen scope must not be inflated. Exact distance, GRID, more constants and separable direct-product copies are NOT publication requirements or S078 work.
+**OWNER_DECISION_ONLY. NO AUTOMATIC MATHEMATICAL EXECUTION.** This is a complete future owner handoff, prepared as part of closing S078 only. A new, separate owner invocation is necessary even to execute the briefing, and the owner must explicitly choose a new mathematical route before any further proof, Lean, Palomar, manuscript, journal or external action. The S078 instruction DOES NOT execute S079.
 
-## Mandatory proof-first structural challenge
-A. Select ONE meaningful exact coefficient-category characterization or uniform nontrivial extension where derived-vs-strict HI/IHC separation is controlled by a checkable higher cohomological obstruction, not a named old Massey operation. Prioritise either:
- (A1) a family of **genuinely new nonsemisimple indecomposable local/group algebras**, with at least two independently non-Morita/separable-equivalent cases and explicit all-representatives all-fillers obstruction and quantitative strict separation; OR
- (A2) a sharp **sufficient-and-obstructed/necessary pair** of theorems connecting algebraic structure (e.g. projective resolutions/derived A-infinity non-formality) to whether ALL persistence diagrams satisfy dHI=dIHC, with a rigorously proved nontrivial application beyond the frozen C4 example.
-Prove the full generality actually claimed or DISPROVE it with a concrete counterexample. Do not claim universal iff from one example or ignore possible Morita invariance. Clearly state ring hypotheses (ordinary graded zero degree, finite dimensionality, field and projectivity), module side, unboundedness, representative/full defining-system indeterminacy and whole real diagram quantifiers.
-B. First attempt a reusable derived diagram η2 nullhomotopy and REAL shoelace quantitative obstruction lemma with full parametric clock and all both-lane replacements. Attack transfinite-cofibration and conjugation assumptions. Demonstrate its genuinely new consequence; merely restating S076-T199 fails.
-C. Test the adverse field boundary against 12-Sep-2026 published Ch_K equality, C4 known cyclic-group m4, 2026 Sullivan/CDGA results, AGT 2023, BBG and related HHA literature. Directly inspect primary originals and recent citations; annotate theorem numbers/pages/access and any priority collision. G2 significance requires meaningful independent structural utility for HHA, not a routine extension.
-D. Set one decisive terminal disposition: (1) COMPLETE GENERAL PROOF and G2 defensibly passed -> owner-facing YES/NO target switch proposal and implementation-grade exact Lean dependency blueprint ONLY, no Lean; or (2) technically sound but G2 weak -> STOP the structural C4 branch and return owner control with no further automatic C4 session; or (3) proof fails -> explicit refutation and STOP. NO exact dHI endpoint loops, no superficial "next audit" ladder.
+If the owner invokes S079, first independently retrieve current live main, S078 authored commit/tree/parent, real PR, PR hosted seven-or-eight-step STATIC job, true ordinary TWO-PARENT merge and main push STATIC hosted check, rulesets and branch-protection scope, all open PR/branches and concurrency. Halt on conflict. Any chosen owner-decision documentation uses one isolated session branch, one atomic authored commit, hosted governance SUCCESS before an ordinary merge (never squash/rebase) and independent verification of actual merge parent/tree and main CI, followed by a complete S080 FUTURE prompt in the same closeout. GitHub STATIC CI certifies only governance, not mathematics.
 
-## Closeout
-Separate original Top^R OPEN, C4 internal, new structural theorem G1 PASS/FAIL/OPEN, G2 PASS/NOT PASSED, HHA YES/NO, owner switch pending. Prove before proposing formalisation; no Lean builds, Palomar registration, manuscript, arXiv, journal or external contact without NEW explicit owner authority. Dossier, ledgers, catalogues, proof-vs-check distinction, authenticated SHA/tree/CI after integration, full S079 FUTURE prompt (not execution).
+## Fixed state and exclusions
+
+The designated original integral ordinary unpointed five-sphere Top^R gap d_HI>d_IHC remains OPEN/UNPROVED, and retains the official first-paper target pending explicit owner switch. S074's engineered finite dg algebra and S076/S077's natural Ch(F2[C4]) gap are INTERNAL proof results, G2 not passed. S078 supplies an internal uniform coefficient-category theorem for every integer N>=4:
+
+    B_N=F2[t]/(t^N);
+    d_IHC(F_N,0)=1 < 1+1/(2 floor(N/2)) <= d_HI(F_N,0) <= (N+1)/2.
+
+Full all-choice N-fold nilpotent obstruction and arbitrary whole-real two-lane metric argument are recorded in sessions/S078/MATHEMATICS.md, along with semisimple F2 universal equality via published field theorem. G1 INTERNAL COMPLETE, no Lean or external referee; G2 HHA novelty/significance NOT PASSED, HHA READY NO, owner has not switched targets. DO NOT assert a universal nonsemisimple iff, exact dHI, a Top-valued solution, or novelty of cyclic m_N. The automatic C4/truncated-local branch is STOPPED, not an invitation for more endpoint computations.
+
+## Owner decision to obtain
+
+Present exactly these grounded alternatives with mathematical and journal consequences, then request one explicit selection:
+
+**A — Independent originality/referee gate for the structural theorem.** Authorise a genuinely independent proof referee and exhaustive up-to-October-2026 original-source priority comparison for T202/T203 (Magma cyclic m_N, BBG higher Toda, LS AGT2023, DKS, 2026 Ch(field) equality, 2026 CDGA work, HHA recent articles and forward citations). Demand demonstrated conceptual relevance beyond known operations; if G2 actually passes, propose—not automatically enact—an owner first-paper switch. No Lean until proof-first and owner gate.
+
+**B — Resume original Top^R five-sphere strict HI>IHC target.** Focus on the exact unsolved comparison of the Wang–Xu/Kochman/BBG complete fourfold bracket and unrestricted both-lanes real replacements, or a genuinely original weaker Top-valued theorem only if the owner explicitly permits changing scope. Reject re-running C4 algebra or padding with more numerical bounds. Require a gap-free proof before any Lean step.
+
+**C — Retire the coefficient-ring direction and nominate a different mathematical theorem.** Preserve full S078 internal theorem/ledger with honest G2 limitations, avoid claiming a publication-ready breakthrough and let the owner specify a new HHA-worthy programme target.
+
+S079 is a decision session ONLY: do not carry out option A, B or C mathematical programme during S079 unless a fresh explicit owner instruction separately authorises that execution. If the owner expresses a fourth option, document its precise math/gate boundary rather than inventing authorisation.
+
+## Primary-source and novelty gate
+
+Source-level starting set: https://magma.maths.usyd.edu.au/magma/handbook/text/1065 (known cyclic higher m_n); https://arxiv.org/abs/1503.02265 (BBG higher Toda); https://arxiv.org/abs/2010.05378 (LS rectification and Top question); https://link.springer.com/article/10.1007/s41468-026-00252-0 (published 12 Sep 2026 Ch(field) equality); https://arxiv.org/abs/2604.06800 (relative Sullivan CDGA interleavings, revised Aug 2026). The S078 screen is NOT an exhaustive 2026 citation/proof audit and does not independently establish novelty. Document theorem locations and access levels, not search-silence extrapolations. G2 independent gate remains closed until defensibly established.
+
+## Closeout and downstream owner gates
+
+Report owner's actual decision (or NOT YET CHOSEN), keep mathematical proof G1, HHA G2, original Top flag, and stage order explicitly distinct. Update authoritative state, six-file dossier, ledgers, source and claim mirrors, and a COMPLETE S080 FUTURE, UNEXECUTED prompt automatically in the same research-session closeout if S079 is executed. Display full next prompt and verified main link at end. No Lean builds, Palomar registration, manuscript, priority announcement, arXiv/HHA submission, journal or third-party contact without NEW explicit owner authority. Never treat a queued handoff as permission to execute it.
