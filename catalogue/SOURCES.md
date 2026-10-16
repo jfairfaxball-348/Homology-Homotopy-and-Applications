@@ -382,3 +382,9 @@ Exact details and URLs: `sessions/S053/PRIOR_ART.md`. No complete classical Bett
 
 - **SRC-0133 [PROOF_INSPECTED selected]** Hardie–Kamps–Kieboom 1999, HHA 1(4)117–134, direct original publisher PDF https://intlpress.com/api/bgcloud-front/resource/pdf/volume/1805807712116031489-1805807712116031489-b2e467815bb54b512bc8294061007f77.pdf ; original pp117–119 directly read, later proofs uninspected; primary same-journal 1999 predecessor.
 - **SRC-0134 [ABSTRACT_INSPECTED]** Hardie–Kamps–Marcum 2002 *The Toda bracket in the homotopy category of a track bicategory*, https://doi.org/10.1016/S0022-4049(02)00131-7 ; original publisher abstract read, full proof unavailable; quaternary Toda predecessor.
+
+## S073 selected-page original-source update, 16 October 2026
+- **SRC-0125:** Additional original Kochman printed p13 statement that equality with a named alternative (Gershenson) is unclear, and pp14–15 Def2.2.1 directly inspected. This does NOT establish BBG inequality; full comparison remains unproved.
+- **SRC-0117:** Xu original GT2016 §5 printed pp1620–21 inspected page images; its named fourfold theta4 and zero indeterminacy are SOURCE_STATED, not a BBG exact result.
+- **SRC-0129:** BBG2016 original Fig2.19, Def4.31 and Prop4.35 p21 inspected; Prop4.35 identifies higher DGA Toda brackets with Massey. S073's finite test exploits this published theorem, not a novel general result.
+- **SRC-0128:** DKS1989 original publisher abstract inspected; third-party indexed full-text excerpts not treated as original-proof inspection. No original full-text proof audit.

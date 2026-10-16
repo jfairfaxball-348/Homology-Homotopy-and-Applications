@@ -532,3 +532,7 @@ See S038 full dossier and JSON scope.
 - **CLM-0368 [INHERITED_UNVERIFIED]** S072 October2026 first HHA novelty gate still FAIL_TO_CLEAR; published general BBG/LS/BJT machinery preempts generic mechanism, original DKS/HKM full sources and later HHA citation chain not exhaustively compared. (No affirmative novelty or manuscript readiness; no owner switch or Lean work.) Sources: SRC-0129, SRC-0130, SRC-0131, SRC-0128.
 
 - **CLM-0369 [SOURCE_STATED]** HHA1999 Hardie–Kamps–Kieboom higher Toda tracks and HKM2002 quaternary brackets are original strong category/higher-Toda prior art (SRC-0133, SRC-0134); no claim of exact spectral metric preemption.
+
+- **CLM-0370 [PROGRAMME_PROVED]** Four-dimensional exterior F2-DGA (x,0,0,x) complete 4-fold bracket exactly {0,xz}, with all three primary cochains fixed zero; two secondary choices give different terminals. **Finite counterexample only to selected-primary-determines-bracket shortcut, not Xu/BBG sphere equality.** Sources SRC-0129 (Prop4.35).
+- **CLM-0371 [PROGRAMME_PROVED]** Evaluation/exponential adjunction identifies finite spaces of identically prescribed cubical defining systems with equivalent smashed-cube extension-map descriptions, *not* a stabilized Kochman–BBG comparison. Sources SRC-0125, SRC-0129.
+- **CLM-0372 [INHERITED_UNVERIFIED]** Specific BBG fourfold zero-exclusion and all-choices Kochman/Xu equivalence for (2,sigma²,sigma²,2) still OPEN; named spectral gap, original Top^R paper and HHA G2 not ready. Sources SRC-0117, SRC-0125, SRC-0129.

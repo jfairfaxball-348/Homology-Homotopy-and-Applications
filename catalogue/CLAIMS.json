@@ -3634,6 +3634,38 @@
         "SRC-0134"
       ],
       "scope": "Historical source-stated overlap; neither source has been shown to preempt the exact spectral real HI≥5/4 numerical theorem; G2 remains FAIL_TO_CLEAR."
+    },
+    {
+      "id": "CLM-0370",
+      "status": "PROGRAMME_PROVED",
+      "claim": "In A=Lambda_F2(x,z), d=0, |x|=|z|=1, the complete length-four Massey/BBG DGA bracket <x,0,0,x> is exactly {0,xz}, despite identical primary choices u02=u13=u24=0 for terminal 0 versus xz.",
+      "sources": [
+        "SRC-0129"
+      ],
+      "scope": "Direct finite 4-basis proof S073-T192 and BBG Prop4.35; counterexample to uniqueness-from-primary-choices shortcut ONLY, not the sphere word or classical/BBG equivalence."
+    },
+    {
+      "id": "CLM-0371",
+      "status": "PROGRAMME_PROVED",
+      "claim": "For identically prescribed cubical face equations, the pointed compactly generated exponential law identifies smashed-cube extensions with cubical mapping-space fillers, compatibly with all boundary face maps.",
+      "sources": [
+        "SRC-0125",
+        "SRC-0129"
+      ],
+      "scope": "Elementary point-set S073-T193; does NOT prove stabilized derived all-representatives Kochman/Xu vs BBG comparison."
+    },
+    {
+      "id": "CLM-0372",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S073 did not establish 0-not-in complete BBG4(2,sigma²,sigma²,2), the required literal all-defining-systems Kochman/Xu equivalence, or a nonzero actual sphere BBG obstruction; G2 HHA novelty likewise FAIL_TO_CLEAR.",
+      "sources": [
+        "SRC-0117",
+        "SRC-0125",
+        "SRC-0129",
+        "SRC-0130",
+        "SRC-0133"
+      ],
+      "scope": "Precise still-open mathematical and publication gate; cannot infer strict spectral HI>IHC from Xu alone; original integral ordinary unpointed Top^R target unchanged."
     }
   ]
 }
