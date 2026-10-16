@@ -500,3 +500,10 @@ No valid N=4,5,8 all-choice dg zero system produced. Finite 2457 checks cannot c
 
 ### S087 — avoid conflating an internal complete proof route with two independent certificates
 Cell-by-cell cofibrancy, right-continuous left Kan and sign-correct total-Hom repair hidden assumptions of S086; both-lane acyclic quotient preserved. Even with a complete internal argument, an independent *different* all-real proof and genuine first-paper G2 novelty are still missing; source nonhits cannot promote publication. The new ghost example T206 must not be mislabelled dHC=1/2 (it is HOMOLOGY CohI=1/2) or extended to m=1/N-1. Avoid trivial N-multiplication; demand an owner choice about original research direction.
+
+### S088 failure boundaries and repair (16 October 2026)
+- A second wording of the S087 projective shoelace cokernel + Toda transfer is not a second independent proof. G1 remains OPEN despite internal consistency checks.
+- Ordinary degree-one group cohomology cap operations can be geometrically sourced from cyclic lens covers, but a chosen chain-level cap-action persistence is not automatically the chains of nested CW inclusions; equivalence of arbitrary homotopic cap representatives as long strict diagrams cannot be inferred.
+- P_m has positive homology in all degrees: finite-dimensional CW/simplicial or bounded perfect realisation is impossible. The correct example is infinite-dimensional BP/G cover, not finite TDA data.
+- Nonflat scalar reduction of the chosen free G-cellular P is legitimate on the nose, not a derived functor on arbitrary replacements. Field equality holds only after forgetting Q-action.
+- Classical m_N and BBG/DKS methods prevent simplistic novelty credit. G2/HHA not passed; no auto formalisation or target switch.

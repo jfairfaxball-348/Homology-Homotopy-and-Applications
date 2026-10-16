@@ -1675,6 +1675,69 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Original arXiv abstract only in S087.",
       "observed": "General HI metric foundations and interleaving weak-replacement definition."
+    },
+    {
+      "id": "SRC-0187",
+      "title": "Sharifi Group and Galois Cohomology ch1 §1.10 periodic cyclic resolution",
+      "url": "https://math.ucla.edu/~sharifi/notes/groupcoh-ch01.html",
+      "origin": "S088 source inspection 2026-10-16",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original on-line notes accessed this session; date unspecified.",
+      "observed": "Norm and g-1 standard cyclic resolution."
+    },
+    {
+      "id": "SRC-0188",
+      "title": "Sydney Magma Handbook v2.29 A-infinity Algebra Structures on Group Cohomology",
+      "url": "https://magma.maths.usyd.edu.au/magma/handbook/text/1065",
+      "origin": "S088 source inspection 2026-10-16",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original handbook statement and C4 example; not an original paper proof.",
+      "observed": "Known cyclic m_N; C4 HighProduct[x,x,x,x]=y."
+    },
+    {
+      "id": "SRC-0189",
+      "title": "Kuribayashi Naito Wakatsuki Yamaguchi JACT 2026 Theorem 3.3",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "S088 source inspection 2026-10-16",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original HTML Theorem 3.3, full proof not independently re-refereed this session; same original as SRC-0184.",
+      "observed": "All-real unbounded Ch(k) equality after forgetting group action."
+    },
+    {
+      "id": "SRC-0190",
+      "title": "Baues Blanc Gondhali JHRS 2016 Theorem A Proposition 5.20",
+      "url": "https://link.springer.com/article/10.1007/s40062-016-0157-8",
+      "origin": "S088 source inspection 2026-10-16",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original publisher HTML introduction and named statements; full proof not inspected this session.",
+      "observed": "Long Toda brackets and DGA Massey products known."
+    },
+    {
+      "id": "SRC-0191",
+      "title": "Dwyer Kan Smith JPAA 1989 Homotopy commutative diagrams and realizations",
+      "url": "https://www.sciencedirect.com/science/article/pii/0022404989900236",
+      "origin": "S088 source inspection 2026-10-16",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original publisher abstract; full proof not inspected.",
+      "observed": "Classical diagram realisation/relative obstruction."
+    },
+    {
+      "id": "SRC-0192",
+      "title": "Chachólski Giunti Jin Landi Computational Geometry 2023 filtered chain complexes",
+      "url": "https://doi.org/10.1016/j.comgeo.2022.101938",
+      "origin": "S088 source inspection 2026-10-16",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Open original HTML intro and statement; proof not reviewed.",
+      "observed": "Distinction between filtered chains and filtered spaces classical."
+    },
+    {
+      "id": "SRC-0193",
+      "title": "Hatcher Algebraic Topology infinite lens spaces",
+      "url": "https://www.maths.ed.ac.uk/~aar/papers/hatchat.pdf",
+      "origin": "S088 source inspection 2026-10-16",
+      "access": "METADATA_ONLY",
+      "limitation": "Only indexed snippet; original PDF page not inspected; NOT proof inspected.",
+      "observed": "Infinite lens CW mentioned, exact derivation independently based on standard cellular group resolution."
     }
   ]
 }

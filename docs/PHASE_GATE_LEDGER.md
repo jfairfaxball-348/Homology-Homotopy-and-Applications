@@ -292,3 +292,6 @@ New elementary coefficient-reduction T205 on explicit ALL-real diagrams proved i
 
 ### S087 gates — 2026-10-16
 G1: ONE complete internally argued same-category all-real proof route T202, but the required SECOND INDEPENDENT whole-real referee remains OPEN, so **G1 NOT FROZEN**. T206 new ghost and barcodes: PROGRAMME_PROVED internally, no certification. G2: meaningful new coefficient contrast but full modern priority, genuinely external geometric/HHA application NOT PASSED. HHA READY NO; Stage 3 Lean NOT STARTED; Palomar/paper/arXiv/HHA owner-gated. S088 OWNER_CHOICE_PENDING A/B/C, FUTURE UNEXECUTED.
+
+### S088 gates — 2026-10-16
+G1 B_N: SAME S087 single complete internal all-real route survived targeted audit, but independent second whole-real full-proof/counterexample **OPEN**; not frozen. T207 covering-space cellular source and T208 deck-equivariant vs field-forgetful ghost 1/2 vs 1 internally established with explicit infinite CW. Finite-dimensional CW/perfect impossibility proved for P_m, not for every alternative. G2: original HHA significance and novelty **NOT PASSED** (cyclic m_N, Toda and field equality prior art; action persistence not filtration by inclusions). Formalisation NOT STARTED; external publication NOT AUTHORISED; S089 OWNER_CHOICE_PENDING FUTURE.
