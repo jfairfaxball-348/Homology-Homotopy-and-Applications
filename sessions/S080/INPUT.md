@@ -1,0 +1,5 @@
+# S080 INPUT — 16 October 2026
+
+The fresh owner message is exactly "Run next session". Under the LIVE S080 prompt this authorises executing ONE S080 decision-only session and **does not** select A/B/C. No other route choice was present in the current message.
+
+Entry LIVE main `4ed80eff6fc8bcb5584ee5bd5e0d7de19c071fd7`, tree `d99dc5c13b11b876b1f5068c268c49063ff95e41`. S079 authored commit `0ecad91c42d9ef7106f40adea37553ea3e3a281c` one-parent; merged PR #86 via ordinary two-parent `4ed80eff6fc8bcb5584ee5bd5e0d7de19c071fd7` with ordered parents `0d8dbda1771606da8cdcc59ae6d4c0fea1c3feee`, `0ecad91c42d9ef7106f40adea37553ea3e3a281c`; merged tree matches authored tree `d99dc5c13b11b876b1f5068c268c49063ff95e41` (see live commit/tree). Hosted PR run 38915652787 and main run 38915720840 completed SUCCESS, eight observed governance job steps each. No mathematical certification. Open PRs []; rulesets []; branch-protection endpoint 403/integration inaccessible (UNKNOWN); main branch summary protected=false does not replace protection audit. Historical session branches are present, no pre-existing S080 branch or competing S080 PR. One new S080 branch only.

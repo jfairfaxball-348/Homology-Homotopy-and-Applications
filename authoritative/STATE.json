@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-16",
-  "last_completed_session": "S079",
-  "recommended_next_session": "S080",
+  "last_completed_session": "S080",
+  "recommended_next_session": "S081",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "S079 owner decision briefing completed: choice NOT YET CHOSEN; S078 structural family G1 internal, G2 NOT PASSED; original Top^R still OPEN",
   "selected_mathematical_problem": "Official first-paper target unchanged: original integral ordinary unpointed five-sphere Top^R strict d_HI>d_IHC, UNPROVED. Internal alternate Ch(F2[t]/t^N), N>=4, requires independent proof and HHA significance gate; owner choice pending.",
@@ -1400,7 +1400,19 @@
     "diagnostic": "FINITE_N_4_5_6_7_8_12_16_31_IDENTITY_CHECK_ONLY"
   },
   "prospective_s079": {
+    "status": "EXECUTED_S079_OWNER_DECISION_NOT_SELECTED",
+    "authority": "OWNER_FRESH_RUN_NEXT_SESSION_2026_10_16"
+  },
+  "s079_checkpoint": "S079 owner decision only, A/B/C NOT YET CHOSEN; original unpointed Top^R OPEN, S078 Ch(B_N) internal proof, HHA G2 NOT PASSED; S080 decision only future at S079 closeout.",
+  "prospective_s080": {
+    "status": "EXECUTED_S080_OWNER_DECISION_NOT_SELECTED",
+    "authority": "SEPARATE_OWNER_RUN_NEXT_SESSION_2026_10_16",
+    "route_selection": "NONE"
+  },
+  "s080_checkpoint": "S080 OWNER_DECISION_ONLY completed 16 October 2026: the owner's sole instruction was \"Run next session\", not explicit A/B/C. OWNER CHOICE NOT YET CHOSEN; no fresh mathematics, mathematical source inspection, full priority audit, independent external proof referee, Lean, Palomar, manuscript, arXiv/HHA submission, external contact, first-paper switch or altered novelty gate. S078 T202–T204 remain algebraic-category INTERNAL G1 only; G2 HHA originality/significance NOT PASSED; original integral unpointed Top^R five-sphere strict inequality OPEN. A (independent structural proof and exhaustive HHA priority/significance audit), B (unrestricted Top^R five-sphere proof), C (retire coefficient route and nominate exact alternate target) are distinct unresolved options. Automatic B_N/C4 extension STOPPED. S081 OWNER_DECISION_ONLY FUTURE, UNEXECUTED; an explicit owner route selection is necessary before any mathematical programme.",
+  "prospective_s081": {
     "status": "FUTURE_UNEXECUTED_OWNER_DECISION_ONLY",
-    "authority": "NEW_SEPARATE_OWNER_SELECTION_REQUIRED"
+    "authority": "FRESH_SEPARATE_OWNER_SELECTION_REQUIRED",
+    "route_selection": "NOT_YET_CHOSEN"
   }
 }
