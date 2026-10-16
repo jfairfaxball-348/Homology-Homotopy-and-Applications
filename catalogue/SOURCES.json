@@ -1125,6 +1125,15 @@
       "access": "PROOF_INSPECTED",
       "limitation": "Selected printed pp13–16 Def2.2.1,Def2.2.2,Thm2.2.3 directly read; Xu cites Kochman works [10],[11] but does not explicitly state identical definition; other fourfold variants possible",
       "observed": "Exact 4fold 3 first-cone, 2 second-cone defining systems and 3 last-boundary output; strict consecutive zero admits 0 in Kochman's bracket."
+    },
+    {
+      "id": "SRC-0126",
+      "title": "Hovey–Shipley–Smith, Symmetric spectra, Theorem 5.4.2 (stable model proper)",
+      "url": "https://arxiv.org/abs/math/9801077",
+      "origin": "original arXiv preprint and original PDF Theorem 5.4.2",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original PDF selected theorem statement located, full model-theory proof not audited in S070",
+      "observed": "Stable symmetric-spectra model structure is proper, hence left proper, enabling cross-cofiber weak equivalence."
     }
   ]
 }

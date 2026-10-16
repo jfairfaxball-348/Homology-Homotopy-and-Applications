@@ -3461,6 +3461,47 @@
         "SRC-0117"
       ],
       "scope": "Selected primary original proofs and source statements inspected; exact Xu author-choice of convention not explicitly codified."
+    },
+    {
+      "id": "CLM-0353",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S070-T184 abstract stable symmetric-spectra all-real 5-stage obstruction: 0 outside complete Kochman fourfold of a chain implies dHI(F,zero)>=5/4 for arbitrary both-whole stable-WE replacements, using projective shoelace cofibrant pushout quotient.",
+      "sources": [
+        "SRC-0125",
+        "SRC-0126"
+      ],
+      "scope": "Spectra only; detailed internal full proof S070/MATHEMATICS; no independent referee/formal/novelty certification; not Top^R."
+    },
+    {
+      "id": "CLM-0354",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S070-T185 derived integer-left-Kan two-shift criterion for dIHC(F,zero)<=1; S070-T186 two coherent mapping-space lifts exploit pi29^S_(2)=0 to give dIHC=1 for the explicit 2-local sigma-squared five-stage spectral chain.",
+      "sources": [
+        "SRC-0117",
+        "SRC-0126"
+      ],
+      "scope": "Ordinary stable spectra indexed by all reals, INTERNAL proof. Does not imply ordinary spaces case."
+    },
+    {
+      "id": "CLM-0355",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Numerical stable strict inequality 1=dIHC<5/4<=dHI for the 2-local (2,sigma²,sigma²,2) spectral five-chain uses Xu's published complete bracket and an exact Xu↔Kochman conventional-defining-system crosswalk not literally restated by Xu; source-dependent and awaiting independent referee.",
+      "sources": [
+        "SRC-0117",
+        "SRC-0125"
+      ],
+      "scope": "Specific proposed application; not an unconditional independent new computation of theta4 and not HHA G2 clearance."
+    },
+    {
+      "id": "CLM-0356",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Current originality/HHA G2 not passed for the stable spectral result; source keyword audit cannot certify priority, possible DKS/BJT or post-2023 stable persistence corollary. Original integral ordinary unpointed Top^R flagship still unproved and selected.",
+      "sources": [
+        "SRC-0065",
+        "SRC-0118",
+        "SRC-0104"
+      ],
+      "scope": "Current S070 source/priority and owner target-switch gate; no Lean or publication."
     }
   ]
 }
