@@ -1,0 +1,15 @@
+# S075 — hostile independent checks and limitations
+
+**A. Algebra and handedness.** Right representables Hom(A(-,i),A(-,j))=A(i,j), not reversed. All paths strictly advance, so there are 30. Inserting two cuts twice proves d²=0. Independent exhaustive enumeration confirmed unique endpoint cycle c=u+v+w and absence of degree -3. The span-two/three preimage h_i/k_i and adjacent a_i cannot be varied by hidden boundaries.
+
+**B. Quiver mapping complex.** A mistakenly truncated 0..4 free-quiver resolution omits L_5P_4 and can give false homotopies. Reinstated edge P4→0, checked the mapping-cone augmentation and all edge equations; h0-2/k0-1 give δ(U,V)=eta2. The negative-real target F² is nonzero on [-2,0), unlike Lan(X²); explicitly used the natural factorisation Lan(X²)→F² and zero source at negative times. Both F/O interleaving identities checked.
+
+**C. Infinite and NONZERO acyclic opposite lane.** Opposite Q_O(t) not replaced by 0 by fiat: acyclicity follows from a whole quasi-isomorphism to O. Cross map Q_O(t-e)→Q_F(t) is cofibration by the projective free-poset-cell argument even across arbitrary real indices. Quotient pushout gives both a natural WE Q_F→C by left properness AND cofibrancy of each C(t) via 0→C(t). If either property failed the transfer argument would not apply. Rechecked structure zero via both crossed maps.
+
+**D. Exact clocks.** Enlarge ε to e=max(1,ε), α=2e-2, samples [0,1,2+α,3+α,4+2α]. For all e<1.25, α<.5 and each sample stays strictly inside its half-open stage. All three two-step differences equal 2e. Does not assert ε=1.25 is excluded. Upper bound uses F^5 actual zero.
+
+**E. Transfer terms and arbitrary C_i.** With ds_i=id+u_iv_i the id-summand has adjacent b b=0; the u_iv_i-summand gives the precise split at i<r<j, all split indices. No degree signs over F2. u/v exist as strict maps representing H^0 inverse isos because representables and sampled C_i are cofibrant and all modules fibrant. Span 2/3 fillers are forced, then impossible dT04=c with T04 degree -3. This contradiction is internal to fixed A(0,4), indifferent to dimensions of C_i.
+
+**F. Counterexample probes.** Dropping the R action turns the target into Ch_F2, where the published September 2026 equality theorem applies and forbids this claim; no field-chain-complex gap is asserted. Replacing Ho(M^R) by Ho(M)^R would also change the statement. Non-monomorphic raw interleaving lanes are handled via one whole projective replacement, not forbidden. Both are essential distinctions.
+
+**G. Remaining uncertainties.** Projective shoelace category/set smallness uses the real poset as a set in a chosen universe; no constructibility assumption is needed. Standard cofibrantly generated dg-module facts and arbitrary real poset model structures are cited, not mechanised. No independent human review; metric lemma not computer-certified. Original integral Top^R theorem still open. Strong generic earlier higher Toda rectification and absence of complete current citation coverage prevent a G2 PASS based solely on this in-house technical verification.
