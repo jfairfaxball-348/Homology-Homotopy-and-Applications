@@ -3957,6 +3957,20 @@
         "SRC-0155"
       ],
       "scope": "Absence of exact preemption in bounded source screen is NOT novelty proof"
+    },
+    {
+      "id": "CLM-0404",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S079 owner decision session closed without an A/B/C choice; no new proof, source check or G2 pass. S078 coefficient theorem remains internal, original Top^R unproved, HHA not ready; S080 future OWNER_DECISION_ONLY.",
+      "sources": [
+        "SRC-0147",
+        "SRC-0148",
+        "SRC-0149",
+        "SRC-0150",
+        "SRC-0154",
+        "SRC-0155"
+      ],
+      "scope": "Governance/owner-choice status; not a new mathematical assertion or priority verification"
     }
   ]
 }

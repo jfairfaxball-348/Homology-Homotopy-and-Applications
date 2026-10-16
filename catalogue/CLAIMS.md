@@ -573,3 +573,5 @@ See S038 full dossier and JSON scope.
 |CLM-0401|COMPUTED_EXACT|Explicit f_m parity recurrence/terminal checked for N=4,5,6,7,8,12,16,31.|Finite explicit-check only; not whole metric or all-choice proof||
 |CLM-0402|SOURCE_STATED|Original Magma known cyclic m_n; Cambridge higher arity.|Known operation not novel metric result|SRC-0148,SRC-0155|
 |CLM-0403|INHERITED_UNVERIFIED|S078 G2 HHA NOT PASSED, Top official OPEN, STOP cyclic local and S079 OWNER_DECISION_ONLY.|No search silence novelty claim|SRC-0147,SRC-0148,SRC-0149,SRC-0150,SRC-0154,SRC-0155|
+
+|CLM-0404|INHERITED_UNVERIFIED|S079 decision-only briefing ended with owner choice NOT YET CHOSEN; S078 technical G1 internal, Top^R unproved, G2/HHA not passed, S080 decision-only future.|No new proof or source inspection; governance/selection state only|SRC-0147,SRC-0148,SRC-0149,SRC-0150,SRC-0154,SRC-0155|
