@@ -1,0 +1,5 @@
+# S084 PLAN
+1. Read the actual original Kochman LNM1423 Ch2 pp 13–16 Definition 2.2.1, 2.2.2, Theorem 2.2.3, §3 and Xu publisher §5 pp1620–21. Inspect Basu–Blanc–Sen arXiv:1810.06005v2 Theorem 1.23 and §2; distinguish explicitly nonidentical long-bracket conventions.
+2. Instantiate t=4 Kochman with exact G_ij face incidence, terminal S^2 orientation, identify a ZERO system for strictly based literal double-zero sampled chains. Try to transport along whole sampled-diagram WE zigzags, with actual prisms and two secondary cells; do NOT promote an assertion to a full proof without checking all faces and Xu's precise meaning.
+3. Hostile attempt a fourfold incompatibility, zero Xu defining system or whole-real e<5/4 counterinterleaving including both shift identities. Re-audit projective/quotient/clock, including e<1.
+4. Source-grade prior art through October 16, independently judge G1 and G2; recommend owner A/B/C and install one S085 FUTURE owner-choice-sensitive prompt.

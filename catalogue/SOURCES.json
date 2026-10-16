@@ -1503,6 +1503,25 @@
       "access": "METADATA_ONLY",
       "limitation": "Actual Def2.2.1 all representative cones and their exact agreement with Xu still UNINSPECTED.",
       "observed": "Classical Toda higher-convention priority and S084 highest-access target."
+    },
+    {
+      "id": "SRC-0168",
+      "title": "Stanley O. Kochman, Stable Homotopy Groups of Spheres: A Computer-Assisted Approach, LNM 1423 (1990) Chapter 2 Toda brackets printed pp13-16",
+      "url": "https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf",
+      "doi": "10.1007/BFb0083795",
+      "origin": "S084 original public scanned book chapter visually inspected printed pp13-16; Definition 2.2.1/2.2.2, Theorem 2.2.3",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected pages and §3 statements only; no original theorem identifying Kochman's entire convention with Xu's all-choice bracket under arbitrary diagram WEs.",
+      "observed": "Exact full defining system G02,G13,G24,G03,G14 and terminal union of G14G01/G24G02/G34G03; h4:S2 boundary identification; composition-smash bracket equality."
+    },
+    {
+      "id": "SRC-0169",
+      "title": "Samik Basu, David Blanc, Debasis Sen, Note on Toda brackets, arXiv:1810.06005v2, 2020",
+      "url": "https://arxiv.org/pdf/1810.06005",
+      "origin": "S084 original source Theorem 1.23 and §2 selected pages visually/text inspected",
+      "access": "PROOF_INSPECTED",
+      "limitation": "No demonstrated direct equality with Xu/Kochman complete classical fourfold convention; paper explicitly cautions convention variation.",
+      "observed": "Zero higher obstruction tied to diagram rectification in pointed model category; relation to stable filtered objects; no single standard higher bracket."
     }
   ]
 }
