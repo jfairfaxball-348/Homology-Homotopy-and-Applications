@@ -1,0 +1,11 @@
+# S073 CLOSEOUT — 16 October 2026
+
+**Outcome: a real exact finite test; the central source-specific equivalence / named strict separation NOT proved. NOT READY FOR LEAN OR HHA.**
+
+Mathematics: S073-T192 proves in the 4-dimensional DGA Lambda_F2(x,z) with d=0 that the *complete* fourfold bracket <x,0,0,x> is {0,xz}. The same three primary fillers (all 0) permit two secondary choices with different final classes 0 and xz. By BBG Prop4.35 this is a genuine finite higher Toda/Massey defining-system test. This refutes a tempting selected-filler/face-count shortcut, **not** the Xu sphere claim. T193 gives a fully explicit exponential adjunction matching identically prescribed cone/cube conditions. It fails to supply a map or π0-surjectivity between Kochman's stabilized all-representatives derived filler spaces and BBG's; nor a source-exact orientation/indeterminacy comparison with Xu. No counterexample to BBG=Kochman on the sphere word is claimed. No independent Adams B4(theta4-word) computation. The exact missing mathematical lemma is 0∉B4(2,sigma²,sigma²,2), with the all-choice, derived and source-convention requirements in MATHEMATICS.md.
+
+Prior S072-T191 stays **IF BBG4 excludes 0, THEN all-WE spectral HI≥5/4**. Separate derived spectral IHC=1 remains inherited source-dependent. Original owner priority integral ordinary unpointed Top^R (2,theta4,theta4,2) strict gap UNPROVED, spectral alternative NOT OWNER-SELECTED. BBG/LS/BJT/DKS and HHA1999 originality risks; G2 FAIL_TO_CLEAR. G3 Lean NOT_STARTED; no Palomar, manuscript, arXiv/HHA or contact. A toy DGA calculation is not enough for an HHA paper.
+
+Entry operational evidence: main 7e7c5d5a82983211615e70e6ce67d865c53c13d2; tree 46b01b6571248a8c9cd3f817874faffc25b59eae; S072 PR#77 authored a3452638576af556cb42689d97c051fcde186b39 ordinary merged with parents 238012f6... and a345263...; PR/main hosted STATIC governance workflows succeeded with all seven steps; open PR []; rulesets []; protection 403 not readable. S073 work began on one isolated branch. Actual outgoing commit/PR/merge/workflow evidence is **to be checked only after actions**, not invented in this committed file.
+
+**Decision: NO TARGET SWITCH, NO PUBLICATION.** S074 is a FUTURE unexecuted aggressive proof-or-abandonment handoff; no S074 authority in this session.

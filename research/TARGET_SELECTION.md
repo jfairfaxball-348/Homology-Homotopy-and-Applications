@@ -201,3 +201,8 @@ Retain owner-selected original integral unpointed Top^R HI>IHC theorem as offici
 
 ## S072 target gate — 16 October 2026
 **NO OFFICIAL TARGET SWITCH.** Owner first paper remains integral unpointed five-sphere Top^R and unproved. Spectral BBG general distance-obstruction T191 is a valid conditional result under a *BBG* nonzero antecedent, but source-convention for Xu theta4 and genuinely new HHA content not proved. Lean/paper/submission disallowed. S073 FUTURE.
+
+
+## S073 checkpoint — 16 October 2026
+S073 computes a complete finite DGA fourfold bracket <x,0,0,x>={0,xz} with identical three primary fillers but distinct secondary choices (T192), and proves only the literal exponential cone/cube adjunction T193. **This is not a sphere convention counterexample.** Full Kochman/Xu to BBG derived all-choice comparison and 0∉BBG4(2,sigma²,sigma²,2) still OPEN; π29-derived spectral IHC and original integral unpointed Top^R strict gap unproved. G2 FAIL_TO_CLEAR, NO OWNER SWITCH, NO Lean/Palomar/manuscript/publication. S074 FUTURE ONLY.
+See sessions/S073/MATHEMATICS.md and S074 FUTURE handoff. No actual outgoing refs are anticipated in committed documents.

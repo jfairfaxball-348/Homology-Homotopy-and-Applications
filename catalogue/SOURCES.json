@@ -1052,7 +1052,7 @@
       "origin": "Original final publisher PDF §5 pp1620–1621",
       "access": "PROOF_INSPECTED",
       "limitation": "Only 2-primary stems; NOT integral pi29=0, nor new persistence theorem",
-      "observed": "Lemma5.1 all 4 fourfolds zero indeterminacy, exact second ordered <2,sigma²,sigma²,2>={theta4}; pi29_(2)=0, pi30_(2)=Z/2."
+      "observed": "Lemma5.1 all 4 fourfolds zero indeterminacy, exact second ordered <2,sigma²,sigma²,2>={theta4}; pi29_(2)=0, pi30_(2)=Z/2. S073 directly rechecked GT printed p1620–21 classical theta4 4fold zero-indeterminacy."
     },
     {
       "id": "SRC-0118",
@@ -1123,7 +1123,7 @@
       "url": "https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf",
       "origin": "Original authored chapter hosted in Douglas Ravenel's academic repository, Kochman monograph lineage",
       "access": "PROOF_INSPECTED",
-      "limitation": "Selected printed pp13–16 Def2.2.1,Def2.2.2,Thm2.2.3 directly read; Xu cites Kochman works [10],[11] but does not explicitly state identical definition; other fourfold variants possible",
+      "limitation": "Selected printed pp13–16 Def2.2.1,Def2.2.2,Thm2.2.3 directly read; Xu cites Kochman works [10],[11] but does not explicitly state identical definition; other fourfold variants possible; S073 additionally inspected printed p13: explicitly notes uncertainty comparing own product with Gershenson, NOT evidence of BBG disagreement.",
       "observed": "Exact 4fold 3 first-cone, 2 second-cone defining systems and 3 last-boundary output; strict consecutive zero admits 0 in Kochman's bracket."
     },
     {
@@ -1160,7 +1160,7 @@
       "origin": "original full arXiv PDF",
       "access": "PROOF_INSPECTED",
       "limitation": "Selected Example2.17/Fig2.19 pp9-10, Thm4.21 proof pp17-19 and Def4.27-4.32 p20 directly inspected; not source-exact convention with Kochman/Xu",
-      "observed": "General coherent higher fourfold Toda complete bracket and DK-equivalence invariance; identical 3 primary and 2 secondary formal faces."
+      "observed": "General coherent higher fourfold Toda complete bracket and DK-equivalence invariance; identical 3 primary and 2 secondary formal faces. S073 further checked original p21 Prop4.35: higher DGA Toda = usual Massey; four-dimensional toy falls under published result."
     },
     {
       "id": "SRC-0130",

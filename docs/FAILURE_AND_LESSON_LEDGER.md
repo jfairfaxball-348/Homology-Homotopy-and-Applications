@@ -434,3 +434,8 @@ S070 T184 called a complete Kochman fourfold bracket on arbitrary symmetric-spec
 
 ## S072 lesson — 16 October 2026
 False implicit principle “Ho(Sp^[4])=Ho(Sp)^[4]” explicitly refuted by T189 integral kernel π1Map(S,ΣS)=Z, despite full and conservative free-chain h (T188). Complete **BBG** fourfold transport via its actual Thm4.21 repaired *general source domain*, but must never be relabelled “Kochman's bracket of all spectra”; Xu's classical source-specific complete-convention identification remains missing. Preserve source-exact gate instead of claiming a numerical strict separation or HHA originality from the number of matching defining-system faces.
+
+
+## S073 checkpoint — 16 October 2026
+S073 computes a complete finite DGA fourfold bracket <x,0,0,x>={0,xz} with identical three primary fillers but distinct secondary choices (T192), and proves only the literal exponential cone/cube adjunction T193. **This is not a sphere convention counterexample.** Full Kochman/Xu to BBG derived all-choice comparison and 0∉BBG4(2,sigma²,sigma²,2) still OPEN; π29-derived spectral IHC and original integral unpointed Top^R strict gap unproved. G2 FAIL_TO_CLEAR, NO OWNER SWITCH, NO Lean/Palomar/manuscript/publication. S074 FUTURE ONLY.
+See sessions/S073/MATHEMATICS.md and S074 FUTURE handoff. No actual outgoing refs are anticipated in committed documents.

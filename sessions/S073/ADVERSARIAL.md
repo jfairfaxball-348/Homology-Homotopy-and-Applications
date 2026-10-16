@@ -1,0 +1,16 @@
+# S073 ADVERSARIAL — two new hostile tests, and an exact rejected shortcut
+
+## A. Exactly finite chosen-filler countermodel (S073-T192)
+A=Lambda_F2(x,z), |x|=|z|=1, d=0, x²=z²=0, xz≠0. Fix the same word (x,0,0,x) and **identical** three primary defining cochains u02=u13=u24=0. Two legal secondary choices (u03,u14)=(0,0) and (z,0) give terminal values 0 and xz respectively. Directly the full set is {0,xz}, since H² has two elements. This refutes **only** the commonly tempting lemma “three matching nullhomotopies plus matching boundary formula means a unique or automatically complete fourfold value”. It does NOT refute all-choices BBG/Kochman equivalence or Xu's theta4 claim. BBG Prop4.35 explains why the toy is an enriched higher-bracket test rather than an unrelated matrix calculation.
+
+## B. Independent hostile test 1 — Hovey/point-set model transfer
+
+Attempted invalid proof: “a Quillen equivalence implies any specific literal *chosen* 2-cube and 3-cube is unchanged.” This is FALSE as written: Quillen equivalence gives derived homotopy mapping-space equivalences only after cofibrant/fibrant replacements, derived units/counits and coherences, not pointwise equality of arbitrary raw cube fillers. S072-T190's BBG DK-invariant *complete set* can be transported along an exhibited zigzag of suitable derived enriched categories; S073 does **not** produce the needed comparison between Kochman's coordinate-free stable cones and BBG's mapping cubes in an arbitrary Hovey-style spectral model. Thus a model change cannot close stage (2) of the literal comparison by assertion. Strongest valid conclusion: BBG complete zero-membership remains invariant in the stated admissible simplicial stable model under actual whole WE lifts; universal convention equality is still OPEN.
+
+## C. Independent hostile test 2 — arbitrary WHOLE weak-equivalence zero lane
+
+In a real shoelace strict interleaving, the second lane may be a nonzero objectwise acyclic spectrum diagram whose structure maps do not admit a selected simultaneous point-set nullhomotopy. Replacing it vertex-by-vertex with literal 0 would NOT respect whole diagram morphisms and can change the distance. The existing S071-T187 proof uses *one* projective cofibrant whole shoelace replacement, then left-proper cofiber-pushout to kill crossing composites and obtain a global weak equivalence, before sampling all real critical inequalities. S073 found no counterexample to that T187 reduction, but did NOT independently rederive/reprove it. A proof of the theta4 bracket would still need this genuine whole-WE step; no metric improvement or endpoint assertion is recorded.
+
+## D. Adversary to original and novelty claims
+
+Kochman's original printed p13 itself says his bracket is included in Cohen's and that equality with Gershenson is unclear; it proves one cannot identify all classical conventions for free. This does **not** establish BBG and Xu disagree. Xu printed p1620 is explicit about four words and zero indeterminacy in his source sense, but no identified all-choices derived map into BBG has been checked. Direct 1999 HHA work on higher Toda groupoids and 2002 quaternary work plus BBG2016 and LS2023 defeat generic *novelty*. Original integral unpointed Top^R strict gap, named spectral numerical strict gap and HHA gate remain OPEN. No publication or Lean.
