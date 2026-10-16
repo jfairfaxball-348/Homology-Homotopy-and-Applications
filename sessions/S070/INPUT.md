@@ -1,0 +1,7 @@
+# S070 INPUT — 16 October 2026
+
+The fresh owner instruction **“Run next session”** executes exactly S070 after the previously merged S070 decisive proof-or-weaken governance change. Earlier owner explicitly allowed a weakened idea for a rigorously proved potentially HHA-worthy result in the same session, **not** a silent change of the original integral sphere flagship, Lean, paper or S071 execution.
+
+Live pre-session main SHA \`be24573238615cac0d7bf7a1aeb79c435ed49808\`, tree \`bf830400e331252271a1a0a72189c6f842f907ec\`, GitHub repository ID 1415583825. PR #74 ordinary merge parents (\`882b1345c574b3f3d55a175a102b29daeaded506\`, \`4cd32555310aa010cea385b55c8c93d5f384f6a2\`). PR #74 run 38871478777 job 116876344416 and main run 38871538187 job 116876533479: each actually **seven successful STATIC governance steps**, NOT mathematical proof. No open PRs; branches listed and only historical merged branches outside main; public repo rulesets empty; branch-protection REST access returned 403 from integration. One isolated session/S070 branch created from **live main**. Check competing PRs/main again before merge.
+
+Session routes: A unrestricted ordinary Top^R crosswalk hostile, B mandatory restricted exact alternative if A stalls (chosen B2 spectra), C current sources/novelty. No code-enumeration, computation, Lean/Palomar/manuscript/external action. Stop outcome exactly one A/B/C/D per S070 authority.

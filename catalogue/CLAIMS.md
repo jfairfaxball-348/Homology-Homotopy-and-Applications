@@ -506,3 +506,9 @@ See S038 full dossier and JSON scope.
 - **CLM-0350 — PROGRAMME_PROVED (internal only):** S069-T180 Kochman Def2.2.1 full 4fold stable bracket admits 0 for a single strict pointed 5-chain whose three adjacent doubles are literally zero, with explicitly constant three first-cone and two second-cone maps; after stable suspension and pointed Ho^[4] chain isomorphism this supplies a conventional zero witness. Does NOT certify Xu variant identity. SRC-0125, SRC-0117, SRC-0065.
 - **CLM-0351 — INHERITED_UNVERIFIED:** Alternate global dHI≥5/4 remains source-dependent on Kochman↔Xu exact conventional zero compatibility and independent all-real Top^R derived/quotient review; present-day originality/HHA G2 NOT PASSED. Original integral flagship unsolved. SRC-0117, SRC-0125, SRC-0065.
 - **CLM-0352 — SOURCE_STATED:** Kochman original Ch2 pp13–16 explicitly defines full composition 4fold G_02,G_13,G_24,G_03,G_14 and ∪3 last boundary, equates its smash version; Xu cites Kochman in his list of sources for ⟨2,σ²,σ²,2⟩={θ4} (nonzero). SRC-0125, SRC-0117.
+
+## S070 spectral exact-scope claims
+- **CLM-0353 PROGRAMME_PROVED (internal):** abstract symmetric-spectra all-real full both-whole-WE five-stage Kochman 4fold ZERO obstruction ⇒ dHI≥5/4, S070-T184; SRC-0125/0126.
+- **CLM-0354 PROGRAMME_PROVED (internal):** derived floor left-Kan/two-loop criterion; 2-local concrete dIHC=1, T185/T186; SRC-0117/0126.
+- **CLM-0355 INHERITED_UNVERIFIED:** explicit 2-primary HI gap still source-dependent on Xu↔Kochman precise conventional 4fold; not an independent Adams computation or proof certificate. SRC-0117/0125.
+- **CLM-0356 INHERITED_UNVERIFIED:** spectral originality/HHA G2 open, original integral Top^R flagship open and no owner switch. SRC-0065/0118/0104.
