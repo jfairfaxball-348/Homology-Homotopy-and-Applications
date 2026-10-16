@@ -1,0 +1,15 @@
+# S087 CLOSEOUT — 16 October 2026
+**Verdict:** A detailed internal whole-real two-lane shoelace/projective cell lemma, integer total-Hom/derived Kan comparison and transferred all-choice terminal obstruction now give ONE complete route to the all-real B_N separation T202. S087 required TWO genuinely independent complete universal proofs for final G1; criterion **NOT MET**. No genuine zero N-fold defining system or full-real strict below-bound counterinterleaving was produced, so B_N gap is NOT refuted. The archived original ordinary unpointed Top^R sphere route remains OPEN.
+
+**New unconditional T206 (internally proved):** for ALL N>=4 and 2<=m<=N-2, over B_m the explicit reduced real step diagram has a derived-nonzero adjacent ghost acting trivially on every graded homology group; d_CohI(F_(N;m),0)=1/2 < d_IHC(F_(N;m),0)=d_HI(F_(N;m),0)=1. This is a substantive coefficient/homology-barcode sensitivity application beyond S086 T205. The case m=1 and borderline m=N-1 are excluded and no universal nonsemisimple theorem is asserted.
+
+**Novelty and HHA:** Old higher m_N, DKS/BBG obstruction technology and 2026 cochain/CDGA distance work create serious priority overlap; targeted original-source search cannot verify new-paper originality or a convincing natural topological application. **G2 NOT PASSED; HHA NOT READY.** All Lean, Palomar, manuscript, arXiv/HHA submissions and outside contact remain unauthorised. The correct owner decision must precede more mathematical S088 work: (A, recommended) one high-value attempt to turn T202+T206 into a geometrically meaningful and original paper by genuinely independent proof+geometric application; (B) return to the still-open unpointed Top^R 2-local sphere route; (C) pause/retire. A is not implicitly chosen. Exact distance is unnecessary.
+
+**Git preflight:** main dc0419eb408620a34a4b869cf2099e37c8f78201, tree d845a3dcd5909a8e545537d40960c6a9c77bbc68; S086 authored 50b439ad129d71d577a16362de97817e790598d1 and PR #95 two-parent merge. Hosted S086 PR 38959766431 and main 38959953367 had eight steps successful each; these are STATIC repo checks, NOT mathematical verification. No competing open PR; rulesets [], branch protection endpoint 403 unknown. Outgoing S087 authored SHA, PR and merge are ONLY to be reported after independently retrieving actual GitHub refs; they cannot truthfully be inserted into this pre-authored file.
+
+## NEXT_SESSION_HANDOFF
+- Next session: S088
+- Status: FUTURE, UNEXECUTED
+- Canonical prompt: authoritative/NEXT_SESSION_PROMPT.md
+- Decisive target: OWNER_CHOICE_PENDING among an independent proof plus meaningful geometric ghost application, original Top^R sphere return, or pause; no autonomous new coefficient examples.
+- Authority: A new, separate owner instruction AND explicit route choice is required to execute S088 mathematics. Preparing this prompt does not run S088.

@@ -497,3 +497,6 @@ Kochman original Def2.2.1 E_i=S intermediate. Calling generalized arbitrary Σ�
 
 ### S086 — coefficient gap and novelty stop warnings
 No valid N=4,5,8 all-choice dg zero system produced. Finite 2457 checks cannot certify transfinite projective shoelace or arbitrary whole real replacements. Tensoring explicit degreewise free F_N stages with B_m, m<=N-2, kills x² strictly and collapses HI to IHC=1, showing coefficient-change may fail to reflect proposed HI gap; no general assertion that non-flat tensor preserves all quasi-isomorphisms. Classical m_N preempts naive priority. Require original DKS/BBG comparison, substantive application before G2.
+
+### S087 — avoid conflating an internal complete proof route with two independent certificates
+Cell-by-cell cofibrancy, right-continuous left Kan and sign-correct total-Hom repair hidden assumptions of S086; both-lane acyclic quotient preserved. Even with a complete internal argument, an independent *different* all-real proof and genuine first-paper G2 novelty are still missing; source nonhits cannot promote publication. The new ghost example T206 must not be mislabelled dHC=1/2 (it is HOMOLOGY CohI=1/2) or extended to m=1/N-1. Avoid trivial N-multiplication; demand an owner choice about original research direction.

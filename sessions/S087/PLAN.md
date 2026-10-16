@@ -1,0 +1,7 @@
+# S087 PLAN — decisive full-real referee and independent HHA materiality
+1. Derive free-successor-quiver two-row derived Hom nullity INCLUDING terminal zero and every degree/sign; left Kan integer-to-real with negative-time and cut analysis.
+2. Prove or kill that ALL comparable arrows of projective cofibrant diagrams in ANY real shoelace are cofibrations by generators, successor/limit attachment, retract; apply exact acyclic other-lane quotient retaining both strict identities and whole WE zigzags.
+3. Independently derive sampled s_i, sign-accurate homotopy-transfer recursion to a full N-fold defining system and t-adic terminal unit; run explicit logical attacks at N=4,5,8 and endpoints, report number of genuinely independent whole arguments (not rebrand repeated formulas).
+4. Find a genuinely new in-programme coefficient application beyond T205; compute all graded Tor/homology and compare homology barcode metric, IHC, HI, noting flatness and category.
+5. Inspect primary DKS/BBG/LS/KNYW and 2026 CDGA/HHA examples with source-grade limitations. G2 requires proof-level conceptual distinction and independent application, not no search hits.
+6. If G2 and two-argument G1 fail, STOP autonomous polishing and prepare S088 OWNER_CHOICE_PENDING only; maintain session/source/claim/campaign/failure ledgers and one atomic PR.

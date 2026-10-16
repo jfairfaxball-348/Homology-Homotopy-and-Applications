@@ -477,3 +477,6 @@ Owner 'A , If that fails b'. S085 attempted A, found original-source type error,
 
 ### S086 decision — 2026-10-16
 Execute owner-authorised B original ordinary right Ch(B_N)^R only, preserve 2-local sphere Top^R candidate OPEN. Distinguish dg all-choice internal proof and unconditional T205 explicit B_m scalar-reduction equality from unsettled full external same-category whole-real G1 signoff and HHA first G2. Continue S087 only under a fresh owner invocation; demand substantive coefficient application or source-level novelty resolution; never initiate Lean or submission without separate consent.
+
+## S087 — 2026-10-16 full-real referee and ghost-barcode owner-choice stop
+Owner B first-paper right Ch(B_N)^R remains prospectively selected. S087 internal ONE complete all-real T202 proof route and independent T206 ghost-versus-CohI=1/2, IHC=HI=1 over reduced B_m for m>=2; a second genuinely distinct full-real proof is still needed for stipulated G1, and original-source/topological application G2 remains NOT PASSED. Do not autocontinue truncations. S088 is FUTURE, UNEXECUTED, OWNER_CHOICE_PENDING: recommend A focused independent proof plus meaningful geometric application; B return to ordinary unpointed Top^R, C pause/retire. Owner selection should amend S088 governance-only before any S088 mathematical execution. No Lean, Palomar or publication authorised.
