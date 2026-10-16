@@ -3971,6 +3971,39 @@
         "SRC-0155"
       ],
       "scope": "Governance/owner-choice status; not a new mathematical assertion or priority verification"
+    },
+    {
+      "id": "CLM-0405",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S081 internally reconstructs strict e<5/4 original Top^R whole two-lane shoelace simplicial cofibrant/left-proper quotient and five-time sample, generating literal double zeros; result is a necessary conditional reduced homotopy-operation obstruction only.",
+      "sources": [
+        "SRC-0158",
+        "SRC-0159"
+      ],
+      "scope": "Does NOT independently establish the classical all-choice zero transport or original strict dHI lower bound."
+    },
+    {
+      "id": "CLM-0406",
+      "status": "SOURCE_STATED",
+      "claim": "Wang-Xu 2017 Cor1.10 states theta5 membership in ordered classical <2,theta4,theta4,2>; Xu 2016 Lemma5.1 zero-indeterminacy result is for a different theta4 word <2,sigma^2,sigma^2,2>.",
+      "sources": [
+        "SRC-0156",
+        "SRC-0157"
+      ],
+      "scope": "Membership of one nonzero value is not exclusion of zero across all compatible fourfold defining systems."
+    },
+    {
+      "id": "CLM-0407",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S081 fixed integral unpointed original Top^R five-sphere dHI>dIHC remains OPEN, complete classical zero-in/out and exact derived-to-classical comparison unproved, k(j)/k(v) unknown and dIHC=1 source dependent; G2 HHA novelty not passed.",
+      "sources": [
+        "SRC-0156",
+        "SRC-0157",
+        "SRC-0158",
+        "SRC-0159",
+        "SRC-0160"
+      ],
+      "scope": "No theorem freeze, Lean, Palomar or submission; S082 FUTURE unexecuted."
     }
   ]
 }

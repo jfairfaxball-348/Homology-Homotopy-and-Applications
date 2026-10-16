@@ -1395,6 +1395,51 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Special-case cyclic Sylow setting; full proof and direct metric application not audited",
       "observed": "Nonformal higher m_{p^n} known; reinforces conservative novelty status."
+    },
+    {
+      "id": "SRC-0156",
+      "title": "Wang and Xu, The triviality of the 61-stem in the stable homotopy groups of spheres, Annals 186 (2017), Corollary 1.10",
+      "url": "https://arxiv.org/abs/1601.02184",
+      "origin": "S081 original arXiv abstract and original Annals corollary as linked in session source audit",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Corollary theta5 membership; no complete classical all-choice bracket calculation or full-page proof rereferee this session",
+      "observed": "theta5 belongs to ordered <2,theta4,theta4,2>, not proof that 0 excluded"
+    },
+    {
+      "id": "SRC-0157",
+      "title": "Zhouli Xu, The strong Kervaire invariant problem in dimension 62, Geometry and Topology 20 (2016), Lemma 5.1",
+      "url": "https://people.math.rochester.edu/faculty/doug/otherpapers/xu.pdf",
+      "origin": "S081 original author manuscript section 5 directly inspected",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected Lemma 5.1 only; zero-indeterminacy theorem for alternate <2,sigma^2,sigma^2,2>, not sphere original word",
+      "observed": "Explicit distinct input words and fourthfold outer triple indeterminacy argument"
+    },
+    {
+      "id": "SRC-0158",
+      "title": "Lanari and Scoccola, Rectification of interleavings and a persistent Whitehead theorem, AGT 2023",
+      "url": "https://arxiv.org/abs/2010.05378",
+      "origin": "S081 original arXiv full HTML selected definitions and results",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Relevant statements not independently full proof re-refereed",
+      "observed": "Strict interleaving and real shift; homotopy interleaving vs interleaving in Ho(Top^R), general comparison framework"
+    },
+    {
+      "id": "SRC-0159",
+      "title": "Baues Blanc Gondhali, Higher Toda brackets and Massey products, JHRS 2016",
+      "url": "https://arxiv.org/abs/1503.02265",
+      "origin": "S081 original abstract and inherited original Thm4.21/Prop4.35 scope",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "No independent proof of exact stable Xu/Kochman convention comparison",
+      "observed": "Derived complete higher brackets and DK invariance, not automatic all-conventions equality"
+    },
+    {
+      "id": "SRC-0160",
+      "title": "Kuribayashi et al., 2026 equalities of interleaving distances and cohomology interleavings",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "S081 original publisher summary and inherited theorem3.3",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Field chain complexes result, not a Top^R strict HI>IHC test; no full 2026 novelty census",
+      "observed": "dHI=dIHC in Ch_k (field) has different scope"
     }
   ]
 }
