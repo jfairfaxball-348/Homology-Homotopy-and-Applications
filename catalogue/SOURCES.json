@@ -1206,6 +1206,24 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Publisher abstract/metadata inspected; full original 2002 proof not accessible",
       "observed": "Quaternary Toda via bicategorical triple operation with reduced indeterminacy; strong prior art, no direct specific BBG/Xu comparison."
+    },
+    {
+      "id": "SRC-0135",
+      "title": "Basu, Blanc and Sen, Note on Toda brackets (2020)",
+      "url": "https://arxiv.org/pdf/1810.06005",
+      "access": "STATEMENT_INSPECTED",
+      "origin": "original arXiv v2 PDF",
+      "limitation": "Def1.1 and Thm1.23 selected statement/setup inspected; not full proof audit",
+      "observed": "Classical strictification obstruction methodology; no exact finite dg-module numerical interleaving comparison claimed."
+    },
+    {
+      "id": "SRC-0136",
+      "title": "Keller, On differential graded categories (2006)",
+      "url": "https://arxiv.org/pdf/math/0601185",
+      "access": "STATEMENT_INSPECTED",
+      "origin": "original arXiv v5 PDF",
+      "limitation": "Selected §3.2 Prop3.1/Thm3.2 and enriched Yoneda passage; not whole survey proof audit",
+      "observed": "Projective dg module model category, cofibrant representables, all objects fibrant, derived morphisms computed by homotopy."
     }
   ]
 }

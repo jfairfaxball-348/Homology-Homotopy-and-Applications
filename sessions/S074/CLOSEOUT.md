@@ -1,0 +1,17 @@
+# S074 closeout — 16 October 2026
+
+**A substantive alternate result with a complete INTERNAL proof:** an explicit 30-dimensional directed dg F2 algebra R and five representable RIGHT dg R-module stages yield
+
+    dIHC(F,0)=1 < 5/4 <= dHI(F,0) <= 5/2.
+
+This is NOT a result for ordinary Top^R, arbitrary spectra or field-valued chain complexes. The proof is in MATHEMATICS.md: exact 30-path algebra; an actual projective quiver-resolution derived two-shift nullhomotopy; whole-real projective shoelace quotient retaining cofibrant sampled objects; and direct homotopy-transfer showing ANY such literal double-zero chain would force a nonzero terminal c to be a degree-minus3 boundary in a Hom complex with no degree-minus3. It covers arbitrary WHOLE replacements of BOTH lanes and requires no BBG–Kochman–Xu sphere identification. T194–T197 internally proved; not kernel-certified or a separate external referee judgment.
+
+The preregistered finite diagnostic ran under Python3.12.14. Commands: `python sessions/S074/check_dg.py > sessions/S074/CHECK_OUTPUT.json`; `sha256sum sessions/S074/check_dg.py sessions/S074/CHECK_OUTPUT.json`. Code hash e0048ea646a155e1d681442c797408caebab57c2627769bfb7ea09fa9641d1db; output hash dd9af7aec0fbedc4e746cdabcb2f77a9d875dfa2278c9b05f43bec45b4c6beb5. All30 basis paths, d², endpoint kernel and filler uniqueness checked. Independent handwritten matrix/rank proof in MATHEMATICS.md. These checks do NOT certify the model-category theorem or novelty.
+
+**Sphere route verdict:** no complete source-convention equivalence, independent spectral BBG zero-membership calculation or literal sphere counterexample obtained. The particular spectral theta4 candidate is DISCONTINUED as the automatic route, UNRESOLVED/NOT READY, not disproved. The owner's designated original integral ordinary unpointed Top^R flagship is unchanged and unproved. The new dg-module candidate is unselected. G1 alternate INTERNAL COMPLETE, fresh referee pending; G2 NOT PASSED/FAIL_TO_CLEAR. **Publishability now: NO — proof reconstruction and defensible HHA originality/significance still required.** Possible worthwhile narrower paper candidate, not a promise.
+
+The 2026 equality Theorem3.3 is directly checked as Ch_k-valued persistence; it does not cover this R-linear category. Generic higher obstruction methods are classical. No exhaustive citing-work/current-HHA priority clearance is claimed. No owner target switch, Lean/toolchain, Palomar, manuscript, arXiv/HHA submission or third-party contact.
+
+Entry live main e86e40240dbbc0b1e4cc73c127d3ef45a58fa699 tree4d5beb98618b4978a7353053a5c55cf7c62ec8a7. S073 PR78 ordinary merge and one authored atomic commit verified; hosted PR38888721634/main38888782171 jobs each had all seven steps SUCCESS, STATIC ONLY. No open PR. Sole nonancestor branch S067 c82ca5d reconciled as closed unmerged PR71 on15Oct. Rulesets []; branch-protection read403 inaccessible. One isolated S074 branch. Outgoing authored commit, PR, hosted checks and actual two-parent merge must be verified live AFTER they exist; none is fabricated here to solve self-reference.
+
+S075 is queued FUTURE, UNEXECUTED: hostile fresh reconstruction of this exact finite dg-module gap plus exact current-priority/significance audit, then owner switch decision if justified. No return by default to sphere-source treadmill; no automatic Lean or exact-HI prerequisite. Full handoff is authoritative/NEXT_SESSION_PROMPT.md.

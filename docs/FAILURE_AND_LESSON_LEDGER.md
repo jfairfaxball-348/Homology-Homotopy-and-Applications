@@ -439,3 +439,8 @@ False implicit principle “Ho(Sp^[4])=Ho(Sp)^[4]” explicitly refuted by T189 
 ## S073 checkpoint — 16 October 2026
 S073 computes a complete finite DGA fourfold bracket <x,0,0,x>={0,xz} with identical three primary fillers but distinct secondary choices (T192), and proves only the literal exponential cone/cube adjunction T193. **This is not a sphere convention counterexample.** Full Kochman/Xu to BBG derived all-choice comparison and 0∉BBG4(2,sigma²,sigma²,2) still OPEN; π29-derived spectral IHC and original integral unpointed Top^R strict gap unproved. G2 FAIL_TO_CLEAR, NO OWNER SWITCH, NO Lean/Palomar/manuscript/publication. S074 FUTURE ONLY.
 See sessions/S073/MATHEMATICS.md and S074 FUTURE handoff. No actual outgoing refs are anticipated in committed documents.
+
+
+## S074 checkpoint — 16 October 2026
+S074 T194–T197: explicit 30-dimensional F2 directed dg algebra R and five representable RIGHT dg-module stages give unconditional INTERNAL dIHC(F,0)=1<5/4<=dHI(F,0)<=5/2. The proof gives an actual derived two-shift nullhomotopy via a free-quiver cone resolution and excludes ALL whole replacements of BOTH real lanes via cofibrant shoelace quotient and direct homotopy-transfer obstruction c. No sphere bracket convention is imported. Spectral theta4 candidate discontinued UNRESOLVED/NOT READY; original integral ordinary unpointed Top^R flagship remains UNPROVED and unchanged. Alternate G1 INTERNAL COMPLETE pending fresh referee; G2 originality/HHA NOT PASSED, no owner switch, Lean, Palomar, manuscript or external submission. S075 FUTURE ONLY.
+See sessions/S074/MATHEMATICS.md, ADVERSARIAL.md and PRIOR_ART.md. No fabricated outgoing integration evidence; verify actual commit/PR/merge after creation.
