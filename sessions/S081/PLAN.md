@@ -1,0 +1,8 @@
+# S081 PLAN — proof-first binary test
+
+1. Reconstruct actual LS projective Ho(Top^R) IHC and full strict HI quantified over whole weak-equivalent input diagrams; test whether arbitrary nonmonic replacements or nonpoint weakly contractible G' defeat a strict-zero normal form.
+2. Re-derive the entire-real shoelace cofibrant replacement, LEFT-PROPER quotient and exact five-time sampling for all epsilon<5/4. Explicitly separate this conditional implication from unconditional strict inequality. Recheck the claimed IHC<=1 whole-derived upper witness and record what still relies on prior work.
+3. Attack the classical integral sphere word itself: three primary nulltracks, two compatible secondary choices, full classical Toda set, outer triple indeterminacy and comparison to BBG/Kochman in the stable suspension range. Distinguish Wang–Xu theta_5 membership from universal nonzero.
+4. Adversarially try alternative nonmonic, G' contractible nonpoint and varying secondary tracks; construct actual countermodel if possible. Explicitly test false chosen-filler inference on the finite S073 DGA.
+5. Novelty and HHA independently: compare 2023 original Top interleaving and 2026 field-complex result, higher Toda prior art, no absence-of-search novelty inference.
+6. GO: fully proved, all-quantified original Top strict inequality plus independent originality/significance gate → freeze theorem and queue separately-authorised Lean only. NO-GO: explicit certified zero in original complete bracket or constructed strict epsilon<5/4 interleaving. OPEN: smallest exact unproved statement, reasons that prior evidence fails, and install one S082 FUTURE-only proof target. One atomic S081 commit, real PR, successful STATIC governance, ordinary merge and main verification.
