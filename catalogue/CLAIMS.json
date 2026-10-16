@@ -4024,6 +4024,68 @@
         "SRC-0159"
       ],
       "scope": "No G1 theorem proof or genuine zero-system refutation, G2 NOT PASSED, S083 OWNER_DECISION_ONLY."
+    },
+    {
+      "id": "CLM-0410",
+      "status": "SOURCE_STATED",
+      "claim": "Xu final GT2016 §5 writes the ordered complete classical 2-primary fourfold bracket <2,sigma²,sigma²,2>={theta4}≠{0}, zero indeterminacy; pi29^S_(2)=0.",
+      "sources": [
+        "SRC-0163"
+      ],
+      "scope": "Original publisher printed pp1620–21 direct selected proof, not Xu↔BBG higher-derived comparison."
+    },
+    {
+      "id": "CLM-0411",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S083 reconstructs as an INTERNAL conditional reduction: any strict epsilon<5/4 interleaving after arbitrary whole unpointed Top^R replacements produces a sampled strict pointed five-chain with all three consecutive double compositions literally constant, via projective shoelace and left-proper quotient.",
+      "sources": [
+        "SRC-0164"
+      ],
+      "scope": "Conditional reduction only; does not independently certify preservation of the complete zero Toda system into Xu's exact classical convention."
+    },
+    {
+      "id": "CLM-0412",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "For S083 2-local sphere Top^R witness the coherent derived 1-interleaving gives dIHC=1 internally via two pi29^S_(2)=0 relative mapping-space path lifts and real derived left Kan extension.",
+      "sources": [
+        "SRC-0163",
+        "SRC-0164"
+      ],
+      "scope": "Source input verified, quiver model reasoning internally reconstructed; no Lean or independent exhaustive model-category referee."
+    },
+    {
+      "id": "CLM-0413",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "Precise S083 remaining G1 obligation (C): an all-primary/both-secondary complete zero topological fourfold defining system must be proved to map under Ho(Top_*)^[4] isos and 2-local suspension into Xu's ordered classical stable bracket; this source-exact preservation was NOT proved or disproved.",
+      "sources": [
+        "SRC-0163",
+        "SRC-0165",
+        "SRC-0167"
+      ],
+      "scope": "S073 selected primary-cube adjunction insufficient; no genuine incompatible face or sphere zero countermodel known."
+    },
+    {
+      "id": "CLM-0414",
+      "status": "SOURCE_STATED",
+      "claim": "Lanari–Scoccola 2023 Remark3.13 still asks about dHI versus dIHC, while Sep2026 Kuribayashi et al. equality is in field-valued cochain complexes rather than ordinary unpointed Top^R.",
+      "sources": [
+        "SRC-0164",
+        "SRC-0166"
+      ],
+      "scope": "Selected original sources read, not comprehensive through-2026 citation/priority certification."
+    },
+    {
+      "id": "CLM-0415",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "At S083 close G1 Top^R strict inequality STILL OPEN, G2 HHA originality/significance NOT PASSED, no certified fourfold bracket comparison/novel HHA application, Lean not authorised. S084 future only.",
+      "sources": [
+        "SRC-0163",
+        "SRC-0164",
+        "SRC-0165",
+        "SRC-0166",
+        "SRC-0167"
+      ],
+      "scope": "Process/gate record, not negative theorem or priority certification."
     }
   ]
 }
