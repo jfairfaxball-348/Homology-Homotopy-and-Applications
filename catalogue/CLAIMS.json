@@ -4286,6 +4286,46 @@
         "SRC-0185"
       ],
       "scope": "No external review, editor assessment, citation exhaustiveness or publication readiness."
+    },
+    {
+      "id": "CLM-0438",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S088 internal cyclic 2-power cover G/H deck Q produces explicit Q-equivariant cellular chain P_m and derived-nonzero ghost x_m representing degree-one cyclic Ext class, homology zero; chosen chain-level representative not universal cap diagram equivalence.",
+      "sources": [
+        "SRC-0187",
+        "SRC-0188"
+      ],
+      "scope": "N=2^r,m=2^s,r>=2,1<=s<r, infinite lens CW, internal proof only."
+    },
+    {
+      "id": "CLM-0439",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S088 derived equivariant cellular chain-action persistence dCohI=1/2<dIHC=dHI=1; forgetting deck action gives all 1/2 by field theorem.",
+      "sources": [
+        "SRC-0187",
+        "SRC-0189"
+      ],
+      "scope": "Strict chosen chain diagram, ALL reals, not a filtration of nested spaces; no global stability."
+    },
+    {
+      "id": "CLM-0440",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S088 P_m unbounded homology H_q=k all q>=0 rules out finite-dimensional CW/simplicial local-coefficient and bounded perfect equivalent models.",
+      "sources": [
+        "SRC-0187"
+      ],
+      "scope": "No ban on infinite-dimensional or derived coefficient realisations."
+    },
+    {
+      "id": "CLM-0441",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S088 failed to produce a second logically independent whole-real both-lane T202 proof or actual counterdiagram, and G2 original HHA novelty/significance not passed.",
+      "sources": [
+        "SRC-0188",
+        "SRC-0190",
+        "SRC-0191"
+      ],
+      "scope": "G1 OPEN by two-proof criterion, no publication or Lean authority."
     }
   ]
 }

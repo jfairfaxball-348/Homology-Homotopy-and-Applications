@@ -176,3 +176,6 @@ Hypothesis: on canonical f_m over B_N for N∈{4,5,6,8,12,16}, all Df_m=Σf f ho
 
 ### CAM-0087 — exact all-real symbolic audit and ghost coefficient theorem
 Infinite mathematical scope verified on paper, not finite exhaustive computation: N>=4, m in [2,N-2], all n>=0 and all u∈R. Universal cell attachment proof including transfinite/retract, integer total-Hom n1/n2/terminal, half-open Kan and all-choice t-adic induction in S087/MATHEMATICS. Special N=4/5/8 checked symbolically via forced terminal unit, not enumeration or an independent machine certificate. CohI test: homology odd ann(t)=(t^(m-1)), even coker(t)=k, odd x maps to zero; derived x n1 unit not homotopic zero. No computation run; therefore no machine outputs or checksums claimed. Hosted GitHub STATIC checks only govern repo integrity.
+
+### CAM-0088 — symbolic group-cover and all-real referee (not a computation)
+Preread fixed cases N=4,m=2; N=8,m=2/4 and general N=2^r,m=2^s, 1<=s<r. Analytical identities: k[C_N]=k[t]/t^N, norm=t^(N-1), reduced d_even=0, x_odd=1/x_even=0, H_q(P_m)=k all q; exact bar intervals [i,i+1); e<1 η_(2e)(0) either id or nontrivial x; e=1 all η2 zero. General proof symbolic; NO finite exhaustive search, no code run, no output hash, no human-independent mathematical checker. N=4,5,8 original Toda counterexamples not produced. Hosted CI is STATIC only.
