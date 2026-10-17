@@ -352,3 +352,6 @@ INTERNAL: odd-length (>=3) cyclic 2-power truncated spherical lens positive cell
 
 ### S094 nonlinear lens-cover Top-vs-chain route
 Actual finite based Cp-CW filtration from free sphere actions with L(p,1) vs L(p,q), q nonsquare p≡1 mod4: full Fp[Cp] cellular chain diagrams naturally QI-isomorphic, but Q-equivariant homotopy dHI exact T/2 in simple pulse; multistage 1/2/3 skeleta bounded TopHI≥(d-c)/2 and ChHI=0. Classical linking form is essential, not another norm-ghost ring test. HHA G2 NOT PASSED, need real multiwindow relative homotopy operation; install S095 future actionable proof-or-kill.
+
+### S095 exact four-stage top-vs-B-chain route
+T225 mutual maps fixing common Q-skeleton K between inequivalent finite based Q-CW X,Y -> exact full-real QTop HI=IHC=(d-c)/2 for terminal full stage [c,d). All earlier shared skeletal birth dates irrelevant; strict shift maps use relative extensions and no full gf=id. T226 lens S3 Cp actions common 2-sk and π2=0, chain Fp[Cp] persistence isomorphic, so exact sharp gap. But theorem appears formal from standard extension/clock and G2 is NOT PASSED. Shift to asymmetric extension obstruction/secondary operations S096 FUTURE.

@@ -101,3 +101,6 @@ Proof-first internal restricted genuine finite-cover norm families achieved; ind
 
 ## After S094 — new nonlinear equivariant persistence direction, G2 not cleared
 T221–T224 compare based Cp-Top vs full Fp[Cp] chain persistence on honest lens covers: sharp T/2 versus 0 on finite pulse and multistage lower/upper. Mathematical core internal G1, novelty G2 NOT PASSED. S095 future self-selected full-real skeletal attaching-coherence exact-distance proof-or-kill; if classical recapitulation, pivot to a truly higher relative invariant without owner route-choice questions. Proof first, separate Lean, separate publication.
+
+## After S095 — exact skeletal metric solved, novelty bottleneck clear
+S095 T225–T227 INTERNAL: arbitrary common lower finite equivariant CW skeleton filtration, mutually extending but nonequivalent top stages => exact top homotopy interleaving half terminal lifetime; Cp lens four-stage concrete mod-p deck-chain-blind full real gap. Algebraic field/group-ring diagrams HI=0. G2 not passed: classical extension plus formal window. S096 FUTURE self-steered asymmetric higher attaching k-invariant or secondary obstruction, two-lane unrestricted WEs/real indices and actual HHA theorem application required. No Lean or publication without independent source gate.

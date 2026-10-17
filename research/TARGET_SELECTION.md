@@ -248,3 +248,6 @@ Finite antipodal cover T215/T216 is a valid INTERNAL finite equivariant CW REALI
 
 ## S094 strongest current route (2026-10-17)
 Select nonlinear **equivariant topological** persistence information invisible to even full modular Cp-chain diagrams as research bridge to HHA. S094 internally proves a sharp one-window comparison and skeletal lower/upper; no full HHA novelty: old source plus formal interval lemma. S095 self-selected mission is nontrivial coupled attaching-coherence theorem with exact real metrics on skeletal windows; avoid routine A/B/C and stop only disproved mechanisms. No formalisation until independently original HHA G2.
+
+## S095 significance verdict (17 Oct 2026)
+Concrete nonlinear equivariant homotopy information is invisible even to entire Fp[Cp]-chain persistence for genuine 4-stage free-cover CW inclusions, with exact top=(d-c)/2 while chain=0. T225 proves parameter-general terminal full-cell detection window but is not independent HHA-original after primary 2026 extension/n-equivalence comparison. G2 NOT PASSED. S096 future assistant-selected genuinely interacting nonextendible relative attaching-map obstruction on coupled real diagrams; no rote clock/ring variants, no Lean until proof+G2.

@@ -1,0 +1,15 @@
+# S095 CLOSEOUT — exact nontrivial skeletal interleaving solved, HHA G2 still open
+Date 2026-10-17. Owner expressly mandated self-steered across-session proof-first HHA research; after S094 full regular PR #110 merge, S095 executed exactly once in active conversation. Entry main 39592c95ecccc69f61e1f8b213f80bb0863d6b35, tree 26894e9dad66810b3ceeaba6878b2e4b365bf560. Outgoing authored SHA, PR and hosted CI/merge identifiers are remote observations AFTER this document, and NOT preclaimed here.
+
+**INTERNAL T225 general theorem:** for arbitrary real birth times of an identical lower based Q-CW skeletal filtration K0⊂...⊂K, if full finite X,Y share K, are genuinely Q-homotopy INEQUIVALENT and have continuous Q-maps X→Y,Y→X restricting to identity on K, then their complete real two-lane literal CW-inclusion filtration ending in equivariant cone tails has EXACT based equivariant dHI=dIHC=(d−c)/2, independent of all earlier skeletal clock gaps. A whole-cone-to-point roof, strict shift maps using relative extensions and both 2ε identities, and all arbitrary both-lane objectwise Q-WE lower are established.
+**INTERNAL T226 full lens application:** actual free Cp actions on S³ with nonhomotopy equivalent L(p,1)/L(p,q) quotients, common lifted 2-skeleton, maps extending its identity across top 3-cells because π2(S³)=0. For **every a<b<c<d**, exact dHI^based-QTop=(d−c)/2 while entire Fp[Cp] chain persistence dHI=dIHC=0. This closes S094's former skeletal [lower,upper] gap; e.g. (0,1,2,4) exact1, (0,0.2,1.7,4) exact1.15.
+**T227:** fixed-Q-CW independent birth perturbations keep Top-minus-full-B-chain distance positive for h<(d−c)/8. No general changed-attachment/action stability.
+**Novelty:** general terminal-window theorem and extensions use classical homotopy extension, lens linking classification and ordinary interleaving maps. New 2026 G-n-equivalence original theorem is a clear collision. HHA G2 still NOT PASSED; do not advertise manuscript-ready, Lean-ready, or same-category ordinary Top dHI>dIHC. This is mathematically good architecture and a strong HHA-relevant example, but not independent journal originality.
+**Research self-steering:** install S096 FUTURE NONEXECUTED targeting *asymmetric/nonextendible relative attaching interactions* under actual higher two-lane diagrams, a genuinely nonlinear secondary obstruction beyond classical lens-space linking. No routine owner A/B/C; no background/publishing/Lean/Palomar.
+
+## NEXT_SESSION_HANDOFF
+- Next session: S096
+- Status: FUTURE, UNEXECUTED
+- Canonical prompt: authoritative/NEXT_SESSION_PROMPT.md
+- Decisive target: prove or disprove a nonroutine quantitative **asymmetric relative attaching-map interleaving obstruction theorem** for finite equivariant CW diagrams, with full real both-lane zigzags and a concrete higher-homotopy application, beyond the formally elementary common-skeleton window formula.
+- Authority: Another clear owner continuation invocation is needed to execute S096; installing the future prompt does not authorise automatic background work, Lean/Palomar/manuscript/arXiv/HHA submission or contact.

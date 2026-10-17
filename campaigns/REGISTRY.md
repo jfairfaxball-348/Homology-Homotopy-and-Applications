@@ -189,3 +189,6 @@ Scope: all T>0 and nonempty finite CW single pulse A,B on BOTH whole real lanes,
 
 ### S094 campaign — genuine equivariant Q-Top versus full FpQ chains
 Proof-first INTERNAL T221–T224 finite Cp lens action examples: real Q-Top sharp HI distance half pulse versus Q-chain HI=0, skeletal case lower/upper and perturbation. Classical lens linking + pulse architecture HHA G2 NOT PASSED; S095 future nontrivial skeletal attaching-coherence proof-or-kill selected automatically under owner steering; no Lean, paper or publication.
+
+### S095 shared-skeleton exact terminal-window class (2026-10-17)
+Proved INTERNAL exact Top HI/IHC=(d-c)/2 for inequivalent based Q-CW X,Y with mutual relative K-fixing maps, arbitrary earlier common skeleton stages, cone tail. Lens Cp free actions with two lower nontrivial attachments yield chainHI(FpCp)=0, exact Top gap. 2026 equivariant n-equivalence / classical extension make HHA G2 fail clearance; S096 future asymmetric higher attaching-coherence chosen automatically, no owner routine route choice/Lean/publication.

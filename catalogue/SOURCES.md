@@ -504,3 +504,7 @@ SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theore
 - **SRC-0220** [STATEMENT_INSPECTED] Kim, Simple homotopy theory for Fukaya categories, Journal of Topology 2026 Theorem 2.24 lens classification; https://doi.org/10.1112/topo.70099; Theorem 2.24 and cellular lens-space construction statement read; full detailed proof not audited
 - **SRC-0221** [STATEMENT_INSPECTED] Ranicki Algebraic and Geometric Surgery Example 8.45, lens homotopy classification; https://webhomes.maths.ed.ac.uk/~v1ranick/books/surgery.pdf; Original book indexed Example8.45 exact statement; full proof/page screenshot not reinspected
 - **SRC-0222** [PROOF_INSPECTED] Halder Sau Sen Equivariant Homotopy Interleaving and Persistent Whitehead Theorem v2 2026; https://arxiv.org/abs/2609.23440; S093 inspected selected Thm3.22/Thm4.20 proofs only; not full paper reread in S094
+
+## S095 source mirror (2026-10-17)
+- **SRC-0223** [STATEMENT_INSPECTED] Geometric Invariants of Locally Compact Groups: The Homotopical Perspective, Transformation Groups (2026), Definition 4.8, Lemma 4.9, https://doi.org/10.1007/s00031-026-09942-6. Definition4.8 Lemma4.9 and selected proof displayed; complete paper proof chain not audited
+- **SRC-0224** [SECONDARY_ONLY] Hatcher Algebraic Topology CW extension Lemma 4.7 and relative cellular approximation Theorem 4.8, https://pi.math.cornell.edu/~hatcher/AT/AT.pdf. Original full PDF proof not directly inspected in this session; numbers restated in secondary scholarly discussion
