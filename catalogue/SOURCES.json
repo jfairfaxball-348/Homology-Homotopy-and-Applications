@@ -1927,6 +1927,105 @@
       "access": "METADATA_ONLY",
       "limitation": "Indexed metadata, full proof not read",
       "observed": "See sessions/S092/PRIOR_ART.md for collision category and limits."
+    },
+    {
+      "id": "SRC-0215",
+      "title": "Halder Sau Sen Equivariant Homotopy Interleaving and Persistent Whitehead Theorem v2",
+      "url": "https://arxiv.org/abs/2609.23440",
+      "origin": "S093 direct arXiv original article HTML 2026-10-17, v2 dated Oct 13",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Inspected theorem statements and displayed proofs of Theorems 3.22, 4.20, not every auxiliary lemma or bibliography",
+      "observed": "G-homotopy interleaving universal stable, persistent Whitehead finite G-CW and equivariant persistent nerve; strong HHA priority collision."
+    },
+    {
+      "id": "SRC-0216",
+      "title": "Keir Lockridge Generating hypothesis in derived category R-modules JPAA 208 2007",
+      "url": "https://doi.org/10.1016/j.jpaa.2006.01.018",
+      "origin": "S093 original publisher abstract 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "No detailed original proof read",
+      "observed": "Perfect derived GH for commutative rings holds iff von Neumann regular."
+    },
+    {
+      "id": "SRC-0217",
+      "title": "Hovey Lockridge Puninski Generating hypothesis in derived category ring MathZ 2007",
+      "url": "https://arxiv.org/abs/math/0610201",
+      "origin": "S093 original arXiv abstract and institutional Manchester summary 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Detailed proof not read",
+      "observed": "General generating hypothesis for rings and vN regular classification."
+    },
+    {
+      "id": "SRC-0218",
+      "title": "Adams Lagoda Moy Sadovek De Saha Persistent equivariant cohomology 2024",
+      "url": "https://arxiv.org/abs/2408.17331",
+      "origin": "S093 original indexed arXiv abstract 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "No original proof inspected",
+      "observed": "Action-sensitive persistent cohomology already studied."
+    },
+    {
+      "id": "SRC-0219",
+      "title": "Daundkar Sarkar Singh Equivariant persistence topological complexity 2026",
+      "url": "https://arxiv.org/abs/2609.29759",
+      "origin": "S093 original arXiv abstract inspected again 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "No theorem-by-theorem proof read",
+      "observed": "Recent equivariant persistent invariant stability and complexity."
+    },
+    {
+      "id": "SRC-0215",
+      "title": "Ranicki Algebraic and Geometric Surgery, Example 8.45 lens spaces L(5,1)/L(5,2)",
+      "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/books/surgery.pdf",
+      "origin": "S093 2026-10-17 indexed original theorem excerpt",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Exact original indexed statement excerpt only; no PDF page screenshot or full proof read",
+      "observed": "Example 8.45 specifically says L(5,1), L(5,2) not homotopy equivalent; linking pairing distinction."
+    },
+    {
+      "id": "SRC-0216",
+      "title": "Estrada, Fu, Herzog, Odabasi Powers of ghost ideals, Adv Math 488 (2026) 110777",
+      "url": "https://doi.org/10.1016/j.aim.2025.110777",
+      "origin": "S093 original publisher 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Publisher abstract; no proof inspection",
+      "observed": "Ghosts zero on homology and their ideal powers studied in 2026."
+    },
+    {
+      "id": "SRC-0217",
+      "title": "Daundkar, Sarkar, Singh Equivariant persistence topological complexity (2026)",
+      "url": "https://arxiv.org/abs/2609.29759",
+      "origin": "S093 original arXiv 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original abstract; theorem proofs not read",
+      "observed": "Equivariant persistent invariants with interleaving stability and Gromov–Hausdorff comparisons."
+    },
+    {
+      "id": "SRC-0218",
+      "title": "Baues, Blanc, Gondhali Higher Toda brackets and Massey products, JHRS 2016",
+      "url": "https://doi.org/10.1007/s40062-016-0157-8",
+      "origin": "S093 original Springer HTML 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original Theorem A, Proposition 5.20 statements visible; full proofs not audited",
+      "observed": "Dwyer–Kan equivalence preservation of higher Toda and usual Massey correspondence."
+    },
+    {
+      "id": "SRC-0219",
+      "title": "HHA 28(3) Presentations of Configuration Categories (2026)",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n3.a6",
+      "origin": "S093 scholarly publication portal 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Research-portal abstract, no full primary proof",
+      "observed": "Homotopy-theoretic substantial theorem comparator in current HHA issue."
+    },
+    {
+      "id": "SRC-0220",
+      "title": "Blumberg Lesnick Universality of Homotopy Interleaving Distance, Trans AMS (2023)",
+      "url": "https://doi.org/10.1090/tran/8738",
+      "origin": "S093 original author preprint abstract 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original author preprint abstract; proof not newly read",
+      "observed": "Universal homotopy-invariant metric and sublevel filtration stability standard."
     }
   ]
 }

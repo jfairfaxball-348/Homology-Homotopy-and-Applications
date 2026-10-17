@@ -4490,6 +4490,87 @@
         "SRC-0214"
       ],
       "scope": "DO NOT PROMOTE: originality and significance G2 NOT PASSED; classical GH/perfect ghosts and 2026 equivariant persistence substantial possible collision."
+    },
+    {
+      "id": "CLM-0458",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S093 T217 INTERNAL: C_(2^r) genuine finite lens-cover suspension norm on the standard n-positive-cell periodic truncation is a homology ghost for all n>=2, and is NONZERO in perfect-derived B iff n odd>=3; within this construction only, not universal minimality.",
+      "sources": [
+        "SRC-0215",
+        "SRC-0216"
+      ],
+      "scope": "Internal complete B-linear homotopy parity proof with integral CW checks, finite arithmetic at q2/q4/q8. No Lean/novelty clearance."
+    },
+    {
+      "id": "CLM-0459",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S093 T218 INTERNAL: finite actual C2xC2 regular torus cover, reduced suspension of quotient by full zero-orbit, integral Koszul d1d2=0, continuous deck norm uv with zero homology but nonzero class in D(F2[C2xC2]); complete two-term all-homotopy contradiction.",
+      "sources": [
+        "SRC-0215"
+      ],
+      "scope": "Internal geometric proof and finite row enumeration; no absolute newness."
+    },
+    {
+      "id": "CLM-0460",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S093 T219/T220 INTERNAL: mapping-cylinder/cone literal finite based Q-CW three-threshold filtration gives exact Ch(B) HI=IHC and based Q-Top HI to zero=(c-a)/2; Ch(k) HI=IHC and graded homology to zero=max(b-a,c-b)/2; same-final-K orbitwise birth h-stability and gap >=1/2-2h.",
+      "sources": [
+        "SRC-0217",
+        "SRC-0218"
+      ],
+      "scope": "Restricted three-clock family, standard sublevel stability, no strict unpointed Top gap, no universal geometric noise stability."
+    },
+    {
+      "id": "CLM-0461",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S093 results T217-T220 comprise an original substantial HHA-ready finite regular-cover reconstruction theorem.",
+      "sources": [
+        "SRC-0215",
+        "SRC-0216",
+        "SRC-0217",
+        "SRC-0218",
+        "SRC-0219"
+      ],
+      "scope": "DO NOT PROMOTE. G2 NOT PASSED: strong classical GH and Sep2026 equivariant HI collision; no nontrivial new reconstruction or HHA application established."
+    },
+    {
+      "id": "CLM-0458",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S093 T217: for full cyclic prime-power weighted spherical lens covers the continuous equivariant suspension norm is a nonzero perfect-derived homology ghost at every odd length n>=3; n=1 not ghost, even truncated alternating resolution lengths chain-null.",
+      "sources": [],
+      "scope": "Declared actual spherical free Q-cover pairs and based Q-suspensions; even lengths algebraic complexes only. No universal classification of arbitrary Q-CW maps."
+    },
+    {
+      "id": "CLM-0459",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S093 T218: full-real two-active-block based-Q-CW mapping cylinder/cone norm filtrations have exact Ch(kQ) dHI=dIHC-to-zero=(c-a)/2, field and homology max-gap/2, and strict h-interleaving robustness under any sup<=h admissible Q-cell-orbit weights on same final CW complex.",
+      "sources": [
+        "SRC-0220",
+        "SRC-0217"
+      ],
+      "scope": "Specific group-family clock and same-CW weight model. Standard underlying persistence stability, NOT universal Top^R separation."
+    },
+    {
+      "id": "CLM-0460",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S093 T219: norm-equipped perfect F5[C5] cellular data and real derived clock diagrams cannot recover base quotient homotopy type: L(5,1) vs L(5,2) are different homotopy types but their norm-equipped kQ complexes coincide after unit bases.",
+      "sources": [
+        "SRC-0215"
+      ],
+      "scope": "Nonhomotopy classification part source-stated classical; invariant comparison proved internally. Does not preclude stronger integral/multiplicative unstable invariants."
+    },
+    {
+      "id": "CLM-0461",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S093 cyclic prime-power norm family and lens-space no-go are sufficiently original and significant to constitute a new HHA first paper.",
+      "sources": [
+        "SRC-0216",
+        "SRC-0217",
+        "SRC-0218",
+        "SRC-0219",
+        "SRC-0220"
+      ],
+      "scope": "DO NOT PROMOTE: G2 NOT PASSED, classical perfect GH, co-H norm, standard filtered stability and linking forms collide. Norm-only research STOP pending owner route."
     }
   ]
 }

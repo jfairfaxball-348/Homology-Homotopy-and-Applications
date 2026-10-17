@@ -321,3 +321,9 @@ First HHA paper prospectively retargeted away from old strict ordinary Top^R HI>
 
 ### S092 finite-equivariant geometry gate — 2026-10-17
 G1 finite Q-CW instance: INTERNAL PROOF T215/T216, with continuous equivariant norm and literal nested finite CW filtration; no external independent proof, no Lean. Finite C4/C2 cap-skeleton transfer NOT proved. G2 HHA ORIGINALITY/SIGNIFICANCE NOT PASSED: classic perfect-derived GH/ghost maps, co-H additions, standard mapping-cylinder persistence and 2026 equivariant persistence prior art. No freeze/Lean/Palomar/manuscript/arXiv/HHA. Original ordinary Top strict G1 remains OPEN LONG TERM.
+
+### S093 gates — 17 Oct 2026
+G1 restricted internal cyclic-lens parity/noncyclic torus finite Q-cover examples and three-clock exact metrics = INTERNALLY PROVED, NOT independently kernel certified. G2 original HHA theorem/application = **NOT PASSED** due to classical GH/perfect ghosts and Oct2026 Halder–Sau–Sen universal equivariant HI/Whitehead, and no new reconstruction. Original unpointed Top^R strict HI>IHC remains OPEN long term. Stage3 Lean NOT STARTED; external gates owner-blocked. S094 OWNER_CHOICE_PENDING FUTURE.
+
+### S093 current gates — 17 October 2026
+Specific geometric G1 INTERNAL T217/T218 complete for declared cyclic prime-power spherical lens family (with fixed basepoint on suspended quotient), no Lean/human referee. Reconstruction claim factoring through derived norm chain complex REFUTED T219 by L(5,1)/L(5,2). Global cover classification NOT PROVED. G2 independent original HHA relevance/priority NOT PASSED: standard GH and geom persistence; 2026 directly relevant ghost ideal literature. Original ordinary unpointed Top strict OPEN long term. First-paper norm-only investigation STOPPED and S094 OWNER_CHOICE_PENDING; formalisation G3/paper/Palomar/arXiv/HHA all closed.

@@ -1,0 +1,20 @@
+# S093 CLOSEOUT — finite cyclic family and decisive failure of chain-ghost reconstruction (2026-10-17)
+
+**Execution:** exactly S093 on fresh owner run; live entry main e4b634b64ee20564ceab7123d90762607a100729, tree d3600ce018ac96c1757f8f5ad4460b7a36822cac, prior research PR #106 two-parent merge; session branch session/S093-cyclic-cover-ghosts-and-reconstruction-limit. GitHub PR, authored commit, two-parent merge, hosted PR/main status to be VERIFIED POST-COMMIT: do not invent here.
+
+**Mathematical INTERNAL T217:** for Q=C_(p^r), B=Fp[t]/t^(p^r), N=t^(p^r−1), finite genuine free regular-cover pairs (S^(2m+1),A)→(L^(2m+1)(q;weights), point) and reduced suspension equivariant pinch/deck/fold f_N yield a perfect relative chain norm ghost. Within the declared truncated alternating resolution, derived nonzero ghost iff length n odd >=3; even n chain-null; n=1 not a homology ghost. Full C4 cover S3→L3(4) SUCCESS contrasts with failed residual C4/C2 intermediate cover in S092.
+
+**Mathematical INTERNAL T218:** literal nested finite *based* Q-CW inclusions via mapping-cylinder/cone give dHI=dIHC to zero over Ch(FpQ)=(c−a)/2; under forgetting Q Ch(Fp) and graded homology exactly max(b−a,c−b)/2. Ratio <=2 sharp within clocks; absolute positive gap persists under independent cell-orbit weight perturbations sup<h_gap/2, a real geometric CW perturbation class. This does NOT prove any strict HI>IHC in ordinary unpointed Top^R or even the group-ring coefficient category.
+
+**T219 RECONSTRUCTION NO-GO:** norm-equipped mod5 free perfect cellular complexes for the L(5,1)/L(5,2) spherical actions are isomorphic after unit changes, with identical derived persistent signatures, but the lens spaces are NOT homotopy equivalent by classical linking pairing classification. Hence a cover-reconstruction theorem factoring through this invariant is FALSE. Stronger unstable, integral, linking, Postnikov or multiplicative detectors are NOT ruled out.
+
+**Independent bounded test:** scripts/s093_norm_ghost_check.py finite linear systems for p,q=(2,2),(2,4),(2,8),(3,3),(3,9),(5,5), n=1..6; 36 systems checked local Python and all matched the proved parity; this checks only algebra, not CW, external novelty or Lean. Hosted GitHub CI validates STATIC repo/handoff governance, not mathematical correctness.
+
+**G2 owner STOP/choice recommendation:** the extension has concrete proofs and a precise counterclassification, but its surviving machinery is classical periodic resolutions + standard unstable co-H norm + mapping cylinder + ordinary sublevel stability. March 2026 ghost ideal research and Sep 2026 equivariant persistence tighten novelty concerns. NO independent HHA-origin theorem; G2 NOT PASSED, ready-for-Lean NO and ready-for-HHA NO. Recommend STOP the norm-only first-paper route rather than another variant/counting/audit treadmill. Old strict ordinary unpointed Top comparison including Xu spheres remains OPEN long term. No Lean, Palomar, manuscript, arXiv/HHA submission, contact or priority announcement.
+
+## NEXT_SESSION_HANDOFF
+- Next session: S094
+- Status: FUTURE, UNEXECUTED
+- Canonical prompt: authoritative/NEXT_SESSION_PROMPT.md
+- Decisive target: OWNER_CHOICE_PENDING, scientific choice among (A) a genuinely unstable/linking-form/secondary cover invariant that distinguishes L(5,1) from L(5,2) with a nonroutine persistent application (recommended only as a fresh, risk-rated idea), (B) return to archived ordinary unpointed Top strict HI>IHC, or (C) retire this HHA first-paper programme for now. The classical norm-only extension is STOPPED.
+- Authority: A new separate owner route choice plus governance-only prompt amendment is required before executing S094 mathematics; preparing this future handoff does not run S094 or authorise Lean/Palomar/manuscript/publication.
