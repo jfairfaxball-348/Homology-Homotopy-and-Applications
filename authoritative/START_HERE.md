@@ -165,3 +165,6 @@ Governance-only amendment after completed S088: next S089 is an actionable mathe
 
 ## S090 current checkpoint (17 October 2026)
 S090 completed with T210/T212 elementary equality exclusions and T211 homology-blind but HI=IHC CP2/wedge example, NOT a strict Top^R proof. G1 TOP OPEN; G2 HHA NOT PASSED. S091 is FUTURE, UNEXECUTED, OWNER_CHOICE_PENDING A/B/C in authoritative/NEXT_SESSION_PROMPT.md. Proof first, separately authorised Lean second, publication last.
+
+## Current prospective owner decision after S090 — 17 Oct 2026 (no S091 execution)
+Owner selected S091 Option **A**: force an explicitly constructed genuinely multistage finite-CW TWO-nonpoint-lane strict ordinary UNPOINTED Top^R \(d_{\mathrm{HI}}>d_{\mathrm{IHC}}\) witness with derived two-lane interleaving and all-whole-WE obstruction, or a rigorously specified no-go/countermodel. S090 remains completed, S091 FUTURE UNEXECUTED and directly actionable on the NEXT separate run. G1 strict Top OPEN; G2 HHA NOT PASSED; no Lean or external release. The canonical operative instructions are authoritative/NEXT_SESSION_PROMPT.md, not archival S090 owner-pending language.

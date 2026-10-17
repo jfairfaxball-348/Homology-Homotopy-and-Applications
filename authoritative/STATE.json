@@ -5,10 +5,10 @@
   "last_completed_session": "S090",
   "recommended_next_session": "S091",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S090 completed: INTERNAL T210 one-pulse two-lane exact equality, T211 CP2 versus S2 wedge S4 identical integral persistent homology but equal HI/IHC=T/2, and T212 all-real CW 0-type pi0 equality. NO unpointed Top^R dHI>dIHC proof; G1 OPEN, G2 NOT PASSED; S091 OWNER_CHOICE_PENDING FUTURE.",
-  "selected_mathematical_problem": "S090 pursued independent finite CW ordinary unpointed Top^R HI>IHC, excluded two large architectures but achieved no strict witness. S091 owner strategy pending A/B/C.",
-  "headline_status": "S090_COMPLETED_INTERNAL_NO_GO_T210_T212_HOMOLOGY_BLIND_T211__TOP_STRICT_G1_OPEN_G2_NOT_PASSED__S091_OWNER_CHOICE_PENDING_FUTURE_UNEXECUTED",
-  "active_campaign": "S091 future OWNER_CHOICE_PENDING: owner to select A new 3-7-stage two-lane unpointed Top^R higher obstruction, B archived Xu five-sphere exact zero transport, or C retire strict near-term HHA target; amend same S091 prompt governance only before new research.",
+  "headline": "S090 completed internally T210/T211/T212 no-go/comparator, ordinary unpointed Top^R strict HI>IHC still OPEN. Owner selected S091 Option A multistage two-nonpoint-lane finite-CW higher-coherence strict proof-or-kill (GOVERNANCE ONLY; FUTURE UNEXECUTED); HHA G2 not passed.",
+  "selected_mathematical_problem": "Owner 17 October 2026 selected S091 OPTION A: NEW multistage (prefer 3–7 stages), TWO nonpoint finite-CW ordinary UNPOINTED Top^R diagrams with real strict dHI>dIHC proof-or-kill, arbitrary whole ordinary objectwise WE zigzags on BOTH lanes, and meaningful HHA originality. S091 FUTURE UNEXECUTED; S090 T210–T212 excludes one-pulse/0-types.",
+  "headline_status": "S090_COMPLETED__S091_OWNER_A_NEW_TWO_LANE_MULTISTAGE_TOPR_FUTURE_UNEXECUTED__G1_STRICT_OPEN_G2_NOT_PASSED",
+  "active_campaign": "S091 FUTURE owner-approved Option A: constructive two-lane 3–7-stage finite CW relative higher-coherence proof-or-kill in ordinary unpointed Top^R; run on NEXT separate 'Run next session' only. Preserve S090 closeout historical, old Xu sphere OPEN/archived, G1/G2 OPEN.",
   "claim_of_new_theorem": "S090 INTERNAL mathematically elementary T210/T211/T212; NO strict HI>IHC, NO claim of literature-original or HHA-ready theorem.",
   "stages": [
     {
@@ -1671,5 +1671,28 @@
       "B_XU_SOURCE_EXACT",
       "C_RETIRE_IMMINENT_STRICT"
     ]
+  },
+  "s091_owner_route_choice": {
+    "date": "2026-10-17",
+    "owner_message": "Choose Option A for S091. Update the authoritative repository prompt through a governance-only PR and ordinary merge; do not execute S091 yet.",
+    "type": "GOVERNANCE_ONLY__NOT_S091_EXECUTION",
+    "choice": "A_NEW_MULTISTAGE_TWO_NONPOINT_LANE_FINITE_CW_ORDINARY_UNPOINTED_TOPR_STRICT_HI_GT_IHC",
+    "predecessor_session": "S090",
+    "predecessor_authored_sha": "7037161d2fdd5799acce13dc89588ddda904aa57",
+    "predecessor_pr": 102,
+    "predecessor_merge_sha": "59612eb20dbfc37601be9055967919dd8cb98535",
+    "predecessor_merge_parents": [
+      "6507fe4dad4a0ad801383a164ad33f0fb31a1094",
+      "7037161d2fdd5799acce13dc89588ddda904aa57"
+    ],
+    "predecessor_merge_tree": "63a26fa3360f44e8e2686d7dda7c8ce7c9c1ba4e",
+    "last_completed_session": "S090",
+    "next_session": "S091_FUTURE_UNEXECUTED",
+    "owner_choice_pending": false,
+    "g1": "OPEN",
+    "g2": "NOT_PASSED",
+    "lean_authorised": false,
+    "publication_authorised": false,
+    "category": "ORDINARY_UNPOINTED_TOP^R_BOTH_FULL_REAL_OBJECTWISE_WE_ZIGZAGS"
   }
 }
