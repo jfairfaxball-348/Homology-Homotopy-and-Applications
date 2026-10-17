@@ -646,3 +646,9 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - **CLM-0455 (PROGRAMME_PROVED)** S092-T216 INTERNAL: literal nested finite based C2-CW filtration Z⊂M_f⊂CM_f at a<b<c gives whole-real dHI=dIHC in Ch(B) to zero=(c-a)/2, field-forgetful HI/IHC and graded homology to zero=max(b-a,c-b)/2; ratio up to 2 within family, threshold displacement at most h gives strict h-interleaving for fixed geometry. Scope: Internal real-indexed whole-diagram proof; no claim universal stability, no Top strict HI>IHC result, not externally vetted for originality.
 - **CLM-0456 (PROGRAMME_PROVED)** S092 negative architecture: finite free deck C2-cover RP3→L3(4) has mod2 relative C2 cellular d2=0,d3=t, so naive t norm acts nontrivially on H1=B and is NOT a ghost; original infinite S088 P2 cannot be finitely quasi-isomorphically truncated. Scope: Specific finite norm test and inherited infinite high-degree homology obstruction; not a universal impossibility theorem for other maps.
 - **CLM-0457 (INHERITED_UNVERIFIED)** S092 finite example T215/T216 is HHA-original and sufficient as first journal paper. Scope: DO NOT PROMOTE: originality and significance G2 NOT PASSED; classical GH/perfect ghosts and 2026 equivariant persistence substantial possible collision.
+
+## S093 new claims (source of truth: CLAIMS.json)
+- CLM-0458 PROGRAMME_PROVED (INTERNAL): T217 cyclic C2-power lens-resolution parity; restricted family.
+- CLM-0459 PROGRAMME_PROVED (INTERNAL): T218 noncyclic torus-cover norm ghost.
+- CLM-0460 PROGRAMME_PROVED (INTERNAL): T219/T220 all-real three-clock metrics and fixed-complex orbitwise birth stability.
+- CLM-0461 INHERITED_UNVERIFIED: novel HHA-ready cover reconstruction claim NOT established; G2 NOT PASSED.

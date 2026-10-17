@@ -95,3 +95,6 @@ Explicitly retarget IMMINENT paper away from unproved strict ordinary unpointed 
 
 ### S092 completed; S093 proof-first HHA originality attack
 INTERNAL finite C2 antipodal genuine CW ghost and nested filtration proof T215/T216, exact equivariant versus forgotten derived/homology real distances with sharp factor 2 in this restricted family. Separate residual C4/C2 cover simple norm fails. Stage1 particular existence internally DONE, not a new universal theorem; Stage2 G2 NOT PASSED after ghost/GH and Sep2026 equivariant persistence collision audit. S093 must prove a nonroutine equivariant-cover family reconstruction/detection with actual free-Q pair filtrations, or disprove novelty and recommend stop. Proof -> separately owner-approved Lean -> separately authorised publication, not automatic.
+
+## S093 decision checkpoint (17 October 2026)
+Proof-first internal restricted genuine finite-cover norm families achieved; independent original HHA novelty/significance NOT PASSED. No Lean/Palomar/manuscript/arXiv/HHA permission. S094 FUTURE OWNER_CHOICE_PENDING: A new nonroutine cover reconstruction, B old ordinary unpointed Top strict proof, C pause HHA first-paper campaign (recommended). No generic owner run silently selects route.

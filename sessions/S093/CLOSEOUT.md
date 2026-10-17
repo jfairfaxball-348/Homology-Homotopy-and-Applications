@@ -1,0 +1,15 @@
+# S093 CLOSEOUT — finite cover family proved internally; HHA novelty gate NOT PASSED
+Date: 2026-10-17. Started from verified main e4b634b64ee20564ceab7123d90762607a100729 tree d3600ce018ac96c1757f8f5ad4460b7a36822cac, S092 normal two-parent PR #106. Owner instructed S093 once; continuation “Continue” remains same session. Branch session/S093-finite-deck-norm-family-audit. Authored SHA, PR number, hosted checks, merge SHA/parents/tree are **not known at authoring time** and must be verified LIVE afterward; this text makes no claim of them.
+**T217:** standard cyclic 2-power lens CW resolution and actual suspension deck norm: among n≥2 positive cells, H-ghost is nonzero in perfect D(F₂[C_q]) iff n is odd≥3. The Q-cover dimensions and integrally alternating boundary are written; no universal minimum theorem.
+**T218:** independent C₂×C₂ regular torus cover with integral Koszul complex, genuine continuous four-deck suspension norm, nonzero perfect-derived homology ghost on two-stage shifted relative CW complex.
+**T219:** literal finite based Q-CW mapping-cylinder/cone filtrations at all real a<b<c have exact Ch(B) dIHC=dHI and based Q-Top dHI to zero=(c−a)/2, ordinary k-chain and homology distances max(b−a,c−b)/2, ratio ≤2 sharply only inside this family. No Top^R strict HI>IHC.
+**T220:** nonuniform *cell-orbit* birth function perturbations on fixed final K give standard h-stability and loss ≥1/2−2h for evenly spaced clocks; not stability under arbitrary geometric or cover modifications.
+**Finite checker:** locally ran q=2,4,8 and Q=C₂×C₂ bounded exhaustive arithmetic; positive nullhomotopy tests. Output SHA256 1e06503112dc021708952f73ebcfcc0a49ee15067ecdb93d8d21751140676aa9. Not a CW/real/novelty certificate.
+**Scholarly verdict:** key Sep–Oct 2026 Halder–Sau–Sen equivariant HI universality/Whitehead plus classical GH/perfect ghosts and equivariant persistent cohomology undercut an original high-level invariance/stability claim. No nonroutine universal cover-reconstruction theorem, attach-map perturbation theorem or independently novel HHA application emerged. First-paper G2 NOT PASSED. **STOP** incremental same-family ghost-paper work. Archived ordinary unpointed Top strict remains OPEN. No Lean/Palomar/manuscript/arXiv/HHA/external contact or priority announcement authorised or performed.
+
+## NEXT_SESSION_HANDOFF
+- Next session: S094
+- Status: FUTURE, UNEXECUTED
+- Canonical prompt: authoritative/NEXT_SESSION_PROMPT.md
+- Decisive target: OWNER_CHOICE_PENDING — select A wholly new rigorous equivariant reconstruction invariant and concrete geometric application, B return to unpointed Top strict HI>IHC proof-first, or C pause first-paper programme pending outside scholarly critique; C recommended to avoid a classical-ghost theorem marketed as HHA novelty.
+- Authority: A new, separate owner instruction and **explicit A/B/C selection via prospective governance-only amendment** are required before S094 research. Preparing this prompt does not run S094. No Lean, Palomar, manuscript, arXiv/HHA or contact authority.
