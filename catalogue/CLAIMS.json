@@ -4490,6 +4490,48 @@
         "SRC-0214"
       ],
       "scope": "DO NOT PROMOTE: originality and significance G2 NOT PASSED; classical GH/perfect ghosts and 2026 equivariant persistence substantial possible collision."
+    },
+    {
+      "id": "CLM-0458",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S093 T217 INTERNAL: C_(2^r) genuine finite lens-cover suspension norm on the standard n-positive-cell periodic truncation is a homology ghost for all n>=2, and is NONZERO in perfect-derived B iff n odd>=3; within this construction only, not universal minimality.",
+      "sources": [
+        "SRC-0215",
+        "SRC-0216"
+      ],
+      "scope": "Internal complete B-linear homotopy parity proof with integral CW checks, finite arithmetic at q2/q4/q8. No Lean/novelty clearance."
+    },
+    {
+      "id": "CLM-0459",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S093 T218 INTERNAL: finite actual C2xC2 regular torus cover, reduced suspension of quotient by full zero-orbit, integral Koszul d1d2=0, continuous deck norm uv with zero homology but nonzero class in D(F2[C2xC2]); complete two-term all-homotopy contradiction.",
+      "sources": [
+        "SRC-0215"
+      ],
+      "scope": "Internal geometric proof and finite row enumeration; no absolute newness."
+    },
+    {
+      "id": "CLM-0460",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S093 T219/T220 INTERNAL: mapping-cylinder/cone literal finite based Q-CW three-threshold filtration gives exact Ch(B) HI=IHC and based Q-Top HI to zero=(c-a)/2; Ch(k) HI=IHC and graded homology to zero=max(b-a,c-b)/2; same-final-K orbitwise birth h-stability and gap >=1/2-2h.",
+      "sources": [
+        "SRC-0217",
+        "SRC-0218"
+      ],
+      "scope": "Restricted three-clock family, standard sublevel stability, no strict unpointed Top gap, no universal geometric noise stability."
+    },
+    {
+      "id": "CLM-0461",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S093 results T217-T220 comprise an original substantial HHA-ready finite regular-cover reconstruction theorem.",
+      "sources": [
+        "SRC-0215",
+        "SRC-0216",
+        "SRC-0217",
+        "SRC-0218",
+        "SRC-0219"
+      ],
+      "scope": "DO NOT PROMOTE. G2 NOT PASSED: strong classical GH and Sep2026 equivariant HI collision; no nontrivial new reconstruction or HHA application established."
     }
   ]
 }

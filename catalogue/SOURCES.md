@@ -496,3 +496,6 @@ SRC-0200 Dwyer–Kan–Smith original JPAA1989 publisher ABSTRACT_INSPECTED live
 - SRC-0212 Kuribayashi Naito Wakatsuki Yamaguchi field chain persistence 2026 — STATEMENT_INSPECTED; https://link.springer.com/article/10.1007/s41468-026-00252-0. Publisher introduction/theorem comparison; field not group ring.
 - SRC-0213 HHA 28(1) local block decomposability 2026 — METADATA_ONLY; https://doi.org/10.4310/HHA.2026.v28.n1.a9. Research portal metadata, full proof not read.
 - SRC-0214 HHA 28(2) matrix-factorisation higher categories 2026 — METADATA_ONLY; https://doi.org/10.4310/HHA.2026.v28.n2.a2. Indexed metadata, full proof not read.
+
+## S093 source additions
+SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theorems 3.22 and 4.20; SRC-0216 Lockridge JPAA2007, ABSTRACT_INSPECTED; SRC-0217 Hovey–Lockridge–Puninski MathZ2007, ABSTRACT_INSPECTED; SRC-0218 Adams et al 2024 persistent equivariant cohomology, ABSTRACT_INSPECTED; SRC-0219 Daundkar–Sarkar–Singh 2026 equivariant persistence topological complexity, ABSTRACT_INSPECTED. Exact URLs, access limitations and observed claims in SOURCES.json; no exhaustive citation audit.
