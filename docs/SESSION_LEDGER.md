@@ -251,3 +251,5 @@ Owner fresh "Run next session" executed queued Option A. Re-checked all-real pro
 
 ## S091 owner-selected prospective research, 17 October 2026 (no session execution)
 After completed S090 (PR #102), owner selected **A** for S091. Prospective fully actionable multistage, two-nonpoint finite-CW ordinary unpointed Top^R strict HI>IHC proof-or-kill replaces the earlier conditional OWNER_CHOICE_PENDING prompt by governance-only amendment; no extra numbered session consumed and S090's historical ledger is unchanged. G1 Top strict OPEN, HHA G2 NOT PASSED; separately approved proof->Lean->publication sequence unchanged. S091 FUTURE, UNEXECUTED until next distinct explicit "Run next session".
+
+|S091|2026-10-17|Option A multistage two-nonpoint ordinary unpointed Top^R proof-or-kill|T213 INTERNAL exact HI=IHC=3/2 with homology diagram equality; T214 INTERNAL Hopf-track whole-WE mapping-cylinder roof HI=IHC=0. No strict G1 or HHA G2, no Lean/submission.|sessions/S091/CLOSEOUT.md; S092 FUTURE OWNER_CHOICE_PENDING|

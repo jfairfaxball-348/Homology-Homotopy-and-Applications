@@ -134,3 +134,6 @@ New finite-CW ordinary unpointed Top^R strict HI>IHC route B executed; T210 one-
 
 ## Prospective owner choice for S091 — Option A, 17 October 2026 (GOVERNANCE ONLY)
 Owner selected Option A after S090: pursue an **independent genuinely multistage two-nonpoint-lane finite-CW ordinary unpointed Top^R strict HI>IHC proof** rather than a single-pulse, 0-type or objectwise cup-product comparison. Actual construction, both real interleaving identities and all arbitrary whole-diagram WE zigzags of BOTH lanes remain proof obligations; T210–T212 are INTERNAL no-go/comparator results, not strict witnesses. The original five 2-local spheres and integral candidate stay archived OPEN, NOT refuted. S090 LAST COMPLETED; S091 FUTURE UNEXECUTED, and NEXT separate owner "Run next session" executes only S091 research. G1 and G2 remain OPEN/NOT PASSED; no Lean/Palomar/manuscript/arXiv/HHA contact or release authorised.
+
+## 17 October 2026 actual S091
+Ordinary unpointed Top^R strict HI>IHC remains OPEN. New internally proved finite-CW controls T213 and T214 each have equality, so no proof/handoff to Lean or HHA. Owner A/B/C S092 choice now pending, recommend C original HHA theorem reset, but no first target switch without owner approval.

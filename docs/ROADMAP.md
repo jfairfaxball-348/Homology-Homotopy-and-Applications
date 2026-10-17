@@ -85,3 +85,6 @@ Proof-first B new ordinary unpointed Top^R research ruled out one-pulse and CW 0
 
 ## Owner-selected S091 Option A — prospective governance amendment 17 October 2026
 Keep S090 completed. S091 now directly targets original higher-coherence two-lane multistage finite-CW ordinary unpointed Top^R strict HI>IHC witness with complete derived, arbitrary both-lane strict exclusion and HHA G2 gate, NOT the S090 one-pulse/0-type no-go nor reopened Xu source comparisons. A new separate owner run starts only S091, not S092; no Lean, paper or external action is approved. G1 OPEN/G2 NOT PASSED. Full authority in NEXT_SESSION_PROMPT.
+
+## S091 17 October 2026 checkpoint
+Owner A new ordinary unpointed Top^R strict witness attempt failed in two distinct finite-CW 3-active-stage forms, T213 exact HI=IHC=3/2, T214 exact HI=IHC=0 via entire WE roof. G1 OPEN/G2 NOT PASSED. No Lean/Palomar/manuscript/arXiv/HHA. S092 FUTURE OWNER_CHOICE_PENDING A new coupled Top, B Xu exact bridge, C different original HHA first-paper theorem (recommended; not enacted without owner).

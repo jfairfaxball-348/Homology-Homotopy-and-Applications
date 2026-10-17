@@ -4418,6 +4418,37 @@
         "SRC-0200"
       ],
       "scope": "G1/G2 open, no new category switch or external action."
+    },
+    {
+      "id": "CLM-0451",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S091 T213 INTERNAL complete real 3-active-stage two-nonpoint finite CW CP2 vs S2 wedge S4 then wedge S5, identical graded integral persistent homology, exact dHI=dIHC=3/2 by cup-square H2 lower for all eps<3/2 and strict two-identity upper at eps=3/2.",
+      "sources": [
+        "SRC-0201",
+        "SRC-0202"
+      ],
+      "scope": "Not strict HI>IHC nor an HHA originality result."
+    },
+    {
+      "id": "CLM-0452",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S091 T214 INTERNAL any homotopic first maps X->Y and common second h:Y->Z form 3-active-stage whole-real diagrams with an explicit whole natural mapping-cylinder objectwise-WE roof, so dHI=dIHC=0; Hopf S3->S2->CP2 concrete finite CW inputs.",
+      "sources": [
+        "SRC-0201",
+        "SRC-0203"
+      ],
+      "scope": "Not arbitrary higher coherence, replacement spaces need not be finite CW."
+    },
+    {
+      "id": "CLM-0453",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S091 no ordinary unpointed Top^R strict HI>IHC result, original Xu candidate still unresolved, G1 open, HHA G2 not passed and no Lean/publication authorisation.",
+      "sources": [
+        "SRC-0201",
+        "SRC-0202",
+        "SRC-0204"
+      ],
+      "scope": "Honest programme status; not proof of universal equality."
     }
   ]
 }

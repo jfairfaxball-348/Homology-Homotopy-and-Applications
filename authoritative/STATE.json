@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-17",
-  "last_completed_session": "S090",
-  "recommended_next_session": "S091",
+  "last_completed_session": "S091",
+  "recommended_next_session": "S092",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S090 completed internally T210/T211/T212 no-go/comparator, ordinary unpointed Top^R strict HI>IHC still OPEN. Owner selected S091 Option A multistage two-nonpoint-lane finite-CW higher-coherence strict proof-or-kill (GOVERNANCE ONLY; FUTURE UNEXECUTED); HHA G2 not passed.",
-  "selected_mathematical_problem": "Owner 17 October 2026 selected S091 OPTION A: NEW multistage (prefer 3–7 stages), TWO nonpoint finite-CW ordinary UNPOINTED Top^R diagrams with real strict dHI>dIHC proof-or-kill, arbitrary whole ordinary objectwise WE zigzags on BOTH lanes, and meaningful HHA originality. S091 FUTURE UNEXECUTED; S090 T210–T212 excludes one-pulse/0-types.",
-  "headline_status": "S090_COMPLETED__S091_OWNER_A_NEW_TWO_LANE_MULTISTAGE_TOPR_FUTURE_UNEXECUTED__G1_STRICT_OPEN_G2_NOT_PASSED",
+  "headline": "S091 A completed: T213 dHI=dIHC=3/2, T214 mapping cylinder roof dHI=dIHC=0; NO strict ordinary Top witness, G1 OPEN, G2 HHA NOT PASSED, S092 OWNER_CHOICE_PENDING.",
+  "selected_mathematical_problem": "Owner must select S092 A genuinely coupled Top higher obstruction, B archived 2-local Xu/Kochman all-choice comparison, or C new proof-first HHA-worthy theorem (recommended, but NOT yet selected).",
+  "headline_status": "S091_COMPLETED__T213_T214_INTERNAL_EQUALITY__G1_TOP_OPEN__G2_NOT_PASSED__S092_OWNER_CHOICE_PENDING",
   "active_campaign": "S091 FUTURE owner-approved Option A: constructive two-lane 3–7-stage finite CW relative higher-coherence proof-or-kill in ordinary unpointed Top^R; run on NEXT separate 'Run next session' only. Preserve S090 closeout historical, old Xu sphere OPEN/archived, G1/G2 OPEN.",
-  "claim_of_new_theorem": "S090 INTERNAL mathematically elementary T210/T211/T212; NO strict HI>IHC, NO claim of literature-original or HHA-ready theorem.",
+  "claim_of_new_theorem": "S091 internal T213/T214 equal-distance multi-stage Top controls; NOT original HHA strict separation or formal certification.",
   "stages": [
     {
       "id": 0,
@@ -1030,7 +1030,8 @@
     "S069: alternate 2-local dHI>IHC still INTERNAL and owner integral θ4/θ4 first target UNPROVED. Do not start Lean/Palomar/manuscript/publication until mathematical and G2 gates plus owner decision.",
     "S072: generic BBG spectral metric obstruction conditional theorem established, but Xu theta4 does not yet certify 0-not-in-BBG and G2 remains FAIL_TO_CLEAR; no named numerical or original-space proof, NO Lean/Palomar/manuscript.",
     "S073: full sphere all-choice stabilized Kochman/Xu vs BBG comparison, pi0 of secondary-filler map and terminal sphere orientation remains unproved; no named spectral numerical strict inequality or G2.",
-    "S088 first paper G1 second independent proof OPEN; G2 original novelty/HHA impact NOT PASSED; no Lean or publication authority."
+    "S088 first paper G1 second independent proof OPEN; G2 original novelty/HHA impact NOT PASSED; no Lean or publication authority.",
+    "S091: T213 cup-square obstruction is already IHC-visible; T214 homotopic first-arrow track disappears under full mapping-cylinder WE roof. Need genuinely coupled replacement-invariant relative obstruction for any Top strict witness; S092 route choice unresolved."
   ],
   "s052_checkpoint": "T127/T128 exact contractible-cube collision saturation and all strict zero biconditional for any 2s<r<3s; T129 original-sphere whole-WE I4 countermodel proving all three collisions insufficient. No sphere GRID witness/no-go, higher obstruction or exact dHI. Hosted static governance is not mathematics.",
   "owner_publication_decision": {
@@ -1694,5 +1695,15 @@
     "lean_authorised": false,
     "publication_authorised": false,
     "category": "ORDINARY_UNPOINTED_TOP^R_BOTH_FULL_REAL_OBJECTWISE_WE_ZIGZAGS"
+  },
+  "s091_checkpoint": {
+    "date": "2026-10-17",
+    "route": "A",
+    "result": "INTERNAL_T213_HI=IHC=1.5__T214_HI=IHC=0",
+    "g1": "OPEN",
+    "g2": "NOT_PASSED",
+    "next": "S092_OWNER_CHOICE_PENDING",
+    "lean": "NOT_AUTHORIZED",
+    "recommended_owner_option": "C"
   }
 }

@@ -1801,6 +1801,51 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Original publisher abstract; full theorem/collision audit not completed.",
       "observed": "Prior art rectification obstruction."
+    },
+    {
+      "id": "SRC-0201",
+      "title": "Dwyer Kan Smith JPAA1989 rectification",
+      "url": "https://doi.org/10.1016/0022-4049(89)90023-6",
+      "origin": "S091 direct publisher 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full theorem proof not re-inspected.",
+      "observed": "Classical obstruction theory for homotopy commutative diagrams."
+    },
+    {
+      "id": "SRC-0202",
+      "title": "Lanari Scoccola AGT 23 2023 rectification",
+      "url": "https://ora.ox.ac.uk/objects/uuid:b99b1105-f96d-447a-b510-a26f72a68531",
+      "origin": "S091 direct institutional record 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original PDF fetch timed out this pass.",
+      "observed": "Homotopy interleaving metric rectification prior work."
+    },
+    {
+      "id": "SRC-0203",
+      "title": "Baues Blanc Gondhali JHRS 11 2016 higher Toda brackets",
+      "url": "https://doi.org/10.1007/s40062-016-0157-8",
+      "origin": "S091 direct Springer HTML 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Introduction/defined double coset; no full proof re-inspection.",
+      "observed": "Toda brackets carry indeterminacy."
+    },
+    {
+      "id": "SRC-0204",
+      "title": "Blanc Johnson Turner constructive higher operations arXiv1809.07495",
+      "url": "https://arxiv.org/abs/1809.07495",
+      "origin": "S091 direct arXiv abstract 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "No full proof re-inspection.",
+      "observed": "Unpointed rectification obstructions already classical."
+    },
+    {
+      "id": "SRC-0205",
+      "title": "Kuribayashi et al JACT 2026 equality of interleaving distances",
+      "url": "https://doi.org/10.1007/s41468-026-00252-0",
+      "origin": "S091 direct publisher HTML 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Introduction comparison only; not Top witness.",
+      "observed": "dHC<=dIHC<=dHI and chain-category comparison."
     }
   ]
 }

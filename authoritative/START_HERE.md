@@ -168,3 +168,6 @@ S090 completed with T210/T212 elementary equality exclusions and T211 homology-b
 
 ## Current prospective owner decision after S090 — 17 Oct 2026 (no S091 execution)
 Owner selected S091 Option **A**: force an explicitly constructed genuinely multistage finite-CW TWO-nonpoint-lane strict ordinary UNPOINTED Top^R \(d_{\mathrm{HI}}>d_{\mathrm{IHC}}\) witness with derived two-lane interleaving and all-whole-WE obstruction, or a rigorously specified no-go/countermodel. S090 remains completed, S091 FUTURE UNEXECUTED and directly actionable on the NEXT separate run. G1 strict Top OPEN; G2 HHA NOT PASSED; no Lean or external release. The canonical operative instructions are authoritative/NEXT_SESSION_PROMPT.md, not archival S090 owner-pending language.
+
+## S091 actual 17 October 2026
+New multistage ordinary unpointed Top^R finite-CW two-lane internal controls T213 exact HI=IHC=3/2 with equal homology, T214 Hopf-track full-real common WE roof HI=IHC=0. No strict G1, no HHA G2. S092 FUTURE OWNER_CHOICE_PENDING, recommend C but target not yet switched. Next authoritative prompt governs; no automatic Lean or publication.

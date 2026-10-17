@@ -516,3 +516,6 @@ Cell-by-cell cofibrancy, right-continuous left Kan and sign-correct total-Hom re
 
 ### S090 no-go audit — 17 Oct 2026
 Distinct cellular 4-attachments (Hopf CP2 versus trivial S2 wedge S4) produce identical integral persistent homology and positive homotopy distances BUT both HI and IHC equal T/2. Single-pulse two-lane CW pair always HI=IHC by T210. ALL multi-stage CW 0-types similarly reduce to discrete pi0 by T212. Therefore neither a homology-blind cup product nor essential objects alone measure higher strict-vs-derived rectification. Missing: an actual finite CW higher relative coherence obstruction across multiple transition maps that survives all whole-real WE zigzags of both lanes. No source-negative search is existence or novelty proof. G1 OPEN/G2 NOT PASSED; owner choice needed before S091.
+
+### S091: two multi-transition false leads
+CP²/wedge+S⁵ matched homology does not distinguish dHI from dIHC: cup-square lower applies already to IHC and both exact 3/2 (T213). Homotopic Hopf first-arrow track with common second arrow is absorbed by an explicit WHOLE natural mapping-cylinder WE roof, dHI=dIHC=0 (T214). Must produce truly coupled relative higher coherence surviving all whole WE replacements, not objectwise cohomology or selected nulltrack. G1/G2 still open.
