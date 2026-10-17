@@ -137,3 +137,7 @@ Owner selected Option A after S090: pursue an **independent genuinely multistage
 
 ## 17 October 2026 actual S091
 Ordinary unpointed Top^R strict HI>IHC remains OPEN. New internally proved finite-CW controls T213 and T214 each have equality, so no proof/handoff to Lean or HHA. Owner A/B/C S092 choice now pending, recommend C original HHA theorem reset, but no first target switch without owner approval.
+
+
+## BINDING FIRST-PAPER PRIORITY OVERRIDE — owner C after S091, 17 Oct 2026 (GOVERNANCE ONLY)
+Owner EXPRESSLY selected C and **superseded the prior requirement that the imminent first HHA paper prove strict ordinary unpointed Top^R dHI>dIHC**. This changes PRIORITY ONLY; the previous question, including archived Xu 2-local five spheres, is OPEN and not falsified. New first-paper candidate: prove or kill a genuinely original finite equivariant CW-pair geometric persistence/deck-action derived ghost and quantitative ordinary-homology information-loss or stability theorem, or prove a sharp finite-geometric obstruction/fallback with substantive new homotopy application. S087–S088 chosen infinite-cover cap CHAIN-ACTION distances do not already realise finite CW maps; unbounded P_m has no finite-dimensional perfect representative. First G1 new theorem unproved, first HHA G2 novelty/significance NOT PASSED. Freeze only after proof and original HHA application; then separately owner approve Lean, then publication and any Palomar/arXiv/HHA submission. S091 complete; S092 FUTURE UNEXECUTED, no maths executed in this amendment.

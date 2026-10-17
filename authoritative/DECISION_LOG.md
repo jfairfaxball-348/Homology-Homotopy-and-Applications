@@ -510,3 +510,7 @@ Following merged S090 PR #102, owner **explicitly selected Option A** and asked 
 
 ## S091 executed 17 October 2026
 Owner A completed; two 3-stage architectures A1/T213 exact HI=IHC 3/2, A2/T214 whole-roof HI=IHC 0. No strict Top proof/G2 novelty. Recommend owner option C new original HHA target, B exact Xu comparison, A only new coupled invariant. S092 FUTURE OWNER_CHOICE_PENDING; no decision silently made, no Lean/release authority.
+
+
+## OWNER S092 ROUTE CHOICE C — 17 October 2026, GOVERNANCE-ONLY PROSPECTIVE AMENDMENT
+Owner message: "Choose Option C for S092. Update the authoritative repository prompt through a governance-only PR and ordinary merge; do not execute S092 yet." This resolves the S091 A/B/C gate prospectively without rewriting immutable historical S091 CLOSEOUT. The old strict ordinary unpointed Top^R HI>IHC first-paper requirement is retired as IMMINENT paper target ONLY, not disproved (Xu spheres remain OPEN). New S092 full actionable proof-or-kill: finite equivariant CW-pair/deck-action derived ghost with quantitative homology-forgetful information loss and substantial HHA application; independently hostile topological realisation and first novelty gate. S088 infinite unbounded cyclic cover cap chain-action is NOT a finite CW filtration, and cannot be made bounded/perfect unchanged. S091 stays last completed; S092 FUTURE UNEXECUTED until a fresh separate owner run. Neither new theorem nor G2 passed; no Lean/Palomar/manuscript/arXiv/HHA/external action.

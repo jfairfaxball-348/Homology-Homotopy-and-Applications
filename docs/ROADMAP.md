@@ -88,3 +88,7 @@ Keep S090 completed. S091 now directly targets original higher-coherence two-lan
 
 ## S091 17 October 2026 checkpoint
 Owner A new ordinary unpointed Top^R strict witness attempt failed in two distinct finite-CW 3-active-stage forms, T213 exact HI=IHC=3/2, T214 exact HI=IHC=0 via entire WE roof. G1 OPEN/G2 NOT PASSED. No Lean/Palomar/manuscript/arXiv/HHA. S092 FUTURE OWNER_CHOICE_PENDING A new coupled Top, B Xu exact bridge, C different original HHA first-paper theorem (recommended; not enacted without owner).
+
+
+## Owner S092 C — prospective new HHA first-paper roadmap (17 Oct 2026)
+Explicitly retarget IMMINENT paper away from unproved strict ordinary unpointed Top HI>IHC (remains OPEN longer-term) to new finite-equivariant CW-pair geometric ghost detection and quantitative loss of action under ordinary persistent homology. S092 future must: verify S087–S088 chain-action/perfect obstruction and construct TWO finite actual equivariant CW candidates; prove/kill full-real derived quantitative gap and geometric significance; if both fail prove sharp finite-dimensional realisation no-go or novel finite-skeletal/stable-equivariant application; independently clear HHA G2 at theorem/proof level. No S088 infinite chain model or simple 1/2-vs-1 reproduction counts as original. G1 new theorem NOT STARTED/G2 NOT PASSED, then only with proof/G2 seek separately approved Lean, publication and releases. S091 complete S092 FUTURE.

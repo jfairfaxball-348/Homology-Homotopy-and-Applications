@@ -314,3 +314,7 @@ S090 G1 strict Top OPEN and HHA G2 NOT PASSED unchanged. Owner expressly selecte
 
 ### S091 actual 17 Oct 2026
 G1 strict ordinary unpointed Top^R **OPEN** despite internal T213/T214 equal-distance three-stage finite-CW controls. G2 HHA originality/significance **NOT PASSED**; G3 Lean NOT STARTED, downstream Palomar/paper/submission gates closed. S092 FUTURE OWNER_CHOICE_PENDING A/B/C; no implicit target switch.
+
+
+### S092 owner Option C, 17 October 2026 (GOVERNANCE ONLY, NO PROOF)
+First HHA paper prospectively retargeted away from old strict ordinary Top^R HI>IHC to a NEW finite-equivariant-geometric ghost/stability theorem, proof-or-kill. Old strict Top and Xu five-sphere open questions retained. S088 chosen infinite-cover cap chain-action does NOT supply finite CW maps or perfect chain data. New mathematical G1 NOT PROVED; independent originality/significance G2 NOT PASSED; Lean G3 NOT STARTED and publication/Palomar gates unchanged. S091 LAST COMPLETED; S092 FUTURE UNEXECUTED. No S091 historical CLOSEOUT rewrite.

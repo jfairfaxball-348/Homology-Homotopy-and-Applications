@@ -238,3 +238,7 @@ For the next SESSION ONLY, search for a genuine NEW multi-transition (at least 2
 
 ### S091 status and S092 prospective choice
 Multistage finite CW ordinary Top proofs T213/T214 are internally exact **equal** HI/IHC controls. No G1 strict witness or independent HHA novelty. Seek owner decision A new coupled relative obstruction, B Xu all-choice, C new original HHA-significant paper theorem (recommended). Existing first Top target unchanged pending owner consent.
+
+
+### Owner S092 C — prospective first HHA candidate selection
+New priority, not mathematical result: finite Q-equivariant CW-pair continuous-map persistence displaying nontrivial derived k[Q] chain ghost invisible to ordinary mod2 homology, quantitative real-distance and robust homotopy/geometric application. Start at S088 C4/C2 cover but do NOT copy its unbounded P_m or call chosen cap chain-action a genuine continuous CW map. Test finite skeletal relative pairs and independent finite equivariant attaching/cofiber architecture, then sharply scoped no-go/stability/stable homotopy alternative in same session if necessary. Old strict ordinary unpointed Top & Xu remain OPEN long term. G1 new theorem UNPROVED, G2 HHA NOT PASSED; no downstream authority. S091 completed, S092 future.

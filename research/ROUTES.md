@@ -339,3 +339,7 @@ Current future route: **A**, new genuinely multistage (prefer 3–7 stages) fini
 
 ### S091 actual Option A kill, 17 Oct 2026
 A1 multistage CP² versus S²∨S⁴ plus S⁵: full homology modules agree but HI=IHC=3/2 by cup-square lower and strict constant upper. A2 S³->S²->CP² Hopf-map variant: common homotopy first track lifts to entire natural mapping-cylinder WE roof, HI=IHC=0. Both finite-CW inputs with two genuine non-WE transitions in both lanes. Strict Top G1 remains OPEN, S089 five-sphere unresolved; S092 route owner A/B/C, recommend C.
+
+
+### S092 prospectively selected C — new geometric equivariant persistence proof route
+Owner explicitly chose Option C; first-paper Top strict HI>IHC requirement retired without disproving the open mathematical conjecture. New proof-or-kill: finite C2-equivariant CW pair diagram and genuine Q-equivariant cellular maps whose derived kQ cellular-chain ghost quantifiably survives but graded ordinary homology forgets, with genuine homotopy meaning and originality. S087–S088 original RP^infinity->L^infinity(4) cap CHAIN-ACTION is infinite/nonperfect and is NOT a realised diagram of finite spaces; preserving P_m by finite truncation is impossible. Two finite architectures + hostile nullhomotopy/perfect/realisation checks, fallback sharp finite no-go or finite-skeletal/stable equivariant result. G2 proof-level novelty and HHA relevance independent. S091 last, S092 FUTURE, no execution.
