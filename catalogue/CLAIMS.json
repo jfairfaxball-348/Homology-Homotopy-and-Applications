@@ -4760,6 +4760,99 @@
         "SRC-0238"
       ],
       "scope": "REFUTED for specified comparator: integral H2 differs and k=Sq1(xy); no all-real metric proof, no novelty gate."
+    },
+    {
+      "id": "CLM-0485",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S099 T238 cubic cup kernel detects each unmarked GL2 Postnikov k orbit on finite 4-skeleta.",
+      "sources": [
+        "SRC-0235"
+      ],
+      "scope": "Classical Serre, no novelty."
+    },
+    {
+      "id": "CLM-0486",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S099 T239 integral H2 groups zero=(C2)^2, mixed=C4, other nonzero=C2.",
+      "sources": [
+        "SRC-0239"
+      ],
+      "scope": "Classical Serre/UCT internal."
+    },
+    {
+      "id": "CLM-0487",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S099 T240 restriction to three cyclic groups kernel {0,mixed}, no genuine finite cover interleaving.",
+      "sources": [
+        "SRC-0235"
+      ],
+      "scope": "Classical subgroup restriction."
+    },
+    {
+      "id": "CLM-0488",
+      "status": "COMPUTED_EXACT",
+      "claim": "S099 T241 16 cubic masks, six GL2 maps, 120 unordered pair arithmetic checks pass.",
+      "sources": [],
+      "scope": "Arithmetic only, stdout hash in S099 MATHEMATICS."
+    },
+    {
+      "id": "CLM-0489",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S099 four other nonzero k orbits yield same cup persistence and original non-clock Top comparison.",
+      "sources": [
+        "SRC-0238"
+      ],
+      "scope": "REFUTED by S099 T238, no HHA G2."
+    },
+    {
+      "id": "CLM-0490",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S100 T242 exact 0->ker delta_C->coker lambda_K->free Q->0 implies rank K11>=rank D_K+rank ker delta_C for every strict admissible 3D three-cover.",
+      "sources": [
+        "SRC-0244"
+      ],
+      "scope": "Elementary integral MV+top cellular inclusion, internal and not original HHA."
+    },
+    {
+      "id": "CLM-0491",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S100 T243 natural nonzero M example satisfies enumerated S006 T17 and delta_A primitive but cannot have 3D three-cover; explicit 4D fold-cylinder cone cover gives minimum dimension 4.",
+      "sources": [
+        "SRC-0245"
+      ],
+      "scope": "Detailed internal CW proof; no external formal cell incidence checker or originality."
+    },
+    {
+      "id": "CLM-0492",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S100 T244 nonzero side/top M with index2 upper B/K lattice violates T17 torsion, excluded in dimension3.",
+      "sources": [],
+      "scope": "Explicit finite integer matrices, not a new general theorem."
+    },
+    {
+      "id": "CLM-0493",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S100 T245 compensated K top index2 with E=Z/2 is admissible finite 3D by existing S005 T13 graph-B construction.",
+      "sources": [],
+      "scope": "Dependent on inherited S005 geometric sufficiency proof, not independently reformalised."
+    },
+    {
+      "id": "CLM-0494",
+      "status": "COMPUTED_EXACT",
+      "claim": "S100 T246 exact Smith form and naturality checks passed for three preregistered nonzero-M integer diagrams.",
+      "sources": [],
+      "scope": "Local SymPy1.14.0 arithmetic stdout/script hashes in S100; no topological certification."
+    },
+    {
+      "id": "CLM-0495",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S100 elementary rank/MV correction and dimension-four fold-cylinder example by itself constitute an independently original HHA-worthy theorem.",
+      "sources": [
+        "SRC-0244",
+        "SRC-0245",
+        "SRC-0246"
+      ],
+      "scope": "Novelty not established; G2 NOT PASSED, substantive HHA application missing."
     }
   ]
 }

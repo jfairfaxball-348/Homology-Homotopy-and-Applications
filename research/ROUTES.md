@@ -367,3 +367,7 @@ For G=C2², A=F2 trivial action, mixed k=xy(x+y) fixed under all GL2, globally n
 
 ### S099 finite unmarked cubic Postnikov route — RETIRED by universal cup relation
 T238 proves on genuine finite Postnikov 4-skeleta that the degree-three cup kernel is precisely the k-invariant line, preserved under all unmarked GL2 equivalences: six cubic orbits all cohomology-ring-distinct, including four nonmixed nonzero orbits with identical H2=C2. T239 integral H2 classifies (C2)^2/C4/C2; T240 cyclic-local mixed kernel is classical not natural finite-cover descent. NO primary-blind same-cup orbit collision, coupled non-clock persistence or HHA publication theorem. S100 FUTURE considers S006 T16/T17 nonzero-transgression nonprimitive integral CW gluing as a different hard arithmetic/topological target, under fresh independent source-level novelty veto.
+
+
+## S100 — 17 October 2026
+T242 extracted S006 MV rank requirement; T243 finite 4D sharp total gluing no-go of old T17 necessity sufficiency, T245 unexpected allowed index-two K defect matched by C00 Z/2 through existing graph-B construction. Retain all-M non-graph-B CW three-cover as OPEN but novelty-poor until an invariant beyond full MV. S101 seeks genuine cover-sensitive geometry and nontrivial HHA application; fallback coupled two-transition homotopy descent, not simple clock.

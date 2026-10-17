@@ -1,0 +1,7 @@
+# S100 PLAN — preregistered finite exact challenge and exit gates
+
+1. Prove a full new rank consequence of S006 T17 from the two exact Mayer–Vietoris sequences and primitive H3 inclusion. Explicitly distinguish necessary integral exact-sequence conditions from a three-cover sufficiency criterion.
+2. Search smallest algebraic counterexample to proposed (T17+split delta_A) sufficiency with nonzero natural M; give all groups, maps, kernels/cokernels, primitive tests and no-go proof; attempt an actual finite 4D construction to certify a sharp dimension jump.
+3. Test an independently specified index-two B with M nonzero at 10,01,11, and an independent balanced-torsion example satisfying the original graph-B sufficiency theorem even though K's top latching is nonprimitive. Refuse a false general "K must be primitive" criterion.
+4. Fixed **three** authored integer diagrams; local SymPy 1.14.0 exact Smith normal form, integer multiplication, ranks; script scripts/s100_integral_diamond_check.py with output validation/s100_integral_diamond_stdout.txt. This finite check is not a search over all matrices, topological certificate or novelty proof. Any code/output hash is limited to actually tested bytes.
+5. Cross-check relevant original/public published 2023–2026 persistent Mayer–Vietoris/cover and homotopy theories and HHA metadata; if classical, close G2 FAIL and self-select a genuinely cover-sensitive topological problem for S101. Exactly one S100 session and the mandatory S101 FUTURE handoff.

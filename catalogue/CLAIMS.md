@@ -692,3 +692,11 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - **CLM-0487** [PROGRAMME_PROVED] T240 three cyclic subgroup restrictions have kernel {0,x²y+xy²}; split restricted 2-types do NOT imply finite CW covering-system interleavings; no new non-clock metric.
 - **CLM-0488** [COMPUTED_EXACT] T241 local standard-library Python enumerated all 16 cubics, six GL2 matrices and 120 unordered pairs. PASS; SHA256 source ed2baa82d57b5856ef8503e310dac38073cd394665f2da99d2fb829377f49a45 and stdout c2152cd15fec2ab24b56d31500bb30f6155113fa77ee32ff93f060964d5b8d16; *finite arithmetic only*, not topology.
 - **CLM-0489** [INHERITED_UNVERIFIED] S099's proposed nonconjugate 2-type orbits can be indistinguishable in integral homology AND ordinary cup/primary operations for an HHA-novel non-clock finite Top^R distance theorem. REFUTED for ordinary cup (T238), no distance theorem; G2 NOT PASSED.
+
+## S100 claims — 2026-10-17
+- **CLM-0490** [PROGRAMME_PROVED] T242 necessary full free-rank addition to S006 T17: coker lambda_K = E plus free abstractly, rank K11 >= rank D_K+rank E. Classical MV, NOT new HHA publication.
+- **CLM-0491** [PROGRAMME_PROVED] T243 explicit nonzero-M A all Z/B fold squares: all old T17 and delta_A pass, 3D impossible, 4D strict cover constructed; exact minimum dimension4.
+- **CLM-0492** [PROGRAMME_PROVED] T244 side/top nonzero M with index2 kernel latching torsion unmatched by E=0; original T17 already excludes.
+- **CLM-0493** [PROGRAMME_PROVED] T245 nonprimitive K index2 balanced by E=Z/2 genuinely realised in dimension3 via inherited S005 graph-B construction; NO false universal primitive K requirement.
+- **CLM-0494** [COMPUTED_EXACT] T246 three fixed exact matrix checks pass using SymPy1.14.0; script/stdout hashes documented in S100, NOT topology.
+- **CLM-0495** [INHERITED_UNVERIFIED] S100 results independently HHA-original and application-level: NOT ESTABLISHED, G2 NOT PASSED.

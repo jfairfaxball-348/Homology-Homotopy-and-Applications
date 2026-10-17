@@ -198,3 +198,7 @@ Pre-registered finite set Z/12; all 12x12 pairs (k,j) with transition k→k+2j m
 
 ### CAM-0098 — complete 16 cubic masks × 6 GL2(F2) arithmetic (17 October 2026)
 Pre-registered all 2^4 masks and six invertible F2 2×2 matrices; 96 substitutions plus three subgroup restrictions for 16 classes. Local Python checker at scripts/s098_mixed_postnikov_check.py, stdout sessions/S098/CHECK_OUTPUT.txt; script run locally and observed six orbits of sizes 1,3,6,1,3,2, mixed mask6 fixed, joint cyclic-vanishing kernel {0,6}; locally observed output hash a2e93140188339843f1e847c52e25c37dd01c2011d639d75f7175f0f8dce6935. Code/enumeration verifies polynomial arithmetic ONLY: no machine proof of Serre, Postnikov model, topology or HHA originality. G2 NOT PASSED.
+
+
+## S100 — 17 October 2026
+S100 complete INTERNAL: T242–T246 strict nonzero M three-cover free rank and torsion sharp examples, no G2 HHA proof; S101 FUTURE non-graph B cover-specific obstruction/realisation; original unpointed strict Top HI>IHC remains OPEN archival.

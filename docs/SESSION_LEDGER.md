@@ -281,3 +281,7 @@ Entry LIVE main 1a6e7b7735fd34ac4e443153f36317b04e56c3d9 tree 40f9cf7016ade1f92e
 
 ## S099 — 17 October 2026
 T238 exact cubic cup-kernel reconstruction for all 16 C2² Postnikov k classes in actual finite 4-CW skeleta: 6 unmarked GL2 orbits ALL distinguishable already by ordinary mod2 degree-three cup, including 4 requested nonmixed nonzero orbits. T239 integral H2=(C2)^2/ C4/ C2 for zero/mixed/other nonzero; T240 cyclic-local kernel {0,mixed} standard, NOT finite cover-descent/persistence theorem; T241 16×6×120 finite checker arithmetic PASS. Orbit-collision HHA route KILLED, G2 NOT PASSED, no Lean/publication. S100 FUTURE self-steered return to genuine integral multi-parameter three-cover nonzero-transgression geometry.
+
+
+## S100 — 17 October 2026
+T242 exact free quotient of coker lambda_K and rank bound; T243 old necessary conditions pass while H3(F)=Z cannot enter K11=0, explicit four-dimensional construction sharp; T244 nonzero side/top M index-two B torsion fails; T245 nonprimitive K index2 with E=Z/2 and graph B gives honest S005 3D cover; T246 three fixed exact SNF check PASS. No HHA G2, S101 FUTURE.

@@ -2152,6 +2152,69 @@
       "access": "METADATA_ONLY",
       "limitation": "PDF source text/proof not directly inspected",
       "observed": "Standard textbook reference for spectral sequence provenance, not independent verification of S098 H2 extension."
+    },
+    {
+      "id": "SRC-0240",
+      "title": "Halder, Sau, Sen, Equivariant Homotopy Interleaving and Persistent Whitehead Theorem",
+      "url": "https://arxiv.org/abs/2609.23440",
+      "origin": "S099 original arXiv abstract; v2 2026-10-13",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full mathematical proof not audited; 2026 equivariant homotopy interleaving/Whitehead/nerve.",
+      "observed": "Full mathematical proof not audited; 2026 equivariant homotopy interleaving/Whitehead/nerve."
+    },
+    {
+      "id": "SRC-0241",
+      "title": "Ahuja and Iyer, Persistent Simple-homotopy invariants via discrete Morse theory",
+      "url": "https://arxiv.org/abs/2604.10192",
+      "origin": "S099 original indexed 2026 abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full filtered torsion proof not inspected.",
+      "observed": "Full filtered torsion proof not inspected."
+    },
+    {
+      "id": "SRC-0242",
+      "title": "Miller, Filtered Topology and Persistence in Stable Homotopy",
+      "url": "https://arxiv.org/abs/2505.02772",
+      "origin": "S099 original indexed 2025 abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full text not independently inspected.",
+      "observed": "Full text not independently inspected."
+    },
+    {
+      "id": "SRC-0243",
+      "title": "Lanari and Scoccola, Rectification of interleavings and a persistent Whitehead theorem",
+      "url": "https://arxiv.org/abs/2010.05378",
+      "origin": "S099 selected original excerpt inherited",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Full proof not audited S099.",
+      "observed": "Full proof not audited S099."
+    },
+    {
+      "id": "SRC-0244",
+      "title": "Torras-Casas, Distributing Persistent Homology via Spectral Sequences",
+      "url": "https://doi.org/10.1007/s00454-023-00549-2",
+      "origin": "S100 indexed original 2023 Springer abstract/Section5 passage",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Publisher direct open failed; no full paper proof audit.",
+      "observed": "Publisher direct open failed; no full paper proof audit."
+    },
+    {
+      "id": "SRC-0245",
+      "title": "Torras-Casas and Pennig, Interleaving Mayer-Vietoris spectral sequences",
+      "url": "https://doi.org/10.2140/agt.2024.24.4265",
+      "origin": "S100 author-university original repository page 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original 2024 AGT full proof not inspected; covers, blowups, stability.",
+      "observed": "Original 2024 AGT full proof not inspected; covers, blowups, stability."
+    },
+    {
+      "id": "SRC-0246",
+      "title": "Lanari and Scoccola, Rectification of interleavings and a persistent Whitehead theorem, AGT 2023",
+      "url": "https://doi.org/10.2140/agt.2023.23.803",
+      "origin": "S100 public article-linked bibliography and abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full proof not inspected newly in S100.",
+      "observed": "Full proof not inspected newly in S100."
     }
   ]
 }

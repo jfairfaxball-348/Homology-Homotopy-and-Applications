@@ -1,0 +1,4 @@
+PASS: rank obstruction: lower A primitive; all T17 tests pass; E=Z, K11=0; NO 3D realisation
+PASS: index-two B: nonzero side/top M; K latching cokernel Z+Z/2; E=0; T17 torsion FAIL
+PASS: torsion compensation: Tor(cok lambda_K)=Z/2=E; B graph-admissible; S005-T13 constructs finite 3D cover
+Scope: 3 fixed matrix examples; exact SymPy SNF; no exhaustive search, geometric proof, or novelty certification

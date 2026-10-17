@@ -375,3 +375,7 @@ Kerodon original Postnikov §3.5.8 STATEMENT_INSPECTED; arxiv 2512.14084v2 twist
 
 ## S099 independent source refresh — 17 October 2026
 Original arXiv author abstracts inspected: Ginot–Leray arXiv1905.12307 cup/Steenrod/A∞ distances; Halder–Sau–Sen arXiv2609.23440v2 (13 Oct 2026) equivariant G-HI and persistent Whitehead/nerve; Ahuja–Iyer arXiv2604.10192 2026 persistent simple homotopy/torsion; Miller arXiv2505.02772 stable filtered topology; Kuribayashi et al arXiv2604.06800 relative Sullivan/Postnikov distance. Springer DOI10.1007/s41468-023-00138-5 stable cup module and DOI10.1007/s41468-026-00252-0 Ch_K equality selected statements inspected; original Lanari–Scoccola arXiv2010.05378 selected theorem excerpt. No full original-proof independent novelty census or HHA 2024–26 exhaustive index. S099 universal low-degree cubic cup kernel is elementary Serre transgression, thus no G2 originality despite exhaustive finite algebra. Do not use subgroup restriction failures as novel filtered cover gluing.
+
+
+## S100 — 17 October 2026
+Direct author/university original abstract for Torras-Casas/Pennig AGT2024 https://orca.cardiff.ac.uk/id/eprint/159883/; indexed Springer DCG2023 §5 persistent MV text, publisher direct redirect inaccessible; AGT2023 Lanari–Scoccola article abstract/bibliography; Halder–Sau–Sen 13Oct2026 arXiv v2 abstract; Ahuja–Iyer 2026 abstract; selected HHA2025 metadata. No proof-level comprehensive HHA2024–26 or citation audit, no originality guarantee. S100 classical MV 3D rank constraint/4D fold-cylinder not G2-worthy.
