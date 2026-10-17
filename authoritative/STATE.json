@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-17",
-  "last_completed_session": "S097",
-  "recommended_next_session": "S098",
+  "last_completed_session": "S098",
+  "recommended_next_session": "S099",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S097 INTERNAL T231 independent attachments no-go; T232 eta² first cell/degree-2 second lift torsor Z/12; T233 coaction shears collapse to at most TWO unmarked orbits. No non-clock Top distance, G2 HHA NOT PASSED.",
-  "selected_mathematical_problem": "S098 finite CW realisation of mixed C2xC2 Postnikov k=x²y+xy² with quantitative all-real ordinary unpointed Top persistence, proof-or-kill",
-  "headline_status": "S097_COUPLED_LIFT_TORSOR_AND_UNMARKED_SHEAR_KILL__G2_NOT_PASSED__S098_FUTURE",
-  "active_campaign": "S098 FUTURE self-steered mixed Postnikov 2-type finite CW quantitative Top^R application; mandatory early automorphism and novelty falsification",
-  "claim_of_new_theorem": "S097 standard stem/coaction T231–T233 INTERNAL, NO independent HHA-original theorem; suspected Sq4 parity collision unresolved; same-category Top HI>IHC OPEN.",
+  "headline": "S098 INTERNAL T234–T237: finite CW 4-skeletons of G=C2² Postnikov 2-types, k=xy(x+y)=Sq1(xy), all C2 restrictions zero; integral H2 (C2)^2 vs C4 kills proposed same-homology comparison. No non-clock Top metric; G2 NOT PASSED.",
+  "selected_mathematical_problem": "S099 finite unmarked nonconjugate Postnikov 2-type orbit collisions surviving integral homology and primary operations; coupled two-transition all-real unpointed Top persistence application proof-or-kill",
+  "headline_status": "S098_MIXED_POSTNIKOV_FINITE_FOUR_SKELETON_PRIMARY_BOCKSTEIN_INTEGRAL_H2_NO_GO__G2_NOT_PASSED__S099_FUTURE",
+  "active_campaign": "S099 FUTURE UNEXECUTED self-steered finite orbit collision and genuine persistence transport, early no-go if standard invariants detect",
+  "claim_of_new_theorem": "S098 internal standard spectral-sequence/UCT no-go only, no HHA-original theorem, no Top HI>IHC; G2 not passed.",
   "stages": [
     {
       "id": 0,
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__S097_MARKED_Z12_TORSOR_SHEAR_NO_GO__NO_HHA_FLAGSHIP"
+      "status": "IN_PROGRESS__S098_PRIMARY_H2_DETECTS_POSTNIKOV_NO_HHA_FLAGSHIP"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "G2_NOT_PASSED__S097_CLASSICAL_STABLE_ATTACHING_COACTION_AND_PERSISTENCE_COLLISION"
+      "status": "G2_NOT_PASSED__S098_CLASSICAL_SERRE_BOCKSTEIN_UCT_AND_PRIOR_PERSISTENCE_OPERATIONS"
     },
     {
       "id": 3,
@@ -930,7 +930,16 @@
     "s093_entry_main": "e4b634b64ee20564ceab7123d90762607a100729",
     "s093_entry_tree": "d3600ce018ac96c1757f8f5ad4460b7a36822cac",
     "s097_entry_main": "48d87696bc63c692357b862f68571d7ef25bcefc",
-    "s097_entry_tree": "8587619060e58337499df3469de67eb22ec875a1"
+    "s097_entry_tree": "8587619060e58337499df3469de67eb22ec875a1",
+    "s098_entry_main": "1a6e7b7735fd34ac4e443153f36317b04e56c3d9",
+    "s098_entry_tree": "40f9cf7016ade1f92e7c10e53a01f76462148b5b",
+    "s097_outgoing_merge_sha": "1a6e7b7735fd34ac4e443153f36317b04e56c3d9",
+    "s097_pr": 114,
+    "s097_merge_parents": [
+      "48d87696bc63c692357b862f68571d7ef25bcefc",
+      "b689f78471f11f472d5287e3475f17904b940c9e"
+    ],
+    "s097_merge_tree": "40f9cf7016ade1f92e7c10e53a01f76462148b5b"
   },
   "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate. S020 inspected original Springer full HTML Monoidal Rips Prop6.7, SoCG DOI abstract/HTML page, MathOverflow exact 36-tetrahedra list and original 2000 simplicial Hopf map bibliographic metadata; priority remains unverified. S021 DIRECT original Madahar-Sarkaria author-hosted PDF §§2,3,5 inspected; Oudot-Waas SoCG2026 HTML Thm1, Blaser et al. 2026 §6.3 Prop6.7, Memoli-Stefanou-Zhou JACT2024 HTML introduction/Def and stability statements; mixed cofiber priority still OPEN. S022 directly read Cohn–Rajagopal 2026 §2 five-dimensional kissing number 40–44 bounds (independent T50 uses its own positive polynomial); Cambridge original Munson–Volić 2015 cubical homotopy pushouts chapter metadata and indexed original PDF §3.8.8 total cofiber excerpt (PDF not directly retrievable); original Sarkaria paper source §§2,3,5 and original JACT/SoCG remain priority adversaries. No complete mixed-persistence priority proof audit. S024 revisited Cambridge 2015 §§3.8/3.9 ORIGINAL indexed author PDF snippets but 45MB direct PDF fetch was too large and alternate URL disabled; no full proof read. Revisited original JACT2026 Monoidal Rips full HTML and SoCG2026 original abstract; no new HHA priority pass. S026 original BL2017 Example8.5 inspected, Lanari-Scoccola AGT2023 full publisher PDF unavailable, MSZ2024 original theorem2 inspected, original Munson-Volic2015 complete PDF not retrieved. No source-cleared novelty. S027 original BL2017 §3 pp11, §7 pp21-23, §8 pp25-26 visually inspected; MSZ2024 original HTML Theorem1/2 and proof passages; LS2023 official abstract/metadata only, Munson-Volic full original PDF inaccessible; Oudot-Waas2026 abstract, Blaser2026 original HTML only. Full novelty proof audit missing. S028: full original LS arXivv3 downloaded and selected §3.3 Proposition3.14/Lemma3.15 and §5 theorem/proof inspected, journal-final PDF still inaccessible. Full original Munson–Volic45MB PDF retrieved, selected chapter3§3.8/3.9 proofs and visual pages168/171 read, correct cofiber Definition3.8.1. MSZ2024 original Theorem2/Lemma3.5 proofs read; Musin–Shamazov2025 original §§2–3 algorithm inspected. Exact certificate priority not claimed; categorical flagship retired. S030 direct original LLO arXiv HTML Definition3/Theorem4 and original FoCM2025 Thm4.11/Prop4.5/4.17 HTML proof directly inspected. Keagy2026 original arXiv ABSTRACT only, full PDF/HTML blocked; Höppner–Lenzing1981 publisher ABSTRACT only, pdf access denied; no proof-level priority clearance. S032: original Keagy2026 full proof text arxiv2602.13560v1 read for A_n/total order/zigzags; original Höppner–Lenzing1981 JPAA pp7–12 full proof remains inaccessible; no originality clearance. S033: Møller–Scherer original MPI Bonn PDF theorem2.2 proof and example2.4 visually inspected p3; original LLO v4 statement and Keagy v1 proof HTML accessible; Munson–Volić original 2015 and LS original 2023 selected proof inspections inherited from S028, not independently re-downloaded. 1981 Höppner–Lenzing JPAA full proof still uninspected; similarly titled 1981 Springer proceedings is distinct. No priority guarantee. S035: LS original arXivv3 PDF proof selected §§2.2.2,3.2 visually inspected, original publisher final Remark3.13 indexed; 2026 Springer original full article HTML §1/2/3 statements inspected; 2026 relative Sullivan arxiv HTML source selected sections; 2002 Toda track abstract only; LS v1 anticipation from indexed mirror. No exhaustive citation/priority audit. S040: DKS1989 original printed-paper text selected §§4.1–4.9, §5 open via ResearchGate original transcription; publisher direct 403; not complete proof chain. 2002 Toda and 2011 Baues–Blanc original publisher abstracts. No novelty gate. S042 original Wang–Xu arxiv1601.02184v4 Cor1.10 short proof directly read; Blanc–Johnson–Turner2019 Intro/§7.A selected original excerpts, NOT full proof; HKM2002 abstract only. S043 direct original IWX2023 137pp PDF selected tables pp114,212,228 (pi61=0; theta5; h5 n indeterminacy); BJT2018 arxiv PDF selected §7.A/Remark7.5; LS original 2022v3 HTML §3.2 Prop3.10 proof/Prop3.12/Remark3.13. DKS1989 full and HKM2002 proof not accessed. No priority pass. S044 SOURCE-STATED original IWX2023 Tables4/10 h5 f1/n f5 and h5² f2/h5n f>=6 bracket indeterminacy. Derived filtered-group exclusion internally, Adams proof/classical transport not independently redone. DKS1989/HKM2002/1981 originals not fully inspected. S072 original BBG2016 selected Example2.17 Fig2.19 p9-10, Theorem4.21 full proof p17-19 and Def4.27-4.32 p20 inspected; LS2023 Lemma3.4 p10-11 and Prop3.7/3.10 pp12-14 proof inspected; BJT2019 §7 selected; Kochman printed pp14-16 and Xu §5 p1620-21 inspected. Full DKS1989/HKM2002/Xu reference historical proofs inaccessible; explicit BBG/Kochman/Xu all-choice equality not proved. Current 2026 HHA cited-by audit incomplete.",
   "lean": {
@@ -1804,5 +1813,24 @@
     "t233": "Coaction shears identify beta_k with beta_(k+2j) via intermediate WE and full-diagram zigzags; <=2 unmarked orbits, no proven parity distinction",
     "arithmetic_sha256": "a75bef9333009c51354fdd26cc6d8b02dbe11b3e9c82a21f27631e7aae2f631d",
     "gates": "G1 HHA flagship OPEN, G2 NOT PASSED, no Lean/paper, S098 FUTURE"
+  },
+  "s098_checkpoint": {
+    "date": "2026-10-17",
+    "entry_main": "1a6e7b7735fd34ac4e443153f36317b04e56c3d9",
+    "entry_tree": "40f9cf7016ade1f92e7c10e53a01f76462148b5b",
+    "previous_pr": 114,
+    "theorems": [
+      "T234_MIXED_K_CYCLIC_RESTRICTIONS_GL2_FIXED_PRIMARY_SQ1",
+      "T235_FINITE_FOUR_SKELETON_POSTNIKOV",
+      "T236_INTEGRAL_H2_C2xC2_VS_C4",
+      "T237_CYCLIC_LOCAL_SPLIT_GLOBAL_PRIMARY_DETECTION"
+    ],
+    "polynomial_check": "16 cubics × 6 GL2 transforms, six orbits, subgroup restriction kernel masks 0 and 6",
+    "stdout_sha256": "a2e93140188339843f1e847c52e25c37dd01c2011d639d75f7175f0f8dce6935",
+    "g1": "OPEN_NO_NONCLOCK_TOP_METRIC",
+    "g2": "NOT_PASSED",
+    "next": "S099_FUTURE_UNEXECUTED",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED"
   }
 }

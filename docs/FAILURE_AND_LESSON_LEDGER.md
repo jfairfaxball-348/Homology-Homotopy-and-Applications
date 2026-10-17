@@ -537,3 +537,6 @@ CP² Hopf and stable η² give sharp real Top interleaving formulas but the free
 
 ## S097 — marked lift torsor is NOT an unmarked persistence invariant
 First two nonzero attachments to old K form ordinary relative pushout (T231), not genuine higher coupling. Genuine degree-two lift beta into eta²-cofiber does have Z/12 indeterminacy (T232), but coaction self-WEs of C send beta_k to beta_(k+2j), identify whole real filtrations objectwise, and leave at most two unmarked classes (T233). Even the residual distinction may be a PRIMARY Sq4 phenomenon. No complete Steenrod equality, mixed-stage non-clock HI obstruction or HHA original theorem. STOP eta² torsor clock family, pursue different mixed Postnikov k-invariant route in S098; stop if classic 2026 relative Sullivan theory subsumes it.
+
+## S098 — cyclic-locally invisible is not globally homology-invisible
+The genuine mixed 2-type k=xy(x+y) vanishes on three cyclic restrictions but equals primary Sq1(xy). Integral H2 of finite 4-skeleta differs as (C2)^2 versus C4. Integral Serre d3=0 does NOT force split H2 extension: UCT detects non-split C4. Check integral UCT/Steenrod operations before building temporal clocks. Never promote finite truncation to a finite full 2-type or group cohomology to original HHA persistence.

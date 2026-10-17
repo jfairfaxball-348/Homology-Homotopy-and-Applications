@@ -2107,6 +2107,51 @@
       "access": "SECONDARY_ONLY",
       "limitation": "Independent research paper proof not inspected",
       "observed": "Classical full-group relation eta^3=12nu referenced."
+    },
+    {
+      "id": "SRC-0235",
+      "title": "Kerodon §3.5.8, The Postnikov Tower of a Kan Complex",
+      "url": "https://kerodon.net/tag/055K",
+      "origin": "S098 2026-10-17 original online Postnikov statements",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Tower/K(A,n) fiber claims, not an inspection of concrete k Serre/UCT proof",
+      "observed": "Canonical Postnikov tower and Eilenberg–Mac Lane fibers classical."
+    },
+    {
+      "id": "SRC-0236",
+      "title": "Twisting functions in twisted cartesian products and twisted tensor products (2026 update)",
+      "url": "https://arxiv.org/html/2512.14084v2",
+      "origin": "S098 original updated arxiv HTML summary 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Detailed proof not inspected; classical simplicial twisting input",
+      "observed": "Twisted simplicial product structures precede S098."
+    },
+    {
+      "id": "SRC-0237",
+      "title": "Kuribayashi et al., A distance between maps via interleavings of relative Sullivan algebras",
+      "url": "https://arxiv.org/abs/2604.06800",
+      "origin": "S098 2026-10-17 original rendered article intro/selected proposition and example statement",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "No full proof-level audit, rational/dg map distances are not ordinary integral Top equality",
+      "observed": "2026 relative Sullivan/Postnikov map persistence interleaving pseudodistances prior art."
+    },
+    {
+      "id": "SRC-0238",
+      "title": "Ginot and Leray, Multiplicative persistent distances",
+      "url": "https://arxiv.org/abs/1905.12307",
+      "origin": "S098 original arxiv abstract and author overview 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full A-infinity and Steenrod proofs not inspected anew",
+      "observed": "Persistent cup, Steenrod, A∞ distances precede current programme."
+    },
+    {
+      "id": "SRC-0239",
+      "title": "Hatcher, Algebraic Topology, chapter 5, Spectral Sequences",
+      "url": "https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf",
+      "origin": "S098 Cornell original author-hosted PDF discovered by indexed metadata 2026-10-17",
+      "access": "METADATA_ONLY",
+      "limitation": "PDF source text/proof not directly inspected",
+      "observed": "Standard textbook reference for spectral sequence provenance, not independent verification of S098 H2 extension."
     }
   ]
 }

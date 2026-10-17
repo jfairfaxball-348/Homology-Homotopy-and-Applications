@@ -677,3 +677,11 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - **CLM-0476** [PROGRAMME_PROVED] S097 T233: coaction self-WEs of C fixing bottom sphere transport beta_k to beta_(k+2j), extending to weak equivalences of all three-stage real CW persistence diagrams. At most two unmarked types; same-orbit Top HI/IHC zero. Scope: Shear orbit equality only (two arithmetic residue orbits). No proof parity classes distinct or dHI>dIHC.
 - **CLM-0477** [COMPUTED_EXACT] S097 independent checker exhaustively verifies action k -> k+2j mod12 has the two parity orbits and SHA256 a75bef9333009c51354fdd26cc6d8b02dbe11b3e9c82a21f27631e7aae2f631d. Scope: Exactly 144 residue transitions; arithmetic only, no stable homotopy or Top metric certification.
 - **CLM-0478** [INHERITED_UNVERIFIED] The two residual S097 shear orbits have same full primary Steenrod operations, are unmarked-Top-inequivalent, and produce HHA-original quantitative non-clock persistence-distance theorem. Scope: NOT PROVED; possible Sq4 detects parity, no independent HHA G2 originality audit, original Top HI>IHC OPEN.
+
+## S098 claims — 17 October 2026
+- **CLM-0479** [PROGRAMME_PROVED] T234 k=xy(x+y) nonzero global, zero on three C2 subgroups, fixed by GL2(F2), equals primary Sq1(xy). INTERNAL, no HHA novelty promotion.
+- **CLM-0480** [PROGRAMME_PROVED] T235 degreewise finite simplicial cochain Postnikov model has finite CW four-skeleton retaining pi1, pi2, k (not higher pi). INTERNAL, no HHA novelty promotion.
+- **CLM-0481** [PROGRAMME_PROVED] T236 integral H2: zero class (C2)^2 versus mixed class C4, by Serre transgression plus UCT. INTERNAL, no HHA novelty promotion.
+- **CLM-0482** [PROGRAMME_PROVED] T237 cyclic-restricted 2-types split, but global H2 and primary Sq1 detect mixed k; proposed invisible-homology comparator false. INTERNAL, no HHA novelty promotion.
+- **CLM-0483** [COMPUTED_EXACT] 16 homogeneous F2 cubics × 6 GL2 matrices yield six orbits, triple-cyclic restriction kernel masks {0,6}; stdout hash a2e93140188339843f1e847c52e25c37dd01c2011d639d75f7175f0f8dce6935. Finite polynomial arithmetic only. INTERNAL, no HHA novelty promotion.
+- **CLM-0484** [INHERITED_UNVERIFIED] HHA-worthy homology/primary-invisible quantitative strict persistence for zero-vs-mixed k REFUTED; no all-real Top metrics. INTERNAL, no HHA novelty promotion.
