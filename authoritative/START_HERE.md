@@ -171,3 +171,7 @@ Owner selected S091 Option **A**: force an explicitly constructed genuinely mult
 
 ## S091 actual 17 October 2026
 New multistage ordinary unpointed Top^R finite-CW two-lane internal controls T213 exact HI=IHC=3/2 with equal homology, T214 Hopf-track full-real common WE roof HI=IHC=0. No strict G1, no HHA G2. S092 FUTURE OWNER_CHOICE_PENDING, recommend C but target not yet switched. Next authoritative prompt governs; no automatic Lean or publication.
+
+
+## Owner Option C for S092 (17 October 2026; governance only)
+Following completed S091/PR #104, owner chose new first-HHA-paper route C. Prospective S092 targets a genuinely ORIGINAL finite equivariant CW-pair/deck-action derived ghost detection and quantitative persistent-homotopy application, with sharp geometric no-go/finite-skeletal/stable-equivariant fallback. S088's RP^infinity to L^infinity(4) chosen cap CHAIN-ACTION is an infinite nonperfect object NOT known to be continuous equivariant space-map persistence; do not claim finite realisation. Former ordinary unpointed Top^R strict HI>IHC and 2-local Xu spheres are OPEN long term, not disproved. No G1/G2 gate passes; no Lean/publication. S091 LAST COMPLETED; S092 FUTURE UNEXECUTED until a fresh separate owner run. Binding full NEXT_SESSION_PROMPT.

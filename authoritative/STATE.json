@@ -5,11 +5,11 @@
   "last_completed_session": "S091",
   "recommended_next_session": "S092",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S091 A completed: T213 dHI=dIHC=3/2, T214 mapping cylinder roof dHI=dIHC=0; NO strict ordinary Top witness, G1 OPEN, G2 HHA NOT PASSED, S092 OWNER_CHOICE_PENDING.",
-  "selected_mathematical_problem": "Owner must select S092 A genuinely coupled Top higher obstruction, B archived 2-local Xu/Kochman all-choice comparison, or C new proof-first HHA-worthy theorem (recommended, but NOT yet selected).",
-  "headline_status": "S091_COMPLETED__T213_T214_INTERNAL_EQUALITY__G1_TOP_OPEN__G2_NOT_PASSED__S092_OWNER_CHOICE_PENDING",
-  "active_campaign": "S091 FUTURE owner-approved Option A: constructive two-lane 3–7-stage finite CW relative higher-coherence proof-or-kill in ordinary unpointed Top^R; run on NEXT separate 'Run next session' only. Preserve S090 closeout historical, old Xu sphere OPEN/archived, G1/G2 OPEN.",
-  "claim_of_new_theorem": "S091 internal T213/T214 equal-distance multi-stage Top controls; NOT original HHA strict separation or formal certification.",
+  "headline": "S091 completed without strict ordinary unpointed Top^R gap. Owner selected prospective S092 Option C: new finite equivariant CW ghost-detection/stability HHA theorem proof-or-kill. S092 FUTURE UNEXECUTED; G1 new theorem unproved, G2 not passed; old Top strict remains OPEN long term.",
+  "selected_mathematical_problem": "S092 prospective OPTION C selected: prove or kill a finite Q-equivariant CW-pair geometric persistence diagram with genuine continuous maps, invisible ordinary homology yet detectable derived action ghost and quantified stability/information loss; try precise finite-geometric/finitary stable fallback and independent HHA novelty. Old Top strict HI>IHC OPEN but no longer immediate first-paper condition.",
+  "headline_status": "S091_COMPLETED__S092_OPTION_C_NEW_GEOMETRIC_EQUIVARIANT_HHA_PROOF_FUTURE_UNEXECUTED__G1_NEW_OPEN_G2_NOT_PASSED",
+  "active_campaign": "S092 FUTURE UNEXECUTED; owner-selected C genuine finite equivariant CW-pair ghost detection, quantitative stability, first-paper HHA significance; S088 unbounded P_m cap chain action is only inherited infinite-dimensional starting evidence, NOT finite-space realisation.",
+  "claim_of_new_theorem": "No new geometric or HHA-original theorem claimed by S092 governance-only choice; S088 infinite cyclic covering ghost remains INTERNAL; S091 T213/T214 equal-distance controls; new G1/G2 OPEN.",
   "stages": [
     {
       "id": 0,
@@ -1705,5 +1705,27 @@
     "next": "S092_OWNER_CHOICE_PENDING",
     "lean": "NOT_AUTHORIZED",
     "recommended_owner_option": "C"
+  },
+  "s092_owner_route_choice": {
+    "date": "2026-10-17",
+    "option": "C",
+    "owner_message": "Choose Option C for S092. Update the authoritative repository prompt through a governance-only PR and ordinary merge; do not execute S092 yet.",
+    "amendment": "GOVERNANCE_ONLY_S092_FUTURE_UNEXECUTED",
+    "last_completed_session": "S091",
+    "recommended_next_session": "S092",
+    "imminent_first_paper_target": "NEW_ORIGINAL_FINITE_EQUIVARIANT_CW_GHOST_DETECTION_AND_STABILITY_PROOF_OR_KILL",
+    "prior_top_strict_status": "OPEN_LONG_TERM_NOT_DISPROVED",
+    "first_novelty_gate": "NOT_PASSED",
+    "lean": "NOT_AUTHORIZED",
+    "publication": "NOT_AUTHORIZED"
+  },
+  "first_paper_target_override": {
+    "date": "2026-10-17",
+    "authority": "OWNER_OPTION_C",
+    "status": "PROSPECTIVE_RESEARCH_ONLY",
+    "previous": "strict ordinary unpointed Top^R HI>IHC first-paper requirement (OPEN long term)",
+    "now": "new finite geometric equivariant persistence ghost/stability theorem with original HHA application",
+    "proof": "NOT_ESTABLISHED",
+    "novelty": "NOT_PASSED"
   }
 }
