@@ -4853,6 +4853,52 @@
         "SRC-0246"
       ],
       "scope": "Novelty not established; G2 NOT PASSED, substantive HHA application missing."
+    },
+    {
+      "id": "CLM-0496",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S101 T247 one exact natural nonzero-M B fold is not graph-admissible but passes all S100 complete-space MV A,K,C rank/torsion obstructions.",
+      "sources": [],
+      "scope": "Elementary integer consistency, NOT admissible 3D cover existence."
+    },
+    {
+      "id": "CLM-0497",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S101 T248 a strict finite pure-H1 triple CW square realises the fold B with top CW dimension exactly2, impossible in dimension1.",
+      "sources": [],
+      "scope": "Only triple-intersection CW spaces, not any full labelled three-cover."
+    },
+    {
+      "id": "CLM-0498",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S101 T249 a separate strict 3D total CW square S2,D3+,D3-,S3 realises H2=C,H3=K and primitive full MV E-to-K11 isomorphism.",
+      "sources": [],
+      "scope": "Only full-X spaces separately; no prescribed A,B,M cover or spectral d2."
+    },
+    {
+      "id": "CLM-0499",
+      "status": "COMPUTED_EXACT",
+      "claim": "S101 T250 exactly one SymPy naturality/rank/SNF matrix instance PASS.",
+      "sources": [],
+      "scope": "Local script/output sha256 in S101 dossier, no geometrical certification."
+    },
+    {
+      "id": "CLM-0500",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S101 test data has OR cannot have an admissible literal meet-exact 3D three-cover satisfying all U/pair/triple/d2 conditions.",
+      "sources": [],
+      "scope": "UNRESOLVED either way; no compatible U_i constructed or universal no-go."
+    },
+    {
+      "id": "CLM-0501",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S101 elementary fold and total sphere constructions by themselves amount to an independently novel significant HHA theorem.",
+      "sources": [
+        "SRC-0244",
+        "SRC-0245",
+        "SRC-0247"
+      ],
+      "scope": "NOT ESTABLISHED; G2 NOT PASSED."
     }
   ]
 }

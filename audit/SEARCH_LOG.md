@@ -379,3 +379,6 @@ Original arXiv author abstracts inspected: Ginot–Leray arXiv1905.12307 cup/Ste
 
 ## S100 — 17 October 2026
 Direct author/university original abstract for Torras-Casas/Pennig AGT2024 https://orca.cardiff.ac.uk/id/eprint/159883/; indexed Springer DCG2023 §5 persistent MV text, publisher direct redirect inaccessible; AGT2023 Lanari–Scoccola article abstract/bibliography; Halder–Sau–Sen 13Oct2026 arXiv v2 abstract; Ahuja–Iyer 2026 abstract; selected HHA2025 metadata. No proof-level comprehensive HHA2024–26 or citation audit, no originality guarantee. S100 classical MV 3D rank constraint/4D fold-cylinder not G2-worthy.
+
+## S101 source/access check — 17 October 2026
+Inspected indexed original published Torras-Casas/Pennig AGT2024 abstract https://doi.org/10.2140/agt.2024.24.4265 plus author repository https://orca.cardiff.ac.uk/id/eprint/159883/ (ABSTRACT_INSPECTED; PDF linked but full proof NOT inspected); retained SRC-0244 Torras-Casas DCG2023 original abstract/indexed §5 and original 2026 arXiv Halder–Sau–Sen abstract; read indexed 2026 Arakawa JPAA DOI 10.1016/j.jpaa.2026.108232 abstract (SRC-0247). 2026 HHA outside-index search insufficient for complete original-issue novelty census. S101 math remains elementary MV/mapping-cylinder/cellular gluing with no complete 3D three-cover or new HHA application, so G2 NOT PASSED.

@@ -202,3 +202,6 @@ Pre-registered all 2^4 masks and six invertible F2 2×2 matrices; 96 substitutio
 
 ## S100 — 17 October 2026
 S100 complete INTERNAL: T242–T246 strict nonzero M three-cover free rank and torsion sharp examples, no G2 HHA proof; S101 FUTURE non-graph B cover-specific obstruction/realisation; original unpointed strict Top HI>IHC remains OPEN archival.
+
+### CAM-0101 — one exact rank-minimal balanced fold, 17 October 2026
+Pre-registered exactly one nonzero-M natural integer datum (A all Z identities, B=0/Z/Z/Z² fold, top M=[1,0]); SymPy checker `scripts/s101_balanced_fold_check.py` locally executed, arithmetic PASS, script SHA256 337260139d32659936a39dd85f8e4d6c16ab5880d7ebf0c3a6cfbe61cb797417, stdout SHA256 ea1de902d6dffaf8160b7c3dc6feae17ab49403f4c660fbb82b24db5645dc4ec. Completeness scope ONLY this datum; geometric T and X individually proved by finite CW argument, NO combined cover certificate, no HHA novelty/Lean.

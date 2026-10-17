@@ -371,3 +371,6 @@ T238 proves on genuine finite Postnikov 4-skeleta that the degree-three cup kern
 
 ## S100 — 17 October 2026
 T242 extracted S006 MV rank requirement; T243 finite 4D sharp total gluing no-go of old T17 necessity sufficiency, T245 unexpected allowed index-two K defect matched by C00 Z/2 through existing graph-B construction. Retain all-M non-graph-B CW three-cover as OPEN but novelty-poor until an invariant beyond full MV. S101 seeks genuine cover-sensitive geometry and nontrivial HHA application; fallback coupled two-transition homotopy descent, not simple clock.
+
+## S101 balanced fold test case — geometric compatibility OPEN
+T247 finds a sharp nonzero-M non-graph B fold satisfying *all* total MV A/K/C rank/torsion constraints, T248 builds a literal 2D top triple CW fold, T249 a separate strict 3D total X=S³ gluing with matching K/C. These **do not** form a compatible literal three-cover; missing simultaneous U1/U2/U3 and pair interactions are substantive. S102 FUTURE either give a complete 3D labelled cell table and d2, derive non-MV cover obstruction, or abandon repetitive arithmetic for an original two-transition homotopy application with HHA gate.

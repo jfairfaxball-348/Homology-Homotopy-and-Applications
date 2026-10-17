@@ -258,3 +258,6 @@ Retain original desire for HHA-applicable homotopy result but REJECT CP² phase 
 
 ## S100 — 17 October 2026
 S100 does NOT qualify as first HHA theorem: sharp total dimension threshold for one 3-cover diagram is classical MV with a standard fold mapping cylinder; no original broader stability/classification/application or 2026 clearance. S101 must prove a non-MV-cover-level finite CW obstruction or a novel coupled homotopy descent theorem with actual application; stop ordinary algebraic restatement promptly.
+
+## S101 HHA significance decision — 17 October 2026
+Do NOT promote T247–T249 to first paper: matrices, fold mapping cylinders and glued S³ are classical separately, and the target finite 3D three-cover has NOT been realised/refuted. No original quantitative persistence application or primary-proof-level 2026 novelty clearance. G2 NOT PASSED. Self-selected next S102 is a hard literal compatible-gluing proof-or-kill for minimal balanced datum, followed immediately by alternate genuine homotopy descent if not novel. No Lean/paper.

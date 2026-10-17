@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-17",
-  "last_completed_session": "S100",
-  "recommended_next_session": "S101",
+  "last_completed_session": "S101",
+  "recommended_next_session": "S102",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S100 INTERNAL: rank obstruction missing from enumerated S006 T17; explicit nonzero-M 3D impossibility with sharp 4D realisation, compensated nonprimitive K realised in dimension3. Standard MV, HHA G2 NOT PASSED.",
-  "selected_mathematical_problem": "S101 genuine cover-specific finite 3D non-graph B integral CW gluing condition beyond all total MV constraints, else independent coupled finite CW homotopy descent with original HHA application",
-  "headline_status": "S100_SHARP_3_TO_4_NONZERO_M_RANK_KILL__COMPENSATED_INDEX2_K__HHA_G2_NOT_PASSED__S101_FUTURE",
-  "active_campaign": "S101 FUTURE UNEXECUTED: genuinely cover-sensitive 3D nonzero-M nongraph B proof-or-kill, novelty veto",
-  "claim_of_new_theorem": "S100 extracted standard MV necessary free-rank consequence and constructive 3/4-dimensional examples. INTERNAL, not independently novel or HHA-ready.",
+  "headline": "S101 INTERNAL: balanced non-graph natural fold passes full integral MV conditions; separate 2D T CW and 3D complete-X CW models, no compatible three-cover; HHA G2 NOT PASSED.",
+  "selected_mathematical_problem": "S102 exact balanced non-graph fold: construct literal 3D admissible 3-cover with d2=M or prove a genuinely cover-specific no-go; abandon classical algebra if no original HHA application",
+  "headline_status": "S101_BALANCED_NONGRAPH_FULL_MV_COMPATIBLE__GEOMETRIC_T_AND_X_SEPARATE__COVER_UNRESOLVED__G2_NOT_PASSED__S102_FUTURE",
+  "active_campaign": "S102 FUTURE UNEXECUTED full labelled 3D fold cover-or-kill and independent novelty pivot",
+  "claim_of_new_theorem": "S101 elementary internal matrix/model lemmas, no new original HHA-level result; combined 3D labelled cover UNKNOWN.",
   "stages": [
     {
       "id": 0,
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__S100_NONZERO_M_RANK_COUNTEREXAMPLE_AND_SHARP_4D"
+      "status": "IN_PROGRESS__S101_BALANCED_NONGRAPH_COVER_UNRESOLVED"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "G2_NOT_PASSED__S100_CLASSICAL_MAYER_VIETORIS_AND_MAPPING_CYLINDERS"
+      "status": "G2_NOT_PASSED__S101_CLASSICAL_MV_MAPPING_CYLINDER_AND_GLUED_SPHERE"
     },
     {
       "id": 3,
@@ -1855,5 +1855,22 @@
     "lean": "NOT_AUTHORISED",
     "publication": "NOT_AUTHORISED"
   },
-  "s100_checkpoint": "T242 elementary necessary exact 0->E->coker lambda_K->free; T243 old T17+delta_A not sufficient, explicit 3D impossible, 4D admissible; T244 torsion index2 negative; T245 S005-realised 3D compensated nonprimitive K. G2 HHA NOT PASSED. S101 FUTURE."
+  "s100_checkpoint": "T242 elementary necessary exact 0->E->coker lambda_K->free; T243 old T17+delta_A not sufficient, explicit 3D impossible, 4D admissible; T244 torsion index2 negative; T245 S005-realised 3D compensated nonprimitive K. G2 HHA NOT PASSED. S101 FUTURE.",
+  "s101_checkpoint": {
+    "date": "2026-10-17",
+    "entry_main": "8ad1fe259c6de3c30a3cf416e7f8070a4b2fbced",
+    "entry_tree": "deee79b93251b8d04be71647ab72d3428945daaa",
+    "previous_pr": 117,
+    "branch": "session/S101-balanced-nongraph-fold-geometry",
+    "t247": "balanced natural nongraph B fold full MV conditions pass; no full cover",
+    "t248": "separate literal finite 2D pure-H1 top triple CW",
+    "t249": "separate strict total 3D S2-to-two-D3-to-S3 CW",
+    "t250": "one local exact SymPy check PASS, no topology certification",
+    "script_sha256": "337260139d32659936a39dd85f8e4d6c16ab5880d7ebf0c3a6cfbe61cb797417",
+    "stdout_sha256": "ea1de902d6dffaf8160b7c3dc6feae17ab49403f4c660fbb82b24db5645dc4ec",
+    "g2": "NOT_PASSED",
+    "next": "S102_FUTURE_UNEXECUTED",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED"
+  }
 }

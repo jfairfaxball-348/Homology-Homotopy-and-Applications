@@ -1,0 +1,11 @@
+# S101 PRIOR_ART — date 17 October 2026; HHA gate NOT PASSED
+
+New checks use accessible **original publication/author abstract listings** and known source identifiers, NOT independent full-proof-level novelty verification.
+
+- SRC-0244: Álvaro Torras-Casas, *Distributing Persistent Homology via Spectral Sequences*, Discrete Comput. Geom. 70 (2023), 580–619, DOI https://doi.org/10.1007/s00454-023-00549-2. Reused S100 inspected abstract/section-index excerpt; no new full theorem/proof inspection. Persistent MV descent already covers the broad spectral motivation.
+- SRC-0245: Torras-Casas and Pennig, *Interleaving Mayer–Vietoris spectral sequences*, Algebraic & Geometric Topology 24 (2024), 4265–4306, DOI https://doi.org/10.2140/agt.2024.24.4265. Published original DOI page and Cardiff archived author abstract identify ε-acyclic carriers, blowups, stability, approximate nerve theorem, and cover-to-cover spectral comparisons. **ABSTRACT_INSPECTED**; indexed original PDF was located but full 42-page proof not read.
+- SRC-0247: Kensuke Arakawa, *Homotopy limits and homotopy colimits of chain complexes*, J. Pure Appl. Algebra 230 (2026), 108232, https://doi.org/10.1016/j.jpaa.2026.108232. **ABSTRACT_INSPECTED** at publisher/indexed article listing; Bousfield–Kan bar/cobar formulas are a strong classical homotopy-descent background. No full proof inspected.
+- SRC-0240: Halder–Sau–Sen, *Equivariant Homotopy Interleaving and Persistent Whitehead Theorem*, arXiv:2609.23440 (2026), https://arxiv.org/abs/2609.23440. Author abstract rechecked, **ABSTRACT_INSPECTED**; broad 2026 G-interleaving/nerve claims overlap any pivot to equivariant persistent Whitehead.
+- Existing S099/S100 original public bibliographies provide 2019 cup/Steenrod/A∞ and 2026 filtered/simple homotopy overlaps. No claimed exhaustive 2024–26 HHA issue census, accepted-priority guarantee or independent topologist audit.
+
+**Veto:** T247–T250 merely isolate a sharply specified unsolved *geometric* gluing question; as yet there is no cover-specific obstruction beyond total MV and no new quantitative or substantive HHA application. G2 NOT PASSED and there is no case for Lean, manuscript, arXiv/HHA or outside contact.

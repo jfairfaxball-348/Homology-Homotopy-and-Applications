@@ -346,3 +346,6 @@ G1 original HHA theorem remains OPEN: internal T238/T239 prove full Postnikov cu
 
 ## S100 — 17 October 2026
 S100 internal proof/explicit finite geometry of sharper integral 3D necessity and sharp 4D specimen; not a complete all-M B-nongraph theorem. Novelty HHA G2 NOT PASSED: classical MV top-dimensional saturation and mapping-cylinder/cofiber techniques, no substantively new HHA application. Lean NOT STARTED, Palomar/arXiv/HHA owner gated. S101 FUTURE, UNEXECUTED.
+
+## S101 — 17 October 2026
+G1 OPEN: T247 exact algebraically balanced non-graph B fold, T248 separate finite 2D T CW, T249 separate finite 3D X CW. **No simultaneous admissible cover; no strict persistence-gap or general HHA theorem.** G2 HHA originality/significance NOT PASSED after 2023/2024 spectral MV and 2026 homotopy-descent source abstracts. G3 Lean NOT STARTED; Palomar/arXiv/HHA OWNER_GATED. S102 FUTURE UNEXECUTED.

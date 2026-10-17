@@ -547,3 +547,6 @@ Serre transgression d3(u)=k implies ker(Sym³ H¹(X_k;F2)→H³(X_k;F2))=<k> on 
 
 ## S100 — 17 October 2026
 S006 T17 listed torsion agreement but did not list the independently necessary free-rank inequality from its own exact sequence (**). Explicit nonzero-M data passes every enumerated T17 test and delta_A yet fails 3D, with minimum dimension FOUR. Do not confuse abstract torsion balance with top-lattice geometric sufficiency; conversely do not forbid nonprimitive lambda_K when E carries matching torsion (T245 realisable). Elementary repair NOT automatically HHA originality.
+
+## S101 — independently realisable triple and total diagrams do not imply a cover
+An elementary non-graph fold can satisfy every earlier A-latching, K/C torsion/rank and total MV test and can even have both an actual 2D triple-square model and an actual 3D total-X-square model **separately**. Compatibility of U1/U2/U3 and every pair/triple/whole-X meet is independent and UNSOLVED. A 2D top triple invalidates the 3D dimensional accounting of the inherited S005 suspension/cone recipe; that does not forbid another 3D approach. Do not call arithmetic/independent geometry simultaneous cover realisation; high-priority S102 seek literal cell construction or universal cover-specific obstruction, or pivot away if novelty dies.

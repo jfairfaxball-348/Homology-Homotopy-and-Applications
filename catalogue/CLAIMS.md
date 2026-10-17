@@ -700,3 +700,11 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - **CLM-0493** [PROGRAMME_PROVED] T245 nonprimitive K index2 balanced by E=Z/2 genuinely realised in dimension3 via inherited S005 graph-B construction; NO false universal primitive K requirement.
 - **CLM-0494** [COMPUTED_EXACT] T246 three fixed exact matrix checks pass using SymPy1.14.0; script/stdout hashes documented in S100, NOT topology.
 - **CLM-0495** [INHERITED_UNVERIFIED] S100 results independently HHA-original and application-level: NOT ESTABLISHED, G2 NOT PASSED.
+
+## S101 claims — 2026-10-17
+- **CLM-0496** [PROGRAMME_PROVED] T247 exact natural nonzero-M B-fold (0,Z,Z,Z²) is non-graph but passes delta_A and all S006/S100 kernel/cokernel torsion/free-rank MV tests. This is algebraic consistency ONLY.
+- **CLM-0497** [PROGRAMME_PROVED] T248 literal 2D top triple-intersection square (mapping cylinder of two-circle fold plus extra top circle) realises B, with minimum top-T dimension exactly two.
+- **CLM-0498** [PROGRAMME_PROVED] T249 an independently realised complete-X meet-exact 3D CW square S²→D³±→S³ has H2=C, H3=K and the needed MV E≅K11 isomorphism; NOT the specified labelled cover.
+- **CLM-0499** [COMPUTED_EXACT] T250 one locally executed fixed rank/Smith/naturality checker PASS, hashes in S101, arithmetic only.
+- **CLM-0500** [INHERITED_UNVERIFIED] Existence OR impossibility of a simultaneous labelled 3D three-cover with specified A,B,M is UNRESOLVED; no full geometric d2 checked.
+- **CLM-0501** [INHERITED_UNVERIFIED] HHA independent novelty and consequential homotopy/persistence application from S101: NOT ESTABLISHED, G2 NOT PASSED.
