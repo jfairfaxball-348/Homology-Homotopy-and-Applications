@@ -5,10 +5,10 @@
   "last_completed_session": "S089",
   "recommended_next_session": "S090",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S088 cyclic-cover equivariant ghost gives geometric chain-action 1/2-vs-1 gap, finite CW no-go; second independently different full-real B_N G1 still OPEN; HHA G2 NOT PASSED",
-  "selected_mathematical_problem": "Owner chose OPTION 2=B on 17 Oct 2026 (governance only): S089 first-paper prospective focus returns to 2-local actual CW spheres in ordinary UNPOINTED Top^R, strict dHI>dIHC full real arbitrary whole two-lane usual WE. Original Top G1 OPEN, G2 NOT PASSED. Ch(B_N) and cyclic cover retained internal archives.",
-  "headline_status": "S088_LAST_COMPLETED__S089_OWNER_OPTION_B_UNPOINTED_TOPR_INSTALLED_FUTURE__G1_OPEN__G2_NOT_PASSED",
-  "active_campaign": "S089 FUTURE UNEXECUTED owner-approved Option 2/B, directly execute mathematical proof-or-kill of exact original 2-local unpointed Top^R 5-sphere strict HI>IHC under next separate Run next session. No A/B/C question. No ring/spectrum substitution.",
+  "headline": "S089 completed: finite tree-zigzag pointing lemma T209 internal; original five-sphere strict HI>IHC still OPEN and HHA G2 NOT PASSED. S090 owner-selected Option B seeks an independent ordinary unpointed Top^R finite-CW strict separation (FUTURE only).",
+  "selected_mathematical_problem": "17 Oct 2026 S089 closeout owner chose S090 OPTION B: NEW INDEPENDENT finite-CW original strict dHI>dIHC witness in ordinary UNPOINTED Top^R, ALL real, both whole objectwise WE zigzags; does NOT claim original five-sphere theorem solved or authorise category switch. Proof and HHA originality gates OPEN.",
+  "headline_status": "S089_COMPLETED__S090_OWNER_B_INDEPENDENT_TOPR_FUTURE_UNEXECUTED__G1_OPEN__G2_NOT_PASSED",
+  "active_campaign": "S090 future: owner-approved B construct-or-kill new independent finite-CW ordinary unpointed Top^R dHI>dIHC witness under arbitrary whole-real both-lane WE zigzags; execute only on NEXT separate Run next session. Preserve five-sphere OPEN/archived, not a CH(B_N) route.",
   "claim_of_new_theorem": "S088 internal cyclic 2-power covering-space origin of reduced T206 ghost with dCohI=1/2<dIHC=dHI=1, forget deck action gives 1/2, finite CW/perfect impossible. Higher operations prior art; no G1 two-proof clearance or G2.",
   "stages": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__TOPR_2LOCAL_G1_EXACT_BRACKET_TRANSPORT_OPEN__S089_OPTION_B_APPROVED_FUTURE"
+      "status": "IN_PROGRESS__S089_G1_ORIGINAL_FIVE_SPHERE_OPEN__S090_OWNER_B_NEW_TOPR_WITNESS_FUTURE"
     },
     {
       "id": 2,
@@ -1635,5 +1635,22 @@
       "B_NEW_SAME_TOP_CATEGORY",
       "C_RETIRE_AS_IMMINENT_FLAGSHIP"
     ]
+  },
+  "s090_owner_route_choice": {
+    "date": "2026-10-17",
+    "owner_message": "B",
+    "type": "GOVERNANCE_ONLY__NOT_S090_EXECUTION",
+    "option": "B_NEW_INDEPENDENT_FINITE_CW_TOPR_STRICT_HI_GT_IHC",
+    "source_session": "S089",
+    "last_completed_session": "S089",
+    "next_session": "S090_FUTURE_UNEXECUTED",
+    "predecessor_pr": 100,
+    "predecessor_merge": "c48821547ef75f7ccecc13b260c92721fd7639c1",
+    "same_category": "ORDINARY_UNPOINTED_TOP^R_OBJECTWISE_WE_BOTH_WHOLE_REAL_DIAGRAMS",
+    "preserve_original_five_sphere": "OPEN_NOT_REFUTED_ARCHIVED",
+    "hha_g1": "OPEN",
+    "hha_g2": "NOT_PASSED",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED"
   }
 }
