@@ -519,3 +519,6 @@ Distinct cellular 4-attachments (Hopf CP2 versus trivial S2 wedge S4) produce id
 
 ### S091: two multi-transition false leads
 CP²/wedge+S⁵ matched homology does not distinguish dHI from dIHC: cup-square lower applies already to IHC and both exact 3/2 (T213). Homotopic Hopf first-arrow track with common second arrow is absorbed by an explicit WHOLE natural mapping-cylinder WE roof, dHI=dIHC=0 (T214). Must produce truly coupled relative higher coherence surviving all whole WE replacements, not objectwise cohomology or selected nulltrack. G1/G2 still open.
+
+### S092 competing-cover failure and close novelty warning (17 Oct 2026)
+A finite RP³→L³(4) C4/C2 residual Q-relative cellular norm t is NOT a ghost because d2=0 and H1=B, where t acts nontrivially. Do not confuse its mod2 cellular differential with double-cover S³→RP³, which has d2=d3=t after reduction but opposite integral signs. S088 infinite P2 cannot be finitely truncated unchanged. A genuine suspension co-H map can realise the independent S³-cover finite perfect derived ghost; mapping cylinder+cone convert arrow to actual nested CW filtration. But 2× metric gap in one clock family and elementary GH ghosts alone cannot justify HHA originality; 2026 equivariant persistence priority serious. Stable module C2 Tate ghost theorem does not kill this distinct perfect-derived example.
