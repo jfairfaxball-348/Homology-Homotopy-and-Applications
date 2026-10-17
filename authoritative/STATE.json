@@ -6,9 +6,9 @@
   "recommended_next_session": "S089",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "S088 cyclic-cover equivariant ghost gives geometric chain-action 1/2-vs-1 gap, finite CW no-go; second independently different full-real B_N G1 still OPEN; HHA G2 NOT PASSED",
-  "selected_mathematical_problem": "S088 Option A completed; no independent second all-real B_N proof; cyclic cover geometry internal. Owner S089 route A/B/C needed, recommendation B original unpointed Top^R. No switch made.",
-  "headline_status": "S088_COMPLETE__CYCLIC_COVER_GEOMETRIC_CHAIN_ACTION_INTERNAL__G1_SECOND_INDEPENDENT_OPEN__G2_NOT_PASSED__S089_OWNER_CHOICE_PENDING",
-  "active_campaign": "S089 FUTURE, UNEXECUTED — OWNER_CHOICE_PENDING A independent B_N+cover novelty rescue / B recommended unpointed Top^R 2-local spheres / C pause. Do not infer owner choice from generic Run next session.",
+  "selected_mathematical_problem": "Owner chose OPTION 2=B on 17 Oct 2026 (governance only): S089 first-paper prospective focus returns to 2-local actual CW spheres in ordinary UNPOINTED Top^R, strict dHI>dIHC full real arbitrary whole two-lane usual WE. Original Top G1 OPEN, G2 NOT PASSED. Ch(B_N) and cyclic cover retained internal archives.",
+  "headline_status": "S088_LAST_COMPLETED__S089_OWNER_OPTION_B_UNPOINTED_TOPR_INSTALLED_FUTURE__G1_OPEN__G2_NOT_PASSED",
+  "active_campaign": "S089 FUTURE UNEXECUTED owner-approved Option 2/B, directly execute mathematical proof-or-kill of exact original 2-local unpointed Top^R 5-sphere strict HI>IHC under next separate Run next session. No A/B/C question. No ring/spectrum substitution.",
   "claim_of_new_theorem": "S088 internal cyclic 2-power covering-space origin of reduced T206 ghost with dCohI=1/2<dIHC=dHI=1, forget deck action gives 1/2, finite CW/perfect impossible. Higher operations prior art; no G1 two-proof clearance or G2.",
   "stages": [
     {
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__B_ONE_ALL_REAL_PROOF_ONLY__CYCLIC_COVER_GHOST_INTERNAL__S089_OWNER_CHOICE_PENDING"
+      "status": "IN_PROGRESS__TOPR_2LOCAL_G1_EXACT_BRACKET_TRANSPORT_OPEN__S089_OPTION_B_APPROVED_FUTURE"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "IN_PROGRESS__B_G2_GEOMETRIC_CHAIN_ACTION_FOUND_BUT_ORIGINAL_HHA_NOVELTY_NOT_PASSED"
+      "status": "IN_PROGRESS__TOPR_HHA_G2_SOURCE_ORIGINALITY_NOT_PASSED"
     },
     {
       "id": 3,
@@ -1600,5 +1600,19 @@
     "recommended_owner_choice": "B",
     "lean": "NOT_AUTHORISED",
     "publication": "NOT_AUTHORISED"
+  },
+  "s089_owner_route_choice": {
+    "date": "2026-10-17",
+    "owner_message": "2",
+    "interpreted_as": "B_SECOND_OPTION_ORIGINAL_2LOCAL_UNPOINTED_TOPR",
+    "type": "PROSPECTIVE_GOVERNANCE_ONLY",
+    "last_completed_session": "S088",
+    "next_session": "S089_FUTURE_UNEXECUTED",
+    "mathematics_executed": false,
+    "g1": "OPEN",
+    "g2": "NOT_PASSED",
+    "lean_authorised": false,
+    "publication_authorised": false,
+    "first_paper_target": "S083-S085 ordered five-stage sigma^2 actual 2-local CW spheres in ordinary unpointed Top^R"
   }
 }

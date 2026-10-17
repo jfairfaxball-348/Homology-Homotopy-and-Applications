@@ -159,3 +159,6 @@ Original owner Option B original five-sphere Top^R strict d_HI>d_IHC investigati
 
 ## S088 live checkpoint — 16 October 2026
 After S087 and Option A governance PR #97, S088 executed an internal cyclic 2-power covering-space realisation of the *coefficient ghost* as a chosen equivariant cellular chain-action diagram (not an increasing CW filtration); dCohI=1/2 < dIHC=dHI=1, action-forgetting gives 1/2, finite-dimensional CW/perfect impossible. S087 first B_N all-real proof was audited but a SECOND independent proof was NOT completed, hence G1 OPEN; G2 HHA NOT PASSED; ordinary unpointed Top^R sphere gap OPEN. S089 FUTURE OWNER_CHOICE_PENDING. No formalisation or publication authority.
+
+## S089 prospective Option B (owner "2"), 17 October 2026
+Governance-only amendment after completed S088: next S089 is an actionable mathematical proof-or-kill of the 2-local five-sphere ordered word in ordinary unpointed Top^R, not a decision-only repeat and not execution in this update. Crucial missing line is a well-typed all-secondary complete zero-system transport under both directions of whole-diagram WE to Xu's actual classical ordered fourfold bracket; S085 corrected S084 Kochman intermediate sphere-spectrum typing. G1 TOP OPEN, G2 HHA NOT PASSED, no Lean/publication. Existing coefficient results archived internal; full S089 in authoritative/NEXT_SESSION_PROMPT.md.
