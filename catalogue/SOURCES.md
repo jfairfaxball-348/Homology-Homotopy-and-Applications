@@ -535,3 +535,9 @@ SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theore
 - **SRC-0241** [ABSTRACT_INSPECTED] Ahuja, Iyer, *Persistent Simple-homotopy invariants via discrete Morse theory*, arXiv:2604.10192, https://arxiv.org/abs/2604.10192 (2026). Whitehead torsion/simple homotopy persistence near-prior-art; full proof not inspected.
 - **SRC-0242** [ABSTRACT_INSPECTED] Miller, *Filtered Topology and Persistence in Stable Homotopy*, arXiv:2505.02772, https://arxiv.org/abs/2505.02772 (2025). Persistent stable CW spectrum framework; full text not inspected.
 - **SRC-0243** [STATEMENT_INSPECTED] Lanari, Scoccola, *Rectification of interleavings and a persistent Whitehead theorem*, https://arxiv.org/abs/2010.05378 (original original-text selected Theorem A/B excerpt, full proof NOT inspected S099). Metric comparisons NOT universal equality of Top^R HI and IHC.
+
+## S100 source audit — 2026-10-17
+- **SRC-0244** [ABSTRACT_INSPECTED] Torras-Casas, DCG2023 persistent Mayer-Vietoris, https://doi.org/10.1007/s00454-023-00549-2. Indexed original section excerpt, direct publisher inaccessible; no full proof review.
+- **SRC-0245** [ABSTRACT_INSPECTED] Torras-Casas–Pennig AGT2024, https://doi.org/10.2140/agt.2024.24.4265. Author-university original repository abstract directly inspected; full proof not read.
+- **SRC-0246** [ABSTRACT_INSPECTED] Lanari–Scoccola AGT2023, https://doi.org/10.2140/agt.2023.23.803. Published article abstract/index directly inspected, no new proof audit.
+- **S099 JSON mirror repair:** SRC-0240..SRC-0243 were already declared in original S099 SOURCES.md and PRIOR_ART but absent from SOURCES.json; the existing IDs are now mirrored without changing earlier archival maths.

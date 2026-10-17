@@ -543,3 +543,7 @@ The genuine mixed 2-type k=xy(x+y) vanishes on three cyclic restrictions but equ
 
 ## S099 — all finite C2² Postnikov cubic k-orbit collisions fail already by cup-product structure
 Serre transgression d3(u)=k implies ker(Sym³ H¹(X_k;F2)→H³(X_k;F2))=<k> on any finite four-skeleton retaining degree-three cohomology. Thus each GL2 orbit is recognised by unmarked low-degree cup ring; even when H2Z coincides (=C2 for four other nonzero orbits), primary ordinary cup defeats the claimed collision. No higher-operation or two-transition clock fixes this within proposed family. Cyclic restrictions {0,mixed} are not a finite CW cover; no quantitatively stable non-clock descent application was built. STOP S099 route; retrieve prior integral multi-parameter 3-cover problem instead of another artificial persistence window.
+
+
+## S100 — 17 October 2026
+S006 T17 listed torsion agreement but did not list the independently necessary free-rank inequality from its own exact sequence (**). Explicit nonzero-M data passes every enumerated T17 test and delta_A yet fails 3D, with minimum dimension FOUR. Do not confuse abstract torsion balance with top-lattice geometric sufficiency; conversely do not forbid nonprimitive lambda_K when E carries matching torsion (T245 realisable). Elementary repair NOT automatically HHA originality.

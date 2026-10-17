@@ -1,0 +1,12 @@
+# S100 ADVERSARIAL — failure modes tested, boundaries retained
+
+1. T242 rank follows from the ACTUAL exact sequence (**) in S006; S006 recorded this exact sequence but omitted its free-rank consequence in the enumerated T17 test. Call this a newly *extracted obstruction*, NOT a discovery of a new spectral sequence.
+2. The T243 rank failure has M10=M01=M11=1, not M=0. δ_A=(1,-1) is primitive, both T17 torsion groups vanish, K=0, and exact MV forces H3(F)=Z. The top-cell primitive injection is for complete X spaces and does not require any mixed-grade pairwise incidence identity.
+3. A fatal assumption would be to model the T243 nonprimitive B maps by nested *graphs* in dimension one. The T11 fold mapping cylinder is TWO-dimensional; its 3D suspension and 4D cone/mapping cylinders supply the *explicit* 4D construction. Never claim this is 3D.
+4. T11 carries no H2 because it deformation retracts to the target S1. Both side circles are ACTUAL subcomplexes of the mapping-cylinder input wedge and intersect precisely in the point. The two top H1 arrows are both +1. Suspensions can be based by collapsing the common suspension segment compatibly.
+5. Y_p all equal S² does satisfy literal Y10∩Y01=Y00 (not a requirement of side distinctness). The cylinder/cone cell interiors must be separate in each labelled grade to preserve strict meet-exactness.
+6. In T244 the index-two kernel coker Z/2 is unmatched by E=0, so T17 ALREADY excludes this. It does not establish T242's independence.
+7. In T245, coker(lambda_K)=Z⊕Z/2 is **permitted**, because E=Z/2. Any proposed universal lambda_K primitive theorem for nonzero M is FALSE. More than an algebraic allowance, graph-admissible B and primitive δ_A invoke S005's 3D construction.
+8. Be careful that an abstract E⊕Z^q decomposition of coker(lambda_K) is never equated to a compatible geometric lift of the C diagram. The extended test is necessary only; a full all-M 3D criterion remains OPEN.
+9. A *fresh* HHA application is missing: the 3/4 dimensional threshold in this example is a direct standard top-cell/MV phenomenon. The 2023 and 2024 persistence MV papers and 2026 filtered/equivariant theory are strong originality barriers. No G2 pass.
+10. Local matrix script is not the 4D construction checker, cannot certify infinite parameter generality and uses SymPy 1.14.0. Hosted CI only checks textual governance/integrity, not mathematics. No Lean/Palomar/paper.
