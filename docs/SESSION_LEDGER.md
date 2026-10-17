@@ -272,3 +272,6 @@ INTERNAL T225 generic inequivalent X,Y based Q-CW with same finite lower skeleta
 
 ## S096 — 17 October 2026
 INTERNAL T228 CP² vs S²∨S⁴ four-stage ordinary unpointed Top^R exact dHI=dIHC=min(d−b,(d−a)/2), whole real/all objectwise-WE two lanes; c free S⁵ wedge inert. T229 stable prime-order α attaches yields exact analogous formula, T230 η² stages invisible to integral graded homology, cup and primary Steenrod module. Classical nonextension+clock, 2019/2023/2026 persistent multiplicative priority collisions, G2 NOT PASSED. S097 FUTURE paired higher attaching indeterminacy proof-or-kill. No Lean/paper.
+
+## S097 — 17 October 2026
+Owner-authorised one session on live main 48d87696bc63c692357b862f68571d7ef25bcefc tree 8587619060e58337499df3469de67eb22ec875a1; previous PR #113 verified ordinary merged, no open PR. T231 independent two-cell base pushout no interaction; T232 n>=5 actual eta² cofiber/degree2 second lift Z/12 torsor; T233 genuine WE shears k→k+2j collapse to at most two unmarked classes, full three-stage diagrams TopHI=TopIHC=0 for shear-equivalent choices. Finite exact 12x12 orbit arithmetic checked; no all-Ste enrod equality, no positive non-clock metric or G2. S098 selected new mixed Postnikov finite CW 2-type route FUTURE. No Lean/paper/outside action.

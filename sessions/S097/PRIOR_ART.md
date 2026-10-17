@@ -1,0 +1,12 @@
+# S097 PRIOR ART — 17 October 2026, hostile independence record
+
+- Inherited **SRC-0225**, Ginot–Leray, *Multiplicative persistent distances* (arXiv:1905.12307), original abstract read anew: already defines distances involving persistent A-infinity and Steenrod algebra, stability, and examples refining barcodes. ABSTRACT_INSPECTED; full paper proof not inspected in S097. A new "secondary persistence detects more than homology" headline would be preempted.
+- Inherited **SRC-0226**, Mémoli–Stefanou–Zhou DOI 10.1007/s41468-023-00138-5, original Springer abstract and selected search content; prior S096 selected original theorem/proof inspection. Persistent cup modules and weak-homotopy stable invariants are established. S097 did not independently reread all proofs.
+- Inherited **SRC-0227**, Kuribayashi–Naito–Wakatsuki–Yamaguchi DOI 10.1007/s41468-026-00252-0, publication 12 September 2026: original open Springer abstract and intro statement seen; **Ch_K** equality of CohID, HC/IHC/HI is NOT equality in unpointed Top^R. STATEMENT_INSPECTED, not entire proof.
+- **SRC-0230**, MathOverflow geometry of eta^3=12nu via framed manifolds, 2015, SECONDARY_ONLY. Supports classical stable-stem relation, not an original checked proof.
+- **SRC-0231**, Isaksen–Wang–Xu, *Stable homotopy groups of spheres: from dimension 0 to 90* (2023 publication; arXiv 2001.04511), ABSTRACT_INSPECTED original arXiv summary and official PDF bibliographic result; full relevant stable-stem proof NOT inspected in S097.
+- **SRC-0232**, Basu et al., *Note on Toda brackets* (2020), DOI 10.1007/s40062-020-00264-2, Springer original ABSTRACT_INSPECTED. General Toda brackets as rectification obstructions are already standard.
+- **SRC-0233**, Kuribayashi et al., *A distance between maps via interleavings of relative Sullivan algebras* (8 April 2026), arXiv:2604.06800, original ABSTRACT_INSPECTED. Persistent Postnikov/relative Sullivan models and an IHC pseudodistance on maps are substantive adjacent prior art.
+- Independent potential hostile **SRC-0234**, MathOverflow summary of 24-torsion / eta relation (2023–24), SECONDARY_ONLY; stable eta^3 relation reconfirmation, not original paper.
+
+**Gate:** No comprehensive 2024–2026 HHA paper census or full proof-level DKS/Mosher–Tangora/Baues/Blanc cited-by comparison; no independent mathematician review. The internally computed torsor/shear is elementary use of classical LES and coaction and does NOT satisfy a novel quantitative persistent application. **G2 NOT PASSED**.

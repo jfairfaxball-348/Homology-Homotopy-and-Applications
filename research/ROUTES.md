@@ -358,3 +358,6 @@ T225 mutual maps fixing common Q-skeleton K between inequivalent finite based Q-
 
 ### S096 ordinary Top asymmetric Hopf/η² exact phase: internally proved, HHA novelty FAIL
 Exact dHI=dIHC=min(d−b,(d−a)/2) for CP²/wedge and stable p-order α cofibers versus wedges with extra free cell at c. η² case is invisible to ordinary persistent homology, cup and PRIMARY Steenrod operations; nevertheless static attaching degree obstruction + classical strict clock completely determines metric. No true two-class higher coherence and G2 NOT PASSED. S097 seeks incompatible paired attaching choices; no automatic formalisation.
+
+### S097 paired eta² cofiber lifts — mathematical substructure, NOT first-paper route
+T231 kills independent attachments to old K. T232 true nontrivial compositional eta² then beta degree2 is marked Z/12 lift torsor. T233 coaction shears give whole-diagram equivalences for k→k+2j, leaving at most 2 unmarked choices; potential Sq4 primary detection. No HHA-level secondary-persistent application or same-category Top HI>IHC. This route RETIRED for current flagship; next S098 mixed pi1/π2 Postnikov k-invariant finite-CW quantitative persistence, with early classical/2026 veto.

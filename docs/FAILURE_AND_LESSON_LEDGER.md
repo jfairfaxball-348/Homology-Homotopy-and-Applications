@@ -534,3 +534,6 @@ Common lower Cp-lens 2-skeleta and π2(S3)=0 let actual maps between inequivalen
 
 ## S096 — freely wedged second higher stage produces no new coherence
 CP² Hopf and stable η² give sharp real Top interleaving formulas but the freely added second cell at c does not affect dHI, which is min(d−b,(d−a)/2). Merely showing more homotopy invariants beat graded homology cannot pass HHA originality after Ginot–Leray 2019 and Mémoli–Stefanou–Zhou 2023. Any S097 success must force true coupling/choice-indeterminacy between TWO NONTRIVIAL attaching maps, exclude additive independent tests, and derive a new non-clock quantitative invariant or rigorous impossibility.
+
+## S097 — marked lift torsor is NOT an unmarked persistence invariant
+First two nonzero attachments to old K form ordinary relative pushout (T231), not genuine higher coupling. Genuine degree-two lift beta into eta²-cofiber does have Z/12 indeterminacy (T232), but coaction self-WEs of C send beta_k to beta_(k+2j), identify whole real filtrations objectwise, and leave at most two unmarked classes (T233). Even the residual distinction may be a PRIMARY Sq4 phenomenon. No complete Steenrod equality, mixed-stage non-clock HI obstruction or HHA original theorem. STOP eta² torsor clock family, pursue different mixed Postnikov k-invariant route in S098; stop if classic 2026 relative Sullivan theory subsumes it.

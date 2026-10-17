@@ -333,3 +333,6 @@ G1 proof internally T225–T227 actual finite equivariant CW, real objectwise Q-
 
 ### S096 exact asymmetric phase + η² secondary control — 17 Oct 2026
 G1 INTERNAL for T228–T230 ordinary unpointed Top^R equality dHI=dIHC and homology/cup/primary Steenrod blindness, NOT original Top strict HI>IHC. G2 HHA NOT PASSED: extra c-stage is free wedge/inert; standard attaching nonextension clock and existing persistent cup/A∞/Steenrod work already overlap. No novel choice-compatible secondary persistence invariant, no independent external referee, no Lean/formalisation/release. S097 self-selected genuine pairwise coherent secondary obstruction, FUTURE only.
+
+## S097 — 17 October 2026
+G1 remains IN PROGRESS: INTERNAL classical-stem T231 quotient no-go, T232 marked Z/12 genuine two-stage eta²/degree2 lift torsor, T233 whole-diagram shear WE identifies even translates. NO new quantitative nonformal Top^R theorem; even versus odd parity and Sq4 NOT PROVED. G2 HHA novelty NOT PASSED after 2019 A-infinity, 2023 cup, 2026 dg and relative-Sullivan source collisions. G3 Lean NOT STARTED, G4 final review NOT STARTED, Palomar/arXiv/HHA OWNER_GATED. S098 FUTURE, UNEXECUTED.
