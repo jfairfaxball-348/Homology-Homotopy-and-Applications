@@ -529,3 +529,6 @@ Owner's prior directive authorises assistant to choose best route and stop routi
 
 ## S095 actual self-steered exact skeletal window result (2026-10-17)
 Owner directed assistant to keep proof research across sessions and stop routine A/B/C. Exact T225 generic terminal window theorem and T226 Cp lens four-stage full group-ring homotopy information loss now internally proved. Yet direct 2026 G-n-equivalence and standard Hatcher cellular extension mean HHA G2 NOT PASSED. Assistant self-selects prospective S096 new *asymmetric nonextendible* relative attaching homotopy obstruction with nontrivial multiwindow metric, not another lens clock or user choice gate. No external or Lean authority.
+
+## 2026-10-17 S096 governance-only sharpening (not execution)
+Owner's self-steering mandate applied to specify an exact falsifiable CP²/Hopf asymmetric 4-stage phase-diagram conjecture for S096 and explicitly audit Ginot–Leray 2019 higher multiplicative persistence and JACT2023 persistent cup modules. These are prior-art negatives, NOT proof or HHA novelty certification. S095 remains last executed; S096 future only; no downstream permission.
