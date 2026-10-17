@@ -324,3 +324,6 @@ G1 finite Q-CW instance: INTERNAL PROOF T215/T216, with continuous equivariant n
 
 ### S093 gates — 17 Oct 2026
 G1 restricted internal cyclic-lens parity/noncyclic torus finite Q-cover examples and three-clock exact metrics = INTERNALLY PROVED, NOT independently kernel certified. G2 original HHA theorem/application = **NOT PASSED** due to classical GH/perfect ghosts and Oct2026 Halder–Sau–Sen universal equivariant HI/Whitehead, and no new reconstruction. Original unpointed Top^R strict HI>IHC remains OPEN long term. Stage3 Lean NOT STARTED; external gates owner-blocked. S094 OWNER_CHOICE_PENDING FUTURE.
+
+### S094 proof and HHA novelty gates — 17 Oct 2026
+G1 INTERNAL established exactly typed based Cp-Top versus Ch(FpCp) persistent metric contrast using nonhomotopy-equivalent lens-cover actions; actual finite CW whole-real filtrations and arbitrary both-lane objectwise WE roof handled. T223 nontrivial skeletal lower/upper only, exact skeletal metric OPEN. Genuine equivariant TopHI=IHC in exhibited pulse; original strict ordinary unpointed Top HI>IHC remains OPEN. G2 originality/significance NOT PASSED: classical lens linking + standard interval interleaving; S095 target higher attaching coherence as potentially original HHA result. No Lean/Palomar/manuscript/arXiv/HHA.

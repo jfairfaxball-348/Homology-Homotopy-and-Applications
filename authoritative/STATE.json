@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-17",
-  "last_completed_session": "S093",
-  "recommended_next_session": "S094",
+  "last_completed_session": "S094",
+  "recommended_next_session": "S095",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S093 internally classifies cyclic 2-power lens norm ghosts (odd positive length >=3 iff nonnull) and constructs independent finite C2×C2 torus norm ghost, exact three-clock field-forgetful persistence loss and orbitwise birth perturbation. Significant HHA originality NOT established; S094 OWNER_CHOICE_PENDING.",
-  "selected_mathematical_problem": "Owner Option C finite deck-cover norm ghosts: S093 family-level INTERNAL theorem but no original reconstruction/detection of arbitrary filtrations; STOP current first-paper expansion pending owner route decision.",
-  "headline_status": "S093_FINITE_CYCLIC_PARITY_AND_NONCYCLIC_GHOST_INTERNAL__HHA_G2_NOT_PASSED__S094_OWNER_CHOICE_PENDING",
-  "active_campaign": "S094 FUTURE ACTIONABLE owner research self-steering: prove-or-kill sharp whole-real equivariant Top-vs-FpQ cellular-chain interleaving loss from inequivalent finite lens covers; independent 2026 HHA novelty gate; no ordinary A/B/C request.",
-  "claim_of_new_theorem": "T217-T220 INTERNAL hand proofs with finite independent checker, but not demonstrated novel or HHA significant. No Lean, peer review or publication.",
+  "headline": "S094 INTERNAL T221 full Fp[Cp] lens-cover cellular chain isomorphism; T222 sharp all-real genuine equivariant QTop HI=IHC=T/2 versus full deck-chain HI=IHC=0; T223 multistage skeletal gap, T224 fixed-CW stability. G2 HHA novelty NOT PASSED; S095 higher attaching-coherence FUTURE.",
+  "selected_mathematical_problem": "NEW nonlinear actual equivariant homotopy persistence information beyond full modular group-ring chains, with nontrivial higher attaching-coherence theorem required for HHA G2.",
+  "headline_status": "S094_EQUIVARIANT_TOP_VS_FULL_GROUP_RING_CHAIN_GAP_INTERNAL__G2_NOT_PASSED__S095_FUTURE_SELF_STEERED",
+  "active_campaign": "S095 FUTURE actionable self-selected exact multi-stage lens-skeletal relative attaching-coherence interleaving theorem proof-or-kill; no routine owner choice; no background/Lean/publication authority.",
+  "claim_of_new_theorem": "T221–T224 internally proved special homotopy-vs-chain persistence gap; independent HHA-original nonroutine theorem NOT established; G2 NOT PASSED.",
   "stages": [
     {
       "id": 0,
@@ -1754,6 +1754,25 @@
     "last_completed_session": "S093",
     "next": "S094_FUTURE_UNEXECUTED",
     "g2": "NOT_PASSED",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED"
+  },
+  "s094_checkpoint": {
+    "date": "2026-10-17",
+    "entry_main": "ed430b0cd2bbb49e466a0806423fe4b9abcc734f",
+    "entry_tree": "210e1a1fc1fee57e4c547f787868fc2d71caab82",
+    "prior_governance_pr": 109,
+    "branch": "session/S094-lens-equivariant-top-vs-chain-gap",
+    "theorems": [
+      "T221_FpCp_CHAIN_ISO_LENS_ACTIONS",
+      "T222_EXACT_QTOP_HI=T/2_VS_CHAIN_HI=0",
+      "T223_SKELETAL_TOP_LOWER_CHAIN_ZERO",
+      "T224_ORBIT_WEIGHT_STABILITY"
+    ],
+    "g1": "INTERNAL",
+    "g2": "NOT_PASSED",
+    "sample_test": "p=5,13,17,29 unit inverses and nonsquare residues tested locally",
+    "next": "S095_FUTURE_UNEXECUTED_SELF_STEERED",
     "lean": "NOT_AUTHORISED",
     "publication": "NOT_AUTHORISED"
   }

@@ -4532,6 +4532,55 @@
         "SRC-0219"
       ],
       "scope": "DO NOT PROMOTE. G2 NOT PASSED: strong classical GH and Sep2026 equivariant HI collision; no nontrivial new reconstruction or HHA application established."
+    },
+    {
+      "id": "CLM-0462",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S094 T221: for p≡1 mod4 and nonsquare q, full reduced Fp[Cp]-cellular complexes of finite free Cp-actions on S3 quotient L(p,q) and L(p,1) are B-chain isomorphic in degrees 0..3, although quotients are not homotopy equivalent.",
+      "sources": [
+        "SRC-0220",
+        "SRC-0221"
+      ],
+      "scope": "Classical lens classification source-stated; explicit integral and local mod-p cell-boundary/B-unit proof internally written, NOT integral Z[Cp] chain iso."
+    },
+    {
+      "id": "CLM-0463",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S094 T222: actual based finite Cp-CW literal nested whole-real X→CX interval filtrations for lens non-square pair have exact dHI^QTop=dIHC^QTop=(b-a)/2, while full Fp[Cp] cellular chain dHI=dIHC=0 after whole-diagram quasi-isomorphism roofs; arbitrary whole-Q-WE both lanes covered.",
+      "sources": [
+        "SRC-0220",
+        "SRC-0222"
+      ],
+      "scope": "Comparison across DIFFERENT categories; Top HI=IHC here, no ordinary unpointed Top HI>IHC conclusion. Classic lens obstruction plus formal short pulse, not HHA novelty cleared."
+    },
+    {
+      "id": "CLM-0464",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S094 T223: true 1-,2-,3-skeleton plus cone nested Cp-CW filtrations have identical full FpCp chain persistence; genuine equivariant Top HI/IHC between unequal lens actions each ≥(d-c)/2 and ≤(d-a)/2.",
+      "sources": [
+        "SRC-0220"
+      ],
+      "scope": "Lower/upper bounds only, exact nontrivial 4-stage distance OPEN; no higher attaching obstruction theorem yet."
+    },
+    {
+      "id": "CLM-0465",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S094 T224: same final Cp-CW face-monotone orbit birth time perturbations each ≤h preserve top-to-chain HI gap ≥(b-a)/2-4h, or skeletal ≥(d-c)/2-4h.",
+      "sources": [
+        "SRC-0222"
+      ],
+      "scope": "Fixed actions and attachments; standard sublevel interleaving stability, not GH or action perturbation."
+    },
+    {
+      "id": "CLM-0466",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S094 nonlinear Cp lens persistence gap is a fully original nonroutine HHA-first-paper theorem suitable for Lean and submission.",
+      "sources": [
+        "SRC-0220",
+        "SRC-0221",
+        "SRC-0222"
+      ],
+      "scope": "DO NOT PROMOTE: classical lens linking forms + standard bar/filtration comparison, HHA G2 NOT PASSED; higher multiwindow attaching coherence still OPEN."
     }
   ]
 }

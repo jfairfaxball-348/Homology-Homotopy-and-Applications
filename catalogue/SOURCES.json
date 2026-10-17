@@ -1972,6 +1972,33 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "No theorem-by-theorem proof read",
       "observed": "Recent equivariant persistent invariant stability and complexity."
+    },
+    {
+      "id": "SRC-0220",
+      "title": "Kim, Simple homotopy theory for Fukaya categories, Journal of Topology 2026 Theorem 2.24 lens classification",
+      "url": "https://doi.org/10.1112/topo.70099",
+      "origin": "S094 official Wiley journal full-page inspection 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Theorem 2.24 and cellular lens-space construction statement read; full detailed proof not audited",
+      "observed": "L(p,q) homotopy equivalence iff qq' is ±square mod p; direct classical input and powerful originality collision."
+    },
+    {
+      "id": "SRC-0221",
+      "title": "Ranicki Algebraic and Geometric Surgery Example 8.45, lens homotopy classification",
+      "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/books/surgery.pdf",
+      "origin": "S094 inherited direct S093 original indexed excerpt",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original book indexed Example8.45 exact statement; full proof/page screenshot not reinspected",
+      "observed": "L(5,1) and L(5,2) are not homotopy equivalent."
+    },
+    {
+      "id": "SRC-0222",
+      "title": "Halder Sau Sen Equivariant Homotopy Interleaving and Persistent Whitehead Theorem v2 2026",
+      "url": "https://arxiv.org/abs/2609.23440",
+      "origin": "S094 inherited S093 direct original arXiv proof selection",
+      "access": "PROOF_INSPECTED",
+      "limitation": "S093 inspected selected Thm3.22/Thm4.20 proofs only; not full paper reread in S094",
+      "observed": "Genuine equivariant HI universality and persistent Whitehead theory already published; standard equivariant stability not original."
     }
   ]
 }

@@ -263,3 +263,6 @@ Actual owner Run next session, selected Option C, pin main 5e78686d2ad1df7d13c0a
 
 ### S093 — 17 October 2026 (INTERNAL completed)
 T217 genuine cyclic 2-power lens standard truncated resolution odd n>=3 iff derived nonzero norm ghost (n>=2 homology-invisible), T218 independent finite C2×C2 torus covering norm ghost, T219 all-real nested inclusion diagram exact B vs field persistence zero-distances, T220 same-K orbitwise h-stability. Independent finite 16+256+65536+256 checker arithmetic PASS. Original-source Halder–Sau–Sen v2/GH veto substantive novel HHA reconstruction significance; G2 NOT PASSED. No Lean/publication. S094 FUTURE OWNER_CHOICE_PENDING A/B/C; see sessions/S093/CLOSEOUT.md.
+
+## S094 — 17 October 2026
+Owner-directed self-steered proof-first genuine equivariant Top vs full modular Fp[Cp] chain persistence. INTERNAL T221 chain isomorphism for Cp lens action universal-cover cellular complexes (p≡1 mod4 nonsquare weight); T222 exact all-real TopHI=TopIHC=(b-a)/2 and group-ring chainHI=chainIHC=0; T223 multistage skeletal TopHI≥(d-c)/2 and chainHI=0; T224 same-CW independent orbit birth perturbation bound. Small-prime unit and nonsquare test PASS, not topological verification. First HHA G2 NOT PASSED; next S095 actionable higher attaching-coherence research self-selected; no Lean/publication.

@@ -499,3 +499,8 @@ SRC-0200 Dwyer–Kan–Smith original JPAA1989 publisher ABSTRACT_INSPECTED live
 
 ## S093 source additions
 SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theorems 3.22 and 4.20; SRC-0216 Lockridge JPAA2007, ABSTRACT_INSPECTED; SRC-0217 Hovey–Lockridge–Puninski MathZ2007, ABSTRACT_INSPECTED; SRC-0218 Adams et al 2024 persistent equivariant cohomology, ABSTRACT_INSPECTED; SRC-0219 Daundkar–Sarkar–Singh 2026 equivariant persistence topological complexity, ABSTRACT_INSPECTED. Exact URLs, access limitations and observed claims in SOURCES.json; no exhaustive citation audit.
+
+## S094 source ledger mirrors (2026-10-17)
+- **SRC-0220** [STATEMENT_INSPECTED] Kim, Simple homotopy theory for Fukaya categories, Journal of Topology 2026 Theorem 2.24 lens classification; https://doi.org/10.1112/topo.70099; Theorem 2.24 and cellular lens-space construction statement read; full detailed proof not audited
+- **SRC-0221** [STATEMENT_INSPECTED] Ranicki Algebraic and Geometric Surgery Example 8.45, lens homotopy classification; https://webhomes.maths.ed.ac.uk/~v1ranick/books/surgery.pdf; Original book indexed Example8.45 exact statement; full proof/page screenshot not reinspected
+- **SRC-0222** [PROOF_INSPECTED] Halder Sau Sen Equivariant Homotopy Interleaving and Persistent Whitehead Theorem v2 2026; https://arxiv.org/abs/2609.23440; S093 inspected selected Thm3.22/Thm4.20 proofs only; not full paper reread in S094
