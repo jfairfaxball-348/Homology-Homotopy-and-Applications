@@ -8,7 +8,7 @@
   "headline": "S093 internally classifies cyclic 2-power lens norm ghosts (odd positive length >=3 iff nonnull) and constructs independent finite C2×C2 torus norm ghost, exact three-clock field-forgetful persistence loss and orbitwise birth perturbation. Significant HHA originality NOT established; S094 OWNER_CHOICE_PENDING.",
   "selected_mathematical_problem": "Owner Option C finite deck-cover norm ghosts: S093 family-level INTERNAL theorem but no original reconstruction/detection of arbitrary filtrations; STOP current first-paper expansion pending owner route decision.",
   "headline_status": "S093_FINITE_CYCLIC_PARITY_AND_NONCYCLIC_GHOST_INTERNAL__HHA_G2_NOT_PASSED__S094_OWNER_CHOICE_PENDING",
-  "active_campaign": "STOP first-paper candidate pending S094 owner choice; retain classical-derived family results and original strict unpointed Top conjecture archived OPEN.",
+  "active_campaign": "S094 FUTURE ACTIONABLE owner research self-steering: prove-or-kill sharp whole-real equivariant Top-vs-FpQ cellular-chain interleaving loss from inequivalent finite lens covers; independent 2026 HHA novelty gate; no ordinary A/B/C request.",
   "claim_of_new_theorem": "T217-T220 INTERNAL hand proofs with finite independent checker, but not demonstrated novel or HHA significant. No Lean, peer review or publication.",
   "stages": [
     {
@@ -1744,6 +1744,16 @@
     "independent_finite_check": "B-linear 3term nullhomotopies=0, B-linear 2term=2, field 3term=8; computed independently but NOT formal or topological certification",
     "top": "OLD_ORDINARY_UNPOINTED_TOP_STRICT_OPEN_LONG_TERM",
     "next": "S093_FUTURE_UNEXECUTED",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED"
+  },
+  "owner_research_steering_20261017": {
+    "mandate": "Assistant chooses strongest research route to HHA-worthy original theorem without routine A/B/C questions; continue research across separately recorded sessions when user authorises, no background promise.",
+    "prospective_S094": "SHARP_EQUIVARIANT_LENS_HOMOTOPY_VS_MODULAR_GROUP_RING_CHAIN_INTERLEAVING_GAP",
+    "amendment": "GOVERNANCE_ONLY",
+    "last_completed_session": "S093",
+    "next": "S094_FUTURE_UNEXECUTED",
+    "g2": "NOT_PASSED",
     "lean": "NOT_AUTHORISED",
     "publication": "NOT_AUTHORISED"
   }
