@@ -308,3 +308,6 @@ The owner selected S089 closeout **B**: new independent finite-CW ordinary UNPOI
 
 ### S090 actual gates 17 October 2026
 New two-lane CP2/wedge candidate and all single-pulse/0-type classes give exact EQUALITY dHI=dIHC, NOT strict Top^R. Proved internal T210/T211/T212; no genuine 3–7-stage replacement-invariant relative higher obstruction candidate. G1 strict ordinary Top^R OPEN, old sphere Xu path OPEN, G2 HHA originality/significance NOT PASSED. No Lean, Palomar, paper or release. S091 FUTURE OWNER_CHOICE_PENDING.
+
+### S091 prospective Option A selected by owner — 17 October 2026, GOVERNANCE ONLY
+S090 G1 strict Top OPEN and HHA G2 NOT PASSED unchanged. Owner expressly selected S091 A: new 3–7-stage (unless more necessary) explicit finite-CW two-nonpoint-lane ordinary unpointed Top^R proof-or-kill, both full real WE zigzags and identities, source-exact higher relative obstruction/hostile priority check. This is NOT proof, G1/G2 pass, Lean readiness, publication permission or S091 execution. S090 remains completed and S091 FUTURE UNEXECUTED; next distinct owner instruction runs it without another A/B/C gate. Archived S090 closeout kept historically intact.

@@ -82,3 +82,6 @@ Original 2-local Top^R first target after proof-or-kill remains mathematically O
 
 ## S090 execution checkpoint (17 October 2026)
 Proof-first B new ordinary unpointed Top^R research ruled out one-pulse and CW 0-type witness architectures (T210/T212); obtained T211 homology-blind but equal homotopy metrics. Strict Top gap and G2 remain OPEN. S091 OWNER_CHOICE_PENDING A new high-coherence two-lane Top, B archived Xu exact bridge or C new HHA first-paper target; no automatic mathematics. Remain PROOF -> separately owner-approved LEAN -> separately approved PUBLICATION.
+
+## Owner-selected S091 Option A — prospective governance amendment 17 October 2026
+Keep S090 completed. S091 now directly targets original higher-coherence two-lane multistage finite-CW ordinary unpointed Top^R strict HI>IHC witness with complete derived, arbitrary both-lane strict exclusion and HHA G2 gate, NOT the S090 one-pulse/0-type no-go nor reopened Xu source comparisons. A new separate owner run starts only S091, not S092; no Lean, paper or external action is approved. G1 OPEN/G2 NOT PASSED. Full authority in NEXT_SESSION_PROMPT.
