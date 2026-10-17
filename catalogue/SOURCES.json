@@ -2215,6 +2215,15 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Full proof not inspected newly in S100.",
       "observed": "Full proof not inspected newly in S100."
+    },
+    {
+      "id": "SRC-0247",
+      "title": "Arakawa, Homotopy limits and homotopy colimits of chain complexes, JPAA 230(4) (2026), 108232",
+      "url": "https://doi.org/10.1016/j.jpaa.2026.108232",
+      "origin": "S101 publisher-indexed original article abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full mathematical paper and theorem proofs not read; homotopy colimits classical background.",
+      "observed": "Abstract and published metadata for bar/cobar Bousfield–Kan model."
     }
   ]
 }

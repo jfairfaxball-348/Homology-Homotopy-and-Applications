@@ -541,3 +541,6 @@ SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theore
 - **SRC-0245** [ABSTRACT_INSPECTED] Torras-Casas–Pennig AGT2024, https://doi.org/10.2140/agt.2024.24.4265. Author-university original repository abstract directly inspected; full proof not read.
 - **SRC-0246** [ABSTRACT_INSPECTED] Lanari–Scoccola AGT2023, https://doi.org/10.2140/agt.2023.23.803. Published article abstract/index directly inspected, no new proof audit.
 - **S099 JSON mirror repair:** SRC-0240..SRC-0243 were already declared in original S099 SOURCES.md and PRIOR_ART but absent from SOURCES.json; the existing IDs are now mirrored without changing earlier archival maths.
+
+## S101 newly logged primary abstract — 2026-10-17
+- **SRC-0247** [ABSTRACT_INSPECTED] Kensuke Arakawa, *Homotopy limits and homotopy colimits of chain complexes*, JPAA 230(4), 108232 (2026), https://doi.org/10.1016/j.jpaa.2026.108232. Original published abstract indexed and inspected; full 2026 proofs NOT read. Bousfield–Kan homotopy colimit construction predates generic chain descent. SRC-0244/0245/0240 retained and rechecked as limited-access primary listings.

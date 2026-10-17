@@ -1,0 +1,9 @@
+# S101 PLAN — pre-registered cover-sensitive proof-or-kill
+
+1. Specify the smallest rank-one side non-graph B fold with nonzero natural M, adjoin only the minimum K11 rank needed to repair S100 T242. Compute all A,B,M, K,C, delta_A, lambda_B, delta_K, lambda_K, E and exact Smith/rank conditions; refuse the unbalanced S100 T243 trap.
+2. Build a literal finite T-square (triple intersections only) with T10∩T01=T00 and no positive reduced homology except H1=B. Prove minimum top T dimension and exhibit a finite realisation achieving it.
+3. Independently construct an actual finite meet-exact 3D *complete-space* X square with the predicted H2/H3 of the proposed M, and check the full MV sequence and primitive top H3 lattice. Important: independently realisable T and X do NOT mean there is an admissible compatible labelled three-cover.
+4. Attack compatibility: enumerate U1/U2/U3, contractible overlaps, top-cell and cross-grade intersections. If unable, record as OPEN rather than call it an existence theorem. A canonical cone/suspension would require 4D at a 2D top triple, so it is NOT a 3D proof.
+5. Preregister exactly ONE fixed finite integer datum for Python/SymPy Smith and naturality checks. Arithmetic is not topological certification or exhaustive enumeration. Check independent direct rank arguments by hand.
+6. Read original publication/index abstracts in 2023/2024 persistent MV, 2026 homotopy colimits and equivariant persistent Whitehead; require genuine new cover-sensitive homotopy application before G2.
+7. Six-session dossier, mirrors, one authored commit / PR / ordinary merge if hosted checks succeed, S102 FUTURE handoff. No Lean or external actions.

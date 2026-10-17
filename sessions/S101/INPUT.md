@@ -1,0 +1,7 @@
+# S101 INPUT — fresh owner-authorised session, 17 October 2026
+
+Separate current user instruction: “Run next session”. It authorises S101 alone, not S102. Live main at entry `8ad1fe259c6de3c30a3cf416e7f8070a4b2fbced`, git tree `deee79b93251b8d04be71647ab72d3428945daaa`; prior S100 PR #117 was merged by ordinary two-parent commit with parents `55245c2d248c3492de6ae53fb212849997d8f714` and `feee57735eb2914dfc49e4725cfc591a8ea0e8e3`. Open pull-request search returned empty. Commit-status API returned no statuses, and pull-request-filtered workflow-run API returned none for the S100 *merge* SHA; neither absence implies CI success. Branch `session/S101-balanced-nongraph-fold-geometry` created from exact pinned SHA.
+
+Authority: AGENTS, STATE, NEXT_SESSION_PROMPT, SESSION_PROTOCOL, S005–S006 and S099–S100. Owner delegates scientific route choice, not unattended work. New S101 result MUST NOT assert a realised 3D cover unless actual labelled cells, all literal intersections and d2 are checked. No Lean, Palomar, manuscript, journal/arXiv, publication or third-party contact authority. Environment has GitHub connector for remote writes; container cannot resolve github.com to clone and run a full checked-out repository.
+
+Research verdict may be negative; primary objective is to distinguish full MV compatibility from cover-specific geometric coherence. Sources available through published original-page abstracts, not comprehensively audited primary proofs.

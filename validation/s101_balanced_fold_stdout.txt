@@ -1,0 +1,2 @@
+PASS one fixed natural non-graph fold datum: commutativity, Smith forms, K/C ranks and sharp MV balance
+B latching rank=1 < domain rank=2; E=Z, K11=Z; triple CW existence NOT checked
