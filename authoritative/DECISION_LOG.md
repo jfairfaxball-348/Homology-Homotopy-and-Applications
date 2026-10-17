@@ -532,3 +532,6 @@ Owner directed assistant to keep proof research across sessions and stop routine
 
 ## 2026-10-17 S096 governance-only sharpening (not execution)
 Owner's self-steering mandate applied to specify an exact falsifiable CP²/Hopf asymmetric 4-stage phase-diagram conjecture for S096 and explicitly audit Ginot–Leray 2019 higher multiplicative persistence and JACT2023 persistent cup modules. These are prior-art negatives, NOT proof or HHA novelty certification. S095 remains last executed; S096 future only; no downstream permission.
+
+## S096 actual proof-first self-steered decision — 17 October 2026
+Following last governance S096 prompt and fresh owner "Run next session", prove CP² vs wedge exact asymmetric ordinary Top^R phase law T228; generalise to stable order-p attachments T229; apply η² Steenrod-primary-invisible construction T230. All mathematical outcomes only INTERNAL and obey dHI=dIHC, NOT sought same-category strict separation. Preexisting Ginot–Leray 2019 / JACT2023 / Sept2026 original sources and formally inert extra wedge make HHA G2 NOT PASSED. Automatically choose FUTURE S097 paired secondary attaching indeterminacy route rather than ask A/B/C; no next numbered execution, Lean or publication now.

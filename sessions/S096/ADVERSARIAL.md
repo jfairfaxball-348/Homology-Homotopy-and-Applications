@@ -1,0 +1,11 @@
+# S096 ADVERSARIAL — independent failure tests and category controls
+
+- **False shortcut rejected:** "CP²→wedge necessarily constant." It can have nontrivial maps, but its H₂-degree must be zero. The lower bound uses precisely this necessary statement, no classification of all maps.
+- **Potential counterfeit upper:** extending identity S²→CP² across CP²→wedge is obstructed. We never construct such a map. At ε=d−b ALL divergent source stages have point shifted targets; at ε=(d−a)/2 every 2ε positive source is dead. The strict upper survives.
+- **Intermediate cut c:** cannot introduce an extra gap in this design, because the new cell is a FREE WEDGE and both explicit uppers ignore its attaching class. Therefore the queued "new two interacting attaching stages" objective FAILS in this control.
+- **Weak-equivalence trap:** lower bound uses functorial H_n(F_p) on (Ho Top)^R, so ALL objectwise weak-equivalence roofs of BOTH complete real diagrams are covered. No reliance on a chosen 0-stage or a particular cofibrant model.
+- **Stable class pitfall:** for general unstable α, degree-k action need not equal kα. T229 restricts to stable range m−1≤2n−2 and α of prime order. Do not generalise to η:S³→S² by claiming linear degree action; T228 separately proves CP² using integral cup square.
+- **η² invariant collision:** classic η² detected by secondary cohomology operations; the theorem uses only the attaching map, not a newly defined natural persistent secondary-operation functor. The "primary Steenrod invisibility" is a classical dimensional fact, not priority clearance.
+- **Nonempty points / empty before a:** constant interleavings must be only chosen on nonempty stages; maps from empty stages are unique. Every ordinary inclusion respects common basepoints. Maps TO empty stages cannot arise under nonnegative shifts from a nonempty source because the first birth is shared at a.
+- **Absolute clocks:** sampled rational clocks (0,1,2,4)→2, (0,4,9/2,5)→1, (0,1,2,10)→5; arithmetic diagnostic only, not a machine proof of topology or all-real naturality.
+- **G2 kill:** T228, T229, T230 all reduce to ONE relative attaching obstruction and an early/death two-option clock. No honest two-attaching-class coherence, no comparison with a complete persistent secondary operation including choice indeterminacies; first HHA gate FAIL_TO_CLEAR.

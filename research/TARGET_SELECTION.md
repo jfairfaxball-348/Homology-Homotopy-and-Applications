@@ -251,3 +251,6 @@ Select nonlinear **equivariant topological** persistence information invisible t
 
 ## S095 significance verdict (17 Oct 2026)
 Concrete nonlinear equivariant homotopy information is invisible even to entire Fp[Cp]-chain persistence for genuine 4-stage free-cover CW inclusions, with exact top=(d-c)/2 while chain=0. T225 proves parameter-general terminal full-cell detection window but is not independent HHA-original after primary 2026 extension/n-equivalence comparison. G2 NOT PASSED. S096 future assistant-selected genuinely interacting nonextendible relative attaching-map obstruction on coupled real diagrams; no rote clock/ring variants, no Lean until proof+G2.
+
+## S096 first-paper selection checkpoint
+Retain original desire for HHA-applicable homotopy result but REJECT CP² phase law or η² stable cofiber clock as immediate paper despite rigorous internally proven exact Top distances. Literature in multiplicative persistent distances and cochain interleavings has strong priority collisions; c is inessential. S097 self-selected coherent pairwise secondary attaching invariant plus genuinely new finite-CW application, or decisive proof-level kill and distinct next route. G2 NOT PASSED, no Lean.

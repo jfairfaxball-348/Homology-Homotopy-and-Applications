@@ -2017,6 +2017,51 @@
       "access": "SECONDARY_ONLY",
       "limitation": "Original full PDF proof not directly inspected in this session; numbers restated in secondary scholarly discussion",
       "observed": "Cellular map across n-cells extends if π_(n−1)(target)=0; equivariant free-orbit case follows by orbit translation."
+    },
+    {
+      "id": "SRC-0225",
+      "title": "Ginot and Leray, Multiplicative persistent distances (2019), arXiv:1905.12307",
+      "url": "https://arxiv.org/abs/1905.12307",
+      "origin": "S096 direct original arXiv abstract search 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Actual full paper proof and cited-by not inspected",
+      "observed": "Persistent cup, Steenrod, A-infinity interleaving distances already defined and compared."
+    },
+    {
+      "id": "SRC-0226",
+      "title": "Mémoli, Stefanou and Zhou, Persistent cup product structures and related invariants, JACT 2023",
+      "url": "https://doi.org/10.1007/s41468-023-00138-5",
+      "origin": "S096 original Springer HTML 2026-10-17",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Only selected Lemma 3.5 and Theorem 2 proofs plus stated Theorem1 and corollaries; not entire article",
+      "observed": "Persistent cup modules, cup length and category weak-homotopy stability under HI; stronger-than-homology examples."
+    },
+    {
+      "id": "SRC-0227",
+      "title": "Kuribayashi, Naito, Wakatsuki, Yamaguchi: Equalities of interleaving distances and cohomology interleavings of spaces over BS1, JACT 10 article26 2026",
+      "url": "https://doi.org/10.1007/s41468-026-00252-0",
+      "origin": "S096 original Springer HTML 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Theorem3.3/4.7 and projective-space discussion inspected; proof text not fully audited",
+      "observed": "Ch_K diagrams have dCohI=dHC=dIHC=dHI, complex-projective cohomology applications; different category from Top^R."
+    },
+    {
+      "id": "SRC-0228",
+      "title": "Higher Algebra and Stable Homotopy Groups, ICM 2026 invited lecture",
+      "url": "https://doi.org/10.1137/25M1824240",
+      "origin": "S096 original SIAM journal HTML table 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Stable stem π2 group table statement only, no proof",
+      "observed": "π_2^S is Z/2, consistent with eta squared stable generator."
+    },
+    {
+      "id": "SRC-0229",
+      "title": "Classical secondary operation detecting eta squared, 2022 MathOverflow reference to Mosher-Tangora",
+      "url": "https://mathoverflow.net/questions/433729/relation-between-cohomology-operations-and-the-adams-spectral-sequence",
+      "origin": "S096 2026-10-17 MathOverflow secondary scholarly source",
+      "access": "SECONDARY_ONLY",
+      "limitation": "Original Mosher Tangora Chapter17 Cor1 NOT inspected",
+      "observed": "Classical secondary operation Phi_1,1 detects eta squared, not S096 invention."
     }
   ]
 }

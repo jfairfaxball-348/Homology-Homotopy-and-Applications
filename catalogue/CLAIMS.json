@@ -4614,6 +4614,48 @@
         "SRC-0224"
       ],
       "scope": "DO NOT PROMOTE: standard Hatcher CW extension, 2026 G-n-equivalence and formal interval interleaving, G2 NOT PASSED; genuine asymmetric relative attaching higher obstruction still OPEN."
+    },
+    {
+      "id": "CLM-0470",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S096 T228 four-stage ordinary UNPOINTED Top^R CP2 vs S2 wedge S4, extra free S5 at c, exact all-real dHI=dIHC=min(d-b,(d-a)/2) for any a<b<c<d; graded integral persistent homology isomorphic.",
+      "sources": [
+        "SRC-0225",
+        "SRC-0226",
+        "SRC-0227"
+      ],
+      "scope": "Internal full proof via cup-square obstruction and two strict interleavings; c inert; neither novel secondary coupling nor HI>IHC."
+    },
+    {
+      "id": "CLM-0471",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S096 T229 in Freudenthal stable range nonzero prime-order stable attaching alpha yields same exact all-real ordinary Top HI/IHC phase law vs wedge and identical graded integral persistent homology.",
+      "sources": [
+        "SRC-0228"
+      ],
+      "scope": "n>=4, m>n+1, m-1<=2n-2, alpha exact prime order, fields F_p; standard degree annihilation and same clock; internal proof not HHA originality."
+    },
+    {
+      "id": "CLM-0472",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S096 T230 eta_n squared cofiber (n>=5) vs wedge with free later cell: all ordinary graded homology, cup and primary Steenrod persistent data isomorphic but ordinary Top HI=IHC=min(d-b,(d-a)/2)>0.",
+      "sources": [
+        "SRC-0228",
+        "SRC-0229"
+      ],
+      "scope": "Known stable pi2 stem and Sq3=Sq1 Sq2 plus degree absence; NOT a new functorial secondary operation or G2 pass."
+    },
+    {
+      "id": "CLM-0473",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S096 exact elementary attaching-clock phase law or eta-squared primary-Steenrod blindness alone gives independent HHA-original publishable mathematics.",
+      "sources": [
+        "SRC-0225",
+        "SRC-0226",
+        "SRC-0227",
+        "SRC-0229"
+      ],
+      "scope": "DO NOT PROMOTE: direct 2019/2023 multiplicative persistence overlaps and classic secondary detection; G2 NOT PASSED, no novel coupled attaching-class invariant."
     }
   ]
 }

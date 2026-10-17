@@ -1,0 +1,7 @@
+# S096 PLAN — preregistered mathematical proof-or-kill
+1. For all strictly ordered real a<b<c<d, compute the exact ordinary unpointed Top^R dHI and dIHC of CP2 versus S2∨S4 with an additional free S5 wedge at c, directly attacking every interleaving cut.
+2. Independently falsify any claimed extra effect from c, and any unwarranted strict dHI>dIHC. Handle arbitrary whole-diagram objectwise weak-equivalence zigzags using functorial cohomology.
+3. Replace primary cup-square attachment with a genuinely nontrivial stable attaching map alpha of prime order: build two homology-identical diagrams whose interleaving distinction is invisible to cup products. Test alpha=eta^2 and all primary Steenrod squares, prove rather than numerically presume.
+4. Hostile originality test with primary 2019 multiplicative persistence, JACT 2023 persistent cup modules and Sept-2026 cochain interleaving results; identify any classical relative extension which already implies our clock formula.
+5. If no genuinely coupled nonroutine secondary obstruction remains, mark HHA G2 NOT PASSED and self-steer S097 toward incompatible pair-of-attachments / secondary indeterminacy, rather than relabel a clock theorem.
+6. Deliver six-file dossier, claims and sources, full S097 future prompt, consistency check, one authored PR and ordinary merge. Finite arithmetic sampling is diagnostics only, not proof.

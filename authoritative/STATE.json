@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-17",
-  "last_completed_session": "S095",
-  "recommended_next_session": "S096",
+  "last_completed_session": "S096",
+  "recommended_next_session": "S097",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S095 INTERNAL T225–T227 complete sharp four-stage based QTop skeletal dHI=dIHC=(d-c)/2 vs full Fp[Cp] deck cellular-chain dHI=0; standard relative extension/2026 G-n-equivalence collision, G2 NOT PASSED; S096 asymmetric higher attaching FUTURE.",
-  "selected_mathematical_problem": "Prove original multiwindow relative attaching-map higher-coherence persistence obstruction NOT subsumed by mutual skeletal extension and classical CW clock formulas, for HHA fit.",
-  "headline_status": "S095_EXACT_EQUIVARIANT_SKELETAL_WINDOW_INTERNAL__G2_NOT_PASSED__S096_FUTURE_SELF_STEERED",
-  "active_campaign": "S096 FUTURE actionable self-steered asymmetric nonextendible relative Hopf/Whitehead higher attaching obstruction with full-real two-lane interleaving, or decisive kill; no routine A/B/C.",
-  "claim_of_new_theorem": "S095 T225/T226 exact general/common-skeletal lens Top-vs-B chain information loss internally proved; original HHA theorem still G2 NOT PASSED, no Lean.",
+  "headline": "S096 INTERNAL T228 exact CP2/wedge asymmetric Top dHI=dIHC=min(d-b,(d-a)/2); T229 stable order-p attaching family; T230 eta^2 invisible to graded homology, cup and primary Steenrod. Extra c wedge inert, G2 HHA NOT PASSED.",
+  "selected_mathematical_problem": "S097 genuinely coupled pairwise secondary attaching maps with full indeterminacy and nonformal HHA quantitative Top^R application, or decisive kill.",
+  "headline_status": "S096_ASYMMETRIC_HOPF_ETA2_PHASE_EXACT_INTERNAL__G2_NOT_PASSED__S097_FUTURE",
+  "active_campaign": "S097 FUTURE actionable self-steered two-nontrivial-attaching-class compatible secondary operation proof-or-kill, no routine A/B/C.",
+  "claim_of_new_theorem": "S096 T228–T230 proofs INTERNAL, no established first-paper originality; HHA G2 NOT PASSED; same-category ordinary Top HI>IHC remains OPEN.",
   "stages": [
     {
       "id": 0,
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__S093_INTERNAL_COVER_FAMILY_PROVED__ORIGINAL_HHA_THEOREM_NOT_IDENTIFIED"
+      "status": "IN_PROGRESS__S096_INTERNAL_TOPOLOGICAL_PHASE_PROVED__HHA_ORIGINALITY_NOT_CLEARED"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "G2_NOT_PASSED__2026_HALDER_SAU_SEN_EQUIVARIANT_HI_AND_CLASSICAL_DERIVED_GHOST_COLLISIONS"
+      "status": "G2_NOT_PASSED__PERSISTENT_MULTIPLICATIVE_2019_2023_AND_2026_COCHAIN_COLLISIONS"
     },
     {
       "id": 3,
