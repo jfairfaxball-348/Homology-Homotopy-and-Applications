@@ -629,3 +629,9 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - **CLM-0444 SOURCE_STATED:** Xu §5 explicitly has ordered <2,σ²,σ²,2>={θ4} nonzero with zero indeterminacy, π29^S_(2)=0; not a theorem about original Top^R persistence. Source SRC-0194.
 - **CLM-0445 INHERITED_UNVERIFIED:** Internal whole-real derived eta_F² and 5/4 clock/replacement setup remain plausibly valid but not independently full-refereed in S089; G1 strict conclusion not certified. Sources SRC-0194,SRC-0198.
 - **CLM-0446 INHERITED_UNVERIFIED:** G2 HHA priority/significance not passed; only bounded original-source audit and no full 2026 citing census; no Lean/publication. Sources SRC-0198,SRC-0199,SRC-0200.
+
+## S090 claims — 17 October 2026
+- CLM-0447 PROGRAMME_PROVED INTERNAL: T210 ordinary unpointed all-real two-lane single finite-CW pulse exact dHI=dIHC=0 or T/2 for all whole WEs of both inputs. SRC-0198,SRC-0200. Elementary, not novel paper.
+- CLM-0448 PROGRAMME_PROVED INTERNAL: T211 CP2 versus S2 wedge S4 same full integral persistent homology, dHI=dIHC=T/2 via cup square, not HI>IHC. SRC-0198. Not HHA-novel.
+- CLM-0449 PROGRAMME_PROVED INTERNAL: T212 any whole real CW 0-type diagrams dHI=dIHC=dSet(pi0), arbitrary both lanes/zigzags. SRC-0198,SRC-0200. CW openness essential.
+- CLM-0450 INHERITED_UNVERIFIED: strict Top gap OPEN; S089 five-sphere lower conditional, G2 HHA novelty not cleared, S091 owner choice pending. SRC-0198,SRC-0199,SRC-0200.

@@ -162,3 +162,6 @@ After S087 and Option A governance PR #97, S088 executed an internal cyclic 2-po
 
 ## S089 prospective Option B (owner "2"), 17 October 2026
 Governance-only amendment after completed S088: next S089 is an actionable mathematical proof-or-kill of the 2-local five-sphere ordered word in ordinary unpointed Top^R, not a decision-only repeat and not execution in this update. Crucial missing line is a well-typed all-secondary complete zero-system transport under both directions of whole-diagram WE to Xu's actual classical ordered fourfold bracket; S085 corrected S084 Kochman intermediate sphere-spectrum typing. G1 TOP OPEN, G2 HHA NOT PASSED, no Lean/publication. Existing coefficient results archived internal; full S089 in authoritative/NEXT_SESSION_PROMPT.md.
+
+## S090 current checkpoint (17 October 2026)
+S090 completed with T210/T212 elementary equality exclusions and T211 homology-blind but HI=IHC CP2/wedge example, NOT a strict Top^R proof. G1 TOP OPEN; G2 HHA NOT PASSED. S091 is FUTURE, UNEXECUTED, OWNER_CHOICE_PENDING A/B/C in authoritative/NEXT_SESSION_PROMPT.md. Proof first, separately authorised Lean second, publication last.

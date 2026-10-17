@@ -1,0 +1,11 @@
+# S090 ADVERSARIAL — independent exactness attacks
+
+- T210 negative t: domain empty for both maps; t=0 is nonterminal, epsilon=T/2 shifts only once within interval, but 2epsilon=T is POINT exactly; t=epsilon shifts to POINT. Correct half-open convention. All naturality squares between empty, nonempty and terminal are unique/constant. Both composite identities are strict.
+- For epsilon<T/2, phi_0 and phi_epsilon CAN be different maps on unrelated diagrams, but on P_X^T the identity structure arrows force equality in HoTop by naturality. Likewise psi. This is why a pair of non-mutual retractions cannot fake an IHC interleaving.
+- Whole-WE replacements: lower proof uses only IHC invariance, so ANY arbitrary backwards/forwards real replacement on BOTH lanes is covered, including nonmonic diagrams or contractible nonpoint models. Do not falsely claim the displayed point model itself is compulsory.
+- No based-category assumption: selecting a,b for constant ordinary unpointed maps is legitimate for nonempty CW. Disconnected A and B are allowed. If either were EMPTY the selected point would not exist, so nonemptiness is an essential hypothesis.
+- T211 H0 barcode [0,infinity) survives after terminal collapse; H2/H4 intervals are [0,T). Integral homology persistence IS naturally isomorphic. The CP2 cup square proves objectwise HOMOTOPY inequivalence, not a derived-vs-strict coherence gap.
+- T212 canonical pi0 projection to the DISCRETE component set is continuous because CW components are open. Without local path connectivity this may fail; higher pi_n of CP2 and wedge forbids using T212 there.
+- Equality for Set-valued diagrams holds with full arbitrary real indices and infima; proof uses a whole natural objectwise WE and pi0 descended to Ho(Top^R), NOT an arbitrary finite grid.
+- Independent falsification of the tempting statement "equal homology implies zero homotopy distance": T211 is explicit countermodel. It is NOT a counterexample to HI=IHC.
+- Classical DKS higher realization obstruction and 2023 LS Toda counterexamples to HC=HI remain serious priority context. No nonzero higher relative operation established for S090. No computation, Lean, mathematical CI or external referee was run; hosted integrity checks are not proof checks.

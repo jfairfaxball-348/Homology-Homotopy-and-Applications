@@ -246,3 +246,5 @@ Owner fresh "Run next session" executed queued Option A. Re-checked all-real pro
 
 
 |S089|2026-10-17|Owner-selected ordinary unpointed Top^R original five-sphere zero-bracket offensive, full-real both-lane hostile/source audit|New internal T209 finite-tree backward/forward WE five-chain simultaneous based replacement; **literal square-zero not preserved** by this process, Kochman typed final-face zero→Xu still MISSING. No strict countermodel, G1 TOP OPEN/G2 HHA NOT PASSED; no Lean/publication. |sessions/S089/CLOSEOUT.md; S090 FUTURE UNEXECUTED OWNER_CHOICE_PENDING|
+
+|S090|2026-10-17|Owner B independent finite-CW ordinary unpointed Top^R all-real two-lane strictness hunt|T210 internal single-pulse equality 0/T/2, T211 CP2/wedge identical homology but HI=IHC=T/2, T212 entire real CW 0-type Set equality; no HI>IHC witness, G1 OPEN/G2 NOT PASSED, no Lean or publication.|sessions/S090/CLOSEOUT.md; S091 FUTURE OWNER_CHOICE_PENDING|

@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-17",
-  "last_completed_session": "S089",
-  "recommended_next_session": "S090",
+  "last_completed_session": "S090",
+  "recommended_next_session": "S091",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S089 completed: finite tree-zigzag pointing lemma T209 internal; original five-sphere strict HI>IHC still OPEN and HHA G2 NOT PASSED. S090 owner-selected Option B seeks an independent ordinary unpointed Top^R finite-CW strict separation (FUTURE only).",
-  "selected_mathematical_problem": "17 Oct 2026 S089 closeout owner chose S090 OPTION B: NEW INDEPENDENT finite-CW original strict dHI>dIHC witness in ordinary UNPOINTED Top^R, ALL real, both whole objectwise WE zigzags; does NOT claim original five-sphere theorem solved or authorise category switch. Proof and HHA originality gates OPEN.",
-  "headline_status": "S089_COMPLETED__S090_OWNER_B_INDEPENDENT_TOPR_FUTURE_UNEXECUTED__G1_OPEN__G2_NOT_PASSED",
-  "active_campaign": "S090 future: owner-approved B construct-or-kill new independent finite-CW ordinary unpointed Top^R dHI>dIHC witness under arbitrary whole-real both-lane WE zigzags; execute only on NEXT separate Run next session. Preserve five-sphere OPEN/archived, not a CH(B_N) route.",
-  "claim_of_new_theorem": "S088 internal cyclic 2-power covering-space origin of reduced T206 ghost with dCohI=1/2<dIHC=dHI=1, forget deck action gives 1/2, finite CW/perfect impossible. Higher operations prior art; no G1 two-proof clearance or G2.",
+  "headline": "S090 completed: INTERNAL T210 one-pulse two-lane exact equality, T211 CP2 versus S2 wedge S4 identical integral persistent homology but equal HI/IHC=T/2, and T212 all-real CW 0-type pi0 equality. NO unpointed Top^R dHI>dIHC proof; G1 OPEN, G2 NOT PASSED; S091 OWNER_CHOICE_PENDING FUTURE.",
+  "selected_mathematical_problem": "S090 pursued independent finite CW ordinary unpointed Top^R HI>IHC, excluded two large architectures but achieved no strict witness. S091 owner strategy pending A/B/C.",
+  "headline_status": "S090_COMPLETED_INTERNAL_NO_GO_T210_T212_HOMOLOGY_BLIND_T211__TOP_STRICT_G1_OPEN_G2_NOT_PASSED__S091_OWNER_CHOICE_PENDING_FUTURE_UNEXECUTED",
+  "active_campaign": "S091 future OWNER_CHOICE_PENDING: owner to select A new 3-7-stage two-lane unpointed Top^R higher obstruction, B archived Xu five-sphere exact zero transport, or C retire strict near-term HHA target; amend same S091 prompt governance only before new research.",
+  "claim_of_new_theorem": "S090 INTERNAL mathematically elementary T210/T211/T212; NO strict HI>IHC, NO claim of literature-original or HHA-ready theorem.",
   "stages": [
     {
       "id": 0,
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__S089_G1_ORIGINAL_FIVE_SPHERE_OPEN__S090_OWNER_B_NEW_TOPR_WITNESS_FUTURE"
+      "status": "IN_PROGRESS__S090_ONE_PULSE_AND_ZERO_TYPE_TOP_NO_GO__G1_STRICT_OPEN"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "IN_PROGRESS__TOPR_HHA_G2_SOURCE_ORIGINALITY_NOT_PASSED"
+      "status": "IN_PROGRESS__S090_TOP_HHA_G2_NOT_PASSED"
     },
     {
       "id": 3,
@@ -1652,5 +1652,24 @@
     "hha_g2": "NOT_PASSED",
     "lean": "NOT_AUTHORISED",
     "publication": "NOT_AUTHORISED"
+  },
+  "s090_checkpoint": {
+    "date": "2026-10-17",
+    "entry_main": "6507fe4dad4a0ad801383a164ad33f0fb31a1094",
+    "entry_tree": "ae5abc3a2a0b3cf194ee7715a205360011c6d89d",
+    "branch": "session/S090-independent-finite-cw-top-two-lane",
+    "owner_route": "B_NEW_ORDINARY_UNPOINTED_TOP_TWO_LANE",
+    "math": "T210_EXACT_SINGLE_PULSE_TWO_LANE_EQUALITY_T211_CP2_WEDGE_HOMOLOGY_BLIND_T212_CW_0TYPE_PI0_EQUALITY",
+    "g1": "TOP_STRICT_OPEN",
+    "g2": "HHA_NOT_PASSED",
+    "result": "NO_STRICT_HI_GT_IHC_WITNESS",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED",
+    "next": "S091_FUTURE_UNEXECUTED_OWNER_CHOICE_PENDING",
+    "owner_options": [
+      "A_NEW_HIGHER_TWO_LANE",
+      "B_XU_SOURCE_EXACT",
+      "C_RETIRE_IMMINENT_STRICT"
+    ]
   }
 }
