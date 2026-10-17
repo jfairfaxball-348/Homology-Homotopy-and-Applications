@@ -305,3 +305,6 @@ G1 strict ordinary UNPOINTED Top^R whole-real both-lane five-sphere HI>IHC proof
 
 ### S090 prospective owner route B — 17 October 2026 (GOVERNANCE ONLY)
 The owner selected S089 closeout **B**: new independent finite-CW ordinary UNPOINTED `Top^R` strict `dHI>dIHC` witness in arbitrary ALL-REAL BOTH-WHOLE-WE lanes. S090 NOT EXECUTED; S089 remains last completed. Old specific 2-local sphere word remains G1 OPEN and UNREFUTED, S089 T209 limited to finite-zigzag based replacement with no literal square-zero preservation. No new mathematical theorem, G1 gate still OPEN; HHA source-based originality/significance G2 NOT PASSED, Lean NOT STARTED and all Palomar/paper/arXiv/HHA/external gates closed. This changes research PRIORITY only, not results or proof standards.
+
+### S090 actual gates 17 October 2026
+New two-lane CP2/wedge candidate and all single-pulse/0-type classes give exact EQUALITY dHI=dIHC, NOT strict Top^R. Proved internal T210/T211/T212; no genuine 3–7-stage replacement-invariant relative higher obstruction candidate. G1 strict ordinary Top^R OPEN, old sphere Xu path OPEN, G2 HHA originality/significance NOT PASSED. No Lean, Palomar, paper or release. S091 FUTURE OWNER_CHOICE_PENDING.

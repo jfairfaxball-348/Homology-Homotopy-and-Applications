@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-17",
   "claims": [
     {
       "id": "CLM-0001",
@@ -4378,6 +4378,46 @@
         "SRC-0200"
       ],
       "scope": "No expert independent originality certificate, no external submission."
+    },
+    {
+      "id": "CLM-0447",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S090 T210: for nonempty finite CW A,B and any T>0, whole-real equal-support one-pulse ordinary UNPOINTED Top^R diagrams have dHI=dIHC=0 if A and B WE, else T/2; lower excludes arbitrary two-whole-lane objectwise-WE zigzags.",
+      "sources": [
+        "SRC-0198",
+        "SRC-0200"
+      ],
+      "scope": "INTERNAL elementary proof; not novel HI>IHC or HHA gate."
+    },
+    {
+      "id": "CLM-0448",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S090 T211: CP2 Hopf attaching versus S2 wedge S4 trivial attaching gives identical full real graded integral persistent homology and zero homology metric, but dHI=dIHC=T/2 for any T>0 by cup-square and T210.",
+      "sources": [
+        "SRC-0198"
+      ],
+      "scope": "INTERNAL textbook cup-product application, HOMOLOGY vs HOMOTOPY not HI vs IHC."
+    },
+    {
+      "id": "CLM-0449",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S090 T212: any R diagrams of CW complexes with weakly contractible components, allowing empty stalks, satisfy dHI=dIHC=dSet(pi0F,pi0G) via entire natural objectwise WE to discrete components and pi0 functor on Ho(Top^R).",
+      "sources": [
+        "SRC-0198",
+        "SRC-0200"
+      ],
+      "scope": "INTERNAL categorical 0-type equality, not pathological non-CW or general positive-homotopy type."
+    },
+    {
+      "id": "CLM-0450",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S090 did NOT prove or refute existence of ordinary unpointed Top^R strict dHI>dIHC finite-CW witness; earlier five sphere Xu route still source comparison OPEN. HHA G1/G2 not passed, no Lean or publication; S091 owner selection pending.",
+      "sources": [
+        "SRC-0198",
+        "SRC-0199",
+        "SRC-0200"
+      ],
+      "scope": "G1/G2 open, no new category switch or external action."
     }
   ]
 }

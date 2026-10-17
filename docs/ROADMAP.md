@@ -79,3 +79,6 @@ S078 internal structural theorem T202: for EVERY integer N>=4, right Ch(B_N), B_
 
 ### S085 owner conditional B roadmap
 Original 2-local Top^R first target after proof-or-kill remains mathematically OPEN, not disproved. Explicit owner 'A , If that fails b' approved B if A not closed; S085 did not close A. S086 FIRST independently referee S078 T202–T204 all-real right Ch(F2[t]/t^N)^R nonsemisimple gap and semisimple equality boundary, SECOND independent HHA novelty/usefulness gate. No general nonsemisimple converse, no claim old cyclic m_N original. Proof first, then separately authorised Lean, then publication.
+
+## S090 execution checkpoint (17 October 2026)
+Proof-first B new ordinary unpointed Top^R research ruled out one-pulse and CW 0-type witness architectures (T210/T212); obtained T211 homology-blind but equal homotopy metrics. Strict Top gap and G2 remain OPEN. S091 OWNER_CHOICE_PENDING A new high-coherence two-lane Top, B archived Xu exact bridge or C new HHA first-paper target; no automatic mathematics. Remain PROOF -> separately owner-approved LEAN -> separately approved PUBLICATION.

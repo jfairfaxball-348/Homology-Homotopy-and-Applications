@@ -229,3 +229,6 @@ S079 OWNER_DECISION_ONLY completed 16 Oct 2026 with OWNER CHOICE NOT YET CHOSEN.
 
 ### S086 prospective first paper position
 B_N first-paper category owner-approved conditionally after failed-to-close A. Original Top^R A archived OPEN. New explicit truncation coefficient-dependence T205 is mathematically concrete but no externally established original HHA-level application; no G2. S087 must decisively sign off all-real proof and independently position against original classical rectification, or seek owner steering if no publishable advance.
+
+## S090 candidate ruling (17 Oct 2026)
+Original owner new finite CW two-nonpoint-lane route: CP2 versus S2 wedge S4 is homology-blind but dHI=dIHC, not HHA-original. General one-pulse and 0-type multistage candidates provably equal metrics by T210/T212. The requested explicit 3–7-stage higher homotopy rectification invariant was NOT constructed. HHA G1/G2 OPEN. Next S091 strategy OWNER_CHOICE_PENDING A continue deeper new two-lane Top, B original Xu bridge, C retire strict near-term target. No authorisation for later stages.
