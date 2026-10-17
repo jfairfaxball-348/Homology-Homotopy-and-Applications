@@ -186,3 +186,6 @@ Finite indexing J zigzag tree, I=[4]. Homotopy-limit nonempty construction and p
 
 ### CAM-0090 — symbolic all-real no-go proofs ONLY, no computation
 Scope: all T>0 and nonempty finite CW single pulse A,B on BOTH whole real lanes, any epsilon, arbitrary WE zigzags; all real CW 0-type two-lane persistence. T210 explicit point-selected strict epsilon=T/2 maps and evaluation at times 0,epsilon,2epsilon for lower. T211 CP2 versus wedge cup-square and all graded persistent integral homology. T212 CW open components and pi0 metric sandwich. Analytic proof only; NO enumeration/code execution/environment output/hash/formal checker. Hosted eight-step static governance CI does NOT certify mathematics.
+
+### S094 campaign — genuine equivariant Q-Top versus full FpQ chains
+Proof-first INTERNAL T221–T224 finite Cp lens action examples: real Q-Top sharp HI distance half pulse versus Q-chain HI=0, skeletal case lower/upper and perturbation. Classical lens linking + pulse architecture HHA G2 NOT PASSED; S095 future nontrivial skeletal attaching-coherence proof-or-kill selected automatically under owner steering; no Lean, paper or publication.

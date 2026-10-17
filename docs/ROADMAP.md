@@ -98,3 +98,6 @@ INTERNAL finite C2 antipodal genuine CW ghost and nested filtration proof T215/T
 
 ## S093 decision checkpoint (17 October 2026)
 Proof-first internal restricted genuine finite-cover norm families achieved; independent original HHA novelty/significance NOT PASSED. No Lean/Palomar/manuscript/arXiv/HHA permission. S094 FUTURE OWNER_CHOICE_PENDING: A new nonroutine cover reconstruction, B old ordinary unpointed Top strict proof, C pause HHA first-paper campaign (recommended). No generic owner run silently selects route.
+
+## After S094 — new nonlinear equivariant persistence direction, G2 not cleared
+T221–T224 compare based Cp-Top vs full Fp[Cp] chain persistence on honest lens covers: sharp T/2 versus 0 on finite pulse and multistage lower/upper. Mathematical core internal G1, novelty G2 NOT PASSED. S095 future self-selected full-real skeletal attaching-coherence exact-distance proof-or-kill; if classical recapitulation, pivot to a truly higher relative invariant without owner route-choice questions. Proof first, separate Lean, separate publication.

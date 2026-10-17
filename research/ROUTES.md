@@ -349,3 +349,6 @@ Architecture A C4/C2 finite lens-cover residual action: d2=0/d3=t mod2, norm t d
 
 ### S093 finite cover ghost route — archived pending owner choice
 INTERNAL: odd-length (>=3) cyclic 2-power truncated spherical lens positive cells yield derived-nonzero deck norm; even lengths null; noncyclic C2×C2 torus produces independent two-term nonnull derived norm; exact three-clock B/field zero-distance loss and same-K birth stability. General cover reconstruction, Q-action recovery, changed-attachment noise and novel HHA theorem remain OPEN/NOT PROVEN. Source priority G2 NOT PASSED; freeze further incremental development and request S094 A/B/C owner choice.
+
+### S094 nonlinear lens-cover Top-vs-chain route
+Actual finite based Cp-CW filtration from free sphere actions with L(p,1) vs L(p,q), q nonsquare p≡1 mod4: full Fp[Cp] cellular chain diagrams naturally QI-isomorphic, but Q-equivariant homotopy dHI exact T/2 in simple pulse; multistage 1/2/3 skeleta bounded TopHI≥(d-c)/2 and ChHI=0. Classical linking form is essential, not another norm-ghost ring test. HHA G2 NOT PASSED, need real multiwindow relative homotopy operation; install S095 future actionable proof-or-kill.
