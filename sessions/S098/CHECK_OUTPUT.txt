@@ -1,0 +1,6 @@
+GL2 order: 6 group matrices: [(0, 1, 1, 0), (0, 1, 1, 1), (1, 0, 0, 1), (1, 0, 1, 1), (1, 1, 0, 1), (1, 1, 1, 0)]
+F2[x,y]_3 orbit decomposition masks x3,x2y,xy2,y3: [[0], [1, 8, 15], [2, 3, 4, 5, 10, 12], [6], [7, 9, 14], [11, 13]]
+Triple cyclic kernel: [0, 6]
+mixed GL2 orbit: [6]
+H² mod2 dimensions, k=0 and k=mixed: 4 3
+Integral H2 structure (from Serre + UCT): (Z/2)^2 Z/4

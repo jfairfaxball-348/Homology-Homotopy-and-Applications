@@ -4704,6 +4704,62 @@
         "SRC-0233"
       ],
       "scope": "NOT PROVED; possible Sq4 detects parity, no independent HHA G2 originality audit, original Top HI>IHC OPEN."
+    },
+    {
+      "id": "CLM-0479",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S098 T234 k=x²y+xy²∈H³(B(C2²);F2) nonzero globally, trivial on each order-two cyclic subgroup, fixed under all GL2(F2), equal primary Sq¹(xy).",
+      "sources": [
+        "SRC-0235"
+      ],
+      "scope": "Direct polynomial/cochain argument and finite GL2 enumeration; standard H*(B(C2²);F2) input, no HHA originality."
+    },
+    {
+      "id": "CLM-0480",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S098 T235 explicit simplicial finite-in-each-degree cochain path pullback realises 2-type with π1=C2²,π2=F2,k; finite CW 4-skeleton retains π1,π2,k but may add π4 and higher.",
+      "sources": [
+        "SRC-0235",
+        "SRC-0236"
+      ],
+      "scope": "Depends on classical simplicial cochain path-fibration facts, not a checked independent enumeration of all nondegenerate cells."
+    },
+    {
+      "id": "CLM-0481",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S098 T236 finite 4-skeleta X0 and Xmixed have distinct integral H2 groups (C2)^2 and C4 from mod2 Serre transgression, integral d3 vanishing Bockstein and UCT.",
+      "sources": [
+        "SRC-0235",
+        "SRC-0239"
+      ],
+      "scope": "Standard Serre and UCT mathematical derivation; Hatcher original proof not inspected, no Lean/compiler verification."
+    },
+    {
+      "id": "CLM-0482",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S098 T237 all cyclic-restricted mixed 2-types are split but globally integral H2 and primary Sq1 on xy distinguish zero vs mixed, refuting identical integral persistent homology pair.",
+      "sources": [
+        "SRC-0235",
+        "SRC-0238"
+      ],
+      "scope": "Local-to-global classical cohomological phenomenon; no quantitative Top^R interleaving bound or HHA G2."
+    },
+    {
+      "id": "CLM-0483",
+      "status": "COMPUTED_EXACT",
+      "claim": "S098 16 homogeneous F2 cubics and six invertible GL2 matrices have 6 orbits; simultaneous three-cyclic restriction kernel {mask0,mask6}, mask6 fixed.",
+      "sources": [],
+      "scope": "Finite arithmetic only; observed local stdout hash a2e93140188339843f1e847c52e25c37dd01c2011d639d75f7175f0f8dce6935; not mathematical topology proof or CI proof."
+    },
+    {
+      "id": "CLM-0484",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S098 k=x²y+xy² and zero provide novel HHA-worthy integral-homology and primary-operation-invisible quantitative persistence strictness.",
+      "sources": [
+        "SRC-0237",
+        "SRC-0238"
+      ],
+      "scope": "REFUTED for specified comparator: integral H2 differs and k=Sq1(xy); no all-real metric proof, no novelty gate."
     }
   ]
 }

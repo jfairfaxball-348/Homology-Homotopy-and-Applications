@@ -361,3 +361,6 @@ Exact dHI=dIHC=min(d−b,(d−a)/2) for CP²/wedge and stable p-order α cofiber
 
 ### S097 paired eta² cofiber lifts — mathematical substructure, NOT first-paper route
 T231 kills independent attachments to old K. T232 true nontrivial compositional eta² then beta degree2 is marked Z/12 lift torsor. T233 coaction shears give whole-diagram equivalences for k→k+2j, leaving at most 2 unmarked choices; potential Sq4 primary detection. No HHA-level secondary-persistent application or same-category Top HI>IHC. This route RETIRED for current flagship; next S098 mixed pi1/π2 Postnikov k-invariant finite-CW quantitative persistence, with early classical/2026 veto.
+
+### S098 — genuine finite Postnikov local/global phenomenon, no HHA first-paper theorem
+For G=C2², A=F2 trivial action, mixed k=xy(x+y) fixed under all GL2, globally nonzero but restricted zero on all three C2s. Standard simplicial cochain fibration yields finite CW 4-skeleton retaining pi1/pi2/k, not full finite 2-type. However k=Sq1(xy), and Serre/UCT reveals H2Z(X0)=(C2)^2 vs H2Z(Xk)=C4, so no equality of integral persistent homology and no primary-blind Top distance theorem. S099 FUTURE self-selected finite 2-type orbit collision and genuinely coupled temporal transport proof-or-kill, with early classical no-go and finite geometric fallback.

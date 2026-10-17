@@ -538,3 +538,6 @@ Following last governance S096 prompt and fresh owner "Run next session", prove 
 
 ## S097 actual self-steered proof-or-kill — 17 October 2026
 One S097 triggered by owner "Run next session", with no owner A/B/C solicitation. Mathematically genuine coupling beta into first eta² cofiber yields a marked Z/12 lift set, but stable coaction produces full-diagram WE shears identifying all even translates; no non-clock Top^R HI theorem and possible primary Sq4 witness. G2 NOT PASSED. Retire as near-term first HHA route; assistant chooses distinct mixed C2×C2 Postnikov 2-type k-invariant and FINITE CW truncations for prospective S098. Only FUTURE prompt installed, not executed; no Lean/publication authority.
+
+## S098 — mathematically decisive finite mixed Postnikov comparison, 17 October 2026
+Owner fresh research invocation authorised exactly S098. T234–T237 establish genuine global κ=xy(x+y) trivial on each C2, finite CW 4-skeleton retaining k, and fatal ordinary H2 mismatch ((C2)^2 vs C4), plus primary Sq1 detection. Consequently no homology-blind secondary Top metric theorem or HHA G2 pass. Retire this comparator and self-select finite automorphism-orbit collisions and genuine two-transition transport as S099 FUTURE. No routine A/B/C, Lean or publication.

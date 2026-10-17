@@ -522,3 +522,10 @@ SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theore
 - **SRC-0232** Basu et al., Note on Toda brackets, Journal of Homotopy and Related Structures; https://doi.org/10.1007/s40062-020-00264-2; **ABSTRACT_INSPECTED**. Original mathematical proofs not accessible in this pass
 - **SRC-0233** Kuribayashi et al., A distance between maps via interleavings of relative Sullivan algebras, 2026; https://arxiv.org/abs/2604.06800; **ABSTRACT_INSPECTED**. Original full paper and proof not read
 - **SRC-0234** MathOverflow explicit framed bordism eta cubed relation referenced in subsequent question; https://mathoverflow.net/questions/459946/explicit-framed-null-bordism-realizing-eta-nu-0-in-stable-homotopy-group-of-spheres; **SECONDARY_ONLY**. Independent research paper proof not inspected
+
+## S098 sources — 17 October 2026
+- **SRC-0235** Kerodon §3.5.8 Postnikov Towers; https://kerodon.net/tag/055K; **STATEMENT_INSPECTED**. Original proof-level audit incomplete; access not overstated.
+- **SRC-0236** Twisting functions, twisted cartesian products (arxiv 2512.14084v2); https://arxiv.org/html/2512.14084v2; **ABSTRACT_INSPECTED**. Original proof-level audit incomplete; access not overstated.
+- **SRC-0237** Kuribayashi et al 2026 relative Sullivan/Postnikov maps; https://arxiv.org/abs/2604.06800; **STATEMENT_INSPECTED**. Original proof-level audit incomplete; access not overstated.
+- **SRC-0238** Ginot and Leray persistent multiplicative distances; https://arxiv.org/abs/1905.12307; **ABSTRACT_INSPECTED**. Original proof-level audit incomplete; access not overstated.
+- **SRC-0239** Hatcher Spectral Sequences author PDF; https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf; **METADATA_ONLY**. Original proof-level audit incomplete; access not overstated.
