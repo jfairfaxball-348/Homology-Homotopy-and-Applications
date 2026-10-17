@@ -355,3 +355,6 @@ Actual finite based Cp-CW filtration from free sphere actions with L(p,1) vs L(p
 
 ### S095 exact four-stage top-vs-B-chain route
 T225 mutual maps fixing common Q-skeleton K between inequivalent finite based Q-CW X,Y -> exact full-real QTop HI=IHC=(d-c)/2 for terminal full stage [c,d). All earlier shared skeletal birth dates irrelevant; strict shift maps use relative extensions and no full gf=id. T226 lens S3 Cp actions common 2-sk and π2=0, chain Fp[Cp] persistence isomorphic, so exact sharp gap. But theorem appears formal from standard extension/clock and G2 is NOT PASSED. Shift to asymmetric extension obstruction/secondary operations S096 FUTURE.
+
+### S096 ordinary Top asymmetric Hopf/η² exact phase: internally proved, HHA novelty FAIL
+Exact dHI=dIHC=min(d−b,(d−a)/2) for CP²/wedge and stable p-order α cofibers versus wedges with extra free cell at c. η² case is invisible to ordinary persistent homology, cup and PRIMARY Steenrod operations; nevertheless static attaching degree obstruction + classical strict clock completely determines metric. No true two-class higher coherence and G2 NOT PASSED. S097 seeks incompatible paired attaching choices; no automatic formalisation.

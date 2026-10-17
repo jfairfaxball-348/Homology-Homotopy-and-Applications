@@ -269,3 +269,6 @@ Owner-directed self-steered proof-first genuine equivariant Top vs full modular 
 
 ## S095 — 17 October 2026
 INTERNAL T225 generic inequivalent X,Y based Q-CW with same finite lower skeletal filtration K and actual relative K-fixing mutual equivariant maps => exact dHI^QTop=dIHC=(d-c)/2 independent earlier birth times; full-real both arbitrary-WE lanes, both strict identities. T226 genuine Cp lens action 1/2/3 skeletal filtrations have exact full four-stage (d-c)/2 versus full group-ring Fp[Cp] chainHI=chainIHC0. T227 fixed-CW orbitweight stability. 2026 G-n-equivalence plus classical extension/lens classification novelty collision, G2 NOT PASSED. S096 FUTURE self-steered asymmetric higher attaching-coherence pursuit, not Lean or publication.
+
+## S096 — 17 October 2026
+INTERNAL T228 CP² vs S²∨S⁴ four-stage ordinary unpointed Top^R exact dHI=dIHC=min(d−b,(d−a)/2), whole real/all objectwise-WE two lanes; c free S⁵ wedge inert. T229 stable prime-order α attaches yields exact analogous formula, T230 η² stages invisible to integral graded homology, cup and primary Steenrod module. Classical nonextension+clock, 2019/2023/2026 persistent multiplicative priority collisions, G2 NOT PASSED. S097 FUTURE paired higher attaching indeterminacy proof-or-kill. No Lean/paper.

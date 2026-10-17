@@ -508,3 +508,10 @@ SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theore
 ## S095 source mirror (2026-10-17)
 - **SRC-0223** [STATEMENT_INSPECTED] Geometric Invariants of Locally Compact Groups: The Homotopical Perspective, Transformation Groups (2026), Definition 4.8, Lemma 4.9, https://doi.org/10.1007/s00031-026-09942-6. Definition4.8 Lemma4.9 and selected proof displayed; complete paper proof chain not audited
 - **SRC-0224** [SECONDARY_ONLY] Hatcher Algebraic Topology CW extension Lemma 4.7 and relative cellular approximation Theorem 4.8, https://pi.math.cornell.edu/~hatcher/AT/AT.pdf. Original full PDF proof not directly inspected in this session; numbers restated in secondary scholarly discussion
+
+## S096 source mirror (2026-10-17)
+- **SRC-0225** [ABSTRACT_INSPECTED] Ginot and Leray, Multiplicative persistent distances (2019), arXiv:1905.12307; https://arxiv.org/abs/1905.12307. Actual full paper proof and cited-by not inspected
+- **SRC-0226** [PROOF_INSPECTED] Mémoli, Stefanou and Zhou, Persistent cup product structures and related invariants, JACT 2023; https://doi.org/10.1007/s41468-023-00138-5. Only selected Lemma 3.5 and Theorem 2 proofs plus stated Theorem1 and corollaries; not entire article
+- **SRC-0227** [STATEMENT_INSPECTED] Kuribayashi, Naito, Wakatsuki, Yamaguchi: Equalities of interleaving distances and cohomology interleavings of spaces over BS1, JACT 10 article26 2026; https://doi.org/10.1007/s41468-026-00252-0. Theorem3.3/4.7 and projective-space discussion inspected; proof text not fully audited
+- **SRC-0228** [STATEMENT_INSPECTED] Higher Algebra and Stable Homotopy Groups, ICM 2026 invited lecture; https://doi.org/10.1137/25M1824240. Stable stem π2 group table statement only, no proof
+- **SRC-0229** [SECONDARY_ONLY] Classical secondary operation detecting eta squared, 2022 MathOverflow reference to Mosher-Tangora; https://mathoverflow.net/questions/433729/relation-between-cohomology-operations-and-the-adams-spectral-sequence. Original Mosher Tangora Chapter17 Cor1 NOT inspected

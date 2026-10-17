@@ -330,3 +330,6 @@ G1 INTERNAL established exactly typed based Cp-Top versus Ch(FpCp) persistent me
 
 ### S095 complete internal sharp four-stage theorem (17 Oct 2026)
 G1 proof internally T225–T227 actual finite equivariant CW, real objectwise Q-WE both-lane metric and exact QTop window. Lens 1/2/3-skeletal full B-linear diagram chain-equivalent but top metric=(d-c)/2. No strict same-category ordinary unpointed Top HI>IHC. G2 originality/significance NOT PASSED: Hatcher extension, 2026 G-n-equivalence, 2026 equivariant HI, lens linking and formal terminal-window lemma. No freeze, Lean, Palomar, paper, arXiv or HHA. Future S096 asymmetric relative extending-map higher obstruction target self-selected.
+
+### S096 exact asymmetric phase + η² secondary control — 17 Oct 2026
+G1 INTERNAL for T228–T230 ordinary unpointed Top^R equality dHI=dIHC and homology/cup/primary Steenrod blindness, NOT original Top strict HI>IHC. G2 HHA NOT PASSED: extra c-stage is free wedge/inert; standard attaching nonextension clock and existing persistent cup/A∞/Steenrod work already overlap. No novel choice-compatible secondary persistence invariant, no independent external referee, no Lean/formalisation/release. S097 self-selected genuine pairwise coherent secondary obstruction, FUTURE only.
