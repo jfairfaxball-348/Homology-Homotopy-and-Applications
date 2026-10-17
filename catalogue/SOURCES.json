@@ -1999,6 +1999,24 @@
       "access": "PROOF_INSPECTED",
       "limitation": "S093 inspected selected Thm3.22/Thm4.20 proofs only; not full paper reread in S094",
       "observed": "Genuine equivariant HI universality and persistent Whitehead theory already published; standard equivariant stability not original."
+    },
+    {
+      "id": "SRC-0223",
+      "title": "Geometric Invariants of Locally Compact Groups: The Homotopical Perspective, Transformation Groups (2026), Definition 4.8, Lemma 4.9",
+      "url": "https://doi.org/10.1007/s00031-026-09942-6",
+      "origin": "S095 original Springer journal HTML direct inspection 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Definition4.8 Lemma4.9 and selected proof displayed; complete paper proof chain not audited",
+      "observed": "G-n-equivalences from free G-CW spaces and homotopies agreeing on lower skeleta; priority collision with relative extension ingredient."
+    },
+    {
+      "id": "SRC-0224",
+      "title": "Hatcher Algebraic Topology CW extension Lemma 4.7 and relative cellular approximation Theorem 4.8",
+      "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+      "origin": "S095 scholarly discussion of numbered standard textbook result 2026-10-17",
+      "access": "SECONDARY_ONLY",
+      "limitation": "Original full PDF proof not directly inspected in this session; numbers restated in secondary scholarly discussion",
+      "observed": "Cellular map across n-cells extends if π_(n−1)(target)=0; equivariant free-orbit case follows by orbit translation."
     }
   ]
 }

@@ -4581,6 +4581,39 @@
         "SRC-0222"
       ],
       "scope": "DO NOT PROMOTE: classical lens linking forms + standard bar/filtration comparison, HHA G2 NOT PASSED; higher multiwindow attaching coherence still OPEN."
+    },
+    {
+      "id": "CLM-0467",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S095 T225: finite based genuine Q-CW whole-real two-lane diagrams with IDENTICAL earlier skeletal filtration K_i, inequivalent full objects X,Y on [c,d), and actual Q-maps each way fixing common K satisfy exact QTop dHI=dIHC=(d-c)/2 under both full real arbitrary objectwise Q-WE zigzags.",
+      "sources": [
+        "SRC-0223",
+        "SRC-0224"
+      ],
+      "scope": "Relative two-direction map hypothesis essential; formal terminal-window upper, evaluation lower; not arbitrary nonskeletal multi-lane diagram, not new HHA originality."
+    },
+    {
+      "id": "CLM-0468",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S095 T226: Cp sphere actions whose quotient lenses L(p,1),L(p,q) differ by nonsquare q for p≡1 mod4 share free lifted 2-skeleton, and mutually extend identity across free 3-cell orbits because π2(S3)=0; exact four-stage Top HI=(d-c)/2 while full Fp[Cp] cellular chain diagrams have HI=IHC=0.",
+      "sources": [
+        "SRC-0220",
+        "SRC-0223",
+        "SRC-0224"
+      ],
+      "scope": "All real clock a<b<c<d; B-unit chain isomorphism inherited T221; no ordinary unpointed same-category strict HI>IHC."
+    },
+    {
+      "id": "CLM-0469",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S095 generic relative skeleton exact window formula and lens chain-blind application constitute a sufficiently original HHA first-paper theorem and justify Lean/paper staging.",
+      "sources": [
+        "SRC-0220",
+        "SRC-0222",
+        "SRC-0223",
+        "SRC-0224"
+      ],
+      "scope": "DO NOT PROMOTE: standard Hatcher CW extension, 2026 G-n-equivalence and formal interval interleaving, G2 NOT PASSED; genuine asymmetric relative attaching higher obstruction still OPEN."
     }
   ]
 }

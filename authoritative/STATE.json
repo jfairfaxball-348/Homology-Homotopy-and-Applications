@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-17",
-  "last_completed_session": "S094",
-  "recommended_next_session": "S095",
+  "last_completed_session": "S095",
+  "recommended_next_session": "S096",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S094 INTERNAL T221 full Fp[Cp] lens-cover cellular chain isomorphism; T222 sharp all-real genuine equivariant QTop HI=IHC=T/2 versus full deck-chain HI=IHC=0; T223 multistage skeletal gap, T224 fixed-CW stability. G2 HHA novelty NOT PASSED; S095 higher attaching-coherence FUTURE.",
-  "selected_mathematical_problem": "NEW nonlinear actual equivariant homotopy persistence information beyond full modular group-ring chains, with nontrivial higher attaching-coherence theorem required for HHA G2.",
-  "headline_status": "S094_EQUIVARIANT_TOP_VS_FULL_GROUP_RING_CHAIN_GAP_INTERNAL__G2_NOT_PASSED__S095_FUTURE_SELF_STEERED",
-  "active_campaign": "S095 FUTURE actionable self-selected exact multi-stage lens-skeletal relative attaching-coherence interleaving theorem proof-or-kill; no routine owner choice; no background/Lean/publication authority.",
-  "claim_of_new_theorem": "T221–T224 internally proved special homotopy-vs-chain persistence gap; independent HHA-original nonroutine theorem NOT established; G2 NOT PASSED.",
+  "headline": "S095 INTERNAL T225–T227 complete sharp four-stage based QTop skeletal dHI=dIHC=(d-c)/2 vs full Fp[Cp] deck cellular-chain dHI=0; standard relative extension/2026 G-n-equivalence collision, G2 NOT PASSED; S096 asymmetric higher attaching FUTURE.",
+  "selected_mathematical_problem": "Prove original multiwindow relative attaching-map higher-coherence persistence obstruction NOT subsumed by mutual skeletal extension and classical CW clock formulas, for HHA fit.",
+  "headline_status": "S095_EXACT_EQUIVARIANT_SKELETAL_WINDOW_INTERNAL__G2_NOT_PASSED__S096_FUTURE_SELF_STEERED",
+  "active_campaign": "S096 FUTURE actionable self-steered asymmetric nonextendible relative Hopf/Whitehead higher attaching obstruction with full-real two-lane interleaving, or decisive kill; no routine A/B/C.",
+  "claim_of_new_theorem": "S095 T225/T226 exact general/common-skeletal lens Top-vs-B chain information loss internally proved; original HHA theorem still G2 NOT PASSED, no Lean.",
   "stages": [
     {
       "id": 0,
@@ -1773,6 +1773,22 @@
     "g2": "NOT_PASSED",
     "sample_test": "p=5,13,17,29 unit inverses and nonsquare residues tested locally",
     "next": "S095_FUTURE_UNEXECUTED_SELF_STEERED",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED"
+  },
+  "s095_checkpoint": {
+    "date": "2026-10-17",
+    "entry_main": "39592c95ecccc69f61e1f8b213f80bb0863d6b35",
+    "theorems": [
+      "T225_SHARED_SKELETON_TERMINAL_WINDOW_EXACT",
+      "T226_LENS_FOUR_STAGE_EXACT_TOP_VS_CHAIN",
+      "T227_ORBITWISE_STABILITY"
+    ],
+    "top_metric": "(d-c)/2",
+    "group_ring_chain_metric": 0,
+    "g2": "NOT_PASSED",
+    "novelty_collision": "CLASSICAL_CELL_EXTENSION_PLUS_2026_G_N_EQUIVALENCE",
+    "next": "S096_FUTURE_UNEXECUTED",
     "lean": "NOT_AUTHORISED",
     "publication": "NOT_AUTHORISED"
   }

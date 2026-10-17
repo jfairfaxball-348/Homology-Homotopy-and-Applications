@@ -526,3 +526,6 @@ Owner explicitly orders assistant to STOP asking routine A/B/C questions, choose
 
 ## S094 executed self-steered research — 17 Oct 2026
 Owner's prior directive authorises assistant to choose best route and stop routine A/B/C. Chosen lens-cover topological-vs-full-deck-modular-chain difference yields internal T221–T224 sharp simple-interval and nontrivial skeletal results; NOT a same-category dHI>dIHC proof or a G2 HHA-first-paper pass. G2 NOT PASSED because classical linking forms and standard short bar. Automatically select S095 higher attaching-coherence exact skeletal distance as FUTURE, UNEXECUTED. No Lean, Palomar, manuscript or external release without owner permission.
+
+## S095 actual self-steered exact skeletal window result (2026-10-17)
+Owner directed assistant to keep proof research across sessions and stop routine A/B/C. Exact T225 generic terminal window theorem and T226 Cp lens four-stage full group-ring homotopy information loss now internally proved. Yet direct 2026 G-n-equivalence and standard Hatcher cellular extension mean HHA G2 NOT PASSED. Assistant self-selects prospective S096 new *asymmetric nonextendible* relative attaching homotopy obstruction with nontrivial multiwindow metric, not another lens clock or user choice gate. No external or Lean authority.
