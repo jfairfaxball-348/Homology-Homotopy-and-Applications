@@ -192,3 +192,6 @@ Proof-first INTERNAL T221–T224 finite Cp lens action examples: real Q-Top shar
 
 ### S095 shared-skeleton exact terminal-window class (2026-10-17)
 Proved INTERNAL exact Top HI/IHC=(d-c)/2 for inequivalent based Q-CW X,Y with mutual relative K-fixing maps, arbitrary earlier common skeleton stages, cone tail. Lens Cp free actions with two lower nontrivial attachments yield chainHI(FpCp)=0, exact Top gap. 2026 equivariant n-equivalence / classical extension make HHA G2 fail clearance; S096 future asymmetric higher attaching-coherence chosen automatically, no owner routine route choice/Lean/publication.
+
+### CAM-0097 — exact finite arithmetic shear action (2026-10-17)
+Pre-registered finite set Z/12; all 12x12 pairs (k,j) with transition k→k+2j mod12. Independent local python certificate `scripts/s097_shear_orbit_check.py` yields precisely even and odd orbits. Local independent JSON canonical sha256 **a75bef9333009c51354fdd26cc6d8b02dbe11b3e9c82a21f27631e7aae2f631d**. Completeness: explicit nested enumeration of every k,j in {0,...,11}. No machine verification of classical stable stems, space maps, mapping-cylinder WE or homotopy interleavings; arithmetic output is not theorem proof. Hosted CI only STATIC file/integrity/handoff checks. G2 not passed.

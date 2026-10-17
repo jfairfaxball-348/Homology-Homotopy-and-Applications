@@ -2062,6 +2062,51 @@
       "access": "SECONDARY_ONLY",
       "limitation": "Original Mosher Tangora Chapter17 Cor1 NOT inspected",
       "observed": "Classical secondary operation Phi_1,1 detects eta squared, not S096 invention."
+    },
+    {
+      "id": "SRC-0230",
+      "title": "MathOverflow: Nilpotence of the stable Hopf map via framed cobordism, eta cubed equals twelve nu",
+      "url": "https://mathoverflow.net/questions/201587/nilpotence-of-the-stable-hopf-map-via-framed-cobordism",
+      "origin": "S097 2026-10-17 secondary mathematical original-answer discussion",
+      "access": "SECONDARY_ONLY",
+      "limitation": "Peer discussion, not primary published proof; algebraic relation used only as classical input",
+      "observed": "Explicit eta^3=12nu in full pi3^S=Z/24."
+    },
+    {
+      "id": "SRC-0231",
+      "title": "Isaksen, Wang and Xu, Stable homotopy groups of spheres: from dimension 0 to 90",
+      "url": "https://arxiv.org/abs/2001.04511",
+      "origin": "S097 2026-10-17 original arXiv abstract and official publication PDF search metadata",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full stem calculation proof and Table entries not independently inspected S097",
+      "observed": "Modern stable stem source; basic pi1,pi2,pi3 relations are inherited standard input."
+    },
+    {
+      "id": "SRC-0232",
+      "title": "Basu et al., Note on Toda brackets, Journal of Homotopy and Related Structures",
+      "url": "https://doi.org/10.1007/s40062-020-00264-2",
+      "origin": "S097 2026-10-17 Springer original abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original mathematical proofs not accessible in this pass",
+      "observed": "Toda brackets furnish general obstruction to rectification, reducing originality of generic higher-coherence claims."
+    },
+    {
+      "id": "SRC-0233",
+      "title": "Kuribayashi et al., A distance between maps via interleavings of relative Sullivan algebras, 2026",
+      "url": "https://arxiv.org/abs/2604.06800",
+      "origin": "S097 2026-10-17 original arXiv abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original full paper and proof not read",
+      "observed": "Relative Sullivan persistence and Postnikov towers for maps are directly relevant novelty competitors for S098."
+    },
+    {
+      "id": "SRC-0234",
+      "title": "MathOverflow explicit framed bordism eta cubed relation referenced in subsequent question",
+      "url": "https://mathoverflow.net/questions/459946/explicit-framed-null-bordism-realizing-eta-nu-0-in-stable-homotopy-group-of-spheres",
+      "origin": "S097 2026-10-17 secondary corroboration",
+      "access": "SECONDARY_ONLY",
+      "limitation": "Independent research paper proof not inspected",
+      "observed": "Classical full-group relation eta^3=12nu referenced."
     }
   ]
 }

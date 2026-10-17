@@ -1,0 +1,15 @@
+# S097 CLOSEOUT — real coupled attachments built; unmarked secondary-indeterminacy route killed (INTERNAL)
+
+17 October 2026. Fresh owner "Run next session" executed S097 exactly once. Remote entry main 48d87696bc63c692357b862f68571d7ef25bcefc tree 8587619060e58337499df3469de67eb22ec875a1; S096 preceding PR #113 ordinary two-parent merged, no open PR at entry. Parent Git and current hosted/static outcome of S097 must be independently observed after commit and PR rather than preclaimed in authored paper trail.
+
+**T231:** two cells separately attached to old K give a literal independent pushout, so staged clocks alone cannot create a secondary terminal attachment coupling. **T232:** for n>=5, C=cofiber(eta_n^2), degree-two lifts beta:S^{n+3}->C form a marked Z/12 torsor, computed from stable exact sequence using eta^3=12nu, and valid in the stated unstable range by Freudenthal. The resulting actual finite three-cell complexes have identical integral homology, cups and Sq1, but complete Steenrod profile not certified. **T233:** coaction shears f_delta give genuine intermediate CW self-weak-equivalences identifying beta_k with beta_{k+2j}; hence only at most two remaining unmarked homotopy classes and ZERO Top^R HI/IHC distance for each shear orbit after whole-diagram zigzags. Finite 12-residue checker confirms only the arithmetic orbits; not topological proof.
+
+**Decisive limitation:** the marked torsor is NOT already an invariant of arbitrary WE-equivalent complete real filtrations. Parity may be seen by primary Sq4; this was not proved/disproved and no HHA-significant genuinely secondary non-clock all-real metric lower was obtained. Not a same-category HI>IHC solution, not a first-paper HHA theorem. G1 target remains OPEN; first novelty G2 NOT PASSED. NO Lean/Palomar/manuscript/arXiv/HHA/contact/priority claim. Future route self-selected without routine owner A/B/C decision.
+
+**Validation boundary:** local Python arithmetic certificate for Z/12 orbits was observed; checkout-based repository static validator was NOT locally executed (remote GitHub clone unavailable from compute environment). Hosted PR and main repository integrity workflow must actually succeed to complete integration. These static checks do not certify topology.
+
+## NEXT_SESSION_HANDOFF
+- Next: **S098** — FUTURE, UNEXECUTED.
+- Canonical full prompt: `authoritative/NEXT_SESSION_PROMPT.md`.
+- Scientific priority: a genuinely different finite CW Postnikov 2-type **mixed group-cohomology k-invariant** and an actual quantified persistence application, rather than reusing stable eta^2 attaching lifts or multiplying a static obstruction by interval clocks. Explicitly kill if it reduces to standard cohomological operations/relative Sullivan 2026.
+- Authority: a fresh **separate owner** "Run next session" (or clear explicitly active continuation) is required; writing this prompt DOES NOT execute S098. No Lean, Palomar, publication, arXiv, HHA submission or third-party contact without separately authorised later proof/novelty gates.

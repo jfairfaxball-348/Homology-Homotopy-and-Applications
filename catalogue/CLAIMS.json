@@ -4656,6 +4656,54 @@
         "SRC-0229"
       ],
       "scope": "DO NOT PROMOTE: direct 2019/2023 multiplicative persistence overlaps and classic secondary detection; G2 NOT PASSED, no novel coupled attaching-class invariant."
+    },
+    {
+      "id": "CLM-0474",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S097 T231: Two finite CW cells attached independently through old base K produce canonical simultaneous pushout terminal CW, so no new terminal attaching interaction from mere clock order.",
+      "sources": [
+        "SRC-0224"
+      ],
+      "scope": "Terminal CW relative-homeomorphism only, not equivalence of differently timed filtrations or claim that all Toda brackets vanish."
+    },
+    {
+      "id": "CLM-0475",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S097 T232: for n>=5 C=cofiber(eta_n squared) has quotient-degree-two genuine second attaching lifts forming marked Z/12 torsor, via stable cofiber LES image eta cubed 12nu, Freudenthal comparison.",
+      "sources": [
+        "SRC-0228",
+        "SRC-0230",
+        "SRC-0231"
+      ],
+      "scope": "Marked based homotopy lifts; assumes classical stable stems and Freudenthal. Not an invariant of arbitrary unmarked Top^R WE replacements."
+    },
+    {
+      "id": "CLM-0476",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S097 T233: coaction self-WEs of C fixing bottom sphere transport beta_k to beta_(k+2j), extending to weak equivalences of all three-stage real CW persistence diagrams. At most two unmarked types; same-orbit Top HI/IHC zero.",
+      "sources": [
+        "SRC-0230",
+        "SRC-0231"
+      ],
+      "scope": "Shear orbit equality only (two arithmetic residue orbits). No proof parity classes distinct or dHI>dIHC."
+    },
+    {
+      "id": "CLM-0477",
+      "status": "COMPUTED_EXACT",
+      "claim": "S097 independent checker exhaustively verifies action k -> k+2j mod12 has the two parity orbits and SHA256 a75bef9333009c51354fdd26cc6d8b02dbe11b3e9c82a21f27631e7aae2f631d.",
+      "sources": [],
+      "scope": "Exactly 144 residue transitions; arithmetic only, no stable homotopy or Top metric certification."
+    },
+    {
+      "id": "CLM-0478",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "The two residual S097 shear orbits have same full primary Steenrod operations, are unmarked-Top-inequivalent, and produce HHA-original quantitative non-clock persistence-distance theorem.",
+      "sources": [
+        "SRC-0225",
+        "SRC-0232",
+        "SRC-0233"
+      ],
+      "scope": "NOT PROVED; possible Sq4 detects parity, no independent HHA G2 originality audit, original Top HI>IHC OPEN."
     }
   ]
 }
