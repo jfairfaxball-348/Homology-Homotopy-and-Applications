@@ -635,3 +635,8 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - CLM-0448 PROGRAMME_PROVED INTERNAL: T211 CP2 versus S2 wedge S4 same full integral persistent homology, dHI=dIHC=T/2 via cup square, not HI>IHC. SRC-0198. Not HHA-novel.
 - CLM-0449 PROGRAMME_PROVED INTERNAL: T212 any whole real CW 0-type diagrams dHI=dIHC=dSet(pi0), arbitrary both lanes/zigzags. SRC-0198,SRC-0200. CW openness essential.
 - CLM-0450 INHERITED_UNVERIFIED: strict Top gap OPEN; S089 five-sphere lower conditional, G2 HHA novelty not cleared, S091 owner choice pending. SRC-0198,SRC-0199,SRC-0200.
+
+### S091 internal claim additions
+- CLM-0451 PROGRAMME_PROVED INTERNAL T213: complete real three-stage CP²/wedge+S⁵ two-nonpoint finite-CW pair same graded integral persistent homology yet exact HI=IHC=3/2; no strict gap.
+- CLM-0452 PROGRAMME_PROVED INTERNAL T214: homotopic first maps and common second yield whole-real mapping-cylinder WE roof and HI=IHC=0; Hopf S³->S²->CP² instance.
+- CLM-0453 INHERITED_UNVERIFIED: no ordinary unpointed Top strict HI>IHC or HHA G2 in S091; Xu route still OPEN, no Lean/paper.

@@ -311,3 +311,6 @@ New two-lane CP2/wedge candidate and all single-pulse/0-type classes give exact 
 
 ### S091 prospective Option A selected by owner — 17 October 2026, GOVERNANCE ONLY
 S090 G1 strict Top OPEN and HHA G2 NOT PASSED unchanged. Owner expressly selected S091 A: new 3–7-stage (unless more necessary) explicit finite-CW two-nonpoint-lane ordinary unpointed Top^R proof-or-kill, both full real WE zigzags and identities, source-exact higher relative obstruction/hostile priority check. This is NOT proof, G1/G2 pass, Lean readiness, publication permission or S091 execution. S090 remains completed and S091 FUTURE UNEXECUTED; next distinct owner instruction runs it without another A/B/C gate. Archived S090 closeout kept historically intact.
+
+### S091 actual 17 Oct 2026
+G1 strict ordinary unpointed Top^R **OPEN** despite internal T213/T214 equal-distance three-stage finite-CW controls. G2 HHA originality/significance **NOT PASSED**; G3 Lean NOT STARTED, downstream Palomar/paper/submission gates closed. S092 FUTURE OWNER_CHOICE_PENDING A/B/C; no implicit target switch.

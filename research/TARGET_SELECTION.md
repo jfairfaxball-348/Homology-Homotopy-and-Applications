@@ -235,3 +235,6 @@ Original owner new finite CW two-nonpoint-lane route: CP2 versus S2 wedge S4 is 
 
 ## Prospective S091 owner-selected Option A, 17 October 2026
 For the next SESSION ONLY, search for a genuine NEW multi-transition (at least 2 nontrivial transition arrows PER active lane) two-nonpoint finite-CW ordinary unpointed Top^R strict HI>IHC theorem or explicit no-go. Concrete relative attaching-map/track-square candidates must satisfy derivable real Ho(Top^R) interleaving and no strict smaller-epsilon whole replacement on both lanes, with HHA original significance check. T210–T212 eliminated single-pulse, CW 0-types and objectwise homology-blind traps. S090 completed; S091 FUTURE, UNEXECUTED, directly approved for next separate owner invocation. Original Xu sphere and coefficient alternatives remain OPEN/archived, not substituted. No Lean or publication authority.
+
+### S091 status and S092 prospective choice
+Multistage finite CW ordinary Top proofs T213/T214 are internally exact **equal** HI/IHC controls. No G1 strict witness or independent HHA novelty. Seek owner decision A new coupled relative obstruction, B Xu all-choice, C new original HHA-significant paper theorem (recommended). Existing first Top target unchanged pending owner consent.

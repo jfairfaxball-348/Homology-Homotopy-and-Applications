@@ -478,3 +478,10 @@ SRC-0170 PROOF_INSPECTED Kochman original Def2.2.1 p14 (https://www.sas.rocheste
 
 ## S090 17 Oct original-source access (existing IDs; no duplicate new source)
 SRC-0200 Dwyer–Kan–Smith original JPAA1989 publisher ABSTRACT_INSPECTED live; no full proof. SRC-0199 KNYW 12 Sep 2026 JACT original Springer HTML STATEMENT_INSPECTED live on HI/IHC order and field Ch equality, not ordinary Top. SRC-0198 LS AGT2023 original statement excerpt from S089 inherited only; direct PDF request this pass had no readable content, NOT new proof inspection. Blumberg–Lesnick TAMS2023 DOI 10.1090/tran/8738 original arXiv:1705.01690 ABSTRACT_INSPECTED this pass; existing bibliography, no need a redundant SRC identifier. BJT/BBG/BBS and HHA26 comparators inherited grades only, no fresh proof inspection. No full 2024–2026 citation-network audit; G2 not passed.
+
+### S091 direct-source record additions
+- SRC-0201 DKS JPAA1989 DOI10.1016/0022-4049(89)90023-6 ABSTRACT_INSPECTED.
+- SRC-0202 LS AGT2023 DOI10.2140/agt.2023.23.803 Oxford institutional ABSTRACT_INSPECTED.
+- SRC-0203 BBG JHRS2016 DOI10.1007/s40062-016-0157-8 STATEMENT_INSPECTED intro and bracket choices.
+- SRC-0204 BJT arXiv1809.07495 ABSTRACT_INSPECTED original.
+- SRC-0205 KNYW JACT2026 DOI10.1007/s41468-026-00252-0 STATEMENT_INSPECTED intro; chain category not Top.
