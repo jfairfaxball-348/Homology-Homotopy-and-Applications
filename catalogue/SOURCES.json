@@ -1738,6 +1738,69 @@
       "access": "METADATA_ONLY",
       "limitation": "Only indexed snippet; original PDF page not inspected; NOT proof inspected.",
       "observed": "Infinite lens CW mentioned, exact derivation independently based on standard cellular group resolution."
+    },
+    {
+      "id": "SRC-0194",
+      "title": "Xu, GT20 (2016) section 5 ordered nonzero classical fourfold bracket",
+      "url": "https://msp.org/gt/2016/20-3/gt-v20-n3-p08-s.pdf",
+      "origin": "S089 direct original-source audit 2026-10-17",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Original printed pp1620–21 nearby Lemma5.1 proof and bracket assertions; NOT exact Top^R transfer.",
+      "observed": "Second ordered classical <2,sigma²,sigma²,2>={theta4}, zero indeterminacy; pi29 stable 2-local zero."
+    },
+    {
+      "id": "SRC-0195",
+      "title": "Kochman LNM 1423 (1990) Chapter 2 Definition 2.2.1",
+      "url": "https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf",
+      "origin": "S089 direct original-source audit 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original printed pp13–16 definitions and theorem; no all-external-conventions comparison.",
+      "observed": "Intermediate sphere-spectrum E_i=S and complete primary-secondary-terminal boundary faces."
+    },
+    {
+      "id": "SRC-0196",
+      "title": "Blanc Johnson Turner higher homotopy operations arXiv 1809.07495 section 7",
+      "url": "https://arxiv.org/pdf/1809.07495",
+      "origin": "S089 direct original-source audit 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original v1 section 7; not full source-level equivalence to Xu sphere convention.",
+      "observed": "Four-arrow rectification higher operation with final obstruction."
+    },
+    {
+      "id": "SRC-0197",
+      "title": "Basu Blanc Sen higher structure unstable homotopy arXiv 1810.06005v2",
+      "url": "https://arxiv.org/pdf/1810.06005",
+      "origin": "S089 direct original-source audit 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original definitions and convention warning, full theorem proof not reread.",
+      "observed": "Multiple long Toda definitions do not automatically agree."
+    },
+    {
+      "id": "SRC-0198",
+      "title": "Lanari Scoccola AGT 23 (2023) 803–832 Remark3.13",
+      "url": "https://msp.org/agt/2023/23-2/agt-v23-n2-p05-s.pdf",
+      "origin": "S089 direct original-source audit 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original theorem/remark excerpt, not full proof.",
+      "observed": "HI IHC homotopy coherent comparison and still relevant motivator."
+    },
+    {
+      "id": "SRC-0199",
+      "title": "Kuribayashi Naito Wakatsuki Yamaguchi JACT 2026 theorem 3.3",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "S089 direct original-source audit 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original HTML theorem inherited S088; full proof not reread.",
+      "observed": "Field Ch(k) equality, not Top^R."
+    },
+    {
+      "id": "SRC-0200",
+      "title": "Dwyer Kan Smith JPAA 1989 homotopy commutative diagrams realizations",
+      "url": "https://www.sciencedirect.com/science/article/pii/0022404989900236",
+      "origin": "S089 direct original-source audit 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original publisher abstract; full theorem/collision audit not completed.",
+      "observed": "Prior art rectification obstruction."
     }
   ]
 }

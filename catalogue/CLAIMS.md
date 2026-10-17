@@ -621,3 +621,11 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - **CLM-0439 PROGRAMME_PROVED (internal):** Exact all-real cellular chain-action persistence has dCohI=1/2<dIHC=dHI=1 over F2[Q], but after forgetting deck equivariance dHI=dIHC=dCohI=1/2 by 2026 field theorem. Not a filtration by inclusions of finite CW spaces. Sources SRC-0189,SRC-0184.
 - **CLM-0440 PROGRAMME_PROVED (internal):** P_m has H_q=k for all q>=0; thus no finite-dimensional CW/simplicial local-coefficient or bounded-perfect model represents P_m; infinite lens CW can. Scope only boundedness obstruction, not all topological realization. Sources SRC-0187.
 - **CLM-0441 INHERITED_UNVERIFIED:** S088 did not secure a second fully independent T202 ALL REAL two-lane G1 proof/counterexample, nor original-source cleared G2 HHA significance. No formalisation or manuscript. Sources SRC-0188,SRC-0189,SRC-0190,SRC-0191.
+
+
+## S089 claims (2026-10-17)
+- **CLM-0442 PROGRAMME_PROVED (internal model-category lemma):** For a finite tree zigzag J of strict [4] simplicial diagrams with all J-arrows objectwise WEs and nonempty stages, a whole J×[4] objectwise-WE zigzag admits strict natural point section by holim(Q point), projective cofibration and left-proper objectwise quotient. NOT known original; may alter literal point-set double-zero identities. Sources SRC-0196,SRC-0197 (structural background, not an exact literature attribution).
+- **CLM-0443 INHERITED_UNVERIFIED:** Original ordinary unpointed all-real five-sphere dHI>=5/4 still CONDITIONAL on source-exact Xu sphere bracket all-secondary zero membership. Not a refutation; no full-real strict countermodel. Sources SRC-0194,SRC-0195,SRC-0196,SRC-0197.
+- **CLM-0444 SOURCE_STATED:** Xu §5 explicitly has ordered <2,σ²,σ²,2>={θ4} nonzero with zero indeterminacy, π29^S_(2)=0; not a theorem about original Top^R persistence. Source SRC-0194.
+- **CLM-0445 INHERITED_UNVERIFIED:** Internal whole-real derived eta_F² and 5/4 clock/replacement setup remain plausibly valid but not independently full-refereed in S089; G1 strict conclusion not certified. Sources SRC-0194,SRC-0198.
+- **CLM-0446 INHERITED_UNVERIFIED:** G2 HHA priority/significance not passed; only bounded original-source audit and no full 2026 citing census; no Lean/publication. Sources SRC-0198,SRC-0199,SRC-0200.

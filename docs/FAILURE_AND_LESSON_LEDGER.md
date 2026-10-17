@@ -507,3 +507,9 @@ Cell-by-cell cofibrancy, right-continuous left Kan and sign-correct total-Hom re
 - P_m has positive homology in all degrees: finite-dimensional CW/simplicial or bounded perfect realisation is impossible. The correct example is infinite-dimensional BP/G cover, not finite TDA data.
 - Nonflat scalar reduction of the chosen free G-cellular P is legitimate on the nose, not a derived functor on arbitrary replacements. Field equality holds only after forgetting Q-action.
 - Classical m_N and BBG/DKS methods prevent simplistic novelty credit. G2/HHA not passed; no auto formalisation or target switch.
+
+
+- **S089-F1 (precise source-type blocker):** A generalized cone/cube constant-zero system for arbitrary stabilized quotient spaces is NOT, without explicit sphere-spectrum replacement and coupled secondary/terminal data, a defining system for Kochman Ch2 Def2.2.1 or Xu GT2016 §5. S084 shortcut remains corrected, G1 OPEN.
+- **S089-F2 (strictness loss):** Projective section pushout T209 simultaneously basepoints finite forward/backward WE zigzags but need not maintain literal zero adjacent double composites of original selected strict H model; a based zigzag alone does NOT establish a zero class in Xu's bracket.
+- **S089-F3 (failed independent alternate):** No explicit finite-CW ordinary unpointed Top^R strict HI>IHC alternative, no genuine whole-real ε<5/4 strict counterexample and no well-typed failing final face. Do not treat toy algebra/cyclic-chain action as a refutation.
+- **S089-F4 (priority):** Higher Toda/rectification and θ4 classical, 2024–Oct2026 full original-citing proof audit incomplete; cannot announce HHA novelty, proof or Lean readiness. Owner A/B/C before S090 route.

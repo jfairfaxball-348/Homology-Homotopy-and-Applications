@@ -179,3 +179,7 @@ Infinite mathematical scope verified on paper, not finite exhaustive computation
 
 ### CAM-0088 — symbolic group-cover and all-real referee (not a computation)
 Preread fixed cases N=4,m=2; N=8,m=2/4 and general N=2^r,m=2^s, 1<=s<r. Analytical identities: k[C_N]=k[t]/t^N, norm=t^(N-1), reduced d_even=0, x_odd=1/x_even=0, H_q(P_m)=k all q; exact bar intervals [i,i+1); e<1 η_(2e)(0) either id or nontrivial x; e=1 all η2 zero. General proof symbolic; NO finite exhaustive search, no code run, no output hash, no human-independent mathematical checker. N=4,5,8 original Toda counterexamples not produced. Hosted CI is STATIC only.
+
+
+### CAM-0089 — S089 mathematical/source inspection only, NOT computational certification
+Finite indexing J zigzag tree, I=[4]. Homotopy-limit nonempty construction and projective Q(const point)↪E→D^fib, left-proper objectwise quotient E→E⨿_Q * prove one simultaneous strict natural basepoint after finite WHOLE-diagram WEs, both vertical directions. Exact scope: finite J, objectwise WE, nonempty stalks, Kan/projective sSet model. **No machine run, no finite exhaustive assertion count, no hash or Lean.** The WE replacement may break literal square-zero on chosen sampled strict chain, so does NOT discharge Xu/Kochman final higher operation. Source comparison audit Xu 2016/Kochman 1990/BJT 2018/BBS 2020; G1 TOP OPEN, G2 HHA NOT PASSED. Candidate 5/4 lower remains unproved. S090 owner choice pending.

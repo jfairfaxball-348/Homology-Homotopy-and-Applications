@@ -1,9 +1,9 @@
 {
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
-  "as_of": "2026-10-16",
-  "last_completed_session": "S088",
-  "recommended_next_session": "S089",
+  "as_of": "2026-10-17",
+  "last_completed_session": "S089",
+  "recommended_next_session": "S090",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "S088 cyclic-cover equivariant ghost gives geometric chain-action 1/2-vs-1 gap, finite CW no-go; second independently different full-real B_N G1 still OPEN; HHA G2 NOT PASSED",
   "selected_mathematical_problem": "Owner chose OPTION 2=B on 17 Oct 2026 (governance only): S089 first-paper prospective focus returns to 2-local actual CW spheres in ordinary UNPOINTED Top^R, strict dHI>dIHC full real arbitrary whole two-lane usual WE. Original Top G1 OPEN, G2 NOT PASSED. Ch(B_N) and cyclic cover retained internal archives.",
@@ -1614,5 +1614,26 @@
     "lean_authorised": false,
     "publication_authorised": false,
     "first_paper_target": "S083-S085 ordered five-stage sigma^2 actual 2-local CW spheres in ordinary unpointed Top^R"
+  },
+  "s089_checkpoint": {
+    "date": "2026-10-17",
+    "entry_main": "27fb2dfcad01341b0bfc4df1a61608e097f6817c",
+    "entry_tree": "79ad12b9b39ac5dc7a07c12463648b991e5a98e6",
+    "route": "ORIGINAL_UNPOINTED_TOPR_2LOCAL_FIVE_SPHERES",
+    "result": "G1_OPEN_NOT_REFUTED",
+    "new_internal": "T209_SIMULTANEOUS_FINITE_TREE_DIAGRAM_NATURAL_POINT_REPLACEMENT",
+    "limitation": "DOES_NOT_PRESERVE_LITERAL_ZERO_DOUBLES_OR_SUPPLY_WELL_TYPED_KOCHMAN_XU_ALL_CHOICE_G04_FACE_TRANSPORT",
+    "top_inequality": "CONDITIONAL_UNPROVEN",
+    "hha_g2": "NOT_PASSED",
+    "counterexample": "NONE",
+    "novel_first_paper": "NO",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED",
+    "next": "S090_FUTURE_UNEXECUTED_OWNER_CHOICE_PENDING",
+    "owner_options": [
+      "A_EXACT_ORIGINAL_COMPARISON",
+      "B_NEW_SAME_TOP_CATEGORY",
+      "C_RETIRE_AS_IMMINENT_FLAGSHIP"
+    ]
   }
 }
