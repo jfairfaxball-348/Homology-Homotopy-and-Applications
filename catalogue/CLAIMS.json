@@ -4326,6 +4326,58 @@
         "SRC-0191"
       ],
       "scope": "G1 OPEN by two-proof criterion, no publication or Lean authority."
+    },
+    {
+      "id": "CLM-0442",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S089 T209 finite tree zigzag of strict [4] diagrams of nonempty simplicial sets with vertical objectwise WEs admits simultaneous natural based whole-diagram replacement via projective Qpoint cofibration pushout, preserving WEs but NOT necessarily literal original zero doubles.",
+      "sources": [
+        "SRC-0196",
+        "SRC-0197"
+      ],
+      "scope": "Internal standard model-category lemma, finite tree J only; no Xu spherical final-face transport nor originality assertion."
+    },
+    {
+      "id": "CLM-0443",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S089 original ordinary unpointed Top^R five 2-local sphere strict dHI>dIHC target remains unproved and unrefuted; generalized complete zero cone system not shown to lie in Xu's exact classical sphere fourfold bracket after both whole WE zigzag directions.",
+      "sources": [
+        "SRC-0194",
+        "SRC-0195",
+        "SRC-0196",
+        "SRC-0197"
+      ],
+      "scope": "G1 TOP OPEN, 5/4 lower bound conditional, no strict interleaving countermodel."
+    },
+    {
+      "id": "CLM-0444",
+      "status": "SOURCE_STATED",
+      "claim": "Xu GT2016 section 5 states the second ordered stable 2-primary bracket <2,sigma²,sigma²,2>={theta4} nonzero, zero indeterminacy and pi29^S_(2)=0.",
+      "sources": [
+        "SRC-0194"
+      ],
+      "scope": "Classical stable sphere fact only, not a Top^R theorem."
+    },
+    {
+      "id": "CLM-0445",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S089 inherited whole-real dIHC1 derived eta2, all-real two-lane shoelace monic quotient and 1<=epsilon<5/4 sampling clock from S083–S085, without independent full source comparison needed for dHI bound.",
+      "sources": [
+        "SRC-0194",
+        "SRC-0198"
+      ],
+      "scope": "Not a new independently certified proof; excludes endpoint epsilon=5/4."
+    },
+    {
+      "id": "CLM-0446",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S089 G2 HHA originality/significance not passed; classical higher Toda and diagram rectification priority, incomplete 2024–2026 exact original-source proof census, no publication or Lean gate.",
+      "sources": [
+        "SRC-0198",
+        "SRC-0199",
+        "SRC-0200"
+      ],
+      "scope": "No expert independent originality certificate, no external submission."
     }
   ]
 }

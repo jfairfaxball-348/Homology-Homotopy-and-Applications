@@ -298,3 +298,7 @@ G1 B_N: SAME S087 single complete internal all-real route survived targeted audi
 
 ### Governance selection for S089 — 17 October 2026 (NO SESSION EXECUTION)
 Owner chose option 2 (=B): resume original 2-local sphere ordered (2,sigma²,sigma²,2) in ordinary unpointed Top^R with all whole-real both-lane WEs. This is a prospective CATEGORY/TARGET selection only. G1 strict topological theorem OPEN pending complete source-exact Xu higher-bracket zero transport; G2 original HHA significance NOT PASSED. Existing S088 category coefficient results remain internal, not recast as topological. S088 last completed; S089 FUTURE, UNEXECUTED, fully actionable on fresh owner run; no Lean or publication authority.
+
+
+### S089 gates — 17 October 2026
+G1 strict ordinary UNPOINTED Top^R whole-real both-lane five-sphere HI>IHC proof **OPEN**: T209 proved only simultaneous finite-tree zigzag basepoint replacement; it does not preserve literal double zeros or type the spherical Xu/Kochman zero-defining system through all WE directions/secondary choices. The alleged 5/4 lower bound is CONDITIONAL, not certified. No actual counterdiagram/refutation. G2 HHA originality and significance **NOT PASSED**: traditional Toda/rectification known and 2024–26 full proof-level census incomplete. S087–S088 ghost/cover results separate Ch(B_N)^R INTERNAL. No authorisation Lean/Palomar/paper/submission. S090 conditional OWNER_CHOICE_PENDING; new owner A/B/C selection must be governance-only before its execution.

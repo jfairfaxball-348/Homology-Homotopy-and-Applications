@@ -489,3 +489,10 @@ The owner's Option A S088 was executed following PR #97. Geometric cyclic-cover 
 
 ## Owner selected Option 2 = B for S089 — 17 October 2026 (GOVERNANCE ONLY)
 The owner replied "2" immediately to the S088 A/B/C numbered options. Thus **2/B is chosen**: the next research S089 returns to the original 2-local five-sphere ordinary UNPOINTED Top^R strict dHI>dIHC route, all real and arbitrary WHOLE WE on both lanes. The prospective S089 prompt is now fully actionable on the NEXT separate "Run next session" without repeated route choice. This amendment **does not execute S089**; last completed stays S088. Proof G1 OPEN, HHA G2 NOT PASSED. Ch(B_N)^R T202 and cyclic-cover T206–T208 retained as internal prior work and not passed off as Top results. NO Lean, Palomar, manuscript, arXiv, journal, contact or other downstream authority.
+
+
+## S089 — 17 October 2026, executed scientific decision and failure boundary
+- **DEC-S089-01:** Owner's prior option 2/B authorises exact original unpointed 2-local five-sphere Top^R proof work, NOT a silently pointed/stable/Ch(B_N) theorem. Keep full both-lane whole-real ordinary WEs.
+- **DEC-S089-02:** Accept internal finite tree-zigzag common basepoint replacement T209 with projective Q const point/cofibration/pushout proof. It does NOT preserve chosen literal composite zeros, identify Kochman's typed spherical intermediate objects or transfer all terminal faces to Xu.
+- **DEC-S089-03:** G1 TOP remains OPEN, NOT REFUTED; inherited dIHC1/clock conditional, no actual full-real strict ε<5/4 countermodel. G2 original HHA novelty NOT PASSED; no Lean or publications.
+- **DEC-S089-04:** Recommend owner option C (retire strict inequality as imminent first-paper flagship without erasing OPEN research), conditional A as narrow fallback. S090 OWNER_CHOICE_PENDING, not automatically runnable or scientific route selection. The current invocation ends at S089; no S090 execution.

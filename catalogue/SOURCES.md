@@ -465,3 +465,13 @@ SRC-0170 PROOF_INSPECTED Kochman original Def2.2.1 p14 (https://www.sas.rocheste
 - **SRC-0191 ABSTRACT_INSPECTED:** DKS JPAA 1989 publisher https://www.sciencedirect.com/science/article/pii/0022404989900236; primary original full proof unavailable this pass.
 - **SRC-0192 STATEMENT_INSPECTED:** Chachólski–Giunti–Jin–Landi Computational Geometry 2023 DOI 10.1016/j.comgeo.2022.101938, https://doi.org/10.1016/j.comgeo.2022.101938, open publisher excerpt; filtered chain complexes need not be geometric filtrations. Exact collision not settled.
 - **SRC-0193 METADATA_ONLY / SEARCH_SNIPPET_ONLY:** Hatcher Algebraic Topology lens spaces, https://www.maths.ed.ac.uk/~aar/papers/hatchat.pdf; NOT proof inspected. No analysis of PDF pages undertaken.
+
+
+## S089 original source access 17 October 2026
+- **SRC-0194 PROOF_INSPECTED (excerpt §5):** [Xu, GT20(2016) §5 pp1620–21 DOI 10.2140/gt.2016.20.1611](https://msp.org/gt/2016/20-3/gt-v20-n3-p08-s.pdf). Xu source states ordered second fourfold bracket <2,σ²,σ²,2>={θ4}, zero indeterminacy, π29^S_(2)=0; DOES NOT prove our Top^R persistence strictness.
+- **SRC-0195 STATEMENT_INSPECTED:** [Kochman LNM1423 Ch2 Def2.2.1 and Thm2.2.3 (1990)](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/kochmanch2.pdf). Original typed sphere-spectrum intermediates and full five defined faces; composition/smash only, not all generalized brackets.
+- **SRC-0196 STATEMENT_INSPECTED:** [Blanc–Johnson–Turner arXiv:1809.07495 §7 (2018)](https://arxiv.org/pdf/1809.07495). Own homotopy higher operation and terminal model, not checked source exact Xu equivalence.
+- **SRC-0197 STATEMENT_INSPECTED:** [Basu–Blanc–Sen arXiv:1810.06005v2 (2020)](https://arxiv.org/pdf/1810.06005). Warns long bracket conventions differ; does not itself transfer specific Xu zero membership.
+- **SRC-0198 STATEMENT_INSPECTED:** [Lanari–Scoccola AGT23(2023) DOI 10.2140/agt.2023.23.803](https://msp.org/agt/2023/23-2/agt-v23-n2-p05-s.pdf). Original HI/IHC comparison and remark question, proof of entire paper not inspected.
+- **SRC-0199 STATEMENT_INSPECTED:** [Kuribayashi et al JACT10(2026) DOI 10.1007/s41468-026-00252-0](https://link.springer.com/article/10.1007/s41468-026-00252-0). All-real field-valued chain equality, not ordinary Top.
+- **SRC-0200 ABSTRACT_INSPECTED:** [Dwyer–Kan–Smith, JPAA57(1989) DOI 10.1016/0022-4049(89)90023-6](https://www.sciencedirect.com/science/article/pii/0022404989900236). Classical rectification priority, exact collision/full proof not audited.
