@@ -1,0 +1,14 @@
+# S099 PRIOR_ART — independent refresh, 17 October 2026
+
+Sources inspected in this session through public indexed original author/publisher/arXiv pages, with honest access tiers; no downloaded or visually audited scholarly PDFs. Prior catalogue SRC-0225/0226/0227 and SRC-0237/0238 remain retained.
+
+- **SRC-0238 (re-inspected):** Grégory Ginot, Johan Leray, *Multiplicative persistent distances* (2019), https://arxiv.org/abs/1905.12307, ABSTRACT_INSPECTED. Direct author-facing abstract states cup-product and Steenrod/A∞ persistent distances/stability. Full proof not read in S099.
+- **SRC-0226 (re-inspected):** Facundo Mémoli, Anastasios Stefanou, Ling Zhou, *Persistent cup product structures and related invariants*, DOI https://doi.org/10.1007/s41468-023-00138-5, ABSTRACT_INSPECTED in S099, selected theorems/proofs inherited from S096. Explicit stable persistent cup modules; elementary new cubic kernel would NOT be a novelty advantage.
+- **SRC-0237 (re-inspected):** Kuribayashi, Naito, Sekizuka, Wakatsuki, Yamaguchi, arXiv:2604.06800 (2026), https://arxiv.org/abs/2604.06800, ABSTRACT_INSPECTED in S099; full map/relative Sullivan proof not inspected here.
+- **SRC-0227 (re-inspected):** Kuribayashi, Naito, Wakatsuki, Yamaguchi, DOI https://doi.org/10.1007/s41468-026-00252-0 (2026), selected INTRODUCTION/STATEMENT_INSPECTED; equality is in Ch_K/BS1-specific context, not a universal Top equality.
+- **SRC-0240:** Kushal Halder, Subhankar Sau, Debasis Sen, *Equivariant Homotopy Interleaving and Persistent Whitehead Theorem*, arXiv:2609.23440v2 revised 13 Oct 2026, https://arxiv.org/abs/2609.23440, ABSTRACT_INSPECTED in S099. Finite G-equivariant HI, persistent Whitehead, nerve and equivariant goodness studied; original full proof not inspected here.
+- **SRC-0241:** Divya Ahuja, Jaya NN Iyer, *Persistent Simple-homotopy invariants via discrete Morse theory*, 2026, https://arxiv.org/abs/2604.10192, ABSTRACT_INSPECTED. Filtered simple-homotopy and Whitehead torsion route strong prior-art overlap; no paper-level proof reviewed in S099.
+- **SRC-0242:** John Miller, *Filtered Topology and Persistence in Stable Homotopy*, 2025, https://arxiv.org/abs/2505.02772, ABSTRACT_INSPECTED. Filtered CW approximations, persistence Spanier–Whitehead and weighted Euler; no full proof reviewed in S099.
+- **SRC-0243:** Edoardo Lanari and Luis Scoccola, *Rectification of interleavings and a persistent Whitehead theorem*, https://arxiv.org/abs/2010.05378, STATEMENT_INSPECTED via selected original manuscript excerpt, not a complete proof review.
+
+**Verdict:** T238 cubic-ring detection and T239 integral H2 are classical Serre/Bockstein/UCT consequences, not credible HHA-paper originality; the proposed quantitative persistence/descent theorem was NOT constructed. G2 NOT PASSED. HHA 2024–26 full issue/cited-by and independent specialist critique incomplete; do not claim exhaustive publication priority.

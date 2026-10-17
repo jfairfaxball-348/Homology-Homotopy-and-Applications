@@ -1,0 +1,5 @@
+# S099 INPUT — owner-authorised entry, 17 October 2026
+
+Fresh owner “Run next session” executes S099 once, following authoritative NEXT_SESSION_PROMPT. LIVE main pinned `2fb8a981230f0ecd0e85bc458745612c3b981b4c`, tree `b435240ff95fbda82f28b8aa07d798ce836cdf82`; preceding S098 authored `ac77abbfb86f557b90edca704d9777ffa4773a2e`, PR #115 ordinary merge `2fb8a981230f0ecd0e85bc458745612c3b981b4c` with parents `1a6e7b7735fd34ac4e443153f36317b04e56c3d9`, `ac77abbfb86f557b90edca704d9777ffa4773a2e`. No open PRs. Hosted S098 PR run 39061334917, main run 39061362330: individually observed checkout, Python, static governance/catalogue validation and next-session handoff validation success; *not topology checks*. Rulesets [] observed; branch protection returned 403 UNKNOWN. Current container GitHub clone fails DNS, hence source checkout unavailable and connector reads/writes used.
+
+S098 retained honest finite 4-skeleton, integral H2 mixed-versus-zero no-go. S099 is explicit kill-or-prove for the OTHER FOUR nonzero GL2 cubic orbits, early STOP on ordinary low-degree cup collision. No automatic Lean, Palomar, paper, external contact, publication/priority actions.

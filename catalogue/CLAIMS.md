@@ -685,3 +685,10 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - **CLM-0482** [PROGRAMME_PROVED] T237 cyclic-restricted 2-types split, but global H2 and primary Sq1 detect mixed k; proposed invisible-homology comparator false. INTERNAL, no HHA novelty promotion.
 - **CLM-0483** [COMPUTED_EXACT] 16 homogeneous F2 cubics × 6 GL2 matrices yield six orbits, triple-cyclic restriction kernel masks {0,6}; stdout hash a2e93140188339843f1e847c52e25c37dd01c2011d639d75f7175f0f8dce6935. Finite polynomial arithmetic only. INTERNAL, no HHA novelty promotion.
 - **CLM-0484** [INHERITED_UNVERIFIED] HHA-worthy homology/primary-invisible quantitative strict persistence for zero-vs-mixed k REFUTED; no all-real Top metrics. INTERNAL, no HHA novelty promotion.
+
+## S099 claims — 2026-10-17
+- **CLM-0485** [PROGRAMME_PROVED] T238 for all k∈H³(B(C2²);F2), the intrinsic cubic cup kernel of finite four-skeleton X_k equals <k>, and distinct GL2 unmarked k-orbits have nonisomorphic mod2 cohomology rings through degree 3. Standard Serre d3(u)=k proof; INTERNAL, not novelty.
+- **CLM-0486** [PROGRAMME_PROVED] T239 integral H1(X_k;Z)=(C2)^2 for all k, and integral H2=(C2)^2 for zero, C4 for mixed, C2 for all other nonzero cubics. Integral Serre differential/UCT, INTERNAL and H3/H4 not computed.
+- **CLM-0487** [PROGRAMME_PROVED] T240 three cyclic subgroup restrictions have kernel {0,x²y+xy²}; split restricted 2-types do NOT imply finite CW covering-system interleavings; no new non-clock metric.
+- **CLM-0488** [COMPUTED_EXACT] T241 local standard-library Python enumerated all 16 cubics, six GL2 matrices and 120 unordered pairs. PASS; SHA256 source ed2baa82d57b5856ef8503e310dac38073cd394665f2da99d2fb829377f49a45 and stdout c2152cd15fec2ab24b56d31500bb30f6155113fa77ee32ff93f060964d5b8d16; *finite arithmetic only*, not topology.
+- **CLM-0489** [INHERITED_UNVERIFIED] S099's proposed nonconjugate 2-type orbits can be indistinguishable in integral homology AND ordinary cup/primary operations for an HHA-novel non-clock finite Top^R distance theorem. REFUTED for ordinary cup (T238), no distance theorem; G2 NOT PASSED.

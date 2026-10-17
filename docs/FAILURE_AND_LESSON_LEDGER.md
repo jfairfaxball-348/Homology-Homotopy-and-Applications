@@ -540,3 +540,6 @@ First two nonzero attachments to old K form ordinary relative pushout (T231), no
 
 ## S098 — cyclic-locally invisible is not globally homology-invisible
 The genuine mixed 2-type k=xy(x+y) vanishes on three cyclic restrictions but equals primary Sq1(xy). Integral H2 of finite 4-skeleta differs as (C2)^2 versus C4. Integral Serre d3=0 does NOT force split H2 extension: UCT detects non-split C4. Check integral UCT/Steenrod operations before building temporal clocks. Never promote finite truncation to a finite full 2-type or group cohomology to original HHA persistence.
+
+## S099 — all finite C2² Postnikov cubic k-orbit collisions fail already by cup-product structure
+Serre transgression d3(u)=k implies ker(Sym³ H¹(X_k;F2)→H³(X_k;F2))=<k> on any finite four-skeleton retaining degree-three cohomology. Thus each GL2 orbit is recognised by unmarked low-degree cup ring; even when H2Z coincides (=C2 for four other nonzero orbits), primary ordinary cup defeats the claimed collision. No higher-operation or two-transition clock fixes this within proposed family. Cyclic restrictions {0,mixed} are not a finite CW cover; no quantitatively stable non-clock descent application was built. STOP S099 route; retrieve prior integral multi-parameter 3-cover problem instead of another artificial persistence window.

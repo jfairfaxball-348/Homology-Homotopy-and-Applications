@@ -1,0 +1,12 @@
+# S099 ADVERSARIAL — all-orbit no-go, scope and checks
+
+1. **Nontrivial 4-skeleton:** the infinite Postnikov 2-type has finitely many simplices only degreewise; X_k is its finite 4-skeleton. It retains H≤3, π1,π2,k, but not necessarily π≥4/H4. No assertion of finite full 2-type.
+2. **Unmarked automorphism:** any ring isomorphism sends H¹(F2)^2 by GL2; relation line <k> transforms covariantly. Explicit 6-element enumeration checks all GL2 actions, not just fixed basis. Since F2 has one nonzero scalar, lines <k> are determined by k.
+3. **Cohomology Serre edge:** H¹(fiber)=0 eliminates d2 to H³ base; sole d3 from fiber H² is k, higher r cannot enter bidegree (3,0). The 4-skeleton cohomology degree ≤3 agrees. This is a proof, not a numerical simulation.
+4. **Integral H2 trap:** S098 zero/mixed d3=0 leaves an extension, not forced split; UCT yields (C2)^2 and C4. Other nonzero cubics evaluate nontrivially on integral H3 cycles because annihilator of their reductions is *only* <Sq1(xy)>. H2=C2. No H3/H4 false claims.
+5. **Steenrod/truncation:** Sq1 on the cubic mask has kernel {0,6}, but Sq1 and Sq2 on arbitrary H²/H³ are not exhaustively computed. They are mathematically unnecessary when ordinary cup already kills the required collision.
+6. **Locality trap:** cyclic subgroup restriction not a genuine finite open cover of BG. Restricted splitting of abstract 2-types does not imply a natural isomorphism of finite subcovers of X_0 and X_mix; nor a stable nonclock persistence theorem.
+7. **Temporal trap:** there is no actual two-transition diagram satisfying original S099 demands. By authorized early no-go, do NOT retrofit a terminal pulse and call it new or claim exact Top metric.
+8. **Novelty:** this is the standard Serre transgression reconstruction/Quillen-style detection phenomenon, with original persistent cup/Steenrod literature predating it. 2026 equivariant persistent Whitehead framework also overlaps naive application; G2 NOT PASSED.
+9. **Check certification:** exactly 16 masks, 6 invertible matrices and 120 unordered pairs, fixed standard-library script and SHA. No Lean, no topological machine checker, no 2026 systematic proof-by-proof complete source audit, no paper-quality original result.
+10. **Limits on universal no-go:** this does NOT prove ordinary Top HI=IHC universally, does not refute Xu spheres, does not rule out distinct k-types with equal *additive* homology H1/H2 or genuinely new constructions outside this two-type family.

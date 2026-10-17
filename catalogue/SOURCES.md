@@ -529,3 +529,9 @@ SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theore
 - **SRC-0237** Kuribayashi et al 2026 relative Sullivan/Postnikov maps; https://arxiv.org/abs/2604.06800; **STATEMENT_INSPECTED**. Original proof-level audit incomplete; access not overstated.
 - **SRC-0238** Ginot and Leray persistent multiplicative distances; https://arxiv.org/abs/1905.12307; **ABSTRACT_INSPECTED**. Original proof-level audit incomplete; access not overstated.
 - **SRC-0239** Hatcher Spectral Sequences author PDF; https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf; **METADATA_ONLY**. Original proof-level audit incomplete; access not overstated.
+
+## S099 source additions — 2026-10-17
+- **SRC-0240** [ABSTRACT_INSPECTED] Halder, Sau, Sen, *Equivariant Homotopy Interleaving and Persistent Whitehead Theorem*, arXiv:2609.23440v2 (revised 2026-10-13), https://arxiv.org/abs/2609.23440. New 2026 equivariant G-HI, Whitehead and nerve prior-art overlap; original proof not inspected S099.
+- **SRC-0241** [ABSTRACT_INSPECTED] Ahuja, Iyer, *Persistent Simple-homotopy invariants via discrete Morse theory*, arXiv:2604.10192, https://arxiv.org/abs/2604.10192 (2026). Whitehead torsion/simple homotopy persistence near-prior-art; full proof not inspected.
+- **SRC-0242** [ABSTRACT_INSPECTED] Miller, *Filtered Topology and Persistence in Stable Homotopy*, arXiv:2505.02772, https://arxiv.org/abs/2505.02772 (2025). Persistent stable CW spectrum framework; full text not inspected.
+- **SRC-0243** [STATEMENT_INSPECTED] Lanari, Scoccola, *Rectification of interleavings and a persistent Whitehead theorem*, https://arxiv.org/abs/2010.05378 (original original-text selected Theorem A/B excerpt, full proof NOT inspected S099). Metric comparisons NOT universal equality of Top^R HI and IHC.

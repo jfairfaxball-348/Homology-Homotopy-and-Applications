@@ -541,3 +541,6 @@ One S097 triggered by owner "Run next session", with no owner A/B/C solicitation
 
 ## S098 — mathematically decisive finite mixed Postnikov comparison, 17 October 2026
 Owner fresh research invocation authorised exactly S098. T234–T237 establish genuine global κ=xy(x+y) trivial on each C2, finite CW 4-skeleton retaining k, and fatal ordinary H2 mismatch ((C2)^2 vs C4), plus primary Sq1 detection. Consequently no homology-blind secondary Top metric theorem or HHA G2 pass. Retire this comparator and self-select finite automorphism-orbit collisions and genuine two-transition transport as S099 FUTURE. No routine A/B/C, Lean or publication.
+
+## S099 actual self-steered no-go, 17 October 2026
+Owner fresh invocation authorises exactly S099, not S100. T238 decisive universally quantified finite-CW Postnikov k orbit reconstruction from ordinary degree-three cup relations kills every proposed pair from four nonmixed GL2 orbits; T239 integral H2 for all classes, T240 cyclic restrictions show standard detection failure only, T241 arithmetic checker. G1 desired HHA theorem OPEN, G2 originality/significance NOT PASSED. Scientific self-steering selects future S100 sharp integral 3D nonzero-transgression CW cover/gluing proof-or-kill, returning to S006 T16/T17 with a new application veto. NO Lean/Palomar/manuscript/arXiv/HHA or outreach. S100 FUTURE, UNEXECUTED.
