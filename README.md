@@ -1,3 +1,7 @@
+# Latest checkpoint — S099, 17 October 2026
+
+S099 INTERNAL T238 proves the 16 cubic Postnikov k-classes for G=C2² over F2 are completely distinguished up to GL2 by the cubic cup-product relation of their **actual finite 4-CW skeleta**; no pair of different orbits has the required low-degree cup collision. T239 gives H2Z=(C2)^2 (zero), C4 (mixed), C2 (all other nonzero). Cyclic-restriction invisibility is classical, not a finite CW persistence theorem; G2 HHA originality NOT PASSED, NO formalisation or paper. S100 FUTURE self-steered proof-or-kill returns to the hard nonzero-M integral 3D multiparameter CW gluing problem. [Proof/no-go](sessions/S099/MATHEMATICS.md) · [audit](sessions/S099/PRIOR_ART.md) · [future prompt](authoritative/NEXT_SESSION_PROMPT.md).
+
 # Latest checkpoint — S074, 16 October 2026
 
 S074 T194–T197: explicit 30-dimensional F2 directed dg algebra R and five representable RIGHT dg-module stages give unconditional INTERNAL dIHC(F,0)=1<5/4<=dHI(F,0)<=5/2. The proof gives an actual derived two-shift nullhomotopy via a free-quiver cone resolution and excludes ALL whole replacements of BOTH real lanes via cofibrant shoelace quotient and direct homotopy-transfer obstruction c. No sphere bracket convention is imported. Spectral theta4 candidate discontinued UNRESOLVED/NOT READY; original integral ordinary unpointed Top^R flagship remains UNPROVED and unchanged. Alternate G1 INTERNAL COMPLETE pending fresh referee; G2 originality/HHA NOT PASSED, no owner switch, Lean, Palomar, manuscript or external submission. S075 FUTURE ONLY.

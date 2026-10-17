@@ -1,0 +1,7 @@
+# S099 PLAN — pre-registered decision tree
+
+1. Finite algebra: sixteen masks (x³,x²y,xy²,y³), all six invertible F2 substitutions; compute disjoint orbits, 120 unordered pair comparisons, three C2 restrictions and Sq1. Local script `scripts/s099_cubic_orbit_check.py` can certify *only* these finite tables. Record stdout and SHA256.
+2. Topology independent of arithmetic: for all k, finite 4-skeleton X_k of degreewise finite bar/cochain Postnikov model. The Serre mod2 d3(u)=k transgression forces the kernel of cubic products of H1 to be exactly span(k); finite skeleton retains H≤3. Any GL2-unmarked cohomology ring isomorphism preserves the kernel. Establish all-orbit KILL before computing speculative distance clocks, H3/H4 and Sq2.
+3. Test independent integral-H2 classification via H3(BG;Z) reduction and integral homology d3, including mixed Sq1 kernel and UCT. Challenge every spectral-sequence assumption and separate 4-skeleton H4 from infinite P_k.
+4. Fallback: cyclic subgroup-local restriction failure. Determine whether this is an honest *finite CW cover-gluing* or an existing standard group-cohomology detector only. If no finite natural descent maps and no quantitative non-clock theorem, STOP as nonpublication. No fabricated all-real diagrams.
+5. Recheck 2019–2026 nearest original persistence and equivariant theory; close S099 with exact records, self-selected different high-value S100 prompt, one atomic commit/PR/ordinary merge and individually verified STATIC checks.
