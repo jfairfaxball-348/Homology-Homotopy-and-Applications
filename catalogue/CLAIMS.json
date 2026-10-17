@@ -4449,6 +4449,47 @@
         "SRC-0204"
       ],
       "scope": "Honest programme status; not proof of universal equality."
+    },
+    {
+      "id": "CLM-0454",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S092-T215 INTERNAL: finite antipodal C2-cover pair (S3, two 0-cells), suspended based relative cellular B=F2[C2] complex B--t-->B--t-->B, and genuine equivariant continuous suspension norm f=id+g; H_*(f)=0 but [f]≠0 in D(B) by incompatible residues in all possible B-linear homotopies.",
+      "sources": [
+        "SRC-0207",
+        "SRC-0208"
+      ],
+      "scope": "Hand-verifiable internal proof and finite independent arithmetic check, no Lean; not a new HHA novelty claim; stable module Tate ghosts different."
+    },
+    {
+      "id": "CLM-0455",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S092-T216 INTERNAL: literal nested finite based C2-CW filtration Z⊂M_f⊂CM_f at a<b<c gives whole-real dHI=dIHC in Ch(B) to zero=(c-a)/2, field-forgetful HI/IHC and graded homology to zero=max(b-a,c-b)/2; ratio up to 2 within family, threshold displacement at most h gives strict h-interleaving for fixed geometry.",
+      "sources": [
+        "SRC-0211",
+        "SRC-0212"
+      ],
+      "scope": "Internal real-indexed whole-diagram proof; no claim universal stability, no Top strict HI>IHC result, not externally vetted for originality."
+    },
+    {
+      "id": "CLM-0456",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S092 negative architecture: finite free deck C2-cover RP3→L3(4) has mod2 relative C2 cellular d2=0,d3=t, so naive t norm acts nontrivially on H1=B and is NOT a ghost; original infinite S088 P2 cannot be finitely quasi-isomorphically truncated.",
+      "sources": [],
+      "scope": "Specific finite norm test and inherited infinite high-degree homology obstruction; not a universal impossibility theorem for other maps."
+    },
+    {
+      "id": "CLM-0457",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S092 finite example T215/T216 is HHA-original and sufficient as first journal paper.",
+      "sources": [
+        "SRC-0207",
+        "SRC-0208",
+        "SRC-0209",
+        "SRC-0210",
+        "SRC-0213",
+        "SRC-0214"
+      ],
+      "scope": "DO NOT PROMOTE: originality and significance G2 NOT PASSED; classical GH/perfect ghosts and 2026 equivariant persistence substantial possible collision."
     }
   ]
 }

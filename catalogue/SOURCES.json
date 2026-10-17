@@ -1846,6 +1846,87 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Introduction comparison only; not Top witness.",
       "observed": "dHC<=dIHC<=dHI and chain-category comparison."
+    },
+    {
+      "id": "SRC-0206",
+      "title": "Dwyer Kan Smith rectification JPAA 1989",
+      "url": "https://www.sciencedirect.com/science/article/pii/0022404989900236",
+      "origin": "S092 direct source audit 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original publisher abstract; full proof not inspected",
+      "observed": "See sessions/S092/PRIOR_ART.md for collision category and limits."
+    },
+    {
+      "id": "SRC-0207",
+      "title": "Benson Chebolu Christensen Minac stable generating hypothesis J Algebra 2007",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021869306008398",
+      "origin": "S092 direct source audit 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Stable C2 Tate ghosts, categorically DIFFERENT from perfect-derived homology ghosts",
+      "observed": "See sessions/S092/PRIOR_ART.md for collision category and limits."
+    },
+    {
+      "id": "SRC-0208",
+      "title": "Chebolu Christensen Minac groups without ghosts and derived GH background",
+      "url": "https://arxiv.org/abs/math/0610423",
+      "origin": "S092 direct source audit 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original indexed excerpts; full proof not audited; derived rings GH classical",
+      "observed": "See sessions/S092/PRIOR_ART.md for collision category and limits."
+    },
+    {
+      "id": "SRC-0209",
+      "title": "Chebolu Christensen Minac Ghosts in modular representation theory Adv Math 2008",
+      "url": "https://doi.org/10.1016/j.aim.2007.11.008",
+      "origin": "S092 direct source audit 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Abstract only and category differs",
+      "observed": "See sessions/S092/PRIOR_ART.md for collision category and limits."
+    },
+    {
+      "id": "SRC-0210",
+      "title": "Daundkar Sarkar Singh Equivariant persistence topological complexity 2026",
+      "url": "https://arxiv.org/abs/2609.29759",
+      "origin": "S092 direct source audit 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "2026-09-24 recent original preprint abstract, full proof not audited",
+      "observed": "See sessions/S092/PRIOR_ART.md for collision category and limits."
+    },
+    {
+      "id": "SRC-0211",
+      "title": "Blumberg Lesnick Universality HI distance 2023",
+      "url": "https://arxiv.org/abs/1705.01690",
+      "origin": "S092 direct source audit 2026-10-17",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original abstract; 2023 journal DOI 10.1090/tran/8738",
+      "observed": "See sessions/S092/PRIOR_ART.md for collision category and limits."
+    },
+    {
+      "id": "SRC-0212",
+      "title": "Kuribayashi Naito Wakatsuki Yamaguchi field chain persistence 2026",
+      "url": "https://link.springer.com/article/10.1007/s41468-026-00252-0",
+      "origin": "S092 direct source audit 2026-10-17",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Publisher introduction/theorem comparison; field not group ring",
+      "observed": "See sessions/S092/PRIOR_ART.md for collision category and limits."
+    },
+    {
+      "id": "SRC-0213",
+      "title": "HHA 28(1) local block decomposability 2026",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n1.a9",
+      "origin": "S092 direct source audit 2026-10-17",
+      "access": "METADATA_ONLY",
+      "limitation": "Research portal metadata, full proof not read",
+      "observed": "See sessions/S092/PRIOR_ART.md for collision category and limits."
+    },
+    {
+      "id": "SRC-0214",
+      "title": "HHA 28(2) matrix-factorisation higher categories 2026",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n2.a2",
+      "origin": "S092 direct source audit 2026-10-17",
+      "access": "METADATA_ONLY",
+      "limitation": "Indexed metadata, full proof not read",
+      "observed": "See sessions/S092/PRIOR_ART.md for collision category and limits."
     }
   ]
 }

@@ -485,3 +485,14 @@ SRC-0200 Dwyer–Kan–Smith original JPAA1989 publisher ABSTRACT_INSPECTED live
 - SRC-0203 BBG JHRS2016 DOI10.1007/s40062-016-0157-8 STATEMENT_INSPECTED intro and bracket choices.
 - SRC-0204 BJT arXiv1809.07495 ABSTRACT_INSPECTED original.
 - SRC-0205 KNYW JACT2026 DOI10.1007/s41468-026-00252-0 STATEMENT_INSPECTED intro; chain category not Top.
+
+### S092 direct-source additions
+- SRC-0206 Dwyer Kan Smith rectification JPAA 1989 — ABSTRACT_INSPECTED; https://www.sciencedirect.com/science/article/pii/0022404989900236. Original publisher abstract; full proof not inspected.
+- SRC-0207 Benson Chebolu Christensen Minac stable generating hypothesis J Algebra 2007 — ABSTRACT_INSPECTED; https://www.sciencedirect.com/science/article/pii/S0021869306008398. Stable C2 Tate ghosts, categorically DIFFERENT from perfect-derived homology ghosts.
+- SRC-0208 Chebolu Christensen Minac groups without ghosts and derived GH background — STATEMENT_INSPECTED; https://arxiv.org/abs/math/0610423. Original indexed excerpts; full proof not audited; derived rings GH classical.
+- SRC-0209 Chebolu Christensen Minac Ghosts in modular representation theory Adv Math 2008 — ABSTRACT_INSPECTED; https://doi.org/10.1016/j.aim.2007.11.008. Abstract only and category differs.
+- SRC-0210 Daundkar Sarkar Singh Equivariant persistence topological complexity 2026 — ABSTRACT_INSPECTED; https://arxiv.org/abs/2609.29759. 2026-09-24 recent original preprint abstract, full proof not audited.
+- SRC-0211 Blumberg Lesnick Universality HI distance 2023 — ABSTRACT_INSPECTED; https://arxiv.org/abs/1705.01690. Original abstract; 2023 journal DOI 10.1090/tran/8738.
+- SRC-0212 Kuribayashi Naito Wakatsuki Yamaguchi field chain persistence 2026 — STATEMENT_INSPECTED; https://link.springer.com/article/10.1007/s41468-026-00252-0. Publisher introduction/theorem comparison; field not group ring.
+- SRC-0213 HHA 28(1) local block decomposability 2026 — METADATA_ONLY; https://doi.org/10.4310/HHA.2026.v28.n1.a9. Research portal metadata, full proof not read.
+- SRC-0214 HHA 28(2) matrix-factorisation higher categories 2026 — METADATA_ONLY; https://doi.org/10.4310/HHA.2026.v28.n2.a2. Indexed metadata, full proof not read.
