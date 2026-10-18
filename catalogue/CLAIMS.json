@@ -4975,6 +4975,60 @@
         "SRC-0251"
       ],
       "scope": "NO: classical operation, failed canonical invariant; novel G1/G2 remain OPEN / NOT PASSED."
+    },
+    {
+      "id": "CLM-0511",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S104 T259 nonzero order-two genuinely mixed Whitehead attaching map alpha=[j_b,j_c] eta²_13:S15→S6∨S7_b∨S7_c detected by Hilton–Milnor pi15(S13)=Z2 summand.",
+      "sources": [
+        "SRC-0252"
+      ],
+      "scope": "Internal classical homotopy proof, no novel invariant or Lean."
+    },
+    {
+      "id": "CLM-0512",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S104 T260 two finite CW inclusion squares with D0=P∨S16 and D1=P∪alpha e16 have naturally identical all-vertex/all-arrow integral H, cup rings and primary mod2 Steenrod operations.",
+      "sources": [],
+      "scope": "CW dimensions and instability check; exact finite comparison only."
+    },
+    {
+      "id": "CLM-0513",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S104 T261 derived homotopy-total-cofibers of both genuine mixed squares are S16, so cofiber plus all primary data is not a complete homotopy square invariant.",
+      "sources": [
+        "SRC-0253"
+      ],
+      "scope": "Homotopy pushout=ordinary P for cofibration square; no general no-go against fiber/mapping-space invariants."
+    },
+    {
+      "id": "CLM-0514",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S104 T262 pi15(D0)=pi15(P) finite and pi15(D1)=pi15(P)/<alpha> with nonzero order-two alpha, so their orders differ by two and full squares are not objectwise-WE zigzag equivalent.",
+      "sources": [
+        "SRC-0252"
+      ],
+      "scope": "Relative 16-cell Hurewicz/LES and Hilton–Milnor; internal unformalised proof."
+    },
+    {
+      "id": "CLM-0515",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S104 T263 full R2 quadrant extensions have dI(graded persistent integral H)=0, but dHI in based Top is infinity by terminal quadrant weak-inequivalence.",
+      "sources": [
+        "SRC-0254"
+      ],
+      "scope": "Only different-category infinite-survival clock-type separation; NOT finite nonclock, NOT dHI>dIHC same category or HHA novel."
+    },
+    {
+      "id": "CLM-0516",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S104 produces an original HHA-ready finite nonclock quantitative persistence theorem.",
+      "sources": [
+        "SRC-0253",
+        "SRC-0254",
+        "SRC-0255"
+      ],
+      "scope": "NO: G2 NOT PASSED; classic topology and trivial infinite terminal upper-quadrant obstruction."
     }
   ]
 }

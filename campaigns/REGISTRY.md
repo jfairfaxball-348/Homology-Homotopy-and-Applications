@@ -211,3 +211,6 @@ Balanced non-graph S101 CW 3D cover campaign: **REFUTED** universally (canonical
 
 ## S103 — theoretical proof/no computational campaign, 18 October 2026
 No finite enumeration or scripted experiment was performed. T256–T258 are dimension-uniform mapping-space, stable Puppe, and Freudenthal arguments, not bounded observations. There is no code/output hash to report and no machine certification. Any S104 computational work must be pre-registered and independently checked.
+
+## S104 — theoretical mixed Whitehead proof/no finite computation, 18 October 2026
+No enumeration or computational campaign. T259–T263 proofs invoke classical Hilton–Milnor, eta², relative CW homotopy LES and homotopy pushout. No code environment/output hash/certificate; hosted static CI does not certify topology. S105 future challenge is a different finite bounded quantitative cross-direction test; no preauthorised computations or Lean.

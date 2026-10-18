@@ -2260,6 +2260,42 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Introduction and stated Thms 4.20 and 5.8 read, not proofs or entire current citation landscape.",
       "observed": "Current diagram homotopy equivalence and equivariant persistent nerve/Whitehead priority baseline."
+    },
+    {
+      "id": "SRC-0252",
+      "title": "The geometry of the Hilton splitting, Topology and its Applications 141 (2004), 105–124",
+      "url": "https://doi.org/10.1016/j.topol.2003.10.006",
+      "origin": "S104 publisher original abstract plus university teaching notes for theorem",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original full Hilton/2004 proof not read; university notes theorem 13.1 secondary statement inspected.",
+      "observed": "Canonical basic mixed Whitehead summands, used as classical Hilton–Milnor input."
+    },
+    {
+      "id": "SRC-0253",
+      "title": "Goodwillie, The Differential Calculus of Homotopy Functors (ICM 1990)",
+      "url": "https://ncatlab.org/nlab/files/GoodwillieICM1990.pdf",
+      "origin": "S104 original ICM PDF indexed source text",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Excerpt on cofiber square/homotopy pushout only, not complete paper proof.",
+      "observed": "Derived homotopy pushouts and excision standard; no new HHA completeness property."
+    },
+    {
+      "id": "SRC-0254",
+      "title": "Lanari–Scoccola 2023 and newer spaces-over-BS1 interleaving equality background",
+      "url": "https://doi.org/10.1007/s41468-026-00252-0",
+      "origin": "S104 2026 publisher original indexed paper definitions",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected introductory relationships dHC≤dIHC≤dHI; not a full proof or same category as S104 homology comparison.",
+      "observed": "Must not confuse graded H interleaving distance with Top IHC."
+    },
+    {
+      "id": "SRC-0255",
+      "title": "Blanc–Johnson–Turner, Higher homotopy operations and Andre–Quillen cohomology, Adv Math 230 (2012)",
+      "url": "https://doi.org/10.1016/j.aim.2012.02.009",
+      "origin": "S104 publisher original article abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full comparison theorems/proofs not inspected.",
+      "observed": "Classical higher operations/rectification strongly preempt novelty assumptions."
     }
   ]
 }
