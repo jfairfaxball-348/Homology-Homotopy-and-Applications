@@ -361,3 +361,6 @@ G1 original-significant HHA theorem NOT PASSED: vertexwise-equal η² CW squares
 
 ## S107 HHA stage gates — 18 October 2026
 G1 mathematical witness INTERNAL T273–T275 complete for finite HoTop-invisible CW square and exact based R² dIHC=1 (HI only 1<=dHI<=2); no strict HI>IHC, no new geometric inclusion-cover stability. G1 original significant HHA theorem NOT PASSED. G2 novelty NOT PASSED (classical hocolim/cocartesianness, generic support upper, no full 2026 original-source audit). G3 Lean NOT STARTED; independent final review, Palomar, paper, arXiv and HHA all blocked/owner gated. S108 FUTURE, UNEXECUTED.
+
+## S108 HHA proof and novelty gates — 18 October 2026
+G1 INTERNAL exact endpoint T277–T278 (based R² HI=IHC=1), NOT novel first-paper claim. T279 proves folded CW inclusion square fails exact cover axioms and any actual two-set CW cover has trivial descent defect. First-paper G1 novelty/significance NOT PASSED; independent HHA G2 NOT PASSED after bounded original abstract/prior-art screen, no complete proof-level citation census. G3 Lean NOT STARTED. Palomar, manuscript, arXiv/HHA and external communications are blocked. S109 future only.

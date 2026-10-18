@@ -267,3 +267,6 @@ No promotion. Canonical omega incompatibility provides an internally proved nece
 
 ## S106 first-paper screen — 18 October 2026
 The all-vertex-equal finite CW square ghost example is not an original HHA first-paper candidate. Primary pi4 detects inequivalence and generic finite support bounds the interleaving; it is neither same-category strict HI>IHC nor a higher-coherence-only invariant. Original ordinary unpointed Top^R strict separation OPEN. S107 exploratory proof-or-kill is NOT a publication target freeze and carries no Lean/release authority.
+
+## S108 first-paper target verdict — 18 October 2026
+Do not select hemisphere coherent-square equality as an HHA flagship. Internal exact based R² dHI=dIHC=1 is a sound route kill, not a desired strict metric gap; the nontrivial folded comparison is only an incorrect cover specification. No nonclock robust finite CW cover reconstruction theorem or substantive application has been established, and recent 2024/2026 persistent nerve sources pose direct preemption. G2 NOT PASSED. S109 future only, proof-or-kill true triple-overlap secondary attaching persistence with sharp nonclock geometry and independent originality.

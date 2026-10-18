@@ -5176,6 +5176,57 @@
         "SRC-0265"
       ],
       "scope": "UNPROVED; dHI only bounded [1,2], no first-paper gate; S108 future."
+    },
+    {
+      "id": "CLM-0532",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S108 T277 terminal degree-one sphere pinch strictly collapses the S107 equator and defines whole-diagram objectwise weak-equivalence maps of both strict squares and entire real R2 diagrams, preserving degree1/degree0 hocolim defects.",
+      "sources": [
+        "SRC-0263",
+        "SRC-0257"
+      ],
+      "scope": "Internal explicit S^n/A quotient; n>=3, based spaces; not a novel rectification theorem."
+    },
+    {
+      "id": "CLM-0533",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S108 T278 S107 supported based real R2 CW pair has attained exact dHI=dIHC=1 after whole-diagram pinch replacements; pointwise HoTop/homology interleaving0, hence NO strict HI>IHC for this pair.",
+      "sources": [
+        "SRC-0258"
+      ],
+      "scope": "Only the original E1,E0 in Top_*^(R²), not all filtered spaces or ordinary unpointed Top^R."
+    },
+    {
+      "id": "CLM-0534",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S108 T279 both four-corner squares can be literal CW subcomplex inclusion diagrams, but folded B=C upper hemisphere is not A=B∩C,D=B∪C; its derived hocolim comparison cofiber is S^n∨S^(n+1), whereas true two-set finite CW covers have naturally trivial derived cover comparison cofiber.",
+      "sources": [
+        "SRC-0264",
+        "SRC-0263"
+      ],
+      "scope": "Internal classical homotopy pushout/excision and mapping cone calculation, n>=3; true cover equality required."
+    },
+    {
+      "id": "CLM-0535",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S108 T280 original HHA quantitative geometric cover stability theorem has NOT been established by the hemisphere pair; classic pinch and pushout excision preempt proposed two-set descent novelty; G2 NOT PASSED.",
+      "sources": [
+        "SRC-0266",
+        "SRC-0259",
+        "SRC-0257"
+      ],
+      "scope": "Negative verdict for these claims, not general impossibility or an exhaustive novelty audit."
+    },
+    {
+      "id": "CLM-0536",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S109 finite CW inclusion-based three-cover secondary attaching obstruction has a genuinely original sharp nonclock two-parameter stability application.",
+      "sources": [
+        "SRC-0266",
+        "SRC-0255",
+        "SRC-0247"
+      ],
+      "scope": "Research target FUTURE ONLY, not a mathematical result, proof, novelty or publication readiness."
     }
   ]
 }

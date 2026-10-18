@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-18",
-  "last_completed_session": "S107",
-  "recommended_next_session": "S108",
+  "last_completed_session": "S108",
+  "recommended_next_session": "S109",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S107 INTERNAL HoTop-invisible finite CW hemisphere squares hocolim degree ±1 vs0, real based R2 pointwise-Ho0 dIHC=1 1<=dHI<=2; HHA G2 NOT PASSED.",
-  "selected_mathematical_problem": "S106 finite vertexwise-WE-matched CW diagrams with genuinely crossed nonclock homotopy coherent quantitative obstruction proof-or-kill",
-  "headline_status": "S107_INTERNAL_HOTOP_INVISIBLE_CW__HHA_NOVELTY_NOT_PASSED",
-  "active_campaign": "S108_FUTURE_EXACT_HI_AND_CW_DESCENT_STABILITY",
-  "claim_of_new_theorem": "Only internal classical relative-fiber kernel and finite terminal-clock control; NO independently original HHA-level theorem.",
+  "headline": "S108 INTERNAL exact based R2 dHI=dIHC=1 via degree-one pinch; folded square inclusion model fails true cover axioms. HHA G2 NOT PASSED.",
+  "selected_mathematical_problem": "S109 finite CW three-cover genuine triple-overlap secondary attaching persistence with nonclock quantitative HHA application proof-or-kill",
+  "headline_status": "S108_INTERNAL_EXACT_HI_EQUAL_IHC__TWO_SET_COVER_NO_GO__HHA_G2_NOT_PASSED",
+  "active_campaign": "S109_FUTURE_FINITE_CW_TRIPLE_COVER_HIGHER_DESCENT",
+  "claim_of_new_theorem": "Internal exact S107 family metric and classical cover-excision no-go only; no independently original HHA first-paper theorem.",
   "stages": [
     {
       "id": 0,
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__S107_CLASSICAL_COHERENCE_EXAMPLE__S108_PROOF_OR_KILL"
+      "status": "IN_PROGRESS__S108_EXACT_HI_EQUALITY__S109_THREE_COVER_PROOF_OR_KILL"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "G2_NOT_PASSED__S107_CLASSICAL_HOMOTOPY_PUSHOUT"
+      "status": "G2_NOT_PASSED__S108_CLASSICAL_PINCH_AND_HOMOTOPY_EXCISION"
     },
     {
       "id": 3,
@@ -1967,6 +1967,23 @@
     "g1": "NO_ORIGINAL_HHA_THEOREM",
     "g2": "NOT_PASSED",
     "next": "S108_FUTURE_UNEXECUTED",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED",
+    "local_checkout": "UNAVAILABLE_GITHUB_DNS"
+  },
+  "s108_checkpoint": {
+    "date": "2026-10-18",
+    "entry_main": "aed5328e6f2276b4bab8a2e916d45eb138c2882e",
+    "entry_tree": "ed3a6be64229814949bef9c876366287f4040db8",
+    "prior_pr": 124,
+    "prior_pr_static_run": 39124297762,
+    "prior_main_static_run": 39124328163,
+    "t277": "DEGREE_ONE_EQUATOR_PINCH_WHOLE_DIAGRAM_WE",
+    "t278": "EXACT_BASED_REAL_R2_DHI_EQUALS_DIHC_ONE_ATTAINED",
+    "t279": "FOLD_INCLUSION_SQUARE_NOT_EXACT_COVER_TRUE_COVER_KAPPA_WE",
+    "t280": "NO_NONCLOCK_HHA_NOVELTY_FIRST_PAPER_GATE_FAIL",
+    "g2": "NOT_PASSED",
+    "next": "S109_FUTURE_UNEXECUTED",
     "lean": "NOT_AUTHORISED",
     "publication": "NOT_AUTHORISED",
     "local_checkout": "UNAVAILABLE_GITHUB_DNS"
