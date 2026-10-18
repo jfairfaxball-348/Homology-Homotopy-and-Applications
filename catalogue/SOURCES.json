@@ -2296,6 +2296,60 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Full comparison theorems/proofs not inspected.",
       "observed": "Classical higher operations/rectification strongly preempt novelty assumptions."
+    },
+    {
+      "id": "SRC-0256",
+      "title": "Hilton, On the Homotopy Groups of the Union of Spheres, JLMS 1955",
+      "url": "https://doi.org/10.1112/jlms/s1-30.2.154",
+      "origin": "S105 original Wiley publisher record",
+      "access": "METADATA_ONLY",
+      "limitation": "Original publisher bibliography/page/year; full Hilton splitting proof not inspected.",
+      "observed": "1955 Hilton source establishes long prior-art history of basic mixed word decomposition."
+    },
+    {
+      "id": "SRC-0257",
+      "title": "Dwyer–Kan–Smith, Homotopy commutative diagrams and their realizations, JPAA 1989",
+      "url": "https://doi.org/10.1016/0022-4049(89)90023-6",
+      "origin": "S105 original ScienceDirect article abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original theorem proof not inspected.",
+      "observed": "Rectification of homotopy commutative diagrams already classical."
+    },
+    {
+      "id": "SRC-0258",
+      "title": "Lanari–Scoccola, Rectification of interleavings and a persistent Whitehead theorem, AGT 2023",
+      "url": "https://doi.org/10.2140/agt.2023.23.803",
+      "origin": "S105 published bibliographic/abstract original access",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Detailed proof of interleaving inequalities not re-inspected.",
+      "observed": "Interleaving distances in spaces are classical context; S105 bounds use separate elementary argument."
+    },
+    {
+      "id": "SRC-0259",
+      "title": "Halder–Sau–Sen, Equivariant Homotopy Interleaving and Persistent Whitehead Theorem v2 (2026)",
+      "url": "https://arxiv.org/html/2609.23440v2",
+      "origin": "S105 original arXiv v2 HTML introduction, revised 13 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Theorem A and stated Theorem4.20 and 5.8 inspected; proofs not exhaustively checked.",
+      "observed": "Recent G-homotopy Whitehead/nerve comparisons and category distinction."
+    },
+    {
+      "id": "SRC-0260",
+      "title": "Asao–Wakatsuki, Minimal projective resolution and magnitude homology of geodetic metric spaces, HHA28(2) 2026",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n2.a7",
+      "origin": "S105 Kyushu University institutional published-paper abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Not publisher article proof; HHA issue spot check ONLY, not a full issue census.",
+      "observed": "Confirms recent HHA scope of explicit homological results with applications."
+    },
+    {
+      "id": "SRC-0261",
+      "title": "Chanavat–Hadzihasanovic, Diagrammatic sets as a model of homotopy types, HHA28(1) 2026",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n1.a5",
+      "origin": "S105 author institutional bibliographic entry",
+      "access": "METADATA_ONLY",
+      "limitation": "No article mathematical proof inspected.",
+      "observed": "Recent HHA model-category paper; journal scope example, no novelty certificate."
     }
   ]
 }

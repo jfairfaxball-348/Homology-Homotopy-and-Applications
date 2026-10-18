@@ -1,0 +1,5 @@
+# S105 INPUT — 18 October 2026
+
+A new owner "run next session" explicitly authorises exactly S105. Read main at 309043e1ecd11a2c648f0115908cb17c6274996c, Git tree afc5900bfa1196c0d73a38f172a76aa8f8f92204. Previous S104 PR #121 ordinary two-parent merge (parents 7ba0af27914abf669e0f991fc86d6d9b70d8a858 and 5a9bbc06692fc89d229efdd96ee913a4cb30521b). The preceding PR run 39114879745 and main push run 39114914270 were hosted governance passes, not mathematical checks. No open PR found on entry.
+
+Predeclared: construct choice-free derived relative fiber/crossing obstruction on entire based CW squares invariant under arbitrary whole-square objectwise WEs; attempt finite actual R² extensions with both nontrivial axes, finite quantitative homotopy versus primary-homology distances; explicitly FAIL the HHA objective if only single-rectangle half-lifetime/terminal inequivalence survives. Hostile all-shift identities, primary-source collision, G2. No enumeration, Lean, publication, third-party contact. Exact-source local checkout unavailable owing to container DNS; GitHub connected files supply repository authority.
