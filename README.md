@@ -1,3 +1,7 @@
+# Latest checkpoint — S107, 18 October 2026
+
+S107 INTERNAL T273–T275: literal finite CW opposite-hemisphere versus duplicate-upper-hemisphere strict squares have **identical complete Fun(P,HoTop) shadows** but inequivalent whole diagrams (canonical hocolim comparison degree ±1 versus 0). Full-real based R²: pointwise Ho/homology distance0, derived dIHC=1 in Ho(Top_*^(R²)), 1<=dHI<=2. This is classical coherent-square topology, NOT an original HHA application or proven same-category strict HI>IHC; G2 NOT PASSED, no Lean/Palomar/paper/release. [Proof](sessions/S107/MATHEMATICS.md) · [Adversarial](sessions/S107/ADVERSARIAL.md) · [S108 FUTURE handoff](authoritative/NEXT_SESSION_PROMPT.md).
+
 # Latest checkpoint — S102, 18 October 2026
 
 S102 INTERNAL T251–T254: the **canonical** diamond comparison omega:E->coker lambda_K must inject for any admissible total-3D finite CW three-cover, but S101 balanced fold has E=Z and omega(1)=e-e=0; therefore there is NO compatible 3D cover. A full compatible finite CW dimension-4 cone/mapping-cylinder cover DOES exist, making dimension four sharp. This is classical Mayer–Vietoris machinery; HHA originality gate G2 NOT PASSED, no Lean or paper. S103 FUTURE pursues genuinely unstable two-transition homotopy-descent, not more integral Smith tests. [Mathematics](sessions/S102/MATHEMATICS.md) · [Adversarial](sessions/S102/ADVERSARIAL.md) · [Future prompt](authoritative/NEXT_SESSION_PROMPT.md).

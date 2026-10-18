@@ -156,3 +156,6 @@ Now INTERNAL proof of T225–T227 exact full real four-stage equivariant homotop
 
 ## S106 non-selection (18 October 2026)
 An explicit finite CW vertexwise-identical two-axis ghost example has internal pi4 joint ranks1/2, all-real R² 1/2<=dHI<=1 vs graded homology distance0; nonetheless pointwise HoTop already distinguishes the squares and generic support supplies the upper. It does NOT demonstrate same-category strict ordinary UNPOINTED Top^R HI>IHC, derived-only higher coherence or independent HHA application/novelty. Do NOT freeze theorem, start Lean, or release; G2 remains NOT PASSED. S107 research-only future prompt is a prospective autonomous mathematical pivot.
+
+## S107 first-paper assessment — 18 October 2026
+Finite n>=3 CW hemisphere squares T273–T274 differ in Ho(Top^P) despite identical Fun(P,HoTop) shadows; S107 based full-real R² derived dIHC=1 and homotopy HI in [1,2], with pointwise-Ho distance0. This is INTERNALLY proven classical homotopy cocartesianness, not a new HHA reconstruction/application or same-category strict HI>IHC. G1 original HHA theorem OPEN/G2 NOT PASSED. Old ordinary unpointed Top^R strict separation archived OPEN. No Lean/Palomar/manuscript/arXiv/HHA. S108 FUTURE self-steered exact metric and genuine CW inclusion-cover stability proof-or-kill.

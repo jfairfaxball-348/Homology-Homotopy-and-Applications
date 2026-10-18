@@ -2359,6 +2359,33 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Full author mathematical proof not inspected",
       "observed": "Replacing spaces by WEs and maps by homotopies within homotopy coherent diagrams is classical."
+    },
+    {
+      "id": "SRC-0263",
+      "title": "Cary Malkiewich, author note on failure of ordinary pushouts in homotopy category",
+      "url": "https://people.math.binghamton.edu/malkiewich/no_pushout.pdf",
+      "origin": "author-hosted PDF, selected excerpt 18 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected excerpt, no full proof audit or journal claim.",
+      "observed": "Colimits of HoTop do not obey naive ordinary pushout rules."
+    },
+    {
+      "id": "SRC-0264",
+      "title": "An isovariant Blakers–Massey theorem (2026), published Springer article",
+      "url": "https://link.springer.com/article/10.1007/s40062-026-00406-y",
+      "origin": "original Springer published HTML, 18 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected homotopy pushout definition/double-cylinder passage, not full proof.",
+      "observed": "Homotopy cocartesian square via hocolim-to-terminal equivalence."
+    },
+    {
+      "id": "SRC-0265",
+      "title": "Lebovici–Lerch–Oudot, Local Characterization of Block-Decomposability for Multiparameter Persistence Modules, HHA 28(1) (2026)",
+      "url": "https://doi.org/10.4310/HHA.2026.v28.n1.a9",
+      "origin": "institutional bibliographic listing, 18 October 2026",
+      "access": "METADATA_ONLY",
+      "limitation": "Institutional metadata, not published HHA mathematical proof or complete issue census.",
+      "observed": "2026 HHA multiparameter persistence paper, scope example only."
     }
   ]
 }

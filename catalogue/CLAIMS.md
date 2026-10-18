@@ -744,3 +744,10 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - CLM-0524 PROGRAMME_PROVED INTERNAL: all-real finite R² diagrams, same vertices at every grade, graded homology dI=0 and 1/2<=based dHI<=1.
 - CLM-0525 PROGRAMME_PROVED negative: pi4/Fun(square,HoTop) already distinguish; no higher-coherence-only or same-category HI>IHC theorem.
 - CLM-0526 INHERITED_UNVERIFIED: HHA originality and substantive application NOT PASSED.
+
+## S107 — 18 October 2026
+- CLM-0527 PROGRAMME_PROVED INTERNAL T273: literal finite CW diamonds have identical entire Fun(P,HoTop) shadow including all homotopy-group arrows, homology/cup/primary operations.
+- CLM-0528 PROGRAMME_PROVED INTERNAL T274: canonical derived hocolim-span→terminal has degree ±1 vs0, hence no whole-diagram WE zigzag; classical homotopy-cocartesian mechanism.
+- CLM-0529 PROGRAMME_PROVED INTERNAL T275: based all-real R² pointwise-Ho and homology distance0, dIHC=1 in Ho(Top_*^(R²)), 1<=dHI<=2; NOT strict HI>IHC.
+- CLM-0530 PROGRAMME_PROVED negative T276: classical homotopy colimit detection and generic support upper do not establish original HHA application; G2 NOT PASSED.
+- CLM-0531 INHERITED_UNVERIFIED: novel geometric cover stability/reconstruction or same-category strict HI>IHC not established, S108 FUTURE.
