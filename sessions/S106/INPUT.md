@@ -1,0 +1,5 @@
+# S106 INPUT — 18 October 2026
+
+Fresh owner "Run next session" authorises **only S106**. Authoritative entry main `0d675dbe2591c9c0c8e0f02ff744f7616ac51882`, tree `deac58724dd1aef0c33d0fc12615fb160dbed23e`. Prior S105 PR #122 ordinary two-parent merge parents `309043e1ecd11a2c648f0115908cb17c6274996c`, `43947858cbf5faf6b02265efa30c55a6f8ffdbbe`; verified hosted PR run 39119681679 and main run 39119715154 both success on STATIC governance steps only. Open PRs empty, rulesets [] and branch protection unreadable 403. Local `git ls-remote` DNS failure; no local exact-source checkout/validator.
+
+Predeclared challenge: finite literal two-axis based CW squares with objectwise *identical* vertices and integral homology/cup/Steenrod diagrams; distinguish under every simultaneous corner auto and whole objectwise-WE zigzag, quantify all real R² bounds and explicitly reject the route if visible already in ordinary homotopy-group diagrams, or if HHA novelty/application does not survive original sources. No enumeration/Lean/manuscript/submission/external contact.

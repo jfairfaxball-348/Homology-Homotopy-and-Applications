@@ -2350,6 +2350,15 @@
       "access": "METADATA_ONLY",
       "limitation": "No article mathematical proof inspected.",
       "observed": "Recent HHA model-category paper; journal scope example, no novelty certificate."
+    },
+    {
+      "id": "SRC-0262",
+      "title": "Vogt, Maps between homotopy coherent diagrams, Topology and its Applications 28(3) (1988) 255-275",
+      "url": "https://doi.org/10.1016/0166-8641(88)90046-6",
+      "origin": "S106 original ScienceDirect publisher abstract, 18 October 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full author mathematical proof not inspected",
+      "observed": "Replacing spaces by WEs and maps by homotopies within homotopy coherent diagrams is classical."
     }
   ]
 }

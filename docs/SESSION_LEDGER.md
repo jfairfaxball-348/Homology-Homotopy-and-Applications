@@ -294,3 +294,6 @@ Entry 69e40cc153d562637e59d781b72c2857a9a60cc4. T251–T254 exact canonical omeg
 
 ## S103 — 18 October 2026
 Two-transition finite CW S^(n+1) --2--> S^(n+1) --eta--> S^n, n>=5: T256 two-component nullhomotopy torsor; T257 two genuinely different Moore-cone extension homotopy classes; T258 **REFUTES** proposed unique selected-filler invariant of same bare whole-real diagram, which has self HI=IHC=0. G2 NOT PASSED; no HHA-ready theorem. S104 FUTURE, UNEXECUTED full two-parameter homotopy-square pivot. No Lean/Palomar/publication.
+
+## S106 — 18 October 2026
+Entry main 0d675dbe2591c9c0c8e0f02ff744f7616ac51882 tree deac58724dd1aef0c33d0fc12615fb160dbed23e, S105 #122 ordinary two-parent merge; static hosted PR run 39119681679/main run 39119715154 success. T269/T270 four identical-X finite CW square ghosts and natural pi4 rank1 vs2; T271 full-real finite R² identical vertexwise, dI(H)=0, 1/2<=based dHI<=1. T272 derived higher-coherence-only claimed route KILLED since Fun(square,HoTop) detects. G2 NOT PASSED, original Top strict OPEN, no Lean/paper/Palomar. Local exact-source validators unavailable due DNS. S107 full FUTURE, UNEXECUTED prompt installed.

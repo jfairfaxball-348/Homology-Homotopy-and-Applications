@@ -264,3 +264,6 @@ Do NOT promote T247–T249 to first paper: matrices, fold mapping cylinders and 
 
 ## S102 first-paper filter (18 October 2026)
 No promotion. Canonical omega incompatibility provides an internally proved necessary map-level CW condition and sharp dimension4 witness, but remains elementary ordinary MV connecting-homomorphism algebra and has no novel unstable homotopy/persistent-stability consequence. Existing HHA 2025–26 and 2023/2024 persistent MV sources pose severe originality risk. G2 NOT PASSED. S103 must produce a genuinely unstable two-transition invariant with rigorous whole-diagram weak-equivalence robustness and actual nonclock persistence use, or rigorously kill a precise assertion. Original unpointed Top^R HI>IHC open long-term.
+
+## S106 first-paper screen — 18 October 2026
+The all-vertex-equal finite CW square ghost example is not an original HHA first-paper candidate. Primary pi4 detects inequivalence and generic finite support bounds the interleaving; it is neither same-category strict HI>IHC nor a higher-coherence-only invariant. Original ordinary unpointed Top^R strict separation OPEN. S107 exploratory proof-or-kill is NOT a publication target freeze and carries no Lean/release authority.

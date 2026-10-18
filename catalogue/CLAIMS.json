@@ -5075,6 +5075,55 @@
         "SRC-0259"
       ],
       "scope": "FALSE AS A PUBLICATION CLAIM: clock plateau/lifetime governs, no mixed-specific lower or independent G2; route retired."
+    },
+    {
+      "id": "CLM-0522",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S106 T269 two finite based CW squares have literally identical X=S2 vee S4 vee S4 vertices, each edge a nonzero eta-squared pi4 ghost, strict zero composites, identical primary integral homology/cup/Steenrod diagrams.",
+      "sources": [
+        "SRC-0256"
+      ],
+      "scope": "Internal CW construction, no derived-only invariant."
+    },
+    {
+      "id": "CLM-0523",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S106 T270 functorial joint torsion ghost pi4 matrix ranks are 1 and 2 for two squares, invariant under every vertex auto and whole objectwise-WE zigzag.",
+      "sources": [
+        "SRC-0256"
+      ],
+      "scope": "Internal primary pi4 diagram argument, already detectable by Fun(P,HoTop)."
+    },
+    {
+      "id": "CLM-0524",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S106 T271 full-real finite CW R2 diagrams with literally same corresponding vertices satisfy 1/2<=based dHI<=1 and graded integral homology interleaving0.",
+      "sources": [
+        "SRC-0258"
+      ],
+      "scope": "Strict zero 1-interleaving upper, four-corner rank lower for eps<1/2; no exact value or unpointed Top^R separation."
+    },
+    {
+      "id": "CLM-0525",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S106 T272 kills proposed derived-only higher coherence novelty since ordinary pi4 arrow diagrams already distinguish, pointwise HoTop interleaving has lower bound1/2, HHA G2 not passed.",
+      "sources": [
+        "SRC-0257",
+        "SRC-0258",
+        "SRC-0262"
+      ],
+      "scope": "Negative novelty verdict for this pair only, not an all-diagram impossibility."
+    },
+    {
+      "id": "CLM-0526",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S106 paired ghost CW diagrams furnish an original HHA-significant higher-coherence-only nonclock theorem or same-category ordinary unpointed Top^R dHI>dIHC.",
+      "sources": [
+        "SRC-0255",
+        "SRC-0259",
+        "SRC-0262"
+      ],
+      "scope": "NOT ESTABLISHED, primary pi4 already detects, support-clock upper and no G2."
     }
   ]
 }

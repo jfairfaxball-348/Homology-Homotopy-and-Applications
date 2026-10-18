@@ -153,3 +153,6 @@ First-paper search now compares genuine Q-equivariant homotopy persistence to it
 
 ## S095 HHA gate, 17 Oct 2026
 Now INTERNAL proof of T225–T227 exact full real four-stage equivariant homotopy-vs-full-modular-chain gap: existence of maps between inequivalent X,Y fixing common skeleton yields dHI^basedQTop=(d-c)/2, lens actions with π2(S3)=0 instantiate and B-chain distance0. However standard cellular extension and 2026 equivariant G-n-equivalence results plus formal interleaving naturality mean this is NOT yet independently original/HHA-worthy; G2 NOT PASSED. Strict ordinary unpointed Top HI>IHC OPEN. S096 assistant-chosen future asymmetric relative attaching obstruction theorem with actual two-lane whole real coherence; no Lean, paper or external contact.
+
+## S106 non-selection (18 October 2026)
+An explicit finite CW vertexwise-identical two-axis ghost example has internal pi4 joint ranks1/2, all-real R² 1/2<=dHI<=1 vs graded homology distance0; nonetheless pointwise HoTop already distinguishes the squares and generic support supplies the upper. It does NOT demonstrate same-category strict ordinary UNPOINTED Top^R HI>IHC, derived-only higher coherence or independent HHA application/novelty. Do NOT freeze theorem, start Lean, or release; G2 remains NOT PASSED. S107 research-only future prompt is a prospective autonomous mathematical pivot.
