@@ -544,3 +544,10 @@ SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theore
 
 ## S101 newly logged primary abstract — 2026-10-17
 - **SRC-0247** [ABSTRACT_INSPECTED] Kensuke Arakawa, *Homotopy limits and homotopy colimits of chain complexes*, JPAA 230(4), 108232 (2026), https://doi.org/10.1016/j.jpaa.2026.108232. Original published abstract indexed and inspected; full 2026 proofs NOT read. Bousfield–Kan homotopy colimit construction predates generic chain descent. SRC-0244/0245/0240 retained and rechecked as limited-access primary listings.
+
+## S102 primary-source access correction, 18 October 2026
+- SRC-0244: 2023 Torras-Casas Springer original extracted §4–5 statements read; selected STATEMENT_INSPECTED, not exhaustive proofs.
+- SRC-0245: 2024 Torras-Casas/Pennig published metadata/abstract checked, inherited S004 selected proofs not re-read; STATEMENT_INSPECTED.
+- SRC-0247: 2026 Arakawa original arXiv metadata and author's own published bibliography, ABSTRACT_INSPECTED; no section-level proof read.
+- SRC-0215/SRC-0222: Sept 2026 equivariant Whitehead original HTML Theorems 4.20/5.8 and selected 4.20 proof passages inspected. No complete novelty clearance.
+- No new source priority IDs fabricated; catalogue JSON is authoritative. S102 proofs use standard MV, not a claimed original HHA method.

@@ -104,3 +104,6 @@ T221–T224 compare based Cp-Top vs full Fp[Cp] chain persistence on honest lens
 
 ## After S095 — exact skeletal metric solved, novelty bottleneck clear
 S095 T225–T227 INTERNAL: arbitrary common lower finite equivariant CW skeleton filtration, mutually extending but nonequivalent top stages => exact top homotopy interleaving half terminal lifetime; Cp lens four-stage concrete mod-p deck-chain-blind full real gap. Algebraic field/group-ring diagrams HI=0. G2 not passed: classical extension plus formal window. S096 FUTURE self-steered asymmetric higher attaching k-invariant or secondary obstruction, two-lane unrestricted WEs/real indices and actual HHA theorem application required. No Lean or publication without independent source gate.
+
+## S102 proof-first result and S103 next (18 October 2026)
+Balanced S101 full 3D fold cover: universally impossible via canonical omega; 4D realisation minimal. Treat as internally proved classical CW obstruction, not HHA flagship. Immediate next research S103 seeks an original nonlinear two-transition homotopy-descent effect surviving full-diagram weak equivalences and 2026 primary priority; only then consider first G2 and later separately gated formalisation and publication.

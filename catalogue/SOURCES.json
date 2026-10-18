@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-18",
   "sources": [
     {
       "id": "SRC-0001",
@@ -2194,18 +2194,18 @@
       "title": "Torras-Casas, Distributing Persistent Homology via Spectral Sequences",
       "url": "https://doi.org/10.1007/s00454-023-00549-2",
       "origin": "S100 indexed original 2023 Springer abstract/Section5 passage",
-      "access": "ABSTRACT_INSPECTED",
-      "limitation": "Publisher direct open failed; no full paper proof audit.",
-      "observed": "Publisher direct open failed; no full paper proof audit."
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Publisher direct open failed; no full paper proof audit. S102 rechecked published Springer original §4 double-complex and §5 persistent MV via extracted HTML; NOT full proof inspection.",
+      "observed": "Publisher direct open failed; no full paper proof audit. S102: canonical connecting data strong priority screen."
     },
     {
       "id": "SRC-0245",
       "title": "Torras-Casas and Pennig, Interleaving Mayer-Vietoris spectral sequences",
       "url": "https://doi.org/10.2140/agt.2024.24.4265",
       "origin": "S100 author-university original repository page 2026-10-17",
-      "access": "ABSTRACT_INSPECTED",
-      "limitation": "Original 2024 AGT full proof not inspected; covers, blowups, stability.",
-      "observed": "Original 2024 AGT full proof not inspected; covers, blowups, stability."
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original 2024 AGT full proof not inspected; covers, blowups, stability. S102 checked original published/author deposit abstract; inherited S004 selected proof inspection not re-executed.",
+      "observed": "Original 2024 AGT full proof not inspected; covers, blowups, stability. S102 originality veto on classical spectral-sequence interleaving."
     },
     {
       "id": "SRC-0246",
@@ -2222,8 +2222,8 @@
       "url": "https://doi.org/10.1016/j.jpaa.2026.108232",
       "origin": "S101 publisher-indexed original article abstract",
       "access": "ABSTRACT_INSPECTED",
-      "limitation": "Full mathematical paper and theorem proofs not read; homotopy colimits classical background.",
-      "observed": "Abstract and published metadata for bar/cobar Bousfield–Kan model."
+      "limitation": "Full mathematical paper and theorem proofs not read; homotopy colimits classical background. S102 independently checked author's 2026 publication listing and original arXiv 2310.00201 abstract, not theorem proof.",
+      "observed": "Abstract and published metadata for bar/cobar Bousfield–Kan model. S102 no exact overlap established; full priority unknown."
     }
   ]
 }

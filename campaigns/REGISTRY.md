@@ -205,3 +205,6 @@ S100 complete INTERNAL: T242–T246 strict nonzero M three-cover free rank and t
 
 ### CAM-0101 — one exact rank-minimal balanced fold, 17 October 2026
 Pre-registered exactly one nonzero-M natural integer datum (A all Z identities, B=0/Z/Z/Z² fold, top M=[1,0]); SymPy checker `scripts/s101_balanced_fold_check.py` locally executed, arithmetic PASS, script SHA256 337260139d32659936a39dd85f8e4d6c16ab5880d7ebf0c3a6cfbe61cb797417, stdout SHA256 ea1de902d6dffaf8160b7c3dc6feae17ab49403f4c660fbb82b24db5645dc4ec. Completeness scope ONLY this datum; geometric T and X individually proved by finite CW argument, NO combined cover certificate, no HHA novelty/Lean.
+
+## S102 | finished 18 October 2026
+Balanced non-graph S101 CW 3D cover campaign: **REFUTED** universally (canonical omega=0 not injective), genuine dimension4 cover realisable. No brute force campaign. T255 homotopy-promoted omega proposal rejected. Campaign S103 self-steered unstable two-transition CW homotopy-descent research FUTURE/UNEXECUTED; HHA G2 NOT PASSED.

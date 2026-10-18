@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-18",
   "claims": [
     {
       "id": "CLM-0001",
@@ -4899,6 +4899,47 @@
         "SRC-0247"
       ],
       "scope": "NOT ESTABLISHED; G2 NOT PASSED."
+    },
+    {
+      "id": "CLM-0502",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S102 T251 canonical algebraic omega:E=ker delta_C -> K11/(im K10+im K01) from differences of lifts under M; choice-independent.",
+      "sources": [],
+      "scope": "Detailed internally proved natural abelian-group diagram chase; independent of geometric existence; no originality claim."
+    },
+    {
+      "id": "CLM-0503",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S102 T252 for every literal meet-exact finite CW three-cover of total dimension<=3 under S006 purity/contractibility, the SPECIFIC canonical omega injects and its cokernel is free.",
+      "sources": [
+        "SRC-0009",
+        "SRC-0010"
+      ],
+      "scope": "Internal cellular chain/natural two-set MV proof; no imposed mixed-grade intersections; not externally or Lean reviewed; classical machinery."
+    },
+    {
+      "id": "CLM-0504",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S102 T253 S101 fixed balanced non-graph fold is impossible in any total-dimensional-three admissible cover: omega(1)=[e-e]=0 even though E=Z.",
+      "sources": [],
+      "scope": "Exact all-cover no-go given T252; not a failed construction or abstract rank test."
+    },
+    {
+      "id": "CLM-0505",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S102 T254 a single labelled meet-exact finite four-dimensional CW three-cover exists for the S101 data by extending the S100 mapping-cylinder suspension-cone with top-only f loop; minimum dimension exactly four.",
+      "sources": [],
+      "scope": "Detailed internal construction and intersection/d2 check; not formally certified or HHA-original."
+    },
+    {
+      "id": "CLM-0506",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S102 T255 omega alone cannot distinguish nonlinear homotopy-coherent filtered CW objects sharing (A,B,M), as omega is defined solely from those abelian diagrams.",
+      "sources": [
+        "SRC-0010",
+        "SRC-0247"
+      ],
+      "scope": "Negative mathematical assertion about this proposed invariant only; other homotopy-descent avenues still open; G2 NOT PASSED."
     }
   ]
 }
