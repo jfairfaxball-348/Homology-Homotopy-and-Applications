@@ -737,3 +737,10 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - **CLM-0519 T266 PROGRAMME_PROVED INTERNAL:** finite supported all-real R² CW diagrams naturally agree in all primary persistence data; maps can collapse at deaths.
 - **CLM-0520 T267 PROGRAMME_PROVED INTERNAL:** L/2≤dHI≤(L+1)/2 and graded H interleaving0, but clock-lifetime only.
 - **CLM-0521 T268 NONFLAGSHIP:** HHA nonclock originality NOT PASSED; not dHI>dIHC same-category; no formalisation/paper.
+
+## S106 — 18 October 2026
+- CLM-0522 PROGRAMME_PROVED INTERNAL: literal vertexwise-equal finite CW square with eta² ghosts, natural primary homology/Steenrod equality.
+- CLM-0523 PROGRAMME_PROVED INTERNAL: simultaneous outgoing pi4 torsion map ranks1 vs2, every whole-square WE zigzag excluded.
+- CLM-0524 PROGRAMME_PROVED INTERNAL: all-real finite R² diagrams, same vertices at every grade, graded homology dI=0 and 1/2<=based dHI<=1.
+- CLM-0525 PROGRAMME_PROVED negative: pi4/Fun(square,HoTop) already distinguish; no higher-coherence-only or same-category HI>IHC theorem.
+- CLM-0526 INHERITED_UNVERIFIED: HHA originality and substantive application NOT PASSED.

@@ -568,3 +568,7 @@ SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theore
 
 ## S105 18-Oct-2026 source additions
 SRC-0256 Hilton1955 original publisher metadata; SRC-0257 DKS1989 original publisher abstract; SRC-0258 LS2023 published original abstract; SRC-0259 Halder–Sau–Sen Oct13 v2 original HTML theorem introductions; SRC-0260 HHA28(2) Asao–Wakatsuki institutional abstract; SRC-0261 HHA28(1) Chanavat–Hadzihasanovic institutional metadata. BJT2012/Torras-Casas–Pennig2024/Arakawa2026 originals screened as documented in sessions/S105/PRIOR_ART.md. No comprehensive proof-level article or 2026-issue census, no HHA G2 pass.
+
+## S106 original-source spot check — 18 October 2026
+- SRC-0262 Vogt 1988, Topology and its Applications 28(3), 255–275, doi:10.1016/0166-8641(88)90046-6; original publisher ABSTRACT_INSPECTED, no full proof.
+- Revisited SRC-0256 Hilton1955 publisher, SRC-0257 DKS1989, SRC-0255 BJT2012, SRC-0258 Lanari–Scoccola2023, SRC-0245 Torras-Casas–Pennig2024 and SRC-0259 HSS arXiv:2609.23440v2. Prior 2026 HHA issue spot checks SRC-0260/0261; no current full original-proof/citation census. G2 NOT PASSED.

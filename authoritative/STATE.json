@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-18",
-  "last_completed_session": "S105",
-  "recommended_next_session": "S106",
+  "last_completed_session": "S106",
+  "recommended_next_session": "S107",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S105 INTERNAL homotopy-fiber comparison kernel separates S104 mixed CW squares (0 vs Z2), but finite R2 dHI in [L/2,(L+1)/2] vs dI(H)=0 is terminal-plateau CLOCK ONLY. G2 NOT PASSED.",
+  "headline": "S106 INTERNAL finite CW vertexwise-identical ghost squares yield joint pi4 rank1 vs2, all-real R2 1/2<=dHI<=1 and homology dI=0; pointwise HoTop already detects, HHA G2 NOT PASSED.",
   "selected_mathematical_problem": "S106 finite vertexwise-WE-matched CW diagrams with genuinely crossed nonclock homotopy coherent quantitative obstruction proof-or-kill",
-  "headline_status": "S105_DERIVED_FIBER_KERNEL_TRUE__FINITE_BOUND_ONLY_CLOCK__HHA_G2_NOT_PASSED__S106_FUTURE",
-  "active_campaign": "S106 FUTURE UNEXECUTED vertexwise-identical CW homotopy-coherent two-axis nonclock metric proof-or-kill",
+  "headline_status": "S106_VERTEXWISE_MATCHED_GHOST_RANK__HIGHER_COHERENCE_FAILED__G2_NOT_PASSED__S107_FUTURE",
+  "active_campaign": "S107 FUTURE UNEXECUTED genuinely derived-only finite CW whole-diagram coherence proof-or-kill",
   "claim_of_new_theorem": "Only internal classical relative-fiber kernel and finite terminal-clock control; NO independently original HHA-level theorem.",
   "stages": [
     {
@@ -1934,5 +1934,21 @@
     "lean": "NOT_AUTHORISED",
     "publication": "NOT_AUTHORISED",
     "local_exact_source_checkout": "UNAVAILABLE_DNS"
+  },
+  "s106_checkpoint": {
+    "date": "2026-10-18",
+    "entry_main": "0d675dbe2591c9c0c8e0f02ff744f7616ac51882",
+    "entry_tree": "deac58724dd1aef0c33d0fc12615fb160dbed23e",
+    "prior_pr": 122,
+    "t269": "FOUR_VERTEX_EQUAL_X_CW_GHOST_SQUARES",
+    "t270": "JOINT_PI4_TORSION_RANK_ONE_VS_TWO_WHOLE_WE_INVARIANT",
+    "t271": "ALL_REAL_FINITE_R2_HALF_LE_DHI_LE_ONE_HOMOLOGY_ZERO",
+    "t272": "HIGHER_COHERENCE_ONLY_CLAIM_KILLED_BY_PI4_HOTOP",
+    "g1": "ORIGINAL_HHA_SIGNIFICANCE_OPEN",
+    "g2": "NOT_PASSED",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED",
+    "next": "S107_FUTURE_UNEXECUTED",
+    "local_checkout": "UNAVAILABLE_DNS"
   }
 }
