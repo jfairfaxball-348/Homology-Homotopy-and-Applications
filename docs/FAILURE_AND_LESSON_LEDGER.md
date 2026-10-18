@@ -553,3 +553,6 @@ An elementary non-graph fold can satisfy every earlier A-latching, K/C torsion/r
 
 ## S102 — canonical-map lesson
 Abstract T242 sequence admits an injection E~Z into coker lambda_K~Z but the ACTUAL geometric injection is the canonical difference-of-lifts omega; S101 balanced e-e sends generator to zero and is impossible in 3D. Separate T and X diagrams are insufficient for a simultaneous cover. Extra top f loop repairs rank, not coherence. Even this improved obstruction is determined by (A,B,M), so cannot become nonlinear unstable HHA invariant by renaming it; pivot to genuinely higher homotopy data.
+
+## S103 — selected secondary lift is not an invariant of an undecorated diagram
+The nonzero maps 2:S^(n+1)->S^(n+1) and eta:S^(n+1)->S^n have null composite, but pi1 Map_*(S^(n+1),S^n)=pi2^S=Z2 gives two nullhomotopy choices. Stable Puppe injectivity gives two genuinely inequivalent Moore-cone extensions; the original strict real persistence diagram is nonetheless exactly the SAME diagram. Reject proposals that attach a chosen secondary value without declaring the choice as extra structure and quotienting indeterminacy. No HHA novelty from an elementary corrected torsor; next demand coherent two-parameter intrinsic property.

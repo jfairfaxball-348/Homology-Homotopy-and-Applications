@@ -551,3 +551,10 @@ SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theore
 - SRC-0247: 2026 Arakawa original arXiv metadata and author's own published bibliography, ABSTRACT_INSPECTED; no section-level proof read.
 - SRC-0215/SRC-0222: Sept 2026 equivariant Whitehead original HTML Theorems 4.20/5.8 and selected 4.20 proof passages inspected. No complete novelty clearance.
 - No new source priority IDs fabricated; catalogue JSON is authoritative. S102 proofs use standard MV, not a claimed original HHA method.
+
+
+## S103 source additions — 18 October 2026
+- SRC-0248: Dwyer–Kan–Smith, JPAA 1989 DOI 10.1016/0022-4049(89)90023-6. Original published abstract only.
+- SRC-0249: Lanari–Scoccola, AGT 2023 DOI 10.2140/agt.2023.23.803. Selected original published Def 3.6 / Prop 3.7 statement; no full proof audit.
+- SRC-0250: Blanc–Markl 2002 original arXiv math/0207082 abstract.
+- SRC-0251: Halder–Sau–Sen original arXiv 2609.23440v2 (13 Oct 2026); introduction and stated Thms 4.20/5.8; no complete proof audit.

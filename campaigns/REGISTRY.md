@@ -208,3 +208,6 @@ Pre-registered exactly one nonzero-M natural integer datum (A all Z identities, 
 
 ## S102 | finished 18 October 2026
 Balanced non-graph S101 CW 3D cover campaign: **REFUTED** universally (canonical omega=0 not injective), genuine dimension4 cover realisable. No brute force campaign. T255 homotopy-promoted omega proposal rejected. Campaign S103 self-steered unstable two-transition CW homotopy-descent research FUTURE/UNEXECUTED; HHA G2 NOT PASSED.
+
+## S103 — theoretical proof/no computational campaign, 18 October 2026
+No finite enumeration or scripted experiment was performed. T256–T258 are dimension-uniform mapping-space, stable Puppe, and Freudenthal arguments, not bounded observations. There is no code/output hash to report and no machine certification. Any S104 computational work must be pre-registered and independently checked.

@@ -1,0 +1,12 @@
+# S103 ADVERSARIAL — falsification and quantifier checks
+
+1. **Both arrows nontrivial:** degree two induces `2:Z->Z`; `eta_n` generates `pi_(n+1)S^n=Z/2` for n>=5. Their composite is null in the homotopy category but need not be literally constant.
+2. **Exactly which group?** `pi_1 Map_*(A,C)` at the constant map equals `[Sigma A,C]_*`, not `[A,C]`; hence `pi_(n+2)(S^n)=Z/2`. A path between two points is a torsor for loops, not naturally a pointed group.
+3. **Cone choice genuinely survives:** possible identification of `h_0,h_1` would place `eta^2` in image of `(Sigma 2)^*`, which is zero, violating the stable Puppe exact sequence. This independently checks the nullhomotopy-path argument via the cone LES.
+4. **Unstable gap:** we do not equate all stable and unstable maps without range; `n>=5`, `dim C_f=n+2`, and Freudenthal guarantees the comparison required for these mapping classes. One can avoid any low-dimensional exceptional behavior by taking n=5 explicitly.
+5. **Coherence trap:** changing a filler is NOT changing the underlying strict filtration; therefore claiming two different homotopy interleaving distances, or a positive distance from arbitrary chosen labels, is immediately false. Identity whole-real diagram WE and both exact 0-interleaving identities dispose of it.
+6. **Primary-data trap:** degree-two persists in integral homology; we assert equality between the two choices of H, not total invisibility to all primary data of the original diagram. The Hopf map is invisible to graded homology arrows but not to homotopy theory.
+7. **No false no-go:** the homotopy *space of nullhomotopies* is genuinely derivable from the whole arrow-pair and has two components; a decorated diagram including an explicit H may have secondary invariants. T258 refutes **uniqueness of a choice from an undecorated diagram**, not the entire higher-coherence research programme.
+8. **Prior-art attack:** Puppe exactness, stable eta stems, DKS rectification, Toda indeterminacy and Lanari–Scoccola's bracket obstruction are classic, so even a sound exact example has no demonstrated HHA-scale novelty or application. No full 2026 citation census, external referee, Lean proof or topological model checker.
+
+**Outcome:** P103 genuinely refuted in one finite CW two-transition instance; corrected two-element moduli proved internally. Not publication-ready.
