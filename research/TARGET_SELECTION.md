@@ -270,3 +270,6 @@ The all-vertex-equal finite CW square ghost example is not an original HHA first
 
 ## S108 first-paper target verdict — 18 October 2026
 Do not select hemisphere coherent-square equality as an HHA flagship. Internal exact based R² dHI=dIHC=1 is a sound route kill, not a desired strict metric gap; the nontrivial folded comparison is only an incorrect cover specification. No nonclock robust finite CW cover reconstruction theorem or substantive application has been established, and recent 2024/2026 persistent nerve sources pose direct preemption. G2 NOT PASSED. S109 future only, proof-or-kill true triple-overlap secondary attaching persistence with sharp nonclock geometry and independent originality.
+
+## S109 first HHA paper screen — 18 October 2026
+Rejected T281 triple Čech skeletal cofiber as textbook and T282 cover-specific infinite discrepancy as a negative *invalid inference* test, not an original application. Primary overlap type differs in the constructed covers; do not fake identical full pairwise data or derived-only indistinguishability. T284 finite IA graph mapping-torus H-equal π₁-center-different comparator is classical Wang/free-group theory, not selected for publication. G2 NOT PASSED. S110 future HHA proof-first targets genuinely quantitative nonclock monodromy persistence for actual CW inclusions, closest primary source audit mandatory.

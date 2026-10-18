@@ -223,3 +223,6 @@ No brute force, numerical experiment, SAT, checker, exhaustive finite data or ma
 
 ## S108 — exact symbolic topology, no bounded computation (18 October 2026)
 No finite enumeration, SAT, machine search, running code or independent computational certificate. Degree-one CW quotient and real shift arithmetic verified by internal hand proof only; no computation coverage, environment, CLI or output hash exists to report. Hosted static integrity does not certify mathematical statements. S109 computational work must first pre-register actual finite bound and independent checker if used.
+
+## S109 — pure proofs, no bounded computational campaign (18 October 2026)
+No brute-force enumeration, SAT, scripts, Python algebra checks, coverage table, machine certificates, computing environment or output hashes. Explicit CW edge and overlap computations T281–T283 and free-group word/chain arguments T284 are theoretical. Hosted governance CI is not mathematical validation. Any S110 finite search needs complete preregistration and independent checker/hashes before making COMPUTED_EXACT claims.

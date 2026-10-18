@@ -2395,6 +2395,15 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Institutional abstract and bibliographic DOI; full published mathematical proof not inspected in S108.",
       "observed": "Filtered regular CW epsilon-acyclic carriers/equivalences, stable MV spectral sequences, blowup geometric realization, approximate nerve theorem; direct prior-art collision risk."
+    },
+    {
+      "id": "SRC-0267",
+      "title": "Stable rational homology of the IA-automorphism groups of free groups, Journal of the Institute of Mathematics of Jussieu 25(4) (2026)",
+      "url": "https://doi.org/10.1017/S1474748026101832",
+      "origin": "Original Cambridge publisher indexed article record, 18 October 2026",
+      "access": "METADATA_ONLY",
+      "limitation": "Search-index introduction/metadata excerpt identifies IA_n; direct original page timed out. No full text or proof inspected; does NOT independently address S109 T284.",
+      "observed": "IA_n is the kernel of Aut(F_n)→GL(n,Z), indicating ordinary group-theoretic precedent for the IA graph automorphism route."
     }
   ]
 }
