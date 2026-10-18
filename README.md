@@ -1,3 +1,7 @@
+# Latest checkpoint — S110, 18 October 2026
+
+S110 INTERNAL T286–T290 builds **genuine nested finite CW mapping-torus inclusion filtrations** with identical complete natural integral persistent homology. The old IA commutator w=[b,c] is already cup-ring visible; the deeper w=[[b,c],b] in γ3 has **identical graded integral cohomology ring persistence** but distinct π1 center. All-real unpointed dHI=dIHC=∞ because terminal types permanently differ, and scale covariance defeats an unweighted finite positive metric. This is a classical Fox/Massey mechanism, **NOT an original HHA-worthy nonclock theorem**. G2 NOT PASSED, no Lean/Palomar/paper/release. [Mathematics](sessions/S110/MATHEMATICS.md) · [Adversarial](sessions/S110/ADVERSARIAL.md) · [S111 FUTURE handoff](authoritative/NEXT_SESSION_PROMPT.md).
+
 # Latest checkpoint — S107, 18 October 2026
 
 S107 INTERNAL T273–T275: literal finite CW opposite-hemisphere versus duplicate-upper-hemisphere strict squares have **identical complete Fun(P,HoTop) shadows** but inequivalent whole diagrams (canonical hocolim comparison degree ±1 versus 0). Full-real based R²: pointwise Ho/homology distance0, derived dIHC=1 in Ho(Top_*^(R²)), 1<=dHI<=2. This is classical coherent-square topology, NOT an original HHA application or proven same-category strict HI>IHC; G2 NOT PASSED, no Lean/Palomar/paper/release. [Proof](sessions/S107/MATHEMATICS.md) · [Adversarial](sessions/S107/ADVERSARIAL.md) · [S108 FUTURE handoff](authoritative/NEXT_SESSION_PROMPT.md).
