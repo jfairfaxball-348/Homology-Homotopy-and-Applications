@@ -558,3 +558,10 @@ SRC-0215 Halder–Sau–Sen arXiv:2609.23440 v2, PROOF_INSPECTED selected Theore
 - SRC-0249: Lanari–Scoccola, AGT 2023 DOI 10.2140/agt.2023.23.803. Selected original published Def 3.6 / Prop 3.7 statement; no full proof audit.
 - SRC-0250: Blanc–Markl 2002 original arXiv math/0207082 abstract.
 - SRC-0251: Halder–Sau–Sen original arXiv 2609.23440v2 (13 Oct 2026); introduction and stated Thms 4.20/5.8; no complete proof audit.
+
+## S104 source notes — 18 October 2026
+- SRC-0252 Hilton splitting 2004 DOI 10.1016/j.topol.2003.10.006, publisher original ABSTRACT_INSPECTED; related university lecture theorem secondary, no full original proof.
+- SRC-0253 Goodwillie ICM 1990 original PDF search-selected cofiber-square statement only; STATEMENT_INSPECTED, no full proof.
+- SRC-0254 original 2026 publisher paper spaces over BS1 DOI 10.1007/s41468-026-00252-0; selected dHC/IHC/HI definitions STATEMENT_INSPECTED, category distinction only.
+- SRC-0255 Blanc–Johnson–Turner original Adv Math 2012 DOI 10.1016/j.aim.2012.02.009 ABSTRACT_INSPECTED, no full proof.
+- Reconsulted SRC-0248 DKS 1989 publisher abstract, SRC-0249 LS 2023 original published abstract, SRC-0245 Torras-Casas–Pennig 2024 intro, SRC-0247 Arakawa 2026 abstract and SRC-0251 HSS v2 13-Oct-2026 abstract. No full HHA-current-volume originality census. G2 NOT PASSED.

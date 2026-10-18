@@ -1,0 +1,5 @@
+# S104 INPUT — 18 October 2026
+
+Owner instruction: "Run next session", authorising S104 only, with S105 future and unexecuted. LIVE main pinned at `7ba0af27914abf669e0f991fc86d6d9b70d8a858`, tree `95a70cee6bbb7b18855f862009016a355d944fa0`; preceding S103 PR #120 merge has the two observed parents 1126ed6fdea205f330966b6c9a5160cfbcb96966 and 44eea73acfd118689555fea932d200d561797daf. At entry no open PRs were returned. Source content obtained via connected GitHub repository actions; exact-source local clone unavailable (DNS resolution failed). Previous sessions and candidate limits read. No permission to formalise, contact outsiders or publish.
+
+Predeclared scientific aim: two literal commuting finite-CW squares with both directions nontrivial, invariant under whole-diagram WE, full primary-data comparison, a quantified nonclock persistence consequence OR an exact adversarial kill. The selected attack tests whether the homotopy-total-cofiber plus integral homology/cup/primary-Sq package is faithful to an intrinsically mixed unstable attaching map. No computation/enumeration is preregistered; the argument is theoretical.

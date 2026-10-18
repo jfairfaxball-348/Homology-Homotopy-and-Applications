@@ -722,3 +722,11 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - CLM-0508 PROGRAMME_PROVED (internal): two distinct Moore-cone extensions by Puppe injection.
 - CLM-0509 PROGRAMME_PROVED (negative): no unique filler class intrinsic to the undecorated real diagram; its self distance 0.
 - CLM-0510 INHERITED_UNVERIFIED / **NOT established**: any HHA originality/nonclock theorem; G2 NOT PASSED.
+
+## S104 — 18 October 2026
+- CLM-0511 PROGRAMME_PROVED (internal): mixed Whitehead eta²:S15→P order-two class, Hilton–Milnor.
+- CLM-0512 PROGRAMME_PROVED (internal): two literal finite CW squares match every vertex/arrow integral homology, cup and primary Steenrod data.
+- CLM-0513 PROGRAMME_PROVED (negative): both derived total cofibers S16 despite inequivalent square diagrams.
+- CLM-0514 PROGRAMME_PROVED (internal): top pi15 orders differ by factor two by relative attaching-cell LES.
+- CLM-0515 PROGRAMME_PROVED (limited): whole R² H interleaving0 vs Top HI infinite is unbounded terminal-survival, NOT finite nonclock.
+- CLM-0516 INHERITED_UNVERIFIED: HHA-ready originality/application NOT established; G2 NOT PASSED.

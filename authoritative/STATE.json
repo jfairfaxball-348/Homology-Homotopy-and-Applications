@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-18",
-  "last_completed_session": "S103",
-  "recommended_next_session": "S104",
+  "last_completed_session": "S104",
+  "recommended_next_session": "S105",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S103 INTERNAL two-transition Moore-Hopf nullhomotopy moduli has two components, but no canonical chosen-filler invariant; P103 refuted. HHA G2 NOT PASSED.",
-  "selected_mathematical_problem": "S104 genuine 2-parameter finite CW homotopy-total-cofiber coherence with non-clock quantified persistence, proof-or-kill",
-  "headline_status": "S103_MOORE_HOPF_TWO_FILLER_MODULI_PROVED_INTERNAL__PREFERRED_FILLER_P103_FALSE__G2_NOT_PASSED__S104_FUTURE",
-  "active_campaign": "S104 FUTURE UNEXECUTED self-steered two-parameter homotopy-coherent square proof-or-kill",
-  "claim_of_new_theorem": "No independently novel HHA theorem: internal classical Puppe/eta2 filler ambiguity and strict negative P103.",
+  "headline": "S104 INTERNAL mixed-Whitehead two-dimensional CW squares match all primary/cofiber data but differ in pi15; total-cofiber completeness FALSE. No finite nonclock HHA application; G2 NOT PASSED.",
+  "selected_mathematical_problem": "S105 relative homotopy-fiber / mixed Whitehead finite nonclock two-parameter persistence proof-or-kill",
+  "headline_status": "S104_MIXED_WHITEHEAD_COFIBER_PRIMARY_INCOMPLETE__G2_NOT_PASSED__S105_FUTURE",
+  "active_campaign": "S105 FUTURE UNEXECUTED relative homotopy-fiber crossed-obstruction original quantitative proof-or-kill",
+  "claim_of_new_theorem": "Only an internal exact negative completeness theorem using classical Hilton–Milnor/CW cofiber; no independently novel HHA theorem.",
   "stages": [
     {
       "id": 0,
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__S103_CANONICAL_SECONDARY_FILLER_NO_GO__S104_TWO_PARAMETER_PIVOT"
+      "status": "IN_PROGRESS__S104_MIXED_COFIBER_COMPLETENESS_NO_GO__S105_FIBER_PIVOT"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "G2_NOT_PASSED__CLASSICAL_PUPPE_DKS_TODA_AND_2023_RECTIFICATION"
+      "status": "G2_NOT_PASSED__CLASSICAL_HILTON_PUPPE_HOCOLIM_AND_2026_INTERLEAVING"
     },
     {
       "id": 3,
@@ -1901,5 +1901,21 @@
     "next": "S104_FUTURE_UNEXECUTED",
     "lean": "NOT_AUTHORISED",
     "publication": "NOT_AUTHORISED"
+  },
+  "s104_checkpoint": {
+    "date": "2026-10-18",
+    "entry_main": "7ba0af27914abf669e0f991fc86d6d9b70d8a858",
+    "entry_tree": "95a70cee6bbb7b18855f862009016a355d944fa0",
+    "prior_pr": 120,
+    "t259": "MIXED_WHITEHEAD_ETA2_NONZERO_ORDER2_IN_PI15_P",
+    "t260": "TWO_LITERAL_FINITE_CW_SQUARES_ALL_GRADE_H_CUP_PRIMARY_SQ_EQUAL",
+    "t261": "DERIVED_TOTAL_COFIBERS_BOTH_S16",
+    "t262": "PI15_TERMINAL_ORDERS_RATIO2_NOT_WHOLE_DIAGRAM_WE",
+    "t263": "FULL_R2_HOMOLOGY_INTERLEAVING_0_TOP_HI_INFINITY_TRIVIAL_TERMINAL_SURVIVAL",
+    "g2": "NOT_PASSED",
+    "next": "S105_FUTURE_UNEXECUTED",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED",
+    "local_exact_source_checkout": "UNAVAILABLE_DNS"
   }
 }
