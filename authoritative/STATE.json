@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-18",
-  "last_completed_session": "S104",
-  "recommended_next_session": "S105",
+  "last_completed_session": "S105",
+  "recommended_next_session": "S106",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S104 INTERNAL mixed-Whitehead two-dimensional CW squares match all primary/cofiber data but differ in pi15; total-cofiber completeness FALSE. No finite nonclock HHA application; G2 NOT PASSED.",
-  "selected_mathematical_problem": "S105 relative homotopy-fiber / mixed Whitehead finite nonclock two-parameter persistence proof-or-kill",
-  "headline_status": "S104_MIXED_WHITEHEAD_COFIBER_PRIMARY_INCOMPLETE__G2_NOT_PASSED__S105_FUTURE",
-  "active_campaign": "S105 FUTURE UNEXECUTED relative homotopy-fiber crossed-obstruction original quantitative proof-or-kill",
-  "claim_of_new_theorem": "Only an internal exact negative completeness theorem using classical Hilton–Milnor/CW cofiber; no independently novel HHA theorem.",
+  "headline": "S105 INTERNAL homotopy-fiber comparison kernel separates S104 mixed CW squares (0 vs Z2), but finite R2 dHI in [L/2,(L+1)/2] vs dI(H)=0 is terminal-plateau CLOCK ONLY. G2 NOT PASSED.",
+  "selected_mathematical_problem": "S106 finite vertexwise-WE-matched CW diagrams with genuinely crossed nonclock homotopy coherent quantitative obstruction proof-or-kill",
+  "headline_status": "S105_DERIVED_FIBER_KERNEL_TRUE__FINITE_BOUND_ONLY_CLOCK__HHA_G2_NOT_PASSED__S106_FUTURE",
+  "active_campaign": "S106 FUTURE UNEXECUTED vertexwise-identical CW homotopy-coherent two-axis nonclock metric proof-or-kill",
+  "claim_of_new_theorem": "Only internal classical relative-fiber kernel and finite terminal-clock control; NO independently original HHA-level theorem.",
   "stages": [
     {
       "id": 0,
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "IN_PROGRESS__S104_MIXED_COFIBER_COMPLETENESS_NO_GO__S105_FIBER_PIVOT"
+      "status": "IN_PROGRESS__S105_FINITE_NONCLOCK_FAILED__S106_VERTEXWISE_COHERENCE_PIVOT"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "G2_NOT_PASSED__CLASSICAL_HILTON_PUPPE_HOCOLIM_AND_2026_INTERLEAVING"
+      "status": "G2_NOT_PASSED__CLASSICAL_HILTON_DKS_FIBER_AND_TERMINAL_LIFETIME"
     },
     {
       "id": 3,
@@ -1914,6 +1914,23 @@
     "t263": "FULL_R2_HOMOLOGY_INTERLEAVING_0_TOP_HI_INFINITY_TRIVIAL_TERMINAL_SURVIVAL",
     "g2": "NOT_PASSED",
     "next": "S105_FUTURE_UNEXECUTED",
+    "lean": "NOT_AUTHORISED",
+    "publication": "NOT_AUTHORISED",
+    "local_exact_source_checkout": "UNAVAILABLE_DNS"
+  },
+  "s105_checkpoint": {
+    "date": "2026-10-18",
+    "entry_main": "309043e1ecd11a2c648f0115908cb17c6274996c",
+    "entry_tree": "afc5900bfa1196c0d73a38f172a76aa8f8f92204",
+    "prior_pr": 121,
+    "t264": "DERIVED_RELATIVE_FIBER_KERNEL_OBJECTWISE_WE_INVARIANT",
+    "t265": "O15_Q0_ZERO_O15_Q1_C2_MIXED_ALPHA",
+    "t266": "FINITE_BASED_REAL_R2_ALL_PRIMARY_PERSISTENCE_EQUAL",
+    "t267": "L_OVER_2_LE_DHI_LE_LPLUS1_OVER_2_VERSUS_HOMOLOGY_I_ZERO",
+    "t268": "FINITE_METRIC_BOUND_CLOCK_ONLY_HHA_NONCLOCK_FAILED",
+    "g1": "NO_ORIGINAL_HHA_NONCLOCK_THEOREM",
+    "g2": "NOT_PASSED",
+    "next": "S106_FUTURE_UNEXECUTED",
     "lean": "NOT_AUTHORISED",
     "publication": "NOT_AUTHORISED",
     "local_exact_source_checkout": "UNAVAILABLE_DNS"

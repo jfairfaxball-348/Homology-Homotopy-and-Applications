@@ -730,3 +730,10 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - CLM-0514 PROGRAMME_PROVED (internal): top pi15 orders differ by factor two by relative attaching-cell LES.
 - CLM-0515 PROGRAMME_PROVED (limited): whole R² H interleaving0 vs Top HI infinite is unbounded terminal-survival, NOT finite nonclock.
 - CLM-0516 INHERITED_UNVERIFIED: HHA-ready originality/application NOT established; G2 NOT PASSED.
+
+## S105 (18 October 2026)
+- **CLM-0517 T264 PROGRAMME_PROVED INTERNAL:** derived relative-fiber kernel O_n choice-free up to full based-square objectwise WE; classical.
+- **CLM-0518 T265 PROGRAMME_PROVED INTERNAL:** O15(Q0)=0 vs O15(Q1)=Z/2; distinguishes mixed alpha missing from total cofiber.
+- **CLM-0519 T266 PROGRAMME_PROVED INTERNAL:** finite supported all-real R² CW diagrams naturally agree in all primary persistence data; maps can collapse at deaths.
+- **CLM-0520 T267 PROGRAMME_PROVED INTERNAL:** L/2≤dHI≤(L+1)/2 and graded H interleaving0, but clock-lifetime only.
+- **CLM-0521 T268 NONFLAGSHIP:** HHA nonclock originality NOT PASSED; not dHI>dIHC same-category; no formalisation/paper.
