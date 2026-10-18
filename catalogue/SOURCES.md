@@ -584,3 +584,11 @@ SRC-0256 Hilton1955 original publisher metadata; SRC-0257 DKS1989 original publi
 
 ## S109 — 18 October 2026
 - SRC-0267: [*Stable rational homology of the IA-automorphism groups of free groups*, JIMJ 25(4) 2026](https://doi.org/10.1017/S1474748026101832), **METADATA_ONLY** original Cambridge indexed record/intro snippet, direct page timed out; no claim this is T284's precise first source. Revisited existing SRC-0007/0008, 0010, 0245/0247/0255/0257/0258/0259/0262, original 2023/2024/2026 publisher/institutional records. Access ceilings in S109 PRIOR_ART.
+
+## S110 original sources — 18 October 2026
+- SRC-0268: Dowdall–Kapovich–Leininger, *Dynamics on free-by-cyclic groups*, Geometry & Topology 19 (2015), 2801–2899, original author-hosted intro/abstract **STATEMENT_INSPECTED**, no full proof. https://doi.org/10.2140/gt.2015.19.2801
+- SRC-0269: Cashen–Levitt, *Mapping tori of free group automorphisms...*, J Group Theory 19 (2016), 191–216, original publisher **ABSTRACT_INSPECTED**, no proof. https://doi.org/10.1515/jgth-2015-0038
+- SRC-0270: Fenn–Sjerve, *Massey Products and Lower Central Series of Free Groups*, Can J Math 39 (1987), 322–337, original Cambridge PDF cup formula Theorem2.3 and finite CW Theorems4.1–4.2 **STATEMENT_INSPECTED**, selected argument not whole proof. https://doi.org/10.4153/CJM-1987-015-5
+- SRC-0271: Matei–Suciu, *Cohomology rings and nilpotent quotients of real and complex arrangements*, ASPM27 (2000), 185–215, original arXiv abstract/indexed Fox snippet **ABSTRACT_INSPECTED**, full proof not inspected. https://doi.org/10.2969/aspm/02710185
+- SRC-0272: Kitano, *Johnson's homomorphisms ... Massey higher products of mapping tori*, Topology Appl 69 (1996), 165–172, original publisher **ABSTRACT_INSPECTED**, no proof. https://doi.org/10.1016/0166-8641(95)00077-1
+- SRC-0267 regraded: Katada JIMJ2026 original Cambridge HTML abstract/introduction **ABSTRACT_INSPECTED**, no proof. DOI10.1017/S1474748026101832. No HHA originality certification.

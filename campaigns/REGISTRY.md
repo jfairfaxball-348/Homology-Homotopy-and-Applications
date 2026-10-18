@@ -226,3 +226,6 @@ No finite enumeration, SAT, machine search, running code or independent computat
 
 ## S109 — pure proofs, no bounded computational campaign (18 October 2026)
 No brute-force enumeration, SAT, scripts, Python algebra checks, coverage table, machine certificates, computing environment or output hashes. Explicit CW edge and overlap computations T281–T283 and free-group word/chain arguments T284 are theoretical. Hosted governance CI is not mathematical validation. Any S110 finite search needs complete preregistration and independent checker/hashes before making COMPUTED_EXACT claims.
+
+## S110 — hand proof with unregistered sanity scratch (18 October 2026)
+No registered finite exhaustive search, SAT or computation used for a COMPUTED_EXACT claim. A small exploratory local Magnus degree-two scratch test was run without preregistration; it is not a mathematical certificate and no hash/coverage is claimed. T286–T290 rest on written cellular/free-group/Fox proofs; original Cambridge source statements inspected. No Lean, checked local git checkout (network DNS failure), Palomar or submissions; hosted static validation is only governance. S111 must preregister any computational experiments before reliance on them.

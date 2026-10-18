@@ -2400,10 +2400,55 @@
       "id": "SRC-0267",
       "title": "Stable rational homology of the IA-automorphism groups of free groups, Journal of the Institute of Mathematics of Jussieu 25(4) (2026)",
       "url": "https://doi.org/10.1017/S1474748026101832",
-      "origin": "Original Cambridge publisher indexed article record, 18 October 2026",
-      "access": "METADATA_ONLY",
-      "limitation": "Search-index introduction/metadata excerpt identifies IA_n; direct original page timed out. No full text or proof inspected; does NOT independently address S109 T284.",
-      "observed": "IA_n is the kernel of Aut(F_n)→GL(n,Z), indicating ordinary group-theoretic precedent for the IA graph automorphism route."
+      "origin": "Original Cambridge publisher HTML introduction and abstract now directly inspected 18 October 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original abstract/intro inspected, not full proof; not a direct published source establishing S110 example novelty.",
+      "observed": "IA_n kernel Aut(F_n)→GL(n,Z), 2026 stable rational IA homology framework."
+    },
+    {
+      "id": "SRC-0268",
+      "title": "Dowdall, Kapovich and Leininger, Dynamics on free-by-cyclic groups, Geometry & Topology 19 (2015), 2801-2899",
+      "url": "https://doi.org/10.2140/gt.2015.19.2801",
+      "origin": "S110 original author-hosted paper introduction and official article abstract, 18 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Intro and abstract/statement only, no full main proof audit; expanding irreducible hypothesis differs from elementary IA automorphism.",
+      "observed": "Finite 2-complex folded mapping torus, semiflow and free-by-cyclic geometry predate programme."
+    },
+    {
+      "id": "SRC-0269",
+      "title": "Cashen and Levitt, Mapping tori of free group automorphisms and BNS invariant of graphs of groups, J Group Theory 19 (2016), 191-216",
+      "url": "https://doi.org/10.1515/jgth-2015-0038",
+      "origin": "S110 original publisher record and abstract, 18 October 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original theorem proofs unavailable/not inspected.",
+      "observed": "Polynomially growing free-by-cyclic groups and fibering structures."
+    },
+    {
+      "id": "SRC-0270",
+      "title": "Fenn and Sjerve, Massey Products and Lower Central Series of Free Groups, Can J Math 39 (1987), 322-337",
+      "url": "https://doi.org/10.4153/CJM-1987-015-5",
+      "origin": "S110 directly accessible original Cambridge PDF selected theorem pages, 18 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original printed pp326-327 Theorem2.3 and pp335-336 Theorems4.1-4.2 read with page image; not a full end-to-end original proof audit.",
+      "observed": "Fox derivatives calculate cup products and finite 2-complex higher Massey operations: direct prior-art collision."
+    },
+    {
+      "id": "SRC-0271",
+      "title": "Matei and Suciu, Cohomology rings and nilpotent quotients of real and complex arrangements, ASPM27 (2000), 185-215",
+      "url": "https://doi.org/10.2969/aspm/02710185",
+      "origin": "S110 original arxiv abstract and indexed original lemma excerpt, 18 October 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full published proof not read; excerpt of Fox formula does not constitute complete proof inspection.",
+      "observed": "Cohomology truncated ring and lower central nilpotent quotient, Fox cup data."
+    },
+    {
+      "id": "SRC-0272",
+      "title": "Kitano, Johnson's homomorphisms, Magnus expansion and Massey higher products of mapping tori, Topology Appl 69 (1996), 165-172",
+      "url": "https://doi.org/10.1016/0166-8641(95)00077-1",
+      "origin": "S110 publisher original abstract, 18 October 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Mapping class groups, not exact free-group IA application; full proof not read.",
+      "observed": "Already connects Johnson monodromy with mapping-torus Massey products."
     }
   ]
 }

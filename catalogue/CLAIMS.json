@@ -5289,6 +5289,75 @@
         "SRC-0258"
       ],
       "scope": "Future only first-paper research hypothesis, NOT yet constructed/proved or novel."
+    },
+    {
+      "id": "CLM-0543",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S110 T286 finite CW monodromy presentation inclusion diagrams have identical naturally mapped integral persistent homology for each w in commutator subgroup versus identity.",
+      "sources": [
+        "SRC-0268"
+      ],
+      "scope": "Internal cellular ∂2=0 and coordinate inclusions proof. No HHA-original theorem."
+    },
+    {
+      "id": "CLM-0544",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S110 T287 any nontrivial w has trivial center vs identity Z and eventual-tail all-real unpointed dHI=dIHC=infinity under all complete-diagram objectwise WE zigzags.",
+      "sources": [
+        "SRC-0269"
+      ],
+      "scope": "Center/constant-tail lemma; not a finite nonclock or strict HI>IHC gap."
+    },
+    {
+      "id": "CLM-0545",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S110 T288 original w=[b,c] is distinguishable by unmarked integral cup ring via nondecomposable rational cup-kernel element.",
+      "sources": [
+        "SRC-0270",
+        "SRC-0271"
+      ],
+      "scope": "Classical Fox cup formula on presentation 2-complex; internal kernel argument."
+    },
+    {
+      "id": "CLM-0546",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S110 T289 w∈γ3 in F(b,c), especially [[b,c],b], has natural stagewise integer cohomology ring diagram identical to identity yet different center and HI infinity.",
+      "sources": [
+        "SRC-0270",
+        "SRC-0271"
+      ],
+      "scope": "All partial cell inclusions and degree2 Magnus vanishing. Classical priority. No higher-Massey equality."
+    },
+    {
+      "id": "CLM-0547",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S110 T290 uniform positive real-index rescaling scales finite dHI/dIHC exactly, ruling out positive finite unweighted-monodromy-only numerical bounds.",
+      "sources": [
+        "SRC-0258"
+      ],
+      "scope": "Formal translation/shift conjugacy. No no-go for genuine geometrically scaled metrics."
+    },
+    {
+      "id": "CLM-0548",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S110 T291–T292 original finite sharp nonclock geometric monodromy stability theorem not achieved and G2 originality/HHA remains NOT PASSED.",
+      "sources": [
+        "SRC-0268",
+        "SRC-0269",
+        "SRC-0270",
+        "SRC-0272"
+      ],
+      "scope": "Hostile audit only; no proof impossibility for every metric construction."
+    },
+    {
+      "id": "CLM-0549",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S111 future geometrically controlled nilpotent monodromy secondary-stability hypothesis may be HHA-significant.",
+      "sources": [
+        "SRC-0270",
+        "SRC-0272"
+      ],
+      "scope": "Future hypothesis; requires full proof, all defining-system indeterminacies and contemporary HHA originality audit."
     }
   ]
 }

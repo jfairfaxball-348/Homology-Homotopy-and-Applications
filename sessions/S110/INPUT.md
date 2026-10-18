@@ -1,0 +1,5 @@
+# S110 INPUT — 18 October 2026
+
+Fresh owner invocation "Run next session" executes exactly S110; S111 remains FUTURE UNEXECUTED. Live entry main fbe5f6c60fbf1920985113cd5c4eb1790739e08e, tree cce8e69a02d2e3f45622ee95146400da4e782e8b; S109 PR #126 ordinary non-squash two-parent merge, parents 8b5408354548a60406c5765ce32182bad5fe448f and bdbd8855cb6be589c3ef2419fbd9d4dc951fa0d7. The PR workflow 39137021157 and postmerge main workflow 39137072337 both have GitHub reported completed/success; static integrity is not a mathematical proof. Open PRs [] at entry. Local exact-source GitHub git checkout failed (`Could not resolve host: github.com`), so hosted checks remain the reproducible governance path; no local repository-validator PASS is claimed.
+
+Scope: one truly nested finite CW inclusion filtration from free-by-cyclic presentations, homology *modules* not only Betti groups, an exact non-WE detection under arbitrary complete-diagram zigzags; disprove positive nonclock claims if permanently different tails force HI infinity. Independent original-source examination of cup-ring/Fox/Massey and geometric monodromy novelty. No publication or external communication.
