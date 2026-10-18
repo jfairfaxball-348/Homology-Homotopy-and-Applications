@@ -2386,6 +2386,15 @@
       "access": "METADATA_ONLY",
       "limitation": "Institutional metadata, not published HHA mathematical proof or complete issue census.",
       "observed": "2026 HHA multiparameter persistence paper, scope example only."
+    },
+    {
+      "id": "SRC-0266",
+      "title": "Torras-Casas and Pennig, Interleaving Mayer–Vietoris spectral sequences (institutional accepted/published archive)",
+      "url": "https://orca.cardiff.ac.uk/id/eprint/159883/",
+      "origin": "S108 Cardiff University institutional article record, 18 October 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Institutional abstract and bibliographic DOI; full published mathematical proof not inspected in S108.",
+      "observed": "Filtered regular CW epsilon-acyclic carriers/equivalences, stable MV spectral sequences, blowup geometric realization, approximate nerve theorem; direct prior-art collision risk."
     }
   ]
 }

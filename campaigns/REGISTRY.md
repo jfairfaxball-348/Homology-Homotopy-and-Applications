@@ -220,3 +220,6 @@ No finite exhaustive enumeration, SAT, machine proof or local exact-source valid
 
 ## S107 — theoretical CW coherent square, no finite computation (18 October 2026)
 No brute force, numerical experiment, SAT, checker, exhaustive finite data or machine certificate. Proofs use finite CW gluing and abstract homotopy colimit naturality plus full-real region sampling; no code/output hashes apply. GitHub-hosted STATIC governance checks cannot certify topology. S108 FUTURE may preregister actual bounded experiments when needed. No Lean/Palomar/external release.
+
+## S108 — exact symbolic topology, no bounded computation (18 October 2026)
+No finite enumeration, SAT, machine search, running code or independent computational certificate. Degree-one CW quotient and real shift arithmetic verified by internal hand proof only; no computation coverage, environment, CLI or output hash exists to report. Hosted static integrity does not certify mathematical statements. S109 computational work must first pre-register actual finite bound and independent checker if used.

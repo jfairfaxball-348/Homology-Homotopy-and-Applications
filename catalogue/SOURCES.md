@@ -578,3 +578,6 @@ SRC-0256 Hilton1955 original publisher metadata; SRC-0257 DKS1989 original publi
 - SRC-0264: *An isovariant Blakers–Massey theorem* (2026), original Springer article selected homotopy pushout definition STATEMENT_INSPECTED, not whole proof. https://link.springer.com/article/10.1007/s40062-026-00406-y
 - SRC-0265: Lebovici–Lerch–Oudot HHA28(1) 2026 DOI10.4310/HHA.2026.v28.n1.a9, institutional metadata METADATA_ONLY, no article proof.
 - Rechecked SRC-0257 DKS1989, SRC-0262 Vogt1988, SRC-0258 Lanari–Scoccola2023, SRC-0254 2026 spaces over BS1, SRC-0245 Torras-Casas–Pennig2024, SRC-0247 Arakawa2026, SRC-0259 Halder/Sau/Sen Oct2026, HHA28 samples. Original full proofs/cited-by census incomplete; no novelty from missing hits. Homotopy pushout square classical, G2 NOT PASSED.
+
+## S108 additional provenance — 18 October 2026
+- SRC-0266: [Torras-Casas–Pennig, Cardiff archival publication record](https://orca.cardiff.ac.uk/id/eprint/159883/), **ABSTRACT_INSPECTED** 18-Oct-2026; filtered CW epsilon-acyclic stability, approximate nerve, MVSS and blowup; no full proof audit. Revisited original publisher abstracts SRC-0257, SRC-0262, SRC-0255, SRC-0258, SRC-0245, SRC-0247 and Halder–Sau–Sen SRC-0259, without changing earlier proof-access grades.
