@@ -5124,6 +5124,58 @@
         "SRC-0262"
       ],
       "scope": "NOT ESTABLISHED, primary pi4 already detects, support-clock upper and no G2."
+    },
+    {
+      "id": "CLM-0527",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S107 T273 literal finite CW hemisphere/fold strict P diamond squares have naturally identical Fun(P,HoTop) diagrams, all homotopy group arrows and primary graded homology.",
+      "sources": [
+        "SRC-0257",
+        "SRC-0262"
+      ],
+      "scope": "Internal direct CW argument, n>=3, not claimed novel as mechanism."
+    },
+    {
+      "id": "CLM-0528",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S107 T274 derived span homotopy-pushout-to-terminal map has degree ±1 for hemispheres and zero for fold; forbids arbitrary whole-P objectwise WE zigzags.",
+      "sources": [
+        "SRC-0263",
+        "SRC-0264"
+      ],
+      "scope": "Internally proved using CW cofibration and homotopy colimit naturality; classical, not independent novelty."
+    },
+    {
+      "id": "CLM-0529",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S107 T275 full-real compactly supported based R² diagrams have pointwise Ho and homology interleaving0, dIHC=1 in Ho(Top_*^(R²)), 1<=dHI<=2.",
+      "sources": [
+        "SRC-0258",
+        "SRC-0254"
+      ],
+      "scope": "Internal plateau sampling and natural 2-shift nullhomotopy, strict HI upper via support; NOT strict HI>IHC."
+    },
+    {
+      "id": "CLM-0530",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S107 T276 classical hocolim detection supplies no established original HHA stability/reconstruction consequence or same-category HI>IHC strict inequality; G2 NOT PASSED.",
+      "sources": [
+        "SRC-0263",
+        "SRC-0257",
+        "SRC-0245"
+      ],
+      "scope": "Project negative verdict, NOT a literature-wide impossibility."
+    },
+    {
+      "id": "CLM-0531",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "A genuinely novel finite CW cover reconstruction/stability theorem or same-category R² strict dHI>dIHC follows from S107 hemisphere square.",
+      "sources": [
+        "SRC-0258",
+        "SRC-0245",
+        "SRC-0265"
+      ],
+      "scope": "UNPROVED; dHI only bounded [1,2], no first-paper gate; S108 future."
     }
   ]
 }

@@ -572,3 +572,9 @@ SRC-0256 Hilton1955 original publisher metadata; SRC-0257 DKS1989 original publi
 ## S106 original-source spot check — 18 October 2026
 - SRC-0262 Vogt 1988, Topology and its Applications 28(3), 255–275, doi:10.1016/0166-8641(88)90046-6; original publisher ABSTRACT_INSPECTED, no full proof.
 - Revisited SRC-0256 Hilton1955 publisher, SRC-0257 DKS1989, SRC-0255 BJT2012, SRC-0258 Lanari–Scoccola2023, SRC-0245 Torras-Casas–Pennig2024 and SRC-0259 HSS arXiv:2609.23440v2. Prior 2026 HHA issue spot checks SRC-0260/0261; no current full original-proof/citation census. G2 NOT PASSED.
+
+## S107 source audit — 18 October 2026
+- SRC-0263: Cary Malkiewich author-hosted note on absence of ordinary homotopy-category pushouts, selected passage STATEMENT_INSPECTED; no full proof audited. https://people.math.binghamton.edu/malkiewich/no_pushout.pdf
+- SRC-0264: *An isovariant Blakers–Massey theorem* (2026), original Springer article selected homotopy pushout definition STATEMENT_INSPECTED, not whole proof. https://link.springer.com/article/10.1007/s40062-026-00406-y
+- SRC-0265: Lebovici–Lerch–Oudot HHA28(1) 2026 DOI10.4310/HHA.2026.v28.n1.a9, institutional metadata METADATA_ONLY, no article proof.
+- Rechecked SRC-0257 DKS1989, SRC-0262 Vogt1988, SRC-0258 Lanari–Scoccola2023, SRC-0254 2026 spaces over BS1, SRC-0245 Torras-Casas–Pennig2024, SRC-0247 Arakawa2026, SRC-0259 Halder/Sau/Sen Oct2026, HHA28 samples. Original full proofs/cited-by census incomplete; no novelty from missing hits. Homotopy pushout square classical, G2 NOT PASSED.
