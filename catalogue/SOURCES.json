@@ -2224,6 +2224,42 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Full mathematical paper and theorem proofs not read; homotopy colimits classical background. S102 independently checked author's 2026 publication listing and original arXiv 2310.00201 abstract, not theorem proof.",
       "observed": "Abstract and published metadata for bar/cobar Bousfield–Kan model. S102 no exact overlap established; full priority unknown."
+    },
+    {
+      "id": "SRC-0248",
+      "title": "Dwyer, Kan, Smith, Homotopy commutative diagrams and their realizations, JPAA 57 (1989)",
+      "url": "https://doi.org/10.1016/0022-4049(89)90023-6",
+      "origin": "S103 original ScienceDirect published abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Original proof not inspected; published abstract about obstruction to rectifying homotopy-category diagrams.",
+      "observed": "Classical general homotopy diagram rectification theory."
+    },
+    {
+      "id": "SRC-0249",
+      "title": "Lanari, Scoccola, Rectification of interleavings and a persistent Whitehead theorem, AGT 23 (2023)",
+      "url": "https://doi.org/10.2140/agt.2023.23.803",
+      "origin": "S103 MSP original PDF search-extracted Def 3.6/Prop 3.7",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected Toda rectification statement not full proof reinspection in S103.",
+      "observed": "Vanishing of Toda bracket relates to strictifying null consecutive composites; direct novelty warning."
+    },
+    {
+      "id": "SRC-0250",
+      "title": "Blanc and Markl, Higher Homotopy Operations (2002)",
+      "url": "https://arxiv.org/abs/math/0207082",
+      "origin": "S103 original arXiv abstract",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "No full W-construction proof inspection.",
+      "observed": "General higher-operation framework pre-dates candidate."
+    },
+    {
+      "id": "SRC-0251",
+      "title": "Halder, Sau, Sen, Equivariant Homotopy Interleaving and Persistent Whitehead Theorem v2 (2026)",
+      "url": "https://arxiv.org/html/2609.23440v2",
+      "origin": "S103 original arXiv HTML 13 October 2026 version 2",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Introduction and stated Thms 4.20 and 5.8 read, not proofs or entire current citation landscape.",
+      "observed": "Current diagram homotopy equivalence and equivariant persistent nerve/Whitehead priority baseline."
     }
   ]
 }

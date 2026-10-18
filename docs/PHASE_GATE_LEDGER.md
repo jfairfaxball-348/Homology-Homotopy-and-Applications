@@ -352,3 +352,6 @@ G1 OPEN: T247 exact algebraically balanced non-graph B fold, T248 separate finit
 
 ## S102 gates (2026-10-18)
 G1: INTERNAL proof of specific classical low-dimensional cover impossibility and 4D minimum; original HHA-scale theorem NOT established. G2: NOT PASSED; 2023/2024 persistent MV, 2026 homotopy descent and HHA fit not cleared. G3 Lean NOT_STARTED; final audit, Palomar, manuscript, arXiv and HHA all blocked/owner gated. S103 proof-first higher-coherence FUTURE.
+
+## S103 gate decision — 18 October 2026
+G1 for proposed P103 chosen-filler theorem: **REFUTED**, classical two-element mapping-space torsor T256/T257 still sound internally. G1 for any genuinely new HHA significant application OPEN; G2 NOT PASSED: classical Puppe/DKS/Lanari–Scoccola and no nonclock persistence consequence. G3 Lean NOT STARTED; all release gates closed/owner-gated. S104 FUTURE.

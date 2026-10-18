@@ -4940,6 +4940,41 @@
         "SRC-0247"
       ],
       "scope": "Negative mathematical assertion about this proposed invariant only; other homotopy-descent avenues still open; G2 NOT PASSED."
+    },
+    {
+      "id": "CLM-0507",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S103 T256 for n>=5, nullhomotopy space of eta_n o 2 has exactly two components, a pi_(n+2)(S^n)=Z/2 torsor; not a preferred element.",
+      "sources": [],
+      "scope": "Internal proof by mapping-space loops and classical stable pi2^S; full-diagram derived homotopy type only, no stability theorem."
+    },
+    {
+      "id": "CLM-0508",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S103 T257 the finite Moore cone C_2(S^(n+1)) admits two distinct unstable based extensions of eta_n, distinguished by injective stable Puppe boundary pi2^S-> [C_2,S^n].",
+      "sources": [],
+      "scope": "Internal exact stable cohomotopy plus Freudenthal n>=5; no Lean or referee certificate."
+    },
+    {
+      "id": "CLM-0509",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S103 T258 proposed uniqueness of an extension selected by the undecorated two-transition CW diagram is false: fixed pair 2,eta admits two; the resulting real diagram is identical and self HI/IHC distance zero.",
+      "sources": [
+        "SRC-0249",
+        "SRC-0248"
+      ],
+      "scope": "Precise negative theorem for P103 only; no general higher coherence no-go."
+    },
+    {
+      "id": "CLM-0510",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S103 gives a genuinely new HHA-worthy nonclock persistence theorem.",
+      "sources": [
+        "SRC-0248",
+        "SRC-0249",
+        "SRC-0251"
+      ],
+      "scope": "NO: classical operation, failed canonical invariant; novel G1/G2 remain OPEN / NOT PASSED."
     }
   ]
 }

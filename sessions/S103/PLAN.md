@@ -1,0 +1,8 @@
+# S103 PLAN — predeclared proof-or-kill programme
+
+1. Attack a precise candidate: for a finite two-transition CW persistence diagram `A --f--> B --g--> C` with `gf\simeq *`, try to associate a preferred nonzero *secondary extension class* of `g` across `C_f` that is determined by the bare diagram and invariant under arbitrary objectwise WEs of the full real diagram.
+2. Construct a genuine finite, both-arrows-nonzero example using degree two and stable Hopf `eta`. Compare two actual nullhomotopies by stable Puppe exactness. Distinguish the valid unbased *moduli of choices* from an unjustified canonical element.
+3. Exhibit a complete real-indexed finite CW diagram, not merely a graded group or a three-object truncation. Audit integral homology, cup rings, primary Steenrod data, transition arrows, the two interleaving identities and arbitrary WE claims.
+4. Inspect Dwyer–Kan–Smith 1989, Blanc–Markl/Blanc–Johnson–Turner, Lanari–Scoccola 2023, Torras-Casas–Pennig 2024, Arakawa 2026 and Halder–Sau–Sen arXiv v2 13 Oct 2026 for HHA priority.
+5. If the candidate is false, provide an independent failure mechanism, RETIRE the canonical chosen-filler route, and self-select a *structurally different* S104 with exact falsifiability and no automatic formalisation.
+6. Integrate six-file dossier, claim/source and gate/decision mirrors, STATE and one complete S104 FUTURE prompt in one authored commit/PR with ordinary merge. Validate hosted integrity only if an actual successful run is observed. Do NOT run S104.
