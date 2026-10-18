@@ -708,3 +708,10 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - **CLM-0499** [COMPUTED_EXACT] T250 one locally executed fixed rank/Smith/naturality checker PASS, hashes in S101, arithmetic only.
 - **CLM-0500** [INHERITED_UNVERIFIED] Existence OR impossibility of a simultaneous labelled 3D three-cover with specified A,B,M is UNRESOLVED; no full geometric d2 checked.
 - **CLM-0501** [INHERITED_UNVERIFIED] HHA independent novelty and consequential homotopy/persistence application from S101: NOT ESTABLISHED, G2 NOT PASSED.
+
+## S102 claim synchronization — 18 October 2026
+|CLM-0502|PROGRAMME_PROVED|T251 canonical algebraic omega difference-of-lifts, choice-independent.|Internal homological algebra only; no originality.||
+|CLM-0503|PROGRAMME_PROVED|T252 every admissible total-3D strict three-cover forces *canonical* omega injection and free quotient.|Cellular chain MV and saturated H3 inclusion, independent internal proof; mixed-grade equalities not presumed.|SRC-0009,SRC-0010|
+|CLM-0504|PROGRAMME_PROVED|T253 balanced S101 fold omega(1)=e-e=0, E=Z; NO dimension-3 labelled cover.|All-covers impossibility, not only S005 construction.||
+|CLM-0505|PROGRAMME_PROVED|T254 actual finite meet-exact dimension-four labelled cover exists for fixed fold, so minimum dimension four.|Top f-circle standard S100 suspension-cone, internal CW check.||
+|CLM-0506|PROGRAMME_PROVED|T255 omega determined by (A,B,M) and cannot alone distinguish nonlinear unstable homotopy coherence.|Kills that candidate only, NOT HHA flagship.|SRC-0010,SRC-0247|

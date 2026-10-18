@@ -550,3 +550,6 @@ S006 T17 listed torsion agreement but did not list the independently necessary f
 
 ## S101 — independently realisable triple and total diagrams do not imply a cover
 An elementary non-graph fold can satisfy every earlier A-latching, K/C torsion/rank and total MV test and can even have both an actual 2D triple-square model and an actual 3D total-X-square model **separately**. Compatibility of U1/U2/U3 and every pair/triple/whole-X meet is independent and UNSOLVED. A 2D top triple invalidates the 3D dimensional accounting of the inherited S005 suspension/cone recipe; that does not forbid another 3D approach. Do not call arithmetic/independent geometry simultaneous cover realisation; high-priority S102 seek literal cell construction or universal cover-specific obstruction, or pivot away if novelty dies.
+
+## S102 — canonical-map lesson
+Abstract T242 sequence admits an injection E~Z into coker lambda_K~Z but the ACTUAL geometric injection is the canonical difference-of-lifts omega; S101 balanced e-e sends generator to zero and is impossible in 3D. Separate T and X diagrams are insufficient for a simultaneous cover. Extra top f loop repairs rank, not coherence. Even this improved obstruction is determined by (A,B,M), so cannot become nonlinear unstable HHA invariant by renaming it; pivot to genuinely higher homotopy data.
