@@ -581,3 +581,6 @@ SRC-0256 Hilton1955 original publisher metadata; SRC-0257 DKS1989 original publi
 
 ## S108 additional provenance — 18 October 2026
 - SRC-0266: [Torras-Casas–Pennig, Cardiff archival publication record](https://orca.cardiff.ac.uk/id/eprint/159883/), **ABSTRACT_INSPECTED** 18-Oct-2026; filtered CW epsilon-acyclic stability, approximate nerve, MVSS and blowup; no full proof audit. Revisited original publisher abstracts SRC-0257, SRC-0262, SRC-0255, SRC-0258, SRC-0245, SRC-0247 and Halder–Sau–Sen SRC-0259, without changing earlier proof-access grades.
+
+## S109 — 18 October 2026
+- SRC-0267: [*Stable rational homology of the IA-automorphism groups of free groups*, JIMJ 25(4) 2026](https://doi.org/10.1017/S1474748026101832), **METADATA_ONLY** original Cambridge indexed record/intro snippet, direct page timed out; no claim this is T284's precise first source. Revisited existing SRC-0007/0008, 0010, 0245/0247/0255/0257/0258/0259/0262, original 2023/2024/2026 publisher/institutional records. Access ceilings in S109 PRIOR_ART.
