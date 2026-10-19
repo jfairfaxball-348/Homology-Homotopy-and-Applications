@@ -6,9 +6,9 @@
   "recommended_next_session": "S113",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "S112 INTERNAL common-terminal PL torus/wedge cone exact natural H persistence equality; 1<=dIHC<=dHI<=3, primary pi1/cup detects; no original HHA geometric nonclock theorem",
-  "selected_mathematical_problem": "S113 natural metric PL realisation of cup- and pi1-invisible secondary relative attaching coherence and genuinely novel HHA stability/reconstruction proof-or-kill",
+  "selected_mathematical_problem": "MVP HHA note proof/priority/significance decision for internally derived Ch(F2[C4]) dIHC=1<5/4<=dHI; finite one-session stop rule, not ordinary unpointed Top^R",
   "headline_status": "S112_SHARED_TERMINAL_PL_PRIMARY_RETRACT_CLASSICAL_G2_NOT_PASSED",
-  "active_campaign": "S113_FUTURE_INTRINSIC_SECONDARY_ATTACHING_GEOMETRIC_RECONSTRUCTION",
+  "active_campaign": "S113_FUTURE_MVP_HHA_SHORT_NOTE_C4_GROUP_ALGEBRA_GAP",
   "claim_of_new_theorem": "No original HHA-significant theorem: S112 explicit finite controlled example is classical π1/cup persistence with coned-off clock and unmatched distance bounds.",
   "stages": [
     {
@@ -2076,5 +2076,15 @@
     "novelty": "NOT_PASSED",
     "next": "S113 FUTURE, UNEXECUTED",
     "release": "No Lean, Palomar, paper, arXiv, HHA or external contact"
+  },
+  "prospective_s113_mvp_owner_pivot": {
+    "date": "2026-10-19",
+    "authority": "Owner proposed lowest credible HHA bar after >100 discovery sessions; prospective governance-only amendment; not S113 execution.",
+    "last_completed_session": "S112",
+    "next": "S113",
+    "target": "One narrow 8–15-page potentially publishable note, initially re-audit internal S076–S077 nonsemisimple C4 quantitative HI>IHC proof against published 2026 field-category equality",
+    "status": "FUTURE_UNEXECUTED_G1_INTERNAL_G2_NOT_PASSED",
+    "exclusions": "No exact distance, Top^R proof, general classification, artificial novelty, Lean, Palomar, manuscript or external action",
+    "stop": "S113 accept+freeze narrow theorem for referee, repair a precise fatal gap, or retire as classical/insignificant; avoid open-ended sequential pivots"
   }
 }
