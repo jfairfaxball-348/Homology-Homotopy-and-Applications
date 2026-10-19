@@ -5551,6 +5551,51 @@
       "claim": "S114 one-shot hostile referee and original-source priority audit may show S113 minimal C4 note is publication-worthwhile or decisively retire it.",
       "sources": [],
       "scope": "FUTURE, UNEXECUTED research hypothesis, no guarantee of publication."
+    },
+    {
+      "id": "CLM-0572",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S114 INTERNAL: arbitrary-all-choice fourfold C4 index2 residue=1 in F2[t]/t4; independent parity and filler derivation excludes zero bracket, but not formally or externally certified.",
+      "sources": [
+        "SRC-0277",
+        "SRC-0282"
+      ],
+      "scope": "Unbounded projective B-resolution shifts; locally checked 25k low-index random legal systems only SANITY, not exhaustive or formal."
+    },
+    {
+      "id": "CLM-0573",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S114 INTERNAL: full projective real shoelace comparable-arrow cofibration via generating representable cells, natural quotient kills opposite acyclic lane and every length-2e map; full real derived eta2 null via free-quiver/left Kan; leads dIHC=1 and dHI>=5/4 <=5/2.",
+      "sources": [
+        "SRC-0276",
+        "SRC-0282"
+      ],
+      "scope": "B=F2[C4], whole real Ch(B), arbitrary zigzags both lanes; no equality at 5/4 or Top^R; external referee/model transfer proof outstanding."
+    },
+    {
+      "id": "CLM-0574",
+      "status": "SOURCE_STATED",
+      "claim": "S114 published 2026 field-only equality and classical original Magma C4 m4 plus classic 2016 Toda machinery delimit novelty; Berkouk-Ginot2022 concerns derived sheaves over a field.",
+      "sources": [
+        "SRC-0275",
+        "SRC-0277",
+        "SRC-0281",
+        "SRC-0282"
+      ],
+      "scope": "Published category is field only, no source claims universal finite-group-algebra metric equality."
+    },
+    {
+      "id": "CLM-0575",
+      "status": "HEURISTIC",
+      "claim": "S114 B: internally consistent quantified modular C4 persistence example is NOT yet proved a nonroutine HHA publishable contribution; original paper-level citation and independent HHA significance gate fail; S115 ONE final source kill-or-retire.",
+      "sources": [
+        "SRC-0275",
+        "SRC-0276",
+        "SRC-0277",
+        "SRC-0281",
+        "SRC-0282"
+      ],
+      "scope": "Novelty NOT disproved, but cannot pass G2 from a classical higher product and a single routine-looking metric clock; no manuscript authorisation."
     }
   ]
 }

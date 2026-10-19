@@ -2521,6 +2521,24 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "No full theorem-level paper proof inspection; multiparameter derived resolutions overlap not excluded conclusively.",
       "observed": "Derived interleaving distance and isometric resolution functors for multiparameter modules."
+    },
+    {
+      "id": "SRC-0281",
+      "title": "Berkouk and Ginot, A derived isometry theorem for sheaves, Advances in Mathematics 394 (2022), 108033",
+      "url": "https://doi.org/10.1016/j.aim.2021.108033",
+      "origin": "Original Elsevier publisher abstract and original arXiv 1805.09694 identified 19 October 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full original proof/theorem content NOT independently read for S114; no priority clearance",
+      "observed": "Isometry for field-vector-space constructible derived sheaves via graded barcodes/convolution, not an advertised group-algebra whole-real HI versus IHC separation"
+    },
+    {
+      "id": "SRC-0282",
+      "title": "Baues Blanc Gondhali 2016 full original preprint on higher Toda and Massey",
+      "url": "https://arxiv.org/abs/1503.02265",
+      "origin": "Original arXiv bibliographic page and original Springer open introduction inspected 19 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Full transfer proof not freshly checked against example; generic higher homotopy machinery is prior art",
+      "observed": "Uniform general higher Toda and Massey operations for chain complexes, dg algebras and model-enriched categories"
     }
   ]
 }
