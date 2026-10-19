@@ -1,0 +1,4 @@
+# S118 mathematical proof
+Let N≥2, ε=1/(100N) and E an N×N real hollow matrix satisfying |Eij|≤ε. S117 pair bound gives Eij xi xj ≥ −ε(xi²+xj²)/2. On i=j, Eii=0, so add correction +εxi² to the RHS lower estimate for that pair. Sum over all i,j: the two square sums give −N ε Σxi², and the N diagonal corrections total +ε Σxi². Therefore Σij Eij xi xj ≥ −(N−1)ε Σi xi². Theorem d1_hollow_quadratic_lower formalises this universally, and d1_perturbation_quadratic_lower instantiates the actual graph matrix; d1SquaredDistance gives the exact pair values and d1CenteredGram explicitly double-centers them.
+
+This is a finite algebraic prerequisite. The present declarations do not prove centered Gram PSD, rank, kernel or Euclidean embedding, nor D2/D6–D8. Actual checked status requires S118 hosted compilation, not merely authored source.
