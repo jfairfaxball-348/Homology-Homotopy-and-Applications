@@ -2,14 +2,14 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-19",
-  "last_completed_session": "S115",
-  "recommended_next_session": "S116",
+  "last_completed_session": "S116",
+  "recommended_next_session": "S117",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S115 final original-source significance gate RETIRES modular C4 as first HHA paper; internal metric theorem remains archived; G2 not passed.",
-  "selected_mathematical_problem": "S115 final original-source C4 first-note significance kill-or-retire, completed with conservative retirement",
-  "headline_status": "S115_C4_FIRST_HHA_PAPER_RETIRED_INTERNAL_PROOF_ARCHIVED_G2_NOT_PASSED",
-  "active_campaign": "C4_FIRST_HHA_NOTE_RETIRED_S116_OWNER_DECISION_ONLY",
-  "claim_of_new_theorem": "No original HHA-significant theorem certified; S114 internal C4 Ch(F2[C4]) real triple metric candidate preserved without a novelty or publication claim.",
+  "headline": "S116 decision briefing RECOMMENDS C pause of first-HHA-paper hunt; owner A/B/C choice pending, G2 not passed.",
+  "selected_mathematical_problem": "None; first HHA-paper target pending explicit owner A/B/C choice after S115 C4 retirement",
+  "headline_status": "S116_DECISION_BRIEFING_COMPLETE_RECOMMEND_PAUSE_OWNER_CHOICE_PENDING",
+  "active_campaign": "HHA_FIRST_PAPER_PAUSE_RECOMMENDED_S117_OWNER_CHOICE_PENDING",
+  "claim_of_new_theorem": "No new S116 theorem; C4 internal hierarchy preserved but retired as FIRST HHA paper.",
   "stages": [
     {
       "id": 0,
@@ -19,12 +19,12 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "OPEN_FOR_NEW_TARGET__S115_C4_FIRST_HHA_NOTE_RETIRED_INTERNAL_CANDIDATE_ARCHIVED"
+      "status": "OPEN_NO_HHA_FIRST_PAPER_TARGET_S116_OWNER_CHOICE_PENDING"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "G2_NOT_PASSED__S115_C4_RETIRED_AS_FIRST_HHA_PAPER"
+      "status": "G2_NOT_PASSED_S116_DECISION_ONLY"
     },
     {
       "id": 3,
@@ -2126,5 +2126,21 @@
     "significance": "G2 NOT PASSED; no independent HHA application or nonroutine increment demonstrated, neither identical publication/preemption nor universal unpublishability proved.",
     "next": "S116 FUTURE UNEXECUTED OWNER_DECISION_ONLY: choose evidence-backed new first-paper programme or archive; do not auto-restart C4.",
     "downstream": "NOT_STARTED_NO_OWNER_AUTHORITY"
+  },
+  "s116_checkpoint": {
+    "date": "2026-10-19",
+    "entry_main": "0c4cf27f7bb60bddf92634be6d6c4a6397a8c2c4",
+    "entry_tree": "a8b8bf023fa85228754f44c3edbbb0e7ffa14f0a",
+    "prior_merge_pr": 133,
+    "main_integrity_run": 39252616212,
+    "open_prs_at_entry": 0,
+    "branch_protection": "403_UNREADABLE",
+    "kind": "OWNER_DECISION_ONLY",
+    "recommendation": "C_PAUSE_WITH_ARCHIVE",
+    "owner_selection": "PENDING_NO_A_B_C_CHOICE",
+    "no_qualifying_A": true,
+    "G2": "NOT_PASSED",
+    "next": "S117 FUTURE UNEXECUTED OWNER_CHOICE_PENDING; first governance-only owner-authorised prompt amendment",
+    "downstream": "NO_LEAN_PALOMAR_MANUSCRIPT_ARXIV_HHA_EXTERNAL_CONTACT_AUTHORITY"
   }
 }
