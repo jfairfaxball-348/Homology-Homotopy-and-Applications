@@ -39,3 +39,16 @@ Following sessions: close D1 realisation and Rips transfer; D2 finite lattice/un
 Final step: full D1–D5 theorem stated exactly, proved with allowed axioms, Challenge/Solution/Comparator, accurate metadata and license, reproducible clean build, independent kernel Palomar-compatible preflight. Palomar registry action or publication is a separate owner decision.
 
 Record in this file, at every executed Lean session, which exact declarations have actually been built and their paths/test results. Build of a restricted lemma is not proof of D4. Original source remains unchanged.
+
+## S117 execution — 19 October 2026, D1 local entry
+
+Live entry main `00e1f9721f7240931f13713bd01b771885a5b2a8`; PR #137 had already installed the prospective prompt. Primary fixed theorem is D1/D2/D6/D7/D8. No novelty checks or Palomar submission.
+
+**Implementation.** `OptionD/GramBounds.lean` has three concrete targets under namespace `OptionD`:
+- `d1_pair_error_lower`: with arbitrary real `a,x,y,ε`, `0≤ε` and `|a|≤ε`, proves `-(ε/2)(x²+y²)≤axy` by the two signs of `xy`. This is the exact two-coordinate off-diagonal D1 quadratic control, not a toy unrelated arithmetic identity.
+- `d1_row_error_small`: `N≥2` yields `(N−1)/(100N)<1/100` over ℝ, the uniform row-magnitude margin.
+- `d1_strict_gram_margin`: real lower bound `99/200 < (1−(N−1)/(100N))/2`, to be consumed after the full finite sum inequality.
+
+A successful `lake build` would certify only these lemmas; the authoring pass itself cannot establish compilation. The pinned mathlib manifest is adapted from the live PalomarTemplate lockfile using the exact resolved transitive SHAs; hosted CI must check reproducibility. Exact Mathlib SHA 065356127b1dc0016f66b7283ce0ce2c4055aa55; Lean v4.35.0-rc2. Build check: `lake build OptionD`; CI action uses the same toolchain. Host checks must be inspected **after** this authored commit. There is no Challenge/Solution/comparator yet: claiming Palomar preflight success would be misleading.
+
+**Unproved D1 obligations:** actual N×N symmetric centered Gram definition, finite quadratic double sum with diagonal subtraction, PSD and N−1 rank/kernel, exact Euclidean reconstruction via real inner-product space, flag threshold, Boolean induced subcomplex transfer. D2 and D6–D8 wholly not Lean-formalised. The next S118 prompt prioritises closing the finite Gram inequality before any homotopical machinery.

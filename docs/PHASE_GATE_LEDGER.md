@@ -394,3 +394,6 @@ S116 last COMPLETED; S117 FUTURE not executed. Owner selects Option D and separa
 
 ## Latest Option D stronger theorem note — 19 October 2026 (prospective)
 After the original Option D PR #135, PR #136 merged research/OPTION_D_TWO_HEIGHT_UNIVERSAL_ATTACHING.md, with universal two-height R³ attaching-map obstruction D6, Hopf two-block D7 and sharper c_N bound and D8 stability. **These later D6–D8 conclusions are the primary formalisation target**, with D1–D2 shared first milestones; the earlier D3–D5 four-parameter R⁴ route is archival, not an obligatory detour. S117 remains FUTURE and unexecuted. No novelty checks, no actual Lean build yet, no registry or publication permission.
+
+## S117 formalisation stage G3 — 19 October 2026
+Owner-authorised Option D incremental D1 implementation began with proposed theorem source and pinned Mathlib/Lean manifest plus hosted Lean build workflow. Certification requires inspecting actual GitHub Lean result; even if green, only local D1 pair/row estimates are proved. D1 full PSD/rank/realization and D2/D6–D8 remain UNFORMALISED. G2 HHA novelty/significance NOT PASSED (owner requests no new novelty checks). Comparator, NanoDa/con-ron and Palomar registry remain NOT DONE, manuscript/arXiv/HHA gated.

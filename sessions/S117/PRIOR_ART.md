@@ -1,0 +1,2 @@
+# S117 technical provenance, not novelty
+No novelty search was conducted, as directed. Compatibility sources inspected: live PalomarSubmission/toolchains.json minimum v4.35.0-rc2; PalomarTemplate lean-toolchain, lakefile.toml, fully resolved lake-manifest.json and Lean build CI (19 Oct 2026). This is a toolchain/preflight format check, not a mathematical originality audit or Palomar registry submission.
