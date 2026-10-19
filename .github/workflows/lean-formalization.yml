@@ -1,0 +1,33 @@
+name: Option D Lean build
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  lean-d1:
+    name: Build pinned Option D D1 lemmas
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Check module headers and forbid admitted proofs
+        run: |
+          python3 - <<'PY'
+          import pathlib,re
+          source = [pathlib.Path('OptionD.lean'), *pathlib.Path('OptionD').rglob('*.lean')]
+          for p in source:
+              s=p.read_text()
+              assert s.splitlines()[0]=='module', f'{p}: missing module header'
+              assert len(s.splitlines())<=10000, f'{p}: >10000 lines'
+              assert not re.search(r'\b(?:sorry|admit|sorryAx|axiom)\b', re.sub(r'/-.*?-/', '', s, flags=re.S)), f'{p}: forbidden token'
+          print('PASS: source header and admitted-proof scan')
+          PY
+      - name: Lean and Mathlib pinned compilation
+        uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9
+        with:
+          build: true
+      - name: Assert committed manifest unchanged after build
+        run: git diff --exit-code -- lake-manifest.json

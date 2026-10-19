@@ -5679,6 +5679,13 @@
       "claim": "S117 is FUTURE UNEXECUTED and OWNER_CHOICE_PENDING until explicit A/B/C selection and governance-only amended actionable prompt; S116's generic run command did not select the route.",
       "sources": [],
       "scope": "No automatic research, Lean, Palomar, manuscript, arXiv, HHA or external contact."
+    },
+    {
+      "id": "CLM-0584",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S117 implements Lean source for the D1 mixed off-diagonal quadratic bound and the strict epsilon=1/(100N) Gram row margin; formal validity is pending verified hosted Lean build, and no entire D1/D6/D7/D8 formal proof is asserted.",
+      "sources": [],
+      "scope": "Lean source-integration claim only; not FORMALLY_CERTIFIED until actual CI build and axiom audit, no novelty or Palomar preflight."
     }
   ]
 }

@@ -820,3 +820,6 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - CLM-0581 SOURCE_STATED: HHA independent originality/significance criteria; BBG2016/LS2023 known mechanisms, not proof of verbatim C4 preemption (SRC-0288,0283,0284).
 - CLM-0582 HEURISTIC: recommend C pause; A lacks specified evidence-backed nonroutine theorem/application; not binding owner choice (SRC-0288,0283,0284,0275).
 - CLM-0583 INHERITED_UNVERIFIED: S117 conditional FUTURE, owner A/B/C choice pending; no research or publication permission.
+
+## CLM-0584 — S117 D1 Lean source bootstrap (INHERITED_UNVERIFIED)
+The first Lean module implements the mixed-product error estimate and the N-dependent row margin. These are proof-bearing *source intentions* until hosted CI confirms a kernel build and axiom review. Not the full D1 Euclidean realization, D6–D8, or a novelty/certification claim. See sessions/S117 and formal/OPTION_D_FORMALIZATION_PLAN.md.
