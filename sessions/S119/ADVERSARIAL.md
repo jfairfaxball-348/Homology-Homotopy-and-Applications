@@ -1,0 +1,3 @@
+# S119 adversarial check
+
+Negative type of a hollow D on the zero-sum subspace does not by itself constitute a Lean proof that the separately defined double-centered matrix is PSD: the sum identity and finite-dimensional spectral/kernel/embedding API are needed. For a directed edge relation, D may be nonsymmetric; it is intentionally allowed in the purely quadratic lemmas but must be **forbidden as a substitute for symmetric Euclidean distance data** in the eventual reconstruction. For N=2, the uniform margin is conservative but strict; no special N is hard-coded. No full D1 Euclidean realization or D6–D8 proof is certified in S119.
