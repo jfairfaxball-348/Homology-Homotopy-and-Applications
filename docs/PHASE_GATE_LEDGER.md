@@ -397,3 +397,6 @@ After the original Option D PR #135, PR #136 merged research/OPTION_D_TWO_HEIGHT
 
 ## S117 formalisation stage G3 — 19 October 2026
 Owner-authorised Option D incremental D1 implementation began with proposed theorem source and pinned Mathlib/Lean manifest plus hosted Lean build workflow. Certification requires inspecting actual GitHub Lean result; even if green, only local D1 pair/row estimates are proved. D1 full PSD/rank/realization and D2/D6–D8 remain UNFORMALISED. G2 HHA novelty/significance NOT PASSED (owner requests no new novelty checks). Comparator, NanoDa/con-ron and Palomar registry remain NOT DONE, manuscript/arXiv/HHA gated.
+
+## S119 phase status — 19 October 2026
+Lean D1 mean-zero negative-type proof SOURCE AUTHORED; full centered PSD/kernel/rank/Euclidean realization still OPEN pending exact matrix and library bridge. S119 hosted compilation must be inspected rather than inferred. No G2 novelty check (owner deferred), Palomar or publication permission.

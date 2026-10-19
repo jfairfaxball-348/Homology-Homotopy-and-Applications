@@ -55,3 +55,6 @@ A successful `lake build` would certify only these lemmas; the authoring pass it
 
 ## S118 (19 Oct 2026)
 Verified S117 main hosted Lean PASS: run 39271946320. S118 added OptionD/FiniteGram.lean, explicit epsilon, perturbation, squared-distance and centered Gram; arbitrary-N hollow quadratic coefficient (N−1)ε theorem, specialised D1 bound. S118 hosted build must be inspected independently; no full PSD, rank, embedding, D2/D6–D8, comparator or Palomar preflight claimed. S119 will target centered quadratic identity, strict PSD, rank and Euclidean embedding.
+
+## S119 (19 Oct 2026)
+S118 merged main CI 39288732449 Lean SUCCESS and integrity 39288732424 SUCCESS. S119 authors `OptionD/MeanZero.lean` equilateral zero-sum quadratic identity, upper hollow perturbation bound via negating S118, exact two-distance negative-type estimate with 99/100 margin, and 99/200 positive raw mean-zero Gram *form*. Build proof status contingent upon S119 hosted Lean CI. D1 actual double-centered Gram PSD/kernel/rank/Euclidean embedding NOT proved. D2/D6–D8 not begun. The S120 prompt targets the missing exact centered-matrix identity and representation, with pinned toolchain unchanged.

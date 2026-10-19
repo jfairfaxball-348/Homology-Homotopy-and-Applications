@@ -1,0 +1,3 @@
+# S119 mathematical mathematics
+
+For N≥2, put ε=1/(100N), Dᵢⱼ=(1−δᵢⱼ)+Eᵢⱼ, |Eᵢⱼ|≤ε, Eᵢᵢ=0. For ∑xᵢ=0, ∑ᵢⱼ(1−δᵢⱼ)xᵢxⱼ=(∑ᵢxᵢ)²−∑ᵢxᵢ²=−∑ᵢxᵢ². S118 gives ∑ Eᵢⱼxᵢxⱼ≥−(N−1)ε∑x². Apply it to −E to obtain the dual upper bound ∑ Eᵢⱼxᵢxⱼ≤(N−1)ε∑x². Since (N−1)ε<1/100, ∑Dᵢⱼxᵢxⱼ≤−99/100∑x². Thus the mean-zero raw Gram quadratic −1/2 ∑Dᵢⱼxᵢxⱼ≥99/200∑x². Lean declarations in OptionD/MeanZero.lean attempt to verify these for arbitrary N, *including nonsymmetric directed edge predicates* because quadratic control does not require symmetry. Symmetry, full centered matrix identity, rank, Euclidean realization and all D2/D6–D8 remain open and are not claimed by this calculation.
