@@ -80,7 +80,6 @@ theorem d1_centered_quadratic_shift (N : ℕ) (hN : 2 ≤ N)
                     ring
             _ = _ := by
                   simp only [Finset.sum_add_distrib, Finset.mul_sum]
-                  ring
     _ = _ := by rw [hrow, hcol, htotal]; ring
 
 /-- Actual all-vector double-centered quadratic bound, for any N>=2.
