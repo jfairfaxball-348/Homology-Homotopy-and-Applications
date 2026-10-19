@@ -610,3 +610,6 @@ After the original Option D PR #135, PR #136 merged research/OPTION_D_TWO_HEIGHT
 
 ## S117 implementation decision — 19 October 2026
 Following PR137 and a fresh “Run next session”, create Lean/Mathlib root build and first D1 lemmas instead of claiming full Option D formalisation. Preserve stronger D6–D8 as ultimate target and D1/D2 as prerequisites; explicitly leave full Gram matrix positivity and Euclidean embedding to S118. No novelty audits or Palomar registry. A CI result is only asserted after live verification, not anticipated in the committed text.
+
+## S118 incremental D1 Lean (19 Oct 2026)
+S117 main Lean SUCCESS, run 39271946320. Owner-run S118 authors exact Gram data and finite N−1 perturbation sum; source success subject to own hosted Lean job. D1 geometric embedding, D2/D6–D8 remain; no novelty check, registry or paper. S119 next FUTURE only.

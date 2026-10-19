@@ -823,3 +823,6 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 
 ## CLM-0584 — S117 D1 Lean source bootstrap (INHERITED_UNVERIFIED)
 The first Lean module implements the mixed-product error estimate and the N-dependent row margin. These are proof-bearing *source intentions* until hosted CI confirms a kernel build and axiom review. Not the full D1 Euclidean realization, D6–D8, or a novelty/certification claim. See sessions/S117 and formal/OPTION_D_FORMALIZATION_PLAN.md.
+
+## CLM-0585 — S118 D1 finite bound (INHERITED_UNVERIFIED pending hosted Lean check)
+Finite hollow real N×N matrix entrywise ε-bound implies quadratic lower coefficient (N−1)ε, by per-pair diagonal-corrected sum. OptionD/FiniteGram.lean implements exact D1 graph specialisation and double-centered Gram definition. This is NOT complete PSD/rank/Euclidean certification or D6–D8; status determined by separate hosted CI. No originality claim.

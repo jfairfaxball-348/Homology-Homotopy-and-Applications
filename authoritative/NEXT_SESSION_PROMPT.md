@@ -1,20 +1,17 @@
-# S118 — D1 centered Gram form and exact Euclidean transfer (FUTURE, UNEXECUTED)
+# S119 — D1 exact centered positivity and Euclidean reconstruction (FUTURE, UNEXECUTED)
 
-## Authority and entry
-S117 is the single authorised first formalisation session of the owner-selected Option D theorem. This is the complete next-session handoff, NOT permission to execute S118 now. A fresh, separate owner instruction such as “Run next session” is required. Reconcile live remote main SHA/tree, S117 PR/merge/hosted governance and Lean checks, open PRs, rulesets, formal plan and AGENTS before creating one isolated S118 branch and one atomic authored commit with ordinary two-parent PR merge.
+## Entry and authority
+Fresh separate owner “Run next session” authorises precisely S119. On entry reconcile live main/STATE/AGENTS, any open PRs, S118 PR two merge parents and S118 hosted Lean and governance outputs; repair compilation first if red. This prompt's creation is not an execution of S119.
 
-## Exact target and exclusions
-Primary Option D is D1, D2, D6 universal two-height R³ attaching square, D7 Hopf specialisation, and D8 perturbation; earlier D3–D5 R⁴ route is optional archival research. D1 is the real-valued centered Gram matrix for arbitrary N≥2 edge/nonedge squared distances 1±1/(100N), PSD of rank N−1 and N labelled points in ℝ^(N−1) realising those exact distances, then the flag-Rips reconstruction. The pointwise mixed-product and row-margin lemmas in OptionD/GramBounds.lean are ONLY intermediate numerical D1 obligations. They do not prove full matrix PSD/rank or D6. Do not change to an easier unrelated Gram hypothesis, use nonstandard axioms, or claim full Lean certification.
+## Target
+Keep Option D's D1–D2–D6–D7–D8 full theorem fixed: the symmetric hollow N-point prescribed squared-distance matrix (off-diagonal 1±1/(100N)) must have positive semidefinite double-centered Gram, kernel exactly the constants, rank N−1 and N labelled ℝ^(N−1) points with precisely these distances. S118 finite bound is only a prerequisite. Primary application remains arbitrary two-height coherent B₂ attaching square in three-real-parameter flag-Rips persistence, with unrestricted both-lane whole-diagram homotopy-interleaving bound. No substitute for it.
 
-## Decisive formal work
-1. First verify whether S117 CI really built on hosted GitHub. If the Lean job is failing or missing, repair source/Lake/manifest and pin compatibility, and report the full failure and fix; do not infer success from governance CI.
-2. Define the finite squared-distance matrix and centering operator as actual Lean objects; prove the quadratic-form identity on the mean-zero subspace, with the diagonal equilateral contribution of 1/2.
-3. Lift `d1_pair_error_lower` to finite off-diagonal sums, proving the `(N−1)ε` row error for arbitrary z; combine with `d1_strict_gram_margin` to kernel-prove strict centered positivity.
-4. If feasible within the same session, prove centered Gram PSD and kernel equal to constants, rank N−1 and Euclidean reconstruction with exactly the prescribed edge/nonedge distances. If not, state precisely the missing lemma and its Mathlib API and leave it for S119.
-5. Run a *cold*, exact-pinned `lake build` via local/hosted Actions and inspect actual output. Keep `lean-toolchain` at leanprover/lean4:v4.35.0-rc2 and matching Mathlib SHA 065356127b1dc0016f66b7283ce0ce2c4055aa55 unless live Palomar compatibility demands a documented migration; capture updated lockfile and record axiom checks. Challenge/Solution comparator and NanoDa/con-ron preflight remain future tasks until honest matching declarations exist.
+## Required work
+1. Establish equilateral identity for every x with ∑ xᵢ=0: ∑ᵢⱼ xᵢ(1−δᵢⱼ)xⱼ = −∑ᵢxᵢ²; show quadratic identity for explicit d1CenteredGram = −½∑ᵢⱼxᵢ Dᵢⱼxⱼ on the mean-zero subspace.
+2. Use true S118 N−1 error bound and strict margin to prove positivity. Impose actual edge symmetry for Euclidean geometry, derive Gram symmetry and G·1=0, PSD on all vectors by mean/constant decomposition, kernel exactly constants and rank N−1.
+3. Find or prove the pinned Mathlib finite-dimensional Gram/Euclidean representation theorem, and show the recovered squared distances equal the exact edge/nonedge values. Do not introduce a custom axiom, extra distance hypothesis or fixed N.
+4. If complete early, prove short-edge threshold flag-Rips graph reconstruction and Boolean D2 induced-subcomplex births. If the geometry API is missing, write the smallest precise missing formal lemma and failing API exploration; leave the rest for S120, no imaginary certification.
+5. Cold-build exact Lean v4.35.0-rc2 with Mathlib SHA 065356127b1dc0016f66b7283ce0ce2c4055aa55; verify hosted actions, dependency manifest, source headers, no sorry/admit/axiom, line limits, axiom printout. Challenge/Solution, comparator and NanoDa/con-ron Palomar preflight remain separately gated and must not be claimed without actually running them.
 
-## Integrity and certification boundaries
-Check no sorry/admit/axiom in Solution dependencies, module headers and ≤10000 physical lines per Lean file, authentic resolved manifest, no submodules, LFS or built artifacts. A successful `lake build` certifies only exact compiled declarations, not the full Option D theorem, Palomar comparator, independent kernel replay, novelty or HHA fit. No novelty audit, Palomar registration, manuscript, arXiv/HHA submission or external contact.
-
-## Closeout
-Produce a substantial S118 formal proof dossier with commands and run URLs, exact statement map, residual mathematical dependencies and truthful ACCEPT/PARTIAL verdict. Synchronise STATE, phase/decision/session ledgers, claim and provenance records, formal plan, and one fully executable S119 FUTURE UNEXECUTED prompt in the same authored commit. Require hosted governance AND Lean checks before ordinary merge; verify two merge parents and outgoing main workflow. Present the complete S119 prompt, but NEVER execute it in this session without a fresh separate owner instruction.
+## Prohibitions and reporting
+Owner explicitly deferred novelty checks. No novelty/HHA gate, Palomar registration, paper, arXiv, journal submission or third-party contact. Differentiate actual compiled declarations from full D1 and D6–D8 certification. Produce substantial S119 proof/adversarial/CI dossier, update STATE, decision/phase/session/claim/formal-plan records and install an actionable full S120 FUTURE UNEXECUTED prompt. One authored session commit, hosted governance+Lean checks and ordinary two-parent PR merge; verify main and show entire S120 prompt. Do NOT run S120 without a fresh owner instruction.
