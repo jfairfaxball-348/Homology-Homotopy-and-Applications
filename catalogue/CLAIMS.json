@@ -5700,6 +5700,20 @@
       "claim": "For all N>=2 and symmetric edge data, the exact D1 double-centered Gram has zero rows and columns, is symmetric, kills the ones vector, and satisfies q_G(x)=q_G(x-mean(x))>=99/200 sum_i (x_i-mean(x))^2>=0 for every real vector x; all-N Lean proofs include projection and nonnegativity.",
       "sources": [],
       "scope": "OptionD/CenteredPSD.lean; pinned Lean v4.35.0-rc2, Mathlib SHA 065356127b1dc0016f66b7283ce0ce2c4055aa55 hosted build #39312760687 SUCCESS. This does not certify rank, exact kernel, Euclidean point configuration, D2, D6-D8 or HHA novelty; final PR/main CI still must be checked."
+    },
+    {
+      "id": "CLM-0588",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For every N>=2 and symmetric edge predicate, the exact double-centered D1 Gram quadratic q_G vanishes exactly on constant vectors; equivalently its coordinate matrix kernel is the one-dimensional space of constants. Every off-diagonal squared distance is <1 iff edge and >1 iff nonedge.",
+      "scope": "OptionD/Kernel.lean, pinned Lean scratch #39316514201 SUCCESS. Coordinate kernel in function/sum notation, not a separate compiled Matrix.rank or Euclidean factorisation. No HHA novelty/Palomar.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0589",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For every finite symmetric edge predicate, the exact double-centering recovery identity G_ii+G_jj-2G_ij=D_ij is verified by Lean for all i,j, including diagonal, with no metric-point construction assumption.",
+      "scope": "OptionD/Recovery.lean, pinned Lean scratch #39316720044 SUCCESS. Euclidean points of dimension N-1, norm-squared equalities and Rips graph have NOT yet been built.",
+      "sources": []
     }
   ]
 }

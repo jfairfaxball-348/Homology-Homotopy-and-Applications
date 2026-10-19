@@ -621,3 +621,7 @@ Keep Option D owner-approved incremental Lean route; prove true centered mean-ze
 
 ## S121 Lean decision — 19 October 2026
 Continue owner-authorised Option D proof-first-to-Lean incremental path, preserve D6/D7/D8 universal R³ target. Rather than invent a missing spectral interface, prove exact zero rows/columns and projection so S120's zero-mean bound yields all-vector G PSD. Pinned scratch Lean SUCCESS #39312760687, partial D1 only. Self-select S122 for exact kernel, N−1 rank, Euclidean coordinates and threshold, with no new novelty audit, Palomar registration or publication.
+
+
+## S122 — D1 kernel and recovery decision, 19 October 2026
+Fresh owner command executes S122 only from S121 main f3862550620f3d6ab4acbb377e1ff024eaed7be1. Use pinned Lean to close exact coordinate kernel, strict quadratic zero iff constants, graph squared-distance threshold and double-centering recovery; do not assert a factorisation that has not been compiled. Both scratch compiler runs #39316514201 and #39316720044 SUCCESS. Continue S123 FUTURE with strict Matrix rank and actual Euclidean N−1 point geometry, then D2; D6–D8 remain the fixed primary theorem. No novelty audits, Palomar, manuscript or external acts.

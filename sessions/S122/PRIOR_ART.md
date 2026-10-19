@@ -1,0 +1,2 @@
+# S122 PRIOR_ART / library-only audit — 19 October 2026
+NO primary-source novelty or HHA-significance audit was performed, as explicitly deferred by the owner. No publication originality claim is made. Mathematical tools used are the pinned Lean/Mathlib stack; publicly indexed Mathlib docs identify Matrix.PosSemidef and Gram matrix interfaces, but CURRENT online theorem pages are not proof that exact API exists at pinned SHA 065356127b1dc0016f66b7283ce0ce2c4055aa55. The factorisation/rank interface and Euclidean witness have not been compiled or claimed.

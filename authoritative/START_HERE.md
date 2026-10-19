@@ -204,3 +204,7 @@ The owner executed S114 once from main 5f2a1c4a032a806437dc59e717e24e8da60feae4;
 
 ## S117 executed / S118 future — 19 October 2026
 Owner-invoked S117 authoring introduces root Lean/Mathlib project and actual D1 mixed quadratic estimate/strict row-margin source plus dedicated hosted Lean job. S117 CI must be inspected before any claim of kernel verification; **no** D1 full Euclidean realization or D6 coherent theorem has been certified. S118 is FUTURE UNEXECUTED and must repair red CI first, then prove finite centered Gram positivity/embedding. No novelty checks, Palomar registration, publication or external contact. See authoritative/NEXT_SESSION_PROMPT.md.
+
+
+## S122 completed scientific work — 19 October 2026
+D1 Lean now certifies strict centered Gram coercivity, equality iff constants, exact coordinate kernel, squared edge/nonedge threshold and exact double-centering distance recovery; scratch build #39316720044 SUCCESS. Neither formal Matrix.rank nor Euclidean points nor D2 or D6/D7/D8 are certified. Future S123 specified in NEXT_SESSION_PROMPT; no novelty/Palomar/manuscript actions.

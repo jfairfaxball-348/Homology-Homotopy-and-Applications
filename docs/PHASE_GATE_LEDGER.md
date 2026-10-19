@@ -406,3 +406,7 @@ S120 zero-mean centered quadratic identity and lower bound are kernel-built in c
 
 ## S121 — partial G3 compiled Lean, 19 October 2026
 Pinned Lean source with explicit symmetric graph hypothesis now proves **all-vector centered Gram quadratic PSD** through mean subtraction and verified 99/200 mean-zero coercivity (scratch successful hosted run #39312760687). Matrix rank/kernel characterisation, exact ℝ^(N−1) Euclidean coordinates, Rips threshold and D2/D6–D8 still unformalised. No Challenge/Solution comparator or Palomar preflight. G2 original HHA significance not checked at owner's direction; no release approval. Final combined PR and main CI must be rechecked.
+
+
+## S122 — G3 incremental pinned Lean (19 October 2026)
+OptionD/Kernel.lean and OptionD/Recovery.lean built successfully on isolated scratch SHA d02286f3b92e284e4d409757fd29b428ab4f1be5 via pinned workflow #39316720044. Full N≥2 centered q_G=0 iff constant, coordinate kernel exact, graph squared threshold and precise symmetric hollow D recovery. Formal Matrix.rank N−1 theorem, factorisation and Euclidean (N−1)-dimensional point coordinates OPEN; D2 and D6–D8 not Lean-formalised. G2 novelty/HHA explicitly owner-deferred; no comparator/Palomar preflight, no registry, manuscript or publication.

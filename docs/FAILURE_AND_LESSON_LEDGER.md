@@ -595,3 +595,7 @@ The imported noncomputable centered Gram body needed an exposed rfl theorem from
 
 ## S121 — preserve real proof boundaries (19 October 2026)
 Scratch CI #39312367968 FAILED because a sum had division under an inner summation and a redundant trailing `ring` ran after `simp` closed its goal. Repair on scratch commit ab275330 yielded SUCCESS #39312760687 without new mathematical assumptions. Caution: Gram PSD as a quadratic inequality is NOT yet the Mathlib PosSemidef interface, rank N−1, Gram factorisation nor pointwise Euclidean distance equality. Symmetry is required for graph geometry; row cancellation alone also applies to directed arrays.
+
+
+## S122 — coordinate kernel is not yet an embedded metric theorem (19 October 2026)
+Pinned Lean #39316514201 and #39316720044 succeed for quantitative centered coercivity, exact coordinate kernel, squared threshold and symmetric double-centering recovery. This removes the matrix nullspace ambiguity; it does NOT magically supply a Lean Mathlib.Matrix.rank theorem, PSD Gram factor, EuclideanSpace ℝ (Fin (N−1)) point coordinates or norm-squared identity. A strict cutoff on the abstract squared-distance matrix is not yet a checked Rips filtration. Do not infer pinned matrix spectral API availability from unpinned online docs. Preserve the directed-edge symmetry boundary.
