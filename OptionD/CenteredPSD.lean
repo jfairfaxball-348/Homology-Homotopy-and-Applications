@@ -26,6 +26,7 @@ private theorem d1_row_centering_algebra (N : ℕ) (hN : 0 < N)
       (∑ k : Fin N, ∑ j : Fin N, D k j) := Finset.sum_comm
   simp only [Finset.sum_add_distrib, Finset.sum_sub_distrib,
     Finset.sum_div, Finset.sum_const, Finset.card_fin, nsmul_eq_mul]
+  simp only [← Finset.sum_div]
   rw [hswap]
   field_simp
   ring
@@ -135,7 +136,6 @@ private theorem d1_quadratic_shift (N : ℕ)
         m ^ 2 * (∑ i : Fin N, ∑ j : Fin N, A i j) := by
           simp only [Finset.sum_add_distrib, Finset.sum_sub_distrib,
             Finset.mul_sum]
-          ring
     _ = _ := by rw [hr, hc, ht]; ring
 
 /-- Orthogonal-to-constants algebra: the coordinate-wise centered vector
