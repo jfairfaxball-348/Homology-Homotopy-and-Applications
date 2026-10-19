@@ -616,3 +616,12 @@ SRC-0256 Hilton1955 original publisher metadata; SRC-0257 DKS1989 original publi
 - **SRC-0281** Berkouk–Ginot 2022 Adv. Math. 394, 108033 DOI10.1016/j.aim.2021.108033: publisher ABSTRACT_INSPECTED; field-sheaf derived isometry, full original proof NOT inspected. https://doi.org/10.1016/j.aim.2021.108033
 - **SRC-0282** Baues–Blanc–Gondhali original arXiv1503.02265 and Springer introduction STATEMENT_INSPECTED; full specific proof-level transfer not reread. https://arxiv.org/abs/1503.02265
 - Existing **SRC-0275–0280** scoped against original theorem statements; source access limits and no-priority-certificate warnings in sessions/S114/PRIOR_ART.md.
+
+## S115 original theorem-level source additions — 19 October 2026
+- SRC-0283 BBG2016 original arxiv1503.02265 full PDF **PROOF_INSPECTED SELECTED** Thm4.21 and Prop4.35; full argument not independently redone.
+- SRC-0284 LS2023 original arxiv HTML2010.05378v3 **PROOF_INSPECTED SELECTED** TheoremA, Prop3.10, Prop3.12, Remark3.13; exact Top-category scope.
+- SRC-0285 Blumberg–Lesnick2023 original arxiv1705.01690 pdf **STATEMENT_INSPECTED** Theorems1.10/1.11, proof not fully read.
+- SRC-0286 Berkouk ORIGINAL RELATED but SEPARATE *Stable resolutions* arxiv1901.09824 **STATEMENT_INSPECTED**, not original GSI2021 proceedings full proof.
+- SRC-0287 Berkouk–Ginot2022 original arxiv1805.09694 **STATEMENT_INSPECTED** Thm5.10 field-valued derived sheaves, no full proof reread.
+- SRC-0288 HHA International Press publisher aims **STATEMENT_INSPECTED**; relevance editorial only, not journal-level originality/acceptance.
+- Previously SRC-0275 JACT2026 original field theorem and SRC-0277 original Magma C4 m4 retained; no exhaustive HHA forward citation proof census and no exact C4 preemption claimed.

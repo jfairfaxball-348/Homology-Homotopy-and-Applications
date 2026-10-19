@@ -5596,6 +5596,59 @@
         "SRC-0282"
       ],
       "scope": "Novelty NOT disproved, but cannot pass G2 from a classical higher product and a single routine-looking metric clock; no manuscript authorisation."
+    },
+    {
+      "id": "CLM-0576",
+      "status": "SOURCE_STATED",
+      "claim": "S115 primary original sources: BBG2016 Thm4.21 and Prop4.35 already give dg higher-bracket transfer and Massey/Toda relationship; LS2023 Thm A and Props3.10/3.12 already use quantitative interleaving rectification and Toda obstructions.",
+      "sources": [
+        "SRC-0283",
+        "SRC-0284"
+      ],
+      "scope": "Exact C4 Ch(B)^R numerical metric triple and arbitrary-both-zigzag model not shown identically in the inspected excerpts; this is a mechanism/technique overlap, NOT direct published preemption."
+    },
+    {
+      "id": "CLM-0577",
+      "status": "SOURCE_STATED",
+      "claim": "S115 scoped original results: BL2023 concerns persistent spaces, Berkouk original related preprint field-valued persistence module resolutions, Berkouk–Ginot2022 field sheaves; published 2026 equality Ch(k)^R for a field does not assert coefficient-all-rings equality.",
+      "sources": [
+        "SRC-0285",
+        "SRC-0286",
+        "SRC-0287",
+        "SRC-0275"
+      ],
+      "scope": "The GSI2021 Berkouk proceedings full proof not inspected and the similarly authored preprint must not be conflated; only selected original sources inspected."
+    },
+    {
+      "id": "CLM-0578",
+      "status": "HEURISTIC",
+      "claim": "S115 did not identify a genuinely independent theorem-level application or nonroutine general technical increment for the one five-stage C4 metric worked example beyond known higher operations, transfer, and quantitative clock/rectification mechanisms.",
+      "sources": [
+        "SRC-0283",
+        "SRC-0284",
+        "SRC-0277",
+        "SRC-0288"
+      ],
+      "scope": "Failure to demonstrate novelty/significance is NOT a theorem that the example is published elsewhere, routine in an absolute sense, erroneous, or unpublishable in every venue; source audit incomplete."
+    },
+    {
+      "id": "CLM-0579",
+      "status": "HEURISTIC",
+      "claim": "S115 FINAL RETIRE AS FIRST HHA PAPER: archive C4 internally supported 1/2<1<5/4<=dHI<=5/2 in Ch(F2[C4])^R, field-forgetful all1/2; external G1 and HHA G2 NOT PASSED; cease unbounded C4-note audits.",
+      "sources": [
+        "SRC-0283",
+        "SRC-0284",
+        "SRC-0275",
+        "SRC-0288"
+      ],
+      "scope": "Publication pipeline frozen; no Lean, Palomar, manuscript, arXiv, HHA or correspondence. Original ordinary Top^R strict HI>IHC remains open."
+    },
+    {
+      "id": "CLM-0580",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S116 is a future owner-decision-only choice of the next evidence-backed first-paper objective after C4 retirement; no substantive new research is executed by installing its handoff.",
+      "sources": [],
+      "scope": "FUTURE, UNEXECUTED; user must explicitly approve new target before mathematical research resumes in that route."
     }
   ]
 }

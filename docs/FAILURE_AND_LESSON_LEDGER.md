@@ -583,3 +583,6 @@ Do not make >100 exploratory negative sessions into proof that no publishable no
 
 ## S114 — independent internal proof does not prove an HHA paper (19 October 2026)
 No zero-valued all-choice C4 fourfold defining system or projective whole-real acyclic-lane quotient counterexample found in targeted check, BUT C4 m4 and higher Toda/homotopy transfer are classical. A five-unit synthetic metric clock with a numerical lower bound may be a worked illustration, not nonroutine generalisable advance. Do not equate lack of exact match with novelty or HHA editorial support. Freeze mathematical scope and force S115 final original-source contribution proof-or-retire, no indefinite iteration. Post-hoc random tests not COMPUTED_EXACT.
+
+## S115 — stop before another low-novelty audit treadmill (19 October 2026)
+Known fourfold C4 operation plus general Toda transport and quantitative interleaving obstruction can produce a technically interesting worked metric example, but no independently substantial HHA contribution/application emerged from the final bounded original-source review. Distinguish *not demonstrated significant* from *published verbatim* and from *false*. Stop C4-first-HHA-note audits and endpoint variants; maintain corrected calculation as INTERNAL. S116 explicit choice or pause, not an unattended theorem hunt.
