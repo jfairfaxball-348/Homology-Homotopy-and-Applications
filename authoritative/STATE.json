@@ -5,10 +5,10 @@
   "last_completed_session": "S116",
   "recommended_next_session": "S117",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S116 decision briefing RECOMMENDS C pause of first-HHA-paper hunt; owner A/B/C choice pending, G2 not passed.",
-  "selected_mathematical_problem": "None; first HHA-paper target pending explicit owner A/B/C choice after S115 C4 retirement",
-  "headline_status": "S116_DECISION_BRIEFING_COMPLETE_RECOMMEND_PAUSE_OWNER_CHOICE_PENDING",
-  "active_campaign": "HHA_FIRST_PAPER_PAUSE_RECOMMENDED_S117_OWNER_CHOICE_PENDING",
+  "headline": "Option D sharper PR136 universal two-height R3 attaching theorem D6–D8 fixed as primary Lean target; S117 future D1 Gram bootstrap; no novelty checks",
+  "selected_mathematical_problem": "Option D D6 universal two-height Euclidean R3 Vietoris-Rips attaching-map/cofiber interleaving obstruction, D7 two-block Hopf specialization and D8 stability, based on D1–D2.",
+  "headline_status": "OWNER_OPTION_D_LEAN_SELECTED_S117_FUTURE_UNEXECUTED",
+  "active_campaign": "OPTION_D_INCREMENTAL_LEAN_S117_FUTURE",
   "claim_of_new_theorem": "No new S116 theorem; C4 internal hierarchy preserved but retired as FIRST HHA paper.",
   "stages": [
     {
@@ -19,17 +19,17 @@
     {
       "id": 1,
       "name": "Target selection and original proof/disproof",
-      "status": "OPEN_NO_HHA_FIRST_PAPER_TARGET_S116_OWNER_CHOICE_PENDING"
+      "status": "OPTION_D_INTERNAL_PROSE_PROOF_MERGED_PR135_FIXED_FOR_LEAN_NO_EXTERNAL_PROOF_CERTIFICATE"
     },
     {
       "id": 2,
       "name": "First novelty/prior-art audit",
-      "status": "G2_NOT_PASSED_S116_DECISION_ONLY"
+      "status": "G2_NOT_PASSED_OWNER_FORBIDS_NOVELTY_CHECKS_CURRENTLY"
     },
     {
       "id": 3,
       "name": "Lean formalisation and build certification",
-      "status": "NOT_STARTED"
+      "status": "OWNER_AUTHORISED_PROSPECTIVE_S117_NOT_STARTED"
     },
     {
       "id": 4,
@@ -2142,5 +2142,23 @@
     "G2": "NOT_PASSED",
     "next": "S117 FUTURE UNEXECUTED OWNER_CHOICE_PENDING; first governance-only owner-authorised prompt amendment",
     "downstream": "NO_LEAN_PALOMAR_MANUSCRIPT_ARXIV_HHA_EXTERNAL_CONTACT_AUTHORITY"
+  },
+  "s117_owner_override_20261019": {
+    "source": "research/OPTION_D_SYNTHESIS_PROOF.md",
+    "selected_proof": "D1 D2 D6 D7 D8 (D3–D5 earlier weaker historical route)",
+    "owner_instruction": "Incremental Lean formalisation and eventual Palomar-compatible mechanical preflight, no novelty checks",
+    "reference_merge": "b740b973bc3eb8ea7aa5618496c1383a5b2d692f",
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+    "mathlib_tag": "v4.35.0-rc2",
+    "mathlib_SHA": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "palomar_minimum_verified": "v4.35.0-rc2",
+    "status": "S117_FUTURE_UNEXECUTED_GOVERNANCE_ONLY",
+    "lean_build": "NOT_RUN",
+    "preflight": "NOT_RUN",
+    "novelty": "NO_CHECKS_REQUESTED",
+    "registration": "OWNER_GATED_NO_SUBMISSION",
+    "source_latest": "research/OPTION_D_TWO_HEIGHT_UNIVERSAL_ATTACHING.md",
+    "latest_merge": "b7b4bef398d8a0b5b94a578c15642fd2c12e50e5",
+    "goal": "Incrementally formalise D1,D2 then latest universal D6/D7/D8, cold Lake build and Palomar-compatible Challenge/Solution comparator preflight only"
   }
 }

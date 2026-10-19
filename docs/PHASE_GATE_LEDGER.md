@@ -388,3 +388,9 @@ G1 C4 arithmetic/whole-real mechanism INTERNAL ONLY, no external/formal certific
 
 ## S116 decision-only (19 October 2026)
 No theorem, proof certification or original HHA application established. C4 retired as FIRST HHA PAPER at S115 with internal bounds preserved; first HHA target now unselected. G1B new target not selected; G2 NOT PASSED. S116 recommendation C pause/archive while owner A/B/C choice pending. G3 Lean/G4 final novelty not started, G5 Palomar/G6 manuscript/G7 arXiv/G8 HHA not authorised. S117 future owner-choice-gated.
+
+## 19 October 2026 prospective formalisation permission
+S116 last COMPLETED; S117 FUTURE not executed. Owner selects Option D and separately authorises building a Lean verification of its internally proved D1–D5 cross-session theorem, regardless of presently unpassed G2 originality gate; no new novelty checking in formalisation work. G3 = AUTHORISED PROSPECTIVE ONLY / NO LEAN BUILD YET / NO COMPARATOR / NO PALOMAR PREFLIGHT. Palomar version minimum v4.35.0-rc2 verified live; matching Mathlib tag pinned prospectively. No formal certificate or downstream registry/publication authority.
+
+## Latest Option D stronger theorem note — 19 October 2026 (prospective)
+After the original Option D PR #135, PR #136 merged research/OPTION_D_TWO_HEIGHT_UNIVERSAL_ATTACHING.md, with universal two-height R³ attaching-map obstruction D6, Hopf two-block D7 and sharper c_N bound and D8 stability. **These later D6–D8 conclusions are the primary formalisation target**, with D1–D2 shared first milestones; the earlier D3–D5 four-parameter R⁴ route is archival, not an obligatory detour. S117 remains FUTURE and unexecuted. No novelty checks, no actual Lean build yet, no registry or publication permission.
