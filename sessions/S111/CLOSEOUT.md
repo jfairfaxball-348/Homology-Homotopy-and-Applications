@@ -1,0 +1,19 @@
+# S111 CLOSEOUT — 19 October 2026
+
+S111 was executed **once** from owner instruction "run next session", with entry main `f4b0f6b3e2c743c11026cd2b713c5d8739d66752`/tree `08c7b0e747bdc0a015ebbcdda5ca23590ad240ff`, prior S110 PR #127 ordinary merge (parents fbe5f6c60fbf1920985113cd5c4eb1790739e08e, f2f37fa71b1389b27b0d36aa2e9f3a2146f952f3), PR hosted static run 39139874533 PASS and main static run 39139917429 PASS. Zero open PRs. Local source clone via GitHub DNS failed, so NO LOCAL integrity-validator PASS is claimed. Outgoing commit/PR/merge/check SHAs are **not** fabricated in this authored pre-merge dossier; inspect GitHub after actual integration.
+
+- **T293 PROGRAMME_PROVED (internal):** nontrivial φ_w(a)=aw, b,c fixed has infinite-order Out(F3) class, impossible for monodromy of any genuine *finite-graph* locally trivial S¹ bundle; former M_w is a homotopy graph mapping torus, NOT such a bundle.
+- **T294 internal:** explicit continuous finite PL sublevel inclusion model exists for each presentation complex with actual 0,1,2,3,4 cell events, but numerical heights are arbitrary/extrinsic; δ_event=0 for differing attaching words is NOT common-domain supnorm control.
+- **T295 internal:** marked γ3-quotients coincide for w∈γ3; depth-three effect appears in marked γ4 via N⋊Z, without unjustified unmarked nilpotent claim.
+- **T296 internal/source-dependent:** for w=[[b,c],b], exact triple Massey coset ⟨B,C,B⟩=±2U_a+ZU_b, nonzero even over Q; M_1 is rationally formal. Fenn–Sjerve 1987 directly precedes original Magnus/Massey method; no HHA novelty.
+- **T297–T298 internal hard no-go:** any compact PL sublevel diagrams with terminals M_w and M_1 have dHI=dIHC=∞ under arbitrary whole-diagram unpointed weak-equivalence zigzags; no finite positive nonclock bound on this family. The putative δ_event=0 upper stability fails because there is no valid space comparison. Inner, inverse, conjugacy, all real cuts and the abelian Wang shadow reviewed.
+- **T299 source/HHA verdict:** S111 controlled nilpotent-monodromy first-paper route RETIRED. A genuine finite-geometric graph-bundle assumption is unavailable for IA; secondary calculations are classical and no meaningful finite sharp stability/application theorem survived. G1 original flagship OPEN; G2 NOT PASSED. Archived ordinary unpointed strict dHI>dIHC OPEN, not solved, not disproved by this session. G3 Lean NOT STARTED; Palomar, manuscript, arXiv/HHA and external contact not authorised. No exact finite computation or independent proof certification.
+
+S112 self-selected pivot deliberately abandons IA terminal centre and infinite-tail monodromy: **same finite terminal CW space, two genuine PL sublevel filtrations with differently ordered, geometrically controlled unstable attaching maps**, finite positive full-real HI target and both homology/whole-Ho comparison, with serious primary-source priority kill. Keep the original ordinary unpointed gap as an archived separate goal; don't mislabel differing categories as a solution.
+
+## NEXT_SESSION_HANDOFF
+- Next: **S112**
+- Status: **FUTURE, UNEXECUTED**
+- Canonical: **authoritative/NEXT_SESSION_PROMPT.md**
+- Decisive obligation: construct two concrete finite continuous PL sublevel filtrations on a single terminal finite CW homotopy type, prove a sharp **finite positive** quantitative unstable attaching obstruction under *both* whole-diagram WE zigzags, with control by an actual common-domain geometric perturbation or a rigorous application beyond standard sup-norm stability; otherwise stop this new route with a witnessed counterexample and source-first novelty verdict.
+- Authority: S112 requires a **new separate owner** "Run next session"; not executed here. No Lean, Palomar, paper, arXiv, HHA, contact or priority action without explicit separate owner instruction and independent proof/novelty gates.
