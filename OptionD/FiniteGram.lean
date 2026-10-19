@@ -161,4 +161,18 @@ theorem d1_perturbation_quadratic_lower (N : ℕ) (hN : 2 ≤ N)
     (d1_perturbation_diag N edge)
     (d1_perturbation_abs_le N hN edge)
 
+
+/-- Exposed rewrite for imported clients: the exact D1 squared-distance
+data is the equilateral hollow part plus the signed perturbation. -/
+theorem d1_distance_decompose (N : ℕ) (edge : Fin N → Fin N → Prop)
+    (i j : Fin N) :
+    d1SquaredDistance N edge i j =
+      (if i = j then (0 : ℝ) else 1) + d1Perturbation N edge i j := by
+  rfl
+
+/-- Exposed rewrite for clients of the module interface. -/
+theorem d1_epsilon_formula (N : ℕ) :
+    d1Epsilon N = 1 / (100 * (N : ℝ)) := by
+  rfl
+
 end OptionD
