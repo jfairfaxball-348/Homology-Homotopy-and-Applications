@@ -5430,6 +5430,73 @@
         "SRC-0268"
       ],
       "scope": "Source audit and failure classification, not a universal impossibility theorem."
+    },
+    {
+      "id": "CLM-0558",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S112 T300 explicit common finite simplicial cone on torus and circle-wedge-sphere admits PL height filtrations with essential changes at 1,2,4 and exactly ||f-g||infinity=3.",
+      "sources": [],
+      "scope": "Internal constructive coordinate/barycentric proof; synthetic cone cancellation, not natural Morse scale."
+    },
+    {
+      "id": "CLM-0559",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S112 T301 barycentric edge lengths are sqrt(1/r-1/s), exact simplex gradients given by weighted adjacent stage increments and Lip bound sqrt(320).",
+      "sources": [],
+      "scope": "Finite PL coordinate derivation; intrinsic piecewise Euclidean length metric, not certified sharp gradient."
+    },
+    {
+      "id": "CLM-0560",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S112 T302 exact complete natural real-indexed integral persistent homology functors of torus and wedge PL sublevels agree in every degree.",
+      "sources": [],
+      "scope": "Internal cellular H1 and H2 map proof for full real sublevels and equality cuts; cohomology cup rings do NOT agree."
+    },
+    {
+      "id": "CLM-0561",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S112 T303 any epsilon<1 ordinary unpointed homotopy-category interleaving after arbitrary whole zigzags would retract Z² into free F2, impossible; dIHC>=1.",
+      "sources": [],
+      "scope": "Necessary Fun(R,HoTop) obstruction derived from Ho(Top^R); not dHI>dIHC."
+    },
+    {
+      "id": "CLM-0562",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S112 T304 common-domain inclusions yield actual strict all-real 3-interleaving and 1<=dIHC<=dHI<=3 finite with shared contractible terminal.",
+      "sources": [
+        "SRC-0179"
+      ],
+      "scope": "Upper from standard supnorm interleaving; no matching sharp endpoint or new HHA result."
+    },
+    {
+      "id": "CLM-0563",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S112 T305 rho-perturbations satisfy max(0,1-2rho)<=dIHC<=dHI<=3+2rho; homology distance of perturbed pair <=2rho.",
+      "sources": [
+        "SRC-0179",
+        "SRC-0274"
+      ],
+      "scope": "Standard triangle and stability consequence of internally proved base case; not novel reconstruction."
+    },
+    {
+      "id": "CLM-0564",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S112 T306–308 common terminal and identical complete persistent homology do not force zero homotopy distance; example is nevertheless cup/π1-visible and clock-designed, so HHA G2 not passed.",
+      "sources": [
+        "SRC-0274",
+        "SRC-0275"
+      ],
+      "scope": "Concrete counterexample to false inference; limited first-paper verdict not independent novelty certification."
+    },
+    {
+      "id": "CLM-0565",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S113 intrinsic finite metric PL geometry might exhibit an HHA-original stable secondary attaching obstruction invisible to full natural H, pi1 and cup persistence.",
+      "sources": [
+        "SRC-0274",
+        "SRC-0275"
+      ],
+      "scope": "FUTURE research hypothesis only, not proved or originality-cleared."
     }
   ]
 }

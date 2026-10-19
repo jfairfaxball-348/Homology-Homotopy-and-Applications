@@ -1,0 +1,7 @@
+# S112 INPUT — 19 October 2026
+
+Owner separately invoked "run next session" after S111. Live default main was verified as 86311242e543a7394c11e5f6de8570cf6d7d3f53; \`authoritative/STATE.json\` said last S111/next S112 and the future S112 prompt was directly read. Prior S111 ordinary-merge PR #128 has merge commit 86311242e543a7394c11e5f6de8570cf6d7d3f53. No session/S112 branch was present in GitHub search at entry. GitHub connector authorised on jfairfaxball-348; direct local GitHub DNS unavailable, so no local source checkout/validator execution is claimed.
+
+Read live AGENTS, START_HERE, NEXT_SESSION_PROMPT, PUBLICATION_TARGET, SESSION_PROTOCOL, S110/S111 proof and adversarial records, claim/source mirrors and programme ledgers. The target is a *shared terminal* compact finite PL example with full-real ordinary unpointed Top persistence and genuine attaching-word difference; tests must distinguish theorem proof from novelty/HHA. Current externally inspected original publisher/institutional material: Blumberg–Lesnick (2023), Lanari–Scoccola (2023), Mémoli–Stefanou–Zhou (published 2024), Torras-Casas–Pennig (2024), Ramras (2026), Kuribayashi–Naito–Wakatsuki–Yamaguchi (12 September 2026); details/access in PRIOR_ART.
+
+No finite enumerative/computational search was used; proofs are symbolic finite-polyhedral arguments, not COMPUTED_EXACT. No Lean, Palomar, manuscript, external contact or publication permission.
