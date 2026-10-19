@@ -1,0 +1,23 @@
+# S113 PRIOR_ART — original-source access and exact novelty proposition (19 Oct 2026)
+
+Bibliographic comparisons refer to actual retrieved original material and narrow theorem scope; searches are NOT priority certificates.
+
+1. **SRC-0275 Kuribayashi–Naito–Wakatsuki–Yamaguchi (2026), JACT, DOI 10.1007/s41468-026-00252-0, original Springer full HTML — PROOF_INSPECTED selected Theorem3.3 and proof; STATEMENT_INSPECTED Proposition3.5 and Section3.** Published 12 September 2026. Exact statement dHC=dIHC=dHI=dCohI on Ch_K^R for a **field K**. Their proof applies distance-formality and derived interval decomposition; it does not assert equality for arbitrary ordinary finite-dimensional *algebras* B. S113 shows how a modular coefficient example could mark a precise, limited boundary, not refute their theorem or answer topological Top^R question.
+
+2. **SRC-0277 Magma University of Sydney original current handbook, A-infinity Algebra Structures on Group Cohomology, https://magma.maths.usyd.edu.au/magma/handbook/text/1065 — STATEMENT_INSPECTED actual worked example.** Original text explicitly prints HighProduct(Aoo,[x,x,x,x])=y for CyclicGroup(4) and labels these cyclic-group A-infinity operations well known. Therefore C4 4-fold product is definitively NOT S113 novelty. A *complete all-filler bracket and metric consequence* may still add content; cannot assume they are novel without further checks.
+
+3. **SRC-0276 Lanari–Scoccola (2023), AGT23 803–832, DOI10.2140/agt.2023.23.803 — STATEMENT_INSPECTED original preprint/published university record of Theorem A, Proposition3.12, Remark3.13; full proof NOT newly independently reread.** Theorem A rectifies HC⇒HI up to constant; Prop3.12 uses classical Toda for Top dHC≠dHI; Remark3.13 asks about dHI vs dIHC. Does not in inspected part identify exactly the C4 coefficient gap. Publication paper itself has general source methods; no independent originality certification.
+
+4. **SRC-0278 Blumberg–Lesnick (2023) Trans AMS 376, 8269–8307, DOI10.1090/tran/8738 — ABSTRACT_INSPECTED original arXiv/author PDF and publisher metadata.** Universality of homotopy interleaving for filtered topological spaces; source method foundational. Not an asserted modular C4 numerical example. Full theorem-proof comparison incomplete.
+
+5. **SRC-0279 Baues–Blanc–Gondhali (2016), JHRS 11, 643–677 DOI10.1007/s40062-016-0157-8 — ABSTRACT_INSPECTED original Springer author/publisher, and S077 inherited original preprint selected Prop4.35.** General higher Toda/Massey definitions/invariance are already known. This leaves no novelty for an operation-only note.
+
+6. **SRC-0280 Berkouk (2021), Algebraic Homotopy Interleaving Distance, DOI10.1007/978-3-030-80209-7_70 — ABSTRACT_INSPECTED EPFL institutional page, no full proof.** Derived category interleaving for multiparameter modules and isometric resolutions, not established as this one-real-parameter ring-valued strict-vs-derived distance. Potential earlier related theorem remains unclosed.
+
+7. **SRC-0274 Mémoli–Stefanou–Zhou (2024), persistent cup product, DOI10.1007/s41468-023-00138-5 — inherited original theorem statements S112, no full reread S113.** Cup-ring/stability methodology is classic and not the claimed modular categorical gap; no broad comparison of all cup/secondary persistence work.
+
+8. **2024–26 other module/categorical work:** accessible searched abstracts/results have not located a theorem of the identical d_CohI=1/2 < dIHC=1 < dHI≥5/4 over degree-zero F2[C4] with unrestricted whole-diagram quasi-isomorphisms; absence of match is strictly *weak evidence* and not a proof of originality. S114 must search backward and forward citations of sources 2–6 and check named theorem-level generalization, not repeat a broad topic list.
+
+**Exact proposed originality sentence, *conditional and unverified*:** "A five-stage real persistence diagram of complexes over the modular group algebra F2[C4] exhibits a quantified strict separation of cohomology, derived-diagram and homotopy interleaving distances; after forgetting the group action the same diagram has equal field-valued distances. The known nonzero C4 fourfold operation alone is insufficient to obtain the result without an all-choice obstruction and unrestricted whole-diagram strictification analysis."
+
+**HHA/significance disposition:** plausible short note, NOT passed gate G2. The 2026 field equality is an authentic contemporaneous comparator, but the existence of some nonsemisimple counterexample might be too routine to warrant HHA publication. A serious independent referee and complete original-source priority check remain necessary. Do not claim results new or HHA-accepted.

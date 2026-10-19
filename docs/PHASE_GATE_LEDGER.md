@@ -376,3 +376,6 @@ G1 original HHA-significant positive finite metric theorem NOT PASSED. Classical
 
 ## S112 — 19 October 2026
 G1 classical internal example: finite common-terminal real PL persistence has identical complete integral natural H yet dIHC≥1 and dHI≤3. π1/cup distinguish intermediate torus vs wedge; no matching sharp distance, nonclock substantive application or strict same-category HI>IHC. Hence G1 HHA significant-original NOT PASSED. G2 novelty NOT PASSED: Mémoli–Stefanou–Zhou 2024 and Kuribayashi et al 2026 direct original statement comparisons; full independent paper audit absent. G3 Lean NOT STARTED; Palomar/manuscript/arXiv/HHA/contact gated. S113 future.
+
+## S113 — 19 October 2026, MVP C4 short note
+G1 strong internal targeted proof T309–T312: degree-zero B=F2[C4] five-stage real Ch(B), full-real dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; field forgetting dHI=dIHC=dCohI=1/2 via 2026 Theorem3.3, **NOT a proof of any ordinary Top^R separation**. G1 EXTERNAL referee NOT PASSED, G2 HHA novelty/significance NOT PASSED: known Magma m4, classical general higher operations, potential metric gap not priority certified. G3 Lean NOT STARTED; no paper/Palomar/arXiv/HHA/contact owner authority. S114 one-shot future only.

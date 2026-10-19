@@ -407,3 +407,6 @@ T293 eliminates literal finite-graph bundle realisation of chosen IA, but allows
 
 ## S112 — common-terminal finite PL route outcome (19 October 2026)
 **Internal proof / HHA KILL.** Explicit single compact triangulated contractible X supports two nonconstant PL functions with isomorphic COMPLETE integral homology persistence and exact ||f−g||∞=3; π1(T²)≠π1((S¹∨S¹)∨S²) on plateau forces dIHC≥1 under all whole-real WEs, strict 3-interleaving gives dHI≤3. Source-colliding cup ring/π1, synthetic cone death, unmatched bounds: retire as first paper. NEXT S113 intrinsic geometric, matched primary invariants and secondary coherence. Old ordinary unpointed HI>IHC separate OPEN.
+
+## S113 MVP first-paper pivot — 19 October 2026
+Candidate **A provisional**: internal C4 degree-zero group-algebra strict distance comparison plus precise cohomology and underlying field metric: dCohI=1/2<dIHC=1<5/4<=dHI≤5/2. Full derived real category and arbitrary BOTH WHOLE zigzags inherited S076/S077 and rechecked symbolically. Magma m4 is classical; originality of quantitative full-replacement conclusion not certified. Instead of new mathematical search, S114 ONE hostile primary-source/proof/referee audit, after which recommend owner permission for manuscript or precise retirement. No paper/Lean/release yet.
