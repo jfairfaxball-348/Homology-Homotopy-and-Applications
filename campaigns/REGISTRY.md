@@ -238,3 +238,6 @@ No numerical finite search, SAT, exhaustive classification, independent checker 
 
 ## S113 — pure symbolic C4 theorem audit, no COMPUTED_EXACT (19 October 2026)
 No numerical/SAT/exhaustive computations; no new scripts/Magma/Lean run, no independent machine checker or hashes. T309 n2 residue and T312 homology intervals manually derived and grounded in existing S076/S077 internal calculations; published field theorem used as cited, not computational proof. Hosted governance checks do not certify mathematics. S114 any finite computation must be preregistered and independently checked before COMPUTED_EXACT claims.
+
+## S114 — bounded SANITY computation only, not COMPUTED_EXACT (19 October 2026)
+25,000 post-hoc pseudorandom legal low-index defining-system assignments in F2[t]/t4 found nonzero constant term at n2; x/h/z symbolic parity identities checked for 2<=n<=100. Exploratory local check; NOT preregistered independent enumerative campaign, no reproducible committed exhaustive certificate, no verification of infinite systems, and not Lean. Mathematical assertions rest on explicit symbolic algebraic proof; record as SANITY not formally certified or COMPUTED_EXACT. GitHub DNS clone unavailable, hosted CI only governance.

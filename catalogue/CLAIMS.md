@@ -802,3 +802,9 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - CLM-0569 **PROGRAMME_PROVED**: S113 T312 after forgetting B-action, 2026 field Theorem3.3 yields dHI=dIHC=dCohI=1/2 in Ch(F2)^R; B retains strict hierarchy 1/2<1<5/4<=dHI. Scope: Exact field result used only in published category; numerical B HI upper remains 5/2, novelty of modular gap unresolved. Sources: SRC-0275.
 - CLM-0570 **HEURISTIC**: S113 candidate a focused 8–15-page HHA note on a modular finite group algebra quantitative three-distance separation is plausibly meaningful, but G2 HHA novelty and independent correctness NOT PASSED. Scope: Conditional A candidate only, subject to S114 hostile proof/reference review and owner permission before manuscript. Sources: SRC-0275,SRC-0277,SRC-0276.
 - CLM-0571 **INHERITED_UNVERIFIED**: S114 one-shot hostile referee and original-source priority audit may show S113 minimal C4 note is publication-worthwhile or decisively retire it. Scope: FUTURE, UNEXECUTED research hypothesis, no guarantee of publication. Sources: none.
+
+## S114 candidate and gate — 19 October 2026
+- **CLM-0572 PROGRAMME_PROVED (INTERNAL ONLY):** all-choice n2 unit residue excludes zero in full C4 fourfold defining set; finite random local checks not certification.
+- **CLM-0573 PROGRAMME_PROVED (INTERNAL ONLY):** comparable shoelace arrows cofibrations via projective generating cells, quotient of acyclic opposite lane, derived free-quiver null; dIHC=1<5/4<=dHI<=5/2 in Ch(B)^R.
+- **CLM-0574 SOURCE_STATED:** published 2026 equality is only Ch(field)^R, Magma C4 m4 classical, 2016 higher Toda classic, Berkouk-Ginot 2022 field sheaves.
+- **CLM-0575 HEURISTIC:** G2 NOT PASSED; HHA significance/priority from classic higher product and one metric clock not externally established. S115 last bounded source kill-or-retire.
