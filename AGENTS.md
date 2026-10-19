@@ -74,3 +74,6 @@ Owner explicitly chose Option D cross-session mathematical synthesis; merged as 
 
 ## Latest Option D stronger theorem note — 19 October 2026 (prospective)
 After the original Option D PR #135, PR #136 merged research/OPTION_D_TWO_HEIGHT_UNIVERSAL_ATTACHING.md, with universal two-height R³ attaching-map obstruction D6, Hopf two-block D7 and sharper c_N bound and D8 stability. **These later D6–D8 conclusions are the primary formalisation target**, with D1–D2 shared first milestones; the earlier D3–D5 four-parameter R⁴ route is archival, not an obligatory detour. S117 remains FUTURE and unexecuted. No novelty checks, no actual Lean build yet, no registry or publication permission.
+
+## LATEST ACTUAL S119 — 19 October 2026
+Owner separately ran S119 after successful S118 main CI. `OptionD/MeanZero.lean` authors arbitrary-N zero-sum equilateral identity, two-sided perturbation and 99/200 positive raw Gram form bound, built status to be independently checked on S119 hosted CI. **Actual centered Gram PSD/kernel/rank and N-point Euclidean reconstruction remain OPEN**, as do D2/D6–D8. S120 FUTURE, UNEXECUTED in canonical prompt. No novelty checks by express owner deferral; no Palomar comparator/registration or publication.
