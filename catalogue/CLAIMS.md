@@ -832,3 +832,8 @@ Corrected hosted Lean job #39310425894 passes exact actual centered Gram quadrat
 
 ## CLM-0587 — S121 full-vector centered Gram PSD (FORMALLY_CERTIFIED, scoped)
 Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N≥2 and symmetric edge predicate, G is symmetric, has zero row/column sums, annihilates ones, and q_G(x)=q_G(x−mean)≥99/200∑(x_i−mean)²≥0. Source OptionD/CenteredPSD.lean. **No rank/entire kernel, Euclidean point configuration, D2 or D6–D8**; no novelty or publication gate. Combined PR/main checks separately required.
+
+
+## S122 — actual pinned Lean D1 certificates, 19 October 2026
+- **CLM-0588 FORMALLY_CERTIFIED:** all-N centered Gram equality iff constant vector, coordinate kernel equals constants and squared threshold detects symmetric graph edges; scratch Lean #39316514201 SUCCESS. Matrix.rank and point embedding NOT certified.
+- **CLM-0589 FORMALLY_CERTIFIED:** exact G_ii+G_jj−2G_ij=D_ij for symmetric graph data including diagonal; scratch Lean #39316720044 SUCCESS. This is algebra, not constructed Euclidean points.

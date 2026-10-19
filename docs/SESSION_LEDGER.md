@@ -339,3 +339,7 @@ Fresh owner invocation. Entry main 4bae2500198a5d22f054f2f85d09219a509ef65b, tre
 
 ## S121 — 19 October 2026
 Fresh owner invocation from main `9a1ce1b97ad9f9bbfc86e32595c779d806c94172` tree `d098e6b84e3f4fd561ac5b023981e0cf3f1be664`, PR143 already ordinary merged, main pinned Lean #39311265396 and integrity #39311265350 SUCCESS, no competing open PR. Independent scratch branch `formal/S121-psd-scratch`: initial errors in sum normalisation and redundant tactic, repaired without changing theorem hypotheses; pinned Lean #39312760687 SUCCESS. New file `OptionD/CenteredPSD.lean` supplies Gram row/column cancellations, symmetry, exact constant zero mode, projection and nonnegative quadratic on all real vectors for all N≥2 symmetric graphs. Rank/kernel equality/Euclidean D1/D2/D6–D8 remain OPEN. Owner-deferred novelty; no Palomar or publication. S122 FUTURE UNEXECUTED.
+
+
+## S122 — 19 October 2026
+Owner fresh invocation from main f3862550620f3d6ab4acbb377e1ff024eaed7be1 tree 0e75c15f80f17ff6002dc3d124ae31da700e5c0a. Initial experimental draft PR #146 on wip/S122-kernel-threshold; scratch pinned Lean #39316514201 SUCCESS and #39316720044 SUCCESS with integrity SUCCESS. Corrected D1 formal chain: full 99/200 projection coercivity, q=0 iff constant x, exact coordinate kernel, squared edge/nonedge threshold, and Gii+Gjj−2Gij=Dij. No Matrix.rank or actual Euclidean point witness. S123 fully authored FUTURE and unexecuted; no novelty, Palomar or publication.
