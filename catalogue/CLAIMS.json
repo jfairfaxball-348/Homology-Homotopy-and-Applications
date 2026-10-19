@@ -5649,6 +5649,36 @@
       "claim": "S116 is a future owner-decision-only choice of the next evidence-backed first-paper objective after C4 retirement; no substantive new research is executed by installing its handoff.",
       "sources": [],
       "scope": "FUTURE, UNEXECUTED; user must explicitly approve new target before mathematical research resumes in that route."
+    },
+    {
+      "id": "CLM-0581",
+      "status": "SOURCE_STATED",
+      "claim": "The HHA official journal aims require originality, significance and general interest; the selected BBG2016 and LS2023 original theorem-level sources already develop higher Toda transfer and quantitative rectification mechanisms, without proving verbatim C4 metric preemption.",
+      "sources": [
+        "SRC-0288",
+        "SRC-0283",
+        "SRC-0284"
+      ],
+      "scope": "Original sources selectively proof/statement inspected previously in S115; no exhaustive audit or external editorial certificate."
+    },
+    {
+      "id": "CLM-0582",
+      "status": "HEURISTIC",
+      "claim": "S116 recommends pause/archive Option C because no fully specified different independently nonroutine homotopical application/theorem with a falsifier and HHA source significance is currently evidenced; not an owner choice or impossibility theorem.",
+      "sources": [
+        "SRC-0288",
+        "SRC-0283",
+        "SRC-0284",
+        "SRC-0275"
+      ],
+      "scope": "Decision recommendation only; no new mathematics, publication priority claim or venue judgement."
+    },
+    {
+      "id": "CLM-0583",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S117 is FUTURE UNEXECUTED and OWNER_CHOICE_PENDING until explicit A/B/C selection and governance-only amended actionable prompt; S116's generic run command did not select the route.",
+      "sources": [],
+      "scope": "No automatic research, Lean, Palomar, manuscript, arXiv, HHA or external contact."
     }
   ]
 }

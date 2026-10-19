@@ -598,3 +598,6 @@ Mathematical strict B=F2[C4] Ch(B)^R triple hierarchy 1/2<1<5/4<=dHI<=5/2 remain
 
 ## S115 — final C4 note route RETIRED (19 Oct 2026)
 Decision B: fail positive significance test; no independent application or substantial theorem-level increment beyond known higher brackets and quantitative rectification found. C4 original metric numbers internally retained; no exact prior matched theorem found, so novelty/preemption remains genuinely unverified. No HHA G2. Stop C4-first-HHA-note route, next S116 OWNER_DECISION_ONLY. Separate authorisation before next research target or any external downstream activity.
+
+## S116 first HHA paper strategy — 19 October 2026
+Owner invoked the decision-only session once but did not choose a route. Source- and category-scoped comparison (BBG2016 Thm4.21/Prop4.35, LS2023 ThmA/Props3.10/3.12, BL2023 Thms1.10/1.11, Berkouk/Berkouk-Ginot field results, 2026 field-only equality, HHA official aims) yielded no specific independently nonroutine new homotopical application/theorem. Recommend C PAUSE and preserve archive; B alternate C4 venue/format only under distinct approval; A only on fresh evidence. OWNER_CHOICE_PENDING, not a binding user selection, not an impossibility theorem. G2 NOT PASSED; S117 FUTURE conditional, governance-only amendment after owner selection.

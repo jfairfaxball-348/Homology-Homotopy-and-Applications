@@ -815,3 +815,8 @@ CLM-0417 CORRECTED HEURISTIC generalized strict-constant cone analog NOT Kochman
 - **CLM-0578 HEURISTIC**: No substantive independent HHA theorem or application demonstrated for one C4 five-stage example; source hunt is nonexhaustive, not proof of preemption (SRC-0283/0284/0277/0288).
 - **CLM-0579 HEURISTIC**: Decision retire C4 as FIRST HHA paper; keep internal metric candidate/field-control alive as an example; G2 NOT PASSED.
 - **CLM-0580 INHERITED_UNVERIFIED**: S116 future OWNER_DECISION_ONLY new objective/pause choice, not execution.
+
+## S116 source/decision claims — 19 October 2026
+- CLM-0581 SOURCE_STATED: HHA independent originality/significance criteria; BBG2016/LS2023 known mechanisms, not proof of verbatim C4 preemption (SRC-0288,0283,0284).
+- CLM-0582 HEURISTIC: recommend C pause; A lacks specified evidence-backed nonroutine theorem/application; not binding owner choice (SRC-0288,0283,0284,0275).
+- CLM-0583 INHERITED_UNVERIFIED: S117 conditional FUTURE, owner A/B/C choice pending; no research or publication permission.

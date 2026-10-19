@@ -586,3 +586,6 @@ No zero-valued all-choice C4 fourfold defining system or projective whole-real a
 
 ## S115 — stop before another low-novelty audit treadmill (19 October 2026)
 Known fourfold C4 operation plus general Toda transport and quantitative interleaving obstruction can produce a technically interesting worked metric example, but no independently substantial HHA contribution/application emerged from the final bounded original-source review. Distinguish *not demonstrated significant* from *published verbatim* and from *false*. Stop C4-first-HHA-note audits and endpoint variants; maintain corrected calculation as INTERNAL. S116 explicit choice or pause, not an unattended theorem hunt.
+
+## S116 stop-loop lesson — 19 October 2026
+A succession of sophisticated internal examples need not establish a journal-significant new homotopical theorem. Missing a duplicate in literature is not proof of originality; C4 known m4 plus bracket/rectification machinery and an example did not clear G2. Do not restart topic-only exploratory research, exact endpoint chasing or old candidates under new titles. Recommend reversible pause C; archive intact and owner choice PENDING. Do not equate retirement with mathematical falsehood, exact published preemption, impossibility or journal rejection.
