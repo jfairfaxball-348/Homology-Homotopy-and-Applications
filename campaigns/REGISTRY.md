@@ -232,3 +232,6 @@ No registered finite exhaustive search, SAT or computation used for a COMPUTED_E
 
 ## S111 — theoretical proof, no certified machine campaign (19 October 2026)
 All results T293–T298 by free-group/cellular/Massey/categorical argument with explicit hypotheses. No finite enumeration, pseudo-random tests, hash certificates, independent checker, Lean, or numeric distance solver. The Magnus degree-three polynomial is expanded by formal hand multiplication, NOT COMPUTED_EXACT. Local GitHub clone failed DNS; no local scripts/validate_repository.py or session_handoff.py run. Require genuine hosted PR/main repository-integrity and handoff steps before merge; these do not certify maths. S112 future computations must be preregistered.
+
+## S112 — finite constructive symbolic argument, NOT COMPUTED_EXACT (19 October 2026)
+No numerical finite search, SAT, exhaustive classification, independent checker or output hash performed. Coordinates, barycentric simplex gradient and π1 retract obstruction are hand-derived; no dependency build/Lean. Local git source clone blocked by external GitHub DNS. GitHub-hosted CI (if confirmed) tests structural governance, not the topology. S113 must preregister any bounded computational campaign before calling any result COMPUTED_EXACT.

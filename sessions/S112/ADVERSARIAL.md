@@ -1,0 +1,15 @@
+# S112 ADVERSARIAL — break tests and exact limitations
+
+1. **Wrong terminal eliminated:** both sublevel functors become L_f(t)=L_g(t)=X (a *single contractible finite polyhedron*) for all t≥4. No S110/S111 terminal-center infinity.
+2. **True simplicial input:** mod-3 3×3 torus has distinct face vertices; the row/column simple 3-edge loops meet at v. The other component B is a literal wedge of two triangulated circles and a tetrahedron-boundary sphere. Cone is finite simplicial dimension3.
+3. **No instantaneous CW cheating:** continuous PL heights are assigned to barycentric vertices and linearly extended; for intermediate t partial high simplices collapse onto the low-vertex subcomplex. This gives correct homotopy *including* equality cuts.
+4. **Geometry and metric:** the orthonormal embedding specifies actual lengths; gradient computation is on each simplex. The conservative Lipschitz bound uses intrinsic piecewise-Euclidean path metric, not an unjustified global straight-segment Euclidean Lipschitz claim for arbitrary points outside a convex polyhedron. The supnorm=3 is exact on the common X.
+5. **Same H MODULE, not ring:** H1 on the graph spine maps isomorphically to H1 of torus and wedge; H2 is born simultaneously and killed at4. The torus cup product is nonzero; B's is zero. Do NOT claim ring or Postnikov/Massey invisibility.
+6. **π1 retract contradiction:** from t=2 and any ε<1, a necessary shift identity in Fun(R,HoTop) produces A→B→A with composite iso. Even a single retract is impossible since Z² cannot embed into F2. Arbitrary whole-diagram WE zigzags, nonmonic replacements, point choices and all real cuts do not circumvent this.
+7. **Upper is not exact:** strict inclusions via ∥f−g∥∞=3 check *both* triangles and naturality, but dHI=3 is not proved. No claim at ε=1 or strict dHI>dIHC.
+8. **No artificial metric inference:** the chosen 4-level cone is a real PL topological event yet a synthetic model-design decision, not a naturally determined geometric scale. Thus the result fails the user's requested truly new nonclock geometric HHA application despite the valid inequalities.
+9. **Stability:** perturbed d_H≤2ρ is a comparison of persistence modules, not equality under nonzero perturbation; lower 1−2ρ is a triangle consequence of T303, not independently sharp. A scalar reparameterisation rescales all bounds.
+10. **Recent priority:** 2024 persistent cup invariants and 2026 dg/cohomology interleaving already use related separation/stability methods. No full paper-by-paper HHA 2024–26 priority review or externally refereed novelty. First-paper status remains NO.
+11. **CI:** no computation/exhaustive search/Lean/source clone; hosted governance checks (if passed) will not prove T300–T305. No fictitious main or PR SHA/status before connector observation.
+
+Verdict: concrete, coherent mathematical result, but **G1 significant-original and G2 HHA both NOT PASSED**. Pivot rather than report a publication-ready theorem.

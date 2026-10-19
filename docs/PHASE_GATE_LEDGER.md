@@ -373,3 +373,6 @@ Stage1: INTERNAL exact filtered CW homology/ring comparison and eventual-tail + 
 
 ## S111 G1/G2 decision — 19 October 2026
 G1 original HHA-significant positive finite metric theorem NOT PASSED. Classical internal proofs: graph homeomorphism finite outer image vs IA infinite (T293); exact PL filtration without *intrinsic* clock (T294); marked lower central and nonzero terminal triple Massey with complete indeterminacy (T295–T296); full-real compact terminal HI=IHC∞ (T297). Source G2 NOT PASSED: Fenn–Sjerve 1987 Theorems4.1–4.2 already provide higher Fox/Massey; Kitano 1996 mapping-torus source; earlier 2024 filtered stability. No actual strict HI>IHC, G3 Lean NOT_STARTED and all external stages forbidden. S112 FUTURE only.
+
+## S112 — 19 October 2026
+G1 classical internal example: finite common-terminal real PL persistence has identical complete integral natural H yet dIHC≥1 and dHI≤3. π1/cup distinguish intermediate torus vs wedge; no matching sharp distance, nonclock substantive application or strict same-category HI>IHC. Hence G1 HHA significant-original NOT PASSED. G2 novelty NOT PASSED: Mémoli–Stefanou–Zhou 2024 and Kuribayashi et al 2026 direct original statement comparisons; full independent paper audit absent. G3 Lean NOT STARTED; Palomar/manuscript/arXiv/HHA/contact gated. S113 future.

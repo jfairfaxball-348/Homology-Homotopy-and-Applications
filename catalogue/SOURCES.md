@@ -600,3 +600,7 @@ SRC-0256 Hilton1955 original publisher metadata; SRC-0257 DKS1989 original publi
 - SRC-0268 revisited: DKL original author PDF mapping-torus and folded-torus discussion **STATEMENT_INSPECTED**; not a generic IA finite-graph bundle theorem.
 - SRC-0179/SRC-0186 revisited: Blumberg–Lesnick original arXiv abstract **ABSTRACT_INSPECTED**, no source novelty clearance.
 - SRC-0010/0266 and SRC-0267 2024–26 literature not fully reread, no comprehensive cited-by/issue audit.
+
+## S112 primary-source access — 19 October 2026
+- SRC-0274: [Mémoli, Stefanou, Zhou, Persistent cup product structures and related invariants (JACT 2024)](https://doi.org/10.1007/s41468-023-00138-5), **STATEMENT_INSPECTED**. Abstract, Theorems 1–2 and cup/LS-category stability corollaries viewed in original HTML; full proofs not independently audited. Observed: Persistent cup product and weak-homotopy-invariant erosion stability already established.
+- SRC-0275: [Kuribayashi, Naito, Wakatsuki, Yamaguchi, The equalities of interleaving distances and cohomology interleavings of spaces over BS1 (JACT 2026)](https://doi.org/10.1007/s41468-026-00252-0), **STATEMENT_INSPECTED**. Abstract/introduction/Section 2 definitions and introduction description of Theorem 3.3 inspected; not full independent proof; its dg field-category equality is NOT ordinary Top^R equality. Observed: 2026 cohomology interleaving and cup-length quantitative examples pose strong prior-art comparator.

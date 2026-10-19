@@ -276,3 +276,6 @@ Rejected T281 triple Čech skeletal cofiber as textbook and T282 cover-specific 
 
 ## S111 selection verdict — 19 October 2026
 No first HHA theorem freeze. Exact nonzero terminal triple Massey ±2U_a+ZU_b is an application of classical 1987 original Fox/Massey; numerical event heights are not a legitimate between-space geometric perturbation; true locally trivial finite graph bundle cannot realise nontrivial IA; terminal type mismatch makes HI=IHC∞. A finite positive nonclock theorem from these particular objects is impossible without changing terminals/category, and no source-first G2 case was made. S112 future target: two genuine finite PL sublevel filtrations with the SAME terminal space and an independently original relative unstable attaching geometry application. Archived original dHI>dIHC open.
+
+## S112 first-paper screen — 19 October 2026
+Do NOT freeze. The full-real common-X PL torus/wedge example gives 1≤dIHC≤dHI≤3 despite identical H persistence, but π1/cup are primary and classical, terminal cone was artificially scheduled and upper is standard ||f−g||∞ stability; no exact HI nor same-category strict gap. 2024 cup-persistence and September 2026 cohomology interleavings present substantial prior art. Original G1/G2 not passed, no Lean/release. S113 new intrinsic geometry and secondary attaching compatibility proof-or-kill.

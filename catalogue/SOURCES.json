@@ -2458,6 +2458,24 @@
       "access": "METADATA_ONLY",
       "limitation": "No direct original 1975 article or proof inspection. Bibliographic verification only, not source-stated theorem detail.",
       "observed": "Classical Dwyer priority background for Massey and group maps; no exact S111 theorem attributed."
+    },
+    {
+      "id": "SRC-0274",
+      "title": "Mémoli, Stefanou, Zhou, Persistent cup product structures and related invariants (JACT 2024)",
+      "url": "https://doi.org/10.1007/s41468-023-00138-5",
+      "origin": "Original Springer open article inspected 19 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Abstract, Theorems 1–2 and cup/LS-category stability corollaries viewed in original HTML; full proofs not independently audited.",
+      "observed": "Persistent cup product and weak-homotopy-invariant erosion stability already established."
+    },
+    {
+      "id": "SRC-0275",
+      "title": "Kuribayashi, Naito, Wakatsuki, Yamaguchi, The equalities of interleaving distances and cohomology interleavings of spaces over BS1 (JACT 2026)",
+      "url": "https://doi.org/10.1007/s41468-026-00252-0",
+      "origin": "Original Springer open article published 12 September 2026, inspected 19 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Abstract/introduction/Section 2 definitions and introduction description of Theorem 3.3 inspected; not full independent proof; its dg field-category equality is NOT ordinary Top^R equality.",
+      "observed": "2026 cohomology interleaving and cup-length quantitative examples pose strong prior-art comparator."
     }
   ]
 }
