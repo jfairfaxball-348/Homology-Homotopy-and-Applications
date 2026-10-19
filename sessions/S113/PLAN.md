@@ -1,0 +1,9 @@
+# S113 PLAN — narrow short-note accept/repair/kill
+
+1. Restate B=F2[t]/t4 and cofibrant periodic resolution in right-B homological complexes; verify degree shifts and x,h,z identities and n=2 residue survives **all** choices.
+2. Audit the derived two-step nullity as an actual WHOLE-diagram morphism (integer free-quiver resolution, derived real left Kan comparison, zero-before-zero, endpoint edge to zero). Exclude an objectwise-only proof.
+3. Re-run in symbols the zero-lane arbitrary acyclic replacement quotient and 2ε sampling/two interleaving triangles. No artificially restricted fixed zero lane or projective diagrams.
+4. Calculate exact additional ordinary cohomological-persistence distance to zero, establish strict triple hierarchy and field-forgetting control. These are elementary consequences of the stage shifts and the verified 2026 field-valued theorem; they are NOT an independent new higher operation.
+5. Compare primary 2016, 2023, 2026 published statements, Magma known m4, Berkouk derived interleavings and closest module work for exact categorical preemption. Insist on honest grade, theorem number and novelty uncertainty.
+6. Produce a one-paragraph potential contribution and a genuine minimal 8–15-page paper outline; decision A (provisionally plausible) only if proof survives and narrow categorical quantitative conclusion seems not already stated. G2 cannot PASS without independent original-source external referee.
+7. Same authored atomic commit: six-file dossier, STATE, claims/source mirrors and ledgers, explicit S114 FUTURE prompt and mandated closeout, ordinary PR with hosted checks.

@@ -235,3 +235,6 @@ All results T293–T298 by free-group/cellular/Massey/categorical argument with 
 
 ## S112 — finite constructive symbolic argument, NOT COMPUTED_EXACT (19 October 2026)
 No numerical finite search, SAT, exhaustive classification, independent checker or output hash performed. Coordinates, barycentric simplex gradient and π1 retract obstruction are hand-derived; no dependency build/Lean. Local git source clone blocked by external GitHub DNS. GitHub-hosted CI (if confirmed) tests structural governance, not the topology. S113 must preregister any bounded computational campaign before calling any result COMPUTED_EXACT.
+
+## S113 — pure symbolic C4 theorem audit, no COMPUTED_EXACT (19 October 2026)
+No numerical/SAT/exhaustive computations; no new scripts/Magma/Lean run, no independent machine checker or hashes. T309 n2 residue and T312 homology intervals manually derived and grounded in existing S076/S077 internal calculations; published field theorem used as cited, not computational proof. Hosted governance checks do not certify mathematics. S114 any finite computation must be preregistered and independently checked before COMPUTED_EXACT claims.

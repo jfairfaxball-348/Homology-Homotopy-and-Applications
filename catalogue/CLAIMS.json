@@ -5497,6 +5497,60 @@
         "SRC-0275"
       ],
       "scope": "FUTURE research hypothesis only, not proved or originality-cleared."
+    },
+    {
+      "id": "CLM-0566",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S113 T309 internally rechecks B=F2[C4] periodic resolution and all-choice nonzero fourfold Ext operation by n=2 residue; operation itself classically known.",
+      "sources": [
+        "SRC-0277"
+      ],
+      "scope": "Internal symbolic re-audit, not a new higher operation or external certified proof."
+    },
+    {
+      "id": "CLM-0567",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S113 T310–T311 internally reconstruct whole-real Ch(B) dIHC(F,0)=1<5/4<=dHI(F,0)<=5/2 for full arbitrary complete-diagram WEs of both lanes.",
+      "sources": [
+        "SRC-0276",
+        "SRC-0278",
+        "SRC-0279"
+      ],
+      "scope": "Inherited S076/S077 internal proof reread, categorical shoelace and Kan lemmas need independent hostile referee; no Top^R or exact endpoint."
+    },
+    {
+      "id": "CLM-0568",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S113 T312 underlying k-homology persistence of the five shifted stages consists of five disjoint length-one bars and dCohI(F,0)=1/2.",
+      "sources": [],
+      "scope": "Elementary hand direct homology proof from shifts P[i], zero on all fixed-degree transition maps."
+    },
+    {
+      "id": "CLM-0569",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S113 T312 after forgetting B-action, 2026 field Theorem3.3 yields dHI=dIHC=dCohI=1/2 in Ch(F2)^R; B retains strict hierarchy 1/2<1<5/4<=dHI.",
+      "sources": [
+        "SRC-0275"
+      ],
+      "scope": "Exact field result used only in published category; numerical B HI upper remains 5/2, novelty of modular gap unresolved."
+    },
+    {
+      "id": "CLM-0570",
+      "status": "HEURISTIC",
+      "claim": "S113 candidate a focused 8–15-page HHA note on a modular finite group algebra quantitative three-distance separation is plausibly meaningful, but G2 HHA novelty and independent correctness NOT PASSED.",
+      "sources": [
+        "SRC-0275",
+        "SRC-0277",
+        "SRC-0276"
+      ],
+      "scope": "Conditional A candidate only, subject to S114 hostile proof/reference review and owner permission before manuscript."
+    },
+    {
+      "id": "CLM-0571",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S114 one-shot hostile referee and original-source priority audit may show S113 minimal C4 note is publication-worthwhile or decisively retire it.",
+      "sources": [],
+      "scope": "FUTURE, UNEXECUTED research hypothesis, no guarantee of publication."
     }
   ]
 }

@@ -1,0 +1,54 @@
+# S113 MATHEMATICS — minimal quantitative C4 short-note and three-distance hierarchy
+
+**Verdict:** internal independent *symbolic re-audit* of the earlier S076/S077 proof, with one additional elementary quantitative observation T309–T313. The underlying Toda/A-infinity structure is classical. No external referee, Lean certificate, mathematical novelty certification or HHA paper approval is asserted. Work in Ch(right B), B=k[C4]≈k[t]/(t⁴), k=F₂, **ordinary degree-zero** t, projective model structure, quasi-isomorphisms as WEs, projectively cofibrant B-complexes. All distances are of complete **real-indexed** diagrams, and dIHC lives in Ho(Ch(B)^R), NOT Fun(R,Ho Ch(B)). dHI permits arbitrary full-diagram objectwise-quasi-isomorphism zigzags of BOTH inputs, including nonzero acyclic replacements of the zero lane.
+
+## T309. Resolution, all choices and the known operation
+
+Put P_n=B for n≥0, zero below, d_odd=t, d_even=t³; P is a projective k-resolution since ann(t)=(t³), ann(t³)=(t), with homology k in degree 0. Write X_i=P[i] in homological shift notation for i=0,...,4. Define degree-zero maps x:X_i→X_(i+1) by the same underlying degree -1 sequence x_n=1 if n odd, x_n=t² if n even; primary h_n=0 odd,t even; secondary z_n=0 odd,1 even (out-of-range components 0). In char 2 the Hom differential Df=d f+ f d on underlying degree -1 components; all n≥2:
+  Dx=0; x²=t²; Dh=x²; xh+hx=t; Dz=xh+hx.
+The fourfold terminal operation w=xz+hh+zx has w₂≡1 (mod t); every coboundary at n=2 is t q₂+t³q₁∈(t), so [w]≠0∈Ext²_B(k,k).
+
+**Complete, not selected, defining system.** For *any* cocycle representative a_i of the generator Ext¹(k,k)=k, a_(i,1)≡1 mod t, and cocycle equation at n=2 forces a_(i,2)≡t² mod t³. For *any* primary filler H of adjacent a_i a_(i+1), D H=aa yields H₂≡t mod t². For *any* secondary filler K, D K=cH+Ja yields K₂≡1 mod t. The terminal class of every legal fourfold defining system has augmentation 1 at n=2 and cannot be a boundary. This includes all infinite-dimensional extensions of low-level choices. Since Aut_D(B)(P[i])=k^×={1}, conjugations by arbitrary objectwise equivalences cannot alter the nonzero adjacent Ext¹ classes. The explicit x/h/z witness assures nonempty defining systems. This symbolic argument (S076/S077) was rederived; no COMPUTED_EXACT search was used.
+
+The *existence of this nonzero higher product itself is not new*: the original University of Sydney Magma A-infinity group-cohomology handbook states HighProduct(CyclicGroup(4),[x,x,x,x])=y; Baues–Blanc–Gondhali 2016 formulates generalized higher Toda/Massey operations. Our possible short note contribution, if novel, is strictly the **quantitative discrepancy of interleaving distances** and its coefficient-sensitive comparison, not a new operation.
+
+## T310. Whole derived 2-shift vanishes, dIHC=1
+
+Define integer chain X:N→Ch(B): X_i=P[i] for i=0,...,4 and 0 for i≥5, adjacent x, *including* the edge X4→0. The standard projective free-diagram (quiver incidence) sequence E=⊕_{i=0}⁴ L_(i+1)X_i→ V=⊕_{i=0}⁴ L_i X_i→X, with E→V objectwise split injective, yields projectively cofibrant cone Q= Cone(E→V) and objectwise quasi-isomorphism Q→X. The Hom complex Hom(Q,X²) has degree-0 vertex data (x², x², x²,0,0) for the canonical η₂ and zero edge components; its degree -1 candidate with vertex terms (h,h,h,0,0) and edge terms (z,z,0,0,0) has differential exactly this η₂, by Dh=x², Dz=xh+hx. At all later and terminal edges there are zero targets. Therefore η₂=0 in Ho(Ch(B)^N), not merely componentwise.
+
+The left Kan extension j_!:Ch(B)^N→Ch(B)^R for j:N↪R is left Quillen (restriction preserves projective fibrations and trivial fibrations) and gives F(u)=0 for u<0, X_i for i≤u<i+1 (0≤i≤4), 0 for u≥5. Although j_!(X²)≠(j_!X)² at certain negative t, the *natural comparison* j_!(X²)→F² composes with j_!η₂ to η₂^F, proving η₂^F=0 in Ho(Ch(B)^R). Thus zero maps give a derived 1-interleaving F↔O.
+
+For ε<1, η_(2ε)^F(0) is identity if 2ε<1, or the nonzero [x]∈Ext¹_B(k,k) if 1≤2ε<2; a derived interleaving with zero would force that component to vanish. Hence dIHC(F,O)=1 exactly.
+
+## T311. Whole-shoelace lower dHI≥5/4 and trivial upper dHI≤5/2
+
+Suppose ε<5/4 gives a homotopy interleaving between F and O after *arbitrary whole-real* quasi-isomorphism zigzags of BOTH. Monotonicity permits replacing ε with e=max(1,ε)<5/4. The interleaving is one strict diagram on the real shoelace poset S_e with two lanes. Take an ENTIRE projectively cofibrant replacement Q on this shoelace. Its O lane is objectwise acyclic but may have NONZERO objects.
+
+For every comparable p≤q in this direct poset, Q(p)→Q(q) is a cofibration: on any free representable generating cell, the arrow is 0→the generating cofibration, its identity, or 0→0, and the arrow-cofibration property survives cellular attachments, transfinite compositions and retracts. Thus Q_O(u-e)→Q_F(u) is a cofibration. Form C(u)=Q_F(u) ⊔_(Q_O(u-e)) 0: pointwise quotient is a quasi-isomorphism Q_F(u)→C(u) because the acyclic cofibrant opposite-lane subcomplex is injected as a cofibration, with quotient exact sequence; naturality gives a whole-diagram WE to F. The two successive crossing maps factor C(u)→C(u+2e) through the killed opposite-lane subobject Q_O(u+e), hence the composite is **literally zero** in C for *every real u*.
+
+Set α=2e−2, so 0≤α<1/2. Sample t_0=0,t_1=1,t_2=2+α,t_3=3+α,t_4=4+2α; all are within successive original stages (including endpoint cuts), and t_(i+2)−t_i=2e for i=0,1,2. Restriction gives a strict five-chain of projectively cofibrant objects C_i with three adjacent length-two composites b_(i+1)b_i=0, yet isomorphic in Fun([4],Ho Ch(B)) to X_i,x.
+
+A homotopy transfer of this entire chain to P[i], via closed homotopy inverse representatives u_i,v_i and fillers s_i with D s_i=id+u_iv_i, creates a complete higher defining system T_ij=v_j b...s...b u_i with DT_ij=Σ_{i<r<j} T_rjT_ir. The top T_04 is a degree-3 lower chain filler, forcing its terminal fourfold expression to be a boundary, contradicting the **all-choice** n=2 augmentation test of T309. No representative choices, nonmonic whole WEs or acyclic opposite-lane replacements circumvent the contradiction. Therefore dHI≥5/4 (nothing claimed at equality). F→F⁵ is zero for every real u since the source's support lies in [0,5); zero maps give an actual strict 5/2-interleaving to O. Thus:
+    dIHC(F,O)=1 < 5/4 ≤ dHI(F,O) ≤ 5/2.
+
+**Proof dependency audit:** Needs standard existence of projective model on real-poset diagrams and projective cofibrant shoelace resolution, model-category homotopy transfer and real Kan left Quillen, used exactly as explained. Detailed universal choice calculation and cone formulas are archival S076/S077. No independent external referee has certified these categorical lemmas. An 8–15-page note would need to spell them out carefully, not suppress them as "obvious".
+
+## T312. NEW to this programme's selected *narrow statement*: three-distance hierarchy and field-forgetting boundary
+
+Write d_CohI(F,O) = sup_n d_I(H_n(F),0) for **underlying k-vector-space persistent homology**, not B-derived interleaving. Since H_*(P[i])=k placed in degree i, and each map to X_(i+1) induces zero on *every fixed degree*, H_n(F) is the interval k on [n,n+1), zero elsewhere, for n=0,...,4; no other nonzero cohomological degrees occur. For a real persistence k-interval of length1, distance to zero is exactly 1/2: if 2ε<1 its structure map at its birth is identity; if 2ε≥1 every length-2ε map is zero and the zero crossings strictly interleave. Therefore
+    d_CohI(F,O)=1/2 < dIHC(F,O)=1 <5/4 ≤ dHI(F,O).
+This is a mathematical consequence of the old model; it is not by itself a novel HHA theorem.
+
+Forget the B-action by restriction along k→B, U:Ch(B)→Ch(k). The underlying persistence complexes UF have exactly the same graded k-homology bars and hence by **Kuribayashi–Naito–Wakatsuki–Yamaguchi 2026 Theorem 3.3** (original published proof/statement inspected) satisfy
+    dHI^{Ch(k)}(UF,0)=dIHC^{Ch(k)}(UF,0)=dCohI^{Ch(k)}(UF,0)=1/2.
+Thus the same five-stage underlying k-vector-space data exhibit a quantitative coefficient-sensitive jump: retaining modular C4-action increases derived distance-to-zero from 1/2 to1, and increases strict homotopy distance to at least5/4. This is an *explicit comparison for this one example*, NOT a theorem about all nonsemisimple algebras and NOT a claim that any 2026 authors asserted their field result held over all rings.
+
+**Warning:** the symbols "d_CohI over B" can denote graded B-module interleavings rather than the underlying k-cohomology distance. The groups H_i(P)=k as B-modules with trivial t action and each interval independently has d_I=1/2 also over B; give the definition explicitly. The comparison with the published field theorem is via the forgetful functor U.
+
+## T313. Minimal first-paper scope and status
+
+**Candidate note theorem** (8–15-page target, not HHA requirement): "For the ordinary degree-zero group algebra B=F₂[C4], there exists a real persistence diagram of projectively cofibrant unbounded right-B chain complexes such that ordinary homology interleaving equals 1/2, derived-diagram interleaving equals 1, and homotopy interleaving is at least 5/4 and at most 5/2. On forgetting the group algebra action, all three relevant distances equal 1/2." The **new** aspect if priority clears is an explicitly quantified failure of two homotopy interleaving comparisons beyond semisimple coefficients; the higher operation and underlying algebraic resolution remain classical.
+
+**Short paper architecture only (NOT a manuscript):** 1 page precise result/context and nonsemisimple boundary; 2 pages Ch(B) diagram and complete residue obstruction; 2–3 pages whole derived 2-shift; 3–4 pages shoelace quotient/all replacements; 1 page cohomology and forgetting control; 1–2 pages limitations, prior art, closing. Keep exact bound/endpoints and general ring classification OUT.
+
+**G1:** INTERNAL detailed proof survives targeted adversarial re-audit; NOT Lean/peer review. **G2:** PROVISIONAL PLAUSIBILITY ONLY: inspected original 2016/2023/2026 frameworks and documented 4fold operation do not *themselves* contain this explicit quantitative C4 ring-valued triple inequality. No exhaustive forward citation/historical theorem-level priority clearance, specialist review or genuinely broad application. Editorial HHA acceptance cannot be promised. Thus the MVP research choice is **A — CONDITIONAL internal candidate**, S114 one final hostile proof/prior-art/referee-quality pass, then owner choice to authorise manuscript/formalisation or retire. This is not journal-ready or submitted.

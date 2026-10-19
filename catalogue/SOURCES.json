@@ -2476,6 +2476,51 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Abstract/introduction/Section 2 definitions and introduction description of Theorem 3.3 inspected; not full independent proof; its dg field-category equality is NOT ordinary Top^R equality.",
       "observed": "2026 cohomology interleaving and cup-length quantitative examples pose strong prior-art comparator."
+    },
+    {
+      "id": "SRC-0276",
+      "title": "Lanari and Scoccola, Rectification of interleavings and a persistent Whitehead theorem, AGT23 (2023), 803–832",
+      "url": "https://doi.org/10.2140/agt.2023.23.803",
+      "origin": "19 Oct 2026 Oxford institutional original metadata and original preprint selected theorem excerpts",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original Theorem A, Proposition3.12, Remark3.13 selected text accessible; no full independent direct published proof audit.",
+      "observed": "General HI/IHC/HC rectification, classical Top HI-vs-HC Toda gap; exact ring B modular gap not in inspected portion."
+    },
+    {
+      "id": "SRC-0277",
+      "title": "University of Sydney Magma A-infinity Algebra Structures on Group Cohomology, C4 m4 example",
+      "url": "https://magma.maths.usyd.edu.au/magma/handbook/text/1065",
+      "origin": "Original University of Sydney handbook direct full HTML inspected 19 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Software handbook example documents classical A-infinity high operation, not a general categorical homotopy interleaving theorem; no Magma job executed.",
+      "observed": "HighProduct(Aoo,[x,x,x,x]) = y for CyclicGroup(4), so C4 m4 known."
+    },
+    {
+      "id": "SRC-0278",
+      "title": "Blumberg and Lesnick, Universality of the homotopy interleaving distance, Transactions AMS376 (2023)",
+      "url": "https://doi.org/10.1090/tran/8738",
+      "origin": "Original AMS volume page and author-hosted PDF abstract inspected 19 October 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "Full 2023 original theorem proofs not inspected this session; topological-space metric baseline only.",
+      "observed": "Universal homotopy interleaving and persistent Whitehead framework established."
+    },
+    {
+      "id": "SRC-0279",
+      "title": "Baues, Blanc and Gondhali, Higher Toda brackets and Massey products, JHRS11 (2016)",
+      "url": "https://doi.org/10.1007/s40062-016-0157-8",
+      "origin": "Original Springer publisher abstract inspected 19 October 2026, with S077 original arXiv selected Prop4.35 inherited",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "No fresh full original proof audit; standard higher bracket definitions and invariance not newly shown.",
+      "observed": "Classical general definitions cover dg-algebra higher Massey and chain-level Toda operations."
+    },
+    {
+      "id": "SRC-0280",
+      "title": "Nicolas Berkouk, Algebraic Homotopy Interleaving Distance, GSI2021",
+      "url": "https://doi.org/10.1007/978-3-030-80209-7_70",
+      "origin": "EPFL institutional indexed abstract and publisher bibliographic metadata 19 October 2026",
+      "access": "ABSTRACT_INSPECTED",
+      "limitation": "No full theorem-level paper proof inspection; multiparameter derived resolutions overlap not excluded conclusively.",
+      "observed": "Derived interleaving distance and isometric resolution functors for multiparameter modules."
     }
   ]
 }
