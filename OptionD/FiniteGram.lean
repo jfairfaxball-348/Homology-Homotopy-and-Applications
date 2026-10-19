@@ -175,4 +175,47 @@ theorem d1_epsilon_formula (N : ℕ) :
     d1Epsilon N = 1 / (100 * (N : ℝ)) := by
   rfl
 
+/-- Explicit centered Gram entry rewrite exposed to imported modules:
+the implementation body of a noncomputable definition is not generally
+available for downstream reductions. -/
+theorem d1_centered_gram_formula (N : ℕ)
+    (edge : Fin N → Fin N → Prop) (i j : Fin N) :
+    d1CenteredGram N edge i j =
+      -(1 / 2 : ℝ) *
+        (d1SquaredDistance N edge i j
+          - (∑ k : Fin N, d1SquaredDistance N edge i k) / (N : ℝ)
+          - (∑ k : Fin N, d1SquaredDistance N edge k j) / (N : ℝ)
+          + (∑ k : Fin N, ∑ t : Fin N, d1SquaredDistance N edge k t) /
+              ((N : ℝ) ^ 2)) := by
+  rfl
+
+/-- The directed edge predicate produces symmetric distances exactly when
+the edge data are assumed symmetric. -/
+theorem d1_perturbation_symmetric (N : ℕ)
+    (edge : Fin N → Fin N → Prop)
+    (hsym : ∀ i j, edge i j ↔ edge j i) (i j : Fin N) :
+    d1Perturbation N edge i j = d1Perturbation N edge j i := by
+  classical
+  by_cases hij : i = j
+  · subst j
+    rfl
+  · have hji : j ≠ i := Ne.symm hij
+    by_cases he : edge i j
+    · have he' : edge j i := (hsym i j).mp he
+      simp [d1Perturbation, hij, hji, he, he']
+    · have he' : ¬edge j i := fun h => he ((hsym i j).mpr h)
+      simp [d1Perturbation, hij, hji, he, he']
+
+theorem d1_squared_distance_symmetric (N : ℕ)
+    (edge : Fin N → Fin N → Prop)
+    (hsym : ∀ i j, edge i j ↔ edge j i) (i j : Fin N) :
+    d1SquaredDistance N edge i j = d1SquaredDistance N edge j i := by
+  rw [d1_distance_decompose, d1_distance_decompose]
+  by_cases hij : i = j
+  · subst j
+    rfl
+  · have hji : j ≠ i := Ne.symm hij
+    simp only [if_neg hij, if_neg hji]
+    rw [d1_perturbation_symmetric N edge hsym i j]
+
 end OptionD

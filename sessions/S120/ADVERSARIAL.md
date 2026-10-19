@@ -1,0 +1,3 @@
+# S120 adversarial conclusions
+
+Exact mean-zero quadratic identity alone does NOT prove arbitrary-vector PSD, kernel=constants, rank N−1 or Euclidean point recovery. Symmetric squared-distance data require `∀ i j, edge i j ↔ edge j i`; directed data remain permitted only in abstract mean-zero estimates. The centered formula must annihilate constants and arbitrary x must be projected to mean-zero before full PSD follows. D is **squared** distance, not metric distance; realisations must check diagonal zero and threshold signs. N=2 is essential, no N cutoff allowed. CI pass for algebra is not independent proof of D6 attaching coherence, D7 Hopf or D8 stability, nor novelty/HHA significance.

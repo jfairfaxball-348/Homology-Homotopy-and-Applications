@@ -1,0 +1,3 @@
+# S120 exact build evidence
+
+Toolchain `leanprover/lean4:v4.35.0-rc2`, Mathlib locked SHA `065356127b1dc0016f66b7283ce0ce2c4055aa55`, committed manifest. CI target `lake build OptionD`. Experimental #39310152094 failed with two overhanging tactics after already-closed goals at CenteredMatrix.lean lines 28 and 79; not a mathematical inconsistency. Corrected source GitHub hosted Lean run #39310425894 **SUCCESS**. Static integrity run #39310425904 **SUCCESS** on corrected code. Verify the final combined PR SHA and post-merge main separately. Local container does not have Lean installed and cannot access public git, so all genuine Lean build evidence is hosted.
