@@ -829,3 +829,6 @@ Finite hollow real N×N matrix entrywise ε-bound implies quadratic lower coeffi
 
 ## CLM-0586 FORMALLY_CERTIFIED (S120, scoped)
 Corrected hosted Lean job #39310425894 passes exact actual centered Gram quadratic identity for zero-sum real x, and 99/200 mean-zero lower bound for N≥2; under explicit graph symmetry squared-distance data are symmetric. No kernel/rank, full PSD, Euclidean points, D2 or D6–D8 certificate and no novelty/Palomar/HHA gate.
+
+## CLM-0587 — S121 full-vector centered Gram PSD (FORMALLY_CERTIFIED, scoped)
+Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N≥2 and symmetric edge predicate, G is symmetric, has zero row/column sums, annihilates ones, and q_G(x)=q_G(x−mean)≥99/200∑(x_i−mean)²≥0. Source OptionD/CenteredPSD.lean. **No rank/entire kernel, Euclidean point configuration, D2 or D6–D8**; no novelty or publication gate. Combined PR/main checks separately required.

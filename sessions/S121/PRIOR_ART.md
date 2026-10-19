@@ -1,0 +1,2 @@
+# S121 literature/novelty boundary
+Owner explicitly deferred Option D novelty and HHA publication-fit checks. None performed. This session used the already pinned Mathlib/Lean proof environment and repository code only, with API terminology looked up solely to plan a future matrix representation proof. No independent novelty assertion, source-priority conclusion or G2 promotion.

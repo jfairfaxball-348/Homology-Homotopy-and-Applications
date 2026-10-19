@@ -403,3 +403,6 @@ Lean D1 mean-zero negative-type proof SOURCE AUTHORED; full centered PSD/kernel/
 
 ## S120 G3 partial verified Lean (19 Oct 2026)
 S120 zero-mean centered quadratic identity and lower bound are kernel-built in corrected hosted Lean run #39310425894. Full D1 PSD/kernel/rank/Euclidean recovery open; D2/D6–D8 unformalised. HHA G2 deferred at owner's request; Palomar comparator/preflight/registration and publication NOT DONE.
+
+## S121 — partial G3 compiled Lean, 19 October 2026
+Pinned Lean source with explicit symmetric graph hypothesis now proves **all-vector centered Gram quadratic PSD** through mean subtraction and verified 99/200 mean-zero coercivity (scratch successful hosted run #39312760687). Matrix rank/kernel characterisation, exact ℝ^(N−1) Euclidean coordinates, Rips threshold and D2/D6–D8 still unformalised. No Challenge/Solution comparator or Palomar preflight. G2 original HHA significance not checked at owner's direction; no release approval. Final combined PR and main CI must be rechecked.

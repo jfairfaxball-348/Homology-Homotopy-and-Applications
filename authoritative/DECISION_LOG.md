@@ -618,3 +618,6 @@ S117 main Lean SUCCESS, run 39271946320. Owner-run S118 authors exact Gram data 
 
 ## S120 — exact D1 centered Gram proof boundary (19 Oct 2026)
 Keep Option D owner-approved incremental Lean route; prove true centered mean-zero quadratic identity and strict 99/200 positivity first, using an exposed defining-module rewrite. Corrected hosted Lean PASS #39310425894. Do not promote full D1 Euclidean realization, D2 or D6–D8 without separate proof. Self-select S121 for PSD/kernel/rank/points. No novelty or HHA check requested, no Palomar or publication.
+
+## S121 Lean decision — 19 October 2026
+Continue owner-authorised Option D proof-first-to-Lean incremental path, preserve D6/D7/D8 universal R³ target. Rather than invent a missing spectral interface, prove exact zero rows/columns and projection so S120's zero-mean bound yields all-vector G PSD. Pinned scratch Lean SUCCESS #39312760687, partial D1 only. Self-select S122 for exact kernel, N−1 rank, Euclidean coordinates and threshold, with no new novelty audit, Palomar registration or publication.
