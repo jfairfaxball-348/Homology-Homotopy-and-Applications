@@ -5686,6 +5686,13 @@
       "claim": "S117 implements Lean source for the D1 mixed off-diagonal quadratic bound and the strict epsilon=1/(100N) Gram row margin; formal validity is pending verified hosted Lean build, and no entire D1/D6/D7/D8 formal proof is asserted.",
       "sources": [],
       "scope": "Lean source-integration claim only; not FORMALLY_CERTIFIED until actual CI build and axiom audit, no novelty or Palomar preflight."
+    },
+    {
+      "id": "CLM-0586",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "Under the pinned Lean toolchain the actual double-centered D1 Gram has an exactly equal negative-half squared-distance quadratic on every mean-zero x, and at least 99/200 times sum-of-squares when N>=2; squared distances are symmetric under explicit symmetric edge data.",
+      "sources": [],
+      "scope": "Corrected hosted Lean build #39310425894 passed, final PR/main must be independently checked; this does NOT claim full PSD, rank, Euclidean reconstruction, D2/D6-D8, novelty or Palomar."
     }
   ]
 }

@@ -58,3 +58,6 @@ Verified S117 main hosted Lean PASS: run 39271946320. S118 added OptionD/FiniteG
 
 ## S119 (19 Oct 2026)
 S118 merged main CI 39288732449 Lean SUCCESS and integrity 39288732424 SUCCESS. S119 authors `OptionD/MeanZero.lean` equilateral zero-sum quadratic identity, upper hollow perturbation bound via negating S118, exact two-distance negative-type estimate with 99/100 margin, and 99/200 positive raw mean-zero Gram *form*. Build proof status contingent upon S119 hosted Lean CI. D1 actual double-centered Gram PSD/kernel/rank/Euclidean embedding NOT proved. D2/D6–D8 not begun. The S120 prompt targets the missing exact centered-matrix identity and representation, with pinned toolchain unchanged.
+
+## S120 — actual centered quadratic now compiled (19 Oct 2026)
+Corrected hosted pinned Lean #39310425894 SUCCESS, integrity #39310425904 SUCCESS. Exact double-centering quadratic cancellation for arbitrary mean-zero x and 99/200 coercivity on the actual Gram; symmetry under explicit edge symmetry. FULL PSD/kernel/rank, exact Euclidean points, D2 and D6–D8 UNFORMALISED. S121 future must finish these. No novelty, Palomar or publication.

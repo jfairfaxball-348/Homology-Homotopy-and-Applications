@@ -400,3 +400,6 @@ Owner-authorised Option D incremental D1 implementation began with proposed theo
 
 ## S119 phase status — 19 October 2026
 Lean D1 mean-zero negative-type proof SOURCE AUTHORED; full centered PSD/kernel/rank/Euclidean realization still OPEN pending exact matrix and library bridge. S119 hosted compilation must be inspected rather than inferred. No G2 novelty check (owner deferred), Palomar or publication permission.
+
+## S120 G3 partial verified Lean (19 Oct 2026)
+S120 zero-mean centered quadratic identity and lower bound are kernel-built in corrected hosted Lean run #39310425894. Full D1 PSD/kernel/rank/Euclidean recovery open; D2/D6–D8 unformalised. HHA G2 deferred at owner's request; Palomar comparator/preflight/registration and publication NOT DONE.

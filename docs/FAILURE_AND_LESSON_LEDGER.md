@@ -589,3 +589,6 @@ Known fourfold C4 operation plus general Toda transport and quantitative interle
 
 ## S116 stop-loop lesson — 19 October 2026
 A succession of sophisticated internal examples need not establish a journal-significant new homotopical theorem. Missing a duplicate in literature is not proof of originality; C4 known m4 plus bracket/rectification machinery and an example did not clear G2. Do not restart topic-only exploratory research, exact endpoint chasing or old candidates under new titles. Recommend reversible pause C; archive intact and owner choice PENDING. Do not equate retirement with mathematical falsehood, exact published preemption, impossibility or journal rejection.
+
+## S120 — do not overclaim the finite Gram bridge (19 Oct 2026)
+The imported noncomputable centered Gram body needed an exposed rfl theorem from its defining module to allow honest downstream rewrites. Experimental Lean #39310152094 found redundant tactics after goals had already been closed, not false identities; corrected #39310425894 passed. Mean-zero coercivity is not a Lean proof of full PSD and N−1 dimensional Euclidean realization. Avoid silent symmetry and squared-distance assumptions.

@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-19",
-  "last_completed_session": "S119",
-  "recommended_next_session": "S120",
+  "last_completed_session": "S120",
+  "recommended_next_session": "S121",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S119 mean-zero equilateral identity and two-sided D1 quadratic estimate authored; hosted S119 Lean result requires verification",
+  "headline": "S120 exact centered Gram quadratic and 99/200 mean-zero positivity formally built; full PSD/kernel/rank/Euclidean point recovery OPEN",
   "selected_mathematical_problem": "Option D D6 universal two-height Euclidean R3 Vietoris-Rips attaching-map/cofiber interleaving obstruction, D7 two-block Hopf specialization and D8 stability, based on D1–D2.",
-  "headline_status": "S119_MEAN_ZERO_FORM_SOURCE_HOSTED_CI_NOT_PREJUDGED",
-  "active_campaign": "OPTION_D_INCREMENTAL_LEAN_S120_FUTURE",
+  "headline_status": "S120_CENTERED_MEAN_ZERO_LEAN_GREEN_FULL_D1_EMBEDDING_OPEN",
+  "active_campaign": "OPTION_D_INCREMENTAL_LEAN_S121_FUTURE",
   "claim_of_new_theorem": "No new S116 theorem; C4 internal hierarchy preserved but retired as FIRST HHA paper.",
   "stages": [
     {
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "name": "Lean formalisation and build certification",
-      "status": "S119_MEAN_ZERO_RAW_FORM_AUTHORED_CENTERED_PSD_EMBEDDING_OPEN"
+      "status": "S120_CENTERED_QUADRATIC_LEAN_GREEN_FULL_PSD_RANK_EMBEDDING_OPEN"
     },
     {
       "id": 4,
@@ -2189,5 +2189,34 @@
     "preflight": "NOT_RUN",
     "no_novelty_checks": true,
     "next": "S118 FUTURE UNEXECUTED complete D1 quadratic Gram and Euclidean reconstruction"
+  },
+  "s120_checkpoint": {
+    "date": "2026-10-19",
+    "entry_main": "4bae2500198a5d22f054f2f85d09219a509ef65b",
+    "entry_tree": "3a41c9c466687ee172d1f956810c23a537963f28",
+    "s119_pr": 142,
+    "s119_main_lean_run": 39304903554,
+    "s119_main_integrity_run": 39304903559,
+    "s120_experimental_failed_lean_run": 39310152094,
+    "s120_corrected_lean_run": 39310425894,
+    "verified_source_lemmas": [
+      "d1_centered_gram_formula",
+      "d1_perturbation_symmetric",
+      "d1_squared_distance_symmetric",
+      "d1_centered_mean_zero_identity",
+      "d1_centered_mean_zero_lower"
+    ],
+    "status": "CORRECTED_SOURCE_LEAN_PASS_FINAL_PR_AND_MAIN_RECHECK_REQUIRED",
+    "unproved": [
+      "full centered PSD",
+      "kernel constants",
+      "rank N-1",
+      "exact Euclidean point recovery",
+      "D2 births",
+      "D6/D7/D8"
+    ],
+    "g2": "OWNER_DEFERRED_NO_NEW_NOVELTY_CHECK",
+    "palomar": "NOT_RUN",
+    "next": "S121 FUTURE UNEXECUTED"
   }
 }

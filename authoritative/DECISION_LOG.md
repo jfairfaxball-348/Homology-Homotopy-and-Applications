@@ -615,3 +615,6 @@ Following PR137 and a fresh “Run next session”, create Lean/Mathlib root bui
 S117 main Lean SUCCESS, run 39271946320. Owner-run S118 authors exact Gram data and finite N−1 perturbation sum; source success subject to own hosted Lean job. D1 geometric embedding, D2/D6–D8 remain; no novelty check, registry or paper. S119 next FUTURE only.
 
 - **S119 D1 decision (19 October 2026):** preserve exact D1–D2–D6–D7–D8 goal, establish strict zero-sum raw squared-distance quadratic form first and explicitly defer the actual centered Gram PSD/rank/Euclidean reconstruction to S120; do not present negative type alone as full Euclidean realisation. No novelty check, Palomar submission or external release.
+
+## S120 — exact D1 centered Gram proof boundary (19 Oct 2026)
+Keep Option D owner-approved incremental Lean route; prove true centered mean-zero quadratic identity and strict 99/200 positivity first, using an exposed defining-module rewrite. Corrected hosted Lean PASS #39310425894. Do not promote full D1 Euclidean realization, D2 or D6–D8 without separate proof. Self-select S121 for PSD/kernel/rank/points. No novelty or HHA check requested, no Palomar or publication.
