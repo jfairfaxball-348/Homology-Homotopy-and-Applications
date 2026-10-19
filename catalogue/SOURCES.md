@@ -592,3 +592,11 @@ SRC-0256 Hilton1955 original publisher metadata; SRC-0257 DKS1989 original publi
 - SRC-0271: Matei–Suciu, *Cohomology rings and nilpotent quotients of real and complex arrangements*, ASPM27 (2000), 185–215, original arXiv abstract/indexed Fox snippet **ABSTRACT_INSPECTED**, full proof not inspected. https://doi.org/10.2969/aspm/02710185
 - SRC-0272: Kitano, *Johnson's homomorphisms ... Massey higher products of mapping tori*, Topology Appl 69 (1996), 165–172, original publisher **ABSTRACT_INSPECTED**, no proof. https://doi.org/10.1016/0166-8641(95)00077-1
 - SRC-0267 regraded: Katada JIMJ2026 original Cambridge HTML abstract/introduction **ABSTRACT_INSPECTED**, no proof. DOI10.1017/S1474748026101832. No HHA originality certification.
+
+## S111 bibliography and access — 19 October 2026
+- SRC-0273: Dwyer (1975), *Homology, Massey products and maps between groups*, JPAA 6,177–190 DOI 10.1016/0022-4049(75)90006-7. **METADATA_ONLY**, original not inspected (original Fenn–Sjerve references + AMS citation). No proof imported.
+- SRC-0270 revisited: Fenn–Sjerve Cambridge original PDF p322 and p336 Theorems4.1–4.2 **STATEMENT_INSPECTED**; auxiliary one-relator Q_w satisfies γ3 assumptions; no full original proof audit.
+- SRC-0272 revisited: Kitano 1996 Elsevier original abstract **ABSTRACT_INSPECTED**; no proof.
+- SRC-0268 revisited: DKL original author PDF mapping-torus and folded-torus discussion **STATEMENT_INSPECTED**; not a generic IA finite-graph bundle theorem.
+- SRC-0179/SRC-0186 revisited: Blumberg–Lesnick original arXiv abstract **ABSTRACT_INSPECTED**, no source novelty clearance.
+- SRC-0010/0266 and SRC-0267 2024–26 literature not fully reread, no comprehensive cited-by/issue audit.

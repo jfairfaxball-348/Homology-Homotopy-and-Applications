@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-18",
+  "as_of": "2026-10-19",
   "claims": [
     {
       "id": "CLM-0001",
@@ -5358,6 +5358,78 @@
         "SRC-0272"
       ],
       "scope": "Future hypothesis; requires full proof, all defining-system indeterminacies and contemporary HHA originality audit."
+    },
+    {
+      "id": "CLM-0550",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S111 T293 nontrivial IA word φ_w(a)=aw fixes b,c but has infinite outer order; finite connected graph homeomorphisms have finite outer image, so φ_w cannot be monodromy of a locally trivial finite-graph bundle.",
+      "sources": [
+        "SRC-0268"
+      ],
+      "scope": "Internal finite-core edge-permutation and centralizer proof; excludes true finite graph bundles only."
+    },
+    {
+      "id": "CLM-0551",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S111 T294 explicit continuous finite PL sublevel realisation of finite presentation CW cell-event filtrations; matching numeric cell-height vectors can have delta_event=0 even for topologically different terminals.",
+      "sources": [
+        "SRC-0179"
+      ],
+      "scope": "Partial coned cells retract to prior CW skeleton; event vector is NOT a common-domain distance metric."
+    },
+    {
+      "id": "CLM-0552",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S111 T295 for γ3 IA word the marked class-two nilpotent quotient agrees with identity, while a marked class-three quotient witnesses nonzero [t,a]=w.",
+      "sources": [],
+      "scope": "Proof via class-three free nilpotent semidirect quotient; no unmarked nilpotent classification claimed."
+    },
+    {
+      "id": "CLM-0553",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S111 T296 for w=[[b,c],b] the integral triple Massey set <B,C,B> equals ±2U_a+ZU_b and misses zero, while M1 is rationally formal.",
+      "sources": [
+        "SRC-0270",
+        "SRC-0272"
+      ],
+      "scope": "Computed by legitimate map to one-relator Qw followed by Fenn-Sjerve Theorems4.1/4.2; full indeterminacy, classical."
+    },
+    {
+      "id": "CLM-0554",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S111 T297 compact PL sublevel IA pair with different terminal π1 centres has exact all-real unpointed dHI=dIHC=∞ under arbitrary whole-diagram WEs; invalidates event-height-only finite stability.",
+      "sources": [
+        "SRC-0179"
+      ],
+      "scope": "Event-height pseudocontrol alone does not identify spaces; not a universal all-bundle no-go."
+    },
+    {
+      "id": "CLM-0555",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S111 T298 all-real cuts, inverse, inner, conjugacy and Wang shadows reject a same-category finite HI>IHC from this IA pair.",
+      "sources": [],
+      "scope": "Adversarial category proof and table; this family has HI=IHC."
+    },
+    {
+      "id": "CLM-0556",
+      "status": "INHERITED_UNVERIFIED",
+      "claim": "S112 future same-terminal finite polyhedral PL unstable attaching filtration might yield original HHA calibrated finite positive homotopy interleaving bound.",
+      "sources": [
+        "SRC-0179",
+        "SRC-0010"
+      ],
+      "scope": "FUTURE hypothesis, no proof, no G2 clearance."
+    },
+    {
+      "id": "CLM-0557",
+      "status": "PROGRAMME_PROVED",
+      "claim": "S111 T299 HHA-original stable geometrically calibrated positive finite nonclock monodromy theorem was NOT established, and the specific IA graph-bundle candidate is stopped.",
+      "sources": [
+        "SRC-0270",
+        "SRC-0272",
+        "SRC-0268"
+      ],
+      "scope": "Source audit and failure classification, not a universal impossibility theorem."
     }
   ]
 }

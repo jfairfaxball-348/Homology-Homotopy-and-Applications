@@ -229,3 +229,6 @@ No brute-force enumeration, SAT, scripts, Python algebra checks, coverage table,
 
 ## S110 — hand proof with unregistered sanity scratch (18 October 2026)
 No registered finite exhaustive search, SAT or computation used for a COMPUTED_EXACT claim. A small exploratory local Magnus degree-two scratch test was run without preregistration; it is not a mathematical certificate and no hash/coverage is claimed. T286–T290 rest on written cellular/free-group/Fox proofs; original Cambridge source statements inspected. No Lean, checked local git checkout (network DNS failure), Palomar or submissions; hosted static validation is only governance. S111 must preregister any computational experiments before reliance on them.
+
+## S111 — theoretical proof, no certified machine campaign (19 October 2026)
+All results T293–T298 by free-group/cellular/Massey/categorical argument with explicit hypotheses. No finite enumeration, pseudo-random tests, hash certificates, independent checker, Lean, or numeric distance solver. The Magnus degree-three polynomial is expanded by formal hand multiplication, NOT COMPUTED_EXACT. Local GitHub clone failed DNS; no local scripts/validate_repository.py or session_handoff.py run. Require genuine hosted PR/main repository-integrity and handoff steps before merge; these do not certify maths. S112 future computations must be preregistered.

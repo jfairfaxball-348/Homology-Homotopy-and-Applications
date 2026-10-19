@@ -370,3 +370,6 @@ G1 internal T281 Čech Σ²(T_+) **complete classical**, T282 same genuine union
 
 ## S110 gate decision — 18 October 2026
 Stage1: INTERNAL exact filtered CW homology/ring comparison and eventual-tail + rescaling no-go; no finite positive nonclock HI and no original HHA-scale applied theorem. Stage2 G2 NOT PASSED after directly reading Fenn–Sjerve 1987 theorem statements and 2000/2015/2016/2026 original abstracts/intro. Lean NOT_STARTED; final independent full review, Palomar, manuscript, arXiv/HHA remain gated. S111 FUTURE.
+
+## S111 G1/G2 decision — 19 October 2026
+G1 original HHA-significant positive finite metric theorem NOT PASSED. Classical internal proofs: graph homeomorphism finite outer image vs IA infinite (T293); exact PL filtration without *intrinsic* clock (T294); marked lower central and nonzero terminal triple Massey with complete indeterminacy (T295–T296); full-real compact terminal HI=IHC∞ (T297). Source G2 NOT PASSED: Fenn–Sjerve 1987 Theorems4.1–4.2 already provide higher Fox/Massey; Kitano 1996 mapping-torus source; earlier 2024 filtered stability. No actual strict HI>IHC, G3 Lean NOT_STARTED and all external stages forbidden. S112 FUTURE only.

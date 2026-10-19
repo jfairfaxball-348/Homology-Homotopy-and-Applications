@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-18",
+  "as_of": "2026-10-19",
   "sources": [
     {
       "id": "SRC-0001",
@@ -2449,6 +2449,15 @@
       "access": "ABSTRACT_INSPECTED",
       "limitation": "Mapping class groups, not exact free-group IA application; full proof not read.",
       "observed": "Already connects Johnson monodromy with mapping-torus Massey products."
+    },
+    {
+      "id": "SRC-0273",
+      "title": "W. G. Dwyer, Homology, Massey products and maps between groups, J Pure Appl Algebra 6 (1975), 177–190",
+      "url": "https://doi.org/10.1016/0022-4049(75)90006-7",
+      "origin": "AMS article bibliography and original Fenn–Sjerve PDF reference list observed 19 October 2026",
+      "access": "METADATA_ONLY",
+      "limitation": "No direct original 1975 article or proof inspection. Bibliographic verification only, not source-stated theorem detail.",
+      "observed": "Classical Dwyer priority background for Massey and group maps; no exact S111 theorem attributed."
     }
   ]
 }
