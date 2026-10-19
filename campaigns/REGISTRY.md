@@ -241,3 +241,6 @@ No numerical/SAT/exhaustive computations; no new scripts/Magma/Lean run, no inde
 
 ## S114 — bounded SANITY computation only, not COMPUTED_EXACT (19 October 2026)
 25,000 post-hoc pseudorandom legal low-index defining-system assignments in F2[t]/t4 found nonzero constant term at n2; x/h/z symbolic parity identities checked for 2<=n<=100. Exploratory local check; NOT preregistered independent enumerative campaign, no reproducible committed exhaustive certificate, no verification of infinite systems, and not Lean. Mathematical assertions rest on explicit symbolic algebraic proof; record as SANITY not formally certified or COMPUTED_EXACT. GitHub DNS clone unavailable, hosted CI only governance.
+
+## S115 — original-source reading only (19 October 2026)
+No computations, random trials, model checks, scripts, Lean builds, simulations or exhaustive citation search undertaken. Select original BBG2016 theorem/proof sections and LS2023 quantitative arguments and original scoped field/sheaf/top results inspected, with source access limits recorded. These reading results are provenance and nonroutine-significance judgement, NOT COMPUTED_EXACT, not a formal certificate, and not full specialist referee verification.

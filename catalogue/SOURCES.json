@@ -2539,6 +2539,60 @@
       "access": "STATEMENT_INSPECTED",
       "limitation": "Full transfer proof not freshly checked against example; generic higher homotopy machinery is prior art",
       "observed": "Uniform general higher Toda and Massey operations for chain complexes, dg algebras and model-enriched categories"
+    },
+    {
+      "id": "SRC-0283",
+      "title": "Baues–Blanc–Gondhali, Higher Toda brackets and Massey products, JHRS 11 (2016), author original full preprint",
+      "url": "https://arxiv.org/pdf/1503.02265",
+      "origin": "S115 original author/publisher text inspected selectively on 19 October 2026",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Selected source theorem and proof pages inspected, NOT a line-by-line reproof of all 2016 arguments or a directly printed C4 metric example.",
+      "observed": "Theorem 4.21 preserves higher Toda bracket sets under Dwyer–Kan equivalence; Proposition 4.35 identifies higher Toda brackets with higher Massey products in dg-algebra setting."
+    },
+    {
+      "id": "SRC-0284",
+      "title": "Lanari–Scoccola, Rectification of interleavings and a persistent Whitehead theorem, AGT 23 (2023), original version",
+      "url": "https://arxiv.org/html/2010.05378v3",
+      "origin": "S115 original author/publisher text inspected selectively on 19 October 2026",
+      "access": "PROOF_INSPECTED",
+      "limitation": "Original HTML theorem and selected argument inspected, not a complete 2026 forward citation census; topological space category is NOT the C4 chain-complex category.",
+      "observed": "Theorem A proves general rectification bound, Proposition 3.10 and Proposition 3.12 use homotopy obstructions/Toda brackets in quantitative interleaving examples, and Remark 3.13 delineates open distance comparisons in topological persistence."
+    },
+    {
+      "id": "SRC-0285",
+      "title": "Blumberg–Lesnick, Universality of the homotopy interleaving distance, Trans AMS 376 (2023) original preprint",
+      "url": "https://arxiv.org/pdf/1705.01690",
+      "origin": "S115 original author/publisher text inspected selectively on 19 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected original theorem statements viewed; not entire proof, and no claim of exactly matching modular chain complex example.",
+      "observed": "Theorems 1.10–1.11 set homotopy interleaving invariance/universality in persistent spaces."
+    },
+    {
+      "id": "SRC-0286",
+      "title": "Berkouk, Stable resolutions of multi-parameter persistence modules (original related preprint, distinct from GSI2021 proceedings)",
+      "url": "https://arxiv.org/pdf/1901.09824",
+      "origin": "S115 original author/publisher text inspected selectively on 19 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Original PREPRINT is a related but DISTINCT article; do not misidentify it as complete GSI 2021 Algebraic Homotopy Interleaving Distance proceedings proof.",
+      "observed": "Theorem 4.15 and Section 5 compare projective resolutions and derived/homotopy interleavings for field-valued persistence resolutions."
+    },
+    {
+      "id": "SRC-0287",
+      "title": "Berkouk–Ginot, A derived isometry theorem for sheaves, Adv Math 394 (2022) original preprint",
+      "url": "https://arxiv.org/pdf/1805.09694",
+      "origin": "S115 original author/publisher text inspected selectively on 19 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Selected original theorem and hypotheses inspected, not full proof; NOT an all-B-module Ch(B)^R metric separation statement.",
+      "observed": "Theorem 5.10 establishes a derived isometry theorem for bounded constructible sheaves of k-vector spaces on R, k a field."
+    },
+    {
+      "id": "SRC-0288",
+      "title": "Homology, Homotopy and Applications author journal aims, International Press original publisher",
+      "url": "https://intlpress.com/site/pub/editorauthorpages/journal/hha/aims.htm",
+      "origin": "S115 original author/publisher text inspected selectively on 19 October 2026",
+      "access": "STATEMENT_INSPECTED",
+      "limitation": "Scope/editorial reading only; no bespoke editor appraisal and no exhaustive 2024–2026 HHA article proof/citation survey.",
+      "observed": "Journal remit supports homology, homotopy and applications, subject to original substantial mathematical contribution; plausible topical fit does not amount to acceptance."
     }
   ]
 }

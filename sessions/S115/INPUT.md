@@ -1,0 +1,3 @@
+# S115 INPUT — 19 October 2026
+
+Explicit owner “Run next session” executes S115 ONCE. Entry LIVE main 01ab8cd977cdd7426613b1eb2146a9d82830f5e4, tree 30397d635d3912b7ca2146b653396332408596b2; S114 PR #132 ordinary merge with parents 5f2a1c4a032a806437dc59e717e24e8da60feae4 and cfcce4ce19de6d0d71e4404419414908d638a6af; no open PRs at initial API read. No concurrent S115 merge seen. Read live AGENTS, STATE, START_HERE, full NEXT_SESSION_PROMPT and S114 math/adversarial/source summary. Goal ONLY one final original-source HHA significance kill-or-retire of the C4 short note. No new mathematical metric proof, Lean, machine experiment or downstream authorisation.

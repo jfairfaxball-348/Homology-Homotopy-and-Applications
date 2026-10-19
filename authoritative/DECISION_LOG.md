@@ -595,3 +595,6 @@ S113 INTERNAL targeted proof rerun confirms candidate strict Ch(F2[C4]) real dia
 
 ## S114 decision B — narrow HHA MVP G2 not yet justified (19 October 2026)
 Mathematical strict B=F2[C4] Ch(B)^R triple hierarchy 1/2<1<5/4<=dHI<=5/2 remains INTERNAL under hostile all-defining-system/full-poset/all-zigzags review. Original 2026 field-only theorem not contradicted, Magma C4 m4 classical. Crucial distinction: no independently established nonroutine HHA-worthy theorem beyond a known fourfold Toda mechanism and clock. Decision B = NOT FIRST-PAPER READY, G2 NOT PASSED, NOT theorem refutation. S115 FUTURE alone must perform ONE targeted original theorem-level novelty/significance kill-or-retire and stop if not proved. No manuscript/Lean/Palomar/release/contact.
+
+## S115 — final C4 note route RETIRED (19 Oct 2026)
+Decision B: fail positive significance test; no independent application or substantial theorem-level increment beyond known higher brackets and quantitative rectification found. C4 original metric numbers internally retained; no exact prior matched theorem found, so novelty/preemption remains genuinely unverified. No HHA G2. Stop C4-first-HHA-note route, next S116 OWNER_DECISION_ONLY. Separate authorisation before next research target or any external downstream activity.

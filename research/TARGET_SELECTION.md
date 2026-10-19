@@ -290,3 +290,6 @@ Retain narrow natural Ch(F2[C4]) strict HI>IHC gap as **provisional** 8–15 pag
 
 ## S114 — no automatic promotion of MVP to HHA (19 October 2026)
 C4 five-stage B=F2[C4] quantitative metric separation survives internal proof audit (not independent certificate); field-vs-modular boundary meaningful but operation known. Decision B: low-bar HHA note still not convincingly significant or priority-verified. ONE final S115 exact original-source theorem-level significance kill-or-retire, not broader theorem search. No Lean/Palomar/manuscript permission.
+
+## S115 — first-paper decision (19 October 2026)
+The provisional 8–15-page modular C4 note **fails positive HHA significance gate** after final source-theorem comparison. Preserve complete internally supported numbers and field control for archival use, but RETIRE as current first HHA paper. Do not claim inability to publish elsewhere, precise identical precedent, journal decision or proof error. S116 future owner decision on new independently meaningful scope versus pause; no new research automatically authorised.
