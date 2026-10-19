@@ -5693,6 +5693,13 @@
       "claim": "Under the pinned Lean toolchain the actual double-centered D1 Gram has an exactly equal negative-half squared-distance quadratic on every mean-zero x, and at least 99/200 times sum-of-squares when N>=2; squared distances are symmetric under explicit symmetric edge data.",
       "sources": [],
       "scope": "Corrected hosted Lean build #39310425894 passed, final PR/main must be independently checked; this does NOT claim full PSD, rank, Euclidean reconstruction, D2/D6-D8, novelty or Palomar."
+    },
+    {
+      "id": "CLM-0587",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For all N>=2 and symmetric edge data, the exact D1 double-centered Gram has zero rows and columns, is symmetric, kills the ones vector, and satisfies q_G(x)=q_G(x-mean(x))>=99/200 sum_i (x_i-mean(x))^2>=0 for every real vector x; all-N Lean proofs include projection and nonnegativity.",
+      "sources": [],
+      "scope": "OptionD/CenteredPSD.lean; pinned Lean v4.35.0-rc2, Mathlib SHA 065356127b1dc0016f66b7283ce0ce2c4055aa55 hosted build #39312760687 SUCCESS. This does not certify rank, exact kernel, Euclidean point configuration, D2, D6-D8 or HHA novelty; final PR/main CI still must be checked."
     }
   ]
 }

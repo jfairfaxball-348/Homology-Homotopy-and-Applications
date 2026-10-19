@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-19",
-  "last_completed_session": "S120",
-  "recommended_next_session": "S121",
+  "last_completed_session": "S121",
+  "recommended_next_session": "S122",
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "S120 exact centered Gram quadratic and 99/200 mean-zero positivity formally built; full PSD/kernel/rank/Euclidean point recovery OPEN",
   "selected_mathematical_problem": "Option D D6 universal two-height Euclidean R3 Vietoris-Rips attaching-map/cofiber interleaving obstruction, D7 two-block Hopf specialization and D8 stability, based on D1–D2.",
@@ -2218,5 +2218,37 @@
     "g2": "OWNER_DEFERRED_NO_NEW_NOVELTY_CHECK",
     "palomar": "NOT_RUN",
     "next": "S121 FUTURE UNEXECUTED"
+  },
+  "s121_checkpoint": {
+    "date": "2026-10-19",
+    "entry_main": "9a1ce1b97ad9f9bbfc86e32595c779d806c94172",
+    "entry_tree": "d098e6b84e3f4fd561ac5b023981e0cf3f1be664",
+    "preceding_pr": 143,
+    "main_lean_run_verified": 39311265396,
+    "main_integrity_run_verified": 39311265350,
+    "proof_branch": "formal/S121-psd-scratch",
+    "proof_lean_success_run": 39312760687,
+    "new_theorems": [
+      "d1_centered_row_sum",
+      "d1_centered_gram_symmetric",
+      "d1_centered_column_sum",
+      "d1_centered_ones_kernel",
+      "d1_centered_vector_sum_zero",
+      "d1_centered_quadratic_projection",
+      "d1_centered_quadratic_nonneg"
+    ],
+    "status": "ACTUAL_PINNED_HOSTED_LEAN_PASS_PROOF_S121_FINAL_PR_AND_MAIN_PENDING",
+    "scope": "arbitrary N>=2, symmetric graph input required for full Gram positivity; no Euclidean points constructed",
+    "unproved": [
+      "kernel equals constants as Matrix/LinearMap",
+      "rank N-1",
+      "Euclidean R^(N-1) point realization and exact squared distances",
+      "threshold flag Rips",
+      "D2 Boolean births",
+      "D6/D7/D8"
+    ],
+    "G2": "OWNER_DEFERRED_NO_NOVELTY_CHECK",
+    "palomar": "NO_SUBMISSION_OR_COMPARATOR_PREFLIGHT",
+    "next": "S122 FUTURE UNEXECUTED"
   }
 }

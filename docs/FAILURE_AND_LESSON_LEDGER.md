@@ -592,3 +592,6 @@ A succession of sophisticated internal examples need not establish a journal-sig
 
 ## S120 — do not overclaim the finite Gram bridge (19 Oct 2026)
 The imported noncomputable centered Gram body needed an exposed rfl theorem from its defining module to allow honest downstream rewrites. Experimental Lean #39310152094 found redundant tactics after goals had already been closed, not false identities; corrected #39310425894 passed. Mean-zero coercivity is not a Lean proof of full PSD and N−1 dimensional Euclidean realization. Avoid silent symmetry and squared-distance assumptions.
+
+## S121 — preserve real proof boundaries (19 October 2026)
+Scratch CI #39312367968 FAILED because a sum had division under an inner summation and a redundant trailing `ring` ran after `simp` closed its goal. Repair on scratch commit ab275330 yielded SUCCESS #39312760687 without new mathematical assumptions. Caution: Gram PSD as a quadratic inequality is NOT yet the Mathlib PosSemidef interface, rank N−1, Gram factorisation nor pointwise Euclidean distance equality. Symmetry is required for graph geometry; row cancellation alone also applies to directed arrays.
