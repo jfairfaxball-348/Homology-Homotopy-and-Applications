@@ -36,9 +36,9 @@ theorem d1_centered_row_sum_zero (N : ℕ) (hN : 2 ≤ N)
               simp only [Finset.sum_add_distrib, Finset.sum_sub_distrib,
                 Finset.sum_div, Finset.sum_const, nsmul_eq_mul]
               simp only [Finset.card_univ, Fintype.card_fin]
-              simp only [← Finset.mul_sum, ← Finset.sum_mul]
               dsimp only [D]
-              ring
+              ring_nf
+              simp only [Finset.sum_add_distrib, Finset.sum_sub_distrib, Finset.sum_const, nsmul_eq_mul]
     _ = 0 := by
       rw [hswap]
       field_simp [hN0]
@@ -64,9 +64,9 @@ theorem d1_centered_column_sum_zero (N : ℕ) (hN : 2 ≤ N)
               simp only [Finset.sum_add_distrib, Finset.sum_sub_distrib,
                 Finset.sum_div, Finset.sum_const, nsmul_eq_mul]
               simp only [Finset.card_univ, Fintype.card_fin]
-              simp only [← Finset.mul_sum, ← Finset.sum_mul]
               dsimp only [D]
-              ring
+              ring_nf
+              simp only [Finset.sum_add_distrib, Finset.sum_sub_distrib, Finset.sum_const, nsmul_eq_mul]
     _ = 0 := by
       field_simp [hN0]
       ring
