@@ -5777,6 +5777,20 @@
       "claim": "For all N>=2 symmetric finite graphs and every two-bit birth assignment, actual Euclidean points in dimension N-1 realise radius-one native strict Rips simplices exactly as induced graph cliques at every Boolean grade; simplices close under faces, and the native predicates are monotone in grade and radius with exact Boolean meet.",
       "scope": "OptionD/BirthGrades.lean d2_strict_rips_unit_iff_induced, d2_strict_rips_faces, d2_strict_rips_height_mono, d2_strict_rips_radius_mono, d2_strict_rips_meet, d2_exists_minimal_induced_rips; module import exported Rips constructors in RealizedFlag. Pinned Lean run 39418834637 SUCCESS. Arbitrary real-height R³ functor, sqrt endpoints, D6/D7/D8 NOT kernel-certified.",
       "sources": []
+    },
+    {
+      "id": "CLM-0599",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "Uniformly in every finite N and all two-bit birth labels, actual two-real-height vertex birth predicates and unsquared-radius strict Euclidean simplex families form a face-closed covariant monotone filtration of finite simplex sets over R²×R, with explicit identity/composition and exact four Boolean-grade slice agreement.",
+      "scope": "OptionD/RealFiltration.lean, d3Born, d3StrictRips, d3_family_mono/id/comp, d3_boolean_birth_iff, d3_boolean_slice. Pinned scratch source f033afbe2ba7a5645b66049dab3f91c22130cc49, Lean #39423008236 SUCCESS, integrity #39423008086 SUCCESS. This is NOT a topological/homotopy-coherent Top^(R³) functor.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0600",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For all N>=2 symmetric finite graphs and genuine q in EuclideanSpace R (Fin(N-1)), every distinct edge distance equals a=sqrt(1-epsilon), every distinct nonedge distance equals b=sqrt(1+epsilon), with a<1<b: at r=a no pair is a strict simplex, for a<r<=b every real-height Rips simplex is exactly a selected graph clique, and above b all born vertices span the complete flag; negative heights contain no vertices.",
+      "scope": "OptionD/RealFiltration.lean critical sqrt, pair/flag and endpoint theorems, including exact r=b, empty/simplex and negative heights, compiled hosted Lean #39423008236 SUCCESS on SHA f033afbe2ba7a5645b66049dab3f91c22130cc49. No D6 derived cofiber, D7 Hopf or D8 stability certification, no novelty/Palomar.",
+      "sources": []
     }
   ]
 }

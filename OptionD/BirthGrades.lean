@@ -179,3 +179,39 @@ theorem d2_exists_minimal_induced_rips (N : ℕ) (hN : 2 ≤ N)
     (fun p s => d2_strict_rips_unit_iff_induced N hN edge hsym q hq w p s)⟩
 
 end OptionD
+
+
+public section
+namespace OptionD
+
+/-- Export the defining-module constructor for a native Boolean slice. -/
+theorem d2_strict_rips_of_conditions (N : ℕ)
+    (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (w : Fin N → d2Grade) (p : d2Grade) (r : ℝ)
+    (s : Finset (Fin N))
+    (hs : (∀ v ∈ s, d2GradeLE (w v) p) ∧
+      (∀ i ∈ s, ∀ j ∈ s, i ≠ j → ‖q i - q j‖ < r)) :
+    d2StrictRips N q w p r s := hs
+
+/-- Export the defining-module eliminator for a native Boolean slice. -/
+theorem d2_strict_rips_conditions (N : ℕ)
+    (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (w : Fin N → d2Grade) (p : d2Grade) (r : ℝ)
+    (s : Finset (Fin N)) (hs : d2StrictRips N q w p r s) :
+    (∀ v ∈ s, d2GradeLE (w v) p) ∧
+      (∀ i ∈ s, ∀ j ∈ s, i ≠ j → ‖q i - q j‖ < r) := hs
+
+end OptionD
+
+public section
+namespace OptionD
+
+/-- Export the defining-module constructor of the Boolean grade order. -/
+theorem d2_grade_le_of_forall (p q : d2Grade)
+    (h : ∀ k : Fin 2, p k ≤ q k) : d2GradeLE p q := h
+
+/-- Export the defining-module eliminator of the Boolean grade order. -/
+theorem d2_grade_le_forall (p q : d2Grade)
+    (h : d2GradeLE p q) : ∀ k : Fin 2, p k ≤ q k := h
+
+end OptionD

@@ -1,0 +1,7 @@
+# S127 BUILD — observed pinned GitHub Actions evidence
+- Live entry main 8d059a4008c1c6bcdb78e88237620a686837f804; tree b33b1b36b888f9fe154c8b58b82aa54f6d334839, ordinary S126 PR #151. Main Lean #39419729883 SUCCESS, main repository integrity #39419730024 SUCCESS.
+- Toolchain leanprover/lean4:v4.35.0-rc2; Mathlib SHA 065356127b1dc0016f66b7283ce0ce2c4055aa55; manifest unchanged. Build target: lake build OptionD; CI checks Python repository validator and session_handoff.py --check.
+- Isolated experimental branch scratch/S127-real-rips-build: first integrated run #39422430664 failed at imported Boolean grade order elimination (module opacity), NOT a mathematics failure. Export defining-module d2_grade_le_of_forall / d2_grade_le_forall, then #39422676029 Lean SUCCESS and integrity #39422676026 SUCCESS.
+- Add explicit lower/upper flags, negative heights and empty simplex; exact final scratch source SHA f033afbe2ba7a5645b66049dab3f91c22130cc49. Hosted pinned Option D Lean #39423008236 SUCCESS and Repository integrity #39423008086 SUCCESS.
+- No local Lean/Lake executable or network-backed clone available, hence actual proof evidence is hosted GitHub build, not a claimed local build. No sorry/admit/custom axiom; no Palomar preflight, Challenge/Solution or comparator.
+- Final session PR Lean/integrity and cold post-merge main require independent confirmation during integration; scratch success does not replace final validation.

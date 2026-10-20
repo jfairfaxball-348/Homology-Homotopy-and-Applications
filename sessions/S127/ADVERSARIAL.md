@@ -1,0 +1,6 @@
+# S127 ADVERSARIAL — endpoint, degeneracy and proof-type attack
+- Strict cutoff matters: at r=a even an edge of length exactly a is excluded, so the naive closed-left window [a,b] is FALSE. At r=b a nonedge of length exactly b is still excluded, hence the correct induced interval is (a,b]; above b the flag becomes complete on born vertices. Certified d3_at_lower_no_pairs/lower_flag_iff, middle_pair_iff, upper_flag_iff and above_upper_flag_iff.
+- Squared radius is not unsquared radius: the proof uses explicit Real.sq_sqrt and norm_nonneg; it never treats 1±ε as actual distances.
+- Negative birth heights, equal/simultaneous bit labels, empty and singleton faces, N=2, empty/complete graph, arbitrary diagonal edges: covered by universal quantifiers/explicit empty-negative lemmas. The pair statements always require i≠j.
+- First scratch hosted Lean #39422430664 FAILED exclusively on attempting to unfold imported d2GradeLE across a Lean module boundary. Exported order constructor/eliminator repair in defining BirthGrades module; corrected source #39422676029 SUCCESS. Added full endpoint/negative regime and retested #39423008236 SUCCESS.
+- The finite simplex set inclusion poset is insufficient for Top^(ℝ³) or derived homotopy coherent interleavings. Do not claim the S127 proof establishes D6 strict lower, D7 Hopf or D8 stability.
