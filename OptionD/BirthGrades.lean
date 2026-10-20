@@ -202,3 +202,16 @@ theorem d2_strict_rips_conditions (N : ℕ)
       (∀ i ∈ s, ∀ j ∈ s, i ≠ j → ‖q i - q j‖ < r) := hs
 
 end OptionD
+
+public section
+namespace OptionD
+
+/-- Export the defining-module constructor of the Boolean grade order. -/
+theorem d2_grade_le_of_forall (p q : d2Grade)
+    (h : ∀ k : Fin 2, p k ≤ q k) : d2GradeLE p q := h
+
+/-- Export the defining-module eliminator of the Boolean grade order. -/
+theorem d2_grade_le_forall (p q : d2Grade)
+    (h : d2GradeLE p q) : ∀ k : Fin 2, p k ≤ q k := h
+
+end OptionD
