@@ -36,7 +36,7 @@ theorem d1_factor_row_sum_zero (N : ℕ) (hN : 2 ≤ N)
   have hGy : (d1CenteredGram N edge).mulVec y = 0 := by
     calc
       (d1CenteredGram N edge).mulVec y = (B * B).mulVec y := by rw [hBB]
-      _ = B.mulVec (B.mulVec y) := (Matrix.mulVec_mulVec B B y).symm
+      _ = B.mulVec (B.mulVec y) := by rw [Matrix.mulVec_mulVec]
       _ = 0 := by rw [hBy, Matrix.mulVec_zero]
   obtain ⟨c, hc⟩ := (d1_centered_mulVec_kernel N hN edge hsym y).mp hGy
   have hy : y = c • u := by
@@ -92,7 +92,7 @@ theorem d1_exists_minimal_gram_points (N : ℕ) (hN : 2 ≤ N)
   let q : Fin N → EuclideanSpace ℝ (Fin (N - 1)) :=
     fun i => U ⟨p i, hp i⟩
   refine ⟨q, ?_⟩
-  change ∀ i j, ⟪q i, q j⟫_ℝ = d1CenteredGram N edge i j
+  apply d1_hasGramPoints_of_inner
   intro i j
   calc
     ⟪q i, q j⟫_ℝ =
