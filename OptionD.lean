@@ -9,3 +9,6 @@ public import OptionD.Kernel
 public import OptionD.Recovery
 public import OptionD.MatrixBridge
 public import OptionD.Rank
+public import OptionD.RealizedFlag
+public import OptionD.SpectralRoot
+public import OptionD.FullPoints

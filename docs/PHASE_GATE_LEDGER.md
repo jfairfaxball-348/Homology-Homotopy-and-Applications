@@ -413,3 +413,7 @@ OptionD/Kernel.lean and OptionD/Recovery.lean built successfully on isolated scr
 
 ## S123 — 20 October 2026 partial G3 Lean certificate
 For all N≥2 and symmetric edge data, native Matrix.PosSemidef, exact mulVec kernel and rank=N−1 compiled under pinned Lean on source SHA 2b6c63f6f2f3ff2d63187ed4268d544166e94d84 (#39379455850/#39379459546 SUCCESS). Stage G3 PARTIAL: still no EuclideanSpace ℝ (Fin (N−1)) points, norm-square/Rips theorem, D2 or D6/D7/D8. HHA novelty gate G2 owner-deferred; no Palomar Challenge/Solution comparator/registration or manuscript. PR combined and main CI must still be independently checked.
+
+## S124 — partial G3 pinned Lean, 20 October 2026
+Native spectral-root PSD factorisation, actual N-coordinate Euclidean Gram realisation, all-pair norm squared recovery and unconditional all-finset strict radius-one Rips clique equivalence; also dimension-N−1 transfer under a stated Gram witness hypothesis. IMPORTANT: actual minimal N−1 witness NOT certified; no unconditional minimal-dimensional Rips theorem, D2, or D6–D8. G3 PARTIAL and G2 NOT PASSED/owner-deferred. No Palomar, manuscript, submission or HHA original-theorem clearance.
+

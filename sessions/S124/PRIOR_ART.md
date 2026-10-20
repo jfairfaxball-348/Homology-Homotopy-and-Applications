@@ -1,0 +1,2 @@
+# S124 PRIOR_ART — expressly excluded by owner
+No new originality, primary-literature, journal-fit, HHA G2 or novelty checks were commissioned or carried out. Reading the exact pinned Mathlib matrix/order/PiL2 implementation is SOFTWARE API verification and not a new mathematical novelty survey. All originality/HHA gates remain NOT PASSED, without changing the owner's current incremental Lean objective.
