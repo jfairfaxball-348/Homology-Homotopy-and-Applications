@@ -29,7 +29,7 @@ theorem d1_centered_matrix_posSemidef (N : ℕ) (hN : 2 ≤ N)
   · intro x
     have hq := d1_centered_quadratic_nonneg N hN edge hsym x
     convert hq using 1
-    simp only [Matrix.dotProduct, Matrix.mulVec, star_trivial, Finset.mul_sum]
+    simp only [dotProduct, Matrix.mulVec, star_trivial, Finset.mul_sum]
     apply Finset.sum_congr rfl
     intro i hi
     apply Finset.sum_congr rfl
@@ -48,10 +48,10 @@ theorem d1_centered_mulVec_kernel (N : ℕ) (hN : 2 ≤ N)
     apply (d1_centered_coordinate_kernel N hN edge hsym x).mp
     intro i
     have hi := congrFun hx i
-    simpa only [Matrix.mulVec, Matrix.dotProduct, Pi.zero_apply] using hi
+    simpa only [Matrix.mulVec, dotProduct, Pi.zero_apply] using hi
   · intro hx
     have h := (d1_centered_coordinate_kernel N hN edge hsym x).mpr hx
     funext i
-    simpa only [Matrix.mulVec, Matrix.dotProduct, Pi.zero_apply] using h i
+    simpa only [Matrix.mulVec, dotProduct, Pi.zero_apply] using h i
 
 end OptionD
