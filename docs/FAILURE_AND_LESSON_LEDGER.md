@@ -602,3 +602,7 @@ Pinned Lean #39316514201 and #39316720044 succeed for quantitative centered coer
 
 ## S123 — pinned native matrix interface and rank arithmetic, 20 October 2026
 Initial Lean failed a malformed star x elaboration, namespace Matrix.dotProduct versus root dotProduct, and an omega step requiring the local A definition be unfolded in the rank+1=N hypothesis. Repairs to code only, no added mathematical hypotheses or sorry/admit/custom axioms; final source runs #39379455850/#39379459546 SUCCESS. Crucial conceptual boundary: genuine PSD and rank=N−1 do not by themselves construct dimension-exact Euclidean points, metric norms or flag Rips complexes. Need pinned square-root or quotient inner-product geometry next.
+
+## S124 — actual but one-coordinate-too-large factorisation, 20 October 2026
+Pinned CFC square root is available via Mathlib/Analysis/Matrix/Order.lean with 'open scoped MatrixOrder'. The PSD matrix order proof must be bridged through Matrix.nonneg_iff_posSemidef; directly projecting '.posSemidef' on an And-valued expression fails. Inner-product notation requires 'open scoped InnerProductSpace'. Later full-point threshold module required explicit import of OptionD.RealizedFlag. After source repairs, the mathematical boundary is substantive: Euclidean ℝ^N Gram existence and norm/Rips equality do not prove a Euclidean ℝ^(N−1) construction. S125 must explicitly certify the nullspace orthogonal-complement isometry instead of just quoting rank.
+

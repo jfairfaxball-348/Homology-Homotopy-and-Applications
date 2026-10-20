@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-20",
   "claims": [
     {
       "id": "CLM-0001",
@@ -5727,6 +5727,27 @@
       "status": "FORMALLY_CERTIFIED",
       "claim": "For every N>=2 and symmetric graph, native Matrix.rank of D1 centered Gram is N-1, including N=2.",
       "scope": "OptionD/Rank.lean kernel evaluation linear equivalence and rank-nullity, pinned Lean SUCCESS #39379455850/#39379459546. Euclidean factorisation and Rips theorem NOT built.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0592",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For all N>=2 symmetric finite graphs, an actual real symmetric spectral square root B with B*B=G produces an actual EuclideanSpace R (Fin N) point configuration with Gram entries exactly G_ij.",
+      "scope": "OptionD/SpectralRoot.lean and FullPoints.lean pinned hosted compiler. The dimensional target Fin(N-1) is still unproved; no HHA novelty or Palomar.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0593",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For all N>=2 symmetric finite graphs, actual ambient-dimension N Euclidean points recover every squared distance D_ij and have strict radius-one Vietoris-Rips finite simplices exactly the graph cliques.",
+      "scope": "OptionD/FullPoints.lean; includes diagonal and empty/singleton simplices. NOT a minimal N-1-dimensional construction, not D2/D6-D8.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0594",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "Conditionally on exact Gram points in EuclideanSpace R (Fin(N-1)), the exact norm-square D_ij, strict graph adjacency and all-finset radius-one clique correspondence hold for all symmetric N>=2 graphs.",
+      "scope": "OptionD/RealizedFlag.lean, scratch pinned Lean #39387743060 SUCCESS. Does not assert existence of dimension N-1 points.",
       "sources": []
     }
   ]

@@ -71,3 +71,7 @@ Pinned Lean #39316514201 SUCCESS (OptionD/Kernel.lean), #39316720044 SUCCESS (Op
 
 ## S123 — 20 October 2026: native matrix PSD, kernel and rank VERIFIED
 For all N≥2 with symmetric graph edge predicate, OptionD/MatrixBridge.lean proves true Mathlib Matrix.PosSemidef and exact Matrix.mulVec kernel=constants. OptionD/Rank.lean proves native Matrix.rank=N−1 using a linear equivalence of the kernel to ℝ and rank-nullity. Pinned Lean v4.35.0-rc2, Mathlib SHA 065356127b1dc0016f66b7283ce0ce2c4055aa55, exact source SHA 2b6c63f6f2f3ff2d63187ed4268d544166e94d84: hosted builds #39379455850 and #39379459546 SUCCESS. Still OPEN: p:Fin N→EuclideanSpace ℝ (Fin (N−1)), inner-product and norm identities, real strict-radius Rips graph; D2 and universal D6/D7/D8 not compiled. No novelty/Palomar/paper.
+
+## S124 — 20 October 2026: honest full-N Euclidean Gram and strict Rips, N−1 compression OPEN
+Pinned Lean S124 RealizedFlag certifies epsilon bounds and exact conditional N−1-dimensional norm and all-finset Rips clique transfer. SpectralRoot uses native Mathlib CFC.sqrt to exhibit self-adjoint B with B²=G. FullPoints exhibits ACTUAL EuclideanSpace ℝ (Fin N) points with exact inner-product Gram, squared norms D and strict radius-one clique flag; no size cutoff or graph strengthening. Exact EuclideanSpace ℝ (Fin(N−1)) points remain OPEN because the all-ones-zero-mode compression and dimension-preserving isometry have not been compiled. D2 and D6/D7/D8 remain OPEN; no novelty, Palomar or publication.
+

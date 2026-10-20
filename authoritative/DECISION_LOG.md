@@ -628,3 +628,7 @@ Fresh owner command executes S122 only from S121 main f3862550620f3d6ab4acbb377e
 
 ## S123 — native PSD and Matrix.rank certified, 20 October 2026
 Under owner's incremental Option D Lean mandate, convert S121/S122 quadratic and coordinate kernel to native Mathlib Matrix.PosSemidef and Matrix.mulVec, then derive exact Matrix.rank=N−1 for EVERY N≥2 symmetric graph by kernel evaluation and rank-nullity. Pin Lean v4.35.0-rc2 and Mathlib SHA 065356127b1dc0016f66b7283ce0ce2c4055aa55; source builds #39379455850 and #39379459546 SUCCESS after repair. Self-select S124 for actual N−1 Euclidean points, exact norm distances and Rips flag. D2/D6/D7/D8 still unformalised. No novelty audits, Palomar registry or publication.
+
+## S124 — finite spectral root, actual ambient Euclidean points, 20 October 2026
+Owner authorised continuation of incremental proof-first Option D Lean. Pinned matrix square-root API successfully supplies B²=G with B self-adjoint; genuine Euclidean ℝ^N column points recover Gram, exact squared norm and radius-one Rips flag. This is strictly stronger than earlier PSD/rank and conditional Rips but NOT yet the fixed dimension N−1. Choose S125 focused solely on formal dimension-exact isometric compression (kernel B and orthogonal complement), reusing this genuine configuration and locked squared distances. Preserve D6–D8 and owner's no-new-novelty/Palomar/paper/external-action restrictions.
+

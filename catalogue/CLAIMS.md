@@ -841,3 +841,10 @@ Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N�
 ## S123 claims — 20 October 2026
 - CLM-0590 FORMALLY_CERTIFIED: native Mathlib Matrix.PosSemidef and Matrix.mulVec kernel iff constants, all N≥2 symmetric graphs; pinned source Lean #39379455850/#39379459546 SUCCESS.
 - CLM-0591 FORMALLY_CERTIFIED: native Matrix.rank=N−1 including N=2 via kernel evaluation and rank-nullity, same pinned hosted SUCCESS. No Euclidean points/norm/Rips theorem, D2 or D6–D8; G2 and Palomar not performed.
+
+## S124 incremental Lean claims — 20 October 2026
+- **CLM-0592 FORMALLY_CERTIFIED, scoped:** pinned CFC.sqrt yields real Hermitian B with B²=G and actual Gram-realising Euclidean ℝ^N column vectors for all symmetric N≥2 graphs; S124 OptionD/SpectralRoot.lean and FullPoints.lean.
+- **CLM-0593 FORMALLY_CERTIFIED, scoped:** those true full-N Euclidean points have exact norm squares D and strict radius-one Rips simplices precisely graph cliques for every finite subset; NOT a dimension N−1 existence statement.
+- **CLM-0594 FORMALLY_CERTIFIED, conditional:** if actual Gram points in EuclideanSpace ℝ (Fin(N−1)) are supplied, their norm squares and strict unit Rips clique identification follow, while existence is OPEN.
+- G2 novelty/HHA, Palomar and downstream universal R³ D6–D8 untouched. Verify exact final PR and main hosted Lean before treating integration as complete.
+
