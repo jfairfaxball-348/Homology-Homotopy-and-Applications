@@ -57,6 +57,7 @@ theorem d1_centered_matrix_rank (N : ℕ) (hN : 2 ≤ N)
   have hNrange : A.rank + 1 = N := by
     simpa [Matrix.rank, hdim, Module.finrank_pi, Module.finrank_self,
       Fintype.card_fin] using hnullity
+  change (d1CenteredGram N edge).rank + 1 = N at hNrange
   omega
 
 end OptionD
