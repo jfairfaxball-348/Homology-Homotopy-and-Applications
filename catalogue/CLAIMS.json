@@ -5763,6 +5763,20 @@
       "claim": "For EVERY N>=2 symmetric finite graph, there exist actual points q in EuclideanSpace R (Fin (N-1)) with Gram G, all squared norms D_ij and all strict unit-radius Rips finite simplices iff graph cliques, including empty and singleton simplices.",
       "scope": "OptionD/MinimalPoints.lean d1_exists_minimal_gram_points and d1_exists_minimal_rips_flag using compiled S124 RealizedFlag. Scratch pinned Lean workflow #39399818371 SUCCESS; final PR/main CI independently required. D2/D6-D8 remain unproved.",
       "sources": []
+    },
+    {
+      "id": "CLM-0597",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For every finite N and every two-bit birth assignment w:Fin N→(Fin 2→Fin 2), selected vertex finsets obey coordinatewise monotonicity and exact intersections at coordinatewise meets, and each vertex's own birth label is its least grade. All four Boolean parameters and degenerate labels are included.",
+      "scope": "OptionD/BirthGrades.lean d2_grade_meet_iff, d2_mem_vertices_iff, d2_vertices_mono, d2_vertices_meet, d2_vertex_birth_minimal. Pinned Lean scratch SHA 5b10b2589aab51d34ba3c4b728b86272418d3e95, run 39418834637 SUCCESS. No Top^(R³) or novelty conclusion.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0598",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For all N>=2 symmetric finite graphs and every two-bit birth assignment, actual Euclidean points in dimension N-1 realise radius-one native strict Rips simplices exactly as induced graph cliques at every Boolean grade; simplices close under faces, and the native predicates are monotone in grade and radius with exact Boolean meet.",
+      "scope": "OptionD/BirthGrades.lean d2_strict_rips_unit_iff_induced, d2_strict_rips_faces, d2_strict_rips_height_mono, d2_strict_rips_radius_mono, d2_strict_rips_meet, d2_exists_minimal_induced_rips; module import exported Rips constructors in RealizedFlag. Pinned Lean run 39418834637 SUCCESS. Arbitrary real-height R³ functor, sqrt endpoints, D6/D7/D8 NOT kernel-certified.",
+      "sources": []
     }
   ]
 }
