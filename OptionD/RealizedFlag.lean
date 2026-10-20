@@ -95,6 +95,14 @@ def d1HasGramPoints (N : ℕ) (edge : Fin N → Fin N → Prop)
     (p : Fin N → EuclideanSpace ℝ (Fin (N - 1))) : Prop :=
   ∀ i j, ⟪p i, p j⟫_ℝ = d1CenteredGram N edge i j
 
+/-- Exported constructor for the Gram-point predicate. The module system
+keeps the definition abstract in importing files, so clients use this bridge. -/
+theorem d1_hasGramPoints_of_inner (N : ℕ)
+    (edge : Fin N → Fin N → Prop)
+    (p : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (hp : ∀ i j, ⟪p i, p j⟫_ℝ = d1CenteredGram N edge i j) :
+    d1HasGramPoints N edge p := hp
+
 /-- Exact recovery of the squared Euclidean norm from a Gram witness.
 No incorrect identification of squared radius with radius is made. -/
 theorem d1_gram_points_norm_sq (N : ℕ)

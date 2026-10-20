@@ -848,3 +848,6 @@ Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N�
 - **CLM-0594 FORMALLY_CERTIFIED, conditional:** if actual Gram points in EuclideanSpace ℝ (Fin(N−1)) are supplied, their norm squares and strict unit Rips clique identification follow, while existence is OPEN.
 - G2 novelty/HHA, Palomar and downstream universal R³ D6–D8 untouched. Verify exact final PR and main hosted Lean before treating integration as complete.
 
+## S125 certified minimal-dimensional D1 — 20 October 2026
+- **CLM-0595 FORMALLY_CERTIFIED:** B²=G, ker(G)=constants and G·1=0 imply B·1=0 by the short algebraic nilpotence argument, without a fabricated CFC sqrt kernel lemma. Symmetry also forces columns to sum to zero. Pinned Lean scratch #39399818371 SUCCESS.
+- **CLM-0596 FORMALLY_CERTIFIED:** genuine orthogonal complement to nonzero all-ones vector, pinned OrthonormalBasis.fromOrthogonalSpanSingleton isometry, actual q:Fin N→EuclideanSpace ℝ (Fin(N−1)), exact Gram and squared norm D, all-finset strict radius-one Rips iff cliques for all N≥2 symmetric graphs. No D2 or D6–D8; no HHA novelty/Palomar.

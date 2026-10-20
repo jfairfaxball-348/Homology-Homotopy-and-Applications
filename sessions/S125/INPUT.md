@@ -1,0 +1,2 @@
+# S125 INPUT — 20 October 2026
+Fresh user instruction: “Run next session”, from the HHA research project. Authority live main f48e1ff45767423873c422b38e18d75baa7885f1, S124 PR #149 merged ordinarily with two parents; actual S124 post-main Lean #39398166965 and integrity #39398166946 SUCCESS; no open PR at entry. Binding S125 prompt asked for exact N−1 Euclidean Gram witness, actual squared distances and full strict Rips flag; optional D2 only after success. No new novelty/HHA checks, Palomar or release.

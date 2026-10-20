@@ -1,11 +1,9 @@
-# Formal verification — Option D incremental Lean
+# Formal verification — Option D incremental Lean (S125 checkpoint, 20 October 2026)
 
-S117 (19 October 2026) introduces the first Lean project and the mathematical D1 pair/row estimates. The *target* is still the stronger D1, D2, D6–D8 real three-parameter two-height Euclidean Rips proof, not an easier weakened theorem.
+Pinned Lean `leanprover/lean4:v4.35.0-rc2` and Mathlib SHA `065356127b1dc0016f66b7283ce0ce2c4055aa55`; root `lake build OptionD` includes the entire chain.
 
-- Toolchain `leanprover/lean4:v4.35.0-rc2`; Mathlib pinned `065356127b1dc0016f66b7283ce0ce2c4055aa55`.
-- `OptionD/GramBounds.lean`: local mixed-product perturbation estimate and strict numerical Gram margin.
-- `lake build OptionD` and GitHub Actions Lean build are the verification boundary; status must be read from the actual CI job, not assumed here.
-- There is currently **no** Euclidean representation theorem, no coherent-square theorem, no Challenge/Solution comparator, no independent-kernel Palomar preflight, and no Palomar registration.
-- No sorry, admit or custom axioms intentionally appear in the proposed proof sources.
+D1 **now compiled in required dimension N−1**, no sorry/admit/custom axioms, all N≥2, all symmetric finite graphs. `OptionD/MinimalPoints.lean` proves `d1_factor_row_sum_zero`, `d1_exists_minimal_gram_points` and `d1_exists_minimal_rips_flag`: positive symmetric square root B, rows and columns zero on constants, Euclidean columns in hyperplane, exact orthogonal complement isometry onto `EuclideanSpace ℝ (Fin (N−1))`, Gram entries G, squared norms D and strict radius-one Rips-clique equivalence for every finite subset. The imported `FullPoints` and `RealizedFlag` files contain tiny exported cross-module coordinate/constructor APIs. Pinned hosted proof scratch #39399818371 SUCCESS, integrity #39399818207 SUCCESS; final PR/main checks require separate observation.
 
-See `formal/OPTION_D_FORMALIZATION_PLAN.md` for exact statement-to-Lean mapping, and `authoritative/NEXT_SESSION_PROMPT.md` for S118 (FUTURE, UNEXECUTED). No novelty audit was undertaken.
+D2 Boolean two-height births and native ℝ³ filtration are still OPEN. Universal coherent attaching theorem D6, Hopf application D7 and stability D8 are still OPEN for Lean, and no complete Option D proof has been kernel-checked. G2 originality/HHA remains owner-deferred. No Palomar Challenge/Solution/comparator/preflight/registration, no manuscript or publication.
+
+Read `sessions/S125/`, `formal/OPTION_D_FORMALIZATION_PLAN.md`, and the binding FUTURE S126 `authoritative/NEXT_SESSION_PROMPT.md`.

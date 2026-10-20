@@ -416,3 +416,6 @@ Math route INTERNAL survives hostile choice-independent residue/free-quiver/whol
 
 ## S115 — C4 modular first HHA short-note route RETIRED (19 October 2026)
 One original-source significance audit closed: internal all-real Ch(F₂[C₄]) strict metric candidate preserved. BBG bracket/multiplicative transfer and LS quantitative Toda rectification source precedents defeat novelty-of-mechanism claims; no independently nonroutine theorem/application demonstrated. G2 NOT PASSED, no claim exact preemption. Future research first-paper target requires independently evidenced fresh choice (S116 OWNER_DECISION_ONLY). Original unpointed Top^R gap OPEN long-term.
+
+## S125 — dimension-exact D1 Lean route (20 October 2026)
+POSITIVE formal milestone: spectral factor B²=G kills constant vectors by elementary two-step kernel argument; Hermitian columns lie in ones-perp and pinned Mathlib orthogonal-singleton basis carries them isometrically to ℝ^(N−1). Unconditional q Gram and exact strict unit Rips clique equivalence compiled #39399818371 for all symmetric N≥2 graphs. This completes only geometric D1; next S126 D2 Boolean vertex-height/upset/meet and honest R³ filtered flag model. Original coherent attaching/cup and quantitative all-WE separation D6–D8 still open. No priority audit.
