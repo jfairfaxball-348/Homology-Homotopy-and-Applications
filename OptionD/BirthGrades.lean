@@ -10,7 +10,7 @@ public section
 All constructions work for every finite vertex type `Fin N`. The input
 birth labels are literal two-bit vectors; no diagonal-edge, graph-size,
 or general-position hypotheses are imposed on these combinatorial lemmas.
--/-
+-/
 
 namespace OptionD
 
@@ -119,9 +119,11 @@ theorem d2_strict_rips_unit_iff_induced (N : ℕ) (hN : 2 ≤ N)
     d2StrictRips N q w p 1 s ↔ d2InducedClique N edge w p s := by
   constructor
   · rintro ⟨hv, hr⟩
-    exact ⟨hv, (d1_strict_rips_iff_clique N hN edge hsym q hq s).mp hr⟩
+    exact ⟨hv, (d1_strict_rips_iff_clique N hN edge hsym q hq s).mp
+      (d1_strict_rips_of_forall N q s hr)⟩
   · rintro ⟨hv, hc⟩
-    exact ⟨hv, (d1_strict_rips_iff_clique N hN edge hsym q hq s).mpr hc⟩
+    exact ⟨hv, d1_strict_rips_forall N q s
+      ((d1_strict_rips_iff_clique N hN edge hsym q hq s).mpr hc)⟩
 
 theorem d2_strict_rips_height_mono (N : ℕ)
     (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
@@ -147,8 +149,8 @@ theorem d2_strict_rips_meet (N : ℕ)
       d2StrictRips N q w p r s ∧ d2StrictRips N q w t r s := by
   constructor
   · rintro ⟨hv, hr⟩
-    exact ⟨⟨(fun v hs => (d2_grade_meet_iff (w v) p t).mp (hv v hs)).1, hr⟩,
-      ⟨(fun v hs => (d2_grade_meet_iff (w v) p t).mp (hv v hs)).2, hr⟩⟩
+    exact ⟨⟨(fun v hs => ((d2_grade_meet_iff (w v) p t).mp (hv v hs)).1), hr⟩,
+      ⟨(fun v hs => ((d2_grade_meet_iff (w v) p t).mp (hv v hs)).2), hr⟩⟩
   · rintro ⟨⟨hvp, hr⟩, ⟨hvt, _⟩⟩
     exact ⟨(fun v hs => (d2_grade_meet_iff (w v) p t).mpr
       ⟨hvp v hs, hvt v hs⟩), hr⟩
