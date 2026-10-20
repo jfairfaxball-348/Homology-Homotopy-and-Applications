@@ -625,3 +625,6 @@ Continue owner-authorised Option D proof-first-to-Lean incremental path, preserv
 
 ## S122 — D1 kernel and recovery decision, 19 October 2026
 Fresh owner command executes S122 only from S121 main f3862550620f3d6ab4acbb377e1ff024eaed7be1. Use pinned Lean to close exact coordinate kernel, strict quadratic zero iff constants, graph squared-distance threshold and double-centering recovery; do not assert a factorisation that has not been compiled. Both scratch compiler runs #39316514201 and #39316720044 SUCCESS. Continue S123 FUTURE with strict Matrix rank and actual Euclidean N−1 point geometry, then D2; D6–D8 remain the fixed primary theorem. No novelty audits, Palomar, manuscript or external acts.
+
+## S123 — native PSD and Matrix.rank certified, 20 October 2026
+Under owner's incremental Option D Lean mandate, convert S121/S122 quadratic and coordinate kernel to native Mathlib Matrix.PosSemidef and Matrix.mulVec, then derive exact Matrix.rank=N−1 for EVERY N≥2 symmetric graph by kernel evaluation and rank-nullity. Pin Lean v4.35.0-rc2 and Mathlib SHA 065356127b1dc0016f66b7283ce0ce2c4055aa55; source builds #39379455850 and #39379459546 SUCCESS after repair. Self-select S124 for actual N−1 Euclidean points, exact norm distances and Rips flag. D2/D6/D7/D8 still unformalised. No novelty audits, Palomar registry or publication.

@@ -410,3 +410,6 @@ Pinned Lean source with explicit symmetric graph hypothesis now proves **all-vec
 
 ## S122 — G3 incremental pinned Lean (19 October 2026)
 OptionD/Kernel.lean and OptionD/Recovery.lean built successfully on isolated scratch SHA d02286f3b92e284e4d409757fd29b428ab4f1be5 via pinned workflow #39316720044. Full N≥2 centered q_G=0 iff constant, coordinate kernel exact, graph squared threshold and precise symmetric hollow D recovery. Formal Matrix.rank N−1 theorem, factorisation and Euclidean (N−1)-dimensional point coordinates OPEN; D2 and D6–D8 not Lean-formalised. G2 novelty/HHA explicitly owner-deferred; no comparator/Palomar preflight, no registry, manuscript or publication.
+
+## S123 — 20 October 2026 partial G3 Lean certificate
+For all N≥2 and symmetric edge data, native Matrix.PosSemidef, exact mulVec kernel and rank=N−1 compiled under pinned Lean on source SHA 2b6c63f6f2f3ff2d63187ed4268d544166e94d84 (#39379455850/#39379459546 SUCCESS). Stage G3 PARTIAL: still no EuclideanSpace ℝ (Fin (N−1)) points, norm-square/Rips theorem, D2 or D6/D7/D8. HHA novelty gate G2 owner-deferred; no Palomar Challenge/Solution comparator/registration or manuscript. PR combined and main CI must still be independently checked.
