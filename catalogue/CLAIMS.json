@@ -5714,6 +5714,20 @@
       "claim": "For every finite symmetric edge predicate, the exact double-centering recovery identity G_ii+G_jj-2G_ij=D_ij is verified by Lean for all i,j, including diagonal, with no metric-point construction assumption.",
       "scope": "OptionD/Recovery.lean, pinned Lean scratch #39316720044 SUCCESS. Euclidean points of dimension N-1, norm-squared equalities and Rips graph have NOT yet been built.",
       "sources": []
+    },
+    {
+      "id": "CLM-0590",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For every N>=2 and symmetric graph, centered D1 Gram is native Mathlib Matrix.PosSemidef and has Matrix.mulVec kernel exactly constants.",
+      "scope": "OptionD/MatrixBridge.lean, pinned hosted Lean SUCCESS #39379455850/#39379459546. No Euclidean coordinates/Rips, D2 or D6-D8, G2 or Palomar.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0591",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For every N>=2 and symmetric graph, native Matrix.rank of D1 centered Gram is N-1, including N=2.",
+      "scope": "OptionD/Rank.lean kernel evaluation linear equivalence and rank-nullity, pinned Lean SUCCESS #39379455850/#39379459546. Euclidean factorisation and Rips theorem NOT built.",
+      "sources": []
     }
   ]
 }
