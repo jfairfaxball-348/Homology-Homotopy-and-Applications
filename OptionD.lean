@@ -7,3 +7,4 @@ public import OptionD.CenteredMatrix
 public import OptionD.CenteredPSD
 public import OptionD.Kernel
 public import OptionD.Recovery
+public import OptionD.MatrixBridge
