@@ -25,6 +25,11 @@ noncomputable def d1FullSpacePoints (N : ℕ)
     Fin N → EuclideanSpace ℝ (Fin N) :=
   fun i => WithLp.toLp 2 (fun k : Fin N => B k i)
 
+/-- Exported coordinate access for the canonical Euclidean columns. -/
+theorem d1_full_space_points_coord (N : ℕ)
+    (B : Matrix (Fin N) (Fin N) ℝ) (i k : Fin N) :
+    (d1FullSpacePoints N B i) k = B k i := rfl
+
 /-- A symmetric factor B with B²=G supplies a genuine Euclidean point
 configuration realising every entry of the Gram matrix in dimension N. -/
 theorem d1_full_space_points_gram (N : ℕ)
