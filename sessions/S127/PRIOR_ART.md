@@ -1,0 +1,2 @@
+# S127 PRIOR_ART — deliberately no new audit
+The owner explicitly forbade fresh novelty, prior-art and HHA G2 research during incremental Lean verification. NONE was performed in S127. Historical source provenance, internal Option D prose theorem and prior unverified HHA significance remain as inherited. Machine compilation is proof of the stated scoped Lean declarations, not a priority or publication judgment; G2 NOT PASSED. No Palomar or submissions.
