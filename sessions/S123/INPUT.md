@@ -1,0 +1,2 @@
+# S123 INPUT — 20 October 2026
+Owner command: Run next session / Continue. Entry main 19334174c58f5b71e3a2ecac4bb9c7e43168ff73 (S122 PR #147 merged), no open PR at entry; S122 pinned main Lean and repository-integrity checks green. Canonical S123 task: bridge centered Gram PSD, constant coordinate kernel and symmetric D1 data to native matrix rank, exact N−1 Euclidean point geometry and eventually real Rips threshold. Preserve Option D D6/D7/D8 and owner's ban on new novelty/Palomar/paper/external contact. Branch formal/S123-matrix-psd-rank, PR #148.

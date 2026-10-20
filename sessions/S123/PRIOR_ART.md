@@ -1,0 +1,2 @@
+# S123 PRIOR_ART — owner-deferred
+No originality, closest-paper, HHA journal-fit or independent novelty survey was commissioned or performed. The owner expressly chose incremental Lean formalisation of existing internal Option D mathematics without novelty checks. This file records **deferral**, not a passed G2 gate. Native Mathlib source API inspection is software verification, not a mathematical priority search.
