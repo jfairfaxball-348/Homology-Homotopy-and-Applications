@@ -97,13 +97,15 @@ theorem d3_boolean_birth_iff (N : ℕ) (w : Fin N → d2Grade)
     (p : d2Grade) (v : Fin N) :
     d3Born N w (d3BooleanHeight p) v ↔ d2GradeLE (w v) p := by
   constructor
-  · intro h k
+  · intro h
+    apply d2_grade_le_of_forall
+    intro k
     have hk := h k
     change ((w v k).val : ℝ) ≤ ((p k).val : ℝ) at hk
     exact_mod_cast hk
   · intro h k
     change ((w v k).val : ℝ) ≤ ((p k).val : ℝ)
-    exact_mod_cast h k
+    exact_mod_cast d2_grade_le_forall (w v) p h k
 
 /-- Every real Boolean slice agrees with the exact S126 selected flag. -/
 theorem d3_boolean_slice (N : ℕ)
