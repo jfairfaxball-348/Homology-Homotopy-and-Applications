@@ -34,7 +34,10 @@ theorem d1_factor_row_sum_zero (N : ℕ) (hN : 2 ≤ N)
     have h : (B * B).mulVec u = 0 := by simpa only [hBB] using hGu
     simpa only [Matrix.mulVec_mulVec, y] using h
   have hGy : (d1CenteredGram N edge).mulVec y = 0 := by
-    rw [← hBB, Matrix.mulVec_mulVec, hBy, Matrix.mulVec_zero]
+    calc
+      (d1CenteredGram N edge).mulVec y = (B * B).mulVec y := by rw [hBB]
+      _ = B.mulVec (B.mulVec y) := (Matrix.mulVec_mulVec B B y).symm
+      _ = 0 := by rw [hBy, Matrix.mulVec_zero]
   obtain ⟨c, hc⟩ := (d1_centered_mulVec_kernel N hN edge hsym y).mp hGy
   have hy : y = c • u := by
     funext k
@@ -42,9 +45,9 @@ theorem d1_factor_row_sum_zero (N : ℕ) (hN : 2 ≤ N)
   have hcy : c * c = 0 := by
     have h := congrFun hBy i
     rw [hy, Matrix.mulVec_smul] at h
-    have hic : y i = c := hc i
     change c * (B.mulVec u) i = 0 at h
-    simpa only [← y, hic] using h
+    have hic : (B.mulVec u) i = c := hc i
+    rwa [hic] at h
   have hc0 : c = 0 := by nlinarith [sq_nonneg c]
   have hBu : B.mulVec u = 0 := by
     change y = 0
@@ -74,7 +77,7 @@ theorem d1_exists_minimal_gram_points (N : ℕ) (hN : 2 ≤ N)
     apply Submodule.mem_orthogonal_singleton_iff_inner_right.mpr
     have hinner : ⟪v, p i⟫_ℝ = ∑ k : Fin N, B k i := by
       rw [EuclideanSpace.inner_eq_star_dotProduct]
-      simp [dotProduct, v, p, d1FullSpacePoints]
+      simp [dotProduct, v, p, d1_full_space_points_coord]
     rw [hinner]
     calc
       (∑ k : Fin N, B k i) = ∑ k : Fin N, B i k := by
@@ -89,6 +92,7 @@ theorem d1_exists_minimal_gram_points (N : ℕ) (hN : 2 ≤ N)
   let q : Fin N → EuclideanSpace ℝ (Fin (N - 1)) :=
     fun i => U ⟨p i, hp i⟩
   refine ⟨q, ?_⟩
+  change ∀ i j, ⟪q i, q j⟫_ℝ = d1CenteredGram N edge i j
   intro i j
   calc
     ⟪q i, q j⟫_ℝ =
