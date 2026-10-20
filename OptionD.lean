@@ -12,3 +12,4 @@ public import OptionD.Rank
 public import OptionD.RealizedFlag
 public import OptionD.SpectralRoot
 public import OptionD.FullPoints
+public import OptionD.MinimalPoints
