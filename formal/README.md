@@ -7,3 +7,6 @@ D1 **now compiled in required dimension N−1**, no sorry/admit/custom axioms, a
 D2 Boolean two-height births and native ℝ³ filtration are still OPEN. Universal coherent attaching theorem D6, Hopf application D7 and stability D8 are still OPEN for Lean, and no complete Option D proof has been kernel-checked. G2 originality/HHA remains owner-deferred. No Palomar Challenge/Solution/comparator/preflight/registration, no manuscript or publication.
 
 Read `sessions/S125/`, `formal/OPTION_D_FORMALIZATION_PLAN.md`, and the binding FUTURE S126 `authoritative/NEXT_SESSION_PROMPT.md`.
+
+## S126 checkpoint (20 October 2026)
+`OptionD/BirthGrades.lean` is now pinned-Lean certified (scratch #39418834637 SUCCESS; integrity #39418834532 SUCCESS). It proves B₂ birth-label order, minimal grades, exact selected vertex-set meets, face closure, grade/radius monotonicity and ALL-grade radius-one induced strict Rips clique equality on actual Euclidean R^(N−1) points. `RealizedFlag.lean` exports the strict-Rips constructor/eliminator across module boundaries. Genuine real-indexed ℝ³ filtration and exact a/b endpoints are S127 targets, NOT already certified. D6/D7/D8 remain unformalised, G2 owner-deferred; no Palomar or publication.

@@ -171,4 +171,18 @@ theorem d1_strict_rips_iff_clique (N : ℕ) (hN : 2 ≤ N)
     exact (d1_gram_points_norm_lt_one_iff N hN edge hsym p hp i j hij).mpr
       (h i hi j hj hij)
 
+
+/-- Export the defining-module constructor for the native strict Rips predicate. -/
+theorem d1_strict_rips_of_forall (N : ℕ)
+    (p : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (s : Finset (Fin N))
+    (h : ∀ i ∈ s, ∀ j ∈ s, i ≠ j → ‖p i - p j‖ < 1) :
+    d1StrictRipsSimplex N p s := h
+
+/-- Export the defining-module eliminator for the native strict Rips predicate. -/
+theorem d1_strict_rips_forall (N : ℕ)
+    (p : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (s : Finset (Fin N)) (h : d1StrictRipsSimplex N p s) :
+    ∀ i ∈ s, ∀ j ∈ s, i ≠ j → ‖p i - p j‖ < 1 := h
+
 end OptionD

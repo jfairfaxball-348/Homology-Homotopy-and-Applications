@@ -1,0 +1,2 @@
+# S126 PRIOR ART — boundary declaration
+No new prior-art searches or HHA novelty checks were run, as expressly excluded by the S126 owner mandate. The source mathematical proof target remains the merged Option D two-height universal attaching route, with published Mathlib/Lean APIs pinned in the repository. S126 adds internal kernel-certified geometric/combinatorial infrastructure and makes NO claim that this infrastructure or downstream D6–D8 is original or HHA-worthy. Previous catalogue provenance and unresolved novelty gate remain unchanged.
