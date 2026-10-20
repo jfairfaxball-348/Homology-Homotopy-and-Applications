@@ -34,10 +34,8 @@ theorem d1_factor_row_sum_zero (N : ℕ) (hN : 2 ≤ N)
     have h : (B * B).mulVec u = 0 := by simpa only [hBB] using hGu
     simpa only [Matrix.mulVec_mulVec, y] using h
   have hGy : (d1CenteredGram N edge).mulVec y = 0 := by
-    calc
-      (d1CenteredGram N edge).mulVec y = (B * B).mulVec y := by rw [hBB]
-      _ = B.mulVec (B.mulVec y) := by rw [Matrix.mulVec_mulVec]
-      _ = 0 := by rw [hBy, Matrix.mulVec_zero]
+    have hh := congrArg (fun z : Fin N → ℝ => B.mulVec z) hBy
+    simpa only [Matrix.mulVec_mulVec, Matrix.mulVec_zero, hBB] using hh
   obtain ⟨c, hc⟩ := (d1_centered_mulVec_kernel N hN edge hsym y).mp hGy
   have hy : y = c • u := by
     funext k
