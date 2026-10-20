@@ -295,4 +295,76 @@ theorem d3_exists_real_middle_flag (N : ℕ) (hN : 2 ≤ N)
   exact ⟨q, d1_gram_points_norm_sq N edge hsym q hq,
     (fun h r ha hb s => d3_middle_flag_iff N hN edge hsym q hq w h r ha hb s)⟩
 
+
+/-- The empty simplex survives at every real parameter, including negatives. -/
+theorem d3_empty_simplex (N : ℕ)
+    (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (w : Fin N → d2Grade) (h : Fin 2 → ℝ) (r : ℝ) :
+    d3StrictRips N q w h r ∅ := by
+  constructor <;> simp
+
+/-- If either height is negative, no vertex can have been born. -/
+theorem d3_no_birth_below_zero (N : ℕ)
+    (w : Fin N → d2Grade) (h : Fin 2 → ℝ)
+    (k : Fin 2) (hk : h k < 0) (v : Fin N) :
+    ¬ d3Born N w h v := by
+  intro hv
+  have hnonneg : (0 : ℝ) ≤ ((w v k).val : ℝ) := by positivity
+  have hborn := hv k
+  linarith
+
+/-- Exactly at the left critical radius, strict Rips has no two-point
+simplex. Only empty and singleton finite subsets pass the pair condition. -/
+theorem d3_lower_flag_iff (N : ℕ) (hN : 2 ≤ N)
+    (edge : Fin N → Fin N → Prop)
+    (hsym : ∀ i j, edge i j ↔ edge j i)
+    (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (hq : d1HasGramPoints N edge q)
+    (w : Fin N → d2Grade) (h : Fin 2 → ℝ)
+    (s : Finset (Fin N)) :
+    d3StrictRips N q w h (d3LowerRadius N) s ↔
+      (∀ v ∈ s, d3Born N w h v) ∧
+        (∀ i ∈ s, ∀ j ∈ s, i = j) := by
+  constructor
+  · rintro ⟨hv, hr⟩
+    refine ⟨hv, ?_⟩
+    intro i hi j hj
+    by_contra hij
+    exact d3_at_lower_no_pairs N hN edge hsym q hq i j hij (hr i hi j hj hij)
+  · rintro ⟨hv, heq⟩
+    refine ⟨hv, ?_⟩
+    intro i hi j hj hij
+    exact (hij (heq i hi j hj)).elim
+
+/-- At the *closed* right endpoint, nonedges have distance exactly b,
+so the strict flag is still precisely the original graph flag. -/
+theorem d3_upper_flag_iff (N : ℕ) (hN : 2 ≤ N)
+    (edge : Fin N → Fin N → Prop)
+    (hsym : ∀ i j, edge i j ↔ edge j i)
+    (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (hq : d1HasGramPoints N edge q)
+    (w : Fin N → d2Grade) (h : Fin 2 → ℝ)
+    (s : Finset (Fin N)) :
+    d3StrictRips N q w h (d3UpperRadius N) s ↔
+      (∀ v ∈ s, d3Born N w h v) ∧ d1IsClique N edge s :=
+  d3_middle_flag_iff N hN edge hsym q hq w h (d3UpperRadius N)
+    (d3_lower_lt_upper N hN) (le_refl _) s
+
+/-- Above b every available finite vertex subset is a simplex, even if
+the original graph was empty. -/
+theorem d3_above_upper_flag_iff (N : ℕ) (hN : 2 ≤ N)
+    (edge : Fin N → Fin N → Prop)
+    (hsym : ∀ i j, edge i j ↔ edge j i)
+    (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (hq : d1HasGramPoints N edge q)
+    (w : Fin N → d2Grade) (h : Fin 2 → ℝ)
+    (r : ℝ) (hr : d3UpperRadius N < r)
+    (s : Finset (Fin N)) :
+    d3StrictRips N q w h r s ↔ ∀ v ∈ s, d3Born N w h v := by
+  constructor
+  · exact And.left
+  · intro hv
+    exact ⟨hv, (fun i hi j hj hij =>
+      d3_above_upper_all_pairs N hN edge hsym q hq i j hij r hr)⟩
+
 end OptionD
