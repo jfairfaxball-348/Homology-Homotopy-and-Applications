@@ -28,18 +28,13 @@ theorem d1_centered_matrix_posSemidef (N : ℕ) (hN : 2 ≤ N)
     simpa using d1_centered_gram_symmetric N edge hsym j i
   · intro x
     have hq := d1_centered_quadratic_nonneg N hN edge hsym x
-    have hform :
-        (star x ⬝ᵥ (d1CenteredGram N edge *ᵥ x)) =
-          ∑ i : Fin N, ∑ j : Fin N,
-            d1CenteredGram N edge i j * x i * x j := by
-      simp only [Matrix.dotProduct, Matrix.mulVec, star_trivial, Finset.mul_sum]
-      apply Finset.sum_congr rfl
-      intro i hi
-      apply Finset.sum_congr rfl
-      intro j hj
-      ring
-    rw [hform]
-    exact hq
+    convert hq using 1
+    simp only [Matrix.dotProduct, Matrix.mulVec, star_trivial, Finset.mul_sum]
+    apply Finset.sum_congr rfl
+    intro i hi
+    apply Finset.sum_congr rfl
+    intro j hj
+    ring
 
 /-- The genuine Matrix.mulVec kernel is exactly the one-dimensional
 space of constant functions: no exceptional graph or size is excluded. -/
@@ -48,8 +43,15 @@ theorem d1_centered_mulVec_kernel (N : ℕ) (hN : 2 ≤ N)
     (hsym : ∀ i j, edge i j ↔ edge j i) (x : Fin N → ℝ) :
     (d1CenteredGram N edge).mulVec x = 0 ↔
       ∃ c : ℝ, ∀ i : Fin N, x i = c := by
-  change (∀ i : Fin N,
-    (∑ j : Fin N, d1CenteredGram N edge i j * x j) = 0) ↔ _
-  exact d1_centered_coordinate_kernel N hN edge hsym x
+  constructor
+  · intro hx
+    apply (d1_centered_coordinate_kernel N hN edge hsym x).mp
+    intro i
+    have hi := congrFun hx i
+    simpa only [Matrix.mulVec, Matrix.dotProduct, Pi.zero_apply] using hi
+  · intro hx
+    have h := (d1_centered_coordinate_kernel N hN edge hsym x).mpr hx
+    funext i
+    simpa only [Matrix.mulVec, Matrix.dotProduct, Pi.zero_apply] using h i
 
 end OptionD
