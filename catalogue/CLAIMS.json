@@ -5749,6 +5749,20 @@
       "claim": "Conditionally on exact Gram points in EuclideanSpace R (Fin(N-1)), the exact norm-square D_ij, strict graph adjacency and all-finset radius-one clique correspondence hold for all symmetric N>=2 graphs.",
       "scope": "OptionD/RealizedFlag.lean, scratch pinned Lean #39387743060 SUCCESS. Does not assert existence of dimension N-1 points.",
       "sources": []
+    },
+    {
+      "id": "CLM-0595",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For every N>=2 and symmetric finite graph, any real B satisfying B²=its centered Gram G has zero row sums; the Hermitian positive spectral factor also has zero column sums, so its actual Euclidean columns lie in the all-ones orthogonal hyperplane.",
+      "scope": "OptionD/MinimalPoints.lean d1_factor_row_sum_zero and d1_exists_minimal_gram_points; scratch pinned Lean workflow #39399818371 SUCCESS. Kernel-algebra argument independent of any new sqrt-kernel axiom. No originality/HHA claim.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0596",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For EVERY N>=2 symmetric finite graph, there exist actual points q in EuclideanSpace R (Fin (N-1)) with Gram G, all squared norms D_ij and all strict unit-radius Rips finite simplices iff graph cliques, including empty and singleton simplices.",
+      "scope": "OptionD/MinimalPoints.lean d1_exists_minimal_gram_points and d1_exists_minimal_rips_flag using compiled S124 RealizedFlag. Scratch pinned Lean workflow #39399818371 SUCCESS; final PR/main CI independently required. D2/D6-D8 remain unproved.",
+      "sources": []
     }
   ]
 }

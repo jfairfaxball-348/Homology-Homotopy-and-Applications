@@ -2,13 +2,13 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-20",
-  "last_completed_session": "S124",
-  "recommended_next_session": "S125",
+  "last_completed_session": "S125",
+  "recommended_next_session": "S126",
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S123 Lean-certified native Matrix.PosSemidef, exact Matrix.mulVec kernel and rank N−1 for every N≥2 symmetric graph; Euclidean points/Rips and D2/D6–D8 OPEN",
+  "headline": "S125 pinned Lean-certified exact Euclidean R^(N−1) Gram points and strict radius-one Rips clique flag for every symmetric N≥2 graph; D2/D6–D8 remain open",
   "selected_mathematical_problem": "Option D D6 universal two-height Euclidean R3 Vietoris-Rips attaching-map/cofiber interleaving obstruction, D7 two-block Hopf specialization and D8 stability, based on D1–D2.",
-  "headline_status": "S123_NATIVE_MATRIX_PSD_KERNEL_RANK_PINNED_GREEN_POINTS_OPEN",
-  "active_campaign": "OPTION_D_INCREMENTAL_LEAN_S124_FUTURE",
+  "headline_status": "S125_MINIMAL_DIMENSION_D1_PINNED_LEAN_PASS_D2_D6_D7_D8_OPEN",
+  "active_campaign": "OPTION_D_INCREMENTAL_LEAN_S126_FUTURE",
   "claim_of_new_theorem": "No new S116 theorem; C4 internal hierarchy preserved but retired as FIRST HHA paper.",
   "stages": [
     {
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "name": "Lean formalisation and build certification",
-      "status": "S124_GENUINE_EUCLIDEAN_AMBIENT_N_GRAM_NORM_RIPS_PINNED_LEAN_MINIMAL_N_MINUS1_OPEN"
+      "status": "S125_PINNED_LEAN_DIM_N_MINUS1_GRAM_AND_STRICT_RIPS_COMPLETE_D2_D6_D7_D8_OPEN"
     },
     {
       "id": 4,
@@ -2289,5 +2289,26 @@
     "novelty_gate": "OWNER_DEFERRED",
     "palomar": "NOT_AUTHORIZED",
     "next": "S125_FUTURE_UNEXECUTED"
+  },
+  "s125_checkpoint": {
+    "date": "2026-10-20",
+    "entry_main_sha": "f48e1ff45767423873c422b38e18d75baa7885f1",
+    "entry_main_tree": "d3051581661c91f6e0ca10b9e964ea5edf3dfa7d",
+    "source_scratch_sha": "1fb4dd2db2c534377b7b69c98c20780ebc470368",
+    "source_lean_workflow_run": 39399818371,
+    "source_integrity_run": 39399818207,
+    "source_lean_status": "SUCCESS",
+    "proved": [
+      "factor square B annihilates constant vector",
+      "actual dimension N−1 Euclidean Gram points for all symmetric N>=2 graphs",
+      "exact pairwise squared Euclidean distances",
+      "strict radius-one finite Rips simplex iff graph clique"
+    ],
+    "not_certified": [
+      "D2 Boolean meet/upset and R3 filtration",
+      "D6/D7/D8 coherence, Hopf and stability",
+      "Palomar and HHA originality"
+    ],
+    "next": "S126 FUTURE UNEXECUTED Boolean two-height births and parameterized induced flag"
   }
 }

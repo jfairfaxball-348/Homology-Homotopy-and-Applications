@@ -1,0 +1,2 @@
+# S125 PRIOR_ART
+Owner explicitly excluded new novelty/prior-art/HHA G2 audits. This is a Lean formalisation of the already selected internally proved Option D D1 Euclidean transfer, not a new external claim or priority finding. Mathlib API checks were to the exact pinned source only. G2 NOT PASSED; no paper or external contact.
