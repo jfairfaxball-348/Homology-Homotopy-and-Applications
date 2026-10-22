@@ -158,4 +158,13 @@ theorem d3_two_ordinary_comparison_not_full :
   rw [h]
   exact Set.mem_univ _
 
+
+/-- S131 evaluation of the ordinary attaching inclusion. -/
+theorem d3_ordinary_attaching_val {N : ℕ}
+    (B C D : d3FiniteComplex N)
+    (hB : B ≤ D) (hC : C ≤ D)
+    (x : d3BarycentricSpace (d3CornerUnion B C)) :
+    ((d3OrdinaryAttachingComparison B C D hB hC) x).val = x.val := by
+  exact d3_barycentric_inclusion_val _ _ _ x
+
 end OptionD

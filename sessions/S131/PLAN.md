@@ -1,0 +1,3 @@
+# S131 PLAN — 22 October 2026
+
+Prove identity, composition and commuting canonical projection laws of S130's honest quotient-topological cofiber functor; prove naturality of finite-simplicial corner union and union→terminal inclusions and construct strict map of cofibers. Diagnose Lean4 public module opacity with small exported evaluation APIs. Independently inspect the two-opposite-birth S¹ example, the CW/cofibration criterion, the full-real two-height plateau and D6 universal bridge, distinguishing Lean compilation from conditional textbook topology. Require scratch and final PR/main independent Lean/integrity checks before strong certification. Install future S132 handoff without executing it.
