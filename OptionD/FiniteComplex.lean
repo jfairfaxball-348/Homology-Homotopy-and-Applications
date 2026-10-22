@@ -86,7 +86,7 @@ def d3ComplexDiagram (N : ℕ)
     apply homOfLE
     apply d3_rips_complex_mono
     exact d3_parameter_le_of_components u v
-      (fun k => (leOfHom f.1) k) (leOfHom f.2)
+      (fun k => leOfHom (f.1 k)) (leOfHom f.2)
   map_id := by
     intro u
     apply Subsingleton.elim
@@ -98,15 +98,15 @@ def d3ComplexDiagram (N : ℕ)
 in at least one face. The existential support avoids a noncomputable
 decidable equality test for real coefficients. -/
 def d3BarycentricCarrier {N : ℕ} (K : d3FiniteComplex N) :
-    Set (Fin N → ℝ) :=
+    Set (EuclideanSpace ℝ (Fin N)) :=
   fun x =>
     (∀ i, 0 ≤ x i) ∧ (∑ i : Fin N, x i) = 1 ∧
       ∃ s : Finset (Fin N), s ∈ K.faces ∧
         ∀ i : Fin N, x i ≠ 0 → i ∈ s
 
-/-- Geometric realisation in the ordinary point-set topology of ℝ^N. -/
+/-- Geometric realisation in the ordinary point-set topology of Euclidean ℝ^N. -/
 def d3BarycentricSpace {N : ℕ} (K : d3FiniteComplex N) :=
-  { x : Fin N → ℝ // x ∈ d3BarycentricCarrier K }
+  { x : EuclideanSpace ℝ (Fin N) // x ∈ d3BarycentricCarrier K }
 
 /-- Every simplicial inclusion acts as a continuous inclusion on
 barycentric realisations, with the *same* ambient coordinate map. -/
