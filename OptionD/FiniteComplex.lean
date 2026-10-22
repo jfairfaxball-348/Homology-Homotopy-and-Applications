@@ -189,6 +189,6 @@ theorem d3_realisations_square_commutes {N : ℕ}
 theorem d3_barycentric_inclusion_val {N : ℕ}
     (K M : d3FiniteComplex N) (h : K ≤ M)
     (x : d3BarycentricSpace K) :
-    ((d3BarycentricInclusion K M h) x).val = x.val := rfl
+    ((d3BarycentricInclusion K M h) x).val = x.val := by exact (rfl)
 
 end OptionD
