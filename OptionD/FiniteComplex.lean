@@ -105,7 +105,7 @@ def d3BarycentricCarrier {N : ℕ} (K : d3FiniteComplex N) :
         ∀ i : Fin N, x i ≠ 0 → i ∈ s
 
 /-- Geometric realisation in the ordinary point-set topology of Euclidean ℝ^N. -/
-def d3BarycentricSpace {N : ℕ} (K : d3FiniteComplex N) :=
+abbrev d3BarycentricSpace {N : ℕ} (K : d3FiniteComplex N) :=
   { x : EuclideanSpace ℝ (Fin N) // x ∈ d3BarycentricCarrier K }
 
 /-- Every simplicial inclusion acts as a continuous inclusion on
