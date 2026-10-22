@@ -17,3 +17,4 @@ public import OptionD.BirthGrades
 public import OptionD.RealFiltration
 public import OptionD.FiniteComplex
 public import OptionD.AttachingBoundary
+public import OptionD.RelativeCofiber
