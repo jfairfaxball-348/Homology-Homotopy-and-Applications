@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-20",
+  "as_of": "2026-10-22",
   "claims": [
     {
       "id": "CLM-0001",
@@ -5790,6 +5790,27 @@
       "status": "FORMALLY_CERTIFIED",
       "claim": "For all N>=2 symmetric finite graphs and genuine q in EuclideanSpace R (Fin(N-1)), every distinct edge distance equals a=sqrt(1-epsilon), every distinct nonedge distance equals b=sqrt(1+epsilon), with a<1<b: at r=a no pair is a strict simplex, for a<r<=b every real-height Rips simplex is exactly a selected graph clique, and above b all born vertices span the complete flag; negative heights contain no vertices.",
       "scope": "OptionD/RealFiltration.lean critical sqrt, pair/flag and endpoint theorems, including exact r=b, empty/simplex and negative heights, compiled hosted Lean #39423008236 SUCCESS on SHA f033afbe2ba7a5645b66049dab3f91c22130cc49. No D6 derived cofiber, D7 Hopf or D8 stability certification, no novelty/Palomar.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0601",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For every N and each actual all-real R²×R strict Rips family on Fin N, the simplex predicates form a genuine face-closed finite abstract simplicial complex, ordered by face inclusion, and a covariant functor from the full real parameter product category; identities and compositions hold by thin-category law.",
+      "scope": "OptionD/FiniteComplex.lean d3FiniteComplex, d3RipsComplex, d3_rips_complex_faces/mono, d3ComplexDiagram; exported S127 interfaces in OptionD/RealFiltration.lean. Exact scratch SHA 3eb2232e3699bcc2934b880097d52a38007006ad, hosted pinned Lean #39756075262 SUCCESS. Does not assert any topological weak equivalence or derived homotopy pushout.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0602",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "Finite Rips complexes have genuine Euclidean barycentric subspace realisations, inclusion-induced continuous maps, an ordinary covariant TopCat realisation functor and composite full-real R²×R→TopCat diagram; all four-corner continuous inclusion squares strictly commute.",
+      "scope": "OptionD/FiniteComplex.lean d3BarycentricCarrier/Space/Inclusion, d3_barycentric_inclusion_id/comp, d3RealisationFunctor, d3TopologicalDiagram, d3_realisations_square_commutes; pinned scratch Lean #39756075262 SUCCESS. Strict natural TopCat diagram is NOT proof of homotopy cocartesianness, arbitrary whole-WE zigzags, derived D6, Hopf D7 or robustness D8.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0603",
+      "status": "PROGRAMME_PROVED",
+      "claim": "At a<r≤b, a two-vertex edge graph with opposite Boolean height births produces a genuine Rips square with empty lower-left realisation, singleton upper-left and lower-right, and an interval at upper-right. Its homotopy pushout of the other three corners has two components, so the canonical map to the contractible interval is not a weak equivalence. Hence commutative Rips inclusions need not be a homotopy-pushout square.",
+      "scope": "Direct finite example and π₀ calculation in sessions/S128/MATHEMATICS.md and ADVERSARIAL.md. Mathematical hand proof, NOT a Lean-certification of homotopy pushouts/π₀; the underlying all-real geometric construction and strict squares are separately Lean-built at #39756075262.",
       "sources": []
     }
   ]
