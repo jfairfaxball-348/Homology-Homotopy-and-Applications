@@ -5840,6 +5840,13 @@
       "claim": "Actual continuous topological quotient maps and ordinary point-set cofiber maps satisfy strict identity, composition and projection naturality; the union-to-terminal simplicial attaching comparison is natural under nested finite-complex inclusions and induces an actual continuous map of ordinary cofibers.",
       "scope": "S131 OptionD/CofiberNaturality.lean with defining-module evaluation lemmas in OptionD/{FiniteComplex,AttachingBoundary,RelativeCofiber}.lean. Scratch commit 6752341da25063924813cfca38ed3e8c14e81568, pinned Lean #39779486962 SUCCESS, repository integrity #39779486950 SUCCESS. Excludes full categorical arrow-functor package, derived homotopy cofibers, S1 homeomorphism, unrestricted D6/D7/D8.",
       "sources": []
+    },
+    {
+      "id": "CLM-0608",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "The ordinary point-set cofiber construction defines an actual covariant functor from Mathlib's Arrow TopCat (strictly commuting continuous squares) to TopCat, using genuine quotient topologies; finite simplicial union-to-terminal attaching comparisons form arrow objects with strict nested attaching morphisms.",
+      "scope": "OptionD/ArrowCofiber.lean: d3_arrow_square_commutes, d3PointCofiberArrowFunctor, d3AttachingArrow, d3AttachingArrowMap. Scratch a813d406c1a06ab7a5e6b9fe2fa4e47b1b1da36a pinned Lean #39833792648 SUCCESS and integrity #39833792658 SUCCESS. NOT a derived homotopy cofiber, S1 homeomorphism, CW cofibration theorem, homotopy pushout, real-R3 interleaving result or D6/D7/D8.",
+      "sources": []
     }
   ]
 }

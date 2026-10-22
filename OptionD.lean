@@ -19,3 +19,4 @@ public import OptionD.FiniteComplex
 public import OptionD.AttachingBoundary
 public import OptionD.RelativeCofiber
 public import OptionD.CofiberNaturality
+public import OptionD.ArrowCofiber
