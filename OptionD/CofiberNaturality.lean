@@ -32,8 +32,11 @@ theorem d3_collapse_map_id {X : Type*} [TopologicalSpace X]
   ext q
   refine Quotient.inductionOn q ?_
   intro x
-  simp only [ContinuousMap.id_apply, ContinuousMap.comp_apply,
-    d3_collapse_map_apply_mk]
+  change d3CollapseMap A A (ContinuousMap.id X) (fun x hx => hx)
+    (Quotient.mk (d3CollapseSetoid A) x) =
+      Quotient.mk (d3CollapseSetoid A) x
+  rw [d3_collapse_map_apply_mk]
+  rfl
 
 /-- Composite maps of pairs induce the composite continuous quotient map. -/
 theorem d3_collapse_map_comp {X Y Z : Type*}
@@ -67,6 +70,7 @@ theorem d3_point_cofiber_map_projection {X Y W Z : Type*}
   ext z
   simp only [ContinuousMap.comp_apply, d3_point_cofiber_projection_mk,
     d3_point_cofiber_map_apply_mk]
+  rfl
 
 /-- The identity commuting square induces the identity cofiber map. -/
 theorem d3_point_cofiber_map_id {X Y : Type*}
@@ -140,7 +144,8 @@ theorem d3_attaching_comparison_natural {N : ℕ}
       (d3OrdinaryAttachingComparison B' C' D' hB'D' hC'D').comp
         (d3BarycentricInclusion (d3CornerUnion B C)
           (d3CornerUnion B' C') (d3_corner_union_mono B C B' C' hB hC)) := by
-  ext x
+  apply ContinuousMap.ext
+  intro x
   apply Subtype.ext
   simp only [ContinuousMap.comp_apply, d3_barycentric_inclusion_val,
     d3_ordinary_attaching_val]
