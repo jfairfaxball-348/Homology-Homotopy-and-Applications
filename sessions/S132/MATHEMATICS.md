@@ -1,0 +1,15 @@
+# S132 MATHEMATICS — 22 October 2026
+
+## M132.1 — formally certified genuine arrow-category ordinary cofiber functor
+Mathlib's `CategoryTheory.Arrow TopCat` has objects continuous arrows f:X→Y and morphisms strictly commuting squares (u,v) with v∘f=g∘u. By S131, each f has a genuine quotient-topology ordinary cofiber (Y ⊕ {*})/(im(f)∪{*}); a square induces a continuous cofiber map sending y to v(y) and fixing the adjoined basepoint. S131 certified actual continuous-map identity and composition laws, not just homotopy-class equalities.
+
+`OptionD/ArrowCofiber.lean` now builds `d3_arrow_square_commutes` by evaluating the arrow-category commuting witness at a point; `d3PointCofiberArrowFunctor : Arrow TopCat ⥤ TopCat` packages the quotient as objects and induced continuous maps as morphisms. Its Lean `map_id` and `map_comp` are proven from S131 laws. Source a813d406c1a06ab7a5e6b9fe2fa4e47b1b1da36a, pinned hosted Lean #39833792648 SUCCESS.
+
+## M132.2 — finite attaching arrows lie in the SAME category
+`d3AttachingArrow` packages the concrete continuous barycentric corner-union→terminal inclusion as an Arrow TopCat object. For nested B,C,D and B',C',D', `d3AttachingArrowMap` makes an actual arrow-category morphism whose strict commutativity is S131 `d3_attaching_comparison_natural` (not a homotopy commutativity assumption). The composite functor therefore provides canonical continuous cofiber maps on these arrows. Extensional equality with the older specially named `d3AttachingPointCofiberInclusion` is mathematically direct but NOT separately installed as a kernel theorem in this session. A full standalone category of nested triples and projection natural transformation remain S133 obligations.
+
+## M132.3 — N=2 and relative CW: explicitly NOT Lean certified
+At opposite grades w(0)=(1,0), w(1)=(0,1), a<r≤b, the Boolean-height simplicial complexes are 00: empty face only, 10: first singleton, 01: second singleton, 11: full edge. A barycentric point needs nonnegative weights with sum 1, so the first realisation is empty; the one-vertex realisations are distinct endpoints and the edge realisation is the interval. The punctured-square hocolim of *←∅→* is S⁰; comparison with the connected interval is NOT a weak equivalence on π₀. The ordinary quotient interval/{both endpoints} is topologically S¹, with its ordinary cofiber basepoint. This elementary CW/topological argument is inherited and checked at hand level from S129–S131; no N=2 topology/homeomorphism/hocolim/π₀ proof is claimed by S132 Lean.
+
+## M132.4 — scope boundary
+A strict `Arrow TopCat` functor is NOT an invariance theorem for homotopy cofibers or an equivalence on arbitrary objectwise-weak-equivalence zigzags. CW/cofibration hypotheses have not been mechanically supplied. Nor does the N=2 proper-square example prove the unrestricted arbitrary-connected-Y D6 existence theorem. Two-height δ plateau, S¹ homeomorphism, derived cofiber, arbitrary D6, D7 Hopf and D8 persistence stability remain OPEN. G2 originality/HHA owner-deferred.
