@@ -112,13 +112,11 @@ abbrev d3BarycentricSpace {N : ℕ} (K : d3FiniteComplex N) :=
 barycentric realisations, with the *same* ambient coordinate map. -/
 def d3BarycentricInclusion {N : ℕ}
     (K L : d3FiniteComplex N) (hKL : K ≤ L) :
-    C(d3BarycentricSpace K, d3BarycentricSpace L) where
-  toFun := fun x => ⟨x.1, by
-    rcases x.2 with ⟨hpos, hsum, s, hs, hsupport⟩
-    exact ⟨hpos, hsum, s, hKL hs, hsupport⟩⟩
-  continuous_toFun := by
-    apply continuous_subtype_mk
-    exact continuous_subtype_val
+    C(d3BarycentricSpace K, d3BarycentricSpace L) :=
+  ContinuousMap.inclusion (by
+    intro x hx
+    rcases hx with ⟨hpos, hsum, s, hs, hsupport⟩
+    exact ⟨hpos, hsum, s, hKL hs, hsupport⟩)
 
 theorem d3_barycentric_inclusion_id {N : ℕ}
     (K : d3FiniteComplex N) :
