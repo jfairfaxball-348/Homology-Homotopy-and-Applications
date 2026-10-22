@@ -41,15 +41,15 @@ abbrev d3CollapseSpace {X : Type*} (A : Set X) :=
 /-- The topological quotient projection. -/
 def d3CollapseProjection {X : Type*} [TopologicalSpace X]
     (A : Set X) : C(X, d3CollapseSpace A) where
-  toFun := Quotient.mk'
-  continuous_toFun := continuous_quotient_mk'
+  toFun := Quotient.mk (d3CollapseSetoid A)
+  continuous_toFun := continuous_quotient_mk' (s := d3CollapseSetoid A)
 
 private theorem d3_collapse_respects {X Y : Type*} [TopologicalSpace X]
     [TopologicalSpace Y] (A : Set X) (B : Set Y)
     (f : C(X, Y)) (hA : ∀ x, x ∈ A → f x ∈ B) :
     ∀ x y, (d3CollapseSetoid A).r x y →
-      (Quotient.mk' (f x) : d3CollapseSpace B) =
-        Quotient.mk' (f y) := by
+      (Quotient.mk (d3CollapseSetoid B) (f x)) =
+        Quotient.mk (d3CollapseSetoid B) (f y) := by
   intro x y hxy
   apply Quotient.sound
   rcases hxy with h | ⟨hx, hy⟩
@@ -61,10 +61,10 @@ def d3CollapseMap {X Y : Type*} [TopologicalSpace X]
     [TopologicalSpace Y] (A : Set X) (B : Set Y)
     (f : C(X, Y)) (hA : ∀ x, x ∈ A → f x ∈ B) :
     C(d3CollapseSpace A, d3CollapseSpace B) where
-  toFun := Quotient.lift (fun x => (Quotient.mk' (f x) : d3CollapseSpace B))
+  toFun := Quotient.lift (fun x => (Quotient.mk (d3CollapseSetoid B) (f x)))
     (d3_collapse_respects A B f hA)
   continuous_toFun :=
-    (continuous_quotient_mk'.comp f.continuous).quotient_lift
+    ((continuous_quotient_mk' (s := d3CollapseSetoid B)).comp f.continuous).quotient_lift
       (d3_collapse_respects A B f hA)
 
 /-- A point-set cofiber includes a *new basepoint*, even when the
@@ -135,8 +135,8 @@ theorem d3_middle_complex_constant (N : ℕ) (hN : 2 ≤ N)
       d3RipsComplex N q w (height, t) := by
   apply d3FiniteComplex.ext
   ext s
-  change d3StrictRips N q w height r s ↔
-    d3StrictRips N q w height t s
+  rw [d3_rips_complex_faces N q w (height, r) s,
+    d3_rips_complex_faces N q w (height, t) s]
   rw [d3_middle_flag_iff N hN edge hsym q hq w height r hra hrb s]
   rw [d3_middle_flag_iff N hN edge hsym q hq w height t hta htb s]
 
