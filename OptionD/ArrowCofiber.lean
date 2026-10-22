@@ -80,8 +80,14 @@ def d3AttachingArrowMap {N : ℕ}
     (TopCat.ofHom (d3BarycentricInclusion D D' hD))
     (by
       apply TopCat.hom_ext
-      simpa only [TopCat.hom_comp, TopCat.hom_ofHom] using
-        (d3_attaching_comparison_natural B C D B' C' D'
-          hBD hCD hB'D' hC'D' hB hC hD).symm)
+      change
+        (d3OrdinaryAttachingComparison B' C' D' hB'D' hC'D').comp
+            (d3BarycentricInclusion (d3CornerUnion B C)
+              (d3CornerUnion B' C')
+              (d3_corner_union_mono B C B' C' hB hC)) =
+          (d3BarycentricInclusion D D' hD).comp
+            (d3OrdinaryAttachingComparison B C D hBD hCD)
+      exact (d3_attaching_comparison_natural B C D B' C' D'
+        hBD hCD hB'D' hC'D' hB hC hD).symm)
 
 end OptionD
