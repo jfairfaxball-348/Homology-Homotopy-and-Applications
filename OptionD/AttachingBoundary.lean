@@ -73,20 +73,27 @@ theorem d3_barycentric_union_carrier {N : ℕ}
     d3BarycentricCarrier (d3CornerUnion B C) =
       d3BarycentricCarrier B ∪ d3BarycentricCarrier C := by
   ext x
-  simp only [d3BarycentricCarrier]
   constructor
-  · rintro ⟨hpos, hsum, s, hs, hsup⟩
+  · intro hx
+    rcases (d3_barycentric_carrier_iff _ x).mp hx with
+      ⟨hpos, hsum, s, hs, hsup⟩
     rcases (d3_corner_union_mem_iff B C s).mp hs with hB | hC
-    · exact Or.inl ⟨hpos, hsum, s, hB, hsup⟩
-    · exact Or.inr ⟨hpos, hsum, s, hC, hsup⟩
+    · exact Or.inl ((d3_barycentric_carrier_iff B x).mpr
+        ⟨hpos, hsum, s, hB, hsup⟩)
+    · exact Or.inr ((d3_barycentric_carrier_iff C x).mpr
+        ⟨hpos, hsum, s, hC, hsup⟩)
   · intro hx
     rcases hx with hx | hx
-    · rcases hx with ⟨hpos, hsum, s, hs, hsup⟩
-      exact ⟨hpos, hsum, s,
-        (d3_corner_union_mem_iff B C s).mpr (Or.inl hs), hsup⟩
-    · rcases hx with ⟨hpos, hsum, s, hs, hsup⟩
-      exact ⟨hpos, hsum, s,
-        (d3_corner_union_mem_iff B C s).mpr (Or.inr hs), hsup⟩
+    · rcases (d3_barycentric_carrier_iff B x).mp hx with
+        ⟨hpos, hsum, s, hs, hsup⟩
+      exact (d3_barycentric_carrier_iff _ x).mpr
+        ⟨hpos, hsum, s,
+          (d3_corner_union_mem_iff B C s).mpr (Or.inl hs), hsup⟩
+    · rcases (d3_barycentric_carrier_iff C x).mp hx with
+        ⟨hpos, hsum, s, hs, hsup⟩
+      exact (d3_barycentric_carrier_iff _ x).mpr
+        ⟨hpos, hsum, s,
+          (d3_corner_union_mem_iff B C s).mpr (Or.inr hs), hsup⟩
 
 /-- A simplex at the terminal vertex which is in neither one-height
 corner is exactly the obstruction to union filling the terminal complex. -/
