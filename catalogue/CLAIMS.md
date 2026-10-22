@@ -866,3 +866,10 @@ Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N�
 - **CLM-0602 FORMALLY_CERTIFIED:** true barycentric realisation as a subspace of EuclideanSpace ℝ (Fin N), continuous inclusions, category-valued TopCat functor on all real heights and radii and strict commuting inclusion square. Same pinned build. NOT derived/coherent homotopy interleaving.
 - **CLM-0603 PROGRAMME_PROVED (mathematical hand proof, not Lean-certified):** opposite births for two adjacent vertices give ∅→point, ∅→point and terminal interval; homotopy pushout gives two discrete points versus connected terminal interval. Strict commuting square does NOT imply homotopy pushout.
 - **G3 PARTIAL:** the D6 universal attached-cofiber and arbitrary whole-objectwise-WE R³ lower bound are OPEN; D7/D8 OPEN. G2 owner-deferred, no novelty, Palomar, manuscript or publication.
+
+
+## S129 — strict Rips attaching boundary and radius correction (22 October 2026)
+- **CLM-0604 FORMALLY_CERTIFIED**: arbitrary finite complex corner union/intersection, continuous ordinary union-to-terminal attaching comparison, Euclidean barycentric carrier union, and Fin 2 missing joining-edge counterexample. Pinned scratch source b72e47a4d3b7cc2241f19170e96575f753ec736e, hosted Lean #39761392572 SUCCESS, integrity #39761392441 SUCCESS. NOT a derived cofiber.
+- **CLM-0605 PROGRAMME_PROVED**: strict radius window is (a,b] and the old inclusive-a sample is wrong. Correct interior r=a+eta with eta+2delta<b−a repairs the conditional clock proof; born singletons persist at negative r. Derived all-WE comparison unproved.
+- **CLM-0606 PROGRAMME_PROVED (hand topology)**: proper two-vertex hocolim S0 versus interval terminal, relative quotient interval/endpoints ≅ S1. No Lean topology/π0/cofiber certificate.
+- **G3 PARTIAL**: universal D6, D7, D8 and homotopy-interleaving inequality OPEN. G2 owner-deferred; no novelty, Palomar or manuscript.

@@ -104,6 +104,14 @@ def d3BarycentricCarrier {N : ℕ} (K : d3FiniteComplex N) :
       ∃ s : Finset (Fin N), s ∈ K.faces ∧
         ∀ i : Fin N, x i ≠ 0 → i ∈ s
 
+/-- Explicit carrier elimination and introduction across a Lean module boundary. -/
+theorem d3_barycentric_carrier_iff {N : ℕ}
+    (K : d3FiniteComplex N) (x : EuclideanSpace ℝ (Fin N)) :
+    x ∈ d3BarycentricCarrier K ↔
+      (∀ i, 0 ≤ x i) ∧ (∑ i : Fin N, x i) = 1 ∧
+        ∃ s : Finset (Fin N), s ∈ K.faces ∧
+          ∀ i : Fin N, x i ≠ 0 → i ∈ s := Iff.rfl
+
 /-- Geometric realisation in the ordinary point-set topology of Euclidean ℝ^N. -/
 abbrev d3BarycentricSpace {N : ℕ} (K : d3FiniteComplex N) :=
   { x : EuclideanSpace ℝ (Fin N) // x ∈ d3BarycentricCarrier K }
