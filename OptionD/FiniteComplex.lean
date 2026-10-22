@@ -3,6 +3,7 @@ module
 public import OptionD.RealFiltration
 public import Mathlib.CategoryTheory.Category.Preorder
 public import Mathlib.Topology.Category.TopCat.Basic
+public import Mathlib.Topology.Instances.Real.Lemmas
 
 public section
 
@@ -50,17 +51,21 @@ def d3RipsComplex (N : ℕ)
     (w : Fin N → d2Grade) (u : (Fin 2 → ℝ) × ℝ) :
     d3FiniteComplex N where
   faces := d3SimplexFamily N q w u
-  empty_mem := d3_empty_simplex N q w u.1 u.2
+  empty_mem := (d3_family_mem_iff N q w u ∅).mpr
+    (d3_empty_simplex N q w u.1 u.2)
   downward := by
     intro s t hst ht
-    exact d3_faces N q w u.1 u.2 s t hst ht
+    exact (d3_family_mem_iff N q w u s).mpr
+      (d3_faces N q w u.1 u.2 s t hst
+        ((d3_family_mem_iff N q w u t).mp ht))
 
 theorem d3_rips_complex_faces (N : ℕ)
     (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
     (w : Fin N → d2Grade) (u : (Fin 2 → ℝ) × ℝ)
     (s : Finset (Fin N)) :
     s ∈ (d3RipsComplex N q w u).faces ↔
-      d3StrictRips N q w u.1 u.2 s := Iff.rfl
+      d3StrictRips N q w u.1 u.2 s :=
+  d3_family_mem_iff N q w u s
 
 theorem d3_rips_complex_mono (N : ℕ)
     (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
@@ -74,11 +79,20 @@ Objects are finite abstract simplicial complexes, not merely sets. -/
 def d3ComplexDiagram (N : ℕ)
     (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
     (w : Fin N → d2Grade) :
-    ((Fin 2 → ℝ) × ℝ) ⥤ d3FiniteComplex N :=
-  (show Monotone (d3RipsComplex N q w) from by
-    intro u v huv
+    ((Fin 2 → ℝ) × ℝ) ⥤ d3FiniteComplex N where
+  obj := d3RipsComplex N q w
+  map := by
+    intro u v f
+    apply homOfLE
     apply d3_rips_complex_mono
-    exact ⟨(fun k => huv.1 k), huv.2⟩).functor
+    exact d3_parameter_le_of_components u v
+      (fun k => (leOfHom f.1) k) (leOfHom f.2)
+  map_id := by
+    intro u
+    apply Subsingleton.elim
+  map_comp := by
+    intro u v t f g
+    apply Subsingleton.elim
 
 /-- A barycentric point: nonnegative real weights summing to one, supported
 in at least one face. The existential support avoids a noncomputable
@@ -126,7 +140,7 @@ theorem d3_barycentric_inclusion_comp {N : ℕ}
 spaces, not an objectwise homotopy-category surrogate. -/
 def d3RealisationFunctor (N : ℕ) : d3FiniteComplex N ⥤ TopCat where
   obj K := TopCat.of (d3BarycentricSpace K)
-  map f := ⟨d3BarycentricInclusion _ _ (leOfHom f)⟩
+  map f := TopCat.ofHom (d3BarycentricInclusion _ _ (leOfHom f))
   map_id := by
     intro K
     rfl

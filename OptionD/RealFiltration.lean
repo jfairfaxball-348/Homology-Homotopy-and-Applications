@@ -368,3 +368,22 @@ theorem d3_above_upper_flag_iff (N : ℕ) (hN : 2 ≤ N)
       d3_above_upper_all_pairs N hN edge hsym q hq i j hij r hr)⟩
 
 end OptionD
+
+public section
+namespace OptionD
+
+/-- Exported bridge between S127 finite-simplex sets and its strict
+Rips predicate, whose definition is opaque after a public import. -/
+theorem d3_family_mem_iff (N : ℕ)
+    (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (w : Fin N → d2Grade) (u : (Fin 2 → ℝ) × ℝ)
+    (s : Finset (Fin N)) :
+    s ∈ d3SimplexFamily N q w u ↔
+      d3StrictRips N q w u.1 u.2 s := Iff.rfl
+
+/-- Explicit constructor for the all-real product parameter order. -/
+theorem d3_parameter_le_of_components (u v : (Fin 2 → ℝ) × ℝ)
+    (hh : ∀ k : Fin 2, u.1 k ≤ v.1 k) (hr : u.2 ≤ v.2) :
+    d3ParameterLE u v := ⟨hh, hr⟩
+
+end OptionD
