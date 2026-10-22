@@ -860,3 +860,9 @@ Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N�
 - **CLM-0599 FORMALLY_CERTIFIED:** actual two-real-height birth predicate and arbitrary real-radius finite strict simplex family; downward closure, monotonicity, parameter-order identity/composition and exact S126 four Boolean-grade slice. Hosted Lean #39423008236 SUCCESS source f033afbe2ba7a5645b66049dab3f91c22130cc49.
 - **CLM-0600 FORMALLY_CERTIFIED:** exact Euclidean distances a/b, a<1<b, r=a zero distinct pairs, a<r≤b iff graph cliques at all real heights and r=b included, r>b complete born flag; negative heights and empty face explicit. Same source and pinned hosted Lean SUCCESS.
 - G3 remains PARTIAL: no Top^(ℝ³) genuine homotopy-coherent functor, D6/D7/D8 theorem, HHA originality check or Palomar.
+
+## S128 — actual TopCat Rips realisation over the full R²×R domain (22 October 2026)
+- **CLM-0601 FORMALLY_CERTIFIED:** finite abstract simplicial complexes, face closure, inclusion order and genuine all-real parameter category functor. OptionD/FiniteComplex.lean; exact pinned hosted scratch Lean #39756075262 SUCCESS on 3eb2232e3699bcc2934b880097d52a38007006ad.
+- **CLM-0602 FORMALLY_CERTIFIED:** true barycentric realisation as a subspace of EuclideanSpace ℝ (Fin N), continuous inclusions, category-valued TopCat functor on all real heights and radii and strict commuting inclusion square. Same pinned build. NOT derived/coherent homotopy interleaving.
+- **CLM-0603 PROGRAMME_PROVED (mathematical hand proof, not Lean-certified):** opposite births for two adjacent vertices give ∅→point, ∅→point and terminal interval; homotopy pushout gives two discrete points versus connected terminal interval. Strict commuting square does NOT imply homotopy pushout.
+- **G3 PARTIAL:** the D6 universal attached-cofiber and arbitrary whole-objectwise-WE R³ lower bound are OPEN; D7/D8 OPEN. G2 owner-deferred, no novelty, Palomar, manuscript or publication.
