@@ -183,4 +183,13 @@ theorem d3_point_cofiber_map_apply_mk {X Y W Z : Type*}
         Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed g))
           (Sum.map v (id : PUnit → PUnit) z) := by exact (rfl)
 
+
+/-- Defining-module identity evaluation avoids opaque id-map unfolding. -/
+theorem d3_collapse_map_id_apply_mk {X : Type*} [TopologicalSpace X]
+    (A : Set X) (x : X) :
+    d3CollapseMap A A (ContinuousMap.id X) (fun z hz => hz)
+      (Quotient.mk (d3CollapseSetoid A) x) =
+      Quotient.mk (d3CollapseSetoid A) x := by
+  exact (rfl)
+
 end OptionD
