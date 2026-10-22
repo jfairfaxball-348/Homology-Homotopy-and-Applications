@@ -153,7 +153,7 @@ theorem d3_interior_radius_sample (a b δ : ℝ)
 /-- The canonical quotient projection acts by the quotient constructor. -/
 theorem d3_collapse_projection_mk {X : Type*} [TopologicalSpace X]
     (A : Set X) (x : X) :
-    d3CollapseProjection A x = Quotient.mk (d3CollapseSetoid A) x := rfl
+    d3CollapseProjection A x = Quotient.mk (d3CollapseSetoid A) x := by exact (rfl)
 
 /-- The actual continuous quotient map acts by mapping representatives. -/
 theorem d3_collapse_map_apply_mk {X Y : Type*}
@@ -161,14 +161,14 @@ theorem d3_collapse_map_apply_mk {X Y : Type*}
     (A : Set X) (B : Set Y)
     (f : C(X, Y)) (hA : ∀ x, x ∈ A → f x ∈ B) (x : X) :
     d3CollapseMap A B f hA (Quotient.mk (d3CollapseSetoid A) x) =
-      Quotient.mk (d3CollapseSetoid B) (f x) := rfl
+      Quotient.mk (d3CollapseSetoid B) (f x) := by exact (rfl)
 
 /-- Cofiber projection on each coproduct representative. -/
 theorem d3_point_cofiber_projection_mk {X Y : Type*}
     [TopologicalSpace X] [TopologicalSpace Y]
     (f : C(X, Y)) (z : Y ⊕ PUnit) :
     d3PointCofiberProjection f z =
-      Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed f)) z := rfl
+      Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed f)) z := by exact (rfl)
 
 /-- A map of attaching arrows acts on cofibers by mapping the
 uncollapsed target and fixing the newly adjoined basepoint. -/
@@ -181,6 +181,6 @@ theorem d3_point_cofiber_map_apply_mk {X Y W Z : Type*}
     d3PointCofiberMap f g u v h
       (Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed f)) z) =
         Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed g))
-          (Sum.map v (id : PUnit → PUnit) z) := rfl
+          (Sum.map v (id : PUnit → PUnit) z) := by exact (rfl)
 
 end OptionD
