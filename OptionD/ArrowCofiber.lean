@@ -53,4 +53,35 @@ def d3PointCofiberArrowFunctor : Arrow TopCat ⥤ TopCat where
         (d3_arrow_square_commutes f g sq₁)
         (d3_arrow_square_commutes g k sq₂)).symm
 
+/-! The finite Rips attaching comparisons are objects and morphisms of
+the same genuine arrow category, not an unrelated family of maps. -/
+
+/-- The union-to-terminal attaching arrow, as an object of Arrow TopCat. -/
+def d3AttachingArrow {N : ℕ}
+    (B C D : d3FiniteComplex N)
+    (hBD : B ≤ D) (hCD : C ≤ D) : Arrow TopCat :=
+  Arrow.mk (TopCat.ofHom (d3OrdinaryAttachingComparison B C D hBD hCD))
+
+/-- A nested inclusion of two attaching triples defines a morphism
+in the arrow category of topological spaces. Its commutative square
+is the previously certified strict naturality of barycentric inclusions. -/
+def d3AttachingArrowMap {N : ℕ}
+    (B C D B' C' D' : d3FiniteComplex N)
+    (hBD : B ≤ D) (hCD : C ≤ D)
+    (hB'D' : B' ≤ D') (hC'D' : C' ≤ D')
+    (hB : B ≤ B') (hC : C ≤ C') (hD : D ≤ D') :
+    d3AttachingArrow B C D hBD hCD ⟶
+      d3AttachingArrow B' C' D' hB'D' hC'D' :=
+  Arrow.homMk
+    (TopCat.ofHom
+      (d3BarycentricInclusion (d3CornerUnion B C)
+        (d3CornerUnion B' C')
+        (d3_corner_union_mono B C B' C' hB hC)))
+    (TopCat.ofHom (d3BarycentricInclusion D D' hD))
+    (by
+      apply TopCat.hom_ext
+      simpa only [TopCat.hom_comp, TopCat.hom_ofHom] using
+        (d3_attaching_comparison_natural B C D B' C' D'
+          hBD hCD hB'D' hC'D' hB hC hD).symm)
+
 end OptionD
