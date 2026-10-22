@@ -35,8 +35,7 @@ theorem d3_collapse_map_id {X : Type*} [TopologicalSpace X]
   change d3CollapseMap A A (ContinuousMap.id X) (fun x hx => hx)
     (Quotient.mk (d3CollapseSetoid A) x) =
       Quotient.mk (d3CollapseSetoid A) x
-  rw [d3_collapse_map_apply_mk]
-  rfl
+  exact d3_collapse_map_id_apply_mk A x
 
 /-- Composite maps of pairs induce the composite continuous quotient map. -/
 theorem d3_collapse_map_comp {X Y Z : Type*}
