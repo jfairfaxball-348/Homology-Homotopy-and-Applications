@@ -21,8 +21,8 @@ theorem d3_collapse_map_projection {X Y : Type*}
     (d3CollapseMap A B f hA).comp (d3CollapseProjection A) =
       (d3CollapseProjection B).comp f := by
   ext x
-  simp [d3CollapseMap, d3CollapseProjection, d3BarycentricInclusion,
-    d3OrdinaryAttachingComparison]
+  simp only [ContinuousMap.comp_apply, d3_collapse_projection_mk,
+    d3_collapse_map_apply_mk]
 
 /-- Identity on a pair induces identity on its quotient, on the nose. -/
 theorem d3_collapse_map_id {X : Type*} [TopologicalSpace X]
@@ -32,7 +32,8 @@ theorem d3_collapse_map_id {X : Type*} [TopologicalSpace X]
   ext q
   refine Quotient.inductionOn q ?_
   intro x
-  simp [d3CollapseMap, d3CollapseProjection]
+  simp only [ContinuousMap.id_apply, ContinuousMap.comp_apply,
+    d3_collapse_map_apply_mk]
 
 /-- Composite maps of pairs induce the composite continuous quotient map. -/
 theorem d3_collapse_map_comp {X Y Z : Type*}
@@ -47,7 +48,8 @@ theorem d3_collapse_map_comp {X Y Z : Type*}
   ext q
   refine Quotient.inductionOn q ?_
   intro x
-  simp [d3CollapseMap, d3CollapseProjection]
+  simp only [ContinuousMap.id_apply, ContinuousMap.comp_apply,
+    d3_collapse_map_apply_mk]
 
 /-- The cofiber map commutes with its canonical quotient projection. -/
 theorem d3_point_cofiber_map_projection {X Y W Z : Type*}
@@ -63,8 +65,8 @@ theorem d3_point_cofiber_map_projection {X Y W Z : Type*}
            continuous_toFun := v.continuous.sumMap continuous_id } :
           C(Y ⊕ PUnit, Z ⊕ PUnit)) := by
   ext z
-  simp [d3PointCofiberMap, d3PointCofiberProjection, d3CollapseMap,
-    d3CollapseProjection]
+  simp only [ContinuousMap.comp_apply, d3_point_cofiber_projection_mk,
+    d3_point_cofiber_map_apply_mk]
 
 /-- The identity commuting square induces the identity cofiber map. -/
 theorem d3_point_cofiber_map_id {X Y : Type*}
@@ -77,10 +79,13 @@ theorem d3_point_cofiber_map_id {X Y : Type*}
   refine Quotient.inductionOn q ?_
   intro z
   cases z with
-  | inl y => simp [d3PointCofiberMap, d3CollapseMap]
+  | inl y =>
+    simp only [ContinuousMap.comp_apply, ContinuousMap.id_apply,
+      d3_point_cofiber_map_apply_mk, Sum.map_inl]
   | inr p =>
     cases p
-    simp [d3PointCofiberMap, d3CollapseMap]
+    simp only [ContinuousMap.comp_apply, ContinuousMap.id_apply,
+      d3_point_cofiber_map_apply_mk, Sum.map_inr]
 
 /-- Composing strictly commuting arrow squares agrees with the
 composition of their induced actual continuous cofiber maps. -/
@@ -105,10 +110,13 @@ theorem d3_point_cofiber_map_comp {X Y W Z U V : Type*}
   refine Quotient.inductionOn q ?_
   intro z
   cases z with
-  | inl y => simp [d3PointCofiberMap, d3CollapseMap]
+  | inl y =>
+    simp only [ContinuousMap.comp_apply, ContinuousMap.id_apply,
+      d3_point_cofiber_map_apply_mk, Sum.map_inl]
   | inr p =>
     cases p
-    simp [d3PointCofiberMap, d3CollapseMap]
+    simp only [ContinuousMap.comp_apply, ContinuousMap.id_apply,
+      d3_point_cofiber_map_apply_mk, Sum.map_inr]
 
 /-- Facewise inclusions induce the inclusion of the two corner unions. -/
 theorem d3_corner_union_mono {N : ℕ}
@@ -134,7 +142,8 @@ theorem d3_attaching_comparison_natural {N : ℕ}
           (d3CornerUnion B' C') (d3_corner_union_mono B C B' C' hB hC)) := by
   ext x
   apply Subtype.ext
-  simp [d3BarycentricInclusion, d3OrdinaryAttachingComparison]
+  simp only [ContinuousMap.comp_apply, d3_barycentric_inclusion_val,
+    d3_ordinary_attaching_val]
 
 /-- A triple of nested corner inclusions yields the actual continuous
 cofiber comparison with the canonical quotient topology. -/
@@ -153,6 +162,6 @@ def d3AttachingPointCofiberInclusion {N : ℕ}
     (by
       intro x
       apply Subtype.ext
-      simp [d3BarycentricInclusion, d3OrdinaryAttachingComparison])
+      simp only [d3_barycentric_inclusion_val, d3_ordinary_attaching_val])
 
 end OptionD
