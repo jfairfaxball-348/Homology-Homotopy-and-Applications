@@ -1,5 +1,7 @@
 # Option D continuation — universal two-height attaching obstruction in Euclidean Rips persistence
 
+> **S129 CORRECTION (22 October 2026; supersedes contradictory radius claims below).** The fixed `d3StrictRips` uses `‖q i−q j‖ < r` for distinct pairs. Thus short edges are ABSENT at r=a; the short-edge graph exists only at a<r≤b, including r=b; the complete graph exists only at r>b. Born singleton vertices exist at ANY radius including negative r (radius bounds only distinct pairs). The claimed sample q_p at r=a is invalid. To test a hypothetical δ-interleaving with 2δ<b−a, choose η with 0<η<b−a−2δ and sample actual parameter `((p₁,p₂),a+η)` instead. This has no changes through two δ-shifts and preserves the same conditional c_N=(b−a)/2 lower bound IF the universal derived-cofiber realisation, objectwise-WE invariance and both-lane coherent comparison obligations are independently established. The old “negative-radius empty” and four radius strata descriptions are wrong; there are three radius regimes (discrete/selected flag/complete), plus empty objects where no vertices are born. Finite-complex ordinary union-to-terminal inclusion is now Lean-certified in S129, but NO general homotopy pushout/cofiber or universal D6/D7/D8 is Lean-certified. This erratum controls all older contradictory passages of this note.
+
 **19 October 2026 · proof-first research addendum, NOT a numbered session.**
 
 **Status.** Internal complete human-readable argument subject to standard relative triangulation, homotopy colimit, and Hopf invariant results. No external referee, novelty/prior-art/G2 audit, Lean, Palomar, manuscript, or new numbered-session prompt. Owner has explicitly asked to continue combining previously proved results and to decide downstream steps themselves. This document extends and strengthens \`research/OPTION_D_SYNTHESIS_PROOF.md\` without amending S116/conditional S117 governance. In particular it does **not** revive the retired C4 first-HHA-paper candidate, claim a Top^R strict HI>IHC gap, or purport to clear HHA novelty.
@@ -8,7 +10,7 @@
 
 The preceding D4 theorem uses the punctured **three-cube**, an S^1 bottom, three height coordinates plus radius (real **four** parameters), an integral three-block homology diagram, and lower bound 1/(2000N). Its proof also uses a legitimate but conservative interior radius sample r=1.
 
-Here a **two-cube** suffices. In the Hopf specialization, only \`H_2\` is nonzero in positive degrees, with two singleton-supported integral blocks, the entire full real \`Ho(Top)\`-valued pointwise diagram is unchanged, and the filtration uses only **radius + two heights = three real parameters**. The no-event corner can be sampled at the included lower radius threshold, yielding the stronger sharp-plateau lower bound
+Here a **two-cube** suffices. In the Hopf specialization, only \`H_2\` is nonzero in positive degrees, with two singleton-supported integral blocks, the entire full real \`Ho(Top)\`-valued pointwise diagram is unchanged, and the filtration uses only **radius + two heights = three real parameters**. The no-event corner must be sampled at an interior radius a+eta>a, yielding the stronger sharp-plateau lower bound
 
 \[
 d_{\mathrm{HI}}(F_f,F_g)\ \ge\ c_N
@@ -36,7 +38,7 @@ Suppose their homotopy cofibers \(\operatorname{Cofib}(f)\) and \(\operatorname{
 whose full radius-plus-two-height flag Vietoris–Rips diagrams \(\mathcal F_f,\mathcal F_g:\mathbb R^3\to\mathrm{Top}\) satisfy:
 
 1. Their full pointwise-homotopy-category diagrams are naturally isomorphic as functors in \(\mathrm{Ho}(\mathrm{Top})^{\mathbb R^3}\). In particular their complete natural integral/field (co)homology and cup-ring diagrams coincide. This does NOT identify the objects in the homotopy category of *whole diagrams*.
-2. At the inclusive short-edge radius \(a=\sqrt{1-\epsilon}\), and binary height coordinates, a coherent strict Boolean square has vertex homotopy types \(S^n,D^{n+1},D^{n+1},Y\); its derived punctured-square comparison has homotopy class \(f\) or \(g\) respectively, and its homotopy cofiber is \(\operatorname{Cofib}(f)\) or \(\operatorname{Cofib}(g)\).
+2. At any strict middle radius \(a<r\le b\), and binary height coordinates, a coherent strict Boolean square has vertex homotopy types \(S^n,D^{n+1},D^{n+1},Y\); its derived punctured-square comparison has homotopy class \(f\) or \(g\) respectively, and its homotopy cofiber is \(\operatorname{Cofib}(f)\) or \(\operatorname{Cofib}(g)\).
 3. Under the unrestricted, diagonal-translation homotopy-interleaving distance, allowing arbitrary **entire-diagram** objectwise-WE zigzags of BOTH inputs,
 \[
 d_{\mathrm{HI}}(\mathcal F_f,\mathcal F_g)
@@ -103,10 +105,10 @@ At each middle-radius grade p, the proper members are respectively \(A,D_1,D_2\)
 
 ### Proof, Step 4 — quantitative obstruction with both interleaving identities
 
-Sample the actual birth thresholds and inclusive short-edge radius, not interior points:
+Sample the actual birth thresholds and a strictly interior short-edge radius. For a hypothesised delta with 2delta<b−a choose eta satisfying 0<eta<b−a−2delta:
 
 \[
-q_p=(a,p_1,p_2)\in\mathbb R^3,\qquad p=(p_1,p_2)\in B_2.
+q_p=((p_1,p_2),a+\eta)\in\mathbb R^3,\qquad p=(p_1,p_2)\in B_2.
 \]
 
 With nonnegative diagonal shifts \(s<b-a\), each \(\mathcal F_\theta(q_p)\to\mathcal F_\theta(q_p+s\mathbf1)\) is literally an identity on the selected simplicial complex: the short edges have appeared at \(a\), the long edges cannot appear before \(b\), low heights 0 remain below 1, and high heights 1 remain above that threshold. Because \(b-a<1\) (indeed <0.01 at our epsilon), the two vertex-height plateaux hold simultaneously. The same no-event property holds NATURALLY for every edge of the four-object square.

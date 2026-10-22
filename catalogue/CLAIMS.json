@@ -5812,6 +5812,27 @@
       "claim": "At a<r≤b, a two-vertex edge graph with opposite Boolean height births produces a genuine Rips square with empty lower-left realisation, singleton upper-left and lower-right, and an interval at upper-right. Its homotopy pushout of the other three corners has two components, so the canonical map to the contractible interval is not a weak equivalence. Hence commutative Rips inclusions need not be a homotopy-pushout square.",
       "scope": "Direct finite example and π₀ calculation in sessions/S128/MATHEMATICS.md and ADVERSARIAL.md. Mathematical hand proof, NOT a Lean-certification of homotopy pushouts/π₀; the underlying all-real geometric construction and strict squares are separately Lean-built at #39756075262.",
       "sources": []
+    },
+    {
+      "id": "CLM-0604",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For arbitrary finite simplicial B,C, the face union and intersection remain complexes; if B,C are subcomplexes of D, the union has a canonical continuous barycentric realisation inclusion into D. Its Euclidean carrier is precisely the union of carriers. Explicit two single-vertex complexes on Fin 2 omit the terminal joining edge.",
+      "scope": "OptionD/AttachingBoundary.lean and new exported d3_barycentric_carrier_iff in OptionD/FiniteComplex.lean; pinned scratch b72e47a4d3b7cc2241f19170e96575f753ec736e, hosted Lean #39761392572 SUCCESS. Formalised ordinary attaching map and finite missing edge only; NOT any homotopy pushout/cofiber, S1 quotient or dHI theorem.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0605",
+      "status": "PROGRAMME_PROVED",
+      "claim": "Under the fixed strict Rips radius convention, short edges are absent at r=a, the selected graph occurs exactly at a<r≤b, and born singletons persist for negative r. For any delta≥0 with 2delta<b−a, an interior sample r=a+eta with 0<eta<b−a−2delta has no edge or birth changes through two diagonal shifts; the previously claimed inclusive-a clock proof must use this interior-radius repair.",
+      "scope": "Mathematical proof in sessions/S129/MATHEMATICS.md, amended research/OPTION_D_TWO_HEIGHT_UNIVERSAL_ATTACHING.md; endpoint facts inherited S127 Lean #39423008236. Conditional plateau/metric conclusion NOT yet Lean-certified, no universal derived-cofiber invariance.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0606",
+      "status": "PROGRAMME_PROVED",
+      "claim": "The standard two-vertex opposite-birth proper-corner homotopy pushout is S0; the terminal 1-simplex is an interval; its ordinary relative cofiber by the two endpoints is homeomorphic to S1. The comparison is not a weak equivalence by pi0.",
+      "scope": "Elementary point-set/CW proof in sessions/S129/MATHEMATICS.md, not a kernel check of quotient, pi0, cofibration, homotopy pushout or circle. Underlying face-level missing edge is separately Lean-certified CLM-0604.",
+      "sources": []
     }
   ]
 }

@@ -1,0 +1,2 @@
+# S129 INPUT — 22 October 2026
+Fresh owner invocation executes exactly S129. Entry main 10430198342f41f0be6104c5923c59f39c70a0c7 tree 8784476ca2b06ebb0b9b3707e019dbd9ee58dd0f; S128 ordinary merge parents 92cf550cb7a53253b54da80606b4b8bfc57c9f83/e382a2fd202a6ed2f4770204c4855d45275b09f5; independent main Lean #39760610552 SUCCESS and integrity #39760610643 SUCCESS, no open PR. Pinned v4.35.0-rc2 and Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55. S128 strict full-real TopCat done; derived D6/D7/D8 remain OPEN. No novelty/Palomar/publication permission.
