@@ -1,0 +1,7 @@
+# S131 ADVERSARIAL — 22 October 2026
+
+Attempted failure route: replacing the derived two-corner homotopy pushout by the terminal space without proving a homotopy-cocartesian square. The exact N=2 opposite-birth edge is a counterexample: punctured homotopy pushout S⁰, terminal interval, distinct π₀. Consequently an ordinary cofiber of the corner union is generally nontrivial and cannot be collapsed to a zero obstruction.
+
+Possible gap in D6: mathematical simultaneous relative simplicial approximation must preserve the SAME proper diagram for f and g. Even if a common finite subdivision gives two flag terminal complexes and equal labelled proper corners, natural pointwise HoTop-isomorphisms at the Boolean middle window do not automatically extend to ALL real radii and height transitions. In particular the discrete-to-selected-to-complete radius maps and vertex-label constraints may impose extra compatibility; neither naturality over the whole real functor nor all-whole-WE zigzags is certified. This is a precise missing hypothesis/proof, not a claimed counterexample to the final theorem. D6/D7/D8 OPEN.
+
+Formal proof-engineering adversary: Lean4 `module` seals imported definitions; direct downstream `rfl` and `simp [opaqueDef]` fail even when the corresponding maps are mathematically equal. Defining-module evaluation lemmas, exported separately, fix this without weakening the theorem or introducing axioms.

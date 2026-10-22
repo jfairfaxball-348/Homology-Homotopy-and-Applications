@@ -1,0 +1,3 @@
+# S131 PRIOR_ART — 22 October 2026
+
+Owner explicitly forbids new novelty/prior-art/HHA significance searches in S131, so none were performed. Standard mathematical facts about CW-cofibrations, interval/∂interval ≅ S¹, strict quotient maps and finite simplicial realisation are used only as clearly labelled hand arguments or API targets, not claims of originality. Mathlib API leads for future technical formalisation include the AddCircle interval quotient and finite simplicial/CW structures, without an assertion that the required combined homeomorphism is available. G2 NOT PASSED; no Palomar/publication contact.
