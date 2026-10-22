@@ -73,6 +73,7 @@ theorem d3_barycentric_union_carrier {N : ℕ}
     d3BarycentricCarrier (d3CornerUnion B C) =
       d3BarycentricCarrier B ∪ d3BarycentricCarrier C := by
   ext x
+  simp only [d3BarycentricCarrier]
   constructor
   · rintro ⟨hpos, hsum, s, hs, hsup⟩
     rcases (d3_corner_union_mem_iff B C s).mp hs with hB | hC
@@ -139,14 +140,15 @@ homotopy-cofiber computation. -/
 theorem d3_two_joining_edge_missing :
     ({0, 1} : Finset (Fin 2)) ∉
       (d3CornerUnion d3TwoFirst d3TwoSecond).faces := by
-  simp [d3CornerUnion, d3TwoFirst, d3TwoSecond]
+  change ¬(({0, 1} : Finset (Fin 2)) ⊆ ({0} : Finset (Fin 2)) ∨
+    ({0, 1} : Finset (Fin 2)) ⊆ ({1} : Finset (Fin 2)))
+  decide
 
 theorem d3_two_ordinary_comparison_not_full :
     d3CornerUnion d3TwoFirst d3TwoSecond ≠ d3TwoEdge := by
-  apply d3_missing_simplex_obstructs_union
-    d3TwoFirst d3TwoSecond d3TwoEdge ({0, 1} : Finset (Fin 2))
-  · exact Set.mem_univ _
-  · simp [d3TwoFirst]
-  · simp [d3TwoSecond]
+  intro h
+  apply d3_two_joining_edge_missing
+  rw [h]
+  exact Set.mem_univ _
 
 end OptionD
