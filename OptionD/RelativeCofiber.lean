@@ -81,6 +81,14 @@ def d3PointCofiberCollapsed {X Y : Type*} [TopologicalSpace X]
 
 /-- Ordinary point-set cofiber: (Y ⊔ {*})/(f(X) identified with {*}).
 Its topology is the actual quotient topology, not a discrete surrogate. -/
+/-- An exact membership rule for the EXISTING cofiber collapse set,
+exported across Lean module opacity. -/
+theorem d3_point_cofiber_collapsed_iff {X Y : Type*}
+    [TopologicalSpace X] [TopologicalSpace Y]
+    (f : C(X, Y)) (z : Y ⊕ PUnit) :
+    z ∈ d3PointCofiberCollapsed f ↔
+      z = Sum.inr PUnit.unit ∨ ∃ x : X, z = Sum.inl (f x) := Iff.rfl
+
 abbrev d3PointCofiber {X Y : Type*} [TopologicalSpace X]
     [TopologicalSpace Y] (f : C(X, Y)) :=
   d3CollapseSpace (d3PointCofiberCollapsed f)
