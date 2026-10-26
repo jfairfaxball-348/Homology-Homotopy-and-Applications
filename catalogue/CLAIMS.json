@@ -5868,6 +5868,13 @@
       "claim": "For every symmetric finite graph N>=2 with exact Gram realisation, every Boolean birth corner p and all 0<=delta with 2delta<1 and 2delta<b-a, there exists ONE interior radius r witnessing literal equality of entire finite Vietoris-Rips complexes at the real three-shift parameters (p,r), (p+delta,r+delta), (p+2delta,r+2delta), simultaneously for all four Boolean corners.",
       "scope": "OptionD/RealFiltration.lean d3_bit_shift_iff and d3_born_boolean_shift_iff; OptionD/RelativeCofiber.lean d3_middle_boolean_shift_complex and d3_three_shift_plateau_all_boolean. Pinned scratch Lean #40315214759 SUCCESS, integrity #40315214819 SUCCESS. This certifies point-set finite complexes, NOT homotopy pushouts, induced derived naturality across weak-equivalence zigzags or the quantitative D6/D7/D8 claims.",
       "sources": []
+    },
+    {
+      "id": "CLM-0612",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "The actual terminal Euclidean barycentric realisation of d3TwoEdge on two vertices is homeomorphic to the closed interval Icc 0 1, via x ↦ x.val 1 and the explicit continuous inverse t ↦ (1−t)e₀ + t e₁, with both inverse identities in Lean.",
+      "scope": "OptionD/IntervalTopology.lean d3_two_edge_coordinates, d3_two_edge_coord_ext, d3TwoEdgeOfIcc, d3TwoEdgeHomeoIcc; pinned scratch f1196776b8f5ded81b14ac76880197ac7e2fa343 Lean #40405529215 SUCCESS. Does NOT certify actual endpoint cofiber as circle or derived/full-real D6–D8.",
+      "sources": []
     }
   ]
 }

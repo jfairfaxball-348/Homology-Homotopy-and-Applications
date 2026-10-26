@@ -887,3 +887,6 @@ Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N�
 - **CLM-0610 FORMALLY_CERTIFIED:** exact inhabited distinct N=2 basis vectors and homeomorphisms of each of the two singleton-corner Euclidean barycentric spaces with PUnit. `OptionD/TwoVertexTopology.lean`, scratch #40315214759 SUCCESS.
 - **CLM-0611 FORMALLY_CERTIFIED:** simultaneous literal finite-complex equality for ALL four Boolean corners at 0, δ, 2δ with 0≤δ, 2δ<1, 2δ<b−a, using one common r∈(a,b−2δ). `OptionD/RealFiltration.lean`, `OptionD/RelativeCofiber.lean`, scratch #40315214759 SUCCESS.
 - Neither claim says the terminal realisation is formally an interval, nor that the ordinary cofiber is formally a circle; no derived hocolim/WE-zigzag/HHA novelty or D6–D8 promotion.
+
+## S135 — CLM-0612 (26 October 2026)
+- **CLM-0612 FORMALLY_CERTIFIED:** the actual N=2 terminal Euclidean barycentric edge is homeomorphic to `Set.Icc (0:ℝ) 1`, via `x↦x.val 1` and inverse `t↦(1−t)e₀+te₁`. Exact continuous maps and inverse proofs in `OptionD/IntervalTopology.lean`, pinned hosted scratch Lean #40405529215 SUCCESS. The point-set cofiber quotient ≃S¹ is only a hand proof, NOT yet kernel compiled; CW-derived naturality, full-real all-WE interleavings and D6–D8 remain OPEN. G2 deferred, not passed.
