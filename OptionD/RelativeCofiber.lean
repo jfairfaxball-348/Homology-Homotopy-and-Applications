@@ -226,4 +226,43 @@ theorem d3_middle_boolean_shift_complex (N : ℕ) (hN : 2 ≤ N)
     exact ⟨(fun v hs => (d3_boolean_birth_iff N w p v).mpr
       ((d3_born_boolean_shift_iff N w p δ hδ hlt v).mp (hv v hs))), hc⟩
 
+
+/-- One common interior radius witnesses the exact zero-, one- and
+two-shift Boolean plateau for ALL four Boolean corners at once.
+This is literal equality of finite complexes, not a derived interleaving. -/
+theorem d3_three_shift_plateau_all_boolean (N : ℕ) (hN : 2 ≤ N)
+    (edge : Fin N → Fin N → Prop)
+    (hsym : ∀ i j, edge i j ↔ edge j i)
+    (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (hq : d1HasGramPoints N edge q)
+    (w : Fin N → d2Grade) (δ : ℝ)
+    (hδ : 0 ≤ δ) (hδsmall : 2 * δ < 1)
+    (hgap : 2 * δ < d3UpperRadius N - d3LowerRadius N) :
+    ∃ r : ℝ,
+      d3LowerRadius N < r ∧
+      r + 2 * δ < d3UpperRadius N ∧
+      ∀ p : d2Grade,
+        d3RipsComplex N q w (d3BooleanHeight p, r) =
+          d3RipsComplex N q w
+            ((fun k => ((p k).val : ℝ) + δ), r + δ) ∧
+        d3RipsComplex N q w (d3BooleanHeight p, r) =
+          d3RipsComplex N q w
+            ((fun k => ((p k).val : ℝ) + 2 * δ), r + 2 * δ) := by
+  obtain ⟨r, hra, _, htop⟩ :=
+    d3_interior_radius_sample
+      (d3LowerRadius N) (d3UpperRadius N) δ hδ hgap
+  have hrb : r ≤ d3UpperRadius N := by linarith
+  have hta1 : d3LowerRadius N < r + δ := by linarith
+  have htb1 : r + δ ≤ d3UpperRadius N := by linarith
+  have hta2 : d3LowerRadius N < r + 2 * δ := by linarith
+  have htb2 : r + 2 * δ ≤ d3UpperRadius N := by linarith
+  have hδlt : δ < 1 := by linarith
+  refine ⟨r, hra, htop, ?_⟩
+  intro p
+  constructor
+  · exact d3_middle_boolean_shift_complex N hN edge hsym q hq w p
+      δ r (r + δ) hδ hδlt hra hrb hta1 htb1
+  · exact d3_middle_boolean_shift_complex N hN edge hsym q hq w p
+      (2 * δ) r (r + 2 * δ) (by linarith) hδsmall hra hrb hta2 htb2
+
 end OptionD
