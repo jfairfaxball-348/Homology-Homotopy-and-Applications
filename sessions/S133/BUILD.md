@@ -1,0 +1,7 @@
+# S133 BUILD — pinned hosted Lean record (26 October 2026)
+Entry live main `03e3eb906c3ade868ba6da69611bad86085f90fe` (ordinary S132 merge PR #157); prior authored S132 PR #157 Option D Lean run #39834551391 SUCCESS, repository-integrity #39834551521 SUCCESS. No competing open PRs at entry; the connector's commit-workflow endpoint returns pull_request runs only, so it cannot certify the independent prior merged-main CI.
+- Scratch `ffb343bc62631c1b233c972f9f90d283bcf879d7`: Lean #40304535908 FAILED (missing Finset names/imported face opacity), integrity #40304535465 SUCCESS.
+- Scratch `9b343b635be46ea044044ab5c24c0c0de77c28b7`: Lean #40304902305 FAILED (downward closure elaboration), integrity #40304902306 SUCCESS.
+- Scratch `55169b5d34d65268de3fe4ba4c4317ab90c1b194`: Lean #40305237471 FAILED (target conversion from subset to empty face), integrity #40305237489 SUCCESS.
+- Final scratch `90f9c32b181e5c8e70bf6b72524eababa9bc678b`: Lean #40305938369, repository integrity #40305938441 SUCCESS. Exact source OptionD/TwoVertexTopology.lean, defining-module face iff lemmas in OptionD/AttachingBoundary.lean, umbrella OptionD.lean.
+Pinned Lean leanprover/lean4:v4.35.0-rc2 and Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55. Hosted checks build `lake build OptionD` and validate repository/session handoff. No local Lean runner, no custom axioms or admitted proofs. Independently inspect ordinary PR and merged-main checks; scratch success alone cannot certify their results. No Palomar action.

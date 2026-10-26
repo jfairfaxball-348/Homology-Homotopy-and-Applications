@@ -167,4 +167,13 @@ theorem d3_ordinary_attaching_val {N : ℕ}
     ((d3OrdinaryAttachingComparison B C D hB hC) x).val = x.val := by
   exact d3_barycentric_inclusion_val _ _ _ x
 
+
+/-- Exported face-characterisation of the first singleton corner. -/
+theorem d3_two_first_mem_iff (s : Finset (Fin 2)) :
+    s ∈ d3TwoFirst.faces ↔ s ⊆ ({0} : Finset (Fin 2)) := Iff.rfl
+
+/-- Exported face-characterisation of the other singleton corner. -/
+theorem d3_two_second_mem_iff (s : Finset (Fin 2)) :
+    s ∈ d3TwoSecond.faces ↔ s ⊆ ({1} : Finset (Fin 2)) := Iff.rfl
+
 end OptionD
