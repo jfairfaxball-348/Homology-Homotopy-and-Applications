@@ -5875,6 +5875,13 @@
       "claim": "The actual terminal Euclidean barycentric realisation of d3TwoEdge on two vertices is homeomorphic to the closed interval Icc 0 1, via x ↦ x.val 1 and the explicit continuous inverse t ↦ (1−t)e₀ + t e₁, with both inverse identities in Lean.",
       "scope": "OptionD/IntervalTopology.lean d3_two_edge_coordinates, d3_two_edge_coord_ext, d3TwoEdgeOfIcc, d3TwoEdgeHomeoIcc; pinned scratch f1196776b8f5ded81b14ac76880197ac7e2fa343 Lean #40405529215 SUCCESS. Does NOT certify actual endpoint cofiber as circle or derived/full-real D6–D8.",
       "sources": []
+    },
+    {
+      "id": "CLM-0613",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For the existing true two-vertex barycentric attaching arrow and genuine point-set cofiber, the attaching image consists of exactly the two distinct interval endpoints; both collapse to the adjoined basepoint; the interval-to-existing-cofiber map is continuous and surjective and its fibres are identical representatives or the common pair of endpoints.",
+      "scope": "OptionD/RelativeCofiber.lean exported precise collapse relation/membership; OptionD/IntervalTopology.lean d3_two_corner_union_second, d3_two_attaching_image_iff, d3TwoCofiberAt, d3TwoCofiberBase, d3_two_cofiber_boundary_base, d3_two_cofiber_fiber_iff, d3_two_cofiber_at_continuous, d3_two_cofiber_at_surjective. Pinned scratch b2e1ab16e7ccd308e9479b0807b09b51280538b6 hosted Lean #40415660191 SUCCESS. Does NOT prove quotient-map topology/homeomorphism to circle, CW-cofibration, derived cofiber, all-real strict interleavings or D6–D8. G2 owner deferred.",
+      "sources": []
     }
   ]
 }

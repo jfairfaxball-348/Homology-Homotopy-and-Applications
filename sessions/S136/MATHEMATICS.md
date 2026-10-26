@@ -1,0 +1,19 @@
+# S136 MATHEMATICS — actual two-endpoint cofiber fibres
+
+## Formally certified
+Let K=d3TwoEdge and A=d3CornerUnion d3TwoFirst d3TwoSecond. The original attaching arrow i:|A|→|K| is the continuous barycentric inclusion. For every x∈|A|, its second Euclidean coordinate is exactly 0 or 1. Conversely, each of the two explicit endpoint basis vectors is realised in A. Therefore the image of i is EXACTLY the two vertices of the genuine interval homeomorphism Φ:|K|≃ₜ[0,1] of S135, not empty and not the whole connected edge. Lean theorem: d3_two_attaching_image_iff.
+
+Define q:[0,1]→Cofib(i) using the ACTUAL existing d3PointCofiberProjection of Sum.inl (d3TwoEdgeOfIcc t), and b using the actual projection of Sum.inr PUnit.unit. No new quotient is introduced. S136 proves q(0)=q(1)=b and more strongly
+
+    q(s)=q(t) ↔ s=t ∨ ((s=0 ∨ s=1) ∧ (t=0 ∨ t=1)).
+
+The forward implication is Quotient.exact plus the exported precise collapse relation. If quotient representatives differ, both must belong to the collapsed subset; the Sum.inl alternatives are exactly images of i, hence actual endpoints. The reverse implication uses reflexivity or the two endpoint-to-basepoint proofs. Thus interior points are never accidentally identified. S136 separately proves Continuous q and Function.Surjective q: every quotient representative is either Sum.inl(x), giving t=Φ(x), or the genuine adjoined basepoint, hit by t=0. All are in OptionD/IntervalTopology.lean with exported relation membership in OptionD/RelativeCofiber.lean, S136 genuine endpoint quotient (26 October 2026). Pinned scratch b2e1ab16e7ccd308e9479b0807b09b51280538b6, hosted Lean #40415660191 SUCCESS, integrity #40415660047 SUCCESS.
+
+## Exact boundary of certification
+Even a continuous surjection with these exact fibres is NOT, without a quotient-map proof, a certified homeomorphism with the endpoint quotient. The actual cofiber is a quotient of |K|⊕PUnit by the collapse relation; proving final topology for q is the central S137 task. Its point-set ordinary cofiber is classically homeomorphic to S¹, but neither that homeomorphism nor AddCircle composition has been compiled. Pinned Mathlib4/Mathlib/Topology/Instances/AddCircle/Defs.lean contains AddCircle.homeoIccQuot and EndpointIdent, but their exact type has not been tested inside this project.
+
+## Derived and all-real limits
+The special finite two-endpoint inclusion S⁰⊂D¹ is a classical CW subcomplex cofibration; no Lean cofibration or homotopy-cofiber comparison has been compiled. The punctured square *←∅→* has S⁰ homotopy pushout (two π₀-components), whereas its terminal edge has one π₀-component; the square is NOT homotopy cocartesian. Point-set cofiber calculations do not imply the other assertion. S134's literal 0,δ,2δ Boolean finite-complex plateau with 0≤δ, 2δ<1, 2δ<b−a and strict middle radius (a,b] says nothing by itself about full all-real R³ interleaving maps or arbitrary WE zigzags of BOTH WHOLE lanes. D6 universal arbitrary connected finite Y and arbitrary f,g, D7 Hopf, D8 robustness remain OPEN. G2 significance/novelty is OWNER-DEFERRED, NOT PASSED.
+
+## Universal D6 auxiliary route
+Naive flagification fails: a triangle boundary S¹ completes to a filled, contractible triangle. A potentially topology-preserving flag replacement is barycentric subdivision of a *chosen finite simplicial complex*: vertices are nonempty faces, edges are comparability, and a clique of pairwise comparable faces is a chain, hence a simplex; its geometric realisation is homeomorphic to the original polyhedron. This does NOT prove arbitrary finite CW Y admits the required strict finite triangulation, arbitrary continuous f,g can be simultaneously made compatible, or any Euclidean Rips/real three-parameter replacement with WE naturality. No universal claim promoted.

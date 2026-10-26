@@ -890,3 +890,6 @@ Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N�
 
 ## S135 — CLM-0612 (26 October 2026)
 - **CLM-0612 FORMALLY_CERTIFIED:** the actual N=2 terminal Euclidean barycentric edge is homeomorphic to `Set.Icc (0:ℝ) 1`, via `x↦x.val 1` and inverse `t↦(1−t)e₀+te₁`. Exact continuous maps and inverse proofs in `OptionD/IntervalTopology.lean`, pinned hosted scratch Lean #40405529215 SUCCESS. The point-set cofiber quotient ≃S¹ is only a hand proof, NOT yet kernel compiled; CW-derived naturality, full-real all-WE interleavings and D6–D8 remain OPEN. G2 deferred, not passed.
+
+## S136 — CLM-0613 (26 October 2026)
+- **CLM-0613 FORMALLY_CERTIFIED:** S136 genuine endpoint quotient (26 October 2026). Pinned scratch b2e1ab16e7ccd308e9479b0807b09b51280538b6, hosted Lean #40415660191 SUCCESS, integrity #40415660047 SUCCESS. The actual attaching image is exactly the two terminal N2 interval endpoints, both identified with the genuine cofiber's adjoined basepoint; the actual interval-to-cofiber map is continuous, onto and has fibres exactly equal points or the two endpoints. Source code OptionD/RelativeCofiber.lean and OptionD/IntervalTopology.lean. **NOT** a Lean homeomorphism to S¹, CW-derived comparison, all-real arbitrary zigzag/interleaving or D6–D8. G2 owner deferred.
