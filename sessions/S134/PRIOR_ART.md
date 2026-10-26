@@ -1,0 +1,2 @@
+# S134 PRIOR_ART — owner-deferred originality/HHA gate
+The owner expressly deferred G2 originality, priority and HHA suitability checks. No fresh primary-literature novelty audit was performed and no G2 promotion is inferred. Existing Mathlib imported APIs and Lean compile logs are formalisation dependencies, not prior-art evidence. The exact S134 endpoint and elementary bit-plateau propositions may be standard; journal-level significance is NOT claimed.

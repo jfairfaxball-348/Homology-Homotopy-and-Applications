@@ -1,0 +1,2 @@
+# S134 INPUT — 26 October 2026
+Fresh user instruction in the Homology, Homotopy and Applications project: "run next session". Read actual S134 authoritative prompt from S133 merged main `81480c0fca62183f7904fdde73ffb5e3209b2377`. This authorises execution of S134 ONLY, not S135, novelty G2, Palomar or publication.

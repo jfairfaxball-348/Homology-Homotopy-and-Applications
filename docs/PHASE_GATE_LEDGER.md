@@ -435,3 +435,6 @@ Lean-certified finite simplicial complex unions/intersections, continuous ordina
 
 ## S131 — G3 partial, strict cofiber naturality Lean-built (22 October 2026)
 Pinned Lean scratch #39779486962 SUCCESS certifies continuous-map equality for quotient/cofiber identity and composition, canonical quotient projections, corner-union inclusions and induced ordinary finite-point-set cofiber maps. This is not a full natural transformation on a derived arrow category or a general homotopy cofiber/homotopy pushout theorem. The opposing-birth π₀/S¹ test and CW-cofibration bridge remain hand proofs. D6/D7/D8 strict dHI certificate OPEN; G2 owner-deferred. No Palomar or publication clearance.
+
+## S134 — G3 partial: actual inhabited endpoints and one interior three-clock (26 October 2026)
+`OptionD/TwoVertexTopology.lean` supplies explicit Euclidean endpoints, Nonempty and homeomorphisms to PUnit; `OptionD/RealFiltration.lean` and `OptionD/RelativeCofiber.lean` establish a common radius for literal equality of ALL Boolean-corner complexes through 0,δ,2δ. Pinned scratch #40315214759 SUCCESS. **G3 PARTIAL:** no certified terminal interval/S¹ homeomorphism, cofibration/derived comparison, all-real coherent whole-WE zigzags or universal D6/D7/D8. **G2 owner-deferred NOT PASSED**; no Palomar, manuscript, arXiv, HHA or release.

@@ -386,4 +386,29 @@ theorem d3_parameter_le_of_components (u v : (Fin 2 → ℝ) × ℝ)
     (hh : ∀ k : Fin 2, u.1 k ≤ v.1 k) (hr : u.2 ≤ v.2) :
     d3ParameterLE u v := ⟨hh, hr⟩
 
+
+/-! S134: Boolean births are stable under an interior real shift. -/
+
+/-- A perturbation by 0 ≤ δ < 1 cannot change an inequality between two bits. -/
+theorem d3_bit_shift_iff (a b : Fin 2) (δ : ℝ)
+    (hδ : 0 ≤ δ) (hlt : δ < 1) :
+    ((a.val : ℝ) ≤ (b.val : ℝ) + δ) ↔ a ≤ b := by
+  fin_cases a <;> fin_cases b <;> norm_num <;> linarith
+
+/-- The exact real-height plateau for all vertices, including those born
+at zero and at one, is unchanged by the same shift 0 ≤ δ < 1. -/
+theorem d3_born_boolean_shift_iff (N : ℕ)
+    (w : Fin N → d2Grade) (p : d2Grade) (δ : ℝ)
+    (hδ : 0 ≤ δ) (hlt : δ < 1) (v : Fin N) :
+    d3Born N w (fun k => ((p k).val : ℝ) + δ) v ↔
+      d2GradeLE (w v) p := by
+  constructor
+  · intro hv
+    apply d2_grade_le_of_forall
+    intro k
+    exact (d3_bit_shift_iff (w v k) (p k) δ hδ hlt).mp (hv k)
+  · intro hp k
+    exact (d3_bit_shift_iff (w v k) (p k) δ hδ hlt).mpr
+      (d2_grade_le_forall (w v) p hp k)
+
 end OptionD

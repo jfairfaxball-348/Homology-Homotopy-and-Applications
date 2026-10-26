@@ -882,3 +882,8 @@ Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N�
 
 ## S133 — CLM-0609 (26 October 2026)
 - **CLM-0609 FORMALLY_CERTIFIED (pinned scratch Lean #40305938369):** `OptionD/TwoVertexTopology.lean` proves an empty-face-only Fin 2 complex has no barycentric points, exact opposite ambient coordinates for every point in each singleton corner and uniqueness in each. `OptionD/AttachingBoundary.lean` exports face iff bridges. Inhabitation of singleton corners, interval/S¹ homeomorphism, derived/cofibration and universal D6/D7/D8 remain OPEN.
+
+## S134 — CLM-0610/0611 (26 October 2026)
+- **CLM-0610 FORMALLY_CERTIFIED:** exact inhabited distinct N=2 basis vectors and homeomorphisms of each of the two singleton-corner Euclidean barycentric spaces with PUnit. `OptionD/TwoVertexTopology.lean`, scratch #40315214759 SUCCESS.
+- **CLM-0611 FORMALLY_CERTIFIED:** simultaneous literal finite-complex equality for ALL four Boolean corners at 0, δ, 2δ with 0≤δ, 2δ<1, 2δ<b−a, using one common r∈(a,b−2δ). `OptionD/RealFiltration.lean`, `OptionD/RelativeCofiber.lean`, scratch #40315214759 SUCCESS.
+- Neither claim says the terminal realisation is formally an interval, nor that the ordinary cofiber is formally a circle; no derived hocolim/WE-zigzag/HHA novelty or D6–D8 promotion.
