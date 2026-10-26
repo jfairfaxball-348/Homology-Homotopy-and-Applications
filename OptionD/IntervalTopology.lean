@@ -7,7 +7,7 @@ public section
 /-!
 # S135: genuine two-vertex barycentric interval
 This module proves coordinate bounds and constructs the explicit affine inverse.
--/-
+-/
 
 namespace OptionD
 
@@ -24,22 +24,24 @@ theorem d3_two_edge_coord_ext (x y : d3BarycentricSpace d3TwoEdge)
   apply Subtype.ext
   ext i
   fin_cases i
-  · have hx := (d3_two_edge_coordinates x).2.2
+  · change x.val 0 = y.val 0
+    have hx := (d3_two_edge_coordinates x).2.2
     have hy := (d3_two_edge_coordinates y).2.2
     linarith
-  · exact h
+  · change x.val 1 = y.val 1
+    exact h
 
 noncomputable def d3TwoEdgeOfIcc (t : Set.Icc (0 : ℝ) 1) :
     d3BarycentricSpace d3TwoEdge := by
   let v : EuclideanSpace ℝ (Fin 2) :=
     (1 - (t : ℝ)) • d3TwoEndpoint 0 + (t : ℝ) • d3TwoEndpoint 1
   have h0 : v 0 = 1 - (t : ℝ) := by
-    simp [v, d3TwoEndpoint]
+    simp [v, d3_two_endpoint_00, d3_two_endpoint_10]
   have h1 : v 1 = (t : ℝ) := by
-    simp [v, d3TwoEndpoint]
+    simp [v, d3_two_endpoint_01, d3_two_endpoint_11]
   refine ⟨v, ?_⟩
   apply (d3_barycentric_carrier_iff d3TwoEdge v).mpr
-  refine ⟨?_, ?_, Finset.univ, Set.mem_univ _, ?_⟩
+  refine ⟨?_, ?_, Finset.univ, d3_two_edge_mem _, ?_⟩
   · intro i
     fin_cases i
     · rw [h0]
@@ -58,7 +60,7 @@ noncomputable def d3TwoEdgeToIcc (x : d3BarycentricSpace d3TwoEdge) :
 
 theorem d3_two_edge_ofIcc_second (t : Set.Icc (0 : ℝ) 1) :
     (d3TwoEdgeOfIcc t).val 1 = (t : ℝ) := by
-  simp [d3TwoEdgeOfIcc, d3TwoEndpoint]
+  simp [d3TwoEdgeOfIcc, d3_two_endpoint_01, d3_two_endpoint_11]
 
 noncomputable def d3TwoEdgeHomeoIcc :
     d3BarycentricSpace d3TwoEdge ≃ₜ Set.Icc (0 : ℝ) 1 where
@@ -88,6 +90,6 @@ noncomputable def d3TwoEdgeHomeoIcc :
           (t : ℝ) • d3TwoEndpoint 1) :=
       ht.smul continuous_const
     apply Continuous.subtype_mk
-    simpa only [d3TwoEdgeOfIcc] using h0.add h1
+    simpa [d3TwoEdgeOfIcc] using h0.add h1
 
 end OptionD
