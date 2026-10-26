@@ -92,6 +92,8 @@ noncomputable def d3TwoEdgeHomeoIcc :
           (t : ℝ) • d3TwoEndpoint 1) :=
       ht.smul continuous_const
     apply Continuous.subtype_mk
-    simpa only [d3TwoEdgeOfIcc, Pi.add_apply] using h0.add h1
+    change Continuous (fun t : Set.Icc (0 : ℝ) 1 =>
+      (1 - (t : ℝ)) • d3TwoEndpoint 0 + (t : ℝ) • d3TwoEndpoint 1)
+    fun_prop
 
 end OptionD
