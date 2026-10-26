@@ -20,7 +20,7 @@ def d3TwoVoid : d3FiniteComplex 2 where
   empty_mem := rfl
   downward := by
     intro s t hst ht
-    exact Finset.eq_empty_of_subset_empty (ht ▸ hst)
+    simpa [ht] using hst
 
 /-- Its standard barycentric realisation is genuinely empty, not a point. -/
 theorem d3_two_void_isEmpty : IsEmpty (d3BarycentricSpace d3TwoVoid) := by
@@ -34,7 +34,7 @@ theorem d3_two_void_isEmpty : IsEmpty (d3BarycentricSpace d3TwoVoid) := by
     by_contra hxi
     have hi := hsupport i hxi
     rw [hs] at hi
-    exact Finset.not_mem_empty i hi
+    simpa [hs] using hi
   have hzsum : (∑ i : Fin 2, x.val i) = 0 := by
     apply Finset.sum_eq_zero
     intro i hi
@@ -48,11 +48,12 @@ theorem d3_two_first_coordinates
     x.val 0 = 1 ∧ x.val 1 = 0 := by
   obtain ⟨_, hsum, s, hs, hsupport⟩ :=
     (d3_barycentric_carrier_iff d3TwoFirst x.val).mp x.property
-  change s ⊆ ({0} : Finset (Fin 2)) at hs
+  have hs' : s ⊆ ({0} : Finset (Fin 2)) :=
+    (d3_two_first_mem_iff s).mp hs
   have h1 : x.val 1 = 0 := by
     by_contra h
     have hm : (1 : Fin 2) ∈ ({0} : Finset (Fin 2)) :=
-      hs (hsupport 1 h)
+      hs' (hsupport 1 h)
     exact (show (1 : Fin 2) ∉ ({0} : Finset (Fin 2)) by decide) hm
   have hsum2 : x.val 0 + x.val 1 = 1 := by
     simpa [Fin.sum_univ_two] using hsum
@@ -64,11 +65,12 @@ theorem d3_two_second_coordinates
     x.val 0 = 0 ∧ x.val 1 = 1 := by
   obtain ⟨_, hsum, s, hs, hsupport⟩ :=
     (d3_barycentric_carrier_iff d3TwoSecond x.val).mp x.property
-  change s ⊆ ({1} : Finset (Fin 2)) at hs
+  have hs' : s ⊆ ({1} : Finset (Fin 2)) :=
+    (d3_two_second_mem_iff s).mp hs
   have h0 : x.val 0 = 0 := by
     by_contra h
     have hm : (0 : Fin 2) ∈ ({1} : Finset (Fin 2)) :=
-      hs (hsupport 0 h)
+      hs' (hsupport 0 h)
     exact (show (0 : Fin 2) ∉ ({1} : Finset (Fin 2)) by decide) hm
   have hsum2 : x.val 0 + x.val 1 = 1 := by
     simpa [Fin.sum_univ_two] using hsum
