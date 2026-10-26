@@ -192,4 +192,38 @@ theorem d3_collapse_map_id_apply_mk {X : Type*} [TopologicalSpace X]
       Quotient.mk (d3CollapseSetoid A) x := by
   exact (rfl)
 
+
+/-! S134: exact simultaneous height/radius plateau on Boolean birth cubes. -/
+
+/-- Simultaneously shifting both real birth coordinates by δ < 1 and
+changing the unsquared radius within (a,b] leaves the entire geometric
+finite complex literally equal, not just objectwise homotopy equivalent. -/
+theorem d3_middle_boolean_shift_complex (N : ℕ) (hN : 2 ≤ N)
+    (edge : Fin N → Fin N → Prop)
+    (hsym : ∀ i j, edge i j ↔ edge j i)
+    (q : Fin N → EuclideanSpace ℝ (Fin (N - 1)))
+    (hq : d1HasGramPoints N edge q)
+    (w : Fin N → d2Grade) (p : d2Grade) (δ r t : ℝ)
+    (hδ : 0 ≤ δ) (hlt : δ < 1)
+    (hra : d3LowerRadius N < r) (hrb : r ≤ d3UpperRadius N)
+    (hta : d3LowerRadius N < t) (htb : t ≤ d3UpperRadius N) :
+    d3RipsComplex N q w (d3BooleanHeight p, r) =
+      d3RipsComplex N q w ((fun k => ((p k).val : ℝ) + δ), t) := by
+  apply d3FiniteComplex.ext
+  ext s
+  rw [d3_rips_complex_faces N q w (d3BooleanHeight p, r) s,
+    d3_rips_complex_faces N q w
+      ((fun k => ((p k).val : ℝ) + δ), t) s]
+  rw [d3_middle_flag_iff N hN edge hsym q hq w
+      (d3BooleanHeight p) r hra hrb s,
+    d3_middle_flag_iff N hN edge hsym q hq w
+      (fun k => ((p k).val : ℝ) + δ) t hta htb s]
+  constructor
+  · rintro ⟨hv, hc⟩
+    exact ⟨(fun v hs => (d3_born_boolean_shift_iff N w p δ hδ hlt v).mpr
+      ((d3_boolean_birth_iff N w p v).mp (hv v hs))), hc⟩
+  · rintro ⟨hv, hc⟩
+    exact ⟨(fun v hs => (d3_boolean_birth_iff N w p v).mpr
+      ((d3_born_boolean_shift_iff N w p δ hδ hlt v).mp (hv v hs))), hc⟩
+
 end OptionD
