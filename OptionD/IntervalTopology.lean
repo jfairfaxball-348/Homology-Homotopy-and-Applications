@@ -44,9 +44,11 @@ noncomputable def d3TwoEdgeOfIcc (t : Set.Icc (0 : ℝ) 1) :
   refine ⟨?_, ?_, Finset.univ, d3_two_edge_mem _, ?_⟩
   · intro i
     fin_cases i
-    · rw [h0]
+    · change 0 ≤ v 0
+      rw [h0]
       exact sub_nonneg.mpr t.property.2
-    · rw [h1]
+    · change 0 ≤ v 1
+      rw [h1]
       exact t.property.1
   · simp only [Fin.sum_univ_two, h0, h1]
     ring
@@ -90,6 +92,6 @@ noncomputable def d3TwoEdgeHomeoIcc :
           (t : ℝ) • d3TwoEndpoint 1) :=
       ht.smul continuous_const
     apply Continuous.subtype_mk
-    simpa [d3TwoEdgeOfIcc] using h0.add h1
+    simpa only [d3TwoEdgeOfIcc, Pi.add_apply] using h0.add h1
 
 end OptionD
