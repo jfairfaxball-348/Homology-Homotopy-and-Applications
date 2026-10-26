@@ -104,7 +104,7 @@ theorem d3_two_second_unique
 /-! S134: inhabited, geometrically distinct barycentric endpoints. -/
 
 /-- The literal ambient standard basis vector, not an abstract unique point. -/
-def d3TwoEndpoint (i : Fin 2) : EuclideanSpace ℝ (Fin 2) :=
+noncomputable def d3TwoEndpoint (i : Fin 2) : EuclideanSpace ℝ (Fin 2) :=
   EuclideanSpace.single i 1
 
 /-- The first standard basis vector lies in the first singleton corner. -/
@@ -130,11 +130,11 @@ theorem d3_two_second_endpoint_mem :
     fin_cases i <;> simp_all [d3TwoEndpoint]
 
 /-- The explicit, inhabited first endpoint. -/
-def d3TwoFirstPoint : d3BarycentricSpace d3TwoFirst :=
+noncomputable def d3TwoFirstPoint : d3BarycentricSpace d3TwoFirst :=
   ⟨d3TwoEndpoint 0, d3_two_first_endpoint_mem⟩
 
 /-- The explicit, inhabited second endpoint. -/
-def d3TwoSecondPoint : d3BarycentricSpace d3TwoSecond :=
+noncomputable def d3TwoSecondPoint : d3BarycentricSpace d3TwoSecond :=
   ⟨d3TwoEndpoint 1, d3_two_second_endpoint_mem⟩
 
 theorem d3_two_first_nonempty :
@@ -146,7 +146,7 @@ theorem d3_two_second_nonempty :
   ⟨d3TwoSecondPoint⟩
 
 /-- First corner is genuinely a one-point *topological* space. -/
-def d3TwoFirstHomeoPUnit : d3BarycentricSpace d3TwoFirst ≃ₜ PUnit where
+noncomputable def d3TwoFirstHomeoPUnit : d3BarycentricSpace d3TwoFirst ≃ₜ PUnit where
   toFun := fun _ => PUnit.unit
   invFun := fun _ => d3TwoFirstPoint
   left_inv := fun x => d3_two_first_unique _ _
@@ -155,7 +155,7 @@ def d3TwoFirstHomeoPUnit : d3BarycentricSpace d3TwoFirst ≃ₜ PUnit where
   continuous_invFun := continuous_const
 
 /-- Second corner is genuinely a one-point *topological* space. -/
-def d3TwoSecondHomeoPUnit : d3BarycentricSpace d3TwoSecond ≃ₜ PUnit where
+noncomputable def d3TwoSecondHomeoPUnit : d3BarycentricSpace d3TwoSecond ≃ₜ PUnit where
   toFun := fun _ => PUnit.unit
   invFun := fun _ => d3TwoSecondPoint
   left_inv := fun x => d3_two_second_unique _ _
