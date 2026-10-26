@@ -101,4 +101,73 @@ theorem d3_two_second_unique
   · exact (d3_two_second_coordinates x).2.trans
       (d3_two_second_coordinates y).2.symm
 
+/-! S134: inhabited, geometrically distinct barycentric endpoints. -/
+
+/-- The literal ambient standard basis vector, not an abstract unique point. -/
+def d3TwoEndpoint (i : Fin 2) : EuclideanSpace ℝ (Fin 2) :=
+  EuclideanSpace.single i 1
+
+/-- The first standard basis vector lies in the first singleton corner. -/
+theorem d3_two_first_endpoint_mem :
+    d3TwoEndpoint 0 ∈ d3BarycentricCarrier d3TwoFirst := by
+  apply (d3_barycentric_carrier_iff d3TwoFirst (d3TwoEndpoint 0)).mpr
+  refine ⟨?_, ?_, {0}, (d3_two_first_mem_iff _).mpr (by simp), ?_⟩
+  · intro i
+    fin_cases i <;> simp [d3TwoEndpoint]
+  · simp [Fin.sum_univ_two, d3TwoEndpoint]
+  · intro i hi
+    fin_cases i <;> simp_all [d3TwoEndpoint]
+
+/-- The second standard basis vector lies in the second singleton corner. -/
+theorem d3_two_second_endpoint_mem :
+    d3TwoEndpoint 1 ∈ d3BarycentricCarrier d3TwoSecond := by
+  apply (d3_barycentric_carrier_iff d3TwoSecond (d3TwoEndpoint 1)).mpr
+  refine ⟨?_, ?_, {1}, (d3_two_second_mem_iff _).mpr (by simp), ?_⟩
+  · intro i
+    fin_cases i <;> simp [d3TwoEndpoint]
+  · simp [Fin.sum_univ_two, d3TwoEndpoint]
+  · intro i hi
+    fin_cases i <;> simp_all [d3TwoEndpoint]
+
+/-- The explicit, inhabited first endpoint. -/
+def d3TwoFirstPoint : d3BarycentricSpace d3TwoFirst :=
+  ⟨d3TwoEndpoint 0, d3_two_first_endpoint_mem⟩
+
+/-- The explicit, inhabited second endpoint. -/
+def d3TwoSecondPoint : d3BarycentricSpace d3TwoSecond :=
+  ⟨d3TwoEndpoint 1, d3_two_second_endpoint_mem⟩
+
+theorem d3_two_first_nonempty :
+    Nonempty (d3BarycentricSpace d3TwoFirst) :=
+  ⟨d3TwoFirstPoint⟩
+
+theorem d3_two_second_nonempty :
+    Nonempty (d3BarycentricSpace d3TwoSecond) :=
+  ⟨d3TwoSecondPoint⟩
+
+/-- First corner is genuinely a one-point *topological* space. -/
+def d3TwoFirstHomeoPUnit : d3BarycentricSpace d3TwoFirst ≃ₜ PUnit where
+  toFun := fun _ => PUnit.unit
+  invFun := fun _ => d3TwoFirstPoint
+  left_inv := fun x => d3_two_first_unique _ _
+  right_inv := by intro x; cases x; rfl
+  continuous_toFun := continuous_const
+  continuous_invFun := continuous_const
+
+/-- Second corner is genuinely a one-point *topological* space. -/
+def d3TwoSecondHomeoPUnit : d3BarycentricSpace d3TwoSecond ≃ₜ PUnit where
+  toFun := fun _ => PUnit.unit
+  invFun := fun _ => d3TwoSecondPoint
+  left_inv := fun x => d3_two_second_unique _ _
+  right_inv := by intro x; cases x; rfl
+  continuous_toFun := continuous_const
+  continuous_invFun := continuous_const
+
+/-- The two explicitly constructed endpoints have distinct ambient coordinates. -/
+theorem d3_two_endpoints_ne :
+    d3TwoEndpoint 0 ≠ d3TwoEndpoint 1 := by
+  intro h
+  have h0 := congrArg (fun x : EuclideanSpace ℝ (Fin 2) => x 0) h
+  simp [d3TwoEndpoint] at h0
+
 end OptionD
