@@ -21,9 +21,9 @@ def d3TwoVoid : d3FiniteComplex 2 where
   downward := by
     intro s t hst ht
     change s = ∅
-    have hs : s ⊆ (∅ : Finset (Fin 2)) := by
-      simpa [ht] using hst
-    simpa using hs
+    change t = ∅ at ht
+    subst t
+    simpa using hst
 
 /-- Its standard barycentric realisation is genuinely empty, not a point. -/
 theorem d3_two_void_isEmpty : IsEmpty (d3BarycentricSpace d3TwoVoid) := by
