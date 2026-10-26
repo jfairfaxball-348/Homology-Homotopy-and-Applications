@@ -96,4 +96,84 @@ noncomputable def d3TwoEdgeHomeoIcc :
       (1 - (t : ℝ)) • d3TwoEndpoint 0 + (t : ℝ) • d3TwoEndpoint 1)
     fun_prop
 
+/-! S136: the actual two-point attaching locus and its existing quotient. -/
+
+/-- A barycentric point in the union of the two singleton corners is
+literally one of the two Euclidean endpoints. -/
+theorem d3_two_corner_union_second
+    (x : d3BarycentricSpace (d3CornerUnion d3TwoFirst d3TwoSecond)) :
+    x.val 1 = 0 ∨ x.val 1 = 1 := by
+  have hx : x.val ∈ d3BarycentricCarrier d3TwoFirst ∪
+      d3BarycentricCarrier d3TwoSecond := by
+    rw [← d3_barycentric_union_carrier]
+    exact x.property
+  rcases hx with hfirst | hsecond
+  · exact Or.inl (d3_two_first_coordinates ⟨x.val, hfirst⟩).2
+  · exact Or.inr (d3_two_second_coordinates ⟨x.val, hsecond⟩).2
+
+/-- Characterise the image of the ACTUAL ordinary attaching arrow
+as the two endpoints of the genuine barycentric terminal interval. -/
+theorem d3_two_attaching_image_iff (z : d3BarycentricSpace d3TwoEdge) :
+    (∃ x : d3BarycentricSpace (d3CornerUnion d3TwoFirst d3TwoSecond),
+        d3OrdinaryAttachingComparison d3TwoFirst d3TwoSecond d3TwoEdge
+          d3_two_first_le_edge d3_two_second_le_edge x = z) ↔
+      z.val 1 = 0 ∨ z.val 1 = 1 := by
+  constructor
+  · rintro ⟨x, hx⟩
+    have hh : x.val 1 = z.val 1 := by
+      have he := congrArg (fun w : d3BarycentricSpace d3TwoEdge => w.val 1) hx
+      simpa only [d3_ordinary_attaching_val] using he
+    rcases d3_two_corner_union_second x with h0 | h1
+    · exact Or.inl (hh ▸ h0)
+    · exact Or.inr (hh ▸ h1)
+  · intro h
+    rcases h with h0 | h1
+    · refine ⟨⟨d3TwoEndpoint 0, ?_⟩, ?_⟩
+      · rw [d3_barycentric_union_carrier]
+        exact Or.inl d3_two_first_endpoint_mem
+      · apply d3_two_edge_coord_ext
+        rw [d3_ordinary_attaching_val]
+        simpa only [d3_two_endpoint_01] using h0.symm
+    · refine ⟨⟨d3TwoEndpoint 1, ?_⟩, ?_⟩
+      · rw [d3_barycentric_union_carrier]
+        exact Or.inr d3_two_second_endpoint_mem
+      · apply d3_two_edge_coord_ext
+        rw [d3_ordinary_attaching_val]
+        simpa only [d3_two_endpoint_11] using h1.symm
+
+/-- Points of the closed interval map into the already-defined genuine
+point-set cofiber, with its coinduced quotient topology. -/
+noncomputable def d3TwoCofiberAt (t : Set.Icc (0 : ℝ) 1) :
+    d3TwoPointCofiber :=
+  d3PointCofiberProjection
+    (d3OrdinaryAttachingComparison d3TwoFirst d3TwoSecond d3TwoEdge
+      d3_two_first_le_edge d3_two_second_le_edge)
+    (Sum.inl (d3TwoEdgeOfIcc t))
+
+/-- The new cofiber basepoint, rather than an artificially chosen endpoint. -/
+noncomputable def d3TwoCofiberBase : d3TwoPointCofiber :=
+  d3PointCofiberProjection
+    (d3OrdinaryAttachingComparison d3TwoFirst d3TwoSecond d3TwoEdge
+      d3_two_first_le_edge d3_two_second_le_edge)
+    (Sum.inr PUnit.unit)
+
+/-- Both actual endpoints become the actual adjoined basepoint in the
+existing point-set cofiber quotient. -/
+theorem d3_two_cofiber_boundary_base (t : Set.Icc (0 : ℝ) 1)
+    (ht : (t : ℝ) = 0 ∨ (t : ℝ) = 1) :
+    d3TwoCofiberAt t = d3TwoCofiberBase := by
+  have ht' : (d3TwoEdgeOfIcc t).val 1 = 0 ∨
+      (d3TwoEdgeOfIcc t).val 1 = 1 := by
+    simpa only [d3_two_edge_ofIcc_second] using ht
+  obtain ⟨a, ha⟩ := (d3_two_attaching_image_iff (d3TwoEdgeOfIcc t)).mpr ht'
+  unfold d3TwoCofiberAt d3TwoCofiberBase
+  rw [d3_point_cofiber_projection_mk, d3_point_cofiber_projection_mk]
+  apply Quotient.sound
+  right
+  constructor
+  · right
+    exact ⟨a, congrArg Sum.inl ha.symm⟩
+  · left
+    rfl
+
 end OptionD
