@@ -1,0 +1,6 @@
+# S134 PLAN — preregistered proof and verification
+- Preflight: S133 ordinary PR #159 merged to `81480c0fca62183f7904fdde73ffb5e3209b2377` with parents `03e3eb906c3ade868ba6da69611bad86085f90fe` and `799e8258680d7b94e83d592814667694c91559b3`, tree `6fbfa20e90af73522d596c2ca291c371e4dc2128`; post-merge Option D Lean #40306795641 and integrity #40306795676 SUCCESS, zero competing open PRs.
+- Priority 1: actual barycentric e0,e1, Nonempty and Unique of N=2 one-point corners, topological homeomorphism with PUnit, endpoint distinctness.
+- Priority 2: strict birth-height plateau and radius co-variation for all four Boolean corners at p,p+δ,p+2δ.
+- Attempt/triage next: terminal edge interval, actual cofiber S¹, cofiber projection naturality, CW-derived comparison and unrestricted D6/D7/D8. If cannot certify, leave explicit OPEN with faithful remaining types; do not install false statements.
+- Evidence: pinned scratch Lean builds, integrity check, actual compiler logs; classical handwritten CW/cofiber observations not mislabelled kernel certification; no novelty, Palomar, paper or external submission.

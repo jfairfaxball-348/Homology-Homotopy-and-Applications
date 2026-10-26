@@ -1,0 +1,7 @@
+# S134 BUILD — observed pinned hosted Lean evidence (26 October 2026)
+- Entry live main `81480c0fca62183f7904fdde73ffb5e3209b2377`, tree `6fbfa20e90af73522d596c2ca291c371e4dc2128` with S133 two-parent ordinary PR #159; post-merge pinned Option D Lean #40306795641 SUCCESS and integrity #40306795676 SUCCESS; no competing open PR.
+- Scratch `3ff5a09dd92d830e23d249ebc104da5277b0820a`: Option D Lean #40314078784 FAILED; error on noncomputable real Euclidean endpoint defs; static integrity #40314078739 SUCCESS (not Lean).
+- Scratch `a4deeb8c0ff8be2c016e41c0145de172a15e5e67`: endpoint/PUnit Lean #40314338986 SUCCESS, integrity #40314338751 SUCCESS.
+- Scratch `105b9d17be72223eef0874aadcd445c4c95b68df`: Boolean real-height plus radius complex equality Lean #40314794678 SUCCESS, integrity #40314794731 SUCCESS.
+- Final mathematical scratch `4fcfe31b03c47dbcd39b0326fc01fe7d675d6568`: three-shift all-Boolean common-radius Lean #40315214759 SUCCESS, integrity #40315214819 SUCCESS.
+- Toolchain `leanprover/lean4:v4.35.0-rc2`; Mathlib `065356127b1dc0016f66b7283ce0ce2c4055aa55`; dependency manifest unchanged. GitHub workflow includes `lake build OptionD` and independent static validation. A successful scratch build is NOT the same as PR/main verification; those are separately inspected after the official PR. No local Lean runner, sorry, admit, new axioms, Palomar or publication.

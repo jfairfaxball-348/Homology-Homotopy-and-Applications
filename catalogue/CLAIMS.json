@@ -5854,6 +5854,20 @@
       "claim": "The N=2 empty-face-only finite simplicial complex has genuinely empty Euclidean barycentric topological realisation. Every point of the first (second) singleton-corner barycentric space has coordinates exactly (1,0) ((0,1)), and any two points in either space are equal; imported singleton-face predicates have explicit defining-module iff bridges.",
       "scope": "OptionD/TwoVertexTopology.lean and AttachingBoundary.lean. Pinned scratch SHA 90f9c32b181e5c8e70bf6b72524eababa9bc678b, hosted Lean #40305938369; integrity #40305938441. This only proves at-most-one endpoint, NOT inhabitance, terminal interval homeomorphism, S¹ quotient, derived cofiber, CW-cofibration, all-real R³ interleavings or D6/D7/D8.",
       "sources": []
+    },
+    {
+      "id": "CLM-0610",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For the actual N=2 barycentric simplicial realisations, the first and second singleton corners are explicitly inhabited by EuclideanSpace standard basis vectors (1,0) and (0,1). Each is topologically homeomorphic to PUnit, and the ambient endpoint vectors are distinct.",
+      "scope": "OptionD/TwoVertexTopology.lean: d3TwoEndpoint, d3_two_first_endpoint_mem, d3_two_second_endpoint_mem, d3TwoFirstPoint, d3TwoSecondPoint, d3_two_first_nonempty, d3_two_second_nonempty, d3TwoFirstHomeoPUnit, d3TwoSecondHomeoPUnit, d3_two_endpoints_ne. Pinned scratch #40315214759 SUCCESS on 4fcfe31b03c47dbcd39b0326fc01fe7d675d6568. Not an interval, S1 or derived cofiber statement.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0611",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For every symmetric finite graph N>=2 with exact Gram realisation, every Boolean birth corner p and all 0<=delta with 2delta<1 and 2delta<b-a, there exists ONE interior radius r witnessing literal equality of entire finite Vietoris-Rips complexes at the real three-shift parameters (p,r), (p+delta,r+delta), (p+2delta,r+2delta), simultaneously for all four Boolean corners.",
+      "scope": "OptionD/RealFiltration.lean d3_bit_shift_iff and d3_born_boolean_shift_iff; OptionD/RelativeCofiber.lean d3_middle_boolean_shift_complex and d3_three_shift_plateau_all_boolean. Pinned scratch Lean #40315214759 SUCCESS, integrity #40315214819 SUCCESS. This certifies point-set finite complexes, NOT homotopy pushouts, induced derived naturality across weak-equivalence zigzags or the quantitative D6/D7/D8 claims.",
+      "sources": []
     }
   ]
 }
