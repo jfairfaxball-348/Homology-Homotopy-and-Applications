@@ -259,7 +259,6 @@ theorem d3_two_cofiber_at_surjective : Function.Surjective d3TwoCofiberAt := by
       d3TwoEdgeHomeoIcc.left_inv x
     unfold d3TwoCofiberAt
     rw [d3_point_cofiber_projection_mk, hx]
-    rfl
   | inr p =>
     cases p
     let t : Set.Icc (0 : ℝ) 1 := ⟨0, by norm_num, by norm_num⟩
@@ -267,6 +266,5 @@ theorem d3_two_cofiber_at_surjective : Function.Surjective d3TwoCofiberAt := by
     rw [d3_two_cofiber_boundary_base t (Or.inl rfl)]
     unfold d3TwoCofiberBase
     rw [d3_point_cofiber_projection_mk]
-    rfl
 
 end OptionD
