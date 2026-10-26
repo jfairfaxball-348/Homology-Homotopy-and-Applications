@@ -228,4 +228,45 @@ theorem d3_two_cofiber_fiber_iff
     · exact (d3_two_cofiber_boundary_base s hs).trans
         (d3_two_cofiber_boundary_base t ht).symm
 
+
+/-- The actual interval-to-cofiber quotient map is continuous. -/
+theorem d3_two_cofiber_at_continuous : Continuous d3TwoCofiberAt := by
+  have hInv : Continuous d3TwoEdgeOfIcc :=
+    d3TwoEdgeHomeoIcc.symm.continuous
+  have hSum : Continuous (fun t : Set.Icc (0 : ℝ) 1 =>
+      (Sum.inl (d3TwoEdgeOfIcc t) :
+        d3BarycentricSpace d3TwoEdge ⊕ PUnit)) :=
+    continuous_inl.comp hInv
+  change Continuous (fun t : Set.Icc (0 : ℝ) 1 =>
+    d3PointCofiberProjection
+      (d3OrdinaryAttachingComparison d3TwoFirst d3TwoSecond d3TwoEdge
+        d3_two_first_le_edge d3_two_second_le_edge)
+      (Sum.inl (d3TwoEdgeOfIcc t)))
+  exact (d3PointCofiberProjection
+    (d3OrdinaryAttachingComparison d3TwoFirst d3TwoSecond d3TwoEdge
+      d3_two_first_le_edge d3_two_second_le_edge)).continuous.comp hSum
+
+/-- Every point of the genuine cofiber has an interval representative.
+This includes the actual adjoined basepoint, via an endpoint. -/
+theorem d3_two_cofiber_at_surjective : Function.Surjective d3TwoCofiberAt := by
+  intro q
+  refine Quotient.inductionOn q ?_
+  intro z
+  cases z with
+  | inl x =>
+    refine ⟨d3TwoEdgeToIcc x, ?_⟩
+    have hx : d3TwoEdgeOfIcc (d3TwoEdgeToIcc x) = x :=
+      d3TwoEdgeHomeoIcc.left_inv x
+    unfold d3TwoCofiberAt
+    rw [d3_point_cofiber_projection_mk, hx]
+    rfl
+  | inr p =>
+    cases p
+    let t : Set.Icc (0 : ℝ) 1 := ⟨0, by norm_num, by norm_num⟩
+    refine ⟨t, ?_⟩
+    rw [d3_two_cofiber_boundary_base t (Or.inl rfl)]
+    unfold d3TwoCofiberBase
+    rw [d3_point_cofiber_projection_mk]
+    rfl
+
 end OptionD
