@@ -177,4 +177,55 @@ theorem d3_two_cofiber_boundary_base (t : Set.Icc (0 : ℝ) 1)
   · apply (d3_point_cofiber_collapsed_iff _ _).2
     exact Or.inl rfl
 
+
+/-- The fibres of the genuine existing two-point cofiber projection
+are exactly singletons in the interval interior and the common
+two-endpoint equivalence class.  No substitute quotient is introduced. -/
+theorem d3_two_cofiber_fiber_iff
+    (s t : Set.Icc (0 : ℝ) 1) :
+    d3TwoCofiberAt s = d3TwoCofiberAt t ↔
+      s = t ∨
+        (((s : ℝ) = 0 ∨ (s : ℝ) = 1) ∧
+         ((t : ℝ) = 0 ∨ (t : ℝ) = 1)) := by
+  constructor
+  · intro h
+    unfold d3TwoCofiberAt at h
+    rw [d3_point_cofiber_projection_mk, d3_point_cofiber_projection_mk] at h
+    rcases (d3_collapse_rel_iff _ _ _).mp (Quotient.exact h) with he | ⟨hs, ht⟩
+    · left
+      have he' : d3TwoEdgeOfIcc s = d3TwoEdgeOfIcc t := Sum.inl_injective he
+      apply Subtype.ext
+      calc
+        (s : ℝ) = (d3TwoEdgeOfIcc s).val 1 := (d3_two_edge_ofIcc_second s).symm
+        _ = (d3TwoEdgeOfIcc t).val 1 :=
+          congrArg (fun z : d3BarycentricSpace d3TwoEdge => z.val 1) he'
+        _ = (t : ℝ) := d3_two_edge_ofIcc_second t
+    · right
+      have hs' : ∃ a : d3BarycentricSpace
+          (d3CornerUnion d3TwoFirst d3TwoSecond),
+          d3OrdinaryAttachingComparison d3TwoFirst d3TwoSecond d3TwoEdge
+            d3_two_first_le_edge d3_two_second_le_edge a =
+              d3TwoEdgeOfIcc s := by
+        rcases (d3_point_cofiber_collapsed_iff _ _).mp hs with he | ⟨a, ha⟩
+        · cases he
+        · exact ⟨a, (Sum.inl_injective ha).symm⟩
+      have ht' : ∃ a : d3BarycentricSpace
+          (d3CornerUnion d3TwoFirst d3TwoSecond),
+          d3OrdinaryAttachingComparison d3TwoFirst d3TwoSecond d3TwoEdge
+            d3_two_first_le_edge d3_two_second_le_edge a =
+              d3TwoEdgeOfIcc t := by
+        rcases (d3_point_cofiber_collapsed_iff _ _).mp ht with he | ⟨a, ha⟩
+        · cases he
+        · exact ⟨a, (Sum.inl_injective ha).symm⟩
+      constructor
+      · simpa only [d3_two_edge_ofIcc_second] using
+          (d3_two_attaching_image_iff (d3TwoEdgeOfIcc s)).mp hs'
+      · simpa only [d3_two_edge_ofIcc_second] using
+          (d3_two_attaching_image_iff (d3TwoEdgeOfIcc t)).mp ht'
+  · intro h
+    rcases h with h | ⟨hs, ht⟩
+    · exact congrArg d3TwoCofiberAt h
+    · exact (d3_two_cofiber_boundary_base s hs).trans
+        (d3_two_cofiber_boundary_base t ht).symm
+
 end OptionD
