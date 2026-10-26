@@ -438,3 +438,6 @@ Pinned Lean scratch #39779486962 SUCCESS certifies continuous-map equality for q
 
 ## S134 — G3 partial: actual inhabited endpoints and one interior three-clock (26 October 2026)
 `OptionD/TwoVertexTopology.lean` supplies explicit Euclidean endpoints, Nonempty and homeomorphisms to PUnit; `OptionD/RealFiltration.lean` and `OptionD/RelativeCofiber.lean` establish a common radius for literal equality of ALL Boolean-corner complexes through 0,δ,2δ. Pinned scratch #40315214759 SUCCESS. **G3 PARTIAL:** no certified terminal interval/S¹ homeomorphism, cofibration/derived comparison, all-real coherent whole-WE zigzags or universal D6/D7/D8. **G2 owner-deferred NOT PASSED**; no Palomar, manuscript, arXiv, HHA or release.
+
+## S135 — G3 partial true two-vertex interval (26 October 2026)
+Pinned Lean scratch #40405529215 kernel-certifies the ACTUAL Euclidean barycentric N2 terminal edge ≃ₜ [0,1]. Ordinary cofiber ≃S¹ in hand mathematics not Lean, derived/cofibration comparison and arbitrary all-real weak-equivalence interleavings still OPEN, universal D6/D7/D8 OPEN. G3 **PARTIAL**, not complete; G2 **OWNER DEFERRED, NOT PASSED**; Palomar/manuscript/arXiv/HHA/contacts not authorised.

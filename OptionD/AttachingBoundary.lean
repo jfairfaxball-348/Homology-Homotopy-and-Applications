@@ -176,4 +176,8 @@ theorem d3_two_first_mem_iff (s : Finset (Fin 2)) :
 theorem d3_two_second_mem_iff (s : Finset (Fin 2)) :
     s ∈ d3TwoSecond.faces ↔ s ⊆ ({1} : Finset (Fin 2)) := Iff.rfl
 
+/-- All finite subsets of the terminal two-vertex edge are simplices. -/
+theorem d3_two_edge_mem (s : Finset (Fin 2)) : s ∈ d3TwoEdge.faces :=
+  Set.mem_univ _
+
 end OptionD

@@ -170,4 +170,18 @@ theorem d3_two_endpoints_ne :
   have h0 := congrArg (fun x : EuclideanSpace ℝ (Fin 2) => x 0) h
   simp [d3TwoEndpoint] at h0
 
+/-- Exported endpoint coordinates for dependent modules; the definition's
+body is intentionally sealed by the Lean module system. -/
+theorem d3_two_endpoint_00 : d3TwoEndpoint 0 0 = 1 := by
+  simp [d3TwoEndpoint]
+
+theorem d3_two_endpoint_01 : d3TwoEndpoint 0 1 = 0 := by
+  simp [d3TwoEndpoint]
+
+theorem d3_two_endpoint_10 : d3TwoEndpoint 1 0 = 0 := by
+  simp [d3TwoEndpoint]
+
+theorem d3_two_endpoint_11 : d3TwoEndpoint 1 1 = 1 := by
+  simp [d3TwoEndpoint]
+
 end OptionD

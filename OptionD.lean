@@ -22,3 +22,4 @@ public import OptionD.CofiberNaturality
 public import OptionD.ArrowCofiber
 
 public import OptionD.TwoVertexTopology
+public import OptionD.IntervalTopology
