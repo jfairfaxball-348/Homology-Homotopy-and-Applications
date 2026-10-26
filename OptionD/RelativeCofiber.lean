@@ -34,6 +34,12 @@ def d3CollapseSetoid {X : Type*} (A : Set X) : Setoid X where
           exact Or.inr ⟨hx, hy⟩
         · exact Or.inr ⟨hx, hz⟩)⟩
 
+/-- Export the precise relation of the existing collapse setoid for
+client modules where the defining module is opaque. -/
+theorem d3_collapse_rel_iff {X : Type*} (A : Set X) (x y : X) :
+    (d3CollapseSetoid A).r x y ↔
+      x = y ∨ (x ∈ A ∧ y ∈ A) := Iff.rfl
+
 /-- The point-set quotient X/A, with quotient (coinduced) topology. -/
 abbrev d3CollapseSpace {X : Type*} (A : Set X) :=
   Quotient (d3CollapseSetoid A)
