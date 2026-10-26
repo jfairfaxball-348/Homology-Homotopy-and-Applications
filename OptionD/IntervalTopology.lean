@@ -169,11 +169,12 @@ theorem d3_two_cofiber_boundary_base (t : Set.Icc (0 : ℝ) 1)
   unfold d3TwoCofiberAt d3TwoCofiberBase
   rw [d3_point_cofiber_projection_mk, d3_point_cofiber_projection_mk]
   apply Quotient.sound
+  apply (d3_collapse_rel_iff _ _ _).2
   right
   constructor
-  · right
-    exact ⟨a, congrArg Sum.inl ha.symm⟩
-  · left
-    rfl
+  · apply (d3_point_cofiber_collapsed_iff _ _).2
+    exact Or.inr ⟨a, congrArg Sum.inl ha.symm⟩
+  · apply (d3_point_cofiber_collapsed_iff _ _).2
+    exact Or.inl rfl
 
 end OptionD
