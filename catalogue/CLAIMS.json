@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-26",
   "claims": [
     {
       "id": "CLM-0001",
@@ -5846,6 +5846,13 @@
       "status": "FORMALLY_CERTIFIED",
       "claim": "The ordinary point-set cofiber construction defines an actual covariant functor from Mathlib's Arrow TopCat (strictly commuting continuous squares) to TopCat, using genuine quotient topologies; finite simplicial union-to-terminal attaching comparisons form arrow objects with strict nested attaching morphisms.",
       "scope": "OptionD/ArrowCofiber.lean: d3_arrow_square_commutes, d3PointCofiberArrowFunctor, d3AttachingArrow, d3AttachingArrowMap. Scratch a813d406c1a06ab7a5e6b9fe2fa4e47b1b1da36a pinned Lean #39833792648 SUCCESS and integrity #39833792658 SUCCESS. NOT a derived homotopy cofiber, S1 homeomorphism, CW cofibration theorem, homotopy pushout, real-R3 interleaving result or D6/D7/D8.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0609",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "The N=2 empty-face-only finite simplicial complex has genuinely empty Euclidean barycentric topological realisation. Every point of the first (second) singleton-corner barycentric space has coordinates exactly (1,0) ((0,1)), and any two points in either space are equal; imported singleton-face predicates have explicit defining-module iff bridges.",
+      "scope": "OptionD/TwoVertexTopology.lean and AttachingBoundary.lean. Pinned scratch SHA 90f9c32b181e5c8e70bf6b72524eababa9bc678b, hosted Lean #40305938369; integrity #40305938441. This only proves at-most-one endpoint, NOT inhabitance, terminal interval homeomorphism, S¹ quotient, derived cofiber, CW-cofibration, all-real R³ interleavings or D6/D7/D8.",
       "sources": []
     }
   ]
