@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-27",
   "claims": [
     {
       "id": "CLM-0001",
@@ -5881,6 +5881,13 @@
       "status": "FORMALLY_CERTIFIED",
       "claim": "For the existing true two-vertex barycentric attaching arrow and genuine point-set cofiber, the attaching image consists of exactly the two distinct interval endpoints; both collapse to the adjoined basepoint; the interval-to-existing-cofiber map is continuous and surjective and its fibres are identical representatives or the common pair of endpoints.",
       "scope": "OptionD/RelativeCofiber.lean exported precise collapse relation/membership; OptionD/IntervalTopology.lean d3_two_corner_union_second, d3_two_attaching_image_iff, d3TwoCofiberAt, d3TwoCofiberBase, d3_two_cofiber_boundary_base, d3_two_cofiber_fiber_iff, d3_two_cofiber_at_continuous, d3_two_cofiber_at_surjective. Pinned scratch b2e1ab16e7ccd308e9479b0807b09b51280538b6 hosted Lean #40415660191 SUCCESS. Does NOT prove quotient-map topology/homeomorphism to circle, CW-cofibration, derived cofiber, all-real strict interleavings or D6–D8. G2 owner deferred.",
+      "sources": []
+    },
+    {
+      "id": "CLM-0614",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "For the ORIGINAL two-vertex ordinary point-cofiber of the barycentric attaching arrow, the continuous surjective map from the genuine closed interval has exactly the quotient topology. Its induced continuous map from the interval with only the two endpoints collapsed is a bijective quotient map, giving a Lean-checked homeomorphism from the ACTUAL point-cofiber to that interval endpoint quotient.",
+      "scope": "OptionD/IntervalTopology.lean d3_two_cofiber_at_isQuotientMap, d3TwoEndSet, d3TwoEndQuotient, d3TwoEndQuotToCofiber, its projection/continuity/injectivity/surjectivity/quotient-map theorems and d3TwoCofiberHomeoEndQuotient; pinned scratch 5e404e105fd526919424bb4bc7961ccca4a2f8d3, hosted Lean #40469150159 SUCCESS and integrity #40469150168 SUCCESS. The pinned Mathlib AddCircle.homeoIccQuot type-checks independently, but the actual cofiber-to-AddCircle composition, CW-derived/cofibration, whole-real weak-equivalence/interleaving and universal D6–D8 stay OPEN. Classical cofiber circle identification is not itself a novel HHA paper. G2 deferred.",
       "sources": []
     }
   ]

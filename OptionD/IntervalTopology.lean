@@ -1,6 +1,7 @@
 module
 
 public import OptionD.TwoVertexTopology
+public import Mathlib.Topology.Instances.AddCircle.Defs
 
 public section
 
@@ -266,5 +267,131 @@ theorem d3_two_cofiber_at_surjective : Function.Surjective d3TwoCofiberAt := by
     rw [d3_two_cofiber_boundary_base t (Or.inl rfl)]
     unfold d3TwoCofiberBase
     rw [d3_point_cofiber_projection_mk]
+
+/-! S137: genuine final topology of the cofiber and pinned circle API. -/
+
+/-- The actual endpoint-to-cofiber map is a topological quotient map.
+The extra adjoined point is discrete and already identified with an
+interval endpoint, so its presence does not alter the final topology. -/
+theorem d3_two_cofiber_at_isQuotientMap :
+    Topology.IsQuotientMap d3TwoCofiberAt := by
+  let f := d3OrdinaryAttachingComparison d3TwoFirst d3TwoSecond d3TwoEdge
+    d3_two_first_le_edge d3_two_second_le_edge
+  let p := d3PointCofiberProjection f
+  have hcomm (x : d3BarycentricSpace d3TwoEdge) :
+      p (Sum.inl x) = d3TwoCofiberAt (d3TwoEdgeToIcc x) := by
+    change p (Sum.inl x) =
+      p (Sum.inl (d3TwoEdgeOfIcc (d3TwoEdgeToIcc x)))
+    have hx : d3TwoEdgeOfIcc (d3TwoEdgeToIcc x) = x :=
+      d3TwoEdgeHomeoIcc.left_inv x
+    rw [hx]
+  refine ⟨Topology.IsCoinducing.of_isOpen_preimage_iff_isOpen (fun U => ?_),
+    d3_two_cofiber_at_surjective⟩
+  constructor
+  · intro h
+    have hsub : IsOpen (d3TwoEdgeToIcc ⁻¹' (d3TwoCofiberAt ⁻¹' U)) :=
+      h.preimage d3TwoEdgeHomeoIcc.continuous
+    have heq : Sum.inl ⁻¹' (p ⁻¹' U) =
+        d3TwoEdgeToIcc ⁻¹' (d3TwoCofiberAt ⁻¹' U) := by
+      ext x
+      simp only [Set.mem_preimage]
+      rw [hcomm x]
+    have hl : IsOpen (Sum.inl ⁻¹' (p ⁻¹' U)) :=
+      heq.symm ▸ hsub
+    have hr : IsOpen (Sum.inr ⁻¹' (p ⁻¹' U)) := isOpen_discrete _
+    have hp : IsOpen (p ⁻¹' U) := isOpen_sum_iff.mpr ⟨hl, hr⟩
+    have hp' : IsOpen
+        ((Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed f))) ⁻¹' U) := by
+      have heq' : (fun z : d3BarycentricSpace d3TwoEdge ⊕ PUnit => p z) =
+          Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed f)) := by
+        funext z
+        exact d3_point_cofiber_projection_mk f z
+      simpa only [heq'] using hp
+    have hquot : Topology.IsQuotientMap (Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed f))) :=
+      isQuotientMap_quotient_mk'
+    exact hquot.isCoinducing.isOpen_preimage.mp hp'
+  · intro h
+    exact h.preimage d3_two_cofiber_at_continuous
+
+/-- The precise pinned Mathlib endpoint-identified quotient API type-check. -/
+noncomputable def d3_two_mathlib_circle_homeo :
+    AddCircle (1 : ℝ) ≃ₜ Quot (AddCircle.EndpointIdent (1 : ℝ) (0 : ℝ)) := by
+  letI : Fact ((0 : ℝ) < 1) := ⟨by norm_num⟩
+  exact AddCircle.homeoIccQuot (1 : ℝ) (0 : ℝ)
+
+/-! The endpoint-identification quotient of the ACTUAL interval domain. -/
+
+/-- The precise two-element endpoint set in the genuine interval. -/
+def d3TwoEndSet : Set (Set.Icc (0 : ℝ) 1) :=
+  fun t => (t : ℝ) = 0 ∨ (t : ℝ) = 1
+
+/-- The interval modulo exactly the two ends, with its quotient topology. -/
+abbrev d3TwoEndQuotient := d3CollapseSpace d3TwoEndSet
+
+/-- Descend the *actual* point-cofiber map to the endpoint interval quotient. -/
+noncomputable def d3TwoEndQuotToCofiber :
+    d3TwoEndQuotient → d3TwoPointCofiber :=
+  Quotient.lift d3TwoCofiberAt (by
+    intro s t h
+    exact (d3_two_cofiber_fiber_iff s t).mpr
+      ((d3_collapse_rel_iff d3TwoEndSet s t).mp h))
+
+theorem d3_two_end_quot_to_cofiber_mk (t : Set.Icc (0 : ℝ) 1) :
+    d3TwoEndQuotToCofiber (Quotient.mk (d3CollapseSetoid d3TwoEndSet) t) =
+      d3TwoCofiberAt t := by
+  unfold d3TwoEndQuotToCofiber
+  rfl
+
+theorem d3_two_end_quot_to_cofiber_continuous :
+    Continuous d3TwoEndQuotToCofiber := by
+  exact d3_two_cofiber_at_continuous.quotient_lift (by
+    intro s t h
+    exact (d3_two_cofiber_fiber_iff s t).mpr
+      ((d3_collapse_rel_iff d3TwoEndSet s t).mp h))
+
+theorem d3_two_end_quot_to_cofiber_injective :
+    Function.Injective d3TwoEndQuotToCofiber := by
+  intro s t h
+  revert h
+  refine Quotient.inductionOn₂ s t ?_
+  intro x y hxy
+  apply Quotient.sound
+  exact (d3_collapse_rel_iff d3TwoEndSet x y).mpr
+    ((d3_two_cofiber_fiber_iff x y).mp (by
+      simpa only [d3_two_end_quot_to_cofiber_mk] using hxy))
+
+theorem d3_two_end_quot_to_cofiber_surjective :
+    Function.Surjective d3TwoEndQuotToCofiber := by
+  intro z
+  obtain ⟨t, ht⟩ := d3_two_cofiber_at_surjective z
+  exact ⟨Quotient.mk _ t, ht⟩
+
+theorem d3_two_end_quot_to_cofiber_isQuotientMap :
+    Topology.IsQuotientMap d3TwoEndQuotToCofiber := by
+  letI : Setoid (Set.Icc (0 : ℝ) 1) := d3CollapseSetoid d3TwoEndSet
+  have hp : Topology.IsQuotientMap
+      (Quotient.mk' : Set.Icc (0 : ℝ) 1 → d3TwoEndQuotient) :=
+    isQuotientMap_quotient_mk'
+  have hcomp : (d3TwoEndQuotToCofiber ∘
+        (Quotient.mk' : Set.Icc (0 : ℝ) 1 → d3TwoEndQuotient)) =
+      d3TwoCofiberAt := by
+    funext t
+    change d3TwoEndQuotToCofiber
+      (Quotient.mk (d3CollapseSetoid d3TwoEndSet) t) = d3TwoCofiberAt t
+    exact d3_two_end_quot_to_cofiber_mk t
+  have hc : Topology.IsQuotientMap
+      (d3TwoEndQuotToCofiber ∘
+        (Quotient.mk' : Set.Icc (0 : ℝ) 1 → d3TwoEndQuotient)) := by
+    rw [hcomp]
+    exact d3_two_cofiber_at_isQuotientMap
+  exact hp.of_comp_isQuotientMap hc
+
+/-- The genuine Rips two-point cofiber is homeomorphic to the interval
+with just its endpoints identified, not merely in bijection with it. -/
+noncomputable def d3TwoCofiberHomeoEndQuotient :
+    d3TwoPointCofiber ≃ₜ d3TwoEndQuotient :=
+  ((isHomeomorph_iff_isQuotientMap_injective).mpr
+    ⟨d3_two_end_quot_to_cofiber_isQuotientMap,
+      d3_two_end_quot_to_cofiber_injective⟩).homeomorph.symm
 
 end OptionD
