@@ -1,4 +1,6 @@
-# ACTIVE S140→S141 C4 Lean and manuscript roadmap (27 October 2026)
+**S141 CERTIFIED checkpoint:** true ℤ-indexed `ChainComplex (ModuleCat B) ℤ` with zero negative terms, full differential-square proof and B→F₂ residue ring hom surjective with kernel (t) are compiled on scratch c393380e50b9aa118fd2a3045986ed1314e1ba94 (Lean #40522303891 SUCCESS). Categorical augmentation/H_n, quotient isomorphism, global dg defining system and all-real bounds remain OPEN. S142 must complete L1 directly; see canonical prompt. No novelty/fit/prior-art/review screening.
+
+# ACTIVE S141→S142 C4 Lean and manuscript roadmap (27 October 2026)
 
 The single frozen C4 whole-real Ch(right B) gap remains the chosen first-paper target. S140 has actual Lean ring and natural-degree module chain complex, NOT full ℤ-resolution, global dg all-choice or full-real derived/strict metric. The ONLY next work is completing these Lean proofs with manuscript in parallel. No novelty, journal-fit, prior-art, outsider review or target exploration gates; external registry/submission requires separate owner authority.
 
