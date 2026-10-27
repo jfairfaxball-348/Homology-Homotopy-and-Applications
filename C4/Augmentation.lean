@@ -144,8 +144,7 @@ def augmentationComponent (n : ℤ) :
   · exact 0
 
 
-/-- Compatibility of the integer differential and every augmentation
-    component, including the -1 to 0 and 0 to -1 boundary cases. -/
+/-- Compatibility of every integer differential with the augmentation. -/
 theorem augmentationComponent_commutes (n : ℤ) :
     augmentationComponent (n + 1) ≫ residueDifferentialAt n =
       integerDifferential n ≫ augmentationComponent n := by
@@ -154,16 +153,21 @@ theorem augmentationComponent_commutes (n : ℤ) :
   rw [hleft]
   by_cases hn : n = 0
   · subst n
-    simp [integerDifferential, augmentationComponent, ← Category.assoc,
-      differential_residueModuleMorphism]
+    apply ModuleCat.hom_ext
+    apply LinearMap.ext
+    intro a
+    change (0 : ZMod 2) = residueHom (C4.t * a)
+    exact (residueHom_t_mul a).symm
   · have hzero : augmentationComponent n = 0 := by
       simp [augmentationComponent, hn]
     rw [hzero]
     simp
 
-/-- Honest chain morphism from the integer-indexed periodic B-complex
-    to the residue B-module complex concentrated in degree zero. -/
-def augmentationChainMap : integerResolution ⟶ residueComplex :=
-  ChainComplex.ofHom augmentationComponent augmentationComponent_commutes
+/-- A genuine integer-indexed augmented chain morphism. -/
+def augmentationChainMap : integerResolution ⟶ residueComplex := by
+  refine ChainComplex.ofHom augmentationComponent ?_
+  intro n
+  simpa only [integerResolution, residueComplex, ChainComplex.of_d]
+    using augmentationComponent_commutes n
 
 end C4
