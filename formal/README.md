@@ -1,3 +1,9 @@
+# CURRENT OWNER-SPECIFIC OVERRIDE — 27 October 2026, S138 COMPLETION
+
+S138 replaces the earlier prospective "S138 FUTURE" notices below. The same **frozen** cyclic-four first-paper target remains: B=F₂[C₄] and entire-real five-stage Ch(right B) separation d_CohI=1/2 < d_IHC=1 <5/4≤d_HI≤5/2. New `C4/Jets.lean` certifies only coefficient-level nilpotence/annihilator and universal degree-two residue conditions; a genuine quotient ring/whole unbounded dg-Hom and both derived/strict real metric theorems remain OPEN. The original S076 Python finite jet enumeration was rechecked PASS, not promoted to an infinite proof. The manuscript has been expanded IN PARALLEL. **S139 is FUTURE, UNEXECUTED** and needs a fresh owner instruction; follow `authoritative/NEXT_SESSION_PROMPT.md`. Preserve OptionD Lean but do no OptionD D6–D8. No target search, novelty, HHA appropriateness, prior-art or outside review on the active roadmap. No Palomar, arXiv/HHA release or third-party contact without separate owner authority.
+
+---
+
 # BINDING OWNER OVERRIDE — 27 October 2026: FROZEN FIRST PAPER
 
 The owner has ended exploratory target selection. The ONE active first-paper candidate is the cyclic-four modular real-persistence strict interleaving gap, archived mathematical proofs S076/S077/S113/S114. Let B=F₂[C₄]≅F₂[t]/(t⁴), and F be their exact five-stage whole-real Ch(right B) diagram, O=0. Frozen INTERNAL theorem: d_CohI(F,O)=1/2 < d_IHC(F,O)=1 < 5/4 ≤ d_HI(F,O) ≤ 5/2. The homotopy metric permits arbitrary whole-real objectwise quasi-isomorphism zigzags on BOTH input lanes. Do not misrepresent it as a Top^R theorem.
