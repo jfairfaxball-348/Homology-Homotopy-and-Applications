@@ -39,7 +39,7 @@ theorem residueHom_t_mul (a : B) : residueHom (C4.t * a) = 0 := by
   exact (residueHom_kernel (C4.t * a)).mpr ⟨a, rfl⟩
 
 /-- Genuine residue field as a module over the coefficient ring. -/
-instance residueModule : Module B (ZMod 2) := residueHom.toModule
+instance : Module B (ZMod 2) := residueHom.toModule
 
 /-- The augmentation is an honest B-linear map, not just a function of coordinates. -/
 def residueLinear : B →ₗ[B] ZMod 2 where
@@ -100,7 +100,8 @@ theorem augmentationComponent_comm (n : ℤ) :
     simp [residueComplex, ChainComplex.of_d]
   have hp : integerResolution.d (n + 1) n = integerDifferential n := by
     simp [integerResolution, ChainComplex.of_d]
-  rw [hd, Category.comp_zero, hp]
+  rw [hd, hp]
+  simp only [comp_zero]
   by_cases hn : n = 0
   · subst n
     simpa [augmentationComponent, integerResolution, residueComplex,
