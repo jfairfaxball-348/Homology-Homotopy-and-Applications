@@ -149,15 +149,17 @@ def augmentationComponent (n : ℤ) :
 theorem augmentationComponent_commutes (n : ℤ) :
     augmentationComponent (n + 1) ≫ residueDifferentialAt n =
       integerDifferential n ≫ augmentationComponent n := by
-  simp only [residueDifferentialAt, comp_zero]
+  have hleft : augmentationComponent (n + 1) ≫ residueDifferentialAt n = 0 := by
+    simp [residueDifferentialAt]
+  rw [hleft]
   by_cases hn : n = 0
   · subst n
-    simp [integerDifferential, augmentationComponent, Category.assoc,
+    simp [integerDifferential, augmentationComponent, ← Category.assoc,
       differential_residueModuleMorphism]
   · have hzero : augmentationComponent n = 0 := by
       simp [augmentationComponent, hn]
-    rw [hzero, comp_zero]
-
+    rw [hzero]
+    simp
 
 /-- Honest chain morphism from the integer-indexed periodic B-complex
     to the residue B-module complex concentrated in degree zero. -/
