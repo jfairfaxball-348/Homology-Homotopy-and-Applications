@@ -1,7 +1,7 @@
 module
 public import C4.Resolution
 
-public section
+@[expose] public section
 
 /-!
 # S141: integer-indexed cyclic-four complex with zero negative terms
