@@ -88,4 +88,28 @@ theorem positiveLinear_ker_eq_range (n : ℕ) :
   · rintro ⟨b, hb⟩
     exact (positiveDifferential_exact_coeff n a).mpr ⟨b, hb.symm⟩
 
+
+/-! ### S143: typed ModuleCat augmentation boundary -/
+
+/-- The residue module explicitly bundled as a categorical B-module.
+    The local instance pins the same scalar restriction used in residueLinear. -/
+def residueModuleObject : ModuleCat B := by
+  letI : Module B (ZMod 2) := residueHom.toModule
+  exact ModuleCat.of B (ZMod 2)
+
+/-- Genuine ModuleCat morphism for the B-linear residue augmentation. -/
+def residueModuleMorphism : ModuleCat.of B B ⟶ residueModuleObject := by
+  letI : Module B (ZMod 2) := residueHom.toModule
+  exact ModuleCat.ofHom residueLinear
+
+/-- At the chain-complex degree-zero boundary, the first differential
+    has zero composite with the categorical augmentation. -/
+theorem differential_residueModuleMorphism :
+    differential 0 ≫ residueModuleMorphism = 0 := by
+  apply ModuleCat.hom_ext
+  apply LinearMap.ext
+  intro a
+  change residueHom (C4.t * a) = 0
+  exact residueHom_t_mul a
+
 end C4
