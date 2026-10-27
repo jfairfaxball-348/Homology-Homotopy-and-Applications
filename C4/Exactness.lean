@@ -111,4 +111,19 @@ theorem integerResolution_homology_isZero_positive (n : ℤ) (hn : 0 < n) :
   (integerResolution_exactAt_positive n hn).isZero_homology
 
 
+/-! ### S147: actual categorical cokernel of the first periodic boundary -/
+
+/-- Surjectivity of the residue B-linear map is categorical epicness. -/
+theorem residueModuleMorphism_epi : Epi residueModuleMorphism := by
+  apply (ModuleCat.epi_iff_surjective _).2
+  exact residueLinear_surjective
+
+/-- The genuine residue object, not only a coefficient quotient, is the
+categorical cokernel of the first periodic differential. -/
+noncomputable def residueModule_cokernel :
+    Limits.IsColimit (Limits.CokernelCofork.ofπ residueModuleMorphism
+      differential_residueModuleMorphism) := by
+  letI : Epi residueModuleMorphism := residueModuleMorphism_epi
+  exact augmentationShortComplex_exact.gIsCokernel
+
 end C4
