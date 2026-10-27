@@ -1,7 +1,7 @@
 module
 public import C4.Ring
 
-public section
+@[expose] public section
 
 /-!
 # S140: actual module morphisms for the positive-degree C4 resolution
