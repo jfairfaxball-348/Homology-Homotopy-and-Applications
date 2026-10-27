@@ -88,4 +88,59 @@ theorem positiveLinear_ker_eq_range (n : ℕ) :
   · rintro ⟨b, hb⟩
     exact (positiveDifferential_exact_coeff n a).mpr ⟨b, hb.symm⟩
 
+
+/-! ### S143: typed ModuleCat augmentation boundary -/
+
+/-- Explicitly bundled residue B-module. In contrast with `ModuleCat.of`,
+this constructor does not ask instance synthesis to rediscover scalar restriction. -/
+def residueModuleObject : ModuleCat B where
+  carrier := ZMod 2
+  isAddCommGroup := inferInstance
+  isModule := residueHom.toModule
+
+/-- Actual morphism in the category of modules over B. -/
+def residueModuleMorphism : ModuleCat.of B B ⟶ residueModuleObject := by
+  exact @ModuleCat.ofHom B _ B (ZMod 2)
+    (inferInstance : AddCommGroup B) (inferInstance : Module B B)
+    (inferInstance : AddCommGroup (ZMod 2)) residueHom.toModule residueLinear
+
+/-- The first differential vanishes after the categorical augmentation. -/
+theorem differential_residueModuleMorphism :
+    differential 0 ≫ residueModuleMorphism = 0 := by
+  apply ModuleCat.hom_ext
+  rw [ModuleCat.hom_comp, ModuleCat.hom_zero]
+  apply LinearMap.ext
+  intro a
+  change residueHom (C4.t * a) = 0
+  exact residueHom_t_mul a
+
+
+/-- A residue module concentrated in degree zero. -/
+def residueObjectAt (n : ℤ) : ModuleCat B :=
+  if n = 0 then residueModuleObject else ModuleCat.of B (Fin 0 → B)
+
+/-- Every differential of the concentrated residue complex is zero. -/
+def residueDifferentialAt (n : ℤ) :
+    residueObjectAt (n + 1) ⟶ residueObjectAt n := 0
+
+theorem residueDifferential_square (n : ℤ) :
+    residueDifferentialAt (n + 1) ≫ residueDifferentialAt n = 0 := by
+  simp [residueDifferentialAt]
+
+/-- The degree-zero residue module as an actual integer-indexed complex. -/
+def residueComplex : ChainComplex (ModuleCat B) ℤ :=
+  ChainComplex.of residueObjectAt residueDifferentialAt residueDifferential_square
+
+/-- Candidate augmentation component, categorical in every integer degree. -/
+def augmentationComponent (n : ℤ) :
+    integerObject n ⟶ residueObjectAt n := by
+  by_cases h : n = 0
+  · subst n
+    have ha : integerObject (0 : ℤ) = ModuleCat.of B B :=
+      integerObject_nonnegative 0 (by decide)
+    have hb : residueModuleObject = residueObjectAt 0 := by
+      simp [residueObjectAt]
+    exact eqToHom ha ≫ residueModuleMorphism ≫ eqToHom hb
+  · exact 0
+
 end C4
