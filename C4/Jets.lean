@@ -146,4 +146,49 @@ theorem universal_terminal_not_boundary
   rw [ht, hf] at hcoef
   exact one_ne_zero hcoef
 
+
+/-- Exact coefficient description of ann(t). -/
+theorem ann_t_coeffs (a : B) :
+    mul t a = zero ↔ a.c0 = 0 ∧ a.c1 = 0 ∧ a.c2 = 0 := by
+  cases a
+  simp [mul, t, zero, B.mk.injEq]
+
+/-- Exact coefficient description of ann(t³). -/
+theorem ann_t3_coeffs (a : B) :
+    mul t3 a = zero ↔ a.c0 = 0 := by
+  cases a
+  simp [mul, t3, zero, B.mk.injEq]
+
+/-- The annihilator of t is precisely its t³-multiple ideal. -/
+theorem ann_t (a : B) : mul t a = zero ↔ ∃ b : B, a = mul t3 b := by
+  constructor
+  · intro ha
+    obtain ⟨h0, h1, h2⟩ := (ann_t_coeffs a).mp ha
+    refine ⟨⟨a.c3, 0, 0, 0⟩, ?_⟩
+    cases a
+    simp [mul, t3, B.mk.injEq, h0, h1, h2]
+  · rintro ⟨b, rfl⟩
+    simp [mul, t, t3, zero, B.mk.injEq]
+
+/-- The annihilator of t³ is precisely its t-multiple ideal. -/
+theorem ann_t3 (a : B) : mul t3 a = zero ↔ ∃ b : B, a = mul t b := by
+  constructor
+  · intro ha
+    have h0 := (ann_t3_coeffs a).mp ha
+    refine ⟨⟨a.c1, a.c2, a.c3, 0⟩, ?_⟩
+    cases a
+    simp [mul, t, B.mk.injEq, h0]
+  · rintro ⟨b, rfl⟩
+    simp [mul, t3, t, zero, B.mk.injEq]
+
+/-- Degree-two selected x, h, z witness equations and terminal unit.
+These are exact coefficient identities, not yet the full infinite dg family. -/
+theorem selected_degree_two :
+    add (mul t t2) (mul t3 one) = zero ∧
+    add (mul t t) (mul t3 zero) = mul one t2 ∧
+    add (mul t one) (mul t3 zero) =
+      add (mul one t) (mul zero t2) ∧
+    Terminal one one zero t zero t2 = one := by
+  decide
+
 end C4
