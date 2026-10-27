@@ -1,5 +1,7 @@
 module
-import Mathlib
+public import Mathlib
+
+public section
 
 /-!
 Cyclic-four truncated coefficient algebra, S138.
@@ -192,5 +194,29 @@ theorem selected_degree_two :
       add (mul one t) (mul zero t2) ∧
     Terminal one one zero t zero t2 = one := by
   decide
+
+
+/-- Fixed parity identities; proved with exact finite coefficients before
+exporting to all-degree proofs in C4.Periodic. -/
+theorem parity_Dx_even :
+    add (mul t t2) (mul one t3) = zero := by decide
+theorem parity_Dx_odd :
+    add (mul t3 one) (mul t2 t) = zero := by decide
+theorem parity_Dh_even :
+    add (mul t t) (mul zero t3) = mul one t2 := by decide
+theorem parity_Dh_odd :
+    add (mul t3 zero) (mul t t) = mul t2 one := by decide
+theorem parity_Dz_even :
+    add (mul t one) (mul zero t3) =
+      add (mul one t) (mul zero t2) := by decide
+theorem parity_Dz_odd :
+    add (mul t3 zero) (mul one t) =
+      add (mul t2 zero) (mul t one) := by decide
+theorem parity_terminal_even :
+    add (mul one one)
+      (add (mul zero t) (mul zero t2)) = one := by decide
+theorem parity_terminal_odd :
+    add (mul t2 zero)
+      (add (mul t zero) (mul one one)) = one := by decide
 
 end C4

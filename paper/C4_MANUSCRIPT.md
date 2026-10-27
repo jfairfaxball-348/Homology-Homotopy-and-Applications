@@ -274,3 +274,10 @@ TERMINAL_INVARIANT: PASS; finite jets only, NOT metric proof
 ```
 
 The first line checks 39 indices \(n=2,\dots,40\). The remaining counts enumerate the **bounded coefficient choices at degree one/two**, not infinitely many defining systems. They neither prove the full real-valued theorem nor establish Lean certification. The machine memory peak was approximately 95,632 KiB and execution elapsed approximately 14.19 s in this replay.
+
+
+## S139 proof-to-Lean alignment note (27 October 2026)
+
+The all-degree *coefficient* periodic formulas of §2–§3 are now expressed as six universally quantified statements on C4.B in `C4/Periodic.lean`: `d_squared`, `exact_positive`, `Dx_zero`, `Dh_xx`, `Dz_xh_hx`, `terminal_unit`. For n≥0, the coefficient at differential degree n+1 is t for even n and t³ for odd n; adjacent x is 1 or t², h is 0 or t, and z is 0 or 1 respectively. A two-case proof using ann(t)=(t³) and ann(t³)=(t) establishes the resolution kernel/image condition at **every** positive degree, as a statement about raw coefficient multiplication. These identities are not bounded Python checks.
+
+**Exact limitation:** C4.B has no genuine ring instance or proved isomorphism to the polynomial quotient in this formalisation; `C4/Periodic.lean` is *not yet* a Mathlib `ChainComplex` or dg-Hom object. Consequently the manuscript's augmentation, derived nonzero generator, complete-choice bracket, free-quiver cone, Kan comparison and whole-real shoelace statements have not been certified by these new lemmas. The terminal-unit identity concerns a selected defining system; the independent all-choice degree-two obstruction in `C4/Jets.lean` still awaits a typed extraction from ALL global defining systems. The paper's frozen mathematical theorem remains internal, and the overall proof is not yet submission-ready.

@@ -1,0 +1,2 @@
+# S139 incoming instruction and authority
+Owner message on 27 October 2026: "run next session". Interpreted by committed S138 handoff `authoritative/NEXT_SESSION_PROMPT.md` at main 8f35e0104e5d74490f11f773da721ea7faa3af72 as a fresh S139 instruction. The exact owner phrase is quoted; the longer archived S138-written prompt is accessible in git history, not silently replaced by this summary. Only S139 executed; S140 is future.
