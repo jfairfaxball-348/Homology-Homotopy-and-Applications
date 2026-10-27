@@ -149,13 +149,13 @@ def augmentationComponent (n : ℤ) :
 theorem augmentationComponent_commutes (n : ℤ) :
     augmentationComponent (n + 1) ≫ residueDifferentialAt n =
       integerDifferential n ≫ augmentationComponent n := by
-  simp only [residueDifferentialAt, Category.comp_zero]
+  simp only [residueDifferentialAt, comp_zero]
   by_cases hn : n = 0
   · subst n
-    simpa [integerDifferential, augmentationComponent, Category.assoc]
-      using differential_residueModuleMorphism
+    simp [integerDifferential, augmentationComponent, Category.assoc,
+      differential_residueModuleMorphism]
   · have hzero : augmentationComponent n = 0 := by
       simp [augmentationComponent, hn]
-    rw [hzero, Category.comp_zero]
+    rw [hzero, comp_zero]
 
 end C4
