@@ -74,4 +74,44 @@ theorem firstDifferential_augmentation_zero :
   change residueHom (C4.t * a) = 0
   exact residueHom_t_mul a
 
+
+/-- A genuine integer-indexed complex concentrated in degree zero in the
+residue B-module.  All its differential maps are zero. -/
+def residueObject (n : ℤ) : ModuleCat B :=
+  if n = 0 then ModuleCat.of B (ZMod 2) else ModuleCat.of B (Fin 0 → B)
+
+def residueComplex : ChainComplex (ModuleCat B) ℤ :=
+  ChainComplex.of residueObject (fun _ => 0) (by intro n; simp)
+
+/-- Components of the augmentation from the actual integer resolution. -/
+def augmentationComponent (n : ℤ) :
+    integerResolution.X n ⟶ residueComplex.X n := by
+  by_cases hn : n = 0
+  · subst n
+    simpa [integerResolution, residueComplex, integerObject, residueObject] using
+      residueMorphism
+  · exact 0
+
+theorem augmentationComponent_comm (n : ℤ) :
+    augmentationComponent (n + 1) ≫ residueComplex.d (n + 1) n =
+      integerResolution.d (n + 1) n ≫ augmentationComponent n := by
+  have hd : residueComplex.d (n + 1) n = 0 := by
+    simp [residueComplex, ChainComplex.of_d]
+  have hp : integerResolution.d (n + 1) n = integerDifferential n := by
+    simp [integerResolution, ChainComplex.of_d]
+  rw [hd, Category.comp_zero, hp]
+  by_cases hn : n = 0
+  · subst n
+    simpa [augmentationComponent, integerResolution, residueComplex,
+      integerDifferential, integerObject, residueObject] using
+        firstDifferential_augmentation_zero.symm
+  · have hz : augmentationComponent n = 0 := by
+      simp [augmentationComponent, hn]
+    rw [hz, Category.comp_zero]
+
+/-- Actual map of integer-indexed complexes from the free chain complex
+to the residue B-module concentrated in degree zero. -/
+def augmentationChainMap : integerResolution ⟶ residueComplex :=
+  ChainComplex.ofHom augmentationComponent augmentationComponent_comm
+
 end C4
