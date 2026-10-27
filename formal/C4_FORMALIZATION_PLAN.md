@@ -31,3 +31,6 @@ Pinned existing Lean leanprover/lean4:v4.35.0-rc2 and Mathlib 065356127b1dc0016f
 
 
 **S145 certified checkpoint:** `C4/Exactness.lean` now proves genuine `ShortComplex (ModuleCat B)` exactness at every positive periodic step and augmentation using Mathlib's `moduleCat_exact_iff_range_eq_ker` (pinned scratch Lean #40575179311, #40575347270 SUCCESS). This is not yet `integerResolution.ExactAt`, H₀/H_n, `QuasiIso augmentationChainMap`, global shifted fourfold, or whole-real inequalities. S146 must directly bridge those local certificates to true integer homology.
+
+
+**S146 pinned checkpoint.** S146 (27 October 2026): Pinned Lean certifies ACTUAL negative-degree integerResolution.ExactAt n and IsZero(integerResolution.homology n) for every n<0, including -1 (scratch d6b844d6f40c40143923956b2ef4513f2e20294c, build #40578700131 SUCCESS; integrity #40578700181 SUCCESS). Positive integer ExactAt remains OPEN: latest scratch 2c602f0d29c9cbec6703172c160b9c219189591a failed pinned Lean #40580404408 at C4/Exactness.lean:77:2 because range/kernel maps still compose with eqToHom casts, and do not simplify to bare coefficientLinear maps. No H0, QuasiIso, globally shifted dg all-choice fourfold, or whole-real distance theorem is certified. Frozen theorem unchanged. S147 is FUTURE, UNEXECUTED and requires separate owner instruction.
