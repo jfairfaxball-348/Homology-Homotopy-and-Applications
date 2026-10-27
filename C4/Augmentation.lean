@@ -158,4 +158,10 @@ theorem augmentationComponent_commutes (n : ℤ) :
       simp [augmentationComponent, hn]
     rw [hzero, comp_zero]
 
+
+/-- Honest chain morphism from the integer-indexed periodic B-complex
+    to the residue B-module complex concentrated in degree zero. -/
+def augmentationChainMap : integerResolution ⟶ residueComplex :=
+  ChainComplex.ofHom augmentationComponent augmentationComponent_commutes
+
 end C4
