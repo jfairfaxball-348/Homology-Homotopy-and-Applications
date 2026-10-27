@@ -154,7 +154,9 @@ theorem augmentationComponent_naturality (n : ℤ) :
   by_cases hn : n = 0
   · subst n
     simp [integerDifferential, augmentationComponent, residueDifferentialAt,
-      Category.assoc, differential_residueModuleMorphism]
+      Category.assoc]
+    rw [← Category.assoc, differential_residueModuleMorphism]
+    simp
   · simp [augmentationComponent, hn, residueDifferentialAt]
 
 /-- The actual categorical augmentation chain morphism. -/
@@ -162,7 +164,7 @@ def augmentationChainMap : integerResolution ⟶ residueComplex :=
   ChainComplex.ofHom augmentationComponent (by
     intro n
     simpa only [integerResolution, residueComplex, ChainComplex.of_d]
-      using augmentationComponent_naturality n)
+      using (augmentationComponent_naturality n).symm)
 
 
 end C4
