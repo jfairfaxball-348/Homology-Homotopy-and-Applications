@@ -18,14 +18,14 @@ open CategoryTheory
 /-- Copies of the regular module in nonnegative homological degrees,
 and the zero module in all negative degrees. -/
 def integerObject (n : ℤ) : ModuleCat B :=
-  if 0 ≤ n then ModuleCat.of B B else 0
+  if 0 ≤ n then ModuleCat.of B B else ModuleCat.of B (Fin 0 → B)
 
 theorem integerObject_nonnegative (n : ℤ) (hn : 0 ≤ n) :
     integerObject n = ModuleCat.of B B := by
   simp [integerObject, hn]
 
 theorem integerObject_negative (n : ℤ) (hn : n < 0) :
-    integerObject n = 0 := by
+    integerObject n = ModuleCat.of B (Fin 0 → B) := by
   have h : ¬ 0 ≤ n := by omega
   simp [integerObject, h]
 
@@ -58,8 +58,7 @@ the kernel of multiplication by d_n is the image of d_(n+1). -/
 theorem positiveDifferential_exact_coeff (n : ℕ) (a : B) :
     coefficientLinear (Periodic.d n) a = 0 ↔
       ∃ b : B, a = coefficientLinear (Periodic.d (n + 1)) b := by
-  change Periodic.d n * a = 0 ↔ ∃ b : B, a = Periodic.d (n + 1) * b
-  simpa only [mul_is_truncated_convolution, zero_is_coordinate_zero] using
-    (Periodic.exact_positive n a)
+  simpa [coefficientLinear, mul_is_truncated_convolution,
+    zero_is_coordinate_zero] using (Periodic.exact_positive n a)
 
 end C4
