@@ -47,7 +47,7 @@ theorem integerDifferential_square (n : ℤ) :
     have hn2 : 0 ≤ (n + 1) + 1 := by omega
     have hcast : (n + 1).toNat = n.toNat + 1 := by omega
     simp [integerDifferential, hn, hn1, hcast, Category.assoc]
-    rw [differential_square n.toNat]
+    rw [← Category.assoc, differential_square n.toNat]
     simp
   · simp [integerDifferential, hn]
 
