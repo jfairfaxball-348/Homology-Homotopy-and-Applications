@@ -99,8 +99,10 @@ def residueModuleObject : ModuleCat B where
   isModule := residueHom.toModule
 
 /-- Actual morphism in the category of modules over B. -/
-def residueModuleMorphism : ModuleCat.of B B ⟶ residueModuleObject :=
-  ⟨residueLinear⟩
+def residueModuleMorphism : ModuleCat.of B B ⟶ residueModuleObject := by
+  exact @ModuleCat.ofHom B _ B (ZMod 2)
+    (inferInstance : AddCommGroup B) (inferInstance : Module B B)
+    (inferInstance : AddCommGroup (ZMod 2)) residueHom.toModule residueLinear
 
 /-- The first differential vanishes after the categorical augmentation. -/
 theorem differential_residueModuleMorphism :
