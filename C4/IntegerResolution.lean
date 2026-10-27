@@ -36,7 +36,8 @@ def integerDifferential (n : ℤ) :
     integerObject (n + 1) ⟶ integerObject n := by
   by_cases hn : 0 ≤ n
   · have hn1 : 0 ≤ n + 1 := by omega
-    simpa [integerObject, hn, hn1] using (differential n.toNat)
+    exact (eqToHom (integerObject_nonnegative (n + 1) hn1)) ≫
+      differential n.toNat ≫ (eqToHom (integerObject_nonnegative n hn).symm)
   · exact 0
 
 theorem integerDifferential_square (n : ℤ) :
@@ -45,8 +46,8 @@ theorem integerDifferential_square (n : ℤ) :
   · have hn1 : 0 ≤ n + 1 := by omega
     have hn2 : 0 ≤ (n + 1) + 1 := by omega
     have hcast : (n + 1).toNat = n.toNat + 1 := by omega
-    simpa [integerDifferential, integerObject, hn, hn1, hn2, hcast,
-      differential, coefficientLinear] using (differential_square n.toNat)
+    simp [integerDifferential, hn, hn1, hcast, Category.assoc,
+      differential_square]
   · simp [integerDifferential, hn]
 
 /-- The entire integer-indexed periodic chain complex. -/
