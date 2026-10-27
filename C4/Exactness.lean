@@ -68,9 +68,11 @@ theorem integerResolution_exactAt_positive_nat (m : ℕ) :
   have hm0 : n.toNat = m := by omega
   have hs : n + 2 = (n + 1) + 1 := by omega
   rw [hs]
-  simpa [HomologicalComplex.sc', integerResolution, integerObject,
-    integerDifferential, positiveShortComplex, n, hm, hm0, ChainComplex.of_d]
-    using (positiveShortComplex_exact m)
+  apply (ShortComplex.moduleCat_exact_iff_range_eq_ker _).2
+  change LinearMap.range (integerDifferential (n + 1)).hom =
+    LinearMap.ker (integerDifferential n).hom
+  simpa [integerDifferential, n, hm, hm0] using
+    (positiveLinear_ker_eq_range m).symm
 
 /-- All strictly positive integer homology groups of the true complex vanish. -/
 theorem integerResolution_homology_isZero_positive_nat (m : ℕ) :
