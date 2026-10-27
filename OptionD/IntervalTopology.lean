@@ -308,7 +308,7 @@ theorem d3_two_cofiber_at_isQuotientMap :
         exact d3_point_cofiber_projection_mk f z
       simpa only [heq'] using hp
     have hquot : Topology.IsQuotientMap (Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed f))) :=
-      Topology.isQuotientMap_quotient_mk'
+      isQuotientMap_quotient_mk'
     exact hquot.isCoinducing.isOpen_preimage.mp hp'
   · intro h
     exact h.preimage d3_two_cofiber_at_continuous
