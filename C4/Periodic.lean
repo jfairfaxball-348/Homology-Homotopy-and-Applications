@@ -1,5 +1,7 @@
 module
-import C4.Jets
+public import C4.Jets
+
+public section
 
 /-!
 # Periodic cyclic-four resolution: identities in every positive degree
