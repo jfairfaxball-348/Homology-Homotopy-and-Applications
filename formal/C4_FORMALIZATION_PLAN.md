@@ -28,3 +28,6 @@ Pinned existing Lean leanprover/lean4:v4.35.0-rc2 and Mathlib 065356127b1dc0016f
 
 
 **S144 checkpoint (27 October 2026):** Lean-compiled `C4.augmentationComponent_naturality` and `C4.augmentationChainMap` at all ℤ, hosted #40538805810 SUCCESS, plus genuine `CategoryTheory.Projective` for all regular nonnegative degrees via `C4.integerObject_projective`, hosted #40539821868 SUCCESS. The final residue category and all nonnegative regular modules have now been connected by an ACTUAL typed chain map and projective terms. Categorical H₀/H_n object equalities and the quasi-isomorphism are still not certified, nor is the quotient RingEquiv, indexed global all-choice dg fourfold or full-real metric. S145 should immediately complete categorical homology, using S142 kernel/image equalities. No exploration or review stages.
+
+
+**S145 certified checkpoint:** `C4/Exactness.lean` now proves genuine `ShortComplex (ModuleCat B)` exactness at every positive periodic step and augmentation using Mathlib's `moduleCat_exact_iff_range_eq_ker` (pinned scratch Lean #40575179311, #40575347270 SUCCESS). This is not yet `integerResolution.ExactAt`, H₀/H_n, `QuasiIso augmentationChainMap`, global shifted fourfold, or whole-real inequalities. S146 must directly bridge those local certificates to true integer homology.
