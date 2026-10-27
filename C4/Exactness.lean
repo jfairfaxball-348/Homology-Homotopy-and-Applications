@@ -72,18 +72,20 @@ noncomputable def positiveIntegerShortComplexIso (m : ℕ) :
     integerObject_nonnegative _ (by omega)
   refine ShortComplex.isoMk (eqToIso e₂.symm) (eqToIso e₁.symm)
     (eqToIso e₀.symm) ?_ ?_
-  · dsimp [positiveShortComplex, integerResolution]
-    simp [ChainComplex.of_d, integerDifferential,
-      show (0 : ℤ) ≤ (m : ℤ) + 1 by omega,
-      show (0 : ℤ) ≤ (m : ℤ) + 2 by omega,
-      show ((m : ℤ) + 1).toNat = m + 1 by omega,
-      Category.assoc]
-  · dsimp [positiveShortComplex, integerResolution]
-    simp [ChainComplex.of_d, integerDifferential,
-      show (0 : ℤ) ≤ (m : ℤ) by omega,
-      show (0 : ℤ) ≤ (m : ℤ) + 1 by omega,
-      show ((m : ℤ)).toNat = m by omega,
-      Category.assoc]
+  · change (eqToHom e₂.symm) ≫
+      (ChainComplex.of.d integerObject integerDifferential ((m : ℤ) + 2) ((m : ℤ) + 1)) =
+        differential (m + 1) ≫ (eqToHom e₁.symm)
+    rw [show (m : ℤ) + 2 = ((m : ℤ) + 1) + 1 by omega]
+    rw [ChainComplex.of_d]
+    simp [integerDifferential, e₂, e₁, Category.assoc,
+      show ((m : ℤ) + 1).toNat = m + 1 by omega]
+  · change (eqToHom e₁.symm) ≫
+      (ChainComplex.of.d integerObject integerDifferential ((m : ℤ) + 1) (m : ℤ)) =
+        differential m ≫ (eqToHom e₀.symm)
+    rw [show (m : ℤ) + 1 = (m : ℤ) + 1 by rfl]
+    rw [ChainComplex.of_d]
+    simp [integerDifferential, e₁, e₀, Category.assoc,
+      show ((m : ℤ)).toNat = m by omega]
 
 /-- Actual positive integer exactness, conditional only on the proven local result. -/
 theorem integerResolution_exactAt_positive (n : ℤ) (hn : 0 < n) :
@@ -93,7 +95,8 @@ theorem integerResolution_exactAt_positive (n : ℤ) (hn : 0 < n) :
     omega
   apply (integerResolution.exactAt_iff'
     (i := ((m : ℤ) + 2)) (j := ((m : ℤ) + 1)) (k := (m : ℤ))
-    (by simp [ChainComplex.prev]) (by simp [ChainComplex.next])).2
+    (by simp only [ChainComplex.prev]; omega)
+    (by simp only [ChainComplex.next]; omega)).2
   exact ShortComplex.exact_of_iso
     (positiveIntegerShortComplexIso m) (positiveShortComplex_exact m)
 
