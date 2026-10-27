@@ -45,8 +45,8 @@ theorem integerDifferential_square (n : ℤ) :
   · have hn1 : 0 ≤ n + 1 := by omega
     have hn2 : 0 ≤ (n + 1) + 1 := by omega
     have hcast : (n + 1).toNat = n.toNat + 1 := by omega
-    simpa [integerDifferential, integerObject, hn, hn1, hn2, hcast] using
-      (differential_square n.toNat)
+    simpa [integerDifferential, integerObject, hn, hn1, hn2, hcast,
+      differential, coefficientLinear] using (differential_square n.toNat)
   · simp [integerDifferential, hn]
 
 /-- The entire integer-indexed periodic chain complex. -/
