@@ -1,6 +1,7 @@
 module
 public import C4.IntegerResolution
 public import Mathlib.Algebra.Category.ModuleCat.Projective
+public import Mathlib.LinearAlgebra.Basis.Basic
 
 @[expose] public section
 
