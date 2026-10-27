@@ -18,6 +18,16 @@ private theorem binary_double (a : ZMod 2) : a + a = 0 := by
   have h : ∀ u : ZMod 2, u + u = 0 := by decide
   exact h a
 
+/- These concrete operation instances permit ring axioms to be proved before the
+   full CommRing instance is available to typeclass synthesis. The final ring
+   fields are definitionally the same functions. -/
+instance : Zero B := ⟨C4.zero⟩
+instance : One B := ⟨C4.one⟩
+instance : Add B := ⟨C4.add⟩
+instance : Mul B := ⟨C4.mul⟩
+instance : Neg B := ⟨id⟩
+instance : Sub B := ⟨C4.add⟩
+
 instance : CommRing B where
   zero := C4.zero
   one := C4.one
