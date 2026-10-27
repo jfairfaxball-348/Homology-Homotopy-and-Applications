@@ -57,4 +57,50 @@ theorem integerResolution_homology_isZero_negative (n : ℤ) (hn : n < 0) :
     Limits.IsZero (integerResolution.homology n) :=
   (integerResolution_exactAt_negative n hn).isZero_homology
 
+/-! ### S147 scratch: transport local exactness through all three integer-object casts -/
+
+/-- The actual positive `sc'` is the local periodic short complex up to
+three explicit equalities of its nonnegative regular module objects. -/
+noncomputable def positiveIntegerShortComplexIso (m : ℕ) :
+    positiveShortComplex m ≅
+      integerResolution.sc' ((m : ℤ) + 2) ((m : ℤ) + 1) (m : ℤ) := by
+  let e₂ : integerObject ((m : ℤ) + 2) = ModuleCat.of B B :=
+    integerObject_nonnegative _ (by omega)
+  let e₁ : integerObject ((m : ℤ) + 1) = ModuleCat.of B B :=
+    integerObject_nonnegative _ (by omega)
+  let e₀ : integerObject (m : ℤ) = ModuleCat.of B B :=
+    integerObject_nonnegative _ (by omega)
+  refine ShortComplex.isoMk (eqToIso e₂.symm) (eqToIso e₁.symm)
+    (eqToIso e₀.symm) ?_ ?_
+  · dsimp [positiveShortComplex, integerResolution]
+    simp [ChainComplex.of_d, integerDifferential,
+      show (0 : ℤ) ≤ (m : ℤ) + 1 by omega,
+      show (0 : ℤ) ≤ (m : ℤ) + 2 by omega,
+      show ((m : ℤ) + 1).toNat = m + 1 by omega,
+      Category.assoc]
+  · dsimp [positiveShortComplex, integerResolution]
+    simp [ChainComplex.of_d, integerDifferential,
+      show (0 : ℤ) ≤ (m : ℤ) by omega,
+      show (0 : ℤ) ≤ (m : ℤ) + 1 by omega,
+      show ((m : ℤ)).toNat = m by omega,
+      Category.assoc]
+
+/-- Actual positive integer exactness, conditional only on the proven local result. -/
+theorem integerResolution_exactAt_positive (n : ℤ) (hn : 0 < n) :
+    integerResolution.ExactAt n := by
+  obtain ⟨m, rfl⟩ : ∃ m : ℕ, n = (m : ℤ) + 1 := by
+    refine ⟨(n - 1).toNat, ?_⟩
+    omega
+  apply (integerResolution.exactAt_iff'
+    (i := ((m : ℤ) + 2)) (j := ((m : ℤ) + 1)) (k := (m : ℤ))
+    (by simp [ChainComplex.prev]) (by simp [ChainComplex.next])).2
+  exact ShortComplex.exact_of_iso
+    (positiveIntegerShortComplexIso m) (positiveShortComplex_exact m)
+
+/-- Actual positive-degree Mathlib homology vanishes in all positive integers. -/
+theorem integerResolution_homology_isZero_positive (n : ℤ) (hn : 0 < n) :
+    Limits.IsZero (integerResolution.homology n) :=
+  (integerResolution_exactAt_positive n hn).isZero_homology
+
+
 end C4
