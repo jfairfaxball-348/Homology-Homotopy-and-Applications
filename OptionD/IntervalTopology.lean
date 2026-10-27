@@ -372,11 +372,18 @@ theorem d3_two_end_quot_to_cofiber_isQuotientMap :
   have hp : Topology.IsQuotientMap
       (Quotient.mk' : Set.Icc (0 : ℝ) 1 → d3TwoEndQuotient) :=
     isQuotientMap_quotient_mk'
+  have hcomp : (d3TwoEndQuotToCofiber ∘
+        (Quotient.mk' : Set.Icc (0 : ℝ) 1 → d3TwoEndQuotient)) =
+      d3TwoCofiberAt := by
+    funext t
+    change d3TwoEndQuotToCofiber
+      (Quotient.mk (d3CollapseSetoid d3TwoEndSet) t) = d3TwoCofiberAt t
+    exact d3_two_end_quot_to_cofiber_mk t
   have hc : Topology.IsQuotientMap
       (d3TwoEndQuotToCofiber ∘
         (Quotient.mk' : Set.Icc (0 : ℝ) 1 → d3TwoEndQuotient)) := by
-    simpa only [Function.comp_def, d3_two_end_quot_to_cofiber_mk] using
-      d3_two_cofiber_at_isQuotientMap
+    rw [hcomp]
+    exact d3_two_cofiber_at_isQuotientMap
   exact hp.of_comp_isQuotientMap hc
 
 /-- The genuine Rips two-point cofiber is homeomorphic to the interval
