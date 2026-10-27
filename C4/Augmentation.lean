@@ -114,4 +114,33 @@ theorem differential_residueModuleMorphism :
   change residueHom (C4.t * a) = 0
   exact residueHom_t_mul a
 
+
+/-- A residue module concentrated in degree zero. -/
+def residueObjectAt (n : ℤ) : ModuleCat B :=
+  if n = 0 then residueModuleObject else ModuleCat.of B (Fin 0 → B)
+
+/-- Every differential of the concentrated residue complex is zero. -/
+def residueDifferentialAt (n : ℤ) :
+    residueObjectAt (n + 1) ⟶ residueObjectAt n := 0
+
+theorem residueDifferential_square (n : ℤ) :
+    residueDifferentialAt (n + 1) ≫ residueDifferentialAt n = 0 := by
+  simp [residueDifferentialAt]
+
+/-- The degree-zero residue module as an actual integer-indexed complex. -/
+def residueComplex : ChainComplex (ModuleCat B) ℤ :=
+  ChainComplex.of residueObjectAt residueDifferentialAt residueDifferential_square
+
+/-- Candidate augmentation component, categorical in every integer degree. -/
+def augmentationComponent (n : ℤ) :
+    integerObject n ⟶ residueObjectAt n := by
+  by_cases h : n = 0
+  · subst n
+    have ha : integerObject (0 : ℤ) = ModuleCat.of B B :=
+      integerObject_nonnegative 0 (by decide)
+    have hb : residueModuleObject = residueObjectAt 0 := by
+      simp [residueObjectAt]
+    exact eqToHom ha ≫ residueModuleMorphism ≫ eqToHom hb
+  · exact 0
+
 end C4
