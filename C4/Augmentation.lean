@@ -143,4 +143,26 @@ def augmentationComponent (n : ℤ) :
     exact eqToHom ha ≫ residueModuleMorphism ≫ eqToHom hb
   · exact 0
 
+
+/-! ### S144: all-integer chain-level augmentation -/
+
+/-- Compatibility of the integer periodic differential with the residue augmentation
+in every homological degree, including the boundary at degree zero. -/
+theorem augmentationComponent_naturality (n : ℤ) :
+    integerDifferential n ≫ augmentationComponent n =
+      augmentationComponent (n + 1) ≫ residueDifferentialAt n := by
+  by_cases hn : n = 0
+  · subst n
+    simp [integerDifferential, augmentationComponent, residueDifferentialAt,
+      Category.assoc, differential_residueModuleMorphism]
+  · simp [augmentationComponent, hn, residueDifferentialAt]
+
+/-- The actual categorical augmentation chain morphism. -/
+def augmentationChainMap : integerResolution ⟶ residueComplex :=
+  ChainComplex.ofHom augmentationComponent (by
+    intro n
+    simpa only [integerResolution, residueComplex, ChainComplex.of_d]
+      using augmentationComponent_naturality n)
+
+
 end C4
