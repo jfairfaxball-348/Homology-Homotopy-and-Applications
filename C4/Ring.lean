@@ -1,7 +1,7 @@
 module
 public import C4.Periodic
 
-public section
+@[expose] public section
 
 /-! A genuine commutative ring on the exact truncated four-coefficient algebra.
 The ring axioms are proved for the explicit operations BEFORE packaging
