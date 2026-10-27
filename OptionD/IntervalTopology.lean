@@ -274,7 +274,7 @@ theorem d3_two_cofiber_at_surjective : Function.Surjective d3TwoCofiberAt := by
 The extra adjoined point is discrete and already identified with an
 interval endpoint, so its presence does not alter the final topology. -/
 theorem d3_two_cofiber_at_isQuotientMap :
-    IsQuotientMap d3TwoCofiberAt := by
+    Topology.IsQuotientMap d3TwoCofiberAt := by
   let f := d3OrdinaryAttachingComparison d3TwoFirst d3TwoSecond d3TwoEdge
     d3_two_first_le_edge d3_two_second_le_edge
   let p := d3PointCofiberProjection f
@@ -282,7 +282,9 @@ theorem d3_two_cofiber_at_isQuotientMap :
       p (Sum.inl x) = d3TwoCofiberAt (d3TwoEdgeToIcc x) := by
     change p (Sum.inl x) =
       p (Sum.inl (d3TwoEdgeOfIcc (d3TwoEdgeToIcc x)))
-    rw [d3TwoEdgeHomeoIcc.left_inv x]
+    have hx : d3TwoEdgeOfIcc (d3TwoEdgeToIcc x) = x :=
+      d3TwoEdgeHomeoIcc.left_inv x
+    rw [hx]
   refine ⟨Topology.IsCoinducing.of_isOpen_preimage_iff_isOpen (fun U => ?_),
     d3_two_cofiber_at_surjective⟩
   constructor
@@ -305,7 +307,7 @@ theorem d3_two_cofiber_at_isQuotientMap :
         funext z
         exact d3_point_cofiber_projection_mk f z
       simpa only [heq'] using hp
-    exact (isQuotientMap_quotient_mk'.isCoinducing.isOpen_preimage).mp hp'
+    exact (Topology.isQuotientMap_quotient_mk'.isCoinducing.isOpen_preimage).mp hp'
   · intro h
     exact h.preimage d3_two_cofiber_at_continuous
 
