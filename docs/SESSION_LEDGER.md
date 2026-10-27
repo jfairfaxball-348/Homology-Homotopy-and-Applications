@@ -1,3 +1,6 @@
+## S144 — 27 October 2026 — executed, partial L1
+Pinned Lean green for all-integer C4 augmentation chain morphism (#40538805810) and all nonnegative term projectivity (#40539821868), integrity #40539822258. Categorical H₀/Hₙ and genuine all-choice dg/whole-real metrics OPEN. S145 FUTURE, UNEXECUTED. See sessions/S144/{PROOF,BUILD,CLOSEOUT}.md.
+
 # Session ledger
 
 | ID | Date | Scope | Evidence / result | Next |

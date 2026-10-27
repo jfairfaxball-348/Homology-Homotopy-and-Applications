@@ -1,3 +1,9 @@
+# LIVE S144 CERTIFIED CHECKPOINT — 27 October 2026
+
+S144 pinned hosted Lean verified the actual all-integer `C4.augmentationChainMap : integerResolution ⟶ residueComplex` (source 24e40a44, build #40538805810 SUCCESS), and categorical projectivity of each regular nonnegative term via `C4.integerObject_projective` (source 6528c6de, build #40539821868 SUCCESS; integrity #40539822258 SUCCESS). Categorical H₀/Hₙ and augmentation quasi-isomorphism are NOT YET certified; neither global all-choice shifted dg fourfold nor whole-real d_IHC/d_HI. S145 FUTURE, UNEXECUTED until a new separate owner instruction. Frozen cyclic-four first-paper theorem only. No novelty, HHA-fit, prior art, outside review, OptionD development, Palomar/arXiv/HHA submission, contact or external release.
+
+---
+
 # LIVE S143 C4 CATEGORICAL RESIDUE CHECKPOINT — 27 October 2026
 
 New pinned Lean certificates on the frozen first-paper C4 path: categorical residue module and morphism, vanishing at the first differential, the residue `ChainComplex (ModuleCat B) ℤ` concentrated at zero and actual degreewise augmentation components. Scratch `b514244c1eeaaad3d96566c599e75262bca39396`, Lean #40534476045 and integrity #40534476198 both SUCCESS. This is **NOT** yet categorical H₀/H_n or an all-choice global fourfold or whole-real metric certificate. Read sessions/S143/{BUILD,PROOF,CLOSEOUT}.md for final status. S144 FUTURE until separate new owner instruction. No external release/review.
