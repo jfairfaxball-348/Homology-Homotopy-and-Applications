@@ -128,4 +128,33 @@ noncomputable def residueModule_cokernel :
     exact residueModuleMorphism_epi
   exact augmentationShortComplex_exact.gIsCokernel
 
+/-- The actual integer-indexed degree-zero homology identifies with the
+residue module by the universal cokernel of the first genuine differential. -/
+noncomputable def integerResolution_homology_zero_iso :
+    integerResolution.homology 0 ≅ residueModuleObject := by
+  let S := integerResolution.sc' (1 : ℤ) (0 : ℤ) (-1 : ℤ)
+  have hi : (ComplexShape.down ℤ).prev 0 = 1 := by
+    simp [ChainComplex.prev]
+  have hk : (ComplexShape.down ℤ).next 0 = -1 := by
+    simp [ChainComplex.next]
+  have hf : S.f = differential 0 := by
+    change ChainComplex.of.d integerObject integerDifferential (1 : ℤ) 0 = differential 0
+    simp [ChainComplex.of.d, integerDifferential]
+  have hg : S.g = 0 := by
+    change ChainComplex.of.d integerObject integerDifferential 0 (-1 : ℤ) = 0
+    simp [ChainComplex.of.d, integerDifferential]
+  have hcomp : S.f ≫ (residueModuleMorphism : S.X₂ ⟶ residueModuleObject) = 0 := by
+    rw [hf]
+    exact differential_residueModuleMorphism
+  have hc : Limits.IsColimit
+      (Limits.CokernelCofork.ofπ
+        (residueModuleMorphism : S.X₂ ⟶ residueModuleObject) hcomp) := by
+    change Limits.IsColimit
+      (Limits.CokernelCofork.ofπ residueModuleMorphism
+        differential_residueModuleMorphism)
+    exact residueModule_cokernel
+  exact (integerResolution.homologyIsoSc' (1 : ℤ) (0 : ℤ) (-1 : ℤ) hi hk) ≪≫
+    (S.asIsoHomologyι hg) ≪≫
+    (S.opcyclesIsCokernel.coconePointUniqueUpToIso hc)
+
 end C4
