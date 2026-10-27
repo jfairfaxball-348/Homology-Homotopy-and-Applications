@@ -68,8 +68,12 @@ theorem residueLinear_ker_eq_range :
     LinearMap.ker residueLinear =
       LinearMap.range (coefficientLinear (Periodic.d 0)) := by
   ext a
-  simpa only [LinearMap.mem_ker, LinearMap.mem_range] using
-    (residueLinear_kernel a)
+  constructor
+  · intro ha
+    obtain ⟨b, hb⟩ := (residueLinear_kernel a).mp ha
+    exact ⟨b, hb.symm⟩
+  · rintro ⟨b, hb⟩
+    exact (residueLinear_kernel a).mpr ⟨b, hb.symm⟩
 
 /-- All positive coefficient differentials form exact B-linear sequences,
 expressed as equality of genuine submodules. -/
@@ -77,7 +81,11 @@ theorem positiveLinear_ker_eq_range (n : ℕ) :
     LinearMap.ker (coefficientLinear (Periodic.d n)) =
       LinearMap.range (coefficientLinear (Periodic.d (n + 1))) := by
   ext a
-  simpa only [LinearMap.mem_ker, LinearMap.mem_range] using
-    (positiveDifferential_exact_coeff n a)
+  constructor
+  · intro ha
+    obtain ⟨b, hb⟩ := (positiveDifferential_exact_coeff n a).mp ha
+    exact ⟨b, hb.symm⟩
+  · rintro ⟨b, hb⟩
+    exact (positiveDifferential_exact_coeff n a).mpr ⟨b, hb.symm⟩
 
 end C4
