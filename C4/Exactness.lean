@@ -61,13 +61,15 @@ theorem integerResolution_homology_isZero_negative (n : ℤ) (hn : n < 0) :
 theorem integerResolution_exactAt_positive_nat (m : ℕ) :
     integerResolution.ExactAt ((m : ℤ) + 1) := by
   let n : ℤ := (m : ℤ)
-  have hprev : (ComplexShape.down ℤ).prev (n + 1) = n + 2 := by simp
+  have hprev : (ComplexShape.down ℤ).prev (n + 1) = n + 2 := by simp <;> omega
   have hnext : (ComplexShape.down ℤ).next (n + 1) = n := by simp
   apply (integerResolution.exactAt_iff' (n + 2) (n + 1) n hprev hnext).2
-  have hm : (n + 1).toNat = m + 1 := by dsimp [n]; omega
-  have hm0 : n.toNat = m := by dsimp [n]; omega
-  simpa [integerResolution, integerObject, integerDifferential,
-    positiveShortComplex, n, hm, hm0, ChainComplex.of_d]
+  have hm : (n + 1).toNat = m + 1 := by omega
+  have hm0 : n.toNat = m := by omega
+  have hs : n + 2 = (n + 1) + 1 := by omega
+  rw [hs]
+  simpa [HomologicalComplex.sc', integerResolution, integerObject,
+    integerDifferential, positiveShortComplex, n, hm, hm0, ChainComplex.of_d]
     using (positiveShortComplex_exact m)
 
 /-- All strictly positive integer homology groups of the true complex vanish. -/
