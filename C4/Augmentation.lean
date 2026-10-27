@@ -91,22 +91,22 @@ theorem positiveLinear_ker_eq_range (n : ℕ) :
 
 /-! ### S143: typed ModuleCat augmentation boundary -/
 
-/-- The residue module explicitly bundled as a categorical B-module.
-    The local instance pins the same scalar restriction used in residueLinear. -/
-def residueModuleObject : ModuleCat B := by
-  letI : Module B (ZMod 2) := residueHom.toModule
-  exact ModuleCat.of B (ZMod 2)
+/-- Explicitly bundled residue B-module. In contrast with `ModuleCat.of`,
+this constructor does not ask instance synthesis to rediscover scalar restriction. -/
+def residueModuleObject : ModuleCat B where
+  carrier := ZMod 2
+  isAddCommGroup := inferInstance
+  isModule := residueHom.toModule
 
-/-- Genuine ModuleCat morphism for the B-linear residue augmentation. -/
-def residueModuleMorphism : ModuleCat.of B B ⟶ residueModuleObject := by
-  letI : Module B (ZMod 2) := residueHom.toModule
-  exact ModuleCat.ofHom residueLinear
+/-- Actual morphism in the category of modules over B. -/
+def residueModuleMorphism : ModuleCat.of B B ⟶ residueModuleObject :=
+  ⟨residueLinear⟩
 
-/-- At the chain-complex degree-zero boundary, the first differential
-    has zero composite with the categorical augmentation. -/
+/-- The first differential vanishes after the categorical augmentation. -/
 theorem differential_residueModuleMorphism :
     differential 0 ≫ residueModuleMorphism = 0 := by
   apply ModuleCat.hom_ext
+  rw [ModuleCat.hom_comp, ModuleCat.hom_zero]
   apply LinearMap.ext
   intro a
   change residueHom (C4.t * a) = 0
