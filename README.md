@@ -1,3 +1,13 @@
+# ACTIVE FIRST PAPER — frozen C4 coefficient interleaving gap (27 October 2026)
+
+Internal written theorem: d_CohI=1/2 < d_IHC=1 < 5/4 ≤ d_HI ≤ 5/2 for the specific whole-real five-stage Ch(F₂[C₄]) diagram; arbitrary whole-real WE zigzags on BOTH lanes. Paper proof and bounded exact Python checks exist; full C4 Lean certificate DOES NOT. [Candidate/evidence](research/C4_FROZEN_CANDIDATE.md) · [short roadmap](docs/ROADMAP.md) · [Lean plan](formal/C4_FORMALIZATION_PLAN.md) · [working manuscript](paper/C4_MANUSCRIPT.md) · [next S138](authoritative/NEXT_SESSION_PROMPT.md).
+
+No further exploration, originality, HHA-fit, prior-art or external-review phases. Paper drafting authorised; registration/submission remains owner-gated. S137 remains last COMPLETED and S138 FUTURE. OptionD files and their valid Lean certificates are preserved as historical work, with D6–D8 still OPEN.
+
+---
+
+# Historical README
+
 # Latest checkpoint — S134 endpoints and uniform three-shift plateau, 26 October 2026
 
 Pinned Lean scratch `4fcfe31b03c47dbcd39b0326fc01fe7d675d6568`, [Option D Lean #40315214759](https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/actions/runs/40315214759) and [integrity #40315214819](https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/actions/runs/40315214819) SUCCESS. Actual distinct Euclidean N=2 singleton endpoints are inhabited and their realisations homeomorphic to PUnit. An exact common interior r witnesses literal finite-complex equality at Boolean p, p+δ, p+2δ for every p when 0≤δ, 2δ<1, 2δ<b−a. **Terminal interval ≃ Icc, endpoint quotient ≃ S¹, CW/derived cofiber and full R³ universal D6/D7/D8 remain OPEN.** Novelty/HHA G2 owner-deferred; no Palomar, paper or release. [S134 mathematics](sessions/S134/MATHEMATICS.md) · [S135 FUTURE prompt](authoritative/NEXT_SESSION_PROMPT.md).

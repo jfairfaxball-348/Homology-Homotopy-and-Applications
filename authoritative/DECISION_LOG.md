@@ -669,3 +669,17 @@ Fresh owner "Run next session" authorised S136. The actual N2 attaching endpoint
 
 ## S137 — 27 October 2026 (fresh owner invocation)
 The actual topological quotient gap has been CLOSED in pinned Lean, not filled by assuming compact→Hausdorff: prove the original `d3TwoCofiberAt` quotient-map topology through the existing coproduct cofiber, then prove the continuous bijective quotient map from the interval endpoint collapse is an actual homeomorphism. Last successful scratch `5e404e105fd526919424bb4bc7961ccca4a2f8d3`, Lean #40469150159 and integrity #40469150168 both SUCCESS. Scope guard: pinned AddCircle homeo typed on the independent Mathlib quotient, not composed to the actual point-cofiber; no derived cofibration, full-real R³ quantitative interleaving, D6 for universal Y/f/g, D7/D8 or HHA G2 passed. S138 FUTURE will tackle the explicit AddCircle quotient bridge and honest remaining obligations. No new G2 novelty audit or external release action authorised.
+
+## OWNER 2026-10-27 governance-only freeze
+# BINDING OWNER OVERRIDE — 27 October 2026: FROZEN FIRST PAPER
+
+The owner has ended exploratory target selection. The ONE active first-paper candidate is the cyclic-four modular real-persistence strict interleaving gap, archived mathematical proofs S076/S077/S113/S114. Let B=F₂[C₄]≅F₂[t]/(t⁴), and F be their exact five-stage whole-real Ch(right B) diagram, O=0. Frozen INTERNAL theorem: d_CohI(F,O)=1/2 < d_IHC(F,O)=1 < 5/4 ≤ d_HI(F,O) ≤ 5/2. The homotopy metric permits arbitrary whole-real objectwise quasi-isomorphism zigzags on BOTH input lanes. Do not misrepresent it as a Top^R theorem.
+
+Internal written proofs and a bounded exact finite-jet Python checker exist; full C4 Lean is NOT certified. S115's first-paper retirement was a novelty/significance judgement, not a mathematical refutation, and is prospectively overridden by the owner's explicit change in criteria. Preserve all archived proof and Option D Lean achievements, but Option D D6–D8 is NOT the first paper.
+
+The ACTIVE roadmap is freeze → replay check + Lean actual C4 algebra and universal choice obstruction → Lean whole-real derived/strict metric theorem → manuscript completed IN PARALLEL → separately owner-controlled release. NO novelty investigation, HHA-appropriateness test, prior-art audit or external/scientific review stages. Historical documents discussing those screens are not current authority. Do not undertake more target exploration or distance optimisation. Correctness, transparent unproved mathematical or Lean obligations, and faithful proof-to-statement matching are mandatory.
+
+The owner NOW authorises paper drafting, but does NOT authorise Palomar registration, arXiv/HHA submission or contacting any third party. Historical directives that forbid drafting or require gate approvals before Lean/paper are superseded. Governance-only reorientation does NOT execute S138. Last completed S137; next S138 FUTURE, UNEXECUTED, by a fresh separate owner invocation only.
+
+Active sources: research/C4_FROZEN_CANDIDATE.md; docs/ROADMAP.md; formal/C4_FORMALIZATION_PLAN.md; paper/C4_MANUSCRIPT.md; authoritative/NEXT_SESSION_PROMPT.md.
+
