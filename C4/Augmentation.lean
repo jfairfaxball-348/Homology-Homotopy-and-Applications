@@ -1,5 +1,6 @@
 module
 public import C4.IntegerResolution
+public import Mathlib.Algebra.Category.ModuleCat.Projective
 
 @[expose] public section
 
@@ -166,5 +167,13 @@ def augmentationChainMap : integerResolution ⟶ residueComplex :=
     simpa only [integerResolution, residueComplex, ChainComplex.of_d]
       using (augmentationComponent_naturality n).symm)
 
+
+
+/-- Every nonnegative term in the integer-indexed resolution is a
+categorically projective B-module: it is the free rank-one regular module. -/
+theorem integerObject_projective (n : ℤ) (hn : 0 ≤ n) :
+    CategoryTheory.Projective (integerObject n) := by
+  rw [integerObject_nonnegative n hn]
+  exact ModuleCat.projective_of_free (Basis.singleton Unit B)
 
 end C4
