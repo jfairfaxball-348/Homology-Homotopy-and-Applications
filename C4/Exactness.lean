@@ -57,4 +57,22 @@ theorem integerResolution_homology_isZero_negative (n : ℤ) (hn : n < 0) :
     Limits.IsZero (integerResolution.homology n) :=
   (integerResolution_exactAt_negative n hn).isZero_homology
 
+/-- Actual short-complex exactness at every strictly positive integer degree. -/
+theorem integerResolution_exactAt_positive_nat (m : ℕ) :
+    integerResolution.ExactAt ((m : ℤ) + 1) := by
+  let n : ℤ := (m : ℤ)
+  have hprev : (ComplexShape.down ℤ).prev (n + 1) = n + 2 := by simp
+  have hnext : (ComplexShape.down ℤ).next (n + 1) = n := by simp
+  apply (integerResolution.exactAt_iff' (n + 2) (n + 1) n hprev hnext).2
+  have hm : (n + 1).toNat = m + 1 := by dsimp [n]; omega
+  have hm0 : n.toNat = m := by dsimp [n]; omega
+  simpa [integerResolution, integerObject, integerDifferential,
+    positiveShortComplex, n, hm, hm0, ChainComplex.of_d]
+    using (positiveShortComplex_exact m)
+
+/-- All strictly positive integer homology groups of the true complex vanish. -/
+theorem integerResolution_homology_isZero_positive_nat (m : ℕ) :
+    Limits.IsZero (integerResolution.homology ((m : ℤ) + 1)) :=
+  (integerResolution_exactAt_positive_nat m).isZero_homology
+
 end C4
