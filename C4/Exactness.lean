@@ -69,10 +69,14 @@ theorem integerResolution_exactAt_positive_nat (m : ℕ) :
   have hs : n + 2 = (n + 1) + 1 := by omega
   rw [hs]
   apply (ShortComplex.moduleCat_exact_iff_range_eq_ker _).2
+  have hn : 0 ≤ n := by dsimp [n]; omega
+  have hn1 : 0 ≤ n + 1 := by omega
+  have hn2 : 0 ≤ n + 2 := by omega
   dsimp [HomologicalComplex.sc', HomologicalComplex.shortComplexFunctor',
     integerResolution]
   simpa [ChainComplex.of_d, integerObject, integerDifferential,
-    n, hm, hm0] using (positiveLinear_ker_eq_range m).symm
+    hn, hn1, hn2, hm, hm0, n, Category.assoc] using
+    (positiveLinear_ker_eq_range m).symm
 
 /-- All strictly positive integer homology groups of the true complex vanish. -/
 theorem integerResolution_homology_isZero_positive_nat (m : ℕ) :
