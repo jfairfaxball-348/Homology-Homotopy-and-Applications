@@ -1,3 +1,9 @@
+# LIVE S146 TRUE NEGATIVE INTEGER HOMOLOGY CERTIFIED — 27 October 2026
+
+S146 (27 October 2026): Pinned Lean certifies ACTUAL negative-degree integerResolution.ExactAt n and IsZero(integerResolution.homology n) for every n<0, including -1 (scratch d6b844d6f40c40143923956b2ef4513f2e20294c, build #40578700131 SUCCESS; integrity #40578700181 SUCCESS). Positive integer ExactAt remains OPEN: latest scratch 2c602f0d29c9cbec6703172c160b9c219189591a failed pinned Lean #40580404408 at C4/Exactness.lean:77:2 because range/kernel maps still compose with eqToHom casts, and do not simplify to bare coefficientLinear maps. No H0, QuasiIso, globally shifted dg all-choice fourfold, or whole-real distance theorem is certified. Frozen theorem unchanged. S147 is FUTURE, UNEXECUTED and requires separate owner instruction.
+
+---
+
 # LIVE S145 CATEGORICAL EXACTNESS CERTIFIED — 27 October 2026
 
 Pinned Lean certified the genuine `ShortComplex (ModuleCat B)` exactness `C4.positiveShortComplex_exact (n : ℕ)` in all positive periodic degrees (scratch `515129075c0bbbb444d233fc716391924912858b`, build #40575179311 SUCCESS) and `C4.augmentationShortComplex_exact` at the degree-zero residue (scratch `85386ec4eeca4f6cf94bfb608a6bd28e12a01f64`, build #40575347270 SUCCESS, integrity #40575347115 SUCCESS). This is not a typed theorem of `integerResolution.ExactAt`, an actual `homology n` computation, `QuasiIso augmentationChainMap`, the global shifted dg all-choice fourfold or the whole-real metric theorem. S146 FUTURE, UNEXECUTED until a separate owner request. Continue ONE frozen C4 first-paper candidate and matching Lean/paper only; no novelty, HHA-fit, prior art, outside review, OptionD development, Palomar, arXiv/HHA submission or external contact.

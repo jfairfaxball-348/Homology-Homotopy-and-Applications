@@ -36,4 +36,25 @@ theorem augmentationShortComplex_exact : augmentationShortComplex.Exact := by
     LinearMap.ker residueLinear
   exact residueLinear_ker_eq_range.symm
 
+/-! ### S146: honest integer-indexed negative homology boundary -/
+
+/-- Every actual negative-degree object is the zero B-module. -/
+theorem integerObject_isZero_negative (n : ℤ) (hn : n < 0) :
+    Limits.IsZero (integerObject n) := by
+  rw [integerObject_negative n hn]
+  exact ModuleCat.isZero_of_subsingleton _
+
+/-- The complete integer-indexed complex is exact at each negative degree,
+including degree -1, since those are actual zero objects. -/
+theorem integerResolution_exactAt_negative (n : ℤ) (hn : n < 0) :
+    integerResolution.ExactAt n := by
+  apply HomologicalComplex.ExactAt.of_isZero
+  change Limits.IsZero (integerObject n)
+  exact integerObject_isZero_negative n hn
+
+/-- Actual Mathlib homology of the integer complex vanishes at each negative degree. -/
+theorem integerResolution_homology_isZero_negative (n : ℤ) (hn : n < 0) :
+    Limits.IsZero (integerResolution.homology n) :=
+  (integerResolution_exactAt_negative n hn).isZero_homology
+
 end C4
