@@ -24,4 +24,16 @@ theorem positiveShortComplex_exact (n : ℕ) :
     LinearMap.ker (coefficientLinear (Periodic.d n))
   exact (positiveLinear_ker_eq_range n).symm
 
+/-- Actual augmentation short complex in the category of B-modules. -/
+def augmentationShortComplex : ShortComplex (ModuleCat B) :=
+  ShortComplex.mk (differential 0) residueModuleMorphism
+    differential_residueModuleMorphism
+
+/-- Categorical exactness of the first boundary followed by the residue map. -/
+theorem augmentationShortComplex_exact : augmentationShortComplex.Exact := by
+  apply (ShortComplex.moduleCat_exact_iff_range_eq_ker _).2
+  change LinearMap.range (coefficientLinear (Periodic.d 0)) =
+    LinearMap.ker residueLinear
+  exact residueLinear_ker_eq_range.symm
+
 end C4
