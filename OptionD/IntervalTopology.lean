@@ -338,23 +338,27 @@ noncomputable def d3TwoEndQuotToCofiber :
 
 theorem d3_two_end_quot_to_cofiber_mk (t : Set.Icc (0 : ℝ) 1) :
     d3TwoEndQuotToCofiber (Quotient.mk (d3CollapseSetoid d3TwoEndSet) t) =
-      d3TwoCofiberAt t := rfl
+      d3TwoCofiberAt t := by
+  unfold d3TwoEndQuotToCofiber
+  rfl
 
 theorem d3_two_end_quot_to_cofiber_continuous :
     Continuous d3TwoEndQuotToCofiber := by
-  apply d3_two_cofiber_at_continuous.quotient_lift
-  intro s t h
-  exact (d3_two_cofiber_fiber_iff s t).mpr
-    ((d3_collapse_rel_iff d3TwoEndSet s t).mp h)
+  exact d3_two_cofiber_at_continuous.quotient_lift (by
+    intro s t h
+    exact (d3_two_cofiber_fiber_iff s t).mpr
+      ((d3_collapse_rel_iff d3TwoEndSet s t).mp h))
 
 theorem d3_two_end_quot_to_cofiber_injective :
     Function.Injective d3TwoEndQuotToCofiber := by
   intro s t h
+  revert h
   refine Quotient.inductionOn₂ s t ?_
   intro x y hxy
   apply Quotient.sound
   exact (d3_collapse_rel_iff d3TwoEndSet x y).mpr
-    ((d3_two_cofiber_fiber_iff x y).mp hxy)
+    ((d3_two_cofiber_fiber_iff x y).mp (by
+      simpa only [d3_two_end_quot_to_cofiber_mk] using hxy))
 
 theorem d3_two_end_quot_to_cofiber_surjective :
     Function.Surjective d3TwoEndQuotToCofiber := by
@@ -364,6 +368,7 @@ theorem d3_two_end_quot_to_cofiber_surjective :
 
 theorem d3_two_end_quot_to_cofiber_isQuotientMap :
     Topology.IsQuotientMap d3TwoEndQuotToCofiber := by
+  letI : Setoid (Set.Icc (0 : ℝ) 1) := d3CollapseSetoid d3TwoEndSet
   have hp : Topology.IsQuotientMap
       (Quotient.mk' : Set.Icc (0 : ℝ) 1 → d3TwoEndQuotient) :=
     isQuotientMap_quotient_mk'
