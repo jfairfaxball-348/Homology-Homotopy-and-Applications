@@ -166,6 +166,7 @@ theorem ann_t (a : B) : mul t a = zero ↔ ∃ b : B, a = mul t3 b := by
     obtain ⟨h0, h1, h2⟩ := (ann_t_coeffs a).mp ha
     refine ⟨⟨a.c3, 0, 0, 0⟩, ?_⟩
     cases a
+    dsimp at h0 h1 h2
     simp [mul, t3, B.mk.injEq, h0, h1, h2]
   · rintro ⟨b, rfl⟩
     simp [mul, t, t3, zero, B.mk.injEq]
@@ -177,6 +178,7 @@ theorem ann_t3 (a : B) : mul t3 a = zero ↔ ∃ b : B, a = mul t b := by
     have h0 := (ann_t3_coeffs a).mp ha
     refine ⟨⟨a.c1, a.c2, a.c3, 0⟩, ?_⟩
     cases a
+    dsimp at h0
     simp [mul, t, B.mk.injEq, h0]
   · rintro ⟨b, rfl⟩
     simp [mul, t3, t, zero, B.mk.injEq]
