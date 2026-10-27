@@ -1,5 +1,7 @@
 # A quantitative homotopy-interleaving gap over the cyclic-four group algebra
 
+> **S140 formalisation boundary (27 October 2026).** `C4/Ring.lean` now certifies a genuine `CommRing C4.B` with the exact four-coefficient algebra and `C4/Resolution.lean` certifies an actual natural-degree `ChainComplex (ModuleCat B) ℕ` with B-linear alternating differentials and all squares zero. This is not yet a genuine quotient-ring equivalence or the full ℤ-indexed projective resolution with its homology, dg all-choice fourfold or whole-real quantitative theorem. The abstract remains the INTERNAL mathematical claim, not a final kernel certificate.
+
 **Frozen working manuscript — S138, 27 October 2026.** This is the selected first-paper mathematical argument, not a Lean certificate or a submission-ready proof. The complete full-real metric theorem remains to be certified. Throughout, statements about projective model structures, Kan extensions and fourfold transfer below are mathematical proof obligations for the final Lean development. The finite calculation in the appendix checks only finite coefficient jets.
 
 ## Abstract
