@@ -36,7 +36,7 @@ def differential (n : ℕ) : ModuleCat.of B B ⟶ ModuleCat.of B B :=
 theorem differential_square (n : ℕ) :
     differential (n+1) ≫ differential n = 0 := by
   apply ModuleCat.hom_ext
-  intro a
+  ext a
   change Periodic.d n * (Periodic.d (n+1) * a) = 0
   have hz : Periodic.d n * Periodic.d (n+1) = (0 : B) := by
     simpa only [mul_is_truncated_convolution, zero_is_coordinate_zero] using
