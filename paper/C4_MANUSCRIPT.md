@@ -1,43 +1,276 @@
 # A quantitative homotopy-interleaving gap over the cyclic-four group algebra
 
-**FROZEN WORKING PAPER, 27 October 2026**. Internal argument; no full C4 Lean certificate or publication claimed. Source proofs: S076/S077/S113/S114. This is an editable first manuscript, to be completed concurrently with formalisation.
+**Frozen working manuscript — S138, 27 October 2026.** This is the selected first-paper mathematical argument, not a Lean certificate or a submission-ready proof. The complete full-real metric theorem remains to be certified. Throughout, statements about projective model structures, Kan extensions and fourfold transfer below are mathematical proof obligations for the final Lean development. The finite calculation in the appendix checks only finite coefficient jets.
 
 ## Abstract
 
-We construct a five-stage real-indexed persistence diagram of chain complexes over the characteristic-two group algebra of the cyclic group of order four. Its graded ordinary homology has interleaving distance one half from zero, its derived-category interleaving distance is exactly one, but its homotopy interleaving distance is at least five quarters and at most five halves. The lower bound allows arbitrary objectwise quasi-isomorphism zigzags of both full real diagrams, including nonzero acyclic replacements of zero. The obstruction is a choice-independent nontrivial fourfold Toda–Massey operation detected by a low-degree residue. After forgetting the group algebra action, the corresponding field-valued distances agree. The construction comes with finite exact arithmetic checks, which we distinguish from proof of the unrestricted diagram theorem.
+Over the group algebra \(B=\mathbb F_2[C_4]\), we give a five-stage real persistence diagram \(F\) of unbounded complexes of right \(B\)-modules whose homology, derived-diagram and homotopy-interleaving distances to zero are quantitatively separated:
+\[
+ d_{\mathrm{CohI}}(F,0)=\tfrac12
+ <d_{\mathrm{IHC}}(F,0)=1
+ <\tfrac54\le d_{\mathrm{HI}}(F,0)\le\tfrac52.
+\]
+The strict homotopy-interleaving metric allows arbitrary objectwise-quasi-isomorphism zigzags of **both entire real-indexed diagrams**, including nonzero acyclic replacement diagrams for zero. The separation is detected by a fourfold defining-system obstruction whose terminal coefficient is independent of all choices. We explain the integer free-quiver and real Kan constructions for the derived upper bound, and the full real-shoelace cofibrant quotient for the strict lower bound. After forgetting the \(B\)-module structure, all three distances are \(1/2\) by a separately identified field-specific theorem. The categorical proof is currently internal and its full Lean verification is open.
 
-## 1. Statement and definitions
+## 1. Conventions and the exact statement
 
-Let k=F₂, B=k[C₄]≅k[t]/(t⁴) with t=g+1 in homological degree zero. Work in unbounded homologically graded Ch(right B) with projective quasi-isomorphism model structure. Define P_n=B (n≥0), zero for n<0, d_n=t on odd n≥1 and t³ on even n≥2. For i=0,…,4 let X_i=P[i], with adjacent chain map given by underlying degree-minus-one coefficients x_n=1 for odd n and t² for even n. Define the strict whole-real diagram F(u)=X_i for i≤u<i+1, zero for u<0 and u≥5, identities within each stage and x-composites between stages; O=0.
+Let \(k=\mathbb F_2\), \(G=C_4=\langle g\mid g^4=1\rangle\), and \(t=1+g\). In characteristic two,
+\[
+ B=k[G]\cong k[t]/(t^4).
+\]
+The variable \(t\) has **homological degree zero**. We use homologically graded unbounded chain complexes of **right** \(B\)-modules, differential lowering degree, with the projective model structure: weak equivalences are quasi-isomorphisms, and fibrations are degreewise surjections. Denote this model category by \(\mathcal M=\mathrm{Ch}(B)\). All its objects are fibrant.
 
-d_IHC is derived interleaving in Ho(Ch(B)^ℝ), NOT Fun(ℝ,Ho Ch(B)). d_HI is strict interleaving after arbitrary whole-real objectwise quasi-isomorphism zigzags on BOTH lanes, with an arbitrary acyclic replacement of the zero lane allowed. d_CohI compares the underlying k-graded homology diagram.
+For a real-indexed diagram \(A\), write \(A^s(u)=A(u+s)\), and \(\eta_s^A:A\to A^s\) for the natural structure transformation. We use three different distances to zero.
 
-**Main internal paper theorem.** d_CohI(F,O)=1/2, d_IHC(F,O)=1 and 5/4≤d_HI(F,O)≤5/2. In particular the three distances have strict separation. In the forgotten B→k comparison, the field-valued distances all equal 1/2 by the field-specific theorem described in S113; the exact attribution and hypotheses must appear in the final references. No Top^ℝ assertion or equality at the 5/4 endpoint is made.
+* \(d_{\mathrm{CohI}}(A,0)\) is the supremum over homological degrees of the ordinary interleaving distances of the graded homology persistence modules (underlying \(k\)-modules).
+* \(d_{\mathrm{IHC}}(A,0)\) is the interleaving distance computed in \(\mathrm{Ho}(\mathcal M^{\mathbb R})\), the homotopy category of **whole real diagrams**, not in \((\mathrm{Ho}\mathcal M)^{\mathbb R}\).
+* \(d_{\mathrm{HI}}(A,0)\) is the infimum of strict interleaving parameters after **arbitrary whole-diagram zigzags of objectwise weak equivalences of both input lanes**. A replacement of the zero lane may be a nonzero acyclic diagram. No hypothesis requiring literal-zero replacements, a finite grid, or objectwise independent equivalences is added.
 
-## 2. Resolution and universal fourfold obstruction
+For interleaving with zero in any of these categories, the crossing transformations are the zero transformations. Hence an \(\varepsilon\)-interleaving exists precisely when the corresponding \(\eta_{2\varepsilon}\) is zero in the category in which the interleaving is considered; for \(d_{\mathrm{HI}}\), this criterion is applied **after** an allowed strict whole-diagram replacement.
 
-The annihilator equations ann(t)=(t³) and ann(t³)=(t) make P a projective resolution of k. Define underlying degree-minus-one sequences x_n=1 odd/t² even, h_n=0 odd/t even and z_n=0 odd/1 even. For a degree-minus-one family f, (Df)_n=d_(n−1)f_n+f_(n−1)d_n. Parity yields Dx=0, Dh=x², Dz=xh+hx; w=xz+hh+zx has w₂≡1 mod(t). Every boundary has zero such residue.
+**Theorem (internal, to be kernel-certified).** The explicit \(F\) of §2 satisfies the chain of inequalities displayed in the abstract. The \(\tfrac54\) lower bound is on an infimum: we claim no strict interleaving with \(\varepsilon<\tfrac54\), not nonattainment at \(\tfrac54\). We do not assert the exact value of \(d_{\mathrm{HI}}\), a topological-space analogue, or any generalisation to all finite group algebras.
 
-For ANY four cocycle representatives of the nonzero Ext¹ generator, a₁≡1 mod(t), a₂≡t² mod(t³). Every primary filler H satisfies H₂≡t mod(t²), and every secondary K satisfies K₂≡1 mod(t). Consequently EVERY terminal defining-system cocycle is 1 mod(t), so the complete nonempty fourfold bracket excludes zero, rather than merely having a nonzero selected value. See S076 T198, S077 §1, S113 T309 and S114. Complete shifted-sign/definition exposition and Lean formalisation are ongoing.
+## 2. The periodic free resolution and the strict five-stage diagram
 
-## 3. Derived interleaving
+In the ordered basis \(1,t,t^2,t^3\), multiplication in \(B\) is coefficientwise convolution truncated above degree three. The annihilator identities are
+\[
+ \operatorname{ann}(t)=(t^3),\qquad
+ \operatorname{ann}(t^3)=(t).
+\]
+Consider the nonnegative free resolution
+\[
+ P_n=\begin{cases}B,&n\ge0,\\0,&n<0,\end{cases}
+ \qquad
+ d_n=\begin{cases}t,&n\ge1\text{ odd},\\t^3,&n\ge2\text{ even}.\end{cases}
+\]
+The equalities \(t\,t^3=t^4=0\) show \(d^2=0\). At positive even and odd degrees the two annihilator formulas show \(\ker d_n=\operatorname{im}d_{n+1}\). Therefore \(H_0(P)\cong B/(t)\cong k\), \(H_n(P)=0\) for \(n\ne0\). Since \(P\) is a bounded-below chain complex of free modules, it is cofibrant in \(\mathcal M\).
 
-For the whole integer-stage diagram X include the terminal map X₄→0, and the free-linear-quiver diagram presentation E→V→X built from representables L_iX_i and L_(i+1)X_i. Its projective cofibrant cone allows vertex homotopies h and edge homotopies z to kill the TWO-unit natural shift η₂ in Ho(Ch(B)^ℕ). Apply left Quillen Kan extension ℕ→ℝ with its natural shift comparison, yielding η₂^F=0 in the WHOLE REAL derived diagram and hence d_IHC≤1. For ε<1, evaluate η_(2ε)^F at time 0: it is identity or the nonzero class x, so d_IHC≥1. This argument must be expanded as actual chain-level cone/derived categorical formulas; objectwise nullhomotopy does not suffice.
+Put \(X_i=P[i]\) with \((P[i])_n=P_{n-i}\), for \(i=0,1,2,3,4\). An adjacent chain map \(P[i]\to P[i+1]\) is represented by a degree-minus-one family of coefficients on the *unshifted* resolution. Define
+\[
+ x_n=\begin{cases}1,&n\text{ odd},\\t^2,&n\text{ even},\end{cases}\quad
+ h_n=\begin{cases}0,&n\text{ odd},\\t,&n\text{ even},\end{cases}\quad
+ z_n=\begin{cases}0,&n\text{ odd},\\1,&n\text{ even},\end{cases}
+\]
+for \(n\ge1\), and zero for unavailable source/target degrees. These families will also serve as the primary and secondary fillers in §3. A componentwise verification yields \(Dx=0\) (§3), so all shifted copies of \(x\) define genuine chain maps \(a_i:X_i\to X_{i+1}\).
 
-## 4. Quantitative homotopy obstruction
+Define \(F:\mathbb R\to\mathcal M\) by
+\[
+ F(u)=\begin{cases}
+ 0,&u<0,\\
+ X_i,&i\le u<i+1\quad(0\le i\le4),\\
+ 0,&u\ge5 .
+ \end{cases}
+\]
+Its internal stage maps are identities; a map between stages is the ordered composite of the corresponding \(a_i\), and arrows involving zero are zero. Associativity in \(\mathcal M\) makes this a **strict functor over all real indices**. Let \(O\) denote the constant zero real diagram.
 
-If a strict homotopy interleaving at ε<5/4 exists after arbitrary whole-diagram quasi-isomorphisms of BOTH lanes, enlarge to e=max(1,ε), replace the entire REAL shoelace poset diagram projectively cofibrantly, and quotient each first-lane object by the included acyclic opposite-lane object. The result is naturally objectwise equivalent to F and has every length-2e composite literally zero. The zero lane MUST NOT be assumed strictly zero before this argument.
+## 3. The complete fourfold obstruction: every choice
 
-With α=2e−2∈[0,1/2), sample 0,1,2+α,3+α,4+2α. All samples remain in the five original stages. The induced finite four-arrow chain has three double composites zero. Transport of the complete fourfold defining system along the objectwise equivalences would put zero in the bracket, contradicting §2. Thus d_HI≥5/4; F→F⁵ is zero, yielding a strict 5/2 upper bound. The real-shoelace cofibration, acyclic quotient and universal homotopy-transfer lemma MUST be formalised explicitly or identified as unformalised dependencies. No numeric endpoint claim.
+For any underlying degree-minus-one family \(f=(f_n)\), the characteristic-two Hom differential is
+\[
+ (Df)_n=d_{n-1}f_n+f_{n-1}d_n .
+\]
+The product of two degree-minus-one families at degree \(n\) is \((fg)_n=f_{n-1}g_n\) in our composition convention. The parity substitutions in §2 give, for all \(n\ge2\),
+\[
+ Dx=0,\qquad x^2=t^2,\qquad Dh=x^2,
+ \qquad xh+hx=t,\qquad Dz=xh+hx .
+\]
+The explicit terminal fourfold combination is \(w=xz+hh+zx\). Its component at \(n=2\) equals \(1\), whereas a degree-minus-one boundary at degree two has the form
+\[
+ (Df)_2=tf_2+t^3f_1\in(t).
+\]
+The constant-term map \(\lambda:B\to k\), \(\lambda(\sum_{j=0}^3b_jt^j)=b_0\), therefore detects nontriviality. This **selected** nonzero representative is not by itself enough to rule out zero in a complete Toda–Massey bracket. We now quantify over *all* defining systems.
 
-## 5. Graded homology and forgetting coefficients
+Let \(a,b,c,d\) be **any** adjacent degree-zero maps among the four shifted resolutions, each representing the nonzero generator \([x]\in\operatorname{Ext}_B^1(k,k)\). Their unshifted degree-minus-one families satisfy
+\[
+ a_1\equiv1\pmod t,\qquad
+ 0=(Da)_2=ta_2+t^3a_1 .
+\]
+Comparing the coefficients of \(t,t^2,t^3\) forces
+\[
+ a_2\equiv t^2\pmod{t^3}.
+ \tag{3.1}
+\]
+The same equations hold for \(b,c,d\).
 
-Each homological degree n=0,…,4 has exactly one k-interval [n,n+1) and structure maps vanish outside its stage, so d_CohI=1/2. Over Ch(k) the recorded field-specific theorem gives d_CohI=d_IHC=d_HI=1/2. Do not apply this field result to Ch(B).
+Suppose \(H\) is **any** primary filler, \(DH=ba\). At degree two,
+\[
+ tH_2+t^3H_1=b_1a_2,
+\]
+so (3.1) and \(b_1\equiv1\pmod t\) imply
+\[
+ H_2\equiv t\pmod{t^2}.
+ \tag{3.2}
+\]
+The identical restriction applies to all three primary fillers, independently of their components at larger degrees.
 
-## 6. Reproducibility
+Suppose \(K\) is **any** secondary filler with \(DK=cH+Ja\), where \(J\) is another primary filler. Again at degree two,
+\[
+ tK_2+t^3K_1=c_1H_2+J_1a_2 .
+\]
+The right side is \(t\pmod{t^2}\), by (3.1)–(3.2). Therefore
+\[
+ K_2\equiv1\pmod t.
+ \tag{3.3}
+\]
+In every full defining system the terminal expression at degree two consists of three terms with the shape
+\[
+ c_1K_2+H_1J_2+L_1a_2 .
+\]
+The first has constant term one by (3.3), while the last two have constant term zero by (3.1)–(3.2). Thus \(\lambda(w_2)=1\) for **every** admissible choice. A boundary has \(\lambda((Df)_2)=0\). Consequently the complete nonempty fourfold defining-system set does **not** contain zero. Nonemptiness comes from \(x,h,z\).
 
-Run Python3 sessions/S076/check_c4.py. Historical PASS: equations to degree 40, 16 valid adjacent jets, 8192 primary jets, 524288 secondary jets and residue invariance. Bounded jet enumeration does NOT prove the all-infinite-representative theorem or model-categorical metric result.
+The argument depends only on necessary equations at degree two, not on enumerating all infinite chain-map families; arbitrarily many higher components cannot alter it. The endomorphism group of \(k[i]\) in the derived category is \(\operatorname{Ext}^0_B(k,k)=k\), whose units are \(k^\times=\{1\}\). Hence homotopy-equivalence conjugations of the adjacent maps do not introduce other nonzero generator scalars in this example.
 
-## Writing and formalisation items
+**Lean boundary for S138.** The coefficient structure \(k[t]/t^4\) and all-choice low-degree equations can be checked without defining the entire dg-Hom fourfold operation. That is useful but strictly weaker than a kernel-checked theorem quantifying over all unbounded resolutions, shifts, derived equivalences and real diagrams.
 
-Finish full proof of free-quiver/real Kan and shoelace acyclic quotient/transfer; certify corresponding exact theorem in Lean if feasible; integrate existing citations faithfully rather than launching source-review campaigns; write final introduction/discussion and definitions. No journal registration, external review or submission authorised.
+## 4. The entire derived diagram: vanishing of the two-unit shift
+
+Let \(j:\mathbb N\hookrightarrow\mathbb R\), and let \(X:\mathbb N\to\mathcal M\) be the integer diagram \(X_i=P[i]\) for \(0\le i\le4\), \(X_i=0\) for \(i\ge5\). Its edges are \(a_i=x\) for \(0\le i<4\) and, **importantly**, the terminal \(a_4:X_4\to0\).
+
+For an object \(M\in\mathcal M\), denote by \(L_iM\) the free integer diagram on vertex \(i\): it is zero below \(i\), equals \(M\) from \(i\) onward, and has identity structure maps in its nonzero range. Form the free diagram presentation
+\[
+ E=\bigoplus_{i=0}^{4}L_{i+1}X_i
+ \xrightarrow{\ \partial\ }
+ V=\bigoplus_{i=0}^{4}L_iX_i
+ \longrightarrow X\longrightarrow0 .
+ \tag{4.1}
+\]
+Each \(\partial\) summand is the incidence between its source vertex and the next, with the latter component multiplied by \(a_i\); the \(i=4\) summand is essential to remove the unwanted free tail beyond vertex four. Objectwise, (4.1) is split exact in the underlying graded modules. Its mapping cone \(Q=\operatorname{Cone}(\partial)\) receives an objectwise quasi-isomorphism \(Q\to X\) and admits the requisite projectively cofibrant cellular filtration from the free objects.
+
+The shift \(\eta_2^X:X\to X^2\) has vertex components \(x^2\) at \(i=0,1,2\), zero afterward. In the usual two-column Hom-complex for the free-quiver cone, a nullhomotopy consists of vertex components \(U_i\) and edge-correction components \(V_i\). Choose \(U_i=h\) at the first three vertices, zero later, and \(V_i=z\) at the first two edges, zero later. The relations
+\[
+ Dh=x^2,\qquad Dz=xh+hx
+\]
+are respectively the vertex and edge equations for the differential of this cone homotopy. The terminal edge contributes zero. Thus the actual *whole integer-diagram* two-shift is nullhomotopic after the cofibrant resolution, yielding
+\[
+ [\eta_2^X]=0\quad\text{in }\mathrm{Ho}(\mathcal M^{\mathbb N}).
+ \tag{4.2}
+\]
+The full free-quiver chain-level differential, model cofibrancy and homotopy classes in (4.2) are L2 Lean obligations; vertexwise nullhomotopy alone would not prove (4.2).
+
+The restriction functor \(j^*:\mathcal M^{\mathbb R}\to\mathcal M^{\mathbb N}\) preserves objectwise fibrations and trivial fibrations; hence \(j_!\dashv j^*\), where \(j_!\) is left Kan extension, is a Quillen adjunction for projective diagram model structures. At each real \(u\), \(j_!X\) is exactly the step diagram \(F\) of §2. The natural shift-comparison map
+\[
+ j_!(X^2)\longrightarrow (j_!X)^2
+\]
+need **not** be an isomorphism on negative real indices. What matters is the factorisation \(\eta_2^F=(\text{comparison})\circ j_!(\eta_2^X)\). Derived left Kan extension applied to the null morphism (4.2), with a cofibrant replacement as needed, therefore gives
+\[
+ [\eta_2^F]=0\quad\text{in }\mathrm{Ho}(\mathcal M^{\mathbb R}).
+\]
+Zero crossings give \(d_{\mathrm{IHC}}(F,O)\le1\).
+
+For \(0\le\varepsilon<1\), evaluate \(\eta_{2\varepsilon}^F\) at \(u=0\). It is the identity of \(P\) if \(2\varepsilon<1\), and the nonzero generator map \([x]:P\to P[1]\) if \(1\le2\varepsilon<2\). Neither vanishes in \(D(B)\). Evaluation preserves zero morphisms of entire derived diagrams, so no smaller derived interleaving exists. Consequently
+\[
+ d_{\mathrm{IHC}}(F,O)=1.
+\]
+
+## 5. Arbitrary whole-real replacements: the homotopy lower bound
+
+Suppose for contradiction that a homotopy interleaving exists at \(\varepsilon<5/4\), after some arbitrary zigzags of whole real diagrams objectwise quasi-isomorphic to \(F\) and \(O\). Monotonicity allows enlargement to
+\[
+ e=\max\{1,\varepsilon\}<5/4,\quad
+ \alpha=2e-2\in[0,1/2).
+\]
+A strict \(e\)-interleaving is a single strict diagram on the real shoelace poset \(S_e\), with two copies of \(\mathbb R\) and crossing order \(F(u)\to O(v)\) (or vice versa) when \(u+e\le v\). Choose **one** projectively cofibrant replacement \(Q\) of this entire poset diagram. Its second lane \(Q_O\) is only required to be objectwise acyclic; it need not be literally zero. The first lane is whole-diagram weakly equivalent to \(F\).
+
+For any comparable vertices \(p\le q\), the evaluation of a projective generating cofibration along the arrow \(p\to q\) is either zero, an identity or a generating cofibration in the arrow category. Projective cofibrations are closed under cellular pushouts, transfinite composition and retracts. Accordingly each structure arrow \(Q(p)\to Q(q)\) is a cofibration in \(\mathcal M\); in particular each crossing
+\[
+ Q_O(u-e)\longrightarrow Q_F(u)
+\]
+is a degreewise split-injective cofibration of cofibrant chain complexes. We can therefore form a **natural whole-real** quotient diagram
+\[
+ C(u)=Q_F(u)/Q_O(u-e) .
+ \tag{5.1}
+\]
+The acyclic subcomplex in (5.1) gives \(Q_F(u)\to C(u)\) as a quasi-isomorphism, by the long exact homology sequence. These maps commute with every real structure arrow, so \(C\) remains weakly equivalent to \(F\) as a full diagram.
+
+The two crossing arrows of the interleaving factor
+\[
+ Q_F(u)\longrightarrow Q_O(u+e)
+ \longrightarrow Q_F(u+2e).
+\]
+The image of the middle object is **killed** in \(C(u+2e)\) by construction. Therefore for every real \(u\),
+\[
+ C(u)\longrightarrow C(u+2e)=0
+ \quad\text{as an actual chain map, not merely up to homotopy.}
+ \tag{5.2}
+\]
+This is precisely why one must quotient an acyclic replacement of the zero lane rather than assuming the zero lane is literally zero.
+
+Now sample five real cuts
+\[
+ s_0=0,\quad s_1=1,\quad s_2=2+\alpha,\quad
+ s_3=3+\alpha,\quad s_4=4+2\alpha .
+\]
+They remain in the five respective half-open stages, since \(0\le\alpha<1/2\) ensures \(s_4<5\). Furthermore
+\[
+ s_2-s_0=s_3-s_1=s_4-s_2=2e .
+\]
+The restriction \(C_i=C(s_i)\) yields a strict five-object chain
+\[
+ C_0\xrightarrow{b_0}C_1\xrightarrow{b_1}C_2
+ \xrightarrow{b_2}C_3\xrightarrow{b_3}C_4
+\]
+of cofibrant complexes, in which \(b_{i+1}b_i=0\) for \(i=0,1,2\), **strictly** by (5.2). The whole weak equivalence between \(C\) and \(F\) identifies the adjacent morphisms with the nonzero \([x]\) classes in the derived category; every automorphism of \(k[i]\) is multiplication by the sole scalar \(1\).
+
+Because both \(C_i\) and \(P[i]\) are cofibrant-fibrant representatives of isomorphic derived objects, choose chain-homotopy inverse maps \(u_i:P[i]\to C_i\), \(v_i:C_i\to P[i]\) and fillers \(s_i\) with
+\[
+ D s_i=\operatorname{id}_{C_i}+u_i v_i .
+\]
+For \(j>i\), set
+\[
+ T_{ij}=v_j b_{j-1}s_{j-1}b_{j-2}\cdots
+       s_{i+1}b_i u_i,
+ \tag{5.3}
+\]
+with no \(s\) when \(j=i+1\). Differentiating a term of (5.3) replaces one \(s_r\) by \(\mathrm{id}+u_rv_r\). The identity summands vanish by the consecutive-composite equalities \(b_rb_{r-1}=0\); the \(u_rv_r\) terms factor as products of the shorter \(T\)'s. Thus
+\[
+ DT_{ij}=\sum_{i<r<j}T_{rj}T_{ir}.
+ \tag{5.4}
+\]
+In particular \(T_{02},T_{13},T_{24}\) are primary fillers, \(T_{03},T_{14}\) secondary fillers, and \(T_{04}\) is a further homotopy whose differential equals the terminal fourfold expression. This means **zero lies in the complete defining-system bracket**, contradicting §3. Hence
+\[
+ d_{\mathrm{HI}}(F,O)\ge5/4.
+\]
+Equations (5.1)–(5.4), with the exact full-real, both-lanes quantifiers, are the main L3 Lean obligation; this manuscript's mathematical derivation must not be mistaken for kernel certification.
+
+For the upper bound, \(F(u)\to F(u+5)\) is literally zero for every real \(u\), including every endpoint. Zero crossings therefore give a strict \(5/2\)-interleaving with \(O\), without any replacement:
+\[
+ d_{\mathrm{HI}}(F,O)\le5/2 .
+\]
+
+## 6. Homology and coefficient forgetting
+
+For \(i\in\{0,1,2,3,4\}\), \(X_i=P[i]\) has only \(H_i(X_i)\cong k\). Thus for each fixed homological degree \(n=0,\dots,4\), the real persistence module \(H_n(F)\) is exactly the interval module \(k_{[n,n+1)}\), while the other degrees vanish. A length-one interval has distance \(1/2\) to zero: its time-\(2\varepsilon\) structure morphisms all vanish exactly when \(2\varepsilon\ge1\). Therefore \(d_{\mathrm{CohI}}(F,O)=1/2\).
+
+Restrict scalars along \(k\to B\). The underlying \(k\)-complex-valued persistence diagram \(UF\) retains those five homology bars. The **field-specific** identification of homology, derived and homotopy-interleaving distances recorded in S113, attributed there to Kuribayashi–Naito–Wakatsuki–Yamaguchi (2026, Theorem 3.3), gives
+\[
+ d_{\mathrm{CohI}}^{\mathrm{Ch}(k)}(UF,0)
+ =d_{\mathrm{IHC}}^{\mathrm{Ch}(k)}(UF,0)
+ =d_{\mathrm{HI}}^{\mathrm{Ch}(k)}(UF,0)=1/2.
+\]
+The precise field-only theorem and its hypotheses are inherited from the archived proof notes; this is not an assertion about arbitrary coefficient algebras. Retaining the modular \(B\)-action increases the derived distance in this example and creates the fourfold strict separation.
+
+## 7. Formal-certification status and finite audit
+
+The exact coefficient model in S138's `C4/Jets.lean` has four \(\mathbb F_2\)-coefficients, exact truncated multiplication, nilpotence and necessary conditions for arbitrary degree-two adjacent, primary and secondary jets. It does **not** itself certify the full group-algebra isomorphism, entire dg-Hom resolution, full defining-system functoriality, derived \(\mathbb R\)-diagram or real shoelace quotient.
+
+The pending Lean dependencies are explicitly divided:
+1. **L1:** equip the coefficient model with full ring structure/prove the quotient isomorphism; construct the unbounded free resolution and shifts and transfer low-degree jet theorems to actual dg-Hom maps; prove fourfold nonvanishing for every defining system.
+2. **L2:** formalise free-linear-quiver cone projective cofibrancy, the \((h,z)\) nullhomotopy of \(\eta_2\) in the full integer diagram, the real Kan Quillen comparison, and the equality \(d_{\mathrm{IHC}}=1\).
+3. **L3:** formalise the full real shoelace projective model structure, cofibrant replacement, acyclic zero-lane quotient, all-real literal two-shift vanishing, and the fourfold homotopy transfer (5.3)–(5.4) for arbitrary allowed zigzags.
+4. **L4:** state the manuscript's complete theorem with exact quantifiers and prove it without admitted obligations, then produce final paper files.
+
+These are correctness/implementation requirements, **not** novelty, fit, literature-screening or external-review gates. Registry and submissions require separate owner instructions.
+
+### Reproducibility appendix: bounded, exact arithmetic
+
+The unchanged repository source is `sessions/S076/check_c4.py`. On 27 October 2026 the exact file was independently replayed with Python 3.13.5 (`python3 /tmp/check_c4.py` after exact-copy SHA validation), with SHA256 `52653eee774b5ad74a5b2d5375aae07fb66fed6bb9b0aa0531b6654563a22948` and Git blob SHA `4d22fec866c39d4cd5894b508e1410b4927b2b13`. Output:
+
+```text
+EXPLICIT_40_DEGREES: PASS
+ADJACENT_JETS: PASS 16
+PRIMARY_ALL_CHOICES: PASS 8192
+SECONDARY_ALL_CHOICES: PASS 524288
+TERMINAL_INVARIANT: PASS; finite jets only, NOT metric proof
+```
+
+The first line checks 39 indices \(n=2,\dots,40\). The remaining counts enumerate the **bounded coefficient choices at degree one/two**, not infinitely many defining systems. They neither prove the full real-valued theorem nor establish Lean certification. The machine memory peak was approximately 95,632 KiB and execution elapsed approximately 14.19 s in this replay.

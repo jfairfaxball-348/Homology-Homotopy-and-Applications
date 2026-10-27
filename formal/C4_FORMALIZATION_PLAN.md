@@ -2,9 +2,9 @@
 
 Pinned existing Lean leanprover/lean4:v4.35.0-rc2 and Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55. Do not modify the OptionD import graph. Build new C4 modules in the same root.
 
-**L0 (S138, mandatory first output):** exact B=F₂[t]/t⁴, or a proved-isomorphic concrete Fin4 coefficient ring; show t⁴=0, alternating multiplication/annihilator identities, even/odd x,h,z, w₂≡1 mod(t). MOST IMPORTANT: prove low-degree congruences for ARBITRARY nontrivial cocycle, arbitrary primary and secondary fillers. Actual Lean no-sorry compilation is the evidence, not Python finite enumeration. Replay sessions/S076/check_c4.py and record scope. Draft paper in parallel.
+**L0 (S138 COEFFICIENT BRIDGE ACHIEVED; genuine ring/shift bridge remains S139):** exact B=F₂[t]/t⁴, or a proved-isomorphic concrete Fin4 coefficient ring; show t⁴=0, alternating multiplication/annihilator identities, even/odd x,h,z, w₂≡1 mod(t). MOST IMPORTANT: prove low-degree congruences for ARBITRARY nontrivial cocycle, arbitrary primary and secondary fillers. Pinned hosted Lean certifies the exact truncated four-coefficient multiplication and annihilator ideal identities, selected degree-two equations and arbitrary-choice n=2 terminal nonboundary, with no sorry/admit. This is not yet a formal Ring instance/quotient isomorphism nor an entire dg-Hom/chain-complex theorem. Original Python replay PASS remains bounded arithmetic. Draft paper in parallel.
 
-**L1:** genuine unbounded chain complex resolution P_n, all degree shifts P[i], chain maps and nullhomotopies; universal fourfold defining-system exclusion, not just one representative.
+**L1 (NEXT S139):** establish real ring quotient isomorphism and an actual genuine unbounded chain complex resolution P_n, all degree shifts P[i], chain maps and nullhomotopies; universal fourfold defining-system exclusion, not just one representative.
 
 **L2:** whole ℕ free-quiver projective cone, naturality/coherent h/z homotopy, left Quillen extension to ℝ, actual η₂^F null in Ho(Ch(B)^ℝ), quantitative d_IHC exactly one.
 
