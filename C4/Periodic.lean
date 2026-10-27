@@ -59,10 +59,10 @@ theorem Dx_zero (n : ℕ) :
   rcases split n with p | p
   · have q := next_odd p
     simpa [d, x, p, q] using
-      (show add (mul t t2) (mul one t3) = zero by decide)
+      parity_Dx_even
   · have q := next_even p
     simpa [d, x, p, q] using
-      (show add (mul t3 one) (mul t2 t) = zero by decide)
+      parity_Dx_odd
 
 /-- The primary filler h satisfies Dh = x² at EVERY positive component. -/
 theorem Dh_xx (n : ℕ) :
@@ -71,10 +71,10 @@ theorem Dh_xx (n : ℕ) :
   rcases split n with p | p
   · have q := next_odd p
     simpa [d, x, h, p, q] using
-      (show add (mul t t) (mul zero t3) = mul one t2 by decide)
+      parity_Dh_even
   · have q := next_even p
     simpa [d, x, h, p, q] using
-      (show add (mul t3 zero) (mul t t) = mul t2 one by decide)
+      parity_Dh_odd
 
 /-- The secondary filler z satisfies Dz = xh+hx at EVERY positive component. -/
 theorem Dz_xh_hx (n : ℕ) :
@@ -83,12 +83,10 @@ theorem Dz_xh_hx (n : ℕ) :
   rcases split n with p | p
   · have q := next_odd p
     simpa [d, x, h, z, p, q] using
-      (show add (mul t one) (mul zero t3) =
-        add (mul one t) (mul zero t2) by decide)
+      parity_Dz_even
   · have q := next_even p
     simpa [d, x, h, z, p, q] using
-      (show add (mul t3 zero) (mul one t) =
-        add (mul t2 zero) (mul t one) by decide)
+      parity_Dz_odd
 
 /-- The chosen fourfold terminal combination equals the unit in
 every positive component. The ALL-CHOICE exclusion in Jets remains
@@ -101,12 +99,10 @@ theorem terminal_unit (n : ℕ) : w n = one := by
   rcases split n with p | p
   · have q := next_odd p
     simpa [w, x, h, z, p, q] using
-      (show add (mul one one)
-        (add (mul zero t) (mul zero t2)) = one by decide)
+      parity_terminal_even
   · have q := next_even p
     simpa [w, x, h, z, p, q] using
-      (show add (mul t2 zero)
-        (add (mul t zero) (mul one one)) = one by decide)
+      parity_terminal_odd
 
 end Periodic
 end C4
