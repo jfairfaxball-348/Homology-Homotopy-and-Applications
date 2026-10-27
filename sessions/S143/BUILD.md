@@ -12,3 +12,8 @@ Disposable smoke branch: `scratch/S143-typed-augmentation`, PR #172 DRAFT (not t
 - Follow-up attempts tracked on scratch, not asserted green until observed.
 
 All certificates are for exact pinned scratch SHAs; the final authored PR and main CI require separate actual observation. Never infer CI PASS from an empty statuses list.
+
+- `3e49329344c5336e70fee5b18dc0aa9771ac2c62`: Lean #40535558430 FAILED from inherited degree-zero cast and argument type mismatch in `ChainComplex.ofHom`; integrity #40535558837 SUCCESS.
+- `0cee445257b377d49279a9700f25772cbab217b4`: Lean #40535882109 FAILED with unresolved degree-zero `eqToHom` casts and missing conversion from `integerDifferential` to `integerResolution.d`; integrity #40535882733 SUCCESS.
+- `cc7cfc128855d9b2d009187ce75117494c7c4804`: Lean #40536296496 FAILED, the smallest final typed diagnostic at `C4/Augmentation.lean:159:38` is `failed to synthesize HMul B ↑(integerObject (0 + 1)) ?m.87` from an overaggressive `change` crossing dependent casts. Integrity #40536296458 SUCCESS.
+**Freeze decision:** Do not merge any of these red scratch variants. The authored S143 `C4/Augmentation.lean` equals the exact **green** code from scratch `b514244c1eeaaad3d96566c599e75262bca39396`. The pending chain-map naturality and `ChainComplex.of_d` coercion belong in S144, not as uncompiled S143 proofs.
