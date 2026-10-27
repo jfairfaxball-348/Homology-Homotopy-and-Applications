@@ -1,7 +1,7 @@
 module
 public import Mathlib
 
-public section
+@[expose] public section
 
 /-!
 Cyclic-four truncated coefficient algebra, S138.

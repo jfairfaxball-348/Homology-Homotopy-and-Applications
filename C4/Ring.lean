@@ -24,6 +24,9 @@ instance : CommRing B where
   add := C4.add
   mul := C4.mul
   neg := id
+  sub := fun a b => C4.add a b
+  nsmul := nsmulRec
+  zsmul := zsmulRec
   add_assoc := by
     intro a b c
     cases a; cases b; cases c
@@ -36,10 +39,13 @@ instance : CommRing B where
     intro a
     cases a
     simp [C4.add, C4.zero, B.mk.injEq]
-  add_left_neg := by
+  neg_add_cancel := by
     intro a
     cases a
     simp [C4.add, C4.zero, B.mk.injEq, binary_double]
+  sub_eq_add_neg := by
+    intro a b
+    rfl
   add_comm := by
     intro a b
     cases a; cases b
