@@ -123,7 +123,9 @@ categorical cokernel of the first periodic differential. -/
 noncomputable def residueModule_cokernel :
     Limits.IsColimit (Limits.CokernelCofork.ofπ residueModuleMorphism
       differential_residueModuleMorphism) := by
-  letI : Epi residueModuleMorphism := residueModuleMorphism_epi
+  haveI : Epi augmentationShortComplex.g := by
+    change Epi residueModuleMorphism
+    exact residueModuleMorphism_epi
   exact augmentationShortComplex_exact.gIsCokernel
 
 end C4
