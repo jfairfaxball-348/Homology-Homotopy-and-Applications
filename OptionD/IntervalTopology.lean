@@ -1,6 +1,7 @@
 module
 
 public import OptionD.TwoVertexTopology
+public import Mathlib.Topology.Instances.AddCircle.Defs
 
 public section
 
@@ -266,5 +267,52 @@ theorem d3_two_cofiber_at_surjective : Function.Surjective d3TwoCofiberAt := by
     rw [d3_two_cofiber_boundary_base t (Or.inl rfl)]
     unfold d3TwoCofiberBase
     rw [d3_point_cofiber_projection_mk]
+
+/-! S137: genuine final topology of the cofiber and pinned circle API. -/
+
+/-- The actual endpoint-to-cofiber map is a topological quotient map.
+The extra adjoined point is discrete and already identified with an
+interval endpoint, so its presence does not alter the final topology. -/
+theorem d3_two_cofiber_at_isQuotientMap :
+    IsQuotientMap d3TwoCofiberAt := by
+  let f := d3OrdinaryAttachingComparison d3TwoFirst d3TwoSecond d3TwoEdge
+    d3_two_first_le_edge d3_two_second_le_edge
+  let p := d3PointCofiberProjection f
+  have hcomm (x : d3BarycentricSpace d3TwoEdge) :
+      p (Sum.inl x) = d3TwoCofiberAt (d3TwoEdgeToIcc x) := by
+    change p (Sum.inl x) =
+      p (Sum.inl (d3TwoEdgeOfIcc (d3TwoEdgeToIcc x)))
+    rw [d3TwoEdgeHomeoIcc.left_inv x]
+  refine ⟨Topology.IsCoinducing.of_isOpen_preimage_iff_isOpen (fun U => ?_),
+    d3_two_cofiber_at_surjective⟩
+  constructor
+  · intro h
+    have hsub : IsOpen (d3TwoEdgeToIcc ⁻¹' (d3TwoCofiberAt ⁻¹' U)) :=
+      h.preimage d3TwoEdgeHomeoIcc.continuous
+    have heq : Sum.inl ⁻¹' (p ⁻¹' U) =
+        d3TwoEdgeToIcc ⁻¹' (d3TwoCofiberAt ⁻¹' U) := by
+      ext x
+      simp only [Set.mem_preimage]
+      rw [hcomm x]
+    have hl : IsOpen (Sum.inl ⁻¹' (p ⁻¹' U)) :=
+      heq.symm ▸ hsub
+    have hr : IsOpen (Sum.inr ⁻¹' (p ⁻¹' U)) := isOpen_discrete _
+    have hp : IsOpen (p ⁻¹' U) := isOpen_sum_iff.mpr ⟨hl, hr⟩
+    have hp' : IsOpen
+        ((Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed f))) ⁻¹' U) := by
+      have heq' : (fun z : d3BarycentricSpace d3TwoEdge ⊕ PUnit => p z) =
+          Quotient.mk (d3CollapseSetoid (d3PointCofiberCollapsed f)) := by
+        funext z
+        exact d3_point_cofiber_projection_mk f z
+      simpa only [heq'] using hp
+    exact (isQuotientMap_quotient_mk'.isCoinducing.isOpen_preimage).mp hp'
+  · intro h
+    exact h.preimage d3_two_cofiber_at_continuous
+
+/-- The precise pinned Mathlib endpoint-identified quotient API type-check. -/
+noncomputable def d3_two_mathlib_circle_homeo :
+    AddCircle (1 : ℝ) ≃ₜ Quot (AddCircle.EndpointIdent (1 : ℝ) (0 : ℝ)) := by
+  letI : Fact ((0 : ℝ) < 1) := ⟨by norm_num⟩
+  exact AddCircle.homeoIccQuot (1 : ℝ) (0 : ℝ)
 
 end OptionD
