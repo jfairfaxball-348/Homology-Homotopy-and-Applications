@@ -61,59 +61,23 @@ theorem residueLinear_kernel (a : B) :
       ∃ b : B, a = coefficientLinear (Periodic.d 0) b := by
   simpa [residueLinear, coefficientLinear, Periodic.d] using residueHom_kernel a
 
-/-- The augmentation is a morphism of B-modules. -/
-def residueMorphism :
-    ModuleCat.of B B ⟶ ModuleCat.of B (ZMod 2) :=
-  ModuleCat.ofHom residueLinear
 
-/-- The first differential followed by the augmentation is zero in ModuleCat B. -/
-theorem firstDifferential_augmentation_zero :
-    differential 0 ≫ residueMorphism = 0 := by
-  apply ModuleCat.hom_ext
-  apply LinearMap.ext
-  intro a
-  change residueHom (C4.t * a) = 0
-  exact residueHom_t_mul a
+/-- The kernel of the actual B-linear residue equals the range of the
+first B-linear periodic differential; the degree-zero exactness theorem. -/
+theorem residueLinear_ker_eq_range :
+    LinearMap.ker residueLinear =
+      LinearMap.range (coefficientLinear (Periodic.d 0)) := by
+  ext a
+  simpa only [LinearMap.mem_ker, LinearMap.mem_range] using
+    (residueLinear_kernel a)
 
-
-/-- A genuine integer-indexed complex concentrated in degree zero in the
-residue B-module.  All its differential maps are zero. -/
-def residueObject (n : ℤ) : ModuleCat B :=
-  if n = 0 then ModuleCat.of B (ZMod 2) else ModuleCat.of B (Fin 0 → B)
-
-def residueComplex : ChainComplex (ModuleCat B) ℤ :=
-  ChainComplex.of residueObject (fun _ => 0) (by intro n; simp)
-
-/-- Components of the augmentation from the actual integer resolution. -/
-def augmentationComponent (n : ℤ) :
-    integerResolution.X n ⟶ residueComplex.X n := by
-  by_cases hn : n = 0
-  · subst n
-    simpa [integerResolution, residueComplex, integerObject, residueObject] using
-      residueMorphism
-  · exact 0
-
-theorem augmentationComponent_comm (n : ℤ) :
-    augmentationComponent (n + 1) ≫ residueComplex.d (n + 1) n =
-      integerResolution.d (n + 1) n ≫ augmentationComponent n := by
-  have hd : residueComplex.d (n + 1) n = 0 := by
-    simp [residueComplex, ChainComplex.of_d]
-  have hp : integerResolution.d (n + 1) n = integerDifferential n := by
-    simp [integerResolution, ChainComplex.of_d]
-  rw [hd, hp]
-  simp only [comp_zero]
-  by_cases hn : n = 0
-  · subst n
-    simpa [augmentationComponent, integerResolution, residueComplex,
-      integerDifferential, integerObject, residueObject] using
-        firstDifferential_augmentation_zero.symm
-  · have hz : augmentationComponent n = 0 := by
-      simp [augmentationComponent, hn]
-    rw [hz, Category.comp_zero]
-
-/-- Actual map of integer-indexed complexes from the free chain complex
-to the residue B-module concentrated in degree zero. -/
-def augmentationChainMap : integerResolution ⟶ residueComplex :=
-  ChainComplex.ofHom augmentationComponent augmentationComponent_comm
+/-- All positive coefficient differentials form exact B-linear sequences,
+expressed as equality of genuine submodules. -/
+theorem positiveLinear_ker_eq_range (n : ℕ) :
+    LinearMap.ker (coefficientLinear (Periodic.d n)) =
+      LinearMap.range (coefficientLinear (Periodic.d (n + 1))) := by
+  ext a
+  simpa only [LinearMap.mem_ker, LinearMap.mem_range] using
+    (positiveDifferential_exact_coeff n a)
 
 end C4
