@@ -1,5 +1,7 @@
 module
 public import C4.IntegerResolution
+public import Mathlib.Algebra.Category.ModuleCat.Projective
+public import Mathlib.LinearAlgebra.Basis.Basic
 
 @[expose] public section
 
@@ -142,5 +144,37 @@ def augmentationComponent (n : ℤ) :
       simp [residueObjectAt]
     exact eqToHom ha ≫ residueModuleMorphism ≫ eqToHom hb
   · exact 0
+
+
+/-! ### S144: all-integer chain-level augmentation -/
+
+/-- Compatibility of the integer periodic differential with the residue augmentation
+in every homological degree, including the boundary at degree zero. -/
+theorem augmentationComponent_naturality (n : ℤ) :
+    integerDifferential n ≫ augmentationComponent n =
+      augmentationComponent (n + 1) ≫ residueDifferentialAt n := by
+  by_cases hn : n = 0
+  · subst n
+    simp [integerDifferential, augmentationComponent, residueDifferentialAt,
+      Category.assoc]
+    rw [← Category.assoc, differential_residueModuleMorphism]
+    simp
+  · simp [augmentationComponent, hn, residueDifferentialAt]
+
+/-- The actual categorical augmentation chain morphism. -/
+def augmentationChainMap : integerResolution ⟶ residueComplex :=
+  ChainComplex.ofHom augmentationComponent (by
+    intro n
+    simpa only [integerResolution, residueComplex, ChainComplex.of_d]
+      using (augmentationComponent_naturality n).symm)
+
+
+
+/-- Every nonnegative term in the integer-indexed resolution is a
+categorically projective B-module: it is the free rank-one regular module. -/
+theorem integerObject_projective (n : ℤ) (hn : 0 ≤ n) :
+    CategoryTheory.Projective (integerObject n) := by
+  rw [integerObject_nonnegative n hn]
+  exact ModuleCat.projective_of_free (Module.Basis.singleton Unit B)
 
 end C4
