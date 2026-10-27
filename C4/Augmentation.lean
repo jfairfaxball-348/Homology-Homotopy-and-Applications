@@ -143,4 +143,19 @@ def augmentationComponent (n : ℤ) :
     exact eqToHom ha ≫ residueModuleMorphism ≫ eqToHom hb
   · exact 0
 
+
+/-- Compatibility of the integer differential and every augmentation
+    component, including the -1 to 0 and 0 to -1 boundary cases. -/
+theorem augmentationComponent_commutes (n : ℤ) :
+    augmentationComponent (n + 1) ≫ residueDifferentialAt n =
+      integerDifferential n ≫ augmentationComponent n := by
+  simp only [residueDifferentialAt, Category.comp_zero]
+  by_cases hn : n = 0
+  · subst n
+    simpa [integerDifferential, augmentationComponent, Category.assoc]
+      using differential_residueModuleMorphism
+  · have hzero : augmentationComponent n = 0 := by
+      simp [augmentationComponent, hn]
+    rw [hzero, Category.comp_zero]
+
 end C4
