@@ -907,3 +907,7 @@ Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N�
 
 ## CLM-0617 — FORMALLY_CERTIFIED (S140)
 A concrete genuine C4.B CommRing and natural-indexed ModuleCat B ChainComplex with differential square zero (pinned scratch Lean #40515282269/#40515289838 SUCCESS). Quotient equivalence, unbounded integer-indexed resolution/homology, global dg all-choice and whole-real metrics remain OPEN.
+
+
+## CLM-0618 — FORMALLY_CERTIFIED (S141)
+Actual ℤ-indexed `C4.integerResolution` in `ModuleCat B`, all-integer differential square, positive-degree coefficient exactness through honest B-linear maps, and surjective unital residue hom B→ZMod2 with kernel (t). Verified pinned scratch c393380e50b9aa118fd2a3045986ed1314e1ba94, Lean #40522303891 and integrity #40522303279 SUCCESS. No categorical homology, polynomial quotient isomorphism, global dg fourfold or whole-real metric certificate.

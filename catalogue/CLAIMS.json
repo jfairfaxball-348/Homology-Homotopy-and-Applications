@@ -5910,6 +5910,13 @@
       "claim": "S140 constructs a genuine commutative ring structure on the exact four-coordinate C4.B and actual B-linear differentials in ModuleCat B defining a ChainComplex indexed by all natural degrees; Lean proves all differential squares zero.",
       "scope": "C4/Ring.lean; C4/Resolution.lean at pinned scratch a0d1770a1eaca63f24958bc7c9840b026ab60755, hosted Lean push #40515282269 and PR #40515289838 SUCCESS, integrity push #40515282275 and PR #40515289832 SUCCESS. Does NOT certify the quotient-ring equivalence, ℤ-indexed unbounded exact projective resolution or augmentation, global dg all-choice fourfold or real persistence distances.",
       "sources": []
+    },
+    {
+      "id": "CLM-0618",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "S141 constructs an actual ℤ-indexed cyclic-four ModuleCat B ChainComplex, with B in all nonnegative degrees and the zero module in negative degrees, all differentials composing to zero; also constructs a genuine surjective residue ring homomorphism B→ZMod 2 whose kernel is the t-multiple ideal, and proves exact coefficient-level positive differential equations.",
+      "scope": "C4/IntegerResolution.lean integerObject, integerDifferential, integerDifferential_square, integerResolution, positiveDifferential_exact_coeff; C4/Augmentation.lean residueHom, residueHom_surjective, residueHom_kernel, residueHom_t_mul. Pinned hosted C4/OptionD Lean #40522303891 SUCCESS; integrity #40522303279 SUCCESS on scratch c393380e50b9aa118fd2a3045986ed1314e1ba94. NOT a quotient-ring isomorphism, augmented chain map/homology computation, full dg all-choice obstruction or whole-real interleaving theorem.",
+      "sources": []
     }
   ]
 }
