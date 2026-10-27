@@ -1,3 +1,9 @@
+# LIVE S145 CATEGORICAL EXACTNESS CERTIFIED — 27 October 2026
+
+Pinned Lean certified the genuine `ShortComplex (ModuleCat B)` exactness `C4.positiveShortComplex_exact (n : ℕ)` in all positive periodic degrees (scratch `515129075c0bbbb444d233fc716391924912858b`, build #40575179311 SUCCESS) and `C4.augmentationShortComplex_exact` at the degree-zero residue (scratch `85386ec4eeca4f6cf94bfb608a6bd28e12a01f64`, build #40575347270 SUCCESS, integrity #40575347115 SUCCESS). This is not a typed theorem of `integerResolution.ExactAt`, an actual `homology n` computation, `QuasiIso augmentationChainMap`, the global shifted dg all-choice fourfold or the whole-real metric theorem. S146 FUTURE, UNEXECUTED until a separate owner request. Continue ONE frozen C4 first-paper candidate and matching Lean/paper only; no novelty, HHA-fit, prior art, outside review, OptionD development, Palomar, arXiv/HHA submission or external contact.
+
+---
+
 # LIVE S144 CERTIFIED CHECKPOINT — 27 October 2026
 
 S144 pinned hosted Lean verified the actual all-integer `C4.augmentationChainMap : integerResolution ⟶ residueComplex` (source 24e40a44, build #40538805810 SUCCESS), and categorical projectivity of each regular nonnegative term via `C4.integerObject_projective` (source 6528c6de, build #40539821868 SUCCESS; integrity #40539822258 SUCCESS). Categorical H₀/Hₙ and augmentation quasi-isomorphism are NOT YET certified; neither global all-choice shifted dg fourfold nor whole-real d_IHC/d_HI. S145 FUTURE, UNEXECUTED until a new separate owner instruction. Frozen cyclic-four first-paper theorem only. No novelty, HHA-fit, prior art, outside review, OptionD development, Palomar/arXiv/HHA submission, contact or external release.
