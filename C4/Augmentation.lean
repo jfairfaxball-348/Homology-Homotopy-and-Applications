@@ -1,7 +1,7 @@
 module
 public import C4.IntegerResolution
 
-public section
+@[expose] public section
 
 /-!
 # S142: residue augmentation over the concrete cyclic-four ring
@@ -13,6 +13,8 @@ homology and is stated without identifying unproved higher homology.
 -/
 
 namespace C4
+
+open CategoryTheory
 
 /-- Reduction modulo the nilpotent generator, as an actual ring hom. -/
 def residueHom : B →+* ZMod 2 where
@@ -57,8 +59,7 @@ theorem residueLinear_surjective : Function.Surjective residueLinear :=
 theorem residueLinear_kernel (a : B) :
     residueLinear a = 0 ↔
       ∃ b : B, a = coefficientLinear (Periodic.d 0) b := by
-  change residueHom a = 0 ↔ ∃ b : B, a = C4.t * b
-  exact residueHom_kernel a
+  simpa [residueLinear, coefficientLinear, Periodic.d] using residueHom_kernel a
 
 /-- The augmentation is a morphism of B-modules. -/
 def residueMorphism :
