@@ -1,3 +1,9 @@
+# LIVE S143 C4 CATEGORICAL RESIDUE CHECKPOINT — 27 October 2026
+
+New pinned Lean certificates on the frozen first-paper C4 path: categorical residue module and morphism, vanishing at the first differential, the residue `ChainComplex (ModuleCat B) ℤ` concentrated at zero and actual degreewise augmentation components. Scratch `b514244c1eeaaad3d96566c599e75262bca39396`, Lean #40534476045 and integrity #40534476198 both SUCCESS. This is **NOT** yet categorical H₀/H_n or an all-choice global fourfold or whole-real metric certificate. Read sessions/S143/{BUILD,PROOF,CLOSEOUT}.md for final status. S144 FUTURE until separate new owner instruction. No external release/review.
+
+---
+
 # LIVE S141 COMPLETION — 27 October 2026
 
 S141 pinned hosted Lean verifies the actual integer-indexed ModuleCat chain complex and surjective residue ring map (kernel (t)). Full categorical augmentation/homology, polynomial quotient equivalence, global dg universal fourfold and all-real two-lane metric are still OPEN. Frozen C4 first paper only; S142 FUTURE, UNEXECUTED; no novelty/fit/prior-art/review gates or external release. See `sessions/S141/PROOF.md` and canonical next prompt.
