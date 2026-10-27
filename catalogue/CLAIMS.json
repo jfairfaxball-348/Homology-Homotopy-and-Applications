@@ -5917,6 +5917,13 @@
       "claim": "S141 constructs an actual ℤ-indexed cyclic-four ModuleCat B ChainComplex, with B in all nonnegative degrees and the zero module in negative degrees, all differentials composing to zero; also constructs a genuine surjective residue ring homomorphism B→ZMod 2 whose kernel is the t-multiple ideal, and proves exact coefficient-level positive differential equations.",
       "scope": "C4/IntegerResolution.lean integerObject, integerDifferential, integerDifferential_square, integerResolution, positiveDifferential_exact_coeff; C4/Augmentation.lean residueHom, residueHom_surjective, residueHom_kernel, residueHom_t_mul. Pinned hosted C4/OptionD Lean #40522303891 SUCCESS; integrity #40522303279 SUCCESS on scratch c393380e50b9aa118fd2a3045986ed1314e1ba94. NOT a quotient-ring isomorphism, augmented chain map/homology computation, full dg all-choice obstruction or whole-real interleaving theorem.",
       "sources": []
+    },
+    {
+      "id": "CLM-0619",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "S142 constructs a genuine B-linear residue augmentation from the regular B-module to ZMod 2 with scalar action via the residue ring hom, proves it surjective, proves its kernel equals the image of the first B-linear periodic differential as actual B-submodules, and proves equal kernel/range B-submodules for all positive differentials at every n:ℕ.",
+      "scope": "C4/Augmentation.lean: residueLinear, residueLinear_surjective, residueLinear_kernel, residueLinear_ker_eq_range, positiveLinear_ker_eq_range; S142 scratch SHA 472a81a53b01311f56c1d9e15e20d201fab935c3; pinned hosted lean build #40529780801 and integrity #40529781169 SUCCESS. Does NOT establish categorical ChainComplex augmentation, H₀/H_n, quotient-ring iso, global all-choice shifted dg or whole-real metric theorem.",
+      "sources": []
     }
   ]
 }
