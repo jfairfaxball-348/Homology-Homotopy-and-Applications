@@ -1,3 +1,9 @@
+# ACTIVE S140→S141 C4 Lean and manuscript roadmap (27 October 2026)
+
+The single frozen C4 whole-real Ch(right B) gap remains the chosen first-paper target. S140 has actual Lean ring and natural-degree module chain complex, NOT full ℤ-resolution, global dg all-choice or full-real derived/strict metric. The ONLY next work is completing these Lean proofs with manuscript in parallel. No novelty, journal-fit, prior-art, outsider review or target exploration gates; external registry/submission requires separate owner authority.
+
+---
+
 # Short critical-path roadmap — ONLY frozen C4 theorem (27 October 2026)
 
 This document wholly replaces the old exploration, novelty and review milestones. Archived versions are preserved by git. Current goal is research COMPLETION and a paper, not 138 more sessions.

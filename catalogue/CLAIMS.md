@@ -904,3 +904,6 @@ Pinned hosted Lean build #39312760687 SUCCESS on exact source. For arbitrary N�
 
 ## S139 — CLM-0617 (27 October 2026)
 - **CLM-0617 FORMALLY_CERTIFIED (coefficient-level only):** `C4/Periodic.lean` proves for **every** natural index n that the alternating t/t³ proposed resolution differential squares to zero, its positive-degree kernel equals the next image, and the selected x/h/z families satisfy all three dg-coefficient equations with chosen terminal-unit identity. The S138 `C4/Jets.lean` public-module export makes these proofs reusable across files. The actual unital quotient ring, genuine module-valued ChainComplex/shift, complete all-choice dg fourfold and entire-real d_IHC/d_HI bounds remain OPEN. Scratch PR #166 final head 708e1146019c60e9b31921f3f8db967b9f35069a, Lean run #40510361943, integrity #40510362092; pinned hosted Lean #40510361943 SUCCESS and integrity #40510362092 SUCCESS on the scratch head; independently validate final PR and main.
+
+## CLM-0617 — FORMALLY_CERTIFIED (S140)
+A concrete genuine C4.B CommRing and natural-indexed ModuleCat B ChainComplex with differential square zero (pinned scratch Lean #40515282269/#40515289838 SUCCESS). Quotient equivalence, unbounded integer-indexed resolution/homology, global dg all-choice and whole-real metrics remain OPEN.

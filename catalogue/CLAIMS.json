@@ -5903,6 +5903,13 @@
       "claim": "S138 byte-identical replay of original S076 finite C4 checker passes equations at n=2..40, 16 adjacent jets, 8192 primary and 524288 secondary configurations, with terminal coefficient invariant.",
       "scope": "Python 3.13.5 unmodified sessions/S076/check_c4.py exact Git blob 4d22fec866c39d4cd5894b508e1410b4927b2b13, SHA256 52653eee774b5ad74a5b2d5375aae07fb66fed6bb9b0aa0531b6654563a22948; finite coefficients only, not all infinite choices or homotopy interleaving.",
       "sources": []
+    },
+    {
+      "id": "CLM-0617",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "S140 constructs a genuine commutative ring structure on the exact four-coordinate C4.B and actual B-linear differentials in ModuleCat B defining a ChainComplex indexed by all natural degrees; Lean proves all differential squares zero.",
+      "scope": "C4/Ring.lean; C4/Resolution.lean at pinned scratch a0d1770a1eaca63f24958bc7c9840b026ab60755, hosted Lean push #40515282269 and PR #40515289838 SUCCESS, integrity push #40515282275 and PR #40515289832 SUCCESS. Does NOT certify the quotient-ring equivalence, ℤ-indexed unbounded exact projective resolution or augmentation, global dg all-choice fourfold or real persistence distances.",
+      "sources": []
     }
   ]
 }
