@@ -1,4 +1,4 @@
-name: Option D Lean build
+name: Pinned Lean build (Option D and C4)
 on:
   push:
   pull_request:
@@ -6,7 +6,7 @@ permissions:
   contents: read
 jobs:
   lean-d1:
-    name: Build pinned Option D D1 lemmas
+    name: Build pinned Option D and C4 lemmas
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -17,7 +17,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import pathlib,re
-          source = [pathlib.Path('OptionD.lean'), *pathlib.Path('OptionD').rglob('*.lean')]
+          source = [pathlib.Path('OptionD.lean'), *pathlib.Path('OptionD').rglob('*.lean'), pathlib.Path('C4.lean'), *pathlib.Path('C4').rglob('*.lean')]
           for p in source:
               s=p.read_text()
               assert s.splitlines()[0]=='module', f'{p}: missing module header'
