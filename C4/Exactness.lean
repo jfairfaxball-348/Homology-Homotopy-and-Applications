@@ -75,17 +75,22 @@ noncomputable def positiveIntegerShortComplexIso (m : ℕ) :
   · change (eqToHom e₂.symm) ≫
       (ChainComplex.of.d integerObject integerDifferential ((m : ℤ) + 2) ((m : ℤ) + 1)) =
         differential (m + 1) ≫ (eqToHom e₁.symm)
-    rw [show (m : ℤ) + 2 = ((m : ℤ) + 1) + 1 by omega]
-    rw [ChainComplex.of_d]
-    simp [integerDifferential, e₂, e₁, Category.assoc,
-      show ((m : ℤ) + 1).toNat = m + 1 by omega]
+    simp [ChainComplex.of.d,
+      show ((m : ℤ) + 2) = ((m : ℤ) + 1) + 1 by omega,
+      integerDifferential,
+      show (0 : ℤ) ≤ (m : ℤ) + 1 by omega,
+      show (0 : ℤ) ≤ (m : ℤ) + 2 by omega,
+      show ((m : ℤ) + 1).toNat = m + 1 by omega,
+      Category.assoc, e₂, e₁]
   · change (eqToHom e₁.symm) ≫
       (ChainComplex.of.d integerObject integerDifferential ((m : ℤ) + 1) (m : ℤ)) =
         differential m ≫ (eqToHom e₀.symm)
-    rw [show (m : ℤ) + 1 = (m : ℤ) + 1 by rfl]
     rw [ChainComplex.of_d]
-    simp [integerDifferential, e₁, e₀, Category.assoc,
-      show ((m : ℤ)).toNat = m by omega]
+    simp [integerDifferential,
+      show (0 : ℤ) ≤ (m : ℤ) by omega,
+      show (0 : ℤ) ≤ (m : ℤ) + 1 by omega,
+      show ((m : ℤ)).toNat = m by omega,
+      Category.assoc, e₁, e₀]
 
 /-- Actual positive integer exactness, conditional only on the proven local result. -/
 theorem integerResolution_exactAt_positive (n : ℤ) (hn : 0 < n) :
