@@ -1,3 +1,5 @@
+**S142 CERTIFIED checkpoint:** actual B-linear residue augmentation and *all-degree submodule* exactness (`C4.residueLinear_ker_eq_range`, `C4.positiveLinear_ker_eq_range`) passed hosted pinned Lean #40529780801 and integrity #40529781169 on scratch 472a81a. Genuine `ModuleCat` residue complex/augmentation, categorical H₀/H_n, group-ring quotient isomorphism and all-choice shifted dg plus whole-real metrics remain OPEN. S143 must directly fix the exact typed instance/cast blockers and advance L1. No novelty/fit/prior-art/external-review stage.
+
 **S141 CERTIFIED checkpoint:** true ℤ-indexed `ChainComplex (ModuleCat B) ℤ` with zero negative terms, full differential-square proof and B→F₂ residue ring hom surjective with kernel (t) are compiled on scratch c393380e50b9aa118fd2a3045986ed1314e1ba94 (Lean #40522303891 SUCCESS). Categorical augmentation/H_n, quotient isomorphism, global dg defining system and all-real bounds remain OPEN. S142 must complete L1 directly; see canonical prompt. No novelty/fit/prior-art/review screening.
 
 # ACTIVE S141→S142 C4 Lean and manuscript roadmap (27 October 2026)

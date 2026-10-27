@@ -911,3 +911,6 @@ A concrete genuine C4.B CommRing and natural-indexed ModuleCat B ChainComplex wi
 
 ## CLM-0618 — FORMALLY_CERTIFIED (S141)
 Actual ℤ-indexed `C4.integerResolution` in `ModuleCat B`, all-integer differential square, positive-degree coefficient exactness through honest B-linear maps, and surjective unital residue hom B→ZMod2 with kernel (t). Verified pinned scratch c393380e50b9aa118fd2a3045986ed1314e1ba94, Lean #40522303891 and integrity #40522303279 SUCCESS. No categorical homology, polynomial quotient isomorphism, global dg fourfold or whole-real metric certificate.
+
+## CLM-0619 — FORMALLY_CERTIFIED (S142)
+The actual B-linear residue map `C4.residueLinear : B →ₗ[B] ZMod 2` is surjective; `C4.residueLinear_ker_eq_range` and `C4.positiveLinear_ker_eq_range` prove degree-zero and EVERY-positive-degree kernel/image equality in `Submodule B B`. Pinned scratch 472a81a53b01311f56c1d9e15e20d201fab935c3 hosted Lean #40529780801 and integrity #40529781169 SUCCESS. No genuine augmented `ChainComplex` morphism/homology or global C4 dg/whole-real metric certificate.
