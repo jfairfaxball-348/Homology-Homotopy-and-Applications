@@ -154,27 +154,23 @@ theorem regularCastSquare
   simpa using hab
 
 
-/-! ### S153: positive adjacent square (scratch, subject to pinned compiler) -/
+/-! ### S153: normalized genuine shifted differential in the regular range -/
 
-theorem globalXComponent_naturality_positive
-    (s n : ℤ) (hn : s + 1 ≤ n) :
-    globalXComponent s (n + 1) ≫
-      (integerShiftResolution (s + 1)).d (n + 1) n =
-    (integerShiftResolution s).d (n + 1) n ≫
-      globalXComponent s n := by
-  have hp : s + 1 ≤ n + 1 := by omega
-  have ha : 0 ≤ n - (s + 1) := by omega
-  have hb : 0 ≤ n - s := by omega
-  have ha1 : 0 ≤ n + 1 - (s + 1) := by omega
-  have hb1 : 0 ≤ n + 1 - s := by omega
-  have hnat : (n - s).toNat = (n - (s + 1)).toNat + 1 := by omega
-  have hA : n + 1 - (s + 1) = n - (s + 1) + 1 := by omega
-  have hB : n + 1 - s = n - s + 1 := by omega
-  rw [integerShiftResolution_d, integerShiftResolution_d]
-  rw [integerResolution_d_transport _ _ hA, integerResolution_d_transport _ _ hB]
-  simp [globalXComponent, integerDifferential, hp, hn, ha, hb, ha1,
-    hb1, hnat, integerObject, regularCoefficientHom, differential,
-    Category.assoc, eqToHom_trans, eqToHom_refl]
+/-- Expose the actual shifted differential as a conjugated regular
+coefficient morphism, with the integer index transport kept explicit.
+This lemma is a local typed normalization, not a global chain map. -/
+theorem shiftedDifferential_nonnegative (s n : ℤ) (hn : s ≤ n) :
+    (integerShiftResolution s).d (n + 1) n =
+      eqToHom (congrArg integerObject
+        (show n + 1 - s = (n - s) + 1 by omega)) ≫
+      eqToHom (integerObject_nonnegative ((n - s) + 1) (by omega)) ≫
+      regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+      eqToHom (integerObject_nonnegative (n - s) (by omega)).symm := by
+  rw [integerShiftResolution_d]
+  rw [integerResolution_d_transport _ _
+    (show n + 1 - s = (n - s) + 1 by omega)]
+  simp [integerDifferential, show (0 : ℤ) ≤ n - s by omega,
+    differential, regularCoefficientHom]
 
 
 end C4
