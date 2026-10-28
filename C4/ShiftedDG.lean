@@ -55,4 +55,33 @@ def globalZComponent (s n : ℤ) :
       eqToHom (integerObject_nonnegative _ ht).symm
   · exact 0
 
+
+/-! ### S150: categorical chain-map equation across all integers -/
+
+/-- Characteristic-two chain-map identity as an equality of actual
+regular-module morphisms, rather than an addition-to-zero statement. -/
+theorem regularDx_commute (m : ℕ) :
+    regularCoefficientHom (Periodic.x (m + 1)) ≫
+      regularCoefficientHom (Periodic.d m) =
+    regularCoefficientHom (Periodic.d (m + 1)) ≫
+      regularCoefficientHom (Periodic.x m) := by
+  rw [regularCoefficientHom_comp, regularCoefficientHom_comp]
+  apply congrArg regularCoefficientHom
+  have hh : Periodic.d m * Periodic.x (m + 1) +
+      Periodic.x m * Periodic.d (m + 1) = (0 : B) := by
+    simpa only [← mul_is_truncated_convolution, ← add_is_coordinate_add,
+      ← zero_is_coordinate_zero] using Periodic.Dx_zero m
+  have hneg : -(Periodic.x m * Periodic.d (m + 1)) =
+      Periodic.x m * Periodic.d (m + 1) := rfl
+  exact ((add_eq_zero_iff_eq_neg).mp hh).trans hneg
+
+/-- Uniform transport of an integer-resolution differential with a
+mathematically equal (rather than definitionally equal) source index. -/
+theorem integerResolution_d_transport (i j : ℤ) (h : i = j + 1) :
+    integerResolution.d i j =
+      eqToHom (congrArg integerObject h) ≫ integerDifferential j := by
+  subst i
+  simp [integerResolution, ChainComplex.of_d]
+
+
 end C4
