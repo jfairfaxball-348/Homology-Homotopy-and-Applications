@@ -215,30 +215,32 @@ theorem augmentationChainMap_quasiIso : QuasiIso augmentationChainMap := by
     exact augmentationChainMap_quasiIsoAt_zero
   · exact augmentationChainMap_quasiIsoAt_nonzero n hn
 
-/-! ### S149 experimental actual shift on the integer resolution -/
+/-! ### S149: genuine all-integer reindexing of the exact resolution -/
 
-/-- The shifted term is the exact source resolution term, evaluated at n-s.
-In particular the negative and degree-zero boundary are not thrown away. -/
-def integerShiftObject (s n : ℤ) : ModuleCat B := integerObject (n - s)
+/-- Reindex the ACTUAL integer-indexed category-valued resolution along
+    translation by s. The differentials are precisely those of the
+    original complex, not a mere coefficient-layer surrogate. -/
+def integerShiftResolution (s : ℤ) : ChainComplex (ModuleCat B) ℤ where
+  X n := integerResolution.X (n - s)
+  d i j := integerResolution.d (i - s) (j - s)
+  shape i j hij := by
+    apply integerResolution.shape
+    intro hh
+    apply hij
+    change (j - s) + 1 = i - s at hh
+    change j + 1 = i
+    omega
+  d_comp_d' i j k _ _ :=
+    integerResolution.d_comp_d (i - s) (j - s) (k - s)
 
-/-- The differential of the shifted resolution, transported only along
-the arithmetic identity n+1-s=(n-s)+1. -/
-def integerShiftDifferential (s n : ℤ) :
-    integerShiftObject s (n + 1) ⟶ integerShiftObject s n :=
-  (eqToHom (congrArg integerObject
-    (show n + 1 - s = (n - s) + 1 by omega))) ≫ integerDifferential (n - s)
+/-- Shifted terms agree with the source complex in every integer degree. -/
+theorem integerShiftResolution_X (s n : ℤ) :
+    (integerShiftResolution s).X n = integerResolution.X (n - s) := rfl
 
-/-- Genuine all-integer square-zero law, including shift boundaries. -/
-theorem integerShiftDifferential_square (s n : ℤ) :
-    integerShiftDifferential s (n + 1) ≫ integerShiftDifferential s n = 0 := by
-  have h1 : n + 1 - s = (n - s) + 1 := by omega
-  have h2 : (n + 1) + 1 - s = ((n - s) + 1) + 1 := by omega
-  simpa [integerShiftDifferential, h1, h2, Category.assoc] using
-    integerDifferential_square (n - s)
-
-/-- Every integer shift is a genuine complex in Ch(ModuleCat B). -/
-def integerShiftResolution (s : ℤ) : ChainComplex (ModuleCat B) ℤ :=
-  ChainComplex.of (integerShiftObject s)
-    (integerShiftDifferential s) (integerShiftDifferential_square s)
+/-- Shifted differentials are the genuine source differentials,
+    uniformly in both integer indices, including the boundary. -/
+theorem integerShiftResolution_d (s i j : ℤ) :
+    (integerShiftResolution s).d i j =
+      integerResolution.d (i - s) (j - s) := rfl
 
 end C4
