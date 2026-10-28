@@ -84,4 +84,30 @@ theorem integerResolution_d_transport (i j : ℤ) (h : i = j + 1) :
   simp [integerResolution, ChainComplex.of_d]
 
 
+/-! ### S151: actual chain-map naturality at all integer truncation degrees -/
+
+/-- Both compositions in the adjacent x chain-map square end in the
+zero target object whenever n ≤ s. This includes the degree-zero endpoint
+and all negative degrees; no coefficient-level surrogate is used. -/
+theorem globalXComponent_naturality_at_boundary
+    (s n : ℤ) (hn : n ≤ s) :
+    globalXComponent s (n + 1) ≫
+      (integerShiftResolution (s + 1)).d (n + 1) n =
+    (integerShiftResolution s).d (n + 1) n ≫
+      globalXComponent s n := by
+  have hz : Limits.IsZero ((integerShiftResolution (s + 1)).X n) := by
+    change Limits.IsZero (integerObject (n - (s + 1)))
+    exact integerObject_isZero_negative _ (by omega)
+  exact hz.eq_of_tgt _ _
+
+/-- The component of the adjacent x map is zero whenever its actual
+shifted target is the zero module. -/
+theorem globalXComponent_zero_below
+    (s n : ℤ) (hn : n ≤ s) :
+    globalXComponent s n = 0 := by
+  have hz : Limits.IsZero ((integerShiftResolution (s + 1)).X n) := by
+    change Limits.IsZero (integerObject (n - (s + 1)))
+    exact integerObject_isZero_negative _ (by omega)
+  exact hz.eq_of_tgt _ _
+
 end C4
