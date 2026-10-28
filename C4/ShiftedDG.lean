@@ -75,6 +75,14 @@ theorem regularDx_commute (m : ℕ) :
       Periodic.x m * Periodic.d (m + 1) := rfl
   exact ((add_eq_zero_iff_eq_neg).mp hh).trans hneg
 
+/-- Uniform transport of an integer-resolution differential with a
+mathematically equal (rather than definitionally equal) source index. -/
+theorem integerResolution_d_transport (i j : ℤ) (h : i = j + 1) :
+    integerResolution.d i j =
+      eqToHom (congrArg integerObject h) ≫ integerDifferential j := by
+  subst i
+  simp [integerResolution, ChainComplex.of_d]
+
 /-- Naturality of genuine shifted adjacent components, at every integer
 homological index, including the first nonzero boundary component. -/
 theorem globalXComponent_naturality (s n : ℤ) :
@@ -83,21 +91,20 @@ theorem globalXComponent_naturality (s n : ℤ) :
     (integerShiftResolution s).d (n + 1) n ≫
       globalXComponent s n := by
   rw [integerShiftResolution_d, integerShiftResolution_d]
+  have ht : n + 1 - (s + 1) = (n - (s + 1)) + 1 := by omega
+  have hs : n + 1 - s = (n - s) + 1 := by omega
+  rw [integerResolution_d_transport _ _ ht,
+    integerResolution_d_transport _ _ hs]
   rcases lt_trichotomy n s with hlt | heq | hgt
   · have h0 : ¬ s + 1 ≤ n := by omega
     have h1 : ¬ s + 1 ≤ n + 1 := by omega
     have ha : ¬ 0 ≤ n - (s + 1) := by omega
     have hb : ¬ 0 ≤ n - s := by omega
-    have ht : n + 1 - (s + 1) = (n - (s + 1)) + 1 := by omega
-    have hs : n + 1 - s = (n - s) + 1 := by omega
-    simp [globalXComponent, h0, h1, integerResolution,
-      ChainComplex.of_d, ht, hs, integerDifferential, ha, hb]
+    simp [globalXComponent, h0, h1, integerDifferential, ha, hb]
   · subst n
     have h0 : ¬ s + 1 ≤ s := by omega
-    have ht : s + 1 - (s + 1) = (s - (s + 1)) + 1 := by omega
     have ha : ¬ 0 ≤ s - (s + 1) := by omega
-    simp [globalXComponent, h0, integerResolution,
-      ChainComplex.of_d, ht, integerDifferential, ha]
+    simp [globalXComponent, h0, integerDifferential, ha]
   · have hp : s + 1 ≤ n := by omega
     have hp1 : s + 1 ≤ n + 1 := by omega
     have ha : 0 ≤ n - (s + 1) := by omega
@@ -105,11 +112,8 @@ theorem globalXComponent_naturality (s n : ℤ) :
     have ha1 : 0 ≤ n + 1 - (s + 1) := by omega
     have hb1 : 0 ≤ n + 1 - s := by omega
     have hc : (n - s).toNat = (n - (s + 1)).toNat + 1 := by omega
-    have hma : n + 1 - (s + 1) = (n - (s + 1)) + 1 := by omega
-    have hmb : n + 1 - s = (n - s) + 1 := by omega
-    simpa [globalXComponent, hp, hp1, integerResolution,
-      ChainComplex.of_d, integerDifferential, ha, hb, ha1, hb1, hc, hma,
-      hmb, Category.assoc] using
+    simpa [globalXComponent, hp, hp1, integerDifferential,
+      ha, hb, ha1, hb1, hc, Category.assoc] using
         (regularDx_commute (n - (s + 1)).toNat)
 
 /-- Actual degree-zero chain map between consecutive shifted resolutions. -/
