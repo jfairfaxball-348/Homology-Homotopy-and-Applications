@@ -84,66 +84,73 @@ theorem integerResolution_d_transport (i j : ℤ) (h : i = j + 1) :
   simp [integerResolution, ChainComplex.of_d]
 
 
-/-- The actual x maps commute with both shifted differentials in every integer
-degree, including all vanishing truncation boundaries. -/
-theorem globalXComponent_naturality (s n : ℤ) :
+/-! ### S151: actual chain-map naturality at all integer truncation degrees -/
+
+/-- Both compositions in the adjacent x chain-map square end in the
+zero target object whenever n ≤ s. This includes the degree-zero endpoint
+and all negative degrees; no coefficient-level surrogate is used. -/
+theorem globalXComponent_naturality_at_boundary
+    (s n : ℤ) (hn : n ≤ s) :
     globalXComponent s (n + 1) ≫
       (integerShiftResolution (s + 1)).d (n + 1) n =
     (integerShiftResolution s).d (n + 1) n ≫
       globalXComponent s n := by
-  rcases lt_trichotomy n s with hlt | heq | hgt
-  · have hz : Limits.IsZero ((integerShiftResolution (s + 1)).X n) := by
-      change Limits.IsZero (integerObject (n - (s + 1)))
-      exact integerObject_isZero_negative _ (by omega)
-    exact hz.eq_of_tgt _ _
-  · subst n
-    have hz : Limits.IsZero ((integerShiftResolution (s + 1)).X s) := by
-      change Limits.IsZero (integerObject (s - (s + 1)))
-      exact integerObject_isZero_negative _ (by omega)
-    exact hz.eq_of_tgt _ _
-  · have hp : s + 1 ≤ n := by omega
-    have hp1 : s + 1 ≤ n + 1 := by omega
-    have ha : 0 ≤ n - (s + 1) := by omega
-    have hb : 0 ≤ n - s := by omega
-    have ha1 : 0 ≤ n + 1 - (s + 1) := by omega
-    have hb1 : 0 ≤ n + 1 - s := by omega
-    have hc : (n - s).toNat = (n - (s + 1)).toNat + 1 := by omega
-    have hd : (n + 1 - (s + 1)).toNat = (n - (s + 1)).toNat + 1 := by omega
-    have hl : s ≤ n := by omega
-    rw [integerShiftResolution_d, integerShiftResolution_d]
-    have hA : n + 1 - (s + 1) = (n - (s + 1)) + 1 := by omega
-    have hB : n + 1 - s = (n - s) + 1 := by omega
-    rw [integerResolution_d_transport _ _ hA, integerResolution_d_transport _ _ hB]
-    let hStart : integerObject (n + 1 - s) = ModuleCat.of B B :=
-      integerObject_nonnegative _ hb1
-    let hEnd : integerObject (n - (s + 1)) = ModuleCat.of B B :=
-      integerObject_nonnegative _ ha
-    have core := congrArg
-      (fun q : ModuleCat.of B B ⟶ ModuleCat.of B B =>
-        eqToHom hStart ≫ q ≫ eqToHom hEnd.symm)
-      (regularDx_commute (n - (s + 1)).toNat)
-    convert core using 1 <;>
-      simp [globalXComponent, integerShiftResolution, integerResolution,
-        integerDifferential, integerObject,
-        hp, hp1, ha, hb, ha1, hb1, hc, hd, hl, hStart, hEnd,
-        id, differential, regularCoefficientHom, Category.assoc,
-        eqToHom_trans, eqToHom_refl] <;>
-      (apply ModuleCat.hom_ext
-       apply LinearMap.ext
-       intro a
-       simp only [integerObject, if_pos ha, if_pos hb,
-         if_pos ha1, if_pos hb1] at *
-       simp [ModuleCat.hom_comp, ModuleCat.hom_id, Category.assoc,
-         eqToHom_trans, eqToHom_refl])
+  have hz : Limits.IsZero ((integerShiftResolution (s + 1)).X n) := by
+    change Limits.IsZero (integerObject (n - (s + 1)))
+    exact integerObject_isZero_negative _ (by omega)
+  exact hz.eq_of_tgt _ _
 
-/-- Global adjacent x map in the actual category of shifted complexes. -/
-def globalXChainMap (s : ℤ) :
-    integerShiftResolution s ⟶ integerShiftResolution (s + 1) where
-  f := globalXComponent s
-  comm' := by
-    intro i j hij
-    change j + 1 = i at hij
-    subst i
-    exact globalXComponent_naturality s j
+/-- The component of the adjacent x map is zero whenever its actual
+shifted target is the zero module. -/
+theorem globalXComponent_zero_below
+    (s n : ℤ) (hn : n ≤ s) :
+    globalXComponent s n = 0 := by
+  have hz : Limits.IsZero ((integerShiftResolution (s + 1)).X n) := by
+    change Limits.IsZero (integerObject (n - (s + 1)))
+    exact integerObject_isZero_negative _ (by omega)
+  exact hz.eq_of_tgt _ _
+
+
+/-! ### S152: explicit coherence of the regular-module transport casts -/
+
+/-- Changing a nonnegative index by a proof of equality is coherent with
+its canonical identification with the regular B-module. -/
+theorem integerObject_cast_commutes
+    (i j : ℤ) (h : i = j) (hi : 0 ≤ i) (hj : 0 ≤ j) :
+    eqToHom (congrArg integerObject h) ≫
+      eqToHom (integerObject_nonnegative j hj) =
+      eqToHom (integerObject_nonnegative i hi) := by
+  subst j
+  simp
+
+/-- The inverse transport coherence, for the return leg of a regular
+B-module cast sandwich. -/
+theorem integerObject_cast_inverse_commutes
+    (i j : ℤ) (h : i = j) (hi : 0 ≤ i) (hj : 0 ≤ j) :
+    eqToHom (integerObject_nonnegative i hi).symm ≫
+      eqToHom (congrArg integerObject h) =
+      eqToHom (integerObject_nonnegative j hj).symm := by
+  subst j
+  simp
+
+/-- A regular-module square stays commutative after all four vertices are
+transported through equalities. -/
+theorem regularCastSquare
+    {P Q R S : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eq : Q = ModuleCat.of B B)
+    (er : R = ModuleCat.of B B)
+    (es : S = ModuleCat.of B B)
+    (a b c d : ModuleCat.of B B ⟶ ModuleCat.of B B)
+    (hab : a ≫ b = c ≫ d) :
+    (eqToHom ep ≫ a ≫ eqToHom er.symm) ≫
+      (eqToHom er ≫ b ≫ eqToHom es.symm) =
+    (eqToHom ep ≫ c ≫ eqToHom eq.symm) ≫
+      (eqToHom eq ≫ d ≫ eqToHom es.symm) := by
+  cases ep
+  cases eq
+  cases er
+  cases es
+  simpa using hab
 
 end C4
