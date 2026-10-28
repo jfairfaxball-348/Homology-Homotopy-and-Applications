@@ -184,4 +184,36 @@ theorem augmentationChainMap_quasiIsoAt_nonzero (n : ℤ) (hn : n ≠ 0) :
   · exact False.elim (hn hzero)
   · exact integerResolution_exactAt_positive n hpos
 
+/-- The actual augmentation quasi-isomorphism at degree zero, expressed
+using the universal exact-short-complex/epi criterion for the induced map. -/
+theorem augmentationChainMap_quasiIsoAt_zero :
+    QuasiIsoAt augmentationChainMap (0 : ℤ) := by
+  have hg₁ : (integerResolution.sc' (1 : ℤ) 0 (-1 : ℤ)).g = 0 := by
+    change ChainComplex.of.d integerObject integerDifferential (0 : ℤ) (-1 : ℤ) = 0
+    simp [ChainComplex.of.d, integerDifferential]
+  have hf₂ : (residueComplex.sc' (1 : ℤ) 0 (-1 : ℤ)).f = 0 := by
+    change ChainComplex.of.d residueObjectAt residueDifferentialAt (1 : ℤ) 0 = 0
+    simp [ChainComplex.of.d, residueDifferentialAt]
+  have hg₂ : (residueComplex.sc' (1 : ℤ) 0 (-1 : ℤ)).g = 0 := by
+    change ChainComplex.of.d residueObjectAt residueDifferentialAt (0 : ℤ) (-1 : ℤ) = 0
+    simp [ChainComplex.of.d, residueDifferentialAt]
+  apply (quasiIsoAt_iff' augmentationChainMap (1 : ℤ) (0 : ℤ) (-1 : ℤ)
+    (by simp [ChainComplex.prev]) (by simp [ChainComplex.next])).2
+  exact (ShortComplex.quasiIso_iff_of_zeros' _ hg₁ hf₂ hg₂).2
+    ⟨by
+       change augmentationShortComplex.Exact
+       exact augmentationShortComplex_exact,
+     by
+       change Epi residueModuleMorphism
+       exact residueModuleMorphism_epi⟩
+
+/-- All-degree quasi-isomorphism of the actual augmented integer C4 resolution. -/
+theorem augmentationChainMap_quasiIso : QuasiIso augmentationChainMap := by
+  apply (quasiIso_iff augmentationChainMap).2
+  intro n
+  by_cases hn : n = 0
+  · subst n
+    exact augmentationChainMap_quasiIsoAt_zero
+  · exact augmentationChainMap_quasiIsoAt_nonzero n hn
+
 end C4
