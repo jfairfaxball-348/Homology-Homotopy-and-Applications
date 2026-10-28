@@ -122,10 +122,11 @@ theorem globalXComponent_naturality (s n : ℤ) :
       (fun q : ModuleCat.of B B ⟶ ModuleCat.of B B =>
         eqToHom hStart ≫ q ≫ eqToHom hEnd.symm)
       (regularDx_commute (n - (s + 1)).toNat)
-    simpa [globalXComponent, integerDifferential, integerObject,
-      hp, hp1, ha, hb, ha1, hb1, hc, hd, hl, hStart, hEnd,
-      id, differential, regularCoefficientHom, Category.assoc,
-      eqToHom_trans, eqToHom_refl] using core
+    convert core using 1 <;>
+      simp [globalXComponent, integerDifferential, integerObject,
+        hp, hp1, ha, hb, ha1, hb1, hc, hd, hl, hStart, hEnd,
+        id, differential, regularCoefficientHom, Category.assoc,
+        eqToHom_trans, eqToHom_refl]
 
 /-- Global adjacent x map in the actual category of shifted complexes. -/
 def globalXChainMap (s : ℤ) :
