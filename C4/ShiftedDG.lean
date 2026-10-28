@@ -110,15 +110,10 @@ theorem globalXComponent_naturality (s n : ℤ) :
     have hc : (n - s).toNat = (n - (s + 1)).toNat + 1 := by omega
     have hd : (n + 1 - (s + 1)).toNat = (n - (s + 1)).toNat + 1 := by omega
     have hl : s ≤ n := by omega
-    apply ModuleCat.hom_ext
-    apply LinearMap.ext
-    intro a
     simpa [globalXComponent, integerShiftResolution, integerResolution,
-      ChainComplex.of.d, integerDifferential, integerObject, hp, hp1,
-      ha, hb, ha1, hb1, hc, hd, hl,
-      differential, regularCoefficientHom, coefficientLinear,
-      ModuleCat.hom_comp, mul_assoc] using
-      congrArg (fun f : ModuleCat.of B B ⟶ ModuleCat.of B B => f.hom a)
+      ChainComplex.of_d, integerDifferential, integerObject, hp, hp1,
+      ha, hb, ha1, hb1, hc, hd, hl, differential, regularCoefficientHom,
+      Category.assoc] using
         (regularDx_commute (n - (s + 1)).toNat)
 
 /-- Global adjacent x map in the actual category of shifted complexes. -/
