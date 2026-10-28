@@ -233,9 +233,8 @@ theorem integerShiftDifferential_square (s n : ℤ) :
     integerShiftDifferential s (n + 1) ≫ integerShiftDifferential s n = 0 := by
   have h1 : n + 1 - s = (n - s) + 1 := by omega
   have h2 : (n + 1) + 1 - s = ((n - s) + 1) + 1 := by omega
-  simp only [integerShiftDifferential, h1, h2, eqToHom_refl,
-    Category.id_comp, Category.comp_id, Category.assoc,
-    integerDifferential_square, comp_zero]
+  simpa [integerShiftDifferential, h1, h2, Category.assoc] using
+    integerDifferential_square (n - s)
 
 /-- Every integer shift is a genuine complex in Ch(ModuleCat B). -/
 def integerShiftResolution (s : ℤ) : ChainComplex (ModuleCat B) ℤ :=
