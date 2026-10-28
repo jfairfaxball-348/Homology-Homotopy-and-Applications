@@ -55,4 +55,67 @@ def globalZComponent (s n : ℤ) :
       eqToHom (integerObject_nonnegative _ ht).symm
   · exact 0
 
+
+/-! ### S150: categorical chain-map equation across all integers -/
+
+/-- Characteristic-two chain-map identity as an equality of actual
+regular-module morphisms, rather than an addition-to-zero statement. -/
+theorem regularDx_commute (m : ℕ) :
+    regularCoefficientHom (Periodic.x (m + 1)) ≫
+      regularCoefficientHom (Periodic.d m) =
+    regularCoefficientHom (Periodic.d (m + 1)) ≫
+      regularCoefficientHom (Periodic.x m) := by
+  rw [regularCoefficientHom_comp, regularCoefficientHom_comp]
+  apply congrArg regularCoefficientHom
+  have hh : Periodic.d m * Periodic.x (m + 1) +
+      Periodic.x m * Periodic.d (m + 1) = (0 : B) := by
+    simpa only [← mul_is_truncated_convolution, ← add_is_coordinate_add,
+      ← zero_is_coordinate_zero] using Periodic.Dx_zero m
+  have hneg : -(Periodic.x m * Periodic.d (m + 1)) =
+      Periodic.x m * Periodic.d (m + 1) := rfl
+  exact ((add_eq_zero_iff_eq_neg).mp hh).trans hneg
+
+/-- Naturality of genuine shifted adjacent components, at every integer
+homological index, including the first nonzero boundary component. -/
+theorem globalXComponent_naturality (s n : ℤ) :
+    globalXComponent s (n + 1) ≫
+      (integerShiftResolution (s + 1)).d (n + 1) n =
+    (integerShiftResolution s).d (n + 1) n ≫
+      globalXComponent s n := by
+  rw [integerShiftResolution_d, integerShiftResolution_d]
+  rcases lt_trichotomy n s with hlt | heq | hgt
+  · have h0 : ¬ s + 1 ≤ n := by omega
+    have h1 : ¬ s + 1 ≤ n + 1 := by omega
+    simp [globalXComponent, h0, h1]
+  · subst n
+    have h0 : ¬ s + 1 ≤ s := by omega
+    have h1 : s + 1 ≤ s + 1 := le_refl _
+    simp [globalXComponent, h0, h1, integerResolution,
+      ChainComplex.of_d, integerDifferential]
+  · have hp : s + 1 ≤ n := by omega
+    have hp1 : s + 1 ≤ n + 1 := by omega
+    have ha : 0 ≤ n - (s + 1) := by omega
+    have hb : 0 ≤ n - s := by omega
+    have ha1 : 0 ≤ (n + 1) - (s + 1) := by omega
+    have hb1 : 0 ≤ (n + 1) - s := by omega
+    have hc : (n - s).toNat = (n - (s + 1)).toNat + 1 := by omega
+    have hma : (n + 1) - (s + 1) = (n - (s + 1)) + 1 := by omega
+    have hmb : (n + 1) - s = (n - s) + 1 := by omega
+    rw [hma, hmb]
+    simpa [globalXComponent, hp, hp1, integerResolution,
+      ChainComplex.of_d, integerDifferential, ha, hb, ha1, hb1, hc,
+      Category.assoc] using
+        (regularDx_commute (n - (s + 1)).toNat)
+
+/-- Actual degree-zero chain map between consecutive shifted resolutions. -/
+def globalXChainMap (s : ℤ) :
+    integerShiftResolution s ⟶ integerShiftResolution (s + 1) where
+  f := globalXComponent s
+  comm' := by
+    intro i j hij
+    change j + 1 = i at hij
+    subst i
+    exact globalXComponent_naturality s j
+
+
 end C4
