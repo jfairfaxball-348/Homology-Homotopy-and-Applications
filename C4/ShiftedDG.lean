@@ -131,8 +131,9 @@ theorem globalXComponent_naturality (s n : ℤ) :
       (apply ModuleCat.hom_ext
        apply LinearMap.ext
        intro a
+       simp only [integerObject, if_pos ha, if_pos hb,
+         if_pos ha1, if_pos hb1] at *
        simp [ModuleCat.hom_comp, ModuleCat.hom_id, Category.assoc,
-         integerObject, hp, hp1, ha, hb, ha1, hb1,
          eqToHom_trans, eqToHom_refl])
 
 /-- Global adjacent x map in the actual category of shifted complexes. -/
