@@ -224,18 +224,18 @@ def integerShiftObject (s n : ℤ) : ModuleCat B := integerObject (n - s)
 /-- The differential of the shifted resolution, transported only along
 the arithmetic identity n+1-s=(n-s)+1. -/
 def integerShiftDifferential (s n : ℤ) :
-    integerShiftObject s (n + 1) ⟶ integerShiftObject s n := by
-  dsimp only [integerShiftObject]
-  rw [show n + 1 - s = (n - s) + 1 by omega]
-  exact integerDifferential (n - s)
+    integerShiftObject s (n + 1) ⟶ integerShiftObject s n :=
+  (eqToHom (congrArg integerObject
+    (show n + 1 - s = (n - s) + 1 by omega))) ≫ integerDifferential (n - s)
 
 /-- Genuine all-integer square-zero law, including shift boundaries. -/
 theorem integerShiftDifferential_square (s n : ℤ) :
     integerShiftDifferential s (n + 1) ≫ integerShiftDifferential s n = 0 := by
   have h1 : n + 1 - s = (n - s) + 1 := by omega
   have h2 : (n + 1) + 1 - s = ((n - s) + 1) + 1 := by omega
-  simpa only [integerShiftDifferential, integerShiftObject,
-    h1, h2] using integerDifferential_square (n - s)
+  simp only [integerShiftDifferential, h1, h2, eqToHom_refl,
+    Category.id_comp, Category.comp_id, Category.assoc,
+    integerDifferential_square, comp_zero]
 
 /-- Every integer shift is a genuine complex in Ch(ModuleCat B). -/
 def integerShiftResolution (s : ℤ) : ChainComplex (ModuleCat B) ℤ :=
