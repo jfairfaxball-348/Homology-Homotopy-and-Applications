@@ -1,3 +1,9 @@
+## S148 — actual H₀ and induced all-integer augmentation quasi-isomorphism certified (28 October 2026)
+
+**DONE, pinned Lean:** `integerResolution_homology_zero_iso` and `augmentationChainMap_quasiIso` certify H₀ of the actual ℤ-indexed projective resolution and the genuinely induced augmentation homology isomorphism for **every integer degree**. Successful scratch source `c22d3890b77b753476f5731cc393edc9f1baf7e5`, Lean #40657026979 SUCCESS, integrity #40657026873 SUCCESS. The degree-zero cast blocker is closed by `ModuleCat.hom_ext` / `LinearMap.ext` / `rfl`; no axioms or admitted proofs. Next S149 (FUTURE, UNEXECUTED) builds actual shifted P[0]–P[4] and global B-linear dg x/h/z with all-choice fourfold obstruction. Entire-real quantitative L2/L3 remain OPEN; no novelty, fit, prior-art, review, publication or external work.
+
+---
+
 ## S147 — certified nonzero integer homology; categorical augmentation cokernel (27 October 2026)
 
 **DONE (pinned Lean):** actual `integerResolution.ExactAt n` and `IsZero (integerResolution.homology n)` for **all `n≠0`**, by positive sc' iso at every `m` + S146 negative proof; `residueModuleMorphism_epi` and genuine `residueModule_cokernel` universal property. Scratch `e9898c401a25037a8d3862f88ef27bbb4e347bb5`, pinned Lean #40588606381 SUCCESS, integrity #40588606758 SUCCESS. **Not done:** H₀/actual induced augmentation `QuasiIso`; H₀ scratch failed #40589338567 only at `Exactness.lean:140:36` on degree-zero cast; shifted x/h/z every-choice, whole-real L2/L3. Next S148 specifically fixes cast then proves genuine induced QuasiIso; no exploration, novelty, fit, outside review, Palomar or publication actions. S148 requires an independent owner invocation.
