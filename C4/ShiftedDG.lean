@@ -332,7 +332,9 @@ theorem regularCastFourPaths
 including the zero-module truncation boundary. -/
 theorem globalHComponent_identity (s n : ℤ) :
     globalHComponent s n ≫ (integerShiftResolution (s + 2)).d (n + 1) n +
-    (integerShiftResolution s).d n (n - 1) ≫ globalHComponent s (n - 1) =
+    ((integerShiftResolution s).d n (n - 1) ≫ globalHComponent s (n - 1)) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 2)).X
+        (by omega : n - 1 + 1 = n)) =
     globalXComponent s n ≫ globalXComponent (s + 1) n := by
   by_cases hb : n ≤ s + 1
   · have hz : Limits.IsZero ((integerShiftResolution (s + 2)).X n) := by
@@ -365,13 +367,16 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalHComponent_regular s (n - 1) (by omega),
       globalXComponent_regular s n (by omega),
       globalXComponent_regular (s + 1) n (by omega)]
-    simpa only [m, ha, hb', hc, hd, he, Category.assoc] using hsquare
+    simpa only [m, ha, hb', hc, hd, he, sub_add_cancel, Category.assoc,
+      eqToHom_refl, Category.comp_id] using hsquare
 
 /-- Actual all-integer secondary homotopy component equation Dz=xh+hx:
 the degree TWO z filler has degree ONE differential. -/
 theorem globalZComponent_identity (s n : ℤ) :
     globalZComponent s n ≫ (integerShiftResolution (s + 3)).d (n + 2) (n + 1) +
-    (integerShiftResolution s).d n (n - 1) ≫ globalZComponent s (n - 1) =
+    ((integerShiftResolution s).d n (n - 1) ≫ globalZComponent s (n - 1)) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 3)).X
+        (by omega : n - 1 + 2 = n + 1)) =
     globalHComponent s n ≫ globalXComponent (s + 2) (n + 1) +
     globalXComponent s n ≫ globalHComponent (s + 1) n := by
   by_cases hb : n ≤ s + 1
@@ -411,6 +416,7 @@ theorem globalZComponent_identity (s n : ℤ) :
       globalXComponent_regular (s + 2) (n + 1) (by omega),
       globalXComponent_regular s n (by omega),
       globalHComponent_regular (s + 1) n (by omega)]
-    simpa only [m, ha, hb', hc, hd, he, hf, Category.assoc] using hsquare
+    simpa only [m, ha, hb', hc, hd, he, hf, sub_add_cancel,
+      Category.assoc, eqToHom_refl, Category.comp_id] using hsquare
 
 end C4
