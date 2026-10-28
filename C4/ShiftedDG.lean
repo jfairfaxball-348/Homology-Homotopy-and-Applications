@@ -194,8 +194,13 @@ theorem shiftedDifferential_regular (s n : ℤ) (hn : s ≤ n) :
       congrArg (fun f : integerObject (n + 1 - s) ⟶ ModuleCat.of B B =>
         f ≫ regularCoefficientHom (Periodic.d (n - s).toNat) ≫
           eqToHom (integerObject_nonnegative (n - s) hp).symm) hc
+  change (ChainComplex.of.d integerObject integerDifferential
+    (n + 1 - s) (n - s)) =
+      eqToHom (integerObject_nonnegative (n + 1 - s) hi) ≫
+      regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+      eqToHom (integerObject_nonnegative (n - s) hp).symm
   calc
-    (integerShiftResolution s).d (n + 1) n =
+    (ChainComplex.of.d integerObject integerDifferential (n + 1 - s) (n - s)) =
         eqToHom (congrArg integerObject heq) ≫
           integerDifferential (n - s) := by
       exact integerResolution_d_transport _ _ heq
