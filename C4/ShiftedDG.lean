@@ -363,9 +363,12 @@ theorem globalHComponent_identity (s n : ℤ) :
       (regularCoefficientHom (Periodic.x (m + 1)))
       (regularCoefficientHom (Periodic.x m))
       (regularDh_xx m)
-    have hdprev := shiftedDifferential_regular s (n - 1) (by omega)
-    have hnprev : n - 1 + 1 = n := by omega
-    rw [hnprev] at hdprev
+    have hdprev : (integerShiftResolution s).d n (n - 1) =
+        eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
+        regularCoefficientHom (Periodic.d ((n - 1) - s).toNat) ≫
+        eqToHom (integerObject_nonnegative ((n - 1) - s) (by omega)).symm := by
+      simpa only [sub_add_cancel] using
+        (shiftedDifferential_regular s (n - 1) (by omega))
     rw [globalHComponent_regular s n (by omega),
       shiftedDifferential_regular (s + 2) n (by omega),
       hdprev,
@@ -417,12 +420,18 @@ theorem globalZComponent_identity (s n : ℤ) :
       (regularCoefficientHom (Periodic.x (m + 1)))
       (regularCoefficientHom (Periodic.h m))
       (regularDz_xh_hx m)
-    have hdnext := shiftedDifferential_regular (s + 3) (n + 1) (by omega)
-    have hnext : n + 1 + 1 = n + 2 := by omega
-    rw [hnext] at hdnext
-    have hdprev := shiftedDifferential_regular s (n - 1) (by omega)
-    have hnprev : n - 1 + 1 = n := by omega
-    rw [hnprev] at hdprev
+    have hdnext : (integerShiftResolution (s + 3)).d (n + 2) (n + 1) =
+        eqToHom (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega)) ≫
+        regularCoefficientHom (Periodic.d ((n + 1) - (s + 3)).toNat) ≫
+        eqToHom (integerObject_nonnegative ((n + 1) - (s + 3)) (by omega)).symm := by
+      simpa only [add_assoc, one_add_one_eq_two] using
+        (shiftedDifferential_regular (s + 3) (n + 1) (by omega))
+    have hdprev : (integerShiftResolution s).d n (n - 1) =
+        eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
+        regularCoefficientHom (Periodic.d ((n - 1) - s).toNat) ≫
+        eqToHom (integerObject_nonnegative ((n - 1) - s) (by omega)).symm := by
+      simpa only [sub_add_cancel] using
+        (shiftedDifferential_regular s (n - 1) (by omega))
     rw [globalZComponent_regular s n (by omega),
       hdnext,
       hdprev,
