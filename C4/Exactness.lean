@@ -353,4 +353,102 @@ theorem regularTerminal_identity (n : ℕ) :
   rw [Periodic.terminal_unit]
   exact regularCoefficientHom_one
 
+/-! ### S149: universal low-degree obstruction in the *category* of B-modules
+
+Every variable below ranges over arbitrary genuine endomorphisms of the
+regular B-module, not only preselected coefficients. The equations are the
+precise local defining-system constraints transported through evaluation
+at 1. The theorem is not yet the global homotopy-equivalence-invariant
+fourfold bracket on shifted resolutions.
+-/
+
+def regularEval (f : ModuleCat.of B B ⟶ ModuleCat.of B B) : B :=
+  f.hom 1
+
+@[simp]
+theorem regularEval_coefficient (b : B) :
+    regularEval (regularCoefficientHom b) = b := by
+  simp [regularEval, regularCoefficientHom, coefficientLinear]
+
+@[simp]
+theorem regularEval_zero :
+    regularEval (0 : ModuleCat.of B B ⟶ ModuleCat.of B B) = 0 := by
+  simp [regularEval, ModuleCat.hom_zero]
+
+@[simp]
+theorem regularEval_add (f g : ModuleCat.of B B ⟶ ModuleCat.of B B) :
+    regularEval (f + g) = regularEval f + regularEval g := by
+  simp [regularEval, ModuleCat.hom_add]
+
+@[simp]
+theorem regularEval_comp (f g : ModuleCat.of B B ⟶ ModuleCat.of B B) :
+    regularEval (f ≫ g) = regularEval g * regularEval f := by
+  have hg := regularHom_determined_by_one g
+  rw [hg]
+  simp [regularEval, regularCoefficientHom, coefficientLinear, ModuleCat.hom_comp]
+
+/-- Every low-degree defining-system solution in the regular module
+category has a nonzero terminal morphism modulo the genuine differential
+boundary ideal. There is no assumption that the chosen fillers are the
+explicit periodic h and z: all categorical variables are arbitrary. -/
+theorem regularAllChoice_terminal_not_boundary
+    (a1 a2 b1 c1 h1 h2 j1 j2 k1 k2 l1 f1 f2 :
+      ModuleCat.of B B ⟶ ModuleCat.of B B)
+    (ha1 : (regularEval a1).c0 = 1)
+    (hb : (regularEval b1).c0 = 1)
+    (hc : (regularEval c1).c0 = 1)
+    (hA :
+      a2 ≫ regularCoefficientHom C4.t +
+      a1 ≫ regularCoefficientHom C4.t3 = 0)
+    (hH :
+      h2 ≫ regularCoefficientHom C4.t +
+      h1 ≫ regularCoefficientHom C4.t3 = a2 ≫ b1)
+    (hJ :
+      j2 ≫ regularCoefficientHom C4.t +
+      j1 ≫ regularCoefficientHom C4.t3 = a2 ≫ b1)
+    (hK :
+      k2 ≫ regularCoefficientHom C4.t +
+      k1 ≫ regularCoefficientHom C4.t3 =
+      h2 ≫ c1 + a2 ≫ j1) :
+    (k2 ≫ c1 + (j2 ≫ h1 + a2 ≫ l1)) ≠
+      (f2 ≫ regularCoefficientHom C4.t +
+       f1 ≫ regularCoefficientHom C4.t3) := by
+  have ha : Adjacent (regularEval a1) (regularEval a2) := by
+    refine ⟨ha1, ?_⟩
+    have hh := congrArg regularEval hA
+    simpa only [Adjacent, regularEval_add, regularEval_comp,
+      regularEval_coefficient, regularEval_zero,
+      mul_is_truncated_convolution, add_is_coordinate_add,
+      zero_is_coordinate_zero] using hh
+  have hhp : Primary (regularEval b1) (regularEval a2)
+      (regularEval h1) (regularEval h2) := by
+    have hh := congrArg regularEval hH
+    simpa only [Primary, regularEval_add, regularEval_comp,
+      regularEval_coefficient, mul_is_truncated_convolution,
+      add_is_coordinate_add] using hh
+  have hjp : Primary (regularEval b1) (regularEval a2)
+      (regularEval j1) (regularEval j2) := by
+    have hh := congrArg regularEval hJ
+    simpa only [Primary, regularEval_add, regularEval_comp,
+      regularEval_coefficient, mul_is_truncated_convolution,
+      add_is_coordinate_add] using hh
+  have hks : Secondary (regularEval c1) (regularEval h2)
+      (regularEval j1) (regularEval a2)
+      (regularEval k1) (regularEval k2) := by
+    have hh := congrArg regularEval hK
+    simpa only [Secondary, regularEval_add, regularEval_comp,
+      regularEval_coefficient, mul_is_truncated_convolution,
+      add_is_coordinate_add] using hh
+  have hne := universal_terminal_not_boundary
+    (regularEval a1) (regularEval a2) (regularEval b1) (regularEval c1)
+    (regularEval h1) (regularEval h2) (regularEval j1) (regularEval j2)
+    (regularEval k1) (regularEval k2) (regularEval l1)
+    (regularEval f1) (regularEval f2) ha hb hc hhp hjp hks
+  intro heq
+  apply hne
+  have hh := congrArg regularEval heq
+  simpa only [Terminal, regularEval_add, regularEval_comp,
+    regularEval_coefficient, mul_is_truncated_convolution,
+    add_is_coordinate_add] using hh
+
 end C4
