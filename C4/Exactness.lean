@@ -215,4 +215,142 @@ theorem augmentationChainMap_quasiIso : QuasiIso augmentationChainMap := by
     exact augmentationChainMap_quasiIsoAt_zero
   · exact augmentationChainMap_quasiIsoAt_nonzero n hn
 
+/-! ### S149: globally indexed periodic dg equations, now in actual B-linear morphisms
+
+These are morphism-level identities in the regular B-module, for every
+natural periodic index. They are a strict ingredient for the shifted
+resolution's eventual all-integer dg families; the latter also need the
+degree-boundary, shift and defining-system transports.
+-/
+
+/-- Multiplication by a coefficient, as a *categorical* B-linear morphism. -/
+def regularCoefficientHom (a : B) :
+    ModuleCat.of B B ⟶ ModuleCat.of B B :=
+  ModuleCat.ofHom (coefficientLinear a)
+
+/-- The regular B-module is rank one: the coefficient of an arbitrary
+B-linear endomorphism is its value at 1. -/
+theorem regularHom_determined_by_one
+    (f : ModuleCat.of B B ⟶ ModuleCat.of B B) :
+    f = regularCoefficientHom (f.hom 1) := by
+  apply ModuleCat.hom_ext
+  apply LinearMap.ext
+  intro a
+  change f.hom a = (f.hom 1) * a
+  calc
+    f.hom a = f.hom (a • (1 : B)) := by simp
+    _ = a • f.hom (1 : B) := map_smul f.hom a (1 : B)
+    _ = (f.hom 1) * a := by simp [smul_eq_mul, mul_comm]
+
+theorem regularCoefficientHom_comp (a b : B) :
+    regularCoefficientHom a ≫ regularCoefficientHom b =
+      regularCoefficientHom (b * a) := by
+  apply ModuleCat.hom_ext
+  apply LinearMap.ext
+  intro c
+  change b * (a * c) = (b * a) * c
+  exact (mul_assoc b a c).symm
+
+theorem regularCoefficientHom_add (a b : B) :
+    regularCoefficientHom (a + b) =
+      regularCoefficientHom a + regularCoefficientHom b := by
+  apply ModuleCat.hom_ext
+  rw [ModuleCat.hom_add]
+  apply LinearMap.ext
+  intro c
+  change (a + b) * c = a * c + b * c
+  exact add_mul a b c
+
+theorem regularCoefficientHom_zero :
+    regularCoefficientHom (0 : B) = 0 := by
+  apply ModuleCat.hom_ext
+  apply LinearMap.ext
+  intro c
+  change (0 : B) * c = 0
+  exact zero_mul c
+
+theorem regularCoefficientHom_one :
+    regularCoefficientHom (1 : B) = 𝟙 (ModuleCat.of B B) := by
+  apply ModuleCat.hom_ext
+  apply LinearMap.ext
+  intro c
+  change (1 : B) * c = c
+  exact one_mul c
+
+private theorem periodic_Dx_ring (n : ℕ) :
+    Periodic.d n * Periodic.x (n + 1) +
+      Periodic.x n * Periodic.d (n + 1) = (0 : B) := by
+  simpa only [← mul_is_truncated_convolution,
+    ← add_is_coordinate_add, ← zero_is_coordinate_zero] using
+      Periodic.Dx_zero n
+
+private theorem periodic_Dh_ring (n : ℕ) :
+    Periodic.d n * Periodic.h (n + 1) +
+      Periodic.h n * Periodic.d (n + 1) =
+      Periodic.x n * Periodic.x (n + 1) := by
+  simpa only [← mul_is_truncated_convolution,
+    ← add_is_coordinate_add] using Periodic.Dh_xx n
+
+private theorem periodic_Dz_ring (n : ℕ) :
+    Periodic.d n * Periodic.z (n + 1) +
+      Periodic.z n * Periodic.d (n + 1) =
+      Periodic.x n * Periodic.h (n + 1) +
+      Periodic.h n * Periodic.x (n + 1) := by
+  simpa only [← mul_is_truncated_convolution,
+    ← add_is_coordinate_add] using Periodic.Dz_xh_hx n
+
+/-- The complete parity-indexed Dx=0 equation in actual B-linear morphisms. -/
+theorem regularDx_zero (n : ℕ) :
+    regularCoefficientHom (Periodic.x (n + 1)) ≫
+      regularCoefficientHom (Periodic.d n) +
+    regularCoefficientHom (Periodic.d (n + 1)) ≫
+      regularCoefficientHom (Periodic.x n) = 0 := by
+  rw [regularCoefficientHom_comp, regularCoefficientHom_comp,
+    ← regularCoefficientHom_add, periodic_Dx_ring n,
+    regularCoefficientHom_zero]
+
+/-- The all-degree primary equation Dh=x² in actual B-linear morphisms. -/
+theorem regularDh_xx (n : ℕ) :
+    regularCoefficientHom (Periodic.h (n + 1)) ≫
+      regularCoefficientHom (Periodic.d n) +
+    regularCoefficientHom (Periodic.d (n + 1)) ≫
+      regularCoefficientHom (Periodic.h n) =
+    regularCoefficientHom (Periodic.x (n + 1)) ≫
+      regularCoefficientHom (Periodic.x n) := by
+  rw [regularCoefficientHom_comp, regularCoefficientHom_comp,
+    regularCoefficientHom_comp,
+    ← regularCoefficientHom_add, periodic_Dh_ring n]
+
+/-- The all-degree secondary equation Dz=xh+hx in actual B-linear morphisms. -/
+theorem regularDz_xh_hx (n : ℕ) :
+    regularCoefficientHom (Periodic.z (n + 1)) ≫
+      regularCoefficientHom (Periodic.d n) +
+    regularCoefficientHom (Periodic.d (n + 1)) ≫
+      regularCoefficientHom (Periodic.z n) =
+    (regularCoefficientHom (Periodic.h (n + 1)) ≫
+      regularCoefficientHom (Periodic.x n)) +
+    (regularCoefficientHom (Periodic.x (n + 1)) ≫
+      regularCoefficientHom (Periodic.h n)) := by
+  rw [regularCoefficientHom_comp, regularCoefficientHom_comp,
+    regularCoefficientHom_comp, regularCoefficientHom_comp,
+    ← regularCoefficientHom_add, ← regularCoefficientHom_add,
+    periodic_Dz_ring n]
+
+/-- The selected fourfold terminal is the identity *morphism* in
+every positive periodic component, not only a numerical coefficient. -/
+theorem regularTerminal_identity (n : ℕ) :
+    (regularCoefficientHom (Periodic.z (n + 1)) ≫
+      regularCoefficientHom (Periodic.x n)) +
+    ((regularCoefficientHom (Periodic.h (n + 1)) ≫
+      regularCoefficientHom (Periodic.h n)) +
+     (regularCoefficientHom (Periodic.x (n + 1)) ≫
+      regularCoefficientHom (Periodic.z n))) =
+    𝟙 (ModuleCat.of B B) := by
+  rw [regularCoefficientHom_comp, regularCoefficientHom_comp,
+    regularCoefficientHom_comp,
+    ← regularCoefficientHom_add, ← regularCoefficientHom_add]
+  change regularCoefficientHom (Periodic.w n) = 𝟙 (ModuleCat.of B B)
+  rw [Periodic.terminal_unit]
+  exact regularCoefficientHom_one
+
 end C4
