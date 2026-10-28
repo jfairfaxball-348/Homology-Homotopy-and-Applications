@@ -2,13 +2,22 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-28",
-  "last_completed_session": "S149",
-  "recommended_next_session": "S150",
+  "last_completed_session": "S150",
+  "recommended_next_session": "S151",
+  "s150_checkpoint": {
+    "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
+    "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
+    "certified_scratch_lean_run": 40676684048,
+    "certified_scratch_integrity_run": 40676683857,
+    "formalised": "actual integer shifted B-linear x h z components, regular Dx commuting equality, explicit differential-index transport",
+    "unproved": "global x naturality, global h/z homotopies and universal fourfold transfer; whole-real diagram and quantitative dIHC/dHI",
+    "full_paper_theorem_lean_certified": false
+  },
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S149 compiled actual categorical regular-module dg identities, local arbitrary-choice fourfold nonboundary, and genuine all-integer shifted resolution reindexing. Global shifted dg and whole-real L2/L3 quantitative metrics remain OPEN.",
+  "headline": "S150 certified genuine x/h/z components on all-integer shifted C4 complexes and typed index transport; global chain-map naturality, h/z dg equations and real L2/L3 metrics remain OPEN.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "C4_FROZEN_S149_CATEGORY_DG_LOCAL_UNIVERSAL_AND_INTEGER_SHIFTS_PINNED_FULL_GLOBAL_DG_AND_REAL_METRICS_OPEN",
-  "active_campaign": "C4_FROZEN_FIRST_PAPER_S149_DG_AND_SHIFTS",
+  "headline_status": "C4_FROZEN_S150_SHIFTED_COMPONENTS_CERTIFIED_GLOBAL_DG_AND_REAL_METRICS_OPEN",
+  "active_campaign": "C4_FIRST_PAPER_S150_CERTIFIED_COMPONENTS_FULL_THEOREM_OPEN",
   "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; no formal certificate of the metric; no novelty or HHA significance gate in active roadmap.",
   "stages": [
     {

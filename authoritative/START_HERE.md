@@ -1,3 +1,9 @@
+# S150 — certified shifted dg components, global chain map and full-real metric still OPEN
+
+S150 (28 October 2026): pinned Lean #40676684048 SUCCESS and integrity #40676683857 SUCCESS on 553f990b228ea9b5b072e8bba5649861f7293374. New C4/ShiftedDG.lean compiles actual all-integer shifted B-linear x, h, z COMPONENTS, the characteristic-two categorical Dx=0 equality and an explicit differential-index transport lemma. This does NOT prove global chain-map naturality, global h/z homotopy equations, globally quantified fourfold transfer, real-diagram construction, or any of the frozen numerical distances. The completion goal remains OPEN; no false theorem certification, release, novelty/HHA-fit/prior-art or outside review.
+
+---
+
 # LIVE S149 C4 VERIFIED CATEGORY-LEVEL DG, LOCAL ALL-CHOICE FOURFOLD AND INTEGER COMPLEX REINDEXING — 28 October 2026
 
 S149 extends the pinned S148 all-integer augmented resolution by category-valued periodic dg identities, a locally universal arbitrary-endomorphism fourfold nonboundary theorem, and actual all-integer translated resolution complexes. The exact full shifted dg maps, conjugation invariance and all-real L2/L3 metrics remain OPEN.
