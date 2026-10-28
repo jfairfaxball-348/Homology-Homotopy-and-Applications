@@ -164,7 +164,7 @@ theorem globalXComponent_regular (s n : ℤ) (hn : s + 1 ≤ n) :
       eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
       regularCoefficientHom (Periodic.x (n - (s + 1)).toNat) ≫
       eqToHom (integerObject_nonnegative (n - (s + 1)) (by omega)).symm := by
-  simp [globalXComponent, hn]
+  simp [globalXComponent, hn, id] <;> rfl
 
 
 end C4
