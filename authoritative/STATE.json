@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-28",
-  "last_completed_session": "S154",
-  "recommended_next_session": "S155",
+  "last_completed_session": "S155",
+  "recommended_next_session": "S156",
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
     "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
@@ -16,8 +16,8 @@
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "S154 Lean-certified the genuine all-integer adjacent C4 global x chain map; global h/z homotopies, fourfold transfer and entire-real numerical metric bounds remain OPEN.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "C4_FROZEN_S154_GLOBAL_X_CHAIN_MAP_CERTIFIED_GLOBAL_HZ_AND_REAL_METRIC_OPEN",
-  "active_campaign": "C4_FIRST_PAPER_S154_GLOBAL_X_CERTIFIED_NEXT_GLOBAL_HZ_AND_QUANTITATIVE_THEOREM",
+  "headline_status": "C4_FROZEN_S155_CORRECTED_Z_BOUNDARY_HZ_CERTIFIED_POSITIVE_HZ_AND_REAL_METRIC_OPEN",
+  "active_campaign": "C4_FIRST_PAPER_S155_BOUNDARY_HZ_CERTIFIED_NEXT_POSITIVE_HZ_FOURFOLD_REAL_METRIC",
   "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; no formal certificate of the metric; no novelty or HHA significance gate in active roadmap.",
   "stages": [
     {
@@ -2741,6 +2741,16 @@
     "certified_scratch_integrity_run": 40706367054,
     "formalised": "all-integer shifted differential regular form, global x component naturality, actual ChainComplex globalXChainMap at arbitrary integer shift",
     "unproved": "global h/z chain homotopies, shifted all-choice fourfold, homotopy-equivalence invariance and whole-real two-lane quantitative metric theorem",
+    "full_paper_theorem_lean_certified": false
+  },
+  "s155_checkpoint": {
+    "entry_main": "b659d8927429cead1e686d81e566cfc14945e377",
+    "entry_tree": "7f95e46aeb30c1317aee5126f812edd490401842",
+    "certified_scratch_sha": "f96eb40d04bc9ab1d53cae429820a30900b70d93",
+    "certified_scratch_lean_run": 40711855409,
+    "certified_scratch_integrity_run": 40711855369,
+    "formalised": "correct degree-two z component; categorical positive h/z normal forms and cast coherence; genuine all-integer zero-boundary Dh=x² and Dz=xh+hx identities",
+    "unproved": "positive global h/z equations, all-choice fourfold and homotopy-equivalence transfer, both entire-real homotopy-interleaving metric lanes",
     "full_paper_theorem_lean_certified": false
   }
 }

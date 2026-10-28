@@ -42,16 +42,16 @@ def globalHComponent (s n : ℤ) :
       eqToHom (integerObject_nonnegative _ ht).symm
   · exact 0
 
-/-- The degree-one secondary filler between genuine shifted terms. -/
+/-- The degree-two secondary filler between genuine shifted terms. -/
 def globalZComponent (s n : ℤ) :
     (integerShiftResolution s).X n ⟶
-      (integerShiftResolution (s + 3)).X (n + 1) := by
-  change integerObject (n - s) ⟶ integerObject ((n + 1) - (s + 3))
-  by_cases hn : s + 2 ≤ n
+      (integerShiftResolution (s + 3)).X (n + 2) := by
+  change integerObject (n - s) ⟶ integerObject ((n + 2) - (s + 3))
+  by_cases hn : s + 1 ≤ n
   · have hs : 0 ≤ n - s := by omega
-    have ht : 0 ≤ (n + 1) - (s + 3) := by omega
+    have ht : 0 ≤ (n + 2) - (s + 3) := by omega
     exact eqToHom (integerObject_nonnegative _ hs) ≫
-      regularCoefficientHom (Periodic.z (n - (s + 2)).toNat) ≫
+      regularCoefficientHom (Periodic.z (n - (s + 1)).toNat) ≫
       eqToHom (integerObject_nonnegative _ ht).symm
   · exact 0
 
@@ -254,5 +254,110 @@ def globalXChainMap (s : ℤ) :
   ChainComplex.ofHom (globalXComponent s) (by
     intro n
     exact globalXComponent_naturality s n)
+
+
+/-! ### S155: genuine integer-shifted degree-one/degree-two fillers -/
+
+/-- The h component in canonical regular-module form, at every nonzero
+positive shifted degree. -/
+theorem globalHComponent_regular (s n : ℤ) (hn : s + 1 ≤ n) :
+    globalHComponent s n =
+      eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
+      regularCoefficientHom (Periodic.h (n - (s + 1)).toNat) ≫
+      eqToHom (integerObject_nonnegative ((n + 1) - (s + 2)) (by omega)).symm := by
+  simp [globalHComponent, hn, id] <;> rfl
+
+/-- The secondary filler has homological degree TWO: this is necessary
+for Dz (degree one) to have the same type as xh+hx. -/
+theorem globalZComponent_regular (s n : ℤ) (hn : s + 1 ≤ n) :
+    globalZComponent s n =
+      eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
+      regularCoefficientHom (Periodic.z (n - (s + 1)).toNat) ≫
+      eqToHom (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega)).symm := by
+  simp [globalZComponent, hn, id] <;> rfl
+
+/-- Transport an additive two-path identity through the five actual
+categorical regular-module object identifications. -/
+theorem regularCastTwoPaths
+    {P Q R S T : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eq : Q = ModuleCat.of B B)
+    (er : R = ModuleCat.of B B)
+    (es : S = ModuleCat.of B B)
+    (et : T = ModuleCat.of B B)
+    (a b c d e f : ModuleCat.of B B ⟶ ModuleCat.of B B)
+    (hab : a ≫ b + c ≫ d = e ≫ f) :
+    ((eqToHom ep ≫ a ≫ eqToHom eq.symm) ≫
+      (eqToHom eq ≫ b ≫ eqToHom es.symm)) +
+    ((eqToHom ep ≫ c ≫ eqToHom er.symm) ≫
+      (eqToHom er ≫ d ≫ eqToHom es.symm)) =
+    (eqToHom ep ≫ e ≫ eqToHom et.symm) ≫
+      (eqToHom et ≫ f ≫ eqToHom es.symm) := by
+  cases ep
+  cases eq
+  cases er
+  cases es
+  cases et
+  simpa using hab
+
+/-- Universal additive two-path equality between two pairs of
+composites, with genuine transports at all six vertices. -/
+theorem regularCastFourPaths
+    {P Q R S T U : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eq : Q = ModuleCat.of B B)
+    (er : R = ModuleCat.of B B)
+    (es : S = ModuleCat.of B B)
+    (et : T = ModuleCat.of B B)
+    (eu : U = ModuleCat.of B B)
+    (a b c d e f g h : ModuleCat.of B B ⟶ ModuleCat.of B B)
+    (hab : a ≫ b + c ≫ d = e ≫ f + g ≫ h) :
+    ((eqToHom ep ≫ a ≫ eqToHom eq.symm) ≫
+      (eqToHom eq ≫ b ≫ eqToHom es.symm)) +
+    ((eqToHom ep ≫ c ≫ eqToHom er.symm) ≫
+      (eqToHom er ≫ d ≫ eqToHom es.symm)) =
+    ((eqToHom ep ≫ e ≫ eqToHom et.symm) ≫
+      (eqToHom et ≫ f ≫ eqToHom es.symm)) +
+    ((eqToHom ep ≫ g ≫ eqToHom eu.symm) ≫
+      (eqToHom eu ≫ h ≫ eqToHom es.symm)) := by
+  cases ep
+  cases eq
+  cases er
+  cases es
+  cases et
+  cases eu
+  simpa using hab
+
+/-- Genuine boundary component of the global Dh=x² homotopy equation.
+All terms target the actual zero module of the shifted resolution. -/
+theorem globalHComponent_identity_at_boundary (s n : ℤ) (hb : n ≤ s) :
+    globalHComponent s (n + 1) ≫
+      (integerShiftResolution (s + 2)).d (n + 1 + 1) (n + 1) +
+    (integerShiftResolution s).d (n + 1) n ≫ globalHComponent s n =
+    (globalXComponent s (n + 1) ≫ globalXComponent (s + 1) (n + 1)) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 1 = s + 2)) := by
+  have hz : Limits.IsZero ((integerShiftResolution (s + 2)).X (n + 1)) := by
+    change Limits.IsZero (integerObject ((n + 1) - (s + 2)))
+    exact integerObject_isZero_negative _ (by omega)
+  exact hz.eq_of_tgt _ _
+
+/-- Genuine boundary component of the global Dz=xh+hx equation. The
+secondary z filler is degree two, so both sides have degree one. -/
+theorem globalZComponent_identity_at_boundary (s n : ℤ) (hb : n ≤ s + 1) :
+    globalZComponent s n ≫ (integerShiftResolution (s + 3)).d (n + 2) (n + 1) +
+    (((integerShiftResolution s).d n (n - 1) ≫ globalZComponent s (n - 1)) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 3)).X
+        (by omega : n - 1 + 2 = n + 1))) =
+    ((globalHComponent s n ≫ globalXComponent (s + 2) (n + 1)) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 2 + 1 = s + 3))) +
+    ((globalXComponent s n ≫ globalHComponent (s + 1) n) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 2 = s + 3))) := by
+  have hz : Limits.IsZero ((integerShiftResolution (s + 3)).X (n + 1)) := by
+    change Limits.IsZero (integerObject ((n + 1) - (s + 3)))
+    exact integerObject_isZero_negative _ (by omega)
+  exact hz.eq_of_tgt _ _
 
 end C4

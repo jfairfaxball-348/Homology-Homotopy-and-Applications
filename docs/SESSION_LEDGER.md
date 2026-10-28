@@ -1,3 +1,12 @@
+## S155 (28 October 2026) — corrected z and boundary h/z
+
+# S155 — corrected degree-two C4 z and categorical boundary h/z certified; positive global homotopies OPEN (28 October 2026)
+
+Fresh owner-invoked S155 preserves the single frozen C4 first-paper candidate. Pinned scratch `f96eb40d04bc9ab1d53cae429820a30900b70d93` passed pinned OptionD+C4 Lean build #40711855409 and repository integrity #40711855369. On actual shifted `ModuleCat B` complexes, secondary `globalZComponent` is corrected to homological degree TWO (target shift s+3, index n+2), as required for `Dz=xh+hx`. Lean certifies positive component normal forms `globalHComponent_regular` and `globalZComponent_regular`, generic categorical cast identities `regularCastTwoPaths` and `regularCastFourPaths`, and genuine truncation-boundary equations `globalHComponent_identity_at_boundary` and `globalZComponent_identity_at_boundary` for ALL integer shifts. **NOT Lean-certified:** positive-degree global Dh=x²/Dz=xh+hx, full homotopy/defining systems, universal all-choice fourfold, homotopy-equivalence transfer, ℕ-to-ℝ construction, entire-real metric lanes or the frozen numerical inequality. Six failed positive-degree scratch attempts were NOT promoted. No novelty/HHA-fit/prior-art/outside review, alternative target, OptionD work, Palomar, arXiv/HHA submission, public release or third-party contact.
+
+---
+
+
 ## S149 (28 October 2026) — categorical dg and local all-choice plus real shifted complexes
 
 Executed by fresh owner instruction. `regularDx_zero`/`regularDh_xx`/`regularDz_xh_hx`/`regularTerminal_identity`, arbitrary B-linear local fourfold nonboundary, and genuine all-integer reindexed resolution complexes independently passed pinned Lean (#40666132514, #40666531530, #40667762021). The complete shifted dg and whole-real interleaving distance theorem remain open. See sessions/S149/{PROOF,BUILD,CLOSEOUT}.md. S150 FUTURE only.
