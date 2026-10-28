@@ -335,7 +335,9 @@ theorem globalHComponent_identity (s n : ℤ) :
     ((integerShiftResolution s).d n (n - 1) ≫ globalHComponent s (n - 1)) ≫
       eqToHom (congrArg (integerShiftResolution (s + 2)).X
         (by omega : n - 1 + 1 = n)) =
-    globalXComponent s n ≫ globalXComponent (s + 1) n := by
+    (globalXComponent s n ≫ globalXComponent (s + 1) n) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X n)
+        (by omega : s + 1 + 1 = s + 2)) := by
   by_cases hb : n ≤ s + 1
   · have hz : Limits.IsZero ((integerShiftResolution (s + 2)).X n) := by
       change Limits.IsZero (integerObject (n - (s + 2)))
@@ -368,7 +370,7 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalXComponent_regular s n (by omega),
       globalXComponent_regular (s + 1) n (by omega)]
     simpa only [m, ha, hb', hc, hd, he, sub_add_cancel, Category.assoc,
-      eqToHom_refl, Category.comp_id] using hsquare
+      eqToHom_refl, Category.comp_id, add_assoc] using hsquare
 
 /-- Actual all-integer secondary homotopy component equation Dz=xh+hx:
 the degree TWO z filler has degree ONE differential. -/
@@ -377,8 +379,12 @@ theorem globalZComponent_identity (s n : ℤ) :
     ((integerShiftResolution s).d n (n - 1) ≫ globalZComponent s (n - 1)) ≫
       eqToHom (congrArg (integerShiftResolution (s + 3)).X
         (by omega : n - 1 + 2 = n + 1)) =
-    globalHComponent s n ≫ globalXComponent (s + 2) (n + 1) +
-    globalXComponent s n ≫ globalHComponent (s + 1) n := by
+    ((globalHComponent s n ≫ globalXComponent (s + 2) (n + 1)) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 2 + 1 = s + 3))) +
+    ((globalXComponent s n ≫ globalHComponent (s + 1) n) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 2 = s + 3))) := by
   by_cases hb : n ≤ s + 1
   · have hz : Limits.IsZero ((integerShiftResolution (s + 3)).X (n + 1)) := by
       change Limits.IsZero (integerObject ((n + 1) - (s + 3)))
