@@ -167,4 +167,92 @@ theorem globalXComponent_regular (s n : ℤ) (hn : s + 1 ≤ n) :
   simp [globalXComponent, hn, id] <;> rfl
 
 
+
+/-! ### S154: genuine positive shifted differential cast normalization -/
+
+/-- Actual positive shifted differential in canonical regular-module form. -/
+theorem shiftedDifferential_regular (s n : ℤ) (hn : s ≤ n) :
+    (integerShiftResolution s).d (n + 1) n =
+      eqToHom (integerObject_nonnegative (n + 1 - s) (by omega)) ≫
+      regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+      eqToHom (integerObject_nonnegative (n - s) (by omega)).symm := by
+  have hp : 0 ≤ n - s := by omega
+  have hp1 : 0 ≤ (n - s) + 1 := by omega
+  have hi : 0 ≤ n + 1 - s := by omega
+  have heq : n + 1 - s = (n - s) + 1 := by omega
+  have hc := integerObject_cast_commutes (n + 1 - s) ((n - s) + 1)
+    heq hi hp1
+  have hsand :
+      (eqToHom (congrArg integerObject heq) ≫
+        eqToHom (integerObject_nonnegative ((n - s) + 1) hp1)) ≫
+          regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+          eqToHom (integerObject_nonnegative (n - s) hp).symm =
+      eqToHom (integerObject_nonnegative (n + 1 - s) hi) ≫
+        regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+        eqToHom (integerObject_nonnegative (n - s) hp).symm := by
+    simpa only [Category.assoc] using
+      congrArg (fun f : integerObject (n + 1 - s) ⟶ ModuleCat.of B B =>
+        f ≫ regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+          eqToHom (integerObject_nonnegative (n - s) hp).symm) hc
+  change (ChainComplex.of.d integerObject integerDifferential
+    (n + 1 - s) (n - s)) =
+      eqToHom (integerObject_nonnegative (n + 1 - s) hi) ≫
+      regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+      eqToHom (integerObject_nonnegative (n - s) hp).symm
+  calc
+    (ChainComplex.of.d integerObject integerDifferential (n + 1 - s) (n - s)) =
+        eqToHom (congrArg integerObject heq) ≫
+          integerDifferential (n - s) := by
+      exact integerResolution_d_transport _ _ heq
+    _ = (eqToHom (congrArg integerObject heq) ≫
+        eqToHom (integerObject_nonnegative ((n - s) + 1) hp1)) ≫
+        regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+        eqToHom (integerObject_nonnegative (n - s) hp).symm := by
+      simp [integerDifferential, hn, hp, differential,
+        regularCoefficientHom, Category.assoc]
+    _ = _ := hsand
+
+
+/-- Actual naturality of the positive and truncation-boundary x components
+for every adjacent integer-shift pair. -/
+theorem globalXComponent_naturality (s n : ℤ) :
+    globalXComponent s (n + 1) ≫
+      (integerShiftResolution (s + 1)).d (n + 1) n =
+    (integerShiftResolution s).d (n + 1) n ≫
+      globalXComponent s n := by
+  by_cases hboundary : n ≤ s
+  · exact globalXComponent_naturality_at_boundary s n hboundary
+  · have hp : s + 1 ≤ n := by omega
+    have hs : s ≤ n := by omega
+    let m : ℕ := (n - (s + 1)).toNat
+    have ha : (n + 1 - (s + 1)).toNat = m + 1 := by
+      dsimp [m]
+      omega
+    have hb : (n - s).toNat = m + 1 := by
+      dsimp [m]
+      omega
+    have hsquare := regularCastSquare
+      (integerObject_nonnegative (n + 1 - s) (by omega))
+      (integerObject_nonnegative (n - s) (by omega))
+      (integerObject_nonnegative (n + 1 - (s + 1)) (by omega))
+      (integerObject_nonnegative (n - (s + 1)) (by omega))
+      (regularCoefficientHom (Periodic.x (m + 1)))
+      (regularCoefficientHom (Periodic.d m))
+      (regularCoefficientHom (Periodic.d (m + 1)))
+      (regularCoefficientHom (Periodic.x m))
+      (regularDx_commute m)
+    rw [globalXComponent_regular s (n + 1) (by omega),
+      shiftedDifferential_regular (s + 1) n hp,
+      shiftedDifferential_regular s n hs,
+      globalXComponent_regular s n hp]
+    simpa only [integerShiftResolution, integerResolution, m, ha, hb,
+      Category.assoc] using hsquare
+
+/-- Genuine adjacent shifted C4 chain map over all integer degrees. -/
+def globalXChainMap (s : ℤ) :
+    integerShiftResolution s ⟶ integerShiftResolution (s + 1) :=
+  ChainComplex.ofHom (globalXComponent s) (by
+    intro n
+    exact globalXComponent_naturality s n)
+
 end C4

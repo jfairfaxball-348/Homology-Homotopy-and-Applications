@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-28",
-  "last_completed_session": "S153",
-  "recommended_next_session": "S154",
+  "last_completed_session": "S154",
+  "recommended_next_session": "S155",
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
     "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
@@ -14,10 +14,10 @@
     "full_paper_theorem_lean_certified": false
   },
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S153 certified exact positive global x-component regular-module normal form; the positive differential cast sandwich, globalXChainMap, global homotopies and whole-real metrics remain OPEN.",
+  "headline": "S154 Lean-certified the genuine all-integer adjacent C4 global x chain map; global h/z homotopies, fourfold transfer and entire-real numerical metric bounds remain OPEN.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "C4_FROZEN_S153_X_COMPONENT_NORMAL_FORM_CERTIFIED_GLOBAL_CHAIN_MAP_OPEN",
-  "active_campaign": "C4_FIRST_PAPER_S153_POSITIVE_X_COMPONENT_CERTIFIED_GLOBAL_X_COMPLETION_OUTSTANDING",
+  "headline_status": "C4_FROZEN_S154_GLOBAL_X_CHAIN_MAP_CERTIFIED_GLOBAL_HZ_AND_REAL_METRIC_OPEN",
+  "active_campaign": "C4_FIRST_PAPER_S154_GLOBAL_X_CERTIFIED_NEXT_GLOBAL_HZ_AND_QUANTITATIVE_THEOREM",
   "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; no formal certificate of the metric; no novelty or HHA significance gate in active roadmap.",
   "stages": [
     {
@@ -33,12 +33,12 @@
     {
       "id": 2,
       "name": "Lean full unbounded diagram and quantitative homotopy theorem",
-      "status": "L1_RESOLUTION_HOMOLOGY_COMPLETE; S152_TYPED_CAST_COHERENCE_CERTIFIED; GLOBAL_SHIFTED_DG_AND_L2_L3_UNCERTIFIED"
+      "status": "L1_RESOLUTION_HOMOLOGY_COMPLETE; S154_GLOBAL_X_CHAIN_MAP_CERTIFIED; GLOBAL_HZ_FOURFOLD_AND_L2_L3_UNCERTIFIED"
     },
     {
       "id": 3,
       "name": "Complete matching manuscript in parallel",
-      "status": "S152_MANUSCRIPT_CORRESPONDENCE_UPDATED; QUANTITATIVE_C4_SEPARATION_INTERNAL_ONLY"
+      "status": "S154_MANUSCRIPT_CORRESPONDENCE_UPDATED; QUANTITATIVE_C4_SEPARATION_INTERNAL_ONLY"
     },
     {
       "id": 4,
@@ -2732,6 +2732,15 @@
     "certified_scratch_integrity_run": 40696118205,
     "formalised": "C4.globalXComponent_regular: genuine all-integer-shift positive x components normalised to regular B-module categorical morphisms",
     "unproved": "shifted positive integer differential canonical cast form, complete globalXComponent_naturality, globalXChainMap, h/z and fourfold all-choice, entire-real both-lane metrics",
+    "full_paper_theorem_lean_certified": false
+  },
+  "s154_checkpoint": {
+    "entry_main": "911b72eba232795c80d2ec6110edad8e59d06081",
+    "certified_scratch_sha": "436bcf89657f9ba1777ed7d47b556d7b69b27eb6",
+    "certified_scratch_lean_run": 40706366948,
+    "certified_scratch_integrity_run": 40706367054,
+    "formalised": "all-integer shifted differential regular form, global x component naturality, actual ChainComplex globalXChainMap at arbitrary integer shift",
+    "unproved": "global h/z chain homotopies, shifted all-choice fourfold, homotopy-equivalence invariance and whole-real two-lane quantitative metric theorem",
     "full_paper_theorem_lean_certified": false
   }
 }
