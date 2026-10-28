@@ -110,4 +110,47 @@ theorem globalXComponent_zero_below
     exact integerObject_isZero_negative _ (by omega)
   exact hz.eq_of_tgt _ _
 
+
+/-! ### S152: explicit coherence of the regular-module transport casts -/
+
+/-- Changing a nonnegative index by a proof of equality is coherent with
+its canonical identification with the regular B-module. -/
+theorem integerObject_cast_commutes
+    (i j : ℤ) (h : i = j) (hi : 0 ≤ i) (hj : 0 ≤ j) :
+    eqToHom (congrArg integerObject h) ≫
+      eqToHom (integerObject_nonnegative j hj) =
+      eqToHom (integerObject_nonnegative i hi) := by
+  subst j
+  simp
+
+/-- The inverse transport coherence, for the return leg of a regular
+B-module cast sandwich. -/
+theorem integerObject_cast_inverse_commutes
+    (i j : ℤ) (h : i = j) (hi : 0 ≤ i) (hj : 0 ≤ j) :
+    eqToHom (integerObject_nonnegative i hi).symm ≫
+      eqToHom (congrArg integerObject h) =
+      eqToHom (integerObject_nonnegative j hj).symm := by
+  subst j
+  simp
+
+/-- A regular-module square stays commutative after all four vertices are
+transported through equalities. -/
+theorem regularCastSquare
+    {P Q R S : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eq : Q = ModuleCat.of B B)
+    (er : R = ModuleCat.of B B)
+    (es : S = ModuleCat.of B B)
+    (a b c d : ModuleCat.of B B ⟶ ModuleCat.of B B)
+    (hab : a ≫ b = c ≫ d) :
+    (eqToHom ep ≫ a ≫ eqToHom er.symm) ≫
+      (eqToHom er ≫ b ≫ eqToHom es.symm) =
+    (eqToHom ep ≫ c ≫ eqToHom eq.symm) ≫
+      (eqToHom eq ≫ d ≫ eqToHom es.symm) := by
+  cases ep
+  cases eq
+  cases er
+  cases es
+  simpa using hab
+
 end C4
