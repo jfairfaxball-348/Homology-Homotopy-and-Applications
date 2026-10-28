@@ -123,7 +123,8 @@ theorem globalXComponent_naturality (s n : ℤ) :
         eqToHom hStart ≫ q ≫ eqToHom hEnd.symm)
       (regularDx_commute (n - (s + 1)).toNat)
     convert core using 1 <;>
-      simp [globalXComponent, integerDifferential, integerObject,
+      simp [globalXComponent, integerShiftResolution, integerResolution,
+        integerDifferential, integerObject,
         hp, hp1, ha, hb, ha1, hb1, hc, hd, hl, hStart, hEnd,
         id, differential, regularCoefficientHom, Category.assoc,
         eqToHom_trans, eqToHom_refl]
