@@ -1,3 +1,9 @@
+# S152 — certified integer regular-module cast coherence; full x and whole-real theorem OPEN (28 October 2026)
+
+Pinned source `95713fae7dfed8a9d940c22f8485d34db5fb641f` passed pinned Lean #40692032018 and integrity #40692032025. Three new actual categorical cast lemmas `C4.integerObject_cast_commutes`, `C4.integerObject_cast_inverse_commutes`, and `C4.regularCastSquare` certify coherent transports of all regular B-module morphism squares and integer index equalities. The direct positive-degree global-x integration attempts #40691333015 and #40691710480 failed; no failed theorem was promoted. Neither a complete `globalXChainMap`, global h/z homotopies, universal globally shifted fourfold, nor whole-real L2/L3 or any numerical metric equality is Lean-certified. The frozen paper remains internal, with no novelty, fit, prior-art, external review, publication or contact work.
+
+---
+
 # S151 — certified full integer truncation-boundary naturality, positive global dg remains OPEN (28 October 2026)
 
 Pinned C4 Lean source `b6e061be604dd6ae1bf0945154a0f77e679987d0` passed build #40682347499 and integrity #40682347435. `C4.globalXComponent_naturality_at_boundary` proves the genuine shifted chain-map naturality square for **every integer shift s and every n ≤ s**; `C4.globalXComponent_zero_below` proves the actual component vanishes when its target degree is zero. This is a bona fide homomorphism-of-shifted-complexes **boundary** statement, NOT a complete global chain map. Eight exploratory positive-degree x naturality builds failed on dependent `eqToHom` casts/normalization; no failed source was promoted. Complete x naturality, global h/z, full fourfold invariance, L2/L3 and all real metric equalities remain UNPROVED. No publication/novelty/HHA-fit/prior-art/review steps.
