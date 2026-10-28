@@ -153,4 +153,28 @@ theorem regularCastSquare
   cases es
   simpa using hab
 
+
+/-! ### S153: positive adjacent square (scratch, subject to pinned compiler) -/
+
+theorem globalXComponent_naturality_positive
+    (s n : ℤ) (hn : s + 1 ≤ n) :
+    globalXComponent s (n + 1) ≫
+      (integerShiftResolution (s + 1)).d (n + 1) n =
+    (integerShiftResolution s).d (n + 1) n ≫
+      globalXComponent s n := by
+  have hp : s + 1 ≤ n + 1 := by omega
+  have ha : 0 ≤ n - (s + 1) := by omega
+  have hb : 0 ≤ n - s := by omega
+  have ha1 : 0 ≤ n + 1 - (s + 1) := by omega
+  have hb1 : 0 ≤ n + 1 - s := by omega
+  have hnat : (n - s).toNat = (n - (s + 1)).toNat + 1 := by omega
+  have hA : n + 1 - (s + 1) = n - (s + 1) + 1 := by omega
+  have hB : n + 1 - s = n - s + 1 := by omega
+  rw [integerShiftResolution_d, integerShiftResolution_d]
+  rw [integerResolution_d_transport _ _ hA, integerResolution_d_transport _ _ hB]
+  simp [globalXComponent, integerDifferential, hp, hn, ha, hb, ha1,
+    hb1, hnat, integerObject, regularCoefficientHom, differential,
+    Category.assoc, eqToHom_trans, eqToHom_refl]
+
+
 end C4
