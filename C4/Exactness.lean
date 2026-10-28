@@ -1,6 +1,7 @@
 module
 public import C4.Augmentation
 public import Mathlib.Algebra.Homology.ShortComplex.ModuleCat
+public import Mathlib.Algebra.Homology.QuasiIso
 
 @[expose] public section
 
@@ -159,5 +160,28 @@ noncomputable def integerResolution_homology_zero_iso :
   exact (integerResolution.homologyIsoSc' (1 : ℤ) (0 : ℤ) (-1 : ℤ) hi hk) ≪≫
     (S.asIsoHomologyι hg) ≪≫
     (S.opcyclesIsCokernel.coconePointUniqueUpToIso hc)
+
+/-! ### S148: actual nonzero-degree augmentation homology maps -/
+
+/-- All nonzero degrees of the concentrated residue complex are exact
+because their actual objects are zero. -/
+theorem residueComplex_exactAt_nonzero (n : ℤ) (hn : n ≠ 0) :
+    residueComplex.ExactAt n := by
+  apply HomologicalComplex.ExactAt.of_isZero
+  change Limits.IsZero (residueObjectAt n)
+  rw [show residueObjectAt n = ModuleCat.of B (Fin 0 → B) by
+    simp [residueObjectAt, hn]]
+  exact ModuleCat.isZero_of_subsingleton _
+
+/-- The genuine induced augmentation map is a homology isomorphism in
+every nonzero integer degree, not just an abstract object identification. -/
+theorem augmentationChainMap_quasiIsoAt_nonzero (n : ℤ) (hn : n ≠ 0) :
+    QuasiIsoAt augmentationChainMap n := by
+  apply (quasiIsoAt_iff_exactAt' augmentationChainMap n
+    (residueComplex_exactAt_nonzero n hn)).2
+  rcases lt_trichotomy n 0 with hneg | hzero | hpos
+  · exact integerResolution_exactAt_negative n hneg
+  · exact False.elim (hn hzero)
+  · exact integerResolution_exactAt_positive n hpos
 
 end C4
