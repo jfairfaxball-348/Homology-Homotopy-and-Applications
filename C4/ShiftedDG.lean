@@ -110,11 +110,14 @@ theorem globalXComponent_naturality (s n : ℤ) :
     have hc : (n - s).toNat = (n - (s + 1)).toNat + 1 := by omega
     have hd : (n + 1 - (s + 1)).toNat = (n - (s + 1)).toNat + 1 := by omega
     have hl : s ≤ n := by omega
-    simpa [globalXComponent, integerShiftResolution, integerResolution,
-      ChainComplex.of_d, integerDifferential, integerObject, hp, hp1,
-      ha, hb, ha1, hb1, hc, hd, hl, differential, regularCoefficientHom,
-      Category.assoc] using
-        (regularDx_commute (n - (s + 1)).toNat)
+    rw [integerShiftResolution_d, integerShiftResolution_d]
+    have hA : n + 1 - (s + 1) = (n - (s + 1)) + 1 := by omega
+    have hB : n + 1 - s = (n - s) + 1 := by omega
+    rw [integerResolution_d_transport _ _ hA, integerResolution_d_transport _ _ hB]
+    simpa [globalXComponent, integerDifferential, integerObject,
+      hp, hp1, ha, hb, ha1, hb1, hc, hd, hl, differential,
+      regularCoefficientHom, Category.assoc] using
+      (regularDx_commute (n - (s + 1)).toNat)
 
 /-- Global adjacent x map in the actual category of shifted complexes. -/
 def globalXChainMap (s : ℤ) :
