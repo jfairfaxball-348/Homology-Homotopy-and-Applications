@@ -139,11 +139,10 @@ noncomputable def integerResolution_homology_zero_iso :
   have hk : (ComplexShape.down ℤ).next 0 = -1 := by
     simp [ChainComplex.next]
   have hf : S.f = differential 0 := by
-    change ChainComplex.of.d integerObject integerDifferential (1 : ℤ) 0 = differential 0
-    rw [ChainComplex.of_d]
-    change integerDifferential 0 = differential 0
-    unfold integerDifferential
-    simp [integerObject, Category.assoc]
+    apply ModuleCat.hom_ext
+    apply LinearMap.ext
+    intro a
+    rfl
   have hg : S.g = 0 := by
     change ChainComplex.of.d integerObject integerDifferential 0 (-1 : ℤ) = 0
     simp [ChainComplex.of.d, integerDifferential]
