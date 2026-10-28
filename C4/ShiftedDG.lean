@@ -114,10 +114,17 @@ theorem globalXComponent_naturality (s n : ℤ) :
     have hA : n + 1 - (s + 1) = (n - (s + 1)) + 1 := by omega
     have hB : n + 1 - s = (n - s) + 1 := by omega
     rw [integerResolution_d_transport _ _ hA, integerResolution_d_transport _ _ hB]
-    simpa [globalXComponent, integerDifferential, integerObject,
-      hp, hp1, ha, hb, ha1, hb1, hc, hd, hl, differential,
-      regularCoefficientHom, Category.assoc] using
+    let hStart : integerObject (n + 1 - s) = ModuleCat.of B B :=
+      integerObject_nonnegative _ hb1
+    let hEnd : integerObject (n - (s + 1)) = ModuleCat.of B B :=
+      integerObject_nonnegative _ ha
+    have core := congrArg
+      (fun q : ModuleCat.of B B ⟶ ModuleCat.of B B =>
+        eqToHom hStart ≫ q ≫ eqToHom hEnd.symm)
       (regularDx_commute (n - (s + 1)).toNat)
+    simpa [globalXComponent, integerDifferential, integerObject,
+      hp, hp1, ha, hb, ha1, hb1, hc, hd, hl, hStart, hEnd,
+      Category.assoc, eqToHom_trans] using core
 
 /-- Global adjacent x map in the actual category of shifted complexes. -/
 def globalXChainMap (s : ℤ) :
