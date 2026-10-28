@@ -245,13 +245,14 @@ theorem globalXComponent_naturality (s n : ℤ) :
       shiftedDifferential_regular (s + 1) n hp,
       shiftedDifferential_regular s n hs,
       globalXComponent_regular s n hp]
-    simpa only [ha, hb, Category.assoc] using hsquare
+    simpa only [integerShiftResolution, integerResolution, m, ha, hb,
+      Category.assoc] using hsquare
 
 /-- Genuine adjacent shifted C4 chain map over all integer degrees. -/
 def globalXChainMap (s : ℤ) :
     integerShiftResolution s ⟶ integerShiftResolution (s + 1) :=
   ChainComplex.ofHom (globalXComponent s) (by
     intro n
-    exact (globalXComponent_naturality s n).symm)
+    exact globalXComponent_naturality s n)
 
 end C4
