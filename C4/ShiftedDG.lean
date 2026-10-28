@@ -127,7 +127,8 @@ theorem globalXComponent_naturality (s n : ℤ) :
         integerDifferential, integerObject,
         hp, hp1, ha, hb, ha1, hb1, hc, hd, hl, hStart, hEnd,
         id, differential, regularCoefficientHom, Category.assoc,
-        eqToHom_trans, eqToHom_refl]
+        eqToHom_trans, eqToHom_refl] <;>
+        first | cat_disch | rfl
 
 /-- Global adjacent x map in the actual category of shifted complexes. -/
 def globalXChainMap (s : ℤ) :
