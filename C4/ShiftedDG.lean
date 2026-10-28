@@ -363,9 +363,12 @@ theorem globalHComponent_identity (s n : ℤ) :
       (regularCoefficientHom (Periodic.x (m + 1)))
       (regularCoefficientHom (Periodic.x m))
       (regularDh_xx m)
+    have hdprev := shiftedDifferential_regular s (n - 1) (by omega)
+    have hnprev : n - 1 + 1 = n := by omega
+    rw [hnprev] at hdprev
     rw [globalHComponent_regular s n (by omega),
       shiftedDifferential_regular (s + 2) n (by omega),
-      shiftedDifferential_regular s (n - 1) (by omega),
+      hdprev,
       globalHComponent_regular s (n - 1) (by omega),
       globalXComponent_regular s n (by omega),
       globalXComponent_regular (s + 1) n (by omega)]
@@ -414,9 +417,15 @@ theorem globalZComponent_identity (s n : ℤ) :
       (regularCoefficientHom (Periodic.x (m + 1)))
       (regularCoefficientHom (Periodic.h m))
       (regularDz_xh_hx m)
+    have hdnext := shiftedDifferential_regular (s + 3) (n + 1) (by omega)
+    have hnext : n + 1 + 1 = n + 2 := by omega
+    rw [hnext] at hdnext
+    have hdprev := shiftedDifferential_regular s (n - 1) (by omega)
+    have hnprev : n - 1 + 1 = n := by omega
+    rw [hnprev] at hdprev
     rw [globalZComponent_regular s n (by omega),
-      shiftedDifferential_regular (s + 3) (n + 1) (by omega),
-      shiftedDifferential_regular s (n - 1) (by omega),
+      hdnext,
+      hdprev,
       globalZComponent_regular s (n - 1) (by omega),
       globalHComponent_regular s n (by omega),
       globalXComponent_regular (s + 2) (n + 1) (by omega),
