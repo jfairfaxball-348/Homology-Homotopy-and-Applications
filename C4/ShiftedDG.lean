@@ -154,23 +154,17 @@ theorem regularCastSquare
   simpa using hab
 
 
-/-! ### S153: normalized genuine shifted differential in the regular range -/
+/-! ### S153: explicit typed regular form for the positive adjacent x component -/
 
-/-- Expose the actual shifted differential as a conjugated regular
-coefficient morphism, with the integer index transport kept explicit.
-This lemma is a local typed normalization, not a global chain map. -/
-theorem shiftedDifferential_nonnegative (s n : ℤ) (hn : s ≤ n) :
-    (integerShiftResolution s).d (n + 1) n =
-      eqToHom (congrArg integerObject
-        (show n + 1 - s = (n - s) + 1 by omega)) ≫
-      eqToHom (integerObject_nonnegative ((n - s) + 1) (by omega)) ≫
-      regularCoefficientHom (Periodic.d (n - s).toNat) ≫
-      eqToHom (integerObject_nonnegative (n - s) (by omega)).symm := by
-  rw [integerShiftResolution_d]
-  rw [integerResolution_d_transport _ _
-    (show n + 1 - s = (n - s) + 1 by omega)]
-  simp [integerDifferential, hn, integerObject, differential,
-    regularCoefficientHom, eqToHom_trans, eqToHom_refl, Category.assoc]
+/-- At a genuine positive shifted degree the actual x component is a regular
+B-module coefficient morphism with its source and target object transports.
+This equality is a preparatory normalization, not a global chain map. -/
+theorem globalXComponent_regular (s n : ℤ) (hn : s + 1 ≤ n) :
+    globalXComponent s n =
+      eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
+      regularCoefficientHom (Periodic.x (n - (s + 1)).toNat) ≫
+      eqToHom (integerObject_nonnegative (n - (s + 1)) (by omega)).symm := by
+  simp [globalXComponent, hn]
 
 
 end C4
