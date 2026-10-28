@@ -181,9 +181,10 @@ theorem shiftedDifferential_regular (s n : ℤ) (hn : s ≤ n) :
   have hp1 : 0 ≤ (n - s) + 1 := by omega
   have hi : 0 ≤ n + 1 - s := by omega
   have heq : n + 1 - s = (n - s) + 1 := by omega
-  rw [integerShiftResolution_d, integerResolution_d_transport _ _ heq]
+  change integerResolution.d (n + 1 - s) (n - s) = _
+  rw [integerResolution_d_transport _ _ heq]
   have hc := integerObject_cast_commutes _ _ heq hi hp1
-  simp only [integerDifferential, dif_pos hp, differential, regularCoefficientHom]
+  simp only [integerDifferential, dite_eq_left hp, differential, regularCoefficientHom]
   rw [hc]
 
 end C4
