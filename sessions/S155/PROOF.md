@@ -1,0 +1,9 @@
+# S155 PROOF — real graded categorical boundary equations
+
+Entry remote main `b659d8927429cead1e686d81e566cfc14945e377`, tree `7f95e46aeb30c1317aee5126f812edd490401842`; S154 PR #186 ordinary two-parent merge from `911b72eba232795c80d2ec6110edad8e59d06081` and `221ee84ec477d3cd6c4452072d9c0bfb0685c234`. Independently PR pinned Lean #40707201063 and integrity #40707201118 SUCCESS; merged-main Lean #40707642615 and integrity #40707642490 SUCCESS.
+
+**Mathematical grading correction.** The prior component `globalZComponent s n` targeted shifted complex s+3 in homological degree n+1 and had coefficient `Periodic.z (n-(s+2)).toNat`. This has homological degree one and cannot satisfy the proposed degree-one identity Dz=xh+hx where h has degree one. S155 corrects z to homological degree TWO: target index n+2 with shift s+3, coefficient `Periodic.z (n-(s+1)).toNat` at n≥s+1. The source/target now are genuine B-linear `ModuleCat B` morphisms between actual shifted resolutions.
+
+**New Lean theorems with all integer indices.** `globalHComponent_regular` and `globalZComponent_regular` give positive component cast normal forms; `regularCastTwoPaths` and `regularCastFourPaths` transport additive two-/four-composition coefficient identities through real categorical B-module equalities; `globalHComponent_identity_at_boundary` is actual shifted Dh=x² at n≤s; `globalZComponent_identity_at_boundary` is actual shifted Dz=xh+hx at n≤s+1. Full pinned Lean SUCCESS #40711855409 and integrity SUCCESS #40711855369 on EXACT scratch SHA `f96eb40d04bc9ab1d53cae429820a30900b70d93`.
+
+**OPEN:** positive-degree equations (dependent cast/normal-form integration), global homotopy packaging, arbitrary defining systems, universal fourfold nonboundary and conjugation invariance, real ℕ-quiver/Kan construction and either full real interleaving metric. No full frozen numerical theorem Lean proof.
