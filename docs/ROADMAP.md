@@ -1,3 +1,9 @@
+# S153 — positive C4 x component regular normal form certified; global chain map OPEN (28 October 2026)
+
+Pinned scratch source `e0076635671ddd4f17a8dfe1ce7dbdfcfee95e47` passed complete pinned Lean #40696118260 and repository integrity #40696118205. New theorem `C4.globalXComponent_regular (s n : ℤ) (hn : s + 1 ≤ n)` states the **genuine** positive shifted x component equals the regular coefficient morphism, with both categorical integer-object casts. This does NOT prove the positive differential cast identity, the full commuting square, `globalXChainMap`, h/z global homotopies, all-choice homotopy transfer, whole-real two-lane dHI, or any numerical metric equality. Failed scratch runs #40694311661, #40694780869, #40695054313 and #40695325464 are diagnostic only; no failed Lean is promoted. The frozen internal first-paper inequality remains uncertified in Lean. No other target/novelty/HHA fit/prior art/outside review/OptionD work or publication, registry, preprint, submission, contact or release actions occurred.
+
+---
+
 # S152 — certified integer regular-module cast coherence; full x and whole-real theorem OPEN (28 October 2026)
 
 Pinned source `95713fae7dfed8a9d940c22f8485d34db5fb641f` passed pinned Lean #40692032018 and integrity #40692032025. Three new actual categorical cast lemmas `C4.integerObject_cast_commutes`, `C4.integerObject_cast_inverse_commutes`, and `C4.regularCastSquare` certify coherent transports of all regular B-module morphism squares and integer index equalities. The direct positive-degree global-x integration attempts #40691333015 and #40691710480 failed; no failed theorem was promoted. Neither a complete `globalXChainMap`, global h/z homotopies, universal globally shifted fourfold, nor whole-real L2/L3 or any numerical metric equality is Lean-certified. The frozen paper remains internal, with no novelty, fit, prior-art, external review, publication or contact work.

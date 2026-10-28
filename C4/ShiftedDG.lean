@@ -153,4 +153,18 @@ theorem regularCastSquare
   cases es
   simpa using hab
 
+
+/-! ### S153: explicit typed regular form for the positive adjacent x component -/
+
+/-- At a genuine positive shifted degree the actual x component is a regular
+B-module coefficient morphism with its source and target object transports.
+This equality is a preparatory normalization, not a global chain map. -/
+theorem globalXComponent_regular (s n : ℤ) (hn : s + 1 ≤ n) :
+    globalXComponent s n =
+      eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
+      regularCoefficientHom (Periodic.x (n - (s + 1)).toNat) ≫
+      eqToHom (integerObject_nonnegative (n - (s + 1)) (by omega)).symm := by
+  simp [globalXComponent, hn, id] <;> rfl
+
+
 end C4
