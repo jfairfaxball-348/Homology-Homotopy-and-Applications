@@ -86,25 +86,30 @@ theorem globalXComponent_naturality (s n : ℤ) :
   rcases lt_trichotomy n s with hlt | heq | hgt
   · have h0 : ¬ s + 1 ≤ n := by omega
     have h1 : ¬ s + 1 ≤ n + 1 := by omega
-    simp [globalXComponent, h0, h1]
+    have ha : ¬ 0 ≤ n - (s + 1) := by omega
+    have hb : ¬ 0 ≤ n - s := by omega
+    have ht : n + 1 - (s + 1) = (n - (s + 1)) + 1 := by omega
+    have hs : n + 1 - s = (n - s) + 1 := by omega
+    simp [globalXComponent, h0, h1, integerResolution,
+      ChainComplex.of_d, ht, hs, integerDifferential, ha, hb]
   · subst n
     have h0 : ¬ s + 1 ≤ s := by omega
-    have h1 : s + 1 ≤ s + 1 := le_refl _
-    simp [globalXComponent, h0, h1, integerResolution,
-      ChainComplex.of_d, integerDifferential]
+    have ht : s + 1 - (s + 1) = (s - (s + 1)) + 1 := by omega
+    have ha : ¬ 0 ≤ s - (s + 1) := by omega
+    simp [globalXComponent, h0, integerResolution,
+      ChainComplex.of_d, ht, integerDifferential, ha]
   · have hp : s + 1 ≤ n := by omega
     have hp1 : s + 1 ≤ n + 1 := by omega
     have ha : 0 ≤ n - (s + 1) := by omega
     have hb : 0 ≤ n - s := by omega
-    have ha1 : 0 ≤ (n + 1) - (s + 1) := by omega
-    have hb1 : 0 ≤ (n + 1) - s := by omega
+    have ha1 : 0 ≤ n + 1 - (s + 1) := by omega
+    have hb1 : 0 ≤ n + 1 - s := by omega
     have hc : (n - s).toNat = (n - (s + 1)).toNat + 1 := by omega
-    have hma : (n + 1) - (s + 1) = (n - (s + 1)) + 1 := by omega
-    have hmb : (n + 1) - s = (n - s) + 1 := by omega
-    rw [hma, hmb]
+    have hma : n + 1 - (s + 1) = (n - (s + 1)) + 1 := by omega
+    have hmb : n + 1 - s = (n - s) + 1 := by omega
     simpa [globalXComponent, hp, hp1, integerResolution,
-      ChainComplex.of_d, integerDifferential, ha, hb, ha1, hb1, hc,
-      Category.assoc] using
+      ChainComplex.of_d, integerDifferential, ha, hb, ha1, hb1, hc, hma,
+      hmb, Category.assoc] using
         (regularDx_commute (n - (s + 1)).toNat)
 
 /-- Actual degree-zero chain map between consecutive shifted resolutions. -/
