@@ -212,4 +212,46 @@ theorem shiftedDifferential_regular (s n : ℤ) (hn : s ≤ n) :
         regularCoefficientHom, Category.assoc]
     _ = _ := hsand
 
+
+/-- Actual naturality of the positive and truncation-boundary x components
+for every adjacent integer-shift pair. -/
+theorem globalXComponent_naturality (s n : ℤ) :
+    globalXComponent s (n + 1) ≫
+      (integerShiftResolution (s + 1)).d (n + 1) n =
+    (integerShiftResolution s).d (n + 1) n ≫
+      globalXComponent s n := by
+  by_cases hboundary : n ≤ s
+  · exact globalXComponent_naturality_at_boundary s n hboundary
+  · have hp : s + 1 ≤ n := by omega
+    have hs : s ≤ n := by omega
+    let m : ℕ := (n - (s + 1)).toNat
+    have ha : (n + 1 - (s + 1)).toNat = m + 1 := by
+      dsimp [m]
+      omega
+    have hb : (n - s).toNat = m + 1 := by
+      dsimp [m]
+      omega
+    have hsquare := regularCastSquare
+      (integerObject_nonnegative (n + 1 - s) (by omega))
+      (integerObject_nonnegative (n - s) (by omega))
+      (integerObject_nonnegative (n + 1 - (s + 1)) (by omega))
+      (integerObject_nonnegative (n - (s + 1)) (by omega))
+      (regularCoefficientHom (Periodic.x (m + 1)))
+      (regularCoefficientHom (Periodic.d m))
+      (regularCoefficientHom (Periodic.d (m + 1)))
+      (regularCoefficientHom (Periodic.x m))
+      (regularDx_commute m)
+    rw [globalXComponent_regular s (n + 1) (by omega),
+      shiftedDifferential_regular (s + 1) n hp,
+      shiftedDifferential_regular s n hs,
+      globalXComponent_regular s n hp]
+    simpa only [ha, hb, Category.assoc] using hsquare
+
+/-- Genuine adjacent shifted C4 chain map over all integer degrees. -/
+def globalXChainMap (s : ℤ) :
+    integerShiftResolution s ⟶ integerShiftResolution (s + 1) :=
+  ChainComplex.ofHom (globalXComponent s) (by
+    intro n
+    exact (globalXComponent_naturality s n).symm)
+
 end C4
