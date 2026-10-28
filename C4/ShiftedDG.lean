@@ -84,4 +84,51 @@ theorem integerResolution_d_transport (i j : ℤ) (h : i = j + 1) :
   simp [integerResolution, ChainComplex.of_d]
 
 
+/-- The actual x maps commute with both shifted differentials in every integer
+degree, including all vanishing truncation boundaries. -/
+theorem globalXComponent_naturality (s n : ℤ) :
+    globalXComponent s (n + 1) ≫
+      (integerShiftResolution (s + 1)).d (n + 1) n =
+    (integerShiftResolution s).d (n + 1) n ≫
+      globalXComponent s n := by
+  rcases lt_trichotomy n s with hlt | heq | hgt
+  · have hz : Limits.IsZero ((integerShiftResolution (s + 1)).X n) := by
+      change Limits.IsZero (integerObject (n - (s + 1)))
+      exact integerObject_isZero_negative _ (by omega)
+    exact hz.eq_of_tgt _ _
+  · subst n
+    have hz : Limits.IsZero ((integerShiftResolution (s + 1)).X s) := by
+      change Limits.IsZero (integerObject (s - (s + 1)))
+      exact integerObject_isZero_negative _ (by omega)
+    exact hz.eq_of_tgt _ _
+  · have hp : s + 1 ≤ n := by omega
+    have hp1 : s + 1 ≤ n + 1 := by omega
+    have ha : 0 ≤ n - (s + 1) := by omega
+    have hb : 0 ≤ n - s := by omega
+    have ha1 : 0 ≤ n + 1 - (s + 1) := by omega
+    have hb1 : 0 ≤ n + 1 - s := by omega
+    have hc : (n - s).toNat = (n - (s + 1)).toNat + 1 := by omega
+    have hd : (n + 1 - (s + 1)).toNat = (n - (s + 1)).toNat + 1 := by omega
+    have hl : s ≤ n := by omega
+    apply ModuleCat.hom_ext
+    apply LinearMap.ext
+    intro a
+    simpa [globalXComponent, integerShiftResolution, integerResolution,
+      ChainComplex.of.d, integerDifferential, integerObject, hp, hp1,
+      ha, hb, ha1, hb1, hc, hd, hl,
+      differential, regularCoefficientHom, coefficientLinear,
+      ModuleCat.hom_comp, mul_assoc] using
+      congrArg (fun f : ModuleCat.of B B ⟶ ModuleCat.of B B => f.hom a)
+        (regularDx_commute (n - (s + 1)).toNat)
+
+/-- Global adjacent x map in the actual category of shifted complexes. -/
+def globalXChainMap (s : ℤ) :
+    integerShiftResolution s ⟶ integerShiftResolution (s + 1) where
+  f := globalXComponent s
+  comm' := by
+    intro i j hij
+    change j + 1 = i at hij
+    subst i
+    exact globalXComponent_naturality s j
+
 end C4
