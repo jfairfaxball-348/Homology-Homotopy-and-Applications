@@ -208,7 +208,7 @@ theorem shiftedDifferential_regular (s n : ℤ) (hn : s ≤ n) :
         eqToHom (integerObject_nonnegative ((n - s) + 1) hp1)) ≫
         regularCoefficientHom (Periodic.d (n - s).toNat) ≫
         eqToHom (integerObject_nonnegative (n - s) hp).symm := by
-      simp [integerDifferential, hp, differential,
+      simp [integerDifferential, hn, hp, differential,
         regularCoefficientHom, Category.assoc]
     _ = _ := hsand
 
