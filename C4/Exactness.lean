@@ -476,5 +476,30 @@ theorem integerShiftDifferential_square (s n : ℤ) :
 def integerShiftResolution (s : ℤ) : ChainComplex (ModuleCat B) ℤ :=
   ChainComplex.of (integerShiftObject s)
     (integerShiftDifferential s) (integerShiftDifferential_square s)
+/-! ### S149 exploratory global adjacent component on actual shifts -/
+
+/-- The adjacent x-component of each pair of genuine integer-shifted
+resolutions. In degrees below the source/target support it is the
+unique zero morphism; elsewhere it is multiplication by the
+periodically prescribed coefficient. -/
+def integerXComponent (s n : ℤ) :
+    integerShiftObject s n ⟶ integerShiftObject (s + 1) n := by
+  by_cases hn : 1 ≤ n - s
+  · have hsrc : integerShiftObject s n = ModuleCat.of B B := by
+      change integerObject (n - s) = ModuleCat.of B B
+      exact integerObject_nonnegative _ (by omega)
+    have htgt : integerShiftObject (s + 1) n = ModuleCat.of B B := by
+      change integerObject (n - (s + 1)) = ModuleCat.of B B
+      exact integerObject_nonnegative _ (by omega)
+    exact (eqToHom hsrc) ≫
+      regularCoefficientHom (Periodic.x ((n - s - 1).toNat)) ≫
+      (eqToHom htgt.symm)
+  · exact 0
+
+/-- All whole-integer components have the correct shifted object types;
+this remains distinct from proving the chain-map naturality equations. -/
+theorem integerXComponent_below (s n : ℤ) (hn : n - s < 1) :
+    integerXComponent s n = 0 := by
+  simp [integerXComponent, show ¬ 1 ≤ n - s by omega]
 
 end C4
