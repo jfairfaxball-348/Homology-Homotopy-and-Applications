@@ -6,3 +6,5 @@ public import C4.Resolution
 public import C4.IntegerResolution
 public import C4.Augmentation
 public import C4.Exactness
+
+public import C4.ShiftedDG

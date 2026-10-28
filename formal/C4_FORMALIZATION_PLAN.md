@@ -1,3 +1,9 @@
+# S150 — certified shifted dg components, global chain map and full-real metric still OPEN
+
+S150 (28 October 2026): pinned Lean #40676684048 SUCCESS and integrity #40676683857 SUCCESS on 553f990b228ea9b5b072e8bba5649861f7293374. New C4/ShiftedDG.lean compiles actual all-integer shifted B-linear x, h, z COMPONENTS, the characteristic-two categorical Dx=0 equality and an explicit differential-index transport lemma. This does NOT prove global chain-map naturality, global h/z homotopy equations, globally quantified fourfold transfer, real-diagram construction, or any of the frozen numerical distances. The completion goal remains OPEN; no false theorem certification, release, novelty/HHA-fit/prior-art or outside review.
+
+---
+
 **S149 update (28 October 2026; three independent green Lean gates).** `C4/Exactness.lean` gains actual `ModuleCat B` rank-one endomorphism normalisation, the all-natural-degree `regularDx_zero`, `regularDh_xx`, `regularDz_xh_hx` and `regularTerminal_identity`, plus `regularAllChoice_terminal_not_boundary` for arbitrary *categorical* endomorphism/filler data satisfying the genuine degree-two local equations. Separately, `integerShiftResolution s` reindexes the existing *actual* `ChainComplex (ModuleCat B) ℤ` by every `s : ℤ`, with unchanged differential and no truncated negative-index model. Pinned Lean successes: #40666531530 and #40667762021. These prove **component algebra and local universal constraints, not global shifted x/h/z chain morphisms, homotopy-equivalence transport or L2/L3**. Next: construct the global natural adjacent chain maps between `integerShiftResolution 0..4`, all boundary components, global nullhomotopies and all-choice transfer; then push to the entire-real metrics without finite-grid shortcuts. No novelty or HHA-fit gates.
 
 ---

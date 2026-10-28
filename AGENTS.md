@@ -1,3 +1,9 @@
+# S150 — certified shifted dg components, global chain map and full-real metric still OPEN
+
+S150 (28 October 2026): pinned Lean #40676684048 SUCCESS and integrity #40676683857 SUCCESS on 553f990b228ea9b5b072e8bba5649861f7293374. New C4/ShiftedDG.lean compiles actual all-integer shifted B-linear x, h, z COMPONENTS, the characteristic-two categorical Dx=0 equality and an explicit differential-index transport lemma. This does NOT prove global chain-map naturality, global h/z homotopy equations, globally quantified fourfold transfer, real-diagram construction, or any of the frozen numerical distances. The completion goal remains OPEN; no false theorem certification, release, novelty/HHA-fit/prior-art or outside review.
+
+---
+
 # LIVE S148 C4 H₀ AND GENUINE AUGMENTATION QUASIISO CERTIFIED — 28 October 2026
 
 S148 pinned Lean source `c22d3890b77b753476f5731cc393edc9f1baf7e5` passed all C4 and OptionD targets (#40657026979 SUCCESS; repository integrity #40657026873 SUCCESS). `C4.integerResolution_homology_zero_iso` identifies actual degree-zero Mathlib homology with the residue B-module; `C4.augmentationChainMap_quasiIso` proves the **actual induced** augmentation homology maps are isomorphisms for ALL integers. The dependent degree-zero casts close using `ModuleCat.hom_ext`, `LinearMap.ext` and `rfl`. This completes the C4 resolution/homology L1 bridge, **NOT** all-choice shifted dg x/h/z or whole-real derived/strict metric certification. S149 FUTURE, UNEXECUTED; separate owner invocation mandatory; no novelty/fit/prior-art/review, OptionD development, search, Palomar, arXiv/HHA submission, public release or contact.
