@@ -169,7 +169,8 @@ theorem shiftedDifferential_nonnegative (s n : ℤ) (hn : s ≤ n) :
   rw [integerShiftResolution_d]
   rw [integerResolution_d_transport _ _
     (show n + 1 - s = (n - s) + 1 by omega)]
-  simp [integerDifferential, hn, differential, regularCoefficientHom, Category.assoc]
+  simp [integerDifferential, hn, integerObject, differential,
+    regularCoefficientHom, eqToHom_trans, eqToHom_refl, Category.assoc]
 
 
 end C4
