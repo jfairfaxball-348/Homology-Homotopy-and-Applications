@@ -1,3 +1,11 @@
+# LIVE S149 C4 VERIFIED CATEGORY-LEVEL DG, LOCAL ALL-CHOICE FOURFOLD AND INTEGER COMPLEX REINDEXING — 28 October 2026
+
+S149 extends the pinned S148 all-integer augmented resolution by category-valued periodic dg identities, a locally universal arbitrary-endomorphism fourfold nonboundary theorem, and actual all-integer translated resolution complexes. The exact full shifted dg maps, conjugation invariance and all-real L2/L3 metrics remain OPEN.
+
+Pinned independent Lean successes: categorical/endormorphism scratch `0d671fef9523822d0fb6b2b9457ce2cdd5571b2d`, run #40666531530 (SUCCESS); direct actual reindexing scratch `4237a350ac703ecc1c136a8bfda2e0b0f9705666`, run #40667762021 (SUCCESS). These are source-specific certificates, not certificates for an untested combined tree. The S149 combined authored commit and PR/main checks are separately authoritative. No S150 execution; S150 future only by a fresh separate owner invocation. No novelty/fit/prior-art/outside review, OptionD development, Palomar, arXiv/HHA submission, release or contact.
+
+---
+
 # LIVE S148 C4 H₀ AND GENUINE AUGMENTATION QUASIISO CERTIFIED — 28 October 2026
 
 S148 pinned Lean source `c22d3890b77b753476f5731cc393edc9f1baf7e5` passed all C4 and OptionD targets (#40657026979 SUCCESS; repository integrity #40657026873 SUCCESS). `C4.integerResolution_homology_zero_iso` identifies actual degree-zero Mathlib homology with the residue B-module; `C4.augmentationChainMap_quasiIso` proves the **actual induced** augmentation homology maps are isomorphisms for ALL integers. The dependent degree-zero casts close using `ModuleCat.hom_ext`, `LinearMap.ext` and `rfl`. This completes the C4 resolution/homology L1 bridge, **NOT** all-choice shifted dg x/h/z or whole-real derived/strict metric certification. S149 FUTURE, UNEXECUTED; separate owner invocation mandatory; no novelty/fit/prior-art/review, OptionD development, search, Palomar, arXiv/HHA submission, public release or contact.

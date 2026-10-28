@@ -1,3 +1,7 @@
+**S149 update (28 October 2026; three independent green Lean gates).** `C4/Exactness.lean` gains actual `ModuleCat B` rank-one endomorphism normalisation, the all-natural-degree `regularDx_zero`, `regularDh_xx`, `regularDz_xh_hx` and `regularTerminal_identity`, plus `regularAllChoice_terminal_not_boundary` for arbitrary *categorical* endomorphism/filler data satisfying the genuine degree-two local equations. Separately, `integerShiftResolution s` reindexes the existing *actual* `ChainComplex (ModuleCat B) ℤ` by every `s : ℤ`, with unchanged differential and no truncated negative-index model. Pinned Lean successes: #40666531530 and #40667762021. These prove **component algebra and local universal constraints, not global shifted x/h/z chain morphisms, homotopy-equivalence transport or L2/L3**. Next: construct the global natural adjacent chain maps between `integerShiftResolution 0..4`, all boundary components, global nullhomotopies and all-choice transfer; then push to the entire-real metrics without finite-grid shortcuts. No novelty or HHA-fit gates.
+
+---
+
 # C4 formalisation ladder — frozen first-paper proof
 
 Pinned existing Lean leanprover/lean4:v4.35.0-rc2 and Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55. Do not modify the OptionD import graph. Build new C4 modules in the same root.
