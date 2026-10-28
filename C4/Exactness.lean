@@ -215,4 +215,31 @@ theorem augmentationChainMap_quasiIso : QuasiIso augmentationChainMap := by
     exact augmentationChainMap_quasiIsoAt_zero
   · exact augmentationChainMap_quasiIsoAt_nonzero n hn
 
+/-! ### S149 experimental actual shift on the integer resolution -/
+
+/-- The shifted term is the exact source resolution term, evaluated at n-s.
+In particular the negative and degree-zero boundary are not thrown away. -/
+def integerShiftObject (s n : ℤ) : ModuleCat B := integerObject (n - s)
+
+/-- The differential of the shifted resolution, transported only along
+the arithmetic identity n+1-s=(n-s)+1. -/
+def integerShiftDifferential (s n : ℤ) :
+    integerShiftObject s (n + 1) ⟶ integerShiftObject s n := by
+  dsimp only [integerShiftObject]
+  rw [show n + 1 - s = (n - s) + 1 by omega]
+  exact integerDifferential (n - s)
+
+/-- Genuine all-integer square-zero law, including shift boundaries. -/
+theorem integerShiftDifferential_square (s n : ℤ) :
+    integerShiftDifferential s (n + 1) ≫ integerShiftDifferential s n = 0 := by
+  have h1 : n + 1 - s = (n - s) + 1 := by omega
+  have h2 : (n + 1) + 1 - s = ((n - s) + 1) + 1 := by omega
+  simpa only [integerShiftDifferential, integerShiftObject,
+    h1, h2] using integerDifferential_square (n - s)
+
+/-- Every integer shift is a genuine complex in Ch(ModuleCat B). -/
+def integerShiftResolution (s : ℤ) : ChainComplex (ModuleCat B) ℤ :=
+  ChainComplex.of (integerShiftObject s)
+    (integerShiftDifferential s) (integerShiftDifferential_square s)
+
 end C4
