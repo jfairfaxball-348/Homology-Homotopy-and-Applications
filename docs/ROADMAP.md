@@ -1,3 +1,9 @@
+## S149 — categorical dg/fourfold and actual shifted complexes (28 October 2026)
+
+S149 extends the pinned S148 all-integer augmented resolution by category-valued periodic dg identities, a locally universal arbitrary-endomorphism fourfold nonboundary theorem, and actual all-integer translated resolution complexes. The exact full shifted dg maps, conjugation invariance and all-real L2/L3 metrics remain OPEN. Certified source-specific Lean: #40666132514 (all-degree regular-module dg equations), #40666531530 (arbitrary-endomorphism local fourfold obstruction), #40667762021 (actual translated integer complexes). Failed `eqToHom` shift-cast scratch #40666649683 and #40667349137 are NOT certificates. The final combined repository proof must independently pass its PR/main Lean and integrity jobs. L2/L3 whole-real metrics remain uncertified; the full paper theorem cannot be represented as a kernel certificate yet. S150 is FUTURE, UNEXECUTED.
+
+---
+
 ## S148 — actual H₀ and induced all-integer augmentation quasi-isomorphism certified (28 October 2026)
 
 **DONE, pinned Lean:** `integerResolution_homology_zero_iso` and `augmentationChainMap_quasiIso` certify H₀ of the actual ℤ-indexed projective resolution and the genuinely induced augmentation homology isomorphism for **every integer degree**. Successful scratch source `c22d3890b77b753476f5731cc393edc9f1baf7e5`, Lean #40657026979 SUCCESS, integrity #40657026873 SUCCESS. The degree-zero cast blocker is closed by `ModuleCat.hom_ext` / `LinearMap.ext` / `rfl`; no axioms or admitted proofs. Next S149 (FUTURE, UNEXECUTED) builds actual shifted P[0]–P[4] and global B-linear dg x/h/z with all-choice fourfold obstruction. Entire-real quantitative L2/L3 remain OPEN; no novelty, fit, prior-art, review, publication or external work.
