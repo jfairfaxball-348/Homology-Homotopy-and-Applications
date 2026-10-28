@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-28",
-  "last_completed_session": "S150",
-  "recommended_next_session": "S151",
+  "last_completed_session": "S151",
+  "recommended_next_session": "S152",
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
     "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
@@ -14,10 +14,10 @@
     "full_paper_theorem_lean_certified": false
   },
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S150 certified genuine x/h/z components on all-integer shifted C4 complexes and typed index transport; global chain-map naturality, h/z dg equations and real L2/L3 metrics remain OPEN.",
+  "headline": "S151 pinned Lean certifies all shifted x-chain-map boundary squares at n≤s and vanishing components; positive n≥s+1 x naturality casts and the full 5-stage whole-real dg/metric theorem remain OPEN.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "C4_FROZEN_S150_SHIFTED_COMPONENTS_CERTIFIED_GLOBAL_DG_AND_REAL_METRICS_OPEN",
-  "active_campaign": "C4_FIRST_PAPER_S150_CERTIFIED_COMPONENTS_FULL_THEOREM_OPEN",
+  "headline_status": "C4_FROZEN_S151_CERTIFIED_BOUNDARY_NATURALITY_POSITIVE_GLOBAL_X_AND_REAL_METRICS_OPEN",
+  "active_campaign": "C4_FIRST_PAPER_S151_BOUNDARY_CERTIFIED_GLOBAL_COMPLETION_OUTSTANDING",
   "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; no formal certificate of the metric; no novelty or HHA significance gate in active roadmap.",
   "stages": [
     {
@@ -2695,5 +2695,22 @@
     ],
     "external_actions": "NOT_AUTHORISED",
     "next": "S149 FUTURE, UNEXECUTED"
+  },
+  "s151_checkpoint": {
+    "entry_main": "5c1764e0661837ec8d1b7f20665d08d583d91915",
+    "verified_boundary_source": "b6e061be604dd6ae1bf0945154a0f77e679987d0",
+    "verified_lean_run": 40682347499,
+    "verified_integrity_run": 40682347435,
+    "formalised": [
+      "globalXComponent_naturality_at_boundary for all integers s and n ≤ s",
+      "globalXComponent_zero_below for all integers s and n ≤ s"
+    ],
+    "outstanding": [
+      "positive-degree global X naturality eqToHom casts",
+      "genuine global h/z nullhomotopies",
+      "global fourfold defining-system and equivalence transport",
+      "entire real F diagrams, derived and strict interleaving metric proof"
+    ],
+    "full_theorem_lean_certified": false
   }
 }

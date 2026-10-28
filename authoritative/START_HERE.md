@@ -1,3 +1,9 @@
+# S151 — certified full integer truncation-boundary naturality, positive global dg remains OPEN (28 October 2026)
+
+Pinned C4 Lean source `b6e061be604dd6ae1bf0945154a0f77e679987d0` passed build #40682347499 and integrity #40682347435. `C4.globalXComponent_naturality_at_boundary` proves the genuine shifted chain-map naturality square for **every integer shift s and every n ≤ s**; `C4.globalXComponent_zero_below` proves the actual component vanishes when its target degree is zero. This is a bona fide homomorphism-of-shifted-complexes **boundary** statement, NOT a complete global chain map. Eight exploratory positive-degree x naturality builds failed on dependent `eqToHom` casts/normalization; no failed source was promoted. Complete x naturality, global h/z, full fourfold invariance, L2/L3 and all real metric equalities remain UNPROVED. No publication/novelty/HHA-fit/prior-art/review steps.
+
+---
+
 # S150 — certified shifted dg components, global chain map and full-real metric still OPEN
 
 S150 (28 October 2026): pinned Lean #40676684048 SUCCESS and integrity #40676683857 SUCCESS on 553f990b228ea9b5b072e8bba5649861f7293374. New C4/ShiftedDG.lean compiles actual all-integer shifted B-linear x, h, z COMPONENTS, the characteristic-two categorical Dx=0 equality and an explicit differential-index transport lemma. This does NOT prove global chain-map naturality, global h/z homotopy equations, globally quantified fourfold transfer, real-diagram construction, or any of the frozen numerical distances. The completion goal remains OPEN; no false theorem certification, release, novelty/HHA-fit/prior-art or outside review.
