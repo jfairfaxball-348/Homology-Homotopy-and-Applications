@@ -177,12 +177,34 @@ theorem shiftedDifferential_regular (s n : ℤ) (hn : s ≤ n) :
       regularCoefficientHom (Periodic.d (n - s).toNat) ≫
       eqToHom (integerObject_nonnegative (n - s) (by omega)).symm := by
   have hp : 0 ≤ n - s := by omega
-  have hEq : n + 1 - s = (n - s) + 1 := by omega
-  apply ModuleCat.hom_ext
-  apply LinearMap.ext
-  intro a
-  simp [integerShiftResolution, integerResolution, ChainComplex.of_d,
-    integerDifferential, hp, hEq, integerObject,
-    differential, regularCoefficientHom, coefficientLinear]
+  have hp1 : 0 ≤ (n - s) + 1 := by omega
+  have hi : 0 ≤ n + 1 - s := by omega
+  have heq : n + 1 - s = (n - s) + 1 := by omega
+  have hc := integerObject_cast_commutes (n + 1 - s) ((n - s) + 1)
+    heq hi hp1
+  have hsand :
+      (eqToHom (congrArg integerObject heq) ≫
+        eqToHom (integerObject_nonnegative ((n - s) + 1) hp1)) ≫
+          regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+          eqToHom (integerObject_nonnegative (n - s) hp).symm =
+      eqToHom (integerObject_nonnegative (n + 1 - s) hi) ≫
+        regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+        eqToHom (integerObject_nonnegative (n - s) hp).symm := by
+    simpa only [Category.assoc] using
+      congrArg (fun f : integerObject (n + 1 - s) ⟶ ModuleCat.of B B =>
+        f ≫ regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+          eqToHom (integerObject_nonnegative (n - s) hp).symm) hc
+  calc
+    (integerShiftResolution s).d (n + 1) n =
+        eqToHom (congrArg integerObject heq) ≫
+          integerDifferential (n - s) := by
+      exact integerResolution_d_transport _ _ heq
+    _ = (eqToHom (congrArg integerObject heq) ≫
+        eqToHom (integerObject_nonnegative ((n - s) + 1) hp1)) ≫
+        regularCoefficientHom (Periodic.d (n - s).toNat) ≫
+        eqToHom (integerObject_nonnegative (n - s) hp).symm := by
+      simp [integerDifferential, hp, differential,
+        regularCoefficientHom, Category.assoc]
+    _ = _ := hsand
 
 end C4
