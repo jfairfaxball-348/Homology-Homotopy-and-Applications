@@ -170,21 +170,19 @@ theorem globalXComponent_regular (s n : ℤ) (hn : s + 1 ≤ n) :
 
 /-! ### S154: genuine positive shifted differential cast normalization -/
 
-/-- The genuine shifted differential in all nonnegative source degrees,
-expressed through the canonical regular-module transports. -/
+/-- Actual positive shifted differential in canonical regular-module form. -/
 theorem shiftedDifferential_regular (s n : ℤ) (hn : s ≤ n) :
     (integerShiftResolution s).d (n + 1) n =
       eqToHom (integerObject_nonnegative (n + 1 - s) (by omega)) ≫
       regularCoefficientHom (Periodic.d (n - s).toNat) ≫
       eqToHom (integerObject_nonnegative (n - s) (by omega)).symm := by
   have hp : 0 ≤ n - s := by omega
-  have hp1 : 0 ≤ (n - s) + 1 := by omega
-  have hi : 0 ≤ n + 1 - s := by omega
-  have heq : n + 1 - s = (n - s) + 1 := by omega
-  change (ChainComplex.of.d integerObject integerDifferential
-    (n + 1 - s) (n - s)) = _
-  rw [heq]
-  rw [ChainComplex.of_d]
-  simp [integerDifferential, hp, differential, regularCoefficientHom]
+  have hEq : n + 1 - s = (n - s) + 1 := by omega
+  apply ModuleCat.hom_ext
+  apply LinearMap.ext
+  intro a
+  simp [integerShiftResolution, integerResolution, ChainComplex.of_d,
+    integerDifferential, hp, hEq, integerObject,
+    differential, regularCoefficientHom, coefficientLinear]
 
 end C4
