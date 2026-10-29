@@ -642,4 +642,41 @@ theorem globalHFamily_shape_zero (s i j : ℤ)
     exact h.symm
   simp [globalHFamily, hnot]
 
+
+/-- The authentic degreewise component of the twofold x chain map. -/
+theorem globalXSquareChainMap_f (s i : ℤ) :
+    (globalXSquareChainMap s).f i =
+      (globalXComponent s i ≫ globalXComponent (s + 1) i) ≫
+        eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X i)
+          (by omega : s + 1 + 1 = s + 2)) := by
+  rfl
+
+/-- Mathlib's target-differential half of the actual homotopy equation. -/
+theorem globalHFamily_prevD (s i : ℤ) :
+    prevD i (globalHFamily s) =
+      globalHComponent s i ≫
+        (integerShiftResolution (s + 2)).d (i + 1) i := by
+  have hp : (ComplexShape.down ℤ).prev i = i + 1 :=
+    (ComplexShape.down ℤ).prev_eq' (by change i + 1 = i + 1; rfl)
+  change globalHFamily s i ((ComplexShape.down ℤ).prev i) ≫
+    (integerShiftResolution (s + 2)).d ((ComplexShape.down ℤ).prev i) i = _
+  rw [hp, globalHFamily_at_successor]
+
+/-- Mathlib's source-differential half, with nondefinitional predecessor
+degree transported at the final object. -/
+theorem globalHFamily_dNext (s i : ℤ) :
+    dNext i (globalHFamily s) =
+      ((integerShiftResolution s).d i (i - 1) ≫
+        globalHComponent s (i - 1)) ≫
+          eqToHom (congrArg
+            (fun k : ℤ => (integerShiftResolution (s + 2)).X k)
+            (by omega : i - 1 + 1 = i)) := by
+  have hn : (ComplexShape.down ℤ).next i = i - 1 :=
+    (ComplexShape.down ℤ).next_eq' (by change i - 1 + 1 = i; omega)
+  change (integerShiftResolution s).d i ((ComplexShape.down ℤ).next i) ≫
+    globalHFamily s ((ComplexShape.down ℤ).next i) i = _
+  rw [hn]
+  have hh : i = (i - 1) + 1 := by omega
+  simp [globalHFamily, hh, Category.assoc]
+
 end C4
