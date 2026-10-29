@@ -682,25 +682,38 @@ theorem globalHFamily_dNext (s i : ℤ) :
   simp only [dite_eq_left hh, Category.assoc]
 
 
-/-- The actual Mathlib-indexed nullhomotopy equation of the x-square composite,
-obtained from S157's global Dh=x² identity at all integer degrees. -/
+
+/-- S157's integer identity aligned with the genuinely indexed Mathlib
+homotopy equation at a successor degree. -/
+theorem globalHFamily_comm_at_successor (s n : ℤ) :
+    (globalXSquareChainMap s).f (n + 1) =
+      dNext (n + 1) (globalHFamily s) +
+      prevD (n + 1) (globalHFamily s) := by
+  rw [globalXSquareChainMap_f s (n + 1),
+    globalHFamily_dNext s (n + 1),
+    globalHFamily_prevD s (n + 1)]
+  have hh := globalHComponent_identity s n
+  convert hh.symm using 1 <;>
+    simp only [integerShiftResolution, integerResolution,
+      show n + 1 - 1 = n by omega, Category.assoc] <;>
+    congr 1
+
+/-- The all-integer genuine Mathlib-indexed homotopy identity. -/
 theorem globalHFamily_comm (s i : ℤ) :
     (globalXSquareChainMap s).f i =
       dNext i (globalHFamily s) + prevD i (globalHFamily s) := by
-  rw [globalXSquareChainMap_f s i, globalHFamily_dNext s i,
-    globalHFamily_prevD s i]
-  have hh := globalHComponent_identity s (i - 1)
-  convert hh.symm using 1 <;>
-    simp only [integerShiftResolution, integerResolution, Category.assoc] <;>
-    congr 1
+  have he : i - 1 + 1 = i := by omega
+  exact Eq.mp (congrArg (fun k : ℤ =>
+    (globalXSquareChainMap s).f k =
+      dNext k (globalHFamily s) + prevD k (globalHFamily s)) he)
+    (globalHFamily_comm_at_successor s (i - 1))
 
-/-- Genuine Mathlib chain homotopy, on all integers, from the twofold
-shifted x chain map to the zero chain map. -/
+/-- Genuine Mathlib chain homotopy from the twofold x chain map to zero. -/
 noncomputable def globalXSquareNullHomotopy (s : ℤ) :
     Homotopy (globalXSquareChainMap s) 0 where
   hom := globalHFamily s
   zero i j hij := globalHFamily_shape_zero s i j hij
   comm i := by
-    simpa only [add_zero] using globalHFamily_comm s i
+    simpa only [HomologicalComplex.zero_f, add_zero] using globalHFamily_comm s i
 
 end C4
