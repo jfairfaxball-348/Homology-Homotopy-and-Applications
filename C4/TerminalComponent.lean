@@ -65,10 +65,8 @@ theorem GlobalFourfoldDefiningSystem.no_tertiary_filler
   rw [hk] at hc
   have hi : s + 2 - 1 = s + 1 := by omega
   rw [hi] at hc
-  apply q.terminal_not_boundary
-    (w.w (s + 1) (s + 4)) (w.w (s + 2) (s + 5))
-  simpa only [GlobalFourfoldDefiningSystem.terminalComponent_eq,
-    GlobalFourfoldDefiningSystem.toFiveStageSecondaryData,
-    GlobalFourfoldDefiningSystem.toPrimaryData] using hc
+  rw [GlobalFourfoldDefiningSystem.terminalComponent_eq q] at hc
+  exact (q.terminal_not_boundary
+    (w.w (s + 1) (s + 4)) (w.w (s + 2) (s + 5))) hc
 
 end C4
