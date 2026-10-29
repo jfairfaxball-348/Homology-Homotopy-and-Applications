@@ -1,5 +1,5 @@
 module
-public import C4.CanonicalGlobal
+public import C4.RealDiagram
 
 @[expose] public section
 
