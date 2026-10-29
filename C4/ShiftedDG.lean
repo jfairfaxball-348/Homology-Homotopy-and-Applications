@@ -490,6 +490,49 @@ theorem regularCastFourPathsExtra
   cases ht
   simpa using hab
 
+
+/-- Positive shifted differential with arbitrary propositionally adjacent
+source and target indices, avoiding dependent transport of successors. -/
+theorem shiftedDifferential_regular_indices (s i j : ℤ)
+    (hij : i = j + 1) (hj : s ≤ j) :
+    (integerShiftResolution s).d i j =
+      eqToHom (integerObject_nonnegative (i - s) (by omega)) ≫
+      regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+      eqToHom (integerObject_nonnegative (j - s) (by omega)).symm := by
+  have hp : 0 ≤ j - s := by omega
+  have hp1 : 0 ≤ (j - s) + 1 := by omega
+  have hi : 0 ≤ i - s := by omega
+  have heq : i - s = (j - s) + 1 := by omega
+  have hc := integerObject_cast_commutes (i - s) ((j - s) + 1)
+    heq hi hp1
+  have hsand :
+      (eqToHom (congrArg integerObject heq) ≫
+        eqToHom (integerObject_nonnegative ((j - s) + 1) hp1)) ≫
+          regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+          eqToHom (integerObject_nonnegative (j - s) hp).symm =
+      eqToHom (integerObject_nonnegative (i - s) hi) ≫
+        regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+        eqToHom (integerObject_nonnegative (j - s) hp).symm := by
+    simpa only [Category.assoc] using
+      congrArg (fun f : integerObject (i - s) ⟶ ModuleCat.of B B =>
+        f ≫ regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+          eqToHom (integerObject_nonnegative (j - s) hp).symm) hc
+  change (ChainComplex.of.d integerObject integerDifferential (i - s) (j - s)) =
+      eqToHom (integerObject_nonnegative (i - s) hi) ≫
+      regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+      eqToHom (integerObject_nonnegative (j - s) hp).symm
+  calc
+    (ChainComplex.of.d integerObject integerDifferential (i - s) (j - s)) =
+        eqToHom (congrArg integerObject heq) ≫ integerDifferential (j - s) := by
+      exact integerResolution_d_transport _ _ heq
+    _ = (eqToHom (congrArg integerObject heq) ≫
+        eqToHom (integerObject_nonnegative ((j - s) + 1) hp1)) ≫
+        regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+        eqToHom (integerObject_nonnegative (j - s) hp).symm := by
+      simp [integerDifferential, hj, hp, differential,
+        regularCoefficientHom, Category.assoc]
+    _ = _ := hsand
+
 /-- Genuine degree-two shifted secondary homotopy identity on all integers,
 including both the truncation boundary and positive regular components. -/
 theorem globalZComponent_identity (s n : ℤ) :
@@ -516,20 +559,17 @@ theorem globalZComponent_identity (s n : ℤ) :
     have hxa : ((n + 1) - ((s + 2) + 1)).toNat = m := by dsimp [m]; omega
     have haDiff :
         (integerShiftResolution (s + 3)).d (n + 2) (n + 1) =
-          eqToHom (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega)) ≫
-          regularCoefficientHom (Periodic.d ((n + 1) - (s + 3)).toNat) ≫
-          eqToHom (integerObject_nonnegative ((n + 1) - (s + 3)) (by omega)).symm := by
-      have hi : n + 1 + 1 = n + 2 := by omega
-      have hd := shiftedDifferential_regular (s + 3) (n + 1) (by omega)
-      simpa only [hi] using hd
+          eqToHom (integerObject_nonnegative (n + 2 - (s + 3)) (by omega)) ≫
+          regularCoefficientHom (Periodic.d (n + 1 - (s + 3)).toNat) ≫
+          eqToHom (integerObject_nonnegative (n + 1 - (s + 3)) (by omega)).symm := by
+      exact shiftedDifferential_regular_indices (s + 3) (n + 2) (n + 1)
+        (by omega) (by omega)
     have hbDiff :
         (integerShiftResolution s).d n (n - 1) =
           eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
-          regularCoefficientHom (Periodic.d ((n - 1) - s).toNat) ≫
-          eqToHom (integerObject_nonnegative ((n - 1) - s) (by omega)).symm := by
-      have hi : n - 1 + 1 = n := by omega
-      have hd := shiftedDifferential_regular s (n - 1) (by omega)
-      simpa only [hi] using hd
+          regularCoefficientHom (Periodic.d (n - 1 - s).toNat) ≫
+          eqToHom (integerObject_nonnegative (n - 1 - s) (by omega)).symm := by
+      exact shiftedDifferential_regular_indices s n (n - 1) (by omega) (by omega)
     have hsquare := regularCastFourPathsExtra
       (integerObject_nonnegative (n - s) (by omega))
       (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega))
