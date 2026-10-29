@@ -482,6 +482,51 @@ theorem globalHComponent_identity (s n : ℤ) :
     exact hsquare
 
 
+
+/-- Regular-module form for a shifted differential with *any* equality
+proof that the input index is the successor of the output index. -/
+theorem shiftedDifferential_regular_any
+    (s i j : ℤ) (h : i = j + 1) (hj : s ≤ j) :
+    (integerShiftResolution s).d i j =
+      eqToHom (integerObject_nonnegative (i - s) (by omega)) ≫
+      regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+      eqToHom (integerObject_nonnegative (j - s) (by omega)).symm := by
+  have hp : 0 ≤ j - s := by omega
+  have hp1 : 0 ≤ (j - s) + 1 := by omega
+  have hi : 0 ≤ i - s := by omega
+  have heq : i - s = (j - s) + 1 := by omega
+  have hc := integerObject_cast_commutes (i - s) ((j - s) + 1)
+    heq hi hp1
+  have hsand :
+      (eqToHom (congrArg integerObject heq) ≫
+        eqToHom (integerObject_nonnegative ((j - s) + 1) hp1)) ≫
+          regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+          eqToHom (integerObject_nonnegative (j - s) hp).symm =
+      eqToHom (integerObject_nonnegative (i - s) hi) ≫
+        regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+        eqToHom (integerObject_nonnegative (j - s) hp).symm := by
+    simpa only [Category.assoc] using
+      congrArg (fun f : integerObject (i - s) ⟶ ModuleCat.of B B =>
+        f ≫ regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+          eqToHom (integerObject_nonnegative (j - s) hp).symm) hc
+  change (ChainComplex.of.d integerObject integerDifferential
+    (i - s) (j - s)) =
+      eqToHom (integerObject_nonnegative (i - s) hi) ≫
+      regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+      eqToHom (integerObject_nonnegative (j - s) hp).symm
+  calc
+    (ChainComplex.of.d integerObject integerDifferential (i - s) (j - s)) =
+        eqToHom (congrArg integerObject heq) ≫
+          integerDifferential (j - s) := by
+      exact integerResolution_d_transport _ _ heq
+    _ = (eqToHom (congrArg integerObject heq) ≫
+        eqToHom (integerObject_nonnegative ((j - s) + 1) hp1)) ≫
+        regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+        eqToHom (integerObject_nonnegative (j - s) hp).symm := by
+      simp [integerDifferential, hp, hp1, differential,
+        regularCoefficientHom, Category.assoc]
+    _ = _ := hsand
+
 /-- Transport a four-path regular-module identity with three separate
 final degree-shift equality casts, without identifying them definitionally. -/
 theorem regularCastFourPathsFinal
@@ -543,20 +588,6 @@ theorem globalZComponent_identity (s n : ℤ) :
     have hd : ((n - 1) - (s + 1)).toNat = m := rfl
     have he : ((n + 1) - ((s + 2) + 1)).toNat = m := by dsimp [m]; omega
     have hf : (n - ((s + 1) + 1)).toNat = m := by dsimp [m]; omega
-    have hd1 :
-        (integerShiftResolution (s + 3)).d (n + 2) (n + 1) =
-          eqToHom (integerObject_nonnegative (((n + 1) + 1) - (s + 3)) (by omega)) ≫
-            regularCoefficientHom (Periodic.d ((n + 1 - (s + 3)).toNat)) ≫
-            eqToHom (integerObject_nonnegative ((n + 1) - (s + 3)) (by omega)).symm := by
-      simpa only [show (n + 1) + 1 = n + 2 by omega] using
-        shiftedDifferential_regular (s + 3) (n + 1) (by omega)
-    have hd2 :
-        (integerShiftResolution s).d n (n - 1) =
-          eqToHom (integerObject_nonnegative (((n - 1) + 1) - s) (by omega)) ≫
-            regularCoefficientHom (Periodic.d (((n - 1) - s).toNat)) ≫
-            eqToHom (integerObject_nonnegative ((n - 1) - s) (by omega)).symm := by
-      simpa only [show (n - 1) + 1 = n by omega] using
-        shiftedDifferential_regular s (n - 1) (by omega)
     have hsquare := regularCastFourPathsFinal
       (integerObject_nonnegative (n - s) (by omega))
       (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega))
@@ -582,8 +613,10 @@ theorem globalZComponent_identity (s n : ℤ) :
       (regularCoefficientHom (Periodic.x (m + 1)))
       (regularCoefficientHom (Periodic.h m))
       (regularDz_xh_hx m)
-    rw [globalZComponent_regular s n (by omega), hd1,
-      hd2, globalZComponent_regular s (n - 1) (by omega),
+    rw [globalZComponent_regular s n (by omega),
+      shiftedDifferential_regular_any (s + 3) (n + 2) (n + 1) (by omega) (by omega),
+      shiftedDifferential_regular_any s n (n - 1) (by omega) (by omega),
+      globalZComponent_regular s (n - 1) (by omega),
       globalHComponent_regular s n (by omega),
       globalXComponent_regular (s + 2) (n + 1) (by omega),
       globalXComponent_regular s n (by omega),
