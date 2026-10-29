@@ -625,4 +625,37 @@ theorem globalZComponent_identity (s n : ℤ) :
       hd, he, hf, Category.assoc] at hsquare ⊢
     exact hsquare
 
+
+/-! ### S157: actual nullhomotopy packaging for the twofold adjacent map -/
+
+/-- The actual twice-composed adjacent chain map between shifted resolutions. -/
+def globalXSquared (s : ℤ) :
+    integerShiftResolution s ⟶ integerShiftResolution (s + 2) :=
+  (globalXChainMap s ≫ globalXChainMap (s + 1)) ≫
+    eqToHom (congrArg integerShiftResolution (by omega : s + 1 + 1 = s + 2))
+
+/-- Extract the actual degree-indexed component from the twice-composed
+chain morphism, including the non-definitional final shift transport. -/
+theorem globalXSquared_component (s i : ℤ) :
+    (globalXSquared s).f i =
+      (globalXComponent s i ≫ globalXComponent (s + 1) i) ≫
+        eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X i)
+          (by omega : s + 1 + 1 = s + 2)) := by
+  simp [globalXSquared, globalXChainMap]
+
+/-- The degree-one homotopy family, supported precisely in the
+single successor degree, with actual target-object transports. -/
+def globalHFamily (s i j : ℤ) :
+    (integerShiftResolution s).X i ⟶
+      (integerShiftResolution (s + 2)).X j := by
+  by_cases h : j = i + 1
+  · exact globalHComponent s i ≫
+      eqToHom (congrArg (integerShiftResolution (s + 2)).X h.symm)
+  · exact 0
+
+theorem globalHFamily_next (s i : ℤ) :
+    globalHFamily s i (i + 1) = globalHComponent s i := by
+  simp [globalHFamily]
+
+
 end C4
