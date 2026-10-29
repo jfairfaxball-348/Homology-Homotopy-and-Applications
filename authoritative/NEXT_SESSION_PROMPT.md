@@ -1,5 +1,7 @@
 # S168 — prove BOTH genuine transferred secondary differential coherences and tertiary comparison (FUTURE, UNEXECUTED)
 
+After a genuinely closed conversation, a separate owner invocation is required to begin S168. During an active owner-authorised continuous-completion conversation, routine verified checkpoints do not require another invocation.
+
 Continue the frozen C4 first-paper target only. This is execution guidance, not an invitation to stop at a small interface or a permission gate inside an already owner-authorised continuous-completion conversation. Publication, release and contact still require independent permission.
 
 Pin live main SHA/tree; verify S167 ordinary two-parent merge and exact successful PR/main pinned Lean and integrity checks. Read `AGENTS.md`, `authoritative/{STATE.json,START_HERE.md}`, `sessions/S167/{PROOF,BUILD,CLOSEOUT}.md`, `formal/C4_SECONDARY_TRANSFER_FORMULA.md`, `formal/C4_COMPLETION_REVIEW.md`, and the actual `C4/{HomotopyTransfer,FiveStageTransfer,FiveStageSecondary,TerminalComponent,SecondaryTransferAlgebra,HomogeneousFamily,HomogeneousCoherence,SecondaryTransferCandidates}.lean`.
