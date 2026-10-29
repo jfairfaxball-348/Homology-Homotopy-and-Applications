@@ -122,4 +122,106 @@ theorem PositiveShiftChoice.terminal_not_boundary
     q.a1 q.a2 q.b1 q.c1 q.h1 q.h2 q.j1 q.j2 q.k1 q.k2 q.l1 q.f1 q.f2
     q.ha1 q.hb q.hc q.hA q.hH q.hJ q.hK
 
+
+/-! ### Arbitrary isomorphic regular-module presentations -/
+
+/-- A coefficient endomorphism transported along an arbitrary *categorical
+isomorphism*, not only a definitional/equality cast. -/
+def isoCoefficient {P : ModuleCat B}
+    (e : P ≅ ModuleCat.of B B) (b : B) : P ⟶ P :=
+  e.hom ≫ regularCoefficientHom b ≫ e.inv
+
+/-- Transport an arbitrary endomorphism of a regular-module presentation
+back to the standard object. -/
+def isoConj {P : ModuleCat B}
+    (e : P ≅ ModuleCat.of B B) (f : P ⟶ P) :
+    ModuleCat.of B B ⟶ ModuleCat.of B B :=
+  e.inv ≫ f ≫ e.hom
+
+@[simp]
+theorem isoConj_add {P : ModuleCat B}
+    (e : P ≅ ModuleCat.of B B) (f g : P ⟶ P) :
+    isoConj e (f + g) = isoConj e f + isoConj e g := by
+  simp [isoConj, Preadditive.add_comp, Preadditive.comp_add]
+
+@[simp]
+theorem isoConj_comp {P : ModuleCat B}
+    (e : P ≅ ModuleCat.of B B) (f g : P ⟶ P) :
+    isoConj e (f ≫ g) = isoConj e f ≫ isoConj e g := by
+  simp [isoConj, Category.assoc]
+
+@[simp]
+theorem isoConj_coefficient {P : ModuleCat B}
+    (e : P ≅ ModuleCat.of B B) (b : B) :
+    isoConj e (isoCoefficient e b) = regularCoefficientHom b := by
+  simp [isoConj, isoCoefficient, Category.assoc]
+
+@[simp]
+theorem isoConj_zero {P : ModuleCat B}
+    (e : P ≅ ModuleCat.of B B) :
+    isoConj e 0 = 0 := by
+  simp [isoConj]
+
+/-- The arbitrary-choice obstruction survives an *arbitrary isomorphism*
+of positive projective terms, which is stronger than literal equality of
+their presentation. This does not assert preservation under general
+chain-homotopy equivalences or quasi-isomorphism zigzags. -/
+theorem isoAllChoice_terminal_not_boundary
+    {P : ModuleCat B} (e : P ≅ ModuleCat.of B B)
+    (a1 a2 b1 c1 h1 h2 j1 j2 k1 k2 l1 f1 f2 : P ⟶ P)
+    (ha1 : (regularEval (isoConj e a1)).c0 = 1)
+    (hb : (regularEval (isoConj e b1)).c0 = 1)
+    (hc : (regularEval (isoConj e c1)).c0 = 1)
+    (hA :
+      a2 ≫ isoCoefficient e C4.t +
+      a1 ≫ isoCoefficient e C4.t3 = 0)
+    (hH :
+      h2 ≫ isoCoefficient e C4.t +
+      h1 ≫ isoCoefficient e C4.t3 = a2 ≫ b1)
+    (hJ :
+      j2 ≫ isoCoefficient e C4.t +
+      j1 ≫ isoCoefficient e C4.t3 = a2 ≫ b1)
+    (hK :
+      k2 ≫ isoCoefficient e C4.t +
+      k1 ≫ isoCoefficient e C4.t3 =
+      h2 ≫ c1 + a2 ≫ j1) :
+    (k2 ≫ c1 + (j2 ≫ h1 + a2 ≫ l1)) ≠
+      (f2 ≫ isoCoefficient e C4.t +
+       f1 ≫ isoCoefficient e C4.t3) := by
+  have hA' :
+      isoConj e a2 ≫ regularCoefficientHom C4.t +
+      isoConj e a1 ≫ regularCoefficientHom C4.t3 = 0 := by
+    have hh := congrArg (isoConj e) hA
+    simpa only [isoConj_add, isoConj_comp, isoConj_coefficient,
+      isoConj_zero] using hh
+  have hH' :
+      isoConj e h2 ≫ regularCoefficientHom C4.t +
+      isoConj e h1 ≫ regularCoefficientHom C4.t3 =
+      isoConj e a2 ≫ isoConj e b1 := by
+    have hh := congrArg (isoConj e) hH
+    simpa only [isoConj_add, isoConj_comp, isoConj_coefficient] using hh
+  have hJ' :
+      isoConj e j2 ≫ regularCoefficientHom C4.t +
+      isoConj e j1 ≫ regularCoefficientHom C4.t3 =
+      isoConj e a2 ≫ isoConj e b1 := by
+    have hh := congrArg (isoConj e) hJ
+    simpa only [isoConj_add, isoConj_comp, isoConj_coefficient] using hh
+  have hK' :
+      isoConj e k2 ≫ regularCoefficientHom C4.t +
+      isoConj e k1 ≫ regularCoefficientHom C4.t3 =
+      isoConj e h2 ≫ isoConj e c1 +
+      isoConj e a2 ≫ isoConj e j1 := by
+    have hh := congrArg (isoConj e) hK
+    simpa only [isoConj_add, isoConj_comp, isoConj_coefficient] using hh
+  have hne := regularAllChoice_terminal_not_boundary
+    (isoConj e a1) (isoConj e a2) (isoConj e b1) (isoConj e c1)
+    (isoConj e h1) (isoConj e h2) (isoConj e j1) (isoConj e j2)
+    (isoConj e k1) (isoConj e k2) (isoConj e l1)
+    (isoConj e f1) (isoConj e f2) ha1 hb hc hA' hH' hJ' hK'
+  intro heq
+  apply hne
+  have hh := congrArg (isoConj e) heq
+  simpa only [isoConj_add, isoConj_comp, isoConj_coefficient] using hh
+
+
 end C4
