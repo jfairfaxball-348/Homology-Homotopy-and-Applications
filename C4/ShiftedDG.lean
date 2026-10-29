@@ -850,4 +850,31 @@ theorem globalTerminalComponent_regular (s n : ℤ) (hn : s + 2 ≤ n) :
     Category.assoc] at hsquare ⊢
   exact hsquare
 
+/-- The identity on the regular C4 algebra is genuinely nonzero as a
+categorical B-module endomorphism. -/
+theorem regularModule_identity_nonzero :
+    (𝟙 (ModuleCat.of B B)) ≠ 0 := by
+  intro h
+  have he := congrArg regularEval h
+  have hh : (1 : B) = 0 := by
+    simpa only [← regularCoefficientHom_one, regularEval_coefficient,
+      regularEval_zero] using he
+  exact (by decide : (1 : B) ≠ 0) hh
+
+/-- The positive-degree globally shifted selected fourfold terminal is
+an actual nonzero morphism; this does NOT yet prove the universal all-choice
+obstruction or nonboundary under arbitrary homotopy-equivalence transfer. -/
+theorem globalTerminalComponent_nonzero (s n : ℤ) (hn : s + 2 ≤ n) :
+    globalTerminalComponent s n ≠ 0 := by
+  rw [globalTerminalComponent_regular s n hn]
+  intro hz
+  let ep := integerObject_nonnegative (n - s) (by omega)
+  let es := integerObject_nonnegative ((n + 2) - (s + 4)) (by omega)
+  have hc := congrArg
+    (fun f : integerObject (n - s) ⟶ integerObject ((n + 2) - (s + 4)) =>
+      eqToHom ep.symm ≫ f ≫ eqToHom es) hz
+  have hid : (𝟙 (ModuleCat.of B B)) = 0 := by
+    simpa [Category.assoc] using hc
+  exact regularModule_identity_nonzero hid
+
 end C4
