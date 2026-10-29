@@ -442,7 +442,8 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalHComponent_regular s n (by omega),
       globalXComponent_regular s (n + 1) (by omega),
       globalXComponent_regular (s + 1) (n + 1) (by omega)]
-    simpa only [integerShiftResolution, integerResolution, m, ha, hb', hc, hd, he,
+    simpa [integerShiftResolution, integerResolution,
+      integerObject_nonnegative, integerObject, m, ha, hb', hc, hd, he,
       Category.assoc] using hsquare
 
 end C4
