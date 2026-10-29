@@ -683,10 +683,12 @@ theorem globalXSquared_eq_nullHomotopicMap (s : ℤ) :
   simpa [globalHFamily, heq, add_comm, Category.assoc] using hh.symm
 
 /-- Actual indexed chain homotopy from x composed with x to zero. -/
-def globalXSquaredNullHomotopy (s : ℤ) : Homotopy (globalXSquared s) 0 := by
-  rw [globalXSquared_eq_nullHomotopicMap]
-  exact Homotopy.nullHomotopy (globalHFamily s)
-    (globalHFamily_zero s)
+def globalXSquaredNullHomotopy (s : ℤ) : Homotopy (globalXSquared s) 0 where
+  hom := globalHFamily s
+  zero := globalHFamily_zero s
+  comm i := by
+    simpa only [← globalXSquared_eq_nullHomotopicMap s] using
+      (Homotopy.nullHomotopy (globalHFamily s) (globalHFamily_zero s)).comm i
 
 
 

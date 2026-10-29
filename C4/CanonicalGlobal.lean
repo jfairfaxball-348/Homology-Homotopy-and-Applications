@@ -17,6 +17,16 @@ namespace C4
 
 open CategoryTheory
 
+/-- Change the endpoints of a homotopy without casting its data family.
+The endpoint equations affect only the commutativity proof. -/
+def relabelHomotopy
+    {C D : ChainComplex (ModuleCat B) ℤ}
+    {f g f' g' : C ⟶ D} (h : Homotopy f g)
+    (hf : f' = f) (hg : g' = g) : Homotopy f' g' where
+  hom := h.hom
+  zero := h.zero
+  comm i := by simpa only [hf, hg] using h.comm i
+
 /-- The second adjacent genuine chain map, with target exactly s+2
 rather than the mathematically equal expression (s+1)+1. -/
 def canonicalX12 (s : ℤ) :
@@ -27,9 +37,9 @@ def canonicalX12 (s : ℤ) :
 /-- The first canonical pair is genuinely nullhomotopic at all integer
 degrees, with exactly the target indexing required by global choice. -/
 def canonicalPrimary02 (s : ℤ) :
-    Homotopy (globalXChainMap s ≫ canonicalX12 s) 0 := by
-  simpa only [canonicalX12, globalXSquared, Category.assoc] using
-    globalXSquaredNullHomotopy s
+    Homotopy (globalXChainMap s ≫ canonicalX12 s) 0 :=
+  relabelHomotopy (globalXSquaredNullHomotopy s)
+    (by simp only [canonicalX12, globalXSquared, Category.assoc]) rfl
 
 /-- Cancel the actual categorical transports to the regular module for a
 positive component of a genuine adjacent global chain map. -/
@@ -170,10 +180,9 @@ def canonicalPrimary13 (s : ℤ) :
     simpa only [canonicalX12, canonicalX23] using
       globalXSquared_stage_transport (s + 1) (s + 2) (s + 3)
         h₁ h₂ h₃
-  rw [heq]
-  simpa using
-    (globalXSquaredNullHomotopy (s + 1)).compRight
-      (eqToHom (congrArg integerShiftResolution h₃))
+  exact relabelHomotopy
+    ((globalXSquaredNullHomotopy (s + 1)).compRight
+      (eqToHom (congrArg integerShiftResolution h₃))) heq (by simp)
 
 /-- The third genuine primary homotopy, from stage 2 to stage 4. -/
 def canonicalPrimary24 (s : ℤ) :
@@ -188,10 +197,9 @@ def canonicalPrimary24 (s : ℤ) :
     simpa only [canonicalX23, canonicalX34] using
       globalXSquared_stage_transport (s + 2) (s + 3) (s + 4)
         h₁ h₂ h₃
-  rw [heq]
-  simpa using
-    (globalXSquaredNullHomotopy (s + 2)).compRight
-      (eqToHom (congrArg integerShiftResolution h₃))
+  exact relabelHomotopy
+    ((globalXSquaredNullHomotopy (s + 2)).compRight
+      (eqToHom (congrArg integerShiftResolution h₃))) heq (by simp)
 
 
 /-! ### S163: actual degree-two secondary maps with exact fourfold targets -/
@@ -217,5 +225,40 @@ def canonicalZ14 (s i j : ℤ) :
 theorem canonicalZ14_zero (s i j : ℤ) (h : j ≠ i + 2) :
     canonicalZ14 s i j = 0 := by
   simp [canonicalZ14, globalZFamily_zero (s + 1) i j h]
+
+/-- Endpoint equalities do not hide the actual primary components. -/
+@[simp] theorem canonicalPrimary02_hom (s n : ℤ) :
+    (canonicalPrimary02 s).hom n (n + 1) = globalHComponent s n := by
+  exact globalHFamily_next s n
+
+@[simp] theorem canonicalPrimary13_hom (s n : ℤ) :
+    (canonicalPrimary13 s).hom n (n + 1) =
+      globalHComponent (s + 1) n ≫
+        eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+          (by omega : s + 1 + 2 = s + 3)) := by
+  change globalHFamily (s + 1) n (n + 1) ≫ _ = _
+  simp [globalHFamily_next]
+
+@[simp] theorem canonicalPrimary24_hom (s n : ℤ) :
+    (canonicalPrimary24 s).hom n (n + 1) =
+      globalHComponent (s + 2) n ≫
+        eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+          (by omega : s + 2 + 2 = s + 4)) := by
+  change globalHFamily (s + 2) n (n + 1) ≫ _ = _
+  simp [globalHFamily_next]
+
+/-- Coherence of the first secondary against the actual chosen primaries. -/
+theorem canonicalZ03_coherence (s n : ℤ) :
+    canonicalZ03 s n (n + 2) ≫
+      (integerShiftResolution (s + 3)).d (n + 2) (n + 1) +
+    (((integerShiftResolution s).d n (n - 1) ≫
+      canonicalZ03 s (n - 1) ((n - 1) + 2)) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 3)).X
+        (by omega : n - 1 + 2 = n + 1))) =
+    (canonicalPrimary02 s).hom n (n + 1) ≫ (canonicalX23 s).f (n + 1) +
+    (globalXChainMap s).f n ≫ (canonicalPrimary13 s).hom n (n + 1) := by
+  simpa only [canonicalZ03, canonicalPrimary02_hom, canonicalPrimary13_hom,
+    canonicalX23, HomologicalComplex.comp_f, HomologicalComplex.eqToHom_f,
+    Category.assoc] using globalZFamily_coherence s n
 
 end C4
