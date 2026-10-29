@@ -1,3 +1,9 @@
+# S167 status overlay (29 October 2026)
+
+The true all-integer replacement-side secondary Z03 and Z14 **candidate families** and ordered algebraic correction identity are now Lean-compiled. This is not a proof that their actual differentials agree with S165 transported primaries. The remaining first dependency is the true homogeneous Hom differential Leibniz identity and those two genuine transferred coherence equations, followed by tertiary pullback, derived cone/real comparison, arbitrary BOTH-lane replacements and exact metric definitions/bounds. The frozen theorem is **not** certified. See `sessions/S167/PROOF.md` and `authoritative/NEXT_SESSION_PROMPT.md`.
+
+---
+
 # C4 formalisation plan — after S166 verified checkpoint
 
 **Frozen complete theorem still OPEN:** `dCohI=1/2 < dIHC=1 < 5/4≤dHI≤5/2` for the full-real five-stage diagram against zero under arbitrary whole-diagram objectwise quasi-isomorphism zigzags on **both** lanes. Lean v4.35.0-rc2 / Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55.

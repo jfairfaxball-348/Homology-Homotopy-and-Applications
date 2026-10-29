@@ -1,3 +1,9 @@
+# S167 update — source formulas now instantiate genuine degree-two candidates
+
+`C4/SecondaryTransferCandidates.lean` defines `correctedSecondaryCore`, `candidateZ03` and `candidateZ14` using actual all-integer B-linear shifted-complex components. `C4/SecondaryTransferAlgebra.lean` proves the ordered abstract correction identity; `C4/HomogeneousCoherence.lean` proves that the two ORIGINAL secondary identities are genuine typed Hom differentials. **The actual differential coherence of BOTH transferred candidates is NOT YET certified.** See the S168 recovery instructions and the remaining obligations below.
+
+---
+
 # S166 — explicit transfer of degree-two C4 secondary fillers
 
 **Mathematical implementation blueprint — NOT a Lean-certified transfer theorem.**
