@@ -58,4 +58,164 @@ theorem globalXChainMap_first_residue_unit (s : ℤ) :
   simp [Periodic.x, regularEval_coefficient, C4.one]
 
 
+
+/-! ### S163: dependent intermediate-shift naturality and canonical later arrows -/
+
+/-- Transport of the actual adjacent shifted chain map along an equality of
+integer shifts. Both the source and the successor must be cast; transporting
+only the intermediate source is not type-correct in later composites. -/
+theorem globalXChainMap_shift_naturality (a b : ℤ) (h : a = b) :
+    eqToHom (congrArg integerShiftResolution h) ≫ globalXChainMap b =
+      globalXChainMap a ≫
+        eqToHom (congrArg integerShiftResolution
+          (congrArg (fun k : ℤ => k + 1) h)) := by
+  cases h
+  simp
+
+/-- Regular normalisation is invariant under a true target equality cast
+of entire shifted chain complexes, not an untyped coefficient conversion. -/
+theorem positiveGlobalComponent_postcast
+    (a b c n : ℤ) (h : b = c)
+    (ha : a ≤ n) (hb : b ≤ n) (hc : c ≤ n)
+    (f : integerShiftResolution a ⟶ integerShiftResolution b) :
+    positiveGlobalComponent a c n ha hc
+        (f ≫ eqToHom (congrArg integerShiftResolution h)) =
+      positiveGlobalComponent a b n ha hb f := by
+  cases h
+  simp [positiveGlobalComponent]
+
+/-- The third adjacent genuine arrow, with exact stage-3 indexing. -/
+def canonicalX23 (s : ℤ) :
+    integerShiftResolution (s + 2) ⟶ integerShiftResolution (s + 3) :=
+  globalXChainMap (s + 2) ≫
+    eqToHom (congrArg integerShiftResolution (by omega : s + 2 + 1 = s + 3))
+
+/-- The fourth adjacent genuine arrow, with exact stage-4 indexing. -/
+def canonicalX34 (s : ℤ) :
+    integerShiftResolution (s + 3) ⟶ integerShiftResolution (s + 4) :=
+  globalXChainMap (s + 3) ≫
+    eqToHom (congrArg integerShiftResolution (by omega : s + 3 + 1 = s + 4))
+
+/-- The second actual adjacent chain map has nonzero first residue. -/
+theorem canonicalX12_unit (s : ℤ) :
+    (regularEval (positiveGlobalComponent (s + 1) (s + 2) (s + 2)
+      (by omega) (by omega) (canonicalX12 s))).c0 = 1 := by
+  have ht : s + 1 + 1 = s + 2 := by omega
+  unfold canonicalX12
+  rw [positiveGlobalComponent_postcast (s + 1) (s + 1 + 1) (s + 2)
+      (s + 2) ht (by omega) (by omega) (by omega)
+      (globalXChainMap (s + 1))]
+  simpa only [ht] using globalXChainMap_first_residue_unit (s + 1)
+
+/-- The third actual adjacent chain map has nonzero first residue. -/
+theorem canonicalX23_unit (s : ℤ) :
+    (regularEval (positiveGlobalComponent (s + 2) (s + 3) (s + 3)
+      (by omega) (by omega) (canonicalX23 s))).c0 = 1 := by
+  have ht : s + 2 + 1 = s + 3 := by omega
+  unfold canonicalX23
+  rw [positiveGlobalComponent_postcast (s + 2) (s + 2 + 1) (s + 3)
+      (s + 3) ht (by omega) (by omega) (by omega)
+      (globalXChainMap (s + 2))]
+  simpa only [ht] using globalXChainMap_first_residue_unit (s + 2)
+
+/-- The fourth actual adjacent chain map has nonzero first residue. -/
+theorem canonicalX34_unit (s : ℤ) :
+    (regularEval (positiveGlobalComponent (s + 3) (s + 4) (s + 4)
+      (by omega) (by omega) (canonicalX34 s))).c0 = 1 := by
+  have ht : s + 3 + 1 = s + 4 := by omega
+  unfold canonicalX34
+  rw [positiveGlobalComponent_postcast (s + 3) (s + 3 + 1) (s + 4)
+      (s + 4) ht (by omega) (by omega) (by omega)
+      (globalXChainMap (s + 3))]
+  simpa only [ht] using globalXChainMap_first_residue_unit (s + 3)
+
+
+/-- A two-step shifted composite is the true globally nullhomotopic square
+followed by the unique target cast. The middle cast is moved through the
+SECOND actual chain map by the S163 naturality theorem, never erased. -/
+theorem globalXSquared_stage_transport
+    (a b c : ℤ) (h₁ : a + 1 = b) (h₂ : b + 1 = c)
+    (h₃ : a + 2 = c) :
+    (globalXChainMap a ≫
+      eqToHom (congrArg integerShiftResolution h₁)) ≫
+      (globalXChainMap b ≫
+        eqToHom (congrArg integerShiftResolution h₂)) =
+    globalXSquared a ≫
+      eqToHom (congrArg integerShiftResolution h₃) := by
+  calc
+    _ = (globalXChainMap a ≫
+          (eqToHom (congrArg integerShiftResolution h₁) ≫
+            globalXChainMap b)) ≫
+          eqToHom (congrArg integerShiftResolution h₂) := by
+            simp only [Category.assoc]
+    _ = (globalXChainMap a ≫
+          (globalXChainMap (a + 1) ≫
+            eqToHom (congrArg integerShiftResolution
+              (congrArg (fun k : ℤ => k + 1) h₁)))) ≫
+          eqToHom (congrArg integerShiftResolution h₂) := by
+            rw [globalXChainMap_shift_naturality (a + 1) b h₁]
+    _ = _ := by
+      simp [globalXSquared, Category.assoc]
+
+/-- The second genuine primary homotopy, from stage 1 to stage 3. -/
+def canonicalPrimary13 (s : ℤ) :
+    Homotopy (canonicalX12 s ≫ canonicalX23 s) 0 := by
+  have h₁ : (s + 1) + 1 = s + 2 := by omega
+  have h₂ : (s + 2) + 1 = s + 3 := by omega
+  have h₃ : (s + 1) + 2 = s + 3 := by omega
+  have heq :
+      canonicalX12 s ≫ canonicalX23 s =
+        globalXSquared (s + 1) ≫
+          eqToHom (congrArg integerShiftResolution h₃) := by
+    simpa only [canonicalX12, canonicalX23] using
+      globalXSquared_stage_transport (s + 1) (s + 2) (s + 3)
+        h₁ h₂ h₃
+  rw [heq]
+  simpa using
+    (globalXSquaredNullHomotopy (s + 1)).compRight
+      (eqToHom (congrArg integerShiftResolution h₃))
+
+/-- The third genuine primary homotopy, from stage 2 to stage 4. -/
+def canonicalPrimary24 (s : ℤ) :
+    Homotopy (canonicalX23 s ≫ canonicalX34 s) 0 := by
+  have h₁ : (s + 2) + 1 = s + 3 := by omega
+  have h₂ : (s + 3) + 1 = s + 4 := by omega
+  have h₃ : (s + 2) + 2 = s + 4 := by omega
+  have heq :
+      canonicalX23 s ≫ canonicalX34 s =
+        globalXSquared (s + 2) ≫
+          eqToHom (congrArg integerShiftResolution h₃) := by
+    simpa only [canonicalX23, canonicalX34] using
+      globalXSquared_stage_transport (s + 2) (s + 3) (s + 4)
+        h₁ h₂ h₃
+  rw [heq]
+  simpa using
+    (globalXSquaredNullHomotopy (s + 2)).compRight
+      (eqToHom (congrArg integerShiftResolution h₃))
+
+
+/-! ### S163: actual degree-two secondary maps with exact fourfold targets -/
+
+/-- The first degree-two family has exactly the stage-0 to stage-3 target. -/
+def canonicalZ03 (s i j : ℤ) :
+    (integerShiftResolution s).X i ⟶
+      (integerShiftResolution (s + 3)).X j :=
+  globalZFamily s i j
+
+theorem canonicalZ03_zero (s i j : ℤ) (h : j ≠ i + 2) :
+    canonicalZ03 s i j = 0 := globalZFamily_zero s i j h
+
+/-- Transport the second genuine degree-two family from the arithmetic
+shift (s+1)+3 to the stage-4 shift s+4 in the actual target complex. -/
+def canonicalZ14 (s i j : ℤ) :
+    (integerShiftResolution (s + 1)).X i ⟶
+      (integerShiftResolution (s + 4)).X j :=
+  globalZFamily (s + 1) i j ≫
+    eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X j)
+      (by omega : s + 1 + 3 = s + 4))
+
+theorem canonicalZ14_zero (s i j : ℤ) (h : j ≠ i + 2) :
+    canonicalZ14 s i j = 0 := by
+  simp [canonicalZ14, globalZFamily_zero (s + 1) i j h]
+
 end C4
