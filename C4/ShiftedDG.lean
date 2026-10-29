@@ -540,10 +540,10 @@ theorem globalZComponent_identity (s n : ℤ) :
       (regularDz_xh_hx m)
     have hdiff1 := shiftedDifferential_regular (s + 3) (n + 1) (by omega)
     have hidx1 : n + 2 = n + 1 + 1 := by omega
-    rw [← hidx1] at hdiff1
+    simp only [← hidx1] at hdiff1
     have hdiff2 := shiftedDifferential_regular s (n - 1) (by omega)
     have hidx2 : n = (n - 1) + 1 := by omega
-    rw [← hidx2] at hdiff2
+    simp only [← hidx2] at hdiff2
     rw [globalZComponent_regular s n (by omega),
       hdiff1, hdiff2,
       globalZComponent_regular s (n - 1) (by omega),
