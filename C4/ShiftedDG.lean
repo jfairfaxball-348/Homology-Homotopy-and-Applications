@@ -452,6 +452,18 @@ theorem globalHComponent_identity (s n : ℤ) :
 
 /-! ### S157: categorical two-step nullhomotopy and secondary dg identity -/
 
+/-- A positive shifted differential at an arbitrary pair of consecutive
+indices, avoiding dependent arithmetic rewrites on the source object. -/
+theorem shiftedDifferential_regular_at (s i j : ℤ)
+    (h : i = j + 1) (hj : s ≤ j) :
+    (integerShiftResolution s).d i j =
+      eqToHom (integerObject_nonnegative (i - s) (by omega)) ≫
+      regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+      eqToHom (integerObject_nonnegative (j - s) (by omega)).symm := by
+  subst i
+  exact shiftedDifferential_regular s j hj
+
+
 /-- Four-path categorical identity, with three independent final transports
     to the same shifted target.  No assumptions on the coefficients. -/
 theorem regularCastFourPathsTripleExtra
@@ -538,14 +550,9 @@ theorem globalZComponent_identity (s n : ℤ) :
       (regularCoefficientHom (Periodic.x (m + 1)))
       (regularCoefficientHom (Periodic.h m))
       (regularDz_xh_hx m)
-    have hdiff1 := shiftedDifferential_regular (s + 3) (n + 1) (by omega)
-    have hidx1 : n + 2 = n + 1 + 1 := by omega
-    simp only [← hidx1] at hdiff1
-    have hdiff2 := shiftedDifferential_regular s (n - 1) (by omega)
-    have hidx2 : n = (n - 1) + 1 := by omega
-    simp only [← hidx2] at hdiff2
     rw [globalZComponent_regular s n (by omega),
-      hdiff1, hdiff2,
+      shiftedDifferential_regular_at (s + 3) (n + 2) (n + 1) (by omega) (by omega),
+      shiftedDifferential_regular_at s n (n - 1) (by omega) (by omega),
       globalZComponent_regular s (n - 1) (by omega),
       globalHComponent_regular s n (by omega),
       globalXComponent_regular (s + 2) (n + 1) (by omega),
