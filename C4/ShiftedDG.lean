@@ -523,7 +523,7 @@ theorem shiftedDifferential_regular_any
         eqToHom (integerObject_nonnegative ((j - s) + 1) hp1)) ≫
         regularCoefficientHom (Periodic.d (j - s).toNat) ≫
         eqToHom (integerObject_nonnegative (j - s) hp).symm := by
-      simp [integerDifferential, hp, hp1, differential,
+      simp [integerDifferential, hj, hp, hp1, differential,
         regularCoefficientHom, Category.assoc]
     _ = _ := hsand
 
