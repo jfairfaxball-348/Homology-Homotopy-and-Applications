@@ -522,7 +522,7 @@ theorem globalZComponent_identity (s n : ℤ) :
       convert shiftedDifferential_regular (s + 3) (n + 1) (by omega) using 1 <;>
         simp [integerShiftResolution, integerResolution, integerObject_nonnegative,
           integerObject, show n + 1 + 1 = n + 2 by omega] <;>
-          congr 1 <;> omega
+          congr 1 <;> (first | rfl | omega | simp [integerObject_nonnegative, integerObject])
     have hbDiff :
         (integerShiftResolution s).d n (n - 1) =
           eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
@@ -531,7 +531,7 @@ theorem globalZComponent_identity (s n : ℤ) :
       convert shiftedDifferential_regular s (n - 1) (by omega) using 1 <;>
         simp [integerShiftResolution, integerResolution, integerObject_nonnegative,
           integerObject, show n - 1 + 1 = n by omega] <;>
-          congr 1 <;> omega
+          congr 1 <;> (first | rfl | omega | simp [integerObject_nonnegative, integerObject])
     have hsquare := regularCastFourPathsExtra
       (integerObject_nonnegative (n - s) (by omega))
       (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega))
