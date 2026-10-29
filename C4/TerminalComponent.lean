@@ -63,16 +63,10 @@ theorem GlobalFourfoldDefiningSystem.no_tertiary_filler
     (by omega) (by omega)
   have hk : s + 4 + 1 = s + 5 := by omega
   rw [hk] at hc
-  have he :
-      q.terminalWindow =
-        w.w (s + 2) (s + 5) ≫
-          (integerShiftResolution (s + 4)).d (s + 5) (s + 4) +
-        (integerShiftResolution s).d (s + 2) (s + 1) ≫
-          w.w (s + 1) (s + 4) := by
-    simpa only [GlobalFourfoldDefiningSystem.terminalComponent_eq,
-      GlobalFourfoldDefiningSystem.toFiveStageSecondaryData,
-      GlobalFourfoldDefiningSystem.toPrimaryData] using hc
-  exact (q.terminal_not_boundary
-    (w.w (s + 1) (s + 4)) (w.w (s + 2) (s + 5))) he
+  apply q.terminal_not_boundary
+    (w.w (s + 1) (s + 4)) (w.w (s + 2) (s + 5))
+  simpa only [GlobalFourfoldDefiningSystem.terminalComponent_eq,
+    GlobalFourfoldDefiningSystem.toFiveStageSecondaryData,
+    GlobalFourfoldDefiningSystem.toPrimaryData] using hc
 
 end C4
