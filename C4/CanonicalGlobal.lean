@@ -43,7 +43,11 @@ theorem globalXChainMap_first_residue_unit (s : ℤ) :
       globalXComponent s (s + 1) ≫
       eqToHom (integerObject_nonnegative (s + 1 - (s + 1)) (by omega)))).c0 = 1
   rw [globalXComponent_regular s (s + 1) (by omega)]
-  simp [Periodic.x, ← Category.assoc]
+  have hp := integerObject_nonnegative (s + 1 - s) (by omega)
+  have hq := integerObject_nonnegative (s + 1 - (s + 1)) (by omega)
+  cases hp
+  cases hq
+  simp [Periodic.x, Category.assoc]
 
 
 end C4
