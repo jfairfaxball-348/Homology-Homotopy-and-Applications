@@ -435,6 +435,7 @@ theorem regularTransport_final
   cases hu
   simp
 
+set_option pp.maxDepth 48 in
 theorem globalHComponent_identity (s n : ℤ) :
     globalHComponent s (n + 1) ≫
       (integerShiftResolution (s + 2)).d (n + 1 + 1) (n + 1) +
@@ -476,8 +477,9 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalHComponent_regular s n (by omega),
       globalXComponent_regular s (n + 1) (by omega),
       globalXComponent_regular (s + 1) (n + 1) (by omega)]
-    simpa only [integerShiftResolution, integerResolution,
+    simp only [integerShiftResolution, integerResolution,
       m, ha, hb', hc, hd, he, regularTransport_comp,
-      regularTransport_final, Category.assoc] using hsquare
+      regularTransport_final, Category.assoc] at hsquare ⊢
+    exact hsquare
 
 end C4
