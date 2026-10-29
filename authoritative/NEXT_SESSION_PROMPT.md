@@ -1,6 +1,6 @@
 # S166 — finish global secondary/tertiary homotopy transfer (FUTURE, UNEXECUTED)
 
-Fresh owner invocation for a new conversation; while an owner-authorised continuous-completion conversation is active, routine checkpoints do not require fresh permission. Frozen C4 first-paper target only.
+A separate owner invocation is required to begin S166 in a new conversation; while an owner-authorised continuous-completion conversation is active, routine checkpoints do not require fresh permission. Frozen C4 first-paper target only.
 
 Read `AGENTS.md`, `authoritative/{STATE.json,START_HERE.md}`, `sessions/S165/{PROOF,BUILD,CLOSEOUT}.md`, `formal/C4_COMPLETION_REVIEW.md`, `formal/C4_FORMALIZATION_PLAN.md` and all actual C4 sources. Pin live main, verify S165 ordinary two-parent PR/main merge and exact hosted Lean and integrity jobs; never infer that a green source branch implies merged main.
 
