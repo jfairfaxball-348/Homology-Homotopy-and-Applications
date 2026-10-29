@@ -1,3 +1,5 @@
+> **S165 supplement (29 October 2026).** The S164 review below is historically accurate for its cutoff. S165 now Lean-certifies actual homotopy-equivalence transport of all FOUR adjacent chain maps and all THREE primary homotopies on FIVE arbitrary replacements, plus non-nullhomotopy of every adjacent class before and after transport. The two secondary coherences, tertiary boundary, whole-real quasi-isomorphism zigzags on BOTH lanes and all metrics are STILL OPEN. Read `sessions/S165/PROOF.md` and `formal/C4_FORMALIZATION_PLAN.md` for the updated implementation boundary.
+
 # C4 completion review — 29 October 2026
 
 The full first-paper theorem is **not formalised**. The current Lean development proves its algebraic global obstruction and constructs its real diagram, but the two quantitative metric lanes require additional categorical proofs. Passing the repository's build does not assert that the paper's headline theorem exists as a Lean declaration.
