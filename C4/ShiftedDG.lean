@@ -675,7 +675,8 @@ all-integer categorical Dh identity; every term uses actual
 ChainComplex morphisms, not coefficient surrogates. -/
 theorem globalXSquared_eq_nullHomotopicMap (s : ℤ) :
     globalXSquared s = Homotopy.nullHomotopicMap (globalHFamily s) := by
-  ext i
+  apply HomologicalComplex.hom_ext _ _
+  intro i
   have hr : (ComplexShape.down ℤ).Rel i (i - 1) := by
     change i - 1 + 1 = i
     omega
