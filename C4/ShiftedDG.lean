@@ -445,14 +445,8 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalXComponent_regular s (n + 1) (by omega),
       globalXComponent_regular (s + 1) (n + 1) (by omega)]
     convert hsquare using 1 <;>
-      simp [integerShiftResolution, integerResolution, integerObject_nonnegative,
-        integerObject, m, ha, hb', hc, hd, he, Category.assoc,
-        show 0 ≤ n + 1 - s by omega,
-        show 0 ≤ (n + 1) + 1 - (s + 2) by omega,
-        show 0 ≤ n - s by omega,
-        show 0 ≤ (n + 1) - (s + 2) by omega,
-        show 0 ≤ (n + 1) - (s + 1) by omega,
-        show 0 ≤ (n + 1) - ((s + 1) + 1) by omega]
+      simp only [integerShiftResolution, integerResolution, m, ha, hb', hc, hd, he,
+        Category.assoc] <;> congr 1
 
 
 end C4
