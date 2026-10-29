@@ -41,7 +41,7 @@ structure FiveStageSecondaryData.TertiaryFiller
   coherence : ∀ i j k : ℤ, j = i + 1 → k = j + 1 →
     q.terminalComponent i j k =
       w i (k + 1) ≫ (q.primary.P4).d (k + 1) k +
-        (q.primary.P0).d i j ≫ w j k
+        (q.primary.P0).d i (i - 1) ≫ w (i - 1) k
 
 /-- At the decisive actual integer degrees, the generalized terminal
 component is definitionally the previously certified C4 terminal.
@@ -57,7 +57,7 @@ The result is global: any hypothetical all-degree filler already fails
 at degree s+2. -/
 theorem GlobalFourfoldDefiningSystem.no_tertiary_filler
     {s : ℤ} (q : GlobalFourfoldDefiningSystem s) :
-    ¬ Nonempty (q.toFiveStageSecondaryData.TertiaryFiller) := by
+    ¬ Nonempty (FiveStageSecondaryData.TertiaryFiller q.toFiveStageSecondaryData) := by
   rintro ⟨w⟩
   have hc := w.coherence (s + 2) (s + 3) (s + 4)
     (by omega) (by omega)
@@ -67,16 +67,12 @@ theorem GlobalFourfoldDefiningSystem.no_tertiary_filler
       q.terminalWindow =
         w.w (s + 2) (s + 5) ≫
           (integerShiftResolution (s + 4)).d (s + 5) (s + 4) +
-        (integerShiftResolution s).d (s + 2) (s + 3) ≫
-          w.w (s + 3) (s + 4) := by
+        (integerShiftResolution s).d (s + 2) (s + 1) ≫
+          w.w (s + 1) (s + 4) := by
     simpa only [GlobalFourfoldDefiningSystem.terminalComponent_eq,
       GlobalFourfoldDefiningSystem.toFiveStageSecondaryData,
       GlobalFourfoldDefiningSystem.toPrimaryData] using hc
-  -- The source differential in the actual obstruction is from s+2
-  -- to s+1, not the forward i->i+1 arrow; the correct three-index
-  -- boundary test is supplied in the later amendment.
-  exact False.elim (q.terminal_not_boundary
-    (w.w (s + 1) (s + 4)) (w.w (s + 2) (s + 5)) (by
-      simpa using he))
+  exact (q.terminal_not_boundary
+    (w.w (s + 1) (s + 4)) (w.w (s + 2) (s + 5))) he
 
 end C4
