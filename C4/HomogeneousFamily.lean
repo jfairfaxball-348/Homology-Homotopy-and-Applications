@@ -80,6 +80,16 @@ def HomogeneousFamily.d {P Q : C4Complex} {k : ℤ}
       eqToHom (congrArg Q.X
         (by omega : n + k - 1 = n + (k - 1))))
 
+/-- The genuine Hom differential is additive in each integer
+component; no truncation or scalar reduction is involved. -/
+theorem HomogeneousFamily.d_add_component
+    {P Q : C4Complex} {k : ℤ}
+    (f g : HomogeneousFamily P Q k) (n : ℤ) :
+    ((f + g).d).hom n = f.d.hom n + g.d.hom n := by
+  simp only [HomogeneousFamily.d, HomogeneousFamily.add_hom,
+    Preadditive.add_comp, Preadditive.comp_add]
+  abel
+
 /-- The actual degree-two family from any general five-object defining
 system; no coefficients, finite degree cutoffs or sample indices. -/
 def FiveStageSecondaryData.firstSecondaryFamily
