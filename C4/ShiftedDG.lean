@@ -449,4 +449,119 @@ theorem globalHComponent_identity (s n : ℤ) :
         Category.assoc] <;> congr 1
 
 
+/-! ### S157 global secondary filler transport -/
+
+/-- Four-path regular-module transport with three independently represented
+terminal integer shifts. The additional eqToHom terms are actual
+categorical transports, not suppressed equalities of indices. -/
+theorem regularCastFourPathsExtra
+    {P Q R S T U V W X : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eq : Q = ModuleCat.of B B)
+    (er : R = ModuleCat.of B B)
+    (es : S = ModuleCat.of B B)
+    (et : T = ModuleCat.of B B)
+    (eu : U = ModuleCat.of B B)
+    (ev : V = ModuleCat.of B B)
+    (ew : W = ModuleCat.of B B)
+    (ex : X = ModuleCat.of B B)
+    (hr : U = S) (hs : W = S) (ht : X = S)
+    (a b c d e f g h : ModuleCat.of B B ⟶ ModuleCat.of B B)
+    (hab : a ≫ b + c ≫ d = e ≫ f + g ≫ h) :
+    ((eqToHom ep ≫ a ≫ eqToHom eq.symm) ≫
+      (eqToHom eq ≫ b ≫ eqToHom es.symm)) +
+    (((eqToHom ep ≫ c ≫ eqToHom er.symm) ≫
+      (eqToHom er ≫ d ≫ eqToHom eu.symm)) ≫ eqToHom hr) =
+    (((eqToHom ep ≫ e ≫ eqToHom et.symm) ≫
+      (eqToHom et ≫ f ≫ eqToHom ew.symm)) ≫ eqToHom hs) +
+    (((eqToHom ep ≫ g ≫ eqToHom ev.symm) ≫
+      (eqToHom ev ≫ h ≫ eqToHom ex.symm)) ≫ eqToHom ht) := by
+  cases ep
+  cases eq
+  cases er
+  cases es
+  cases et
+  cases eu
+  cases ev
+  cases ew
+  cases ex
+  cases hr
+  cases hs
+  cases ht
+  simpa using hab
+
+/-- Genuine degree-two shifted secondary homotopy identity on all integers,
+including both the truncation boundary and positive regular components. -/
+theorem globalZComponent_identity (s n : ℤ) :
+    globalZComponent s n ≫ (integerShiftResolution (s + 3)).d (n + 2) (n + 1) +
+    (((integerShiftResolution s).d n (n - 1) ≫ globalZComponent s (n - 1)) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 3)).X
+        (by omega : n - 1 + 2 = n + 1))) =
+    ((globalHComponent s n ≫ globalXComponent (s + 2) (n + 1)) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 2 + 1 = s + 3))) +
+    ((globalXComponent s n ≫ globalHComponent (s + 1) n) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 2 = s + 3))) := by
+  by_cases hb : n ≤ s + 1
+  · exact globalZComponent_identity_at_boundary s n hb
+  · have hp : s + 2 ≤ n := by omega
+    let m : ℕ := (n - (s + 2)).toNat
+    have hza : (n - (s + 1)).toNat = m + 1 := by dsimp [m]; omega
+    have hzb : ((n - 1) - (s + 1)).toNat = m := by dsimp [m]; omega
+    have hda : ((n + 1) - (s + 3)).toNat = m := by dsimp [m]; omega
+    have hdb : ((n - 1) - s).toNat = m + 1 := by dsimp [m]; omega
+    have hha : (n - (s + 1)).toNat = m + 1 := hza
+    have hhb : (n - ((s + 1) + 1)).toNat = m := by dsimp [m]; omega
+    have hxa : ((n + 1) - ((s + 2) + 1)).toNat = m := by dsimp [m]; omega
+    have haDiff :
+        (integerShiftResolution (s + 3)).d (n + 2) (n + 1) =
+          eqToHom (integerObject_nonnegative ((n + 1) + 1 - (s + 3)) (by omega)) ≫
+          regularCoefficientHom (Periodic.d ((n + 1) - (s + 3)).toNat) ≫
+          eqToHom (integerObject_nonnegative ((n + 1) - (s + 3)) (by omega)).symm := by
+      have he : n + 1 + 1 = n + 2 := by omega
+      simpa only [he] using shiftedDifferential_regular (s + 3) (n + 1) (by omega)
+    have hbDiff :
+        (integerShiftResolution s).d n (n - 1) =
+          eqToHom (integerObject_nonnegative ((n - 1) + 1 - s) (by omega)) ≫
+          regularCoefficientHom (Periodic.d ((n - 1) - s).toNat) ≫
+          eqToHom (integerObject_nonnegative ((n - 1) - s) (by omega)).symm := by
+      have he : n - 1 + 1 = n := by omega
+      simpa only [he] using shiftedDifferential_regular s (n - 1) (by omega)
+    have hsquare := regularCastFourPathsExtra
+      (integerObject_nonnegative (n - s) (by omega))
+      (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega))
+      (integerObject_nonnegative ((n - 1) - s) (by omega))
+      (integerObject_nonnegative ((n + 1) - (s + 3)) (by omega))
+      (integerObject_nonnegative ((n + 1) - (s + 2)) (by omega))
+      (integerObject_nonnegative (((n - 1) + 2) - (s + 3)) (by omega))
+      (integerObject_nonnegative (n - (s + 1)) (by omega))
+      (integerObject_nonnegative ((n + 1) - ((s + 2) + 1)) (by omega))
+      (integerObject_nonnegative ((n + 1) - ((s + 1) + 2)) (by omega))
+      (congrArg (integerShiftResolution (s + 3)).X
+        (by omega : n - 1 + 2 = n + 1))
+      (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 2 + 1 = s + 3))
+      (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 2 = s + 3))
+      (regularCoefficientHom (Periodic.z (m + 1)))
+      (regularCoefficientHom (Periodic.d m))
+      (regularCoefficientHom (Periodic.d (m + 1)))
+      (regularCoefficientHom (Periodic.z m))
+      (regularCoefficientHom (Periodic.h (m + 1)))
+      (regularCoefficientHom (Periodic.x m))
+      (regularCoefficientHom (Periodic.x (m + 1)))
+      (regularCoefficientHom (Periodic.h m))
+      (regularDz_xh_hx m)
+    rw [globalZComponent_regular s n (by omega),
+      haDiff, hbDiff,
+      globalZComponent_regular s (n - 1) (by omega),
+      globalHComponent_regular s n (by omega),
+      globalXComponent_regular (s + 2) (n + 1) (by omega),
+      globalXComponent_regular s n (by omega),
+      globalHComponent_regular (s + 1) n (by omega)]
+    convert hsquare using 1 <;>
+      simp only [integerShiftResolution, integerResolution, m, hza, hzb, hda, hdb,
+        hha, hhb, hxa, Category.assoc] <;> congr 1
+
 end C4
