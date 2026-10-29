@@ -1,3 +1,9 @@
+# S162 — genuine positive global x normalization and residue one Lean-certified (29 October 2026)
+
+S162 certifies `C4.positiveGlobalComponent_globalX` and `C4.globalXChainMap_first_residue_unit` on actual shifted ModuleCat B chain maps, for ALL integer shifts. Exact scratch `83fe631034b29223a63a0f50a3fd505d82a5d3ab` passed pinned OptionD+C4 Lean #40901999271 and integrity #40901998877. Failed scratch attempts `add1e380` (cast simplification) and `cefd9565` (intermediate cast naturality for later primaries) were isolated and NOT promoted. The genuine full global defining-system inhabitant, arbitrary-choice global terminal nonboundary, homotopy equivalence and whole-real both-lane inequalities are OPEN. Frozen B=F₂[C₄] first-paper only; no OptionD work, novelty, journal fit, prior art, review, publication, registry, release or contact.
+
+---
+
 # S161 — exact canonical primary shifted nullhomotopy bridge certified; fourfold instance OPEN (29 October 2026)
 
 S161 certifies `C4.canonicalX12 (s : ℤ)` and `C4.canonicalPrimary02 (s : ℤ) : Homotopy (globalXChainMap s ≫ canonicalX12 s) 0` as a genuine ALL-INTEGER Mathlib chain homotopy with stage-2 target exactly `integerShiftResolution (s+2)`. Clean scratch `150391d5f81d33d3642d2300107095f691eccf66` pinned full Lean #40896532516 and integrity #40896532296 SUCCESS. Subsequent exploratory residue-one attempts `df170a1`, `d87cf9a`, `d538332` failed dependent `eqToHom` regular-object reductions, were NOT promoted, and do NOT invalidate the canonical primary theorem. A full `GlobalFourfoldDefiningSystem` canonical inhabitant, independent-residue unit fields, universal arbitrary-global terminal nonboundary, homotopy-equivalence invariance and entire-real metric inequalities remain OPEN. No OptionD, novelty/fit/prior-art/review, external publication, registry or contact.
