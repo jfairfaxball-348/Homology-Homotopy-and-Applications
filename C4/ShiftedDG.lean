@@ -440,7 +440,14 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalHComponent_regular s n (by omega),
       globalXComponent_regular s (n + 1) (by omega),
       globalXComponent_regular (s + 1) (n + 1) (by omega)]
+    have hpa : 0 ≤ n + 1 - s := by omega
+    have hpb : 0 ≤ (n + 1) + 1 - (s + 2) := by omega
+    have hpc : 0 ≤ n - s := by omega
+    have hpd : 0 ≤ (n + 1) - (s + 2) := by omega
+    have hpe : 0 ≤ (n + 1) - (s + 1) := by omega
+    have hpf : 0 ≤ (n + 1) - ((s + 1) + 1) := by omega
     simpa [integerShiftResolution, integerResolution, integerObject_nonnegative,
-      integerObject, m, ha, hb', hc, hd, he, Category.assoc] using hsquare
+      integerObject, m, ha, hb', hc, hd, he,
+      hpa, hpb, hpc, hpd, hpe, hpf, Category.assoc] using hsquare
 
 end C4
