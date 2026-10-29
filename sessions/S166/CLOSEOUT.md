@@ -5,3 +5,7 @@ S166 has a meaningful certified proof milestone: the general five-object interfa
 This does NOT complete the global homotopy-equivalence comparison or metric theorem. The missing construction is not another equality cast: it is the genuine secondary transfer with both middle inverse-homotopy corrections, higher tertiary pullback from strict square-zero replacements, and the substantial derived/whole-real categorical metric machinery. The formula blueprint is `formal/C4_SECONDARY_TRANSFER_FORMULA.md` and is NOT Lean-certified.
 
 Continue substantial proof work under the existing owner continuous-completion instruction. `authoritative/NEXT_SESSION_PROMPT.md` records S167 recovery instructions, not a routine permission requirement. No external release, registry, submission or contact.
+
+## NEXT_SESSION_HANDOFF
+
+**S167 FUTURE, UNEXECUTED.** Recovery guidance lives at `authoritative/NEXT_SESSION_PROMPT.md`. A separate owner invocation is required if beginning a genuinely new conversation; the owner's continuous-completion instruction already authorises routine continuation in the active one. No publication or external-contact permission follows from this handoff.

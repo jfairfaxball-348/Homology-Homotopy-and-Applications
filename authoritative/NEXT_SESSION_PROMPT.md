@@ -1,6 +1,6 @@
-# S167 — actual secondary homotopy transfer and tertiary pullback (READY, UNEXECUTED)
+# S167 — actual secondary homotopy transfer and tertiary pullback (FUTURE, UNEXECUTED)
 
-Continue the owner's frozen C4 first-paper proof without routine stop-after-one-lemma boundaries; no external approval required to keep working in the currently active conversation. The S166 result is an ordinary verified checkpoint, not the end of the owner's continuous-completion instruction.
+A separate owner invocation is required to resume S167 after a genuinely closed conversation. Within the currently owner-authorised continuous-completion conversation, ordinary verified checkpoints do not require another routine invocation. Continue the frozen C4 first-paper proof without stop-after-one-lemma boundaries.
 
 **Source of truth:** read AGENTS.md, authoritative/STATE.json, START_HERE.md, S166 PROOF/BUILD/CLOSEOUT, C4/{HomotopyTransfer,FiveStageTransfer,AdjacentNonNull,FiveStageSecondary,TerminalComponent,CanonicalGlobal,GlobalDefining,GlobalObstruction,RealDiagram}.lean, `formal/C4_SECONDARY_TRANSFER_FORMULA.md`, and the pinned Mathlib HomologicalComplex definitions. Pin remote main and verify S166 ordinary two-parent merge and independently successful PR/main checks before writing.
 
