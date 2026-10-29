@@ -446,7 +446,7 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalXComponent_regular (s + 1) (n + 1) (by omega)]
     convert hsquare using 1 <;>
       simp only [integerShiftResolution, integerResolution, m, ha, hb', hc, hd, he,
-        Category.assoc] <;> congr 1
+        Category.assoc] <;> (first | rfl | congr 1)
 
 
 /-! ### S157 global secondary filler transport -/
