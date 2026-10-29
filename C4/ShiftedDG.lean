@@ -681,4 +681,26 @@ theorem globalHFamily_dNext (s i : ℤ) :
   dsimp only [globalHFamily]
   simp only [dite_eq_left hh, Category.assoc]
 
+
+/-- The actual Mathlib-indexed nullhomotopy equation of the x-square composite,
+obtained from S157's global Dh=x² identity at all integer degrees. -/
+theorem globalHFamily_comm (s i : ℤ) :
+    (globalXSquareChainMap s).f i =
+      dNext i (globalHFamily s) + prevD i (globalHFamily s) := by
+  rw [globalXSquareChainMap_f s i, globalHFamily_dNext s i,
+    globalHFamily_prevD s i]
+  have hh := globalHComponent_identity s (i - 1)
+  convert hh.symm using 1 <;>
+    simp only [integerShiftResolution, integerResolution, Category.assoc] <;>
+    congr 1
+
+/-- Genuine Mathlib chain homotopy, on all integers, from the twofold
+shifted x chain map to the zero chain map. -/
+noncomputable def globalXSquareNullHomotopy (s : ℤ) :
+    Homotopy (globalXSquareChainMap s) 0 where
+  hom := globalHFamily s
+  zero i j hij := globalHFamily_shape_zero s i j hij
+  comm i := by
+    simpa only [add_zero] using globalHFamily_comm s i
+
 end C4
