@@ -758,4 +758,96 @@ theorem globalTerminalComponent_zero_at_boundary (s n : ℤ) (hn : n ≤ s + 1) 
     exact integerObject_isZero_negative _ (by omega)
   exact hz.eq_of_tgt _ _
 
+/-- Transport a genuine three-path terminal identity through four actual
+regular-module intermediate vertices and the three independent final
+integer-shift casts. The h-path can include two target transports. -/
+theorem regularCastThreePathsDouble
+    {P Q R U T1 T2 V2 T3 S : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eq : Q = ModuleCat.of B B)
+    (er : R = ModuleCat.of B B)
+    (eu : U = ModuleCat.of B B)
+    (e1 : T1 = ModuleCat.of B B)
+    (e2 : T2 = ModuleCat.of B B)
+    (e3 : T3 = ModuleCat.of B B)
+    (es : S = ModuleCat.of B B)
+    (h1 : T1 = S) (h2 : T2 = V2) (h2' : V2 = S) (h3 : T3 = S)
+    (a b c d e f : ModuleCat.of B B ⟶ ModuleCat.of B B)
+    (hab : a ≫ b + c ≫ d + e ≫ f = 𝟙 (ModuleCat.of B B)) :
+    (((eqToHom ep ≫ a ≫ eqToHom eq.symm) ≫
+      (eqToHom eq ≫ b ≫ eqToHom e1.symm)) ≫ eqToHom h1) +
+    ((((eqToHom ep ≫ c ≫ eqToHom er.symm) ≫
+      (eqToHom er ≫ d ≫ eqToHom e2.symm)) ≫ eqToHom h2) ≫ eqToHom h2') +
+    (((eqToHom ep ≫ e ≫ eqToHom eu.symm) ≫
+      (eqToHom eu ≫ f ≫ eqToHom e3.symm)) ≫ eqToHom h3) =
+    eqToHom ep ≫ eqToHom es.symm := by
+  cases ep
+  cases eq
+  cases er
+  cases eu
+  cases e1
+  cases e2
+  cases e3
+  cases es
+  cases h1
+  cases h2
+  cases h2'
+  cases h3
+  simpa [Category.assoc] using hab
+
+/-- Positive-degree selected fourfold terminal is a genuine canonical
+regular-module identification, rather than just a coefficient-level unit. -/
+theorem globalTerminalComponent_regular (s n : ℤ) (hn : s + 2 ≤ n) :
+    globalTerminalComponent s n =
+      eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
+      eqToHom (integerObject_nonnegative ((n + 2) - (s + 4)) (by omega)).symm := by
+  let m : ℕ := (n - (s + 2)).toNat
+  have ha : (n - (s + 1)).toNat = m + 1 := by dsimp [m]; omega
+  have hb : ((n + 2) - ((s + 3) + 1)).toNat = m := by dsimp [m]; omega
+  have hc : ((n + 1) - ((s + 2) + 1)).toNat = m := by dsimp [m]; omega
+  have hd : (n - ((s + 1) + 1)).toNat = m := by dsimp [m]; omega
+  have hab :
+      regularCoefficientHom (Periodic.z (m + 1)) ≫
+        regularCoefficientHom (Periodic.x m) +
+      regularCoefficientHom (Periodic.h (m + 1)) ≫
+        regularCoefficientHom (Periodic.h m) +
+      regularCoefficientHom (Periodic.x (m + 1)) ≫
+        regularCoefficientHom (Periodic.z m) =
+      𝟙 (ModuleCat.of B B) := by
+    simpa only [add_assoc] using regularTerminal_identity m
+  have hsquare := regularCastThreePathsDouble
+    (integerObject_nonnegative (n - s) (by omega))
+    (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega))
+    (integerObject_nonnegative ((n + 1) - (s + 2)) (by omega))
+    (integerObject_nonnegative (n - (s + 1)) (by omega))
+    (integerObject_nonnegative ((n + 2) - ((s + 3) + 1)) (by omega))
+    (integerObject_nonnegative (((n + 1) + 1) - ((s + 2) + 2)) (by omega))
+    (integerObject_nonnegative ((n + 2) - ((s + 1) + 3)) (by omega))
+    (integerObject_nonnegative ((n + 2) - (s + 4)) (by omega))
+    (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 2))
+      (by omega : s + 3 + 1 = s + 4))
+    (congrArg (fun k : ℤ => (integerShiftResolution k).X ((n + 1) + 1))
+      (by omega : s + 2 + 2 = s + 4))
+    (congrArg (integerShiftResolution (s + 4)).X
+      (by omega : (n + 1) + 1 = n + 2))
+    (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 2))
+      (by omega : s + 1 + 3 = s + 4))
+    (regularCoefficientHom (Periodic.z (m + 1)))
+    (regularCoefficientHom (Periodic.x m))
+    (regularCoefficientHom (Periodic.h (m + 1)))
+    (regularCoefficientHom (Periodic.h m))
+    (regularCoefficientHom (Periodic.x (m + 1)))
+    (regularCoefficientHom (Periodic.z m))
+    hab
+  unfold globalTerminalComponent
+  rw [globalZComponent_regular s n (by omega),
+    globalXComponent_regular (s + 3) (n + 2) (by omega),
+    globalHComponent_regular s n (by omega),
+    globalHComponent_regular (s + 2) (n + 1) (by omega),
+    globalXComponent_regular s n (by omega),
+    globalZComponent_regular (s + 1) n (by omega)]
+  convert hsquare using 1 <;>
+    simp only [integerShiftResolution, integerResolution, m, ha, hb, hc, hd,
+      Category.assoc] <;> congr 1
+
 end C4
