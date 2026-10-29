@@ -39,6 +39,17 @@ theorem globalAdjacent_nonnull (s : ℤ)
   rw [hf] at hz
   exact one_ne_zero hz
 
+/-- The same non-nullhomotopy test with an explicitly identified target
+shift, avoiding dependent casts between s+1+1 and s+2. -/
+theorem globalAdjacent_nonnull_of_shift (s t : ℤ) (hst : t = s + 1)
+    (f : integerShiftResolution s ⟶ integerShiftResolution t)
+    (hf : (regularEval
+      (positiveGlobalComponent s t t
+        (by omega) (by omega) f)).c0 = 1) :
+    ¬ Nonempty (Homotopy f 0) := by
+  subst t
+  exact globalAdjacent_nonnull s f hf
+
 /-- All four independent adjacent arrows in every genuine globally-indexed
 C4 defining system represent nonzero homotopy classes. -/
 theorem GlobalFourfoldDefiningSystem.adjacent_nonnull
@@ -47,10 +58,10 @@ theorem GlobalFourfoldDefiningSystem.adjacent_nonnull
     (¬ Nonempty (Homotopy q.x12 0)) ∧
     (¬ Nonempty (Homotopy q.x23 0)) ∧
     (¬ Nonempty (Homotopy q.x34 0)) := by
-  exact ⟨globalAdjacent_nonnull s q.x01 q.x01_unit,
-    globalAdjacent_nonnull (s + 1) q.x12 (by simpa only [add_assoc] using q.x12_unit),
-    globalAdjacent_nonnull (s + 2) q.x23 (by simpa only [add_assoc] using q.x23_unit),
-    globalAdjacent_nonnull (s + 3) q.x34 (by simpa only [add_assoc] using q.x34_unit)⟩
+  exact ⟨globalAdjacent_nonnull_of_shift s (s+1) (by omega) q.x01 q.x01_unit,
+    globalAdjacent_nonnull_of_shift (s+1) (s+2) (by omega) q.x12 q.x12_unit,
+    globalAdjacent_nonnull_of_shift (s+2) (s+3) (by omega) q.x23 q.x23_unit,
+    globalAdjacent_nonnull_of_shift (s+3) (s+4) (by omega) q.x34 q.x34_unit⟩
 
 /-- Under any five genuine homotopy-equivalence comparisons, each of the
 four transported adjacent arrows still represents a nonzero homotopy
