@@ -1,13 +1,13 @@
-# Current roadmap — frozen C4 first paper after S165
+# Current roadmap — frozen C4 first paper, after S166
 
-Full Lean formalisation remains OPEN. The genuine canonical global obstruction, universal nonboundary, actual full-real diagram and literal five-unit vanishing were certified in S164. S165 now proves full FIVE-stage/FOUR-adjacent-arrow/THREE-primary-homotopy transfer along genuine chain-homotopy equivalences and preserves all four non-nullhomotopic adjacent classes.
+**Full numerical Lean formalisation remains OPEN.** S164 genuinely certifies the all-choice global obstruction and exact full-real diagram. S165 transfers all four adjacent maps and three primaries through five genuine homotopy-equivalent objects. S166 certifies the actual two-secondary defining-system interface on arbitrary five-object complexes and proves no degree-three tertiary filler exists for **any** original C4 global system.
 
-Remaining mathematical contracts (not routine one-lemma session boundaries):
+Execution dependencies, not obligatory small sessions:
 
-1. Construct and verify BOTH secondary degree-two transfers and the tertiary boundary through arbitrary genuine homotopy-equivalent replacements. Prove the square-zero-chain/global obstruction result using the actual transferred data.
-2. Certify the entire free-quiver cone including final edge, its augmentation quasi-isomorphism, coherent derived two-shift nullhomotopy, full-real localisation comparison and evaluation lower bound.
-3. Certify arbitrary whole-real, BOTH-lane objectwise quasi-isomorphism zigzags by a full shoelace/replacement and acyclic-lane quotient theorem or a faithful explicit substitute.
-4. Define and prove the exact real metric inequalities and coefficient-presentation bridge.
-5. Cold-build the complete frozen Lean headline and align the manuscript. No publication without separate owner instruction.
+1. Construct BOTH replacement-side secondary families via explicit middle-homotopy correction terms (`formal/C4_SECONDARY_TRANSFER_FORMULA.md`), verify both exact equations and pull a hypothetical replacement tertiary boundary back to the original obstruction.
+2. Full free-quiver cone including final edge and derived coherent two-shift/localisation/evaluation lower bound.
+3. Full-real BOTH-lane arbitrary objectwise quasi-isomorphism replacement and acyclic-lane quotient.
+4. Exact metric definitions, numerical equality and bounds, coefficient-presentation bridge.
+5. Cold build of the full, unchanged paper theorem and manuscript alignment.
 
-No novelty, HHA-fit, prior-art, outside-review or alternative-target gate. No OptionD work. Next recovery handoff: `authoritative/NEXT_SESSION_PROMPT.md`.
+No OptionD development, alternative candidate, novelty/HHA-fit/prior-art/outside review gate, registry, submission, external release or contact. Recovery/continued execution: `authoritative/NEXT_SESSION_PROMPT.md`.

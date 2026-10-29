@@ -1,3 +1,11 @@
+# Current C4 execution — 29 October 2026, S166 certified checkpoint
+
+S166 proves on actual arbitrary five-object chain complexes the typed primary/secondary defining-system interface and constructs it from every C4 GlobalFourfoldDefiningSystem. It proves `GlobalFourfoldDefiningSystem.no_tertiary_filler` for **every** original global system: no degree-three family satisfying all component equations can fill its terminal. This derives from the genuine S164 arbitrary-global nonboundary proof; no new assumption. Pinned source PR Lean #40972496033 and integrity #40972496125 SUCCESS on 8f53f2ec1a82e5551dfd6c1e7afe4010f70ebaa3.
+
+**NOT YET PROVED:** the actual two transferred secondary fillers on arbitrary homotopy-equivalent replacement complexes, higher tertiary comparison from a replacement square-zero chain, derived/localisation comparison, both-lane full-real shoelace quotient, the exact metric theorem or presentation equivalence. The source-to-replacement correction formulas in `formal/C4_SECONDARY_TRANSFER_FORMULA.md` are a mathematically derived implementation guide, NOT Lean-certified. Preserve all paper quantifiers and both lanes. Continue substantive work across ordinary checkpoints; do not require a routine fresh owner instruction inside the active conversation. No OptionD development, alternative target, novelty/fit/prior-art/outside review, release, submission or outside contact.
+
+---
+
 # CURRENT OWNER OVERRIDE — S165 genuine primary homotopy-transfer checkpoint, 29 October 2026
 
 S165 adds certified actual five-object/four-arrow/three-primary transfer through five genuine chain-homotopy equivalences and preserves non-nullhomotopy of the four independent adjacent C4 classes. It does NOT prove transferred secondary/tertiary coherence, quasi-isomorphism replacement on both real lanes or the numerical frozen metric theorem. See `authoritative/START_HERE.md`, `sessions/S165/`, and next `S166` prompt. The owner's continuous-completion instruction still overrides routine stop-after-one-lemma boundaries within active conversations. No OptionD, candidate switch, novelty/fit/prior-art/external review, publication, registry, release or third-party contact.
