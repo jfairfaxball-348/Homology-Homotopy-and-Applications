@@ -449,4 +449,104 @@ theorem globalHComponent_identity (s n : ℤ) :
     simp only [ha, hb', hc, hd, he]
     convert hsquare using 1 <;> rfl
 
+
+/-! ### S157: categorical two-step nullhomotopy and secondary dg identity -/
+
+/-- Four-path categorical identity, with three independent final transports
+    to the same shifted target.  No assumptions on the coefficients. -/
+theorem regularCastFourPathsTripleExtra
+    {P Q R S T U V W X : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eq : Q = ModuleCat.of B B)
+    (er : R = ModuleCat.of B B)
+    (es : S = ModuleCat.of B B)
+    (et : T = ModuleCat.of B B)
+    (eu : U = ModuleCat.of B B)
+    (ev : V = ModuleCat.of B B)
+    (ew : W = ModuleCat.of B B)
+    (ex : X = ModuleCat.of B B)
+    (hv : V = S) (hw : W = S) (hx : X = S)
+    (a b c d e f g h : ModuleCat.of B B ⟶ ModuleCat.of B B)
+    (hab : a ≫ b + c ≫ d = e ≫ f + g ≫ h) :
+    ((eqToHom ep ≫ a ≫ eqToHom eq.symm) ≫
+      (eqToHom eq ≫ b ≫ eqToHom es.symm)) +
+    (((eqToHom ep ≫ c ≫ eqToHom er.symm) ≫
+      (eqToHom er ≫ d ≫ eqToHom ev.symm)) ≫ eqToHom hv) =
+    (((eqToHom ep ≫ e ≫ eqToHom et.symm) ≫
+      (eqToHom et ≫ f ≫ eqToHom ew.symm)) ≫ eqToHom hw) +
+    (((eqToHom ep ≫ g ≫ eqToHom eu.symm) ≫
+      (eqToHom eu ≫ h ≫ eqToHom ex.symm)) ≫ eqToHom hx) := by
+  cases ep
+  cases eq
+  cases er
+  cases es
+  cases et
+  cases eu
+  cases ev
+  cases ew
+  cases ex
+  cases hv
+  cases hw
+  cases hx
+  simpa using hab
+
+/-- Full all-integer degree-two secondary filler equation on the actual
+    shifted C4 chain complexes (including the truncation boundary). -/
+theorem globalZComponent_identity (s n : ℤ) :
+    globalZComponent s n ≫ (integerShiftResolution (s + 3)).d (n + 2) (n + 1) +
+    (((integerShiftResolution s).d n (n - 1) ≫ globalZComponent s (n - 1)) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 3)).X
+        (by omega : n - 1 + 2 = n + 1))) =
+    ((globalHComponent s n ≫ globalXComponent (s + 2) (n + 1)) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 2 + 1 = s + 3))) +
+    ((globalXComponent s n ≫ globalHComponent (s + 1) n) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 2 = s + 3))) := by
+  by_cases hboundary : n ≤ s + 1
+  · exact globalZComponent_identity_at_boundary s n hboundary
+  · have hp : s + 2 ≤ n := by omega
+    let m : ℕ := (n - (s + 2)).toNat
+    have ha : (n - (s + 1)).toNat = m + 1 := by dsimp [m]; omega
+    have hb : ((n + 1) - (s + 3)).toNat = m := by dsimp [m]; omega
+    have hc : ((n - 1) - s).toNat = m + 1 := by dsimp [m]; omega
+    have hd : ((n - 1) - (s + 1)).toNat = m := by dsimp [m]; omega
+    have he : ((n + 1) - ((s + 2) + 1)).toNat = m := by dsimp [m]; omega
+    have hf : (n - ((s + 1) + 1)).toNat = m := by dsimp [m]; omega
+    have hsquare := regularCastFourPathsTripleExtra
+      (integerObject_nonnegative (n - s) (by omega))
+      (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega))
+      (integerObject_nonnegative ((n - 1) - s) (by omega))
+      (integerObject_nonnegative ((n + 1) - (s + 3)) (by omega))
+      (integerObject_nonnegative ((n + 1) - (s + 2)) (by omega))
+      (integerObject_nonnegative (n - (s + 1)) (by omega))
+      (integerObject_nonnegative ((n - 1 + 2) - (s + 3)) (by omega))
+      (integerObject_nonnegative ((n + 1) - ((s + 2) + 1)) (by omega))
+      (integerObject_nonnegative ((n + 1) - ((s + 1) + 2)) (by omega))
+      (congrArg (integerShiftResolution (s + 3)).X
+        (by omega : n - 1 + 2 = n + 1))
+      (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 2 + 1 = s + 3))
+      (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 2 = s + 3))
+      (regularCoefficientHom (Periodic.z (m + 1)))
+      (regularCoefficientHom (Periodic.d m))
+      (regularCoefficientHom (Periodic.d (m + 1)))
+      (regularCoefficientHom (Periodic.z m))
+      (regularCoefficientHom (Periodic.h (m + 1)))
+      (regularCoefficientHom (Periodic.x m))
+      (regularCoefficientHom (Periodic.x (m + 1)))
+      (regularCoefficientHom (Periodic.h m))
+      (regularDz_xh_hx m)
+    rw [globalZComponent_regular s n (by omega),
+      shiftedDifferential_regular (s + 3) (n + 1) (by omega),
+      shiftedDifferential_regular s (n - 1) (by omega),
+      globalZComponent_regular s (n - 1) (by omega),
+      globalHComponent_regular s n (by omega),
+      globalXComponent_regular (s + 2) (n + 1) (by omega),
+      globalXComponent_regular s n (by omega),
+      globalHComponent_regular (s + 1) n (by omega)]
+    simp only [ha, hb, hc, hd, he, hf]
+    convert hsquare using 1 <;> rfl
+
 end C4
