@@ -516,14 +516,14 @@ theorem globalZComponent_identity (s n : ℤ) :
     have hxa : ((n + 1) - ((s + 2) + 1)).toNat = m := by dsimp [m]; omega
     have haDiff :
         (integerShiftResolution (s + 3)).d (n + 2) (n + 1) =
-          eqToHom (integerObject_nonnegative ((n + 1) + 1 - (s + 3)) (by omega)) ≫
+          eqToHom (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega)) ≫
           regularCoefficientHom (Periodic.d ((n + 1) - (s + 3)).toNat) ≫
           eqToHom (integerObject_nonnegative ((n + 1) - (s + 3)) (by omega)).symm := by
       have he : n + 1 + 1 = n + 2 := by omega
       simpa only [he] using shiftedDifferential_regular (s + 3) (n + 1) (by omega)
     have hbDiff :
         (integerShiftResolution s).d n (n - 1) =
-          eqToHom (integerObject_nonnegative ((n - 1) + 1 - s) (by omega)) ≫
+          eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
           regularCoefficientHom (Periodic.d ((n - 1) - s).toNat) ≫
           eqToHom (integerObject_nonnegative ((n - 1) - s) (by omega)).symm := by
       have he : n - 1 + 1 = n := by omega
