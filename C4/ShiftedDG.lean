@@ -654,7 +654,8 @@ theorem globalHFamily_zero (s i j : ℤ)
 adjacent pair of integer indices, with substitution before elaboration. -/
 theorem globalHComponent_identity_at_index (s i j : ℤ) (h : i = j + 1) :
     globalHComponent s i ≫ (integerShiftResolution (s + 2)).d (i + 1) i +
-    (integerShiftResolution s).d i j ≫ globalHComponent s j =
+    ((integerShiftResolution s).d i j ≫ globalHComponent s j) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 2)).X h.symm) =
     (globalXComponent s i ≫ globalXComponent (s + 1) i) ≫
       eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X i)
         (by omega : s + 1 + 1 = s + 2)) := by
