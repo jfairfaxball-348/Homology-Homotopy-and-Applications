@@ -360,4 +360,45 @@ theorem globalZComponent_identity_at_boundary (s n : ℤ) (hb : n ≤ s + 1) :
     exact integerObject_isZero_negative _ (by omega)
   exact hz.eq_of_tgt _ _
 
+
+/-! ### S156 positive homotopy cast bridge (scratch) -/
+
+theorem regularEqToHom_two {P Q R : ModuleCat B}
+    (h₁ : P = Q) (h₂ : Q = R) (h₃ : P = R) :
+    eqToHom h₁ ≫ eqToHom h₂ = eqToHom h₃ := by
+  cases h₁
+  cases h₂
+  simp
+
+
+
+/-- The transport square with a final non-definitional target shift equality. -/
+theorem regularCastTwoPathsExtra
+    {P Q R S T U : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eq : Q = ModuleCat.of B B)
+    (er : R = ModuleCat.of B B)
+    (es : S = ModuleCat.of B B)
+    (et : T = ModuleCat.of B B)
+    (eu : U = ModuleCat.of B B)
+    (hu : U = S)
+    (a b c d e f : ModuleCat.of B B ⟶ ModuleCat.of B B)
+    (hab : a ≫ b + c ≫ d = e ≫ f) :
+    ((eqToHom ep ≫ a ≫ eqToHom eq.symm) ≫
+      (eqToHom eq ≫ b ≫ eqToHom es.symm)) +
+    ((eqToHom ep ≫ c ≫ eqToHom er.symm) ≫
+      (eqToHom er ≫ d ≫ eqToHom es.symm)) =
+    ((eqToHom ep ≫ e ≫ eqToHom et.symm) ≫
+      (eqToHom et ≫ f ≫ eqToHom eu.symm)) ≫ eqToHom hu := by
+  cases ep
+  cases eq
+  cases er
+  cases es
+  cases et
+  cases eu
+  cases hu
+  simpa using hab
+
+/- The positive-degree global identity remains open. This scratch proof was not promoted. -/
+
 end C4
