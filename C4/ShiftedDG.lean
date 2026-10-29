@@ -538,9 +538,14 @@ theorem globalZComponent_identity (s n : ℤ) :
       (regularCoefficientHom (Periodic.x (m + 1)))
       (regularCoefficientHom (Periodic.h m))
       (regularDz_xh_hx m)
+    have hdiff1 := shiftedDifferential_regular (s + 3) (n + 1) (by omega)
+    have hidx1 : n + 2 = n + 1 + 1 := by omega
+    rw [← hidx1] at hdiff1
+    have hdiff2 := shiftedDifferential_regular s (n - 1) (by omega)
+    have hidx2 : n = (n - 1) + 1 := by omega
+    rw [← hidx2] at hdiff2
     rw [globalZComponent_regular s n (by omega),
-      shiftedDifferential_regular (s + 3) (n + 1) (by omega),
-      shiftedDifferential_regular s (n - 1) (by omega),
+      hdiff1, hdiff2,
       globalZComponent_regular s (n - 1) (by omega),
       globalHComponent_regular s n (by omega),
       globalXComponent_regular (s + 2) (n + 1) (by omega),
