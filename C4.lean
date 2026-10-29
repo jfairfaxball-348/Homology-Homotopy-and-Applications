@@ -15,3 +15,5 @@ public import C4.CanonicalGlobal
 public import C4.GlobalObstruction
 
 public import C4.RealDiagram
+
+public import C4.HomotopyTransfer
