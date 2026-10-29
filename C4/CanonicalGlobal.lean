@@ -42,6 +42,12 @@ theorem positiveGlobalComponent_globalX (s n : ℤ) (hn : s + 1 ≤ n) :
       globalXComponent s n ≫
       eqToHom (integerObject_nonnegative (n - (s + 1)) (by omega)) = _
   rw [globalXComponent_regular s n hn]
+  change
+    eqToHom (integerObject_nonnegative (n - s) (by omega)).symm ≫
+      (eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
+        regularCoefficientHom (Periodic.x (n - (s + 1)).toNat) ≫
+        eqToHom (integerObject_nonnegative (n - (s + 1)) (by omega)).symm) ≫
+      eqToHom (integerObject_nonnegative (n - (s + 1)) (by omega)) = _
   simp [Category.assoc]
 
 /-- Residue-one of the first genuine positive component at every shift. -/
@@ -49,7 +55,7 @@ theorem globalXChainMap_first_residue_unit (s : ℤ) :
     (regularEval (positiveGlobalComponent s (s + 1) (s + 1)
       (by omega) (by omega) (globalXChainMap s))).c0 = 1 := by
   rw [positiveGlobalComponent_globalX s (s + 1) (by omega)]
-  simpa [Periodic.x, regularEval_coefficient] 
+  simp [Periodic.x, regularEval_coefficient, C4.one]
 
 
 end C4
