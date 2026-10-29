@@ -1,3 +1,9 @@
+# S159 — arbitrary-choice C4 low-degree obstruction on shifted terms and categorical isomorphisms (29 October 2026)
+
+S159 certified actual ModuleCat B low-degree arbitrary-choice terminal nonboundary on EVERY nonnegative integer-shifted regular term, and preserved it under arbitrary categorical isomorphisms to the regular B-module. Compiled C4/GlobalChoice.lean identifiers: transportedCoefficient, transportedEval, transportedAllChoice_terminal_not_boundary, positiveShiftTerm_is_regular, PositiveShiftChoice, PositiveShiftChoice.terminal_not_boundary, isoCoefficient, isoConj and its additive/composition/coefficient transport lemmas, isoAllChoice_terminal_not_boundary. Exact scratch dd286ee6c85b55aa20b89c894ed2a00cea7090c1 passed pinned Lean #40893097063 and integrity #40893097053; earlier scratch dff9ebe284d7c4d2e98e7cdb66bca90b7c15c293 passed pinned Lean #40892402326 and integrity #40892402296. These are genuine all-choice LOCAL categorical results, not an arbitrary GLOBAL dg-Hom defining system, not transfer under general chain-homotopy equivalences and not entire-real ℝ persistence or the two-lane metric bounds. Frozen B=F₂[C₄] first paper only; no OptionD modifications, novelty/fit/prior art/review, publication, registration, external contact, or release.
+
+---
+
 # BINDING OWNER OVERRIDE — 27 October 2026: FROZEN FIRST PAPER
 
 The owner has ended exploratory target selection. The ONE active first-paper candidate is the cyclic-four modular real-persistence strict interleaving gap, archived mathematical proofs S076/S077/S113/S114. Let B=F₂[C₄]≅F₂[t]/(t⁴), and F be their exact five-stage whole-real Ch(right B) diagram, O=0. Frozen INTERNAL theorem: d_CohI(F,O)=1/2 < d_IHC(F,O)=1 < 5/4 ≤ d_HI(F,O) ≤ 5/2. The homotopy metric permits arbitrary whole-real objectwise quasi-isomorphism zigzags on BOTH input lanes. Do not misrepresent it as a Top^R theorem.

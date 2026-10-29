@@ -8,3 +8,4 @@ public import C4.Augmentation
 public import C4.Exactness
 
 public import C4.ShiftedDG
+public import C4.GlobalChoice
