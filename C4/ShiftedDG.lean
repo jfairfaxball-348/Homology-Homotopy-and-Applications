@@ -660,7 +660,7 @@ theorem globalHComponent_identity_at_index (s i j : ℤ) (h : i = j + 1) :
       eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X i)
         (by omega : s + 1 + 1 = s + 2)) := by
   subst i
-  simpa only [] using globalHComponent_identity s j
+  simpa using globalHComponent_identity s j
 
 /-- The genuine squared x-map is nullhomotopic by the
 all-integer categorical Dh identity; every term uses actual
