@@ -401,6 +401,8 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalHComponent_regular s n (by omega),
       globalXComponent_regular s (n + 1) (by omega),
       globalXComponent_regular (s + 1) (n + 1) (by omega)]
+    have hshift : s + 1 + 1 = s + 2 := by omega
+    simp only [hshift] at *
     simpa [integerShiftResolution, integerResolution, m, ha, hb', hc, hd, he, Category.assoc, eqToHom_trans, eqToHom_refl] using hsquare
 
 end C4
