@@ -728,4 +728,34 @@ theorem globalZFamily_coherence (s n : ℤ) :
         (by omega : s + 1 + 2 = s + 3))) := by
   simpa only [globalZFamily_two] using globalZComponent_identity s n
 
+/-! ### S159 genuine global fourfold terminal, with all categorical casts -/
+
+/-- The genuinely indexed *selected* fourfold terminal zx+hh+xz on the
+integer-shifted C4 resolution. The extra transports are essential: the
+second h term lands at n+1+1 and the three shift expressions are not
+definitionally equal. This does not quantify over arbitrary choices yet. -/
+def globalTerminalComponent (s n : ℤ) :
+    (integerShiftResolution s).X n ⟶
+      (integerShiftResolution (s + 4)).X (n + 2) :=
+  ((globalZComponent s n ≫ globalXComponent (s + 3) (n + 2)) ≫
+    eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 2))
+      (by omega : s + 3 + 1 = s + 4))) +
+  (((globalHComponent s n ≫ globalHComponent (s + 2) (n + 1)) ≫
+    eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X ((n + 1) + 1))
+      (by omega : s + 2 + 2 = s + 4))) ≫
+    eqToHom (congrArg (integerShiftResolution (s + 4)).X
+      (by omega : (n + 1) + 1 = n + 2))) +
+  ((globalXComponent s n ≫ globalZComponent (s + 1) n) ≫
+    eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 2))
+      (by omega : s + 1 + 3 = s + 4)))
+
+/-- The actual selected fourfold terminal vanishes at the truncation
+boundary, because the genuine target is the zero B-module. -/
+theorem globalTerminalComponent_zero_at_boundary (s n : ℤ) (hn : n ≤ s + 1) :
+    globalTerminalComponent s n = 0 := by
+  have hz : Limits.IsZero ((integerShiftResolution (s + 4)).X (n + 2)) := by
+    change Limits.IsZero (integerObject ((n + 2) - (s + 4)))
+    exact integerObject_isZero_negative _ (by omega)
+  exact hz.eq_of_tgt _ _
+
 end C4
