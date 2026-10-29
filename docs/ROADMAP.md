@@ -1,3 +1,9 @@
+# S157 — GLOBAL Dh=x² AND Dz=xh+hx ALL-INTEGER LEAN CERTIFIED (29 October 2026)
+
+Actual shifted ModuleCat B component identities C4.globalHComponent_identity and C4.globalZComponent_identity now hold at EVERY integer shift and degree, both positive and truncation boundary. The proof adds a general adjacent-index differential normal form and a four-path categorical transport identity. Exact scratch SHA 67c2b68eb119a1e961fe94782c9474006338cb88; pinned Lean #40883221948 SUCCESS and integrity #40883221471 SUCCESS. Lean v4.35.0-rc2, Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55. These are genuine globally indexed component equations, NOT yet a full Mathlib Homotopy object, universal arbitrary GLOBAL fourfold obstruction, conjugation transfer, entire-real derived diagram, or whole-real strict/derived quantitative metric theorem. No novelty, HHA-fit, prior-art or external review, OptionD work, Palomar, arXiv/HHA submission, public release or third-party contact.
+
+---
+
 # S156 — verified categorical target-shift transports; positive global h/z OPEN (29 October 2026)
 
 S156 (29 October 2026): pinned Lean and integrity certify general typed two-step eqToHom composition and transported two-path identities with a final nondefinitional integer-shift cast. Positive global Dh=x²/Dz=xh+hx are still OPEN; the S156 attempts to integrate the positive identities did not compile and were not promoted. No full global h/z homotopies, arbitrary global fourfold system or full-real numerical bounds are certified. No novelty, journal-fit, review, OptionD work or external release.
