@@ -9,3 +9,4 @@ public import C4.Exactness
 
 public import C4.ShiftedDG
 public import C4.GlobalChoice
+public import C4.GlobalDefining
