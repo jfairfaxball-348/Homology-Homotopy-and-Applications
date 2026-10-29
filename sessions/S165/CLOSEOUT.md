@@ -6,4 +6,4 @@ This session makes genuine categorical progress beyond S164: all four independen
 
 ## NEXT_SESSION_HANDOFF
 
-**S166 FUTURE, UNEXECUTED.** See `authoritative/NEXT_SESSION_PROMPT.md`. Focus on explicit transferred SECONDARY degree-two families and tertiary boundary, with all middle correction terms; do not stop at a structure of assumed fillers. Subsequent work requires full free-quiver/derived and whole-real both-lane metric bridges; no new scientific gate.
+**S166 FUTURE, UNEXECUTED.** A separate owner invocation is required to start a new conversation; this does not interrupt the owner's existing continuous-completion authority within the present conversation. See `authoritative/NEXT_SESSION_PROMPT.md`. Focus on explicit transferred SECONDARY degree-two families and tertiary boundary, with all middle correction terms; do not stop at a structure of assumed fillers. Subsequent work requires full free-quiver/derived and whole-real both-lane metric bridges; no new scientific gate.
