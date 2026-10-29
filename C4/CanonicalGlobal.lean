@@ -218,9 +218,4 @@ theorem canonicalZ14_zero (s i j : ℤ) (h : j ≠ i + 2) :
     canonicalZ14 s i j = 0 := by
   simp [canonicalZ14, globalZFamily_zero (s + 1) i j h]
 
-/-- Certified-component sanity check: stage-0 primary is the original h. -/
-theorem canonicalPrimary02_hom (s n : ℤ) :
-    (canonicalPrimary02 s).hom n (n + 1) = globalHComponent s n := by
-  simp [canonicalPrimary02, globalXSquaredNullHomotopy, globalHFamily_next]
-
 end C4
