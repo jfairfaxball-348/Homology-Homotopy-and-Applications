@@ -1,3 +1,9 @@
+# S157 — global C4 Dh=x² and Dz=xh+hx formally certified (29 October 2026)
+
+S157 closes the previously open **all-integer categorical positive-degree** identities `C4.globalHComponent_identity` and `C4.globalZComponent_identity`, including all boundary degrees, for the actual shifted `ModuleCat B` complexes. The Lean/Mathlib-pinned run #40881428555 and repository-integrity run #40881428517 passed on scratch `b57f5de381771fbe2828ff5517e610b274899c04`; the earlier H-only run #40880287952 was also green. Additional certified bridges are `regularTransport_comp`, `regularTransport_final`, `regularCastFourPathsFinal` and `shiftedDifferential_regular_any`. **Not yet certified:** a packaged `Homotopy`/degree-two coherence structure, the universal global fourfold with all defining-system choices and equivalence transfer, the full real-indexed derived/strict two-lane interleaving constructions, or the numerical frozen theorem. No novelty, journal-fit, prior-art, OptionD work, review, external release or registration.
+
+---
+
 # S156 — verified categorical target-shift transports; positive global h/z OPEN (29 October 2026)
 
 S156 (29 October 2026): pinned Lean and integrity certify general typed two-step eqToHom composition and transported two-path identities with a final nondefinitional integer-shift cast. Positive global Dh=x²/Dz=xh+hx are still OPEN; the S156 attempts to integrate the positive identities did not compile and were not promoted. No full global h/z homotopies, arbitrary global fourfold system or full-real numerical bounds are certified. No novelty, journal-fit, review, OptionD work or external release.
