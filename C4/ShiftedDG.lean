@@ -606,4 +606,126 @@ theorem globalZComponent_identity (s n : ℤ) :
       simp only [integerShiftResolution, integerResolution, m, hza, hzb, hda, hdb,
         hha, hhb, hxa, Category.assoc] <;> congr 1
 
+/-! ### S157: actual nullhomotopy packaging for the twofold adjacent map -/
+
+/-- The actual twice-composed adjacent chain map between shifted resolutions. -/
+def globalXSquared (s : ℤ) :
+    integerShiftResolution s ⟶ integerShiftResolution (s + 2) :=
+  (globalXChainMap s ≫ globalXChainMap (s + 1)) ≫
+    eqToHom (congrArg integerShiftResolution (by omega : s + 1 + 1 = s + 2))
+
+/-- Extract the actual degree-indexed component from the twice-composed
+chain morphism, including the non-definitional final shift transport. -/
+theorem globalXSquared_component (s i : ℤ) :
+    (globalXSquared s).f i =
+      (globalXComponent s i ≫ globalXComponent (s + 1) i) ≫
+        eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X i)
+          (by omega : s + 1 + 1 = s + 2)) := by
+  simp [globalXSquared, globalXChainMap]
+
+/-- The degree-one homotopy family, supported precisely in the
+single successor degree, with actual target-object transports. -/
+def globalHFamily (s i j : ℤ) :
+    (integerShiftResolution s).X i ⟶
+      (integerShiftResolution (s + 2)).X j := by
+  by_cases h : j = i + 1
+  · exact globalHComponent s i ≫
+      eqToHom (congrArg (integerShiftResolution (s + 2)).X h.symm)
+  · exact 0
+
+theorem globalHFamily_next (s i : ℤ) :
+    globalHFamily s i (i + 1) = globalHComponent s i := by
+  simp [globalHFamily]
+
+
+
+/-- Off-diagonal degree-one entries vanish for the actual chain shape. -/
+theorem globalHFamily_zero (s i j : ℤ)
+    (h : ¬ (ComplexShape.down ℤ).Rel j i) :
+    globalHFamily s i j = 0 := by
+  have hne : j ≠ i + 1 := by
+    intro he
+    apply h
+    change i + 1 = j
+    exact he.symm
+  simp [globalHFamily, hne]
+
+/-- The all-integer global primary homotopy identity at any provably
+adjacent pair of integer indices, with substitution before elaboration. -/
+theorem globalHComponent_identity_at_index (s i j : ℤ) (h : i = j + 1) :
+    globalHComponent s i ≫ (integerShiftResolution (s + 2)).d (i + 1) i +
+    ((integerShiftResolution s).d i j ≫ globalHComponent s j) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 2)).X h.symm) =
+    (globalXComponent s i ≫ globalXComponent (s + 1) i) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X i)
+        (by omega : s + 1 + 1 = s + 2)) := by
+  subst i
+  simpa using globalHComponent_identity s j
+
+/-- The genuine squared x-map is nullhomotopic by the
+all-integer categorical Dh identity; every term uses actual
+ChainComplex morphisms, not coefficient surrogates. -/
+theorem globalXSquared_eq_nullHomotopicMap (s : ℤ) :
+    globalXSquared s = Homotopy.nullHomotopicMap (globalHFamily s) := by
+  apply HomologicalComplex.hom_ext _ _
+  intro i
+  have hr : (ComplexShape.down ℤ).Rel i (i - 1) := by
+    change i - 1 + 1 = i
+    omega
+  have hl : (ComplexShape.down ℤ).Rel (i + 1) i := by
+    change i + 1 = i + 1
+    rfl
+  have hh := globalHComponent_identity_at_index s i (i - 1) (by omega)
+  have heq : (i - 1) + 1 = i := by omega
+  rw [globalXSquared_component]
+  change _ = dNext i (globalHFamily s) + prevD i (globalHFamily s)
+  rw [dNext_eq (globalHFamily s) hr, prevD_eq (globalHFamily s) hl]
+  simpa [globalHFamily, heq, add_comm, Category.assoc] using hh.symm
+
+/-- Actual indexed chain homotopy from x composed with x to zero. -/
+def globalXSquaredNullHomotopy (s : ℤ) : Homotopy (globalXSquared s) 0 := by
+  rw [globalXSquared_eq_nullHomotopicMap]
+  exact Homotopy.nullHomotopy (globalHFamily s)
+    (globalHFamily_zero s)
+
+
+
+/-! ### S158: degree-two indexed secondary filler and coherent differential -/
+
+/-- The genuine degree-two secondary filler family on every pair of integer
+indices; zero outside the specified two-step target degree. -/
+def globalZFamily (s i j : ℤ) :
+    (integerShiftResolution s).X i ⟶
+      (integerShiftResolution (s + 3)).X j := by
+  by_cases h : j = i + 2
+  · exact globalZComponent s i ≫
+      eqToHom (congrArg (integerShiftResolution (s + 3)).X h.symm)
+  · exact 0
+
+theorem globalZFamily_two (s i : ℤ) :
+    globalZFamily s i (i + 2) = globalZComponent s i := by
+  simp [globalZFamily]
+
+theorem globalZFamily_zero (s i j : ℤ)
+    (h : j ≠ i + 2) : globalZFamily s i j = 0 := by
+  simp [globalZFamily, h]
+
+/-- Actual integer-indexed secondary differential coherence for the
+higher-degree z family. This asserts the four genuinely shifted paths,
+not a fictitious degree-one ordinary chain homotopy. -/
+theorem globalZFamily_coherence (s n : ℤ) :
+    globalZFamily s n (n + 2) ≫
+      (integerShiftResolution (s + 3)).d (n + 2) (n + 1) +
+    (((integerShiftResolution s).d n (n - 1) ≫
+      globalZFamily s (n - 1) ((n - 1) + 2)) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 3)).X
+        (by omega : n - 1 + 2 = n + 1))) =
+    ((globalHComponent s n ≫ globalXComponent (s + 2) (n + 1)) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 2 + 1 = s + 3))) +
+    ((globalXComponent s n ≫ globalHComponent (s + 1) n) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 2 = s + 3))) := by
+  simpa only [globalZFamily_two] using globalZComponent_identity s n
+
 end C4
