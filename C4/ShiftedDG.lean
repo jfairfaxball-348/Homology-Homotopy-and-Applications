@@ -649,6 +649,8 @@ theorem globalXSquareChainMap_f (s i : ℤ) :
       (globalXComponent s i ≫ globalXComponent (s + 1) i) ≫
         eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X i)
           (by omega : s + 1 + 1 = s + 2)) := by
+  simp only [globalXSquareChainMap, HomologicalComplex.comp_f,
+    HomologicalComplex.eqToHom_f, globalXChainMap]
   rfl
 
 /-- Mathlib's target-differential half of the actual homotopy equation. -/
@@ -677,6 +679,7 @@ theorem globalHFamily_dNext (s i : ℤ) :
     globalHFamily s ((ComplexShape.down ℤ).next i) i = _
   rw [hn]
   have hh : i = (i - 1) + 1 := by omega
-  simp [globalHFamily, hh, Category.assoc]
+  dsimp only [globalHFamily]
+  simp only [dif_pos hh, Category.assoc]
 
 end C4
