@@ -435,7 +435,6 @@ theorem regularTransport_final
   cases hu
   simp
 
-set_option pp.maxDepth 48 in
 theorem globalHComponent_identity (s n : ℤ) :
     globalHComponent s (n + 1) ≫
       (integerShiftResolution (s + 2)).d (n + 1 + 1) (n + 1) +
