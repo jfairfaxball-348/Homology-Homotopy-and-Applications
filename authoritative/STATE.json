@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-29",
-  "last_completed_session": "S157",
-  "recommended_next_session": "S158",
+  "last_completed_session": "S158",
+  "recommended_next_session": "S159",
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
     "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
@@ -14,9 +14,9 @@
     "full_paper_theorem_lean_certified": false
   },
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S157 pinned Lean certifies C4.globalHComponent_identity (Dh=x²) and C4.globalZComponent_identity (Dz=xh+hx) for actual all-integer shifted ModuleCat B components. Generic adjacent index normalisation and four-path categorical transports certified. True homotopy objects, all-choice fourfold conjugation and entire-real L2/L3 remain OPEN.",
+  "headline": "S158 source scratch `57ac60686c37624340d4c7756d74a1f224e8d011` passed pinned Lean #40886283233 and repository integrity #40886283063. The actual `C4.globalXSquaredNullHomotopy (s : ℤ) : Homotopy (globalXSquared s) 0` is certified for EVERY integer s, using true `HomologicalComplex.hom_ext`, `dNext_eq` and `prevD_eq`, and the S157 global Dh=x² identity. A degree-two indexed `globalZFamily` with `globalZFamily_zero` and `globalZFamily_coherence` certifies the actual Dz=xh+hx component equation without misclassifying z as an ordinary degree-one homotopy. Not yet certified: arbitrary GLOBAL all-choice fourfold nonboundary and its invariance under homotopy equivalence, entire-real ℕ→ℝ construction or the unrestricted both-lane numerical metric theorem. No novelty, journal-fit, prior-art, external review, alternate candidate, OptionD development, publication, release or third-party contact.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "C4_FROZEN_S157_GLOBAL_HZ_COMPONENTS_CERTIFIED_GLOBAL_FOURFOLD_AND_REAL_METRICS_OPEN",
+  "headline_status": "C4_FROZEN_S158_HOMOTOPY_AND_Z_COHERENCE_CERTIFIED_GLOBAL_ALL_CHOICE_REAL_OPEN",
   "active_campaign": "C4_FIRST_PAPER_S156_CAST_COHERENCE_NEXT_GLOBAL_HZ_FOURFOLD_REAL_METRIC",
   "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; no formal certificate of the metric; no novelty or HHA significance gate in active roadmap.",
   "stages": [
@@ -1100,13 +1100,13 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "S158: package S157 genuine component equations into actual Mathlib HomologicalComplex.Homotopy and a degree-two dg defining system; arbitrary global fourfold nonboundary, chain-equivalence conjugation transfer.",
-    "L2: whole-real projective free-quiver cone/Kan-extension, derived η₂ homotopy and dIHC=1.",
-    "L3: all unrestricted entire-real zigzags on BOTH lanes, shoelace transfer and 5/4≤dHI≤5/2 proof."
+    "IMMEDIATE S159: upgrade S149 local arbitrary regular morphism all-choice terminal obstruction to arbitrary global integer-shifted C4 defining systems and homotopy-equivalence conjugation, using genuine S158 Homotopy and indexed z.",
+    "Construct true entire-real five-stage persistence F and zero, projective/free-quiver left Kan bridge, eta2 nullhomotopy and derived interleaving dIHC=1.",
+    "Prove strict lower bound 5/4 and upper bound 5/2 under arbitrary entire-real objectwise quasi-isomorphism zigzags of BOTH lanes, then cold formal statement dCohI=1/2<dIHC=1<5/4≤dHI≤5/2."
   ],
   "blockers": [
-    "Global Mathlib homotopy and universal all-choice fourfold obstruction still not built; S157 certifies components only.",
-    "Whole-real derived and strict interleaving metric inequalities remain NOT Lean-certified."
+    "The arbitrary GLOBAL C4 fourfold defining-system obstruction and homotopy equivalence transport remain open even though x² is genuinely nullhomotopic and z coherent.",
+    "No fully typed entire-real homotopy-interleaving metric construction or unrestricted two-lane proof in pinned Mathlib/Lean; numeric theorem still internal."
   ],
   "s052_checkpoint": "T127/T128 exact contractible-cube collision saturation and all strict zero biconditional for any 2s<r<3s; T129 original-sphere whole-WE I4 countermodel proving all three collisions insufficient. No sphere GRID witness/no-go, higher obstruction or exact dHI. Hosted static governance is not mathematics.",
   "owner_publication_decision": {
@@ -2771,6 +2771,16 @@
     "certified_scratch_integrity_run": 40883221471,
     "formalised": "all integer global shifted B-linear Dh=x² and Dz=xh+hx component equations; arbitrary adjacent index d cast normalisation; categorical four-path transport",
     "unproved": "true homotopy objects, global arbitrary-choice fourfold/conjugation, real derived and two-lane strict metric inequalities",
+    "full_paper_theorem_lean_certified": false
+  },
+  "s158_checkpoint": {
+    "entry_main": "4f80be0e87669af63c04bc135d6a0f00d97460f2",
+    "entry_tree": "a614e99bccf26fc5432047bacdb27321d3734a0f",
+    "certified_scratch_sha": "57ac60686c37624340d4c7756d74a1f224e8d011",
+    "certified_scratch_lean_run": 40886283233,
+    "certified_scratch_integrity_run": 40886283063,
+    "formalised": "genuine all-integer Mathlib Homotopy between the twice-composed adjacent global x-chain-map and zero; degree-two indexed z family with coherent differential identity",
+    "unproved": "arbitrary global all-choice fourfold terminal nonboundary and equivalence conjugation; entire-real projective Kan bridge; both lane unrestricted dIHC/dHI exact metric bounds",
     "full_paper_theorem_lean_certified": false
   }
 }
