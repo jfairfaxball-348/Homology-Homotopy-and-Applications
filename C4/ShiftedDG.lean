@@ -1,5 +1,6 @@
 module
 public import C4.Exactness
+public import Mathlib.Algebra.Homology.Homotopy
 
 @[expose] public section
 
@@ -605,5 +606,40 @@ theorem globalZComponent_identity (s n : ℤ) :
     convert hsquare using 1 <;>
       simp only [integerShiftResolution, integerResolution, m, hza, hzb, hda, hdb,
         hha, hhb, hxa, Category.assoc] <;> congr 1
+
+
+/-! ### S158 genuine Mathlib Homotopy packaging (scratch) -/
+
+/-- The genuine twofold composite x chain map, with the nondefinitional
+integer-shift target identification carried by eqToHom. -/
+def globalXSquareChainMap (s : ℤ) :
+    integerShiftResolution s ⟶ integerShiftResolution (s + 2) :=
+  (globalXChainMap s ≫ globalXChainMap (s + 1)) ≫
+    eqToHom (congrArg integerShiftResolution
+      (by omega : s + 1 + 1 = s + 2))
+
+/-- A degree-one homotopy component in a general pair of integer indices.
+It vanishes off the genuine chain-homotopy shape. -/
+def globalHFamily (s i j : ℤ) :
+    (integerShiftResolution s).X i ⟶ (integerShiftResolution (s + 2)).X j :=
+  if h : j = i + 1 then
+    globalHComponent s i ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution (s + 2)).X k)
+        h.symm)
+  else 0
+
+theorem globalHFamily_at_successor (s i : ℤ) :
+    globalHFamily s i (i + 1) = globalHComponent s i := by
+  simp [globalHFamily]
+
+theorem globalHFamily_shape_zero (s i j : ℤ)
+    (hij : ¬ (ComplexShape.down ℤ).Rel j i) :
+    globalHFamily s i j = 0 := by
+  have hnot : j ≠ i + 1 := by
+    intro h
+    apply hij
+    change i + 1 = j
+    exact h.symm
+  simp [globalHFamily, hnot]
 
 end C4
