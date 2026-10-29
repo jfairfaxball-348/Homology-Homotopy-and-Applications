@@ -446,6 +446,7 @@ theorem globalHComponent_identity (s n : ℤ) :
     have hpd : 0 ≤ (n + 1) - (s + 2) := by omega
     have hpe : 0 ≤ (n + 1) - (s + 1) := by omega
     have hpf : 0 ≤ (n + 1) - ((s + 1) + 1) := by omega
+    simp only [ha, hb', hc, hd, he]
     convert hsquare using 1 <;> rfl
 
 end C4
