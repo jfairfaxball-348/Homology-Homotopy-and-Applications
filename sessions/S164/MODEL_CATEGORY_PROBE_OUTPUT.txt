@@ -1,0 +1,8 @@
+../toolchain/ModelProbe.lean:5:0: error: failed to synthesize
+  ModelCategory (ChainComplex (ModuleCat C4.B) ℤ)
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+../toolchain/ModelProbe.lean:6:0: error: failed to synthesize
+  ModelCategory (ℝ ⥤ ChainComplex (ModuleCat C4.B) ℤ)
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.

@@ -1,3 +1,5 @@
-# Active paper
+# C4 working manuscript
 
-See [C4_MANUSCRIPT.md](C4_MANUSCRIPT.md). Its written proof is internally supported, but the full C4 theorem is not Lean-certified. Draft and formalise in parallel NOW. No novelty, fit, prior-art or external review gate. No submission without the owner's distinct instruction.
+[C4_MANUSCRIPT.md](C4_MANUSCRIPT.md) is the internal written first-paper argument. Its formal-certification status now corresponds to S164.
+
+Lean certifies the global fourfold obstruction and actual real diagram, including literal five-shift vanishing. The complete numerical metric theorem is not yet formalised or submission-ready. See [the completion review](../formal/C4_COMPLETION_REVIEW.md) for the exact remaining proofs. Drafting is authorised; registration, submission, public release and third-party contact require separate owner instructions.

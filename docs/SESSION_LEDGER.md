@@ -421,3 +421,7 @@ Owner's fresh session invocation from S140 ordinary merge main 304f3bbd92b092ceb
 ### S147 — 27 October 2026 — positive cast and residue cokernel (partial L1 certified)
 
 Source `e9898c401a25037a8d3862f88ef27bbb4e347bb5` Lean #40588606381 SUCCESS, integrity #40588606758 SUCCESS, based on S146 `a6009d405f07fb374bea289e3cbf375468563f83`. All `n≠0` genuine `ExactAt`/zero homology certified, plus residue categorical cokernel. H₀ and induced `QuasiIso` **OPEN**; pinned H₀ scratch `f7b59c0a` #40589338567 FAIL `C4/Exactness.lean:140:36` on degree-zero `eqToHom` casts. S148 installed future only. No release or external contact.
+
+## S164 — 29 October 2026 — completion review, global obstruction and actual real diagram
+
+Closes both canonical secondary coherence equations and constructs the global defining-system inhabitant. Proves arbitrary-global terminal residue one/nonboundary with independent representatives and fillers. Constructs the actual full-real five-stage functor and its literal vanishing five-shift. Complete pinned local OptionD+C4 build passes. Reviews representation-induced cast churn and missing unbounded projective/real-diagram infrastructure; full numerical theorem remains open. Evidence: sessions/S164; exact remaining contracts: formal/C4_COMPLETION_REVIEW.md. Active owner authority continues across routine checkpoints.

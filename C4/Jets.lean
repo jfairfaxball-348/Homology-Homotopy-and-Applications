@@ -149,6 +149,37 @@ theorem universal_terminal_not_boundary
   exact one_ne_zero hcoef
 
 
+/-- The true fourfold low-degree residue with independent adjacent maps.
+Only the first primary and first secondary equations are needed; the
+remaining terminal factors are unrestricted. In particular no equality
+between different primary right-hand sides is assumed. -/
+theorem independent_terminal_residue
+    (a1 a2 b1 c1 d1 h1 h2 j1 m1 k1 k2 l1 : B)
+    (ha : Adjacent a1 a2)
+    (hb : b1.c0 = 1) (hc : c1.c0 = 1) (hd : d1.c0 = 1)
+    (hH : Primary b1 a2 h1 h2)
+    (hK : Secondary c1 h2 j1 a2 k1 k2) :
+    (Terminal d1 k2 m1 h2 l1 a2).c0 = 1 := by
+  have a := adjacent_jet ha
+  have h := primary_jet a hb hH
+  have k := secondary_jet ⟨a.1, a.2.1⟩ hc h hK
+  exact terminal_constant hd k h.1 a.1
+
+theorem independent_terminal_not_boundary
+    (a1 a2 b1 c1 d1 h1 h2 j1 m1 k1 k2 l1 f1 f2 : B)
+    (ha : Adjacent a1 a2)
+    (hb : b1.c0 = 1) (hc : c1.c0 = 1) (hd : d1.c0 = 1)
+    (hH : Primary b1 a2 h1 h2)
+    (hK : Secondary c1 h2 j1 a2 k1 k2) :
+    Terminal d1 k2 m1 h2 l1 a2 ≠ add (mul t f2) (mul t3 f1) := by
+  intro heq
+  have ht := independent_terminal_residue
+    a1 a2 b1 c1 d1 h1 h2 j1 m1 k1 k2 l1 ha hb hc hd hH hK
+  have hf := boundary_constant_zero f1 f2
+  have he := congrArg B.c0 heq
+  rw [ht, hf] at he
+  exact one_ne_zero he
+
 /-- Exact coefficient description of ann(t). -/
 theorem ann_t_coeffs (a : B) :
     mul t a = zero ↔ a.c0 = 0 ∧ a.c1 = 0 ∧ a.c2 = 0 := by

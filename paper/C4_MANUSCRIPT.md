@@ -1,94 +1,6 @@
-# S163 — three canonical global primary homotopies and secondary stage casts Lean-certified (29 October 2026)
-
-S163 (29 October 2026) proves all four canonical adjacent global C4 chain maps are residue-one in their first positive regular components and certifies all THREE true all-integer Mathlib primary nullhomotopies (02,13,24). The intermediate shift casts are handled by actual chain-map naturality, and two exact-target secondary degree-two families (03,14) with off-degree support are now certified. Exact clean scratch `a8e18ebd58b808a3edb1b06df5f64a0c6d61d157` passed full pinned Lean #40908049804 and integrity #40908049784; prior stages `62496b5817711a708014280af633a3b5b4f221dd` Lean #40906560143 and `ec3085026e0dc4a4f137c1fec3965aded64306db` Lean #40907040082 also passed. Failed scratch `7017e9cdcdc4468e46155bfdd5a79c70a31bb925` (Lean #40907649875) exposed a dependent `Homotopy` cast in component extraction and was NOT promoted. The secondary differential coherence in the chosen defining system, actual `GlobalFourfoldDefiningSystem` inhabitant, arbitrary global terminal exclusion, homotopy-equivalence transfer, entire-real construction and BOTH numerical metric lanes remain OPEN. Frozen B=F₂[C₄] ONLY; no OptionD development, novelty, HHA-fit, prior-art, outside review, Palomar, arXiv/HHA submission, public release or contact.
-
----
-
-# S161 — exact canonical primary shifted nullhomotopy bridge certified; fourfold instance OPEN (29 October 2026)
-
-S161 certifies `C4.canonicalX12 (s : ℤ)` and `C4.canonicalPrimary02 (s : ℤ) : Homotopy (globalXChainMap s ≫ canonicalX12 s) 0` as a genuine ALL-INTEGER Mathlib chain homotopy with stage-2 target exactly `integerShiftResolution (s+2)`. Clean scratch `150391d5f81d33d3642d2300107095f691eccf66` pinned full Lean #40896532516 and integrity #40896532296 SUCCESS. Subsequent exploratory residue-one attempts `df170a1`, `d87cf9a`, `d538332` failed dependent `eqToHom` regular-object reductions, were NOT promoted, and do NOT invalidate the canonical primary theorem. A full `GlobalFourfoldDefiningSystem` canonical inhabitant, independent-residue unit fields, universal arbitrary-global terminal nonboundary, homotopy-equivalence invariance and entire-real metric inequalities remain OPEN. No OptionD, novelty/fit/prior-art/review, external publication, registry or contact.
-
----
-
-# S160 — globally indexed arbitrary C4 defining-system interface certified (29 October 2026)
-
-S160 compiled the actual `C4.GlobalFourfoldDefiningSystem (s : ℤ)` on all-integer shifted ModuleCat B complexes: FOUR arbitrary adjacent genuine chain maps with required nonzero residue classes, THREE genuine Mathlib primary homotopies, and TWO independent all-integer degree-two secondary families with explicit support and four-path differential coherence. It also certifies `positiveGlobalComponent`, `positiveGlobalComponent_comp`, `positiveGlobalComponent_congr`, and `GlobalFourfoldDefiningSystem.primary_zero` to normalize and transport genuine global chain-map equations. Exact scratch `248e9068f39458d1ac2453b2ac50d530eb528615` pinned Lean #40895320033 SUCCESS, integrity #40895320007 SUCCESS. IMPORTANT: This is a genuine typed admissibility DATA TYPE and component bridge, not a proof of its nonemptiness for the intended canonical system, not the arbitrary-global terminal nonboundary theorem, not invariance under arbitrary homotopy-equivalence/cofibrant replacements, and not full real persistence or both-lane metrics. Do not claim complete formalisation. Frozen C4 only; no OptionD changes, novelty/HHA-fit/prior-art/outside review, release, submission or contact.
-
----
-
-# S159 — arbitrary-choice C4 low-degree obstruction on shifted terms and categorical isomorphisms (29 October 2026)
-
-S159 certified actual ModuleCat B low-degree arbitrary-choice terminal nonboundary on EVERY nonnegative integer-shifted regular term, and preserved it under arbitrary categorical isomorphisms to the regular B-module. Compiled C4/GlobalChoice.lean identifiers: transportedCoefficient, transportedEval, transportedAllChoice_terminal_not_boundary, positiveShiftTerm_is_regular, PositiveShiftChoice, PositiveShiftChoice.terminal_not_boundary, isoCoefficient, isoConj and its additive/composition/coefficient transport lemmas, isoAllChoice_terminal_not_boundary. Exact scratch dd286ee6c85b55aa20b89c894ed2a00cea7090c1 passed pinned Lean #40893097063 and integrity #40893097053; earlier scratch dff9ebe284d7c4d2e98e7cdb66bca90b7c15c293 passed pinned Lean #40892402326 and integrity #40892402296. These are genuine all-choice LOCAL categorical results, not an arbitrary GLOBAL dg-Hom defining system, not transfer under general chain-homotopy equivalences and not entire-real ℝ persistence or the two-lane metric bounds. Frozen B=F₂[C₄] first paper only; no OptionD modifications, novelty/fit/prior art/review, publication, registration, external contact, or release.
-
----
-
-# S158 — Mathlib global C4 x² null-homotopy and indexed degree-two z coherence certified (29 October 2026)
-
-S158 source scratch `57ac60686c37624340d4c7756d74a1f224e8d011` passed pinned Lean #40886283233 and repository integrity #40886283063. The actual `C4.globalXSquaredNullHomotopy (s : ℤ) : Homotopy (globalXSquared s) 0` is certified for EVERY integer s, using true `HomologicalComplex.hom_ext`, `dNext_eq` and `prevD_eq`, and the S157 global Dh=x² identity. A degree-two indexed `globalZFamily` with `globalZFamily_zero` and `globalZFamily_coherence` certifies the actual Dz=xh+hx component equation without misclassifying z as an ordinary degree-one homotopy. Not yet certified: arbitrary GLOBAL all-choice fourfold nonboundary and its invariance under homotopy equivalence, entire-real ℕ→ℝ construction or the unrestricted both-lane numerical metric theorem. No novelty, journal-fit, prior-art, external review, alternate candidate, OptionD development, publication, release or third-party contact.
-
----
-
-# S157 — GLOBAL Dh=x² AND Dz=xh+hx ALL-INTEGER LEAN CERTIFIED (29 October 2026)
-
-Actual shifted ModuleCat B component identities C4.globalHComponent_identity and C4.globalZComponent_identity now hold at EVERY integer shift and degree, both positive and truncation boundary. The proof adds a general adjacent-index differential normal form and a four-path categorical transport identity. Exact scratch SHA 67c2b68eb119a1e961fe94782c9474006338cb88; pinned Lean #40883221948 SUCCESS and integrity #40883221471 SUCCESS. Lean v4.35.0-rc2, Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55. These are genuine globally indexed component equations, NOT yet a full Mathlib Homotopy object, universal arbitrary GLOBAL fourfold obstruction, conjugation transfer, entire-real derived diagram, or whole-real strict/derived quantitative metric theorem. No novelty, HHA-fit, prior-art or external review, OptionD work, Palomar, arXiv/HHA submission, public release or third-party contact.
-
----
-
-# S155 — corrected degree-two C4 z and categorical boundary h/z certified; positive global homotopies OPEN (28 October 2026)
-
-Fresh owner-invoked S155 preserves the single frozen C4 first-paper candidate. Pinned scratch `f96eb40d04bc9ab1d53cae429820a30900b70d93` passed pinned OptionD+C4 Lean build #40711855409 and repository integrity #40711855369. On actual shifted `ModuleCat B` complexes, secondary `globalZComponent` is corrected to homological degree TWO (target shift s+3, index n+2), as required for `Dz=xh+hx`. Lean certifies positive component normal forms `globalHComponent_regular` and `globalZComponent_regular`, generic categorical cast identities `regularCastTwoPaths` and `regularCastFourPaths`, and genuine truncation-boundary equations `globalHComponent_identity_at_boundary` and `globalZComponent_identity_at_boundary` for ALL integer shifts. **NOT Lean-certified:** positive-degree global Dh=x²/Dz=xh+hx, full homotopy/defining systems, universal all-choice fourfold, homotopy-equivalence transfer, ℕ-to-ℝ construction, entire-real metric lanes or the frozen numerical inequality. Six failed positive-degree scratch attempts were NOT promoted. No novelty/HHA-fit/prior-art/outside review, alternative target, OptionD work, Palomar, arXiv/HHA submission, public release or third-party contact.
-
----
-
-# S154 — global C4 adjacent x chain map certified; global h/z and whole-real metric theorem OPEN (28 October 2026)
-
-Owner-invoked S154 proves three additional genuine categorical results, without sorry/admit/axioms: `C4.shiftedDifferential_regular` for every integer shift and nonnegative shifted differential degree; `C4.globalXComponent_naturality` for all integers (both zero-boundary and positive-square cases); and actual `C4.globalXChainMap (s : ℤ) : integerShiftResolution s ⟶ integerShiftResolution (s + 1)`. Pinned scratch SHA `436bcf89657f9ba1777ed7d47b556d7b69b27eb6` passed full pinned Lean workflow #40706366948 and integrity #40706367054. The stronger positive-differential cast identity first passed at scratch `cf883c676ec28d4b7513ad2c639921bb69ab1dc9`, pinned Lean #40705424211. S154 does NOT certify global h/z homotopies, arbitrary shifted defining systems, universal global fourfold nonboundary, homotopy-equivalence transport, real ℕ-quiver/Kan extension, both-lane entire-real homotopy interleaving or any frozen numerical distance. The internal frozen B=F₂[C₄] inequality remains NOT Lean-certified. No novelty, HHA fit, prior art, external review, alternative target, OptionD development, release, submission, registry, preprint or third-party contact.
-
----
-
-# S153 — positive C4 x component regular normal form certified; global chain map OPEN (28 October 2026)
-
-Pinned scratch source `e0076635671ddd4f17a8dfe1ce7dbdfcfee95e47` passed complete pinned Lean #40696118260 and repository integrity #40696118205. New theorem `C4.globalXComponent_regular (s n : ℤ) (hn : s + 1 ≤ n)` states the **genuine** positive shifted x component equals the regular coefficient morphism, with both categorical integer-object casts. This does NOT prove the positive differential cast identity, the full commuting square, `globalXChainMap`, h/z global homotopies, all-choice homotopy transfer, whole-real two-lane dHI, or any numerical metric equality. Failed scratch runs #40694311661, #40694780869, #40695054313 and #40695325464 are diagnostic only; no failed Lean is promoted. The frozen internal first-paper inequality remains uncertified in Lean. No other target/novelty/HHA fit/prior art/outside review/OptionD work or publication, registry, preprint, submission, contact or release actions occurred.
-
----
-
-# S152 — certified integer regular-module cast coherence; full x and whole-real theorem OPEN (28 October 2026)
-
-Pinned source `95713fae7dfed8a9d940c22f8485d34db5fb641f` passed pinned Lean #40692032018 and integrity #40692032025. Three new actual categorical cast lemmas `C4.integerObject_cast_commutes`, `C4.integerObject_cast_inverse_commutes`, and `C4.regularCastSquare` certify coherent transports of all regular B-module morphism squares and integer index equalities. The direct positive-degree global-x integration attempts #40691333015 and #40691710480 failed; no failed theorem was promoted. Neither a complete `globalXChainMap`, global h/z homotopies, universal globally shifted fourfold, nor whole-real L2/L3 or any numerical metric equality is Lean-certified. The frozen paper remains internal, with no novelty, fit, prior-art, external review, publication or contact work.
-
----
-
-# S151 — certified full integer truncation-boundary naturality, positive global dg remains OPEN (28 October 2026)
-
-Pinned C4 Lean source `b6e061be604dd6ae1bf0945154a0f77e679987d0` passed build #40682347499 and integrity #40682347435. `C4.globalXComponent_naturality_at_boundary` proves the genuine shifted chain-map naturality square for **every integer shift s and every n ≤ s**; `C4.globalXComponent_zero_below` proves the actual component vanishes when its target degree is zero. This is a bona fide homomorphism-of-shifted-complexes **boundary** statement, NOT a complete global chain map. Eight exploratory positive-degree x naturality builds failed on dependent `eqToHom` casts/normalization; no failed source was promoted. Complete x naturality, global h/z, full fourfold invariance, L2/L3 and all real metric equalities remain UNPROVED. No publication/novelty/HHA-fit/prior-art/review steps.
-
----
-
-# S150 — certified shifted dg components, global chain map and full-real metric still OPEN
-
-S150 (28 October 2026): pinned Lean #40676684048 SUCCESS and integrity #40676683857 SUCCESS on 553f990b228ea9b5b072e8bba5649861f7293374. New C4/ShiftedDG.lean compiles actual all-integer shifted B-linear x, h, z COMPONENTS, the characteristic-two categorical Dx=0 equality and an explicit differential-index transport lemma. This does NOT prove global chain-map naturality, global h/z homotopy equations, globally quantified fourfold transfer, real-diagram construction, or any of the frozen numerical distances. The completion goal remains OPEN; no false theorem certification, release, novelty/HHA-fit/prior-art or outside review.
-
----
-
-> **S149 formalisation correspondence (28 October 2026).** Pinned Lean independently verifies the regular-module category identities for all periodic degrees (`regularDx_zero`, `regularDh_xx`, `regularDz_xh_hx`, `regularTerminal_identity`; #40666132514), arbitrary `ModuleCat B` local low-degree defining-system fillers and terminal nonboundary (`regularAllChoice_terminal_not_boundary`; #40666531530), and the actual full integer reindexing `integerShiftResolution s` of the S148 projective resolution (#40667762021). **The local all-choice theorem is not the global fourfold bracket over all shifted dg chain maps**, and the reindexed complexes alone do not provide these maps. The whole-real derived/strict distances and arbitrary both-lane weak-equivalence transfer are NOT Lean-certified. Paper's displayed numerical separation remains an INTERNAL working theorem, not a proved Lean statement.
-
-> **Lean correspondence, S148 (28 October 2026).** `C4/Exactness.lean` now compiles `integerResolution_homology_zero_iso : integerResolution.homology 0 ≅ residueModuleObject`, `augmentationChainMap_quasiIsoAt_zero`, `augmentationChainMap_quasiIsoAt_nonzero` and `augmentationChainMap_quasiIso : QuasiIso augmentationChainMap`. The latter certifies the **actual augmentation-induced** homology isomorphism at every integer, not just an abstract matching of objects. The degree-zero equality of casted differentials closes by `ModuleCat.hom_ext`, `LinearMap.ext`, `rfl`. Exact source `c22d3890b77b753476f5731cc393edc9f1baf7e5`; pinned Lean #40657026979 SUCCESS, integrity #40657026873 SUCCESS. **Uncertified:** shifted P[0] through P[4], genuine B-linear x/h/z global dg maps/homotopies and all-choice fourfold; entire-real derived and strict homotopy-interleaving metric bounds on BOTH zigzag lanes. The manuscript's quantitative theorem remains INTERNAL, not Lean-certified. S149 is future only.
-
-> **Lean correspondence, S147 (27 October 2026).** The genuine integer-indexed resolution has now passed Lean proofs of exactness/homology vanishing in *every nonzero degree* (positive `ShortComplex.isoMk` comparison plus S146 negative zero objects). The residue module is categorically the cokernel of the first differential. This does **not** supply the degree-zero homology isomorphism or show the actual augmentation-induced homology map is an isomorphism. Those two Lean obligations remain OPEN, as do shifted global dg x/h/z, all-choice bracket exclusion and the entire-real two-lane distance theorem. These are internal manuscript arguments, not claimed Lean certificates. Pinned source `e9898c401a25037a8d3862f88ef27bbb4e347bb5`; Lean #40588606381 SUCCESS; scratch H₀ #40589338567 FAIL at `C4/Exactness.lean:140:36`.
-
-> **S146 formalisation boundary (27 October 2026).** S146 (27 October 2026): Pinned Lean certifies ACTUAL negative-degree integerResolution.ExactAt n and IsZero(integerResolution.homology n) for every n<0, including -1 (scratch d6b844d6f40c40143923956b2ef4513f2e20294c, build #40578700131 SUCCESS; integrity #40578700181 SUCCESS). Positive integer ExactAt remains OPEN: latest scratch 2c602f0d29c9cbec6703172c160b9c219189591a failed pinned Lean #40580404408 at C4/Exactness.lean:77:2 because range/kernel maps still compose with eqToHom casts, and do not simplify to bare coefficientLinear maps. No H0, QuasiIso, globally shifted dg all-choice fourfold, or whole-real distance theorem is certified. Frozen theorem unchanged. S147 is FUTURE, UNEXECUTED and requires separate owner instruction.
-
-> **S144 Lean correspondence (27 October 2026).** The augmented integer-indexed chain morphism is now an ACTUAL Lean-certified `C4.augmentationChainMap` at all degrees (pinned Lean #40538805810 SUCCESS), rather than a family of compatible components awaiting `ChainComplex.ofHom`. Every nonnegative regular term is certified as a categorical projective module by `C4.integerObject_projective` (pinned Lean #40539821868 SUCCESS). This does **not** yet establish H₀/H_n, categorical quasi-isomorphism, global shifted all-choice fourfold, or either full-real homotopy metric; the manuscript's main numerical theorem remains internal and not Lean-certified.
-
-> **S143 Lean formalisation boundary (27 October 2026).** An explicit categorical residue B-module and B-linear morphism, the degree-zero differential annihilation, a concentrated integer-indexed residue chain complex and augmentation components at every integer degree are pinned Lean-certified on scratch `b514244c1eeaaad3d96566c599e75262bca39396` (Lean #40534476045 SUCCESS; integrity #40534476198 SUCCESS). The complete augmented chain morphism and categorical H₀/H_n identification are **not** certified solely by these declarations; neither are the canonical quotient-ring isomorphism, global all-choice dg fourfold or either whole-real derived/strict metric. The displayed main theorem remains INTERNAL mathematical work, not a Lean-certified quantitative homotopy theorem. See S143 CLOSEOUT for any later verified chain-map extension.
-
-> **S142 Lean formalisation boundary (27 October 2026).** The residue ring hom now induces an actual B-module on `ZMod 2` and a genuine B-linear augmentation `C4.residueLinear`. Lean certifies equality of the augmentation kernel and first differential image as B-submodules, and equality of all positive differential kernels and following images as B-submodules, via `C4.residueLinear_ker_eq_range` and `C4.positiveLinear_ker_eq_range`. This is rigorous module-level exactness, but a typed map of `ChainComplex (ModuleCat B) ℤ`, categorical homology objects H₀/H_n, quotient-ring `RingEquiv`, global all-choice dg fourfold and both whole-real metric proofs are STILL OPEN. S142 scratch build #40529780801 passed; do not identify these with a certified main theorem.
-
 # A quantitative homotopy-interleaving gap over the cyclic-four group algebra
 
-> **S141 formalisation boundary (27 October 2026).** `C4/IntegerResolution.lean` now certifies an actual integer-indexed `ChainComplex (ModuleCat B) ℤ` with the regular B-module in every nonnegative degree and an explicit zero module in negative degrees. `C4.integerDifferential_square` is all-integer. `C4.positiveDifferential_exact_coeff` certifies coefficient exactness, while `C4/Augmentation.lean` gives a surjective unital residue homomorphism B→F₂ whose kernel is (t). These do NOT yet prove a polynomial quotient `RingEquiv`, an augmented complex with H₀/H_n, the global all-choice dg obstruction or the whole-real quantitative metric theorem. The abstract remains an INTERNAL mathematical claim, not a kernel certificate.
-
-**Frozen working manuscript — S138, 27 October 2026.** This is the selected first-paper mathematical argument, not a Lean certificate or a submission-ready proof. The complete full-real metric theorem remains to be certified. Throughout, statements about projective model structures, Kan extensions and fourfold transfer below are mathematical proof obligations for the final Lean development. The finite calculation in the appendix checks only finite coefficient jets.
+**Internal working manuscript — updated after S164, 29 October 2026.** Lean now certifies the resolution and homology, a nonempty global fourfold defining system, the terminal obstruction for every independent global defining system, and the actual full-real diagram with literal five-unit shift vanishing. The derived two-shift, transfer through arbitrary homotopy equivalences, arbitrary whole-real both-lane replacements, coefficient-presentation isomorphism and numerical metric theorem remain open. The abstract below is the internally written mathematical target, not a claim that its complete theorem is kernel-certified or submission-ready. See `formal/C4_COMPLETION_REVIEW.md`.
 
 ## Abstract
 
@@ -208,7 +120,7 @@ The first has constant term one by (3.3), while the last two have constant term 
 
 The argument depends only on necessary equations at degree two, not on enumerating all infinite chain-map families; arbitrarily many higher components cannot alter it. The endomorphism group of \(k[i]\) in the derived category is \(\operatorname{Ext}^0_B(k,k)=k\), whose units are \(k^\times=\{1\}\). Hence homotopy-equivalence conjugations of the adjacent maps do not introduce other nonzero generator scalars in this example.
 
-**Lean boundary for S138.** The coefficient structure \(k[t]/t^4\) and all-choice low-degree equations can be checked without defining the entire dg-Hom fourfold operation. That is useful but strictly weaker than a kernel-checked theorem quantifying over all unbounded resolutions, shifts, derived equivalences and real diagrams.
+**Current Lean correspondence.** `C4.canonicalGlobalFourfold` supplies the actual all-integer global defining system. `C4.GlobalFourfoldDefiningSystem.terminal_residue` and `.terminal_not_boundary` extract the necessary equations from arbitrary genuine global maps, homotopies and secondary families and prove the terminal component is outside every tertiary boundary. The independent-map proof uses only the first primary and first secondary equations, avoiding any identification of distinct fillers. This proves the algebraic global obstruction; it does not yet identify all derived generators or prove transfer through arbitrary homotopy equivalences.
 
 ## 4. The entire derived diagram: vanishing of the two-unit shift
 
@@ -337,17 +249,20 @@ Restrict scalars along \(k\to B\). The underlying \(k\)-complex-valued persisten
 \]
 The precise field-only theorem and its hypotheses are inherited from the archived proof notes; this is not an assertion about arbitrary coefficient algebras. Retaining the modular \(B\)-action increases the derived distance in this example and creates the fourfold strict separation.
 
-## 7. Formal-certification status and finite audit
+## 7. Formal-certification status
 
-The exact coefficient model in S138's `C4/Jets.lean` has four \(\mathbb F_2\)-coefficients, exact truncated multiplication, nilpotence and necessary conditions for arbitrary degree-two adjacent, primary and secondary jets. It does **not** itself certify the full group-algebra isomorphism, entire dg-Hom resolution, full defining-system functoriality, derived \(\mathbb R\)-diagram or real shoelace quotient.
+The current pinned Lean development certifies:
 
-The pending Lean dependencies are explicitly divided:
-1. **L1:** equip the coefficient model with full ring structure/prove the quotient isomorphism; construct the unbounded free resolution and shifts and transfer low-degree jet theorems to actual dg-Hom maps; prove fourfold nonvanishing for every defining system.
-2. **L2:** formalise free-linear-quiver cone projective cofibrancy, the \((h,z)\) nullhomotopy of \(\eta_2\) in the full integer diagram, the real Kan Quillen comparison, and the equality \(d_{\mathrm{IHC}}=1\).
-3. **L3:** formalise the full real shoelace projective model structure, cofibrant replacement, acyclic zero-lane quotient, all-real literal two-shift vanishing, and the fourfold homotopy transfer (5.3)–(5.4) for arbitrary allowed zigzags.
-4. **L4:** state the manuscript's complete theorem with exact quantifiers and prove it without admitted obligations, then produce final paper files.
+1. The concrete coefficient ring, the integer-indexed resolution, all-degree homology and the actual augmentation quasi-isomorphism.
+2. Global adjacent maps, three primary homotopies, both secondary equations and a canonical global defining system at every integer shift.
+3. The terminal residue-one obstruction for every independent global defining system, excluding every possible pair of tertiary-boundary components in the decisive actual complex degree.
+4. The strict functor `realDiagram` over the entire ordered real line, all five half-open stage objects and zero ends, and literal vanishing of its natural five-unit shift.
 
-These are correctness/implementation requirements, **not** novelty, fit, literature-screening or external-review gates. Registry and submissions require separate owner instructions.
+The remaining obligations are the coefficient-presentation isomorphisms; complete homotopy transfer and nonzero-generator identification; the free-quiver cone, derived two-shift and real/localisation comparison; arbitrary whole-real replacement/acyclic-lane quotient; and the final exact metric relations and inequalities. These are substantive categorical proofs. The numerical headline is not a Lean declaration yet, and its proof must not acquire those obligations as hypotheses.
+
+The pinned Mathlib does not infer the unbounded projective or real-diagram model-category instances invoked by §§4–5. An explicit algebraic construction may replace that route only after proving the exact required comparison. Diagnostic input/output and the current dependency contracts are recorded in `sessions/S164` and `formal/C4_COMPLETION_REVIEW.md`.
+
+These are implementation/correctness requirements. No novelty, journal-fit, prior-art or external-review gate is part of the active roadmap. Registry, submission and release require separate owner instructions.
 
 ### Reproducibility appendix: bounded, exact arithmetic
 
@@ -362,19 +277,3 @@ TERMINAL_INVARIANT: PASS; finite jets only, NOT metric proof
 ```
 
 The first line checks 39 indices \(n=2,\dots,40\). The remaining counts enumerate the **bounded coefficient choices at degree one/two**, not infinitely many defining systems. They neither prove the full real-valued theorem nor establish Lean certification. The machine memory peak was approximately 95,632 KiB and execution elapsed approximately 14.19 s in this replay.
-
-
-## S139 proof-to-Lean alignment note (27 October 2026)
-
-The all-degree *coefficient* periodic formulas of §2–§3 are now expressed as six universally quantified statements on C4.B in `C4/Periodic.lean`: `d_squared`, `exact_positive`, `Dx_zero`, `Dh_xx`, `Dz_xh_hx`, `terminal_unit`. For n≥0, the coefficient at differential degree n+1 is t for even n and t³ for odd n; adjacent x is 1 or t², h is 0 or t, and z is 0 or 1 respectively. A two-case proof using ann(t)=(t³) and ann(t³)=(t) establishes the resolution kernel/image condition at **every** positive degree, as a statement about raw coefficient multiplication. These identities are not bounded Python checks.
-
-**Exact limitation:** C4.B has no genuine ring instance or proved isomorphism to the polynomial quotient in this formalisation; `C4/Periodic.lean` is *not yet* a Mathlib `ChainComplex` or dg-Hom object. Consequently the manuscript's augmentation, derived nonzero generator, complete-choice bracket, free-quiver cone, Kan comparison and whole-real shoelace statements have not been certified by these new lemmas. The terminal-unit identity concerns a selected defining system; the independent all-choice degree-two obstruction in `C4/Jets.lean` still awaits a typed extraction from ALL global defining systems. The paper's frozen mathematical theorem remains internal, and the overall proof is not yet submission-ready.
-
-
-## S141 Lean correspondence and remaining categorical obligations
-
-The unbounded indexing in §2 now has an actual `C4.integerResolution : ChainComplex (ModuleCat C4.B) ℤ` in Lean. Negative modules are represented by `ModuleCat.of B (Fin 0 → B)` (canonically zero), and the positive maps use a `ModuleCat` morphism transported via `eqToHom` to handle index-dependent objects. `C4.integerDifferential_square` verifies every composite in ℤ, including the -1/0 interface. The alternating-kernel coefficient statement is `C4.positiveDifferential_exact_coeff`, not yet an equality of categorical images and kernels. Degree-zero reduction is represented by the genuine surjective `C4.residueHom` with `C4.residueHom_kernel`. The B-module action on its target, a chain augmentation, all homology objects and projectivity/categorical resolution exactness need formal proofs. So do the shifts, full defining-system quantifiers, real projective quiver/Kan lift and arbitrary two-lane whole-real zigzag shoelaces. None of the three full distance statements are Lean-certified in S141.
-
-
-### S145 formal proof status (27 October 2026)
-Pinned Lean certifies `C4.positiveShortComplex_exact` universally and `C4.augmentationShortComplex_exact`, actual categorical short-complex exactness over the concrete ring B, in addition to S144's compiled integer complex, augmentation chain map and projective positive terms. These local exactness theorems do **not** in themselves prove categorical homology of `integerResolution`, quasi-isomorphism of `augmentationChainMap`, the all-choice global dg obstruction or arbitrary whole-real zigzag distance bounds. The frozen numerical metric separation is still an internal written theorem, not a Lean theorem.
