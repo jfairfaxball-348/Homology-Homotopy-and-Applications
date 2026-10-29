@@ -418,7 +418,9 @@ theorem globalHComponent_identity (s n : ℤ) :
         eqToHom (integerObject_nonnegative ((n + 1) - (s + 2))
           (by omega)).symm := by
       exact regularEqToHom_two _ _ _
+    simp only [Category.assoc]
+    rw [hcast]
     simpa [integerShiftResolution, integerResolution, m, ha, hb', hc, hd, he,
-      Category.assoc, hcast] using hsquare
+      Category.assoc] using hsquare
 
 end C4
