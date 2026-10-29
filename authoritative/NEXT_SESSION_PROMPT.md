@@ -1,4 +1,4 @@
-# S168 — prove BOTH genuine transferred secondary differential coherences and tertiary comparison (RECOVERY)
+# S168 — prove BOTH genuine transferred secondary differential coherences and tertiary comparison (FUTURE, UNEXECUTED)
 
 Continue the frozen C4 first-paper target only. This is execution guidance, not an invitation to stop at a small interface or a permission gate inside an already owner-authorised continuous-completion conversation. Publication, release and contact still require independent permission.
 

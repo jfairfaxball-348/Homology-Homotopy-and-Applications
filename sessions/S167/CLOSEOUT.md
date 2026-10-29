@@ -8,4 +8,4 @@ The frozen complete theorem is still OPEN. There is no justified claim that this
 
 ## NEXT_SESSION_HANDOFF
 
-S168 recovery instruction: `authoritative/NEXT_SESSION_PROMPT.md`. This handoff is not a new permission boundary during an owner-authorised continuing conversation. Complete the genuine transferred secondary coherence and higher comparison, not another interface alone.
+S168 FUTURE, UNEXECUTED. Recovery instruction: `authoritative/NEXT_SESSION_PROMPT.md`. This handoff is not a new permission boundary during an owner-authorised continuing conversation. Complete the genuine transferred secondary coherence and higher comparison, not another interface alone.
