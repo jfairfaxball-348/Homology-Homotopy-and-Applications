@@ -874,7 +874,7 @@ theorem globalTerminalComponent_nonzero (s n : ℤ) (hn : s + 2 ≤ n) :
     (fun f : integerObject (n - s) ⟶ integerObject ((n + 2) - (s + 4)) =>
       eqToHom ep.symm ≫ f ≫ eqToHom es) hz
   have hid : (𝟙 (ModuleCat.of B B)) = 0 := by
-    simpa [Category.assoc] using hc
+    simpa [Category.assoc, comp_zero, zero_comp] using hc
   exact regularModule_identity_nonzero hid
 
 end C4
