@@ -371,6 +371,34 @@ theorem regularEqToHom_two {P Q R : ModuleCat B}
   simp
 
 
+
+/-- The transport square with a final non-definitional target shift equality. -/
+theorem regularCastTwoPathsExtra
+    {P Q R S T U : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eq : Q = ModuleCat.of B B)
+    (er : R = ModuleCat.of B B)
+    (es : S = ModuleCat.of B B)
+    (et : T = ModuleCat.of B B)
+    (eu : U = ModuleCat.of B B)
+    (hu : U = S)
+    (a b c d e f : ModuleCat.of B B ⟶ ModuleCat.of B B)
+    (hab : a ≫ b + c ≫ d = e ≫ f) :
+    ((eqToHom ep ≫ a ≫ eqToHom eq.symm) ≫
+      (eqToHom eq ≫ b ≫ eqToHom es.symm)) +
+    ((eqToHom ep ≫ c ≫ eqToHom er.symm) ≫
+      (eqToHom er ≫ d ≫ eqToHom es.symm)) =
+    ((eqToHom ep ≫ e ≫ eqToHom et.symm) ≫
+      (eqToHom et ≫ f ≫ eqToHom eu.symm)) ≫ eqToHom hu := by
+  cases ep
+  cases eq
+  cases er
+  cases es
+  cases et
+  cases eu
+  cases hu
+  simpa using hab
+
 theorem globalHComponent_identity (s n : ℤ) :
     globalHComponent s (n + 1) ≫
       (integerShiftResolution (s + 2)).d (n + 1 + 1) (n + 1) +
@@ -390,12 +418,15 @@ theorem globalHComponent_identity (s n : ℤ) :
     have hc : (n - s).toNat = m + 1 := by dsimp [m]; omega
     have hd : ((n + 1) - (s + 2)).toNat = m := by dsimp [m]; omega
     have he : ((n + 1) - ((s + 1) + 1)).toNat = m := by dsimp [m]; omega
-    have hsquare := regularCastTwoPaths
+    have hsquare := regularCastTwoPathsExtra
       (integerObject_nonnegative ((n + 1) - s) (by omega))
       (integerObject_nonnegative ((n + 1) + 1 - (s + 2)) (by omega))
       (integerObject_nonnegative (n - s) (by omega))
       (integerObject_nonnegative ((n + 1) - (s + 2)) (by omega))
       (integerObject_nonnegative ((n + 1) - (s + 1)) (by omega))
+      (integerObject_nonnegative ((n + 1) - ((s + 1) + 1)) (by omega))
+      (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 1 = s + 2))
       (regularCoefficientHom (Periodic.h (m + 1)))
       (regularCoefficientHom (Periodic.d m))
       (regularCoefficientHom (Periodic.d (m + 1)))
@@ -409,17 +440,6 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalHComponent_regular s n (by omega),
       globalXComponent_regular s (n + 1) (by omega),
       globalXComponent_regular (s + 1) (n + 1) (by omega)]
-    have hcast :
-        eqToHom (integerObject_nonnegative ((n + 1) - ((s + 1) + 1))
-          (by omega)).symm ≫
-          eqToHom (congrArg
-            (fun k : ℤ => (integerShiftResolution k).X (n + 1))
-            (by omega : s + 1 + 1 = s + 2)) =
-        eqToHom (integerObject_nonnegative ((n + 1) - (s + 2))
-          (by omega)).symm := by
-      exact regularEqToHom_two _ _ _
-    simp only [Category.assoc]
-    rw [hcast]
     simpa [integerShiftResolution, integerResolution, m, ha, hb', hc, hd, he,
       Category.assoc] using hsquare
 
