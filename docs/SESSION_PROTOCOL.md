@@ -1,3 +1,9 @@
+# Current execution override — 29 October 2026
+
+The owner has authorised continuous C4 formalisation and review in the active conversation. Numbered checkpoints preserve evidence; they must not be used to stop after a small lemma and demand another owner invocation. Continue across routine checkpoints and verified ordinary merges. Report genuine blockers concretely. The full metric theorem may not be marked complete from the algebraic obstruction or a green build. Read `formal/C4_COMPLETION_REVIEW.md`. Older separate-invocation rules below apply only where not superseded by this active owner instruction. External actions remain separately controlled.
+
+---
+
 # CURRENT OWNER-SPECIFIC OVERRIDE — 27 October 2026, S138 COMPLETION
 
 S138 replaces the earlier prospective "S138 FUTURE" notices below. The same **frozen** cyclic-four first-paper target remains: B=F₂[C₄] and entire-real five-stage Ch(right B) separation d_CohI=1/2 < d_IHC=1 <5/4≤d_HI≤5/2. New `C4/Jets.lean` certifies only coefficient-level nilpotence/annihilator and universal degree-two residue conditions; a genuine quotient ring/whole unbounded dg-Hom and both derived/strict real metric theorems remain OPEN. The original S076 Python finite jet enumeration was rechecked PASS, not promoted to an infinite proof. The manuscript has been expanded IN PARALLEL. **S139 is FUTURE, UNEXECUTED** and needs a fresh owner instruction; follow `authoritative/NEXT_SESSION_PROMPT.md`. Preserve OptionD Lean but do no OptionD D6–D8. No target search, novelty, HHA appropriateness, prior-art or outside review on the active roadmap. No Palomar, arXiv/HHA release or third-party contact without separate owner authority.

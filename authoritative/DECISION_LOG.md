@@ -683,3 +683,5 @@ The owner NOW authorises paper drafting, but does NOT authorise Palomar registra
 
 Active sources: research/C4_FROZEN_CANDIDATE.md; docs/ROADMAP.md; formal/C4_FORMALIZATION_PLAN.md; paper/C4_MANUSCRIPT.md; authoritative/NEXT_SESSION_PROMPT.md.
 
+
+- **S164, 29 October 2026 — owner continuous-completion review.** Owner asks to review why formalisation has taken so many sessions and to try to finish, then says Continue. Routine stop-after-one-lemma/fresh-invocation boundaries are superseded in the active conversation. Preserve the frozen full-real both-lane theorem; do not weaken it. Record the now-proved global obstruction and real diagram separately from the substantial transfer, derived two-shift, replacement/quotient and final metric obligations. External-action authority is unchanged.

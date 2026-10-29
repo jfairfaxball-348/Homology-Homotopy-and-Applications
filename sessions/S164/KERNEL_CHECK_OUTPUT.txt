@@ -1,0 +1,3 @@
+'C4.canonicalGlobalFourfold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C4.GlobalFourfoldDefiningSystem.terminal_not_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C4.realDiagram_shift_five_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

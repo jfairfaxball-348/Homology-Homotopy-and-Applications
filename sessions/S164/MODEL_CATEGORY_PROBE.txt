@@ -1,0 +1,6 @@
+import C4.GlobalDefining
+import Mathlib.AlgebraicTopology.ModelCategory.Basic
+open CategoryTheory
+open HomotopicalAlgebra
+#synth ModelCategory (ChainComplex (ModuleCat C4.B) ℤ)
+#synth ModelCategory (ℝ ⥤ ChainComplex (ModuleCat C4.B) ℤ)

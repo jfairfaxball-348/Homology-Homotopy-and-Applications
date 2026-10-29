@@ -1,0 +1,4 @@
+import C4
+#print axioms C4.canonicalGlobalFourfold
+#print axioms C4.GlobalFourfoldDefiningSystem.terminal_not_boundary
+#print axioms C4.realDiagram_shift_five_zero
