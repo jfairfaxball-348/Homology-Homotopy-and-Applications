@@ -401,4 +401,51 @@ theorem regularCastTwoPathsExtra
 
 /- The positive-degree global identity remains open. This scratch proof was not promoted. -/
 
+/-! ### S157 positive global Dh=x² scratch integration -/
+
+theorem globalHComponent_identity (s n : ℤ) :
+    globalHComponent s (n + 1) ≫
+      (integerShiftResolution (s + 2)).d (n + 1 + 1) (n + 1) +
+    (integerShiftResolution s).d (n + 1) n ≫ globalHComponent s n =
+    (globalXComponent s (n + 1) ≫ globalXComponent (s + 1) (n + 1)) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 1 = s + 2)) := by
+  by_cases hb : n ≤ s
+  · have hz : Limits.IsZero ((integerShiftResolution (s + 2)).X (n + 1)) := by
+      change Limits.IsZero (integerObject ((n + 1) - (s + 2)))
+      exact integerObject_isZero_negative _ (by omega)
+    exact hz.eq_of_tgt _ _
+  · have hp : s + 1 ≤ n := by omega
+    let m : ℕ := (n - (s + 1)).toNat
+    have ha : ((n + 1) - (s + 1)).toNat = m + 1 := by dsimp [m]; omega
+    have hb' : (n - (s + 1)).toNat = m := rfl
+    have hc : (n - s).toNat = m + 1 := by dsimp [m]; omega
+    have hd : ((n + 1) - (s + 2)).toNat = m := by dsimp [m]; omega
+    have he : ((n + 1) - ((s + 1) + 1)).toNat = m := by dsimp [m]; omega
+    have hsquare := regularCastTwoPathsExtra
+      (integerObject_nonnegative ((n + 1) - s) (by omega))
+      (integerObject_nonnegative ((n + 1) + 1 - (s + 2)) (by omega))
+      (integerObject_nonnegative (n - s) (by omega))
+      (integerObject_nonnegative ((n + 1) - (s + 2)) (by omega))
+      (integerObject_nonnegative ((n + 1) - (s + 1)) (by omega))
+      (integerObject_nonnegative ((n + 1) - ((s + 1) + 1)) (by omega))
+      (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 1 = s + 2))
+      (regularCoefficientHom (Periodic.h (m + 1)))
+      (regularCoefficientHom (Periodic.d m))
+      (regularCoefficientHom (Periodic.d (m + 1)))
+      (regularCoefficientHom (Periodic.h m))
+      (regularCoefficientHom (Periodic.x (m + 1)))
+      (regularCoefficientHom (Periodic.x m))
+      (regularDh_xx m)
+    rw [globalHComponent_regular s (n + 1) (by omega),
+      shiftedDifferential_regular (s + 2) (n + 1) (by omega),
+      shiftedDifferential_regular s n (by omega),
+      globalHComponent_regular s n (by omega),
+      globalXComponent_regular s (n + 1) (by omega),
+      globalXComponent_regular (s + 1) (n + 1) (by omega)]
+    simpa only [integerShiftResolution, integerResolution, m, ha, hb', hc, hd, he,
+      Category.assoc] using hsquare
+
+
 end C4
