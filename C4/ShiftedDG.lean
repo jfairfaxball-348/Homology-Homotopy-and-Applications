@@ -690,4 +690,42 @@ def globalXSquaredNullHomotopy (s : ℤ) : Homotopy (globalXSquared s) 0 := by
 
 
 
+/-! ### S158: degree-two indexed secondary filler and coherent differential -/
+
+/-- The genuine degree-two secondary filler family on every pair of integer
+indices; zero outside the specified two-step target degree. -/
+def globalZFamily (s i j : ℤ) :
+    (integerShiftResolution s).X i ⟶
+      (integerShiftResolution (s + 3)).X j := by
+  by_cases h : j = i + 2
+  · exact globalZComponent s i ≫
+      eqToHom (congrArg (integerShiftResolution (s + 3)).X h.symm)
+  · exact 0
+
+theorem globalZFamily_two (s i : ℤ) :
+    globalZFamily s i (i + 2) = globalZComponent s i := by
+  simp [globalZFamily]
+
+theorem globalZFamily_zero (s i j : ℤ)
+    (h : j ≠ i + 2) : globalZFamily s i j = 0 := by
+  simp [globalZFamily, h]
+
+/-- Actual integer-indexed secondary differential coherence for the
+higher-degree z family. This asserts the four genuinely shifted paths,
+not a fictitious degree-one ordinary chain homotopy. -/
+theorem globalZFamily_coherence (s n : ℤ) :
+    globalZFamily s n (n + 2) ≫
+      (integerShiftResolution (s + 3)).d (n + 2) (n + 1) +
+    (((integerShiftResolution s).d n (n - 1) ≫
+      globalZFamily s (n - 1) ((n - 1) + 2)) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 3)).X
+        (by omega : n - 1 + 2 = n + 1))) =
+    ((globalHComponent s n ≫ globalXComponent (s + 2) (n + 1)) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 2 + 1 = s + 3))) +
+    ((globalXComponent s n ≫ globalHComponent (s + 1) n) ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 2 = s + 3))) := by
+  simpa only [globalZFamily_two] using globalZComponent_identity s n
+
 end C4
