@@ -63,6 +63,8 @@ theorem GlobalFourfoldDefiningSystem.no_tertiary_filler
     (by omega) (by omega)
   have hk : s + 4 + 1 = s + 5 := by omega
   rw [hk] at hc
+  have hi : s + 2 - 1 = s + 1 := by omega
+  rw [hi] at hc
   apply q.terminal_not_boundary
     (w.w (s + 1) (s + 4)) (w.w (s + 2) (s + 5))
   simpa only [GlobalFourfoldDefiningSystem.terminalComponent_eq,
