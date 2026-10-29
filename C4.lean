@@ -23,3 +23,5 @@ public import C4.AdjacentNonNull
 public import C4.FiveStageSecondary
 
 public import C4.TerminalComponent
+
+public import C4.SecondaryTransferAlgebra
