@@ -129,4 +129,68 @@ theorem canonicalX34_unit (s : ℤ) :
       (globalXChainMap (s + 3))]
   simpa only [ht] using globalXChainMap_first_residue_unit (s + 3)
 
+
+/-- A two-step shifted composite is the true globally nullhomotopic square
+followed by the unique target cast. The middle cast is moved through the
+SECOND actual chain map by the S163 naturality theorem, never erased. -/
+theorem globalXSquared_stage_transport
+    (a b c : ℤ) (h₁ : a + 1 = b) (h₂ : b + 1 = c)
+    (h₃ : a + 2 = c) :
+    (globalXChainMap a ≫
+      eqToHom (congrArg integerShiftResolution h₁)) ≫
+      (globalXChainMap b ≫
+        eqToHom (congrArg integerShiftResolution h₂)) =
+    globalXSquared a ≫
+      eqToHom (congrArg integerShiftResolution h₃) := by
+  calc
+    _ = (globalXChainMap a ≫
+          (eqToHom (congrArg integerShiftResolution h₁) ≫
+            globalXChainMap b)) ≫
+          eqToHom (congrArg integerShiftResolution h₂) := by
+            simp only [Category.assoc]
+    _ = (globalXChainMap a ≫
+          (globalXChainMap (a + 1) ≫
+            eqToHom (congrArg integerShiftResolution
+              (congrArg (fun k : ℤ => k + 1) h₁)))) ≫
+          eqToHom (congrArg integerShiftResolution h₂) := by
+            rw [globalXChainMap_shift_naturality (a + 1) b h₁]
+    _ = _ := by
+      simp [globalXSquared, Category.assoc]
+
+/-- The second genuine primary homotopy, from stage 1 to stage 3. -/
+def canonicalPrimary13 (s : ℤ) :
+    Homotopy (canonicalX12 s ≫ canonicalX23 s) 0 := by
+  have h₁ : (s + 1) + 1 = s + 2 := by omega
+  have h₂ : (s + 2) + 1 = s + 3 := by omega
+  have h₃ : (s + 1) + 2 = s + 3 := by omega
+  have heq :
+      canonicalX12 s ≫ canonicalX23 s =
+        globalXSquared (s + 1) ≫
+          eqToHom (congrArg integerShiftResolution h₃) := by
+    simpa only [canonicalX12, canonicalX23] using
+      globalXSquared_stage_transport (s + 1) (s + 2) (s + 3)
+        h₁ h₂ h₃
+  rw [heq]
+  simpa using
+    (globalXSquaredNullHomotopy (s + 1)).compRight
+      (eqToHom (congrArg integerShiftResolution h₃))
+
+/-- The third genuine primary homotopy, from stage 2 to stage 4. -/
+def canonicalPrimary24 (s : ℤ) :
+    Homotopy (canonicalX23 s ≫ canonicalX34 s) 0 := by
+  have h₁ : (s + 2) + 1 = s + 3 := by omega
+  have h₂ : (s + 3) + 1 = s + 4 := by omega
+  have h₃ : (s + 2) + 2 = s + 4 := by omega
+  have heq :
+      canonicalX23 s ≫ canonicalX34 s =
+        globalXSquared (s + 2) ≫
+          eqToHom (congrArg integerShiftResolution h₃) := by
+    simpa only [canonicalX23, canonicalX34] using
+      globalXSquared_stage_transport (s + 2) (s + 3) (s + 4)
+        h₁ h₂ h₃
+  rw [heq]
+  simpa using
+    (globalXSquaredNullHomotopy (s + 2)).compRight
+      (eqToHom (congrArg integerShiftResolution h₃))
+
 end C4
