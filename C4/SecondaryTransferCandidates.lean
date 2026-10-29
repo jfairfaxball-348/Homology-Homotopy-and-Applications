@@ -43,16 +43,16 @@ def correctedSecondaryCore
   let X1 := HomogeneousFamily.ofChainMap x1
   let X2 := HomogeneousFamily.ofChainMap x2
   let t1 : HomogeneousFamily P0 P3 2 :=
-    (h0.compAs k2 (by omega : 1 + 1 = 2)).compAs X2
-      (by omega : 2 + 0 = 2)
+    (h0.compAs k2 (by omega : (1 : ℤ) + 1 = 2)).compAs X2
+      (by omega : (2 : ℤ) + 0 = 2)
   let t2 : HomogeneousFamily P0 P3 2 :=
-    (X0.compAs k1 (by omega : 0 + 1 = 1)).compAs h1
-      (by omega : 1 + 1 = 2)
+    (X0.compAs k1 (by omega : (0 : ℤ) + 1 = 1)).compAs h1
+      (by omega : (1 : ℤ) + 1 = 2)
   let t3 : HomogeneousFamily P0 P3 2 :=
-    ((((X0.compAs k1 (by omega : 0 + 1 = 1)).compAs X1
-      (by omega : 1 + 0 = 1)).compAs k2
-      (by omega : 1 + 1 = 2)).compAs X2
-      (by omega : 2 + 0 = 2))
+    ((((X0.compAs k1 (by omega : (0 : ℤ) + 1 = 1)).compAs X1
+      (by omega : (1 : ℤ) + 0 = 1)).compAs k2
+      (by omega : (1 : ℤ) + 1 = 2)).compAs X2
+      (by omega : (2 : ℤ) + 0 = 2))
   exact z + t1 + t2 + t3
 
 /-- The first FULLY TYPED candidate secondary transfer: from replacement
@@ -73,9 +73,9 @@ def FiveStageSecondaryData.candidateZ03
     (HomogeneousFamily.ofHomotopy e1.original_retract)
     (HomogeneousFamily.ofHomotopy e2.original_retract)
   exact ((HomogeneousFamily.ofChainMap e0.toOriginal).compAs core
-    (by omega : 0 + 2 = 2)).compAs
+    (by omega : (0 : ℤ) + 2 = 2)).compAs
       (HomogeneousFamily.ofChainMap e3.fromOriginal)
-      (by omega : 2 + 0 = 2)
+      (by omega : (2 : ℤ) + 0 = 2)
 
 /-- The independent FULLY TYPED second candidate uses intermediate K2
 and K3 and maps replacement stage one to replacement stage four. -/
@@ -94,8 +94,8 @@ def FiveStageSecondaryData.candidateZ14
     (HomogeneousFamily.ofHomotopy e2.original_retract)
     (HomogeneousFamily.ofHomotopy e3.original_retract)
   exact ((HomogeneousFamily.ofChainMap e1.toOriginal).compAs core
-    (by omega : 0 + 2 = 2)).compAs
+    (by omega : (0 : ℤ) + 2 = 2)).compAs
       (HomogeneousFamily.ofChainMap e4.fromOriginal)
-      (by omega : 2 + 0 = 2)
+      (by omega : (2 : ℤ) + 0 = 2)
 
 end C4
