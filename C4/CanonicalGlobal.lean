@@ -258,7 +258,90 @@ theorem canonicalZ03_coherence (s n : ℤ) :
     (canonicalPrimary02 s).hom n (n + 1) ≫ (canonicalX23 s).f (n + 1) +
     (globalXChainMap s).f n ≫ (canonicalPrimary13 s).hom n (n + 1) := by
   simpa only [canonicalZ03, canonicalPrimary02_hom, canonicalPrimary13_hom,
-    canonicalX23, HomologicalComplex.comp_f, HomologicalComplex.eqToHom_f,
+    canonicalX23, globalXChainMap, HomologicalComplex.comp_f, HomologicalComplex.eqToHom_f,
     Category.assoc] using globalZFamily_coherence s n
+
+/-- Index-equality transport for the actual degree-one component family. -/
+@[reassoc] theorem globalHComponent_shift_naturality
+    (a b n : ℤ) (h : a = b) :
+    eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X n) h) ≫
+      globalHComponent b n =
+    globalHComponent a n ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : a + 2 = b + 2)) := by
+  cases h
+  simp
+
+@[reassoc] theorem globalXComponent_shift_naturality
+    (a b n : ℤ) (h : a = b) :
+    eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X n) h) ≫
+      globalXComponent b n =
+    globalXComponent a n ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X n)
+        (by omega : a + 1 = b + 1)) := by
+  cases h
+  simp
+
+@[reassoc] theorem shiftedDifferential_shift_naturality
+    (a b i j : ℤ) (h : a = b) :
+    eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X i) h) ≫
+      (integerShiftResolution b).d i j =
+    (integerShiftResolution a).d i j ≫
+      eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X j) h) := by
+  cases h
+  simp
+
+/-- Coherence of the second secondary, including both intermediate casts. -/
+theorem canonicalZ14_coherence (s n : ℤ) :
+    canonicalZ14 s n (n + 2) ≫
+      (integerShiftResolution (s + 4)).d (n + 2) (n + 1) +
+    (((integerShiftResolution (s + 1)).d n (n - 1) ≫
+      canonicalZ14 s (n - 1) ((n - 1) + 2)) ≫
+      eqToHom (congrArg (integerShiftResolution (s + 4)).X
+        (by omega : n - 1 + 2 = n + 1))) =
+    (canonicalPrimary13 s).hom n (n + 1) ≫ (canonicalX34 s).f (n + 1) +
+    (canonicalX12 s).f n ≫ (canonicalPrimary24 s).hom n (n + 1) := by
+  have hd := shiftedDifferential_shift_naturality
+    (s + 1 + 3) (s + 4) (n + 2) (n + 1) (by omega)
+  have hx := globalXComponent_shift_naturality_assoc
+    (s + 1 + 2) (s + 3) (n + 1) (by omega)
+    (eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+      (by omega : s + 3 + 1 = s + 4)))
+  have hh := globalHComponent_shift_naturality_assoc
+    (s + 1 + 1) (s + 2) n (by omega)
+    (eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+      (by omega : s + 2 + 2 = s + 4)))
+  have hz := congrArg
+    (fun f => f ≫ eqToHom
+      (congrArg (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+        (by omega : s + 1 + 3 = s + 4)))
+    (globalZFamily_coherence (s + 1) n)
+  simpa [canonicalZ14, canonicalPrimary13_hom, canonicalPrimary24_hom,
+    canonicalX12, canonicalX34, globalXChainMap, HomologicalComplex.comp_f,
+    HomologicalComplex.eqToHom_f, Category.assoc,
+    Preadditive.add_comp, hd, hx, hh] using hz
+
+/-- A genuine chosen global fourfold defining system at every integer shift. -/
+def canonicalGlobalFourfold (s : ℤ) : GlobalFourfoldDefiningSystem s where
+  x01 := globalXChainMap s
+  x12 := canonicalX12 s
+  x23 := canonicalX23 s
+  x34 := canonicalX34 s
+  x01_unit := globalXChainMap_first_residue_unit s
+  x12_unit := canonicalX12_unit s
+  x23_unit := canonicalX23_unit s
+  x34_unit := canonicalX34_unit s
+  h02 := canonicalPrimary02 s
+  h13 := canonicalPrimary13 s
+  h24 := canonicalPrimary24 s
+  z03 := canonicalZ03 s
+  z14 := canonicalZ14 s
+  z03_zero := canonicalZ03_zero s
+  z14_zero := canonicalZ14_zero s
+  z03_coherence := canonicalZ03_coherence s
+  z14_coherence := canonicalZ14_coherence s
+
+theorem globalFourfold_nonempty (s : ℤ) : Nonempty (GlobalFourfoldDefiningSystem s) :=
+  ⟨canonicalGlobalFourfold s⟩
 
 end C4

@@ -687,8 +687,8 @@ def globalXSquaredNullHomotopy (s : ℤ) : Homotopy (globalXSquared s) 0 where
   hom := globalHFamily s
   zero := globalHFamily_zero s
   comm i := by
-    simpa only [← globalXSquared_eq_nullHomotopicMap s] using
-      (Homotopy.nullHomotopy (globalHFamily s) (globalHFamily_zero s)).comm i
+    rw [globalXSquared_eq_nullHomotopicMap]
+    simp only [Homotopy.nullHomotopicMap, HomologicalComplex.zero_f, add_zero]
 
 
 
