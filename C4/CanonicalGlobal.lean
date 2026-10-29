@@ -58,4 +58,75 @@ theorem globalXChainMap_first_residue_unit (s : ℤ) :
   simp [Periodic.x, regularEval_coefficient, C4.one]
 
 
+
+/-! ### S163: dependent intermediate-shift naturality and canonical later arrows -/
+
+/-- Transport of the actual adjacent shifted chain map along an equality of
+integer shifts. Both the source and the successor must be cast; transporting
+only the intermediate source is not type-correct in later composites. -/
+theorem globalXChainMap_shift_naturality (a b : ℤ) (h : a = b) :
+    eqToHom (congrArg integerShiftResolution h) ≫ globalXChainMap b =
+      globalXChainMap a ≫
+        eqToHom (congrArg integerShiftResolution
+          (congrArg (fun k : ℤ => k + 1) h)) := by
+  cases h
+  simp
+
+/-- Regular normalisation is invariant under a true target equality cast
+of entire shifted chain complexes, not an untyped coefficient conversion. -/
+theorem positiveGlobalComponent_postcast
+    (a b c n : ℤ) (h : b = c)
+    (ha : a ≤ n) (hb : b ≤ n) (hc : c ≤ n)
+    (f : integerShiftResolution a ⟶ integerShiftResolution b) :
+    positiveGlobalComponent a c n ha hc
+        (f ≫ eqToHom (congrArg integerShiftResolution h)) =
+      positiveGlobalComponent a b n ha hb f := by
+  cases h
+  simp [positiveGlobalComponent]
+
+/-- The third adjacent genuine arrow, with exact stage-3 indexing. -/
+def canonicalX23 (s : ℤ) :
+    integerShiftResolution (s + 2) ⟶ integerShiftResolution (s + 3) :=
+  globalXChainMap (s + 2) ≫
+    eqToHom (congrArg integerShiftResolution (by omega : s + 2 + 1 = s + 3))
+
+/-- The fourth adjacent genuine arrow, with exact stage-4 indexing. -/
+def canonicalX34 (s : ℤ) :
+    integerShiftResolution (s + 3) ⟶ integerShiftResolution (s + 4) :=
+  globalXChainMap (s + 3) ≫
+    eqToHom (congrArg integerShiftResolution (by omega : s + 3 + 1 = s + 4))
+
+/-- The second actual adjacent chain map has nonzero first residue. -/
+theorem canonicalX12_unit (s : ℤ) :
+    (regularEval (positiveGlobalComponent (s + 1) (s + 2) (s + 2)
+      (by omega) (by omega) (canonicalX12 s))).c0 = 1 := by
+  have ht : s + 1 + 1 = s + 2 := by omega
+  unfold canonicalX12
+  rw [positiveGlobalComponent_postcast (s + 1) (s + 1 + 1) (s + 2)
+      (s + 2) ht (by omega) (by omega) (by omega)
+      (globalXChainMap (s + 1))]
+  simpa only [ht] using globalXChainMap_first_residue_unit (s + 1)
+
+/-- The third actual adjacent chain map has nonzero first residue. -/
+theorem canonicalX23_unit (s : ℤ) :
+    (regularEval (positiveGlobalComponent (s + 2) (s + 3) (s + 3)
+      (by omega) (by omega) (canonicalX23 s))).c0 = 1 := by
+  have ht : s + 2 + 1 = s + 3 := by omega
+  unfold canonicalX23
+  rw [positiveGlobalComponent_postcast (s + 2) (s + 2 + 1) (s + 3)
+      (s + 3) ht (by omega) (by omega) (by omega)
+      (globalXChainMap (s + 2))]
+  simpa only [ht] using globalXChainMap_first_residue_unit (s + 2)
+
+/-- The fourth actual adjacent chain map has nonzero first residue. -/
+theorem canonicalX34_unit (s : ℤ) :
+    (regularEval (positiveGlobalComponent (s + 3) (s + 4) (s + 4)
+      (by omega) (by omega) (canonicalX34 s))).c0 = 1 := by
+  have ht : s + 3 + 1 = s + 4 := by omega
+  unfold canonicalX34
+  rw [positiveGlobalComponent_postcast (s + 3) (s + 3 + 1) (s + 4)
+      (s + 4) ht (by omega) (by omega) (by omega)
+      (globalXChainMap (s + 3))]
+  simpa only [ht] using globalXChainMap_first_residue_unit (s + 3)
+
 end C4
