@@ -651,7 +651,6 @@ theorem globalXSquareChainMap_f (s i : ℤ) :
           (by omega : s + 1 + 1 = s + 2)) := by
   simp only [globalXSquareChainMap, HomologicalComplex.comp_f,
     HomologicalComplex.eqToHom_f, globalXChainMap]
-  rfl
 
 /-- Mathlib's target-differential half of the actual homotopy equation. -/
 theorem globalHFamily_prevD (s i : ℤ) :
@@ -680,6 +679,6 @@ theorem globalHFamily_dNext (s i : ℤ) :
   rw [hn]
   have hh : i = (i - 1) + 1 := by omega
   dsimp only [globalHFamily]
-  simp only [dif_pos hh, Category.assoc]
+  simp only [dite_eq_left hh, Category.assoc]
 
 end C4
