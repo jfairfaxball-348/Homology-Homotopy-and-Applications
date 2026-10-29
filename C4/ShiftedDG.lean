@@ -521,8 +521,7 @@ theorem globalZComponent_identity (s n : ℤ) :
           eqToHom (integerObject_nonnegative ((n + 1) - (s + 3)) (by omega)).symm := by
       have hi : n + 1 + 1 = n + 2 := by omega
       have hd := shiftedDifferential_regular (s + 3) (n + 1) (by omega)
-      rw [hi] at hd
-      exact hd
+      simpa only [hi] using hd
     have hbDiff :
         (integerShiftResolution s).d n (n - 1) =
           eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
@@ -530,8 +529,7 @@ theorem globalZComponent_identity (s n : ℤ) :
           eqToHom (integerObject_nonnegative ((n - 1) - s) (by omega)).symm := by
       have hi : n - 1 + 1 = n := by omega
       have hd := shiftedDifferential_regular s (n - 1) (by omega)
-      rw [hi] at hd
-      exact hd
+      simpa only [hi] using hd
     have hsquare := regularCastFourPathsExtra
       (integerObject_nonnegative (n - s) (by omega))
       (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega))
