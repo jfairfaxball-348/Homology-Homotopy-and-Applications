@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-29",
-  "last_completed_session": "S160",
-  "recommended_next_session": "S161",
+  "last_completed_session": "S161",
+  "recommended_next_session": "S162",
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
     "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
@@ -14,7 +14,7 @@
     "full_paper_theorem_lean_certified": false
   },
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S160 compiled the actual `C4.GlobalFourfoldDefiningSystem (s : ℤ)` on all-integer shifted ModuleCat B complexes: FOUR arbitrary adjacent genuine chain maps with required nonzero residue classes, THREE genuine Mathlib primary homotopies, and TWO independent all-integer degree-two secondary families with explicit support and four-path differential coherence. It also certifies `positiveGlobalComponent`, `positiveGlobalComponent_comp`, `positiveGlobalComponent_congr`, and `GlobalFourfoldDefiningSystem.primary_zero` to normalize and transport genuine global chain-map equations. Exact scratch `248e9068f39458d1ac2453b2ac50d530eb528615` pinned Lean #40895320033 SUCCESS, integrity #40895320007 SUCCESS. IMPORTANT: This is a genuine typed admissibility DATA TYPE and component bridge, not a proof of its nonemptiness for the intended canonical system, not the arbitrary-global terminal nonboundary theorem, not invariance under arbitrary homotopy-equivalence/cofibrant replacements, and not full real persistence or both-lane metrics. Do not claim complete formalisation. Frozen C4 only; no OptionD changes, novelty/HHA-fit/prior-art/outside review, release, submission or contact.",
+  "headline": "S161 certifies `C4.canonicalX12 (s : ℤ)` and `C4.canonicalPrimary02 (s : ℤ) : Homotopy (globalXChainMap s ≫ canonicalX12 s) 0` as a genuine ALL-INTEGER Mathlib chain homotopy with stage-2 target exactly `integerShiftResolution (s+2)`. Clean scratch `150391d5f81d33d3642d2300107095f691eccf66` pinned full Lean #40896532516 and integrity #40896532296 SUCCESS. Subsequent exploratory residue-one attempts `df170a1`, `d87cf9a`, `d538332` failed dependent `eqToHom` regular-object reductions, were NOT promoted, and do NOT invalidate the canonical primary theorem. A full `GlobalFourfoldDefiningSystem` canonical inhabitant, independent-residue unit fields, universal arbitrary-global terminal nonboundary, homotopy-equivalence invariance and entire-real metric inequalities remain OPEN. No OptionD, novelty/fit/prior-art/review, external publication, registry or contact.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
   "headline_status": "C4_FROZEN_S158_HOMOTOPY_AND_Z_COHERENCE_CERTIFIED_GLOBAL_ALL_CHOICE_REAL_OPEN",
   "active_campaign": "C4_FIRST_PAPER_S156_CAST_COHERENCE_NEXT_GLOBAL_HZ_FOURFOLD_REAL_METRIC",
@@ -2799,6 +2799,15 @@
     "certified_scratch_integrity_run": 40895320007,
     "formalised": "actual globally indexed arbitrary defining-system type, four nonzero adjacent maps, three homotopies, two graded degree-two coherent secondary families, positiveGlobalComponent_comp",
     "unproved": "canonical instance, universal global terminal obstruction, homotopy-equivalence invariance, real dIHC/dHI inequalities",
+    "full_paper_theorem_lean_certified": false
+  },
+  "s161_checkpoint": {
+    "entry_main": "b2ea7e939d84a77d9d8a5f4154bfa40fb3b482c6",
+    "certified_scratch_sha": "150391d5f81d33d3642d2300107095f691eccf66",
+    "certified_scratch_lean_run": 40896532516,
+    "certified_scratch_integrity_run": 40896532296,
+    "formalised": "genuine canonical first primary global nullhomotopy between exact stage-2 shifted resolution terms",
+    "unproved": "canonical residue unit normalization, remaining global stages, all-choice global nonboundary, homotopy equivalence and real distance inequalities",
     "full_paper_theorem_lean_certified": false
   }
 }
