@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-29",
-  "last_completed_session": "S164",
-  "recommended_next_session": "S165",
+  "last_completed_session": "S165",
+  "recommended_next_session": "S166",
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
     "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
@@ -14,9 +14,9 @@
     "full_paper_theorem_lean_certified": false
   },
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S164 Lean-certified canonical global fourfold, arbitrary-global terminal obstruction with independent data, actual whole-real diagram and literal five-unit shift vanishing. Full numerical metric theorem remains incomplete; see completion review for missing transfer/derived/replacement infrastructure.",
+  "headline": "S164 global C4 obstruction and actual real diagram, plus S165 genuine five-stage primary homotopy-equivalence transfer and four non-null adjacent classes certified. Entire-real two-lane numerical metric theorem remains open.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "S164_GLOBAL_OBSTRUCTION_AND_REAL_DIAGRAM_CERTIFIED_FULL_METRIC_OPEN",
+  "headline_status": "S165_PRIMARY_EQUIVALENCE_TRANSFER_ADJACENT_NONNULL_CERTIFIED_FULL_METRIC_OPEN",
   "active_campaign": "C4_FIRST_PAPER_CONTINUOUS_COMPLETION_WITH_EXPLICIT_DEPENDENCY_CONTRACTS",
   "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; no formal certificate of the metric; no novelty or HHA significance gate in active roadmap.",
   "stages": [
@@ -33,7 +33,7 @@
     {
       "id": 2,
       "name": "Lean full unbounded diagram and quantitative homotopy theorem",
-      "status": "S164_GLOBAL_OBSTRUCTION_REAL_DIAGRAM_CERTIFIED_TRANSFER_DERIVED_REPLACEMENT_METRICS_OPEN"
+      "status": "S165_PRIMARY_TRANSFER_CERTIFIED_SECONDARY_TERTIARY_DERIVED_BOTH_LANE_METRICS_OPEN"
     },
     {
       "id": 3,
@@ -2883,6 +2883,21 @@
     "full_paper_theorem_lean_certified": false,
     "review": "formal/C4_COMPLETION_REVIEW.md",
     "external_actions": "NOT_AUTHORISED",
-    "promotion_status": "Owner explicitly authorised commit, push and merge on 2026-10-29, resolving the earlier automatic-review permission objection. Promotion requires independent authored PR/main checks; source scratch already SUCCESS."
+    "promotion_status": "S164 authored PR #197 merged as ordinary two-parent commit d214c72c95a444c3f68722f0e75bb720078d0997; merged main pinned Lean #40934137311 and integrity #40934137409 SUCCESS."
+  },
+  "s165_checkpoint": {
+    "date": "2026-10-29",
+    "entry_main_sha": "d214c72c95a444c3f68722f0e75bb720078d0997",
+    "s164_pr": 197,
+    "s164_main_pinned_lean": 40934137311,
+    "s164_main_integrity": 40934137409,
+    "pr": 198,
+    "green_source_sha": "f9f257f5b8e7bb4d915c3309b96aab508b08056b",
+    "green_source_pinned_lean_run": 40936255963,
+    "green_source_integrity_run": 40936255927,
+    "certified": ["true chain-homotopy-equivalence inverse comparisons and nullhomotopy reflection", "four independent adjacent chain maps and all three primaries transferred to five arbitrary homotopy-equivalent objects", "all four original and transferred adjacent classes non-nullhomotopic"],
+    "unproved": "transferred secondary coherences/tertiary boundary; whole real free-quiver derived two-shift; unrestricted both-lane quasi-isomorphism replacement and numerical metrics",
+    "full_paper_theorem_lean_certified": false,
+    "external_actions": "NOT_AUTHORISED"
   }
 }

@@ -1,15 +1,13 @@
-# Current roadmap — C4 frozen first paper, after S164
+# Current roadmap — frozen C4 first paper after S165
 
-**Full formalisation remains incomplete.** The canonical global fourfold, arbitrary-global terminal obstruction, actual real diagram and five-unit shift vanishing are now Lean-certified.
+Full Lean formalisation remains OPEN. The genuine canonical global obstruction, universal nonboundary, actual full-real diagram and literal five-unit vanishing were certified in S164. S165 now proves full FIVE-stage/FOUR-adjacent-arrow/THREE-primary-homotopy transfer along genuine chain-homotopy equivalences and preserves all four non-nullhomotopic adjacent classes.
 
-The remaining milestones are mathematical contracts, not a sequence of mandatory short owner invocations:
+Remaining mathematical contracts (not routine one-lemma session boundaries):
 
-1. Transfer arbitrary strict square-zero chains through genuine homotopy equivalences, preserving nonzero adjacent classes and producing a tertiary boundary.
-2. Certify the whole free-quiver cone, derived two-shift nullhomotopy and real/localisation comparison.
-3. Certify the arbitrary full-real, both-lane shoelace replacement and acyclic-lane quotient argument.
-4. Prove the exact numerical metric statements and the coefficient-presentation bridge.
-5. Cold-build the complete frozen theorem and align the manuscript.
+1. Construct and verify BOTH secondary degree-two transfers and the tertiary boundary through arbitrary genuine homotopy-equivalent replacements. Prove the square-zero-chain/global obstruction result using the actual transferred data.
+2. Certify the entire free-quiver cone including final edge, its augmentation quasi-isomorphism, coherent derived two-shift nullhomotopy, full-real localisation comparison and evaluation lower bound.
+3. Certify arbitrary whole-real, BOTH-lane objectwise quasi-isomorphism zigzags by a full shoelace/replacement and acyclic-lane quotient theorem or a faithful explicit substitute.
+4. Define and prove the exact real metric inequalities and coefficient-presentation bridge.
+5. Cold-build the complete frozen Lean headline and align the manuscript. No publication without separate owner instruction.
 
-Detailed contracts and review: `formal/C4_COMPLETION_REVIEW.md`. Live execution instructions: `authoritative/NEXT_SESSION_PROMPT.md`. Active owner instructions allow continuous work through checkpoints; do not stop after one small lemma to request another invocation.
-
-No novelty, HHA-fit, prior-art or external-review milestone. No alternate candidate or OptionD development. No registry, submission, public release or third-party contact without separate owner instruction.
+No novelty, HHA-fit, prior-art, outside-review or alternative-target gate. No OptionD work. Next recovery handoff: `authoritative/NEXT_SESSION_PROMPT.md`.

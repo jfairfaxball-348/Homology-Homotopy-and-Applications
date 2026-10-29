@@ -1,3 +1,9 @@
+# CURRENT OWNER OVERRIDE — S165 genuine primary homotopy-transfer checkpoint, 29 October 2026
+
+S165 adds certified actual five-object/four-arrow/three-primary transfer through five genuine chain-homotopy equivalences and preserves non-nullhomotopy of the four independent adjacent C4 classes. It does NOT prove transferred secondary/tertiary coherence, quasi-isomorphism replacement on both real lanes or the numerical frozen metric theorem. See `authoritative/START_HERE.md`, `sessions/S165/`, and next `S166` prompt. The owner's continuous-completion instruction still overrides routine stop-after-one-lemma boundaries within active conversations. No OptionD, candidate switch, novelty/fit/prior-art/external review, publication, registry, release or third-party contact.
+
+---
+
 # CURRENT OWNER OVERRIDE — 29 October 2026, S164 completion review
 
 The owner requests a review and sustained execution toward full Lean completion, and then says "Continue". This overrides historical routine stop-after-one-session/fresh-owner-invocation rules while the active conversation continues. Do not stop after one small lemma or ask for another routine invocation. Preserve numbered verified checkpoints, ordinary two-parent merges and independent CI, but keep working until the exact frozen theorem is certified or a concrete context/resource/mathematical-infrastructure blocker prevents meaningful completion.

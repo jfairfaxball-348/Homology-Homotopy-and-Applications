@@ -1,29 +1,23 @@
-# C4 formalisation plan — current after S164
+# C4 formalisation plan — after S165
 
-The target remains the frozen cyclic-four full-real five-stage theorem:
-`dCohI=1/2 < dIHC=1 < 5/4 ≤ dHI ≤ 5/2`, with arbitrary whole-diagram objectwise quasi-isomorphism zigzags on **both** lanes. It is not yet a Lean theorem.
+**Exact frozen first-paper target remains UNPROVED IN LEAN:**
+`dCohI=1/2 < dIHC=1 < 5/4≤dHI≤5/2` for the whole-real five-stage diagram versus zero, allowing arbitrary whole-diagram objectwise quasi-isomorphism zigzags on BOTH lanes.
 
-Compiler: Lean `v4.35.0-rc2`; Mathlib `065356127b1dc0016f66b7283ce0ce2c4055aa55`. Preserve OptionD's verified source and import graph; no OptionD development.
+Compiler Lean v4.35.0-rc2; Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55. No OptionD changes.
 
-## Certified mathematical foundations
+## Certified foundations
 
-- Concrete four-coefficient commutative ring, periodic identities and arbitrary coefficient constraints.
-- Actual integer-indexed resolution, residue augmentation, all-degree homology, augmentation quasi-isomorphism and projective regular terms.
-- Genuine global x-chain maps, primary homotopies and degree-two secondary coherence at every integer shift.
-- An actual canonical global fourfold defining system, not merely a structure declaration.
-- Arbitrary-global terminal residue one and exclusion of all tertiary boundary components, extracted from independent maps and fillers.
-- Actual full-real diagram, its five half-open stages and zero ends, and literal vanishing of its entire five-unit shift natural transformation.
+1. Concrete four-coordinate B, periodic identities, arbitrary coefficient obstruction; genuine integer resolution and homology, residue augmentation quasi-isomorphism.
+2. All integer genuine C4 chain maps, three canonical primary homotopies and two secondary coherences; canonical global defining-system inhabitant and arbitrary-global tertiary-terminal nonboundary.
+3. Actual full-real diagram, all half-open stages/zero ends and literal vanishing of its entire five-unit natural shift.
+4. S165: `ChainHomotopyEquivalence` with both true inverse homotopies; explicit composition of middle retract and primary fillers; all THREE primaries and FOUR adjacent arrows on FIVE arbitrary homotopy-equivalent replacements; reflection of nullhomotopies and preservation of all four non-nullhomotopic adjacent classes.
 
-## Remaining implementation order
+## Missing proof contracts
 
-1. Prove the homotopy-transfer theorem on arbitrary square-zero five-object chains. Construct all transferred fillers and a tertiary boundary and establish the adjacent residue conditions; do not assume the defining system one needs to construct.
-2. Construct the whole free-quiver cone and its quasi-isomorphism, including its final edge. Prove its coherent two-shift nullhomotopy. Transport that result to the entire real diagram and its localisation.
-3. Supply the exact full-shoelace replacement/acyclic-lane quotient theorem or a faithful explicit algebraic replacement. The pinned library does not infer the projective model structures invoked by the paper.
-4. Define the exact metric relations and permitted whole-diagram zigzags; prove the numerical equality and bounds, including all real boundaries and both lanes. Close the group-algebra presentation bridge.
-5. Cold-build a final declaration matching the frozen theorem; align the manuscript and report dependencies. Publication remains separately controlled.
+1. Two transferred **secondary** degree-two coherences, actual tertiary filler/boundary transfer and full square-zero-chain comparison. S165 does NOT provide these, and its non-nullhomotopy result is not an invented residue-one coordinate for arbitrary replacements.
+2. Full free-quiver cone including terminal edge, its augmentation quasi-isomorphism and coherent derived two-shift, transported to the entire real diagram/localisation.
+3. Full-real both-lane shoelace replacement/acyclic-lane quotient under arbitrary objectwise quasi-isomorphism zigzags. No ready-to-use pinned unbounded/real projective model structure exists in the inspected imports; explicit construction remains an alternative.
+4. Exact dIHC/dHI/dCohI definitions, whole-real numerical equalities/bounds and coefficient-presentation isomorphism.
+5. Cold Lean final declaration exactly matching the manuscript's headline, and aligned paper.
 
-See `C4_COMPLETION_REVIEW.md` for precise contracts, the compiler probe, and the causes of the earlier session churn. These are substantial remaining proof packages; there is no justified percentage-complete or short session-count estimate.
-
-## Execution policy
-
-The owner's continuous-completion instruction overrides routine one-lemma/one-session stopping rules. Keep verified checkpoints and ordinary merges, but continue useful authorised proof work in the same conversation. A real missing dependency or context/resource limit must be reported concretely. Do not restart novelty, journal-fit, prior-art, external-review or candidate searches. No admitted obligations, custom axioms or finite-grid replacement for the full-real theorem.
+The model-category probe and dependency analysis are documented in `formal/C4_COMPLETION_REVIEW.md`. No custom axioms, admits, finite-grid substitute, unproved transfer assumptions or hidden conditional metric headline. Work may continue across ordinary verified checkpoints under the owner's existing continuous-completion direction.

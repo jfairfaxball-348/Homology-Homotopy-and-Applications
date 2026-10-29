@@ -1,23 +1,11 @@
-# C4 project status — S164, 29 October 2026
+# C4 project status — after S165, 29 October 2026
 
-The algebraic global fourfold obstruction is now proved in Lean. **The paper's full numerical metric theorem is still incomplete.**
+**Full first-paper formalisation is still OPEN.** S164 proved the genuine global arbitrary-choice terminal obstruction and full-real five-stage diagram. S165 establishes the first real homotopy-equivalence bridge: every four-arrow/five-object C4 primary system transports along five genuine Mathlib chain-homotopy equivalences, and the four adjacent classes remain non-nullhomotopic.
 
-## What is proved
+The S165 compiled evidence is in `sessions/S165/{PROOF,BUILD,CLOSEOUT}.md`. New Lean modules: `C4/HomotopyTransfer.lean`, `C4/FiveStageTransfer.lean`, `C4/AdjacentNonNull.lean`.
 
-- Genuine resolution, homology and augmentation quasi-isomorphism.
-- All canonical primary homotopies and both secondary coherences at every integer shift.
-- `C4.canonicalGlobalFourfold`: an actual global defining system.
-- `C4.GlobalFourfoldDefiningSystem.terminal_not_boundary`: arbitrary-global terminal obstruction with independent maps and fillers, excluding every prospective boundary in the decisive component.
-- `C4.realDiagram`: the actual whole-real five-stage functor, correct half-open stages/zero ends, and `realDiagram_shift_five_zero`.
+**Critical open contracts:** transferred two secondary coherences and tertiary boundary; the free-quiver derived two-shift and whole-real localisation; arbitrary whole-real both-lane quasi-isomorphism zigzags/shoelace replacement/quotient; exact metric definitions and the frozen numerical bounds; coefficient-presentation equivalence. Generic Mathlib projective model-category instances for the required unbounded/real diagram are not synthesized on this pin; see `formal/C4_COMPLETION_REVIEW.md`.
 
-## What remains
+The target remains `dCohI=1/2 < dIHC=1 < 5/4≤dHI≤5/2` with no reduction to a finite grid, no arbitrary replacements omitted and no paper headline proof claimed prematurely.
 
-Homotopy-equivalence transfer with nonzero adjacent classes; coherent free-quiver cone and derived two-shift; the arbitrary both-lane whole-real replacement/quotient theorem; exact metric definitions and numerical bounds; coefficient-presentation isomorphisms.
-
-Read `formal/C4_COMPLETION_REVIEW.md` for the evidence and exact dependency contracts. The pinned Mathlib cannot infer the unbounded/real-diagram projective model structures invoked in the paper; this is substantial missing infrastructure, not a final cast issue.
-
-## Working rules
-
-Read `AGENTS.md`, `authoritative/STATE.json`, the current proof sources and `sessions/S164/{PROOF,BUILD,CLOSEOUT}.md`. The owner's instruction is to continue toward completion within this conversation. Routine verified checkpoints do not create a fresh-permission requirement. The next handoff is a recovery instruction if work is interrupted or the conversation closes.
-
-Preserve the frozen C4 target and OptionD source. No alternate target, novelty/fit/prior-art/outside-review work or external action. Registry, submission, release and third-party contact remain separately authorised.
+Use `authoritative/NEXT_SESSION_PROMPT.md` for S166 recovery. Continuous-completion authorisation applies within an active conversation. No OptionD changes, novelty/fit/prior-art/outside-review work or publication/external contacts.
