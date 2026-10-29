@@ -401,6 +401,40 @@ theorem regularCastTwoPathsExtra
 
 /- The positive-degree global identity remains open. This scratch proof was not promoted. -/
 
+
+/-- Composing regular-module morphisms is insensitive to differing
+proofs of the intermediate regular-module equality. -/
+theorem regularTransport_comp
+    {P Q R : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eq₁ eq₂ : Q = ModuleCat.of B B)
+    (er : R = ModuleCat.of B B)
+    (f g : ModuleCat.of B B ⟶ ModuleCat.of B B) :
+    (eqToHom ep ≫ f ≫ eqToHom eq₁.symm) ≫
+      (eqToHom eq₂ ≫ g ≫ eqToHom er.symm) =
+    eqToHom ep ≫ (f ≫ g) ≫ eqToHom er.symm := by
+  cases ep
+  cases eq₁
+  cases eq₂
+  cases er
+  simp
+
+/-- Transport through a final equality of shifted target objects. -/
+theorem regularTransport_final
+    {P U S : ModuleCat B}
+    (ep : P = ModuleCat.of B B)
+    (eu : U = ModuleCat.of B B)
+    (es : S = ModuleCat.of B B)
+    (hu : U = S)
+    (f : ModuleCat.of B B ⟶ ModuleCat.of B B) :
+    (eqToHom ep ≫ f ≫ eqToHom eu.symm) ≫ eqToHom hu =
+      eqToHom ep ≫ f ≫ eqToHom es.symm := by
+  cases ep
+  cases eu
+  cases es
+  cases hu
+  simp
+
 theorem globalHComponent_identity (s n : ℤ) :
     globalHComponent s (n + 1) ≫
       (integerShiftResolution (s + 2)).d (n + 1 + 1) (n + 1) +
@@ -442,8 +476,8 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalHComponent_regular s n (by omega),
       globalXComponent_regular s (n + 1) (by omega),
       globalXComponent_regular (s + 1) (n + 1) (by omega)]
-    simpa [integerShiftResolution, integerResolution,
-      integerObject_nonnegative, integerObject, m, ha, hb', hc, hd, he,
-      Category.assoc] using hsquare
+    simpa only [integerShiftResolution, integerResolution,
+      m, ha, hb', hc, hd, he, regularTransport_comp,
+      regularTransport_final, Category.assoc] using hsquare
 
 end C4
