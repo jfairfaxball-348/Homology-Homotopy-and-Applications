@@ -449,6 +449,18 @@ theorem globalHComponent_identity (s n : ℤ) :
         Category.assoc] <;> congr 1
 
 
+/-- Normalize a positive shifted differential with an arbitrary provably adjacent
+pair of integer indices. Substituting the *index variable* before applying
+the existing regular theorem avoids dependent rewrites inside transports. -/
+theorem shiftedDifferential_regular_at (s i j : ℤ)
+    (h : i = j + 1) (hj : s ≤ j) :
+    (integerShiftResolution s).d i j =
+      eqToHom (integerObject_nonnegative (i - s) (by omega)) ≫
+      regularCoefficientHom (Periodic.d (j - s).toNat) ≫
+      eqToHom (integerObject_nonnegative (j - s) (by omega)).symm := by
+  subst i
+  exact shiftedDifferential_regular s j hj
+
 /-! ### S157 global secondary filler transport -/
 
 /-- Four-path regular-module transport with three independently represented
@@ -557,19 +569,10 @@ theorem globalZComponent_identity (s n : ℤ) :
     have hha : (n - (s + 1)).toNat = m + 1 := hza
     have hhb : (n - ((s + 1) + 1)).toNat = m := by dsimp [m]; omega
     have hxa : ((n + 1) - ((s + 2) + 1)).toNat = m := by dsimp [m]; omega
-    have haDiff :
-        (integerShiftResolution (s + 3)).d (n + 2) (n + 1) =
-          eqToHom (integerObject_nonnegative (n + 2 - (s + 3)) (by omega)) ≫
-          regularCoefficientHom (Periodic.d (n + 1 - (s + 3)).toNat) ≫
-          eqToHom (integerObject_nonnegative (n + 1 - (s + 3)) (by omega)).symm := by
-      exact shiftedDifferential_regular_indices (s + 3) (n + 2) (n + 1)
-        (by omega) (by omega)
-    have hbDiff :
-        (integerShiftResolution s).d n (n - 1) =
-          eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
-          regularCoefficientHom (Periodic.d (n - 1 - s).toNat) ≫
-          eqToHom (integerObject_nonnegative (n - 1 - s) (by omega)).symm := by
-      exact shiftedDifferential_regular_indices s n (n - 1) (by omega) (by omega)
+    have haDiff := shiftedDifferential_regular_at (s + 3) (n + 2) (n + 1)
+      (by omega) (by omega)
+    have hbDiff := shiftedDifferential_regular_at s n (n - 1)
+      (by omega) (by omega)
     have hsquare := regularCastFourPathsExtra
       (integerObject_nonnegative (n - s) (by omega))
       (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega))
