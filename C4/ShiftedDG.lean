@@ -399,6 +399,6 @@ theorem regularCastTwoPathsExtra
   cases hu
   simpa using hab
 
-/-- The positive-degree global identity remains open. This scratch proof was not promoted. -/
+/- The positive-degree global identity remains open. This scratch proof was not promoted. -/
 
 end C4
