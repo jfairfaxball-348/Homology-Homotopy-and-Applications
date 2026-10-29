@@ -58,4 +58,29 @@ theorem globalXChainMap_first_residue_unit (s : ℤ) :
   simp [Periodic.x, regularEval_coefficient, C4.one]
 
 
+/-- Canonical third stage, transported to the exact third shift. -/
+def canonicalX23 (s : ℤ) :
+    integerShiftResolution (s + 2) ⟶ integerShiftResolution (s + 3) :=
+  globalXChainMap (s + 2) ≫
+    eqToHom (congrArg integerShiftResolution (by omega : s + 2 + 1 = s + 3))
+
+/-- Canonical fourth stage, transported to the exact fourth shift. -/
+def canonicalX34 (s : ℤ) :
+    integerShiftResolution (s + 3) ⟶ integerShiftResolution (s + 4) :=
+  globalXChainMap (s + 3) ≫
+    eqToHom (congrArg integerShiftResolution (by omega : s + 3 + 1 = s + 4))
+
+/-- The second genuine canonical primary shifted nullhomotopy. -/
+def canonicalPrimary13 (s : ℤ) :
+    Homotopy (canonicalX12 s ≫ canonicalX23 s) 0 := by
+  simpa [canonicalX12, canonicalX23, globalXSquared, add_assoc, Category.assoc] using
+    globalXSquaredNullHomotopy (s + 1)
+
+/-- The third genuine canonical primary shifted nullhomotopy. -/
+def canonicalPrimary24 (s : ℤ) :
+    Homotopy (canonicalX23 s ≫ canonicalX34 s) 0 := by
+  simpa [canonicalX23, canonicalX34, globalXSquared, add_assoc, Category.assoc] using
+    globalXSquaredNullHomotopy (s + 2)
+
+
 end C4
