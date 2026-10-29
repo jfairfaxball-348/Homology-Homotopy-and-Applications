@@ -1,3 +1,9 @@
+# S163 — three canonical global primary homotopies and secondary stage casts Lean-certified (29 October 2026)
+
+S163 (29 October 2026) proves all four canonical adjacent global C4 chain maps are residue-one in their first positive regular components and certifies all THREE true all-integer Mathlib primary nullhomotopies (02,13,24). The intermediate shift casts are handled by actual chain-map naturality, and two exact-target secondary degree-two families (03,14) with off-degree support are now certified. Exact clean scratch `a8e18ebd58b808a3edb1b06df5f64a0c6d61d157` passed full pinned Lean #40908049804 and integrity #40908049784; prior stages `62496b5817711a708014280af633a3b5b4f221dd` Lean #40906560143 and `ec3085026e0dc4a4f137c1fec3965aded64306db` Lean #40907040082 also passed. Failed scratch `7017e9cdcdc4468e46155bfdd5a79c70a31bb925` (Lean #40907649875) exposed a dependent `Homotopy` cast in component extraction and was NOT promoted. The secondary differential coherence in the chosen defining system, actual `GlobalFourfoldDefiningSystem` inhabitant, arbitrary global terminal exclusion, homotopy-equivalence transfer, entire-real construction and BOTH numerical metric lanes remain OPEN. Frozen B=F₂[C₄] ONLY; no OptionD development, novelty, HHA-fit, prior-art, outside review, Palomar, arXiv/HHA submission, public release or contact.
+
+---
+
 ## S155 (28 October 2026) — corrected z and boundary h/z
 
 # S155 — corrected degree-two C4 z and categorical boundary h/z certified; positive global homotopies OPEN (28 October 2026)
