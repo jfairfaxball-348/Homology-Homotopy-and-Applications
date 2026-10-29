@@ -1,22 +1,22 @@
-# C4 project — S166 verified checkpoint, 29 October 2026
+# C4 first paper — verified S167 checkpoint (29 October 2026)
 
-**The complete first-paper numerical theorem is still OPEN in Lean.**
+**The full first-paper numerical theorem remains UNPROVED in Lean.**
 
-## Current certified results
+The frozen target is the exact full-real five-stage cyclic-four diagram versus zero and `dCohI = 1/2 < dIHC = 1 < 5/4 ≤ dHI ≤ 5/2`, permitting arbitrary whole-diagram objectwise quasi-isomorphism zigzags on BOTH lanes.
 
-S164 built genuine all-integer C4 global fourfold defining systems, proved arbitrary-global terminal nonboundary and constructed the exact whole-real five-stage diagram with literal vanishing at shift five.
+### Certified
 
-S165 certified transport of all four adjacent maps and all three primary homotopies through five actual chain-homotopy equivalences, preserving their four non-nullhomotopic classes.
+- S164: all-integer actual canonical/global arbitrary-choice fourfold, universal tertiary terminal nonboundary, actual whole-real five-stage diagram, and literal zero five-shift.
+- S165: all four arrows and all three primary homotopies transfer under five genuine chain-homotopy equivalences; all four adjacent homotopy classes remain non-null.
+- S166: two genuine degree-two secondary coherence equations on an arbitrary five-complex interface, original C4 inhabitant, actual tertiary filler interface, and universal no-tertiary-filler on the ORIGINAL C4 data.
+- S167: exact ordered algebraic correction identity; true all-integer homogeneous dg-component families and their differential/ordered composition; original two secondary coherences in that notation; BOTH true typed replacement-side degree-two correction **candidates**, with intermediate homotopy data.
 
-**S166** builds `FiveStageSecondaryData` over five arbitrary chain complexes with both genuine degree-two secondary coherence equations, and `GlobalFourfoldDefiningSystem.toFiveStageSecondaryData` constructs it from every original global C4 defining system. `FiveStageSecondaryData.terminalComponent` and `TertiaryFiller` encode the actual tertiary boundary problem, while `GlobalFourfoldDefiningSystem.no_tertiary_filler` kernel-certifies that no such degree-three filler exists on the original C4 system.
+The S167 candidate construction is **not** a proof of transferred secondary coherence. Certified source evidence in `sessions/S167/{PROOF,BUILD,CLOSEOUT}.md`.
 
-Exact source head: `8f53f2ec1a82e5551dfd6c1e7afe4010f70ebaa3`; hosted PR Lean #40972496033 and integrity #40972496125 SUCCESS, as independently checked. New files: `C4/FiveStageSecondary.lean`, `C4/TerminalComponent.lean`; derivation and remaining actual transfer formula: `formal/C4_SECONDARY_TRANSFER_FORMULA.md`.
+### Still missing
 
-## Crucial missing bridges
+(1) actual coherence of both transferred secondaries against S165 primary data, plus exact tertiary pullback from strict replacement square-zero data; (2) full free-quiver cone with final edge, coherent derived two-shift and real localisation; (3) arbitrary full-real shoelace replacement/acyclic-lane quotient on BOTH lanes; (4) exact metric definitions and bounds and coefficient-presentation isomorphism; (5) cold final Lean declaration and manuscript alignment.
 
-1. Construct **both** transferred secondary families through five genuine chain-homotopy equivalences, with the middle inverse-homotopy corrections, and prove all componentwise coherence equations. The general interface is not an existence proof on replacements.
-2. Derive a tertiary boundary from any hypothetical strict replacement square-zero five-chain and contradict the original `no_tertiary_filler` result. No unproved global transferred defining system may be added as a hypothesis.
-3. Full free-quiver cone, derived two-shift and localisation/evaluation comparisons.
-4. Arbitrary whole-real objectwise quasi-isomorphism zigzags and acyclic-lane quotient on BOTH lanes, exact numerical metrics and coefficient-presentation equivalence.
+The pinned Mathlib projective model-category instance for this unbounded real diagram is not currently synthesized; see `formal/C4_COMPLETION_REVIEW.md`. No assumed bridges, fake percentages, custom axioms or finite-grid substitutes. Continuous owner authorization covers further proof work within the active conversation. No OptionD development, alternative targets, novelty/fit/prior-art/outside-review searches, release, registry or submission/contact.
 
-Target unchanged: `dCohI=1/2 < dIHC=1 < 5/4≤dHI≤5/2`. No finite-grid replacement, shortcut axiom, novelty/fit/review gate, OptionD development or publication/contact. The next execution guidance is `authoritative/NEXT_SESSION_PROMPT.md`. Continue across ordinary checkpoints under the owner's continuous-completion instruction.
+Next execution guidance: `authoritative/NEXT_SESSION_PROMPT.md`.

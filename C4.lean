@@ -23,3 +23,8 @@ public import C4.AdjacentNonNull
 public import C4.FiveStageSecondary
 
 public import C4.TerminalComponent
+
+public import C4.SecondaryTransferAlgebra
+public import C4.HomogeneousFamily
+public import C4.HomogeneousCoherence
+public import C4.SecondaryTransferCandidates

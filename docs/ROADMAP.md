@@ -1,3 +1,9 @@
+# S167 checkpoint — actual transfer candidate families (29 October 2026)
+
+Both full-integer secondary *candidate* families are now typed and verified by Lean, as are the algebraic correction identity and original secondary differential equations. This is not transferred coherence or a metric theorem. Next priority: prove differential Leibniz and both replacement-side coherences, then tertiary pullback; afterward free-quiver derived two-shift, full-real both-lane replacement/quotient and numerical bounds. No new external/research gate.
+
+---
+
 # Current roadmap — frozen C4 first paper, after S166
 
 **Full numerical Lean formalisation remains OPEN.** S164 genuinely certifies the all-choice global obstruction and exact full-real diagram. S165 transfers all four adjacent maps and three primaries through five genuine homotopy-equivalent objects. S166 certifies the actual two-secondary defining-system interface on arbitrary five-object complexes and proves no degree-three tertiary filler exists for **any** original C4 global system.
