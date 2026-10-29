@@ -520,14 +520,18 @@ theorem globalZComponent_identity (s n : ℤ) :
           regularCoefficientHom (Periodic.d ((n + 1) - (s + 3)).toNat) ≫
           eqToHom (integerObject_nonnegative ((n + 1) - (s + 3)) (by omega)).symm := by
       have he : n + 1 + 1 = n + 2 := by omega
-      simpa only [he] using shiftedDifferential_regular (s + 3) (n + 1) (by omega)
+      have hh := shiftedDifferential_regular (s + 3) (n + 1) (by omega)
+      rw [he] at hh
+      exact hh
     have hbDiff :
         (integerShiftResolution s).d n (n - 1) =
           eqToHom (integerObject_nonnegative (n - s) (by omega)) ≫
           regularCoefficientHom (Periodic.d ((n - 1) - s).toNat) ≫
           eqToHom (integerObject_nonnegative ((n - 1) - s) (by omega)).symm := by
       have he : n - 1 + 1 = n := by omega
-      simpa only [he] using shiftedDifferential_regular s (n - 1) (by omega)
+      have hh := shiftedDifferential_regular s (n - 1) (by omega)
+      rw [he] at hh
+      exact hh
     have hsquare := regularCastFourPathsExtra
       (integerObject_nonnegative (n - s) (by omega))
       (integerObject_nonnegative ((n + 2) - (s + 3)) (by omega))
