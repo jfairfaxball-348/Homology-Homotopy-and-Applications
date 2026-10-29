@@ -691,12 +691,12 @@ theorem globalHFamily_comm_at_successor (s n : ℤ) :
       prevD (n + 1) (globalHFamily s) := by
   rw [globalXSquareChainMap_f s (n + 1),
     globalHFamily_dNext s (n + 1),
-    globalHFamily_prevD s (n + 1)]
+    globalHFamily_prevD s (n + 1), add_comm]
   have hh := globalHComponent_identity s n
   convert hh.symm using 1 <;>
     simp only [integerShiftResolution, integerResolution,
-      show n + 1 - 1 = n by omega, Category.assoc] <;>
-    congr 1
+      Category.assoc] <;>
+    congr 1 <;> omega
 
 /-- The all-integer genuine Mathlib-indexed homotopy identity. -/
 theorem globalHFamily_comm (s i : ℤ) :
