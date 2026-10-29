@@ -193,4 +193,34 @@ def canonicalPrimary24 (s : ℤ) :
     (globalXSquaredNullHomotopy (s + 2)).compRight
       (eqToHom (congrArg integerShiftResolution h₃))
 
+
+/-! ### S163: actual degree-two secondary maps with exact fourfold targets -/
+
+/-- The first degree-two family has exactly the stage-0 to stage-3 target. -/
+def canonicalZ03 (s i j : ℤ) :
+    (integerShiftResolution s).X i ⟶
+      (integerShiftResolution (s + 3)).X j :=
+  globalZFamily s i j
+
+theorem canonicalZ03_zero (s i j : ℤ) (h : j ≠ i + 2) :
+    canonicalZ03 s i j = 0 := globalZFamily_zero s i j h
+
+/-- Transport the second genuine degree-two family from the arithmetic
+shift (s+1)+3 to the stage-4 shift s+4 in the actual target complex. -/
+def canonicalZ14 (s i j : ℤ) :
+    (integerShiftResolution (s + 1)).X i ⟶
+      (integerShiftResolution (s + 4)).X j :=
+  globalZFamily (s + 1) i j ≫
+    eqToHom (congrArg (fun k : ℤ => (integerShiftResolution k).X j)
+      (by omega : s + 1 + 3 = s + 4))
+
+theorem canonicalZ14_zero (s i j : ℤ) (h : j ≠ i + 2) :
+    canonicalZ14 s i j = 0 := by
+  simp [canonicalZ14, globalZFamily_zero (s + 1) i j h]
+
+/-- Certified-component sanity check: stage-0 primary is the original h. -/
+theorem canonicalPrimary02_hom (s n : ℤ) :
+    (canonicalPrimary02 s).hom n (n + 1) = globalHComponent s n := by
+  simp [canonicalPrimary02, globalXSquaredNullHomotopy, globalHFamily_next]
+
 end C4
