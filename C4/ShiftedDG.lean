@@ -363,6 +363,14 @@ theorem globalZComponent_identity_at_boundary (s n : ℤ) (hb : n ≤ s + 1) :
 
 /-! ### S156 positive homotopy cast bridge (scratch) -/
 
+theorem regularEqToHom_two {P Q R : ModuleCat B}
+    (h₁ : P = Q) (h₂ : Q = R) (h₃ : P = R) :
+    eqToHom h₁ ≫ eqToHom h₂ = eqToHom h₃ := by
+  cases h₁
+  cases h₂
+  simp
+
+
 theorem globalHComponent_identity (s n : ℤ) :
     globalHComponent s (n + 1) ≫
       (integerShiftResolution (s + 2)).d (n + 1 + 1) (n + 1) +
@@ -401,8 +409,16 @@ theorem globalHComponent_identity (s n : ℤ) :
       globalHComponent_regular s n (by omega),
       globalXComponent_regular s (n + 1) (by omega),
       globalXComponent_regular (s + 1) (n + 1) (by omega)]
-    have hshift : s + 1 + 1 = s + 2 := by omega
-    simp only [hshift] at *
-    simpa [integerShiftResolution, integerResolution, m, ha, hb', hc, hd, he, Category.assoc, eqToHom_trans, eqToHom_refl] using hsquare
+    have hcast :
+        eqToHom (integerObject_nonnegative ((n + 1) - ((s + 1) + 1))
+          (by omega)).symm ≫
+          eqToHom (congrArg
+            (fun k : ℤ => (integerShiftResolution k).X (n + 1))
+            (by omega : s + 1 + 1 = s + 2)) =
+        eqToHom (integerObject_nonnegative ((n + 1) - (s + 2))
+          (by omega)).symm := by
+      exact regularEqToHom_two _ _ _
+    simpa [integerShiftResolution, integerResolution, m, ha, hb', hc, hd, he,
+      Category.assoc, hcast] using hsquare
 
 end C4
