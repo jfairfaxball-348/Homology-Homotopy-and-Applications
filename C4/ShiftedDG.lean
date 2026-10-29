@@ -658,4 +658,42 @@ theorem globalHFamily_next (s i : ℤ) :
   simp [globalHFamily]
 
 
+
+/-- Off-diagonal degree-one entries vanish for the actual chain shape. -/
+theorem globalHFamily_zero (s i j : ℤ)
+    (h : ¬ (ComplexShape.down ℤ).Rel j i) :
+    globalHFamily s i j = 0 := by
+  have hne : j ≠ i + 1 := by
+    intro he
+    apply h
+    change i + 1 = j
+    exact he.symm
+  simp [globalHFamily, hne]
+
+/-- The genuine squared x-map is nullhomotopic by the
+all-integer categorical Dh identity; every term uses actual
+ChainComplex morphisms, not coefficient surrogates. -/
+theorem globalXSquared_eq_nullHomotopicMap (s : ℤ) :
+    globalXSquared s = Homotopy.nullHomotopicMap (globalHFamily s) := by
+  ext i
+  have hr : (ComplexShape.down ℤ).Rel i (i - 1) := by
+    change i - 1 + 1 = i
+    omega
+  have hl : (ComplexShape.down ℤ).Rel (i + 1) i := by
+    change i + 1 = i + 1
+    rfl
+  have hh := globalHComponent_identity s (i - 1)
+  have heq : (i - 1) + 1 = i := by omega
+  rw [globalXSquared_component]
+  change _ = dNext i (globalHFamily s) + prevD i (globalHFamily s)
+  rw [dNext_eq (globalHFamily s) hr, prevD_eq (globalHFamily s) hl]
+  simpa [globalHFamily, heq, add_comm, Category.assoc] using hh.symm
+
+/-- Actual indexed chain homotopy from x composed with x to zero. -/
+def globalXSquaredNullHomotopy (s : ℤ) : Homotopy (globalXSquared s) 0 := by
+  rw [globalXSquared_eq_nullHomotopicMap]
+  exact Homotopy.nullHomotopy (globalHFamily s)
+    (globalHFamily_zero s)
+
+
 end C4
