@@ -26,6 +26,26 @@ there are no off-degree components to supply or silently assume. -/
 structure HomogeneousFamily (P Q : C4Complex) (k : ℤ) where
   hom : ∀ n : ℤ, P.X n ⟶ Q.X (n + k)
 
+/-- Pointwise addition of degree-k families, retaining actual
+B-linear component types at every integer degree. -/
+instance (P Q : C4Complex) (k : ℤ) :
+    Add (HomogeneousFamily P Q k) where
+  add f g := ⟨fun n => f.hom n + g.hom n⟩
+
+/-- Pointwise zero of a degree-k family. -/
+instance (P Q : C4Complex) (k : ℤ) :
+    Zero (HomogeneousFamily P Q k) where
+  zero := ⟨fun _ => 0⟩
+
+@[simp] theorem HomogeneousFamily.add_hom
+    {P Q : C4Complex} {k : ℤ}
+    (f g : HomogeneousFamily P Q k) (n : ℤ) :
+    (f + g).hom n = f.hom n + g.hom n := rfl
+
+@[simp] theorem HomogeneousFamily.zero_hom
+    {P Q : C4Complex} {k : ℤ} (n : ℤ) :
+    (0 : HomogeneousFamily P Q k).hom n = 0 := rfl
+
 /-- Embed a genuine chain map as a degree-zero family. -/
 def HomogeneousFamily.ofChainMap {P Q : C4Complex} (f : P ⟶ Q) :
     HomogeneousFamily P Q 0 where
