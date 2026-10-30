@@ -1,3 +1,9 @@
+## S172→S173: compiled acyclic quotient bridges; genuine full-real resolution still open (30 October 2026)
+
+Source `abcb591f53646b73903687f1ecfa7c723f9037ff`, pinned Lean #41131166960 and integrity #41131166873 SUCCESS: `quasiIso_cokernel_of_acyclic_mono` proves all-integer QuasiIso of a cokernel projection when the source is acyclic and crossing mono; `realShoelaceCokernel_projection_objectwise_quasiIso` proves this at **every real index**, *conditional* on pointwise mono and objectwise acyclic opposite lane. This DOES NOT establish arbitrary two-lane shoelace replacement, monic crossings in arbitrary strict interleavings, strict lower bound or the frozen exact metrics. S173 must construct/test real shoelace-poset projectively-cofibrant/algebraic replacement from arbitrary whole-diagram weak-equivalence zigzags on **both** lanes; no further example or routine cast churn. Preserve all no-axiom, frozen first-paper and external gates.
+
+---
+
 ## S171→S172 C3 critical path (30 October 2026)
 
 S171 Lean-verified `realShoelaceCokernel_twoShift_zero` for a natural **whole-real** cokernel of any strict backward crossing; nonzero opposite lane allowed. This does **not** prove the projection is a quasi-isomorphism. S172 must establish monic crossing with acyclic opposite lane, pointwise quotient QuasiIso and an arbitrary **BOTH-lane** entire-real shoelace projectively-cofibrant replacement. No new standalone examples or cast churn; all other frozen C4 and external-action limits remain. Certified source `1f41ee9e64a917d6baeab111be9dc89af9e8bf88`, full Lean #41127860267, integrity #41127860273.
