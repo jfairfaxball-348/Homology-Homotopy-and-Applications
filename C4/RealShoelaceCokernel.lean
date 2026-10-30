@@ -66,11 +66,23 @@ theorem realShoelaceCokernel_twoShift_zero
   change F.map
     (homOfLE (show u + ε ≤ (u + (ε + ε)) + ε by linarith)) ≫
       p.app (u + (ε + ε)) = 0
-  have hzero :
-      (I.forward.app (u + ε) ≫ I.backward.app ((u + ε) + ε)) ≫
-        p.app ((u + ε) + ε) = 0 := by
-    simpa only [Category.assoc, hkill, comp_zero]
-  rw [I.forward_backward (u + ε)] at hzero
-  simpa only [← add_assoc] using hzero
+  have hzero_general (v : ℝ) (hv : v = (u + ε) + ε) :
+      F.map (homOfLE (show u + ε ≤ v + ε by linarith)) ≫ p.app v = 0 := by
+    subst v
+    have hzero :
+        (I.forward.app (u + ε) ≫ I.backward.app ((u + ε) + ε)) ≫
+          p.app ((u + ε) + ε) = 0 := by
+      calc
+        (I.forward.app (u + ε) ≫ I.backward.app ((u + ε) + ε)) ≫
+            p.app ((u + ε) + ε) =
+          I.forward.app (u + ε) ≫
+            (I.backward.app ((u + ε) + ε) ≫ p.app ((u + ε) + ε)) :=
+              Category.assoc _ _ _
+        _ = I.forward.app (u + ε) ≫ 0 := by
+          rw [hkill ((u + ε) + ε)]
+        _ = 0 := by simp
+    rw [I.forward_backward (u + ε)] at hzero
+    exact hzero
+  exact hzero_general (u + (ε + ε)) (by ring)
 
 end C4
