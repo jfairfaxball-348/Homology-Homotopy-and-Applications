@@ -24,9 +24,11 @@ theorem HomogeneousFamily.d_compAs_component
     ((f.compAs g hpq).d).hom n =
       (((f.d).compAs g (by omega : (p - 1) + q = r - 1)) +
        (f.compAs g.d (by omega : p + (q - 1) = r - 1))).hom n := by
+  subst r
   simp [HomogeneousFamily.d, HomogeneousFamily.compAs,
     HomogeneousFamily.add_hom, Category.assoc,
-    Preadditive.add_comp, Preadditive.comp_add]
+    Preadditive.add_comp, Preadditive.comp_add,
+    sub_eq_add_neg, add_assoc, add_comm, add_left_comm]
   abel
 
 end C4
