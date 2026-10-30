@@ -38,4 +38,33 @@ theorem realShoelaceCokernel_condition
     I.backward ≫ (cokernel.π I.backward) = 0 :=
   cokernel.condition I.backward
 
+/-- Quotienting the ACTUAL whole-real backward crossing annihilates
+the full two-epsilon structure transformation on the quotient.
+This does not require the opposite lane to be literally zero; its
+acyclicity is required later to obtain a quasi-isomorphism. -/
+theorem realShoelaceCokernel_twoShift_zero
+    {F G : ℝ ⥤ C4Complex} {ε : ℝ} {hε : 0 ≤ ε}
+    (I : StrictRealInterleaving F G ε hε) :
+    realShiftMorphism (realShoelaceCokernel I) (ε + ε) (by linarith) = 0 := by
+  let p : translateDiagram F ε ⟶ realShoelaceCokernel I :=
+    cokernel.π I.backward
+  have hkill : ∀ u : ℝ, I.backward.app u ≫ p.app u = 0 := by
+    intro u
+    have h := NatTrans.congr_app (cokernel.condition I.backward) u
+    simpa [p] using h
+  apply (cancel_epi p).mp
+  apply NatTrans.ext
+  funext u
+  change p.app u ≫
+    (realShoelaceCokernel I).map
+      (homOfLE (show u ≤ u + (ε + ε) by linarith)) = 0
+  rw [← p.naturality (homOfLE (show u ≤ u + (ε + ε) by linarith))]
+  change F.map
+    (homOfLE (show u + ε ≤ (u + (ε + ε)) + ε by linarith)) ≫
+      p.app (u + (ε + ε)) = 0
+  have ha : u + (ε + ε) = (u + ε) + ε := by ring
+  rw [ha]
+  rw [← I.forward_backward (u + ε)]
+  rw [Category.assoc, hkill, comp_zero]
+
 end C4
