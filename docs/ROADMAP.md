@@ -1,3 +1,8 @@
+# S168 checkpoint
+
+Proof progress: categorical characteristic-two cancellation and two genuine homogeneous composition distributivities. Next: typed graded Hom Leibniz with explicit equality casts; identify S165 transferred primaries; prove BOTH secondary replacement coherences; tertiary pullback; whole-real BOTH-lane metrics. No alternate targets, novelty or external gates.
+
+---
 # S167 checkpoint — actual transfer candidate families (29 October 2026)
 
 Both full-integer secondary *candidate* families are now typed and verified by Lean, as are the algebraic correction identity and original secondary differential equations. This is not transferred coherence or a metric theorem. Next priority: prove differential Leibniz and both replacement-side coherences, then tertiary pullback; afterward free-quiver derived two-shift, full-real both-lane replacement/quotient and numerical bounds. No new external/research gate.

@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-29",
-  "last_completed_session": "S167",
-  "recommended_next_session": "S168",
+  "last_completed_session": "S168",
+  "recommended_next_session": "S169",
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
     "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
@@ -16,7 +16,7 @@
   "journal": "Homology, Homotopy and Applications (International Press)",
   "headline": "S166 certified general secondary/tertiary C4 interface and universal no-degree-three-filler theorem; arbitrary replacement-side secondary transfer, derived localisation and whole-real both-lane numerical metrics remain OPEN.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "S167_TYPED_SECONDARY_TRANSFER_CANDIDATES_CERTIFIED_FULL_TRANSFER_AND_METRIC_OPEN",
+  "headline_status": "S168_TYPED_CHAR_TWO_CANCELLATION_AND_HOM_COMPOSITION_DISTRIBUTIVITY_CERTIFIED_LEIBNIZ_AND_FULL_METRIC_OPEN",
   "active_campaign": "C4_FIRST_PAPER_CONTINUOUS_COMPLETION_WITH_EXPLICIT_DEPENDENCY_CONTRACTS",
   "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; no formal certificate of the metric; no novelty or HHA significance gate in active roadmap.",
   "stages": [
@@ -1104,11 +1104,11 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Prove actual coherent secondary differential equations for BOTH candidateZ03 and candidateZ14 against the true S165 transported primary homotopies, using a typed all-integer graded Leibniz theorem and explicit equality of component data; do not assume the transferred fillers.",
-    "From any hypothetical strict square-zero five-object replacement, construct the original C4 tertiary boundary and contradict the genuine global no-tertiary-filler theorem; preserve non-null adjacent classes.",
-    "Construct full free-quiver cone with terminal edge, quasi-isomorphism and coherent derived two-shift; prove exact whole-real/localisation comparison and derived lower bound.",
-    "Prove arbitrary both-lane whole-real replacement and natural acyclic opposite-lane quotient, or a fully proved equivalent algebraic construction.",
-    "Define exact quantitative metric relations/zigzags and prove the full frozen numerical theorem in Lean, plus coefficient-presentation isomorphisms, with no missing structural assumptions."
+    "Prove actual all-integer graded Hom differential composition Leibniz including the two independent eqToHom cast identities in archived S168 diagnostic; prove actual chain maps are degree-zero cycles.",
+    "Identify S165 primary transport with explicit degree-one correction; prove both S167 candidate secondary families satisfy their genuine exact all-integer coherences and construct actual transferred defining-system data without assumed fields.",
+    "Pull back a genuine tertiary boundary from any strict square-zero replacement and contradict C4 no_tertiary_filler.",
+    "Prove full free-quiver cone with terminal edge, coherent derived two-shift and full-real localisation, plus arbitrary objectwise quasi-isomorphism zigzags/quotients on BOTH lanes.",
+    "Define quantitative distances and prove exact frozen full-real inequality and coefficient-presentation equivalence."
   ],
   "blockers": [
     "The specific all-integer graded Hom-composition differential Leibniz identity and matching of S165 primary homotopy components have not yet been implemented; S167 explicitly constructs both secondary candidates but does not prove their coherence.",
@@ -2942,6 +2942,27 @@
       "full-real derived/free-quiver comparisons",
       "arbitrary both-lane quasi-isomorphism zigzags",
       "frozen numerical theorem"
+    ],
+    "full_paper_theorem_lean_certified": false,
+    "external_actions": "NOT_AUTHORISED"
+  },
+  "s168_checkpoint": {
+    "date": "2026-10-30",
+    "entry_main": "199a2d29681f8eb970cbd37bbcbe5036ab035642",
+    "pr": 201,
+    "source_integrity": "pending final source/head verification",
+    "certified": [
+      "characteristic two (2:B)=0",
+      "double of every genuine ModuleCat B morphism is zero",
+      "middle-composition cancellation for arbitrary genuine B-linear morphisms",
+      "two distributivity identities of all-integer HomogeneousFamily.compAs over addition"
+    ],
+    "not_proved": [
+      "componentwise d_compAs Leibniz due nontrivial dependent eqToHom casts",
+      "chain maps are degree-zero cycles in new HomogeneousFamily.d formalism",
+      "both transferred secondary coherence equations",
+      "tertiary pullback from hypothetical strict replacement diagram",
+      "full-real both-lane inequalities and presentation bridge"
     ],
     "full_paper_theorem_lean_certified": false,
     "external_actions": "NOT_AUTHORISED"

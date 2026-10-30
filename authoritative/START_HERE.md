@@ -1,3 +1,12 @@
+# S168 verified partial proof checkpoint (30 October 2026)
+
+The exact frozen first-paper theorem is **still NOT proved in Lean**. S168 builds genuine characteristic-two cancellation for arbitrary B-linear module morphisms and true all-integer homogeneous composition distributivity on both inputs. The explicit graded Hom differential Leibniz and a degree-zero-cycle proof remain **unproved** because indexed `eqToHom` transports did not normalize; failed attempts were not imported or promoted. See `sessions/S168/LEIBNIZ_DIAGNOSTIC.md`.
+
+S167 certified two actual all-integer replacement secondary **candidate** families but not their coherence; S166 certified original tertiary nonfillability; S165 transported all primaries and four nonnull classes. The full target remains `dCohI=1/2 < dIHC=1 < 5/4≤dHI≤5/2` across the entire real diagram with arbitrary both-lane quasi-isomorphism zigzags. No axiom, sorry, finite-grid substitute or external activity.
+
+Next target `authoritative/NEXT_SESSION_PROMPT.md`.
+
+---
 # C4 first paper — verified S167 checkpoint (29 October 2026)
 
 **The full first-paper numerical theorem remains UNPROVED in Lean.**
