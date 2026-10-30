@@ -1,3 +1,9 @@
+## S171→S172 C3 critical path (30 October 2026)
+
+S171 Lean-verified `realShoelaceCokernel_twoShift_zero` for a natural **whole-real** cokernel of any strict backward crossing; nonzero opposite lane allowed. This does **not** prove the projection is a quasi-isomorphism. S172 must establish monic crossing with acyclic opposite lane, pointwise quotient QuasiIso and an arbitrary **BOTH-lane** entire-real shoelace projectively-cofibrant replacement. No new standalone examples or cast churn; all other frozen C4 and external-action limits remain. Certified source `1f41ee9e64a917d6baeab111be9dc89af9e8bf88`, full Lean #41127860267, integrity #41127860273.
+
+---
+
 ## S170→S171 categorical critical path (not additional helper sessions)
 
 Source `C4/NonzeroAcyclicRealLane.lean` verifies that a full-real zero replacement can be genuinely nonzero and acyclic. **Do not equate acyclic to literally zero, or turn objectwise quasi-isomorphism into strict zero maps.** The only next substantive proof target is the natural real shoelace quotient for arbitrary two-lane zigzags, then the free-quiver derived cone and global obstruction transfer. S170's example is a test, not the theorem. Preserve the frozen F₂[C₄] statement and all-real quantifiers. Avoid cast-by-cast variants and new illustrative helper files unless they close a named C3/C2 interface; if pinned Mathlib cannot express a required projective cofibrancy claim, state the exact missing API and use a justified algebraic substitute rather than suggesting completion.
