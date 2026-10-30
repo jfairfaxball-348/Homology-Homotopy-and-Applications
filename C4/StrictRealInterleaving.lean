@@ -34,7 +34,7 @@ structure StrictRealInterleaving
 
 /-- Vanishing of the true two-epsilon whole-real shift produces the
 two natural crossing transformations with the literal zero lane. -/
-def strictZeroInterleavingOfVanishing
+noncomputable def strictZeroInterleavingOfVanishing
     (F : ℝ ⥤ C4Complex) (ε : ℝ) (hε : 0 ≤ ε)
     (hvanish : ∀ u : ℝ,
       F.map (homOfLE (show u ≤ (u + ε) + ε by linarith)) = 0) :
