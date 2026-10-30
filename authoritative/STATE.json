@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-10-30",
-  "last_completed_session": "S169",
-  "recommended_next_session": "S170",
+  "last_completed_session": "S170",
+  "recommended_next_session": "S171",
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
     "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
@@ -14,9 +14,9 @@
     "full_paper_theorem_lean_certified": false
   },
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S169 Lean-certified the strict full-real 5/2 upper interleaving witness and five-cut square-zero extraction, plus whole-real acyclic opposite-lane quasi-isomorphism criterion; full metric OPEN.",
+  "headline": "S170 Lean-certified a genuinely nonzero entire-real acyclic replacement of zero and its objectwise quasi-isomorphism; full real shoelace quotient, derived cone and metric theorem OPEN.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "S169_REAL_STRICT_FIVE_HALVES_WITNESS_AND_FIVE_CUT_EXTRACTION_CERTIFIED_C1_C2_C3_QUOTIENT_METRICS_OPEN",
+  "headline_status": "S170_NONZERO_ACYCLIC_WHOLE_REAL_REPLACEMENT_CERTIFIED_C3_QUOTIENT_C2_CONE_METRICS_OPEN",
   "active_campaign": "C4_FIRST_PAPER_CONTINUOUS_COMPLETION_WITH_EXPLICIT_DEPENDENCY_CONTRACTS",
   "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; no formal certificate of the metric; no novelty or HHA significance gate in active roadmap.",
   "stages": [
@@ -2970,5 +2970,16 @@
     ],
     "full_paper_theorem_lean_certified": false,
     "external_actions": "NOT_AUTHORISED"
+  }
+,
+  "s170_checkpoint": {
+    "entry_main": "c7e770215939d1efb764dd35d0e62cc2c1fb405c",
+    "verified_source_commit": "a7b98bac3eee9513ce1b3381af0bf91bb54af0b2",
+    "verified_lean_workflow": 41058091750,
+    "verified_integrity_workflow": 41058091795,
+    "new_lean_module": "C4/NonzeroAcyclicRealLane.lean",
+    "proved": "Nonzero acyclic unbounded alternating B-complex; constant entire-real diagram; objectwise quasi-isomorphism from zero across all real indices.",
+    "not_proved": "Natural shoelace quotient for arbitrary both-lane whole-real weak-equivalence zigzags; derived cone and full numerical metric inequalities.",
+    "full_metric_theorem_lean_certified": false
   }
 }

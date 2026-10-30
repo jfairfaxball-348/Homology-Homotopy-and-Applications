@@ -1,3 +1,7 @@
+## S170 verified new real-lane module (30 October 2026)
+
+S170 introduced `C4/NonzeroAcyclicRealLane.lean`: genuinely nonzero all-integer acyclic complex, constant real diagram, and an objectwise quasi-isomorphism from zero. Source proof verified by pinned build 41058091750; the **full dHI/dIHC/dCohI numerical result remains OPEN**. Next critical route C3 *natural quotient for arbitrary both-lane whole-real replacements*; details in `sessions/S170` and the separately owner-invoked S171 prompt. No publication or external authority implied.
+
 > **S169 verified checkpoint (30 October 2026).** Genuine whole-real strict 5/2 interleaving witness, five-cut stage correctness/strict square-zero reduction, and arbitrary full-real acyclic opposite-lane quasi-isomorphism criterion compiled on pinned Lean #41046995470. **NOT the full theorem:** derived two-shift/equality, arbitrary both-lane shoelace natural quotient and lower strict bound remain open. S170 is FUTURE, UNEXECUTED. See `sessions/S169/PROOF.md` and `authoritative/NEXT_SESSION_PROMPT.md`.
 
 # Process reorientation (30 October 2026; not a proof session)
