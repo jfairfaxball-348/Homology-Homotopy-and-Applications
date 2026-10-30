@@ -27,9 +27,13 @@ in the abelian category of unbounded B-linear chain complexes. -/
 theorem monoCokernelSequence_shortExact
     {K L : C4Complex} (f : K ⟶ L) [Mono f] :
     (monoCokernelSequence f).ShortExact := by
-  refine ⟨?_, inferInstance, inferInstance⟩
-  exact ShortComplex.exact_of_g_is_cokernel
-    (monoCokernelSequence f) (cokernelIsCokernel f)
+  apply ShortComplex.ShortExact.mk'
+  · exact ShortComplex.exact_of_g_is_cokernel
+      (monoCokernelSequence f) (cokernelIsCokernel f)
+  · change Mono f
+    infer_instance
+  · change Epi (cokernel.π f)
+    infer_instance
 
 /-- The projection from a complex to the cokernel of an acyclic
 subcomplex is a quasi-isomorphism in EVERY integer homological degree.
