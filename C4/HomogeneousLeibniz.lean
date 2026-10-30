@@ -29,6 +29,6 @@ theorem HomogeneousFamily.d_compAs_component
     HomogeneousFamily.add_hom, Category.assoc,
     Preadditive.add_comp, Preadditive.comp_add,
     sub_eq_add_neg, add_assoc, add_comm, add_left_comm]
-  abel
+  exact moduleHom_middle_cancel _ _ _
 
 end C4
