@@ -1,0 +1,7 @@
+# S172 CLOSEOUT — acyclic quotient QuasiIso bridges proved, global strict theorem open
+
+At certified source `abcb591f53646b73903687f1ecfa7c723f9037ff`, the long-exact-homology acyclic-mono/cokernel `QuasiIso` and the **whole-real objectwise evaluation** result under explicit monic backward crossings and acyclic opposite lane kernel-compiled. Full pinned Lean #41131166960 and integrity #41131166873 SUCCESS. This resolves the reusable quotient **algebraic** C3 contract but **NOT** the existence of a pointwise monic/cofibrant shoelace replacement for arbitrary full-real weak-equivalence zigzags on BOTH lanes. S171's literal 2ε-shift-zero remains intact; the strict lower bound cannot yet be deduced. Higher tertiary transfer, derived five-edge free-quiver cone, full exact metrics and presentation equivalence remain OPEN. This authored closeout does not establish PR merge or independent main CI. No OptionD, novelty/prior-art/fit/review, publication, registry or contact actions.
+
+## NEXT_SESSION_HANDOFF
+
+**S173 (FUTURE, UNEXECUTED).** Canonical `authoritative/NEXT_SESSION_PROMPT.md`. A fresh separate owner instruction is mandatory. Attack the **actual** arbitrary BOTH-lane projectively-cofibrant whole-real shoelace resolution and monic crossings; use S172's proved pointwise quotient theorem, not another one-object example. Do not execute S173 in this S172 session. No unauthorised publication or external action.
