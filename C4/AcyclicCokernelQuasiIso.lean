@@ -66,4 +66,31 @@ theorem quasiIso_cokernel_of_acyclic_mono
   letI := he
   exact isIso_of_mono_of_epi _
 
+
+/-- Whole-real pointwise quotient quasi-isomorphism under a separately
+established pointwise mono crossing and acyclic opposite lane.
+The preservation of cokernels by evaluation works at EVERY real u.
+This lemma does NOT assert arbitrary crossings are monomorphisms or
+supply the missing projectively-cofibrant shoelace resolution. -/
+theorem realShoelaceCokernel_projection_objectwise_quasiIso
+    {F G : ℝ ⥤ C4Complex} {ε : ℝ} {hε : 0 ≤ ε}
+    (I : StrictRealInterleaving F G ε hε)
+    (hG : ∀ u : ℝ, (G.obj u).Acyclic)
+    (hmono : ∀ u : ℝ, Mono (I.backward.app u)) :
+    ∀ u : ℝ, QuasiIso ((cokernel.π I.backward).app u) := by
+  intro u
+  let ev := (evaluation ℝ C4Complex).obj u
+  let e := PreservesCokernel.iso ev I.backward
+  have hq : QuasiIso (cokernel.π (I.backward.app u)) := by
+    letI : Mono (I.backward.app u) := hmono u
+    exact quasiIso_cokernel_of_acyclic_mono _ (hG u)
+  have hc := PreservesCokernel.π_iso_hom ev I.backward
+  change (cokernel.π I.backward).app u ≫ e.hom =
+      cokernel.π (I.backward.app u) at hc
+  have hcomp : QuasiIso ((cokernel.π I.backward).app u ≫ e.hom) := by
+    rw [hc]
+    exact hq
+  letI : QuasiIso e.hom := inferInstance
+  exact (quasiIso_iff_comp_right _ _).mp hcomp
+
 end C4
