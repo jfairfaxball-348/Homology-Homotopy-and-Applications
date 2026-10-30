@@ -1,3 +1,9 @@
+# CURRENT C4 EXECUTION — S169 (30 October 2026): verified strict whole-real upper witness and cut extraction
+
+S169 source checkpoint `63d123667c58edee49ea2dbd4587021838e83b38` passed full pinned OptionD+C4 Lean #41046995470 and repository-integrity #41046995461. New real Lean declarations: `C4.zeroDiagram_to_objectwise_quasiIso_iff`, `C4.realDiagram_strictInterleavingZero_fiveHalves`, `C4.realDiagram_five_cut_objects`, `C4.real_five_cut_three_composites_zero`. These are all-real, not finite grid. **The arbitrary both-lane shoelace quotient and strict lower bound, full derived equality, higher transfer and entire exact numerical theorem are STILL OPEN.** Read `sessions/S169/` and future S170 handoff; earlier S168-next annotations below are superseded. No OptionD/release/submission/external actions authorised.
+
+---
+
 # BINDING C4 EXECUTION OVERRIDE — 30 October 2026: top-down proof rescue
 
 This is a **documentation-only process change**; S168 remains completed, S169 FUTURE, UNEXECUTED, and the complete numerical C4 theorem remains NOT Lean-certified. Read `formal/C4_COMPLETION_STRATEGY.md` and `authoritative/NEXT_SESSION_PROMPT.md` before historical instructions below.

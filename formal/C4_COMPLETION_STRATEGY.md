@@ -1,3 +1,5 @@
+> **S169 progress:** certified full-real zero-lane acyclicity criterion, actual strict 5/2 interleaving and five-cut strict composite extraction. The missing C3 bridge is specifically the natural shoelace quotient for arbitrary BOTH-LANE weak-equivalence zigzags; S169's five-cut reduction needs the quotient-derived strict shift zero, not an assumption. C2 and C1 remain open; S170 must attack C3 and C2 directly. Lean #41046995470 and integrity #41046995461 passed source checkpoint; full metric remains uncertified.
+
 # C4 completion strategy — top-down rescue (30 October 2026)
 
 **This is execution guidance, not a Lean proof or new mathematical claim.** S168 remains the last completed formalisation session and S169 remains FUTURE, UNEXECUTED. This strategy supersedes older one-lemma-at-a-time prioritisation, but preserves the exact target, trusted source, CI and publication boundaries.
