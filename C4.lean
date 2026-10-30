@@ -29,5 +29,4 @@ public import C4.HomogeneousFamily
 public import C4.HomogeneousCoherence
 public import C4.SecondaryTransferCandidates
 public import C4.HomDifferentialLemmas
-public import C4.HomogeneousLeibniz
 public import C4.HomogeneousDistributivity
