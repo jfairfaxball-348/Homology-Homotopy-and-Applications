@@ -39,9 +39,13 @@ theorem HomogeneousFamily.d_compAs_component
       g.hom (n + p - 1)) ≫
       eqToHom (congrArg R.X
         (by omega : (n + p - 1) + q = n + (p + q - 1)))
+  have h₁ : n - 1 + p = n + p - 1 := by omega
+  have h₂ : n + (p - 1) = n + p - 1 := by omega
+  have h₃ : n + p + q - 1 = n + (p + q - 1) := by omega
+  have h₄ : n + p + q = n + (p + q) := by omega
   have lhs : ((f.compAs g rfl).d).hom n = A + B' := by
     simp [A, B', HomogeneousFamily.d, HomogeneousFamily.compAs,
-      Category.assoc, add_assoc, sub_eq_add_neg]
+      Category.assoc, h₁, h₂, h₃, h₄, add_assoc, sub_eq_add_neg]
   have rhs :
       (((f.d).compAs g (by omega : (p - 1) + q = p + q - 1)) +
        (f.compAs g.d (by omega : p + (q - 1) = p + q - 1))).hom n =
