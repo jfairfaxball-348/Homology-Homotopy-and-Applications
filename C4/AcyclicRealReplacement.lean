@@ -20,7 +20,7 @@ shoelace quotient, nor that the strict lower bound holds.
 
 namespace C4
 
-open CategoryTheory CategoryTheory.Limits
+open CategoryTheory CategoryTheory.Limits ZeroObject
 
 /-- The literal zero complex is exact in every integer degree. -/
 theorem zeroComplex_exactAt (n : ℤ) : zeroComplex.ExactAt n := by
@@ -35,7 +35,7 @@ index and every integer homological degree. No replacement is assumed
 to be identically zero. -/
 theorem zeroDiagram_to_objectwise_quasiIso_iff
     (G : ℝ ⥤ C4Complex) :
-    (∀ u : ℝ, HomologicalComplex.QuasiIso
+    (∀ u : ℝ, QuasiIso
       ((0 : zeroDiagram ⟶ G).app u)) ↔
     (∀ u : ℝ, (G.obj u).Acyclic) := by
   constructor
@@ -43,7 +43,7 @@ theorem zeroDiagram_to_objectwise_quasiIso_iff
     have hz : (zeroDiagram.obj u).ExactAt n := by
       change zeroComplex.ExactAt n
       exact zeroComplex_exactAt n
-    exact (HomologicalComplex.quasiIsoAt_iff_exactAt
+    exact (quasiIsoAt_iff_exactAt
       ((0 : zeroDiagram ⟶ G).app u) n hz).mp
       ((h u).quasiIsoAt n)
   · intro h u
@@ -52,7 +52,7 @@ theorem zeroDiagram_to_objectwise_quasiIso_iff
     have hz : (zeroDiagram.obj u).ExactAt n := by
       change zeroComplex.ExactAt n
       exact zeroComplex_exactAt n
-    exact (HomologicalComplex.quasiIsoAt_iff_exactAt
+    exact (quasiIsoAt_iff_exactAt
       ((0 : zeroDiagram ⟶ G).app u) n hz).mpr
       (h u n)
 
