@@ -25,10 +25,33 @@ theorem HomogeneousFamily.d_compAs_component
       (((f.d).compAs g (by omega : (p - 1) + q = r - 1)) +
        (f.compAs g.d (by omega : p + (q - 1) = r - 1))).hom n := by
   subst r
-  simp [HomogeneousFamily.d, HomogeneousFamily.compAs,
-    HomogeneousFamily.add_hom, Category.assoc,
-    Preadditive.add_comp, Preadditive.comp_add,
-    sub_eq_add_neg, add_assoc, add_comm, add_left_comm]
-  exact moduleHom_middle_cancel _ _ _
+  let A : P.X n ⟶ R.X (n + (p + q - 1)) :=
+    (P.d n (n - 1) ≫ f.hom (n - 1) ≫ g.hom (n - 1 + p)) ≫
+      eqToHom (congrArg R.X
+        (by omega : (n - 1 + p) + q = n + (p + q - 1)))
+  let B' : P.X n ⟶ R.X (n + (p + q - 1)) :=
+    (f.hom n ≫ g.hom (n + p) ≫
+      R.d (n + p + q) (n + p + q - 1)) ≫
+      eqToHom (congrArg R.X
+        (by omega : n + p + q - 1 = n + (p + q - 1)))
+  let C : P.X n ⟶ R.X (n + (p + q - 1)) :=
+    (f.hom n ≫ Q.d (n + p) (n + p - 1) ≫
+      g.hom (n + p - 1)) ≫
+      eqToHom (congrArg R.X
+        (by omega : (n + p - 1) + q = n + (p + q - 1)))
+  have lhs : ((f.compAs g rfl).d).hom n = A + B' := by
+    simp [A, B', HomogeneousFamily.d, HomogeneousFamily.compAs,
+      Category.assoc, add_assoc, sub_eq_add_neg]
+  have rhs :
+      (((f.d).compAs g (by omega : (p - 1) + q = p + q - 1)) +
+       (f.compAs g.d (by omega : p + (q - 1) = p + q - 1))).hom n =
+        (A + C) + (C + B') := by
+    simp [A, B', C, HomogeneousFamily.d, HomogeneousFamily.compAs,
+      HomogeneousFamily.add_hom, Preadditive.comp_add, Preadditive.add_comp,
+      Category.assoc, add_assoc, sub_eq_add_neg]
+  calc
+    ((f.compAs g rfl).d).hom n = A + B' := lhs
+    _ = (A + C) + (C + B') := moduleHom_middle_cancel A B' C
+    _ = _ := rhs.symm
 
 end C4
