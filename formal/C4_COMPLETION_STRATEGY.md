@@ -1,3 +1,7 @@
+## S170 certified test and C3 gap (30 October 2026)
+
+The real opposite lane is NOT assumed literally zero: `C4/NonzeroAcyclicRealLane.lean` now kernel-certifies an explicitly nonzero, objectwise acyclic entire ℝ-diagram and a genuine objectwise quasi-isomorphism from `zeroDiagram`. This **does not** yield the full shoelace quotient. At arbitrary strict e interleaving of both replacement lanes, construct a full shoelace cofibrant Q; prove crossing Q_O(u-e)→Q_F(u) cofibration in the pinned interface and a natural quotient C with full-diagram quasi-isomorphism and literal zero 2e shift. Only then feed `FiveCutExtraction` into the global arbitrary-choice obstruction. No more standalone illustrative examples as substitutes for C3.
+
 > **S169 progress:** certified full-real zero-lane acyclicity criterion, actual strict 5/2 interleaving and five-cut strict composite extraction. The missing C3 bridge is specifically the natural shoelace quotient for arbitrary BOTH-LANE weak-equivalence zigzags; S169's five-cut reduction needs the quotient-derived strict shift zero, not an assumption. C2 and C1 remain open; S170 must attack C3 and C2 directly. Lean #41046995470 and integrity #41046995461 passed source checkpoint; full metric remains uncertified.
 
 # C4 completion strategy — top-down rescue (30 October 2026)
