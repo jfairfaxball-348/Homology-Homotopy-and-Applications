@@ -51,7 +51,10 @@ theorem realShoelaceCokernel_twoShift_zero
   have hkill : ∀ u : ℝ, I.backward.app u ≫ p.app u = 0 := by
     intro u
     have h := NatTrans.congr_app (cokernel.condition I.backward) u
-    simpa [p] using h
+    simpa only [NatTrans.comp_app, NatTrans.zero_app, p] using h
+  haveI : Epi p := by
+    change Epi (cokernel.π I.backward)
+    infer_instance
   apply (cancel_epi p).mp
   apply NatTrans.ext
   funext u
@@ -65,6 +68,6 @@ theorem realShoelaceCokernel_twoShift_zero
   have ha : u + (ε + ε) = (u + ε) + ε := by ring
   rw [ha]
   rw [← I.forward_backward (u + ε)]
-  rw [Category.assoc, hkill, comp_zero]
+  rw [Category.assoc, hkill ((u + ε) + ε), comp_zero]
 
 end C4
