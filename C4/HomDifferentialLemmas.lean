@@ -32,6 +32,16 @@ theorem moduleHom_add_self_zero
     f.hom x + f.hom x = (2 : B) • f.hom x := (two_smul B _).symm
     _ = 0 := by rw [B_two_eq_zero, zero_smul]
 
+/-- Cancellation of the duplicated internal Hom-composition term.
+The identity is valid for every B-linear map between arbitrary modules,
+not just chosen regular-resolution components. -/
+theorem moduleHom_middle_cancel
+    {M N : ModuleCat B} (a b c : M ⟶ N) :
+    a + b = (a + c) + (c + b) := by
+  calc
+    a + b = (a + b) + (c + c) := by rw [moduleHom_add_self_zero, add_zero]
+    _ = (a + c) + (c + b) := by abel
+
 /-- A genuine chain map is a degree-zero cycle for the *actual* all-integer
 Hom differential. Both terms cancel because the coefficient ring is
 characteristic two, rather than from a false strict vanishing assumption. -/
