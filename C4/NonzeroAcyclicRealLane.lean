@@ -37,9 +37,9 @@ theorem acyclicIdentityDifferential_square (n : ℤ) :
     acyclicIdentityDifferential (n + 1) ≫ acyclicIdentityDifferential n = 0 := by
   by_cases hn : n % 2 = 0
   · have hn1 : (n + 1) % 2 ≠ 0 := by omega
-    simp [acyclicIdentityDifferential, hn, hn1]
+    simp [acyclicIdentityDifferential, hn, hn1, zero_comp]
   · have hn1 : (n + 1) % 2 = 0 := by omega
-    simp [acyclicIdentityDifferential, hn, hn1]
+    simp [acyclicIdentityDifferential, hn, hn1, comp_zero]
 
 /-- The two-sided unbounded alternating identity/zero complex. -/
 def acyclicIdentityComplex : C4Complex :=
@@ -58,7 +58,11 @@ private theorem acyclicIdentity_sc_g (n : ℤ) :
     (acyclicIdentityComplex.sc' (n + 1) n (n - 1)).g =
       acyclicIdentityDifferential (n - 1) := by
   change ChainComplex.of.d acyclicIdentityObject acyclicIdentityDifferential n (n - 1) = _
-  simp [ChainComplex.of.d, show n = (n - 1) + 1 by omega]
+  have hn : (n - 1) + 1 = n := by omega
+  conv_lhs =>
+    arg 3
+    rw [← hn]
+  rw [ChainComplex.of_d]
 
 /-- The complex is exact in every integer degree, including all negative
 ones: at each degree exactly one incident differential is the identity. -/
@@ -66,18 +70,18 @@ theorem acyclicIdentityComplex_exactAt (n : ℤ) :
     acyclicIdentityComplex.ExactAt n := by
   apply (acyclicIdentityComplex.exactAt_iff'
     (i := n + 1) (j := n) (k := n - 1)
-    (by simp [ChainComplex.prev]; omega)
-    (by simp [ChainComplex.next]; omega)).2
+    (by simp [ChainComplex.prev])
+    (by simp [ChainComplex.next])).2
   apply (ShortComplex.moduleCat_exact_iff _).2
   intro x hx
   rw [acyclicIdentity_sc_g] at hx
   by_cases hn : n % 2 = 0
   · refine ⟨x, ?_⟩
     rw [acyclicIdentity_sc_f]
-    simp [acyclicIdentityDifferential, hn]
+    simpa only [acyclicIdentityDifferential, if_pos hn, ConcreteCategory.hom_id, id_eq]
   · have hprev : (n - 1) % 2 = 0 := by omega
     have hx0 : x = 0 := by
-      simpa [acyclicIdentityDifferential, hprev] using hx
+      simpa only [acyclicIdentityDifferential, if_pos hprev, ConcreteCategory.hom_id, id_eq] using hx
     refine ⟨0, ?_⟩
     rw [acyclicIdentity_sc_f]
     simp [acyclicIdentityDifferential, hn, hx0]
