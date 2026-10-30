@@ -26,7 +26,7 @@ private instance : Nontrivial B := by
   decide
 
 /-- A copy of the nonzero free rank-one B-module in every integer degree. -/
-def acyclicIdentityObject (_ : ℤ) : ModuleCat B := ModuleCat.of B B
+abbrev acyclicIdentityObject (_ : ℤ) : ModuleCat B := ModuleCat.of B B
 
 /-- A genuine all-integer differential, alternating identity and zero. -/
 def acyclicIdentityDifferential (n : ℤ) :
@@ -37,11 +37,9 @@ theorem acyclicIdentityDifferential_square (n : ℤ) :
     acyclicIdentityDifferential (n + 1) ≫ acyclicIdentityDifferential n = 0 := by
   by_cases hn : n % 2 = 0
   · have hn1 : (n + 1) % 2 ≠ 0 := by omega
-    simp [acyclicIdentityDifferential, hn, hn1]
-    rw [Category.comp_id]
+    simp [acyclicIdentityDifferential, hn, hn1, acyclicIdentityObject]
   · have hn1 : (n + 1) % 2 = 0 := by omega
-    simp [acyclicIdentityDifferential, hn, hn1]
-    rw [Category.id_comp]
+    simp [acyclicIdentityDifferential, hn, hn1, acyclicIdentityObject]
 
 /-- The two-sided unbounded alternating identity/zero complex. -/
 def acyclicIdentityComplex : C4Complex :=
@@ -60,8 +58,8 @@ private theorem acyclicIdentity_sc_g (n : ℤ) :
     (acyclicIdentityComplex.sc' (n + 1) n (n - 1)).g =
       acyclicIdentityDifferential (n - 1) := by
   change ChainComplex.of.d acyclicIdentityObject acyclicIdentityDifferential n (n - 1) = _
-  simpa only [show (n - 1) + 1 = n by omega] using
-    (ChainComplex.of_d acyclicIdentityObject acyclicIdentityDifferential (n - 1))
+  convert (ChainComplex.of_d acyclicIdentityObject acyclicIdentityDifferential
+    (n - 1)) using 1 <;> omega
 
 /-- The complex is exact in every integer degree, including all negative
 ones: at each degree exactly one incident differential is the identity. -/
@@ -77,10 +75,10 @@ theorem acyclicIdentityComplex_exactAt (n : ℤ) :
   by_cases hn : n % 2 = 0
   · refine ⟨x, ?_⟩
     rw [acyclicIdentity_sc_f]
-    simpa [acyclicIdentityDifferential, hn, ModuleCat.hom_id]
+    simpa [acyclicIdentityDifferential, hn, acyclicIdentityObject, ModuleCat.hom_id]
   · have hprev : (n - 1) % 2 = 0 := by omega
     have hx0 : x = 0 := by
-      simpa [acyclicIdentityDifferential, hprev, ModuleCat.hom_id] using hx
+      simpa [acyclicIdentityDifferential, hprev, acyclicIdentityObject, ModuleCat.hom_id] using hx
     refine ⟨0, ?_⟩
     rw [acyclicIdentity_sc_f]
     simp [acyclicIdentityDifferential, hn, hx0]
