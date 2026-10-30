@@ -52,8 +52,10 @@ theorem HomogeneousFamily.d_ofChainMap_component
   have h₂ : n + (0 : ℤ) = n := by omega
   have h₃ : n + (0 : ℤ) - 1 = n - 1 := by omega
   have h₄ : n + ((0 : ℤ) - 1) = n - 1 := by omega
-  simpa [HomogeneousFamily.d, HomogeneousFamily.ofChainMap,
-    h₁, h₂, h₃, h₄, f.comm n (n - 1), Category.assoc] using
-      (moduleHom_add_self_zero (f.f n ≫ Q.d n (n - 1)))
+  dsimp only [HomogeneousFamily.d, HomogeneousFamily.ofChainMap]
+  rw [h₁, h₂, h₃, h₄]
+  simp only [eqToHom_refl, Category.comp_id, Category.id_comp]
+  rw [f.comm n (n - 1)]
+  exact moduleHom_add_self_zero _
 
 end C4
