@@ -35,3 +35,5 @@ public import C4.StrictRealInterleaving
 public import C4.FiveCutExtraction
 
 public import C4.NonzeroAcyclicRealLane
+
+public import C4.RealShoelaceCokernel
