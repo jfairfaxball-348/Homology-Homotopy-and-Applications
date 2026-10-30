@@ -69,18 +69,19 @@ theorem realShoelaceCokernel_twoShift_zero
   have hzero_general (v : ℝ) (hv : v = (u + ε) + ε) :
       F.map (homOfLE (show u + ε ≤ v + ε by linarith)) ≫ p.app v = 0 := by
     subst v
+    let a : F.obj (u + ε) ⟶ G.obj ((u + ε) + ε) :=
+      I.forward.app (u + ε)
+    let b : G.obj ((u + ε) + ε) ⟶ F.obj (((u + ε) + ε) + ε) :=
+      I.backward.app ((u + ε) + ε)
+    let c : F.obj (((u + ε) + ε) + ε) ⟶
+        (realShoelaceCokernel I).obj ((u + ε) + ε) :=
+      p.app ((u + ε) + ε)
+    have hbc : b ≫ c = 0 := hkill ((u + ε) + ε)
+    have habc : (a ≫ b) ≫ c = 0 := by
+      rw [Category.assoc, hbc, comp_zero]
     have hzero :
         (I.forward.app (u + ε) ≫ I.backward.app ((u + ε) + ε)) ≫
-          p.app ((u + ε) + ε) = 0 := by
-      calc
-        (I.forward.app (u + ε) ≫ I.backward.app ((u + ε) + ε)) ≫
-            p.app ((u + ε) + ε) =
-          I.forward.app (u + ε) ≫
-            (I.backward.app ((u + ε) + ε) ≫ p.app ((u + ε) + ε)) :=
-              Category.assoc _ _ _
-        _ = I.forward.app (u + ε) ≫ 0 := by
-          rw [hkill ((u + ε) + ε)]
-        _ = 0 := by simp
+          p.app ((u + ε) + ε) = 0 := habc
     rw [I.forward_backward (u + ε)] at hzero
     exact hzero
   exact hzero_general (u + (ε + ε)) (by ring)
