@@ -76,12 +76,13 @@ theorem acyclicIdentityComplex_exactAt (n : ℤ) :
   by_cases hn : n % 2 = 0
   · refine ⟨x, ?_⟩
     rw [acyclicIdentity_sc_f]
-    simpa [acyclicIdentityDifferential, hn, acyclicIdentityObject,
-      ModuleCat.id_apply]
+    simp [acyclicIdentityDifferential, hn]
+    rfl
   · have hprev : (n - 1) % 2 = 0 := by omega
     have hx0 : x = 0 := by
-      simpa [acyclicIdentityDifferential, hprev, acyclicIdentityObject,
-        ModuleCat.id_apply] using hx
+      simp [acyclicIdentityDifferential, hprev] at hx
+      change x = 0 at hx
+      exact hx
     refine ⟨0, ?_⟩
     rw [acyclicIdentity_sc_f]
     simp [acyclicIdentityDifferential, hn, hx0]
