@@ -31,4 +31,18 @@ theorem moduleHom_add_self_zero
     f.hom x + f.hom x = (2 : B) • f.hom x := (two_smul B _).symm
     _ = 0 := by rw [B_two_eq_zero, zero_smul]
 
+/-- A genuine chain map is a degree-zero cycle for the *actual* all-integer
+Hom differential. Both terms cancel because the coefficient ring is
+characteristic two, rather than from a false strict vanishing assumption. -/
+theorem HomogeneousFamily.d_ofChainMap_component
+    {P Q : C4Complex} (f : P ⟶ Q) (n : ℤ) :
+    ((HomogeneousFamily.ofChainMap f).d).hom n = 0 := by
+  have hn : n + (0 : ℤ) = n := by omega
+  have hj : (n - 1) + (0 : ℤ) = n - 1 := by omega
+  have hk : n + ((0 : ℤ) - 1) = n - 1 := by omega
+  simpa [HomogeneousFamily.d, HomogeneousFamily.ofChainMap,
+    hn, hj, hk, Category.assoc, f.comm n (n - 1)] using
+      (moduleHom_add_self_zero (f.f n ≫ Q.d n (n - 1)))
+
+
 end C4
