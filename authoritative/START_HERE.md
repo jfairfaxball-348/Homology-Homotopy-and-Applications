@@ -1,3 +1,9 @@
+## S172 — certified unbounded quotient quasi-isomorphism and whole-real conditional projection (30 October 2026)
+
+Pinned source `abcb591f53646b73903687f1ecfa7c723f9037ff`, full OptionD+C4 Lean #41131166960 and integrity #41131166873 SUCCESS. In `C4/AcyclicCokernelQuasiIso.lean`, `quasiIso_cokernel_of_acyclic_mono` proves the honest all-integer homology QuasiIso of an acyclic mono cokernel projection; `realShoelaceCokernel_projection_objectwise_quasiIso` lifts to **every real parameter** for a whole-real interleaving **only if** the opposite lane is acyclic AND backward crossings are pointwise monic. Arbitrary both-lane projectively-cofibrant shoelace replacement supplying monic crossings remains UNSOLVED, as do C1/C2 and exact numerical metrics. S173 future handoff installed; no publication or external action.
+
+---
+
 ## S171 certified all-real natural shoelace quotient (30 October 2026)
 
 Source `1f41ee9e64a917d6baeab111be9dc89af9e8bf88` passed full pinned Lean #41127860267 and integrity #41127860273. `C4/RealShoelaceCokernel.lean` constructs the natural cokernel of the entire-real backwards crossing of ANY strict interleaving and proves the quotient's whole-real two-ε shift is literally zero, WITHOUT assuming the opposite lane is the zero diagram. **Still OPEN:** full-real arbitrary both-lane cofibrant shoelace resolution and quotient projection quasi-isomorphism, C1 transfer, C2 derived cone, full exact metric result. See S171 and future S172 handoff.
