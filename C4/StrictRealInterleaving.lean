@@ -44,7 +44,10 @@ def strictZeroInterleavingOfVanishing
   forward_backward := by
     intro u
     have hu := hvanish u
-    simpa using hu.symm
+    change (0 : F.obj u ⟶ zeroComplex) ≫
+      (0 : zeroComplex ⟶ F.obj ((u + ε) + ε)) = F.map _
+    rw [zero_comp]
+    exact hu.symm
   backward_forward := by
     intro u
     have hz : IsZero (zeroDiagram.obj u) := by
@@ -56,7 +59,7 @@ def strictZeroInterleavingOfVanishing
 zero diagram at epsilon 5/2. This is the necessary strict-metric upper
 witness (and remains allowed when replacement zigzags are permitted).
 The strict lower bound and infimum metric definitions are separate. -/
-def realDiagram_strictInterleavingZero_fiveHalves :
+noncomputable def realDiagram_strictInterleavingZero_fiveHalves :
     StrictRealInterleaving realDiagram zeroDiagram (5 / 2 : ℝ) (by norm_num) :=
   strictZeroInterleavingOfVanishing realDiagram (5 / 2 : ℝ) (by norm_num) (by
     intro u
