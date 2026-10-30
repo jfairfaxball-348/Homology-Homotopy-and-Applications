@@ -1,3 +1,9 @@
+# Current C4 execution protocol — 30 October 2026
+
+For C4, `formal/C4_COMPLETION_STRATEGY.md` and the S169 prompt supersede the historical one-small-lemma execution ordering below. Probe high-risk categorical bridges immediately; maintain a compact typed contract ledger; continue substantive proof batches within owner-authorised active conversations without routine stop gates. Retain full pinned Lean+OptionD/integrity/handoff validation, ordinary two-parent PR merges and independent merged-main CI. Do not repeat archival dossiers for every scratch test. S169 is still FUTURE, UNEXECUTED; all external-release gates remain separately controlled.
+
+---
+
 # Current execution override — 29 October 2026
 
 The owner has authorised continuous C4 formalisation and review in the active conversation. Numbered checkpoints preserve evidence; they must not be used to stop after a small lemma and demand another owner invocation. Continue across routine checkpoints and verified ordinary merges. Report genuine blockers concretely. The full metric theorem may not be marked complete from the algebraic obstruction or a green build. Read `formal/C4_COMPLETION_REVIEW.md`. Older separate-invocation rules below apply only where not superseded by this active owner instruction. External actions remain separately controlled.

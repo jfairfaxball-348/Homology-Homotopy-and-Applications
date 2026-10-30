@@ -1,3 +1,14 @@
+# ACTIVE TOP-DOWN C4 ROADMAP — 30 October 2026
+
+S168 remains complete; S169 FUTURE, UNEXECUTED. Full numerical theorem STILL OPEN. [Critical-path rescue strategy](../formal/C4_COMPLETION_STRATEGY.md) governs execution ordering, overriding historical one-lemma sequences:
+
+1. Early real-Lean feasibility tests of **C3 whole-real BOTH-lane shoelace/acyclic quotient** and **C2 complete quiver-cone derived two-shift/real localisation**, before lengthy further cast repairs. Do not rely on unavailable unbounded model-category instances without proving replacements.
+2. In parallel factor S168 indexed casts through reusable pinned Mathlib transport/naturality when possible; prove actual graded Leibniz, BOTH transferred secondary coherences and tertiary pullback (C1).
+3. Define honest C4 metric and coefficient presentation APIs, combine C1/C2/C3 and existing certified C0; build **one exact all-real both-lane numerical theorem**, not a surrogate.
+4. Proof batches may span many lemmas. Preserve substantive CI/merge evidence while keeping a compact living blocker ledger. No alternate projects, external screening or publication activity.
+
+---
+
 # S168 checkpoint
 
 Proof progress: categorical characteristic-two cancellation and two genuine homogeneous composition distributivities. Next: typed graded Hom Leibniz with explicit equality casts; identify S165 transferred primaries; prove BOTH secondary replacement coherences; tertiary pullback; whole-real BOTH-lane metrics. No alternate targets, novelty or external gates.
