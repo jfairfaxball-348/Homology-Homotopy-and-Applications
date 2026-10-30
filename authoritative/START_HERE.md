@@ -1,3 +1,5 @@
+> **S169 verified checkpoint (30 October 2026).** Genuine whole-real strict 5/2 interleaving witness, five-cut stage correctness/strict square-zero reduction, and arbitrary full-real acyclic opposite-lane quasi-isomorphism criterion compiled on pinned Lean #41046995470. **NOT the full theorem:** derived two-shift/equality, arbitrary both-lane shoelace natural quotient and lower strict bound remain open. S170 is FUTURE, UNEXECUTED. See `sessions/S169/PROOF.md` and `authoritative/NEXT_SESSION_PROMPT.md`.
+
 # Process reorientation (30 October 2026; not a proof session)
 
 S168 is last completed; S169 remains FUTURE, UNEXECUTED. The full-real both-lane C4 metric theorem is **still UNPROVED**. The owner has directed a top-down critical-path completion strategy: immediately probe both-lane real shoelace/acyclic quotient and derived quiver-cone/localisation machinery; repair the graded Hom casts once in parallel, then close genuine secondary/tertiary transfer. Read `formal/C4_COMPLETION_STRATEGY.md` and `authoritative/NEXT_SESSION_PROMPT.md`. No new Lean proof, theorem claim or external action is implied by this administrative revision.

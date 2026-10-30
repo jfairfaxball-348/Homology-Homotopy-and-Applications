@@ -30,3 +30,6 @@ public import C4.HomogeneousCoherence
 public import C4.SecondaryTransferCandidates
 public import C4.HomDifferentialLemmas
 public import C4.HomogeneousDistributivity
+public import C4.AcyclicRealReplacement
+public import C4.StrictRealInterleaving
+public import C4.FiveCutExtraction
