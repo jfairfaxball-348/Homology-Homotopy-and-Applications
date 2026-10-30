@@ -25,6 +25,7 @@ two, including morphisms of arbitrary (not necessarily free) B-modules. -/
 theorem moduleHom_add_self_zero
     {M N : ModuleCat B} (f : M ⟶ N) : f + f = 0 := by
   apply ModuleCat.hom_ext
+  apply LinearMap.ext
   intro x
   change f.hom x + f.hom x = (0 : N)
   calc
