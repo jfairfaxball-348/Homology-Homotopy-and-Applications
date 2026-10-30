@@ -1,3 +1,15 @@
+# BINDING C4 EXECUTION OVERRIDE — 30 October 2026: top-down proof rescue
+
+This is a **documentation-only process change**; S168 remains completed, S169 FUTURE, UNEXECUTED, and the complete numerical C4 theorem remains NOT Lean-certified. Read `formal/C4_COMPLETION_STRATEGY.md` and `authoritative/NEXT_SESSION_PROMPT.md` before historical instructions below.
+
+**Optimise for complete theorem.** Preserve exact all-real five-stage and BOTH-lane arbitrary quasi-isomorphism quantifiers. Work backwards from the final faithful metric theorem. Test the largest missing categorical contracts — full-real shoelace/acyclic-lane quotient and free-quiver cone/derived localisation — EARLY, in executable Lean, alongside higher homotopy transfer. Do not polish further coefficient or cast helpers without a dependency justification.
+
+The repeated S149–S168 `eqToHom` difficulty is a representation warning: test pinned Mathlib `DifferentialObject.objEqToHom` / `objEqToHom_d` and `HomologicalComplex.d_eqToHom` or a data-preserving normalisation, then prove a **reusable** index-coherence bridge. These helpers are candidates, not previously verified solutions. One-helper passes and routine merges are not stop conditions within an actively owner-authorised completion run. Keep a concise technical blocker ledger instead of repeated long status dossiers.
+
+Use targeted Lean during investigation but full pinned C4+OptionD builds and integrity/handoff checks before promotion, ordinary two-parent PR merge, independent exact-head/main CI, truthful proof/axiom reporting. Never invent completion, weaken the frozen statement or use `sorry`/`admit`/custom axioms. No OptionD development, target search, novelty/fit/prior-art/outside review, Palomar, arXiv/HHA submission, public release or contact without separate owner authorization. Historical entries below are archival wherever superseded.
+
+---
+
 # Current C4 execution — 29 October 2026, S166 certified checkpoint
 
 S166 proves on actual arbitrary five-object chain complexes the typed primary/secondary defining-system interface and constructs it from every C4 GlobalFourfoldDefiningSystem. It proves `GlobalFourfoldDefiningSystem.no_tertiary_filler` for **every** original global system: no degree-three family satisfying all component equations can fill its terminal. This derives from the genuine S164 arbitrary-global nonboundary proof; no new assumption. Pinned source PR Lean #40972496033 and integrity #40972496125 SUCCESS on 8f53f2ec1a82e5551dfd6c1e7afe4010f70ebaa3.

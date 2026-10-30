@@ -1,3 +1,9 @@
+# C4 critical-path rescue — 30 October 2026
+
+See [top-down completion strategy](C4_COMPLETION_STRATEGY.md). Full numerical all-real both-lane Lean theorem OPEN, S169 FUTURE, UNEXECUTED. Prioritise feasibility of whole-real two-lane quotient and derived cone/localisation alongside transfer/cast repair, not the next isolated helper only.
+
+---
+
 # Formal verification
 
 Current active target: the frozen C4 whole-real quantitative theorem. Full formalisation is incomplete.

@@ -1,3 +1,11 @@
+# CURRENT C4 IMPLEMENTATION ORDER — 30 October 2026
+
+Read [top-down completion strategy](C4_COMPLETION_STRATEGY.md) and [S169 executable prompt](../authoritative/NEXT_SESSION_PROMPT.md) before the historical incremental plan below. **The full frozen C4 metric theorem remains OPEN.** This changes proof *order*, not theorem scope or certified status: immediate risk probes for whole-real both-lane acyclic quotient (C3) and full derived quiver/real comparison (C2); parallel reuse/repair of S168 dependent casts and both secondary transfers plus tertiary pullback (C1); faithful metric API, presentation and full theorem (C4). Reuse certified C0.
+
+Test actual pinned Mathlib differential-object shift-cast lemmas before large representation edits; do not assume they solve existing goals. Prefer a small checked purpose-built algebraic categorical bridge to attempting a general new model-category library. Keep precise obligation statuses, target Lean compilations during experiments, and full pinned build + ordinary two-parent merge + independent CI before promotion. A helper lemma is not an automatic stop gate.
+
+---
+
 # S168 verified infrastructure update
 
 Characteristic-two cancellation on arbitrary ModuleCat B and both all-integer composition distributivity directions are certified. The **graded differential Leibniz and both replacement-side secondary coherences remain OPEN**; the dependent-cast diagnostic and precise next steps are archived under sessions/S168 and NEXT_SESSION_PROMPT.md. Frozen full-real metric theorem remains unproved.

@@ -1,3 +1,9 @@
+# Process reorientation (30 October 2026; not a proof session)
+
+S168 is last completed; S169 remains FUTURE, UNEXECUTED. The full-real both-lane C4 metric theorem is **still UNPROVED**. The owner has directed a top-down critical-path completion strategy: immediately probe both-lane real shoelace/acyclic quotient and derived quiver-cone/localisation machinery; repair the graded Hom casts once in parallel, then close genuine secondary/tertiary transfer. Read `formal/C4_COMPLETION_STRATEGY.md` and `authoritative/NEXT_SESSION_PROMPT.md`. No new Lean proof, theorem claim or external action is implied by this administrative revision.
+
+---
+
 # S168 verified partial proof checkpoint (30 October 2026)
 
 The exact frozen first-paper theorem is **still NOT proved in Lean**. S168 builds genuine characteristic-two cancellation for arbitrary B-linear module morphisms and true all-integer homogeneous composition distributivity on both inputs. The explicit graded Hom differential Leibniz and a degree-zero-cycle proof remain **unproved** because indexed `eqToHom` transports did not normalize; failed attempts were not imported or promoted. See `sessions/S168/LEIBNIZ_DIAGNOSTIC.md`.
