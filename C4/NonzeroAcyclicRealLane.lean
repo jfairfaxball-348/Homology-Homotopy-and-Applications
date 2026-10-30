@@ -58,8 +58,9 @@ private theorem acyclicIdentity_sc_g (n : ℤ) :
     (acyclicIdentityComplex.sc' (n + 1) n (n - 1)).g =
       acyclicIdentityDifferential (n - 1) := by
   change ChainComplex.of.d acyclicIdentityObject acyclicIdentityDifferential n (n - 1) = _
-  convert (ChainComplex.of_d acyclicIdentityObject acyclicIdentityDifferential
-    (n - 1)) using 1 <;> omega
+  have h := ChainComplex.of_d acyclicIdentityObject acyclicIdentityDifferential (n - 1)
+  rw [show (n - 1) + 1 = n by omega] at h
+  exact h
 
 /-- The complex is exact in every integer degree, including all negative
 ones: at each degree exactly one incident differential is the identity. -/
@@ -75,10 +76,12 @@ theorem acyclicIdentityComplex_exactAt (n : ℤ) :
   by_cases hn : n % 2 = 0
   · refine ⟨x, ?_⟩
     rw [acyclicIdentity_sc_f]
-    simpa [acyclicIdentityDifferential, hn, acyclicIdentityObject, ModuleCat.hom_id]
+    simpa [acyclicIdentityDifferential, hn, acyclicIdentityObject,
+      ModuleCat.id_apply]
   · have hprev : (n - 1) % 2 = 0 := by omega
     have hx0 : x = 0 := by
-      simpa [acyclicIdentityDifferential, hprev, acyclicIdentityObject, ModuleCat.hom_id] using hx
+      simpa [acyclicIdentityDifferential, hprev, acyclicIdentityObject,
+        ModuleCat.id_apply] using hx
     refine ⟨0, ?_⟩
     rw [acyclicIdentity_sc_f]
     simp [acyclicIdentityDifferential, hn, hx0]
