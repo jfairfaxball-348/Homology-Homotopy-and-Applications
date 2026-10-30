@@ -28,3 +28,4 @@ public import C4.SecondaryTransferAlgebra
 public import C4.HomogeneousFamily
 public import C4.HomogeneousCoherence
 public import C4.SecondaryTransferCandidates
+public import C4.HomDifferentialLemmas
