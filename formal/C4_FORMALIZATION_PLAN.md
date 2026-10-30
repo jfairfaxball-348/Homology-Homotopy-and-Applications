@@ -1,3 +1,8 @@
+# S168 verified infrastructure update
+
+Characteristic-two cancellation on arbitrary ModuleCat B and both all-integer composition distributivity directions are certified. The **graded differential Leibniz and both replacement-side secondary coherences remain OPEN**; the dependent-cast diagnostic and precise next steps are archived under sessions/S168 and NEXT_SESSION_PROMPT.md. Frozen full-real metric theorem remains unproved.
+
+---
 # S167 status overlay (29 October 2026)
 
 The true all-integer replacement-side secondary Z03 and Z14 **candidate families** and ordered algebraic correction identity are now Lean-compiled. This is not a proof that their actual differentials agree with S165 transported primaries. The remaining first dependency is the true homogeneous Hom differential Leibniz identity and those two genuine transferred coherence equations, followed by tertiary pullback, derived cone/real comparison, arbitrary BOTH-lane replacements and exact metric definitions/bounds. The frozen theorem is **not** certified. See `sessions/S167/PROOF.md` and `authoritative/NEXT_SESSION_PROMPT.md`.

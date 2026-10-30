@@ -1,0 +1,7 @@
+# S168 — characteristic-two categorical cancellation and additive homogeneous composition
+
+Entry main `199a2d29681f8eb970cbd37bbcbe5036ab035642`, S167 ordinary two-parent merge, independent merged-main pinned Lean #40975482108 SUCCESS and integrity #40975482120 SUCCESS.
+
+**New formal declarations:** `C4.B_two_eq_zero`, `C4.moduleHom_add_self_zero` prove characteristic-two additive cancellation on all genuine ModuleCat B maps; `C4.moduleHom_middle_cancel` proves the exact duplicated-middle-term equation required by the Leibniz formula. `C4/HomogeneousDistributivity.lean` proves BOTH `HomogeneousFamily.compAs_add_left_component` and `compAs_add_right_component` for all integer degrees and arbitrary C4 complexes, including explicit target equality casts.
+
+The graded Leibniz theorem `HomogeneousFamily.d_compAs_component` remains **OPEN**: repeated exact Mathlib compiles found genuine dependent `eqToHom` cast mismatches between two differently parenthesised intermediate integer shifts and the two copies of the middle term. A separate degree-zero-cycle attempt was also blocked by dependent casts. These failed sources were removed from the trusted C4 import graph and the graded source is copied verbatim to `sessions/S168/LEIBNIZ_DIAGNOSTIC.md`. No unproved theorem was replaced with an assumption or asserted as certified. The whole original C4 no-tertiary-filler remains certified from S166; no transferred secondary coherence, tertiary pullback, or numerical metric theorem is certified.
