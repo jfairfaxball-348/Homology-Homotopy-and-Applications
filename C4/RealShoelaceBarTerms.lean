@@ -95,13 +95,26 @@ theorem realShoelaceBarTermInclusion_retraction
   intro x
   rcases i with ⟨n, σ⟩
   change
-    (realShoelaceBarTermProjection D hpq k).hom
-      ((realShoelaceBarTermInclusion D hpq k).hom
-        ((DirectSum.lof B (RealShoelaceBarIndex p)
-          (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ))) ⟨n, σ⟩) x)) =
-      (DirectSum.lof B (RealShoelaceBarIndex p)
-        (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ))) ⟨n, σ⟩) x
-  simp [realShoelaceBarTermInclusion, realShoelaceBarTermProjection,
-    realShoelaceBarInclusion]
+    (DirectSum.toModule B (RealShoelaceBarIndex q)
+      (DirectSum (RealShoelaceBarIndex p)
+        (fun j => (D.obj j.2.first).X (k - (j.1 : ℤ))))
+      (fun j => if h : j.2.vertex (Fin.last j.1) ≤ p then
+        DirectSum.lof B (RealShoelaceBarIndex p)
+          (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ)))
+          ⟨j.1, ⟨j.2.vertex, j.2.ordered, h⟩⟩ else 0))
+    ((DirectSum.toModule B (RealShoelaceBarIndex p)
+      (DirectSum (RealShoelaceBarIndex q)
+        (fun j => (D.obj j.2.first).X (k - (j.1 : ℤ))))
+      (fun i => DirectSum.lof B (RealShoelaceBarIndex q)
+        (fun j => (D.obj j.2.first).X (k - (j.1 : ℤ)))
+        ⟨i.1, realShoelaceBarInclusion hpq i.2⟩))
+      ((DirectSum.lof B (RealShoelaceBarIndex p)
+        (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ)))
+        ⟨n, σ⟩) x)) =
+    (DirectSum.lof B (RealShoelaceBarIndex p)
+      (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ)))
+      ⟨n, σ⟩) x
+  simp only [DirectSum.toModule_lof]
+  simp [realShoelaceBarInclusion, σ.last_le]
 
 end C4
