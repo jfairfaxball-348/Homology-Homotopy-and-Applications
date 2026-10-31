@@ -38,3 +38,5 @@ public import C4.NonzeroAcyclicRealLane
 
 public import C4.RealShoelaceCokernel
 public import C4.AcyclicCokernelQuasiIso
+public import C4.RealShoelacePoset
+public import C4.RealShoelaceInterpretation

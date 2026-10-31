@@ -1,3 +1,9 @@
+## S173 — genuine two-lane full-real shoelace preorder compiled; bar resolution not yet proved (31 October 2026)
+
+Pinned OptionD+C4 Lean #41183206087 and integrity #41183206031 SUCCESS at source `80150b0cb72002688fc2c0212112b81d3da82d20` certifies `C4/RealShoelacePoset.lean` with real-lane and crossing order composition and left/right inclusions. `C4/RealShoelaceInterpretation.lean` is the corresponding arbitrary-diagram-to-strict-interleaving interface: verify its independent final Lean evidence from `sessions/S173/BUILD.md` before treating it as compiled. A new algebraic full-poset bar replacement was worked out in `formal/C4_SHOELACE_BAR_CONSTRUCTION.md`; its direct-sum total, augmentations, monic arrows, and objectwise quasi-isomorphism have **NOT** been constructed in Lean. It is a promising replacement for the missing projective model instance, not a completed bridge. Full all-real both-lane strict lower bound and exact metrics remain OPEN. Future S174 prompt installed, no external actions.
+
+---
+
 ## S172 — certified unbounded quotient quasi-isomorphism and whole-real conditional projection (30 October 2026)
 
 Pinned source `abcb591f53646b73903687f1ecfa7c723f9037ff`, full OptionD+C4 Lean #41131166960 and integrity #41131166873 SUCCESS. In `C4/AcyclicCokernelQuasiIso.lean`, `quasiIso_cokernel_of_acyclic_mono` proves the honest all-integer homology QuasiIso of an acyclic mono cokernel projection; `realShoelaceCokernel_projection_objectwise_quasiIso` lifts to **every real parameter** for a whole-real interleaving **only if** the opposite lane is acyclic AND backward crossings are pointwise monic. Arbitrary both-lane projectively-cofibrant shoelace replacement supplying monic crossings remains UNSOLVED, as do C1/C2 and exact numerical metrics. S173 future handoff installed; no publication or external action.

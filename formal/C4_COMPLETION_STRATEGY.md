@@ -1,3 +1,9 @@
+## S173 direct algebraic escape from missing projective model structure (31 October 2026)
+
+The actual two-lane shoelace *preorder* with entire-real inclusions kernel-compiled at `80150b0cb72002688fc2c0212112b81d3da82d20`. **New candidate, not Lean-proved:** `formal/C4_SHOELACE_BAR_CONSTRUCTION.md` gives a concrete unnormalised characteristic-two direct-sum bar functor on the entire poset, whose arrows are degreewise inclusions and whose augmentation contracts objectwise by appending the terminal point. Since the S172 quotient needs only monic backwards crossings and acyclic opposite lane, **projective cofibrancy is not a necessary hypothesis for this algebraic route**. The real next burden is Lean implementation and proof of the bar differential, functoriality, augmentation quasi-isomorphism and monic arrows, plus conversion from arbitrary strict interleaving to a full-poset functor. Do not mistake the mathematical formula for a certified theorem. Apply S172/S171/S169 immediately on certification, then finish C1/C2 and frozen metrics; no toy examples or more cast sessions.
+
+---
+
 ## S172 completed categorical quotient bridge (30 October 2026)
 
 The honest monic acyclic-source cokernel projection is `QuasiIso` by the long exact homology sequence, and the whole-real pointwise evaluation comparison is certified under explicitly monic crossings (source `abcb591f53646b73903687f1ecfa7c723f9037ff`, Lean #41131166960, integrity #41131166873). Neither hypothesis follows automatically from an arbitrary strict interleaving. **Do not repeat these two proofs.** Next direct C3 dependency is a genuine whole-real **shoelace-poset** replacement of arbitrary weak-equivalence zigzags on BOTH lanes supplying monic crossings; no pinned projective model instance is synthesized. The full strict lower bound, C1/C2, exact metrics remain open. See S173 prompt.

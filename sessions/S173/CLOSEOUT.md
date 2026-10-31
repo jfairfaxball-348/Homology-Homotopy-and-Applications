@@ -1,0 +1,9 @@
+# S173 CLOSEOUT — real shoelace index category; full bar replacement OPEN
+
+S173 isolated and cold-compiled the actual two-lane full-real shoelace preorder, instead of repeating local acyclic quotient lemmas. The new `formal/C4_SHOELACE_BAR_CONSTRUCTION.md` gives a candidate **explicit algebraic bar substitute** that needs only degreewise-monic real structure maps and objectwise quasi-isomorphism, avoiding the missing projective model instance; its total-complex implementation and proof remain open. The interpretation module also passed full pinned Lean at source `c02cd3d9a13e9c5fa68dfc5aa30176c016cd046a`, run #41183644816; it recovers strict real interleaving from an arbitrary full-poset functor and applies the conditional S172 quotient. The eventual PR-head and merged-main CI results must still be verified independently against live GitHub, not inferred from this authored file.
+
+The frozen first-paper numerical theorem `dCohI=1/2 < dIHC=1 < 5/4≤dHI≤5/2` is **NOT Lean-proved**. Outstanding critical path: complete both directions of strict interleaving/shoelace correspondence, implement/certify the entire-poset bar replacement and natural quasi-isomorphism with mono crossings, feed S172 quotient/S171 zero-shift/S169 five cuts into C1 transfer; C2 free-quiver derived comparison and C4 metrics remain open. No weakened quantifier, literal-zero opposite-lane shortcut, new custom axiom, external review, registry or submission.
+
+## NEXT_SESSION_HANDOFF
+
+**S174 (FUTURE, UNEXECUTED).** Canonical `authoritative/NEXT_SESSION_PROMPT.md`. A fresh separate owner instruction is mandatory. Implement the **actual** full-poset direct-sum bar chain replacement and prove its augmentation objectwise quasi-isomorphic and its arrows monic; use it on BOTH entire-real lanes. Do not execute S174 in this S173 session, do not return to toy examples or arbitrary cast helpers, and do not perform any unauthorised publication or external contact.
