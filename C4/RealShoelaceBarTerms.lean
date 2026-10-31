@@ -75,4 +75,26 @@ noncomputable def realShoelaceBarTermProjection
       ⟨n, ⟨σ.vertex, σ.ordered, h⟩⟩
   · exact 0
 
+
+/-- At every integer degree and for every entire-real shoelace arrow,
+the projection of summands back to the smaller endpoint retracts the
+canonical coefficient-level inclusion.  This certifies a split
+monomorphism of underlying graded B-modules (not yet of complexes). -/
+theorem realShoelaceBarTermInclusion_retraction
+    {ε : ℝ} {hε : 0 ≤ ε}
+    (D : RealShoelacePoint ε hε ⥤ C4Complex)
+    {p q : RealShoelacePoint ε hε} (hpq : p ≤ q)
+    (k : ℤ) :
+    realShoelaceBarTermInclusion D hpq k ≫
+      realShoelaceBarTermProjection D hpq k = 𝟙 _ := by
+  classical
+  apply ModuleCat.hom_ext
+  apply DirectSum.linearMap_ext B
+  intro i
+  apply LinearMap.ext
+  intro x
+  rcases i with ⟨n, σ⟩
+  simp [realShoelaceBarTermInclusion, realShoelaceBarTermProjection,
+    realShoelaceBarInclusion, DirectSum.toModule_lof, σ.last_le]
+
 end C4
