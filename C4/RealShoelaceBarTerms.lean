@@ -76,47 +76,4 @@ noncomputable def realShoelaceBarTermProjection
   · exact 0
 
 
-/-- At every integer degree and for every entire-real shoelace arrow,
-the projection of summands back to the smaller endpoint retracts the
-canonical coefficient-level inclusion.  This certifies a split
-monomorphism of underlying graded B-modules (not yet of complexes). -/
-theorem realShoelaceBarTermInclusion_retraction
-    {ε : ℝ} {hε : 0 ≤ ε}
-    (D : RealShoelacePoint ε hε ⥤ C4Complex)
-    {p q : RealShoelacePoint ε hε} (hpq : p ≤ q)
-    (k : ℤ) :
-    realShoelaceBarTermInclusion D hpq k ≫
-      realShoelaceBarTermProjection D hpq k = 𝟙 _ := by
-  classical
-  apply ModuleCat.hom_ext
-  apply DirectSum.linearMap_ext B
-  intro i
-  apply LinearMap.ext
-  intro x
-  rcases i with ⟨n, σ⟩
-  change
-    (DirectSum.toModule B (RealShoelaceBarIndex q)
-      (DirectSum (RealShoelaceBarIndex p)
-        (fun j => (D.obj j.2.first).X (k - (j.1 : ℤ))))
-      (fun j => if h : j.2.vertex (Fin.last j.1) ≤ p then
-        DirectSum.lof B (RealShoelaceBarIndex p)
-          (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ)))
-          ⟨j.1, ⟨j.2.vertex, j.2.ordered, h⟩⟩ else 0))
-    ((DirectSum.toModule B (RealShoelaceBarIndex p)
-      (DirectSum (RealShoelaceBarIndex q)
-        (fun j => (D.obj j.2.first).X (k - (j.1 : ℤ))))
-      (fun i => DirectSum.lof B (RealShoelaceBarIndex q)
-        (fun j => (D.obj j.2.first).X (k - (j.1 : ℤ)))
-        ⟨i.1, realShoelaceBarInclusion hpq i.2⟩))
-      ((DirectSum.lof B (RealShoelaceBarIndex p)
-        (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ)))
-        ⟨n, σ⟩) x)) =
-    (DirectSum.lof B (RealShoelaceBarIndex p)
-      (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ)))
-      ⟨n, σ⟩) x
-  rw [DirectSum.toModule_lof]
-  simp only [realShoelaceBarInclusion]
-  rw [DirectSum.toModule_lof]
-  simp
-
 end C4
