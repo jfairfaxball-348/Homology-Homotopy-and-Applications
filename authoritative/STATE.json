@@ -3020,6 +3020,9 @@
     "proven_scope": "two-lane entire-real shoelace preorder and its inclusion functors",
     "algebraic_bar_status": "proposed, NOT Lean-certified",
     "full_numerical_theorem_certified": false,
-    "next": "S174: implement actual whole-poset bar total and monic crossings for both real lanes"
+    "next": "S174: implement actual whole-poset bar total and monic crossings for both real lanes",
+    "interpretation_compiled_source": "c02cd3d9a13e9c5fa68dfc5aa30176c016cd046a",
+    "interpretation_lean_run": 41183644816,
+    "interpretation_scope": "arbitrary full-poset functor gives whole-real strict interleaving, and S172 quotient under explicit mono/acyclic hypotheses"
   }
 }
