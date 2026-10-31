@@ -114,7 +114,9 @@ theorem realShoelaceBarTermInclusion_retraction
     (DirectSum.lof B (RealShoelaceBarIndex p)
       (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ)))
       ⟨n, σ⟩) x
-  simp only [DirectSum.toModule_lof]
-  simp [realShoelaceBarInclusion, σ.last_le]
+  rw [DirectSum.toModule_lof]
+  simp only [realShoelaceBarInclusion]
+  rw [DirectSum.toModule_lof]
+  simp
 
 end C4
