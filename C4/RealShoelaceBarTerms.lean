@@ -26,7 +26,7 @@ noncomputable def realShoelaceBarTerm
     (D : RealShoelacePoint ε hε ⥤ C4Complex)
     (p : RealShoelacePoint ε hε) (k : ℤ) : ModuleCat B :=
   ModuleCat.of B
-    (⨁ (i : RealShoelaceBarIndex p),
-      (D.obj i.2.first).X (k - (i.1 : ℤ)))
+    (DirectSum (RealShoelaceBarIndex p)
+      (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ))))
 
 end C4
