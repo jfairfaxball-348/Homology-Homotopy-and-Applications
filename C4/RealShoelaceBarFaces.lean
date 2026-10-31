@@ -58,7 +58,7 @@ theorem realShoelaceBarIndexInclusion_injective
   have hn : n = m := congrArg Sigma.fst h
   cases hn
   have hs : realShoelaceBarInclusion hpq σ =
-      realShoelaceBarInclusion hpq τ := congrArg Sigma.snd h
+      realShoelaceBarInclusion hpq τ := congrArg (fun z : RealShoelaceBarIndex q => z.2) h
   have hv : σ = τ := (realShoelaceBarInclusion_injective hpq) hs
   cases hv
   rfl
