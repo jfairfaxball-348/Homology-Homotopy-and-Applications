@@ -41,3 +41,5 @@ public import C4.AcyclicCokernelQuasiIso
 public import C4.RealShoelacePoset
 public import C4.RealShoelaceInterpretation
 public import C4.RealShoelaceBarIndices
+
+public import C4.RealShoelaceBarTerms
