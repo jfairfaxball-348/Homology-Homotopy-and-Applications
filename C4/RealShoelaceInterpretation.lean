@@ -37,10 +37,10 @@ noncomputable def realShoelaceForward
   app u := H.map (homOfLE (realShoelace_forward_le ε hε u))
   naturality := by
     intro u v f
-    change H.map _ ≫ H.map _ = H.map _ ≫ H.map _
+    dsimp [realShoelaceLeftRestriction, realShoelaceRightRestriction,
+      translateDiagram, realTranslation]
     rw [← H.map_comp, ← H.map_comp]
     congr 1
-    apply Subsingleton.elim
 
 /-- The actual backward crossing family is natural over every real arrow. -/
 noncomputable def realShoelaceBackward
@@ -51,10 +51,10 @@ noncomputable def realShoelaceBackward
   app u := H.map (homOfLE (realShoelace_backward_le ε hε u))
   naturality := by
     intro u v f
-    change H.map _ ≫ H.map _ = H.map _ ≫ H.map _
+    dsimp [realShoelaceLeftRestriction, realShoelaceRightRestriction,
+      translateDiagram, realTranslation]
     rw [← H.map_comp, ← H.map_comp]
     congr 1
-    apply Subsingleton.elim
 
 /-- From ANY functor on the entire shoelace index category, recover a
 true both-lane strict epsilon interleaving, including both exact
@@ -69,16 +69,18 @@ noncomputable def realShoelaceInterleaving
   backward := realShoelaceBackward H
   forward_backward := by
     intro u
-    change H.map _ ≫ H.map _ = H.map _
+    dsimp [realShoelaceForward, realShoelaceBackward,
+      realShoelaceLeftRestriction, realShoelaceRightRestriction,
+      translateDiagram, realTranslation]
     rw [← H.map_comp]
     congr 1
-    apply Subsingleton.elim
   backward_forward := by
     intro u
-    change H.map _ ≫ H.map _ = H.map _
+    dsimp [realShoelaceForward, realShoelaceBackward,
+      realShoelaceLeftRestriction, realShoelaceRightRestriction,
+      translateDiagram, realTranslation]
     rw [← H.map_comp]
     congr 1
-    apply Subsingleton.elim
 
 /-- The existing whole-real cokernel construction works on the true
 shoelace index category, provided an independent replacement theorem
@@ -95,6 +97,7 @@ theorem realShoelacePoset_quotient_objectwise_quasiIso
   apply realShoelaceCokernel_projection_objectwise_quasiIso
     (realShoelaceInterleaving H)
   · exact hacyclic
-  · exact hmono
+  · intro u
+    simpa only [realShoelaceInterleaving, realShoelaceBackward] using hmono u
 
 end C4
