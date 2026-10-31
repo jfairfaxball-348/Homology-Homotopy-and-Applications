@@ -66,7 +66,8 @@ theorem realShoelaceBarInclusion_injective
     Function.Injective (realShoelaceBarInclusion (n := n) hpq) := by
   intro σ τ h
   have hv : σ.vertex = τ.vertex :=
-    congrArg RealShoelaceBarSimplex.vertex h
+    by simpa only [realShoelaceBarInclusion_vertex] using
+      congrArg RealShoelaceBarSimplex.vertex h
   cases σ with
   | mk v vo vl =>
     cases τ with
@@ -111,37 +112,5 @@ def realShoelaceBarIndexInclusion
     (hpq : p ≤ q) :
     RealShoelaceBarIndex p → RealShoelaceBarIndex q
   | ⟨n, σ⟩ => ⟨n, realShoelaceBarInclusion hpq σ⟩
-
-theorem realShoelaceBarIndexInclusion_injective
-    {ε : ℝ} {hε : 0 ≤ ε}
-    {p q : RealShoelacePoint ε hε}
-    (hpq : p ≤ q) :
-    Function.Injective (realShoelaceBarIndexInclusion hpq) := by
-  intro ⟨n, σ⟩ ⟨m, τ⟩ h
-  cases hnm : n with
-  | zero =>
-    cases m with
-    | zero =>
-      have he : realShoelaceBarInclusion hpq σ =
-          realShoelaceBarInclusion hpq τ := by
-        simpa [realShoelaceBarIndexInclusion] using h
-      have := realShoelaceBarInclusion_injective hpq he
-      cases this
-      rfl
-    | succ m =>
-      simp [realShoelaceBarIndexInclusion] at h
-  | succ n =>
-    cases m with
-    | zero => simp [realShoelaceBarIndexInclusion] at h
-    | succ m =>
-      have hn : Nat.succ n = Nat.succ m := by
-        exact congrArg Prod.fst h
-      cases Nat.succ.inj hn
-      have he : realShoelaceBarInclusion hpq σ =
-          realShoelaceBarInclusion hpq τ := by
-        simpa [realShoelaceBarIndexInclusion] using h
-      have := realShoelaceBarInclusion_injective hpq he
-      cases this
-      rfl
 
 end C4
