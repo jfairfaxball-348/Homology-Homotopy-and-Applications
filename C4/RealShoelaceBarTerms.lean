@@ -94,7 +94,14 @@ theorem realShoelaceBarTermInclusion_retraction
   apply LinearMap.ext
   intro x
   rcases i with ⟨n, σ⟩
+  change
+    (realShoelaceBarTermProjection D hpq k).hom
+      ((realShoelaceBarTermInclusion D hpq k).hom
+        ((DirectSum.lof B (RealShoelaceBarIndex p)
+          (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ))) ⟨n, σ⟩) x)) =
+      (DirectSum.lof B (RealShoelaceBarIndex p)
+        (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ))) ⟨n, σ⟩) x
   simp [realShoelaceBarTermInclusion, realShoelaceBarTermProjection,
-    realShoelaceBarInclusion, DirectSum.toModule_lof, σ.last_le]
+    realShoelaceBarInclusion]
 
 end C4
