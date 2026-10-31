@@ -45,22 +45,5 @@ theorem RealShoelaceBarSimplex.first_le_face_zero
     Fin.succAbove_zero_apply] using
     σ.ordered (Fin.zero_le (Fin.succ (0 : Fin (n + 1))))
 
-/-- The dependent sigma index injection has no collisions across lengths. -/
-theorem realShoelaceBarIndexInclusion_injective
-    {ε : ℝ} {hε : 0 ≤ ε}
-    {p q : RealShoelacePoint ε hε} (hpq : p ≤ q) :
-    Function.Injective (realShoelaceBarIndexInclusion hpq) := by
-  intro a b h
-  rcases a with ⟨n, σ⟩
-  rcases b with ⟨m, τ⟩
-  change (⟨n, realShoelaceBarInclusion hpq σ⟩ : RealShoelaceBarIndex q) =
-    ⟨m, realShoelaceBarInclusion hpq τ⟩ at h
-  have hn : n = m := congrArg Sigma.fst h
-  cases hn
-  have hs : realShoelaceBarInclusion hpq σ =
-      realShoelaceBarInclusion hpq τ := congrArg (fun z : RealShoelaceBarIndex q => z.2) h
-  have hv : σ = τ := (realShoelaceBarInclusion_injective hpq) hs
-  cases hv
-  rfl
 
 end C4
