@@ -29,4 +29,27 @@ noncomputable def realShoelaceBarTerm
     (DirectSum (RealShoelaceBarIndex p)
       (fun i => (D.obj i.2.first).X (k - (i.1 : ℤ))))
 
+
+/-- Degreewise inclusion of the *actual* direct-sum bar coefficients
+when an arbitrary shoelace endpoint p increases to q.  Each source
+coefficient is mapped identically into the summand with the very
+same weak chain and its relaxed endpoint bound.  This is not yet
+a chain map: the bar differential has not been defined. -/
+noncomputable def realShoelaceBarTermInclusion
+    {ε : ℝ} {hε : 0 ≤ ε}
+    (D : RealShoelacePoint ε hε ⥤ C4Complex)
+    {p q : RealShoelacePoint ε hε} (hpq : p ≤ q)
+    (k : ℤ) :
+    realShoelaceBarTerm D p k ⟶ realShoelaceBarTerm D q k := by
+  classical
+  refine ModuleCat.ofHom
+    (DirectSum.toModule B (RealShoelaceBarIndex p)
+      (DirectSum (RealShoelaceBarIndex q)
+        (fun j => (D.obj j.2.first).X (k - (j.1 : ℤ))))
+      (fun i => ?_))
+  rcases i with ⟨n, σ⟩
+  exact DirectSum.lof B (RealShoelaceBarIndex q)
+    (fun j => (D.obj j.2.first).X (k - (j.1 : ℤ)))
+    ⟨n, realShoelaceBarInclusion hpq σ⟩
+
 end C4
