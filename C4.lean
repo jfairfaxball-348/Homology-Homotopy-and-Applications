@@ -43,3 +43,4 @@ public import C4.RealShoelaceInterpretation
 public import C4.RealShoelaceBarIndices
 
 public import C4.RealShoelaceBarTerms
+public import C4.RealShoelaceBarFaces
