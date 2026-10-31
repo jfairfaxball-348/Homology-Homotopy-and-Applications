@@ -29,3 +29,24 @@ Evidence on independently pinned commits: source `072abd47510e0b9350cc7be67df5d8
 **Explicit failed proof attempts, excluded from the promoted source.** A proposed equality `realShoelaceBarTermInclusion ≫ realShoelaceBarTermProjection = 𝟙` failed elaboration/tactic closure on `a608d3ab` Lean #41194023460, `9c924dfe` Lean #41194185440, `11b068e1` Lean #41194323396 and `145194c9` Lean #41194470171. The exact unresolved normalisation is reduction of `ModuleCat.Hom.hom` / the underlying `DirectSum.toModule` applied to a `DirectSum.lof` generator and its dependent endpoint proof. In the pinned Mathlib, `DirectSum.toModule_lof (i) (x)` is a pointwise formula, but unqualified `simp`/`rw` did not match the expanded elaborated nested expression. Do not assert the retraction or a split mono; isolate the B-linear map compositions and instantiate the `toModule_lof` identity explicitly, or switch to direct `DFinsupp` embeddings before trying again. All the failed retraction theorem text was removed from the final source, preserving only verified definitions.
 
 **Still missing:** the bar horizontal faces and total differential on these actual B-modules, d²=0, chain-complex functor laws, degreewise retraction/mono, natural augmentation, pointwise append-terminal contraction / QuasiIso, strict-interleaving-to-shoelace conversion, acyclicity transfer, applications of S172/S171/S169, C1/C2 bridges and exact C4 metrics. No S174 closeout or S175 prompt is authorised; keep `STATE.last_completed_session = S173` and `recommended_next_session = S174`. No external research/publication action.
+
+
+## S174 continuation — full-real horizontal and internal bar boundaries compiled (31 October 2026)
+
+This checkpoint extends the genuine full-real B-linear graded direct-sum construction, **without claiming to have completed S174**.
+
+New pinned C4 imports:
+- `C4/RealShoelaceBarFaces.lean`: actual simplicial face deletion, endpoint compatibility and first-face coefficient order.
+- `C4/RealShoelaceBarHorizontal.lean`: actual B-linear horizontal face maps and their sum on the full direct-sum coefficient modules, including the first-face diagram morphism and integer total-degree transport.
+- `C4/RealShoelaceBarTotal.lean`: actual B-linear internal differential on graded terms and a proposed total differential equal to internal plus horizontal.
+
+The first draft of dependent-sigma index injectivity **failed Lean**, including at commits `5fda2bab8367f70e465c37b58d69fbbfe51f3821` and `4cfbc4f18d9005b5a60d3312092a7d60d3858e3b`. It was removed, NOT promoted as proven. Distinct simplex lengths are retained in the dependent index definition, and single-length inclusion injectivity was already certified; the dependent sigma theorem remains a standalone proof obligation.
+
+**Verified exact source:** `487a65dc6d3439298877094d29d36016b02a6cf8`.
+- Full pinned OptionD+C4 Lean build: [#41220482986](https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/actions/runs/41220482986) **SUCCESS**.
+- Repository integrity: [#41220482903](https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/actions/runs/41220482903) **SUCCESS**.
+- Independent PR-head and merged-main checks **must still be verified separately**; these are source branch checks only.
+
+**Important scope limitation:** The new `realShoelaceBarTotalBoundary` is a family of degree-minus-one `ModuleCat B` morphisms; no proof of `d_total²=0` has been given. Accordingly no `C4Complex` bar object, endpoint **chain** maps, natural augmentation, append-p contraction, QuasiIso, full two-lane functor conversion or application of S172/S171/S169 has yet been verified. Do NOT claim completed S174, C1/C2/C3 closure or the numerical C4 theorem. S175 remains uninstalled.
+
+**Critical next proof:** establish the paired simplicial face relation and the total square-zero theorem directly on `DirectSum.lof` generators, using `DirectSum.linearMap_ext`/pointwise reductions. Then package the genuine bar chain complexes and functorial endpoint maps. Preserve all-real and both-lane quantifiers throughout.
