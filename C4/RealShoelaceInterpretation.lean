@@ -98,6 +98,9 @@ theorem realShoelacePoset_quotient_objectwise_quasiIso
     (realShoelaceInterleaving H)
   · exact hacyclic
   · intro u
-    simpa only [realShoelaceInterleaving, realShoelaceBackward] using hmono u
+    dsimp [realShoelaceInterleaving, realShoelaceBackward,
+      realShoelaceRightRestriction, realShoelaceLeftRestriction,
+      translateDiagram, realTranslation]
+    exact hmono u
 
 end C4
