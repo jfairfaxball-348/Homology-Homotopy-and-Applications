@@ -34,7 +34,10 @@ noncomputable def realShoelaceBarTermAugmentation
   cases n with
   | zero =>
       have hp : σ.first ≤ p := σ.vertex_le 0
-      simpa using ((D.map (homOfLE hp)).f k).hom
+      let shift :
+          (D.obj σ.first).X (k - (0 : ℤ)) ⟶ (D.obj σ.first).X k :=
+        eqToHom (congrArg (D.obj σ.first).X (sub_zero k))
+      exact (shift ≫ (D.map (homOfLE hp)).f k).hom
   | succ n => exact 0
 
 end C4
