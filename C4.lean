@@ -46,3 +46,5 @@ public import C4.RealShoelaceBarTerms
 public import C4.RealShoelaceBarFaces
 public import C4.RealShoelaceBarHorizontal
 public import C4.RealShoelaceBarTotal
+
+public import C4.RealShoelaceBarAugmentation
