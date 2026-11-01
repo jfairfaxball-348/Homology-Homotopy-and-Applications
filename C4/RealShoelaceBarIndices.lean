@@ -139,7 +139,6 @@ theorem realShoelaceBarIndexInclusion_injective
   have hs : realShoelaceBarInclusion hpq σ =
       realShoelaceBarInclusion hpq τ := by
     injection hab with _ h
-    exact h
   have hστ : σ = τ :=
     realShoelaceBarInclusion_injective hpq hs
   cases hστ
