@@ -61,7 +61,7 @@ theorem mappingCone_derived_zero
     {P Q : CochainComplex (ModuleCat B) ℤ} (u : P ⟶ Q) [QuasiIso u] :
     IsZero (DerivedCategory.Q.obj (CochainComplex.mappingCone u)) := by
   exact Pretriangulated.Triangle.isZero₃_of_isIso₁ _ (DerivedCategory.mappingCone_triangle_distinguished u)
-    (by infer_instance)
+    (by change IsIso (DerivedCategory.Q.map u); infer_instance)
 
 /-- The exact lifting operation for the direct coherent-transfer recursion.
 An original-side obstruction and a replacement-side nullhomotopy lift to
@@ -78,7 +78,8 @@ theorem lift_coherent_boundary
     rw [hβ]
     exact neg_eq_iff_add_eq_zero.mp (cochain_neg _)
   let Ω := CochainComplex.mappingCone.liftCocycle u α β hm he
-  obtain ⟨y, hy⟩ := cochain_boundary_of_derived_zero (mappingCone_derived_zero u) n l hl Ω.1
+  obtain ⟨y, hy⟩ := cochain_boundary_of_derived_zero (hDerived := hDerived)
+    (mappingCone_derived_zero (hDerived := hDerived) u) n l hl Ω.1
     (Ω.δ_eq_zero (n+1))
   let t : Cochain K P n := y.comp (CochainComplex.mappingCone.fst u).1 hl
   let a : Cochain K Q l := y.comp (CochainComplex.mappingCone.snd u) (add_zero l)

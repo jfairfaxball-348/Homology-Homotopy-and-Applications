@@ -68,14 +68,10 @@ theorem reducedProjectiveAugmentationMap_quasiIsoAt_zero (M : ModuleCat B) :
     (by simp [ChainComplex.prev]) (by simp [ChainComplex.next])).2
   apply (ShortComplex.quasiIso_iff_of_zeros' _ hg1 hf2 hg2).2
   constructor
-  · change (ShortComplex.mk ((reducedProjectiveFunctor.obj M).d 1 0)
-      ((reducedProjectiveAugmentationMap M).f 0)
-      (by rw [reducedProjectiveAugmentationMap_zero]; exact reducedProjectiveAugmentation_d M)).Exact
-    rw [reducedProjectiveAugmentationMap_zero]
-    exact reducedProjectiveAugmentation_exact M
-  · change Epi ((reducedProjectiveAugmentationMap M).f 0)
-    rw [reducedProjectiveAugmentationMap_zero]
-    infer_instance
+  · simpa only [HomologicalComplex.sc', HomologicalComplex.shortComplexFunctor',
+      reducedProjectiveAugmentationMap_zero] using reducedProjectiveAugmentation_exact M
+  · simpa only [HomologicalComplex.sc', HomologicalComplex.shortComplexFunctor',
+      reducedProjectiveAugmentationMap_zero] using reducedProjectiveAugmentation_epi M
 
 /-- The entire reduced coefficient resolution has the correct induced augmentation quasi-isomorphism. -/
 instance reducedProjectiveAugmentationMap_quasiIso (M : ModuleCat B) :
