@@ -60,3 +60,5 @@ public import C4.DirectDefiningSystem
 public import C4.DirectObstruction
 
 public import C4.ReducedProjectiveResolution
+
+public import C4.ReducedProjectiveAugmentation

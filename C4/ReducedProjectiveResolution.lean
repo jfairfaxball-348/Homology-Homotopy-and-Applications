@@ -96,7 +96,8 @@ instance reducedProjectiveAugmentation_epi (M : ModuleCat B) :
     (reducedProjectiveFunctor.map f).f 0 ≫ reducedProjectiveAugmentation N =
       reducedProjectiveAugmentation M ≫ f := by
   simp [reducedProjectiveFunctor, reducedProjectiveAugmentation,
-    LeftResolution.chainComplexMap_f_0, Functor.map_comp, Category.assoc]
+    LeftResolution.chainComplexFunctor, LeftResolution.chainComplexMap_f_0,
+    Functor.map_comp, Category.assoc]
 
 @[reassoc, simp] theorem reducedProjectiveAugmentation_d (M : ModuleCat B) :
     (reducedProjectiveFunctor.obj M).d 1 0 ≫ reducedProjectiveAugmentation M = 0 := by
