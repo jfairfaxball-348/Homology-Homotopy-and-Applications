@@ -63,6 +63,12 @@ public import C4.ReducedProjectiveResolution
 
 public import C4.ReducedProjectiveAugmentation
 
+public import C4.KProjectiveLifting
+
 public import C4.KProjectiveBoundaryLift
 
 public import C4.WeakTransferAlgebra
+
+public import C4.InterleavingTransfer
+
+public import C4.InterleavingObstruction
