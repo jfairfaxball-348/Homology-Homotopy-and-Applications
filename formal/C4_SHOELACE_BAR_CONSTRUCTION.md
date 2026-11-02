@@ -1,6 +1,6 @@
 # S173 algebraic shoelace bar resolution: exact construction and Lean obligations
 
-**Status: mathematical construction to formalise; NOT a certified Lean replacement or a proof of the frozen metric theorem.** Do not infer certification from the compiled shoelace *index-category* files. This construction deliberately targets all two-lane real diagrams, including nonzero acyclic zero-lane replacements, and avoids assuming the missing projective model structure.
+**Updated status, 2 November 2026:** S174 has certified indices and graded B-linear terms/maps, candidate boundaries and graded augmentation; see `sessions/S174/PARTIAL.md`. The bar is NOT yet a certified chain complex, replacement or proof of the frozen metric theorem. This recipe targets all two-lane real diagrams, including nonzero acyclic zero-lane replacements. The missing downstream comparison in §4 must be resolved; follow `C4_COMPLETION_STRATEGY.md`.
 
 ## 1. Input and the important simplification
 
@@ -11,7 +11,7 @@ The strict quotient argument in S171/S172 **does not actually need projective co
 2. a natural transformation `augmentation : Q(D) ⟶ D` whose components are quasi-isomorphisms at every `p : P`;
 3. monomorphism of `Q(D).map (homOfLE hpq)` for **each** `p≤q` (in particular every backward crossing).
 
-A purpose-built algebraic *bar replacement* should establish these three facts directly, without a `ModelCategory` instance and without cofibrancy of the original chain complexes.
+A purpose-built algebraic *bar replacement* should establish these three facts directly, without a `ModelCategory` instance and without cofibrancy of the original chain complexes. These are the C3a quotient hypotheses ONLY. They do not establish the homotopy comparison hypotheses later used by manuscript §5/C1; that separate C3b obligation is stated below.
 
 ## 2. Explicit unnormalised bar total complex
 
@@ -44,14 +44,20 @@ At a **fixed** `p` the augmentation of the horizontal bar complex has an explici
 
 The standard paired-face cancellation gives the augmentation contraction. Characteristic two makes the internal differential/homotopy cross terms cancel in the direct-sum total. This proves `QuasiIso (aug_p)` for *every* `p`. The contraction is **pointwise** and need not be natural in `p`; the augmentation itself is natural, which suffices.
 
-**Warning:** The bar resolution just outlined has not been defined in Lean, so the contraction, monomorphism and natural augmentation are not yet certified.
+**Warning:** Only the graded ingredients have been defined and certified. Total square-zero, chain/functor packaging, chain-level monomorphism, natural chain augmentation, contraction and objectwise QuasiIso remain unproved. In particular, a graded augmentation is not yet a chain map.
 
 ## 4. Direct connection to the frozen C4 theorem
 
-Given ANY strict epsilon interleaving of *arbitrary* whole-real replacements `F'` and `G'`, build its genuine functor `D` on `P` (this direction of the shoelace/functor equivalence is another exact Lean obligation). Apply the bar `Q(D)`. Its two restricted lanes are objectwise quasi-isomorphic to the original lanes. If `G'` is objectwise acyclic, so is the right lane of `Q(D)`; every backward crossing is mono by the bar injection. The certified S172 quotient theorem then supplies `Q_F→C` as an objectwise quasi-isomorphism for the **entire real** diagram. S171 proves the full-real `2ε` structure map of `C` literally zero. S169 extracts three strict five-cut square-zero composites. Complete C1 higher transfer must then deliver the contradiction for `ε<5/4`.
+Given ANY strict epsilon interleaving of *arbitrary* whole-real replacements `F'` and `G'`, build its genuine functor `D` on `P` (this direction of the shoelace/functor equivalence is another exact Lean obligation). Apply the bar `Q(D)`. Its two restricted lanes are objectwise quasi-isomorphic to the original lanes. If `G'` is objectwise acyclic, so is the right lane of `Q(D)`; every backward crossing is mono by the bar injection. The certified S172 quotient theorem then supplies `Q_F→C` as an objectwise quasi-isomorphism for the **entire real** diagram. S171 proves the full-real `2ε` structure map of `C` literally zero. S169 extracts three strict five-cut square-zero composites. To obtain the contradiction for `ε<5/4`, the exact comparison data consumed by the direct C1 obstruction must still be supplied; the bar/quotient facts alone do not supply them.
 
-This avoids proving a projectively-cofibrant model structure for `P⥤C4Complex`; no general model-category library is an implicit prerequisite.
+### Missing connection to the downstream obstruction (C3b)
+
+The manuscript's original §5 proof uses cofibrant-fibrant cut objects to choose chain-homotopy inverses and homotopies `D s_i = id + u_i v_i`. This algebraic bar recipe only promises QuasiIso and monic structure arrows. It uses arbitrary input coefficient complexes and establishes neither cofibrancy nor those inverse homotopies. Quasi-isomorphism alone does not imply chain-homotopy equivalence.
+
+Before extending this recipe substantially, specify and test the exact comparison bridge. Either strengthen the replacement/comparison construction while preserving strict consecutive-zero composites and adjacent derived classes, or prove the direct obstruction using the weaker quasi-isomorphism/zigzag data actually available. Do not replace vertices independently without proving preservation of the required relations.
+
+Avoiding a projective model-category instance for the quotient does not remove this downstream obligation. This is a gap in the adapted route, not a new disproof of the frozen theorem.
 
 ## 5. Next implementation checkpoint and non-goals
 
-**First:** finish/fix the actual whole-poset ↔ strict-two-lane interleaving conversion (not merely the preorder); cold-build and pin source. **Second:** construct `Chₙ` and the algebraic bar faces/total in genuine `ModuleCat B`, with no assumptions replacing the desired object. **Third:** prove its functoriality, objectwise quasi-isomorphism, and monic arrows, then apply S172/S171/S169. Do not add independent toy examples or resume cast-churn. C1/C2 and quantitative metrics remain OPEN until separately proven. Do not claim the five-stage result or issue external publications.
+First resolve/test C3b and the direct C1 consumer under the current completion strategy. Reuse the existing S174 indices and graded maps. Compare the pinned AlternatingFaceMapComplex, ExtraDegeneracy and TotalComplex APIs with the direct implementation, checking orientation, coefficient maps and totalisation compatibility before choosing a representation. Then finish the actual complex/functor, monic chain maps, natural augmentation/contraction and QuasiIso, and complete the strict-interleaving/full-poset conversion. Apply S172/S171/S169 through the repaired comparison. C1/C2 and quantitative metrics remain OPEN until separately proven; do not claim the five-stage result or issue external publications.

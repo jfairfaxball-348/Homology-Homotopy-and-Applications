@@ -8,16 +8,16 @@ d_{\mathrm{CohI}}=\tfrac12 < d_{\mathrm{IHC}}=1 < \tfrac54\le d_{\mathrm{HI}}\le
 
 allowing arbitrary objectwise quasi-isomorphism zigzags of **both entire real-indexed diagrams**.
 
-**The full numerical theorem is not yet formalised.** S164 proves the global fourfold obstruction and constructs the actual real diagram; substantial transfer and localisation/replacement proofs remain.
+**The full numerical theorem is not yet formalised. S173 is completed; S174 is IN PROGRESS, PARTIAL.** The algebraic obstruction and full-real diagram are certified; S174 adds graded bar data. The replacement-to-obstruction connection, complete bar/derived constructions and final metric proofs remain open. The current plan tests the direct contradiction and pinned Mathlib adapters before more bespoke cast work.
 
-| Lean-certified after S164 | Still required for the paper theorem |
+| Preserved core certificates | Still required for the paper theorem |
 |---|---|
 | Resolution, homology and augmentation quasi-isomorphism | Coefficient-presentation isomorphisms |
 | Canonical global defining system, both secondary coherences | Transfer through general homotopy equivalences and nonzero class identification |
 | Arbitrary-global terminal nonboundary, independent maps/fillers | Whole free-quiver cone, coherent derived two-shift and real comparison |
 | Actual full-real five-stage functor and literal five-shift vanishing | Arbitrary both-lane real replacements/quotient and exact numerical metrics |
 
-[Current status](authoritative/START_HERE.md) · [Completion review](formal/C4_COMPLETION_REVIEW.md) · [Proof plan](formal/C4_FORMALIZATION_PLAN.md) · [Working manuscript](paper/C4_MANUSCRIPT.md) · [S164 evidence](sessions/S164/PROOF.md) · [Recovery handoff](authoritative/NEXT_SESSION_PROMPT.md)
+[Current status](authoritative/START_HERE.md) · [Current dependency ledger](formal/C4_COMPLETION_STRATEGY.md) · [Proof plan](formal/C4_FORMALIZATION_PLAN.md) · [Working manuscript](paper/C4_MANUSCRIPT.md) · [S174 partial evidence](sessions/S174/PARTIAL.md) · [Recovery handoff](authoritative/NEXT_SESSION_PROMPT.md)
 
 The review explains the earlier cast/representation churn and the missing categorical infrastructure. Continuous owner authorisation applies within active work; routine checkpoints must not become one-lemma permission loops.
 
@@ -30,6 +30,7 @@ lake exe cache get
 lake build
 python3 scripts/validate_repository.py
 python3 scripts/session_handoff.py --check
+python3 -m unittest discover -s scripts -p 'test_*.py'
 ```
 
 The default build checks both C4 and preserved OptionD certificates. A green build verifies the declarations present in the repository; it does not imply that the final metric theorem has been implemented.

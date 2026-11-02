@@ -1,3 +1,5 @@
+> **Historical review.** This file records the 29 October diagnosis. The 2 November source/CI review and current replacement-to-obstruction priority are in [C4_COMPLETION_STRATEGY.md](C4_COMPLETION_STRATEGY.md); current status is [START_HERE](../authoritative/START_HERE.md). S174 is IN PROGRESS, PARTIAL. Do not use the older sequencing below as the live handoff.
+
 > **S165 supplement (29 October 2026).** The S164 review below is historically accurate for its cutoff. S165 now Lean-certifies actual homotopy-equivalence transport of all FOUR adjacent chain maps and all THREE primary homotopies on FIVE arbitrary replacements, plus non-nullhomotopy of every adjacent class before and after transport. The two secondary coherences, tertiary boundary, whole-real quasi-isomorphism zigzags on BOTH lanes and all metrics are STILL OPEN. Read `sessions/S165/PROOF.md` and `formal/C4_FORMALIZATION_PLAN.md` for the updated implementation boundary.
 
 # C4 completion review — 29 October 2026

@@ -164,6 +164,8 @@ For \(0\le\varepsilon<1\), evaluate \(\eta_{2\varepsilon}^F\) at \(u=0\). It is 
 
 ## 5. Arbitrary whole-real replacements: the homotopy lower bound
 
+**Implementation note, 2 November 2026.** The proof recipe below retains its projective-cofibrancy hypotheses. The newer algebraic bar proposal supplies only the planned monic-crossing and objectwise-quasi-isomorphism contract needed by the quotient; it does not yet justify the chain-homotopy inverses used in (5.3). That replacement-to-obstruction connection must be proved or the transfer argument adapted before the algebraic route certifies this section. The direct construction (5.3)–(5.4) is the preferred formalisation target once its hypotheses are available. See `formal/C4_COMPLETION_STRATEGY.md`; no new proof claim is made here.
+
 Suppose for contradiction that a homotopy interleaving exists at \(\varepsilon<5/4\), after some arbitrary zigzags of whole real diagrams objectwise quasi-isomorphic to \(F\) and \(O\). Monotonicity allows enlargement to
 \[
  e=\max\{1,\varepsilon\}<5/4,\quad

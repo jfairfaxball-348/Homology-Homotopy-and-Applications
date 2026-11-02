@@ -2,6 +2,7 @@
 """Static governance checks. CI success is NOT mathematical/novelty certification."""
 from pathlib import Path
 import json, re, sys
+from session_handoff import validate_session_handoff
 R=Path(__file__).resolve().parents[1]
 required=["README.md","AGENTS.md","authoritative/START_HERE.md","authoritative/STATE.json",
 "authoritative/NEXT_SESSION_PROMPT.md","authoritative/DECISION_LOG.md",
@@ -33,13 +34,10 @@ for x in claims:
     for src in x.get("sources",[]):
         if src not in src_ids: errors.append("dangling source "+str(src))
 last=state.get("last_completed_session")
-if not isinstance(last,str) or not re.fullmatch(r"S[0-9]{3}",last): errors.append("missing completed session ID")
-else:
-    if not (R/"sessions"/last/"CLOSEOUT.md").is_file(): errors.append("missing closeout "+last)
-    expected=f"S{int(last[1:])+1:03d}"
-    if state.get("recommended_next_session")!=expected: errors.append("next session state mismatch")
-    text=(R/"authoritative/NEXT_SESSION_PROMPT.md").read_text()
-    if expected not in text or "FUTURE, UNEXECUTED" not in text: errors.append("next future prompt mismatch")
+try:
+    validate_session_handoff(R)
+except (ValueError, KeyError, OSError, json.JSONDecodeError) as e:
+    errors.append("session handoff: " + str(e))
 if last and last!="S001":
     for p in ("sessions/S002/INPUT.md","sessions/S002/PLAN.md","sessions/S002/CANDIDATES.md",
               "sessions/S002/MATHEMATICS.md","sessions/S002/PRIOR_ART.md","sessions/S002/LEAN_FEASIBILITY.md"):
