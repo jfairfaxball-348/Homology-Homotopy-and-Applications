@@ -1,6 +1,6 @@
 # A quantitative homotopy-interleaving gap over the cyclic-four group algebra
 
-**Internal working manuscript — updated after S164, 29 October 2026.** Lean now certifies the resolution and homology, a nonempty global fourfold defining system, the terminal obstruction for every independent global defining system, and the actual full-real diagram with literal five-unit shift vanishing. The derived two-shift, transfer through arbitrary homotopy equivalences, arbitrary whole-real both-lane replacements, coefficient-presentation isomorphism and numerical metric theorem remain open. The abstract below is the internally written mathematical target, not a claim that its complete theorem is kernel-certified or submission-ready. See `formal/C4_COMPLETION_REVIEW.md`.
+**Internal working manuscript — updated during S174, 2 November 2026.** Lean now certifies the resolution and homology, a nonempty global fourfold defining system, the terminal obstruction for every independent global defining system, and the actual full-real diagram with literal five-unit shift vanishing. The derived two-shift, transfer through arbitrary homotopy equivalences, arbitrary whole-real both-lane replacements, coefficient-presentation isomorphism and numerical metric theorem remain open. The abstract below is the internally written mathematical target, not a claim that its complete theorem is kernel-certified or submission-ready. See `formal/C4_COMPLETION_REVIEW.md`.
 
 ## Abstract
 
@@ -164,7 +164,7 @@ For \(0\le\varepsilon<1\), evaluate \(\eta_{2\varepsilon}^F\) at \(u=0\). It is 
 
 ## 5. Arbitrary whole-real replacements: the homotopy lower bound
 
-**Implementation note, 2 November 2026.** The proof recipe below retains its projective-cofibrancy hypotheses. The newer algebraic bar proposal supplies only the planned monic-crossing and objectwise-quasi-isomorphism contract needed by the quotient; it does not yet justify the chain-homotopy inverses used in (5.3). That replacement-to-obstruction connection must be proved or the transfer argument adapted before the algebraic route certifies this section. The direct construction (5.3)–(5.4) is the preferred formalisation target once its hypotheses are available. See `formal/C4_COMPLETION_STRATEGY.md`; no new proof claim is made here.
+**Implementation note, 2 November 2026.** `C4/DirectTransfer.lean` now checks the direct one/two/three-cut word boundary calculations in reversed HomComplex grading, including an actual primary homotopy. It also proves K-projectivity of the original shifted resolutions and the sufficient comparison theorem for a quasi-isomorphism from a K-projective replacement. The raw cut identities are not yet packaged into the original global defining-system/tertiary-filler interfaces, and the adjacent unit classes are not yet identified. The bar proposal still does not construct the required compatible K-projective replacement. Thus the replacement-to-obstruction connection and this section's full all-real/BOTH-lane conclusion remain unproved; see `formal/C4_COMPLETION_STRATEGY.md`.
 
 Suppose for contradiction that a homotopy interleaving exists at \(\varepsilon<5/4\), after some arbitrary zigzags of whole real diagrams objectwise quasi-isomorphic to \(F\) and \(O\). Monotonicity allows enlargement to
 \[
@@ -259,6 +259,7 @@ The current pinned Lean development certifies:
 2. Global adjacent maps, three primary homotopies, both secondary equations and a canonical global defining system at every integer shift.
 3. The terminal residue-one obstruction for every independent global defining system, excluding every possible pair of tertiary-boundary components in the decisive actual complex degree.
 4. The strict functor `realDiagram` over the entire ordered real line, all five half-open stage objects and zero ends, and literal vanishing of its natural five-unit shift.
+5. The direct one/two/three-cut word boundary identities on arbitrary B-module complexes with actual comparison homotopies and strict consecutive zeros; original shifted-resolution K-projectivity and its explicit sufficient comparison contract.
 
 The remaining obligations are the coefficient-presentation isomorphisms; complete homotopy transfer and nonzero-generator identification; the free-quiver cone, derived two-shift and real/localisation comparison; arbitrary whole-real replacement/acyclic-lane quotient; and the final exact metric relations and inequalities. These are substantive categorical proofs. The numerical headline is not a Lean declaration yet, and its proof must not acquire those obligations as hypotheses.
 

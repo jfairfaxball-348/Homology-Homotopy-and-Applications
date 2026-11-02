@@ -14,9 +14,9 @@
     "full_paper_theorem_lean_certified": false
   },
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S174 partial bar indices, graded boundaries and augmentation certified on merged main; no bar chain-complex/QuasiIso or numerical theorem yet. First resolve replacement-to-obstruction comparison, then direct contradiction via a tested HomComplex adapter.",
+  "headline": "S174 partial: direct one/two/three-cut HomComplex boundary calculus and original C4 K-projectivity/comparison contract checked. Compatible replacement production, original-system obstruction bridge, bar chain complex and full metrics remain open.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "S174_PARTIAL_BAR_GRADED_DATA_CERTIFIED_REPLACEMENT_TRANSFER_CONNECTION_AND_FULL_METRICS_OPEN",
+  "headline_status": "S174_PARTIAL_DIRECT_TRANSFER_CALCULUS_CERTIFIED_REPLACEMENT_PRODUCER_AND_FULL_METRICS_OPEN",
   "active_campaign": "C4_FIRST_PAPER_CONNECTED_REPLACEMENT_AND_DIRECT_OBSTRUCTION_COMPLETION",
   "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; no formal certificate of the metric; no novelty or HHA significance gate in active roadmap.",
   "stages": [
@@ -3040,8 +3040,14 @@
     "verified_main": "633634e2e32abe186bde3fc1cf7c26fa3f2e24c3",
     "verified_main_lean_run": 41290933867,
     "verified_main_integrity_run": 41290933821,
-    "certified_scope": "Entire-real bar simplex/dependent indices, graded B-modules and endpoint maps, candidate horizontal/internal/total boundaries, graded augmentation. This is not a certified bar chain complex.",
-    "full_metric_theorem_lean_certified": false
+    "certified_scope": "Entire-real bar simplex/dependent indices, graded B-modules and endpoint maps, candidate horizontal/internal/total boundaries, graded augmentation. This is not a certified bar chain complex. DirectTransfer now checks degree reversal, unsigned Leibniz, actual primary homotopy and one/two/three-cut boundaries; original shifted resolutions are K-projective. The global obstruction bridge and compatible replacement producer remain open.",
+    "full_metric_theorem_lean_certified": false,
+    "direct_transfer_checked_source": "76120036d64ae3200c78ec9b6742deeeffcc38f0",
+    "direct_transfer_pr": 213,
+    "direct_transfer_pr_lean_run": 41478721288,
+    "direct_transfer_pr_integrity_run": 41478721382,
+    "direct_transfer_push_lean_run": 41478712366,
+    "direct_transfer_push_integrity_run": 41478712244
   },
   "owner_strategy_update_20261102": {
     "scope": "Owner-authorised documentation/process revision after source/CI review; no proof session executed or completed.",

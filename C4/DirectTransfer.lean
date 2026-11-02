@@ -363,7 +363,7 @@ theorem directTertiary_d
     HomologicalComplex.comp_f, HomologicalComplex.id_f]
   simp [sub_eq_add_neg, add_assoc, Category.assoc, h0, h1, h2,
     h0a, h1a, h2a, Preadditive.add_comp, Preadditive.comp_add]
-  <;> first | rfl | (trace_state; abel)
+  <;> abel
 
 -- Hosted build records the dependency axioms of the actual proof batch.
 #print axioms comparison_of_quasiIso
@@ -371,6 +371,7 @@ theorem directTertiary_d
 #print axioms reverseResolution_isKProjective
 #print axioms comparison_to_resolution
 #print axioms reverseHomotopy_d
+#print axioms directPrimaryHomotopy
 #print axioms directPrimary_d
 #print axioms directSecondary_d
 #print axioms directTertiary_d
