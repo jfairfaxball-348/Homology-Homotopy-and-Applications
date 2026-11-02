@@ -13,8 +13,11 @@ They are NOT inferred from a quasi-isomorphism. This module isolates the
 consumer needed after the replacement/comparison construction.
 -/
 
+set_option backward.isDefEq.respectTransparency false
+set_option backward.defeqAttrib.useBackward true
+
 namespace C4
-open CategoryTheory
+open CategoryTheory CategoryTheory.Limits
 open CochainComplex.HomComplex
 
 /-- A chain complex read in the opposite integer grading. -/
@@ -47,7 +50,6 @@ def reverseMap {P Q : C4Complex} (f : P ⟶ Q) :
     reverseMap (0 : P ⟶ Q) = 0 := rfl
 
 /-- Actual chain homotopies become actual cochain homotopies. -/
-set_option backward.isDefEq.respectTransparency false in
 def reverseHomotopy {P Q : C4Complex} {f g : P ⟶ Q}
     (h : Homotopy f g) : Homotopy (reverseMap f) (reverseMap g) where
   hom i j := h.hom (-i) (-j)
@@ -146,7 +148,10 @@ theorem directPrimary_d {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B)
   simp only [directPrimary, unsigned_δ_comp_any, δ_ofHom, δ_ofHomotopy,
     cochain_sub, Cochain.comp_zero, Cochain.zero_comp, add_zero, zero_add,
     Cochain.comp_add, Cochain.add_comp, ← Cochain.ofHom_comp]
-  simp [Category.assoc, hz]
+  have hzv : b₀ ≫ b₁ ≫ v₂ = 0 := by
+    rw [← Category.assoc, hz, zero_comp]
+  simp only [← Cochain.ofHom_comp, Category.assoc, hzv, comp_zero,
+    Cochain.ofHom_zero, add_zero]
 
 /-- The primary equation in precisely the defining-system product form. -/
 theorem directPrimary_coherence
@@ -165,7 +170,12 @@ def directSecondary {P₀ P3 Q0 Q1 Q2 Q3 : CochainComplex (ModuleCat B) ℤ}
     {r1 : Q1 ⟶ Q1} (s1 : Homotopy r1 (𝟙 Q1))
     {r2 : Q2 ⟶ Q2} (s2 : Homotopy r2 (𝟙 Q2)) :
     Cochain P₀ P3 (-2) :=
-  (Cochain.comp (n₁ := (-2)) (n₂ := (0)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-2)) (n₂ := (0)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-1)) (n₂ := (-1)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-1)) (n₂ := (0)) (n₁₂ := (-1)) (Cochain.comp (n₁ := (0)) (n₂ := (-1)) (n₁₂ := (-1)) (Cochain.comp (n₁ := (0)) (n₂ := (0)) (n₁₂ := (0)) (Cochain.ofHom u) (Cochain.ofHom b0) (by decide)) (Cochain.ofHomotopy s1) (by decide)) (Cochain.ofHom b1) (by decide)) (Cochain.ofHomotopy s2) (by decide)) (Cochain.ofHom b2) (by decide)) (Cochain.ofHom v) (by decide))
+  let a0 : Cochain P₀ Q1 0 := Cochain.ofHom (u ≫ b0)
+  let h1 : Cochain P₀ Q1 (-1) := a0.comp (Cochain.ofHomotopy s1) (by decide)
+  let a1 : Cochain P₀ Q2 (-1) := h1.comp (Cochain.ofHom b1) (by decide)
+  let h2 : Cochain P₀ Q2 (-2) := a1.comp (Cochain.ofHomotopy s2) (by decide)
+  let a2 : Cochain P₀ Q3 (-2) := h2.comp (Cochain.ofHom b2) (by decide)
+  a2.comp (Cochain.ofHom v) (by decide)
 
 /-- The actual 3-cut word, not an assumed coherence. -/
 def directTertiary {P₀ P4 Q0 Q1 Q2 Q3 Q4 : CochainComplex (ModuleCat B) ℤ}
@@ -175,7 +185,14 @@ def directTertiary {P₀ P4 Q0 Q1 Q2 Q3 Q4 : CochainComplex (ModuleCat B) ℤ}
     {r2 : Q2 ⟶ Q2} (s2 : Homotopy r2 (𝟙 Q2))
     {r3 : Q3 ⟶ Q3} (s3 : Homotopy r3 (𝟙 Q3)) :
     Cochain P₀ P4 (-3) :=
-  (Cochain.comp (n₁ := (-3)) (n₂ := (0)) (n₁₂ := (-3)) (Cochain.comp (n₁ := (-3)) (n₂ := (0)) (n₁₂ := (-3)) (Cochain.comp (n₁ := (-2)) (n₂ := (-1)) (n₁₂ := (-3)) (Cochain.comp (n₁ := (-2)) (n₂ := (0)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-1)) (n₂ := (-1)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-1)) (n₂ := (0)) (n₁₂ := (-1)) (Cochain.comp (n₁ := (0)) (n₂ := (-1)) (n₁₂ := (-1)) (Cochain.comp (n₁ := (0)) (n₂ := (0)) (n₁₂ := (0)) (Cochain.ofHom u) (Cochain.ofHom b0) (by decide)) (Cochain.ofHomotopy s1) (by decide)) (Cochain.ofHom b1) (by decide)) (Cochain.ofHomotopy s2) (by decide)) (Cochain.ofHom b2) (by decide)) (Cochain.ofHomotopy s3) (by decide)) (Cochain.ofHom b3) (by decide)) (Cochain.ofHom v) (by decide))
+  let a0 : Cochain P₀ Q1 0 := Cochain.ofHom (u ≫ b0)
+  let h1 : Cochain P₀ Q1 (-1) := a0.comp (Cochain.ofHomotopy s1) (by decide)
+  let a1 : Cochain P₀ Q2 (-1) := h1.comp (Cochain.ofHom b1) (by decide)
+  let h2 : Cochain P₀ Q2 (-2) := a1.comp (Cochain.ofHomotopy s2) (by decide)
+  let a2 : Cochain P₀ Q3 (-2) := h2.comp (Cochain.ofHom b2) (by decide)
+  let h3 : Cochain P₀ Q3 (-3) := a2.comp (Cochain.ofHomotopy s3) (by decide)
+  let a3 : Cochain P₀ Q4 (-3) := h3.comp (Cochain.ofHom b3) (by decide)
+  a3.comp (Cochain.ofHom v) (by decide)
 
 /-- The two-cut equation obtained by differentiating the actual word.
 Both identity summands are eliminated by strict consecutive zero maps. -/
@@ -201,9 +218,49 @@ theorem directSecondary_d
     Cochain.comp_add, Cochain.add_comp]
   apply Cochain.ext
   intro p q hpq
-  simp [directPrimary, Cochain.comp, Cochain.mk, Cochain.v,
+  subst q
+  dsimp [directPrimary, Cochain.comp, Cochain.mk, Cochain.v,
     Cochain.ofHom, Cochain.ofHoms, Cochain.ofHomotopy,
-    Preadditive.add_comp, Preadditive.comp_add, Category.assoc,
-    h0, h1, h0a, h1a, add_assoc]
+    HomologicalComplex.comp_f, HomologicalComplex.id_f]
+  <;> simp [Category.assoc, h0, h1, h0a, h1a, Preadditive.add_comp, Preadditive.comp_add]
+
+/-- Differentiating the three-cut word gives the three possible cuts.
+This is the degree-three filler calculation required by manuscript (5.4). -/
+theorem directTertiary_d
+    {P₀ P4 Q0 Q1 Q2 Q3 Q4 : CochainComplex (ModuleCat B) ℤ}
+    (u : P₀ ⟶ Q0) (b0 : Q0 ⟶ Q1) (b1 : Q1 ⟶ Q2)
+    (b2 : Q2 ⟶ Q3) (b3 : Q3 ⟶ Q4) (v : Q4 ⟶ P4)
+    {r1 : Q1 ⟶ Q1} {r2 : Q2 ⟶ Q2} {r3 : Q3 ⟶ Q3}
+    (s1 : Homotopy r1 (𝟙 Q1)) (s2 : Homotopy r2 (𝟙 Q2))
+    (s3 : Homotopy r3 (𝟙 Q3))
+    (hz0 : b0 ≫ b1 = 0) (hz1 : b1 ≫ b2 = 0) (hz2 : b2 ≫ b3 = 0) :
+    δ (-3) (-2) (directTertiary u b0 b1 b2 b3 v s1 s2 s3) =
+      directSecondary u b0 b1 b2 (r3 ≫ b3 ≫ v) s1 s2 +
+        (directPrimary u b0 b1 r2 s1).comp
+          (directPrimary (𝟙 Q2) b2 b3 v s3) (by decide) +
+        directSecondary (u ≫ b0 ≫ r1) b1 b2 b3 v s2 s3 := by
+  have h0 (n : ℤ) : b0.f n ≫ b1.f n = 0 := by
+    simpa using congrArg (fun f : Q0 ⟶ Q2 => f.f n) hz0
+  have h1 (n : ℤ) : b1.f n ≫ b2.f n = 0 := by
+    simpa using congrArg (fun f : Q1 ⟶ Q3 => f.f n) hz1
+  have h2 (n : ℤ) : b2.f n ≫ b3.f n = 0 := by
+    simpa using congrArg (fun f : Q2 ⟶ Q4 => f.f n) hz2
+  have h0a (n : ℤ) {M : ModuleCat B} (f : Q2.X n ⟶ M) :
+      b0.f n ≫ b1.f n ≫ f = 0 := by rw [← Category.assoc, h0, zero_comp]
+  have h1a (n : ℤ) {M : ModuleCat B} (f : Q3.X n ⟶ M) :
+      b1.f n ≫ b2.f n ≫ f = 0 := by rw [← Category.assoc, h1, zero_comp]
+  have h2a (n : ℤ) {M : ModuleCat B} (f : Q4.X n ⟶ M) :
+      b2.f n ≫ b3.f n ≫ f = 0 := by rw [← Category.assoc, h2, zero_comp]
+  simp only [directTertiary, unsigned_δ_comp_any, δ_ofHom, δ_ofHomotopy,
+    cochain_sub, Cochain.comp_zero, Cochain.zero_comp, add_zero, zero_add,
+    Cochain.comp_add, Cochain.add_comp]
+  apply Cochain.ext
+  intro p q hpq
+  subst q
+  dsimp [directPrimary, directSecondary, Cochain.comp, Cochain.mk, Cochain.v,
+    Cochain.ofHom, Cochain.ofHoms, Cochain.ofHomotopy,
+    HomologicalComplex.comp_f, HomologicalComplex.id_f]
+  <;> simp [Category.assoc, h0, h1, h2, h0a, h1a, h2a, Preadditive.add_comp, Preadditive.comp_add]
+  <;> abel
 
 end C4
