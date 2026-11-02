@@ -65,7 +65,7 @@ theorem chainFamily_secondary
         eqToHom (congrArg P3.X (by omega : n-1+2=n+1))) =
       chainFamily (k := 1) h n (n+1) ≫ y.f (n+1) +
         x.f n ≫ chainFamily (k := 1) h' n (n+1) := by
-  have hd := chainFamily_d_at (k := 2) z n (n-1) (n+2) (n+1)
+  have hd := chainFamily_d_between (k := 2) (l := 1) z (by decide) n (n-1) (n+2) (n+1)
     (by omega) rfl (by omega)
   have hc : chainFamily (k := 1) (δ (-2) (-1) z) n (n+1) =
       chainFamily (k := 1) h n (n+1) ≫ y.f (n+1) +
@@ -101,7 +101,8 @@ def CochainFourfoldData.tertiary (q : CochainFourfoldData P0 P1 P2 P3 P4)
   w := chainFamily (k := 3) w
   support := chainFamily_off w
   coherence i j k hj hk := by
-    have hd := chainFamily_d (k := 3) w i k (by omega)
+    have hd := chainFamily_d_between (k := 3) (l := 2) w (by decide)
+      i (i-1) (k+1) k (by omega) rfl rfl
     have hc : chainFamily (k := 2) (δ (-3) (-2) w) i k =
         chainFamily (k := 2) q.z03 i k ≫ q.x34.f k +
           (chainFamily (k := 1) q.h02 i j ≫ chainFamily (k := 1) q.h24 j k +

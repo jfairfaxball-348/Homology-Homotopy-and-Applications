@@ -54,3 +54,5 @@ public import C4.DirectTransfer
 public import C4.ChainCochainBridge
 
 public import C4.CochainDefiningSystem
+
+public import C4.DirectDefiningSystem

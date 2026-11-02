@@ -121,13 +121,13 @@ theorem chainFamily_d {P Q : C4Complex} {k : ℤ}
     Category.assoc, doubleNeg_d_to, doubleNeg_d_from_assoc]
 
 /-- Boundary evaluation with chosen neighboring chain degrees. -/
-theorem chainFamily_d_at {P Q : C4Complex} {k : ℤ}
-    (z : Cochain (reverseComplex P) (reverseComplex Q) (-k))
-    (i i' j' j : ℤ) (hij : i+(k-1)=j) (hi : i'=i-1) (hj : j'=j+1) :
-    chainFamily (k := k-1) (δ (-k) (-(k-1)) z) i j =
+theorem chainFamily_d_between {P Q : C4Complex} {k l : ℤ}
+    (z : Cochain (reverseComplex P) (reverseComplex Q) (-k)) (hl : k-1=l)
+    (i i' j' j : ℤ) (hij : i+l=j) (hi : i'=i-1) (hj : j'=j+1) :
+    chainFamily (k := l) (δ (-k) (-l) z) i j =
       chainFamily z i j' ≫ Q.d j' j + P.d i i' ≫ chainFamily z i' j := by
   rw [chainFamily_on _ _ _ hij,
-    δ_v (-k) (-(k-1)) (by omega) z (-i) (-j) (by omega)
+    δ_v (-k) (-l) (by omega) z (-i) (-j) (by omega)
       (-j') (-i') (by omega) (by omega),
     chainFamily_on z i j' (by omega), chainFamily_on z i' j (by omega)]
   dsimp only [reverseComplex]
@@ -179,7 +179,8 @@ def chainHomotopyOfCochain {P Q : C4Complex} (f g : P ⟶ Q)
     change i+1 = j
     exact h.symm)
   comm i := by
-    have hd := chainFamily_d (k := 1) z i i (by omega)
+    have hd := chainFamily_d_between (k := 1) (l := 0) z (by decide)
+      i (i-1) (i+1) i (by omega) rfl rfl
     have he : chainFamily (k := 0) (δ (-1) 0 z) i i = f.f i + g.f i := by
       rw [hz, chainFamily_add (k := 0), chainFamily_ofHom, chainFamily_ofHom]
     rw [he] at hd
