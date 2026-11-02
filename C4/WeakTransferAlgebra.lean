@@ -91,6 +91,79 @@ theorem weakTripleWord_d
     add_zero, zero_add]
   first | rfl | (abel_nf <;> simp only [two_zsmul, two_nsmul, moduleHom_add_self_zero, add_zero, zero_add])
 
+/-- The actual fourfold terminal cochain. -/
+def fourfoldTerminal (x : P0 ⟶ P1) (y : P3 ⟶ P4)
+    (h02 : Cochain P0 P2 (-1)) (h24 : Cochain P2 P4 (-1))
+    (z03 : Cochain P0 P3 (-2)) (z14 : Cochain P1 P4 (-2)) : Cochain P0 P4 (-2) :=
+  z03.comp (Cochain.ofHom y) (by decide) +
+    (h02.comp h24 (by decide) + (Cochain.ofHom x).comp z14 (by decide))
+
+theorem fourfoldTerminal_closed
+    (x01 : P0 ⟶ P1) (x12 : P1 ⟶ P2) (x23 : P2 ⟶ P3) (x34 : P3 ⟶ P4)
+    (h02 : Cochain P0 P2 (-1)) (h13 : Cochain P1 P3 (-1)) (h24 : Cochain P2 P4 (-1))
+    (z03 : Cochain P0 P3 (-2)) (z14 : Cochain P1 P4 (-2))
+    (d02 : δ (-1) 0 h02 = Cochain.ofHom (x01 ≫ x12))
+    (d24 : δ (-1) 0 h24 = Cochain.ofHom (x23 ≫ x34))
+    (d03 : δ (-2) (-1) z03 = threefoldTerminal x01 x23 h02 h13)
+    (d14 : δ (-2) (-1) z14 = threefoldTerminal x12 x34 h13 h24) :
+    δ (-2) (-1) (fourfoldTerminal x01 x34 h02 h24 z03 z14) = 0 := by
+  simp only [fourfoldTerminal, δ_add, unsigned_δ_comp_any,
+    Int.reduceSub, Int.reduceAdd, Int.reduceNeg, δ_ofHom, d02, d24, d03, d14,
+    Cochain.comp_zero, Cochain.zero_comp, zero_add, add_zero,
+    Cochain.comp_add, Cochain.add_comp, threefoldTerminal]
+  apply Cochain.ext
+  intro p q hpq
+  simp only [Cochain.add_v, Cochain.comp_zero_cochain_v, Cochain.zero_cochain_comp_v,
+    Cochain.ofHom_v, Cochain.zero_v, HomologicalComplex.comp_f, Category.assoc]
+  first | rfl | (abel_nf <;> simp only [two_zsmul, two_nsmul, moduleHom_add_self_zero, add_zero, zero_add])
+
+/-- The final replacement-side comparison word. -/
+def weakQuadWord (x : P0 ⟶ P1) (b : Q3 ⟶ Q4)
+    (h02 : Cochain P0 P2 (-1)) (z03 : Cochain P0 P3 (-2))
+    (a34 : Cochain P3 Q4 (-1)) (a24 : Cochain P2 Q4 (-2))
+    (a03 : Cochain P0 Q3 (-3)) (a14 : Cochain P1 Q4 (-3)) : Cochain P0 Q4 (-3) :=
+  a03.comp (Cochain.ofHom b) (by decide) + z03.comp a34 (by decide) +
+    h02.comp a24 (by decide) + (Cochain.ofHom x).comp a14 (by decide)
+
+/-- The final curvature is the original terminal followed by the comparison quasi-isomorphism. -/
+theorem weakQuadWord_d
+    (x01 : P0 ⟶ P1) (x12 : P1 ⟶ P2) (x23 : P2 ⟶ P3) (x34 : P3 ⟶ P4)
+    (u3 : P3 ⟶ Q3) (u4 : P4 ⟶ Q4) (b2 : Q2 ⟶ Q3) (b3 : Q3 ⟶ Q4)
+    (a01 : Cochain P0 Q1 (-1)) (a12 : Cochain P1 Q2 (-1))
+    (a23 : Cochain P2 Q3 (-1)) (a34 : Cochain P3 Q4 (-1))
+    (h02 : Cochain P0 P2 (-1)) (h13 : Cochain P1 P3 (-1)) (h24 : Cochain P2 P4 (-1))
+    (a02 : Cochain P0 Q2 (-2)) (a13 : Cochain P1 Q3 (-2)) (a24 : Cochain P2 Q4 (-2))
+    (z03 : Cochain P0 P3 (-2)) (z14 : Cochain P1 P4 (-2))
+    (a03 : Cochain P0 Q3 (-3)) (a14 : Cochain P1 Q4 (-3))
+    (d02 : δ (-1) 0 h02 = Cochain.ofHom (x01 ≫ x12))
+    (d03 : δ (-2) (-1) z03 = threefoldTerminal x01 x23 h02 h13)
+    (da34 : δ (-1) 0 a34 = Cochain.ofHom (u3 ≫ b3) + Cochain.ofHom (x34 ≫ u4))
+    (da24 : δ (-2) (-1) a24 = weakPairWord x23 b3 a23 a34 +
+      h24.comp (Cochain.ofHom u4) (by decide))
+    (da03 : δ (-3) (-2) a03 = weakTripleWord x01 b2 h02 a23 a02 a13 +
+      z03.comp (Cochain.ofHom u3) (by decide))
+    (da14 : δ (-3) (-2) a14 = weakTripleWord x12 b3 h13 a34 a13 a24 +
+      z14.comp (Cochain.ofHom u4) (by decide))
+    (hz : b2 ≫ b3 = 0) :
+    δ (-3) (-2) (weakQuadWord x01 b3 h02 z03 a34 a24 a03 a14) =
+      (fourfoldTerminal x01 x34 h02 h24 z03 z14).comp (Cochain.ofHom u4) (by decide) := by
+  have hz' (n : ℤ) : b2.f n ≫ b3.f n = 0 := by
+    simpa using congrArg (fun f : Q2 ⟶ Q4 => f.f n) hz
+  simp only [weakQuadWord, δ_add, unsigned_δ_comp_any,
+    Int.reduceSub, Int.reduceAdd, Int.reduceNeg, δ_ofHom, d02, d03, da34, da24, da03, da14,
+    Cochain.comp_zero, Cochain.zero_comp, zero_add, add_zero,
+    Cochain.comp_add, Cochain.add_comp, weakPairWord, weakTripleWord,
+    threefoldTerminal, fourfoldTerminal]
+  apply Cochain.ext
+  intro p q hpq
+  simp only [Cochain.add_v, cochain_comp_v_neg_one,
+    Cochain.comp_zero_cochain_v, Cochain.zero_cochain_comp_v,
+    Cochain.ofHom_v, HomologicalComplex.comp_f, Category.assoc, hz', comp_zero,
+    add_zero, zero_add]
+  first | rfl | (abel_nf <;> simp only [two_zsmul, two_nsmul, moduleHom_add_self_zero, add_zero, zero_add])
+
 #print axioms weakPairWord_d
 #print axioms weakTripleWord_d
+#print axioms fourfoldTerminal_closed
+#print axioms weakQuadWord_d
 end C4
