@@ -2,6 +2,7 @@ module
 public import C4.HomDifferentialLemmas
 public import Mathlib.Algebra.Homology.HomotopyCategory.HomComplex
 public import Mathlib.Algebra.Homology.DerivedCategory.KProjective
+public import Mathlib.Algebra.Category.ModuleCat.Projective
 
 @[expose] public section
 
@@ -155,6 +156,37 @@ theorem comparison_of_bounded_projective_quasiIso
       Nonempty (Homotopy (u ≫ v) (𝟙 P)) := by
   letI := CochainComplex.isKProjective_of_projective P p
   letI := CochainComplex.isKProjective_of_projective Q q
+  exact comparison_of_quasiIso v
+
+/-- The ORIGINAL C4 shifted resolutions satisfy K-projectivity after
+reversal. This proves the original-side comparison hypothesis; it says
+nothing about arbitrary replacement objects. -/
+theorem reverseResolution_isKProjective (s : ℤ) :
+    (reverseComplex (integerShiftResolution s)).IsKProjective := by
+  let P := reverseComplex (integerShiftResolution s)
+  haveI : ∀ n : ℤ, Projective (P.X n) := by
+    intro n
+    change Projective (integerObject (-n-s))
+    by_cases hn : 0 ≤ -n-s
+    · rw [integerObject_nonnegative (-n-s) hn]
+      infer_instance
+    · exact (integerObject_isZero_negative (-n-s) (by omega)).projective
+  haveI : P.IsStrictlyLE (-s) := by
+    apply (CochainComplex.isStrictlyLE_iff P (-s)).2
+    intro n hn
+    exact integerObject_isZero_negative (-n-s) (by omega)
+  exact CochainComplex.isKProjective_of_projective P (-s)
+
+/-- For comparison INTO an original shifted C4 resolution, the additional
+K-projectivity obligation is only on the replacement. Its construction
+must still preserve strict square-zero arrows and adjacent classes. -/
+theorem comparison_to_resolution
+    {Q : CochainComplex (ModuleCat B) ℤ} [Q.IsKProjective] (s : ℤ)
+    (v : Q ⟶ reverseComplex (integerShiftResolution s)) [QuasiIso v] :
+    ∃ u : reverseComplex (integerShiftResolution s) ⟶ Q,
+      Nonempty (Homotopy (v ≫ u) (𝟙 Q)) ∧
+      Nonempty (Homotopy (u ≫ v) (𝟙 _)) := by
+  haveI := reverseResolution_isKProjective s
   exact comparison_of_quasiIso v
 
 /-- The actual one-cut word in manuscript (5.3), in reversed grading. -/
@@ -311,11 +343,13 @@ theorem directTertiary_d
     Cochain.ofHom, Cochain.ofHoms, Cochain.ofHomotopy,
     HomologicalComplex.comp_f, HomologicalComplex.id_f]
   <;> simp [add_assoc, Category.assoc, h0, h1, h2, h0a, h1a, h2a, Preadditive.add_comp, Preadditive.comp_add]
-  <;> abel
+  <;> first | rfl | (trace_state; abel)
 
 -- Hosted build records the dependency axioms of the actual proof batch.
 #print axioms comparison_of_quasiIso
 #print axioms comparison_of_bounded_projective_quasiIso
+#print axioms reverseResolution_isKProjective
+#print axioms comparison_to_resolution
 #print axioms reverseHomotopy_d
 #print axioms directPrimary_d
 #print axioms directSecondary_d
