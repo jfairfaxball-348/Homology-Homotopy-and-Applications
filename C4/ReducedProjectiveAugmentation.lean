@@ -49,14 +49,15 @@ theorem reducedProjectiveAugmentation_exact (M : ModuleCat B) :
         change I.map (Λ.chainComplexXOneIso M).hom ≫ _ =
           I.map ((Λ.chainComplex M).d 1 0) ≫ I.map (Λ.chainComplexXZeroIso M).hom
         rw [LeftResolution.map_chainComplex_d_1_0]
-        simp [Category.assoc])
-      (by simp [reducedProjectiveAugmentation, Λ, I])
+        simp [S, Category.assoc])
+      (by simp [S, reducedProjectiveAugmentation, Λ, I])
   exact ShortComplex.exact_of_iso e.symm hs
 
 /-- The induced map on degree-zero homology is an isomorphism, not just an abstract H0 computation. -/
 theorem reducedProjectiveAugmentationMap_quasiIsoAt_zero (M : ModuleCat B) :
     QuasiIsoAt (reducedProjectiveAugmentationMap M) 0 := by
   have hg1 : ((reducedProjectiveFunctor.obj M).sc' 1 0 0).g = 0 := by
+    change (reducedProjectiveFunctor.obj M).d 0 0 = 0
     apply HomologicalComplex.shape
     decide
   have hf2 : (((ChainComplex.single₀ (ModuleCat B)).obj M).sc' 1 0 0).f = 0 := by
@@ -65,11 +66,16 @@ theorem reducedProjectiveAugmentationMap_quasiIsoAt_zero (M : ModuleCat B) :
     simp [HomologicalComplex.sc']
   apply (quasiIsoAt_iff' (reducedProjectiveAugmentationMap M) 1 0 0
     (by simp [ChainComplex.prev]) (by simp [ChainComplex.next])).2
-  exact (ShortComplex.quasiIso_iff_of_zeros' _ hg1 hf2 hg2).2
-    ⟨by simpa only [reducedProjectiveAugmentationMap_zero] using
-      reducedProjectiveAugmentation_exact M,
-     by simpa only [reducedProjectiveAugmentationMap_zero] using
-      reducedProjectiveAugmentation_epi M⟩
+  apply (ShortComplex.quasiIso_iff_of_zeros' _ hg1 hf2 hg2).2
+  constructor
+  · change (ShortComplex.mk ((reducedProjectiveFunctor.obj M).d 1 0)
+      ((reducedProjectiveAugmentationMap M).f 0)
+      (by rw [reducedProjectiveAugmentationMap_zero]; exact reducedProjectiveAugmentation_d M)).Exact
+    rw [reducedProjectiveAugmentationMap_zero]
+    exact reducedProjectiveAugmentation_exact M
+  · change Epi ((reducedProjectiveAugmentationMap M).f 0)
+    rw [reducedProjectiveAugmentationMap_zero]
+    infer_instance
 
 /-- The entire reduced coefficient resolution has the correct induced augmentation quasi-isomorphism. -/
 instance reducedProjectiveAugmentationMap_quasiIso (M : ModuleCat B) :
