@@ -1,6 +1,7 @@
 module
 public import C4.HomDifferentialLemmas
 public import Mathlib.Algebra.Homology.HomotopyCategory.HomComplex
+public import Mathlib.Algebra.Homology.DerivedCategory.KProjective
 
 @[expose] public section
 
@@ -70,7 +71,12 @@ def reverseHomotopy {P Q : C4Complex} {f g : P ⟶ Q}
       prevD_eq (C := reverseComplex P) (D := reverseComplex Q) (fun i j => h.hom (-i) (-j))
         (show (ComplexShape.up ℤ).Rel (i-1) i by
           change i-1+1 = i; omega)]
-    simpa [reverseMap, reverseComplex, neg_add, neg_sub, sub_eq_add_neg, add_comm] using hh
+    change f.f (-i) =
+      (P.d (-i) (-(i+1)) ≫ h.hom (-(i+1)) (-i) +
+        h.hom (-i) (-(i-1)) ≫ Q.d (-(i-1)) (-i)) + g.f (-i)
+    have ha : -(i+1) = -i-1 := by omega
+    have hb : -(i-1) = -i+1 := by omega
+    simpa only [ha, hb] using hh
 
 
 /-- Characteristic two on every HomComplex cochain, over arbitrary B-modules. -/
@@ -126,6 +132,19 @@ theorem unsigned_δ_comp_any {F G K : CochainComplex (ModuleCat B) ℤ}
       δ_shape a (m-b) (by omega)]
     simp only [Cochain.comp_zero, Cochain.zero_comp, add_zero]
 
+/-- An explicit sufficient comparison contract. QuasiIso is used only with
+K-projectivity of BOTH complexes. Supplying these instances for a strict
+square-zero replacement remains a separate producer obligation. -/
+theorem comparison_of_quasiIso
+    {P Q : CochainComplex (ModuleCat B) ℤ}
+    [P.IsKProjective] [Q.IsKProjective] (v : Q ⟶ P)
+    [HomologicalComplex.QuasiIso v] :
+    ∃ u : P ⟶ Q, Nonempty (Homotopy (v ≫ u) (𝟙 Q)) ∧
+      Nonempty (Homotopy (u ≫ v) (𝟙 P)) := by
+  obtain ⟨e, rfl⟩ := (CochainComplex.IsKProjective.quasiIso_iff v).mp
+    (inferInstance : HomologicalComplex.QuasiIso v)
+  exact ⟨e.inv, ⟨e.homotopyHomInvId⟩, ⟨e.homotopyInvHomId⟩⟩
+
 /-- The actual one-cut word in manuscript (5.3), in reversed grading. -/
 def directPrimary {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B) ℤ}
     (u₀ : P₀ ⟶ Q₀) (b₀ : Q₀ ⟶ Q₁) (b₁ : Q₁ ⟶ Q₂)
@@ -150,7 +169,7 @@ theorem directPrimary_d {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B)
     Cochain.comp_add, Cochain.add_comp, ← Cochain.ofHom_comp]
   have hzv : b₀ ≫ b₁ ≫ v₂ = 0 := by
     rw [← Category.assoc, hz, zero_comp]
-  simp only [← Cochain.ofHom_comp, Category.assoc, hzv, comp_zero,
+  simp only [← Cochain.ofHom_comp, Category.assoc, Category.id_comp, hzv, comp_zero,
     Cochain.ofHom_zero, add_zero]
 
 /-- The primary equation in precisely the defining-system product form. -/
@@ -222,7 +241,7 @@ theorem directSecondary_d
   dsimp [directPrimary, Cochain.comp, Cochain.mk, Cochain.v,
     Cochain.ofHom, Cochain.ofHoms, Cochain.ofHomotopy,
     HomologicalComplex.comp_f, HomologicalComplex.id_f]
-  <;> simp [Category.assoc, h0, h1, h0a, h1a, Preadditive.add_comp, Preadditive.comp_add]
+  <;> simp [add_assoc, Category.assoc, h0, h1, h0a, h1a, Preadditive.add_comp, Preadditive.comp_add]
 
 /-- Differentiating the three-cut word gives the three possible cuts.
 This is the degree-three filler calculation required by manuscript (5.4). -/
@@ -260,7 +279,7 @@ theorem directTertiary_d
   dsimp [directPrimary, directSecondary, Cochain.comp, Cochain.mk, Cochain.v,
     Cochain.ofHom, Cochain.ofHoms, Cochain.ofHomotopy,
     HomologicalComplex.comp_f, HomologicalComplex.id_f]
-  <;> simp [Category.assoc, h0, h1, h2, h0a, h1a, h2a, Preadditive.add_comp, Preadditive.comp_add]
+  <;> simp [add_assoc, Category.assoc, h0, h1, h2, h0a, h1a, h2a, Preadditive.add_comp, Preadditive.comp_add]
   <;> abel
 
 end C4
