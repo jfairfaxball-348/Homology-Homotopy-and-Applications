@@ -47,6 +47,7 @@ def reverseMap {P Q : C4Complex} (f : P ⟶ Q) :
     reverseMap (0 : P ⟶ Q) = 0 := rfl
 
 /-- Actual chain homotopies become actual cochain homotopies. -/
+set_option backward.isDefEq.respectTransparency false in
 def reverseHomotopy {P Q : C4Complex} {f g : P ⟶ Q}
     (h : Homotopy f g) : Homotopy (reverseMap f) (reverseMap g) where
   hom i j := h.hom (-i) (-j)
@@ -110,6 +111,19 @@ theorem unsigned_δ_comp_succ {F G K : CochainComplex (ModuleCat B) ℤ}
         (δ a (a+1) f).comp g (by omega) :=
   unsigned_δ_comp f g hab (a+1) (b+1) (c+1) rfl rfl rfl
 
+/-- A total-degree form of Leibniz with no arithmetic side goals for simp. -/
+theorem unsigned_δ_comp_any {F G K : CochainComplex (ModuleCat B) ℤ}
+    {a b c : ℤ} (f : Cochain F G a) (g : Cochain G K b) (hab : a+b=c)
+    (m : ℤ) :
+    δ c m (f.comp g hab) =
+      f.comp (δ b (m-a) g) (by omega) +
+        (δ a (m-b) f).comp g (by omega) := by
+  by_cases h : c+1=m
+  · exact unsigned_δ_comp f g hab (m-b) (m-a) m h (by omega) (by omega)
+  · rw [δ_shape c m (by omega), δ_shape b (m-a) (by omega),
+      δ_shape a (m-b) (by omega)]
+    simp only [Cochain.comp_zero, Cochain.zero_comp, add_zero]
+
 /-- The actual one-cut word in manuscript (5.3), in reversed grading. -/
 def directPrimary {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B) ℤ}
     (u₀ : P₀ ⟶ Q₀) (b₀ : Q₀ ⟶ Q₁) (b₁ : Q₁ ⟶ Q₂)
@@ -129,7 +143,7 @@ theorem directPrimary_d {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B)
     (hz : b₀ ≫ b₁ = 0) :
     δ (-1) 0 (directPrimary u₀ b₀ b₁ v₂ s₁) =
       Cochain.ofHom (u₀ ≫ b₀ ≫ r₁ ≫ b₁ ≫ v₂) := by
-  simp only [directPrimary, unsigned_δ_comp_succ, δ_ofHom, δ_ofHomotopy,
+  simp only [directPrimary, unsigned_δ_comp_any, δ_ofHom, δ_ofHomotopy,
     cochain_sub, Cochain.comp_zero, Cochain.zero_comp, add_zero, zero_add,
     Cochain.comp_add, Cochain.add_comp, ← Cochain.ofHom_comp]
   simp [Category.assoc, hz]
@@ -162,5 +176,34 @@ def directTertiary {P₀ P4 Q0 Q1 Q2 Q3 Q4 : CochainComplex (ModuleCat B) ℤ}
     {r3 : Q3 ⟶ Q3} (s3 : Homotopy r3 (𝟙 Q3)) :
     Cochain P₀ P4 (-3) :=
   (Cochain.comp (n₁ := (-3)) (n₂ := (0)) (n₁₂ := (-3)) (Cochain.comp (n₁ := (-3)) (n₂ := (0)) (n₁₂ := (-3)) (Cochain.comp (n₁ := (-2)) (n₂ := (-1)) (n₁₂ := (-3)) (Cochain.comp (n₁ := (-2)) (n₂ := (0)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-1)) (n₂ := (-1)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-1)) (n₂ := (0)) (n₁₂ := (-1)) (Cochain.comp (n₁ := (0)) (n₂ := (-1)) (n₁₂ := (-1)) (Cochain.comp (n₁ := (0)) (n₂ := (0)) (n₁₂ := (0)) (Cochain.ofHom u) (Cochain.ofHom b0) (by decide)) (Cochain.ofHomotopy s1) (by decide)) (Cochain.ofHom b1) (by decide)) (Cochain.ofHomotopy s2) (by decide)) (Cochain.ofHom b2) (by decide)) (Cochain.ofHomotopy s3) (by decide)) (Cochain.ofHom b3) (by decide)) (Cochain.ofHom v) (by decide))
+
+/-- The two-cut equation obtained by differentiating the actual word.
+Both identity summands are eliminated by strict consecutive zero maps. -/
+theorem directSecondary_d
+    {P₀ P3 Q0 Q1 Q2 Q3 : CochainComplex (ModuleCat B) ℤ}
+    (u : P₀ ⟶ Q0) (b0 : Q0 ⟶ Q1) (b1 : Q1 ⟶ Q2) (b2 : Q2 ⟶ Q3)
+    (v : Q3 ⟶ P3) {r1 : Q1 ⟶ Q1} {r2 : Q2 ⟶ Q2}
+    (s1 : Homotopy r1 (𝟙 Q1)) (s2 : Homotopy r2 (𝟙 Q2))
+    (hz0 : b0 ≫ b1 = 0) (hz1 : b1 ≫ b2 = 0) :
+    δ (-2) (-1) (directSecondary u b0 b1 b2 v s1 s2) =
+      directPrimary u b0 b1 (r2 ≫ b2 ≫ v) s1 +
+        directPrimary (u ≫ b0 ≫ r1) b1 b2 v s2 := by
+  have h0 (n : ℤ) : b0.f n ≫ b1.f n = 0 := by
+    simpa using congrArg (fun f : Q0 ⟶ Q2 => f.f n) hz0
+  have h1 (n : ℤ) : b1.f n ≫ b2.f n = 0 := by
+    simpa using congrArg (fun f : Q1 ⟶ Q3 => f.f n) hz1
+  have h0a (n : ℤ) {M : ModuleCat B} (f : Q2.X n ⟶ M) :
+      b0.f n ≫ b1.f n ≫ f = 0 := by rw [← Category.assoc, h0, zero_comp]
+  have h1a (n : ℤ) {M : ModuleCat B} (f : Q3.X n ⟶ M) :
+      b1.f n ≫ b2.f n ≫ f = 0 := by rw [← Category.assoc, h1, zero_comp]
+  simp only [directSecondary, unsigned_δ_comp_any, δ_ofHom, δ_ofHomotopy,
+    cochain_sub, Cochain.comp_zero, Cochain.zero_comp, add_zero, zero_add,
+    Cochain.comp_add, Cochain.add_comp]
+  apply Cochain.ext
+  intro p q hpq
+  simp [directPrimary, Cochain.comp, Cochain.mk, Cochain.v,
+    Cochain.ofHom, Cochain.ofHoms, Cochain.ofHomotopy,
+    Preadditive.add_comp, Preadditive.comp_add, Category.assoc,
+    h0, h1, h0a, h1a, add_assoc]
 
 end C4
