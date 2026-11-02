@@ -63,20 +63,18 @@ def reverseHomotopy {P Q : C4Complex} {f g : P ⟶ Q}
     omega
   comm i := by
     have hh := h.comm (-i)
-    rw [dNext_eq h.hom (show (ComplexShape.down ℤ).Rel (-i) (-i-1) by
-      change -i-1+1 = -i; omega),
-      prevD_eq h.hom (show (ComplexShape.down ℤ).Rel (-i+1) (-i) by rfl)] at hh
-    rw [dNext_eq (C := reverseComplex P) (D := reverseComplex Q) (fun i j => h.hom (-i) (-j))
+    rw [dNext_eq h.hom (show (ComplexShape.down ℤ).Rel (-i) (-(i+1)) by
+      change -(i+1)+1 = -i; omega),
+      prevD_eq h.hom (show (ComplexShape.down ℤ).Rel (-(i-1)) (-i) by
+        change -i+1 = -(i-1); omega)] at hh
+    rw [dNext_eq (C := reverseComplex P) (D := reverseComplex Q)
+        (fun i j => h.hom (-i) (-j))
         (show (ComplexShape.up ℤ).Rel i (i+1) by rfl),
-      prevD_eq (C := reverseComplex P) (D := reverseComplex Q) (fun i j => h.hom (-i) (-j))
+      prevD_eq (C := reverseComplex P) (D := reverseComplex Q)
+        (fun i j => h.hom (-i) (-j))
         (show (ComplexShape.up ℤ).Rel (i-1) i by
           change i-1+1 = i; omega)]
-    change f.f (-i) =
-      (P.d (-i) (-(i+1)) ≫ h.hom (-(i+1)) (-i) +
-        h.hom (-i) (-(i-1)) ≫ Q.d (-(i-1)) (-i)) + g.f (-i)
-    have ha : -(i+1) = -i-1 := by omega
-    have hb : -(i-1) = -i+1 := by omega
-    convert! hh using 1 <;> congr 3 <;> omega
+    exact hh
 
 
 /-- Characteristic two on every HomComplex cochain, over arbitrary B-modules. -/
@@ -303,11 +301,12 @@ theorem directTertiary_d
   apply Cochain.ext
   intro p q hpq
   subst q
-  dsimp [directPrimary, directSecondary, Cochain.comp, Cochain.mk, Cochain.v,
+  simp only [directPrimary, directSecondary, Cochain.add_v,
+    Cochain.comp_zero_cochain_v, Cochain.zero_cochain_comp_v, Cochain.ofHom_v]
+  dsimp [Cochain.comp, Cochain.mk, Cochain.v,
     Cochain.ofHom, Cochain.ofHoms, Cochain.ofHomotopy,
     HomologicalComplex.comp_f, HomologicalComplex.id_f]
   <;> simp [add_assoc, Category.assoc, h0, h1, h2, h0a, h1a, h2a, Preadditive.add_comp, Preadditive.comp_add]
-  <;> simp_all only [add_assoc, add_comm, add_left_comm]
   <;> trace_state
   <;> abel
 
