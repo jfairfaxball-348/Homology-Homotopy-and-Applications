@@ -76,7 +76,7 @@ def reverseHomotopy {P Q : C4Complex} {f g : P ⟶ Q}
         h.hom (-i) (-(i-1)) ≫ Q.d (-(i-1)) (-i)) + g.f (-i)
     have ha : -(i+1) = -i-1 := by omega
     have hb : -(i-1) = -i+1 := by omega
-    simpa only [ha, hb] using hh
+    convert! hh using 1 <;> congr 3 <;> omega
 
 
 /-- Characteristic two on every HomComplex cochain, over arbitrary B-modules. -/
@@ -138,12 +138,26 @@ square-zero replacement remains a separate producer obligation. -/
 theorem comparison_of_quasiIso
     {P Q : CochainComplex (ModuleCat B) ℤ}
     [P.IsKProjective] [Q.IsKProjective] (v : Q ⟶ P)
-    [HomologicalComplex.QuasiIso v] :
+    [QuasiIso v] :
     ∃ u : P ⟶ Q, Nonempty (Homotopy (v ≫ u) (𝟙 Q)) ∧
       Nonempty (Homotopy (u ≫ v) (𝟙 P)) := by
   obtain ⟨e, rfl⟩ := (CochainComplex.IsKProjective.quasiIso_iff v).mp
-    (inferInstance : HomologicalComplex.QuasiIso v)
+    (inferInstance : QuasiIso v)
   exact ⟨e.inv, ⟨e.homotopyHomInvId⟩, ⟨e.homotopyInvHomId⟩⟩
+
+/-- Bounded-above complexes of projective B-modules satisfy the comparison
+contract. These are additional hypotheses, not consequences of monic bar
+maps or objectwise QuasiIso. Reversal turns this bound into a chain lower bound. -/
+theorem comparison_of_bounded_projective_quasiIso
+    {P Q : CochainComplex (ModuleCat B) ℤ} (p q : ℤ)
+    [P.IsStrictlyLE p] [Q.IsStrictlyLE q]
+    [∀ n : ℤ, Projective (P.X n)] [∀ n : ℤ, Projective (Q.X n)]
+    (v : Q ⟶ P) [QuasiIso v] :
+    ∃ u : P ⟶ Q, Nonempty (Homotopy (v ≫ u) (𝟙 Q)) ∧
+      Nonempty (Homotopy (u ≫ v) (𝟙 P)) := by
+  letI := CochainComplex.isKProjective_of_projective P p
+  letI := CochainComplex.isKProjective_of_projective Q q
+  exact comparison_of_quasiIso v
 
 /-- The actual one-cut word in manuscript (5.3), in reversed grading. -/
 def directPrimary {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B) ℤ}
@@ -181,6 +195,19 @@ theorem directPrimary_coherence
     δ (-1) 0 (directPrimary u₀ b₀ b₁ v₂ s₁) =
       Cochain.ofHom ((u₀ ≫ b₀ ≫ v₁) ≫ (u₁ ≫ b₁ ≫ v₂)) := by
   simpa only [Category.assoc] using directPrimary_d u₀ b₀ b₁ v₂ s₁ hz
+
+/-- The constructed primary word gives an actual Mathlib homotopy via the
+library equivalence, rather than an assumed primary-coherence field. -/
+def directPrimaryHomotopy
+    {P₀ P₂ Q₀ Q₁ Q₂ R₁ : CochainComplex (ModuleCat B) ℤ}
+    (u₀ : P₀ ⟶ Q₀) (b₀ : Q₀ ⟶ Q₁) (b₁ : Q₁ ⟶ Q₂)
+    (v₂ : Q₂ ⟶ P₂) (v₁ : Q₁ ⟶ R₁) (u₁ : R₁ ⟶ Q₁)
+    (s₁ : Homotopy (v₁ ≫ u₁) (𝟙 Q₁)) (hz : b₀ ≫ b₁ = 0) :
+    Homotopy ((u₀ ≫ b₀ ≫ v₁) ≫ (u₁ ≫ b₁ ≫ v₂)) 0 :=
+  (Cochain.equivHomotopy _ _).symm
+    ⟨directPrimary u₀ b₀ b₁ v₂ s₁, by
+      simp only [Cochain.ofHom_zero, add_zero,
+        directPrimary_coherence u₀ b₀ b₁ v₂ v₁ u₁ s₁ hz]⟩
 
 /-- The actual 2-cut word, not an assumed coherence. -/
 def directSecondary {P₀ P3 Q0 Q1 Q2 Q3 : CochainComplex (ModuleCat B) ℤ}
@@ -280,6 +307,16 @@ theorem directTertiary_d
     Cochain.ofHom, Cochain.ofHoms, Cochain.ofHomotopy,
     HomologicalComplex.comp_f, HomologicalComplex.id_f]
   <;> simp [add_assoc, Category.assoc, h0, h1, h2, h0a, h1a, h2a, Preadditive.add_comp, Preadditive.comp_add]
+  <;> simp_all only [add_assoc, add_comm, add_left_comm]
+  <;> trace_state
   <;> abel
+
+-- Hosted build records the dependency axioms of the actual proof batch.
+#print axioms comparison_of_quasiIso
+#print axioms comparison_of_bounded_projective_quasiIso
+#print axioms reverseHomotopy_d
+#print axioms directPrimary_d
+#print axioms directSecondary_d
+#print axioms directTertiary_d
 
 end C4
