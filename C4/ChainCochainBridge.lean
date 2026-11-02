@@ -12,6 +12,7 @@ existing global defining-system and tertiary-filler interfaces.
 -/
 
 set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
 set_option backward.defeqAttrib.useBackward true
 
 namespace C4
@@ -181,12 +182,13 @@ def chainHomotopyOfCochain {P Q : C4Complex} (f g : P ⟶ Q)
   comm i := by
     have hd := chainFamily_d_between (k := 1) (l := 0) z (by decide)
       i (i-1) (i+1) i (by omega) rfl rfl
+    simp only [neg_zero] at hd
     have he : chainFamily (k := 0) (δ (-1) 0 z) i i = f.f i + g.f i := by
       rw [hz, chainFamily_add (k := 0), chainFamily_ofHom, chainFamily_ofHom]
     rw [he] at hd
-    rw [dNext_eq (chainFamily (k := 1) z) (show (ComplexShape.down ℤ).Rel i (i-1) by
+    rw [dNext_eq (C := P) (D := Q) (chainFamily (k := 1) z) (show (ComplexShape.down ℤ).Rel i (i-1) by
       change i-1+1=i; omega),
-      prevD_eq (chainFamily (k := 1) z) (show (ComplexShape.down ℤ).Rel (i+1) i by rfl)]
+      prevD_eq (C := P) (D := Q) (chainFamily (k := 1) z) (show (ComplexShape.down ℤ).Rel (i+1) i by rfl)]
     calc
       f.f i = (f.f i + g.f i) + g.f i := by
         rw [add_assoc, moduleHom_add_self_zero, add_zero]

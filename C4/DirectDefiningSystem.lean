@@ -5,6 +5,7 @@ public import C4.CochainDefiningSystem
 
 /-! # The direct square-zero words as one actual defining system and filler -/
 set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
 set_option backward.defeqAttrib.useBackward true
 namespace C4
 open CategoryTheory CategoryTheory.Limits

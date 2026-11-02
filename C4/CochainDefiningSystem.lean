@@ -5,6 +5,7 @@ public import C4.ChainCochainBridge
 
 /-! # Actual cochain defining systems produce the existing chain interfaces -/
 set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
 set_option backward.defeqAttrib.useBackward true
 namespace C4
 open CategoryTheory CategoryTheory.Limits

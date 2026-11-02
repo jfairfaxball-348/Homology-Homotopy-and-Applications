@@ -9,6 +9,7 @@ The replacement producer must supply the stated comparison and adjacent
 compatibility data. No unit-residue or higher-filler equation is assumed.
 -/
 set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
 set_option backward.defeqAttrib.useBackward true
 namespace C4
 open CategoryTheory
