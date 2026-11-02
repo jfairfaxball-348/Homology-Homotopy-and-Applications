@@ -50,3 +50,5 @@ public import C4.RealShoelaceBarTotal
 public import C4.RealShoelaceBarAugmentation
 
 public import C4.DirectTransfer
+
+public import C4.ChainCochainBridge
