@@ -3052,12 +3052,13 @@
       "pr": 214,
       "branch": "proof/s174-obstruction-bridge-20261102",
       "code_head": "eaf7092f75674801ba64c0cb237d088ebbf33f70",
-      "status": "UNMERGED_DRAFT_FULL_LEAN_NOT_YET_GREEN",
-      "component_compiled": "Original-system cochain/chain defining-system and tertiary-filler bridge; strict-zero direct contradiction under explicit comparison and adjacent derived-class hypotheses.",
+      "status": "UNMERGED_DRAFT_FULL_LEAN_FAILED",
+      "component_compiled": "Original-system cochain/chain defining-system and tertiary-filler bridge; strict-zero direct contradiction under explicit comparison and adjacent derived-class hypotheses. Coefficient augmentation QuasiIso and all two/three/four-edge curvature equations also compiled.",
       "remaining": "Weaker target-QuasiIso coherent boundary lifting and iteration; whole-real replacement producer; derived cone/localisation and full metrics.",
       "lean_run": 41536335245,
       "integrity_run": 41536335230,
-      "record": "sessions/S174/PARTIAL.md"
+      "record": "sessions/S174/PARTIAL.md",
+      "latest_failure": "Lean #41536335245: lift_coherent_boundary elaboration times out at whnf, 2,000,000 heartbeats; not a proof certificate."
     }
   },
   "owner_strategy_update_20261102": {
