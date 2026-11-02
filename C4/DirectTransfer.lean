@@ -18,7 +18,7 @@ open CategoryTheory
 open CochainComplex.HomComplex
 
 /-- A chain complex read in the opposite integer grading. -/
-def reverseComplex (P : C4Complex) : CochainComplex (ModuleCat B) ℤ where
+abbrev reverseComplex (P : C4Complex) : CochainComplex (ModuleCat B) ℤ where
   X i := P.X (-i)
   d i j := P.d (-i) (-j)
   shape i j hij := by
@@ -62,10 +62,12 @@ def reverseHomotopy {P Q : C4Complex} {f g : P ⟶ Q}
     rw [dNext_eq h.hom (show (ComplexShape.down ℤ).Rel (-i) (-i-1) by
       change -i-1+1 = -i; omega),
       prevD_eq h.hom (show (ComplexShape.down ℤ).Rel (-i+1) (-i) by rfl)] at hh
-    change f.f (-i) =
-      P.d (-i) (-(i+1)) ≫ h.hom (-(i+1)) (-i) +
-        h.hom (-i) (-(i-1)) ≫ Q.d (-(i-1)) (-i) + g.f (-i)
-    simpa [neg_add, neg_sub, sub_eq_add_neg, add_comm] using hh
+    rw [dNext_eq (fun i j => h.hom (-i) (-j))
+        (show (ComplexShape.up ℤ).Rel i (i+1) by rfl),
+      prevD_eq (fun i j => h.hom (-i) (-j))
+        (show (ComplexShape.up ℤ).Rel (i-1) i by
+          change i-1+1 = i; omega)]
+    simpa [reverseMap, reverseComplex, neg_add, neg_sub, sub_eq_add_neg, add_comm] using hh
 
 
 /-- Characteristic two on every HomComplex cochain, over arbitrary B-modules. -/
@@ -113,9 +115,11 @@ def directPrimary {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B) ℤ}
     (u₀ : P₀ ⟶ Q₀) (b₀ : Q₀ ⟶ Q₁) (b₁ : Q₁ ⟶ Q₂)
     (v₂ : Q₂ ⟶ P₂) {r₁ : Q₁ ⟶ Q₁} (s₁ : Homotopy r₁ (𝟙 Q₁)) :
     Cochain P₀ P₂ (-1) :=
-  ((((Cochain.ofHom u₀).comp (Cochain.ofHom b₀) (by decide)).comp
-    (Cochain.ofHomotopy s₁) (by decide)).comp (Cochain.ofHom b₁)
-      (by decide)).comp (Cochain.ofHom v₂) (by decide)
+  let a : Cochain P₀ Q₁ 0 := Cochain.ofHom (u₀ ≫ b₀)
+  let b : Cochain P₀ Q₁ (-1) := a.comp (Cochain.ofHomotopy s₁) (by decide)
+  let c : Cochain P₀ Q₂ (-1) := b.comp (Cochain.ofHom b₁) (by decide)
+  c.comp (Cochain.ofHom v₂) (by decide)
+
 
 /-- Direct primary coherence from a strict consecutive zero. The middle
 endomorphism is supplied by an ACTUAL homotopy, never by QuasiIso alone. -/
@@ -129,5 +133,34 @@ theorem directPrimary_d {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B)
     cochain_sub, Cochain.comp_zero, Cochain.zero_comp, add_zero, zero_add,
     Cochain.comp_add, Cochain.add_comp, ← Cochain.ofHom_comp]
   simp [Category.assoc, hz]
+
+/-- The primary equation in precisely the defining-system product form. -/
+theorem directPrimary_coherence
+    {P₀ P₂ Q₀ Q₁ Q₂ R₁ : CochainComplex (ModuleCat B) ℤ}
+    (u₀ : P₀ ⟶ Q₀) (b₀ : Q₀ ⟶ Q₁) (b₁ : Q₁ ⟶ Q₂)
+    (v₂ : Q₂ ⟶ P₂) (v₁ : Q₁ ⟶ R₁) (u₁ : R₁ ⟶ Q₁)
+    (s₁ : Homotopy (v₁ ≫ u₁) (𝟙 Q₁)) (hz : b₀ ≫ b₁ = 0) :
+    δ (-1) 0 (directPrimary u₀ b₀ b₁ v₂ s₁) =
+      Cochain.ofHom ((u₀ ≫ b₀ ≫ v₁) ≫ (u₁ ≫ b₁ ≫ v₂)) := by
+  simpa only [Category.assoc] using directPrimary_d u₀ b₀ b₁ v₂ s₁ hz
+
+/-- The actual 2-cut word, not an assumed coherence. -/
+def directSecondary {P₀ P3 Q0 Q1 Q2 Q3 : CochainComplex (ModuleCat B) ℤ}
+    (u : P₀ ⟶ Q0) (b0 : Q0 ⟶ Q1) (b1 : Q1 ⟶ Q2) (b2 : Q2 ⟶ Q3)
+    (v : Q3 ⟶ P3)
+    {r1 : Q1 ⟶ Q1} (s1 : Homotopy r1 (𝟙 Q1))
+    {r2 : Q2 ⟶ Q2} (s2 : Homotopy r2 (𝟙 Q2)) :
+    Cochain P₀ P3 (-2) :=
+  (Cochain.comp (n₁ := (-2)) (n₂ := (0)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-2)) (n₂ := (0)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-1)) (n₂ := (-1)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-1)) (n₂ := (0)) (n₁₂ := (-1)) (Cochain.comp (n₁ := (0)) (n₂ := (-1)) (n₁₂ := (-1)) (Cochain.comp (n₁ := (0)) (n₂ := (0)) (n₁₂ := (0)) (Cochain.ofHom u) (Cochain.ofHom b0) (by decide)) (Cochain.ofHomotopy s1) (by decide)) (Cochain.ofHom b1) (by decide)) (Cochain.ofHomotopy s2) (by decide)) (Cochain.ofHom b2) (by decide)) (Cochain.ofHom v) (by decide))
+
+/-- The actual 3-cut word, not an assumed coherence. -/
+def directTertiary {P₀ P4 Q0 Q1 Q2 Q3 Q4 : CochainComplex (ModuleCat B) ℤ}
+    (u : P₀ ⟶ Q0) (b0 : Q0 ⟶ Q1) (b1 : Q1 ⟶ Q2) (b2 : Q2 ⟶ Q3) (b3 : Q3 ⟶ Q4)
+    (v : Q4 ⟶ P4)
+    {r1 : Q1 ⟶ Q1} (s1 : Homotopy r1 (𝟙 Q1))
+    {r2 : Q2 ⟶ Q2} (s2 : Homotopy r2 (𝟙 Q2))
+    {r3 : Q3 ⟶ Q3} (s3 : Homotopy r3 (𝟙 Q3)) :
+    Cochain P₀ P4 (-3) :=
+  (Cochain.comp (n₁ := (-3)) (n₂ := (0)) (n₁₂ := (-3)) (Cochain.comp (n₁ := (-3)) (n₂ := (0)) (n₁₂ := (-3)) (Cochain.comp (n₁ := (-2)) (n₂ := (-1)) (n₁₂ := (-3)) (Cochain.comp (n₁ := (-2)) (n₂ := (0)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-1)) (n₂ := (-1)) (n₁₂ := (-2)) (Cochain.comp (n₁ := (-1)) (n₂ := (0)) (n₁₂ := (-1)) (Cochain.comp (n₁ := (0)) (n₂ := (-1)) (n₁₂ := (-1)) (Cochain.comp (n₁ := (0)) (n₂ := (0)) (n₁₂ := (0)) (Cochain.ofHom u) (Cochain.ofHom b0) (by decide)) (Cochain.ofHomotopy s1) (by decide)) (Cochain.ofHom b1) (by decide)) (Cochain.ofHomotopy s2) (by decide)) (Cochain.ofHom b2) (by decide)) (Cochain.ofHomotopy s3) (by decide)) (Cochain.ofHom b3) (by decide)) (Cochain.ofHom v) (by decide))
 
 end C4
