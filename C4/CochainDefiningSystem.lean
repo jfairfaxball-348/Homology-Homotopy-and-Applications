@@ -71,8 +71,8 @@ theorem chainFamily_secondary
       chainFamily (k := 1) h n (n+1) ≫ y.f (n+1) +
         x.f n ≫ chainFamily (k := 1) h' n (n+1) := by
     rw [hz, chainFamily_add (k := 1),
-      chainFamily_comp_at (k := 1) (l := 0) h _ n (n+1) (n+1) (by omega) (by omega),
-      chainFamily_comp_at (k := 0) (l := 1) _ h' n n (n+1) (by omega) (by omega),
+      chainFamily_comp_at (k := 1) (l := 0) (n := 1) h _ (by decide) n (n+1) (n+1) (by omega) (by omega),
+      chainFamily_comp_at (k := 0) (l := 1) (n := 1) _ h' (by decide) n n (n+1) (by omega) (by omega),
       chainFamily_ofHom, chainFamily_ofHom]
   rw [Category.assoc, chainFamily_target]
   exact hd.symm.trans hc
@@ -108,9 +108,9 @@ def CochainFourfoldData.tertiary (q : CochainFourfoldData P0 P1 P2 P3 P4)
           (chainFamily (k := 1) q.h02 i j ≫ chainFamily (k := 1) q.h24 j k +
             q.x01.f i ≫ chainFamily (k := 2) q.z14 i k) := by
       rw [hw, chainFamily_add (k := 2), chainFamily_add (k := 2),
-        chainFamily_comp_at (k := 2) (l := 0) q.z03 _ i k k (by omega) (by omega),
-        chainFamily_comp_at (k := 1) (l := 1) q.h02 q.h24 i j k (by omega) (by omega),
-        chainFamily_comp_at (k := 0) (l := 2) _ q.z14 i i k (by omega) (by omega),
+        chainFamily_comp_at (k := 2) (l := 0) (n := 2) q.z03 _ (by decide) i k k (by omega) (by omega),
+        chainFamily_comp_at (k := 1) (l := 1) (n := 2) q.h02 q.h24 (by decide) i j k (by omega) (by omega),
+        chainFamily_comp_at (k := 0) (l := 2) (n := 2) _ q.z14 (by decide) i i k (by omega) (by omega),
         chainFamily_ofHom, chainFamily_ofHom]
     exact hc.symm.trans hd
 

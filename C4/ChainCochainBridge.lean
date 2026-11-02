@@ -148,11 +148,11 @@ theorem chainFamily_comp {P Q R : C4Complex} {k l : ℤ}
   simp only [Category.assoc, doubleNegTo_from_assoc, Category.id_comp]
 
 /-- Composition at any chosen middle chain degree; useful when a degree is zero. -/
-theorem chainFamily_comp_at {P Q R : C4Complex} {k l : ℤ}
+theorem chainFamily_comp_at {P Q R : C4Complex} {k l n : ℤ}
     (z : Cochain (reverseComplex P) (reverseComplex Q) (-k))
-    (w : Cochain (reverseComplex Q) (reverseComplex R) (-l))
+    (w : Cochain (reverseComplex Q) (reverseComplex R) (-l)) (hn : k+l=n)
     (i m j : ℤ) (hm : i+k=m) (hj : m+l=j) :
-    chainFamily (k := k+l) (z.comp w (by omega)) i j =
+    chainFamily (k := n) (z.comp w (by omega)) i j =
       chainFamily z i m ≫ chainFamily w m j := by
   rw [chainFamily_on _ _ _ (by omega),
     Cochain.comp_v z w (by omega) (-i) (-m) (-j) (by omega) (by omega),

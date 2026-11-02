@@ -56,3 +56,5 @@ public import C4.ChainCochainBridge
 public import C4.CochainDefiningSystem
 
 public import C4.DirectDefiningSystem
+
+public import C4.DirectObstruction
