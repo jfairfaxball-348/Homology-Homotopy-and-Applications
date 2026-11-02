@@ -52,3 +52,5 @@ public import C4.RealShoelaceBarAugmentation
 public import C4.DirectTransfer
 
 public import C4.ChainCochainBridge
+
+public import C4.CochainDefiningSystem

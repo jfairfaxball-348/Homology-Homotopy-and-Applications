@@ -120,6 +120,20 @@ theorem chainFamily_d {P Q : C4Complex} {k : ℤ}
   simp only [moduleHom_sign, Preadditive.comp_add, Preadditive.add_comp,
     Category.assoc, doubleNeg_d_to, doubleNeg_d_from_assoc]
 
+/-- Boundary evaluation with chosen neighboring chain degrees. -/
+theorem chainFamily_d_at {P Q : C4Complex} {k : ℤ}
+    (z : Cochain (reverseComplex P) (reverseComplex Q) (-k))
+    (i i' j' j : ℤ) (hij : i+(k-1)=j) (hi : i'=i-1) (hj : j'=j+1) :
+    chainFamily (k := k-1) (δ (-k) (-(k-1)) z) i j =
+      chainFamily z i j' ≫ Q.d j' j + P.d i i' ≫ chainFamily z i' j := by
+  rw [chainFamily_on _ _ _ hij,
+    δ_v (-k) (-(k-1)) (by omega) z (-i) (-j) (by omega)
+      (-j') (-i') (by omega) (by omega),
+    chainFamily_on z i j' (by omega), chainFamily_on z i' j (by omega)]
+  dsimp only [reverseComplex]
+  simp only [moduleHom_sign, Preadditive.comp_add, Preadditive.add_comp,
+    Category.assoc, doubleNeg_d_to, doubleNeg_d_from_assoc]
+
 /-- Evaluation respects composition at a chosen actual intermediate chain degree. -/
 theorem chainFamily_comp {P Q R : C4Complex} {k l : ℤ}
     (z : Cochain (reverseComplex P) (reverseComplex Q) (-k))
@@ -132,6 +146,25 @@ theorem chainFamily_comp {P Q R : C4Complex} {k l : ℤ}
     chainFamily_on z i (i+k) rfl,
     chainFamily_on w (i+k) j (by omega)]
   simp only [Category.assoc, doubleNegTo_from_assoc, Category.id_comp]
+
+/-- Composition at any chosen middle chain degree; useful when a degree is zero. -/
+theorem chainFamily_comp_at {P Q R : C4Complex} {k l : ℤ}
+    (z : Cochain (reverseComplex P) (reverseComplex Q) (-k))
+    (w : Cochain (reverseComplex Q) (reverseComplex R) (-l))
+    (i m j : ℤ) (hm : i+k=m) (hj : m+l=j) :
+    chainFamily (k := k+l) (z.comp w (by omega)) i j =
+      chainFamily z i m ≫ chainFamily w m j := by
+  rw [chainFamily_on _ _ _ (by omega),
+    Cochain.comp_v z w (by omega) (-i) (-m) (-j) (by omega) (by omega),
+    chainFamily_on z i m hm, chainFamily_on w m j hj]
+  simp only [Category.assoc, doubleNegTo_from_assoc, Category.id_comp]
+
+@[reassoc] theorem chainFamily_target {P Q : C4Complex} {k : ℤ}
+    (z : Cochain (reverseComplex P) (reverseComplex Q) (-k))
+    (i j j' : ℤ) (h : j=j') :
+    chainFamily z i j ≫ eqToHom (congrArg Q.X h) = chainFamily z i j' := by
+  simpa only [eqToHom_refl, Category.id_comp] using
+    (indexed_map_naturality (chainFamily z) (i := i) rfl h).symm
 
 /-- An actual boundary equation produces a genuine chain homotopy. -/
 def chainHomotopyOfCochain {P Q : C4Complex} (f g : P ⟶ Q)
@@ -147,9 +180,8 @@ def chainHomotopyOfCochain {P Q : C4Complex} (f g : P ⟶ Q)
     exact h.symm)
   comm i := by
     have hd := chainFamily_d (k := 1) z i i (by omega)
-    have he := congrArg (fun t : Cochain (reverseComplex P) (reverseComplex Q) 0 =>
-      chainFamily (k := 0) t i i) hz
-    simp only [chainFamily_add, chainFamily_ofHom] at he
+    have he : chainFamily (k := 0) (δ (-1) 0 z) i i = f.f i + g.f i := by
+      rw [hz, chainFamily_add (k := 0), chainFamily_ofHom, chainFamily_ofHom]
     rw [he] at hd
     rw [dNext_eq (chainFamily (k := 1) z) (show (ComplexShape.down ℤ).Rel i (i-1) by
       change i-1+1=i; omega),
