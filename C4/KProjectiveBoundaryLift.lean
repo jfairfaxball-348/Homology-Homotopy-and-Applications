@@ -10,6 +10,7 @@ This tests the weaker-data route: a quasi-isomorphism on the target
 induces the boundary-lifting operation needed for coherent transfer.
 No K-projectivity or homotopy inverse of the arbitrary target is assumed.
 -/
+set_option maxHeartbeats 2000000
 set_option backward.isDefEq.respectTransparency false
 set_option backward.isDefEq.respectTransparency.types false
 set_option backward.defeqAttrib.useBackward true

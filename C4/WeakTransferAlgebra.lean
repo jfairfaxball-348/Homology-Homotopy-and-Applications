@@ -32,7 +32,7 @@ theorem weakPairWord_d
     (hz : b0 ≫ b1 = 0) :
     δ (-1) 0 (weakPairWord x01 b1 a01 a12) =
       (Cochain.ofHom (x01 ≫ x12)).comp (Cochain.ofHom u2) (by decide) := by
-  have hz' : u0 ≫ b0 ≫ b1 = 0 := by rw [← Category.assoc, hz, comp_zero]
+  have hz' : u0 ≫ b0 ≫ b1 = 0 := by rw [hz, comp_zero]
   simp only [weakPairWord, δ_add, unsigned_δ_comp_any, Int.reduceSub,
     Int.reduceAdd, Int.reduceNeg, δ_ofHom, h01, h12, Cochain.comp_zero,
     Cochain.zero_comp, zero_add, add_zero, Cochain.comp_add, Cochain.add_comp,
