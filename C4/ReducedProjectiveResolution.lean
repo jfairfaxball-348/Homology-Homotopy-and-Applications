@@ -90,7 +90,7 @@ instance totalNat_preservesZero :
     (HomologicalComplex₂.totalFunctor (ModuleCat B) (.down ℕ) (.down ℕ) (.down ℕ)).PreservesZeroMorphisms where
   map_zero K L := by
     apply HomologicalComplex.Hom.ext
-    intro n
+    funext n
     apply HomologicalComplex₂.total.hom_ext
     intro i j hij
     rw [HomologicalComplex₂.ιTotal_map]

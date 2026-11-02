@@ -37,7 +37,7 @@ theorem globalAdjacent_constant_homotopy (s : ℤ)
       (by omega) (by omega) g)).c0 := by
   have hgg : g+g=0 := by
     apply HomologicalComplex.Hom.ext
-    intro n
+    funext n
     change g.f n + g.f n = 0
     exact moduleHom_add_self_zero (g.f n)
   have hz := globalAdjacent_constant_null s (f+g)
@@ -45,7 +45,7 @@ theorem globalAdjacent_constant_homotopy (s : ℤ)
   have he : positiveGlobalComponent s (s+1) (s+1) (by omega) (by omega) (f+g) =
       positiveGlobalComponent s (s+1) (s+1) (by omega) (by omega) f +
         positiveGlobalComponent s (s+1) (s+1) (by omega) (by omega) g := by
-    simp [positiveGlobalComponent, HomologicalComplex.add_f,
+    simp [positiveGlobalComponent, HomologicalComplex.add_f_apply,
       Preadditive.comp_add, Preadditive.add_comp]
   rw [he, regularEval_add] at hz
   have hbin : ∀ a b : ZMod 2, a+b=0 → a=b := by decide
@@ -95,6 +95,51 @@ theorem StrictZeroComparison.no_original_adjacent_classes (s : ℤ)
     z14_coherence := b.z14_coherence }
   exact g.no_tertiary_filler ⟨q.tertiary⟩
 
+/-- Equality of derived morphisms from an original resolution is reflected
+by an actual chain homotopy. Only source-side K-projectivity is needed. -/
+def originalMapHomotopyOfDerivedEq [HasDerivedCategory (ModuleCat B)] (s : ℤ)
+    {Q : C4Complex} (f g : integerShiftResolution s ⟶ Q)
+    (he : DerivedCategory.Q.map (reverseMap f) = DerivedCategory.Q.map (reverseMap g)) :
+    Homotopy f g := by
+  haveI := reverseResolution_isKProjective s
+  let e := DerivedCategory.quotientCompQhIso (ModuleCat B)
+  have hh : (HomotopyCategory.quotient (ModuleCat B) (.up ℤ)).map (reverseMap f) =
+      (HomotopyCategory.quotient (ModuleCat B) (.up ℤ)).map (reverseMap g) := by
+    apply (CochainComplex.IsKProjective.Qh_map_bijective
+      (reverseComplex (integerShiftResolution s))
+      ((HomotopyCategory.quotient (ModuleCat B) (.up ℤ)).obj (reverseComplex Q))).injective
+    apply (cancel_mono (e.hom.app (reverseComplex Q))).1
+    change ((HomotopyCategory.quotient (ModuleCat B) (.up ℤ) ⋙ DerivedCategory.Qh).map
+        (reverseMap f)) ≫ _ =
+      ((HomotopyCategory.quotient (ModuleCat B) (.up ℤ) ⋙ DerivedCategory.Qh).map
+        (reverseMap g)) ≫ _
+    rw [e.hom.naturality (reverseMap f), e.hom.naturality (reverseMap g), he]
+  let h := HomotopyCategory.homotopyOfEq (reverseMap f) (reverseMap g) hh
+  exact chainHomotopyOfCochain f g (CochainComplex.HomComplex.Cochain.ofHomotopy h)
+    (by simpa only [cochain_sub] using CochainComplex.HomComplex.δ_ofHomotopy h)
+
+/-- The direct contradiction consumes equality of the four derived adjacent
+classes. Their unit residues and an original-system tertiary filler are consequences. -/
+theorem StrictZeroComparison.no_original_derived_classes
+    [HasDerivedCategory (ModuleCat B)] (s : ℤ)
+    (q : StrictZeroComparison (integerShiftResolution s) (integerShiftResolution (s+1))
+      (integerShiftResolution (s+2)) (integerShiftResolution (s+3)) (integerShiftResolution (s+4)))
+    (h01 : DerivedCategory.Q.map (reverseMap q.cochainData.x01) =
+      DerivedCategory.Q.map (reverseMap (canonicalGlobalFourfold s).x01))
+    (h12 : DerivedCategory.Q.map (reverseMap q.cochainData.x12) =
+      DerivedCategory.Q.map (reverseMap (canonicalGlobalFourfold s).x12))
+    (h23 : DerivedCategory.Q.map (reverseMap q.cochainData.x23) =
+      DerivedCategory.Q.map (reverseMap (canonicalGlobalFourfold s).x23))
+    (h34 : DerivedCategory.Q.map (reverseMap q.cochainData.x34) =
+      DerivedCategory.Q.map (reverseMap (canonicalGlobalFourfold s).x34)) : False := by
+  exact q.no_original_adjacent_classes s
+    (originalMapHomotopyOfDerivedEq s _ _ h01)
+    (originalMapHomotopyOfDerivedEq (s+1) _ _ h12)
+    (originalMapHomotopyOfDerivedEq (s+2) _ _ h23)
+    (originalMapHomotopyOfDerivedEq (s+3) _ _ h34)
+
 #print axioms globalAdjacent_constant_homotopy
 #print axioms StrictZeroComparison.no_original_adjacent_classes
+#print axioms originalMapHomotopyOfDerivedEq
+#print axioms StrictZeroComparison.no_original_derived_classes
 end C4
