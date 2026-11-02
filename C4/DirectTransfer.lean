@@ -65,9 +65,9 @@ def reverseHomotopy {P Q : C4Complex} {f g : P ⟶ Q}
     rw [dNext_eq h.hom (show (ComplexShape.down ℤ).Rel (-i) (-i-1) by
       change -i-1+1 = -i; omega),
       prevD_eq h.hom (show (ComplexShape.down ℤ).Rel (-i+1) (-i) by rfl)] at hh
-    rw [dNext_eq (fun i j => h.hom (-i) (-j))
+    rw [dNext_eq (C := reverseComplex P) (D := reverseComplex Q) (fun i j => h.hom (-i) (-j))
         (show (ComplexShape.up ℤ).Rel i (i+1) by rfl),
-      prevD_eq (fun i j => h.hom (-i) (-j))
+      prevD_eq (C := reverseComplex P) (D := reverseComplex Q) (fun i j => h.hom (-i) (-j))
         (show (ComplexShape.up ℤ).Rel (i-1) i by
           change i-1+1 = i; omega)]
     simpa [reverseMap, reverseComplex, neg_add, neg_sub, sub_eq_add_neg, add_comm] using hh
@@ -145,7 +145,7 @@ theorem directPrimary_d {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B)
     (hz : b₀ ≫ b₁ = 0) :
     δ (-1) 0 (directPrimary u₀ b₀ b₁ v₂ s₁) =
       Cochain.ofHom (u₀ ≫ b₀ ≫ r₁ ≫ b₁ ≫ v₂) := by
-  simp only [directPrimary, unsigned_δ_comp_any, δ_ofHom, δ_ofHomotopy,
+  simp only [directPrimary, unsigned_δ_comp_any, Int.reduceSub, Int.reduceAdd, Int.reduceNeg, δ_ofHom, δ_ofHomotopy,
     cochain_sub, Cochain.comp_zero, Cochain.zero_comp, add_zero, zero_add,
     Cochain.comp_add, Cochain.add_comp, ← Cochain.ofHom_comp]
   have hzv : b₀ ≫ b₁ ≫ v₂ = 0 := by
@@ -213,7 +213,7 @@ theorem directSecondary_d
       b0.f n ≫ b1.f n ≫ f = 0 := by rw [← Category.assoc, h0, zero_comp]
   have h1a (n : ℤ) {M : ModuleCat B} (f : Q3.X n ⟶ M) :
       b1.f n ≫ b2.f n ≫ f = 0 := by rw [← Category.assoc, h1, zero_comp]
-  simp only [directSecondary, unsigned_δ_comp_any, δ_ofHom, δ_ofHomotopy,
+  simp only [directSecondary, unsigned_δ_comp_any, Int.reduceSub, Int.reduceAdd, Int.reduceNeg, δ_ofHom, δ_ofHomotopy,
     cochain_sub, Cochain.comp_zero, Cochain.zero_comp, add_zero, zero_add,
     Cochain.comp_add, Cochain.add_comp]
   apply Cochain.ext
@@ -251,7 +251,7 @@ theorem directTertiary_d
       b1.f n ≫ b2.f n ≫ f = 0 := by rw [← Category.assoc, h1, zero_comp]
   have h2a (n : ℤ) {M : ModuleCat B} (f : Q4.X n ⟶ M) :
       b2.f n ≫ b3.f n ≫ f = 0 := by rw [← Category.assoc, h2, zero_comp]
-  simp only [directTertiary, unsigned_δ_comp_any, δ_ofHom, δ_ofHomotopy,
+  simp only [directTertiary, unsigned_δ_comp_any, Int.reduceSub, Int.reduceAdd, Int.reduceNeg, δ_ofHom, δ_ofHomotopy,
     cochain_sub, Cochain.comp_zero, Cochain.zero_comp, add_zero, zero_add,
     Cochain.comp_add, Cochain.add_comp]
   apply Cochain.ext
