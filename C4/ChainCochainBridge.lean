@@ -167,6 +167,22 @@ theorem chainFamily_comp_at {P Q R : C4Complex} {k l n : ℤ}
   simpa only [eqToHom_refl, Category.id_comp] using
     (indexed_map_naturality (chainFamily z) (i := i) rfl h).symm
 
+/-- The primary boundary with literal output degree zero. Keeping this
+index explicit avoids transporting a dependent cochain through `-0 = 0`. -/
+theorem chainFamily_d_primary {P Q : C4Complex}
+    (z : Cochain (reverseComplex P) (reverseComplex Q) (-1)) (i : ℤ) :
+    chainFamily (k := 0) (δ (-1) 0 z) i i =
+      chainFamily (k := 1) z i (i+1) ≫ Q.d (i+1) i +
+        P.d i (i-1) ≫ chainFamily (k := 1) z (i-1) i := by
+  rw [chainFamily_on _ _ _ (by omega),
+    δ_v (-1) 0 (by decide) z (-i) (-i) (by omega)
+      (-(i+1)) (-(i-1)) (by omega) (by omega),
+    chainFamily_on z i (i+1) (by omega),
+    chainFamily_on z (i-1) i (by omega)]
+  dsimp only [reverseComplex]
+  simp only [moduleHom_sign, Preadditive.comp_add, Preadditive.add_comp,
+    Category.assoc, doubleNeg_d_to, doubleNeg_d_from_assoc]
+
 /-- An actual boundary equation produces a genuine chain homotopy. -/
 def chainHomotopyOfCochain {P Q : C4Complex} (f g : P ⟶ Q)
     (z : Cochain (reverseComplex P) (reverseComplex Q) (-1))
@@ -180,9 +196,7 @@ def chainHomotopyOfCochain {P Q : C4Complex} (f g : P ⟶ Q)
     change i+1 = j
     exact h.symm)
   comm i := by
-    have hd := chainFamily_d_between (k := 1) (l := 0) z (by decide)
-      i (i-1) (i+1) i (by omega) rfl rfl
-    simp only [neg_zero] at hd
+    have hd := chainFamily_d_primary z i
     have he : chainFamily (k := 0) (δ (-1) 0 z) i i = f.f i + g.f i := by
       rw [hz, chainFamily_add (k := 0), chainFamily_ofHom, chainFamily_ofHom]
     rw [he] at hd
