@@ -1,6 +1,6 @@
 # A quantitative homotopy-interleaving gap over the cyclic-four group algebra
 
-**Internal working manuscript — updated during S174, 2 November 2026.** Lean now certifies the resolution and homology, a nonempty global fourfold defining system, the terminal obstruction for every independent global defining system, and the actual full-real diagram with literal five-unit shift vanishing. The derived two-shift, transfer through arbitrary homotopy equivalences, arbitrary whole-real both-lane replacements, coefficient-presentation isomorphism and numerical metric theorem remain open. The abstract below is the internally written mathematical target, not a claim that its complete theorem is kernel-certified or submission-ready. See `formal/C4_COMPLETION_REVIEW.md`.
+**Internal working manuscript — updated during S174, 2 November 2026.** Lean (local pinned build, hosted CI pending) now certifies the resolution and homology, the terminal obstruction for every independent global defining system, the actual full-real diagram, the strict homotopy-interleaving bounds \(5/4\le d_{\mathrm{HI}}(F,0)\le5/2\) over arbitrary whole-real zigzags of BOTH lanes, and \(d_{\mathrm{CohI}}(F,0)=1/2\). The derived distance \(d_{\mathrm{IHC}}(F,0)=1\), the coefficient-presentation crosswalk and the single combined numerical declaration remain open. The abstract below is the internally written mathematical target, not a claim that its complete theorem is kernel-certified or submission-ready.
 
 ## Abstract
 
@@ -164,7 +164,7 @@ For \(0\le\varepsilon<1\), evaluate \(\eta_{2\varepsilon}^F\) at \(u=0\). It is 
 
 ## 5. Arbitrary whole-real replacements: the homotopy lower bound
 
-**Implementation note, 2 November 2026.** `C4/DirectTransfer.lean` now checks the direct one/two/three-cut word boundary calculations in reversed HomComplex grading, including an actual primary homotopy. It also proves K-projectivity of the original shifted resolutions and the sufficient comparison theorem for a quasi-isomorphism from a K-projective replacement. The raw cut identities are not yet packaged into the original global defining-system/tertiary-filler interfaces, and the adjacent unit classes are not yet identified. The bar proposal still does not construct the required compatible K-projective replacement. Thus the replacement-to-obstruction connection and this section's full all-real/BOTH-lane conclusion remain unproved; see `formal/C4_COMPLETION_STRATEGY.md`.
+**Implementation note, 2 November 2026 (later).** The argument below through (5.2)–(5.4) is the original internal recipe. The CERTIFIED proof (`C4/InterleavingTransfer.lean`, `C4/HomotopyInterleavingBound.lean`) takes a weaker-data route that needs no cofibrant replacement, quotient, monomorphism or homotopy inverse; it is summarised in §5.1 below.
 
 Suppose for contradiction that a homotopy interleaving exists at \(\varepsilon<5/4\), after some arbitrary zigzags of whole real diagrams objectwise quasi-isomorphic to \(F\) and \(O\). Monotonicity allows enlargement to
 \[
@@ -234,6 +234,14 @@ In particular \(T_{02},T_{13},T_{24}\) are primary fillers, \(T_{03},T_{14}\) se
 \]
 Equations (5.1)–(5.4), with the exact full-real, both-lanes quantifiers, are the main L3 Lean obligation; this manuscript's mathematical derivation must not be mistaken for kernel certification.
 
+### 5.1 The certified weak-data argument
+
+Let \(F'\simeq F\) and \(O'\simeq O\) be arbitrary whole-real zigzag replacements and \((\alpha,\beta)\) a strict \(\varepsilon\)-interleaving of \(F'\) and \(O'\) with \(\varepsilon<5/4\); enlarge it to \(e=\max\{1,\varepsilon\}\). Every \(O'(v)\) is acyclic (it is zigzag-equivalent to \(0\)), but need not be zero. Sample \(s_0=0,\ s_1=1,\ s_2=2e,\ s_3=2e+1,\ s_4=4e\), write \(b_i\) for the structure maps of \(F'\) between them, \(Z_i=O'(s_i+e)\), \(\alpha_i,\beta_i\) for the crossings and \(o_i\) for the maps of \(O'\). The interleaving laws and naturality give \(b_{i+1}b_i=\beta_i\alpha_i\), \(\alpha_{i+1}b_i=o_i\alpha_i\), \(b_{i+2}\beta_i=\beta_{i+1}o_i\) and \(\alpha_2\beta_0=o_1o_0\).
+
+The shifted resolutions \(P[i]\) are K-projective, so for every quasi-isomorphism \(w\), composition with \(w\) is bijective on homotopy classes out of \(P[i]\) in every degree. Hence the canonical identifications \(P[i]=F(s_i)\) transport along each zigzag step, in either direction, to quasi-isomorphisms \(u_i:P[i]\to F'(s_i)\) with homotopies \(\lambda_i\colon u_{i+1}x\simeq b_iu_i\). Every chain map \(P[i]\to Z_j\) is nullhomotopic, and every cocycle of \(\operatorname{Hom}(P[i],Z_j)\) is a coboundary.
+
+Choose \(\theta_i\) with \(D\theta_i=\alpha_iu_i\). Then \(\mu_i=b_{i+1}\lambda_i+\lambda_{i+1}x+\beta_i\theta_i\) satisfies \(D\mu_i=u_{i+2}x^2\); a relative lift through \(u_{i+2}\) gives an ORIGINAL primary filler \(H_i\) and a correction \(\nu_i\) with \(\mu_i=u_{i+2}H_i+D\nu_i\). The cocycle \(\omega_i=\alpha_{i+1}\lambda_i+o_i\theta_i+\theta_{i+1}x\) bounds some \(\pi_i\); then \(\xi_i=\lambda_{i+2}H_i+b_{i+2}\nu_i+\nu_{i+1}x+\beta_{i+1}\pi_i\) satisfies \(D\xi_i=u_{i+3}(xH_i+H_{i+1}x)\), and a second lift gives original secondary fillers \(K_i\). Finally the cocycle \(\chi=\alpha_2\nu_0+o_1\pi_0+\theta_2H_0+\pi_1x\) (closed by \(\alpha_2\beta_0=o_1o_0\)) bounds \(\sigma\), and \(\tau=\lambda_3K_0+\nu_2H_0+b_3\rho_0+\rho_1x+\beta_2\sigma\) satisfies \(D\tau=u_4w\) for the original terminal \(w=xK_0+H_2H_0+K_1x\). Injectivity through \(u_4\) makes \(w\) a boundary: an original-system tertiary filler, contradicting §3. All signs vanish in characteristic two. Lean: `CochainInterleavingLadder.nonempty_fourfold`, `canonical_no_interleavingLadder`, `strictInterleaving_ge_five_fourths`.
+
 For the upper bound, \(F(u)\to F(u+5)\) is literally zero for every real \(u\), including every endpoint. Zero crossings therefore give a strict \(5/2\)-interleaving with \(O\), without any replacement:
 \[
  d_{\mathrm{HI}}(F,O)\le5/2 .
@@ -260,8 +268,11 @@ The current pinned Lean development certifies:
 3. The terminal residue-one obstruction for every independent global defining system, excluding every possible pair of tertiary-boundary components in the decisive actual complex degree.
 4. The strict functor `realDiagram` over the entire ordered real line, all five half-open stage objects and zero ends, and literal vanishing of its natural five-unit shift.
 5. The direct one/two/three-cut word boundary identities on arbitrary B-module complexes with actual comparison homotopies and strict consecutive zeros; original shifted-resolution K-projectivity and its explicit sufficient comparison contract.
+6. K-projective lifting through arbitrary quasi-isomorphisms and the weak-data transfer of the fourfold obstruction through an interleaving with acyclic opposite lane (§5.1).
+7. Whole-real weak zigzags of BOTH lanes and \(5/4\le d_{\mathrm{HI}}(F,0)\le5/2\) for the \([0,\infty]\)-valued strict homotopy-interleaving distance.
+8. \(d_{\mathrm{CohI}}(F,0)=1/2\) for the underlying \(k\)-module homology persistence modules, supremum over all integer degrees.
 
-The remaining obligations are the coefficient-presentation isomorphisms; complete homotopy transfer and nonzero-generator identification; the free-quiver cone, derived two-shift and real/localisation comparison; arbitrary whole-real replacement/acyclic-lane quotient; and the final exact metric relations and inequalities. These are substantive categorical proofs. The numerical headline is not a Lean declaration yet, and its proof must not acquire those obligations as hypotheses.
+These are local pinned-build certificates; hosted PR and merged-main CI are still required. The remaining obligations are the derived distance \(d_{\mathrm{IHC}}(F,0)=1\) (free-quiver cone, derived two-shift and evaluation bound in the localisation of whole real diagrams), the coefficient-presentation crosswalk, and the single combined numerical declaration. These are substantive categorical proofs. The numerical headline is not a Lean declaration yet, and its proof must not acquire those obligations as hypotheses.
 
 The pinned Mathlib does not infer the unbounded projective or real-diagram model-category instances invoked by §§4–5. An explicit algebraic construction may replace that route only after proving the exact required comparison. Diagnostic input/output and the current dependency contracts are recorded in `sessions/S164` and `formal/C4_COMPLETION_REVIEW.md`.
 
