@@ -301,13 +301,16 @@ theorem directTertiary_d
   apply Cochain.ext
   intro p q hpq
   subst q
+  simp only [Cochain.add_v]
+  rw [Cochain.comp_v (directPrimary u b0 b1 r2 s1)
+    (directPrimary (𝟙 Q2) b2 b3 v s3) (by decide)
+    p (p + -1) (p + -2) rfl (by omega)]
   simp only [directPrimary, directSecondary, Cochain.add_v,
     Cochain.comp_zero_cochain_v, Cochain.zero_cochain_comp_v, Cochain.ofHom_v]
   dsimp [Cochain.comp, Cochain.mk, Cochain.v,
     Cochain.ofHom, Cochain.ofHoms, Cochain.ofHomotopy,
     HomologicalComplex.comp_f, HomologicalComplex.id_f]
   <;> simp [add_assoc, Category.assoc, h0, h1, h2, h0a, h1a, h2a, Preadditive.add_comp, Preadditive.comp_add]
-  <;> trace_state
   <;> abel
 
 -- Hosted build records the dependency axioms of the actual proof batch.
