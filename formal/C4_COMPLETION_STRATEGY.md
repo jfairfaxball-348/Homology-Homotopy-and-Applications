@@ -1,6 +1,6 @@
 # C4 completion strategy and dependency ledger — 2 November 2026
 
-**Documentation/process revision, not a proof certificate.** S173 remains completed; S174 remains IN PROGRESS, PARTIAL. Preserve the exact all-real, BOTH-lane theorem and existing certified source. This replaces accumulated prospective overlays; historical strategies remain in Git and session records.
+**Verified partial continuation; the full theorem remains uncertified.** S173 remains completed; S174 remains IN PROGRESS, PARTIAL. Preserve the exact all-real, BOTH-lane theorem and existing certified source. This replaces accumulated prospective overlays; historical strategies remain in Git and session records.
 
 ## Fixed target and verified baseline
 
@@ -15,10 +15,10 @@ Baseline main `633634e2e32abe186bde3fc1cf7c26fa3f2e24c3` passed pinned Lean #412
 | ID | Required output | Evidence / exact remaining dependency |
 |---|---|---|
 | C0 | Explicit ring/resolution, homology, genuine arbitrary-global nonboundary, full-real diagram and strict upper witness | Certified existing modules through S169; preserve. Group-algebra/polynomial-quotient presentation is still C4 work. |
-| C1 | A strict square-zero five-chain, with justified comparison data and correct adjacent classes, produces a genuine original-system tertiary filler, contradicting `GlobalFourfoldDefiningSystem.no_tertiary_filler` | Open. S165–S168 prove primaries, interfaces, correction algebra and candidate families, not this implication. |
+| C1 | A strict square-zero five-chain, with justified comparison data and correct adjacent classes, produces a genuine original-system tertiary filler, contradicting `GlobalFourfoldDefiningSystem.no_tertiary_filler` | Partial: `DirectTransfer` proves the actual one/two/three-cut HomComplex boundary equations and an actual primary homotopy. Packaging the original-system global fillers, adjacent units and contradiction remains open. |
 | C2 | Full five-edge quiver cone, natural QuasiIso and coherent derived two-shift; real-diagram comparison/localisation and lower bound by evaluation | Open. Include the final edge X₄→0. Vertexwise nullhomotopy is insufficient. |
 | C3a | Genuine whole-shoelace replacement with natural pointwise QuasiIso and monic crossings; apply S172 quotient, S171 literal two-shift zero, S169 five cuts | Partially implemented. S174 has graded bar data, no square-zero/chain packaging/contraction certificate. Strict-interleaving-to-full-poset conversion must also be proved. |
-| C3b | Supply exactly the comparison hypotheses consumed by C1, from the C3a output and arbitrary BOTH-lane zigzags | Open and first priority. The bar contract does not currently establish cofibrancy, K-projectivity or chain-homotopy inverses. |
+| C3b | Supply exactly the comparison hypotheses consumed by C1, from the C3a output and arbitrary BOTH-lane zigzags | Open and first priority. `comparison_to_resolution` proves sufficient comparison data when the replacement is K-projective; `reverseResolution_isKProjective` proves the original side. Producing compatible K-projective replacements with strict zero composites remains open. |
 | C4 | Honest distances, presentation equivalence, infimum inequalities and one faithful complete numerical theorem | Open. Type the final target early and connect it to C1–C3; no missing contract may be assumed to claim completion. |
 
 Maintain actual declaration names, exact source/run evidence and failed goals here or in the active partial record as work progresses. Do not duplicate a chronological status history across the guidance files.
@@ -34,7 +34,9 @@ Before more extensive bar implementation, write the exact producer/consumer Lean
 - Strengthen the replacement argument to produce the comparison/homotopy data C1 needs, retaining all strict consecutive-zero identities and compatibility with the original diagram/adjacent derived classes.
 - Prove the direct obstruction implication using the weaker quasi-isomorphism/zigzag data actually supplied. Any use of K-projectivity, lifts or coherent comparisons must itself be proved.
 
-These are proposed routes, not established theorems. Independent vertex replacements can lose strict zero composites; do not silently use them. No need to rebuild a general model-category library unless the concrete dependency truly requires it. Report a precise unresolved signature or counterexample if neither route closes.
+The sufficient comparison implication is now checked in `comparison_of_quasiIso` (BOTH complexes K-projective), `comparison_of_bounded_projective_quasiIso` (explicit bounds and termwise projectivity), and `comparison_to_resolution` (only replacement-side K-projectivity remains assumed). `reverseResolution_isKProjective` establishes the original shifted-resolution side. These do not construct a replacement or transport an arbitrary zigzag. The direct word uses only the three middle homotopies `v_i ≫ u_i ~ id`; no endpoint homotopy inverses are needed for this calculation.
+
+The replacement-producing routes are still proposed, not established theorems. Independent vertex replacements can lose strict zero composites; do not silently use them. No need to rebuild a general model-category library unless the concrete dependency truly requires it. Report a precise unresolved signature or counterexample if neither route closes.
 
 ## 2. Prefer the direct strict-square-zero contradiction
 
@@ -55,9 +57,11 @@ The inspected Mathlib pin is `065356127b1dc0016f66b7283ce0ce2c4055aa55`, with Le
 - `CochainComplex.HomComplex.δ_ofHom` and `δ_ofHomotopy`.
 - `CochainComplex.HomComplex.Cochain.equivHomotopy`.
 
-This is source inspection, **not a compiled C4 adapter**. The API is cohomological. Prototype reindexing a chain complex by degree negation, with correspondence of degree, differential, composition, actual chain maps and homotopies. Prove the characteristic-two sign simplifications and compatibility with the existing C4 defining-system interfaces. Keep the adapter isolated; do not rewrite certified foundations speculatively.
+The adapter is now checked in `C4/DirectTransfer.lean`, at source `76120036d64ae3200c78ec9b6742deeeffcc38f0`: exact PR Lean #41478721288 and integrity #41478721382, plus push Lean #41478712366 and integrity #41478712244, all SUCCESS. See the S174 partial record for integration evidence.
 
-First useful executable target: derive the required C4 Leibniz identity through the adapter and use it in a direct T_ij coherence. A `#check` alone is not integration evidence. If this fails, retain the precise diagnostic and compare with a reusable custom transport normal form, rather than repeating the same failing simplifications.
+`reverseComplex`, `reverseMap` and `reverseHomotopy` preserve actual chain maps and homotopies under degree negation. `cochain_neg/sub/sign` prove the characteristic-two reductions; `unsigned_δ_comp_any` derives the required total-degree Leibniz identity. `directPrimary/Secondary/Tertiary` are actual words in maps and homotopies, and their `_d` theorems prove their boundary equations from strict consecutive zeros. `directPrimaryHomotopy` exercises `Cochain.equivHomotopy` to construct an actual primary homotopy.
+
+The tertiary theorem is a raw three-cut identity with middle endomorphisms `r_i`. Factoring `r_i = v_i ≫ u_i`, converting the degree-two/three cochains back into the existing all-degree chain-family interfaces, identifying the adjacent unit residues, and invoking `GlobalFourfoldDefiningSystem.no_tertiary_filler` are NOT yet implemented. Reuse the checked arithmetic/component normal forms instead of repeating failed dependent cast simplifications. The exact replacement-side producer in §1 remains the first mathematical blocker.
 
 ## 4. Build the bar against the confirmed contract
 
