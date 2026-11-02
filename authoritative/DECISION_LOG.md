@@ -685,3 +685,11 @@ Active sources: research/C4_FROZEN_CANDIDATE.md; docs/ROADMAP.md; formal/C4_FORM
 
 
 - **S164, 29 October 2026 — owner continuous-completion review.** Owner asks to review why formalisation has taken so many sessions and to try to finish, then says Continue. Routine stop-after-one-lemma/fresh-invocation boundaries are superseded in the active conversation. Preserve the frozen full-real both-lane theorem; do not weaken it. Record the now-proved global obstruction and real diagram separately from the substantial transfer, derived two-shift, replacement/quotient and final metric obligations. External-action authority is unchanged.
+
+## Owner 2026-11-02 — connected-proof completion guidance (documentation/process only)
+
+The owner requested changes to the authoritative documents following a source/CI review of the delay. Keep the frozen all-real BOTH-lane C4 theorem and all existing certified work. S173 remains the last completed session; S174 remains IN PROGRESS, PARTIAL. No proof session is executed or closed by this revision.
+
+The current plan now prioritises the missing connection between the bar quotient/cut output and the homotopy comparison data needed by the obstruction argument. Prefer the direct strict-square-zero-to-tertiary-filler construction from manuscript (5.3)–(5.4). Test an isolated chain/cochain adapter to the existing pinned HomComplex API before more bespoke cast repairs; evaluate existing simplicial/total-complex tools without claiming they are drop-in solutions. General S167 secondary-transfer work is preserved as a fallback.
+
+Consolidate live guidance in START_HERE, STATE and C4_COMPLETION_STRATEGY; preserve prior evidence in Git/session history. Teach handoff validation to distinguish an unstarted future session from a documented active partial continuation while retaining numbering, owner-invocation, historical closeout and ordinary merge checks. No theorem weakening, new proof certification or external authority is introduced.
