@@ -62,10 +62,11 @@ def reverseHomotopy {P Q : C4Complex} {f g : P ⟶ Q}
     rw [dNext_eq h.hom (show (ComplexShape.down ℤ).Rel (-i) (-i-1) by
       change -i-1+1 = -i; omega),
       prevD_eq h.hom (show (ComplexShape.down ℤ).Rel (-i+1) (-i) by rfl)] at hh
-    rw [dNext_eq _ (show (ComplexShape.up ℤ).Rel i (i+1) by rfl),
-      prevD_eq _ (show (ComplexShape.up ℤ).Rel (i-1) i by
-        change i-1+1 = i; omega)]
-    simpa [reverseMap, reverseComplex, neg_add, neg_sub] using hh
+    change f.f (-i) =
+      P.d (-i) (-(i+1)) ≫ h.hom (-(i+1)) (-i) +
+        h.hom (-i) (-(i-1)) ≫ Q.d (-(i-1)) (-i) + g.f (-i)
+    simpa [neg_add, neg_sub, sub_eq_add_neg, add_comm] using hh
+
 
 /-- Characteristic two on every HomComplex cochain, over arbitrary B-modules. -/
 @[simp] theorem cochain_neg {F G : CochainComplex (ModuleCat B) ℤ}
@@ -98,5 +99,35 @@ theorem unsigned_δ_comp {F G K : CochainComplex (ModuleCat B) ℤ}
     δ (-1) 0 (Cochain.ofHomotopy (reverseHomotopy h)) =
       Cochain.ofHom (reverseMap f) + Cochain.ofHom (reverseMap g) := by
   simpa only [cochain_sub] using δ_ofHomotopy (reverseHomotopy h)
+
+/-- Fixed-degree form suitable for reducing a concrete transfer word. -/
+theorem unsigned_δ_comp_succ {F G K : CochainComplex (ModuleCat B) ℤ}
+    {a b c : ℤ} (f : Cochain F G a) (g : Cochain G K b) (hab : a+b=c) :
+    δ c (c+1) (f.comp g hab) =
+      f.comp (δ b (b+1) g) (by omega) +
+        (δ a (a+1) f).comp g (by omega) :=
+  unsigned_δ_comp f g hab (a+1) (b+1) (c+1) rfl rfl rfl
+
+/-- The actual one-cut word in manuscript (5.3), in reversed grading. -/
+def directPrimary {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B) ℤ}
+    (u₀ : P₀ ⟶ Q₀) (b₀ : Q₀ ⟶ Q₁) (b₁ : Q₁ ⟶ Q₂)
+    (v₂ : Q₂ ⟶ P₂) {r₁ : Q₁ ⟶ Q₁} (s₁ : Homotopy r₁ (𝟙 Q₁)) :
+    Cochain P₀ P₂ (-1) :=
+  ((((Cochain.ofHom u₀).comp (Cochain.ofHom b₀) (by decide)).comp
+    (Cochain.ofHomotopy s₁) (by decide)).comp (Cochain.ofHom b₁)
+      (by decide)).comp (Cochain.ofHom v₂) (by decide)
+
+/-- Direct primary coherence from a strict consecutive zero. The middle
+endomorphism is supplied by an ACTUAL homotopy, never by QuasiIso alone. -/
+theorem directPrimary_d {P₀ P₂ Q₀ Q₁ Q₂ : CochainComplex (ModuleCat B) ℤ}
+    (u₀ : P₀ ⟶ Q₀) (b₀ : Q₀ ⟶ Q₁) (b₁ : Q₁ ⟶ Q₂)
+    (v₂ : Q₂ ⟶ P₂) {r₁ : Q₁ ⟶ Q₁} (s₁ : Homotopy r₁ (𝟙 Q₁))
+    (hz : b₀ ≫ b₁ = 0) :
+    δ (-1) 0 (directPrimary u₀ b₀ b₁ v₂ s₁) =
+      Cochain.ofHom (u₀ ≫ b₀ ≫ r₁ ≫ b₁ ≫ v₂) := by
+  simp only [directPrimary, unsigned_δ_comp_succ, δ_ofHom, δ_ofHomotopy,
+    cochain_sub, Cochain.comp_zero, Cochain.zero_comp, add_zero, zero_add,
+    Cochain.comp_add, Cochain.add_comp, ← Cochain.ofHom_comp]
+  simp [Category.assoc, hz]
 
 end C4
