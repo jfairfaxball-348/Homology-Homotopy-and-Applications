@@ -95,6 +95,29 @@ def reverseHomotopy {P Q : C4Complex} {f g : P ⟶ Q}
   · rw [Int.negOnePow_even m h, one_smul]
   · rw [Int.negOnePow_odd m h, Units.neg_smul, one_smul, cochain_neg]
 
+/-- Component normal forms choose the same intermediate degree on both
+sides of a transfer equation, avoiding dependent transports from `p + 0`. -/
+theorem cochain_comp_v_neg_one
+    {F G K : CochainComplex (ModuleCat B) ℤ} {b c : ℤ}
+    (f : Cochain F G (-1)) (g : Cochain G K b) (h : -1+b=c)
+    (p q : ℤ) (hpq : p+c=q) :
+    (f.comp g h).v p q hpq =
+      f.v p (p-1) (by omega) ≫ g.v (p-1) q (by omega) :=
+  Cochain.comp_v f g h p (p-1) q (by omega) (by omega)
+
+theorem cochain_comp_v_neg_two
+    {F G K : CochainComplex (ModuleCat B) ℤ} {b c : ℤ}
+    (f : Cochain F G (-2)) (g : Cochain G K b) (h : -2+b=c)
+    (p q : ℤ) (hpq : p+c=q) :
+    (f.comp g h).v p q hpq =
+      f.v p (p-2) (by omega) ≫ g.v (p-2) q (by omega) :=
+  Cochain.comp_v f g h p (p-2) q (by omega) (by omega)
+
+theorem cochain_ofHomotopy_v
+    {F G : CochainComplex (ModuleCat B) ℤ} {f g : F ⟶ G}
+    (h : Homotopy f g) (p q : ℤ) (hpq : p+(-1)=q) :
+    (Cochain.ofHomotopy h).v p q hpq = h.hom p q := rfl
+
 /-- Mathlib's full Leibniz theorem, with the signs justified over B. -/
 theorem unsigned_δ_comp {F G K : CochainComplex (ModuleCat B) ℤ}
     {a b c : ℤ} (f : Cochain F G a) (g : Cochain G K b) (hab : a+b=c)
@@ -333,16 +356,13 @@ theorem directTertiary_d
   apply Cochain.ext
   intro p q hpq
   subst q
-  simp only [Cochain.add_v]
-  rw [Cochain.comp_v (directPrimary u b0 b1 r2 s1)
-    (directPrimary (𝟙 Q2) b2 b3 v s3) (by decide)
-    p (p + -1) (p + -2) rfl (by omega)]
   simp only [directPrimary, directSecondary, Cochain.add_v,
-    Cochain.comp_zero_cochain_v, Cochain.zero_cochain_comp_v, Cochain.ofHom_v]
-  dsimp [Cochain.comp, Cochain.mk, Cochain.v,
-    Cochain.ofHom, Cochain.ofHoms, Cochain.ofHomotopy,
+    cochain_comp_v_neg_one, cochain_comp_v_neg_two,
+    Cochain.comp_zero_cochain_v, Cochain.zero_cochain_comp_v,
+    Cochain.ofHom_v, cochain_ofHomotopy_v,
     HomologicalComplex.comp_f, HomologicalComplex.id_f]
-  <;> simp [add_assoc, Category.assoc, h0, h1, h2, h0a, h1a, h2a, Preadditive.add_comp, Preadditive.comp_add]
+  simp [sub_eq_add_neg, add_assoc, Category.assoc, h0, h1, h2,
+    h0a, h1a, h2a, Preadditive.add_comp, Preadditive.comp_add]
   <;> first | rfl | (trace_state; abel)
 
 -- Hosted build records the dependency axioms of the actual proof batch.
