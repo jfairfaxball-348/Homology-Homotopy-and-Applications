@@ -62,3 +62,5 @@ public import C4.DirectObstruction
 public import C4.ReducedProjectiveResolution
 
 public import C4.ReducedProjectiveAugmentation
+
+public import C4.KProjectiveBoundaryLift

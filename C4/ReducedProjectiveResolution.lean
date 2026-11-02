@@ -98,6 +98,10 @@ instance reducedProjectiveAugmentation_epi (M : ModuleCat B) :
   simp [reducedProjectiveFunctor, reducedProjectiveAugmentation,
     LeftResolution.chainComplexFunctor, LeftResolution.chainComplexMap_f_0,
     Functor.map_comp, Category.assoc]
+  have h := reducedProjectiveResolution.π.naturality f
+  change (reducedProjectiveResolution.F.map f).hom ≫ reducedProjectiveResolution.π.app N =
+    reducedProjectiveResolution.π.app M ≫ f at h
+  rw [h]
 
 @[reassoc, simp] theorem reducedProjectiveAugmentation_d (M : ModuleCat B) :
     (reducedProjectiveFunctor.obj M).d 1 0 ≫ reducedProjectiveAugmentation M = 0 := by
