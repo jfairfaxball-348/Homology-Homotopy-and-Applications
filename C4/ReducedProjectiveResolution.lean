@@ -79,6 +79,32 @@ theorem reducedProjectiveFunctor_exact (M : ModuleCat B) (n : ℕ) :
     (reducedProjectiveFunctor.obj M).ExactAt (n+1) :=
   reducedProjectiveResolution.exactAt_map_chainComplex_succ M n
 
+/-- The genuine degree-zero augmentation of the coefficient resolution. -/
+def reducedProjectiveAugmentation (M : ModuleCat B) :
+    (reducedProjectiveFunctor.obj M).X 0 ⟶ M :=
+  (ObjectProperty.ι (isProjective (ModuleCat B))).map
+    (reducedProjectiveResolution.chainComplexXZeroIso M).hom ≫
+      reducedProjectiveResolution.π.app M
+
+instance reducedProjectiveAugmentation_epi (M : ModuleCat B) :
+    Epi (reducedProjectiveAugmentation M) := by
+  dsimp [reducedProjectiveAugmentation]
+  infer_instance
+
+@[reassoc] theorem reducedProjectiveAugmentation_naturality
+    {M N : ModuleCat B} (f : M ⟶ N) :
+    (reducedProjectiveFunctor.map f).f 0 ≫ reducedProjectiveAugmentation N =
+      reducedProjectiveAugmentation M ≫ f := by
+  simp [reducedProjectiveFunctor, reducedProjectiveAugmentation,
+    LeftResolution.chainComplexMap_f_0, Functor.map_comp, Category.assoc]
+
+@[reassoc, simp] theorem reducedProjectiveAugmentation_d (M : ModuleCat B) :
+    (reducedProjectiveFunctor.obj M).d 1 0 ≫ reducedProjectiveAugmentation M = 0 := by
+  change (ObjectProperty.ι (isProjective (ModuleCat B))).map
+      ((reducedProjectiveResolution.chainComplex M).d 1 0) ≫ _ = 0
+  rw [LeftResolution.map_chainComplex_d_1_0]
+  simp [reducedProjectiveAugmentation, Category.assoc]
+
 /-- Applying the reduced resolution to a nonnegative complex gives a genuine
 bicomplex; zero preservation is what certifies its outer square-zero law. -/
 def reducedProjectiveBicomplex (K : ChainComplex (ModuleCat B) ℕ) :
@@ -89,6 +115,7 @@ def reducedProjectiveBicomplex (K : ChainComplex (ModuleCat B) ℕ) :
 instance totalNat_preservesZero :
     (HomologicalComplex₂.totalFunctor (ModuleCat B) (.down ℕ) (.down ℕ) (.down ℕ)).PreservesZeroMorphisms where
   map_zero K L := by
+    change HomologicalComplex₂.total.map (0 : K ⟶ L) (.down ℕ) = 0
     apply HomologicalComplex.Hom.ext
     funext n
     apply HomologicalComplex₂.total.hom_ext

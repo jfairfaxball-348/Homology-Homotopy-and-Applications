@@ -97,7 +97,7 @@ theorem StrictZeroComparison.no_original_adjacent_classes (s : ℤ)
 
 /-- Equality of derived morphisms from an original resolution is reflected
 by an actual chain homotopy. Only source-side K-projectivity is needed. -/
-def originalMapHomotopyOfDerivedEq [HasDerivedCategory (ModuleCat B)] (s : ℤ)
+noncomputable def originalMapHomotopyOfDerivedEq [HasDerivedCategory (ModuleCat B)] (s : ℤ)
     {Q : C4Complex} (f g : integerShiftResolution s ⟶ Q)
     (he : DerivedCategory.Q.map (reverseMap f) = DerivedCategory.Q.map (reverseMap g)) :
     Homotopy f g := by
