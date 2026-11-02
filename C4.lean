@@ -72,3 +72,7 @@ public import C4.WeakTransferAlgebra
 public import C4.InterleavingTransfer
 
 public import C4.InterleavingObstruction
+
+public import C4.RealLadderTransport
+
+public import C4.HomotopyInterleavingBound
