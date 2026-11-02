@@ -76,3 +76,5 @@ public import C4.InterleavingObstruction
 public import C4.RealLadderTransport
 
 public import C4.HomotopyInterleavingBound
+
+public import C4.HomologyInterleavingDistance
