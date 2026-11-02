@@ -2,6 +2,7 @@ module
 public import C4.DirectTransfer
 public import Mathlib.Algebra.Category.ModuleCat.LeftResolution
 public import Mathlib.Algebra.Homology.LeftResolution.Reduced
+public import Mathlib.Algebra.Homology.TotalComplex
 
 @[expose] public noncomputable section
 
@@ -78,6 +79,59 @@ theorem reducedProjectiveFunctor_exact (M : ModuleCat B) (n : ℕ) :
     (reducedProjectiveFunctor.obj M).ExactAt (n+1) :=
   reducedProjectiveResolution.exactAt_map_chainComplex_succ M n
 
+/-- Applying the reduced resolution to a nonnegative complex gives a genuine
+bicomplex; zero preservation is what certifies its outer square-zero law. -/
+def reducedProjectiveBicomplex (K : ChainComplex (ModuleCat B) ℕ) :
+    HomologicalComplex₂ (ModuleCat B) (.down ℕ) (.down ℕ) :=
+  (reducedProjectiveFunctor.mapHomologicalComplex (.down ℕ)).obj K
+
+/-- Mathlib's total functor preserves zero maps, checked on every coproduct summand. -/
+instance totalNat_preservesZero :
+    (HomologicalComplex₂.totalFunctor (ModuleCat B) (.down ℕ) (.down ℕ) (.down ℕ)).PreservesZeroMorphisms where
+  map_zero K L := by
+    apply HomologicalComplex.Hom.ext
+    intro n
+    apply HomologicalComplex₂.total.hom_ext
+    intro i j hij
+    rw [HomologicalComplex₂.ιTotal_map]
+    simp
+
+/-- The functorial projective total complex. A natural augmentation and its
+QuasiIso proof are still required before this can replace an input complex. -/
+def projectiveTotalFunctor :
+    ChainComplex (ModuleCat B) ℕ ⥤ ChainComplex (ModuleCat B) ℕ :=
+  reducedProjectiveFunctor.mapHomologicalComplex (.down ℕ) ⋙
+    HomologicalComplex₂.totalFunctor (ModuleCat B) (.down ℕ) (.down ℕ) (.down ℕ)
+
+instance projectiveTotalFunctor_preservesZero :
+    projectiveTotalFunctor.PreservesZeroMorphisms := by
+  dsimp [projectiveTotalFunctor]
+  infer_instance
+
+theorem projectiveTotalFunctor_squareZero {K L M : ChainComplex (ModuleCat B) ℕ}
+    (f : K ⟶ L) (g : L ⟶ M) (h : f ≫ g = 0) :
+    projectiveTotalFunctor.map f ≫ projectiveTotalFunctor.map g = 0 := by
+  rw [← Functor.map_comp, h, Functor.map_zero]
+
+theorem projectiveTotalFunctor_projective (K : ChainComplex (ModuleCat B) ℕ) (n : ℕ) :
+    Projective ((projectiveTotalFunctor.obj K).X n) := by
+  let T := {ij : ℕ × ℕ // ComplexShape.π (.down ℕ) (.down ℕ) (.down ℕ) ij = n}
+  change Projective (∐ fun ij : T =>
+    ((reducedProjectiveBicomplex K).X ij.val.1).X ij.val.2)
+  haveI (ij : T) : Projective (((reducedProjectiveBicomplex K).X ij.val.1).X ij.val.2) :=
+    reducedProjectiveFunctor_projective (K.X ij.val.1) ij.val.2
+  infer_instance
+
+/-- The projective total is K-projective in the integer cochain embedding. -/
+theorem projectiveTotalFunctor_isKProjective (K : ChainComplex (ModuleCat B) ℕ) :
+    CochainComplex.IsKProjective
+      ((projectiveTotalFunctor.obj K).extend ComplexShape.embeddingDownNat) := by
+  haveI (n : ℕ) : Projective ((projectiveTotalFunctor.obj K).X n) :=
+    projectiveTotalFunctor_projective K n
+  infer_instance
+
 #print axioms reducedProjectiveFunctor_squareZero
 #print axioms reducedProjectiveFunctor_exact
+#print axioms projectiveTotalFunctor_squareZero
+#print axioms projectiveTotalFunctor_isKProjective
 end C4

@@ -75,7 +75,7 @@ theorem chainFamily_secondary
       chainFamily_comp_at (k := 1) (l := 0) (n := 1) h _ (by decide) n (n+1) (n+1) (by omega) (by omega),
       chainFamily_comp_at (k := 0) (l := 1) (n := 1) _ h' (by decide) n n (n+1) (by omega) (by omega),
       chainFamily_ofHom, chainFamily_ofHom]
-  rw [Category.assoc, chainFamily_target]
+  rw [Category.assoc, chainFamily_target z (n-1) ((n-1)+2) (n+1) (by omega)]
   exact hd.symm.trans hc
 
 /-- Both secondary families and ALL support/coherence fields of the existing
