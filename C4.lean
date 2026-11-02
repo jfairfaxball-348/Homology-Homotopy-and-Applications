@@ -80,3 +80,7 @@ public import C4.HomotopyInterleavingBound
 public import C4.HomologyInterleavingDistance
 
 public import C4.DerivedInterleavingDistance
+
+public import C4.DiagramHomotopyInvariance
+
+public import C4.DerivedStageReduction
