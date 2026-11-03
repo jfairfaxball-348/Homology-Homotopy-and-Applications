@@ -90,14 +90,22 @@ noncomputable def residueFieldToB : ZMod 2 →+* B := ZMod.castHom (dvd_refl 2) 
 
 /-- The homology persistence module of a whole real diagram in degree `n`,
 with its underlying `k`-module structure. -/
-noncomputable def homologyPersistence (A : ℝ ⥤ C4Complex) (n : ℤ) :
+noncomputable def homologyPersistenceOver {R : Type} [Ring R]
+    (scalar : ZMod 2 →+* R) (A : ℝ ⥤ ChainComplex (ModuleCat R) ℤ) (n : ℤ) :
     ℝ ⥤ ModuleCat (ZMod 2) :=
-  A ⋙ HomologicalComplex.homologyFunctor (ModuleCat B) (ComplexShape.down ℤ) n ⋙
-    ModuleCat.restrictScalars residueFieldToB
+  A ⋙ HomologicalComplex.homologyFunctor (ModuleCat R) (ComplexShape.down ℤ) n ⋙
+    ModuleCat.restrictScalars scalar
 
 /-- The homology interleaving distance: supremum over all degrees. -/
-noncomputable def homologyInterleavingDistance (A A' : ℝ ⥤ C4Complex) : ℝ≥0∞ :=
-  ⨆ n : ℤ, persistenceInterleavingDistance (homologyPersistence A n) (homologyPersistence A' n)
+noncomputable def homologyInterleavingDistanceOver {R : Type} [Ring R] (scalar : ZMod 2 →+* R)
+    (A A' : ℝ ⥤ ChainComplex (ModuleCat R) ℤ) : ℝ≥0∞ :=
+  ⨆ n : ℤ, persistenceInterleavingDistance (homologyPersistenceOver scalar A n)
+    (homologyPersistenceOver scalar A' n)
+
+noncomputable abbrev homologyPersistence := homologyPersistenceOver residueFieldToB
+
+noncomputable abbrev homologyInterleavingDistance :=
+  homologyInterleavingDistanceOver residueFieldToB
 
 theorem restrictScalars_map_eq_zero_iff {X Y : ModuleCat B} (f : X ⟶ Y) :
     (ModuleCat.restrictScalars residueFieldToB).map f = 0 ↔ f = 0 := by

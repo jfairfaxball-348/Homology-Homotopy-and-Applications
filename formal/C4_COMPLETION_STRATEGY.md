@@ -1,6 +1,6 @@
-# C4 completion strategy and dependency ledger — 3 November 2026 (S174 closed; S175 future)
+# C4 completion strategy and dependency ledger — 3 November 2026 (S174 closed; S175 active)
 
-**The frozen theorem is one hosted-checked Lean declaration over the presentation `C4.B`.** `C4.c4_distance_separation` (`C4/MainTheorem.lean`) states `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 ≤ dHI(F,0) ≤ 5/2` with axioms `[propext, Classical.choice, Quot.sound]`. It was merged by PR #215 as the ordinary two-parent merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`. Exact-head Lean #41592284384 and integrity #41592284364 passed, as did merged-main Lean #41593094820 and integrity #41593094882. S174 is closed; S175 (FUTURE, UNEXECUTED) finishes the formalisation over the literal group algebra. Crosswalk: `formal/C4_LEAN_CROSSWALK.md`. Historical strategies remain in Git and session records.
+**The frozen theorem is one hosted-checked Lean declaration over the presentation `C4.B`.** `C4.c4_distance_separation` (`C4/MainTheorem.lean`) states `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 ≤ dHI(F,0) ≤ 5/2` with axioms `[propext, Classical.choice, Quot.sound]`. It was merged by PR #215 as the ordinary two-parent merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`. Exact-head Lean #41592284384 and integrity #41592284364 passed, as did merged-main Lean #41593094820 and integrity #41593094882. S174 is closed; S175 is active. Pinned local Lean checks the full group-algebra declaration. Hosted integration is pending. Crosswalk: `formal/C4_LEAN_CROSSWALK.md`. Historical strategies remain in Git and session records.
 
 ## Fixed target and verified baseline
 
@@ -19,7 +19,7 @@ Current main `bc06b6011f5556a8ba36ee85167b1fa5c875bc06` passed merged-main Lean 
 | C2 | Derived distance `dIHC(F,0)=1` in the localisation of whole real diagrams | **Certified (hosted CI)**: `derivedInterleavingDistance_eq_one` for EVERY localisation at `objectwiseQuasiIso`. Upper bound: stage reduction (`localized_twoShift_eq_zero_of_stage`), seven-stage cone resolution and natural nullhomotopy from canonical `h₀₂,h₁₃,h₂₄,z₀₃,z₁₄` incl. terminal edge (`localized_twoShift_eq_zero`), homotopy invariance (`map_eq_of_naturalHomotopy`). Lower bound: `one_le_derivedInterleavingDistance`. |
 | C3 | Arbitrary BOTH-lane zigzags feed C1 | **Certified (hosted CI)**: `WeakZigzag` (`Relation.EqvGen` of objectwise-QuasiIso natural transformations), `WeakZigzag.acyclic_of_zero`, `WeakZigzag.hasRevLadder_iff`, `strictInterleaving_ge_five_fourths`. The bar/quotient route (old C3a/C3b) is no longer on the critical path; its modules are preserved. |
 | C4 | Honest distances, infimum inequalities and one complete numerical theorem | **Certified over `C4.B` (hosted CI)**: `c4_distance_separation` (+ `_canonical`), crosswalk written. |
-| C5 | Presentation equivalence and the faithful statement over 𝔽₂[C₄] | **Open (S175)**. Needs a Lean `RingEquiv` `C4.B ≃+* MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4))` with `t ↦ 1 + g`. Then the six conjuncts must be restated over group-algebra modules for the transported diagram and every localisation, preferably through ring-generic definitions plus invariance under the induced equivalence. Also needed: a definition-faithfulness audit and the final certificate. |
+| C5 | Presentation equivalence and the faithful statement over 𝔽₂[C₄] | Pinned local Lean checks `groupAlgebraEquiv` and `c4_distance_separation_groupAlgebra`, with standard axioms. The crosswalk and manuscript align with the checked routes. Hosted integration and the final certificate remain. |
 
 Maintain actual declaration names, exact source/run evidence and failed goals here or in the active partial record as work progresses. Do not duplicate a chronological status history across the guidance files.
 
@@ -40,11 +40,7 @@ The manuscript's integer free-quiver cone plus left Kan extension is replaced by
 
 ## 3. Final declaration, crosswalk and the group-algebra restatement (C5)
 
-Done: `C4.c4_distance_separation` and `formal/C4_LEAN_CROSSWALK.md`. Remaining for the full formalisation (S175, `authoritative/NEXT_SESSION_PROMPT.md`):
-1. The `RingEquiv`. `1 + t` is a unit with `(1+t)⁴ = 1` in characteristic two, so `MonoidAlgebra.lift` gives the map out of the group algebra; an explicit inverse comes from the basis `1, t, t², t³`.
-2. The transported diagram under restriction of scalars, and invariance of the three distances, including localisations.
-3. The conventions audit and manuscript alignment.
-4. The final certificate after hosted CI.
+The coefficient isomorphism sends `t` to `1 + g` and `t³` to the group norm. The induced module equivalence transports entire diagrams and their localisations. For the strict metric it transports all replacement zigzags in both directions. The homology comparison uses the canonical scalar inclusions on both sides. These claims are checked in the pinned local build.
 
 ## 4. Execution and completion
 

@@ -94,7 +94,7 @@ def realTranslation (δ : ℝ) : ℝ ⥤ ℝ :=
     dsimp
     linarith).functor
 
-def translateDiagram (F : ℝ ⥤ C4Complex) (δ : ℝ) : ℝ ⥤ C4Complex :=
+def translateDiagram {C : Type*} [Category C] (F : ℝ ⥤ C) (δ : ℝ) : ℝ ⥤ C :=
   realTranslation δ ⋙ F
 
 /-- The genuine natural time-shift map, for every real time. -/

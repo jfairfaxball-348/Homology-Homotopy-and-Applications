@@ -36,19 +36,26 @@ open CategoryTheory CategoryTheory.Limits
 open scoped ENNReal
 
 /-- Objectwise quasi-isomorphisms of entire real diagrams. -/
-def objectwiseQuasiIso : MorphismProperty (ℝ ⥤ C4Complex) :=
+def objectwiseQuasiIsoOver (R : Type) [Ring R] :
+    MorphismProperty (ℝ ⥤ ChainComplex (ModuleCat R) ℤ) :=
   fun _ _ w => ∀ t : ℝ, QuasiIso (w.app t)
 
-/-- Translation of entire real diagrams, as a functor. -/
-def translateFunctor (δ : ℝ) : (ℝ ⥤ C4Complex) ⥤ (ℝ ⥤ C4Complex) :=
-  (Functor.whiskeringLeft ℝ ℝ C4Complex).obj (realTranslation δ)
+abbrev objectwiseQuasiIso := objectwiseQuasiIsoOver B
 
-theorem objectwiseQuasiIso_translate (δ : ℝ) {X Y : ℝ ⥤ C4Complex} (w : X ⟶ Y)
-    (hw : objectwiseQuasiIso w) : objectwiseQuasiIso ((translateFunctor δ).map w) :=
+section Coefficients
+
+variable {R : Type} [Ring R]
+
+/-- Translation of entire real diagrams, as a functor. -/
+def translateFunctor (δ : ℝ) : (ℝ ⥤ ChainComplex (ModuleCat R) ℤ) ⥤ (ℝ ⥤ ChainComplex (ModuleCat R) ℤ) :=
+  (Functor.whiskeringLeft ℝ ℝ (ChainComplex (ModuleCat R) ℤ)).obj (realTranslation δ)
+
+theorem objectwiseQuasiIso_translate (δ : ℝ) {X Y : ℝ ⥤ ChainComplex (ModuleCat R) ℤ} (w : X ⟶ Y)
+    (hw : objectwiseQuasiIsoOver R w) : objectwiseQuasiIsoOver R ((translateFunctor δ).map w) :=
   fun t => hw (t + δ)
 
 /-- The natural two-step translation `X ⟶ (X^ε)^ε` of an entire real diagram. -/
-def twoShift (X : ℝ ⥤ C4Complex) (ε : ℝ) (hε : 0 ≤ ε) :
+def twoShift (X : ℝ ⥤ ChainComplex (ModuleCat R) ℤ) (ε : ℝ) (hε : 0 ≤ ε) :
     X ⟶ translateDiagram (translateDiagram X ε) ε where
   app u := X.map (homOfLE (show u ≤ (u + ε) + ε by linarith))
   naturality u v f := by
@@ -59,12 +66,12 @@ def twoShift (X : ℝ ⥤ C4Complex) (ε : ℝ) (hε : 0 ≤ ε) :
 section Localization
 
 universe w' w
-variable {D : Type w} [Category.{w'} D] (L : (ℝ ⥤ C4Complex) ⥤ D)
-  [L.IsLocalization objectwiseQuasiIso]
+variable {D : Type w} [Category.{w'} D] (L : (ℝ ⥤ ChainComplex (ModuleCat R) ℤ) ⥤ D)
+  [L.IsLocalization (objectwiseQuasiIsoOver R)]
 
 theorem translateFunctor_comp_inverts (δ : ℝ) :
-    objectwiseQuasiIso.IsInvertedBy (translateFunctor δ ⋙ L) := fun _ _ w hw =>
-  Localization.inverts L objectwiseQuasiIso _ (objectwiseQuasiIso_translate δ w hw)
+    (objectwiseQuasiIsoOver R).IsInvertedBy (translateFunctor δ ⋙ L) := fun _ _ w hw =>
+  Localization.inverts L (objectwiseQuasiIsoOver R) _ (objectwiseQuasiIso_translate δ w hw)
 
 /-- The translation functor of the localised category. -/
 noncomputable def derivedTranslate (δ : ℝ) : D ⥤ D :=
@@ -75,29 +82,39 @@ noncomputable def derivedTranslateIso (δ : ℝ) :
   Localization.fac _ _ _
 
 /-- Translate a morphism of the localised category between images of diagrams. -/
-noncomputable def derivedTranslateMap (δ : ℝ) {X Y : ℝ ⥤ C4Complex}
+noncomputable def derivedTranslateMap (δ : ℝ) {X Y : ℝ ⥤ ChainComplex (ModuleCat R) ℤ}
     (ψ : L.obj X ⟶ L.obj Y) :
     L.obj (translateDiagram X δ) ⟶ L.obj (translateDiagram Y δ) :=
   (derivedTranslateIso L δ).inv.app X ≫ (derivedTranslate L δ).map ψ ≫
     (derivedTranslateIso L δ).hom.app Y
 
-theorem derivedTranslateMap_map (δ : ℝ) {X Y : ℝ ⥤ C4Complex} (f : X ⟶ Y) :
+theorem derivedTranslateMap_map (δ : ℝ) {X Y : ℝ ⥤ ChainComplex (ModuleCat R) ℤ} (f : X ⟶ Y) :
     derivedTranslateMap L δ (L.map f) = L.map ((translateFunctor δ).map f) := by
   have h := (derivedTranslateIso L δ).hom.naturality f
   simp only [Functor.comp_map] at h
   rw [derivedTranslateMap, h, Iso.inv_hom_id_app_assoc]
 
 /-- A derived `ε`-interleaving of entire real diagrams in the localisation. -/
-structure DerivedRealInterleaving (X Y : ℝ ⥤ C4Complex) (ε : ℝ) (hε : 0 ≤ ε) where
+structure DerivedRealInterleaving (X Y : ℝ ⥤ ChainComplex (ModuleCat R) ℤ) (ε : ℝ) (hε : 0 ≤ ε) where
   forward : L.obj X ⟶ L.obj (translateDiagram Y ε)
   backward : L.obj Y ⟶ L.obj (translateDiagram X ε)
   forward_backward : forward ≫ derivedTranslateMap L ε backward = L.map (twoShift X ε hε)
   backward_forward : backward ≫ derivedTranslateMap L ε forward = L.map (twoShift Y ε hε)
 
 /-- The derived interleaving distance in `[0, ∞]`. -/
-noncomputable def derivedInterleavingDistance (X Y : ℝ ⥤ C4Complex) : ℝ≥0∞ :=
+noncomputable def derivedInterleavingDistance (X Y : ℝ ⥤ ChainComplex (ModuleCat R) ℤ) : ℝ≥0∞ :=
   ⨅ ε ∈ {ε : ℝ | ∃ hε : 0 ≤ ε, Nonempty (DerivedRealInterleaving L X Y ε hε)},
     ENNReal.ofReal ε
+
+end Localization
+
+end Coefficients
+
+section
+
+universe w' w
+variable {D : Type w} [Category.{w'} D] (L : (ℝ ⥤ C4Complex) ⥤ D)
+  [L.IsLocalization objectwiseQuasiIso]
 
 /-- **Reduction of the upper bound.** If the whole-diagram two-unit shift of
 `F` and the zero map become equal in the localisation, then `F` and zero are
@@ -116,7 +133,7 @@ noncomputable def derivedInterleaving_one_of_twoShift
     funext u
     exact (HomologicalComplex.isZero_zero).eq_of_src _ _
 
-end Localization
+end
 
 /-! ### The lower bound by evaluation at `0` -/
 

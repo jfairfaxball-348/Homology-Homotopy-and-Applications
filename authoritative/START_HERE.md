@@ -1,6 +1,6 @@
 # C4 current status — 3 November 2026
 
-**S174 is closed. The frozen theorem is one hosted-checked Lean declaration over the presentation `C4.B = 𝔽₂[t]/(t⁴)`. S175 is FUTURE, UNEXECUTED.**
+**S174 is closed. S175 is active.** Pinned local Lean checks the full theorem over the group algebra as `C4.c4_distance_separation_groupAlgebra`. The hosted integration record is pending.
 
 `C4.c4_distance_separation` proves `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 ≤ dHI(F,0) ≤ 5/2`, with axioms `[propext, Classical.choice, Quot.sound]`. Last completed session: **S174** ([closeout](../sessions/S174/CLOSEOUT.md)). Next: **S175**, which finishes the full formalisation over the literal group algebra. Crosswalk: [formal/C4_LEAN_CROSSWALK.md](../formal/C4_LEAN_CROSSWALK.md).
 
@@ -17,19 +17,11 @@
 | C1: obstruction transfer | Certified: weak-data transfer through the acyclic opposite lane (`canonical_no_interleavingLadder`). |
 | C2: derived distance | Certified: `derivedInterleavingDistance_eq_one` in every localisation of whole real diagrams at objectwise quasi-isomorphisms. |
 | C3: arbitrary BOTH-lane zigzags | Certified: `WeakZigzag`, `WeakZigzag.hasRevLadder_iff`, `strictInterleaving_ge_five_fourths`. |
-| C4: final statement | Certified over `C4.B`: `c4_distance_separation`, plus the crosswalk. Open (S175): a Lean `RingEquiv` `C4.B ≃+* 𝔽₂[C₄]` and the restatement over group-algebra modules. |
+| C4: final statement | Certified over `C4.B`: `c4_distance_separation`, plus the crosswalk. S175 adds the locally checked `groupAlgebraEquiv` and `c4_distance_separation_groupAlgebra`. |
 
 ## What to do next
 
-S175 starts only on a separate owner instruction. It then follows [the S175 prompt](NEXT_SESSION_PROMPT.md) and [the single technical ledger](../formal/C4_COMPLETION_STRATEGY.md):
-1. Prove the presentation `RingEquiv`.
-2. Restate the theorem faithfully over the group algebra.
-3. Audit definition faithfulness and align the manuscript.
-4. Record the final certificate after hosted CI.
-
-The frozen statement remains
-`dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4≤dHI(F,0)≤5/2`
-for arbitrary weak-equivalence zigzags of BOTH entire-real lanes. No assumptions or quantifiers are relaxed.
+Verify hosted integration and close out S175. See the [active handoff](NEXT_SESSION_PROMPT.md) and [dependency ledger](../formal/C4_COMPLETION_STRATEGY.md).
 
 ## Read only the relevant records
 

@@ -1,10 +1,12 @@
-# S175 — finish the full C4 formalisation over the group algebra 𝔽₂[C₄] (FUTURE, UNEXECUTED)
+# S175 — finish the full C4 formalisation over the group algebra 𝔽₂[C₄] (IN PROGRESS, PARTIAL)
 
 **Authority.** Installing or reading this prompt executes nothing. S175 starts only on a fresh, separate owner instruction, for example "Run next session". Within that authorised conversation, continue through routine lemmas, checks and merges without new permission loops. Do not execute S176.
 
 **Frozen theorem (unchanged).** Over B = 𝔽₂[C₄], for the genuine five-stage entire-real diagram F against zero:
 `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 ≤ dHI(F,0) ≤ 5/2`.
 The derived category is that of whole real diagrams, and the homotopy metric allows arbitrary whole-diagram objectwise quasi-isomorphism zigzags on BOTH lanes, including nonzero acyclic replacements of zero. None of the following may stand in for it: a finite-grid surrogate, a literal-zero shortcut, a hidden hypothesis, `sorry`, `admit`, a custom axiom, or a conditional headline.
+
+**Continuation.** S175 has a pinned local certificate. See `sessions/S175/PARTIAL.md` for the completed proof and the hosted checks still needed.
 
 **Entry state.** S174 is closed (`sessions/S174/CLOSEOUT.md`).
 - PR #215 was merged into main by the ordinary merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`; merged-main Lean #41593094820 and integrity #41593094882 passed.

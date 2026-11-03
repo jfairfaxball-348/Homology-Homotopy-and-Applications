@@ -39,11 +39,13 @@ open CochainComplex.HomComplex
 
 /-- One zigzag step: a natural transformation of ENTIRE real diagrams whose
 component at EVERY real index is a quasi-isomorphism. -/
-def ObjectwiseQuasiIsoStep (A A' : ℝ ⥤ C4Complex) : Prop :=
+def ObjectwiseQuasiIsoStep {R : Type} [Ring R]
+    (A A' : ℝ ⥤ ChainComplex (ModuleCat R) ℤ) : Prop :=
   ∃ w : A ⟶ A', ∀ t : ℝ, QuasiIso (w.app t)
 
 /-- Arbitrary finite zigzags of whole-diagram objectwise quasi-isomorphisms. -/
-def WeakZigzag : (ℝ ⥤ C4Complex) → (ℝ ⥤ C4Complex) → Prop :=
+def WeakZigzag {R : Type} [Ring R] :
+    (ℝ ⥤ ChainComplex (ModuleCat R) ℤ) → (ℝ ⥤ ChainComplex (ModuleCat R) ℤ) → Prop :=
   Relation.EqvGen ObjectwiseQuasiIsoStep
 
 /-- Invariance of a property along all zigzags follows from invariance along
