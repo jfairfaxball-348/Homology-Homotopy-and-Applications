@@ -1,6 +1,6 @@
-# C4 completion strategy and dependency ledger — 2 November 2026
+# C4 completion strategy and dependency ledger — 3 November 2026 (S174 continuation)
 
-**Verified partial continuation; the full theorem remains uncertified.** S173 remains completed; S174 remains IN PROGRESS, PARTIAL. Preserve the exact all-real, BOTH-lane theorem and existing certified source. This replaces accumulated prospective overlays; historical strategies remain in Git and session records.
+**The frozen theorem is one Lean declaration, checked locally; promotion is pending.** `C4.c4_distance_separation` (`C4/MainTheorem.lean`) states `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 ≤ dHI(F,0) ≤ 5/2` and compiles in a full local pinned build with axioms `[propext, Classical.choice, Quot.sound]`. S173 remains completed; S174 remains IN PROGRESS until hosted exact-head PR CI, ordinary merge and merged-main CI exist. Crosswalk: `formal/C4_LEAN_CROSSWALK.md`. Historical strategies remain in Git and session records.
 
 ## Fixed target and verified baseline
 
@@ -8,81 +8,39 @@ For the genuine five-stage F over B = F₂[C₄] against zero, prove
 `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4≤dHI(F,0)≤5/2`.
 Use the homotopy category of WHOLE real diagrams for dIHC and arbitrary whole-diagram objectwise quasi-isomorphism zigzags on BOTH lanes for dHI. Do not restrict replacements to a finite grid or literal-zero second lane.
 
-Baseline main `633634e2e32abe186bde3fc1cf7c26fa3f2e24c3` passed pinned Lean #41290933867 and integrity #41290933821. S174's latest source contribution is described in `sessions/S174/PARTIAL.md`. The final numerical declaration does not yet exist.
+Entry main `783565958c01b36f35fcb01bda3593f328f11525` passed merged-main Lean #41480400099 and integrity #41480400038. The current continuation is on branch `ccr-efb93145-frhiz0` (it contains draft PR #214's branch, repaired); see `sessions/S174/PARTIAL.md`.
 
 ## One live dependency ledger
 
 | ID | Required output | Evidence / exact remaining dependency |
 |---|---|---|
-| C0 | Explicit ring/resolution, homology, genuine arbitrary-global nonboundary, full-real diagram and strict upper witness | Certified existing modules through S169; preserve. Group-algebra/polynomial-quotient presentation is still C4 work. |
-| C1 | A strict square-zero five-chain, with justified comparison data and correct adjacent classes, produces a genuine original-system tertiary filler, contradicting `GlobalFourfoldDefiningSystem.no_tertiary_filler` | Partial: `DirectTransfer` proves the actual one/two/three-cut HomComplex boundary equations and an actual primary homotopy. Packaging the original-system global fillers, adjacent units and contradiction remains open. |
-| C2 | Full five-edge quiver cone, natural QuasiIso and coherent derived two-shift; real-diagram comparison/localisation and lower bound by evaluation | Open. Include the final edge X₄→0. Vertexwise nullhomotopy is insufficient. |
-| C3a | Genuine whole-shoelace replacement with natural pointwise QuasiIso and monic crossings; apply S172 quotient, S171 literal two-shift zero, S169 five cuts | Partially implemented. S174 has graded bar data, no square-zero/chain packaging/contraction certificate. Strict-interleaving-to-full-poset conversion must also be proved. |
-| C3b | Supply exactly the comparison hypotheses consumed by C1, from the C3a output and arbitrary BOTH-lane zigzags | Open and first priority. `comparison_to_resolution` proves sufficient comparison data when the replacement is K-projective; `reverseResolution_isKProjective` proves the original side. Producing compatible K-projective replacements with strict zero composites remains open. |
-| C4 | Honest distances, presentation equivalence, infimum inequalities and one faithful complete numerical theorem | Open. Type the final target early and connect it to C1–C3; no missing contract may be assumed to claim completion. |
+| C0 | Explicit ring/resolution, homology, genuine arbitrary-global nonboundary, full-real diagram and strict upper witness | Certified; preserve. Group-algebra/polynomial-quotient presentation remains a C4 crosswalk item. |
+| C1 | Any admissible replacement data produce a genuine original-system tertiary filler, contradicting `GlobalFourfoldDefiningSystem.no_tertiary_filler` | **Certified (local build)** in the weak-data form: `CochainInterleavingLadder.nonempty_fourfold` + `canonical_no_interleavingLadder`. Input is an interleaving with ACYCLIC opposite lane and a quasi-isomorphism ladder from the K-projective originals; no strict zero, quotient, cofibrancy or homotopy inverse. |
+| C2 | Derived distance `dIHC(F,0)=1` in the localisation of whole real diagrams | **Certified (local build)**: `derivedInterleavingDistance_eq_one` for EVERY localisation at `objectwiseQuasiIso`. Upper bound: stage reduction (`localized_twoShift_eq_zero_of_stage`), seven-stage cone resolution and natural nullhomotopy from canonical `h₀₂,h₁₃,h₂₄,z₀₃,z₁₄` incl. terminal edge (`localized_twoShift_eq_zero`), homotopy invariance (`map_eq_of_naturalHomotopy`). Lower bound: `one_le_derivedInterleavingDistance`. |
+| C3 | Arbitrary BOTH-lane zigzags feed C1 | **Certified (local build)**: `WeakZigzag` (`Relation.EqvGen` of objectwise-QuasiIso natural transformations), `WeakZigzag.acyclic_of_zero`, `WeakZigzag.hasRevLadder_iff`, `strictInterleaving_ge_five_fourths`. The bar/quotient route (old C3a/C3b) is no longer on the critical path; its modules are preserved. |
+| C4 | Honest distances, presentation equivalence, infimum inequalities and one faithful complete numerical theorem | **Final declaration certified (local build)**: `c4_distance_separation` (+ `_canonical`). Crosswalk written. Remaining: hosted PR/main CI and merge; the presentation `C4.B ≅ 𝔽₂[C₄]` is documented, not a Lean `RingEquiv`. |
 
 Maintain actual declaration names, exact source/run evidence and failed goals here or in the active partial record as work progresses. Do not duplicate a chronological status history across the guidance files.
 
-## 1. Repair the replacement-to-obstruction connection first
+## 1. The replacement-to-obstruction connection (resolved by a weaker-data route)
 
-The S172 quotient requires only monic crossings and an acyclic opposite lane. The proposed bar was designed for precisely those hypotheses. That local simplification is valid as a target contract.
+The quotient route required strict square-zero composites after a cofibrant/bar replacement and chain-homotopy inverses, which objectwise quasi-isomorphisms do not supply. The certified route avoids both:
 
-However manuscript §5, after the five cuts, uses cofibrant-fibrant representatives to choose chain-homotopy inverses and homotopies `D s_i = id + u_i v_i`. The proposed bar uses arbitrary coefficient complexes and does not establish the properties needed for that step. Objectwise QuasiIso, isomorphism in the derived category, degreewise split injections, and chain-homotopy equivalence are distinct assertions.
+1. `kProjective_postcomp_bijective`: for K-projective `P` and ANY quasi-isomorphism `u`, postcomposition with `u` is bijective on homotopy classes `P ⟶ X⟦n⟧` (homotopy-category colocality, `ObjectProperty.isColocal_trW`). Its cochain consequences are `kProjective_relative_lift` and `kProjective_acyclic_coboundary`.
+2. A strict `e`-interleaving `α : F' → O'^e`, `β : O' → F'^e` with acyclic `O'` gives, at the five cuts `sᵢ`, the relations `bᵢbᵢ₊₁ = αᵢβᵢ`, `bᵢαᵢ₊₁ = αᵢoᵢ`, `βᵢbᵢ₊₂ = oᵢβᵢ₊₁`, `β₀α₂ = o₀o₁`. Nullhomotopies into the acyclic lane (K-projective source) replace every strict zero in the comparison words; both interleaving laws are used.
+3. Iterated relative lifts through the quasi-isomorphism rungs produce primary, secondary and tertiary fillers on the ORIGINAL resolutions. The adjacent maps are the canonical ones, so the unit residues are the certified canonical residues.
+4. The ladder exists for `realDiagram` (identities up to stage identifications) and transfers along every zigzag step in both directions.
 
-Before more extensive bar implementation, write the exact producer/consumer Lean signatures and prove the missing connection on the actual inputs. Two acceptable routes are:
+No replacement-side K-projectivity, cofibrancy or homotopy inverse is inferred from QuasiIso.
 
-- Strengthen the replacement argument to produce the comparison/homotopy data C1 needs, retaining all strict consecutive-zero identities and compatibility with the original diagram/adjacent derived classes.
-- Prove the direct obstruction implication using the weaker quasi-isomorphism/zigzag data actually supplied. Any use of K-projectivity, lifts or coherent comparisons must itself be proved.
+## 2. The derived distance (C2) — certified route
 
-The sufficient comparison implication is now checked in `comparison_of_quasiIso` (BOTH complexes K-projective), `comparison_of_bounded_projective_quasiIso` (explicit bounds and termwise projectivity), and `comparison_to_resolution` (only replacement-side K-projectivity remains assumed). `reverseResolution_isKProjective` establishes the original shifted-resolution side. These do not construct a replacement or transport an arbitrary zigzag. The direct word uses only the three middle homotopies `v_i ≫ u_i ~ id`; no endpoint homotopy inverses are needed for this calculation.
+The manuscript's integer free-quiver cone plus left Kan extension is replaced by: (i) factorising the whole-real two-unit shift through the seven-stage clock (`twoShift_realDiagram_factor`); (ii) a seven-stage resolution with contractible cone summands on stages 2 and 3 only (targets vanish from stage 4, so the terminal edge adds no condition), on which the stage two-shift is naturally nullhomotopic using the canonical primary and secondary fillers; (iii) Mathlib's cylinder lemma through complexes of persistence modules. The lower bound evaluates at `0` into `D(B)`.
 
-The replacement-producing routes are still proposed, not established theorems. Independent vertex replacements can lose strict zero composites; do not silently use them. No need to rebuild a general model-category library unless the concrete dependency truly requires it. Report a precise unresolved signature or counterexample if neither route closes.
+## 3. Final declaration and crosswalk
 
-## 2. Prefer the direct strict-square-zero contradiction
+Done: `C4.c4_distance_separation` and `formal/C4_LEAN_CROSSWALK.md`. Optional strengthening: a Lean `RingEquiv` between `C4.B` and `MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4))` via `t = 1 + g`.
 
-Manuscript (5.3) defines, in mathematical right-to-left composition,
-`T_ij = v_j b_(j-1) s_(j-1) ... s_(i+1) b_i u_i`.
-Here `b_(r+1) b_r = 0` strictly. Given valid homotopy comparison data, differentiation yields (5.4):
-`D T_ij = sum_(i<r<j) T_rj T_ir`.
+## 4. Execution and completion
 
-Formalise this specific construction for the five stages, including the degree-three T₀₄ filler and the adjacent residue/nonzero-class bridge. Build one actual `GlobalFourfoldDefiningSystem` and a filler to contradict the existing universal obstruction. Do not assume the missing coherence equations or unit-residue fields as hypotheses of the final theorem.
-
-This narrower route may avoid transporting arbitrary pre-existing secondary choices with all S167 correction terms. Preserve those modules. Return to general transfer only if an explicit consumer requires it or the direct route fails for a documented reason.
-
-## 3. Test the existing pinned HomComplex API
-
-The inspected Mathlib pin is `065356127b1dc0016f66b7283ce0ce2c4055aa55`, with Lean `v4.35.0-rc2`. Its [HomComplex source](https://github.com/leanprover-community/mathlib4/blob/065356127b1dc0016f66b7283ce0ce2c4055aa55/Mathlib/Algebra/Homology/HomotopyCategory/HomComplex.lean) already contains:
-
-- `CochainComplex.HomComplex.δ_comp` (differential/composition).
-- `CochainComplex.HomComplex.δ_ofHom` and `δ_ofHomotopy`.
-- `CochainComplex.HomComplex.Cochain.equivHomotopy`.
-
-The adapter is now checked in `C4/DirectTransfer.lean`, at source `76120036d64ae3200c78ec9b6742deeeffcc38f0`: exact PR Lean #41478721288 and integrity #41478721382, plus push Lean #41478712366 and integrity #41478712244, all SUCCESS. See the S174 partial record for integration evidence.
-
-`reverseComplex`, `reverseMap` and `reverseHomotopy` preserve actual chain maps and homotopies under degree negation. `cochain_neg/sub/sign` prove the characteristic-two reductions; `unsigned_δ_comp_any` derives the required total-degree Leibniz identity. `directPrimary/Secondary/Tertiary` are actual words in maps and homotopies, and their `_d` theorems prove their boundary equations from strict consecutive zeros. `directPrimaryHomotopy` exercises `Cochain.equivHomotopy` to construct an actual primary homotopy.
-
-The tertiary theorem is a raw three-cut identity with middle endomorphisms `r_i`. Factoring `r_i = v_i ≫ u_i`, converting the degree-two/three cochains back into the existing all-degree chain-family interfaces, identifying the adjacent unit residues, and invoking `GlobalFourfoldDefiningSystem.no_tertiary_filler` are NOT yet implemented. Reuse the checked arithmetic/component normal forms instead of repeating failed dependent cast simplifications. The exact replacement-side producer in §1 remains the first mathematical blocker.
-
-## 4. Build the bar against the confirmed contract
-
-Retain `RealShoelaceBarIndices/Terms/Faces/Horizontal/Total/Augmentation`. At present these contain indices and graded maps, not a bar chain complex.
-
-The pinned library also provides:
-
-| Candidate reuse | What it supplies after its input is constructed |
-|---|---|
-| [AlternatingFaceMapComplex](https://github.com/leanprover-community/mathlib4/blob/065356127b1dc0016f66b7283ce0ce2c4055aa55/Mathlib/AlgebraicTopology/AlternatingFaceMapComplex.lean) | An alternating face complex and `d_squared` for a genuine simplicial object |
-| [ExtraDegeneracy](https://github.com/leanprover-community/mathlib4/blob/065356127b1dc0016f66b7283ce0ce2c4055aa55/Mathlib/AlgebraicTopology/ExtraDegeneracy.lean) | `ExtraDegeneracy.homotopyEquiv` for an augmented simplicial object |
-| [TotalComplex](https://github.com/leanprover-community/mathlib4/blob/065356127b1dc0016f66b7283ce0ce2c4055aa55/Mathlib/Algebra/Homology/TotalComplex.lean) | `HomologicalComplex₂.total` for a bicomplex with the required coproducts/shapes |
-
-Prototype the necessary interfaces before selecting a large representation change. Check coefficient transport at the first face, all simplicial identities, append-terminal versus library degeneracy orientation, mixed ℕ/ℤ indexing, coproduct totalisation and preservation of the contraction through the internal differential. The extra-degeneracy result alone does not certify the current total complex.
-
-If the existing direct-sum route is simpler after these tests, prove identities on `DirectSum.lof` generators with a reusable extensionality/transport layer. Then establish square-zero, chain/functor laws, monic chain maps, natural augmentation, contraction and QuasiIso; apply the certified quotient/cut results and the repaired C3b/C1 connection.
-
-## 5. Execution and completion
-
-Establish a functioning pinned compiler and reuse its dependency cache; record local versus hosted verification accurately. Use targeted Lean for iteration and a full pinned C4+OptionD build before promotion. Environment limitations justify explicit hosted fallback, not uncompiled claims.
-
-A connected batch should discharge a named dependency and exercise its consumer. Helpers may be necessary but are not automatic stop points. Keep C2 and C4 visible while resolving C1/C3. Update the working manuscript when the implemented argument changes, distinguishing an internal recipe from a certified theorem.
-
-Follow `docs/SESSION_PROTOCOL.md` for branch, ordinary two-parent merge, exact PR/main checks, handoff status and authorization. No new candidate, theorem weakening, custom axiom or external action is introduced by this plan.
+A local pinned toolchain now works (elan + `lake exe cache get`); use targeted `lake env lean` for iteration and a full `lake build` (C4 + preserved OptionD) before promotion. Hosted exact-head PR CI, ordinary two-parent merge and independent merged-main CI remain mandatory for promotion. Follow `docs/SESSION_PROTOCOL.md`. No new candidate, theorem weakening, custom axiom or external action is introduced by this plan.
