@@ -1,6 +1,6 @@
 # A quantitative homotopy-interleaving gap over the cyclic-four group algebra
 
-**Internal working manuscript — updated during S174, 2 November 2026.** Lean (local pinned build, hosted CI pending) now certifies the resolution and homology, the terminal obstruction for every independent global defining system, the actual full-real diagram, the strict homotopy-interleaving bounds \(5/4\le d_{\mathrm{HI}}(F,0)\le5/2\) over arbitrary whole-real zigzags of BOTH lanes, and \(d_{\mathrm{CohI}}(F,0)=1/2\). The derived distance \(d_{\mathrm{IHC}}(F,0)=1\), the coefficient-presentation crosswalk and the single combined numerical declaration remain open. The abstract below is the internally written mathematical target, not a claim that its complete theorem is kernel-certified or submission-ready.
+**Internal working manuscript — updated during S174, 3 November 2026.** Lean now proves the full numerical theorem of the abstract as the single declaration `C4.c4_distance_separation` (full local pinned build; standard axioms only; hosted PR/main CI pending). The certified proofs of §4's derived vanishing and §5's lower bound follow the routes summarised in the implementation notes and §5.1; see `formal/C4_LEAN_CROSSWALK.md`. The identification \(B=k[C_4]\cong k[t]/(t^4)\) is used as the standard presentation and is not itself a Lean ring isomorphism.
 
 ## Abstract
 
@@ -147,6 +147,8 @@ are respectively the vertex and edge equations for the differential of this cone
 \]
 The full free-quiver chain-level differential, model cofibrancy and homotopy classes in (4.2) are L2 Lean obligations; vertexwise nullhomotopy alone would not prove (4.2).
 
+**Implementation note (certified route for (4.2)).** Lean proves \([\eta_2^F]=0\) in every localisation of whole real diagrams at objectwise quasi-isomorphisms without a model structure or Kan extension: the real two-unit shift factors through the seven-stage clock; on the stage diagram, a resolution with contractible cones \(\operatorname{Cone}(\mathrm{id}_{P_0})\), \(\operatorname{Cone}(\mathrm{id}_{P_1})\) adjoined at stages 2 and 3 carries a natural nullhomotopy with vertex components \(h\) and cone components built from \(z\) (the targets vanish from stage 4, which absorbs the terminal edge); natural homotopies are identified by every localisation via the cylinder lemma. Lean: `localized_twoShift_eq_zero`, `derivedInterleavingDistance_eq_one`.
+
 The restriction functor \(j^*:\mathcal M^{\mathbb R}\to\mathcal M^{\mathbb N}\) preserves objectwise fibrations and trivial fibrations; hence \(j_!\dashv j^*\), where \(j_!\) is left Kan extension, is a Quillen adjunction for projective diagram model structures. At each real \(u\), \(j_!X\) is exactly the step diagram \(F\) of §2. The natural shift-comparison map
 \[
  j_!(X^2)\longrightarrow (j_!X)^2
@@ -272,7 +274,9 @@ The current pinned Lean development certifies:
 7. Whole-real weak zigzags of BOTH lanes and \(5/4\le d_{\mathrm{HI}}(F,0)\le5/2\) for the \([0,\infty]\)-valued strict homotopy-interleaving distance.
 8. \(d_{\mathrm{CohI}}(F,0)=1/2\) for the underlying \(k\)-module homology persistence modules, supremum over all integer degrees.
 
-These are local pinned-build certificates; hosted PR and merged-main CI are still required. The remaining obligations are the derived distance \(d_{\mathrm{IHC}}(F,0)=1\) (free-quiver cone, derived two-shift and evaluation bound in the localisation of whole real diagrams), the coefficient-presentation crosswalk, and the single combined numerical declaration. These are substantive categorical proofs. The numerical headline is not a Lean declaration yet, and its proof must not acquire those obligations as hypotheses.
+9. \(d_{\mathrm{IHC}}(F,0)=1\) in every localisation of whole real diagrams at objectwise quasi-isomorphisms, and the combined declaration `C4.c4_distance_separation` of the abstract's chain of (in)equalities.
+
+These are local pinned-build certificates with axioms `[propext, Classical.choice, Quot.sound]`; hosted PR and merged-main CI are still required. The coefficient presentation \(k[C_4]\cong k[t]/(t^4)\) is documented in the crosswalk but not formalised as a ring isomorphism.
 
 The pinned Mathlib does not infer the unbounded projective or real-diagram model-category instances invoked by §§4–5. An explicit algebraic construction may replace that route only after proving the exact required comparison. Diagnostic input/output and the current dependency contracts are recorded in `sessions/S164` and `formal/C4_COMPLETION_REVIEW.md`.
 

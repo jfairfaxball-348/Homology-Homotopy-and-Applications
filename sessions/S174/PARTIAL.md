@@ -123,3 +123,19 @@ Owner invocation in a new conversation: "pick up the remaining work on this proj
 **Evidence.** Full local pinned build `Build completed successfully (9009 jobs)` at commit `fc42de8` on `ccr-efb93145-frhiz0`. Printed axioms of every new headline declaration: `[propext, Classical.choice, Quot.sound]`. No `sorry`, `admit` or custom axiom. Commits: `5faa917` (lifting + transfer + obstruction), `d331228` (zigzags + dHI bounds), `fc42de8` (dCohI). Local `python3 -m unittest discover -s scripts -p 'test_*.py'`: 10 tests OK.
 
 **Still open (exact).** (1) C2: `dIHC(F,0)=1` in the localisation of whole real diagrams at objectwise quasi-isomorphisms — requires a derived interleaving definition (lifted translation functors), the upper bound `[η₂]=0` via a natural cone resolution and the canonical `h`/`z` fillers plus homotopy invariance of the localisation, and the lower bound by evaluation at `0` into `D(B)`. (2) The single faithful final declaration combining all three distances, and the manuscript-to-Lean crosswalk. (3) Hosted exact-head PR CI, ordinary two-parent merge and independent merged-main CI. The bar modules remain preserved but are no longer on the critical path. No S175, no external action, no OptionD change.
+
+
+## S174 continuation — dIHC(F,0)=1 and the combined final declaration (3 November 2026)
+
+Same owner-authorised conversation and branch `ccr-efb93145-frhiz0`.
+
+- `C4/DerivedInterleavingDistance.lean`: `objectwiseQuasiIso`, `translateFunctor`, lifted `derivedTranslate`/`derivedTranslateMap` on an arbitrary localisation, `DerivedRealInterleaving`, `derivedInterleavingDistance`; **`one_le_derivedInterleavingDistance`** (evaluation at 0 into `D(B)`; the identity of `P` and the class `[x]` are reflected to chain homotopies by original K-projectivity).
+- `C4/DiagramHomotopyInvariance.lean`: `diagramComplex`/`diagramComplexMap` (inverse of Mathlib's `complexOfFunctorsToFunctorToComplex` by structure eta) and **`map_eq_of_naturalHomotopy`** via Mathlib's cylinder lemma.
+- `C4/DerivedStageReduction.lean`: two-stage advance on `Fin 7`, `stageTwoShift`, factorisation `twoShift_realDiagram_factor`, reduction `localized_twoShift_eq_zero_of_stage`.
+- `C4/DerivedStageResolution.lean`: contractible cones `coneOfContraction`, `biprodSndHomotopyEquiv`, cone cycles `coneCycle`.
+- `C4/DerivedStageNullhomotopy.lean`: seven-stage resolution (cone summands only on stages 2 and 3, since targets vanish from stage 4), stagewise quasi-isomorphism, nullhomotopies from canonical `h₀₂,h₁₃,h₂₄,z₀₃,z₁₄` (terminal edge included), naturality `stage_nat_one/two`, `stageNaturalHomotopy`, **`localized_twoShift_eq_zero`**, **`derivedInterleavingDistance_eq_one`**.
+- `C4/MainTheorem.lean`: **`c4_distance_separation`** — `homologyInterleavingDistance realDiagram zeroDiagram = ofReal (1/2)`, `derivedInterleavingDistance L … = ofReal 1` (every localisation `L`), `ofReal (5/4) ≤ homotopyInterleavingDistance … ≤ ofReal (5/2)`, and the strict inequalities; `c4_distance_separation_canonical` for Mathlib's `objectwiseQuasiIso.Q`.
+
+**Evidence.** Full local pinned build `Build completed successfully (9015 jobs)` at `a85920b`; `c4_distance_separation` and `c4_distance_separation_canonical` depend on axioms `[propext, Classical.choice, Quot.sound]`; no `sorry`/`admit`/custom axiom in C4 sources (`grep`), `sorryAx` absent from the build log. Crosswalk: `formal/C4_LEAN_CROSSWALK.md`.
+
+**Remaining before S174 closeout.** (1) Hosted exact-head PR Lean and integrity CI, ordinary two-parent merge and independent merged-main CI (no PR has been opened by this conversation). (2) The presentation `C4.B ≅ 𝔽₂[C₄]` (via `t = 1 + g`) is the standard identification recorded in the crosswalk but is not a Lean `RingEquiv`. Only after (1), and an owner decision on (2), should S174 be closed and S175 installed.
