@@ -1,4 +1,4 @@
-# C4 completion strategy and dependency ledger — 3 November 2026 (S175 complete; S176 Palomar package)
+# C4 completion strategy and dependency ledger — 3 November 2026 (S176 complete: Palomar package)
 
 **The frozen theorem is Lean-certified over the literal group algebra.** `C4.c4_distance_separation_groupAlgebra` proves the same six conjuncts as the S174 presentation theorem, for every localisation of whole real diagrams and arbitrary replacement zigzags on both lanes. See the [S175 closeout](../sessions/S175/CLOSEOUT.md) and [crosswalk](C4_LEAN_CROSSWALK.md).
 
@@ -20,7 +20,7 @@ Proof merge `274216e07e1bceda8c31945beb71921f342bb566` ([PR #217](https://github
 | C3 | Arbitrary BOTH-lane zigzags feed C1 | **Certified (hosted CI)**: `WeakZigzag` (`Relation.EqvGen` of objectwise-QuasiIso natural transformations), `WeakZigzag.acyclic_of_zero`, `WeakZigzag.hasRevLadder_iff`, `strictInterleaving_ge_five_fourths`. The bar/quotient route (old C3a/C3b) is no longer on the critical path; its modules are preserved. |
 | C4 | Honest distances, infimum inequalities and one complete numerical theorem | **Certified over `C4.B` (hosted CI)**: `c4_distance_separation` (+ `_canonical`), crosswalk written. |
 | C5 | Presentation equivalence and the faithful statement over 𝔽₂[C₄] | **Certified.** `groupAlgebraEquiv` and `C4.c4_distance_separation_groupAlgebra` passed the full build, exact-head PR CI and independent merged-main CI. The crosswalk and manuscript record the checked routes. |
-| C6 | Palomar statement package (S176) | **Comparator-checked.** `Challenge.lean` (Mathlib-only), `Solution.lean`, `C4/Palomar/{Statement,Bridge}.lean`, `comparator.json` and `formalization.yaml`, with an Apache-2.0 `LICENSE`. Local `lake comparator` accepted the Solution with the Lean kernel, NanoDa and con-ron. Hosted evidence and the candidate SHA are in the S176 record. |
+| C6 | Palomar statement package (S176) | **Comparator-checked.** `Challenge.lean` (Mathlib-only), `Solution.lean`, `C4/Palomar/{Statement,Bridge}.lean`, `comparator.json` and `formalization.yaml`, with an Apache-2.0 `LICENSE`. `lake comparator` accepted the Solution with the Lean kernel, NanoDa and con-ron: locally, from a clean checkout and in hosted CI (PR #220, job 125855481148). The candidate is `f35677b710df2de38b2ef237b40ca4ad7ff7298b`; ordinary merge `5cd80ca`. See the S176 closeout. |
 
 Maintain actual declaration names, exact source/run evidence and failed goals here or in the active partial record as work progresses. Do not duplicate a chronological status history across the guidance files.
 

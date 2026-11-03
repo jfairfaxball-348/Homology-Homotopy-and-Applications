@@ -4,7 +4,7 @@
 
 Read `authoritative/START_HERE.md`, the live fields of `authoritative/STATE.json`, and `authoritative/NEXT_SESSION_PROMPT.md` first. The single technical dependency ledger is `formal/C4_COMPLETION_STRATEGY.md`; `docs/SESSION_PROTOCOL.md` governs evidence and integration. Historical session records and Git history describe their own checkpoints, not current execution priorities.
 
-S175 is complete. The frozen theorem over the literal group algebra is `C4.c4_distance_separation_groupAlgebra`. See `sessions/S175/CLOSEOUT.md` for the proof and hosted checks. S176 (Palomar registration preparation) was invoked by the owner on 3 November 2026 and is IN PROGRESS; see `sessions/S176/PARTIAL.md`. The repository licence is Apache-2.0 by owner decision.
+S175 is complete. The frozen theorem over the literal group algebra is `C4.c4_distance_separation_groupAlgebra`. See `sessions/S175/CLOSEOUT.md` for the proof and hosted checks. S176 is complete. It prepared the Apache-2.0 Palomar package; the candidate commit is `f35677b710df2de38b2ef237b40ca4ad7ff7298b` (see `sessions/S176/CLOSEOUT.md`). S177 is FUTURE, UNEXECUTED and acts only on Palomar findings or package changes the owner supplies. A separate owner instruction starts it.
 
 Preserve the frozen first-paper theorem over B = F₂[C₄], for the genuine five-stage real diagram F against zero:
 `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4≤dHI(F,0)≤5/2`.
@@ -12,7 +12,7 @@ The derived category is that of whole real diagrams. The homotopy metric allows 
 
 ## Current status
 
-The first-paper formalisation is complete. The next session checks Palomar’s current requirements, runs the available preflight and prepares a clean commit for the owner to upload. Preserve the certificate and matching manuscript.
+The first-paper formalisation is complete, and the Palomar statement package (`Challenge.lean`, `Solution.lean`, `C4/Palomar/`, `comparator.json`, `formalization.yaml`, `LICENSE`) is Comparator-checked. Preserve the certificate, the statement package and the matching manuscript. A Challenge change must be mirrored in `C4/Palomar/Statement.lean` and rechecked with `scripts/check_palomar_statement.py` and `./scripts/verify-comparator.sh`.
 
 ## Execution and evidence
 
@@ -26,7 +26,7 @@ The first-paper formalisation is complete. The next session checks Palomar’s c
 
 ## Preserved boundaries
 
-The active scope is the frozen C4 theorem, its matching manuscript and the authorised Palomar preparation handoff. Preserve OptionD certificates without further OptionD development. No target search, novelty/HHA-fit/prior-art/outside-review phase, distance optimisation, Palomar registration, arXiv/HHA submission, public release, priority announcement or third-party contact without separate owner instruction. Correctness checks remain mandatory.
+The active scope is the frozen C4 theorem, its matching manuscript, the Palomar statement package and owner-supplied Palomar follow-up. Preserve OptionD certificates without further OptionD development. No target search, novelty/HHA-fit/prior-art/outside-review phase, distance optimisation, Palomar registration, arXiv/HHA submission, public release, priority announcement or third-party contact without separate owner instruction. Correctness checks remain mandatory.
 
 The pinned full build and hosted checks on proof PR #217 and merged main certify `C4.c4_distance_separation_groupAlgebra`. The manuscript-to-Lean crosswalk records the declaration and its scope.
 
