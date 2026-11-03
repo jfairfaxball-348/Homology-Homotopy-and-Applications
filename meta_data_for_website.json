@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "title": "A quantitative homotopy-interleaving gap over the cyclic-four group algebra",
+  "slug": "c4-homotopy-interleaving-gap",
+  "status": "Paper prepared",
+  "headline": "A Lean-verified five-stage persistence example separates homology, derived and homotopy-interleaving distances over the cyclic-four group algebra.",
+  "year": 2026,
+  "date": "2026-11-03",
+  "description": "For an explicit five-stage real-indexed diagram of chain complexes over $\\mathbb F_2[C_4]$, the project proves $d_{\\mathrm{CohI}}(F,0)=\\frac12<d_{\\mathrm{IHC}}(F,0)=1<\\frac54\\le d_{\\mathrm{HI}}(F,0)\\le\\frac52$. The Lean formalisation covers whole real diagrams, including arbitrary objectwise-quasi-isomorphism replacement zigzags on both sides. The exact value of the homotopy-interleaving distance remains undetermined, and the separate field-only comparison in the manuscript is not part of the Lean certificate. The author reports that the manuscript has been submitted to Homology, Homotopy and Applications; no editorial acceptance or peer-reviewed publication is claimed.",
+  "summary": "The proof uses a periodic free resolution over the group algebra, a fourfold defining-system obstruction and a derived-diagram nullhomotopy to establish strict quantitative separation. The full group-algebra theorem and its manuscript correspondence were checked in the pinned Lean build and on GitHub-hosted CI. A standalone Palomar statement/solution package passed the repository's local comparator checks; the Palomar entry below was supplied by the author. The HHA submission is author-reported, not independently verified through a journal submission record.",
+  "topics": [
+    "Algebraic topology",
+    "Persistent homology",
+    "Homotopy interleavings",
+    "Derived categories",
+    "Group algebras",
+    "Formal verification"
+  ],
+  "github_url": "https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications",
+  "palomar_id": "PALOMAR-2026-11-03-000022",
+  "palomar_url": "https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-03-000022&version=1",
+  "paper_url": "https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/paper/C4_MANUSCRIPT.md",
+  "formalisation_system": "Lean 4 (Mathlib)",
+  "verification": "The full group-algebra separation theorem C4.c4_distance_separation_groupAlgebra is Lean kernel-checked with axioms [propext, Classical.choice, Quot.sound]. S175 records successful pinned local builds, exact-head PR CI and merged-main Lean/integrity CI. The S176 Palomar statement package separately passed the local Lean, NanoDa and con-ron comparator checks. These checks are not a substitute for external mathematical peer review.",
+  "attribution": "John Fairfax-Ball is the named author and directed the research programme and theorem scope. AI agents, including Claude and ChatGPT, substantially developed the mathematical argument, Lean formalisation and manuscript under his direction, as disclosed in formalization.yaml. No independent human expert review is recorded in the repository.",
+  "original_source": "Foundational context: Andrew J. Blumberg and Michael Lesnick, 'Universality of the homotopy interleaving distance', Transactions of the American Mathematical Society 376 (2023), DOI 10.1090/tran/8738 (arXiv:1705.01690); Katsuhiko Kuribayashi, Takahito Naito, Shun Wakatsuki and Toshihiro Yamaguchi, 'The equalities of interleaving distances and cohomology interleavings of spaces over BS^1', Journal of Applied and Computational Topology 10 (2026), article 26, DOI 10.1007/s41468-026-00252-0. The explicit cyclic-four example and proof were developed in this repository; no comprehensive novelty or priority assessment is claimed.",
+  "featured": false,
+  "additional_links": [
+    {
+      "label": "Lean group-algebra theorem",
+      "url": "https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/C4/GroupAlgebraDistance.lean"
+    },
+    {
+      "label": "Manuscript-to-Lean crosswalk",
+      "url": "https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/formal/C4_LEAN_CROSSWALK.md"
+    },
+    {
+      "label": "Standalone Palomar statement",
+      "url": "https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/Challenge.lean"
+    },
+    {
+      "label": "Palomar solution",
+      "url": "https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/Solution.lean"
+    },
+    {
+      "label": "S175 proof verification and CI evidence",
+      "url": "https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/sessions/S175/CLOSEOUT.md"
+    },
+    {
+      "label": "Provenance and AI-assistance disclosure",
+      "url": "https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/blob/main/formalization.yaml"
+    }
+  ]
+}
