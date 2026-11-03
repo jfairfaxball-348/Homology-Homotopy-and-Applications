@@ -914,3 +914,14 @@ Actual ℤ-indexed `C4.integerResolution` in `ModuleCat B`, all-integer differen
 
 ## CLM-0619 — FORMALLY_CERTIFIED (S142)
 The actual B-linear residue map `C4.residueLinear : B →ₗ[B] ZMod 2` is surjective; `C4.residueLinear_ker_eq_range` and `C4.positiveLinear_ker_eq_range` prove degree-zero and EVERY-positive-degree kernel/image equality in `Submodule B B`. Pinned scratch 472a81a53b01311f56c1d9e15e20d201fab935c3 hosted Lean #40529780801 and integrity #40529781169 SUCCESS. No genuine augmented `ChainComplex` morphism/homology or global C4 dg/whole-real metric certificate.
+
+## CLM-0620 — FORMALLY_CERTIFIED (S174)
+`C4.c4_distance_separation` concerns the genuine five-stage entire-real diagram of complexes of `C4.B`-modules against zero. It proves:
+- `dCohI = 1/2`, on underlying 𝔽₂-module homology with the supremum over all degrees;
+- `dIHC = 1` in every localisation of whole real diagrams at objectwise quasi-isomorphisms;
+- `5/4 ≤ dHI ≤ 5/2` over arbitrary whole-diagram zigzags of BOTH lanes;
+- the strict inequalities.
+
+PR #215 exact head `17ad479114421f0af8d67a1beda1a79a4cd48aea` passed Lean #41592284384 and integrity #41592284364. The ordinary merge is `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`, and merged-main Lean #41593094820 and integrity #41593094882 passed. The axioms are `[propext, Classical.choice, Quot.sound]`.
+
+Scope limits: the statement is over the presentation `C4.B = 𝔽₂[t]/(t⁴)`. The following are NOT certified (S175): the `RingEquiv` with `MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4))` and the group-algebra restatement. Nor is the §6 field-only comparison.

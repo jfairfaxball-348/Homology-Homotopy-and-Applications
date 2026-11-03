@@ -139,3 +139,8 @@ Same owner-authorised conversation and branch `ccr-efb93145-frhiz0`.
 **Evidence.** Full local pinned build `Build completed successfully (9015 jobs)` at `a85920b`; `c4_distance_separation` and `c4_distance_separation_canonical` depend on axioms `[propext, Classical.choice, Quot.sound]`; no `sorry`/`admit`/custom axiom in C4 sources (`grep`), `sorryAx` absent from the build log. Crosswalk: `formal/C4_LEAN_CROSSWALK.md`.
 
 **Remaining before S174 closeout.** (1) Hosted exact-head PR Lean and integrity CI, ordinary two-parent merge and independent merged-main CI (no PR has been opened by this conversation). (2) The presentation `C4.B ≅ 𝔽₂[C₄]` (via `t = 1 + g`) is the standard identification recorded in the crosswalk but is not a Lean `RingEquiv`. Only after (1), and an owner decision on (2), should S174 be closed and S175 installed.
+
+
+## Session closed (3 November 2026)
+
+At the owner's instruction, PR #215 passed exact-head Lean #41592284384 and integrity #41592284364. It was merged by the ordinary two-parent merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`, and merged-main Lean #41593094820 and integrity #41593094882 passed. The working branch was fast-forwarded to the merge. Draft #214 is contained in it, and GitHub marked #214 merged. The owner decided that the presentation `RingEquiv` belongs to S175. The closeout is `sessions/S174/CLOSEOUT.md`. This record is otherwise unchanged history.

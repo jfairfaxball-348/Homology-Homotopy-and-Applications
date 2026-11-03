@@ -1,10 +1,16 @@
 # C4 manuscript-to-Lean crosswalk — 3 November 2026
 
-Final declaration: **`C4.c4_distance_separation`** (`C4/MainTheorem.lean`), with the canonical-localisation instance `C4.c4_distance_separation_canonical`. Printed axioms of both: `[propext, Classical.choice, Quot.sound]`. Evidence: full local pinned `lake build` (Lean `v4.35.0-rc2`, Mathlib `065356127b1dc0016f66b7283ce0ce2c4055aa55`, C4 + preserved OptionD, 9015 jobs) on branch `ccr-efb93145-frhiz0` at commit `a85920b`. Hosted exact-head PR CI, ordinary merge and merged-main CI are still required by `docs/SESSION_PROTOCOL.md`.
+Final declaration: **`C4.c4_distance_separation`** (`C4/MainTheorem.lean`), with the canonical-localisation instance `C4.c4_distance_separation_canonical`. Printed axioms of both: `[propext, Classical.choice, Quot.sound]`. Evidence (Lean `v4.35.0-rc2`, Mathlib `065356127b1dc0016f66b7283ce0ce2c4055aa55`, C4 + preserved OptionD, 9015 jobs):
+- a full local pinned `lake build`;
+- hosted exact-head PR checks on `17ad479114421f0af8d67a1beda1a79a4cd48aea` (Lean #41592284384, integrity #41592284364);
+- the ordinary two-parent merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06` (PR #215);
+- merged-main Lean #41593094820 and integrity #41593094882.
+
+The hosted build log prints the axioms line for both declarations.
 
 | Manuscript object | Lean declaration | Notes |
 |---|---|---|
-| \(k=\mathbb F_2\), \(B=k[C_4]\cong k[t]/(t^4)\), \(t=1+g\) | `C4.B` (`C4/Jets.lean`, ring structure `C4/Ring.lean`) | `C4.B` is the truncated algebra \(k[t]/(t^4)\) with exact convolution. The identification with the group algebra via \(t=1+g\) is the standard characteristic-two presentation (manuscript §1); a Lean `RingEquiv` to `MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4))` is **not** formalised. |
+| \(k=\mathbb F_2\), \(B=k[C_4]\cong k[t]/(t^4)\), \(t=1+g\) | `C4.B` (`C4/Jets.lean`, ring structure `C4/Ring.lean`) | `C4.B` is the truncated algebra \(k[t]/(t^4)\) with exact convolution. The identification with the group algebra via \(t=1+g\) is the standard characteristic-two presentation (manuscript §1); a Lean `RingEquiv` to `MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4))` is **not** formalised yet (S175, ledger row C5). |
 | Resolution \(P\), \(H_0(P)\cong k\) | `integerResolution`, `integerResolution_homology_zero_iso`, exactness lemmas (`C4/Exactness.lean`) | Unbounded integer-indexed chain complexes of `ModuleCat B`. |
 | \(X_i=P[i]\), adjacent maps \(x\) | `integerShiftResolution`, `canonicalGlobalFourfold 0` fields `x01…x34` | |
 | §3 defining-system obstruction (every choice) | `GlobalFourfoldDefiningSystem`, `.terminal_not_boundary`, `.no_tertiary_filler` | Arbitrary global systems; no selected representative. |
