@@ -18,7 +18,7 @@ The presentation is `C4.groupAlgebraEquiv` with `t ↦ 1 + g`. See the [S175 clo
 
 ## What to do next
 
-The first-paper proof is complete. [S176](NEXT_SESSION_PROMPT.md) is future and its scope requires a separate owner instruction.
+The first-paper proof is complete. [S176 — Palomar register preparation](NEXT_SESSION_PROMPT.md) starts on a separate owner instruction. It checks the requirements, runs the available preflight and prepares a clean commit for the owner to upload.
 
 ## Read only the relevant records
 
