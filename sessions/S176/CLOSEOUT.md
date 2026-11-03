@@ -38,7 +38,7 @@ The owner invoked S176 on 3 November 2026 and chose the Apache License 2.0 for t
 | Metadata and licence | `ruby scripts/validate-formalization.rb`: no TEMPLATE values. licensee 10.0.0: `["Apache-2.0"]`, exact, 100. |
 | Exact-head PR CI | All success:<br>• Lean #41617793221<br>• repository integrity #41617793300<br>• Palomar package #41617793381, whose Comparator job 125855481148 shows con-ron, NanoDa and the Lean kernel accepting<br>• push runs Lean #41617739878 and integrity #41617739881 |
 | Ordinary merge | `5cd80cace662cda665c6184644bc2eeb0cc3e341`, parents `886dfc03550c31fc4df304da6fdf71b48af43346` and `f35677b710df2de38b2ef237b40ca4ad7ff7298b`. Its tree is the candidate tree. |
-| Merged-main CI | Lean #41630243235: success. Repository integrity #41630242696: success. Palomar package #41630243375: metadata and licence job 125897653805 success; Comparator job 125897654316 still running when this line was written. |
+| Merged-main CI | Lean #41630243235: success. Repository integrity #41630242696: success. Palomar package #41630243375: metadata and licence job 125897653805 success; Comparator job 125897654316 success, with con-ron (25823 declarations), NanoDa and the Lean kernel accepting and "Your solution is okay!". |
 | Not run | Palomar's reusable preflight (`PalomarSubmission/.github/workflows/submission.yml`). It selects Namespace Cloud runner labels that this repository cannot use. The template-equivalent hosted checks above replace it. |
 
 ## Values for the Palomar form

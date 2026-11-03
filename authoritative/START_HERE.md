@@ -6,7 +6,7 @@ The presentation is `C4.groupAlgebraEquiv` with `t ↦ 1 + g`. See the [S175 clo
 
 ## Verified integration
 
-[PR #220](https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/pull/220) (S176 Palomar package) passed exact-head Lean #41617793221, integrity #41617793300 and the Palomar package workflow #41617793381, including the hosted Comparator. The ordinary merge `5cd80cace662cda665c6184644bc2eeb0cc3e341` passed merged-main Lean #41630243235 and integrity #41630242696. The merged-main Palomar workflow #41630243375 was still running when this was written. The [S176 closeout](../sessions/S176/CLOSEOUT.md) lists the Palomar form values.
+[PR #220](https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/pull/220) (S176 Palomar package) passed exact-head Lean #41617793221, integrity #41617793300 and the Palomar package workflow #41617793381, including the hosted Comparator. The ordinary merge `5cd80cace662cda665c6184644bc2eeb0cc3e341` passed independent merged-main Lean #41630243235, integrity #41630242696 and the Palomar package workflow #41630243375, including the Comparator. The [S176 closeout](../sessions/S176/CLOSEOUT.md) lists the Palomar form values.
 
 [PR #217](https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/pull/217) passed Lean #41596661062 and integrity #41596661058 at the exact proof head. The ordinary two-parent merge `274216e07e1bceda8c31945beb71921f342bb566` passed independent Lean #41597179634 and integrity #41597179773.
 
