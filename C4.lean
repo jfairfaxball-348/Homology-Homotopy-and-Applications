@@ -92,3 +92,5 @@ public import C4.DerivedStageNullhomotopy
 public import C4.MainTheorem
 
 public import C4.GroupAlgebraDistance
+
+public import C4.Palomar.Bridge

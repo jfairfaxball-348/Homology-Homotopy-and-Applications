@@ -16,3 +16,5 @@ jobs:
         run: python3 scripts/session_handoff.py --check
       - name: Handoff state regression checks
         run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Palomar statement copy and sorry isolation
+        run: python3 scripts/check_palomar_statement.py

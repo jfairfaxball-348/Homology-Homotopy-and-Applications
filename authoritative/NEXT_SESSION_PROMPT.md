@@ -1,4 +1,4 @@
-# S176 — Palomar register preparation (FUTURE, UNEXECUTED)
+# S176 — Palomar register preparation (IN PROGRESS, PARTIAL)
 
 The owner has set the scope. A separate owner instruction such as “Run next session” starts S176. Installing or reading this handoff leaves S175 as the last completed session. The deliverable is a clean Git commit for the owner to upload and submit to Palomar. The owner handles Palomar intake, authentication and the registration decision.
 

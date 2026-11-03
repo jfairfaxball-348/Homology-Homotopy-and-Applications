@@ -4,7 +4,7 @@
 
 Read `authoritative/START_HERE.md`, the live fields of `authoritative/STATE.json`, and `authoritative/NEXT_SESSION_PROMPT.md` first. The single technical dependency ledger is `formal/C4_COMPLETION_STRATEGY.md`; `docs/SESSION_PROTOCOL.md` governs evidence and integration. Historical session records and Git history describe their own checkpoints, not current execution priorities.
 
-S175 is complete. The frozen theorem over the literal group algebra is `C4.c4_distance_separation_groupAlgebra`. See `sessions/S175/CLOSEOUT.md` for the proof and hosted checks. S176 is FUTURE, UNEXECUTED and scoped to Palomar registration preparation. A separate owner instruction starts it.
+S175 is complete. The frozen theorem over the literal group algebra is `C4.c4_distance_separation_groupAlgebra`. See `sessions/S175/CLOSEOUT.md` for the proof and hosted checks. S176 (Palomar registration preparation) was invoked by the owner on 3 November 2026 and is IN PROGRESS; see `sessions/S176/PARTIAL.md`. The repository licence is Apache-2.0 by owner decision.
 
 Preserve the frozen first-paper theorem over B = F₂[C₄], for the genuine five-stage real diagram F against zero:
 `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4≤dHI(F,0)≤5/2`.

@@ -4,6 +4,11 @@
   "as_of": "2026-11-03",
   "last_completed_session": "S175",
   "recommended_next_session": "S176",
+  "active_session": {
+    "id": "S176",
+    "status": "IN_PROGRESS",
+    "record": "sessions/S176/PARTIAL.md"
+  },
   "full_metric_theorem_lean_certified": true,
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
@@ -1106,7 +1111,15 @@
   "palomar": {
     "status": "NOT_SUBMITTED",
     "preparation_session": "S176",
-    "preparation_status": "FUTURE_UNEXECUTED"
+    "preparation_status": "IN_PROGRESS",
+    "license": "Apache-2.0",
+    "comparator_config": "comparator.json",
+    "theorem_names": [
+      "C4Separation.distance_separation",
+      "C4Separation.stageD_comp_stageD",
+      "C4Separation.xComp_comm"
+    ],
+    "local_comparator": "accepted (Lean kernel, NanoDa, con-ron)"
   },
   "arxiv": {
     "status": "NOT_SUBMITTED"
