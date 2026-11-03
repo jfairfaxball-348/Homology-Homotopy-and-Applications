@@ -90,3 +90,5 @@ public import C4.DerivedStageResolution
 public import C4.DerivedStageNullhomotopy
 
 public import C4.MainTheorem
+
+public import C4.GroupAlgebraDistance

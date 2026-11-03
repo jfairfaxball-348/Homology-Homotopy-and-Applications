@@ -4,6 +4,11 @@
   "as_of": "2026-11-03",
   "last_completed_session": "S174",
   "recommended_next_session": "S175",
+  "active_session": {
+    "id": "S175",
+    "status": "IN_PROGRESS",
+    "record": "sessions/S175/PARTIAL.md"
+  },
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
     "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
@@ -14,9 +19,9 @@
     "full_paper_theorem_lean_certified": false
   },
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S174 closed: the frozen C4 separation dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 <= dHI(F,0) <= 5/2 is the single Lean declaration C4.c4_distance_separation over C4.B = F2[t]/(t^4), merged by ordinary two-parent merge bc06b60 (PR #215) with exact-head PR and merged-main hosted CI, standard axioms only. S175 (future): the formal RingEquiv C4.B = F2[C4] and the restatement over the group algebra.",
+  "headline": "S174 closed: the frozen C4 separation dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 <= dHI(F,0) <= 5/2 is the single Lean declaration C4.c4_distance_separation over C4.B = F2[t]/(t^4), merged by ordinary two-parent merge bc06b60 (PR #215) with exact-head PR and merged-main hosted CI, standard axioms only. S175 is active. The group-algebra RingEquiv and the full restatement passed pinned local Lean. Hosted integration and closeout are pending.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "S174_COMPLETED_FINAL_DECLARATION_HOSTED_CERTIFIED_OVER_PRESENTATION_GROUP_ALGEBRA_RESTATEMENT_PENDING",
+  "headline_status": "S175_IN_PROGRESS_GROUP_ALGEBRA_RESTATEMENT_LOCALLY_CERTIFIED",
   "active_campaign": "C4_FIRST_PAPER_CONNECTED_REPLACEMENT_AND_DIRECT_OBSTRUCTION_COMPLETION",
   "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; Lean-certified (hosted CI) over the presentation C4.B = F2[t]/(t^4) as C4.c4_distance_separation; the group-algebra RingEquiv and restatement are pending (S175); no novelty or HHA significance gate in active roadmap.",
   "stages": [
@@ -33,12 +38,12 @@
     {
       "id": 2,
       "name": "Lean full unbounded diagram and quantitative homotopy theorem",
-      "status": "S174_FINAL_DECLARATION_HOSTED_CERTIFIED_OVER_PRESENTATION_GROUP_ALGEBRA_RESTATEMENT_OPEN"
+      "status": "S175_GROUP_ALGEBRA_RESTATEMENT_PINNED_LOCAL_BUILD_PASSED"
     },
     {
       "id": 3,
       "name": "Complete matching manuscript in parallel",
-      "status": "S174_MANUSCRIPT_STATUS_NOTES_UPDATED_ROUTE_TEXT_ALIGNMENT_OPEN"
+      "status": "S175_MANUSCRIPT_AND_CROSSWALK_ALIGNED"
     },
     {
       "id": 4,
@@ -1112,14 +1117,10 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "S175 deliverable 1: Lean RingEquiv C4.B ≃+* MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4)) with t ↦ 1 + g.",
-    "S175 deliverable 2: faithful restatement of c4_distance_separation over complexes of group-algebra modules (transported diagram, every localisation), preferably via ring-generic distance definitions and invariance under the induced equivalence.",
-    "S175 deliverable 3: definition-faithfulness audit in the crosswalk and manuscript route/status alignment (abstract, §§4–5, §7); §6 field-only comparison stays outside the frozen theorem.",
-    "S175 deliverable 4: after hosted PR/main CI of the restated declaration, set full_metric_theorem_lean_certified true and close S175."
+    "Verify the exact S175 pull-request head, merge by an ordinary two-parent merge and independently verify merged-main CI.",
+    "Record the group-algebra certificate, close S175 and install the future S176 handoff."
   ],
-  "blockers": [
-    "No blocker for S175 entry. Full certification over the literal group algebra awaits the S175 RingEquiv and restatement; the statement over the presentation C4.B is certified."
-  ],
+  "blockers": [],
   "s052_checkpoint": "T127/T128 exact contractible-cube collision saturation and all strict zero biconditional for any 2s<r<3s; T129 original-sphere whole-WE I4 countermodel proving all three collisions insufficient. No sphere GRID witness/no-go, higher obstruction or exact dHI. Hosted static governance is not mathematics.",
   "owner_publication_decision": {
     "date": "2026-10-15",

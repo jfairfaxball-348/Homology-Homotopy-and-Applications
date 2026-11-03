@@ -227,12 +227,14 @@ theorem strictInterleaving_ge_five_fourths
 
 /-- Admissible parameters: strict interleavings of entire real diagrams after
 ARBITRARY whole-real weak zigzag replacements of BOTH lanes. -/
-def homotopyInterleavingParameters (F G : ℝ ⥤ C4Complex) : Set ℝ :=
-  {ε | ∃ hε : 0 ≤ ε, ∃ F' G' : ℝ ⥤ C4Complex, WeakZigzag F F' ∧ WeakZigzag G G' ∧
+def homotopyInterleavingParameters {R : Type} [Ring R]
+    (F G : ℝ ⥤ ChainComplex (ModuleCat R) ℤ) : Set ℝ :=
+  {ε | ∃ hε : 0 ≤ ε, ∃ F' G' : ℝ ⥤ ChainComplex (ModuleCat R) ℤ, WeakZigzag F F' ∧ WeakZigzag G G' ∧
     Nonempty (StrictRealInterleaving F' G' ε hε)}
 
 /-- The strict homotopy-interleaving distance, valued in `[0, ∞]`. -/
-noncomputable def homotopyInterleavingDistance (F G : ℝ ⥤ C4Complex) : ℝ≥0∞ :=
+noncomputable def homotopyInterleavingDistance {R : Type} [Ring R]
+    (F G : ℝ ⥤ ChainComplex (ModuleCat R) ℤ) : ℝ≥0∞ :=
   ⨅ ε ∈ homotopyInterleavingParameters F G, ENNReal.ofReal ε
 
 /-- `dHI(F, 0) ≤ 5/2`, witnessed without any replacement. -/

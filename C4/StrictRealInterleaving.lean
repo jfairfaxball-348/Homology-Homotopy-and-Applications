@@ -21,8 +21,8 @@ open CategoryTheory CategoryTheory.Limits
 /-- A genuine strict interleaving of entire real diagrams. The crossing
 natural transformations must obey both shifted composite equations,
 at each real number. There are no replacement assumptions here. -/
-structure StrictRealInterleaving
-    (F G : ℝ ⥤ C4Complex) (ε : ℝ) (hε : 0 ≤ ε) where
+structure StrictRealInterleaving {C : Type*} [Category C]
+    (F G : ℝ ⥤ C) (ε : ℝ) (hε : 0 ≤ ε) where
   forward : F ⟶ translateDiagram G ε
   backward : G ⟶ translateDiagram F ε
   forward_backward : ∀ u : ℝ,

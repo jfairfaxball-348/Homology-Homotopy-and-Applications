@@ -1,6 +1,6 @@
 # A quantitative homotopy-interleaving gap over the cyclic-four group algebra
 
-**Internal working manuscript — updated at the S174 closeout, 3 November 2026.** Lean proves the numerical theorem of the abstract as the single declaration `C4.c4_distance_separation`, stated over the presentation \(k[t]/(t^4)\). It passed hosted exact-head PR and merged-main CI (PR #215, merge `bc06b60`) and uses only the standard axioms. The certified proofs of §4's derived vanishing and §5's lower bound follow the routes summarised in the implementation notes and §5.1; see `formal/C4_LEAN_CROSSWALK.md`. The identification \(B=k[C_4]\cong k[t]/(t^4)\) is used as the standard presentation and is not yet a Lean ring isomorphism (planned for S175).
+**Internal working manuscript, updated during S175 on 3 November 2026.** Lean checks the numerical theorem over the literal group algebra as `C4.c4_distance_separation_groupAlgebra` in the pinned local build. See the crosswalk for the definitions and verification record.
 
 ## Abstract
 
@@ -10,7 +10,7 @@ Over the group algebra \(B=\mathbb F_2[C_4]\), we give a five-stage real persist
  <d_{\mathrm{IHC}}(F,0)=1
  <\tfrac54\le d_{\mathrm{HI}}(F,0)\le\tfrac52.
 \]
-The strict homotopy-interleaving metric allows arbitrary objectwise-quasi-isomorphism zigzags of **both entire real-indexed diagrams**, including nonzero acyclic replacement diagrams for zero. The separation is detected by a fourfold defining-system obstruction whose terminal coefficient is independent of all choices. We explain the integer free-quiver and real Kan constructions for the derived upper bound, and the full real-shoelace cofibrant quotient for the strict lower bound. After forgetting the \(B\)-module structure, all three distances are \(1/2\) by a separately identified field-specific theorem. The numerical theorem is verified in Lean over the presentation \(k[t]/(t^4)\) of \(B\); the formal ring isomorphism with \(k[C_4]\) and the restatement over it are in progress.
+The strict homotopy-interleaving metric allows arbitrary objectwise-quasi-isomorphism zigzags of both entire real-indexed diagrams, including nonzero acyclic replacements of zero. A fourfold defining-system obstruction gives the lower bound for the strict metric. Its terminal coefficient is independent of the choices of representatives and fillers. For the derived upper bound, a seven-stage resolution gives a natural nullhomotopy of the two-unit shift. For the strict lower bound, K-projective lifting transfers a hypothetical interleaving through its acyclic lane to a defining system on the original resolutions. The separate field-only comparison gives distance \(1/2\) for all three metrics after forgetting the \(B\)-action.
 
 ## 1. Conventions and the exact statement
 
@@ -26,9 +26,9 @@ For a real-indexed diagram \(A\), write \(A^s(u)=A(u+s)\), and \(\eta_s^A:A\to A
 * \(d_{\mathrm{IHC}}(A,0)\) is the interleaving distance computed in \(\mathrm{Ho}(\mathcal M^{\mathbb R})\), the homotopy category of **whole real diagrams**, not in \((\mathrm{Ho}\mathcal M)^{\mathbb R}\).
 * \(d_{\mathrm{HI}}(A,0)\) is the infimum of strict interleaving parameters after **arbitrary whole-diagram zigzags of objectwise weak equivalences of both input lanes**. A replacement of the zero lane may be a nonzero acyclic diagram. No hypothesis requiring literal-zero replacements, a finite grid, or objectwise independent equivalences is added.
 
-For interleaving with zero in any of these categories, the crossing transformations are the zero transformations. Hence an \(\varepsilon\)-interleaving exists precisely when the corresponding \(\eta_{2\varepsilon}\) is zero in the category in which the interleaving is considered; for \(d_{\mathrm{HI}}\), this criterion is applied **after** an allowed strict whole-diagram replacement.
+The distances take values in \([0,\infty]\), with the infimum of an empty parameter set equal to \(\infty\). When a lane is the zero object in the category where the interleaving is computed, both crossing maps are zero. An \(\varepsilon\)-interleaving with that lane exists exactly when \(\eta_{2\varepsilon}\) vanishes in that category. The strict metric also allows acyclic replacement lanes, for which the crossing maps may be nonzero.
 
-**Theorem (internal, to be kernel-certified).** The explicit \(F\) of §2 satisfies the chain of inequalities displayed in the abstract. The \(\tfrac54\) lower bound is on an infimum: we claim no strict interleaving with \(\varepsilon<\tfrac54\), not nonattainment at \(\tfrac54\). We do not assert the exact value of \(d_{\mathrm{HI}}\), a topological-space analogue, or any generalisation to all finite group algebras.
+**Theorem.** The explicit \(F\) of §2 satisfies the chain of inequalities displayed in the abstract. The strict lower bound excludes every parameter \(\varepsilon<5/4\).
 
 ## 2. The periodic free resolution and the strict five-stage diagram
 
@@ -120,129 +120,34 @@ The first has constant term one by (3.3), while the last two have constant term 
 
 The argument depends only on necessary equations at degree two, not on enumerating all infinite chain-map families; arbitrarily many higher components cannot alter it. The endomorphism group of \(k[i]\) in the derived category is \(\operatorname{Ext}^0_B(k,k)=k\), whose units are \(k^\times=\{1\}\). Hence homotopy-equivalence conjugations of the adjacent maps do not introduce other nonzero generator scalars in this example.
 
-**Current Lean correspondence.** `C4.canonicalGlobalFourfold` supplies the actual all-integer global defining system. `C4.GlobalFourfoldDefiningSystem.terminal_residue` and `.terminal_not_boundary` extract the necessary equations from arbitrary genuine global maps, homotopies and secondary families and prove the terminal component is outside every tertiary boundary. The independent-map proof uses only the first primary and first secondary equations, avoiding any identification of distinct fillers. This proves the algebraic global obstruction; it does not yet identify all derived generators or prove transfer through arbitrary homotopy equivalences.
+**Current Lean correspondence.** `C4.canonicalGlobalFourfold` supplies the actual all-integer global defining system. `C4.GlobalFourfoldDefiningSystem.terminal_residue` and `.terminal_not_boundary` extract the necessary equations from arbitrary genuine global maps, homotopies and secondary families and prove the terminal component is outside every tertiary boundary. The independent-map proof uses only the first primary and first secondary equations, avoiding any identification of distinct fillers. Section 5 uses this algebraic obstruction after transferring a hypothetical interleaving to the original resolutions.
 
-## 4. The entire derived diagram: vanishing of the two-unit shift
+## 4. The entire derived diagram
 
-Let \(j:\mathbb N\hookrightarrow\mathbb R\), and let \(X:\mathbb N\to\mathcal M\) be the integer diagram \(X_i=P[i]\) for \(0\le i\le4\), \(X_i=0\) for \(i\ge5\). Its edges are \(a_i=x\) for \(0\le i<4\) and, **importantly**, the terminal \(a_4:X_4\to0\).
+Write \(S=(0,X_0,X_1,X_2,X_3,X_4,0)\) for the diagram on stages \(0,\ldots,6\), and let \(p:\mathbb R\to\{0,\ldots,6\}\) be the stage clock from §2, so \(F=p^*S\). The stage advance is \(a(0)=0\) and \(a(j)=\min(j+2,6)\) for \(j>0\). The stage two-shift \(S\to a^*S\) pulls back to a factor of \(\eta_2^F\). For \(u\ge0\), \(a(p(u))=p(u+2)\); at negative \(u\), the comparison map is from the zero complex. These components form a natural transformation \(p^*a^*S\to F^2\), including across the initial boundary.
 
-For an object \(M\in\mathcal M\), denote by \(L_iM\) the free integer diagram on vertex \(i\): it is zero below \(i\), equals \(M\) from \(i\) onward, and has identity structure maps in its nonzero range. Form the free diagram presentation
-\[
- E=\bigoplus_{i=0}^{4}L_{i+1}X_i
- \xrightarrow{\ \partial\ }
- V=\bigoplus_{i=0}^{4}L_iX_i
- \longrightarrow X\longrightarrow0 .
- \tag{4.1}
-\]
-Each \(\partial\) summand is the incidence between its source vertex and the next, with the latter component multiplied by \(a_i\); the \(i=4\) summand is essential to remove the unwanted free tail beyond vertex four. Objectwise, (4.1) is split exact in the underlying graded modules. Its mapping cone \(Q=\operatorname{Cone}(\partial)\) receives an objectwise quasi-isomorphism \(Q\to X\) and admits the requisite projectively cofibrant cellular filtration from the free objects.
+For the stage calculation, put \(C_i=\operatorname{Cone}(\mathrm{id}_{X_i})\) and write \(\iota_i:X_i\to C_i\) for the cone inclusion. Replace stages 2 and 3 by \(C_0\oplus X_1\) and \(C_0\oplus C_1\oplus X_2\), respectively. The incoming edges use \(\iota_0\) and \(\iota_1\) in the new cone components, preserve the first cone from stage 2 to stage 3, and agree with the original edges after projection to the \(X_i\) components. The outgoing edge at stage 3 projects to \(X_2\) and applies \(x\). These projections and the identities on the other stages form an objectwise quasi-isomorphism \(Q\to S\), since the added cones are contractible.
 
-The shift \(\eta_2^X:X\to X^2\) has vertex components \(x^2\) at \(i=0,1,2\), zero afterward. In the usual two-column Hom-complex for the free-quiver cone, a nullhomotopy consists of vertex components \(U_i\) and edge-correction components \(V_i\). Choose \(U_i=h\) at the first three vertices, zero later, and \(V_i=z\) at the first two edges, zero later. The relations
-\[
- Dh=x^2,\qquad Dz=xh+hx
-\]
-are respectively the vertex and edge equations for the differential of this cone homotopy. The terminal edge contributes zero. Thus the actual *whole integer-diagram* two-shift is nullhomotopic after the cofibrant resolution, yielding
-\[
- [\eta_2^X]=0\quad\text{in }\mathrm{Ho}(\mathcal M^{\mathbb N}).
- \tag{4.2}
-\]
-The full free-quiver chain-level differential, model cofibrancy and homotopy classes in (4.2) are L2 Lean obligations; vertexwise nullhomotopy alone would not prove (4.2).
+The composite \(Q\to S\to a^*S\) has a natural nullhomotopy. On the resolution components use the three primary fillers \(h_{02},h_{13},h_{24}\). On the cone components use the cycles obtained from the two secondary fillers \(z_{03},z_{14}\): the secondary equations give the required compatibility with the cone inclusions, and the first cone's component at stage 3 is the stage 2 component followed by \(x_{34}\). This verifies naturality on the consecutive edges and hence on every stage morphism. From stage 4 the translated targets are zero, so the terminal edge also satisfies the naturality equation.
 
-**Implementation note (certified route for (4.2)).** Lean proves \([\eta_2^F]=0\) in every localisation of whole real diagrams at objectwise quasi-isomorphisms without a model structure or Kan extension: the real two-unit shift factors through the seven-stage clock; on the stage diagram, a resolution with contractible cones \(\operatorname{Cone}(\mathrm{id}_{P_0})\), \(\operatorname{Cone}(\mathrm{id}_{P_1})\) adjoined at stages 2 and 3 carries a natural nullhomotopy with vertex components \(h\) and cone components built from \(z\) (the targets vanish from stage 4, which absorbs the terminal edge); natural homotopies are identified by every localisation via the cylinder lemma. Lean: `localized_twoShift_eq_zero`, `derivedInterleavingDistance_eq_one`.
-
-The restriction functor \(j^*:\mathcal M^{\mathbb R}\to\mathcal M^{\mathbb N}\) preserves objectwise fibrations and trivial fibrations; hence \(j_!\dashv j^*\), where \(j_!\) is left Kan extension, is a Quillen adjunction for projective diagram model structures. At each real \(u\), \(j_!X\) is exactly the step diagram \(F\) of §2. The natural shift-comparison map
-\[
- j_!(X^2)\longrightarrow (j_!X)^2
-\]
-need **not** be an isomorphism on negative real indices. What matters is the factorisation \(\eta_2^F=(\text{comparison})\circ j_!(\eta_2^X)\). Derived left Kan extension applied to the null morphism (4.2), with a cofibrant replacement as needed, therefore gives
-\[
- [\eta_2^F]=0\quad\text{in }\mathrm{Ho}(\mathcal M^{\mathbb R}).
-\]
-Zero crossings give \(d_{\mathrm{IHC}}(F,O)\le1\).
+Pullback along \(p\) preserves objectwise quasi-isomorphisms. The cylinder projection of a natural chain homotopy is an objectwise quasi-isomorphism, so every localisation at these maps identifies naturally homotopic morphisms. It follows, using the invertible projection from \(p^*Q\) and the shift comparison above, that \([\eta_2^F]=0\) in every localisation of whole real diagrams. Zero crossings give \(d_{\mathrm{IHC}}(F,O)\le1\). The Lean declarations are `twoShift_realDiagram_factor`, `stageResolutionπ_quasiIso`, `stageK_nat` and `localized_twoShift_eq_zero`.
 
 For \(0\le\varepsilon<1\), evaluate \(\eta_{2\varepsilon}^F\) at \(u=0\). It is the identity of \(P\) if \(2\varepsilon<1\), and the nonzero generator map \([x]:P\to P[1]\) if \(1\le2\varepsilon<2\). Neither vanishes in \(D(B)\). Evaluation preserves zero morphisms of entire derived diagrams, so no smaller derived interleaving exists. Consequently
 \[
  d_{\mathrm{IHC}}(F,O)=1.
 \]
 
-## 5. Arbitrary whole-real replacements: the homotopy lower bound
-
-**Implementation note, 2 November 2026 (later).** The argument below through (5.2)–(5.4) is the original internal recipe. The CERTIFIED proof (`C4/InterleavingTransfer.lean`, `C4/HomotopyInterleavingBound.lean`) takes a weaker-data route that needs no cofibrant replacement, quotient, monomorphism or homotopy inverse; it is summarised in §5.1 below.
-
-Suppose for contradiction that a homotopy interleaving exists at \(\varepsilon<5/4\), after some arbitrary zigzags of whole real diagrams objectwise quasi-isomorphic to \(F\) and \(O\). Monotonicity allows enlargement to
-\[
- e=\max\{1,\varepsilon\}<5/4,\quad
- \alpha=2e-2\in[0,1/2).
-\]
-A strict \(e\)-interleaving is a single strict diagram on the real shoelace poset \(S_e\), with two copies of \(\mathbb R\) and crossing order \(F(u)\to O(v)\) (or vice versa) when \(u+e\le v\). Choose **one** projectively cofibrant replacement \(Q\) of this entire poset diagram. Its second lane \(Q_O\) is only required to be objectwise acyclic; it need not be literally zero. The first lane is whole-diagram weakly equivalent to \(F\).
-
-For any comparable vertices \(p\le q\), the evaluation of a projective generating cofibration along the arrow \(p\to q\) is either zero, an identity or a generating cofibration in the arrow category. Projective cofibrations are closed under cellular pushouts, transfinite composition and retracts. Accordingly each structure arrow \(Q(p)\to Q(q)\) is a cofibration in \(\mathcal M\); in particular each crossing
-\[
- Q_O(u-e)\longrightarrow Q_F(u)
-\]
-is a degreewise split-injective cofibration of cofibrant chain complexes. We can therefore form a **natural whole-real** quotient diagram
-\[
- C(u)=Q_F(u)/Q_O(u-e) .
- \tag{5.1}
-\]
-The acyclic subcomplex in (5.1) gives \(Q_F(u)\to C(u)\) as a quasi-isomorphism, by the long exact homology sequence. These maps commute with every real structure arrow, so \(C\) remains weakly equivalent to \(F\) as a full diagram.
-
-The two crossing arrows of the interleaving factor
-\[
- Q_F(u)\longrightarrow Q_O(u+e)
- \longrightarrow Q_F(u+2e).
-\]
-The image of the middle object is **killed** in \(C(u+2e)\) by construction. Therefore for every real \(u\),
-\[
- C(u)\longrightarrow C(u+2e)=0
- \quad\text{as an actual chain map, not merely up to homotopy.}
- \tag{5.2}
-\]
-This is precisely why one must quotient an acyclic replacement of the zero lane rather than assuming the zero lane is literally zero.
-
-Now sample five real cuts
-\[
- s_0=0,\quad s_1=1,\quad s_2=2+\alpha,\quad
- s_3=3+\alpha,\quad s_4=4+2\alpha .
-\]
-They remain in the five respective half-open stages, since \(0\le\alpha<1/2\) ensures \(s_4<5\). Furthermore
-\[
- s_2-s_0=s_3-s_1=s_4-s_2=2e .
-\]
-The restriction \(C_i=C(s_i)\) yields a strict five-object chain
-\[
- C_0\xrightarrow{b_0}C_1\xrightarrow{b_1}C_2
- \xrightarrow{b_2}C_3\xrightarrow{b_3}C_4
-\]
-of cofibrant complexes, in which \(b_{i+1}b_i=0\) for \(i=0,1,2\), **strictly** by (5.2). The whole weak equivalence between \(C\) and \(F\) identifies the adjacent morphisms with the nonzero \([x]\) classes in the derived category; every automorphism of \(k[i]\) is multiplication by the sole scalar \(1\).
-
-Because both \(C_i\) and \(P[i]\) are cofibrant-fibrant representatives of isomorphic derived objects, choose chain-homotopy inverse maps \(u_i:P[i]\to C_i\), \(v_i:C_i\to P[i]\) and fillers \(s_i\) with
-\[
- D s_i=\operatorname{id}_{C_i}+u_i v_i .
-\]
-For \(j>i\), set
-\[
- T_{ij}=v_j b_{j-1}s_{j-1}b_{j-2}\cdots
-       s_{i+1}b_i u_i,
- \tag{5.3}
-\]
-with no \(s\) when \(j=i+1\). Differentiating a term of (5.3) replaces one \(s_r\) by \(\mathrm{id}+u_rv_r\). The identity summands vanish by the consecutive-composite equalities \(b_rb_{r-1}=0\); the \(u_rv_r\) terms factor as products of the shorter \(T\)'s. Thus
-\[
- DT_{ij}=\sum_{i<r<j}T_{rj}T_{ir}.
- \tag{5.4}
-\]
-In particular \(T_{02},T_{13},T_{24}\) are primary fillers, \(T_{03},T_{14}\) secondary fillers, and \(T_{04}\) is a further homotopy whose differential equals the terminal fourfold expression. This means **zero lies in the complete defining-system bracket**, contradicting §3. Hence
-\[
- d_{\mathrm{HI}}(F,O)\ge5/4.
-\]
-Equations (5.1)–(5.4), with the exact full-real, both-lanes quantifiers, are the main L3 Lean obligation; this manuscript's mathematical derivation must not be mistaken for kernel certification.
-
-### 5.1 The certified weak-data argument
+## 5. Arbitrary whole-real replacements
 
 Let \(F'\simeq F\) and \(O'\simeq O\) be arbitrary whole-real zigzag replacements and \((\alpha,\beta)\) a strict \(\varepsilon\)-interleaving of \(F'\) and \(O'\) with \(\varepsilon<5/4\); enlarge it to \(e=\max\{1,\varepsilon\}\). Every \(O'(v)\) is acyclic (it is zigzag-equivalent to \(0\)), but need not be zero. Sample \(s_0=0,\ s_1=1,\ s_2=2e,\ s_3=2e+1,\ s_4=4e\), write \(b_i\) for the structure maps of \(F'\) between them, \(Z_i=O'(s_i+e)\), \(\alpha_i,\beta_i\) for the crossings and \(o_i\) for the maps of \(O'\). The interleaving laws and naturality give \(b_{i+1}b_i=\beta_i\alpha_i\), \(\alpha_{i+1}b_i=o_i\alpha_i\), \(b_{i+2}\beta_i=\beta_{i+1}o_i\) and \(\alpha_2\beta_0=o_1o_0\).
 
 The shifted resolutions \(P[i]\) are K-projective, so for every quasi-isomorphism \(w\), composition with \(w\) is bijective on homotopy classes out of \(P[i]\) in every degree. Hence the canonical identifications \(P[i]=F(s_i)\) transport along each zigzag step, in either direction, to quasi-isomorphisms \(u_i:P[i]\to F'(s_i)\) with homotopies \(\lambda_i\colon u_{i+1}x\simeq b_iu_i\). Every chain map \(P[i]\to Z_j\) is nullhomotopic, and every cocycle of \(\operatorname{Hom}(P[i],Z_j)\) is a coboundary.
 
-Choose \(\theta_i\) with \(D\theta_i=\alpha_iu_i\). Then \(\mu_i=b_{i+1}\lambda_i+\lambda_{i+1}x+\beta_i\theta_i\) satisfies \(D\mu_i=u_{i+2}x^2\); a relative lift through \(u_{i+2}\) gives an ORIGINAL primary filler \(H_i\) and a correction \(\nu_i\) with \(\mu_i=u_{i+2}H_i+D\nu_i\). The cocycle \(\omega_i=\alpha_{i+1}\lambda_i+o_i\theta_i+\theta_{i+1}x\) bounds some \(\pi_i\); then \(\xi_i=\lambda_{i+2}H_i+b_{i+2}\nu_i+\nu_{i+1}x+\beta_{i+1}\pi_i\) satisfies \(D\xi_i=u_{i+3}(xH_i+H_{i+1}x)\), and a second lift gives original secondary fillers \(K_i\). Finally the cocycle \(\chi=\alpha_2\nu_0+o_1\pi_0+\theta_2H_0+\pi_1x\) (closed by \(\alpha_2\beta_0=o_1o_0\)) bounds \(\sigma\), and \(\tau=\lambda_3K_0+\nu_2H_0+b_3\rho_0+\rho_1x+\beta_2\sigma\) satisfies \(D\tau=u_4w\) for the original terminal \(w=xK_0+H_2H_0+K_1x\). Injectivity through \(u_4\) makes \(w\) a boundary: an original-system tertiary filler, contradicting §3. All signs vanish in characteristic two. Lean: `CochainInterleavingLadder.nonempty_fourfold`, `canonical_no_interleavingLadder`, `strictInterleaving_ge_five_fourths`.
+Choose \(\theta_i\) with \(D\theta_i=\alpha_iu_i\). Then \(\mu_i=b_{i+1}\lambda_i+\lambda_{i+1}x+\beta_i\theta_i\) satisfies \(D\mu_i=u_{i+2}x^2\); a relative lift through \(u_{i+2}\) gives a primary filler on the original resolutions \(H_i\) and a correction \(\nu_i\) with \(\mu_i=u_{i+2}H_i+D\nu_i\).
+
+The cocycle \(\omega_i=\alpha_{i+1}\lambda_i+o_i\theta_i+\theta_{i+1}x\) bounds some \(\pi_i\); then \(\xi_i=\lambda_{i+2}H_i+b_{i+2}\nu_i+\nu_{i+1}x+\beta_{i+1}\pi_i\) satisfies \(D\xi_i=u_{i+3}(xH_i+H_{i+1}x)\), and a second lift gives original secondary fillers \(K_i\) and corrections \(\rho_i\) with \(\xi_i=u_{i+3}K_i+D\rho_i\).
+
+The final cocycle \(\chi=\alpha_2\nu_0+o_1\pi_0+\theta_2H_0+\pi_1x\) (closed by \(\alpha_2\beta_0=o_1o_0\)) bounds \(\sigma\), and \(\tau=\lambda_3K_0+\nu_2H_0+b_3\rho_0+\rho_1x+\beta_2\sigma\) satisfies \(D\tau=u_4w\) for the original terminal \(w=xK_0+H_2H_0+K_1x\). Injectivity through \(u_4\) makes \(w\) a boundary: an original-system tertiary filler, contradicting §3. All signs vanish in characteristic two. The Lean declarations are `CochainInterleavingLadder.nonempty_fourfold`, `canonical_no_interleavingLadder` and `strictInterleaving_ge_five_fourths`.
 
 For the upper bound, \(F(u)\to F(u+5)\) is literally zero for every real \(u\), including every endpoint. Zero crossings therefore give a strict \(5/2\)-interleaving with \(O\), without any replacement:
 \[
@@ -270,15 +175,15 @@ The current pinned Lean development certifies:
 3. The terminal residue-one obstruction for every independent global defining system, excluding every possible pair of tertiary-boundary components in the decisive actual complex degree.
 4. The strict functor `realDiagram` over the entire ordered real line, all five half-open stage objects and zero ends, and literal vanishing of its natural five-unit shift.
 5. The direct one/two/three-cut word boundary identities on arbitrary B-module complexes with actual comparison homotopies and strict consecutive zeros; original shifted-resolution K-projectivity and its explicit sufficient comparison contract.
-6. K-projective lifting through arbitrary quasi-isomorphisms and the weak-data transfer of the fourfold obstruction through an interleaving with acyclic opposite lane (§5.1).
+6. K-projective lifting through arbitrary quasi-isomorphisms and the weak-data transfer of the fourfold obstruction through an interleaving with acyclic opposite lane (§5).
 7. Whole-real weak zigzags of BOTH lanes and \(5/4\le d_{\mathrm{HI}}(F,0)\le5/2\) for the \([0,\infty]\)-valued strict homotopy-interleaving distance.
 8. \(d_{\mathrm{CohI}}(F,0)=1/2\) for the underlying \(k\)-module homology persistence modules, supremum over all integer degrees.
 
 9. \(d_{\mathrm{IHC}}(F,0)=1\) in every localisation of whole real diagrams at objectwise quasi-isomorphisms, and the combined declaration `C4.c4_distance_separation` of the abstract's chain of (in)equalities.
 
-These are pinned-build certificates with axioms `[propext, Classical.choice, Quot.sound]`. They passed hosted exact-head PR CI (Lean #41592284384) and merged-main CI (Lean #41593094820) after the ordinary merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`. The coefficient presentation \(k[C_4]\cong k[t]/(t^4)\) is documented in the crosswalk but not yet formalised as a ring isomorphism; this, and the restatement over \(k[C_4]\), are S175's work.
+These are pinned-build certificates with axioms `[propext, Classical.choice, Quot.sound]`. They passed hosted exact-head PR CI (Lean #41592284384) and merged-main CI (Lean #41593094820) after the ordinary merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`. The pinned local S175 build checks the ring presentation as `C4.groupAlgebraEquiv` and the result over group-algebra modules as `C4.c4_distance_separation_groupAlgebra`. Hosted verification is pending.
 
-The pinned Mathlib does not infer the unbounded projective or real-diagram model-category instances invoked by §§4–5. An explicit algebraic construction may replace that route only after proving the exact required comparison. Diagnostic input/output and the current dependency contracts are recorded in `sessions/S164` and `formal/C4_COMPLETION_REVIEW.md`.
+The proofs in §§4–5 work with natural transformations and objectwise quasi-isomorphisms of whole diagrams. The crosswalk records the correspondence between these proofs and the pinned declarations.
 
 These are implementation/correctness requirements. No novelty, journal-fit, prior-art or external-review gate is part of the active roadmap. Registry, submission and release require separate owner instructions.
 
