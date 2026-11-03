@@ -4,15 +4,15 @@
 
 Read `authoritative/START_HERE.md`, the live fields of `authoritative/STATE.json`, and `authoritative/NEXT_SESSION_PROMPT.md` first. The single technical dependency ledger is `formal/C4_COMPLETION_STRATEGY.md`; `docs/SESSION_PROTOCOL.md` governs evidence and integration. Historical session records and Git history describe their own checkpoints, not current execution priorities.
 
-The owner invoked S175 on 3 November. S174 is the last completed session. S175 is active and the group-algebra declaration passed pinned local Lean. Follow the integration handoff in `sessions/S175/PARTIAL.md`. S176 requires a separate owner instruction.
+S175 is complete. The frozen theorem over the literal group algebra is `C4.c4_distance_separation_groupAlgebra`. See `sessions/S175/CLOSEOUT.md` for the proof and hosted checks. S176 is FUTURE, UNEXECUTED and requires a separate owner instruction that sets its scope.
 
 Preserve the frozen first-paper theorem over B = F₂[C₄], for the genuine five-stage real diagram F against zero:
 `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4≤dHI(F,0)≤5/2`.
 The derived category is that of whole real diagrams. The homotopy metric allows arbitrary whole-diagram objectwise quasi-isomorphism zigzags on BOTH lanes, including nonzero acyclic replacements of zero. No finite-grid surrogate, literal-zero replacement assumption, or stronger hidden hypothesis may replace this statement.
 
-## Immediate priority
+## Current status
 
-Integrate the locally checked S175 proof. Verify both hosted checks at the exact PR head and at the ordinary two-parent merge on main, then record the final certificate. The paper scope and coefficient conventions are recorded in the crosswalk.
+The first-paper formalisation is complete. Preserve the certificate and matching manuscript. The owner sets the scope of any future session.
 
 ## Execution and evidence
 
@@ -28,6 +28,6 @@ Integrate the locally checked S175 proof. Verify both hosted checks at the exact
 
 Only frozen C4 Lean and its matching manuscript are active. Preserve OptionD certificates without further OptionD development. No target search, novelty/HHA-fit/prior-art/outside-review phase, distance optimisation, Palomar registration, arXiv/HHA submission, public release, priority announcement or third-party contact without separate owner instruction. Correctness checks remain mandatory.
 
-The pinned local build checks the full group-algebra theorem. The exact-head PR checks and independent merged-main checks are required for the final certificate. The manuscript-to-Lean crosswalk records the declaration and its scope.
+The pinned full build and hosted checks on proof PR #217 and merged main certify `C4.c4_distance_separation_groupAlgebra`. The manuscript-to-Lean crosswalk records the declaration and its scope.
 
 The accumulated former instructions are preserved in Git at baseline `633634e2e32abe186bde3fc1cf7c26fa3f2e24c3` and in historical session records.

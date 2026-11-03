@@ -1,6 +1,6 @@
 # C4 manuscript-to-Lean crosswalk — 3 November 2026
 
-Final declaration: **`C4.c4_distance_separation`** (`C4/MainTheorem.lean`), with the canonical-localisation instance `C4.c4_distance_separation_canonical`. Printed axioms of both: `[propext, Classical.choice, Quot.sound]`. Evidence (Lean `v4.35.0-rc2`, Mathlib `065356127b1dc0016f66b7283ce0ce2c4055aa55`, C4 + preserved OptionD, 9015 jobs):
+S174 presentation theorem: **`C4.c4_distance_separation`** (`C4/MainTheorem.lean`), with the canonical-localisation instance `C4.c4_distance_separation_canonical`. Printed axioms of both: `[propext, Classical.choice, Quot.sound]`. Evidence (Lean `v4.35.0-rc2`, Mathlib `065356127b1dc0016f66b7283ce0ce2c4055aa55`, C4 + preserved OptionD, 9015 jobs):
 - a full local pinned `lake build`;
 - hosted exact-head PR checks on `17ad479114421f0af8d67a1beda1a79a4cd48aea` (Lean #41592284384, integrity #41592284364);
 - the ordinary two-parent merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06` (PR #215);
@@ -8,15 +8,15 @@ Final declaration: **`C4.c4_distance_separation`** (`C4/MainTheorem.lean`), with
 
 The hosted build log prints the axioms line for both declarations.
 
-The pinned local S175 build checks the literal group-algebra theorem `C4.c4_distance_separation_groupAlgebra` with the same standard axioms. Hosted integration is pending.
+The final theorem over the literal group algebra is **`C4.c4_distance_separation_groupAlgebra`** (`C4/GroupAlgebraDistance.lean`), with axioms `[propext, Classical.choice, Quot.sound]`. The full local pinned build completed 9017 jobs. [PR #217](https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/pull/217) passed exact-head Lean #41596661062 and integrity #41596661058; ordinary merge `274216e07e1bceda8c31945beb71921f342bb566` passed independent merged-main Lean #41597179634 and integrity #41597179773.
 
 | Manuscript object | Lean declaration | Notes |
 |---|---|---|
-| \(k=\mathbb F_2\), \(B=k[C_4]\cong k[t]/(t^4)\), \(t=1+g\) | `C4.B` (`C4/Jets.lean`, ring structure `C4/Ring.lean`) | `C4.B` is the truncated algebra \(k[t]/(t^4)\) with exact convolution. `C4.groupAlgebraEquiv` is the ring isomorphism. `groupAlgebraEquiv_t` sends the indeterminate to `1 + g`, and `groupAlgebraEquiv_t3` gives the group norm. `groupAlgebraDiagram` transports the entire diagram along restriction of scalars. |
+| \(k=\mathbb F_2\), \(B=k[C_4]\cong k[t]/(t^4)\), \(t=1+g\) | `C4.groupAlgebraEquiv` (`C4/GroupAlgebra.lean`) | `C4.B` is the truncated algebra \(k[t]/(t^4)\) with exact convolution. `C4.groupAlgebraEquiv` is the ring isomorphism. `groupAlgebraEquiv_t` sends the indeterminate to `1 + g`, and `groupAlgebraEquiv_t3` gives the group norm. `groupAlgebraDiagram` transports the entire diagram along restriction of scalars. |
 | Resolution \(P\), \(H_0(P)\cong k\) | `integerResolution`, `integerResolution_homology_zero_iso`, exactness lemmas (`C4/Exactness.lean`) | Unbounded integer-indexed chain complexes of `ModuleCat B`. |
 | \(X_i=P[i]\), adjacent maps \(x\) | `integerShiftResolution`, `canonicalGlobalFourfold 0` fields `x01…x34` | |
 | §3 defining-system obstruction (every choice) | `GlobalFourfoldDefiningSystem`, `.terminal_not_boundary`, `.no_tertiary_filler` | Arbitrary global systems; no selected representative. |
-| §2 diagram \(F\), zero diagram \(O\) | `realDiagram`, `zeroDiagram` (`C4/RealDiagram.lean`) | Entire real line, half-open stages, terminal edge to zero. |
+| §2 diagram \(F\), zero diagram \(O\) | `groupAlgebraDiagram`, `groupAlgebraZeroDiagram` (`C4/GroupAlgebraDistance.lean`) | Entire real line, half-open stages, terminal edge to zero. |
 | \(d_{\mathrm{CohI}}\) | `homologyInterleavingDistance` (`C4/HomologyInterleavingDistance.lean`) | Supremum over all integer degrees of `persistenceInterleavingDistance` of `homologyPersistence` (underlying \(k\)-modules by `ModuleCat.restrictScalars`). |
 | \(d_{\mathrm{IHC}}\) in \(\mathrm{Ho}(\mathcal M^{\mathbb R})\) | `derivedInterleavingDistance L` (`C4/DerivedInterleavingDistance.lean`) | ANY localisation `L` of `ℝ ⥤ C4Complex` at `objectwiseQuasiIso`; lifted translations `derivedTranslate`; `DerivedRealInterleaving`. |
 | \(d_{\mathrm{HI}}\) | `homotopyInterleavingDistance` (`C4/HomotopyInterleavingBound.lean`) | Strict interleavings (`StrictRealInterleaving`) after `WeakZigzag` replacements of BOTH lanes (`Relation.EqvGen` of whole-diagram objectwise-QuasiIso natural transformations). |

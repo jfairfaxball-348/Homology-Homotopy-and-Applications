@@ -1,6 +1,6 @@
 # A quantitative homotopy-interleaving gap over the cyclic-four group algebra
 
-**Internal working manuscript, updated during S175 on 3 November 2026.** Lean checks the numerical theorem over the literal group algebra as `C4.c4_distance_separation_groupAlgebra` in the pinned local build. See the crosswalk for the definitions and verification record.
+**Internal working manuscript, updated at the S175 closeout on 3 November 2026.** Lean certifies the theorem over the group algebra as `C4.c4_distance_separation_groupAlgebra`. The crosswalk records the definitions and verification evidence.
 
 ## Abstract
 
@@ -181,7 +181,7 @@ The current pinned Lean development certifies:
 
 9. \(d_{\mathrm{IHC}}(F,0)=1\) in every localisation of whole real diagrams at objectwise quasi-isomorphisms, and the combined declaration `C4.c4_distance_separation` of the abstract's chain of (in)equalities.
 
-These are pinned-build certificates with axioms `[propext, Classical.choice, Quot.sound]`. They passed hosted exact-head PR CI (Lean #41592284384) and merged-main CI (Lean #41593094820) after the ordinary merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`. The pinned local S175 build checks the ring presentation as `C4.groupAlgebraEquiv` and the result over group-algebra modules as `C4.c4_distance_separation_groupAlgebra`. Hosted verification is pending.
+These are pinned-build certificates with axioms `[propext, Classical.choice, Quot.sound]`. They passed hosted exact-head PR CI (Lean #41592284384) and merged-main CI (Lean #41593094820) after the ordinary merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`. S175 checks the ring presentation as `C4.groupAlgebraEquiv` and the result over group-algebra modules as `C4.c4_distance_separation_groupAlgebra`. Hosted Lean #41596661062 checked the exact PR head and Lean #41597179634 checked the ordinary merge on main. Section 6's field-only comparison is separate from this certificate.
 
 The proofs in §§4–5 work with natural transformations and objectwise quasi-isomorphisms of whole diagrams. The crosswalk records the correspondence between these proofs and the pinned declarations.
 
