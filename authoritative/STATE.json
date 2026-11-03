@@ -2,8 +2,8 @@
   "project": "Homology-Homotopy-and-Applications",
   "repository_id": 1415583825,
   "as_of": "2026-11-03",
-  "last_completed_session": "S173",
-  "recommended_next_session": "S174",
+  "last_completed_session": "S174",
+  "recommended_next_session": "S175",
   "s150_checkpoint": {
     "entry_main": "bea16028802dae24abe6b3b6bd0ae93e47f5325b",
     "certified_scratch_sha": "553f990b228ea9b5b072e8bba5649861f7293374",
@@ -14,11 +14,11 @@
     "full_paper_theorem_lean_certified": false
   },
   "journal": "Homology, Homotopy and Applications (International Press)",
-  "headline": "S174: the frozen C4 separation dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 <= dHI(F,0) <= 5/2 is the single Lean declaration C4.c4_distance_separation, checked in a full local pinned build with standard axioms only. Hosted PR/main CI, merge and the formal B = F2[C4] RingEquiv remain before closeout.",
+  "headline": "S174 closed: the frozen C4 separation dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 <= dHI(F,0) <= 5/2 is the single Lean declaration C4.c4_distance_separation over C4.B = F2[t]/(t^4), merged by ordinary two-parent merge bc06b60 (PR #215) with exact-head PR and merged-main hosted CI, standard axioms only. S175 (future): the formal RingEquiv C4.B = F2[C4] and the restatement over the group algebra.",
   "selected_mathematical_problem": "B=F2[C4] five-stage whole-real Ch(right B) F vs zero, exact internal dCohI=1/2<dIHC=1<5/4<=dHI<=5/2; whole-diagram weak-equivalence zigzags BOTH lanes.",
-  "headline_status": "S174_FINAL_DECLARATION_CHECKED_LOCALLY_HOSTED_CI_MERGE_AND_PRESENTATION_EQUIV_PENDING",
+  "headline_status": "S174_COMPLETED_FINAL_DECLARATION_HOSTED_CERTIFIED_OVER_PRESENTATION_GROUP_ALGEBRA_RESTATEMENT_PENDING",
   "active_campaign": "C4_FIRST_PAPER_CONNECTED_REPLACEMENT_AND_DIRECT_OBSTRUCTION_COMPLETION",
-  "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; no formal certificate of the metric; no novelty or HHA significance gate in active roadmap.",
+  "claim_of_new_theorem": "Internally written frozen C4 five-stage full-real metric theorem; Lean-certified (hosted CI) over the presentation C4.B = F2[t]/(t^4) as C4.c4_distance_separation; the group-algebra RingEquiv and restatement are pending (S175); no novelty or HHA significance gate in active roadmap.",
   "stages": [
     {
       "id": 0,
@@ -33,12 +33,12 @@
     {
       "id": 2,
       "name": "Lean full unbounded diagram and quantitative homotopy theorem",
-      "status": "S174_PARTIAL_GRADED_BAR_CERTIFIED_COMPARISON_C1_C2_C3_C4_OPEN"
+      "status": "S174_FINAL_DECLARATION_HOSTED_CERTIFIED_OVER_PRESENTATION_GROUP_ALGEBRA_RESTATEMENT_OPEN"
     },
     {
       "id": 3,
       "name": "Complete matching manuscript in parallel",
-      "status": "S163_MANUSCRIPT_STATUS_UPDATED_FULL_REAL_THEOREM_UNCERTIFIED"
+      "status": "S174_MANUSCRIPT_STATUS_NOTES_UPDATED_ROUTE_TEXT_ALIGNMENT_OPEN"
     },
     {
       "id": 4,
@@ -1101,7 +1101,7 @@
     "s172_green_integrity_run": 41131166873
   },
   "source_inspection": "S018 inspected original LLO arXiv2402.16624v4 Problem1/Kan and FoCM2025 Botnan–Oppermann–Oudot original Thm4.11/Prop4.5/Prop4.17 full HTML proof; Oudot–Waas SoCG2026/arXiv2603.23460 abstract/metadata only. Journal-final HHA 2026 and Höppner–Lenzing 1981 JPAA proofs inaccessible. S019 original SoCG 2026 HTML Theorem1, Definition28/32 and Proposition34 inspected; Hatcher original indexed excerpt only. Exact full priority not cleared; no explicit T46 finite certificate. S020 inspected original Springer full HTML Monoidal Rips Prop6.7, SoCG DOI abstract/HTML page, MathOverflow exact 36-tetrahedra list and original 2000 simplicial Hopf map bibliographic metadata; priority remains unverified. S021 DIRECT original Madahar-Sarkaria author-hosted PDF §§2,3,5 inspected; Oudot-Waas SoCG2026 HTML Thm1, Blaser et al. 2026 §6.3 Prop6.7, Memoli-Stefanou-Zhou JACT2024 HTML introduction/Def and stability statements; mixed cofiber priority still OPEN. S022 directly read Cohn–Rajagopal 2026 §2 five-dimensional kissing number 40–44 bounds (independent T50 uses its own positive polynomial); Cambridge original Munson–Volić 2015 cubical homotopy pushouts chapter metadata and indexed original PDF §3.8.8 total cofiber excerpt (PDF not directly retrievable); original Sarkaria paper source §§2,3,5 and original JACT/SoCG remain priority adversaries. No complete mixed-persistence priority proof audit. S024 revisited Cambridge 2015 §§3.8/3.9 ORIGINAL indexed author PDF snippets but 45MB direct PDF fetch was too large and alternate URL disabled; no full proof read. Revisited original JACT2026 Monoidal Rips full HTML and SoCG2026 original abstract; no new HHA priority pass. S026 original BL2017 Example8.5 inspected, Lanari-Scoccola AGT2023 full publisher PDF unavailable, MSZ2024 original theorem2 inspected, original Munson-Volic2015 complete PDF not retrieved. No source-cleared novelty. S027 original BL2017 §3 pp11, §7 pp21-23, §8 pp25-26 visually inspected; MSZ2024 original HTML Theorem1/2 and proof passages; LS2023 official abstract/metadata only, Munson-Volic full original PDF inaccessible; Oudot-Waas2026 abstract, Blaser2026 original HTML only. Full novelty proof audit missing. S028: full original LS arXivv3 downloaded and selected §3.3 Proposition3.14/Lemma3.15 and §5 theorem/proof inspected, journal-final PDF still inaccessible. Full original Munson–Volic45MB PDF retrieved, selected chapter3§3.8/3.9 proofs and visual pages168/171 read, correct cofiber Definition3.8.1. MSZ2024 original Theorem2/Lemma3.5 proofs read; Musin–Shamazov2025 original §§2–3 algorithm inspected. Exact certificate priority not claimed; categorical flagship retired. S030 direct original LLO arXiv HTML Definition3/Theorem4 and original FoCM2025 Thm4.11/Prop4.5/4.17 HTML proof directly inspected. Keagy2026 original arXiv ABSTRACT only, full PDF/HTML blocked; Höppner–Lenzing1981 publisher ABSTRACT only, pdf access denied; no proof-level priority clearance. S032: original Keagy2026 full proof text arxiv2602.13560v1 read for A_n/total order/zigzags; original Höppner–Lenzing1981 JPAA pp7–12 full proof remains inaccessible; no originality clearance. S033: Møller–Scherer original MPI Bonn PDF theorem2.2 proof and example2.4 visually inspected p3; original LLO v4 statement and Keagy v1 proof HTML accessible; Munson–Volić original 2015 and LS original 2023 selected proof inspections inherited from S028, not independently re-downloaded. 1981 Höppner–Lenzing JPAA full proof still uninspected; similarly titled 1981 Springer proceedings is distinct. No priority guarantee. S035: LS original arXivv3 PDF proof selected §§2.2.2,3.2 visually inspected, original publisher final Remark3.13 indexed; 2026 Springer original full article HTML §1/2/3 statements inspected; 2026 relative Sullivan arxiv HTML source selected sections; 2002 Toda track abstract only; LS v1 anticipation from indexed mirror. No exhaustive citation/priority audit. S040: DKS1989 original printed-paper text selected §§4.1–4.9, §5 open via ResearchGate original transcription; publisher direct 403; not complete proof chain. 2002 Toda and 2011 Baues–Blanc original publisher abstracts. No novelty gate. S042 original Wang–Xu arxiv1601.02184v4 Cor1.10 short proof directly read; Blanc–Johnson–Turner2019 Intro/§7.A selected original excerpts, NOT full proof; HKM2002 abstract only. S043 direct original IWX2023 137pp PDF selected tables pp114,212,228 (pi61=0; theta5; h5 n indeterminacy); BJT2018 arxiv PDF selected §7.A/Remark7.5; LS original 2022v3 HTML §3.2 Prop3.10 proof/Prop3.12/Remark3.13. DKS1989 full and HKM2002 proof not accessed. No priority pass. S044 SOURCE-STATED original IWX2023 Tables4/10 h5 f1/n f5 and h5² f2/h5n f>=6 bracket indeterminacy. Derived filtered-group exclusion internally, Adams proof/classical transport not independently redone. DKS1989/HKM2002/1981 originals not fully inspected. S072 original BBG2016 selected Example2.17 Fig2.19 p9-10, Theorem4.21 full proof p17-19 and Def4.27-4.32 p20 inspected; LS2023 Lemma3.4 p10-11 and Prop3.7/3.10 pp12-14 proof inspected; BJT2019 §7 selected; Kochman printed pp14-16 and Xu §5 p1620-21 inspected. Full DKS1989/HKM2002/Xu reference historical proofs inaccessible; explicit BBG/Kochman/Xu all-choice equality not proved. Current 2026 HHA cited-by audit incomplete.",
-  "lean": "Branch ccr-efb93145-frhiz0 commit a85920b: full local pinned C4+OptionD lake build SUCCESS (9015 jobs), Lean v4.35.0-rc2, Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55. Final declaration C4.c4_distance_separation (and _canonical) depends on [propext, Classical.choice, Quot.sound]. Crosswalk formal/C4_LEAN_CROSSWALK.md. Hosted exact-head PR CI and merged-main CI not yet run.",
+  "lean": "Main bc06b6011f5556a8ba36ee85167b1fa5c875bc06 (ordinary merge of PR #215): merged-main pinned Lean #41593094820 and integrity #41593094882 SUCCESS; exact PR head 17ad479 Lean #41592284384 and integrity #41592284364 SUCCESS. Lean v4.35.0-rc2, Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55, C4 + preserved OptionD. C4.c4_distance_separation and C4.c4_distance_separation_canonical depend on [propext, Classical.choice, Quot.sound] (hosted build log). Crosswalk formal/C4_LEAN_CROSSWALK.md. Coefficient ring is the presentation C4.B; RingEquiv to MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4)) not yet formalised.",
   "palomar": {
     "status": "NOT_SUBMITTED"
   },
@@ -1112,13 +1112,13 @@
     "status": "NOT_SUBMITTED"
   },
   "open_obligations": [
-    "Integration: open a PR from ccr-efb93145-frhiz0 (supersedes draft PR #214), require exact-head hosted Lean and integrity CI, ordinary two-parent merge, independent merged-main CI.",
-    "Presentation: optionally formalise the RingEquiv C4.B ≅ MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4)) via t = 1 + g; currently a documented standard identification in the crosswalk.",
-    "After integration: S174 closeout, NEXT_SESSION_HANDOFF and S175 future prompt (owner decides scope)."
+    "S175 deliverable 1: Lean RingEquiv C4.B ≃+* MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4)) with t ↦ 1 + g.",
+    "S175 deliverable 2: faithful restatement of c4_distance_separation over complexes of group-algebra modules (transported diagram, every localisation), preferably via ring-generic distance definitions and invariance under the induced equivalence.",
+    "S175 deliverable 3: definition-faithfulness audit in the crosswalk and manuscript route/status alignment (abstract, §§4–5, §7); §6 field-only comparison stays outside the frozen theorem.",
+    "S175 deliverable 4: after hosted PR/main CI of the restated declaration, set full_metric_theorem_lean_certified true and close S175."
   ],
   "blockers": [
-    "No hosted CI evidence yet for the final-declaration commits; local pinned builds are recorded as local evidence only.",
-    "The group-algebra presentation of B is not a Lean RingEquiv."
+    "No blocker for S175 entry. Full certification over the literal group algebra awaits the S175 RingEquiv and restatement; the statement over the presentation C4.B is certified."
   ],
   "s052_checkpoint": "T127/T128 exact contractible-cube collision saturation and all strict zero biconditional for any 2s<r<3s; T129 original-sphere whole-WE I4 countermodel proving all three collisions insufficient. No sphere GRID witness/no-go, higher obstruction or exact dHI. Hosted static governance is not mathematics.",
   "owner_publication_decision": {
@@ -3022,14 +3022,9 @@
     "interpretation_lean_run": 41183644816,
     "interpretation_scope": "arbitrary full-poset functor gives whole-real strict interleaving, and S172 quotient under explicit mono/acyclic hypotheses"
   },
-  "active_session": {
-    "id": "S174",
-    "status": "IN_PROGRESS",
-    "record": "sessions/S174/PARTIAL.md"
-  },
   "current_strategy": "formal/C4_COMPLETION_STRATEGY.md",
   "s174_partial_checkpoint": {
-    "status": "IN_PROGRESS_PARTIAL_NOT_CLOSED",
+    "status": "CLOSED_PARTIAL_RECORD",
     "record": "sessions/S174/PARTIAL.md",
     "latest_merged_pr": 211,
     "verified_main": "633634e2e32abe186bde3fc1cf7c26fa3f2e24c3",
@@ -3094,7 +3089,8 @@
       "crosswalk": "formal/C4_LEAN_CROSSWALK.md",
       "pending": "hosted PR/main CI and merge; optional B = F2[C4] RingEquiv"
     },
-    "full_metric_theorem_locally_kernel_checked": true
+    "full_metric_theorem_locally_kernel_checked": true,
+    "closed_by": "s174_checkpoint"
   },
   "owner_strategy_update_20261102": {
     "scope": "Owner-authorised documentation/process revision after source/CI review; no proof session executed or completed.",
@@ -3102,5 +3098,40 @@
     "priority": "Replacement-to-obstruction contract, direct square-zero contradiction, isolated tested HomComplex adapter, then connected bar/derived/metric completion.",
     "preserved": "Frozen all-real BOTH-lane C4 theorem; S173 completed/S174 partial; existing Lean source and external-action boundaries.",
     "library_api_evidence": "Inspected at Mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55; proposed C4 adapters are uncompiled."
+  },
+  "s174_checkpoint": {
+    "status": "COMPLETED",
+    "closed": "2026-11-03",
+    "record": "sessions/S174/CLOSEOUT.md",
+    "partial_record": "sessions/S174/PARTIAL.md",
+    "entry_main": "783565958c01b36f35fcb01bda3593f328f11525",
+    "pr": 215,
+    "pr_head": "17ad479114421f0af8d67a1beda1a79a4cd48aea",
+    "pr_head_tree": "cdd3545221c686895b4bf3ac9c0d4b4e45cfcfd7",
+    "pr_lean_run": 41592284384,
+    "pr_integrity_run": 41592284364,
+    "push_lean_run": 41550309962,
+    "push_integrity_run": 41550309968,
+    "merge_sha": "bc06b6011f5556a8ba36ee85167b1fa5c875bc06",
+    "merge_parents": [
+      "783565958c01b36f35fcb01bda3593f328f11525",
+      "17ad479114421f0af8d67a1beda1a79a4cd48aea"
+    ],
+    "merge_tree": "cdd3545221c686895b4bf3ac9c0d4b4e45cfcfd7",
+    "main_lean_run": 41593094820,
+    "main_integrity_run": 41593094882,
+    "superseded_draft_pr": 214,
+    "final_declaration": "C4.c4_distance_separation",
+    "canonical_instance": "C4.c4_distance_separation_canonical",
+    "axioms": "[propext, Classical.choice, Quot.sound] (hosted build log)",
+    "crosswalk": "formal/C4_LEAN_CROSSWALK.md",
+    "coefficient_ring": "C4.B = F2[t]/(t^4), the presentation of F2[C4] via t = 1 + g; RingEquiv not formalised",
+    "numerical_theorem_lean_certified_over_presentation": true,
+    "full_metric_theorem_lean_certified": false,
+    "next": "S175 FUTURE, UNEXECUTED: RingEquiv, group-algebra restatement, faithfulness audit, final certificate"
+  },
+  "owner_closeout_directive_20261103": {
+    "authority": "Owner: commit, push, merge and fast-forward, and install the next session as a push to finish the full formalisation.",
+    "effect": "S174 integrated and closed; S175 installed FUTURE, UNEXECUTED; S175 runs only on a separate owner instruction."
   }
 }

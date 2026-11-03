@@ -1,3 +1,7 @@
+## S174 — 3 November 2026 (completed)
+
+The frozen C4 separation `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 ≤ dHI(F,0) ≤ 5/2` is the single Lean declaration `C4.c4_distance_separation`, stated over the presentation `C4.B = 𝔽₂[t]/(t⁴)`. It holds for every localisation of whole real diagrams and arbitrary BOTH-lane zigzags, and its axioms are `[propext, Classical.choice, Quot.sound]`. The route was weak-data obstruction transfer through the acyclic lane, plus a seven-stage cone nullhomotopy for `dIHC`. PR #215 had exact head `17ad479`; Lean #41592284384 and integrity #41592284364 passed on it. The ordinary two-parent merge is `bc06b60`, and merged-main Lean #41593094820 and integrity #41593094882 passed. Draft #214 was superseded. Open for S175: the group-algebra `RingEquiv` and the restatement over it. S175 is FUTURE, UNEXECUTED. See `sessions/S174/{PARTIAL,CLOSEOUT}.md`.
+
 ## S169 — 30 October 2026 (pinned code checkpoint)
 
 Genuine whole-real strict 5/2 interleaving constructed, arbitrary full-real opposite-lane acyclic quasi-isomorphism criterion established, and five real cuts/square-zero extraction compiled. Pinned OptionD+C4 Lean #41046995470 and integrity #41046995461 SUCCESS at source SHA `63d1236`; PR #203, docs/merge/main-verification separately audited. NOT a strict 5/4 lower bound, derived distance, all zigzags quotient or complete theorem. S170 handoff installed.

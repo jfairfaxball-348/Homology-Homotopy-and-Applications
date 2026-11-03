@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-27",
+  "as_of": "2026-11-03",
   "claims": [
     {
       "id": "CLM-0001",
@@ -5924,6 +5924,13 @@
       "claim": "S142 constructs a genuine B-linear residue augmentation from the regular B-module to ZMod 2 with scalar action via the residue ring hom, proves it surjective, proves its kernel equals the image of the first B-linear periodic differential as actual B-submodules, and proves equal kernel/range B-submodules for all positive differentials at every n:ℕ.",
       "scope": "C4/Augmentation.lean: residueLinear, residueLinear_surjective, residueLinear_kernel, residueLinear_ker_eq_range, positiveLinear_ker_eq_range; S142 scratch SHA 472a81a53b01311f56c1d9e15e20d201fab935c3; pinned hosted lean build #40529780801 and integrity #40529781169 SUCCESS. Does NOT establish categorical ChainComplex augmentation, H₀/H_n, quotient-ring iso, global all-choice shifted dg or whole-real metric theorem.",
       "sources": []
+    },
+    {
+      "id": "CLM-0620",
+      "status": "FORMALLY_CERTIFIED",
+      "claim": "S174: for the genuine five-stage entire-real diagram realDiagram of complexes of C4.B-modules against zeroDiagram, C4.c4_distance_separation proves homologyInterleavingDistance = 1/2 (underlying F2-module homology, supremum over all degrees), derivedInterleavingDistance L = 1 for EVERY localisation L of whole real diagrams at objectwise quasi-isomorphisms, 5/4 <= homotopyInterleavingDistance <= 5/2 (strict interleavings after arbitrary whole-diagram objectwise quasi-isomorphism zigzags of BOTH lanes), and the strict inequalities 1/2 < 1 < 5/4, all as [0,infinity]-valued distances.",
+      "sources": [],
+      "scope": "C4/MainTheorem.lean (with C4/HomologyInterleavingDistance, DerivedInterleavingDistance, DerivedStageNullhomotopy, HomotopyInterleavingBound, RealLadderTransport, InterleavingObstruction). PR #215 exact head 17ad479114421f0af8d67a1beda1a79a4cd48aea: Lean #41592284384 and integrity #41592284364 SUCCESS; ordinary merge bc06b6011f5556a8ba36ee85167b1fa5c875bc06; merged-main Lean #41593094820 and integrity #41593094882 SUCCESS; axioms [propext, Classical.choice, Quot.sound]. Stated over the presentation C4.B = F2[t]/(t^4); the RingEquiv with MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4)) and the group-algebra restatement are NOT certified (S175). The manuscript section 6 field-only comparison is not certified."
     }
   ]
 }

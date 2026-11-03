@@ -1,6 +1,6 @@
 # A quantitative homotopy-interleaving gap over the cyclic-four group algebra
 
-**Internal working manuscript — updated during S174, 3 November 2026.** Lean now proves the full numerical theorem of the abstract as the single declaration `C4.c4_distance_separation` (full local pinned build; standard axioms only; hosted PR/main CI pending). The certified proofs of §4's derived vanishing and §5's lower bound follow the routes summarised in the implementation notes and §5.1; see `formal/C4_LEAN_CROSSWALK.md`. The identification \(B=k[C_4]\cong k[t]/(t^4)\) is used as the standard presentation and is not itself a Lean ring isomorphism.
+**Internal working manuscript — updated at the S174 closeout, 3 November 2026.** Lean proves the numerical theorem of the abstract as the single declaration `C4.c4_distance_separation`, stated over the presentation \(k[t]/(t^4)\). It passed hosted exact-head PR and merged-main CI (PR #215, merge `bc06b60`) and uses only the standard axioms. The certified proofs of §4's derived vanishing and §5's lower bound follow the routes summarised in the implementation notes and §5.1; see `formal/C4_LEAN_CROSSWALK.md`. The identification \(B=k[C_4]\cong k[t]/(t^4)\) is used as the standard presentation and is not yet a Lean ring isomorphism (planned for S175).
 
 ## Abstract
 
@@ -10,7 +10,7 @@ Over the group algebra \(B=\mathbb F_2[C_4]\), we give a five-stage real persist
  <d_{\mathrm{IHC}}(F,0)=1
  <\tfrac54\le d_{\mathrm{HI}}(F,0)\le\tfrac52.
 \]
-The strict homotopy-interleaving metric allows arbitrary objectwise-quasi-isomorphism zigzags of **both entire real-indexed diagrams**, including nonzero acyclic replacement diagrams for zero. The separation is detected by a fourfold defining-system obstruction whose terminal coefficient is independent of all choices. We explain the integer free-quiver and real Kan constructions for the derived upper bound, and the full real-shoelace cofibrant quotient for the strict lower bound. After forgetting the \(B\)-module structure, all three distances are \(1/2\) by a separately identified field-specific theorem. The categorical proof is currently internal and its full Lean verification is open.
+The strict homotopy-interleaving metric allows arbitrary objectwise-quasi-isomorphism zigzags of **both entire real-indexed diagrams**, including nonzero acyclic replacement diagrams for zero. The separation is detected by a fourfold defining-system obstruction whose terminal coefficient is independent of all choices. We explain the integer free-quiver and real Kan constructions for the derived upper bound, and the full real-shoelace cofibrant quotient for the strict lower bound. After forgetting the \(B\)-module structure, all three distances are \(1/2\) by a separately identified field-specific theorem. The numerical theorem is verified in Lean over the presentation \(k[t]/(t^4)\) of \(B\); the formal ring isomorphism with \(k[C_4]\) and the restatement over it are in progress.
 
 ## 1. Conventions and the exact statement
 
@@ -276,7 +276,7 @@ The current pinned Lean development certifies:
 
 9. \(d_{\mathrm{IHC}}(F,0)=1\) in every localisation of whole real diagrams at objectwise quasi-isomorphisms, and the combined declaration `C4.c4_distance_separation` of the abstract's chain of (in)equalities.
 
-These are local pinned-build certificates with axioms `[propext, Classical.choice, Quot.sound]`; hosted PR and merged-main CI are still required. The coefficient presentation \(k[C_4]\cong k[t]/(t^4)\) is documented in the crosswalk but not formalised as a ring isomorphism.
+These are pinned-build certificates with axioms `[propext, Classical.choice, Quot.sound]`. They passed hosted exact-head PR CI (Lean #41592284384) and merged-main CI (Lean #41593094820) after the ordinary merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`. The coefficient presentation \(k[C_4]\cong k[t]/(t^4)\) is documented in the crosswalk but not yet formalised as a ring isomorphism; this, and the restatement over \(k[C_4]\), are S175's work.
 
 The pinned Mathlib does not infer the unbounded projective or real-diagram model-category instances invoked by §§4–5. An explicit algebraic construction may replace that route only after proving the exact required comparison. Diagnostic input/output and the current dependency contracts are recorded in `sessions/S164` and `formal/C4_COMPLETION_REVIEW.md`.
 

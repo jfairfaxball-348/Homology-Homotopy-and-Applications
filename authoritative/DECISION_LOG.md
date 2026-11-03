@@ -693,3 +693,13 @@ The owner requested changes to the authoritative documents following a source/CI
 The current plan now prioritises the missing connection between the bar quotient/cut output and the homotopy comparison data needed by the obstruction argument. Prefer the direct strict-square-zero-to-tertiary-filler construction from manuscript (5.3)–(5.4). Test an isolated chain/cochain adapter to the existing pinned HomComplex API before more bespoke cast repairs; evaluate existing simplicial/total-complex tools without claiming they are drop-in solutions. General S167 secondary-transfer work is preserved as a fallback.
 
 Consolidate live guidance in START_HERE, STATE and C4_COMPLETION_STRATEGY; preserve prior evidence in Git/session history. Teach handoff validation to distinguish an unstarted future session from a documented active partial continuation while retaining numbering, owner-invocation, historical closeout and ordinary merge checks. No theorem weakening, new proof certification or external authority is introduced.
+
+## Owner 2026-11-03 — integrate and close S174; install S175
+
+Within the owner-authorised proof conversation, the owner asked to commit, push, merge and fast-forward, and to install the next session as a push to finish the full formalisation. PR #215 passed exact-head Lean and integrity checks. It was merged by the ordinary two-parent merge `bc06b6011f5556a8ba36ee85167b1fa5c875bc06`, and merged-main CI passed. The working branch was fast-forwarded to that merge. S174 is closed (`sessions/S174/CLOSEOUT.md`). S175 is installed FUTURE, UNEXECUTED, and its scope is set by this instruction:
+- the presentation `RingEquiv` `C4.B ≃+* 𝔽₂[C₄]`;
+- the faithful restatement over group-algebra modules;
+- a faithfulness audit and manuscript alignment;
+- the final certificate.
+
+It runs only on a separate owner instruction. The frozen theorem, the OptionD preservation and the external-action boundaries are unchanged.
