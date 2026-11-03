@@ -4,7 +4,7 @@
 
 Read `authoritative/START_HERE.md`, the live fields of `authoritative/STATE.json`, and `authoritative/NEXT_SESSION_PROMPT.md` first. The single technical dependency ledger is `formal/C4_COMPLETION_STRATEGY.md`; `docs/SESSION_PROTOCOL.md` governs evidence and integration. Historical session records and Git history describe their own checkpoints, not current execution priorities.
 
-S175 is complete. The frozen theorem over the literal group algebra is `C4.c4_distance_separation_groupAlgebra`. See `sessions/S175/CLOSEOUT.md` for the proof and hosted checks. S176 is FUTURE, UNEXECUTED and requires a separate owner instruction that sets its scope.
+S175 is complete. The frozen theorem over the literal group algebra is `C4.c4_distance_separation_groupAlgebra`. See `sessions/S175/CLOSEOUT.md` for the proof and hosted checks. S176 is FUTURE, UNEXECUTED and scoped to Palomar registration preparation. A separate owner instruction starts it.
 
 Preserve the frozen first-paper theorem over B = F₂[C₄], for the genuine five-stage real diagram F against zero:
 `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4≤dHI(F,0)≤5/2`.
@@ -12,7 +12,7 @@ The derived category is that of whole real diagrams. The homotopy metric allows 
 
 ## Current status
 
-The first-paper formalisation is complete. Preserve the certificate and matching manuscript. The owner sets the scope of any future session.
+The first-paper formalisation is complete. The next session checks Palomar’s current requirements, runs the available preflight and prepares a clean commit for the owner to upload. Preserve the certificate and matching manuscript.
 
 ## Execution and evidence
 
@@ -26,7 +26,7 @@ The first-paper formalisation is complete. Preserve the certificate and matching
 
 ## Preserved boundaries
 
-Only frozen C4 Lean and its matching manuscript are active. Preserve OptionD certificates without further OptionD development. No target search, novelty/HHA-fit/prior-art/outside-review phase, distance optimisation, Palomar registration, arXiv/HHA submission, public release, priority announcement or third-party contact without separate owner instruction. Correctness checks remain mandatory.
+The active scope is the frozen C4 theorem, its matching manuscript and the authorised Palomar preparation handoff. Preserve OptionD certificates without further OptionD development. No target search, novelty/HHA-fit/prior-art/outside-review phase, distance optimisation, Palomar registration, arXiv/HHA submission, public release, priority announcement or third-party contact without separate owner instruction. Correctness checks remain mandatory.
 
 The pinned full build and hosted checks on proof PR #217 and merged main certify `C4.c4_distance_separation_groupAlgebra`. The manuscript-to-Lean crosswalk records the declaration and its scope.
 
