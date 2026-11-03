@@ -84,3 +84,9 @@ public import C4.DerivedInterleavingDistance
 public import C4.DiagramHomotopyInvariance
 
 public import C4.DerivedStageReduction
+
+public import C4.DerivedStageResolution
+
+public import C4.DerivedStageNullhomotopy
+
+public import C4.MainTheorem
