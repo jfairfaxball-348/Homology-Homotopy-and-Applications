@@ -1,15 +1,12 @@
 # C4 current status — 3 November 2026
 
-**S174 is closed. S175 is active.** Pinned local Lean checks the full theorem over the group algebra as `C4.c4_distance_separation_groupAlgebra`. The hosted integration record is pending.
+**S175 is closed and the frozen C4 theorem is Lean-certified over the literal group algebra.** The final declaration is `C4.c4_distance_separation_groupAlgebra`. It proves `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 ≤ dHI(F,0) ≤ 5/2`, with axioms `[propext, Classical.choice, Quot.sound]`.
 
-`C4.c4_distance_separation` proves `dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 ≤ dHI(F,0) ≤ 5/2`, with axioms `[propext, Classical.choice, Quot.sound]`. Last completed session: **S174** ([closeout](../sessions/S174/CLOSEOUT.md)). Next: **S175**, which finishes the full formalisation over the literal group algebra. Crosswalk: [formal/C4_LEAN_CROSSWALK.md](../formal/C4_LEAN_CROSSWALK.md).
+The presentation is `C4.groupAlgebraEquiv` with `t ↦ 1 + g`. See the [S175 closeout](../sessions/S175/CLOSEOUT.md) and [crosswalk](../formal/C4_LEAN_CROSSWALK.md).
 
-## Verified starting point
+## Verified integration
 
-- **Main.** `bc06b6011f5556a8ba36ee85167b1fa5c875bc06` is the ordinary two-parent merge of PR #215. Its parents are `783565958c01b36f35fcb01bda3593f328f11525` and the exact head `17ad479114421f0af8d67a1beda1a79a4cd48aea`.
-- **Exact-head PR checks.** Lean #41592284384 and integrity #41592284364 both SUCCESS.
-- **Merged-main CI.** Lean #41593094820 and integrity #41593094882 both SUCCESS.
-- **Superseded draft.** PR #214 is contained in the merge, and GitHub marked it merged.
+[PR #217](https://github.com/jfairfaxball-348/Homology-Homotopy-and-Applications/pull/217) passed Lean #41596661062 and integrity #41596661058 at the exact proof head. The ordinary two-parent merge `274216e07e1bceda8c31945beb71921f342bb566` passed independent Lean #41597179634 and integrity #41597179773.
 
 | Contract | Actual position |
 |---|---|
@@ -17,15 +14,15 @@
 | C1: obstruction transfer | Certified: weak-data transfer through the acyclic opposite lane (`canonical_no_interleavingLadder`). |
 | C2: derived distance | Certified: `derivedInterleavingDistance_eq_one` in every localisation of whole real diagrams at objectwise quasi-isomorphisms. |
 | C3: arbitrary BOTH-lane zigzags | Certified: `WeakZigzag`, `WeakZigzag.hasRevLadder_iff`, `strictInterleaving_ge_five_fourths`. |
-| C4: final statement | Certified over `C4.B`: `c4_distance_separation`, plus the crosswalk. S175 adds the locally checked `groupAlgebraEquiv` and `c4_distance_separation_groupAlgebra`. |
+| C4: final statement | Certified over `C4.B`: `c4_distance_separation`, plus the crosswalk. S175 certifies the same statement over 𝔽₂[C₄] as `C4.c4_distance_separation_groupAlgebra`. |
 
 ## What to do next
 
-Verify hosted integration and close out S175. See the [active handoff](NEXT_SESSION_PROMPT.md) and [dependency ledger](../formal/C4_COMPLETION_STRATEGY.md).
+The first-paper proof is complete. [S176](NEXT_SESSION_PROMPT.md) is future and its scope requires a separate owner instruction.
 
 ## Read only the relevant records
 
-- [S174 closeout](../sessions/S174/CLOSEOUT.md) and [its partial record of evidence and limitations](../sessions/S174/PARTIAL.md).
+- [S175 closeout](../sessions/S175/CLOSEOUT.md) and [S174 presentation theorem](../sessions/S174/CLOSEOUT.md).
 - [Current working instructions](../AGENTS.md) and [execution protocol](../docs/SESSION_PROTOCOL.md).
 - [Working manuscript](../paper/C4_MANUSCRIPT.md), §§1, 4–5 and 7.
 

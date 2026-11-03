@@ -8,11 +8,11 @@ d_{\mathrm{CohI}}=\tfrac12 < d_{\mathrm{IHC}}=1 < \tfrac54\le d_{\mathrm{HI}}\le
 
 allowing arbitrary objectwise quasi-isomorphism zigzags of **both entire real-indexed diagrams**.
 
-**S174 is completed and S175 is active.** Pinned local Lean checks `C4.c4_distance_separation_groupAlgebra` and the coefficient presentation `C4.groupAlgebraEquiv`. Hosted integration and S175 closeout are pending.
+**S175 completed the Lean formalisation.** `C4.c4_distance_separation_groupAlgebra` proves the frozen separation over the literal group algebra. `C4.groupAlgebraEquiv` identifies the truncated presentation with it via `t = 1 + g`. The full local build and hosted checks passed.
 
 The group-algebra declaration uses the same genuine real diagram, all localisations and both replacement lanes. The [crosswalk](formal/C4_LEAN_CROSSWALK.md) records its correspondence with the manuscript.
 
-[Current status](authoritative/START_HERE.md) · [Current dependency ledger](formal/C4_COMPLETION_STRATEGY.md) · [Proof plan](formal/C4_FORMALIZATION_PLAN.md) · [Working manuscript](paper/C4_MANUSCRIPT.md) · [Lean crosswalk](formal/C4_LEAN_CROSSWALK.md) · [S174 closeout](sessions/S174/CLOSEOUT.md) · [S175 prompt](authoritative/NEXT_SESSION_PROMPT.md)
+[Current status](authoritative/START_HERE.md) · [Current dependency ledger](formal/C4_COMPLETION_STRATEGY.md) · [Proof plan](formal/C4_FORMALIZATION_PLAN.md) · [Working manuscript](paper/C4_MANUSCRIPT.md) · [Lean crosswalk](formal/C4_LEAN_CROSSWALK.md) · [S175 closeout](sessions/S175/CLOSEOUT.md) · [S176 handoff](authoritative/NEXT_SESSION_PROMPT.md)
 
 Continuous owner authorisation applies within active work; routine checkpoints must not become one-lemma permission loops.
 
