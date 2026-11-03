@@ -1,26 +1,22 @@
-# S176 — Palomar register preparation (IN PROGRESS, PARTIAL)
+# S177 — Palomar review follow-up (FUTURE, UNEXECUTED)
 
-The owner has set the scope. A separate owner instruction such as “Run next session” starts S176. Installing or reading this handoff leaves S175 as the last completed session. The deliverable is a clean Git commit for the owner to upload and submit to Palomar. The owner handles Palomar intake, authentication and the registration decision.
+The owner sets the scope. A separate owner instruction such as "Run next session" starts S177. Installing or reading this handoff executes nothing, and S176 remains the last completed session. The S176 candidate commit for Palomar is `f35677b710df2de38b2ef237b40ca4ad7ff7298b` (see `sessions/S176/CLOSEOUT.md`). The owner uploads and submits it and handles Palomar intake, authentication, review and the registration decision.
 
-## Pin the certified result
+## Scope
 
-Pin live `main` and its tree, inspect competing work and reconcile the S175 closeout, crosswalk, manuscript §§1–2 and 7, and pinned toolchain and Mathlib manifest. Use `C4.c4_distance_separation_groupAlgebra` as the primary result. It concerns the genuine five-stage entire-real diagram over the literal group algebra 𝔽₂[C₄] against zero and proves
-`dCohI(F,0)=1/2 < dIHC(F,0)=1 < 5/4 ≤ dHI(F,0) ≤ 5/2`.
-Keep the underlying-field homology distance, every localisation of whole real diagrams and arbitrary objectwise quasi-isomorphism zigzags of both lanes, including nonzero acyclic replacements of zero. Match the certified theorem and the definitions it uses. Manuscript §6’s separate field-only comparison is outside this package.
+Act only on Palomar findings or package changes that the owner supplies. Examples are a mechanical verification report, an editorial review, or an instruction to change the metadata. For each item:
 
-## Check Palomar’s current requirements
+1. **Locate it.** Find the affected text in `Challenge.lean`, `Solution.lean`, `C4/Palomar/`, `comparator.json`, `formalization.yaml` or the README.
+2. **Fix it.** Keep the certified theorem `C4.c4_distance_separation_groupAlgebra` and the meaning of `C4Separation.distance_separation`. Do not weaken a quantifier, the coefficient ring, the localisations or the both-lane zigzags. Mirror every Challenge change in `C4/Palomar/Statement.lean`. Change human-authored metadata facts only as the owner states them: authors, the AI disclosure and the review status.
+3. **Re-check.** Rerun the full pinned `lake build`, `python3 scripts/check-lean-sources.py`, `python3 scripts/check_palomar_statement.py`, `ruby scripts/validate-formalization.rb`, licensee detection and `./scripts/verify-comparator.sh`. Also run the repository validators.
+4. **Report.** Give the new full 40-character candidate SHA and the evidence. Distinguish Lean build, Comparator and anything not run.
 
-Read the [official submission guide](https://palomar-registry.org/how-to-submit), [policy and schemas](https://github.com/PalomarRegistry/PalomarPolicy) and [starter and verification scripts](https://github.com/PalomarRegistry/PalomarTemplate). Follow the linked mechanical requirements and metadata schema. Record the policy and template revisions used. Check the Lean release, the exact Mathlib pin against the statement dependency allowlist, the module and file limits, and the required project files and paths. Check whether the exact result already has a registry record before classifying the submission as new or a revision. Use a previous ID only with a verified match. Resolve any remaining record or authorisation ambiguity with the owner.
+If the owner supplies nothing, record that no Palomar item is outstanding and stop.
 
-Check the root licence and the matching metadata for the proposed snapshot. If the licence is absent or the rights and terms are unclear, complete the independent preparation and report the exact decision or evidence the owner must supply. Apply licence terms only when authorised for the relevant material.
+## Integration
 
-## Prepare and verify the candidate
+Use a branch and review the diff. Require passing exact-head PR checks, including the Palomar statement package workflow. Integrate with an ordinary two-parent merge and confirm independent merged-main CI. Report the SHA actually checked for submission rather than substituting a merge SHA.
 
-1. Build a compact, independently auditable `Challenge.lean` with the statement-side imports Palomar allows. Connect matching declarations in `Solution.lean` to the existing proof. Configure Comparator to check the theorem and any statement definitions required for faithful comparison. Audit the concrete diagram, coefficient ring, distances and quantifiers against the S175 source and manuscript. Keep any Challenge-only proof placeholders isolated from the certified Solution and its axiom closure. If the package layout would otherwise collide with repository proof checks, preserve those checks and isolate the statement module explicitly.
-2. Prepare `comparator.json`, `formalization.yaml` and the applicable pinned Lake files and licence material. Use the current schema and truthful authorship, provenance, AI assistance, human review, classifications and fidelity disclosures. Declare any thin-wrapper dependency at its immutable source commit. Preserve the existing proof, avoid unrelated theorem work, and run the pinned repository build and integrity checks on any repository changes.
-3. Run the official local preparation or preflight checks available for the selected layout, including metadata validation, module and size scans, import-closure checks, a clean pinned Lake build and `lake comparator` with the independent kernels required by the current policy. Record commands, versions, exact SHA or tree, and each outcome. If the sandbox or an unavailable prerequisite blocks a check, use an authorised hosted equivalent when available without dispatching a Palomar submission. Otherwise record the precise blocker and the command the owner can rerun. Distinguish a successful Lean build, a successful Comparator run and any unrun check. Keep Palomar’s intake and editorial review separate from local verification.
-4. Review the complete diff, exclude generated outputs and credentials, commit the intended files, and confirm a clean checkout and reproducibility for the exact candidate. Return the full 40-character SHA, a retrievable branch or Git bundle so the owner can actually push that exact commit, and the exact public-repository, project, Comparator and metadata values to enter after the owner pushes it. Report the remaining blockers before describing a candidate as ready. Record any separately authorised repository integration through exact-head checks, an ordinary two-parent merge and independent merged-main CI. Give the SHA actually checked for submission rather than silently substituting a merge SHA.
+## Boundaries
 
-## Closeout
-
-Record the candidate and verification evidence in the S176 session record. If a material blocker remains, preserve an active S176 continuation under the session protocol. Once preparation is complete, close S176 and leave any further numbered session future. Keep Palomar submission and registration status factual. Do not dispatch Palomar verification or review, authenticate on the owner’s behalf, create a Palomar submission tag or gist, submit to arXiv or HHA, or contact third parties. The owner will upload and submit the prepared commit.
+Do not submit to Palomar, authenticate on the owner's behalf, create Palomar tags or gists, or register. Do not submit to arXiv or HHA, publish, announce priority or contact third parties. No novelty, prior-art or outside-review phase without a separate owner instruction. Preserve the OptionD certificates and the matching manuscript. Close S177 under `docs/SESSION_PROTOCOL.md` and leave any further session future.
