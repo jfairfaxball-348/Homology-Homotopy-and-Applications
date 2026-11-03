@@ -1,6 +1,6 @@
 name = "HomologyHomotopyApplications"
 version = "0.1.0"
-defaultTargets = ["OptionD", "C4"]
+defaultTargets = ["OptionD", "C4", "Solution"]
 
 [[require]]
 name = "mathlib"
@@ -12,3 +12,11 @@ name = "OptionD"
 
 [[lean_lib]]
 name = "C4"
+
+[[lean_lib]]
+name = "Challenge"
+roots = ["Challenge"]
+
+[[lean_lib]]
+name = "Solution"
+roots = ["Solution"]

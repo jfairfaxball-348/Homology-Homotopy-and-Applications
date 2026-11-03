@@ -18,7 +18,7 @@ The presentation is `C4.groupAlgebraEquiv` with `t ↦ 1 + g`. See the [S175 clo
 
 ## What to do next
 
-The first-paper proof is complete. [S176 — Palomar register preparation](NEXT_SESSION_PROMPT.md) starts on a separate owner instruction. It checks the requirements, runs the available preflight and prepares a clean commit for the owner to upload.
+The first-paper proof is complete. [S176 — Palomar register preparation](NEXT_SESSION_PROMPT.md) is in progress; see its [partial record](../sessions/S176/PARTIAL.md). The Apache-2.0 Palomar package passes the local `lake comparator` (Lean kernel, NanoDa and con-ron). Its exact-head and merged-main CI are pending. The owner uploads and submits the prepared commit.
 
 ## Read only the relevant records
 

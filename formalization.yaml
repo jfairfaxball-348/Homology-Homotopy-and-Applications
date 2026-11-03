@@ -1,0 +1,148 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "A quantitative homotopy-interleaving gap over the cyclic-four group algebra"
+  description: >-
+    Over the group algebra F2[C4] of the cyclic group of order four in characteristic two, we
+    give an explicit five-stage real-indexed persistence diagram F of unbounded chain complexes.
+    Its stages are shifts of the periodic free resolution of the trivial module, on half-open
+    intervals [i, i+1), with zero diagram before time 0 and from time 5 on. We compare three
+    distances from F to the zero diagram: the homology interleaving distance (supremum over all
+    degrees of the interleaving distances of the F2-homology persistence modules); the
+    interleaving distance in an arbitrary localisation of the category of whole real diagrams at
+    the objectwise quasi-isomorphisms (the derived category of real diagrams); and the strict
+    homotopy-interleaving distance, which allows arbitrary finite zigzags of objectwise
+    quasi-isomorphisms of both entire diagrams, including nonzero acyclic replacements of zero.
+    The Lean development proves d_CohI(F,0) = 1/2 < d_IHC(F,0) = 1 < 5/4 <= d_HI(F,0) <= 5/2. So
+    the three distances are quantitatively separated by a single explicit example. The lower bound
+    for the strict metric comes from a fourfold defining-system obstruction for the resolution. The
+    derived upper bound comes from a natural nullhomotopy of the two-unit shift. The upper bound
+    5/2 for the strict metric is witnessed directly, because every five-unit shift of F vanishes.
+  authors:
+    - "John Fairfax-Ball"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "John Fairfax-Ball"
+
+classification:
+  arxiv: ["math.AT", "math.CT"]
+  msc2020: ["55N31", "18G80", "55U35", "20J06", "55U15"]
+
+sources:
+  - title: >-
+      Separation d_CohI(F,0) = 1/2 < d_IHC(F,0) = 1 < 5/4 <= d_HI(F,0) <= 5/2 for an explicit
+      five-stage real diagram of complexes over F2[C4], first presented in this repository
+      (Lean development and the working manuscript paper/C4_MANUSCRIPT.md)
+    type: original-proof
+    relationship: other
+    note: >-
+      The result, its manuscript and its Lean proof were developed together in this repository.
+      The manuscript is an unpublished internal working draft. No literature search for novelty
+      has been carried out, so novelty is unknown and is not claimed.
+  - title: "Universality of the homotopy interleaving distance"
+    authors:
+      - "Andrew J. Blumberg"
+      - "Michael Lesnick"
+    id: "doi:10.1090/tran/8738"
+    type: paper
+    location: "Transactions of the American Mathematical Society 376 (2023); arXiv:1705.01690"
+    relationship: background
+    note: >-
+      Standard source for the homotopy interleaving distance of real diagrams up to objectwise
+      weak equivalence. The Lean definition here is the strict-interleaving form after arbitrary
+      zigzags of objectwise quasi-isomorphisms of both diagrams.
+    author_endorsement: not-contacted
+  - title: "The equalities of interleaving distances and cohomology interleavings of spaces over BS^1"
+    authors:
+      - "Katsuhiko Kuribayashi"
+      - "Takahito Naito"
+      - "Shun Wakatsuki"
+      - "Toshihiro Yamaguchi"
+    id: "doi:10.1007/s41468-026-00252-0"
+    type: paper
+    location: "Journal of Applied and Computational Topology 10 (2026), article 26"
+    relationship: background
+    note: >-
+      Context for comparing homology, derived and homotopy interleaving distances. Its
+      field-coefficient equality motivates looking for a separation over a non-semisimple
+      coefficient ring. That field-only comparison (manuscript section 6) is not part of this
+      formalisation.
+    author_endorsement: not-contacted
+
+related_formalizations: []
+
+status:
+  scope: >-
+    Formalised, for the literal group algebra MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4)):
+    the five-stage diagram F over the whole real line; the homology interleaving distance over
+    all integer degrees; the derived interleaving distance in every localisation of real
+    diagrams at objectwise quasi-isomorphisms; the strict homotopy-interleaving distance after
+    arbitrary zigzags of both diagrams; and the full chain of (in)equalities.
+    Not formalised or not claimed:
+    - The exact value of d_HI(F,0); only the bounds 5/4 <= d_HI <= 5/2 are proved.
+    - The separate field-only comparison in manuscript section 6.
+    - Any statement about other diagrams, coefficient rings or model structures.
+    The two theorems C4Separation.stageD_comp_stageD and C4Separation.xComp_comm are
+    well-formedness facts: d squares to zero, and the stage maps are chain maps. They are listed
+    in comparator.json so that Comparator checks their statements rather than requiring
+    identical proof terms across modules.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+
+automation:
+  methods:
+    - method: agent
+      models: ["Claude (Anthropic)", "ChatGPT (OpenAI)"]
+      framework: "Claude Code; ChatGPT"
+      tool_setup: >-
+        AI agents carried out the research sessions, the manuscript drafting and the Lean
+        development, under the owner's direction and session prompts. Checking used the pinned
+        Lean v4.35.0-rc2 compiler, Mathlib, GitHub Actions and the toolchain's lake comparator.
+        Repository records name Claude Code as the author of the final Lean proof sessions.
+        They reference a ChatGPT end-of-session handoff for earlier sessions. A complete
+        per-session record of which AI system and model was used is not kept in the repository.
+      cost:
+        wall_time: "About 176 numbered working sessions, October-November 2026"
+        spend_usd: "not tracked"
+        hardware: "cloud agent sessions and GitHub-hosted CI runners"
+      prompting_notes: >-
+        Owner-written session prompts and handoffs; see authoritative/NEXT_SESSION_PROMPT.md and
+        the sessions/ directory for the recorded history.
+  spend_usd: "not tracked"
+  notes: >-
+    The mathematics and the Lean proof were produced by AI agents in numbered sessions directed
+    by the owner, who set targets and scope. Every Lean claim was checked by the Lean kernel,
+    in local pinned builds and in GitHub Actions on exact pull-request heads and on merged main.
+    The Palomar statement was checked against the solution with lake comparator.
+
+fidelity:
+  divergences: >-
+    The manuscript uses right modules over B = F2[C4]. Lean uses left modules (ModuleCat), which
+    is equivalent because the ring is commutative. The manuscript presents B as F2[t]/(t^4) with
+    t = 1 + g. The Challenge uses the literal group algebra, and the certified proof transfers
+    along the ring isomorphism C4.groupAlgebraEquiv. In the Challenge, each stage P[s] is defined
+    directly: F2[C4] in degrees n >= s and zero below, with the same differentials and stage
+    maps as the manuscript. Distances are valued in [0, infinity], and the infimum of an empty
+    parameter set is infinity. No other divergence is known.
+
+review:
+  status: "agent-reviewed"
+  reviewers:
+    - "none"
+  notes: >-
+    The statement, definitions and quantifiers were audited by AI agents against the manuscript
+    and recorded in formal/C4_LEAN_CROSSWALK.md. Lean kernel checking, independent kernel replay
+    through lake comparator and CI are the machine evidence. No independent human expert review
+    of the mathematics is recorded.
+
+alignment:
+  namespace: "C4Separation"
+  statements:
+    - source: "paper/C4_MANUSCRIPT.md, section 1, Theorem"
+      lean: "C4Separation.distance_separation"
+    - source: "paper/C4_MANUSCRIPT.md, section 2 (d^2 = 0 for the periodic resolution)"
+      lean: "C4Separation.stageD_comp_stageD"
+    - source: "paper/C4_MANUSCRIPT.md, section 2 (the stage maps are chain maps)"
+      lean: "C4Separation.xComp_comm"

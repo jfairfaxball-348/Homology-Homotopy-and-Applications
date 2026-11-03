@@ -26,6 +26,25 @@ The final theorem over the literal group algebra is **`C4.c4_distance_separation
 | Upper bound \(d_{\mathrm{HI}}\le5/2\) | `homotopyInterleavingDistance_le_five_halves`, `realDiagram_strictInterleavingZero_fiveHalves` | Literal vanishing of the five-unit shift. |
 | §6 field-only comparison | — | Not part of the frozen numerical theorem; not formalised. |
 
+## Palomar statement (S176)
+
+`Challenge.lean` restates the theorem using Mathlib only, in the namespace `C4Separation`. `Solution.lean` proves it from `C4.c4_distance_separation_groupAlgebra` through `C4/Palomar/Bridge.lean`. Comparator accepted the Solution, with the Lean kernel, NanoDa and con-ron. The S176 session record gives the exact commands and runs.
+
+| Statement declaration | Library counterpart | Bridge |
+|---|---|---|
+| `kC4`, `g`, `t = 1 + g` | `C4.GroupAlgebra`, `C4.groupGenerator`, `groupAlgebraEquiv C4.t` | Definitional equality; `e_t`, `e_t2`, `e_t3` |
+| `X s`, i.e. `P[s]` (`stageObj`, `stageD`) | `C4.integerShiftResolution s`, transported by restriction of scalars | `shiftIso` (degreewise `objIso`, `d_square`) |
+| `xMap s` (`xComp`) | `C4.globalXChainMap s`, `C4.canonicalX12/23/34 0` | `xMap_square`, `stagesIso` |
+| `F` (`stages`, `realStage`) | `C4.groupAlgebraDiagram` | `diagramIso` |
+| `zeroDiagram` | `C4.groupAlgebraZeroDiagram` | `zeroDiagramIso` |
+| `Interleaving`, `interleavingDistance` | `C4.PersistenceInterleaving`, `C4.StrictRealInterleaving` | Fieldwise conversion |
+| `homologyDistance` | `C4.homologyInterleavingDistanceOver C4.groupAlgebraScalar` | `homologyDistance_eq`, `homology_congr` |
+| `derivedDistance L` | `C4.derivedInterleavingDistance L` | `derivedDistance_eq`, `derived_congr` |
+| `homotopyDistance` | `C4.homotopyInterleavingDistance` | `homotopyDistance_eq`, `homotopy_congr` |
+| `distance_separation` | `C4.c4_distance_separation_groupAlgebra` | `C4Separation.Bridge.separation` |
+
+The statement defines each stage `P[s]` directly: `𝔽₂[C₄]` in degrees `n ≥ s` and zero below. Its differential `P[s]_{n+1} ⟶ P[s]_n` is multiplication by `t` or `t³` according to the parity of `n − s`. The stage map in degree `n` is multiplication by `1` or `t²` according to the parity of `n − s − 1`. These are the manuscript's `P[i]` and `x`. `d² = 0` and the chain-map identity are proved inside the Challenge, as `stageD_comp_stageD` and `xComp_comm`.
+
 ## Definition audit
 
 - The manuscript uses right modules. Lean's `ModuleCat` uses left modules. Both coefficient rings are commutative, so the right action (m b) gives the left action (b m := m b).

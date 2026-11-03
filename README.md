@@ -16,6 +16,37 @@ The group-algebra declaration uses the same genuine real diagram, all localisati
 
 Continuous owner authorisation applies within active work; routine checkpoints must not become one-lemma permission loops.
 
+## Palomar statement package
+
+The repository root is a Lean project laid out for the [Palomar](https://palomar-registry.org/) registry. Submission and registration are the owner's decisions.
+
+- [`Challenge.lean`](Challenge.lean) is the statement a reader audits. It imports only Mathlib and defines everything the theorem uses:
+  - the group algebra `kC4 = MonoidAlgebra (ZMod 2) (Multiplicative (ZMod 4))` and `t = 1 + g`;
+  - the stages `P[s]` of the periodic free resolution, `X s`, with stage maps `xMap s`;
+  - the five-stage diagram `F` and the zero diagram;
+  - the three distances `homologyDistance`, `derivedDistance L` and `homotopyDistance`.
+- [`Solution.lean`](Solution.lean) proves the same declarations from the certified library. [`C4/Palomar/Statement.lean`](C4/Palomar/Statement.lean) is a verbatim copy of the Challenge definitions, and `scripts/check_palomar_statement.py` enforces this. [`C4/Palomar/Bridge.lean`](C4/Palomar/Bridge.lean) proves that the statement diagram is isomorphic to `C4.groupAlgebraDiagram`. It also proves that each statement distance equals the library distance and is invariant under isomorphism. It then transfers `C4.c4_distance_separation_groupAlgebra`.
+- [`comparator.json`](comparator.json) lists three theorems. Their printed axioms are `[propext, Classical.choice, Quot.sound]`.
+  - `C4Separation.distance_separation`: for the diagram `F` and the zero diagram, `d_CohI = 1/2 < d_IHC = 1 < 5/4 ≤ d_HI ≤ 5/2`. Here `d_IHC = 1` holds in every localisation of whole real diagrams at the objectwise quasi-isomorphisms. `d_HI` allows arbitrary objectwise quasi-isomorphism zigzags of both diagrams.
+  - `C4Separation.stageD_comp_stageD`: the differentials of each `P[s]` square to zero.
+  - `C4Separation.xComp_comm`: the stage maps commute with the differentials.
+
+  The two well-formedness lemmas are proved inside the Challenge. They are listed so that Comparator compares their statements; proof terms produced by tactics in a different module need not be identical.
+- [`formalization.yaml`](formalization.yaml) gives provenance, scope, classification, authorship, the AI-assistance disclosure and the review status. AI agents produced the mathematics and the Lean development under the owner's direction. No independent human expert review is recorded. Novelty has not been assessed.
+
+The Palomar checks, run from the repository root, need Linux, Ruby, Python 3 and `bwrap`. The three Palomar scripts are copied from `PalomarRegistry/PalomarTemplate` at `2891de4c48955af824969a263d31b25e7a9a1406`.
+
+```sh
+python3 scripts/check-lean-sources.py
+python3 scripts/check_palomar_statement.py
+ruby scripts/validate-formalization.rb
+./scripts/verify-comparator.sh
+```
+
+## Licence
+
+This repository snapshot is licensed under the [Apache License 2.0](LICENSE). Cited papers and Lean dependencies keep their own licences.
+
 ## Build
 
 Lean `v4.35.0-rc2`; Mathlib `065356127b1dc0016f66b7283ce0ce2c4055aa55`, pinned by the committed manifest.
